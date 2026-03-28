@@ -18,15 +18,12 @@ const BENCHMARK_OPTIONS: { key: string; label: string; maxScore: number }[] = [
   { key: 'mt_bench', label: 'MT-Bench \u2014 Conversation', maxScore: 10 },
 ]
 
-const TABLE_VISIBLE = 6
-
 export default function AIRacePage() {
   const [data, setData] = useState<ModelsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [selectedBenchmark, setSelectedBenchmark] = useState('mmlu')
   const [filter, setFilter] = useState<FilterCategory>('all')
   const [sortBy, setSortBy] = useState<SortBy>('performance')
-  const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
     fetch('/data/models.json')
@@ -97,14 +94,11 @@ export default function AIRacePage() {
 
   const selectedBM = BENCHMARK_OPTIONS.find((b) => b.key === selectedBenchmark)!
 
-  const visibleRows = showAll ? sorted : sorted.slice(0, TABLE_VISIBLE)
-  const hiddenCount = sorted.length - TABLE_VISIBLE
-
   function renderTableRow(m: AIModel) {
     const color = PROVIDER_COLORS[m.provider] || '#71717a'
     return (
       <tr key={m.id} className="border-b border-border/50 hover:bg-surface-2 transition-colors">
-        <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10 min-w-[160px]">
+        <td className="p-3 text-text-primary font-medium min-w-[160px]">
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
             <span className="truncate">{m.name}</span>
@@ -257,39 +251,37 @@ export default function AIRacePage() {
         ))}
       </div>
 
-      {/* Comparison Table */}
-      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-x-auto">
-        <table className="w-full text-[12px] font-mono">
-          <thead>
-            <tr className="border-b border-border">
-              <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
-              <th className="text-right p-3 text-text-muted font-medium">Provider</th>
-              <th className="text-right p-3 text-text-muted font-medium">In $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Out $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Ctx</th>
-              <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
-              <th className="text-right p-3 text-text-muted font-medium">HEval</th>
-              <th className="text-right p-3 text-text-muted font-medium">MATH</th>
-              <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
-              <th className="text-right p-3 text-text-muted font-medium">Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            {visibleRows.map(renderTableRow)}
-          </tbody>
-        </table>
-
-        {/* Show more / less toggle */}
-        {hiddenCount > 0 && (
-          <button
-            onClick={() => setShowAll(!showAll)}
-            className="w-full py-2.5 border-t border-border text-[11px] font-mono text-text-muted hover:text-accent-cyan hover:bg-surface-2 transition-all"
-          >
-            {showAll
-              ? '\u2191 Show less'
-              : `\u2193 Show ${hiddenCount} more models`}
-          </button>
-        )}
+      {/* Comparison Table - fixed height, scroll for more */}
+      <div className="mt-10 rounded-lg border border-border bg-surface-1">
+        {/* Sticky header */}
+        <div className="overflow-x-auto">
+          <table className="w-full text-[12px] font-mono">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left p-3 text-text-muted font-medium">Model</th>
+                <th className="text-right p-3 text-text-muted font-medium">Provider</th>
+                <th className="text-right p-3 text-text-muted font-medium">In $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Out $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Ctx</th>
+                <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
+                <th className="text-right p-3 text-text-muted font-medium">HEval</th>
+                <th className="text-right p-3 text-text-muted font-medium">MATH</th>
+                <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
+                <th className="text-right p-3 text-text-muted font-medium">Value</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        {/* Scrollable body - 5 rows visible (~210px), rest on scroll */}
+        <div className="overflow-x-auto">
+          <div className="max-h-[210px] overflow-y-auto">
+            <table className="w-full text-[12px] font-mono">
+              <tbody>
+                {sorted.map(renderTableRow)}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   )
