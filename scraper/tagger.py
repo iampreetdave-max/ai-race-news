@@ -31,7 +31,7 @@ class Tagger:
             patterns = []
             for keyword in keywords:
                 escaped = re.escape(keyword)
-                pattern = re.compile(rf"\b{escaped}\b", re.IGNORECASE)
+                pattern = re.compile(rf"\b{escaped}", re.IGNORECASE)
                 patterns.append(pattern)
             self.tag_patterns[tag] = patterns
 
@@ -90,8 +90,6 @@ class Tagger:
         # Check text for audience-specific keywords
         text_lower = text.lower()
         for audience, keywords in self.audience_keywords.items():
-            if audience in audiences:
-                continue
             for keyword in keywords:
                 if keyword.lower() in text_lower:
                     audiences.add(audience)
