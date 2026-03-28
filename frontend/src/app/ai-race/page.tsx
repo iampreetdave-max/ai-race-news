@@ -1,62 +1,280 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+import { AIModel, ModelsData, PROVIDER_COLORS, getValueScore, BENCHMARK_KEYS } from '@/lib/models'
+import BenchmarkChart from '@/components/BenchmarkChart'
+import CostChart from '@/components/CostChart'
+import ModelCard from '@/components/ModelCard'
+
+type FilterCategory = 'all' | 'flagship' | 'mid-tier' | 'budget' | 'reasoning' | 'open-source'
+type SortBy = 'performance' | 'cost' | 'value' | 'context'
+
+const BENCHMARK_OPTIONS: { key: string; label: string; maxScore: number }[] = [
+  { key: 'mmlu', label: 'MMLU — Knowledge', maxScore: 100 },
+  { key: 'humaneval', label: 'HumanEval — Code', maxScore: 100 },
+  { key: 'math', label: 'MATH — Mathematics', maxScore: 100 },
+  { key: 'gpqa', label: 'GPQA — PhD Science', maxScore: 100 },
+  { key: 'arc_challenge', label: 'ARC-C — Reasoning', maxScore: 100 },
+  { key: 'mt_bench', label: 'MT-Bench — Conversation', maxScore: 10 },
+]
+
 export default function AIRacePage() {
+  const [data, setData] = useState<ModelsData | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [selectedBenchmark, setSelectedBenchmark] = useState('mmlu')
+  const [filter, setFilter] = useState<FilterCategory>('all')
+  const [sortBy, setSortBy] = useState<SortBy>('performance')
+
+  useEffect(() => {
+    fetch('/data/models.json')
+      .then((r) => r.json())
+      .then((d) => { setData(d); setLoading(false) })
+      .catch(() => setLoading(false))
+  }, [])
+
+  if (loading) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
+        <div className="animate-pulse space-y-6">
+          <div className="h-8 w-48 bg-surface-3 rounded" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="h-[400px] bg-surface-2 rounded-lg" />
+            <div className="h-[400px] bg-surface-2 rounded-lg" />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  if (!data) return null
+
+  const models = data.models
+  const benchmarkMeta = data.benchmarks
+
+  // Filter models
+  const filtered = filter === 'all'
+    ? models
+    : models.filter((m) => m.category === filter)
+
+  // Sort models
+  const sorted = [...filtered].sort((a, b) => {
+    switch (sortBy) {
+      case 'performance': {
+        const avgA = (a.benchmarks.mmlu + a.benchmarks.humaneval + a.benchmarks.math + a.benchmarks.gpqa) / 4
+        const avgB = (b.benchmarks.mmlu + b.benchmarks.humaneval + b.benchmarks.math + b.benchmarks.gpqa) / 4
+        return avgB - avgA
+      }
+      case 'cost':
+        return (a.pricing.input + a.pricing.output) - (b.pricing.input + b.pricing.output)
+      case 'value':
+        return getValueScore(b) - getValueScore(a)
+      case 'context':
+        return b.context_window - a.context_window
+      default:
+        return 0
+    }
+  })
+
+  // Top picks
+  const bestOverall = [...models].sort((a, b) => {
+    const avgA = (a.benchmarks.mmlu + a.benchmarks.humaneval + a.benchmarks.math + a.benchmarks.gpqa) / 4
+    const avgB = (b.benchmarks.mmlu + b.benchmarks.humaneval + b.benchmarks.math + b.benchmarks.gpqa) / 4
+    return avgB - avgA
+  })[0]
+
+  const bestValue = [...models].sort((a, b) => getValueScore(b) - getValueScore(a))[0]
+
+  const cheapest = [...models].sort(
+    (a, b) => (a.pricing.input + a.pricing.output) - (b.pricing.input + b.pricing.output)
+  )[0]
+
+  const bestOSS = [...models]
+    .filter((m) => m.open_source)
+    .sort((a, b) => {
+      const avgA = (a.benchmarks.mmlu + a.benchmarks.humaneval + a.benchmarks.math) / 3
+      const avgB = (b.benchmarks.mmlu + b.benchmarks.humaneval + b.benchmarks.math) / 3
+      return avgB - avgA
+    })[0]
+
+  const selectedBM = BENCHMARK_OPTIONS.find((b) => b.key === selectedBenchmark)!
+
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16 sm:py-24">
-      <div className="text-center max-w-lg mx-auto">
-        {/* Icon */}
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-surface-2 border border-border mb-6">
-          <svg
-            className="w-8 h-8 text-accent-cyan"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
-            />
-          </svg>
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+      {/* Header */}
+      <div className="mb-8">
+        <div className="flex items-center gap-3 mb-2">
+          <span className="font-mono text-lg text-accent-cyan">{'<>'}</span>
+          <h1 className="font-display text-xl sm:text-2xl font-bold tracking-tight">
+            AI Race
+          </h1>
         </div>
-
-        <h1 className="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-3">
-          AI Race
-        </h1>
-
-        <p className="text-sm text-text-secondary leading-relaxed mb-6">
-          Side-by-side comparison of AI models across cost, performance,
-          benchmarks, and real-world value. Track who&apos;s winning.
+        <p className="text-sm text-text-muted max-w-xl">
+          Side-by-side comparison of {models.length} AI models across cost, performance, and value.
+          Updated {data.last_updated}.
         </p>
+      </div>
 
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border bg-surface-1">
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-amber opacity-75" />
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-amber" />
-          </span>
-          <span className="text-sm font-mono text-text-muted">
-            Coming soon
-          </span>
+      {/* Top Picks */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-8">
+        {[
+          { label: 'Best Overall', model: bestOverall, color: '#f59e0b' },
+          { label: 'Best Value', model: bestValue, color: '#06d6a0' },
+          { label: 'Cheapest', model: cheapest, color: '#3b82f6' },
+          { label: 'Best Open Source', model: bestOSS, color: '#ef4444' },
+        ].map((pick) => (
+          <div
+            key={pick.label}
+            className="rounded-lg border border-border bg-surface-1 p-3 sm:p-4"
+          >
+            <p className="text-[10px] font-mono uppercase tracking-wider mb-1"
+               style={{ color: pick.color }}>
+              {pick.label}
+            </p>
+            <p className="font-display text-sm font-bold text-text-primary truncate">
+              {pick.model.name}
+            </p>
+            <p className="text-[11px] text-text-muted mt-0.5">
+              {pick.model.provider} · ${(pick.model.pricing.input + pick.model.pricing.output).toFixed(2)}/1M
+            </p>
+          </div>
+        ))}
+      </div>
+
+      {/* Benchmark Charts */}
+      <div className="mb-8">
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {BENCHMARK_OPTIONS.map((bm) => (
+            <button
+              key={bm.key}
+              onClick={() => setSelectedBenchmark(bm.key)}
+              className={`tag-pill transition-all ${
+                selectedBenchmark === bm.key
+                  ? 'bg-accent-cyan/10 text-accent-cyan'
+                  : 'tag-default hover:text-text-primary'
+              }`}
+            >
+              {bm.key === 'arc_challenge' ? 'ARC-C' : bm.key === 'mt_bench' ? 'MT-Bench' : bm.key.toUpperCase()}
+            </button>
+          ))}
         </div>
 
-        {/* Preview grid */}
-        <div className="mt-12 grid grid-cols-3 gap-3">
-          {[
-            { label: 'Performance', value: 'MMLU, HumanEval, MATH' },
-            { label: 'Cost', value: '$/1M tokens comparison' },
-            { label: 'Best Value', value: 'Performance per dollar' },
-          ].map((item) => (
-            <div
-              key={item.label}
-              className="rounded-lg border border-border border-dashed bg-surface-1/50 p-4 text-left"
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <BenchmarkChart
+            models={models}
+            benchmarkKey={selectedBenchmark}
+            title={selectedBM.label}
+            maxScore={selectedBM.maxScore}
+          />
+          <CostChart models={models} />
+        </div>
+      </div>
+
+      {/* Provider Legend */}
+      <div className="flex flex-wrap gap-3 mb-6 px-1">
+        {Object.entries(PROVIDER_COLORS).map(([provider, color]) => (
+          <span key={provider} className="flex items-center gap-1.5 text-[11px] font-mono text-text-muted">
+            <span className="w-2.5 h-2.5 rounded-sm" style={{ backgroundColor: color }} />
+            {provider}
+          </span>
+        ))}
+      </div>
+
+      {/* Filters + Sort */}
+      <div className="flex flex-wrap items-center gap-4 mb-5">
+        <div className="flex flex-wrap gap-1.5">
+          {(['all', 'flagship', 'mid-tier', 'budget', 'reasoning', 'open-source'] as FilterCategory[]).map((f) => (
+            <button
+              key={f}
+              onClick={() => setFilter(f)}
+              className={`tag-pill transition-all ${
+                filter === f
+                  ? 'bg-text-primary/10 text-text-primary'
+                  : 'tag-default hover:text-text-primary'
+              }`}
             >
-              <p className="font-mono text-[11px] text-accent-cyan uppercase tracking-wider mb-1">
-                {item.label}
-              </p>
-              <p className="text-[12px] text-text-muted">{item.value}</p>
-            </div>
+              {f}
+            </button>
+          ))}
+        </div>
+        <div className="flex items-center gap-2 ml-auto">
+          <span className="text-[11px] font-mono text-text-muted">Sort:</span>
+          {(['performance', 'value', 'cost', 'context'] as SortBy[]).map((s) => (
+            <button
+              key={s}
+              onClick={() => setSortBy(s)}
+              className={`text-[11px] font-mono px-2 py-0.5 rounded transition-all ${
+                sortBy === s
+                  ? 'text-accent-cyan bg-accent-cyan/10'
+                  : 'text-text-muted hover:text-text-primary'
+              }`}
+            >
+              {s}
+            </button>
           ))}
         </div>
       </div>
-    </section>
+
+      {/* Model Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {sorted.map((model, i) => (
+          <div
+            key={model.id}
+            className="animate-slide-up"
+            style={{ animationDelay: `${i * 50}ms`, animationFillMode: 'backwards' }}
+          >
+            <ModelCard model={model} />
+          </div>
+        ))}
+      </div>
+
+      {/* Comparison Table */}
+      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-x-auto">
+        <table className="w-full text-[12px] font-mono">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
+              <th className="text-right p-3 text-text-muted font-medium">Provider</th>
+              <th className="text-right p-3 text-text-muted font-medium">Input $/1M</th>
+              <th className="text-right p-3 text-text-muted font-medium">Output $/1M</th>
+              <th className="text-right p-3 text-text-muted font-medium">Context</th>
+              <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
+              <th className="text-right p-3 text-text-muted font-medium">HumanEval</th>
+              <th className="text-right p-3 text-text-muted font-medium">MATH</th>
+              <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
+              <th className="text-right p-3 text-text-muted font-medium">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((m) => {
+              const color = PROVIDER_COLORS[m.provider] || '#71717a'
+              return (
+                <tr key={m.id} className="border-b border-border/50 hover:bg-surface-2 transition-colors">
+                  <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10">
+                    <div className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
+                      {m.name}
+                      {m.open_source && <span className="text-emerald-400 text-[9px]">OSS</span>}
+                    </div>
+                  </td>
+                  <td className="p-3 text-right text-text-muted">{m.provider}</td>
+                  <td className="p-3 text-right text-text-secondary">${m.pricing.input}</td>
+                  <td className="p-3 text-right text-text-secondary">${m.pricing.output}</td>
+                  <td className="p-3 text-right text-text-secondary">
+                    {m.context_window >= 1000000
+                      ? `${(m.context_window / 1000000).toFixed(0)}M`
+                      : `${(m.context_window / 1000).toFixed(0)}K`}
+                  </td>
+                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.mmlu}</td>
+                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.humaneval}</td>
+                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.math}</td>
+                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.gpqa}</td>
+                  <td className="p-3 text-right font-medium" style={{ color }}>{getValueScore(m)}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
   )
 }
