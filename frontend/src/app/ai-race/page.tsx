@@ -238,22 +238,23 @@ export default function AIRacePage() {
         </div>
       </div>
 
-      {/* Model Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {sorted.map((model, i) => (
-          <div
-            key={model.id}
-            className="animate-slide-up"
-            style={{ animationDelay: `${i * 50}ms`, animationFillMode: 'backwards' }}
-          >
-            <ModelCard model={model} />
-          </div>
-        ))}
+      {/* Model Cards - 2 rows visible (~6 cards), scroll for rest */}
+      <div className="max-h-[620px] overflow-y-auto rounded-lg pr-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {sorted.map((model, i) => (
+            <div
+              key={model.id}
+              className="animate-slide-up"
+              style={{ animationDelay: `${i * 50}ms`, animationFillMode: 'backwards' }}
+            >
+              <ModelCard model={model} />
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* Comparison Table - fixed height, scroll for more */}
+      {/* Comparison Table - 5 rows visible, scroll for rest */}
       <div className="mt-10 rounded-lg border border-border bg-surface-1">
-        {/* Sticky header */}
         <div className="overflow-x-auto">
           <table className="w-full text-[12px] font-mono">
             <thead>
@@ -272,7 +273,6 @@ export default function AIRacePage() {
             </thead>
           </table>
         </div>
-        {/* Scrollable body - 5 rows visible (~210px), rest on scroll */}
         <div className="overflow-x-auto">
           <div className="max-h-[210px] overflow-y-auto">
             <table className="w-full text-[12px] font-mono">
