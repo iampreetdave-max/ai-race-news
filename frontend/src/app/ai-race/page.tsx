@@ -18,12 +18,15 @@ const BENCHMARK_OPTIONS: { key: string; label: string; maxScore: number }[] = [
   { key: 'mt_bench', label: 'MT-Bench \u2014 Conversation', maxScore: 10 },
 ]
 
+const TABLE_VISIBLE = 6
+
 export default function AIRacePage() {
   const [data, setData] = useState<ModelsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [selectedBenchmark, setSelectedBenchmark] = useState('mmlu')
   const [filter, setFilter] = useState<FilterCategory>('all')
   const [sortBy, setSortBy] = useState<SortBy>('performance')
+  const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
     fetch('/data/models.json')
@@ -94,23 +97,21 @@ export default function AIRacePage() {
 
   const selectedBM = BENCHMARK_OPTIONS.find((b) => b.key === selectedBenchmark)!
 
-  // Table: top 6 visible, rest scrollable
-  const TABLE_VISIBLE = 6
-  const tableTop = sorted.slice(0, TABLE_VISIBLE)
-  const tableRest = sorted.slice(TABLE_VISIBLE)
+  const visibleRows = showAll ? sorted : sorted.slice(0, TABLE_VISIBLE)
+  const hiddenCount = sorted.length - TABLE_VISIBLE
 
   function renderTableRow(m: AIModel) {
     const color = PROVIDER_COLORS[m.provider] || '#71717a'
     return (
       <tr key={m.id} className="border-b border-border/50 hover:bg-surface-2 transition-colors">
-        <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10">
+        <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10 min-w-[160px]">
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
             <span className="truncate">{m.name}</span>
             {m.open_source && <span className="text-emerald-400 text-[9px] flex-shrink-0">OSS</span>}
           </div>
         </td>
-        <td className="p-3 text-right text-text-muted">{m.provider}</td>
+        <td className="p-3 text-right text-text-muted whitespace-nowrap">{m.provider}</td>
         <td className="p-3 text-right text-text-secondary">${m.pricing.input}</td>
         <td className="p-3 text-right text-text-secondary">${m.pricing.output}</td>
         <td className="p-3 text-right text-text-secondary">
@@ -257,46 +258,37 @@ export default function AIRacePage() {
       </div>
 
       {/* Comparison Table */}
-      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-hidden">
-        <div className="overflow-x-auto">
-          <table className="w-full text-[12px] font-mono">
-            <thead>
-              <tr className="border-b border-border">
-                <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
-                <th className="text-right p-3 text-text-muted font-medium">Provider</th>
-                <th className="text-right p-3 text-text-muted font-medium">Input $/1M</th>
-                <th className="text-right p-3 text-text-muted font-medium">Output $/1M</th>
-                <th className="text-right p-3 text-text-muted font-medium">Context</th>
-                <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
-                <th className="text-right p-3 text-text-muted font-medium">HumanEval</th>
-                <th className="text-right p-3 text-text-muted font-medium">MATH</th>
-                <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
-                <th className="text-right p-3 text-text-muted font-medium">Value</th>
-              </tr>
-            </thead>
-            {/* Top rows always visible */}
-            <tbody>
-              {tableTop.map(renderTableRow)}
-            </tbody>
-          </table>
-        </div>
+      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-x-auto">
+        <table className="w-full text-[12px] font-mono">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
+              <th className="text-right p-3 text-text-muted font-medium">Provider</th>
+              <th className="text-right p-3 text-text-muted font-medium">In $/1M</th>
+              <th className="text-right p-3 text-text-muted font-medium">Out $/1M</th>
+              <th className="text-right p-3 text-text-muted font-medium">Ctx</th>
+              <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
+              <th className="text-right p-3 text-text-muted font-medium">HEval</th>
+              <th className="text-right p-3 text-text-muted font-medium">MATH</th>
+              <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
+              <th className="text-right p-3 text-text-muted font-medium">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {visibleRows.map(renderTableRow)}
+          </tbody>
+        </table>
 
-        {/* Scrollable overflow for remaining rows */}
-        {tableRest.length > 0 && (
-          <div className="overflow-x-auto">
-            <div className="max-h-[240px] overflow-y-auto border-t border-border">
-              <table className="w-full text-[12px] font-mono">
-                <tbody>
-                  {tableRest.map(renderTableRow)}
-                </tbody>
-              </table>
-            </div>
-            <div className="text-center py-2 border-t border-border">
-              <span className="text-[10px] font-mono text-text-muted">
-                \u2191 Scroll for {tableRest.length} more models
-              </span>
-            </div>
-          </div>
+        {/* Show more / less toggle */}
+        {hiddenCount > 0 && (
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="w-full py-2.5 border-t border-border text-[11px] font-mono text-text-muted hover:text-accent-cyan hover:bg-surface-2 transition-all"
+          >
+            {showAll
+              ? '\u2191 Show less'
+              : `\u2193 Show ${hiddenCount} more models`}
+          </button>
         )}
       </div>
     </div>
