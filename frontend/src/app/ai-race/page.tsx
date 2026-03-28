@@ -10,12 +10,12 @@ type FilterCategory = 'all' | 'flagship' | 'mid-tier' | 'budget' | 'reasoning' |
 type SortBy = 'performance' | 'cost' | 'value' | 'context'
 
 const BENCHMARK_OPTIONS: { key: string; label: string; maxScore: number }[] = [
-  { key: 'mmlu', label: 'MMLU — Knowledge', maxScore: 100 },
-  { key: 'humaneval', label: 'HumanEval — Code', maxScore: 100 },
-  { key: 'math', label: 'MATH — Mathematics', maxScore: 100 },
-  { key: 'gpqa', label: 'GPQA — PhD Science', maxScore: 100 },
-  { key: 'arc_challenge', label: 'ARC-C — Reasoning', maxScore: 100 },
-  { key: 'mt_bench', label: 'MT-Bench — Conversation', maxScore: 10 },
+  { key: 'mmlu', label: 'MMLU \u2014 Knowledge', maxScore: 100 },
+  { key: 'humaneval', label: 'HumanEval \u2014 Code', maxScore: 100 },
+  { key: 'math', label: 'MATH \u2014 Mathematics', maxScore: 100 },
+  { key: 'gpqa', label: 'GPQA \u2014 PhD Science', maxScore: 100 },
+  { key: 'arc_challenge', label: 'ARC-C \u2014 Reasoning', maxScore: 100 },
+  { key: 'mt_bench', label: 'MT-Bench \u2014 Conversation', maxScore: 10 },
 ]
 
 export default function AIRacePage() {
@@ -49,14 +49,11 @@ export default function AIRacePage() {
   if (!data) return null
 
   const models = data.models
-  const benchmarkMeta = data.benchmarks
 
-  // Filter models
   const filtered = filter === 'all'
     ? models
     : models.filter((m) => m.category === filter)
 
-  // Sort models
   const sorted = [...filtered].sort((a, b) => {
     switch (sortBy) {
       case 'performance': {
@@ -75,7 +72,6 @@ export default function AIRacePage() {
     }
   })
 
-  // Top picks
   const bestOverall = [...models].sort((a, b) => {
     const avgA = (a.benchmarks.mmlu + a.benchmarks.humaneval + a.benchmarks.math + a.benchmarks.gpqa) / 4
     const avgB = (b.benchmarks.mmlu + b.benchmarks.humaneval + b.benchmarks.math + b.benchmarks.gpqa) / 4
@@ -97,6 +93,39 @@ export default function AIRacePage() {
     })[0]
 
   const selectedBM = BENCHMARK_OPTIONS.find((b) => b.key === selectedBenchmark)!
+
+  // Table: top 6 visible, rest scrollable
+  const TABLE_VISIBLE = 6
+  const tableTop = sorted.slice(0, TABLE_VISIBLE)
+  const tableRest = sorted.slice(TABLE_VISIBLE)
+
+  function renderTableRow(m: AIModel) {
+    const color = PROVIDER_COLORS[m.provider] || '#71717a'
+    return (
+      <tr key={m.id} className="border-b border-border/50 hover:bg-surface-2 transition-colors">
+        <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10">
+          <div className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
+            <span className="truncate">{m.name}</span>
+            {m.open_source && <span className="text-emerald-400 text-[9px] flex-shrink-0">OSS</span>}
+          </div>
+        </td>
+        <td className="p-3 text-right text-text-muted">{m.provider}</td>
+        <td className="p-3 text-right text-text-secondary">${m.pricing.input}</td>
+        <td className="p-3 text-right text-text-secondary">${m.pricing.output}</td>
+        <td className="p-3 text-right text-text-secondary">
+          {m.context_window >= 1000000
+            ? `${(m.context_window / 1000000).toFixed(0)}M`
+            : `${(m.context_window / 1000).toFixed(0)}K`}
+        </td>
+        <td className="p-3 text-right text-text-secondary">{m.benchmarks.mmlu}</td>
+        <td className="p-3 text-right text-text-secondary">{m.benchmarks.humaneval}</td>
+        <td className="p-3 text-right text-text-secondary">{m.benchmarks.math}</td>
+        <td className="p-3 text-right text-text-secondary">{m.benchmarks.gpqa}</td>
+        <td className="p-3 text-right font-medium" style={{ color }}>{getValueScore(m)}</td>
+      </tr>
+    )
+  }
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
@@ -134,7 +163,7 @@ export default function AIRacePage() {
               {pick.model.name}
             </p>
             <p className="text-[11px] text-text-muted mt-0.5">
-              {pick.model.provider} · ${(pick.model.pricing.input + pick.model.pricing.output).toFixed(2)}/1M
+              {pick.model.provider} \u00b7 ${(pick.model.pricing.input + pick.model.pricing.output).toFixed(2)}/1M
             </p>
           </div>
         ))}
@@ -228,52 +257,47 @@ export default function AIRacePage() {
       </div>
 
       {/* Comparison Table */}
-      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-x-auto">
-        <table className="w-full text-[12px] font-mono">
-          <thead>
-            <tr className="border-b border-border">
-              <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
-              <th className="text-right p-3 text-text-muted font-medium">Provider</th>
-              <th className="text-right p-3 text-text-muted font-medium">Input $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Output $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Context</th>
-              <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
-              <th className="text-right p-3 text-text-muted font-medium">HumanEval</th>
-              <th className="text-right p-3 text-text-muted font-medium">MATH</th>
-              <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
-              <th className="text-right p-3 text-text-muted font-medium">Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map((m) => {
-              const color = PROVIDER_COLORS[m.provider] || '#71717a'
-              return (
-                <tr key={m.id} className="border-b border-border/50 hover:bg-surface-2 transition-colors">
-                  <td className="p-3 text-text-primary font-medium sticky left-0 bg-surface-1 z-10">
-                    <div className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
-                      {m.name}
-                      {m.open_source && <span className="text-emerald-400 text-[9px]">OSS</span>}
-                    </div>
-                  </td>
-                  <td className="p-3 text-right text-text-muted">{m.provider}</td>
-                  <td className="p-3 text-right text-text-secondary">${m.pricing.input}</td>
-                  <td className="p-3 text-right text-text-secondary">${m.pricing.output}</td>
-                  <td className="p-3 text-right text-text-secondary">
-                    {m.context_window >= 1000000
-                      ? `${(m.context_window / 1000000).toFixed(0)}M`
-                      : `${(m.context_window / 1000).toFixed(0)}K`}
-                  </td>
-                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.mmlu}</td>
-                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.humaneval}</td>
-                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.math}</td>
-                  <td className="p-3 text-right text-text-secondary">{m.benchmarks.gpqa}</td>
-                  <td className="p-3 text-right font-medium" style={{ color }}>{getValueScore(m)}</td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
+      <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-[12px] font-mono">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left p-3 text-text-muted font-medium sticky left-0 bg-surface-1 z-10">Model</th>
+                <th className="text-right p-3 text-text-muted font-medium">Provider</th>
+                <th className="text-right p-3 text-text-muted font-medium">Input $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Output $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Context</th>
+                <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
+                <th className="text-right p-3 text-text-muted font-medium">HumanEval</th>
+                <th className="text-right p-3 text-text-muted font-medium">MATH</th>
+                <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
+                <th className="text-right p-3 text-text-muted font-medium">Value</th>
+              </tr>
+            </thead>
+            {/* Top rows always visible */}
+            <tbody>
+              {tableTop.map(renderTableRow)}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Scrollable overflow for remaining rows */}
+        {tableRest.length > 0 && (
+          <div className="overflow-x-auto">
+            <div className="max-h-[240px] overflow-y-auto border-t border-border">
+              <table className="w-full text-[12px] font-mono">
+                <tbody>
+                  {tableRest.map(renderTableRow)}
+                </tbody>
+              </table>
+            </div>
+            <div className="text-center py-2 border-t border-border">
+              <span className="text-[10px] font-mono text-text-muted">
+                \u2191 Scroll for {tableRest.length} more models
+              </span>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
