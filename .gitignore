@@ -19,7 +19,7 @@ env/
 *.swp
 *.swo
 
-# Data
+# Database - NEVER commit binary DB to git
 data/*.db
 data/*.sqlite
 
@@ -30,3 +30,8 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Node
+node_modules/
+.next/
+out/
