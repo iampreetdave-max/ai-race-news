@@ -2,6 +2,7 @@
 AI Pulse RSS Fetcher - Parse RSS/Atom feeds
 """
 import logging
+import re
 import time
 from datetime import datetime
 from time import mktime
@@ -19,7 +20,6 @@ class RSSFetcher:
     """Fetches and parses RSS/Atom feeds."""
 
     def __init__(self):
-        # feedparser respects this agent string
         feedparser.USER_AGENT = USER_AGENT
 
     def fetch_source(
@@ -95,28 +95,10 @@ class RSSFetcher:
             author = entry.author_detail.get("name")
 
         # Extract published date
-        published_at = None
-        if hasattr(entry, "published_parsed") and entry.published_parsed:
-            try:
-                published_at = datetime.fromtimestamp(
-                    mktime(entry.published_parsed)
-                )
-            except (TypeError, ValueError, OverflowError):
-                pass
-        if not published_at and hasattr(entry, "updated_parsed") and entry.updated_parsed:
-            try:
-                published_at = datetime.fromtimestamp(
-                    mktime(entry.updated_parsed)
-                )
-            except (TypeError, ValueError, OverflowError):
-                pass
+        published_at = self._extract_date(entry)
 
-        # Extract image
-        image_url = None
-        if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
-            image_url = entry.media_thumbnail[0].get("url")
-        elif hasattr(entry, "media_content") and entry.media_content:
-            image_url = entry.media_content[0].get("url")
+        # Extract image (multiple strategies)
+        image_url = self._extract_image(entry)
 
         return Article(
             title=title,
@@ -129,9 +111,79 @@ class RSSFetcher:
             priority=priority,
         )
 
+    def _extract_date(self, entry) -> Optional[datetime]:
+        """Try multiple date fields."""
+        for attr in ["published_parsed", "updated_parsed", "created_parsed"]:
+            parsed = getattr(entry, attr, None)
+            if parsed:
+                try:
+                    return datetime.fromtimestamp(mktime(parsed))
+                except (TypeError, ValueError, OverflowError):
+                    continue
+        return None
+
+    def _extract_image(self, entry) -> Optional[str]:
+        """Extract image URL using multiple strategies."""
+
+        # Strategy 1: media:thumbnail
+        if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
+            url = entry.media_thumbnail[0].get("url")
+            if url:
+                return url
+
+        # Strategy 2: media:content with image type
+        if hasattr(entry, "media_content") and entry.media_content:
+            for media in entry.media_content:
+                media_type = media.get("type", "")
+                url = media.get("url", "")
+                if "image" in media_type or url.endswith(
+                    (".jpg", ".jpeg", ".png", ".webp", ".gif")
+                ):
+                    return url
+
+        # Strategy 3: enclosures with image type
+        if hasattr(entry, "enclosures") and entry.enclosures:
+            for enc in entry.enclosures:
+                enc_type = enc.get("type", "")
+                href = enc.get("href", "")
+                if "image" in enc_type or href.endswith(
+                    (".jpg", ".jpeg", ".png", ".webp", ".gif")
+                ):
+                    return href
+
+        # Strategy 4: <img> tag in summary/description/content HTML
+        html_sources = []
+        if hasattr(entry, "summary"):
+            html_sources.append(entry.summary)
+        if hasattr(entry, "description"):
+            html_sources.append(entry.description)
+        if hasattr(entry, "content") and entry.content:
+            for c in entry.content:
+                html_sources.append(c.get("value", ""))
+
+        for html in html_sources:
+            if not html:
+                continue
+            match = re.search(
+                r'<img[^>]+src=["\']([^"\'> ]+)', html
+            )
+            if match:
+                img_url = match.group(1)
+                # Skip tiny tracking pixels and icons
+                if not any(
+                    skip in img_url.lower()
+                    for skip in [
+                        "pixel", "tracking", "1x1", "badge",
+                        "icon", "logo", "avatar", "gravatar",
+                        "feeds.feedburner",
+                    ]
+                ):
+                    return img_url
+
+        return None
+
     def _clean_html(self, text: str) -> str:
         """Remove HTML tags and decode entities."""
-        import re
         import html as html_module
 
         if not text:
