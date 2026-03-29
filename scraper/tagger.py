@@ -1,9 +1,13 @@
 """
 AI Pulse Tagger - 2-tier audience scoring with AI/Data/ML relevance gate
+
+Scoring rules:
+- Tier 1 (strong signal): checked against title + summary. 1 match = include.
+- Tier 2 (weak signal): checked against TITLE ONLY. Need 3+ matches.
+  This prevents long summaries from triggering false positives.
 """
 import logging
 import re
-from typing import Optional
 
 from .models import Article
 
@@ -51,9 +55,8 @@ TRUSTED_SOURCES = {
 }
 
 # ============================================================
-# AUDIENCE SCORING
+# AUDIENCE TIERS
 # ============================================================
-
 DEV_TIER1 = [
     "code generation", "coding model", "coding assistant", "humaneval",
     "copilot", "cursor", "claude code", "codex", "code interpreter",
@@ -189,26 +192,22 @@ TAG_KEYWORDS = {
 }
 
 
-def _match_with_boundary(text: str, phrases: list[str]) -> list[str]:
-    """Match phrases using word boundaries to prevent substring matches."""
-    found = []
-    for p in phrases:
-        if re.search(r"\b" + re.escape(p) + r"\b", text, re.IGNORECASE):
-            found.append(p)
-    return found
+def _wb_match(text: str, phrases: list[str]) -> list[str]:
+    """Match phrases with word boundaries."""
+    return [
+        p for p in phrases
+        if re.search(r"\b" + re.escape(p) + r"\b", text, re.IGNORECASE)
+    ]
 
 
 class Tagger:
     def __init__(self):
-        self._compile_tag_patterns()
-
-    def _compile_tag_patterns(self):
-        self.tag_patterns = {}
+        self.tag_patterns: dict[str, list[re.Pattern]] = {}
         for tag, keywords in TAG_KEYWORDS.items():
-            patterns = []
-            for kw in keywords:
-                patterns.append(re.compile(r"\b" + re.escape(kw), re.IGNORECASE))
-            self.tag_patterns[tag] = patterns
+            self.tag_patterns[tag] = [
+                re.compile(r"\b" + re.escape(kw), re.IGNORECASE)
+                for kw in keywords
+            ]
 
     def is_relevant(self, article: Article) -> bool:
         if article.source_name in TRUSTED_SOURCES:
@@ -217,38 +216,31 @@ class Tagger:
         return any(kw in text for kw in RELEVANCE_KEYWORDS)
 
     def tag_article(self, article: Article) -> Article:
-        text = f"{article.title} {article.summary or ''}"
+        full_text = f"{article.title} {article.summary or ''}"
+        title_text = article.title
 
-        # Topic tags (use word-boundary matching)
+        # Topic tags
         tags = set()
         for tag, patterns in self.tag_patterns.items():
             for p in patterns:
-                if p.search(text):
+                if p.search(full_text):
                     tags.add(tag)
                     break
         article.tags = list(tags)
 
-        # Audience scoring (word-boundary matching)
+        # Audience: Tier1 checks full text, Tier2 checks TITLE ONLY
         audiences = set()
 
-        t1 = _match_with_boundary(text, DEV_TIER1)
-        t2 = _match_with_boundary(text, DEV_TIER2)
-        if t1 or len(t2) >= 3:
+        if _wb_match(full_text, DEV_TIER1) or len(_wb_match(title_text, DEV_TIER2)) >= 3:
             audiences.add("developers")
 
-        t1 = _match_with_boundary(text, BIZ_TIER1)
-        t2 = _match_with_boundary(text, BIZ_TIER2)
-        if t1 or len(t2) >= 3:
+        if _wb_match(full_text, BIZ_TIER1) or len(_wb_match(title_text, BIZ_TIER2)) >= 3:
             audiences.add("business")
 
-        t1 = _match_with_boundary(text, FIN_TIER1)
-        t2 = _match_with_boundary(text, FIN_TIER2)
-        if t1 or len(t2) >= 3:
+        if _wb_match(full_text, FIN_TIER1) or len(_wb_match(title_text, FIN_TIER2)) >= 3:
             audiences.add("finance")
 
-        t1 = _match_with_boundary(text, RES_TIER1)
-        t2 = _match_with_boundary(text, RES_TIER2)
-        if t1 or len(t2) >= 3:
+        if _wb_match(full_text, RES_TIER1) or len(_wb_match(title_text, RES_TIER2)) >= 3:
             audiences.add("research")
 
         if not audiences:
@@ -267,7 +259,7 @@ class Tagger:
             self.tag_article(article)
             relevant.append(article)
 
-        tag_counts = {}
+        tag_counts: dict[str, int] = {}
         for a in relevant:
             for t in a.tags:
                 tag_counts[t] = tag_counts.get(t, 0) + 1
@@ -280,18 +272,17 @@ class Tagger:
 
 
 def tag_articles(articles: list[Article]) -> list[Article]:
-    tagger = Tagger()
-    return tagger.tag_articles(articles)
+    return Tagger().tag_articles(articles)
 
 
 def get_tag_statistics(articles: list[Article]) -> dict:
-    tag_counts = {}
-    audience_counts = {}
-    for article in articles:
-        for tag in article.tags:
-            tag_counts[tag] = tag_counts.get(tag, 0) + 1
-        for audience in article.audiences:
-            audience_counts[audience] = audience_counts.get(audience, 0) + 1
+    tag_counts: dict[str, int] = {}
+    audience_counts: dict[str, int] = {}
+    for a in articles:
+        for t in a.tags:
+            tag_counts[t] = tag_counts.get(t, 0) + 1
+        for au in a.audiences:
+            audience_counts[au] = audience_counts.get(au, 0) + 1
     return {
         "total_articles": len(articles),
         "tag_counts": dict(sorted(tag_counts.items(), key=lambda x: -x[1])),
