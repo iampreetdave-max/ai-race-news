@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import NewsFeed from '@/components/NewsFeed'
+import Leaderboard from '@/components/Leaderboard'
 import { AUDIENCE_CONFIG, Audience } from '@/lib/types'
 
 const AUDIENCES: Audience[] = ['developers', 'business', 'finance', 'research']
@@ -11,9 +12,7 @@ export default function HomePage() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-border">
-        {/* Grid background */}
         <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-[0.03]" />
-        {/* Glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-radial from-accent-cyan/8 via-transparent to-transparent" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-16 sm:py-24">
@@ -24,7 +23,7 @@ export default function HomePage() {
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-accent-cyan" />
               </span>
               <span className="text-[11px] font-mono text-accent-cyan tracking-wide">
-                LIVE — 110+ SOURCES
+                LIVE \u2014 110+ SOURCES
               </span>
             </div>
 
@@ -36,11 +35,10 @@ export default function HomePage() {
 
             <p className="text-base sm:text-lg text-text-secondary leading-relaxed max-w-lg mb-8">
               Real-time news from 110+ sources. Filtered for how AI
-              affects <em>you</em> — whether you ship code, close deals,
+              affects <em>you</em> \u2014 whether you ship code, close deals,
               move capital, or push research.
             </p>
 
-            {/* Audience cards */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               {AUDIENCES.map((key) => {
                 const config = AUDIENCE_CONFIG[key]
@@ -69,11 +67,17 @@ export default function HomePage() {
 
       {/* Latest news feed */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
-        <NewsFeed
-          title="Latest"
-          description="Everything from all sources, newest first"
-          icon="*"
-        />
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <div className="flex items-center gap-3 mb-2">
+              <span className="font-mono text-lg text-accent-cyan">*</span>
+              <h2 className="font-display text-xl sm:text-2xl font-bold tracking-tight">Latest</h2>
+            </div>
+            <p className="text-sm text-text-muted max-w-xl">Everything from all sources, newest first</p>
+          </div>
+          <Leaderboard audience="overall" />
+        </div>
+        <NewsFeed />
       </section>
     </div>
   )

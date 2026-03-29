@@ -7,19 +7,9 @@ import NewsCard from './NewsCard'
 
 interface NewsFeedProps {
   audience?: string
-  title?: string
-  description?: string
-  accentColor?: string
-  icon?: string
 }
 
-export default function NewsFeed({
-  audience,
-  title,
-  description,
-  accentColor = 'accent-cyan',
-  icon,
-}: NewsFeedProps) {
+export default function NewsFeed({ audience }: NewsFeedProps) {
   const [articles, setArticles] = useState<Article[]>([])
   const [total, setTotal] = useState(0)
   const [loading, setLoading] = useState(true)
@@ -72,22 +62,6 @@ export default function NewsFeed({
 
   return (
     <div>
-      {title && (
-        <div className="mb-6">
-          <div className="flex items-center gap-3 mb-2">
-            {icon && (
-              <span className={`font-mono text-lg text-${accentColor}`}>{icon}</span>
-            )}
-            <h1 className="font-display text-xl sm:text-2xl font-bold tracking-tight">
-              {title}
-            </h1>
-          </div>
-          {description && (
-            <p className="text-sm text-text-muted max-w-xl">{description}</p>
-          )}
-        </div>
-      )}
-
       {topTags.length > 0 && (
         <div className="flex flex-wrap gap-1.5 mb-5">
           <button
