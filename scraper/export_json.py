@@ -6,6 +6,9 @@ Pipeline (in order):
   2. Fuzzy dedup             - collapse near-duplicate titles, keep best source
   3. Trending score          - boost articles covered by multiple sources in 24h
   4. Display score sort      - tier × trending × freshness_decay, top 500 exported
+
+Articles covered by 2+ sources get a `trending_sources` int field in the JSON
+so the frontend can display a trending badge.
 """
 import json
 import math
@@ -55,12 +58,12 @@ SOURCE_PRIORITIES: dict[str, int] = {
 # ---------------------------------------------------------------------------
 # Tuning constants
 # ---------------------------------------------------------------------------
-MIN_SUMMARY_CHARS = 80       # articles shorter than this are dropped
-DEDUP_THRESHOLD = 0.55       # title similarity ratio to collapse as duplicate
-TRENDING_WINDOW_HOURS = 24   # window for cross-source trending detection
-TRENDING_THRESHOLD = 0.55    # title similarity ratio for trending cluster
-TRENDING_BOOST = 0.3         # score boost per additional source in cluster
-FRESHNESS_HALF_LIFE_H = 24  # hours until freshness score halves
+MIN_SUMMARY_CHARS = 80
+DEDUP_THRESHOLD = 0.55
+TRENDING_WINDOW_HOURS = 24
+TRENDING_THRESHOLD = 0.55
+TRENDING_BOOST = 0.3
+FRESHNESS_HALF_LIFE_H = 24
 OUTPUT_LIMIT = 500
 
 _BAD_IMAGE_RE = re.compile(
@@ -100,7 +103,6 @@ def _parse_dt(published_at: str) -> datetime | None:
 
 
 def _freshness(published_at: str, now: datetime) -> float:
-    """Exponential decay with FRESHNESS_HALF_LIFE_H half-life."""
     dt = _parse_dt(published_at)
     if dt is None:
         return 0.5
@@ -132,9 +134,9 @@ def _dedup(articles: list[dict]) -> list[dict]:
             if SequenceMatcher(None, norms[i], norms[j]).ratio() >= DEDUP_THRESHOLD:
                 pri_i = _source_priority(articles[i]["source_name"])
                 pri_j = _source_priority(articles[j]["source_name"])
-                if pri_i <= pri_j:   # i is equal or better → drop j
+                if pri_i <= pri_j:
                     keep[j] = False
-                else:                # j is better → drop i and move on
+                else:
                     keep[i] = False
                     break
 
@@ -142,13 +144,11 @@ def _dedup(articles: list[dict]) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Stage 3: trending score
+# Stage 3: trending detection
+# Returns {article_id: source_count} for all articles.
+# source_count > 1 means the story was covered by multiple sources.
 # ---------------------------------------------------------------------------
-def _trending_scores(articles: list[dict], now: datetime) -> dict[int, float]:
-    """
-    Cluster articles published within TRENDING_WINDOW_HOURS by title similarity.
-    Articles covered by N unique sources get a multiplier of 1 + TRENDING_BOOST*(N-1).
-    """
+def _source_counts(articles: list[dict], now: datetime) -> dict[int, int]:
     cutoff = now - timedelta(hours=TRENDING_WINDOW_HOURS)
     recent = [
         a for a in articles
@@ -156,7 +156,7 @@ def _trending_scores(articles: list[dict], now: datetime) -> dict[int, float]:
     ]
 
     if len(recent) < 2:
-        return {a["id"]: 1.0 for a in articles}
+        return {a["id"]: 1 for a in articles}
 
     norms = {a["id"]: _normalize_title(a["title"]) for a in recent}
     ids = [a["id"] for a in recent]
@@ -173,30 +173,29 @@ def _trending_scores(articles: list[dict], now: datetime) -> dict[int, float]:
             if SequenceMatcher(None, norms[ids[i]], norms[ids[j]]).ratio() >= TRENDING_THRESHOLD:
                 parent[find(ids[i])] = find(ids[j])
 
-    # Count unique sources per cluster
     cluster_sources: dict[int, set[str]] = {}
     for a in recent:
         root = find(a["id"])
         cluster_sources.setdefault(root, set()).add(a["source_name"])
 
     recent_ids = {a["id"] for a in recent}
-    scores: dict[int, float] = {}
+    counts: dict[int, int] = {}
     for a in articles:
         if a["id"] not in recent_ids:
-            scores[a["id"]] = 1.0
+            counts[a["id"]] = 1
         else:
-            n = len(cluster_sources.get(find(a["id"]), {a["source_name"]}))
-            scores[a["id"]] = 1.0 + TRENDING_BOOST * (n - 1)
+            counts[a["id"]] = len(cluster_sources.get(find(a["id"]), {a["source_name"]}))
 
-    return scores
+    return counts
 
 
 # ---------------------------------------------------------------------------
 # Stage 4: display score
 # ---------------------------------------------------------------------------
-def _display_score(article: dict, trending: dict[int, float], now: datetime) -> float:
+def _display_score(article: dict, src_count: int, now: datetime) -> float:
     tier = _tier_score(_source_priority(article["source_name"]))
-    return tier * trending.get(article["id"], 1.0) * _freshness(article["published_at"], now)
+    trending_mult = 1.0 + TRENDING_BOOST * (src_count - 1)
+    return tier * trending_mult * _freshness(article["published_at"], now)
 
 
 # ---------------------------------------------------------------------------
@@ -232,7 +231,6 @@ def export_all(db_path=None, output_dir=None):
             d["author"] = r["author"]
         return d
 
-    # Fetch 3× the output limit to absorb quality/dedup losses
     rows = conn.execute(
         "SELECT * FROM articles ORDER BY published_at DESC LIMIT 1500"
     ).fetchall()
@@ -247,13 +245,19 @@ def export_all(db_path=None, output_dir=None):
     after_dedup = _dedup(after_quality)
     print(f"Dedup          : {len(after_quality)} → {len(after_dedup)} ({len(after_quality) - len(after_dedup)} removed)")
 
-    # Stage 3: trending
-    trending = _trending_scores(after_dedup, now)
-    clustered = sum(1 for v in trending.values() if v > 1.0)
-    print(f"Trending       : {clustered} articles boosted")
+    # Stage 3: source counts per article
+    counts = _source_counts(after_dedup, now)
+    trending_count = sum(1 for v in counts.values() if v > 1)
+    print(f"Trending       : {trending_count} articles covered by 2+ sources")
+
+    # Attach trending_sources field (only when > 1, keeps JSON lean)
+    for a in after_dedup:
+        n = counts.get(a["id"], 1)
+        if n > 1:
+            a["trending_sources"] = n
 
     # Stage 4: score + sort + cap
-    after_dedup.sort(key=lambda a: -_display_score(a, trending, now))
+    after_dedup.sort(key=lambda a: -_display_score(a, counts.get(a["id"], 1), now))
     all_articles = after_dedup[:OUTPUT_LIMIT]
 
     def write_json(filename: str, data) -> float:
@@ -280,7 +284,6 @@ def export_all(db_path=None, output_dir=None):
         })
         print(f"  feed-{audience}.json : {len(feed)} articles ({size:.0f} KB)")
 
-    # Stats
     total = conn.execute("SELECT COUNT(*) as c FROM articles").fetchone()["c"]
     scrapes = conn.execute("SELECT COUNT(*) as c FROM scrape_logs").fetchone()["c"]
     success = conn.execute(

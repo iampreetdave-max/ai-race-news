@@ -40,7 +40,14 @@ export default function NewsCard({
   index?: number
 }) {
   const [expanded, setExpanded] = useState(false)
-  const hasImage = article.image_url && !article.image_url.includes('pixel')
+  const [imgError, setImgError] = useState(false)
+
+  const hasImage =
+    !imgError &&
+    !!article.image_url &&
+    !article.image_url.includes('pixel')
+
+  const isTrending = (article.trending_sources ?? 0) >= 2
 
   return (
     <div
@@ -52,25 +59,39 @@ export default function NewsCard({
         className={`
           relative overflow-hidden rounded-lg border cursor-pointer
           transition-all duration-300
-          ${expanded
-            ? 'border-accent-cyan/30 bg-surface-2'
-            : 'border-border bg-surface-1 hover:bg-surface-2 hover:border-border-hover'
+          ${
+            expanded
+              ? 'border-accent-cyan/30 bg-surface-2'
+              : 'border-border bg-surface-1 hover:bg-surface-2 hover:border-border-hover'
           }
           ${hasImage && !expanded ? 'grid grid-cols-1 sm:grid-cols-[1fr_180px]' : ''}
         `}
       >
         {/* Content */}
         <div className="p-4 sm:p-5 flex flex-col gap-3">
+
+          {/* Trending badge — only when covered by 2+ sources */}
+          {isTrending && (
+            <div className="flex items-center gap-1.5">
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-accent-amber/10 text-accent-amber border border-accent-amber/20">
+                <svg className="w-2.5 h-2.5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" />
+                </svg>
+                Trending &middot; {article.trending_sources} sources
+              </span>
+            </div>
+          )}
+
           {/* Meta row */}
           <div className="flex items-center gap-2 text-[11px] font-mono text-text-muted">
             <span className="text-accent-cyan/70">{article.source_name}</span>
-            <span className="text-border">\u00b7</span>
+            <span className="text-border">&middot;</span>
             {article.published_at && (
               <span>{timeAgo(article.published_at)}</span>
             )}
             {article.author && (
               <>
-                <span className="text-border">\u00b7</span>
+                <span className="text-border">&middot;</span>
                 <span>{article.author}</span>
               </>
             )}
@@ -86,7 +107,7 @@ export default function NewsCard({
             {article.title}
           </h3>
 
-          {/* Summary - always show when expanded, 2 lines when collapsed */}
+          {/* Summary */}
           {article.summary && (
             <p className={`
               text-[13px] leading-relaxed text-text-secondary
@@ -104,6 +125,7 @@ export default function NewsCard({
                 alt=""
                 className="w-full max-h-[300px] object-cover rounded-md"
                 loading="lazy"
+                onError={() => setImgError(true)}
               />
             </div>
           )}
@@ -122,7 +144,7 @@ export default function NewsCard({
             </div>
           )}
 
-          {/* Source link - only when expanded */}
+          {/* Source link — only when expanded */}
           {expanded && (
             <div className="flex items-center gap-3 pt-2 border-t border-border mt-1">
               <a
@@ -142,7 +164,7 @@ export default function NewsCard({
           )}
         </div>
 
-        {/* Thumbnail - only when collapsed and has image */}
+        {/* Thumbnail — only when collapsed and image is valid */}
         {hasImage && !expanded && (
           <div className="hidden sm:block relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-surface-1 to-transparent z-10 w-8" />
@@ -151,6 +173,7 @@ export default function NewsCard({
               alt=""
               className="h-full w-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
               loading="lazy"
+              onError={() => setImgError(true)}
             />
           </div>
         )}

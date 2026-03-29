@@ -11,6 +11,7 @@ export interface Article {
   tags: string[]
   audiences: string[]
   priority: number
+  trending_sources?: number
 }
 
 export interface ArticleListResponse {
