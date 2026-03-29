@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useSearch } from '@/lib/SearchContext'
 
 const NAV_ITEMS = [
   { href: '/', label: 'Feed' },
@@ -14,6 +15,7 @@ const NAV_ITEMS = [
 
 export default function Header() {
   const pathname = usePathname()
+  const { open } = useSearch()
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-surface-0/80 backdrop-blur-xl">
@@ -59,7 +61,18 @@ export default function Header() {
           </nav>
 
           {/* Right side */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <button
+              onClick={open}
+              title="Search (Ctrl+K)"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-[12px] font-mono font-medium text-text-muted hover:text-text-primary border border-border hover:border-border-hover rounded-md transition-all"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+              Search
+              <kbd className="ml-0.5 text-[10px] px-1 border border-border rounded opacity-60">&#8984;K</kbd>
+            </button>
             <a
               href={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/docs`}
               target="_blank"
@@ -95,6 +108,15 @@ export default function Header() {
               </Link>
             )
           })}
+          <button
+            onClick={open}
+            className="shrink-0 ml-auto px-3 py-1.5 text-text-muted hover:text-text-primary"
+            aria-label="Search"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </button>
         </nav>
       </div>
     </header>
