@@ -10,10 +10,9 @@ from .models import Article
 logger = logging.getLogger(__name__)
 
 # ============================================================
-# RELEVANCE GATE - Article must be about AI, Data, or ML
+# RELEVANCE GATE
 # ============================================================
 RELEVANCE_KEYWORDS = [
-    # AI core
     " ai ", " ai-", "artificial intelligence", "machine learning", "deep learning",
     "neural net", "llm", "gpt", "claude", "gemini", "chatbot", "generative",
     "nlp", "language model", "computer vision", "transformer",
@@ -24,20 +23,17 @@ RELEVANCE_KEYWORDS = [
     "chatgpt", "ai model", "ai tool", "ai-powered", "ai system",
     "benchmark", "inference", "foundation model",
     "robotics", "humanoid", "self-driving", "autonomous vehicle",
-    # Data
     "data pipeline", "data engineering", "data warehouse", "data lake",
     "etl", "analytics", "business intelligence", "big data",
     "spark", "airflow", "dbt", "snowflake", "databricks",
     "data science", "data analyst", "data-driven",
     "database", "sql", "nosql", "postgresql", "mongodb",
-    # ML/Tech
     "algorithm", "dataset", "gpu", "nvidia", "tpu",
     "cloud computing", "aws", "azure", "gcp",
     "model training", "model deploy", "mlops",
     "api", "sdk", "saas", "devops", "kubernetes",
 ]
 
-# Sources that are always relevant (AI/Data/ML focused)
 TRUSTED_SOURCES = {
     "HuggingFace Blog", "OpenAI Blog", "DeepMind Blog", "The Decoder",
     "MarkTechPost", "AI News", "Synced Review",
@@ -51,16 +47,13 @@ TRUSTED_SOURCES = {
     "Replicate Blog", "Import AI", "One Useful Thing", "The Gradient",
     "Towards Data Science", "AI Business", "CB Insights AI", "Emerj AI",
     "Weights & Biases", "Chip Huyen", "Eugene Yan", "Simon Willison",
-    "IEEE Spectrum AI", "R-bloggers",
+    "IEEE Spectrum AI", "R-bloggers", "Google Research",
 }
 
 # ============================================================
-# AUDIENCE SCORING - 2 tiers per audience
-# Tier 1 (strong signal): 1 match = definitely this audience
-# Tier 2 (weak signal): need 3+ matches
+# AUDIENCE SCORING
 # ============================================================
 
-# --- DEVELOPERS ---
 DEV_TIER1 = [
     "code generation", "coding model", "coding assistant", "humaneval",
     "copilot", "cursor", "claude code", "codex", "code interpreter",
@@ -81,7 +74,6 @@ DEV_TIER2 = [
     "engineering", "github", "database", "sql",
 ]
 
-# --- BUSINESS ---
 BIZ_TIER1 = [
     "enterprise ai", "ai adoption", "ai strategy", "business intelligence",
     "workflow automation", "ai productivity", "ai workforce",
@@ -99,10 +91,9 @@ BIZ_TIER2 = [
     "business", "strategy", "competitive",
 ]
 
-# --- FINANCE ---
 FIN_TIER1 = [
-    "funding round", "series a", "series b", "series c", "series d",
-    "ipo", "valuation", "venture capital", "wall street",
+    "funding round", "series a funding", "series b funding", "series c",
+    "ipo", "venture capital", "wall street",
     "goldman sachs", "jpmorgan", "morgan stanley",
     "hedge fund", "algorithmic trading", "ai trading",
     "stock price", "market cap", "quarterly earnings",
@@ -110,26 +101,26 @@ FIN_TIER1 = [
     "ai in banking", "ai in finance", "fintech",
 ]
 FIN_TIER2 = [
-    "billion", "million", "investor", "capital", "revenue",
+    "billion", "million", "investor", "capital",
     "funding", "investment", "raised", "profit", "shares",
+    "valuation",
 ]
 
-# --- RESEARCH ---
 RES_TIER1 = [
     "arxiv", "state-of-the-art", "sota", "novel approach",
     "outperforms", "surpasses", "ablation study", "peer-reviewed",
     "research paper", "new architecture", "benchmark results",
-    "mmlu", "gpqa", "evaluation results",
+    "mmlu", "gpqa",
     "researchers found", "researchers show", "researchers demonstrate",
 ]
 RES_TIER2 = [
     "researchers", "paper", "experiment", "dataset",
-    "evaluation", "university", "study", "methodology",
+    "university", "study", "methodology",
     "scientific", "academic", "laboratory",
 ]
 
 # ============================================================
-# TAG KEYWORDS (for topic tags, separate from audience)
+# TAG KEYWORDS
 # ============================================================
 TAG_KEYWORDS = {
     "llm": [
@@ -154,7 +145,7 @@ TAG_KEYWORDS = {
     ],
     "funding": [
         "funding round", "series a", "series b", "series c",
-        "valuation", "venture capital", "fundraising", "ipo",
+        "venture capital", "fundraising", "ipo",
     ],
     "open-source": [
         "open source", "open-source", "huggingface", "model weights",
@@ -198,9 +189,16 @@ TAG_KEYWORDS = {
 }
 
 
-class Tagger:
-    """Tags articles with topics and scores audience relevance."""
+def _match_with_boundary(text: str, phrases: list[str]) -> list[str]:
+    """Match phrases using word boundaries to prevent substring matches."""
+    found = []
+    for p in phrases:
+        if re.search(r"\b" + re.escape(p) + r"\b", text, re.IGNORECASE):
+            found.append(p)
+    return found
 
+
+class Tagger:
     def __init__(self):
         self._compile_tag_patterns()
 
@@ -209,22 +207,19 @@ class Tagger:
         for tag, keywords in TAG_KEYWORDS.items():
             patterns = []
             for kw in keywords:
-                patterns.append(re.compile(re.escape(kw), re.IGNORECASE))
+                patterns.append(re.compile(r"\b" + re.escape(kw), re.IGNORECASE))
             self.tag_patterns[tag] = patterns
 
     def is_relevant(self, article: Article) -> bool:
-        """Check if article is about AI, Data, or ML."""
         if article.source_name in TRUSTED_SOURCES:
             return True
         text = f" {article.title} {article.summary or ''} ".lower()
         return any(kw in text for kw in RELEVANCE_KEYWORDS)
 
     def tag_article(self, article: Article) -> Article:
-        """Assign topic tags and audience scores."""
         text = f"{article.title} {article.summary or ''}"
-        text_lower = text.lower()
 
-        # Topic tags
+        # Topic tags (use word-boundary matching)
         tags = set()
         for tag, patterns in self.tag_patterns.items():
             for p in patterns:
@@ -233,37 +228,26 @@ class Tagger:
                     break
         article.tags = list(tags)
 
-        # Audience scoring
+        # Audience scoring (word-boundary matching)
         audiences = set()
 
-        def count_matches(text_val, phrases):
-            found = []
-            for p in phrases:
-                if re.search(re.escape(p), text_val, re.IGNORECASE):
-                    found.append(p)
-            return found
-
-        # Developers
-        t1 = count_matches(text, DEV_TIER1)
-        t2 = count_matches(text, DEV_TIER2)
+        t1 = _match_with_boundary(text, DEV_TIER1)
+        t2 = _match_with_boundary(text, DEV_TIER2)
         if t1 or len(t2) >= 3:
             audiences.add("developers")
 
-        # Business
-        t1 = count_matches(text, BIZ_TIER1)
-        t2 = count_matches(text, BIZ_TIER2)
+        t1 = _match_with_boundary(text, BIZ_TIER1)
+        t2 = _match_with_boundary(text, BIZ_TIER2)
         if t1 or len(t2) >= 3:
             audiences.add("business")
 
-        # Finance
-        t1 = count_matches(text, FIN_TIER1)
-        t2 = count_matches(text, FIN_TIER2)
+        t1 = _match_with_boundary(text, FIN_TIER1)
+        t2 = _match_with_boundary(text, FIN_TIER2)
         if t1 or len(t2) >= 3:
             audiences.add("finance")
 
-        # Research
-        t1 = count_matches(text, RES_TIER1)
-        t2 = count_matches(text, RES_TIER2)
+        t1 = _match_with_boundary(text, RES_TIER1)
+        t2 = _match_with_boundary(text, RES_TIER2)
         if t1 or len(t2) >= 3:
             audiences.add("research")
 
@@ -274,10 +258,8 @@ class Tagger:
         return article
 
     def tag_articles(self, articles: list[Article]) -> list[Article]:
-        """Tag articles, filtering out irrelevant ones."""
         relevant = []
         filtered = 0
-
         for article in articles:
             if not self.is_relevant(article):
                 filtered += 1
@@ -289,10 +271,9 @@ class Tagger:
         for a in relevant:
             for t in a.tags:
                 tag_counts[t] = tag_counts.get(t, 0) + 1
-
         top_tags = sorted(tag_counts.items(), key=lambda x: -x[1])[:5]
         logger.info(
-            f"Tagged {len(relevant)} articles ({filtered} filtered as irrelevant). "
+            f"Tagged {len(relevant)} articles ({filtered} filtered). "
             f"Top tags: {top_tags}"
         )
         return relevant
