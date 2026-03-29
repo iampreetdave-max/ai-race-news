@@ -238,7 +238,7 @@ export default function AIRacePage() {
         </div>
       </div>
 
-      {/* Model Cards */}
+      {/* Model Cards - no scroll, show all */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {sorted.map((model, i) => (
           <div
@@ -251,27 +251,29 @@ export default function AIRacePage() {
         ))}
       </div>
 
-      {/* Comparison Table */}
+      {/* Comparison Table - sticky header, scrollable body */}
       <div className="mt-10 rounded-lg border border-border bg-surface-1 overflow-x-auto">
-        <table className="w-full text-[12px] font-mono">
-          <thead>
-            <tr className="border-b border-border">
-              <th className="text-left p-3 text-text-muted font-medium">Model</th>
-              <th className="text-right p-3 text-text-muted font-medium">Provider</th>
-              <th className="text-right p-3 text-text-muted font-medium">In $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Out $/1M</th>
-              <th className="text-right p-3 text-text-muted font-medium">Ctx</th>
-              <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
-              <th className="text-right p-3 text-text-muted font-medium">HEval</th>
-              <th className="text-right p-3 text-text-muted font-medium">MATH</th>
-              <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
-              <th className="text-right p-3 text-text-muted font-medium">Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map(renderTableRow)}
-          </tbody>
-        </table>
+        <div className="max-h-[280px] overflow-y-auto">
+          <table className="w-full text-[12px] font-mono">
+            <thead className="sticky top-0 z-10 bg-surface-1">
+              <tr className="border-b border-border">
+                <th className="text-left p-3 text-text-muted font-medium">Model</th>
+                <th className="text-right p-3 text-text-muted font-medium">Provider</th>
+                <th className="text-right p-3 text-text-muted font-medium">In $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Out $/1M</th>
+                <th className="text-right p-3 text-text-muted font-medium">Ctx</th>
+                <th className="text-right p-3 text-text-muted font-medium">MMLU</th>
+                <th className="text-right p-3 text-text-muted font-medium">HEval</th>
+                <th className="text-right p-3 text-text-muted font-medium">MATH</th>
+                <th className="text-right p-3 text-text-muted font-medium">GPQA</th>
+                <th className="text-right p-3 text-text-muted font-medium">Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sorted.map(renderTableRow)}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   )
