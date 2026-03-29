@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import NewsFeed from '@/components/NewsFeed'
 import Leaderboard from '@/components/Leaderboard'
+import TopStoriesHero from '@/components/TopStoriesHero'
 import { AUDIENCE_CONFIG, Audience } from '@/lib/types'
 
 const AUDIENCES: Audience[] = ['developers', 'business', 'finance', 'research']
@@ -64,6 +65,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Top Stories */}
+      <TopStoriesHero />
 
       {/* Latest news feed */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
