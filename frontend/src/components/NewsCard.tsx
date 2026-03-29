@@ -20,15 +20,21 @@ const TAG_CLASSES: Record<string, string> = {
   'computer-vision': 'tag-computer-vision',
 }
 
-function timeAgo(dateStr: string): string {
-  const date = new Date(dateStr)
-  const now = new Date()
-  const seconds = Math.floor((now.getTime() - date.getTime()) / 1000)
+function timeAgo(dateStr: string | null): string {
+  if (!dateStr) return ''
+  const fixed = /[Z+]/.test(dateStr) ? dateStr : dateStr + 'Z'
+  const seconds = Math.floor((Date.now() - new Date(fixed).getTime()) / 1000)
   if (seconds < 60) return 'just now'
   if (seconds < 3600) return `${Math.floor(seconds / 60)}m ago`
   if (seconds < 86400) return `${Math.floor(seconds / 3600)}h ago`
   if (seconds < 604800) return `${Math.floor(seconds / 86400)}d ago`
-  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  return new Date(fixed).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+}
+
+function isBreaking(published_at: string | null): boolean {
+  if (!published_at) return false
+  const fixed = /[Z+]/.test(published_at) ? published_at : published_at + 'Z'
+  return Date.now() - new Date(fixed).getTime() < 3 * 60 * 60 * 1000
 }
 
 export default function NewsCard({
@@ -42,7 +48,8 @@ export default function NewsCard({
   const [imgError, setImgError] = useState(false)
 
   const hasImage = !imgError && !!article.image_url && !article.image_url.includes('pixel')
-  const isTrending = (article.trending_sources ?? 0) >= 2
+  const breaking = isBreaking(article.published_at)
+  const isTrending = !breaking && (article.trending_sources ?? 0) >= 2
 
   return (
     <div
@@ -60,6 +67,18 @@ export default function NewsCard({
         ].join(' ')}
       >
         <div className="p-4 sm:p-5 flex flex-col gap-3">
+
+          {breaking && (
+            <div>
+              <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-red-500/10 text-red-400 border border-red-500/20">
+                <span className="relative flex h-1.5 w-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-400" />
+                </span>
+                Breaking
+              </span>
+            </div>
+          )}
 
           {isTrending && (
             <div>
