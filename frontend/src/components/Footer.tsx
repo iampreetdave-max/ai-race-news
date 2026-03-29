@@ -1,20 +1,14 @@
 export default function Footer() {
   return (
     <footer className="border-t border-border">
-      {/* CTA Section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Paid - LinkedIn Automation */}
           <div className="rounded-lg border border-accent-amber/20 bg-accent-amber/[0.03] p-5">
             <div className="flex items-center gap-2 mb-2">
-              <span className="font-mono text-[10px] text-accent-amber uppercase tracking-wider px-1.5 py-0.5 rounded bg-accent-amber/10">
-                Pro
-              </span>
+              <span className="font-mono text-[10px] text-accent-amber uppercase tracking-wider px-1.5 py-0.5 rounded bg-accent-amber/10">Pro</span>
               <span className="font-mono text-[10px] text-accent-amber">$20/mo</span>
             </div>
-            <h3 className="font-display text-sm font-bold text-text-primary mb-1">
-              Automate your LinkedIn with AI news
-            </h3>
+            <h3 className="font-display text-sm font-bold text-text-primary mb-1">Automate your LinkedIn with AI news</h3>
             <p className="text-[12px] text-text-muted leading-relaxed mb-3">
               Daily posts crafted from 110+ sources. Custom tone. Edit before publishing.
             </p>
@@ -31,16 +25,11 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Free - Newsletter */}
           <div className="rounded-lg border border-border bg-surface-1 p-5">
             <div className="flex items-center gap-2 mb-2">
-              <span className="font-mono text-[10px] text-accent-cyan uppercase tracking-wider px-1.5 py-0.5 rounded bg-accent-cyan/10">
-                Free
-              </span>
+              <span className="font-mono text-[10px] text-accent-cyan uppercase tracking-wider px-1.5 py-0.5 rounded bg-accent-cyan/10">Free</span>
             </div>
-            <h3 className="font-display text-sm font-bold text-text-primary mb-1">
-              Subscribe to our newsletter
-            </h3>
+            <h3 className="font-display text-sm font-bold text-text-primary mb-1">Subscribe to our newsletter</h3>
             <p className="text-[12px] text-text-muted leading-relaxed mb-3">
               Get the top AI stories delivered to your inbox. No spam, unsubscribe anytime.
             </p>
@@ -59,7 +48,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
@@ -67,15 +55,21 @@ export default function Footer() {
               <div className="flex h-5 w-5 items-center justify-center rounded bg-accent-cyan/10">
                 <span className="font-mono text-[9px] font-bold text-accent-cyan">AI</span>
               </div>
-              <span className="font-display text-xs text-text-muted">
-                race.news
-              </span>
-              <span className="text-text-muted/30 text-xs">·</span>
-              <span className="text-text-muted text-[11px]">
-                110+ sources. Updated daily.
-              </span>
+              <span className="font-display text-xs text-text-muted">race.news</span>
+              <span className="text-text-muted/30 text-xs">&middot;</span>
+              <span className="text-text-muted text-[11px]">110+ sources. Updated daily.</span>
             </div>
             <div className="flex items-center gap-4 text-[11px] text-text-muted">
+              <a
+                href="/feed.xml"
+                className="flex items-center gap-1 hover:text-accent-amber transition-colors"
+                title="Subscribe via RSS"
+              >
+                <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+                </svg>
+                RSS
+              </a>
               <a
                 href="https://github.com/iampreetdave-max/ai-race-news"
                 target="_blank"
