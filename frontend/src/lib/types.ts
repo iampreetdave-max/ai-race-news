@@ -1,5 +1,5 @@
 export interface Article {
-  id: string
+  id: string | number
   title: string
   url: string
   summary: string | null
@@ -7,11 +7,12 @@ export interface Article {
   image_url: string | null
   source_name: string
   published_at: string | null
-  scraped_at: string
+  scraped_at?: string
   tags: string[]
   audiences: string[]
-  priority: number
+  priority?: number
   trending_sources?: number
+  slug?: string
 }
 
 export interface ArticleListResponse {
