@@ -1,0 +1,16 @@
+# Test workflow to verify CI/CD setup
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify setup
+        run: echo "✅ CI/CD pipeline working"
