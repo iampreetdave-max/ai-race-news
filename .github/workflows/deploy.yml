@@ -2,15 +2,33 @@ name: Deploy to Cloudflare Pages
 
 on:
   workflow_dispatch
+  push:
+    branches: [main]
+    paths:
+      - 'frontend/public/data/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
       - uses: actions/checkout@v4
-      - name: Trigger Cloudflare redeploy
+      
+      - name: Install dependencies
         run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/${{ secrets.CLOUDFLARE_PROJECT_NAME }}/deployments" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            -d '{"source":{"type":"github"}}'
+          cd frontend
+          npm install
+      
+      - name: Build
+        run: |
+          cd frontend
+          npm run build
+      
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy frontend/.next --project-name=ai-race-news
