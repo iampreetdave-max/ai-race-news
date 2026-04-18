@@ -35,6 +35,9 @@
         - name: Run scraper
           run: python run.py
 
+        - name: Delete articles older than 30 days
+          run: python run.py --cleanup 30
+
         - name: Export to JSON
           run: python scraper/export_json.py
 
