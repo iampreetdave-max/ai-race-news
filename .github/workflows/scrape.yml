@@ -1,47 +1,49 @@
+name: Scrape AI News
 
-  name: Scrape AI News
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
-  on:
-    schedule:
-      - cron: '0 8 * * *'
-    workflow_dispatch:
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-  jobs:
-    scrape:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write
+    steps:
+      - uses: actions/checkout@v4
 
-      steps:
-        - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-        - name: Set up Python
-          uses: actions/setup-python@v5
-          with:
-            python-version: '3.11'
+      - name: Install dependencies
+        run: pip install feedparser beautifulsoup4 requests lxml python-dateutil
 
-        - name: Install dependencies
-          run: pip install feedparser beautifulsoup4 requests lxml python-dateutil
+      - name: Restore DB cache
+        uses: actions/cache@v4
+        with:
+          path: data/ai_pulse.db
+          key: scraper-db-${{ github.run_id }}
+          restore-keys: |
+            scraper-db-
 
-        - name: Restore DB cache
-          uses: actions/cache@v4
-          with:
-            path: data/ai_pulse.db
-            key: scraper-db
+      - name: Create directories
+        run: mkdir -p data frontend/public/data
 
-        - name: Create directories
-          run: mkdir -p data frontend/public/data
+      - name: Run scraper
+        run: python run.py
 
-        - name: Run scraper
-          run: python run.py
+      - name: Export to JSON
+        run: python scraper/export_json.py
 
-        - name: Export to JSON
-          run: python scraper/export_json.py
-
-        - name: Commit and push JSON
-          run: |
-            git config user.name "AI Race Bot"
-            git config user.email "bot@airace.news"
-            git add frontend/public/data/*.json
-            git diff --staged --quiet || git commit -m "data: update news $(date -u +%Y-%m-%dT%H:%M)"
-            git push
+      - name: Commit and push data
+        run: |
+          git config user.name "AI Race Bot"
+          git config user.email "bot@airace.news"
+          git add frontend/public/data/*.json
+          git add frontend/public/feed.xml frontend/public/feed-*.xml frontend/public/sitemap.xml 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "data: update news $(date -u +%Y-%m-%dT%H:%M)"
+          git push
