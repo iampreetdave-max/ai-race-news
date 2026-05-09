@@ -4,130 +4,91 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-03-29T15:52:36Z</updated>
+  <updated>2026-05-09T09:09:54Z</updated>
   <entry>
-    <title>[R] First open-source implementation of Hebbian fast-weight write-back for the BDH architecture</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1s6nxd4/r_first_opensource_implementation_of_hebbian/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1s6nxd4/r_first_opensource_implementation_of_hebbian/</id>
-    <updated>2026-03-29T06:41:48Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/fleebrun83</name></author>
-    <category term="research"/>
-    <category term="hardware"/>
+    <title>Removing PER From Rainbow DQN Set a New Snake AI World Record</title>
+    <link href="https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47" rel="alternate"/>
+    <id>https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47</id>
+    <updated>2026-05-09T08:32:53Z</updated>
+    <summary type="text">Greetings all! Quick context: this is part of an ongoing series where I'm building Rainbow DQN one component at a time on Snake and measuring what each piece actually does. The first post covered the encoding, the second covered a memory optimisation. This one is about the finding I've been teasing: which Rainbow component hurts performance on Snake. The answer is Prioritised Experience Replay (PE</summary>
+    <author><name>Stat Phantom</name></author>
+  </entry>
+  <entry>
+    <title>Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance</title>
+    <link href="https://arxiv.org/abs/2605.06535v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.06535v1</id>
+    <updated>2026-05-07T16:35:34Z</updated>
+    <summary type="text">In recent years, open-source efforts like Senorita-2M have propelled video editing toward natural language instruction. However, current publicly available datasets predominantly focus on local editing or style transfer, which largely preserve the original scene structure and are easier to scale. In contrast, Background Replacement, a task central to creative applications such as film production a</summary>
+    <author><name>Mike Zheng Shou</name></author>
+    <category term="data"/>
     <category term="open-source"/>
+    <category term="research"/>
   </entry>
   <entry>
-    <title>Cohere AI Releases Cohere Transcribe: A SOTA Automatic Speech Recognition (ASR) Model Powering Enterprise Speech Intelligence</title>
-    <link href="https://www.marktechpost.com/2026/03/26/cohere-ai-releases-cohere-transcribe-a-sota-automatic-speech-recognition-asr-model-powering-enterprise-speech-intelligence/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/03/26/cohere-ai-releases-cohere-transcribe-a-sota-automatic-speech-recognition-asr-model-powering-enterprise-speech-intelligence/</id>
-    <updated>2026-03-26T15:01:23Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
+    <title>We built and open-sourced Caliby: An embedded, high-performance vector database for AI Agents (Beats pgvector by 4x, outperforms FAISS on disk)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t7vumj/we_built_and_opensourced_caliby_an_embedded/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t7vumj/we_built_and_opensourced_caliby_an_embedded/</id>
+    <updated>2026-05-09T05:29:34Z</updated>
+    <summary type="text">Hi Reddit, we are a team of database researchers (including a PhD from MIT DB Group) and we just open-sourced an embedded vector database for agent/LLM applications. An embedded vector database supporting both text and vectors. It outperforms pgvector by 4x and significantly surpasses FAISS in disk-storage scenarios. It supports DiskANN, HNSW, and IVF+PQ indexes, maintains high performance on disk</summary>
+    <author><name>/u/Motor_Crew7918</name></author>
+    <category term="open-source"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Surveillance data used to be boring. AI made it dangerous.</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1s6hvhk/surveillance_data_used_to_be_boring_ai_made_it/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1s6hvhk/surveillance_data_used_to_be_boring_ai_made_it/</id>
-    <updated>2026-03-29T01:21:42Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/Leather_Carpenter462</name></author>
     <category term="research"/>
     <category term="agents"/>
   </entry>
   <entry>
-    <title>[D] Literature Review: Is 72% mIoU on Cityscapes (Full Res) feasible under 1.15M params and 10 GFLOPs?</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1s6f436/d_literature_review_is_72_miou_on_cityscapes_full/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1s6f436/d_literature_review_is_72_miou_on_cityscapes_full/</id>
-    <updated>2026-03-28T23:16:28Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/Several-Motor-8342</name></author>
-  </entry>
-  <entry>
-    <title>[R] CS-MoE: We found severe parameter redundancy in Transformers and fixed it by sharing experts across layers (Outperforms Dense at 55% activation)</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1s64iln/r_csmoe_we_found_severe_parameter_redundancy_in/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1s64iln/r_csmoe_we_found_severe_parameter_redundancy_in/</id>
-    <updated>2026-03-28T16:12:36Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/Impressive-Peach-419</name></author>
-    <category term="llm"/>
+    <title>‘Being human helps’: despite rise of AI is there still hope for Europe’s translators?</title>
+    <link href="https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators" rel="alternate"/>
+    <id>https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators</id>
+    <updated>2026-05-08T04:00:37Z</updated>
+    <summary type="text">A booming tech sector has disrupted translation jobs in publishing – but they could be needed for a while longer yetIn February 2022, while he was plugging away at rendering the US writer Dana Spiotta’s novel Wayward into French, the literary translator Yoann Gentric decided he needed a bit of light relief. He would test whether AI could put him out of work.Gentric had been grappling with a short </summary>
+    <author><name>Philip Oltermann European culture editor</name></author>
     <category term="research"/>
   </entry>
   <entry>
-    <title>Looking for a solid ChatGPT alternative for daily work</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1s5v317/looking_for_a_solid_chatgpt_alternative_for_daily/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1s5v317/looking_for_a_solid_chatgpt_alternative_for_daily/</id>
-    <updated>2026-03-28T08:43:11Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/Working-Chemical-337</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>[D] ICML Reviews: Can reviewers ask authors to include unpublished/arXiv work in related work or comparisons?</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1s5ezu1/d_icml_reviews_can_reviewers_ask_authors_to/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1s5ezu1/d_icml_reviews_can_reviewers_ask_authors_to/</id>
-    <updated>2026-03-27T20:03:22Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/Forward-Kiwi-66</name></author>
+    <title>Getting harassed by an aggressive “independent researcher” demanding very specific citations and phrasing in my paper [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/</id>
+    <updated>2026-05-08T03:10:03Z</updated>
+    <summary type="text">Hey Reddit, I’m a researcher in a niche theoretical CS/ML area. Recently I’ve been dealing with repeated emails from an “independent researcher” that feel like straight-up citation harassment. This person keeps sending follow-ups (including involving editors) insisting I add multiple citations to his arXiv preprints. It’s not a normal “you should cite this” request — he provides exact suggested pa</summary>
+    <author><name>/u/snekslayer</name></author>
     <category term="research"/>
   </entry>
   <entry>
-    <title>[D] - 1M tokens/second serving Qwen 3.5 27B on B200 GPUs, benchmark results and findings</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1s4hxgu/d_1m_tokenssecond_serving_qwen_35_27b_on_b200/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1s4hxgu/d_1m_tokenssecond_serving_qwen_35_27b_on_b200/</id>
-    <updated>2026-03-26T19:52:31Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/m4r1k_</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Hey, I proposed a new family of activation functions, and they are very good.</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1s430vg/hey_i_proposed_a_new_family_of_activation/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1s430vg/hey_i_proposed_a_new_family_of_activation/</id>
-    <updated>2026-03-26T09:48:40Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>/u/rusalmas</name></author>
+    <title>ECCV reviewer wants me to compare and contrast to my own paper. [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/</id>
+    <updated>2026-05-07T15:36:41Z</updated>
+    <summary type="text">Bascially title. A reviewer found the arxiv of our paper, which is an older version, before we changed the title and name of the method for this submission. The results, figures and all that are the same minus some additions for the current version, a even small reading of what they are referncing should make it clear its the same paper by the same people. They use the very specific language of ou</summary>
+    <author><name>/u/_Pattern_Recognition</name></author>
     <category term="research"/>
   </entry>
   <entry>
-    <title>Creating with Sora Safely</title>
-    <link href="https://openai.com/index/creating-with-sora-safely" rel="alternate"/>
-    <id>https://openai.com/index/creating-with-sora-safely</id>
-    <updated>2026-03-23T00:00:00Z</updated>
-    <summary type="text">" + s + "</summary>
+    <title>Import AI 455: Automating AI Research</title>
+    <link href="https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/" rel="alternate"/>
+    <id>https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/</id>
+    <updated>2026-05-04T12:32:09Z</updated>
+    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start building themselves. What does that mean? I’m writing this post because when I look at all the publicly available information I […]</summary>
+    <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Differential Machine Learning with Twin Networks in R: Forecasting Bitcoin with Volatility Proxies</title>
+    <link href="https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/" rel="alternate"/>
+    <id>https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/</id>
+    <updated>2026-05-05T14:04:43Z</updated>
+    <summary type="text">Introduction Differential Machine Learning (DML), as introduced in the recent arXiv paper (Differential Machine Learning for 0DTE Options with Stochastic Volatility and Jumps), extends supervised learning by incorporating not only function values but also their derivatives. In financial contexts, this often means sensitivities such as Greeks. However, when direct derivatives ... Continue reading: </summary>
+    <author><name>Selcuk Disci</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Introducing OpenAI Privacy Filter</title>
+    <link href="https://openai.com/index/introducing-openai-privacy-filter" rel="alternate"/>
+    <id>https://openai.com/index/introducing-openai-privacy-filter</id>
+    <updated>2026-04-22T00:00:00Z</updated>
+    <summary type="text">OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks</title>
-    <link href="https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/</id>
-    <updated>2026-03-23T12:31:45Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text</title>
-    <link href="https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/</id>
-    <updated>2026-03-16T12:30:50Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Scientists discover AI can make humans more creative</title>
-    <link href="https://www.sciencedaily.com/releases/2026/03/260315004355.htm" rel="alternate"/>
-    <id>https://www.sciencedaily.com/releases/2026/03/260315004355.htm</id>
-    <updated>2026-03-16T00:59:26Z</updated>
-    <summary type="text">" + s + "</summary>
-    <author><name>ScienceDaily AI</name></author>
-    <category term="research"/>
-    <category term="data"/>
+    <category term="llm"/>
   </entry>
 </feed>
