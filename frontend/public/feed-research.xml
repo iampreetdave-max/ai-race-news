@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-09T09:09:54Z</updated>
+  <updated>2026-05-10T09:22:27Z</updated>
   <entry>
     <title>Removing PER From Rainbow DQN Set a New Snake AI World Record</title>
     <link href="https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47" rel="alternate"/>
@@ -12,6 +12,26 @@
     <updated>2026-05-09T08:32:53Z</updated>
     <summary type="text">Greetings all! Quick context: this is part of an ongoing series where I'm building Rainbow DQN one component at a time on Snake and measuring what each piece actually does. The first post covered the encoding, the second covered a memory optimisation. This one is about the finding I've been teasing: which Rainbow component hurts performance on Snake. The answer is Prioritised Experience Replay (PE</summary>
     <author><name>Stat Phantom</name></author>
+  </entry>
+  <entry>
+    <title>LLM rankings are not a ladder: experimental results from a transitive benchmark graph [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental/</id>
+    <updated>2026-05-09T19:16:19Z</updated>
+    <summary type="text">https://preview.redd.it/668yjlucu80h1.png?width=2800&amp;format=png&amp;auto=webp&amp;s=ca541488abb5262b06cfc13a9586efb19f24d644 I built a small website called LLM Win: https://llm-win.com It turns LLM benchmark results into a directed graph: If model A beats model B on benchmark X, add an edge A -&gt; B. Then it searches for the shortest transitive chain between two models. The meme version is: Can LLaMA 2 7B b</summary>
+    <author><name>/u/Spico197</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>anyone else exhausted by the brute force scaling meta?</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1t85o52/anyone_else_exhausted_by_the_brute_force_scaling/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1t85o52/anyone_else_exhausted_by_the_brute_force_scaling/</id>
+    <updated>2026-05-09T13:54:52Z</updated>
+    <summary type="text">honestly getting so burnt out opening arxiv lately. feels like every major paper is just &quot;we took a transformer and threw 100k H100s at it&quot; like ok congrats, your autoregressive model can write a decent python script but still completely breaks on basic spatial reasoning Brute force has just totally overshadowed actual architectural innovation. Was debugging some awful cuda errors this afternoon a</summary>
+    <author><name>/u/Bubba_deets</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance</title>
@@ -80,15 +100,5 @@
     <summary type="text">Introduction Differential Machine Learning (DML), as introduced in the recent arXiv paper (Differential Machine Learning for 0DTE Options with Stochastic Volatility and Jumps), extends supervised learning by incorporating not only function values but also their derivatives. In financial contexts, this often means sensitivities such as Greeks. However, when direct derivatives ... Continue reading: </summary>
     <author><name>Selcuk Disci</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Introducing OpenAI Privacy Filter</title>
-    <link href="https://openai.com/index/introducing-openai-privacy-filter" rel="alternate"/>
-    <id>https://openai.com/index/introducing-openai-privacy-filter</id>
-    <updated>2026-04-22T00:00:00Z</updated>
-    <summary type="text">OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>

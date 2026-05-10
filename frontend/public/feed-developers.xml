@@ -4,7 +4,28 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-09T09:09:54Z</updated>
+  <updated>2026-05-10T09:22:27Z</updated>
+  <entry>
+    <title>NVIDIA AI Releases Star Elastic: One Checkpoint that Contains 30B, 23B, and 12B Reasoning Models with Zero-Shot Slicing</title>
+    <link href="https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/</id>
+    <updated>2026-05-09T22:24:23Z</updated>
+    <summary type="text">NVIDIA researchers have introduced Star Elastic, a post-training method that embeds multiple nested reasoning models — at 30B, 23B, and 12B parameter scales — inside a single checkpoint, eliminating the need for separate training runs or stored model weights per variant. Built on the Nemotron Elastic framework and applied to Nemotron Nano v3, the method trains all three variants in a single 160B-t</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>I built an MCP server for a knowledge graph. It doesn't call any LLM.</title>
+    <link href="https://dev.to/tykolt/i-built-an-mcp-server-for-a-knowledge-graph-it-doesnt-call-any-llm-211b" rel="alternate"/>
+    <id>https://dev.to/tykolt/i-built-an-mcp-server-for-a-knowledge-graph-it-doesnt-call-any-llm-211b</id>
+    <updated>2026-05-10T08:51:08Z</updated>
+    <summary type="text">Most MCP servers I've looked at assume an LLM is somewhere in the pipeline, for entity extraction, embedding, or ranking. Some of them call an external API just to decide which node to fetch. I get why: it makes the server feel smarter. I was trying to solve a different problem. I spent a while trying to give Claude Desktop a reliable memory. Not conversation summaries. A way to ask whether a spec</summary>
+    <author><name>TyKolt</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
   <entry>
     <title>Meet GitHub Spec-Kit: An Open Source Toolkit for Spec-Driven Development with AI Coding Agents</title>
     <link href="https://www.marktechpost.com/2026/05/08/meet-github-spec-kit-an-open-source-toolkit-for-spec-driven-development-with-ai-coding-agents/" rel="alternate"/>
@@ -64,6 +85,23 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Grokmaxing? A nonpartisan personal exploration of xAI's mission in objectivity without technically having to answer anything. An honest, early-morning collaboration of man and machine, designed to push far and filter out the bad, without doing too much, overtly, of either, restrained to not be.</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1t91193/grokmaxing_a_nonpartisan_personal_exploration_of/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1t91193/grokmaxing_a_nonpartisan_personal_exploration_of/</id>
+    <updated>2026-05-10T08:18:18Z</updated>
+    <summary type="text">(HONESTY DISCLOSURE: This prompt is an exhaustive synthesis of my own writing, philosophy, metaphoricals, creative work, and pluralistic, open-minded ethics with limits as a human, refined collaboratively with multiple AI models to closer align with xAI's sometimes tribalist-colored lens of objectivity for something beyond &quot;Mecha-Hitler&quot; or an AI &quot;for the manosphere&quot; (no judgement, just don't dehu</summary>
+    <author><name>/u/SkynetISagod</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>&quot;colss&quot; a math-style expression evaluator for NumPy arrays [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1t8zja2/colss_a_mathstyle_expression_evaluator_for_numpy/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1t8zja2/colss_a_mathstyle_expression_evaluator_for_numpy/</id>
+    <updated>2026-05-10T06:53:19Z</updated>
+    <summary type="text">Built a small Python library called &quot;colss&quot; that lets you write NumPy expressions using a shorter, more mathematical syntax. Built using C++, OpenMP, pybind11, ExprTk, and NumPy. Github: https://github.com/SivaPA08/colss Example: a = np.array([1,2,3,4]) b = np.array([4,5,6,7]) c = 2 res = colss.query(&quot;sin(a+b) + log(b)^c + 12&quot;) It supports: logical expressions arithmetic operations ternary operato</summary>
+    <author><name>/u/sivpsd</name></author>
+  </entry>
+  <entry>
     <title>Unified Agentic Memory Across Harnesses Using Hooks</title>
     <link href="https://towardsdatascience.com/unified-agentic-memory-across-harnesses-using-hooks/" rel="alternate"/>
     <id>https://towardsdatascience.com/unified-agentic-memory-across-harnesses-using-hooks/</id>
@@ -75,12 +113,42 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Exactly a year ago, I started working on an MCP server I launched on reddit that became by far my most active open source project!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t8olv3/exactly_a_year_ago_i_started_working_on_an_mcp/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t8olv3/exactly_a_year_ago_i_started_working_on_an_mcp/</id>
+    <updated>2026-05-09T22:08:54Z</updated>
+    <summary type="text">This isn't an advertisement, and it's very much local and open - I already don't have enough time to keep up with the existing pull requests and issues... just a fond look back on how much this space has grown and matured in the past year. Shit was the wild west back then. Nowadays I can run gemma4 or qwen3.6 on a mac mini fast enough to drive this at full speed for free using native tool calling </summary>
+    <author><name>/u/taylorwilsdon</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I am overwhelmed by Harnesses</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t8gb1e/i_am_overwhelmed_by_harnesses/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t8gb1e/i_am_overwhelmed_by_harnesses/</id>
+    <updated>2026-05-09T19:31:12Z</updated>
+    <summary type="text">What do i choose? They all have their good but then some features don't work then i end up breaking more with claude code. Is there one harness that rules them all out there for llama cpp?? submitted by /u/Available_Hornet3538 [link] [comments]</summary>
+    <author><name>/u/Available_Hornet3538</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Simplex rethinks software development with Codex</title>
     <link href="https://openai.com/index/simplex" rel="alternate"/>
     <id>https://openai.com/index/simplex</id>
     <updated>2026-05-07T00:00:00Z</updated>
     <summary type="text">Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>From API Wrapper to Infrastructure: My Journey into Local LLMs</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1t89xd4/from_api_wrapper_to_infrastructure_my_journey/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1t89xd4/from_api_wrapper_to_infrastructure_my_journey/</id>
+    <updated>2026-05-09T16:40:41Z</updated>
+    <summary type="text">I’m a 3rd-year Computer Engineering student based in Istanbul, currently diving deep into the world of AI engineering. After spending a lot of time building AI-powered visual platforms and automation workflows, I’ve decided it’s time to move beyond being just an &quot;API consumer&quot; and start understanding the infrastructure under the hood. I recently got my hands on a Lenovo ThinkCentre M70q Gen 4, and</summary>
+    <author><name>/u/No-Concentrate-8909</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Chat GPT is changing my life</title>
@@ -306,111 +374,6 @@
     <updated>2026-04-29T19:01:47Z</updated>
     <summary type="text">I just released LLM 0.32a0, an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get back a text response. import llm model = llm.get_model(&quot;gpt-5.5&quot;) response = model.prompt(&quot;Capital of F</summary>
     <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Amazon unveils a Copilot for all your apps</title>
-    <link href="https://www.theregister.com/software/2026/04/28/amazon-unveils-a-copilot-for-all-your-apps/5219925" rel="alternate"/>
-    <id>https://www.theregister.com/software/2026/04/28/amazon-unveils-a-copilot-for-all-your-apps/5219925</id>
-    <updated>2026-04-28T17:06:59Z</updated>
-    <summary type="text">Retailer touts 'teammates' and always-on context as it muscles into an already crowded enterprise market</summary>
-    <author><name>The Register AI</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPT-5.5 Boasts Coding Advancements, But Falls Short of Opus 4.7</title>
-    <link href="https://aibusiness.com/generative-ai/gpt-5-5-boasts-coding-advancements-falls-short-opus-4-7" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/gpt-5-5-boasts-coding-advancements-falls-short-opus-4-7</id>
-    <updated>2026-04-24T16:59:50Z</updated>
-    <summary type="text">While OpenAI has improved the model's coding and tool use ability, it still has room to improve in areas where Anthropic dominates.</summary>
-    <author><name>Esther Shittu</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What is Codex?</title>
-    <link href="https://openai.com/academy/what-is-codex" rel="alternate"/>
-    <id>https://openai.com/academy/what-is-codex</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Automations</title>
-    <link href="https://openai.com/academy/codex-automations" rel="alternate"/>
-    <id>https://openai.com/academy/codex-automations</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Top 10 uses for Codex at work</title>
-    <link href="https://openai.com/academy/top-10-use-cases-codex-for-work" rel="alternate"/>
-    <id>https://openai.com/academy/top-10-use-cases-codex-for-work</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Plugins and skills</title>
-    <link href="https://openai.com/academy/codex-plugins-and-skills" rel="alternate"/>
-    <id>https://openai.com/academy/codex-plugins-and-skills</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Codex settings</title>
-    <link href="https://openai.com/academy/codex-settings" rel="alternate"/>
-    <id>https://openai.com/academy/codex-settings</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>How to get started with Codex</title>
-    <link href="https://openai.com/academy/codex-how-to-start" rel="alternate"/>
-    <id>https://openai.com/academy/codex-how-to-start</id>
-    <updated>2026-04-23T10:00:00Z</updated>
-    <summary type="text">Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)</title>
-    <link href="https://www.latent.space/p/unsupervised-learning-2026" rel="alternate"/>
-    <id>https://www.latent.space/p/unsupervised-learning-2026</id>
-    <updated>2026-04-23T19:37:19Z</updated>
-    <summary type="text">Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.</summary>
-    <author><name>Latent Space</name></author>
-  </entry>
-  <entry>
-    <title>SpaceX Agrees to Potential $60B Deal to Acquire Cursor</title>
-    <link href="https://aibusiness.com/generative-ai/spacex-agrees-potential-60b-deal-acquire-cursor" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/spacex-agrees-potential-60b-deal-acquire-cursor</id>
-    <updated>2026-04-22T17:37:38Z</updated>
-    <summary type="text">The acquisition would give Musk a viable rival to Anthropic’s Claude Code and OpenAI’s Codex systems.</summary>
-    <author><name>Graham Hope</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Speeding up agentic workflows with WebSockets in the Responses API</title>
-    <link href="https://openai.com/index/speeding-up-agentic-workflows-with-websockets" rel="alternate"/>
-    <id>https://openai.com/index/speeding-up-agentic-workflows-with-websockets</id>
-    <updated>2026-04-22T10:00:00Z</updated>
-    <summary type="text">A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Scaling Codex to enterprises worldwide</title>
-    <link href="https://openai.com/index/scaling-codex-to-enterprises-worldwide" rel="alternate"/>
-    <id>https://openai.com/index/scaling-codex-to-enterprises-worldwide</id>
-    <updated>2026-04-21T00:00:00Z</updated>
-    <summary type="text">OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="product-launch"/>
     <category term="llm"/>
   </entry>
 </feed>
