@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-10T09:22:27Z</updated>
+  <updated>2026-05-11T10:53:03Z</updated>
+  <entry>
+    <title>Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in LLMs</title>
+    <link href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/</id>
+    <updated>2026-05-11T08:36:00Z</updated>
+    <summary type="text">Sakana AI and NVIDIA Researchers demonstrate that simple L1 regularization can induce over 99% sparsity in feedforward layers with negligible downstream performance impact, and translate that sparsity into real GPU throughput gains using new sparse data formats and fused CUDA kernels. The post Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Removing PER From Rainbow DQN Set a New Snake AI World Record</title>
     <link href="https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47" rel="alternate"/>
@@ -12,6 +21,42 @@
     <updated>2026-05-09T08:32:53Z</updated>
     <summary type="text">Greetings all! Quick context: this is part of an ongoing series where I'm building Rainbow DQN one component at a time on Snake and measuring what each piece actually does. The first post covered the encoding, the second covered a memory optimisation. This one is about the finding I've been teasing: which Rainbow component hurts performance on Snake. The answer is Prioritised Experience Replay (PE</summary>
     <author><name>Stat Phantom</name></author>
+  </entry>
+  <entry>
+    <title>MTP benchmark results: the nature of the generative task dictates whether you will benefit (coding) or get slower inference (creative) from speculative inference. No other factor comes close.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t9gcar/mtp_benchmark_results_the_nature_of_the/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t9gcar/mtp_benchmark_results_the_nature_of_the/</id>
+    <updated>2026-05-10T19:25:50Z</updated>
+    <summary type="text">I recently published MTP quants of Qwen 3.6 27B and I was suprised by the reports here on reddit, and on HF, of users who were experiencing worst speed with speculative inference than without. This did not match what I was seeing, but when I tried to reproduce their exact usage, it confirmed what they were experiencing. I tried to analyse the problem, made a few conjectures which later turned out </summary>
+    <author><name>/u/ex-arman68</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Normalizing Trajectory Models</title>
+    <link href="https://arxiv.org/abs/2605.08078v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.08078v1</id>
+    <updated>2026-05-08T17:57:14Z</updated>
+    <summary type="text">Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice the likelihood framework in the process. We introduce Normalizing Trajectory Models (NTM), which mod</summary>
+    <author><name>Josh Susskind</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model</title>
+    <link href="https://arxiv.org/abs/2605.07955v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.07955v1</id>
+    <updated>2026-05-08T16:19:34Z</updated>
+    <summary type="text">Multiple sclerosis (MS) expresses substantial clinical and radiological heterogeneity, which poses significant challenges for automatic lesion segmentation. The current deep learning-based SOTA is highly susceptible to changes in both distribution, e.g., changes in scanner; as well as the structure of inputs, evident in the current divide between cross-sectional and longitudinal approaches. We int</summary>
+    <author><name>Ferran Prados</name></author>
+  </entry>
+  <entry>
+    <title>Rebalancing gradient to improve self-supervised co-training of depth, odometry and optical flow predictions</title>
+    <link href="https://arxiv.org/abs/2605.07945v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.07945v1</id>
+    <updated>2026-05-08T16:12:47Z</updated>
+    <summary type="text">We present CoopNet, an approach that improves the cooperation of co-trained networks by dynamically adapting the apportionment of gradient, to ensure equitable learning progress. It is applied to motion-aware self-supervised prediction of depth maps, by introducing a new hybrid loss, based on a distribution model of photo-metric reconstruction errors made by, on the one hand the depth + odometry p</summary>
+    <author><name>David Filliat</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>LLM rankings are not a ladder: experimental results from a transitive benchmark graph [D]</title>
@@ -81,24 +126,6 @@
     <updated>2026-05-07T15:36:41Z</updated>
     <summary type="text">Bascially title. A reviewer found the arxiv of our paper, which is an older version, before we changed the title and name of the method for this submission. The results, figures and all that are the same minus some additions for the current version, a even small reading of what they are referncing should make it clear its the same paper by the same people. They use the very specific language of ou</summary>
     <author><name>/u/_Pattern_Recognition</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Import AI 455: Automating AI Research</title>
-    <link href="https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/</id>
-    <updated>2026-05-04T12:32:09Z</updated>
-    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start building themselves. What does that mean? I’m writing this post because when I look at all the publicly available information I […]</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Differential Machine Learning with Twin Networks in R: Forecasting Bitcoin with Volatility Proxies</title>
-    <link href="https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/</id>
-    <updated>2026-05-05T14:04:43Z</updated>
-    <summary type="text">Introduction Differential Machine Learning (DML), as introduced in the recent arXiv paper (Differential Machine Learning for 0DTE Options with Stochastic Volatility and Jumps), extends supervised learning by incorporating not only function values but also their derivatives. In financial contexts, this often means sensitivities such as Greeks. However, when direct derivatives ... Continue reading: </summary>
-    <author><name>Selcuk Disci</name></author>
     <category term="research"/>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-10T09:22:27Z</updated>
+  <updated>2026-05-11T10:53:03Z</updated>
   <entry>
     <title>NVIDIA AI Releases Star Elastic: One Checkpoint that Contains 30B, 23B, and 12B Reasoning Models with Zero-Shot Slicing</title>
     <link href="https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/" rel="alternate"/>
@@ -47,12 +47,49 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>How to Fine-Tune LLMs on AMD Strix Halo and Other Exotic AMD Hardware</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t9yxjx/how_to_finetune_llms_on_amd_strix_halo_and_other/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t9yxjx/how_to_finetune_llms_on_amd_strix_halo_and_other/</id>
+    <updated>2026-05-11T10:11:01Z</updated>
+    <summary type="text">After the first general general fine-tuning tutorial i posted here (https://www.promptinjection.net/p/the-ultimate-llm-ai-fine-tuning-guide-tutorial) became good feedback some people asked if i can't make the same for AMD Strix Halo because approach here is quite different because of RoCM. https://preview.redd.it/sz5zy2w6gh0h1.jpg?width=1456&amp;format=pjpg&amp;auto=webp&amp;s=122f7834ea5501bd654085b9629120ef</summary>
+    <author><name>/u/PromptInjection_</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>Running Codex safely at OpenAI</title>
     <link href="https://openai.com/index/running-codex-safely" rel="alternate"/>
     <id>https://openai.com/index/running-codex-safely</id>
     <updated>2026-05-08T12:30:00Z</updated>
     <summary type="text">How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Markdown browser for LLMs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t9tsro/markdown_browser_for_llms/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t9tsro/markdown_browser_for_llms/</id>
+    <updated>2026-05-11T05:23:15Z</updated>
+    <summary type="text">I built a markdown web renderer for AI agents. Instead of taking expensive screenshots and piping them through vision models, TextWeb renders web pages as markdown that LLMs can reason about natively. Full JavaScript execution, interactive elements annotated. It provides a CLI and an MCP server. You can find it here: https://github.com/woheller69/textweb The LLM can do things like: navigate a web </summary>
+    <author><name>/u/DocWolle</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>ChatGPT/Codex vs Claude Mythos</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1t9s14a/chatgptcodex_vs_claude_mythos/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1t9s14a/chatgptcodex_vs_claude_mythos/</id>
+    <updated>2026-05-11T03:52:32Z</updated>
+    <summary type="text">I was just wondering if Claude is really that much better than Codex? Claude revenue obviously says so. Does this mean it’s over for OpenAI? Thoughts please? submitted by /u/djgreddit [link] [comments]</summary>
+    <author><name>/u/djgreddit</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>We stopped optimizing our LLM stack manually — it optimizes itself now</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1t9on1e/we_stopped_optimizing_our_llm_stack_manually_it/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1t9on1e/we_stopped_optimizing_our_llm_stack_manually_it/</id>
+    <updated>2026-05-11T01:12:24Z</updated>
+    <summary type="text">Three months ago we were manually picking which model to use for each task. Testing prompts, comparing outputs, switching providers. It worked but it did not scale. So we built a feedback loop. Every request gets traced with input, output, model, tokens, cost, latency, and a quality score. The router clusters similar requests using embeddings and learns which model actually performs best for each </summary>
+    <author><name>/u/CutZealousideal9132</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -85,12 +122,31 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Hello from 10KM high! - Thanks to Qwen 3.6 35b a3b!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1t92hff/hello_from_10km_high_thanks_to_qwen_36_35b_a3b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1t92hff/hello_from_10km_high_thanks_to_qwen_36_35b_a3b/</id>
+    <updated>2026-05-10T09:43:47Z</updated>
+    <summary type="text">Typing this on a cramped flight, but I was having issues connecting to the plane's wifi on my ubuntu laptop, when it was effortless on my phone. The issue I was having was the Laptop WiFi connected to the plane wifi network, but captive portal wouldn't load. Turns out systemd-resolved was using Docker's DNS instead of the network gateway. Luckily I brought Qwen with me, the agent found a nmcli fix</summary>
+    <author><name>/u/Qwen30bEnjoyer</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Grokmaxing? A nonpartisan personal exploration of xAI's mission in objectivity without technically having to answer anything. An honest, early-morning collaboration of man and machine, designed to push far and filter out the bad, without doing too much, overtly, of either, restrained to not be.</title>
     <link href="https://www.reddit.com/r/artificial/comments/1t91193/grokmaxing_a_nonpartisan_personal_exploration_of/" rel="alternate"/>
     <id>https://www.reddit.com/r/artificial/comments/1t91193/grokmaxing_a_nonpartisan_personal_exploration_of/</id>
     <updated>2026-05-10T08:18:18Z</updated>
     <summary type="text">(HONESTY DISCLOSURE: This prompt is an exhaustive synthesis of my own writing, philosophy, metaphoricals, creative work, and pluralistic, open-minded ethics with limits as a human, refined collaboratively with multiple AI models to closer align with xAI's sometimes tribalist-colored lens of objectivity for something beyond &quot;Mecha-Hitler&quot; or an AI &quot;for the manosphere&quot; (no judgement, just don't dehu</summary>
     <author><name>/u/SkynetISagod</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Object Hallucination-Free Reinforcement Unlearning for Vision-Language Models</title>
+    <link href="https://arxiv.org/abs/2605.08031v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.08031v1</id>
+    <updated>2026-05-08T17:19:53Z</updated>
+    <summary type="text">Vision-language models (VLMs) raise growing concerns about privacy, copyright, and bias, motivating machine unlearning to remove sensitive knowledge. However, existing methods primarily fine-tune the language decoder, leading to superficial forgetting that fails to erase underlying visual representations and often introduces object hallucination. We propose HFRU, a reinforcement unlearning framewo</summary>
+    <author><name>Jinsong Su</name></author>
+    <category term="product-launch"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -185,16 +241,6 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>How frontier firms are pulling ahead</title>
-    <link href="https://openai.com/index/introducing-b2b-signals" rel="alternate"/>
-    <id>https://openai.com/index/introducing-b2b-signals</id>
-    <updated>2026-05-06T00:00:00Z</updated>
-    <summary type="text">OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
     <title>Singular Bank helps bankers move fast with ChatGPT and Codex</title>
     <link href="https://openai.com/index/singular-bank" rel="alternate"/>
     <id>https://openai.com/index/singular-bank</id>
@@ -264,116 +310,6 @@
     <updated>2026-05-05T12:00:34Z</updated>
     <summary type="text">Turn Claude Code into your AI coding partner with these 5 hands-on projects, from beginner-friendly builds to advanced agent workflows.</summary>
     <author><name>Kanwal Mehreen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>datasette-referrer-policy 0.1</title>
-    <link href="https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything</id>
-    <updated>2026-05-05T23:44:27Z</updated>
-    <summary type="text">Release: datasette-referrer-policy 0.1 The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs. The first is that the CAPTCHA I added to that site a few weeks ago was triggering for the .json fetch requests used by the map plugin, and since those weren't HTML the user was not being asked to solve them. Here's the fix.</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>TRE Python binding — ReDoS robustness demo</title>
-    <link href="https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything</id>
-    <updated>2026-05-04T17:52:00Z</updated>
-    <summary type="text">Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Redis Array Playground</title>
-    <link href="https://simonwillison.net/2026/May/4/redis-array/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/4/redis-array/#atom-everything</id>
-    <updated>2026-05-04T15:53:57Z</updated>
-    <summary type="text">Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. The implementation is currently available in a branch, so I had Claude Code for web build this interactive playgroun</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Per-token AI charges come to GitHub Copilot</title>
-    <link href="https://www.artificialintelligence-news.com/news/per-token-ai-charging-comes-to-github-copilot/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/per-token-ai-charging-comes-to-github-copilot/</id>
-    <updated>2026-05-01T11:00:00Z</updated>
-    <summary type="text">As of 1st June 2026, GitHub Copilot will charge its users on the basis of the tokens they use, rather than a flat rate subscription model. The model that’s seeing the shutters closed on it is, or rather was, simple to understand and use. Users were given a set number of ‘Premium Requests’ according to […] The post Per-token AI charges come to GitHub Copilot appeared first on AI News.</summary>
-    <author><name>Joe Green</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Are teams still using Pytorch/Tensorflow, or is most ML work just calling LLM endpoints and prompt engineering now?</title>
-    <link href="https://www.reddit.com/r/datascience/comments/1t32duy/are_teams_still_using_pytorchtensorflow_or_is/" rel="alternate"/>
-    <id>https://www.reddit.com/r/datascience/comments/1t32duy/are_teams_still_using_pytorchtensorflow_or_is/</id>
-    <updated>2026-05-04T00:30:57Z</updated>
-    <summary type="text">I've been looking for a new job lately (brutal market, btw), and a lot of the ML/AI engineering work now seems pretty LLM-dominated. I still see a few jobs that seem to be doing more &quot;classical&quot;, pre-ChatGPT era type of work with Pytorth or Tensorflow, but it seems that a lot of the work now is working with LLMs, doing RAG, prompt engineering, etc. with Langchain or what have you, and calling Anth</summary>
-    <author><name>/u/Illustrious-Pound266</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Comparing R’s {targets} and dbt for Data Engineering</title>
-    <link href="https://www.r-bloggers.com/2026/05/comparing-rs-targets-and-dbt-for-data-engineering/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/05/comparing-rs-targets-and-dbt-for-data-engineering/</id>
-    <updated>2026-05-04T00:00:00Z</updated>
-    <summary type="text">I’m getting more and more into data engineering these days and having used R for a long time, I’m seeing a lot of problems that look nail-shaped to my R-shaped hammer. The available tools to solve those problems exist for (presumably) very good reasons, so I wanted to ... Continue reading: Comparing R’s {targets} and dbt for Data Engineering</summary>
-    <author><name>Jonathan Carroll</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Sightings</title>
-    <link href="https://simonwillison.net/2026/May/2/sightings/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/2/sightings/#atom-everything</id>
-    <updated>2026-05-02T17:26:40Z</updated>
-    <summary type="text">/elsewhere/sightings/ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of birds. I share my best wildlife photos on iNaturalist, and based on yesterday's successful prototype I decided to add those to my blog. I built this feature on my phone using Claude Code for web, as an extension of my beats system for syndicating external content. Here's the PR and prompt. As with my </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6</title>
-    <link href="https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images" rel="alternate"/>
-    <id>https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images</id>
-    <updated>2026-04-30T07:14:45Z</updated>
-    <summary type="text">ChatGPT’s new Images 2.0 model is surprisingly good at generating text , Alibaba Drops Qwen 3.6 Max Preview , SpaceX is working with Cursor</summary>
-    <author><name>Last Week in AI</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Codex CLI 0.128.0 adds /goal</title>
-    <link href="https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything</id>
-    <updated>2026-04-30T23:23:17Z</updated>
-    <summary type="text">Codex CLI 0.128.0 adds /goal The latest version of OpenAI's Codex CLI coding agent adds their own version of the Ralph loop: you can now set a /goal and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted. It looks like the feature is mainly implemented though the goals/continuation.md and goals/budget_limit.md prompts</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI models, Codex, and Managed Agents come to AWS</title>
-    <link href="https://openai.com/index/openai-on-aws" rel="alternate"/>
-    <id>https://openai.com/index/openai-on-aws</id>
-    <updated>2026-04-28T00:00:00Z</updated>
-    <summary type="text">OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>An open-source spec for orchestration: Symphony</title>
-    <link href="https://openai.com/index/open-source-codex-orchestration-symphony" rel="alternate"/>
-    <id>https://openai.com/index/open-source-codex-orchestration-symphony</id>
-    <updated>2026-04-27T00:00:00Z</updated>
-    <summary type="text">Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>LLM 0.32a0  is a major backwards-compatible refactor</title>
-    <link href="https://simonwillison.net/2026/Apr/29/llm/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Apr/29/llm/#atom-everything</id>
-    <updated>2026-04-29T19:01:47Z</updated>
-    <summary type="text">I just released LLM 0.32a0, an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get back a text response. import llm model = llm.get_model(&quot;gpt-5.5&quot;) response = model.prompt(&quot;Capital of F</summary>
-    <author><name>Simon Willison</name></author>
     <category term="llm"/>
   </entry>
 </feed>
