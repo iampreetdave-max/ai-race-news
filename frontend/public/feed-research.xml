@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-11T10:53:03Z</updated>
+  <updated>2026-05-12T10:24:30Z</updated>
+  <entry>
+    <title>Tilde Research Introduces Aurora: A Leverage-Aware Optimizer That Fixes a Hidden Neuron Death Problem in Muon</title>
+    <link href="https://www.marktechpost.com/2026/05/12/tilde-research-introduces-aurora-a-leverage-aware-optimizer-that-fixes-a-hidden-neuron-death-problem-in-muon/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/12/tilde-research-introduces-aurora-a-leverage-aware-optimizer-that-fixes-a-hidden-neuron-death-problem-in-muon/</id>
+    <updated>2026-05-12T08:07:28Z</updated>
+    <summary type="text">Researchers at Tilde Research have released Aurora, a new optimizer for training neural networks that addresses a structural flaw in the widely-used Muon optimizer. The flaw quietly kills off a significant fraction of MLP neurons during training and keeps them permanently dead. Aurora comes with a 1.1B parameter pretraining experiment, a new state-of-the-art result on […] The post Tilde Research I</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="research"/>
+    <category term="product-launch"/>
+  </entry>
   <entry>
     <title>Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in LLMs</title>
     <link href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/" rel="alternate"/>
@@ -13,6 +23,63 @@
     <summary type="text">Sakana AI and NVIDIA Researchers demonstrate that simple L1 regularization can induce over 99% sparsity in feedforward layers with negligible downstream performance impact, and translate that sparsity into real GPU throughput gains using new sparse data formats and fused CUDA kernels. The post Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in </summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer</title>
+    <link href="https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/" rel="alternate"/>
+    <id>https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/</id>
+    <updated>2026-05-11T12:46:12Z</updated>
+    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t regulate. There’s a third way: Radical Optionality:…Governments should invest in the tools now that they might need in a future crisis…Researchers with the Institute […]</summary>
+    <author><name>Jack Clark</name></author>
+    <category term="regulation"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models</title>
+    <link href="https://arxiv.org/abs/2605.10903v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.10903v1</id>
+    <updated>2026-05-11T17:41:54Z</updated>
+    <summary type="text">This paper proposes a novel approach to address the challenge that pretrained VLA models often fail to effectively improve performance and reduce adaptation costs during standard supervised finetuning (SFT). Some advanced finetuning methods with auxiliary training objectives can improve performance and reduce the number of convergence steps. However, they typically incur significant computational </summary>
+    <author><name>Haoang Li</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Masked Generative Transformer Is What You Need for Image Editing</title>
+    <link href="https://arxiv.org/abs/2605.10859v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.10859v1</id>
+    <updated>2026-05-11T17:05:52Z</updated>
+    <summary type="text">Diffusion models dominate image editing, yet their global denoising mechanism entangles edited regions with surrounding context, causing modifications to propagate into areas that should remain intact. We propose a fundamentally different approach by leveraging Masked Generative Transformers (MGTs), whose localized token-prediction paradigm naturally confines changes to intended regions. We presen</summary>
+    <author><name>Songhua Liu</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Transcoda: End-to-End Zero-Shot Optical Music Recognition via Data-Centric Synthetic Training</title>
+    <link href="https://arxiv.org/abs/2605.10835v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.10835v1</id>
+    <updated>2026-05-11T16:50:28Z</updated>
+    <summary type="text">Optical Music Recognition (OMR), the task of transcribing sheet music into a structured textual representation, is currently bottlenecked by a lack of large-scale, annotated datasets of real scans. This forces models to rely on either few-shot transfer or synthetic training pipelines that remain overly simplistic. A secondary challenge is encoding non-uniqueness: in the popular Humdrum **kern form</summary>
+    <author><name>Paul Swoboda</name></author>
+    <category term="hardware"/>
+    <category term="research"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>How can I check whether my paper follows the required ARR formatting before submission? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1taheqp/how_can_i_check_whether_my_paper_follows_the/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1taheqp/how_can_i_check_whether_my_paper_follows_the/</id>
+    <updated>2026-05-11T21:39:03Z</updated>
+    <summary type="text">Last cycle, one of my research paper was rejected because of formatting issues. I recently heard from someone that there may be a tool or software called something like “aclpubcheck” that can be used to check whether a manuscript follows the required submission format correctly. Does anyone know the exact name of this software or tool? Also, if there is no such reliable tool, what is the best way </summary>
+    <author><name>/u/Distinct_Relation129</name></author>
+  </entry>
+  <entry>
+    <title>A possible novel approach for training AI to invent</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1ta7shw/a_possible_novel_approach_for_training_ai_to/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1ta7shw/a_possible_novel_approach_for_training_ai_to/</id>
+    <updated>2026-05-11T16:07:00Z</updated>
+    <summary type="text">This was shower thinking and might not have academic ramifications. We don't know how to define amazing progress in terms of what we know, so it's hard for us to imagine training an AI to invent things. People regularly say that AIs can not come up with new ideas, with a counterargument that humans can barely come up with new things that aren't just rearrangings of old things as well. If you could</summary>
+    <author><name>/u/Big_Effective_9605</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Removing PER From Rainbow DQN Set a New Snake AI World Record</title>
@@ -100,32 +167,5 @@
     <category term="rag"/>
     <category term="research"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>‘Being human helps’: despite rise of AI is there still hope for Europe’s translators?</title>
-    <link href="https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators" rel="alternate"/>
-    <id>https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators</id>
-    <updated>2026-05-08T04:00:37Z</updated>
-    <summary type="text">A booming tech sector has disrupted translation jobs in publishing – but they could be needed for a while longer yetIn February 2022, while he was plugging away at rendering the US writer Dana Spiotta’s novel Wayward into French, the literary translator Yoann Gentric decided he needed a bit of light relief. He would test whether AI could put him out of work.Gentric had been grappling with a short </summary>
-    <author><name>Philip Oltermann European culture editor</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Getting harassed by an aggressive “independent researcher” demanding very specific citations and phrasing in my paper [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/</id>
-    <updated>2026-05-08T03:10:03Z</updated>
-    <summary type="text">Hey Reddit, I’m a researcher in a niche theoretical CS/ML area. Recently I’ve been dealing with repeated emails from an “independent researcher” that feel like straight-up citation harassment. This person keeps sending follow-ups (including involving editors) insisting I add multiple citations to his arXiv preprints. It’s not a normal “you should cite this” request — he provides exact suggested pa</summary>
-    <author><name>/u/snekslayer</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>ECCV reviewer wants me to compare and contrast to my own paper. [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/</id>
-    <updated>2026-05-07T15:36:41Z</updated>
-    <summary type="text">Bascially title. A reviewer found the arxiv of our paper, which is an older version, before we changed the title and name of the method for this submission. The results, figures and all that are the same minus some additions for the current version, a even small reading of what they are referncing should make it clear its the same paper by the same people. They use the very specific language of ou</summary>
-    <author><name>/u/_Pattern_Recognition</name></author>
-    <category term="research"/>
   </entry>
 </feed>
