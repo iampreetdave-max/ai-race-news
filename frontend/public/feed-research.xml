@@ -4,7 +4,37 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-13T10:13:49Z</updated>
+  <updated>2026-05-14T10:05:50Z</updated>
+  <entry>
+    <title>Fastino Labs Open-Sources GLiGuard: A 300M Parameter Safety Moderation Model That Matches or Exceeds Accuracy of Models 23–90x Its Size</title>
+    <link href="https://www.marktechpost.com/2026/05/13/fastino-labs-open-sources-gliguard-a-300m-parameter-safety-moderation-model-that-matches-or-exceeds-accuracy-of-models-23-90x-its-size/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/13/fastino-labs-open-sources-gliguard-a-300m-parameter-safety-moderation-model-that-matches-or-exceeds-accuracy-of-models-23-90x-its-size/</id>
+    <updated>2026-05-13T20:41:13Z</updated>
+    <summary type="text">Fastino Labs has released GLiGuard, a 300M parameter open-source safety moderation model that evaluates four safety tasks — prompt safety, jailbreak strategy detection, harm category classification, and refusal detection — in a single forward pass. Built on an encoder architecture rather than the decoder-only design used by most guardrail models, GLiGuard achieves up to 16x higher throughput and 1</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context</title>
+    <link href="https://arxiv.org/abs/2605.13831v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.13831v1</id>
+    <updated>2026-05-13T17:52:53Z</updated>
+    <summary type="text">Long-context modeling is becoming a core capability of modern large vision-language models (LVLMs), enabling sustained context management across long-document understanding, video analysis, and multi-turn tool use in agentic workflows. Yet practical training recipes remain insufficiently explored, particularly for designing and balancing long-context data mixtures. In this work, we present a syste</summary>
+    <author><name>Yangqiu Song</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>EvoGround: Self-Evolving Video Agents for Video Temporal Grounding</title>
+    <link href="https://arxiv.org/abs/2605.13803v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.13803v1</id>
+    <updated>2026-05-13T17:25:51Z</updated>
+    <summary type="text">Video temporal grounding (VTG) takes an untrimmed video and a natural-language query as input and localizes the temporal moment that best matches the query. Existing methods rely on large, task-specific datasets requiring costly manual annotation. We introduce EvoGround, a framework of two coupled self-evolving agents, a proposer and a solver, that learn temporal grounding from raw videos without </summary>
+    <author><name>Lorenzo Torresani</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Tilde Research Introduces Aurora: A Leverage-Aware Optimizer That Fixes a Hidden Neuron Death Problem in Muon</title>
     <link href="https://www.marktechpost.com/2026/05/12/tilde-research-introduces-aurora-a-leverage-aware-optimizer-that-fixes-a-hidden-neuron-death-problem-in-muon/" rel="alternate"/>
@@ -42,6 +72,15 @@
     <summary type="text">Sakana AI and NVIDIA Researchers demonstrate that simple L1 regularization can induce over 99% sparsity in feedforward layers with negligible downstream performance impact, and translate that sparsity into real GPU throughput gains using new sparse data formats and fused CUDA kernels. The post Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in </summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Have the &quot;on-hold&quot; durations been getting longer for arXiv submissions? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tc91ok/have_the_onhold_durations_been_getting_longer_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tc91ok/have_the_onhold_durations_been_getting_longer_for/</id>
+    <updated>2026-05-13T18:51:42Z</updated>
+    <summary type="text">I have a paper that has been &quot;on-hold&quot; for about 2 weeks now. I understand that it might take a little longer now because of inundation of AI generated low-effort papers but my papers have gone from &quot;on-hold&quot; to &quot;submitted&quot; within a couple of days in the past. Wondering if anyone else is facing the same issue. submitted by /u/Megixist [link] [comments]</summary>
+    <author><name>/u/Megixist</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer</title>
@@ -101,39 +140,5 @@
     <summary type="text">I think most people are using AI completely wrong. Right now everyone is using AI to generate infinite garbage: infinite blogs infinite tweets infinite SEO spam So this weekend I tried building something different. Instead of using AI as a content generator, I used it as a research moderation system. I built an automated pipeline for my Institute for AI Economics website that: scans real research </summary>
     <author><name>/u/houmanasefiau</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>My First Official AI Research Paper Accepted on SSRN</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tbht4h/my_first_official_ai_research_paper_accepted_on/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tbht4h/my_first_official_ai_research_paper_accepted_on/</id>
-    <updated>2026-05-12T23:04:46Z</updated>
-    <summary type="text">https://preview.redd.it/oz4vpoxdfs0h1.jpg?width=910&amp;format=pjpg&amp;auto=webp&amp;s=fa4c91aad0e3c56850fbfc06099e9c4095712bbd Today, my research paper “Stable Training with Adaptive Momentum (STAM)” was officially accepted on SSRN — marking my first documented and official publication as an AI Researcher. The paper introduces a new optimization algorithm for deep learning training that outperformed several</summary>
-    <author><name>/u/assemsabryy</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>How can I check whether my paper follows the required ARR formatting before submission? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1taheqp/how_can_i_check_whether_my_paper_follows_the/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1taheqp/how_can_i_check_whether_my_paper_follows_the/</id>
-    <updated>2026-05-11T21:39:03Z</updated>
-    <summary type="text">Last cycle, one of my research paper was rejected because of formatting issues. I recently heard from someone that there may be a tool or software called something like “aclpubcheck” that can be used to check whether a manuscript follows the required submission format correctly. Does anyone know the exact name of this software or tool? Also, if there is no such reliable tool, what is the best way </summary>
-    <author><name>/u/Distinct_Relation129</name></author>
-  </entry>
-  <entry>
-    <title>A possible novel approach for training AI to invent</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1ta7shw/a_possible_novel_approach_for_training_ai_to/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1ta7shw/a_possible_novel_approach_for_training_ai_to/</id>
-    <updated>2026-05-11T16:07:00Z</updated>
-    <summary type="text">This was shower thinking and might not have academic ramifications. We don't know how to define amazing progress in terms of what we know, so it's hard for us to imagine training an AI to invent things. People regularly say that AIs can not come up with new ideas, with a counterargument that humans can barely come up with new things that aren't just rearrangings of old things as well. If you could</summary>
-    <author><name>/u/Big_Effective_9605</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Removing PER From Rainbow DQN Set a New Snake AI World Record</title>
-    <link href="https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47" rel="alternate"/>
-    <id>https://dev.to/stat_phantom/removing-per-from-rainbow-dqn-set-a-new-snake-ai-world-record-1d47</id>
-    <updated>2026-05-09T08:32:53Z</updated>
-    <summary type="text">Greetings all! Quick context: this is part of an ongoing series where I'm building Rainbow DQN one component at a time on Snake and measuring what each piece actually does. The first post covered the encoding, the second covered a memory optimisation. This one is about the finding I've been teasing: which Rainbow component hurts performance on Snake. The answer is Prioritised Experience Replay (PE</summary>
-    <author><name>Stat Phantom</name></author>
   </entry>
 </feed>
