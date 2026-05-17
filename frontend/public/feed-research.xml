@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-16T09:21:16Z</updated>
+  <updated>2026-05-17T09:28:28Z</updated>
+  <entry>
+    <title>Research repository ArXiv will ban authors for a year if they let AI do all the work</title>
+    <link href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/</id>
+    <updated>2026-05-16T18:54:28Z</updated>
+    <summary type="text">ArXiv is doing more to crack down on the careless use of large language models in scientific papers.</summary>
+    <author><name>Anthony Ha</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>ArXiv will ban researchers who upload papers full of AI slop</title>
     <link href="https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers" rel="alternate"/>
@@ -34,6 +44,15 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/</id>
+    <updated>2026-05-16T08:30:00Z</updated>
+    <summary type="text">Anyone else surprised at the enormous amount of backlash against Arxiv's proposed 1 year ban for authors and coauthors publishing papers with hallucinated reference and other obvious LLM/Gen AI artifacts? https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 Some of the responses: &quot;This is the age of AI, Arxiv should be part of the movement</summary>
+    <author><name>/u/NeighborhoodFatCat</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Quantitative Video World Model Evaluation for Geometric-Consistency</title>
     <link href="https://arxiv.org/abs/2605.15185v1" rel="alternate"/>
     <id>https://arxiv.org/abs/2605.15185v1</id>
@@ -52,6 +71,26 @@
     <author><name>Zhiqiang Shen</name></author>
     <category term="research"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stanford studied 51 real AI deployments and found a 71% vs 40% productivity gap - here's what separates the two groups</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found/</id>
+    <updated>2026-05-15T22:37:32Z</updated>
+    <summary type="text">I came across a Stanford research paper that actually went inside companies running AI in production - not pilots, not surveys, real deployments. They found something that stuck with me. Companies using what they call &quot;agentic AI&quot; - where the AI owns the task start to finish with no human approval loop - are seeing 71% median productivity gains. Companies using standard AI that assists humans are </summary>
+    <author><name>/u/MaJoR_-_007</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/</id>
+    <updated>2026-05-15T17:21:21Z</updated>
+    <summary type="text">Paper: https://arxiv.org/abs/2605.12825 Code: https://github.com/chiennv2000/orthrus Disclosure: co-author. Idea: Inject a trainable diffusion attention module into each layer of a frozen AR Transformer. Both heads share one KV cache. Diffusion head projects K=32 tokens in parallel; AR head verifies in a second pass and accepts the longest matching prefix. Output distribution is provably identical</summary>
+    <author><name>/u/Franck_Dernoncourt</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context</title>
@@ -81,55 +120,5 @@
     <summary type="text">From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread): https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 &quot;Attention arXiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated. If gen</summary>
     <author><name>/u/Nunki08</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Tilde Research Introduces Aurora: A Leverage-Aware Optimizer That Fixes a Hidden Neuron Death Problem in Muon</title>
-    <link href="https://www.marktechpost.com/2026/05/12/tilde-research-introduces-aurora-a-leverage-aware-optimizer-that-fixes-a-hidden-neuron-death-problem-in-muon/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/12/tilde-research-introduces-aurora-a-leverage-aware-optimizer-that-fixes-a-hidden-neuron-death-problem-in-muon/</id>
-    <updated>2026-05-12T08:07:28Z</updated>
-    <summary type="text">Researchers at Tilde Research have released Aurora, a new optimizer for training neural networks that addresses a structural flaw in the widely-used Muon optimizer. The flaw quietly kills off a significant fraction of MLP neurons during training and keeps them permanently dead. Aurora comes with a 1.1B parameter pretraining experiment, a new state-of-the-art result on […] The post Tilde Research I</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="research"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Anthropic just published a pretty alarming 2028 AI scenario paper and it's not about AGI safety in the usual sense</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028/</id>
-    <updated>2026-05-14T19:53:12Z</updated>
-    <summary type="text">Anthropic dropped a new research paper today outlining two possible futures for global AI leadership by 2028, and it reads more like a geopolitical briefing than a typical AI safety paper. The core argument: The US currently has a meaningful lead over China in frontier AI, primarily because of compute (chips). American and allied companies (NVIDIA, TSMC, ASML, etc.) built technology China simply c</summary>
-    <author><name>/u/Direct-Attention8597</name></author>
-    <category term="hardware"/>
-    <category term="regulation"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>NVFP4 Kimi2.6 and Kimi 2.5 released by Nvidia</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tcxb77/nvfp4_kimi26_and_kimi_25_released_by_nvidia/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tcxb77/nvfp4_kimi26_and_kimi_25_released_by_nvidia/</id>
-    <updated>2026-05-14T12:53:45Z</updated>
-    <summary type="text">The NVIDIA Kimi-K2.6-NVFP4 model is the quantized version of the Moonshot AI's Kimi-K2.6 model, which is an auto-regressive language model that uses an optimized transformer architecture. For more information, please check here. The NVIDIA Kimi-K2.6 NVFP4 model is quantized with Model Optimizer. This model is ready for commercial/non-commercial use. The accuracy benchmark results are presented in </summary>
-    <author><name>/u/Opening-Broccoli9190</name></author>
-    <category term="hardware"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What recent study or paper about how AI changes our lives did you find the most interesting?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tcwf74/what_recent_study_or_paper_about_how_ai_changes/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tcwf74/what_recent_study_or_paper_about_how_ai_changes/</id>
-    <updated>2026-05-14T12:16:53Z</updated>
-    <summary type="text">Hi! My question is not so much about which new architecture or training advance has had the greatest impact on these models, but rather about how these models, and the way we interact with them, are changing how we think, work, and communicate with one another. I have noticed myself, for instance, that I rarely just google things anymore. Instead, I tend to rely on ChatGPT for research, because it</summary>
-    <author><name>/u/themoe_</name></author>
-  </entry>
-  <entry>
-    <title>AOI-SSL: Self-Supervised Framework for Efficient Segmentation of Wire-bonded Semiconductors In Optical Inspection</title>
-    <link href="https://arxiv.org/abs/2605.12430v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.12430v1</id>
-    <updated>2026-05-12T17:27:25Z</updated>
-    <summary type="text">Segmentation models in automated optical inspection of wire-bonded semiconductors are typically device-specific and must be re-trained when new devices or distribution shifts appear. We introduce AOI-SSL, a training-efficient framework for semantic segmentation of wire-bonded semiconductors by combining small-domain self-supervised pre-training of vision transformers with in-context inference that</summary>
-    <author><name>Egor Bondarev</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
   </entry>
 </feed>
