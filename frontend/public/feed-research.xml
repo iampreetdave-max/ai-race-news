@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-17T09:28:28Z</updated>
+  <updated>2026-05-18T11:37:54Z</updated>
+  <entry>
+    <title>NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon</title>
+    <link href="https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/</id>
+    <updated>2026-05-18T08:42:52Z</updated>
+    <summary type="text">NVIDIA introduces a 4-bit pretraining methodology built around the NVFP4 microscaling format — combining selective BF16 layers, 16×16 Random Hadamard Transforms on Wgrad inputs, 2D weight scaling, and stochastic rounding on gradients — validated on a 12B hybrid Mamba-Transformer trained on 10 trillion tokens, the longest publicly documented 4-bit pretraining run, with downstream accuracy closely t</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Research repository ArXiv will ban authors for a year if they let AI do all the work</title>
     <link href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/" rel="alternate"/>
@@ -14,6 +25,16 @@
     <author><name>Anthony Ha</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Luce DFlash + PFlash on 7900XTX: Qwen3.6-27B at 2.24x decode and 3.05x prefill vs llama.cpp HIP</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/</id>
+    <updated>2026-05-18T06:57:45Z</updated>
+    <summary type="text">Tested a bit on my XTX, a bit share hope helpful, thanks to Lucebox! Lucebox DFlash + PFlash PR #119 Reproduction Report (RX 7900 XTX) Hardware Environment Component Spec GPU AMD Radeon RX 7900 XTX (Navi 31, gfx1100) VRAM 24 GiB GDDR6 (~936 GB/s) System RAM 62 GiB DDR5 ROCm 7.1 OS Ubuntu 26.04, Linux 7.0.0-14-generic Benchmark Results Model: Qwen3.6-27B Q4_K_M (15.65 GiB) + Lucebox Q8_0 DFlash dra</summary>
+    <author><name>/u/Fit-Courage5400</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>ArXiv will ban researchers who upload papers full of AI slop</title>
@@ -32,6 +53,67 @@
     <summary type="text">Arxiv, the influential preprint server where researchers worldwide publish their work before formal peer review, is tightening its rules on AI-generated content. The article Arxiv cracks down on unchecked AI-generated content in research papers appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Would a new result in pre-print be considered by reviewers? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tg7qq3/would_a_new_result_in_preprint_be_considered_by/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tg7qq3/would_a_new_result_in_preprint_be_considered_by/</id>
+    <updated>2026-05-18T01:15:45Z</updated>
+    <summary type="text">So I have a bit of a weird question; suppose you were reviewing a paper. The paper is otherwise ok, but you notice that the authors left a giant elephant in the room unaddressed, either experiment wise or theoretical result wise. But then you become curious and you look up the paper to see if there is an arXiv version. You see that the authors did more than address the elephant in the preprint ver</summary>
+    <author><name>/u/confirm-jannati</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Benchmarking vLLM vs SGLang vs llama.cpp on a mixed Blackwell/Ada cluster</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tg4mw0/benchmarking_vllm_vs_sglang_vs_llamacpp_on_a/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tg4mw0/benchmarking_vllm_vs_sglang_vs_llamacpp_on_a/</id>
+    <updated>2026-05-17T22:57:54Z</updated>
+    <summary type="text">I have been running some benchmarks on a heterogeneous 7-GPU cluster to see how different inference engines handle long context prefill using pipeline parallelism. My setup consists of a mix of Blackwell and Ada cards: one RTX PRO 6000 96GB, one PRO 5000 48GB, two 5090 32GB, and three modded 4090 48GB. All tests were done using 4-bit weights, specifically NVFP4 for vLLM and SGLang, and MXFP4 for l</summary>
+    <author><name>/u/Temporary-Sector-947</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>M5 vs DGX Spark vs Strix Halo vs RTX 6000</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tfzsd6/m5_vs_dgx_spark_vs_strix_halo_vs_rtx_6000/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tfzsd6/m5_vs_dgx_spark_vs_strix_halo_vs_rtx_6000/</id>
+    <updated>2026-05-17T19:49:13Z</updated>
+    <summary type="text">Hey guys, super simple. There have been a lot of online debates about the new M5 Macs vs DGX Sparks vs Strix Halo vs dedicated GPUs etc. So I put them all in a room with good power and cooling and ran everything in parallel with standardized tests for the past 3 days, and published everything to a repo. A lot of it isn’t a big surprise when you just think about headline numbers and fundamentals. A</summary>
+    <author><name>/u/Signal_Ad657</name></author>
+    <category term="research"/>
+    <category term="data"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting</title>
+    <link href="https://arxiv.org/abs/2605.16065v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.16065v1</id>
+    <updated>2026-05-15T15:29:30Z</updated>
+    <summary type="text">3D Gaussian Splatting (3D-GS) enables real-time 3D scene reconstruction but lacks robust segmentation for editing tasks such as object removal, extraction, and recoloring. Existing approaches that lift 2D segmentations to the 3D domain suffer from view inconsistencies and coarse masks. In this paper, we propose a novel framework that leverages the Segment Anything Model High Quality (SAM-HQ) to ge</summary>
+    <author><name>Jean-Yves Guillemaut</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Flash-GRPO: Efficient Alignment for Video Diffusion via One-Step Policy Optimization</title>
+    <link href="https://arxiv.org/abs/2605.15980v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.15980v1</id>
+    <updated>2026-05-15T14:13:39Z</updated>
+    <summary type="text">Group Relative Policy Optimization has emerged as essential for aligning video diffusion models with human preferences, but faces a critical computational bottleneck: training a 14B parametered model typically demands hundreds of GPU days per experiment. Existing efficiency methods reduce costs through sliding window subsampling training timesteps, but fundamentally compromise optimization, exhibi</summary>
+    <author><name>Bohan Zhuang</name></author>
+    <category term="research"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Sparse Autoencoders enable Robust and Interpretable Fine-tuning of CLIP models</title>
+    <link href="https://arxiv.org/abs/2605.15961v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.15961v1</id>
+    <updated>2026-05-15T13:54:21Z</updated>
+    <summary type="text">Large-scale pre-trained vision-language models like CLIP demonstrate remarkable zero-shot performance across diverse tasks. However, fine-tuning these models to improve downstream performance often degrades robustness against distribution shifts. Recent approaches have attempted to mitigate this trade-off, but often rely on computationally expensive text-guidance. We propose a novel method for rob</summary>
+    <author><name>Seong Joon Oh</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Fastino Labs Open-Sources GLiGuard: A 300M Parameter Safety Moderation Model That Matches or Exceeds Accuracy of Models 23–90x Its Size</title>
@@ -90,35 +172,6 @@
     <author><name>/u/Franck_Dernoncourt</name></author>
     <category term="hardware"/>
     <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context</title>
-    <link href="https://arxiv.org/abs/2605.13831v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.13831v1</id>
-    <updated>2026-05-13T17:52:53Z</updated>
-    <summary type="text">Long-context modeling is becoming a core capability of modern large vision-language models (LVLMs), enabling sustained context management across long-document understanding, video analysis, and multi-turn tool use in agentic workflows. Yet practical training recipes remain insufficiently explored, particularly for designing and balancing long-context data mixtures. In this work, we present a syste</summary>
-    <author><name>Yangqiu Song</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>EvoGround: Self-Evolving Video Agents for Video Temporal Grounding</title>
-    <link href="https://arxiv.org/abs/2605.13803v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.13803v1</id>
-    <updated>2026-05-13T17:25:51Z</updated>
-    <summary type="text">Video temporal grounding (VTG) takes an untrimmed video and a natural-language query as input and localizes the temporal moment that best matches the query. Existing methods rely on large, task-specific datasets requiring costly manual annotation. We introduce EvoGround, a framework of two coupled self-evolving agents, a proposer and a solver, that learn temporal grounding from raw videos without </summary>
-    <author><name>Lorenzo Torresani</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/</id>
-    <updated>2026-05-15T02:44:10Z</updated>
-    <summary type="text">From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread): https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 &quot;Attention arXiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated. If gen</summary>
-    <author><name>/u/Nunki08</name></author>
     <category term="research"/>
   </entry>
 </feed>

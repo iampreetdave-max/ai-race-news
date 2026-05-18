@@ -4,7 +4,60 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-17T09:28:28Z</updated>
+  <updated>2026-05-18T11:37:54Z</updated>
+  <entry>
+    <title>Windows Secretly Ate 83GB of My Disk Space — The Hidden .db-wal File Nobody Talks About</title>
+    <link href="https://dev.to/dhaval_upadhyay_30f8292a8/windows-secretly-ate-83gb-of-my-disk-space-the-hidden-db-wal-file-nobody-talks-about-1blb" rel="alternate"/>
+    <id>https://dev.to/dhaval_upadhyay_30f8292a8/windows-secretly-ate-83gb-of-my-disk-space-the-hidden-db-wal-file-nobody-talks-about-1blb</id>
+    <updated>2026-05-18T11:27:15Z</updated>
+    <summary type="text">A few days ago my Windows PC had around 57GB free space. Suddenly it dropped to: 4GB free then 2GB free The weird part: I had not installed any new software no large downloads temp files cleanup barely recovered MBs At first I thought: Windows Update issue Docker issue browser cache restore points But the real culprit was something I had never seen before. How I Found the Problem I installed: WinD</summary>
+    <author><name>Dhaval Upadhyay</name></author>
+  </entry>
+  <entry>
+    <title>How to Make Your AI Agent Earn Real Money — Mercatai Integration Guide</title>
+    <link href="https://dev.to/jan_kachyna_ee6960fe62432/how-to-make-your-ai-agent-earn-real-money-mercatai-integration-guide-p28" rel="alternate"/>
+    <id>https://dev.to/jan_kachyna_ee6960fe62432/how-to-make-your-ai-agent-earn-real-money-mercatai-integration-guide-p28</id>
+    <updated>2026-05-18T11:25:55Z</updated>
+    <summary type="text">Your AI agent can write code, research topics, translate documents, and analyze data. But can it pay its own API bills? Now it can. Mercatai is a B2B marketplace where businesses post tasks and AI agents bid, complete the work, and get paid — automatically, in EUR, via SEPA. In this guide I'll show you how to connect a CrewAI or LangChain agent to Mercatai in under 10 minutes. How it works A busin</summary>
+    <author><name>Jan Kachyna</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Shipped: first MCP server for ISO 10012:2026 measurement uncertainty</title>
+    <link href="https://dev.to/kyb8801/shipped-first-mcp-server-for-iso-100122026-measurement-uncertainty-5350" rel="alternate"/>
+    <id>https://dev.to/kyb8801/shipped-first-mcp-server-for-iso-100122026-measurement-uncertainty-5350</id>
+    <updated>2026-05-18T11:22:15Z</updated>
+    <summary type="text">Spent 48 hours building a Model Context Protocol server for ISO 10012:2026 measurement uncertainty. 10 tools. JCGM 100:2008 plus 101:2008 compliant. Live on MCPize. Built for ISO/IEC 17025 calibration labs that spend hours in Excel on the same uncertainty math every month. The buyer is a QA manager whose audit is in six months, not an AI engineer. What it does Type A statistical uncertainty (Besse</summary>
+    <author><name>kyb8801</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Canary deployments with feature flags: reduce release risk without the infrastructure</title>
+    <link href="https://dev.to/flaggy/canary-deployments-with-feature-flags-reduce-release-risk-without-the-infrastructure-26nm" rel="alternate"/>
+    <id>https://dev.to/flaggy/canary-deployments-with-feature-flags-reduce-release-risk-without-the-infrastructure-26nm</id>
+    <updated>2026-05-18T11:22:03Z</updated>
+    <summary type="text">Canary deployments and feature flag rollouts solve the same problem at different layers. Here's how they actually work, when to use each, and how to combine them. A canary deployment releases a new version of your application to a small slice of users before rolling it out fully. If something breaks, you catch it at 5% of traffic instead of 100%. Feature flags solve the same problem at a different</summary>
+    <author><name>Flaggy</name></author>
+  </entry>
+  <entry>
+    <title>Greg Brockman consolidates OpenAI's product teams to build an &quot;agentic future&quot;</title>
+    <link href="https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/" rel="alternate"/>
+    <id>https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/</id>
+    <updated>2026-05-17T09:51:41Z</updated>
+    <summary type="text">OpenAI is merging ChatGPT, its coding agent Codex, and the developer API into a single product team led by Codex boss Thibault Sottiaux. The goal: a &quot;super app&quot; that also integrates the Atlas browser. Co-founder Greg Brockman officially takes over product strategy. The article Greg Brockman consolidates OpenAI's product teams to build an &quot;agentic future&quot; appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production</title>
+    <link href="https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/</id>
+    <updated>2026-05-16T17:59:09Z</updated>
+    <summary type="text">Running AI agents in a local script is straightforward. Running them reliably in production across teams, across restarts, with isolated environments per context is a different problem entirely. BerriAI, the company behind the LiteLLM AI Gateway, is now open-sourcing a purpose-built answer to that problem: the LiteLLM Agent Platform. The platform is described as a […] The post Meet LiteLLM Agent P</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>For $1.3 million a month, OpenClaw founder Peter Steinberger runs 100 AI agents that code, review PRs, and find bugs</title>
     <link href="https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/" rel="alternate"/>
@@ -51,6 +104,25 @@
     <summary type="text">Risk management is the #1 skill that separates profitable algorithmic traders from those who blow their accounts. You can have the world’s best entry signals, but without proper position sizing, stop losses, and drawdown controls, one bad streak will wipe you out. In this hands-on MQL5 tutorial, I’ll show you how to build a simple but powerful Risk Management Expert Advisor in under 50 lines of co</summary>
     <author><name>Algo Trading Bot</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Luce DFlash + PFlash on 7900XTX: Qwen3.6-27B at 2.24x decode and 3.05x prefill vs llama.cpp HIP</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/</id>
+    <updated>2026-05-18T06:57:45Z</updated>
+    <summary type="text">Tested a bit on my XTX, a bit share hope helpful, thanks to Lucebox! Lucebox DFlash + PFlash PR #119 Reproduction Report (RX 7900 XTX) Hardware Environment Component Spec GPU AMD Radeon RX 7900 XTX (Navi 31, gfx1100) VRAM 24 GiB GDDR6 (~936 GB/s) System RAM 62 GiB DDR5 ROCm 7.1 OS Ubuntu 26.04, Linux 7.0.0-14-generic Benchmark Results Model: Qwen3.6-27B Q4_K_M (15.65 GiB) + Lucebox Q8_0 DFlash dra</summary>
+    <author><name>/u/Fit-Courage5400</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgecrq/i_built_a_coding_agent_that_gets_87_on_benchmarks/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgecrq/i_built_a_coding_agent_that_gets_87_on_benchmarks/</id>
+    <updated>2026-05-18T06:38:11Z</updated>
+    <summary type="text">I was frustrated that every coding agent (OpenCode, Cursor, Claude Code) assumes you're running GPT-5.4 or Claude Opus. If you try them with a local model like Gemma or Qwen they fall apart. I find that often tool calls fail, context overflows, multi-step tasks collapse. So I built SmallCode. It's designed from the ground up for small local models. The result: 87/100 benchmark tasks pass with a Ge</summary>
+    <author><name>/u/Glittering_Focus1538</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Microsoft pulls Claude Code licenses and pushes developers back toward its own AI tool</title>
@@ -107,6 +179,15 @@
     <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
+    <title>Moving from Composer 2/Kimi 2.6 to Qwen3.6:35b-a3b</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tfxah9/moving_from_composer_2kimi_26_to_qwen3635ba3b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tfxah9/moving_from_composer_2kimi_26_to_qwen3635ba3b/</id>
+    <updated>2026-05-17T18:18:04Z</updated>
+    <summary type="text">I can't believe it, but I'm able to do my daily software development work on this model. We have a 500-700k line of code enterprise software suite that I'm devving for 60 hours a week. I've been hunting for a cursor replacement for a little bit now, and was previously toying with Kimi 2.6 and deepseek 4 pro and flash. There are some minor issues I've had with each of those, and Q3.6:35b-a3b actual</summary>
+    <author><name>/u/NotARedditUser3</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Sea's View on the Future of Agentic Software Development with Codex</title>
     <link href="https://openai.com/index/sea-david-chen" rel="alternate"/>
     <id>https://openai.com/index/sea-david-chen</id>
@@ -114,6 +195,16 @@
     <summary type="text">Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>For Both Enterprise AI and Reaching ASI, Artificial Narrow Superintelligence, or ANSI, Gets Us There Faster and More Efficiently</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tfqeqk/for_both_enterprise_ai_and_reaching_asi/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tfqeqk/for_both_enterprise_ai_and_reaching_asi/</id>
+    <updated>2026-05-17T14:01:52Z</updated>
+    <summary type="text">​ Anthropic just released Claude for Legal and Claude for Financial Services .Google DeepMind just released AI Co-Clinician. A while back OpenAI released Codex. Also a while back Sakana AI released AI Scientist. What's notable about all of these models is that they excel at just one task or group of tasks within a specialized domain. Unlike frontier generalist models, they don't try to be everythi</summary>
+    <author><name>/u/andsi2asi</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Cline Releases Cline SDK: An Open-Source Agent Runtime Now Powering Its CLI and Kanban, With IDE Extensions Being Migrated</title>
@@ -358,75 +449,6 @@
     <summary type="text">Google DeepMind researchers have outlined four interaction principles and released experimental demos of an AI-enabled mouse pointer powered by Gemini — one that captures the visual and semantic context around the cursor so users can point, speak in natural shorthand, and get things done without switching to a separate AI window. The post Google DeepMind Introduces an AI-Enabled Mouse Pointer Powe</summary>
     <author><name>Michal Sutter</name></author>
     <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Implementing Evaluator Optimizer Loops for Autonomous Data Governance in Self Healing Pipelines</title>
-    <link href="https://hackernoon.com/implementing-evaluator-optimizer-loops-for-autonomous-data-governance-in-self-healing-pipelines?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/implementing-evaluator-optimizer-loops-for-autonomous-data-governance-in-self-healing-pipelines?source=rss</id>
-    <updated>2026-05-14T02:09:41Z</updated>
-    <summary type="text">Traditional data pipelines are breaking under the pressure of unstructured AI data. We solved the reliability gap by moving from linear ETL to Self-Healing Pipelines powered by Evaluator-Optimizer loops. By embedding an independent &quot;Data Auditor&quot; into the flow and enforcing a recursive feedback loop, we created a system that identifies and fixes its own logical hallucinations. This pivot toward Au</summary>
-    <author><name>Abhilash Pakalapati</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context</title>
-    <link href="https://arxiv.org/abs/2605.13831v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.13831v1</id>
-    <updated>2026-05-13T17:52:53Z</updated>
-    <summary type="text">Long-context modeling is becoming a core capability of modern large vision-language models (LVLMs), enabling sustained context management across long-document understanding, video analysis, and multi-turn tool use in agentic workflows. Yet practical training recipes remain insufficiently explored, particularly for designing and balancing long-context data mixtures. In this work, we present a syste</summary>
-    <author><name>Yangqiu Song</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Used over a million tokens in three separate sessions to test Qwen 3.6 35b (new Multi-token Prediction version)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tdns1i/used_over_a_million_tokens_in_three_separate/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tdns1i/used_over_a_million_tokens_in_three_separate/</id>
-    <updated>2026-05-15T06:20:08Z</updated>
-    <summary type="text">In my opinion, MTP models are 100% game changer for local LLMs. In terms of speed, I was getting around 1.5x the tok/sec of previous tests. The project was a test - building a full iterative step-by-step pygame; a small mystery dungeon-style game. At first I set 100-200k context and raised it to 300k. This is at KV Q8_0 quant. Edit: I was wrong, I had mistakenly left it at q4_0. I will redo tests </summary>
-    <author><name>/u/Jorlen</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why is AI training still so unfriendly for normal users?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tdktbt/why_is_ai_training_still_so_unfriendly_for_normal/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tdktbt/why_is_ai_training_still_so_unfriendly_for_normal/</id>
-    <updated>2026-05-15T03:50:20Z</updated>
-    <summary type="text">Genuine question. Why does almost every AI training setup still feel extremely engineer-focused? Most tools I’ve tried expect people to already understand things like: CUDA VRAM LoRA settings Docker dependency issues quantization optimizers terminal commands training configs Even simple fine-tuning workflows become confusing fast. I’ve been thinking a lot about whether there’s room for a much more</summary>
-    <author><name>/u/Raman606surrey</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>[Tutorial] Fine-Tuning Qwen3.5</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tdgmth/tutorial_finetuning_qwen35/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tdgmth/tutorial_finetuning_qwen35/</id>
-    <updated>2026-05-15T00:42:07Z</updated>
-    <summary type="text">Fine-Tuning Qwen3.5 https://debuggercafe.com/fine-tuning-qwen3-5/ In this article, we will fine-tune the Qwen3.5 model for a custom use case. Specifically, we will be fine-tuning the Qwen3.5-0.8B model on the VQA-RAD dataset. In the previous article, we introduced the Qwen3.5 model family along with inference for several multimodal tasks. Here, we will take it a step further by adapting the model </summary>
-    <author><name>/u/sovit-123</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I use Claude Code to dispatch agent tasks from a Supabase queue table</title>
-    <link href="https://dev.to/domoniqueluchin/how-i-use-claude-code-to-dispatch-agent-tasks-from-a-supabase-queue-table-29jp" rel="alternate"/>
-    <id>https://dev.to/domoniqueluchin/how-i-use-claude-code-to-dispatch-agent-tasks-from-a-supabase-queue-table-29jp</id>
-    <updated>2026-05-13T10:00:02Z</updated>
-    <summary type="text">I run 6 AI-powered businesses from a single Vultr VPS. Each business needs different types of agents - some handle customer calls, others process documents, and a few manage data workflows. The challenge? Coordinating all these agents without chaos. My solution: a Supabase queue table that feeds tasks to Claude-powered dispatchers. Here's exactly how I built it. The Queue Table Structure First, I </summary>
-    <author><name>Domonique Luchin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Every AI coding assistant is shipping the same security bugs.</title>
-    <link href="https://dev.to/a-leks/every-ai-coding-assistant-is-shipping-the-same-security-bugs-25oi" rel="alternate"/>
-    <id>https://dev.to/a-leks/every-ai-coding-assistant-is-shipping-the-same-security-bugs-25oi</id>
-    <updated>2026-05-13T09:38:01Z</updated>
-    <summary type="text">*Not a promo.. I mean why would anyone promote something free, actually looking to get some contributors to help us seal sone holes of ai-coded products and encourage founders of ai-written products to respect security and privacy. * So, here it goes.. Nowadays many of us are building with Claude Code, Copilot, Cursor, Codex, Gemini, or any AI coding assistant, this is worth running against your p</summary>
-    <author><name>Aleksei</name></author>
-    <category term="open-source"/>
     <category term="llm"/>
   </entry>
 </feed>
