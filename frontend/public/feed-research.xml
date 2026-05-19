@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-18T11:37:54Z</updated>
+  <updated>2026-05-19T10:54:09Z</updated>
   <entry>
     <title>NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon</title>
     <link href="https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/" rel="alternate"/>
@@ -17,6 +17,53 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment</title>
+    <link href="https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/" rel="alternate"/>
+    <id>https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/</id>
+    <updated>2026-05-18T13:31:17Z</updated>
+    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet:…Fast16 bugs software likely used in weapons programs…Here’s a fascinating investigation of a ~20+ year old computer virus called fast16.sys. This software is interesting […]</summary>
+    <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop</title>
+    <link href="https://arxiv.org/abs/2605.18746v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.18746v1</id>
+    <updated>2026-05-18T17:59:02Z</updated>
+    <summary type="text">Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - occluded structure, dynamics, containment, and functionality that cannot be resolved from passive sensing alone. We move beyond prior formulations of s</summary>
+    <author><name>Yejin Choi</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Spectral Progressive Diffusion for Efficient Image and Video Generation</title>
+    <link href="https://arxiv.org/abs/2605.18736v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.18736v1</id>
+    <updated>2026-05-18T17:55:39Z</updated>
+    <summary type="text">Diffusion models have been shown to implicitly generate visual content autoregressively in the frequency domain, where low-frequency components are generated earlier in the denoising process while high-frequency details emerge only in later timesteps. This structure offers a natural opportunity for efficient generation, as high-resolution computation on noise-dominated frequencies is largely redun</summary>
+    <author><name>Gordon Wetzstein</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>EgoExoMem: Cross-View Memory Reasoning over Synchronized Egocentric and Exocentric Videos</title>
+    <link href="https://arxiv.org/abs/2605.18734v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.18734v1</id>
+    <updated>2026-05-18T17:54:55Z</updated>
+    <summary type="text">Egocentric memory is widely used in embodied intelligence, but it may be insufficient for comprehensive spatial-temporal reasoning. Inspired by human recall from both field and observer perspectives, we introduce EgoExoMem, the first benchmark for cross-view memory reasoning over synchronized egocentric and exocentric videos. EgoExoMem contains $2.6K$ high-quality MCQs across eight temporal, spati</summary>
+    <author><name>Rainer Stiefelhagen</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>A Large-Scale Study on the Accuracy vs Cost Trade-offs of Training and Evaluation Settings in Fine-Grained Image Recognition</title>
+    <link href="https://arxiv.org/abs/2605.18700v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.18700v1</id>
+    <updated>2026-05-18T17:36:30Z</updated>
+    <summary type="text">Prior work on fine-grained image recognition (FGIR) has established the importance of the backbone selection, but has neglected the accuracy-vs-cost trade-offs under different training and evaluation settings. In this work we conduct a large-scale study with over 2000 experiments across 6 training and evaluation settings, 9 pretrained backbones, and 17 datasets. Preliminary observations on the eff</summary>
+    <author><name>Min-Chun Hu</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Research repository ArXiv will ban authors for a year if they let AI do all the work</title>
     <link href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/" rel="alternate"/>
     <id>https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/</id>
@@ -25,6 +72,28 @@
     <author><name>Anthony Ha</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves performance [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/</id>
+    <updated>2026-05-18T13:44:05Z</updated>
+    <summary type="text">World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCun's group at NYU, achieves stable end-to-end JEPA training by enforcing an isotropic Gaussian prior over the full latent space. The flaw: real environment dynamics live on low-dimensional manifolds, so a global high-dimensional Gaussian is an overly rigid prior — mismatched to</summary>
+    <author><name>/u/kai-zhao</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Reviving PapersWithCode (by Hugging Face) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/</id>
+    <updated>2026-05-18T13:37:11Z</updated>
+    <summary type="text">Hi, Niels here from the open-source team at Hugging Face. Like many others, I was a huge fan of paperswithcode. Sadly, that website is no longer maintained after its acquisition by Meta. Hence, I've been working on reviving it. I obviously use AI agents to parse papers at scale and automatically generate leaderboards (for now I'm the one verifying results). So far, I've only parsed high-impact pap</summary>
+    <author><name>/u/NielsRogge</name></author>
+    <category term="rag"/>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Luce DFlash + PFlash on 7900XTX: Qwen3.6-27B at 2.24x decode and 3.05x prefill vs llama.cpp HIP</title>
@@ -114,64 +183,5 @@
     <category term="research"/>
     <category term="computer-vision"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Fastino Labs Open-Sources GLiGuard: A 300M Parameter Safety Moderation Model That Matches or Exceeds Accuracy of Models 23–90x Its Size</title>
-    <link href="https://www.marktechpost.com/2026/05/13/fastino-labs-open-sources-gliguard-a-300m-parameter-safety-moderation-model-that-matches-or-exceeds-accuracy-of-models-23-90x-its-size/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/13/fastino-labs-open-sources-gliguard-a-300m-parameter-safety-moderation-model-that-matches-or-exceeds-accuracy-of-models-23-90x-its-size/</id>
-    <updated>2026-05-13T20:41:13Z</updated>
-    <summary type="text">Fastino Labs has released GLiGuard, a 300M parameter open-source safety moderation model that evaluates four safety tasks — prompt safety, jailbreak strategy detection, harm category classification, and refusal detection — in a single forward pass. Built on an encoder architecture rather than the decoder-only design used by most guardrail models, GLiGuard achieves up to 16x higher throughput and 1</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/</id>
-    <updated>2026-05-16T08:30:00Z</updated>
-    <summary type="text">Anyone else surprised at the enormous amount of backlash against Arxiv's proposed 1 year ban for authors and coauthors publishing papers with hallucinated reference and other obvious LLM/Gen AI artifacts? https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 Some of the responses: &quot;This is the age of AI, Arxiv should be part of the movement</summary>
-    <author><name>/u/NeighborhoodFatCat</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Quantitative Video World Model Evaluation for Geometric-Consistency</title>
-    <link href="https://arxiv.org/abs/2605.15185v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.15185v1</id>
-    <updated>2026-05-14T17:59:04Z</updated>
-    <summary type="text">Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on human judgment or learned graders, which can be subjective and weakly diagnostic for geometric failures. We introduce PDI-Bench (Perspective Distortion Index), a quan</summary>
-    <author><name>Xueyan Zou</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>On the Cultural Anachronism and Temporal Reasoning in Vision Language Models</title>
-    <link href="https://arxiv.org/abs/2605.15071v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.15071v1</id>
-    <updated>2026-05-14T16:58:16Z</updated>
-    <summary type="text">Vision-Language Models (VLMs) are increasingly applied to cultural heritage materials, from digital archives to educational platforms. This work identifies a fundamental issue in how these models interpret historical artifacts. We define this phenomenon as cultural anachronism, the tendency to misinterpret historical objects using temporally inappropriate concepts, materials, or cultural framework</summary>
-    <author><name>Zhiqiang Shen</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stanford studied 51 real AI deployments and found a 71% vs 40% productivity gap - here's what separates the two groups</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found/</id>
-    <updated>2026-05-15T22:37:32Z</updated>
-    <summary type="text">I came across a Stanford research paper that actually went inside companies running AI in production - not pilots, not surveys, real deployments. They found something that stuck with me. Companies using what they call &quot;agentic AI&quot; - where the AI owns the task start to finish with no human approval loop - are seeing 71% median productivity gains. Companies using standard AI that assists humans are </summary>
-    <author><name>/u/MaJoR_-_007</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/</id>
-    <updated>2026-05-15T17:21:21Z</updated>
-    <summary type="text">Paper: https://arxiv.org/abs/2605.12825 Code: https://github.com/chiennv2000/orthrus Disclosure: co-author. Idea: Inject a trainable diffusion attention module into each layer of a frozen AR Transformer. Both heads share one KV cache. Diffusion head projects K=32 tokens in parallel; AR head verifies in a second pass and accepts the longest matching prefix. Output distribution is provably identical</summary>
-    <author><name>/u/Franck_Dernoncourt</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-    <category term="research"/>
   </entry>
 </feed>
