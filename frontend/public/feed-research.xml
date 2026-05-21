@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-20T10:42:05Z</updated>
+  <updated>2026-05-21T10:59:15Z</updated>
   <entry>
     <title>Alibaba Qwen Team Introduces Qwen3.5-LiveTranslate-Flash: Real-Time Multimodal Interpretation Across 60 Languages at 2.8-Second Latency</title>
     <link href="https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/" rel="alternate"/>
@@ -15,6 +15,25 @@
     <category term="research"/>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>ReMATF: Recurrent Motion-Adaptive Multi-scale Turbulence Mitigation for Dynamic Scenes</title>
+    <link href="https://arxiv.org/abs/2605.21440v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.21440v1</id>
+    <updated>2026-05-20T17:28:49Z</updated>
+    <summary type="text">Atmospheric turbulence severely degrades video quality by introducing distortions such as geometric warping, blur, and temporal flickering, posing significant challenges to both visual clarity and temporal consistency. Current state-of-the-art methods are based on transformer, 3D architectures and require multi-frame input, but their large computational cost and memory usage limit real-time deploy</summary>
+    <author><name>Nantheera Anantrasirichai</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Ordering Matters: Rank-Aware Selective Fusion for Blended Emotion Recognition</title>
+    <link href="https://arxiv.org/abs/2605.21417v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.21417v1</id>
+    <updated>2026-05-20T17:12:55Z</updated>
+    <summary type="text">Blended emotion recognition is challenging because emotions are often expressed as mixtures of subtle and overlapping multimodal cues rather than a single dominant signal. We propose a rank-aware multi-encoder framework that selectively combines complementary representations from diverse pre-extracted video and audio encoders. Our method projects heterogeneous encoder features into a shared latent</summary>
+    <author><name>Junhyug Noh</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>NestJS vs Fastify vs Express: Which Backend Wins in 2026</title>
@@ -55,6 +74,16 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>Conformalized TabICL: Prediction Intervals for a State-Of-The-Art Tabular Foundation Model in Python and R</title>
+    <link href="https://www.r-bloggers.com/2026/05/conformalized-tabicl-prediction-intervals-for-a-state-of-the-art-tabular-foundation-model-in-python-and-r/" rel="alternate"/>
+    <id>https://www.r-bloggers.com/2026/05/conformalized-tabicl-prediction-intervals-for-a-state-of-the-art-tabular-foundation-model-in-python-and-r/</id>
+    <updated>2026-05-21T00:00:00Z</updated>
+    <summary type="text">Prediction Intervals for Tabular Regression in Python and R via Conformalized TabICL; comparison with RidgeCV Continue reading: Conformalized TabICL: Prediction Intervals for a State-Of-The-Art Tabular Foundation Model in Python and R</summary>
+    <author><name>T. Moudiki</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon</title>
     <link href="https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/</id>
@@ -62,6 +91,16 @@
     <summary type="text">NVIDIA introduces a 4-bit pretraining methodology built around the NVFP4 microscaling format — combining selective BF16 layers, 16×16 Random Hadamard Transforms on Wgrad inputs, 2D weight scaling, and stochastic rounding on gradients — validated on a 12B hybrid Mamba-Transformer trained on 10 trillion tokens, the longest publicly documented 4-bit pretraining run, with downstream accuracy closely t</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="product-launch"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Qwen 3.6 35B GGUF: NTP vs MTP quantization results across GPUs and CPUs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tipihx/qwen_36_35b_gguf_ntp_vs_mtp_quantization_results/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tipihx/qwen_36_35b_gguf_ntp_vs_mtp_quantization_results/</id>
+    <updated>2026-05-20T15:42:29Z</updated>
+    <summary type="text">Hey r/LocalLLaMA, We’ve released our ByteShape Qwen 3.6 35B GGUF quantizations in two families: standard NTP (Next Token Prediction or non-MTP) and MTP. Blog / Download NTP Models / Download MTP Models TL;DR For NTP, “pick the largest quant that fits” worked surprisingly well. Lower bpw was not automatically better: our largest model was very hard to beat on quality/speed, including prompt process</summary>
+    <author><name>/u/enrique-byteshape</name></author>
     <category term="llm"/>
     <category term="hardware"/>
   </entry>
@@ -151,47 +190,5 @@
     <summary type="text">https://preview.redd.it/rajj11v7j42h1.png?width=1744&amp;format=png&amp;auto=webp&amp;s=72381de22a9bac4b30a59498d549bb09df075df3 Hey, it's loubna from Hugging Face. Very happy to share our latest release: Carbon 🧬, a family of open DNA foundation models. Carbon-3B matches the current SOTA (Evo2-7B) while being 275x faster. We borrowed a lot from how modern LLMs are trained and from our SmolLM work, but DNA is</summary>
     <author><name>/u/loubnabnl</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Research repository ArXiv will ban authors for a year if they let AI do all the work</title>
-    <link href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/</id>
-    <updated>2026-05-16T18:54:28Z</updated>
-    <summary type="text">ArXiv is doing more to crack down on the careless use of large language models in scientific papers.</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves performance [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/</id>
-    <updated>2026-05-18T13:44:05Z</updated>
-    <summary type="text">World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCun's group at NYU, achieves stable end-to-end JEPA training by enforcing an isotropic Gaussian prior over the full latent space. The flaw: real environment dynamics live on low-dimensional manifolds, so a global high-dimensional Gaussian is an overly rigid prior — mismatched to</summary>
-    <author><name>/u/kai-zhao</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Reviving PapersWithCode (by Hugging Face) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/</id>
-    <updated>2026-05-18T13:37:11Z</updated>
-    <summary type="text">Hi, Niels here from the open-source team at Hugging Face. Like many others, I was a huge fan of paperswithcode. Sadly, that website is no longer maintained after its acquisition by Meta. Hence, I've been working on reviving it. I obviously use AI agents to parse papers at scale and automatically generate leaderboards (for now I'm the one verifying results). So far, I've only parsed high-impact pap</summary>
-    <author><name>/u/NielsRogge</name></author>
-    <category term="rag"/>
-    <category term="computer-vision"/>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Luce DFlash + PFlash on 7900XTX: Qwen3.6-27B at 2.24x decode and 3.05x prefill vs llama.cpp HIP</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/</id>
-    <updated>2026-05-18T06:57:45Z</updated>
-    <summary type="text">Tested a bit on my XTX, a bit share hope helpful, thanks to Lucebox! Lucebox DFlash + PFlash PR #119 Reproduction Report (RX 7900 XTX) Hardware Environment Component Spec GPU AMD Radeon RX 7900 XTX (Navi 31, gfx1100) VRAM 24 GiB GDDR6 (~936 GB/s) System RAM 62 GiB DDR5 ROCm 7.1 OS Ubuntu 26.04, Linux 7.0.0-14-generic Benchmark Results Model: Qwen3.6-27B Q4_K_M (15.65 GiB) + Lucebox Q8_0 DFlash dra</summary>
-    <author><name>/u/Fit-Courage5400</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
   </entry>
 </feed>

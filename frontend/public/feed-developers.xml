@@ -4,7 +4,68 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-20T10:42:05Z</updated>
+  <updated>2026-05-21T10:59:15Z</updated>
+  <entry>
+    <title>Add a Specialized Deep Research Skill to Agent Harnesses</title>
+    <link href="https://developer.nvidia.com/blog/add-a-specialized-deep-research-skill-to-agent-harnesses/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/add-a-specialized-deep-research-skill-to-agent-harnesses/</id>
+    <updated>2026-05-20T16:00:00Z</updated>
+    <summary type="text">Agent harnesses like Claude Code, Codex, and LangChain Deep Agents are excellent orchestrators. They manage sessions, chain tools, execute code, and respond to...</summary>
+    <author><name>William Markito Oliveira</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Deepseek wants to take on Claude Code and OpenAI's Codex with &quot;Deepseek Code&quot;</title>
+    <link href="https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/" rel="alternate"/>
+    <id>https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/</id>
+    <updated>2026-05-20T18:48:47Z</updated>
+    <summary type="text">Deepseek is building a new team in Beijing to develop its own AI code agent, working title &quot;Deepseek Code,&quot; a direct competitor to Claude Code, Codex, and Cursor. Applicants should know agent loops, MCP, and context engineering and be heavy users of existing coding tools. The article Deepseek wants to take on Claude Code and OpenAI's Codex with &quot;Deepseek Code&quot; appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>PostgreSQL backup tool Databasus released backup verification in real database Docker containers</title>
+    <link href="https://dev.to/declan_letoy/databasus-released-backup-verification-in-real-database-docker-containers-1p3b" rel="alternate"/>
+    <id>https://dev.to/declan_letoy/databasus-released-backup-verification-in-real-database-docker-containers-1p3b</id>
+    <updated>2026-05-21T10:42:07Z</updated>
+    <summary type="text">Databasus just shipped restore verification. The idea behind it is short. A backup job that ends with &quot;success&quot; only proves the dump command ran. It does not prove you can restore the file it produced. Restore verification closes that gap. It takes your latest backup, restores it into a throwaway database container and checks that the data actually came back. Databasus is the most widely used tool</summary>
+    <author><name>Declan Leroy</name></author>
+  </entry>
+  <entry>
+    <title>Debugging Multi Agent Memory Loss in Long Running Pipelines</title>
+    <link href="https://hackernoon.com/debugging-multi-agent-memory-loss-in-long-running-pipelines?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/debugging-multi-agent-memory-loss-in-long-running-pipelines?source=rss</id>
+    <updated>2026-05-21T05:30:50Z</updated>
+    <summary type="text">Long-running AI agents often experience &quot;Agentic Amnesia,&quot; losing their train of thought over extended execution windows. This failure occurs because standard frameworks rely on naive context truncation and lossy LLM-driven summaries that delete critical historical details. We address this bottleneck by decoupling memory from the active model context window and implementing a Tri-Tier Memory Archi</summary>
+    <author><name>Abhilash Pakalapati</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How Ramp engineers accelerate code review with Codex</title>
+    <link href="https://openai.com/index/ramp" rel="alternate"/>
+    <id>https://openai.com/index/ramp</id>
+    <updated>2026-05-20T00:00:00Z</updated>
+    <summary type="text">How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Driftvane Spots Broken RAG Pipelines Before Users Do</title>
+    <link href="https://hackernoon.com/driftvane-spots-broken-rag-pipelines-before-users-do?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/driftvane-spots-broken-rag-pipelines-before-users-do?source=rss</id>
+    <updated>2026-05-21T04:46:03Z</updated>
+    <summary type="text">Driftvane is an MIT Python library that detects embedding, retrieval, response, and latency drift in RAG pipelines before users complain.Read All</summary>
+    <author><name>Mukunda Rao Katta</name></author>
+  </entry>
+  <entry>
+    <title>This Free VS Code Extension Shows Where Your Claude Code Tokens Are Going</title>
+    <link href="https://hackernoon.com/this-free-vs-code-extension-shows-where-your-claude-code-tokens-are-going?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/this-free-vs-code-extension-shows-where-your-claude-code-tokens-are-going?source=rss</id>
+    <updated>2026-05-21T04:04:42Z</updated>
+    <summary type="text">Learn how to effectively monitor your Claude Code sessions and token usage. Keep track of your terminal processes and maximize your development efficiency.Read All</summary>
+    <author><name>GloryXGame</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Goldman Sachs on data in the age of AI</title>
     <link href="https://www.bloomberg.com/news/videos/2026-05-19/goldman-sachs-on-data-in-the-age-of-ai-video" rel="alternate"/>
@@ -13,15 +74,6 @@
     <summary type="text">Neema Raphael, Chief Data Officer &amp; Head of Data Engineering, Goldman Sachs discusses the importance of data in the age of AI with Bloomberg's Lisa Mateo at the Building an AI Future-Ready Business event. (Source: Bloomberg)</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>SpaceX Is Planning to Buy Startup Cursor 30 Days After IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-05-19/spacex-is-said-to-plan-to-buy-startup-cursor-30-days-after-ipo" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-05-19/spacex-is-said-to-plan-to-buy-startup-cursor-30-days-after-ipo</id>
-    <updated>2026-05-19T21:51:26Z</updated>
-    <summary type="text">SpaceX expects to proceed with its acquisition of artificial intelligence coding startup Cursor 30 days after Elon Musk’s company begins trading publicly, according to people familiar with the matter.</summary>
-    <author><name>Natasha Mascarenhas, Rachel Metz</name></author>
-    <category term="funding"/>
   </entry>
   <entry>
     <title>Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.</title>
@@ -111,6 +163,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>The more I try the new Gemini the more I appreciate ChatGPT with how is it insanely good.</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tjcjdu/the_more_i_try_the_new_gemini_the_more_i/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tjcjdu/the_more_i_try_the_new_gemini_the_more_i/</id>
+    <updated>2026-05-21T06:58:33Z</updated>
+    <summary type="text">I have paid subscriptions to both and use the extended features of both. With the recent release of different Gemini products, I tried using the new Gemini for coding, but when I tried to give it task to refresh the visual look of my web app with a different theme, it broke the core function of my web app. I tried using Codex with the same prompt and it did it perfectly. Then I tried Gemini's inte</summary>
+    <author><name>/u/severe_009</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments</title>
     <link href="https://openai.com/index/dell-codex-enterprise-partnership" rel="alternate"/>
     <id>https://openai.com/index/dell-codex-enterprise-partnership</id>
@@ -127,6 +188,16 @@
     <summary type="text">Want to level up your data engineering toolkit? Here are some Python libraries that'll make your pipelines faster, cleaner, and easier to maintain.</summary>
     <author><name>Bala Priya C</name></author>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>How can you stop your model from looping</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tj6d4r/how_can_you_stop_your_model_from_looping/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tj6d4r/how_can_you_stop_your_model_from_looping/</id>
+    <updated>2026-05-21T02:00:26Z</updated>
+    <summary type="text">So i thought this is a small model issue but when i added a new gpu and i am able to run low mid model like Qwen 3.6 35b q4 or q5 this issue still exists now its not as much as small model but it does break when linking the model to copilot chat or Hermes the model mid task will start loop thinking or looping generating more than 40k token or generating a wrong tool call submitted by /u/chocofoxy </summary>
+    <author><name>/u/chocofoxy</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>How to Build a Conversational Agent With Context Awareness</title>
@@ -225,158 +296,6 @@
     <updated>2026-05-19T21:44:18Z</updated>
     <summary type="text">This is really just a post for those with shallow understanding of all this stuff, those not yet ready or capable of diving into the deeper end of vibe coding/llms. It might not be a helpful post for anyone more advanced than that. I have been working on a Python Pygame project for about two months. It is now sitting at roughly 30k lines of code across 55 modules. I have been using Visual Studio C</summary>
     <author><name>/u/sooki10</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production</title>
-    <link href="https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/</id>
-    <updated>2026-05-16T17:59:09Z</updated>
-    <summary type="text">Running AI agents in a local script is straightforward. Running them reliably in production across teams, across restarts, with isolated environments per context is a different problem entirely. BerriAI, the company behind the LiteLLM AI Gateway, is now open-sourcing a purpose-built answer to that problem: the LiteLLM Agent Platform. The platform is described as a […] The post Meet LiteLLM Agent P</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Graph)</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1ther0u/glia_localfirst_shared_memory_layer_sqlitevec/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1ther0u/glia_localfirst_shared_memory_layer_sqlitevec/</id>
-    <updated>2026-05-19T06:46:11Z</updated>
-    <summary type="text">Hey everyone, I wanted to share a project I've been working on called Glia. It is a 100% offline, local-first RAG and memory layer designed to connect your AI web chats (Claude, ChatGPT, DeepSeek) with your local developer tools (Claude Code, Cursor, Windsurf) using a unified local database. I wanted something lightweight that did not require pulling heavy Docker containers or subscribing to third</summary>
-    <author><name>/u/Better-Platypus-3420</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Is there any &lt;3B model with usable 200k+ context window?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1th8l5e/is_there_any_3b_model_with_usable_200k_context/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1th8l5e/is_there_any_3b_model_with_usable_200k_context/</id>
-    <updated>2026-05-19T01:51:54Z</updated>
-    <summary type="text">I need a small model for processing conversation transcripts from larger models, so need usable context window out to at least 200k tokens. I know some models claim to support this, but I don’t know which are actually good at this in practice. Also desirable: low hallucination rate, not super verbose. Some clarifications: this is for an interpretability project that operates entirely in prefill — </summary>
-    <author><name>/u/madmax_br5</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We built a tool that installs frameworks like ComfyUI, Ollama, OpenWebUI etc on any cloud GPU in one command and saves your whole setup between sessions [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1th863j/we_built_a_tool_that_installs_frameworks_like/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1th863j/we_built_a_tool_that_installs_frameworks_like/</id>
-    <updated>2026-05-19T01:34:01Z</updated>
-    <summary type="text">We kept running into the same problem every time we rented a GPU to run Ollama + OpenWebUI or ComfyUI, we'd spend the first 45 minutes reinstalling everything. Custom nodes, models, configs, all of it. Docker images went stale fast, different providers had different base images, and nothing was truly portable. We got sick of it and built swm. Here's what it does for ComfyUI users specifically: swm</summary>
-    <author><name>/u/Tkpf18</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>For $1.3 million a month, OpenClaw founder Peter Steinberger runs 100 AI agents that code, review PRs, and find bugs</title>
-    <link href="https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/" rel="alternate"/>
-    <id>https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/</id>
-    <updated>2026-05-16T09:55:19Z</updated>
-    <summary type="text">A three-person team led by Peter Steinberger keeps about 100 Codex instances running for the open-source project OpenClaw, driving OpenAI API spend to $1.3 million a month. Steinberger frames the bill as a research investment: he wants to see what software development looks like when token costs don't matter. The article For $1.3 million a month, OpenClaw founder Peter Steinberger runs 100 AI agen</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>favorite Agentic Coding Harness</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1th5t1b/favorite_agentic_coding_harness/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1th5t1b/favorite_agentic_coding_harness/</id>
-    <updated>2026-05-18T23:53:49Z</updated>
-    <summary type="text">So far, I’ve tried Codex CLI, Claude Code, Gemini CLI, OpenCode, and recently, Pi with local models. Pi is the leanest of them all, with just four tools: read, write, edit, and bash. Its system prompt is only under 2K tokens, and it's perfect for local models. I've been trying out Qwen 27B-MXFP8 with it, and it's much better than I expected! It doesn't have fancy bells and whistles like multi agen</summary>
-    <author><name>/u/chibop1</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenAI co-founder Greg Brockman takes charge of product strategy</title>
-    <link href="https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/</id>
-    <updated>2026-05-16T15:33:33Z</updated>
-    <summary type="text">OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Production-Ready GPU Inference Autoscaling on EKS with Karpenter, KEDA, and Dragonfly</title>
-    <link href="https://dev.to/tazmainiandevil/production-ready-gpu-inference-autoscaling-on-eks-with-karpenter-keda-and-dragonfly-2f1p" rel="alternate"/>
-    <id>https://dev.to/tazmainiandevil/production-ready-gpu-inference-autoscaling-on-eks-with-karpenter-keda-and-dragonfly-2f1p</id>
-    <updated>2026-05-17T09:06:04Z</updated>
-    <summary type="text">TL;DR This architecture uses Karpenter + KEDA + Dragonfly on EKS to scale GPU inference pods from zero, pull model images quicker, and cut GPU spend with spot-first provisioning. Cold starts are 84s; warm starts are 7s (with small image). Everything is GitOps-driven via ArgoCD and fully reproducible with Terraform. If you’re tired of paying for GPU nodes that sit idle half the day, or waiting minu</summary>
-    <author><name>Mark Johnson</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>A tmux sidecar for repeatable Claude/Codex workflows</title>
-    <link href="https://dev.to/dkrupenya/a-tmux-sidecar-for-repeatable-claudecodex-workflows-4426" rel="alternate"/>
-    <id>https://dev.to/dkrupenya/a-tmux-sidecar-for-repeatable-claudecodex-workflows-4426</id>
-    <updated>2026-05-17T08:53:02Z</updated>
-    <summary type="text">I realized that I keep repeating almost the same workflow in my daily programming with Codex/Claude and OpenSpec: create proposal → review → implement → review code → write tests → update specs → close proposal. The workflow in general is the same, but the prompts are slightly different each time and require task specific edits. So I have created an app: a simple tmux sidecar that lets you define </summary>
-    <author><name>Dmitry</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MQL5 Tutorial: Build a Risk Management EA in 50 Lines of Code</title>
-    <link href="https://dev.to/algotradingbot/mql5-tutorial-build-a-risk-management-ea-in-50-lines-of-code-29j4" rel="alternate"/>
-    <id>https://dev.to/algotradingbot/mql5-tutorial-build-a-risk-management-ea-in-50-lines-of-code-29j4</id>
-    <updated>2026-05-17T08:44:30Z</updated>
-    <summary type="text">Risk management is the #1 skill that separates profitable algorithmic traders from those who blow their accounts. You can have the world’s best entry signals, but without proper position sizing, stop losses, and drawdown controls, one bad streak will wipe you out. In this hands-on MQL5 tutorial, I’ll show you how to build a simple but powerful Risk Management Expert Advisor in under 50 lines of co</summary>
-    <author><name>Algo Trading Bot</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Microsoft Copilot Cowork is Now Available - AI Moving From Chat to Real Work Execution</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tgwudn/microsoft_copilot_cowork_is_now_available_ai/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tgwudn/microsoft_copilot_cowork_is_now_available_ai/</id>
-    <updated>2026-05-18T18:48:52Z</updated>
-    <summary type="text">Microsoft has officially introduced Copilot Cowork, and this feels like a major step forward in the AI workspace evolution. Instead of just answering prompts like a chatbot, Copilot Cowork is designed to actually help users complete work. Microsoft is positioning it as an AI coworker that can understand workflows, execute tasks, coordinate processes, conduct research, generate documents, and work </summary>
-    <author><name>/u/Few-Engineering-4135</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Built a local-first context engine for AI coding agents — symbol graph + semantic search, no cloud</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tgvnyd/built_a_localfirst_context_engine_for_ai_coding/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tgvnyd/built_a_localfirst_context_engine_for_ai_coding/</id>
-    <updated>2026-05-18T18:15:35Z</updated>
-    <summary type="text">Sharing a project I've been building: Argyph, an MCP server that gives AI coding agents (Claude, or anything that speaks MCP) structured and semantic understanding of a codebase. The problem: agents are good at reasoning but bad at retrieval. They grep, guess, and pull whole files into a limited context window. Most context tools that try to fix this depend on a cloud vector database and a remote </summary>
-    <author><name>/u/Its-Ezzy</name></author>
-    <category term="rag"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Witchcraft, fast local semantic search on top of SQLite [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/</id>
-    <updated>2026-05-18T16:00:06Z</updated>
-    <summary type="text">Witchcraft (https://github.com/dropbox/witchcraft), an open source project that I built at Dropbox, is a from-scratch re-implementation of Stanford's XTR-Warp semantic search engine ( https://github.com/jlscheerer/xtr-warp ) in safe rust, using a single-file SQLite database as backing storage, making it suitable for client-side deployment. It runs completely stand-alone on your device, needs no AP</summary>
-    <author><name>/u/jacobgorm</name></author>
-    <category term="rag"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>The most insane interviews/take-homes I've ever gotten</title>
-    <link href="https://www.reddit.com/r/datascience/comments/1tgnuqk/the_most_insane_interviewstakehomes_ive_ever/" rel="alternate"/>
-    <id>https://www.reddit.com/r/datascience/comments/1tgnuqk/the_most_insane_interviewstakehomes_ive_ever/</id>
-    <updated>2026-05-18T14:11:14Z</updated>
-    <summary type="text">Is this the case with everyone or just me? Interviews have gotten so much more difficult than they were about 1-2 years ago. The take homes are also very intense. I just got a take home that would be at least 10+ hours of work to do (build a full langauge model classification pipeline, then put it in an API). I've never seen anything like this, or had any friends before get these either. Is the in</summary>
-    <author><name>/u/LeaguePrototype</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Luce DFlash + PFlash on 7900XTX: Qwen3.6-27B at 2.24x decode and 3.05x prefill vs llama.cpp HIP</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgepbd/luce_dflash_pflash_on_7900xtx_qwen3627b_at_224x/</id>
-    <updated>2026-05-18T06:57:45Z</updated>
-    <summary type="text">Tested a bit on my XTX, a bit share hope helpful, thanks to Lucebox! Lucebox DFlash + PFlash PR #119 Reproduction Report (RX 7900 XTX) Hardware Environment Component Spec GPU AMD Radeon RX 7900 XTX (Navi 31, gfx1100) VRAM 24 GiB GDDR6 (~936 GB/s) System RAM 62 GiB DDR5 ROCm 7.1 OS Ubuntu 26.04, Linux 7.0.0-14-generic Benchmark Results Model: Qwen3.6-27B Q4_K_M (15.65 GiB) + Lucebox Q8_0 DFlash dra</summary>
-    <author><name>/u/Fit-Courage5400</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tgecrq/i_built_a_coding_agent_that_gets_87_on_benchmarks/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tgecrq/i_built_a_coding_agent_that_gets_87_on_benchmarks/</id>
-    <updated>2026-05-18T06:38:11Z</updated>
-    <summary type="text">I was frustrated that every coding agent (OpenCode, Cursor, Claude Code) assumes you're running GPT-5.4 or Claude Opus. If you try them with a local model like Gemma or Qwen they fall apart. I find that often tool calls fail, context overflows, multi-step tasks collapse. So I built SmallCode. It's designed from the ground up for small local models. The result: 87/100 benchmark tasks pass with a Ge</summary>
-    <author><name>/u/Glittering_Focus1538</name></author>
     <category term="llm"/>
   </entry>
 </feed>
