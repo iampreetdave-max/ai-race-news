@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-21T10:59:15Z</updated>
+  <updated>2026-05-22T10:42:11Z</updated>
   <entry>
     <title>Alibaba Qwen Team Introduces Qwen3.5-LiveTranslate-Flash: Real-Time Multimodal Interpretation Across 60 Languages at 2.8-Second Latency</title>
     <link href="https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/" rel="alternate"/>
@@ -36,6 +36,16 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>Anyone evaluated the difference between Qwen Code for the local qwen models vs another harness? CC, OC, LC, Aider etc..</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tk8la2/anyone_evaluated_the_difference_between_qwen_code/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tk8la2/anyone_evaluated_the_difference_between_qwen_code/</id>
+    <updated>2026-05-22T04:46:10Z</updated>
+    <summary type="text">For me, opencode doing fantastically but was wondering if qwen code would be more native and have better functionality, since idk which agentic harness they used to get their benchmark results submitted by /u/EggDroppedSoup [link] [comments]</summary>
+    <author><name>/u/EggDroppedSoup</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>NestJS vs Fastify vs Express: Which Backend Wins in 2026</title>
     <link href="https://dev.to/ihor_ostin/nestjs-vs-fastify-vs-express-which-backend-wins-in-2026-2ep2" rel="alternate"/>
     <id>https://dev.to/ihor_ostin/nestjs-vs-fastify-vs-express-which-backend-wins-in-2026-2ep2</id>
@@ -44,6 +54,57 @@
     <author><name>Ihor Ostin</name></author>
     <category term="research"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Interesting paper advocates for quantized prefilling and precise decoding</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjvl4h/interesting_paper_advocates_for_quantized/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjvl4h/interesting_paper_advocates_for_quantized/</id>
+    <updated>2026-05-21T19:42:48Z</updated>
+    <summary type="text">From other people's tests, NVFP4 decoding speed hasn't really allowed people to hit higher peaks (let's say: 85-90% memory bandwidth utilization) versus other approaches. The development leans toward a different class of optimization like parallel decoding. There is also measurement difficulty in MoE era where MoE suffers a tg speed penalty vs active dense. We may get pre-fill speedup, but tg perf</summary>
+    <author><name>/u/Aaaaaaaaaeeeee</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>So, what is Yann LeCun's &quot;World Models&quot; and JEPA and is it Really a Replacement for LLMs?</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tjuats/so_what_is_yann_lecuns_world_models_and_jepa_and/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tjuats/so_what_is_yann_lecuns_world_models_and_jepa_and/</id>
+    <updated>2026-05-21T18:59:11Z</updated>
+    <summary type="text">A bit late to this as the white paper hit arXiv a little less than two months ago, but nobody else here mentioned it so I thought I might. A little background. Yann LeCun is a pioneer of deep learning and convolutional neural networks, LeCun served as Director of AI Research at Meta (formerly Facebook) and Chief AI Scientist, before leaving Meta (under &quot;interesting&quot; circumstances) and becoming Exe</summary>
+    <author><name>/u/RazzmatazzAccurate82</name></author>
+    <category term="research"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>Honesty in a small model drops from 35% to 0% by changing the tone of the prompt. Sharing the findings.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/</id>
+    <updated>2026-05-21T14:47:46Z</updated>
+    <summary type="text">My paper got published today at Arxiv. It raises questions about how language models behave when the framing of a request shifts. Small open-source AI models can be moved from honest to dishonest behaviour by little more than a change in tone. Asked to solve coding problems designed to be mathematically impossible, the model openly acknowledged the impossibility about a third of the time when addr</summary>
+    <author><name>/u/QuantumSeeds</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Tencent Hy 30B/7B/1.8B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjien7/tencent_hy_30b7b18b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjien7/tencent_hy_30b7b18b/</id>
+    <updated>2026-05-21T12:03:42Z</updated>
+    <summary type="text">from tencent: Hy-MT2 is a family of “fast-thinking” multilingual translation models designed for complex real-world scenarios. It includes three model sizes: 1.8B, 7B, and 30B-A3B (MoE), all of which support translation among 33 languages and effectively follow translation instructions in multiple languages. For on-device deployment, AngelSlim 1.25-bit extreme quantization reduces the storage requ</summary>
+    <author><name>/u/jacek2023</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>110 tok/s with 12GB VRAM on Qwen3.6 35B A3B and ik_llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjh7az/110_toks_with_12gb_vram_on_qwen36_35b_a3b_and_ik/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjh7az/110_toks_with_12gb_vram_on_qwen36_35b_a3b_and_ik/</id>
+    <updated>2026-05-21T11:09:47Z</updated>
+    <summary type="text">Had been getting great MTP performance with llama.cpp on my RTX 4070 Super 12GB, until they actually merged the MTP PR. Then, performance tanked and was barely above non-MTP. So, I decided to try out ik_llama.cpp since it also supports MTP and is apparently better optimized for CPU offloading. I did not expect such a huge speed boost! Before moving on with the benchmark results, here's my PC specs</summary>
+    <author><name>/u/janvitos</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>CaMo: Camera Motion Grounded Evaluation and Training for Vision-Language Models</title>
@@ -93,102 +154,5 @@
     <category term="product-launch"/>
     <category term="llm"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Qwen 3.6 35B GGUF: NTP vs MTP quantization results across GPUs and CPUs</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tipihx/qwen_36_35b_gguf_ntp_vs_mtp_quantization_results/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tipihx/qwen_36_35b_gguf_ntp_vs_mtp_quantization_results/</id>
-    <updated>2026-05-20T15:42:29Z</updated>
-    <summary type="text">Hey r/LocalLLaMA, We’ve released our ByteShape Qwen 3.6 35B GGUF quantizations in two families: standard NTP (Next Token Prediction or non-MTP) and MTP. Blog / Download NTP Models / Download MTP Models TL;DR For NTP, “pick the largest quant that fits” worked surprisingly well. Lower bpw was not automatically better: our largest model was very hard to beat on quality/speed, including prompt process</summary>
-    <author><name>/u/enrique-byteshape</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment</title>
-    <link href="https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/</id>
-    <updated>2026-05-18T13:31:17Z</updated>
-    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet:…Fast16 bugs software likely used in weapons programs…Here’s a fascinating investigation of a ~20+ year old computer virus called fast16.sys. This software is interesting […]</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop</title>
-    <link href="https://arxiv.org/abs/2605.18746v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.18746v1</id>
-    <updated>2026-05-18T17:59:02Z</updated>
-    <summary type="text">Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - occluded structure, dynamics, containment, and functionality that cannot be resolved from passive sensing alone. We move beyond prior formulations of s</summary>
-    <author><name>Yejin Choi</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Spectral Progressive Diffusion for Efficient Image and Video Generation</title>
-    <link href="https://arxiv.org/abs/2605.18736v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.18736v1</id>
-    <updated>2026-05-18T17:55:39Z</updated>
-    <summary type="text">Diffusion models have been shown to implicitly generate visual content autoregressively in the frequency domain, where low-frequency components are generated earlier in the denoising process while high-frequency details emerge only in later timesteps. This structure offers a natural opportunity for efficient generation, as high-resolution computation on noise-dominated frequencies is largely redun</summary>
-    <author><name>Gordon Wetzstein</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>EgoExoMem: Cross-View Memory Reasoning over Synchronized Egocentric and Exocentric Videos</title>
-    <link href="https://arxiv.org/abs/2605.18734v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.18734v1</id>
-    <updated>2026-05-18T17:54:55Z</updated>
-    <summary type="text">Egocentric memory is widely used in embodied intelligence, but it may be insufficient for comprehensive spatial-temporal reasoning. Inspired by human recall from both field and observer perspectives, we introduce EgoExoMem, the first benchmark for cross-view memory reasoning over synchronized egocentric and exocentric videos. EgoExoMem contains $2.6K$ high-quality MCQs across eight temporal, spati</summary>
-    <author><name>Rainer Stiefelhagen</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>A Large-Scale Study on the Accuracy vs Cost Trade-offs of Training and Evaluation Settings in Fine-Grained Image Recognition</title>
-    <link href="https://arxiv.org/abs/2605.18700v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.18700v1</id>
-    <updated>2026-05-18T17:36:30Z</updated>
-    <summary type="text">Prior work on fine-grained image recognition (FGIR) has established the importance of the backbone selection, but has neglected the accuracy-vs-cost trade-offs under different training and evaluation settings. In this work we conduct a large-scale study with over 2000 experiments across 6 training and evaluation settings, 9 pretrained backbones, and 17 datasets. Preliminary observations on the eff</summary>
-    <author><name>Min-Chun Hu</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>I built a live ranking of every AI agent and foundation model (open source)</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1ti1pio/i_built_a_live_ranking_of_every_ai_agent_and/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1ti1pio/i_built_a_live_ranking_of_every_ai_agent_and/</id>
-    <updated>2026-05-19T21:55:27Z</updated>
-    <summary type="text">I built AgentTape because none of the existing model leaderboards quite cover all the things that I was interested in: benchmark performance is one part, but so is who's actually using a model, who's talking about it, and how it compared on cost and speed. It pulls hourly data from GitHub, Hugging Face, OpenRouter, MCP registries, npm, PyPI, arXiv, Hacker News, and more - to score and compare each</summary>
-    <author><name>/u/Celestialien</name></author>
-    <category term="research"/>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>New SOTA 1B model? HRM-text</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ti150n/new_sota_1b_model_hrmtext/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ti150n/new_sota_1b_model_hrmtext/</id>
-    <updated>2026-05-19T21:34:04Z</updated>
-    <summary type="text">Saw this video by them. Seems interesting but Tbh the benchmarks seem too good to be true. I'm not super knowledgeable on how models think so can anyone more knowledgeable explain what exactly is happening. And it's pros and cons? GitHub: https: //github.com/sapientinc/HRM-Text Hugging face: https://huggingface.co/sapientinc/HRM-Text-1B I'm not affiliated with them in anyway, just saw the video on</summary>
-    <author><name>/u/vandalieu_zakkart</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Nemotron-Labs-Diffusion from NVIDIA</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1thv6du/nemotronlabsdiffusion_from_nvidia/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1thv6du/nemotronlabsdiffusion_from_nvidia/</id>
-    <updated>2026-05-19T18:09:52Z</updated>
-    <summary type="text">Model Overview Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes enables a third mode, called self-speculation: the same model performs diffusion-based parallel drafting and AR verification with shared KV cache, ac</summary>
-    <author><name>/u/jacek2023</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Carbon: Decoding the Language of Life</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1thsw7b/carbon_decoding_the_language_of_life/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1thsw7b/carbon_decoding_the_language_of_life/</id>
-    <updated>2026-05-19T16:54:24Z</updated>
-    <summary type="text">https://preview.redd.it/rajj11v7j42h1.png?width=1744&amp;format=png&amp;auto=webp&amp;s=72381de22a9bac4b30a59498d549bb09df075df3 Hey, it's loubna from Hugging Face. Very happy to share our latest release: Carbon 🧬, a family of open DNA foundation models. Carbon-3B matches the current SOTA (Evo2-7B) while being 275x faster. We borrowed a lot from how modern LLMs are trained and from our SmolLM work, but DNA is</summary>
-    <author><name>/u/loubnabnl</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
