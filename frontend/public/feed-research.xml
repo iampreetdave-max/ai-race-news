@@ -4,7 +4,57 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-22T10:42:11Z</updated>
+  <updated>2026-05-23T09:43:49Z</updated>
+  <entry>
+    <title>AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation</title>
+    <link href="https://arxiv.org/abs/2605.22816v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.22816v1</id>
+    <updated>2026-05-21T17:58:26Z</updated>
+    <summary type="text">Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. </summary>
+    <author><name>Jiwen Lu</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>I just published a 46-page research paper on why AI is fundamentally compression + built a tool to visualize it and its fucking cool</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tl9r1l/i_just_published_a_46page_research_paper_on_why/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tl9r1l/i_just_published_a_46page_research_paper_on_why/</id>
+    <updated>2026-05-23T07:35:49Z</updated>
+    <summary type="text">Yooooo, I've spent the last few months working on this. I'm 15 and I wanted to explore Kolmogorov complexity and why the term &quot;learning&quot; is a myth. The project includes a full theoretical paper and an interactive tool to see how LLMs actually &quot;compress&quot; data. It's available in both English and French. Link to the GitHub is in the first comment! (to avoid the spam filters). Have a good day stranger</summary>
+    <author><name>/u/notanydb</name></author>
+  </entry>
+  <entry>
+    <title>Improving Viewpoint-Invariance and Temporal Consistency for Action Detection</title>
+    <link href="https://arxiv.org/abs/2605.22695v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.22695v1</id>
+    <updated>2026-05-21T16:38:21Z</updated>
+    <summary type="text">Viewpoint change invariance and action temporal consistency are critical aspects for the effective deployment of human action detection of untrimmed videos. Existing appearance-based video detection methods often struggle with limited viewpoint diversity during training, while motion-based detection approaches frequently fail to model fine-grained temporal relationships across consecutive motion w</summary>
+    <author><name>Cedric Demonceaux</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>SEGA: Spectral-Energy Guided Attention for Resolution Extrapolation in Diffusion Transformers</title>
+    <link href="https://arxiv.org/abs/2605.22668v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.22668v1</id>
+    <updated>2026-05-21T16:09:01Z</updated>
+    <summary type="text">Diffusion transformers (DiTs) have emerged as a dominant architecture for text-to-image generation, yet their performance drops when generating at resolutions beyond their training range. Existing training-free approaches mitigate this by modifying inference-time attention behavior, often through Rotary Position Embeddings (RoPE) extrapolation combined with attention scaling. However, these strate</summary>
+    <author><name>Babak Taati</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>H-Flow: Self-supervised Human Scene Flow via Physics-inspired Joint Multi-modal Learning</title>
+    <link href="https://arxiv.org/abs/2605.22629v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.22629v1</id>
+    <updated>2026-05-21T15:38:41Z</updated>
+    <summary type="text">Parametric human models capture global pose but cannot represent the non-rigid surface dynamics of clothing and soft tissue. Generic scene flow estimates dense motion but breaks down on articulated bodies, where pixel-level supervision is also intractable to acquire. We introduce H-Flow, a dense human scene flow that captures both skeletal kinematics and surface deformation. A unified multi-head t</summary>
+    <author><name>Yu Kong</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Alibaba Qwen Team Introduces Qwen3.5-LiveTranslate-Flash: Real-Time Multimodal Interpretation Across 60 Languages at 2.8-Second Latency</title>
     <link href="https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/" rel="alternate"/>
@@ -15,6 +65,16 @@
     <category term="research"/>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Qwen-27B-IQ4_KS for ik_llama.cpp, especially for NVIDIA with 16GB VRAM</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tkmgwj/qwen27biq4_ks_for_ik_llamacpp_especially_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tkmgwj/qwen27biq4_ks_for_ik_llamacpp_especially_for/</id>
+    <updated>2026-05-22T15:32:55Z</updated>
+    <summary type="text">Hi everyone, I'm presenting a new quantization of the Qwen-27B model, created specifically with 16GB VRAM NVIDIA GPUs in mind. I used quants that, unfortunately, are not yet available in the main upstream llama.cpp. I'm talking about the KS and KSS quants developed by ikawrakow. After many trials, I managed to create a 14.1GB model which, in my testing, delivers results highly comparable to my pre</summary>
+    <author><name>/u/Pablo_the_brave</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>ReMATF: Recurrent Motion-Adaptive Multi-scale Turbulence Mitigation for Dynamic Scenes</title>
@@ -84,75 +144,5 @@
     <category term="research"/>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Tencent Hy 30B/7B/1.8B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjien7/tencent_hy_30b7b18b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjien7/tencent_hy_30b7b18b/</id>
-    <updated>2026-05-21T12:03:42Z</updated>
-    <summary type="text">from tencent: Hy-MT2 is a family of “fast-thinking” multilingual translation models designed for complex real-world scenarios. It includes three model sizes: 1.8B, 7B, and 30B-A3B (MoE), all of which support translation among 33 languages and effectively follow translation instructions in multiple languages. For on-device deployment, AngelSlim 1.25-bit extreme quantization reduces the storage requ</summary>
-    <author><name>/u/jacek2023</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>110 tok/s with 12GB VRAM on Qwen3.6 35B A3B and ik_llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjh7az/110_toks_with_12gb_vram_on_qwen36_35b_a3b_and_ik/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjh7az/110_toks_with_12gb_vram_on_qwen36_35b_a3b_and_ik/</id>
-    <updated>2026-05-21T11:09:47Z</updated>
-    <summary type="text">Had been getting great MTP performance with llama.cpp on my RTX 4070 Super 12GB, until they actually merged the MTP PR. Then, performance tanked and was barely above non-MTP. So, I decided to try out ik_llama.cpp since it also supports MTP and is apparently better optimized for CPU offloading. I did not expect such a huge speed boost! Before moving on with the benchmark results, here's my PC specs</summary>
-    <author><name>/u/janvitos</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CaMo: Camera Motion Grounded Evaluation and Training for Vision-Language Models</title>
-    <link href="https://arxiv.org/abs/2605.20165v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.20165v1</id>
-    <updated>2026-05-19T17:50:25Z</updated>
-    <summary type="text">Vision-Language Models (VLMs) achieve strong performance on spatial question answering benchmarks, yet it remains unclear whether such gains reflect genuine spatial intelligence. We show that existing spatial VLMs lack basic camera motion understanding, a key component of spatial cognition. We propose the Spatial Narrative Score (SNS), an evaluation framework that requires VLMs to generate explici</summary>
-    <author><name>Jenq-Neng Hwang</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>X-Ray cardiac angiographic vessel segmentation based on pixel classification using machine learning and region growing</title>
-    <link href="https://arxiv.org/abs/2605.20073v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.20073v1</id>
-    <updated>2026-05-19T16:27:45Z</updated>
-    <summary type="text">This work proposes a pixel-classification approach for vessel segmentation in x-ray angiograms. The proposal uses textural features such as anisotropic diffusion, features based on the Hessian matrix, mathematical morphology and statistics. These features are extracted from the neighborhood of each pixel. The approach also uses the ELEMENT methodology, which consists of creating a pixel-classifica</summary>
-    <author><name>F F C Morais</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Beyond Binary Success: A Diagnostic Meta-Evaluation Framework for Fine-Grained Manipulation</title>
-    <link href="https://arxiv.org/abs/2605.19986v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.19986v1</id>
-    <updated>2026-05-19T15:25:13Z</updated>
-    <summary type="text">Fine-grained manipulation marks a regime where global scene context no longer suffices, and success hinges on the tight coupling of local attribute grounding, high-fidelity spatial perception, and constraint-respecting motor execution. However, current embodied AI benchmarks collapse these capacities into binary success rates, systematically inflating reported capabilities by up to 70% and masking</summary>
-    <author><name>Xiu-Shen Wei</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Conformalized TabICL: Prediction Intervals for a State-Of-The-Art Tabular Foundation Model in Python and R</title>
-    <link href="https://www.r-bloggers.com/2026/05/conformalized-tabicl-prediction-intervals-for-a-state-of-the-art-tabular-foundation-model-in-python-and-r/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/05/conformalized-tabicl-prediction-intervals-for-a-state-of-the-art-tabular-foundation-model-in-python-and-r/</id>
-    <updated>2026-05-21T00:00:00Z</updated>
-    <summary type="text">Prediction Intervals for Tabular Regression in Python and R via Conformalized TabICL; comparison with RidgeCV Continue reading: Conformalized TabICL: Prediction Intervals for a State-Of-The-Art Tabular Foundation Model in Python and R</summary>
-    <author><name>T. Moudiki</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon</title>
-    <link href="https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/</id>
-    <updated>2026-05-18T08:42:52Z</updated>
-    <summary type="text">NVIDIA introduces a 4-bit pretraining methodology built around the NVFP4 microscaling format — combining selective BF16 layers, 16×16 Random Hadamard Transforms on Wgrad inputs, 2D weight scaling, and stochastic rounding on gradients — validated on a 12B hybrid Mamba-Transformer trained on 10 trillion tokens, the longest publicly documented 4-bit pretraining run, with downstream accuracy closely t</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="hardware"/>
   </entry>
 </feed>
