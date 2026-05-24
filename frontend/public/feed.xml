@@ -4,7 +4,208 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-05-23T09:43:49Z</updated>
+  <updated>2026-05-24T09:48:03Z</updated>
+  <entry>
+    <title>Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%</title>
+    <link href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/</id>
+    <updated>2026-05-24T08:56:19Z</updated>
+    <summary type="text">Microsoft Research introduces Webwright, a terminal-native browser agent framework that replaces click-trace web automation with reusable Playwright scripts. Using a single agent loop across three modules and roughly 1,000 lines of code, Webwright powered by GPT-5.4 reaches 60.1% on the long-horizon Odysseys benchmark and 86.7% on Online-Mind2Web — the highest AutoEval score among open-sourced har</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Anthropic may keep supplying Claude to the NSA despite being flagged as a supply chain risk by the Pentagon</title>
+    <link href="https://the-decoder.com/anthropic-may-keep-supplying-claude-to-the-nsa-despite-being-flagged-as-a-supply-chain-risk-by-the-pentagon/" rel="alternate"/>
+    <id>https://the-decoder.com/anthropic-may-keep-supplying-claude-to-the-nsa-despite-being-flagged-as-a-supply-chain-risk-by-the-pentagon/</id>
+    <updated>2026-05-24T08:51:02Z</updated>
+    <summary type="text">Anthropic will likely keep supplying AI models to the NSA despite being labeled a &quot;supply chain risk.&quot; Intelligence agencies lack Nvidia's latest Grace Blackwell chips, and Anthropic's &quot;Mythos&quot; model reportedly runs on older hardware too. The controversial &quot;any lawful use&quot; clause that derailed earlier talks is not part of the deal. The article Anthropic may keep supplying Claude to the NSA despite</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Researchers let Claude Code discover AI scaling algorithms that humans probably wouldn't have designed</title>
+    <link href="https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/" rel="alternate"/>
+    <id>https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/</id>
+    <updated>2026-05-24T08:06:35Z</updated>
+    <summary type="text">Researchers from UMD, Google, Meta, and other institutions use AutoTTS to let a coding agent independently discover control algorithms for AI reasoning. The algorithm it found cuts compute by about 70 percent compared to standard self-consistency while matching its accuracy. The whole search cost $40 and took 160 minutes. The article Researchers let Claude Code discover AI scaling algorithms that </summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>NVIDIA AI Releases Gated DeltaNet-2: A Linear Attention Layer That Decouples Erase and Write in the Delta Rule</title>
+    <link href="https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/</id>
+    <updated>2026-05-24T07:42:09Z</updated>
+    <summary type="text">Linear attention squeezes the unbounded KV cache into a fixed-size recurrent state, but editing that memory without scrambling existing associations is hard. Prior delta-rule models like Gated DeltaNet and KDA use one scalar gate to control both erasing old content and writing new content. NVIDIA's Gated DeltaNet-2 decouples these into a channel-wise erase gate b_t on the key axis and a channel-wi</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents</title>
+    <link href="https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/</id>
+    <updated>2026-05-23T19:31:12Z</updated>
+    <summary type="text">Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a 4-tier long-term memory pyramid (L0 Conversation → L1 Atom → L2 Scenario → L3 Persona). It ships as an OpenClaw plugin and a Hermes Docker image, runs on l</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory</title>
+    <link href="https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/</id>
+    <updated>2026-05-23T19:05:33Z</updated>
+    <summary type="text">In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured layer on top of the Anthropic API. The post Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory appeared first on MarkTechPost.</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Deepseek makes its 75 percent discount permanent, pricing output tokens at least 34x below GPT-5.5</title>
+    <link href="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/" rel="alternate"/>
+    <id>https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/</id>
+    <updated>2026-05-23T17:10:59Z</updated>
+    <summary type="text">Deepseek is making the 75 percent discount on its top model V4-Pro permanent. At $0.435 per million input tokens, it's at least 11.5 times cheaper than GPT-5.5 and over 34 times cheaper on output. For token-hungry agentic systems, this kind of pricing could squeeze Western providers hard. The article Deepseek makes its 75 percent discount permanent, pricing output tokens at least 34x below GPT-5.5</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest</title>
+    <link href="https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/</id>
+    <updated>2026-05-23T20:03:13Z</updated>
+    <summary type="text">SolarSquare could be valued at up to $500 million in the financing expected to close next month.</summary>
+    <author><name>Jagmeet Singh</name></author>
+  </entry>
+  <entry>
+    <title>Hyperscaler Debt Flood Brings Derivatives Bonanza</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly</id>
+    <updated>2026-05-23T19:00:00Z</updated>
+    <summary type="text">As big tech companies raise hundreds of billions of dollars to fund artificial intelligence investments, Wall Street banks are increasingly finding they have to trade more credit derivatives to keep doing business with the hyperscalers.</summary>
+    <author><name>Caleb Mutua, Tasos Vossos</name></author>
+  </entry>
+  <entry>
+    <title>One of the world's top law schools draws a hard line against AI in legal education</title>
+    <link href="https://the-decoder.com/one-of-the-worlds-top-law-schools-draws-a-hard-line-against-ai-in-legal-education/" rel="alternate"/>
+    <id>https://the-decoder.com/one-of-the-worlds-top-law-schools-draws-a-hard-line-against-ai-in-legal-education/</id>
+    <updated>2026-05-23T10:55:03Z</updated>
+    <summary type="text">UC Berkeley Law will ban AI from nearly all graded work starting in summer 2026, from outlining and drafting to proofreading. Only research use remains allowed. The school’s rationale: future lawyers must first learn to think for themselves before they can use AI meaningfully. The article One of the world's top law schools draws a hard line against AI in legal education appeared first on The Decod</summary>
+    <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification</title>
+    <link href="https://www.marktechpost.com/2026/05/23/nous-research-releases-contrastive-neuron-attribution-cna-sparse-mlp-circuit-steering-without-sae-training-or-weight-modification/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/23/nous-research-releases-contrastive-neuron-attribution-cna-sparse-mlp-circuit-steering-without-sae-training-or-weight-modification/</id>
+    <updated>2026-05-23T10:32:09Z</updated>
+    <summary type="text">Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sparse MLP neuron circuits to steer LLM behavior — no sparse autoencoder training, no weight modification, and no degradation of general capability benchmarks. The post Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification </summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Alibaba's latest AI model ran autonomously for 35 hours to optimize code for its own custom chip</title>
+    <link href="https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/" rel="alternate"/>
+    <id>https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/</id>
+    <updated>2026-05-23T10:17:48Z</updated>
+    <summary type="text">Alibaba's Qwen team releases Qwen3.7-Max, a proprietary model built for long-running autonomous agent tasks. It matches Claude Opus 4.6 on benchmarks and beats Chinese rivals like DeepSeek V4 Pro and Kimi K2.6. The team also demos the model steering a four-legged robot. The article Alibaba's latest AI model ran autonomously for 35 hours to optimize code for its own custom chip appeared first on Th</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Audience Builder vs Data Filter: Which Segmentation Tool When?</title>
+    <link href="https://dev.to/sapotacorp/audience-builder-vs-data-filter-which-segmentation-tool-when-66k" rel="alternate"/>
+    <id>https://dev.to/sapotacorp/audience-builder-vs-data-filter-which-segmentation-tool-when-66k</id>
+    <updated>2026-05-24T09:38:13Z</updated>
+    <summary type="text">Segmentation brief: &quot;all subscribers living within 5km of our Hanoi store.&quot; Data Filter doesn't have a geo-radius option. Before jumping to SQL Query, check whether Audience Builder covers it - it often does, and the build is point-and-click instead of code. Here's how we decide between SFMC's segmentation tools. Data Filter Point-and-click, no SQL required. Filters subscribers by attribute values</summary>
+    <author><name>SapotaCorp</name></author>
+  </entry>
+  <entry>
+    <title>IoT data into D365 Supply Chain: the Azure-native pattern</title>
+    <link href="https://dev.to/sapotacorp/iot-data-into-d365-supply-chain-the-azure-native-pattern-593o" rel="alternate"/>
+    <id>https://dev.to/sapotacorp/iot-data-into-d365-supply-chain-the-azure-native-pattern-593o</id>
+    <updated>2026-05-24T09:37:53Z</updated>
+    <summary type="text">Logistics and distribution operators running Dynamics 365 Supply Chain Management increasingly need the product of live operational data: shipments tracked by GPS, inventory reads from RFID, vehicle status from telemetry. The question isn't whether to do it - the question is whether to build custom pipelines or use what Microsoft already ships. Three architectures show up in discussion. Two of the</summary>
+    <author><name>SapotaCorp</name></author>
+  </entry>
+  <entry>
+    <title>PostgreSQL VACUUM Tuning: A Technical Deep Dive Into Autovacuum Configuration</title>
+    <link href="https://dev.to/pranay_raavi/postgresql-vacuum-tuning-a-technical-deep-dive-into-autovacuum-configuration-3gf0" rel="alternate"/>
+    <id>https://dev.to/pranay_raavi/postgresql-vacuum-tuning-a-technical-deep-dive-into-autovacuum-configuration-3gf0</id>
+    <updated>2026-05-24T09:37:29Z</updated>
+    <summary type="text">Author's Note: This article documents a production incident investigation and the technical findings that emerged from returning to foundational documentation. The fix was implemented by a colleague; this article captures the learning journey through proper documentation review. The Incident: High CPU Due to Autovacuum Contention A production Aurora PostgreSQL cluster experienced sustained CPU uti</summary>
+    <author><name>Pranay Ravi</name></author>
+  </entry>
+  <entry>
+    <title>Eval Set Drift: How to Know When Your Golden Set Went Stale</title>
+    <link href="https://dev.to/gabrielanhaia/eval-set-drift-how-to-know-when-your-golden-set-went-stale-p8m" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/eval-set-drift-how-to-know-when-your-golden-set-went-stale-p8m</id>
+    <updated>2026-05-24T09:37:17Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Your golden eval set was good in March. It's December now. Half t</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hallucination Detection at the Trace Layer: 4 Detectors You Can Ship Today</title>
+    <link href="https://dev.to/gabrielanhaia/hallucination-detection-at-the-trace-layer-4-detectors-you-can-ship-today-5597" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/hallucination-detection-at-the-trace-layer-4-detectors-you-can-ship-today-5597</id>
+    <updated>2026-05-24T09:36:43Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You can't catch every hallucination at runtime. The cost of runni</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kexa.io: Open-Source IT Security for Local AI Governance</title>
+    <link href="https://dev.to/jaychkdsk/kexaio-open-source-it-security-for-local-ai-governance-5aj8" rel="alternate"/>
+    <id>https://dev.to/jaychkdsk/kexaio-open-source-it-security-for-local-ai-governance-5aj8</id>
+    <updated>2026-05-24T09:36:39Z</updated>
+    <summary type="text">Kexa.io – Open-Source IT Security and Compliance Verification: The New Standard for Local AI Governance Enterprise adoption of Large Language Models is no longer a pilot program; it is an operational requirement. We see organizations like AdventHealth integrating models directly into clinical workflows, while others in high-stakes sectors like travel manage complex refactors using AI assistants. T</summary>
+    <author><name>Jay Grider</name></author>
+    <category term="regulation"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Per-Customer LLM Cost Reports (Without Rearchitecting Your Billing Pipeline)</title>
+    <link href="https://dev.to/gabrielanhaia/per-customer-llm-cost-reports-without-rearchitecting-your-billing-pipeline-1h53" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/per-customer-llm-cost-reports-without-rearchitecting-your-billing-pipeline-1h53</id>
+    <updated>2026-05-24T09:36:25Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Finance walks over. &quot;How much did Acme Corp cost us in LLM calls </summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Is Too Expensive? I Run It for Free on My Laptop</title>
+    <link href="https://dev.to/lingdas1/ai-is-too-expensive-i-run-it-for-free-on-my-laptop-1cg" rel="alternate"/>
+    <id>https://dev.to/lingdas1/ai-is-too-expensive-i-run-it-for-free-on-my-laptop-1cg</id>
+    <updated>2026-05-24T09:36:11Z</updated>
+    <summary type="text">AI Is Too Expensive? I Run It for Free on My Laptop (Here's How) A medical student's guide to using AI without paying a cent in subscription fees. I remember the exact moment I gave up on AI. It was January 2026. I was staring at ChatGPT Pro's $200/month price tag, then at my bank account. A medical student in China — my monthly budget for &quot;extras&quot; was about enough for two bubble teas. &quot;AI is for </summary>
+    <author><name>Lingdas1</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LLM Trace Storage Cost: Why Your S3 Bill Exploded, and 3 Fixes</title>
+    <link href="https://dev.to/gabrielanhaia/llm-trace-storage-cost-why-your-s3-bill-exploded-and-3-fixes-4880" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/llm-trace-storage-cost-why-your-s3-bill-exploded-and-3-fixes-4880</id>
+    <updated>2026-05-24T09:35:54Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub The Slack message lands on a Tuesday. Finance: &quot;S3 spend tripled </summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Multi-Shot vs Zero-Shot: When Adding Examples Actually Hurts Accuracy</title>
+    <link href="https://dev.to/gabrielanhaia/multi-shot-vs-zero-shot-when-adding-examples-actually-hurts-accuracy-3bd2" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/multi-shot-vs-zero-shot-when-adding-examples-actually-hurts-accuracy-3bd2</id>
+    <updated>2026-05-24T09:34:57Z</updated>
+    <summary type="text">Book: Prompt Engineering Pocket Guide: Techniques for Getting the Most from LLMs Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub &quot;Add a few-shot example&quot; is the most-given prompt advice on the internet. St</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Google CEO Pichai now calls links a &quot;part&quot; of search, redefining the web's role in its own product</title>
     <link href="https://the-decoder.com/google-ceo-pichai-now-calls-links-a-part-of-search-redefining-the-webs-role-in-its-own-product/" rel="alternate"/>
@@ -13,6 +214,14 @@
     <summary type="text">Google CEO Sundar Pichai now calls links and sources a &quot;part&quot; of search, when in reality, they're its foundation. The wording is deliberate: new features keep users inside the Google ecosystem, and the company is shifting from traffic distributor to AI publisher whose source selection is becoming a question of editorial power. The article Google CEO Pichai now calls links a &quot;part&quot; of search, redef</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Ferrari is using IBM’s AI to create F1 superfans</title>
+    <link href="https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/</id>
+    <updated>2026-05-23T15:08:00Z</updated>
+    <summary type="text">IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.</summary>
+    <author><name>Dominic-Madori Davis</name></author>
   </entry>
   <entry>
     <title>Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints</title>
@@ -31,6 +240,33 @@
     <updated>2026-05-23T07:42:10Z</updated>
     <summary type="text">Anthropic's AI model Claude Mythos Preview, working with about 50 partners as part of Project Glasswing, has found over 10,000 critical vulnerabilities in system-critical software. The bugs are piling up faster than anyone can patch them. Anthropic warns this creates a high-risk transition period and says no company, itself included, has built safeguards strong enough to prevent misuse of these mo</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Nvidia CEO Urges Super Micro to Tighten Up on Compliance</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-05-23/nvidia-ceo-urges-super-micro-to-tighten-up-amid-taiwan-crackdown" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-05-23/nvidia-ceo-urges-super-micro-to-tighten-up-amid-taiwan-crackdown</id>
+    <updated>2026-05-23T11:01:30Z</updated>
+    <summary type="text">Nvidia Corp. Chief Executive Officer Jensen Huang urged Super Micro Computer Inc. to tighten up on compliance after Taiwan detained three people this week for allegedly making fraudulent declarations about AI servers made by its US partner.</summary>
+    <author><name>Debby Wu</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Google’s new anything-to-anything AI model is wild</title>
+    <link href="https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video" rel="alternate"/>
+    <id>https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video</id>
+    <updated>2026-05-23T11:00:00Z</updated>
+    <summary type="text">Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. […]</summary>
+    <author><name>Allison Johnson</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DeepSeek To Make Permanent 75% Discount on Flagship AI Model</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model</id>
+    <updated>2026-05-23T10:28:30Z</updated>
+    <summary type="text">DeepSeek said it will make permanent a steep discount on its flagship V4‑Pro model, maintaining prices for developers at a quarter of their original level.</summary>
+    <author><name>Charlie Zhu, Ying Tian</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -89,6 +325,23 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>How to Mathematically Choose the Optimal Bins for Your Histogram</title>
+    <link href="https://towardsdatascience.com/fun-with-histograms-and-densities/" rel="alternate"/>
+    <id>https://towardsdatascience.com/fun-with-histograms-and-densities/</id>
+    <updated>2026-05-23T17:00:00Z</updated>
+    <summary type="text">Optimal Resolution in Histograms: A Rigorous Bayesian Approach to Density Fitting The post How to Mathematically Choose the Optimal Bins for Your Histogram appeared first on Towards Data Science.</summary>
+    <author><name>Fetze Pijlman</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I avoid AI tools because thinking is supposed to be hard. It’s what makes us human | Wendy Liu</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/may/24/ai-tools-thinking-human-hard-coding-writing-technology" rel="alternate"/>
+    <id>https://www.theguardian.com/commentisfree/2026/may/24/ai-tools-thinking-human-hard-coding-writing-technology</id>
+    <updated>2026-05-24T07:00:50Z</updated>
+    <summary type="text">As intelligence itself becomes privatised by big tech, allowing your intellectual faculties to wither in service of inane bots seems a dangerous moveLong before the age of multi-billion-dollar AI companies promising to disrupt the field of software development, I was learning to code the hard way.It was the mid-2000s, and I was a child with unmonitored access to the family computer. With the help </summary>
+    <author><name>Wendy Liu</name></author>
+  </entry>
+  <entry>
     <title>OpenAI Appshots turn any Mac window into context for Codex</title>
     <link href="https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/" rel="alternate"/>
     <id>https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/</id>
@@ -132,6 +385,14 @@
     <category term="funding"/>
   </entry>
   <entry>
+    <title>‘AI washing’: firms are scrambling to rebrand themselves as tech-focused</title>
+    <link href="https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand" rel="alternate"/>
+    <id>https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand</id>
+    <updated>2026-05-24T06:00:50Z</updated>
+    <summary type="text">PR executives say UK companies are forcing them to present ordinary automation as artificial intelligence UK companies are performing “yoga-level” stretches to describe themselves as AI specialists in an attempt to capitalise on the buzz around the technology, public relations firms have said.Weary communications executives tasked with securing media coverage for brands have complained that bosses</summary>
+    <author><name>Aisha Down</name></author>
+  </entry>
+  <entry>
     <title>Prompt: AI’s Next Challenge Is Proving the Payoff</title>
     <link href="https://aibusiness.com/generative-ai/prompt-ai-s-next-challenge-proving-the-payoff" rel="alternate"/>
     <id>https://aibusiness.com/generative-ai/prompt-ai-s-next-challenge-proving-the-payoff</id>
@@ -148,6 +409,23 @@
     <author><name>Bloomberg Technology</name></author>
     <category term="robotics"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Beyond the Scroll: How Social Media Algorithms Shape Your Reality</title>
+    <link href="https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/" rel="alternate"/>
+    <id>https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/</id>
+    <updated>2026-05-23T15:00:00Z</updated>
+    <summary type="text">An intro to recommender systems The post Beyond the Scroll: How Social Media Algorithms Shape Your Reality appeared first on Towards Data Science.</summary>
+    <author><name>Ivo Bernardo</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>‘We’re expanding the cinematic toolbox’: AI fault lines on show at Cannes</title>
+    <link href="https://www.theguardian.com/technology/2026/may/24/cinematic-toolbox-ai-fault-lines-cannes" rel="alternate"/>
+    <id>https://www.theguardian.com/technology/2026/may/24/cinematic-toolbox-ai-fault-lines-cannes</id>
+    <updated>2026-05-24T05:00:48Z</updated>
+    <summary type="text">Darren Aronofsky among proponents of using technology, while Guillermo del Toro says he would ‘rather die’Under a white marquee on Cannes’ Croisette beach, with the Mediterranean glistening behind him and superyachts drifting across the horizon, the director Darren Aronofsky addressed an audience of executives and tech evangelists gathered for an “AI for Talent” summit.“There’s so much pushback ag</summary>
+    <author><name>Nadia Khomami Arts and culture correspondent</name></author>
   </entry>
   <entry>
     <title>How VCs and founders use inflated ‘ARR’ to crown AI startups</title>
@@ -173,269 +451,5 @@
     <updated>2026-05-23T04:21:17Z</updated>
     <summary type="text">a quiet day lets us tie together a few quotes as all model labs become agent labs</summary>
     <author><name>Latent Space</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI burned through $1.22 per dollar earned even after stripping out stock-based compensation</title>
-    <link href="https://the-decoder.com/openai-burned-through-1-22-per-dollar-earned-even-after-stripping-out-stock-based-compensation/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-burned-through-1-22-per-dollar-earned-even-after-stripping-out-stock-based-compensation/</id>
-    <updated>2026-05-22T14:18:32Z</updated>
-    <summary type="text">OpenAI pulled in about $5.7 billion in Q1 2026 revenue but still lost $1.22 for every dollar earned, putting its adjusted operating margin at minus 122 percent. The article OpenAI burned through $1.22 per dollar earned even after stripping out stock-based compensation appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI’s Expanding Market Grip Traps Active Managers on Wall Street</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-05-22/ai-s-expanding-market-grip-traps-active-managers-on-wall-street" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-05-22/ai-s-expanding-market-grip-traps-active-managers-on-wall-street</id>
-    <updated>2026-05-22T20:06:01Z</updated>
-    <summary type="text">The AI boom is humbling the humans trying to navigate the markets it increasingly distorts.</summary>
-    <author><name>Isabelle Lee</name></author>
-  </entry>
-  <entry>
-    <title>California governor signs first US executive order to protect workers from AI job loss</title>
-    <link href="https://the-decoder.com/california-governor-signs-first-us-executive-order-to-protect-workers-from-ai-job-loss/" rel="alternate"/>
-    <id>https://the-decoder.com/california-governor-signs-first-us-executive-order-to-protect-workers-from-ai-job-loss/</id>
-    <updated>2026-05-22T13:36:27Z</updated>
-    <summary type="text">California's governor just signed the first executive order by a US governor aimed at protecting workers from AI-driven job loss. The article California governor signs first US executive order to protect workers from AI job loss appeared first on The Decoder.</summary>
-    <author><name>Maximilian Schreiner</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic to Close Over $30 Billion Round as Soon as Next Week</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week</id>
-    <updated>2026-05-22T19:42:50Z</updated>
-    <summary type="text">Anthropic PBC is set to close its latest round of funding, which may top $30 billion at a valuation above $900 billion, as soon as next week, according to people familiar with the matter, vaulting ahead of rival OpenAI to become the world’s most valuable AI startup.</summary>
-    <author><name>Natasha Mascarenhas, Rebecca Torrence, Shirin Ghaffary</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Goldman's Kaplan on Warsh as Fed Chair, Rates and AI</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-05-22/goldman-s-kaplan-on-warsh-as-fed-chair-rates-and-ai-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-05-22/goldman-s-kaplan-on-warsh-as-fed-chair-rates-and-ai-video</id>
-    <updated>2026-05-22T18:14:31Z</updated>
-    <summary type="text">Robert Kaplan, Goldman Sachs vice chair and former president of the Federal Reserve Bank of Dallas, expects Kevin Warsh to be an &quot;excellent&quot; Fed chair. Speaking with Julie Fine, Kaplan also discusses the shift in market expectations over the past eight weeks, from anticipating a rate cut later in the year to now considering a possible rate increase or no change due to persistent inflation and elev</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>SpaceX Halts Starship Launch, Lenovo Soars on AI Growth | Bloomberg Tech 5/22/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-05-22/bloomberg-tech-5-22-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-05-22/bloomberg-tech-5-22-2026-video</id>
-    <updated>2026-05-22T18:12:41Z</updated>
-    <summary type="text">Bloomberg’s Ed Ludlow breaks down what comes next after a critical Starship launch was scrubbed, and he discusses what that means for the space company's planned mega IPO with a SpaceX alumni and an early investor. Plus, an exclusive conversation with Lenovo CFO Winston Cheng after the world-leading PC maker soars post-earnings on strong AI growth. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Lenovo CFO Weighs In on Strong AI Growth</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-05-22/lenovo-cfo-weighs-in-on-strong-ai-growth-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-05-22/lenovo-cfo-weighs-in-on-strong-ai-growth-video</id>
-    <updated>2026-05-22T18:11:35Z</updated>
-    <summary type="text">Shares of Lenovo soared in Hong Kong trading Friday after the company reported strong growth in AI-related earnings, offsetting challenges from rising component prices. Winston Cheng, CFO of Lenovo, joins Ed Ludlow on &quot;Bloomberg Tech.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Trump pulls AI safety order after last-minute calls from Musk, Zuckerberg, and Sacks</title>
-    <link href="https://the-decoder.com/trump-pulls-ai-safety-order-after-last-minute-calls-from-musk-zuckerberg-and-sacks/" rel="alternate"/>
-    <id>https://the-decoder.com/trump-pulls-ai-safety-order-after-last-minute-calls-from-musk-zuckerberg-and-sacks/</id>
-    <updated>2026-05-22T11:26:47Z</updated>
-    <summary type="text">Trump killed an executive order on AI safety at the last minute after calls from Elon Musk, Mark Zuckerberg, and former advisor David Sacks. The order would have created a voluntary review system for frontier models with a 90-day window before release. The article Trump pulls AI safety order after last-minute calls from Musk, Zuckerberg, and Sacks appeared first on The Decoder.</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>Meta’s Forum is part Reddit, part Facebook, and part Google AI Overview</title>
-    <link href="https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on" rel="alternate"/>
-    <id>https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on</id>
-    <updated>2026-05-22T17:27:08Z</updated>
-    <summary type="text">Meta's new Forum app for iPhones takes Facebook Groups and moves them to a dedicated app with a dedicated AI chatbot to go with it, like an AI revamp of the ill-fated Groups app Facebook shut down in 2017. Rather than going to ChatGPT or tacking &quot;Reddit&quot; onto the end of a Google search, Forum […]</summary>
-    <author><name>Stevie Bonifield</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Elon, stop trying to make Grok happen</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen</id>
-    <updated>2026-05-22T17:17:06Z</updated>
-    <summary type="text">There is a harsh truth about Elon Musk's &quot;truth-seeking&quot; AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI's […]</summary>
-    <author><name>Robert Hart</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Trump abruptly cancels EO signing event after top AI firm CEOs declined to go</title>
-    <link href="https://arstechnica.com/tech-policy/2026/05/trump-canceled-ai-safety-testing-eo-after-snub-from-tech-ceos/" rel="alternate"/>
-    <id>https://arstechnica.com/tech-policy/2026/05/trump-canceled-ai-safety-testing-eo-after-snub-from-tech-ceos/</id>
-    <updated>2026-05-22T16:51:40Z</updated>
-    <summary type="text">Trump delays AI safety testing EO, claiming it would be an innovation “blocker.”</summary>
-    <author><name>Ashley Belanger</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>Apple says Epic lawsuit shouldn’t reshape App Store rules for all developers</title>
-    <link href="https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers/</id>
-    <updated>2026-05-22T16:27:57Z</updated>
-    <summary type="text">Apple is asking the Supreme Court to narrow the App Store injunction won by Epic Games and overturn the court’s contempt ruling over external payment fees.</summary>
-    <author><name>Sarah Perez</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI opens Singapore AI lab as IMDA updates AI framework</title>
-    <link href="https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/</id>
-    <updated>2026-05-22T10:00:00Z</updated>
-    <summary type="text">OpenAI will open its first Applied AI Lab outside the US in Singapore. The lab is part of a new partnership with the Ministry of Digital Development and Information. The initiative, called OpenAI for Singapore, was announced at the ATx Summit and is backed by a commitment of more than S$300 million. The lab will […] The post OpenAI opens Singapore AI lab as IMDA updates AI framework appeared first</summary>
-    <author><name>Muhammad Zulhusni</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>China’s AI just mapped its entire renewable energy grid. Here’s why the rest of the world should pay attention</title>
-    <link href="https://www.artificialintelligence-news.com/news/ai-energy-grid-mapping-china/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/ai-energy-grid-mapping-china/</id>
-    <updated>2026-05-22T10:00:00Z</updated>
-    <summary type="text">Every major economy is staring at the same problem right now. Artificial intelligence is consuming electricity at a pace that grids were never designed to handle. In the US, capacity market prices in PJM, the country’s largest grid operator, have risen more than tenfold in two years, with data-centre growth identified as a primary driver. […] The post China’s AI just mapped its entire renewable en</summary>
-    <author><name>Dashveenjit Kaur</name></author>
-  </entry>
-  <entry>
-    <title>Spotify’s AI bet: more of everything, less of what you want</title>
-    <link href="https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/</id>
-    <updated>2026-05-22T16:18:10Z</updated>
-    <summary type="text">Spotify has released a bunch of AI-powered tools that nudge users to create more content. It can be a bit much.</summary>
-    <author><name>Ivan Mehta</name></author>
-  </entry>
-  <entry>
-    <title>You can no longer Google the word ‘disregard’</title>
-    <link href="https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/</id>
-    <updated>2026-05-22T16:16:48Z</updated>
-    <summary type="text">After Google Search's AI update, the word &quot;disregard&quot; now effectively breaks the search interface.</summary>
-    <author><name>Russell Brandom</name></author>
-  </entry>
-  <entry>
-    <title>Bill Winters ‘Lower-Value Human’ Apology Not Enough for Unions</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-05-22/bill-winters-draws-union-ire-despite-lower-value-human-apology" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-05-22/bill-winters-draws-union-ire-despite-lower-value-human-apology</id>
-    <updated>2026-05-22T16:06:48Z</updated>
-    <summary type="text">Bill Winters’ efforts to restore calm after making some controversial comments on AI have failed to reassure labor organizations, according to one of the world’s largest union federations.</summary>
-    <author><name>Frances Schwartzkopff</name></author>
-  </entry>
-  <entry>
-    <title>Google AI Studio Just Changed the Shape of App Development</title>
-    <link href="https://dev.to/kanyingidickson-dev/google-ai-studio-just-changed-the-shape-of-app-development-144d" rel="alternate"/>
-    <id>https://dev.to/kanyingidickson-dev/google-ai-studio-just-changed-the-shape-of-app-development-144d</id>
-    <updated>2026-05-23T09:30:21Z</updated>
-    <summary type="text">This is a submission for the Google I/O Writing Challenge The browser is becoming the IDE, the backend, the deployment pipeline and the App factory The most important thing Google announced at I/O 2026 was not a model. It was the disappearance of friction. At first I dismissed Google AI Studio as another polished keynote demo. Then I realized Google wasn’t showing a coding assistant. It was showin</summary>
-    <author><name>Dickson Kanyingi</name></author>
-  </entry>
-  <entry>
-    <title>If you struggle to learn then this is for you.</title>
-    <link href="https://dev.to/wootcot/if-you-struggle-to-learn-then-this-is-for-you-49d0" rel="alternate"/>
-    <id>https://dev.to/wootcot/if-you-struggle-to-learn-then-this-is-for-you-49d0</id>
-    <updated>2026-05-23T09:28:12Z</updated>
-    <summary type="text">I have kept up with technology for almost a decade and most remote developers I worked with ask me how am I doing this. Let's assume that we have to learn something and that something is number 1 to 10. Every number is an entire section so they are complicated. Now ideally learning 1 and then 2 then 3 and so on is how we learn. This linear fashion of learning is not how I have been doing it for th</summary>
-    <author><name>Alish Giri</name></author>
-  </entry>
-  <entry>
-    <title>Best AI Agent Security &amp; Guardrails Tools in 2026: LLM Guard vs NeMo vs Guardrails AI</title>
-    <link href="https://dev.to/agdex_ai/best-ai-agent-security-guardrails-tools-in-2026-llm-guard-vs-nemo-vs-guardrails-ai-5e5d" rel="alternate"/>
-    <id>https://dev.to/agdex_ai/best-ai-agent-security-guardrails-tools-in-2026-llm-guard-vs-nemo-vs-guardrails-ai-5e5d</id>
-    <updated>2026-05-23T09:24:43Z</updated>
-    <summary type="text">As AI agents become more autonomous — browsing the web, executing code, and making decisions — security is no longer optional. One prompt injection attack, one toxic output, or one leaked secret can break user trust overnight. This guide compares the top AI agent security and guardrails tools in 2026 to help you pick the right layer of protection. Why AI Agent Security Matters Modern LLM applicati</summary>
-    <author><name>Agdex AI</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building Dynamic RBAC in React 19: From Permission Strings to Component-Level Access Control</title>
-    <link href="https://dev.to/uaslimcreate/building-dynamic-rbac-in-react-19-from-permission-strings-to-component-level-access-control-14j9" rel="alternate"/>
-    <id>https://dev.to/uaslimcreate/building-dynamic-rbac-in-react-19-from-permission-strings-to-component-level-access-control-14j9</id>
-    <updated>2026-05-23T09:22:46Z</updated>
-    <summary type="text">Building Dynamic RBAC in React 19: From Permission Strings to Component-Level Access Control String-based permission checks scattered across your React codebase are a maintenance nightmare. I know because I shipped CitizenApp with that anti-pattern, and it nearly bit me when we added our fifth AI feature. The problem? Permissions were hardcoded in components. When the marketing team wanted to tria</summary>
-    <author><name>Ugur Aslim</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How to Build a Self-Hosted AI Code Review Tool in Python</title>
-    <link href="https://dev.to/ayinedjimi-consultants/how-to-build-a-self-hosted-ai-code-review-tool-in-python-45h9" rel="alternate"/>
-    <id>https://dev.to/ayinedjimi-consultants/how-to-build-a-self-hosted-ai-code-review-tool-in-python-45h9</id>
-    <updated>2026-05-23T09:21:33Z</updated>
-    <summary type="text">Every team has the same code review problem: PRs sit for days, reviewers miss subtle logic bugs, and security issues slip through because nobody carefully checked the authentication layer. Linters catch syntax and style issues, but they don't reason about intent. A language model can — and you can run it entirely on your own infrastructure without sending a single line of your source code to a thi</summary>
-    <author><name>Ayi NEDJIMI</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Gemma-Loom: The Intent-Based Virtual Machine (IVM) for Edge Sovereignty</title>
-    <link href="https://dev.to/madanimkhitar22beep/gemma-loom-the-intent-based-virtual-machine-ivm-for-edge-sovereignty-5c5c" rel="alternate"/>
-    <id>https://dev.to/madanimkhitar22beep/gemma-loom-the-intent-based-virtual-machine-ivm-for-edge-sovereignty-5c5c</id>
-    <updated>2026-05-23T09:19:14Z</updated>
-    <summary type="text">⬛ 1. The Epistemic Crisis of Modern AI The modern tech industry is trapped in a race of brute force. We build monolithic cloud models to predict the next word, chasing scale while suffering from a core architectural unpredictability: Hallucination. In critical, sovereign, and resource-constrained environments, probabilistic systems are inherently dangerous. How do we trust a guessing machine to ma</summary>
-    <author><name>El Madani El mkhitar (madani004)</name></author>
-  </entry>
-  <entry>
-    <title>We tried Google’s AI glasses and they’re almost there</title>
-    <link href="https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/</id>
-    <updated>2026-05-22T15:37:15Z</updated>
-    <summary type="text">Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>1/30 Days System Design Question</title>
-    <link href="https://dev.to/thejoud1997/130-days-system-design-question-5dd8" rel="alternate"/>
-    <id>https://dev.to/thejoud1997/130-days-system-design-question-5dd8</id>
-    <updated>2026-05-23T09:13:45Z</updated>
-    <summary type="text">our mobile app talks to 3 backend services directly. A 4th one ships next sprint. The mobile team is already drowning. Every new service means a new domain to whitelist, a new auth scheme to wire, and a new error shape to parse. You’re asked to reduce coupling before NotificationService lands. Here’s the setup: Mobile → UserService (users.api.com) Mobile → OrderService (orders.api.com) Mobile → Pa</summary>
-    <author><name>Joud Awad</name></author>
-  </entry>
-  <entry>
-    <title>Testing FastAPI + SQLAlchemy with Real PostgreSQL Fixtures: No More Mocking Misery</title>
-    <link href="https://dev.to/uaslimcreate/testing-fastapi-sqlalchemy-with-real-postgresql-fixtures-no-more-mocking-misery-36g7" rel="alternate"/>
-    <id>https://dev.to/uaslimcreate/testing-fastapi-sqlalchemy-with-real-postgresql-fixtures-no-more-mocking-misery-36g7</id>
-    <updated>2026-05-23T09:12:23Z</updated>
-    <summary type="text">Testing FastAPI + SQLAlchemy with Real PostgreSQL Fixtures: No More Mocking Misery I spent three months debugging why a query worked in tests but failed in production. The culprit? I'd mocked the entire database layer. Mocks are seductive. They're fast, isolated, and you control everything. But they're also liars. They hide migration bugs, concurrency issues, transaction edge cases, and the thousa</summary>
-    <author><name>Ugur Aslim</name></author>
-  </entry>
-  <entry>
-    <title>Are Fintech Apps Already Dead?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video</id>
-    <updated>2026-05-22T15:27:05Z</updated>
-    <summary type="text">Is it the end of fintech and investing apps as we know it? Atomic Invest CEO David Dindi joins Bloomberg Open Interest to talk about the future of finance and why it belongs to AI companions, not apps. He says investing apps could disappear within a decade as AI assistants manage portfolios for consumers. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Musk and Zuckerberg convinced Trump to scrap AI executive order</title>
-    <link href="https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/</id>
-    <updated>2026-05-22T09:00:00Z</updated>
-    <summary type="text">The ceremony was scheduled. The CEOs were on the guest list. And then it wasn’t happening. On Thursday, US President Donald Trump scrapped a planned AI executive order, which had already been delayed multiple times, citing concerns that it might erode America’s competitive edge over China. “We’re leading China, we’re leading everybody, and I don’t […] The post Musk and Zuckerberg convinced Trump t</summary>
-    <author><name>Dashveenjit Kaur</name></author>
-  </entry>
-  <entry>
-    <title>The Rise of AI Public Safety</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-05-22/the-rise-of-ai-public-safety-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-05-22/the-rise-of-ai-public-safety-video</id>
-    <updated>2026-05-22T15:17:47Z</updated>
-    <summary type="text">Axon President Josh Isner joins Bloomberg Open Interest to explain why Wall Street is misunderstanding the company’s AI strategy. From drones to enterprise security and public safety software, Isner says Axon is evolving far beyond Tasers and body cameras, and betting aggressively on AI to drive its next wave of growth. Correction: Corrects the name of a guest in the description. (Source: Bloomber</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Even If You Hate AI, You Will Use Google AI Search</title>
-    <link href="https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/" rel="alternate"/>
-    <id>https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/</id>
-    <updated>2026-05-22T15:00:00Z</updated>
-    <summary type="text">The search giant’s AI-crafted answers are so convenient, you’ll be sucked in—to the detriment of the web and the artists and thinkers behind it.</summary>
-    <author><name>Steven Levy</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web</title>
-    <link href="https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/</id>
-    <updated>2026-05-22T08:32:55Z</updated>
-    <summary type="text">Microsoft Research released Fara1.5, a family of browser computer-use agents in 4B, 9B, and 27B sizes. Fara1.5-27B scores 72% on Online-Mind2Web, outperforming OpenAI Operator, Gemini 2.5 Computer Use, and Yutori Navigator n1. The release also includes FaraGen1.5, a synthetic data pipeline that trains agents on gated The post Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>

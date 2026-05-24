@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-23T09:43:49Z</updated>
+  <updated>2026-05-24T09:48:03Z</updated>
+  <entry>
+    <title>NVIDIA AI Releases Gated DeltaNet-2: A Linear Attention Layer That Decouples Erase and Write in the Delta Rule</title>
+    <link href="https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/</id>
+    <updated>2026-05-24T07:42:09Z</updated>
+    <summary type="text">Linear attention squeezes the unbounded KV cache into a fixed-size recurrent state, but editing that memory without scrambling existing associations is hard. Prior delta-rule models like Gated DeltaNet and KDA use one scalar gate to control both erasing old content and writing new content. NVIDIA's Gated DeltaNet-2 decouples these into a channel-wise erase gate b_t on the key axis and a channel-wi</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation</title>
     <link href="https://arxiv.org/abs/2605.22816v1" rel="alternate"/>
@@ -104,45 +115,5 @@
     <author><name>/u/EggDroppedSoup</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>NestJS vs Fastify vs Express: Which Backend Wins in 2026</title>
-    <link href="https://dev.to/ihor_ostin/nestjs-vs-fastify-vs-express-which-backend-wins-in-2026-2ep2" rel="alternate"/>
-    <id>https://dev.to/ihor_ostin/nestjs-vs-fastify-vs-express-which-backend-wins-in-2026-2ep2</id>
-    <updated>2026-05-20T10:26:11Z</updated>
-    <summary type="text">Most teams pick Express because they've always picked Express. It's familiar, battle-tested, and surrounded by a rich ecosystem of middleware. But per-request overhead in Express is measurably higher than in modern alternatives, and 2026 benchmarks make that gap impossible to ignore. When your SaaS platform is processing thousands of API calls per second, that overhead compounds fast. This guide g</summary>
-    <author><name>Ihor Ostin</name></author>
-    <category term="research"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Interesting paper advocates for quantized prefilling and precise decoding</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjvl4h/interesting_paper_advocates_for_quantized/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjvl4h/interesting_paper_advocates_for_quantized/</id>
-    <updated>2026-05-21T19:42:48Z</updated>
-    <summary type="text">From other people's tests, NVFP4 decoding speed hasn't really allowed people to hit higher peaks (let's say: 85-90% memory bandwidth utilization) versus other approaches. The development leans toward a different class of optimization like parallel decoding. There is also measurement difficulty in MoE era where MoE suffers a tg speed penalty vs active dense. We may get pre-fill speedup, but tg perf</summary>
-    <author><name>/u/Aaaaaaaaaeeeee</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>So, what is Yann LeCun's &quot;World Models&quot; and JEPA and is it Really a Replacement for LLMs?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tjuats/so_what_is_yann_lecuns_world_models_and_jepa_and/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tjuats/so_what_is_yann_lecuns_world_models_and_jepa_and/</id>
-    <updated>2026-05-21T18:59:11Z</updated>
-    <summary type="text">A bit late to this as the white paper hit arXiv a little less than two months ago, but nobody else here mentioned it so I thought I might. A little background. Yann LeCun is a pioneer of deep learning and convolutional neural networks, LeCun served as Director of AI Research at Meta (formerly Facebook) and Chief AI Scientist, before leaving Meta (under &quot;interesting&quot; circumstances) and becoming Exe</summary>
-    <author><name>/u/RazzmatazzAccurate82</name></author>
-    <category term="research"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Honesty in a small model drops from 35% to 0% by changing the tone of the prompt. Sharing the findings.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/</id>
-    <updated>2026-05-21T14:47:46Z</updated>
-    <summary type="text">My paper got published today at Arxiv. It raises questions about how language models behave when the framing of a request shifts. Small open-source AI models can be moved from honest to dishonest behaviour by little more than a change in tone. Asked to solve coding problems designed to be mathematically impossible, the model openly acknowledged the impossibility about a third of the time when addr</summary>
-    <author><name>/u/QuantumSeeds</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>

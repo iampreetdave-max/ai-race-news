@@ -4,7 +4,93 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-23T09:43:49Z</updated>
+  <updated>2026-05-24T09:48:03Z</updated>
+  <entry>
+    <title>Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%</title>
+    <link href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/</id>
+    <updated>2026-05-24T08:56:19Z</updated>
+    <summary type="text">Microsoft Research introduces Webwright, a terminal-native browser agent framework that replaces click-trace web automation with reusable Playwright scripts. Using a single agent loop across three modules and roughly 1,000 lines of code, Webwright powered by GPT-5.4 reaches 60.1% on the long-horizon Odysseys benchmark and 86.7% on Online-Mind2Web — the highest AutoEval score among open-sourced har</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Researchers let Claude Code discover AI scaling algorithms that humans probably wouldn't have designed</title>
+    <link href="https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/" rel="alternate"/>
+    <id>https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/</id>
+    <updated>2026-05-24T08:06:35Z</updated>
+    <summary type="text">Researchers from UMD, Google, Meta, and other institutions use AutoTTS to let a coding agent independently discover control algorithms for AI reasoning. The algorithm it found cuts compute by about 70 percent compared to standard self-consistency while matching its accuracy. The whole search cost $40 and took 160 minutes. The article Researchers let Claude Code discover AI scaling algorithms that </summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents</title>
+    <link href="https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/</id>
+    <updated>2026-05-23T19:31:12Z</updated>
+    <summary type="text">Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a 4-tier long-term memory pyramid (L0 Conversation → L1 Atom → L2 Scenario → L3 Persona). It ships as an OpenClaw plugin and a Hermes Docker image, runs on l</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Eval Set Drift: How to Know When Your Golden Set Went Stale</title>
+    <link href="https://dev.to/gabrielanhaia/eval-set-drift-how-to-know-when-your-golden-set-went-stale-p8m" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/eval-set-drift-how-to-know-when-your-golden-set-went-stale-p8m</id>
+    <updated>2026-05-24T09:37:17Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Your golden eval set was good in March. It's December now. Half t</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hallucination Detection at the Trace Layer: 4 Detectors You Can Ship Today</title>
+    <link href="https://dev.to/gabrielanhaia/hallucination-detection-at-the-trace-layer-4-detectors-you-can-ship-today-5597" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/hallucination-detection-at-the-trace-layer-4-detectors-you-can-ship-today-5597</id>
+    <updated>2026-05-24T09:36:43Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You can't catch every hallucination at runtime. The cost of runni</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kexa.io: Open-Source IT Security for Local AI Governance</title>
+    <link href="https://dev.to/jaychkdsk/kexaio-open-source-it-security-for-local-ai-governance-5aj8" rel="alternate"/>
+    <id>https://dev.to/jaychkdsk/kexaio-open-source-it-security-for-local-ai-governance-5aj8</id>
+    <updated>2026-05-24T09:36:39Z</updated>
+    <summary type="text">Kexa.io – Open-Source IT Security and Compliance Verification: The New Standard for Local AI Governance Enterprise adoption of Large Language Models is no longer a pilot program; it is an operational requirement. We see organizations like AdventHealth integrating models directly into clinical workflows, while others in high-stakes sectors like travel manage complex refactors using AI assistants. T</summary>
+    <author><name>Jay Grider</name></author>
+    <category term="regulation"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Per-Customer LLM Cost Reports (Without Rearchitecting Your Billing Pipeline)</title>
+    <link href="https://dev.to/gabrielanhaia/per-customer-llm-cost-reports-without-rearchitecting-your-billing-pipeline-1h53" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/per-customer-llm-cost-reports-without-rearchitecting-your-billing-pipeline-1h53</id>
+    <updated>2026-05-24T09:36:25Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Finance walks over. &quot;How much did Acme Corp cost us in LLM calls </summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LLM Trace Storage Cost: Why Your S3 Bill Exploded, and 3 Fixes</title>
+    <link href="https://dev.to/gabrielanhaia/llm-trace-storage-cost-why-your-s3-bill-exploded-and-3-fixes-4880" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/llm-trace-storage-cost-why-your-s3-bill-exploded-and-3-fixes-4880</id>
+    <updated>2026-05-24T09:35:54Z</updated>
+    <summary type="text">Book: LLM Observability Pocket Guide: Picking the Right Tracing &amp; Evals Tools for Your Team Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub The Slack message lands on a Tuesday. Finance: &quot;S3 spend tripled </summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Multi-Shot vs Zero-Shot: When Adding Examples Actually Hurts Accuracy</title>
+    <link href="https://dev.to/gabrielanhaia/multi-shot-vs-zero-shot-when-adding-examples-actually-hurts-accuracy-3bd2" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/multi-shot-vs-zero-shot-when-adding-examples-actually-hurts-accuracy-3bd2</id>
+    <updated>2026-05-24T09:34:57Z</updated>
+    <summary type="text">Book: Prompt Engineering Pocket Guide: Techniques for Getting the Most from LLMs Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub &quot;Add a few-shot example&quot; is the most-given prompt advice on the internet. St</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>A Step-by-Step Coding Tutorial to Implement GBrain: The Self-Wiring Memory Layer Built by Y Combinator’s Garry Tan for AI Agents</title>
     <link href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/" rel="alternate"/>
@@ -100,12 +186,60 @@
     <category term="product-launch"/>
   </entry>
   <entry>
+    <title>ig nobody is talking about the real reason most AI agents fail in the real world</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tm4aau/ig_nobody_is_talking_about_the_real_reason_most/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tm4aau/ig_nobody_is_talking_about_the_real_reason_most/</id>
+    <updated>2026-05-24T06:33:37Z</updated>
+    <summary type="text">we spend a lot of time in this community talking about capabilities. context windows, reasoning benchmarks, multi-step tool use, how well a model can write code or pass a bar exam. i'm not dismissing any of that. capabilities matter. but when i look at AI products failing in production, the capability of the model is almost never the issue. ive been building and consulting on AI agents for about 1</summary>
+    <author><name>/u/bcoz_why_not__</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Is There a Roadmap for Applied AI Engineering Without Going Deep Into Data Science?</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tm3vba/is_there_a_roadmap_for_applied_ai_engineering/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tm3vba/is_there_a_roadmap_for_applied_ai_engineering/</id>
+    <updated>2026-05-24T06:10:50Z</updated>
+    <summary type="text">Started my career as a C# developer, then moved into application design and architecture, followed by Azure, and now I’m mainly working in AWS and DevOps. I want to transition into becoming a Senior Applied AI Engineer. The kind of role I’m interested in is designing and architecting AI-enabled applications, working with LLMs, agentic workflows, AI integrations, orchestration, automation, and poss</summary>
+    <author><name>/u/argumentnull</name></author>
+    <category term="agents"/>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>Cursor Hits $3 Billion Annual Sales Rate Ahead of SpaceX Deal</title>
     <link href="https://www.bloomberg.com/news/articles/2026-05-21/cursor-hits-3-billion-annual-sales-rate-ahead-of-spacex-deal" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-05-21/cursor-hits-3-billion-annual-sales-rate-ahead-of-spacex-deal</id>
     <updated>2026-05-21T21:09:50Z</updated>
     <summary type="text">Cursor’s annualized revenue hit $3 billion in late April, according to a person familiar with the matter, indicating growing demand for the company’s AI coding software ahead of an expected deal to be acquired by Elon Musk’s SpaceX. The artificial intelligence startup’s annualized revenue, which projects sales for a 12-month-period based on recent performance, topped $2 billion in February, Bloomb</summary>
     <author><name>Rachel Metz</name></author>
+  </entry>
+  <entry>
+    <title>After 6 months of running AI agents in production I think the framework you pick barely matters. The thing that kills them is something else.</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tlt8b9/after_6_months_of_running_ai_agents_in_production/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tlt8b9/after_6_months_of_running_ai_agents_in_production/</id>
+    <updated>2026-05-23T21:48:28Z</updated>
+    <summary type="text">Going to get downvoted for this but here we go. I've been running about 30 agents in production for paying customers for the last 6 months and I'm convinced the framework debate is mostly a distraction. LangChain, CrewAI, AutoGen, OpenAI Agents SDK. Pick whichever one your team already knows. It doesn't matter as much as you think. What actually decides whether your agent works in production is so</summary>
+    <author><name>/u/DetectiveMindless652</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Did a 30 runs of llama-bench to find optimal settings for my use case (Frigate and HomeAssistant) on my MI60 32gb VRAM GPU - two models tested Gemma4 and Qwen3.6 - Figured I'd share in case it helps anyone else</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tlliw4/did_a_30_runs_of_llamabench_to_find_optimal/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tlliw4/did_a_30_runs_of_llamabench_to_find_optimal/</id>
+    <updated>2026-05-23T16:45:24Z</updated>
+    <summary type="text">I'm running llama.cpp using this docker container: https://github.com/mixa3607/ML-gfx906 (it's just a lot easier than building from source, which I was doing previously). The MI60 (or MI50) are just a real pain in the behind to get working with Ubuntu 24.04. That container has it up in minutes, real timesaver. Anyway, my personal use case for LLM's is primarily for Frigate to review camera footage</summary>
+    <author><name>/u/FantasyMaster85</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>my teacher vs chatgpt when i ask a dumb question</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tlgwr0/my_teacher_vs_chatgpt_when_i_ask_a_dumb_question/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tlgwr0/my_teacher_vs_chatgpt_when_i_ask_a_dumb_question/</id>
+    <updated>2026-05-23T13:44:31Z</updated>
+    <summary type="text">so i'm a cs student who spends more time vibecoding than actually learning. claude code writes my backend. runable handles my landing pages and docs. i basically just describe things and approve them. recently tried to actually understand what i was building for once. asked my professor a basic question about it in class. he stared at me for 3 seconds and just said &quot;you should know this already.&quot; </summary>
+    <author><name>/u/MankyMan0099</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Add a Specialized Deep Research Skill to Agent Harnesses</title>
@@ -226,79 +360,5 @@
     <summary type="text">I am deeply dissatisfied with free Gemini and NotebookLM, and have decided to shell out a monthly subscription. Based solely on number of subscribers, I have chosen ChatGPT Plus, over Microsoft Copilot, Google Gemini (Advanced), Perplexity AI (Pro), Character.AI (c.ai+), and DeepSeek. Am I making the right choice/ submitted by /u/SmartPEG [link] [comments]</summary>
     <author><name>/u/SmartPEG</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.</title>
-    <link href="https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think" rel="alternate"/>
-    <id>https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think</id>
-    <updated>2026-05-19T17:45:00Z</updated>
-    <summary type="text">For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.At its annual I/O developer conference, Google announced a sweeping redesign of the search box itself — the literal text field where billions of queri</summary>
-    <author><name>michael.nunez@venturebeat.com (Michael Nuñez)</name></author>
-  </entry>
-  <entry>
-    <title>Agentic app coding gets an upgrade with Google’s release of Android CLI</title>
-    <link href="https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/</id>
-    <updated>2026-05-19T17:45:00Z</updated>
-    <summary type="text">Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms like Claude Code and OpenAI’s Codex, allowing developers — or their AI assistants — to build Android apps faster from the command line.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>7 Python Hiring Mistakes That Kill Projects (2026)</title>
-    <link href="https://dev.to/ihor_ostin/7-python-hiring-mistakes-that-kill-projects-2026-2dl8" rel="alternate"/>
-    <id>https://dev.to/ihor_ostin/7-python-hiring-mistakes-that-kill-projects-2026-2dl8</id>
-    <updated>2026-05-20T10:30:24Z</updated>
-    <summary type="text">Bad Python hires do not just slow projects down. They kill them. This guide documents the 7 specific hiring mistakes behind every async crash, race condition, and data pipeline failure, and shows exactly how to catch them before they reach your codebase. TL;DR: Most Python projects fail because of who was hired, not what was built. Bad Python developer hires cost up to $240,000 and contribute to 7</summary>
-    <author><name>Ihor Ostin</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Best Enterprise Level Agentic AI Platforms for 2026</title>
-    <link href="https://www.marktechpost.com/2026/05/19/best-enterprise-level-agentic-ai-platforms-for-2026/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/19/best-enterprise-level-agentic-ai-platforms-for-2026/</id>
-    <updated>2026-05-19T08:24:58Z</updated>
-    <summary type="text">Enterprise agentic AI has moved from pilots to production in 2026. This guide ranks the top 10 platforms — Salesforce Agentforce, Microsoft Copilot Studio, ServiceNow, LangGraph, and more — with verified pricing, real adoption data, and honest constraints to help enterprise teams make the right platform decision. The post Best Enterprise Level Agentic AI Platforms for 2026 appeared first on MarkTe</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Qwen3.6 35Ba3 has changed my workflows and even how I use my computer</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tjwrp7/qwen36_35ba3_has_changed_my_workflows_and_even/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tjwrp7/qwen36_35ba3_has_changed_my_workflows_and_even/</id>
-    <updated>2026-05-21T20:23:53Z</updated>
-    <summary type="text">My workflow has changed basically to ask Codex to do certain tasks and then document how to do them (including errors it found on its way) into a skill. I feed that skill to pi, and suddenly my qwen3.6 gets that hard stuff done: - devops on a VPS - using docling to create epubs from old PDFs - using playwright to test stuff - Doing code tickets And the list goes on. What also has changed for me is</summary>
-    <author><name>/u/mouseofcatofschrodi</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Datasette Agent</title>
-    <link href="https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything</id>
-    <updated>2026-05-21T19:52:19Z</updated>
-    <summary type="text">We just announced the first release of Datasette Agent, a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent represents the moment that LLM and Datasette finally come together. I'm really excited about it! Datasette Agent provides a conversational interface for asking questions of the data you have stored in Data</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CipherGenix Earns a 60 Proof of Usefulness Score by Building a Healthcare AI Security Platform</title>
-    <link href="https://hackernoon.com/ciphergenix-earns-a-60-proof-of-usefulness-score-by-building-a-healthcare-ai-security-platform?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/ciphergenix-earns-a-60-proof-of-usefulness-score-by-building-a-healthcare-ai-security-platform?source=rss</id>
-    <updated>2026-05-20T04:17:46Z</updated>
-    <summary type="text">Healthcare AI is being blocked from hospital procurement because standard cloud infrastructure can't mathematically prove PHI isolation. CipherGenix solves this with AWS Nitro Enclaves — hardware-isolated execution environments where even a compromised host cannot access model weights or patient data. We're currently in paid design partnership with Hera Fertility (Mayo Clinic Platform_Accelerate) </summary>
-    <author><name>yutong_f3u2qd8</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Gemini is in danger of going full Copilot</title>
-    <link href="https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace" rel="alternate"/>
-    <id>https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace</id>
-    <updated>2026-05-19T10:30:00Z</updated>
-    <summary type="text">Gemini has a creep problem. A few years ago, that little sparkle icon started showing up in all of our Google apps. Gemini in your inbox! Gemini in your Google Drive! It was slow at first, and easy enough to tune out, but something has changed in the past few months. Gemini is creeping. It's […]</summary>
-    <author><name>Allison Johnson</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>
