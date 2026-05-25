@@ -4,7 +4,34 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-24T09:48:03Z</updated>
+  <updated>2026-05-25T11:43:05Z</updated>
+  <entry>
+    <title>Putting Claude Code Under Version Control: Configs Since July, Memory Since April</title>
+    <link href="https://dev.to/heysash/putting-claude-code-under-version-control-configs-since-july-memory-since-april-29b1" rel="alternate"/>
+    <id>https://dev.to/heysash/putting-claude-code-under-version-control-configs-since-july-memory-since-april-29b1</id>
+    <updated>2026-05-25T11:22:22Z</updated>
+    <summary type="text">When you let an AI agent share your machine for a year, you eventually hit a question you can't answer: why does my setup look like this? Not &quot;what does it look like&quot; — that's just cat. The why. Which config landed when, which edit was the agent's own work versus mine, which assumption got baked in three commits ago and is now invisible. If you've used Claude Code long enough to have an evolved se</summary>
+    <author><name>Sascha Rahn</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Reviving My Linux Mastery Game from a Merge Conflict — A Finish-Up-A-Thon Comeback</title>
+    <link href="https://dev.to/bharath_nelapatla_711e233/eviving-my-linux-mastery-game-from-a-merge-conflict-a-finish-up-a-thon-comeback-kdo" rel="alternate"/>
+    <id>https://dev.to/bharath_nelapatla_711e233/eviving-my-linux-mastery-game-from-a-merge-conflict-a-finish-up-a-thon-comeback-kdo</id>
+    <updated>2026-05-25T11:20:33Z</updated>
+    <summary type="text">*This is a submission for the GitHub Finish-Up-A-Thon Challenge* What I Built Enterprise Linux Mastery Game — a local-first, AI-mentored terminal game for practicing real enterprise Linux administration. The mentor sets a scenario (a paging-hour incident, a permissions puzzle, a 5xx spike). You type Linux commands. They run inside a hardened Docker sandbox. An AI judge grades you on correctness, s</summary>
+    <author><name>Bharath Nelapatla</name></author>
+  </entry>
+  <entry>
+    <title>Why you shouldn't leave model selection on default in Copilot, Gemini and other AI tools</title>
+    <link href="https://the-decoder.com/why-you-shouldnt-leave-model-selection-on-default-in-copilot-gemini-and-other-ai-tools/" rel="alternate"/>
+    <id>https://the-decoder.com/why-you-shouldnt-leave-model-selection-on-default-in-copilot-gemini-and-other-ai-tools/</id>
+    <updated>2026-05-24T10:17:46Z</updated>
+    <summary type="text">When analyzing data, Microsoft Copilot invents country differences where none exist. Mathematician Adam Kucharski fed the tool identical datasets with different country labels, and Copilot delivered detailed stereotypes instead of accurate results. Thinking models catch the trick, but only if users know when to reach for them. The article Why you shouldn't leave model selection on default in Copil</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%</title>
     <link href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/" rel="alternate"/>
@@ -23,6 +50,15 @@
     <updated>2026-05-24T08:06:35Z</updated>
     <summary type="text">Researchers from UMD, Google, Meta, and other institutions use AutoTTS to let a coding agent independently discover control algorithms for AI reasoning. The algorithm it found cuts compute by about 70 percent compared to standard self-consistency while matching its accuracy. The whole search cost $40 and took 160 minutes. The article Researchers let Claude Code discover AI scaling algorithms that </summary>
     <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code Organizer Earns a 87.94 Proof of Usefulness Score by Building a Dashboard to Manage Claude Code Memories, Configs, and MCP Servers</title>
+    <link href="https://hackernoon.com/claude-code-organizer-earns-a-8794-proof-of-usefulness-score-by-building-a-dashboard-to-manage-claude-code-memories-configs-and-mcp-servers?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/claude-code-organizer-earns-a-8794-proof-of-usefulness-score-by-building-a-dashboard-to-manage-claude-code-memories-configs-and-mcp-servers?source=rss</id>
+    <updated>2026-05-25T04:20:06Z</updated>
+    <summary type="text">CCO is a dashboard that shows what your AI coding agent actually loads and scans for MCP tool poisoning. 12K npm downloads and 209 GitHub stars in 2 weeks.Read All</summary>
+    <author><name>ithiria137_u9m8imoo</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -92,6 +128,24 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>RAG for developer docs so local llm can code using latest library?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tn4poe/rag_for_developer_docs_so_local_llm_can_code/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tn4poe/rag_for_developer_docs_so_local_llm_can_code/</id>
+    <updated>2026-05-25T10:07:29Z</updated>
+    <summary type="text">I was wondering if it would make local llm better at coding if it has access to the latest documentation available through a RAG. I'm specifically interested in python. But then this might lead ingesting and embedding a very large number of documents. Or I could just focus on the specific docs that are of interest to me to narrow it down further. Third option to make it look everything up online b</summary>
+    <author><name>/u/BitGreen1270</name></author>
+  </entry>
+  <entry>
+    <title>I built a computer use sandbox framework for codex on headless linux. GPU passthrough, computer use, and sudo access for codex all work. It's the perfect dev sandbox to allow full auto work while minimizing the &quot;rm -rf /&quot; risk</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tn3i55/i_built_a_computer_use_sandbox_framework_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tn3i55/i_built_a_computer_use_sandbox_framework_for/</id>
+    <updated>2026-05-25T09:01:19Z</updated>
+    <summary type="text">I've been working with agents for months now, and I haven't found a sandbox environment that &quot;just works&quot; so I built it! My requirements were as follows: Agent is unable to destroy my host OS but able to install software and run sudo commands Agent is able to browse the web autonomously and validate the UI it creates GPU access works (even on DGX spark which cant pass through to Docker works Persi</summary>
+    <author><name>/u/superSmitty9999</name></author>
+    <category term="hardware"/>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>A Step-by-Step Coding Tutorial to Implement GBrain: The Self-Wiring Memory Layer Built by Y Combinator’s Garry Tan for AI Agents</title>
     <link href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/</id>
@@ -104,6 +158,17 @@
     <category term="tutorial"/>
   </entry>
   <entry>
+    <title>I made a local-first MCP tutorial repo with node-llama-cpp and a custom agent loop</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tn1jjy/i_made_a_localfirst_mcp_tutorial_repo_with/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tn1jjy/i_made_a_localfirst_mcp_tutorial_repo_with/</id>
+    <updated>2026-05-25T07:14:17Z</updated>
+    <summary type="text">I just published a repo called MCP from Scratch that teaches the Model Context Protocol by building it step by step in plain Node.js. Most of the repo is about understanding MCP itself, but the later modules may be relevant here: I added a local-first setup using node-llama-cpp, GGUF models, MCP sampling, and a custom plan -&gt; act -&gt; observe agent loop. So the repo goes from: raw JSON-RPC and stdio</summary>
+    <author><name>/u/purellmagents</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>OpenAI Appshots turn any Mac window into context for Codex</title>
     <link href="https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/" rel="alternate"/>
     <id>https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/</id>
@@ -111,6 +176,15 @@
     <summary type="text">With the new Codex feature Appshots, Mac users can send the contents of any app window to OpenAI's coding assistant Codex at the press of a button, giving it the context it needs for a task. The article OpenAI Appshots turn any Mac window into context for Codex appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>(plz answer) Can I Still Build a Career in AI/ML Without a Degree?</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tmt7ts/plz_answer_can_i_still_build_a_career_in_aiml/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tmt7ts/plz_answer_can_i_still_build_a_career_in_aiml/</id>
+    <updated>2026-05-25T00:33:03Z</updated>
+    <summary type="text">I started learning Data Analytics seriously over the last few years and built skills in Power BI, reporting, dashboards, Microsoft Fabric, and operational analytics while working full-time. But despite applying to many jobs, I’m struggling to transition properly into the field mainly because I don’t have a formal college degree. Now I’m thinking about moving towards AI Engineering and more technic</summary>
+    <author><name>/u/Upper_Tip7435</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Google AI Studio Just Changed the Shape of App Development</title>
@@ -167,6 +241,24 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>How do you structure a truly reproducible Deep Learning environment across CPU/GPU, Windows/macOS/Linux, and different CUDA setups?</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tmig77/how_do_you_structure_a_truly_reproducible_deep/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tmig77/how_do_you_structure_a_truly_reproducible_deep/</id>
+    <updated>2026-05-24T17:27:16Z</updated>
+    <summary type="text">Hi everyone, I'm working on a university Deep Learning project where full reproducibility is a mandatory requirement, including all preprocessing steps and the entire training pipeline. My local setup is: Windows 11 Python 3.11 + Miniconda NVIDIA RTX 3060 Laptop GPU CUDA 13.x PyTorch + PyTorch Geometric (PyG) and optional PyG CUDA extensions The main problem is that my local environment is CUDA-sp</summary>
+    <author><name>/u/Ruud_Galed</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Scientists invented a fake disease. AI told people it was real</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tmegqg/scientists_invented_a_fake_disease_ai_told_people/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tmegqg/scientists_invented_a_fake_disease_ai_told_people/</id>
+    <updated>2026-05-24T14:58:10Z</updated>
+    <summary type="text">ChatGPT diagnosed 40 million people with a disease that was invented as a joke. Not a real disease. Not a misunderstood disease. A completely fictional condition with a fake name, fake papers, and fake statistics. And it told patients to see a specialist. The disease is called Bixonimania. A Swedish researcher at the University of Gothenburg invented it in 2024 to answer one question: what happens</summary>
+    <author><name>/u/StephieWatts</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters</title>
     <link href="https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/</id>
@@ -174,6 +266,15 @@
     <summary type="text">Maximizing the value of AI infrastructure demands deep visibility into GPU utilization. Yet many platform teams running AI workloads on Kubernetes operate with...</summary>
     <author><name>Guy Saltoun</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Working on a cgo-free CUDA binding in Go for ML stuff Week 3 - open source [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tmb4qw/working_on_a_cgofree_cuda_binding_in_go_for_ml/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tmb4qw/working_on_a_cgofree_cuda_binding_in_go_for_ml/</id>
+    <updated>2026-05-24T12:41:07Z</updated>
+    <summary type="text">At our work we use CUDA in Rust since the company switched to it recently. Rust has pretty good Driver API bindings but it made me wonder why the hell we cant have something decent in Go without cgo. I mostly build ML tools in the last month and Go is my main language for pretty much everything. Problem is most Go CUDA projects still need cgo and the full toolkit at build time. That breaks cross c</summary>
+    <author><name>/u/Eitamr</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window</title>
@@ -184,6 +285,16 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Geo-Align: Video Generation Alignment via Metric Geometry Reward</title>
+    <link href="https://arxiv.org/abs/2605.23903v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.23903v1</id>
+    <updated>2026-05-22T17:59:43Z</updated>
+    <summary type="text">Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Consequently, the prevailing paradigm often exhibits limited generalization when processing out-of-dis</summary>
+    <author><name>Tong He</name></author>
+    <category term="data"/>
+    <category term="computer-vision"/>
   </entry>
   <entry>
     <title>ig nobody is talking about the real reason most AI agents fail in the real world</title>
@@ -315,50 +426,5 @@
     <summary type="text">Long-running AI agents often experience &quot;Agentic Amnesia,&quot; losing their train of thought over extended execution windows. This failure occurs because standard frameworks rely on naive context truncation and lossy LLM-driven summaries that delete critical historical details. We address this bottleneck by decoupling memory from the active model context window and implementing a Tri-Tier Memory Archi</summary>
     <author><name>Abhilash Pakalapati</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How Ramp engineers accelerate code review with Codex</title>
-    <link href="https://openai.com/index/ramp" rel="alternate"/>
-    <id>https://openai.com/index/ramp</id>
-    <updated>2026-05-20T00:00:00Z</updated>
-    <summary type="text">How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Driftvane Spots Broken RAG Pipelines Before Users Do</title>
-    <link href="https://hackernoon.com/driftvane-spots-broken-rag-pipelines-before-users-do?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/driftvane-spots-broken-rag-pipelines-before-users-do?source=rss</id>
-    <updated>2026-05-21T04:46:03Z</updated>
-    <summary type="text">Driftvane is an MIT Python library that detects embedding, retrieval, response, and latency drift in RAG pipelines before users complain.Read All</summary>
-    <author><name>Mukunda Rao Katta</name></author>
-  </entry>
-  <entry>
-    <title>This Free VS Code Extension Shows Where Your Claude Code Tokens Are Going</title>
-    <link href="https://hackernoon.com/this-free-vs-code-extension-shows-where-your-claude-code-tokens-are-going?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/this-free-vs-code-extension-shows-where-your-claude-code-tokens-are-going?source=rss</id>
-    <updated>2026-05-21T04:04:42Z</updated>
-    <summary type="text">Learn how to effectively monitor your Claude Code sessions and token usage. Keep track of your terminal processes and maximize your development efficiency.Read All</summary>
-    <author><name>GloryXGame</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Qwen-27B-IQ4_KS for ik_llama.cpp, especially for NVIDIA with 16GB VRAM</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tkmgwj/qwen27biq4_ks_for_ik_llamacpp_especially_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tkmgwj/qwen27biq4_ks_for_ik_llamacpp_especially_for/</id>
-    <updated>2026-05-22T15:32:55Z</updated>
-    <summary type="text">Hi everyone, I'm presenting a new quantization of the Qwen-27B model, created specifically with 16GB VRAM NVIDIA GPUs in mind. I used quants that, unfortunately, are not yet available in the main upstream llama.cpp. I'm talking about the KS and KSS quants developed by ikawrakow. After many trials, I managed to create a 14.1GB model which, in my testing, delivers results highly comparable to my pre</summary>
-    <author><name>/u/Pablo_the_brave</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Should I subscribe to ChatGPT Plus?</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1tke0b5/should_i_subscribe_to_chatgpt_plus/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1tke0b5/should_i_subscribe_to_chatgpt_plus/</id>
-    <updated>2026-05-22T09:39:12Z</updated>
-    <summary type="text">I am deeply dissatisfied with free Gemini and NotebookLM, and have decided to shell out a monthly subscription. Based solely on number of subscribers, I have chosen ChatGPT Plus, over Microsoft Copilot, Google Gemini (Advanced), Perplexity AI (Pro), Character.AI (c.ai+), and DeepSeek. Am I making the right choice/ submitted by /u/SmartPEG [link] [comments]</summary>
-    <author><name>/u/SmartPEG</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
