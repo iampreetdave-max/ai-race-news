@@ -4,7 +4,65 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-25T11:43:05Z</updated>
+  <updated>2026-05-27T11:29:07Z</updated>
+  <entry>
+    <title>Import AI 458: Reckoning with the future; and a singularity story</title>
+    <link href="https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/" rel="alternate"/>
+    <id>https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/</id>
+    <updated>2026-05-26T12:32:03Z</updated>
+    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gave, and a fictional story attempting to think through what a positive singularity might look […]</summary>
+    <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini</title>
+    <link href="https://arxiv.org/abs/2605.27295v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.27295v1</id>
+    <updated>2026-05-26T17:07:55Z</updated>
+    <summary type="text">We introduce Gemini Embedding 2, a native multimodal embedding model that allows embedding video, audio, image, and text modalities in a unified representation space. We leverage the multimodal capabilities of Gemini to produce embeddings for arbitrary combinations of interleaved inputs across all these modalities that generalize well across a wide variety of tasks. Applying large-scale contrastiv</summary>
+    <author><name>Mojtaba Seyedhosseini</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>A Dynamic Programming Framework for Discovering Count and Values of Multilevel Image Thresholding</title>
+    <link href="https://arxiv.org/abs/2605.27287v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.27287v1</id>
+    <updated>2026-05-26T17:03:45Z</updated>
+    <summary type="text">Multilevel Image thresholding is an important preprocessing algorithm in computer vision applications nowadays. Since most common thresholding methods take the desired count of thresholds as input by the user, thresholding methods that automatically determines a suitable count of thresholds from the input image itself are advantageous. In this article, a novel thresholding method based on a dynami</summary>
+    <author><name>Mohamed Gabr</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>FoundObj: Self-supervised Foundation Models as Rewards for Label-free 3D Object Segmentation</title>
+    <link href="https://arxiv.org/abs/2605.27178v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.27178v1</id>
+    <updated>2026-05-26T15:32:32Z</updated>
+    <summary type="text">We address the challenging task of 3D object segmentation in complex scene point clouds without relying on any scene-level human annotations during training. Existing methods are typically constrained to identifying simple objects, primarily due to insufficient object priors in the learning process. In this paper, we present FoundObj, a novel framework featuring a superpoint-based object discovery</summary>
+    <author><name>Bo Yang</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I created a new architecture that is very lightweight without recurrence called a &quot;field machine&quot;.</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1towujt/i_created_a_new_architecture_that_is_very/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1towujt/i_created_a_new_architecture_that_is_very/</id>
+    <updated>2026-05-27T06:09:57Z</updated>
+    <summary type="text">Source code: https://github.com/CopilotCoding/FM WIP: Tokenizer needs to be able to scale to large datasets, and need to add seeding or randomization to the outputs so that it stops producing exactly the same song for that loss rate checkpoint. Core algorithm: F=cumsum(P(D)⊙E) Expanded form: D→P(D)→P(D)⊙E→cumsum→F→Decoder→Y D → structured token geometry P(D) → lift into field space ⊙ E → bind iden</summary>
+    <author><name>/u/TechnoVoyager</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>[R]GNN Model For Fraud Detection Isn't Performing Well[R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/</id>
+    <updated>2026-05-27T05:02:54Z</updated>
+    <summary type="text">We're writing a research paper on explainable fraud detection GNN model and in the first step we're creating a basic Graph Neural Network for that. We're using the most famous dataset available on this topic i.e IEEE CIS Fraud Detection Dataset and implemented all necessary feature engineering on that data (although majority of feature engineering is already performed in the dataset). Then we cons</summary>
+    <author><name>/u/LiveAccident5312</name></author>
+    <category term="finance-ai"/>
+  </entry>
   <entry>
     <title>NVIDIA AI Releases Gated DeltaNet-2: A Linear Attention Layer That Decouples Erase and Write in the Delta Rule</title>
     <link href="https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/" rel="alternate"/>
@@ -13,6 +71,44 @@
     <summary type="text">Linear attention squeezes the unbounded KV cache into a fixed-size recurrent state, but editing that memory without scrambling existing associations is hard. Prior delta-rule models like Gated DeltaNet and KDA use one scalar gate to control both erasing old content and writing new content. NVIDIA's Gated DeltaNet-2 decouples these into a channel-wise erase gate b_t on the key axis and a channel-wi</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+    <category term="research"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Built an AI companion architecture with real internal needs — looking for first investor after publishing research paper</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tokn46/built_an_ai_companion_architecture_with_real/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tokn46/built_an_ai_companion_architecture_with_real/</id>
+    <updated>2026-05-26T21:20:05Z</updated>
+    <summary type="text">The problem with every AI product right now is that they're all wrappers. Same stateless LLM, different UI. The moment the context window closes, the AI forgets you existed. I built the infrastructure layer that fixes that. PHI // DRIFT gives an AI companion persistent state — seven internal need variables that drift between sessions, memory scored by what emotionally mattered not just what was se</summary>
+    <author><name>/u/Interesting_Time6301</name></author>
+  </entry>
+  <entry>
+    <title>Looking for arXiv cs.LG endorsement — hierarchical SSM that outperforms Transformers at long context</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tog3qg/looking_for_arxiv_cslg_endorsement_hierarchical/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tog3qg/looking_for_arxiv_cslg_endorsement_hierarchical/</id>
+    <updated>2026-05-26T18:42:32Z</updated>
+    <summary type="text">Looking for arXiv cs.LG endorsement — hierarchical SSM that outperforms Transformers at long context. New account, need an endorsement to submit to cs.LG. The paper: Harmonic — a 3-level hierarchical SSM with predictive coding. Each level processes at a different timescale; prediction errors propagate upward. O(L) compute and memory. Results on enwiki8 (28M params, equal token budget): +1.4% over </summary>
+    <author><name>/u/PastConcert2310</name></author>
+    <category term="research"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Augmented Equivariant Mesh Networks for Anatomical Mesh Segmentation (ICML 2026 Workshops) [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tobtmu/augmented_equivariant_mesh_networks_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tobtmu/augmented_equivariant_mesh_networks_for/</id>
+    <updated>2026-05-26T16:18:47Z</updated>
+    <summary type="text">Paper: https://arxiv.org/abs/2605.08172 Workshops: AI for Science &amp; Structured Data for Health at ICML 2026 Abstract: Anatomical mesh segmentation requires models that operate directly on irregular surface geometry while remaining robust to arbitrary patient pose and mesh resolution variation. Existing task-specific mesh and point-cloud methods are not equivariant, and can degrade sharply under te</summary>
+    <author><name>/u/m0ronovich</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>[P] Built a portable GPU ISA after reading too many architecture manuals [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/</id>
+    <updated>2026-05-26T13:36:10Z</updated>
+    <summary type="text">I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures. After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, i</summary>
+    <author><name>/u/not-your-typical-cs</name></author>
     <category term="research"/>
     <category term="hardware"/>
   </entry>
@@ -77,66 +173,5 @@
     <category term="llm"/>
     <category term="research"/>
     <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation</title>
-    <link href="https://arxiv.org/abs/2605.22816v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.22816v1</id>
-    <updated>2026-05-21T17:58:26Z</updated>
-    <summary type="text">Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. </summary>
-    <author><name>Jiwen Lu</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>I just published a 46-page research paper on why AI is fundamentally compression + built a tool to visualize it and its fucking cool</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tl9r1l/i_just_published_a_46page_research_paper_on_why/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tl9r1l/i_just_published_a_46page_research_paper_on_why/</id>
-    <updated>2026-05-23T07:35:49Z</updated>
-    <summary type="text">Yooooo, I've spent the last few months working on this. I'm 15 and I wanted to explore Kolmogorov complexity and why the term &quot;learning&quot; is a myth. The project includes a full theoretical paper and an interactive tool to see how LLMs actually &quot;compress&quot; data. It's available in both English and French. Link to the GitHub is in the first comment! (to avoid the spam filters). Have a good day stranger</summary>
-    <author><name>/u/notanydb</name></author>
-  </entry>
-  <entry>
-    <title>Improving Viewpoint-Invariance and Temporal Consistency for Action Detection</title>
-    <link href="https://arxiv.org/abs/2605.22695v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.22695v1</id>
-    <updated>2026-05-21T16:38:21Z</updated>
-    <summary type="text">Viewpoint change invariance and action temporal consistency are critical aspects for the effective deployment of human action detection of untrimmed videos. Existing appearance-based video detection methods often struggle with limited viewpoint diversity during training, while motion-based detection approaches frequently fail to model fine-grained temporal relationships across consecutive motion w</summary>
-    <author><name>Cedric Demonceaux</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>SEGA: Spectral-Energy Guided Attention for Resolution Extrapolation in Diffusion Transformers</title>
-    <link href="https://arxiv.org/abs/2605.22668v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.22668v1</id>
-    <updated>2026-05-21T16:09:01Z</updated>
-    <summary type="text">Diffusion transformers (DiTs) have emerged as a dominant architecture for text-to-image generation, yet their performance drops when generating at resolutions beyond their training range. Existing training-free approaches mitigate this by modifying inference-time attention behavior, often through Rotary Position Embeddings (RoPE) extrapolation combined with attention scaling. However, these strate</summary>
-    <author><name>Babak Taati</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>H-Flow: Self-supervised Human Scene Flow via Physics-inspired Joint Multi-modal Learning</title>
-    <link href="https://arxiv.org/abs/2605.22629v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.22629v1</id>
-    <updated>2026-05-21T15:38:41Z</updated>
-    <summary type="text">Parametric human models capture global pose but cannot represent the non-rigid surface dynamics of clothing and soft tissue. Generic scene flow estimates dense motion but breaks down on articulated bodies, where pixel-level supervision is also intractable to acquire. We introduce H-Flow, a dense human scene flow that captures both skeletal kinematics and surface deformation. A unified multi-head t</summary>
-    <author><name>Yu Kong</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Alibaba Qwen Team Introduces Qwen3.5-LiveTranslate-Flash: Real-Time Multimodal Interpretation Across 60 Languages at 2.8-Second Latency</title>
-    <link href="https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/</id>
-    <updated>2026-05-20T08:09:51Z</updated>
-    <summary type="text">Alibaba's Qwen team has released Qwen3.5-LiveTranslate-Flash, a real-time multimodal translation model that processes audio and video simultaneously. The model covers 60 input languages and produces speech output in 29 languages at 2.8 seconds of latency. Key additions over the previous Qwen3 version include real-time speaker voice cloning, vision-enhanced comprehension via lip movements and on-sc</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
