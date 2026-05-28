@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-27T11:29:07Z</updated>
+  <updated>2026-05-28T11:29:39Z</updated>
+  <entry>
+    <title>Personal Visual Memory from Explicit and Implicit Evidence</title>
+    <link href="https://arxiv.org/abs/2605.28806v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.28806v1</id>
+    <updated>2026-05-27T17:56:11Z</updated>
+    <summary type="text">Long-term memory is increasingly important for personalized AI agents, yet existing benchmarks and methods remain largely text-centric. Even when images are included, the user-specific information needed for later questions is typically recoverable from text alone, and most memory systems reduce image turns to generic captions. Yet images often carry personal information that text rarely states --</summary>
+    <author><name>Yuheng Li</name></author>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration</title>
+    <link href="https://arxiv.org/abs/2605.28805v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.28805v1</id>
+    <updated>2026-05-27T17:56:04Z</updated>
+    <summary type="text">Visual outcomes are increasingly central to multimodal large language models, making reliable and fine-grained verification essential for scaling generalist foundation models. In this work, we investigate multimodal meta-verification, which leverages verifier-generated rationales rather than decision-only signals, and explore how to effectively incorporate meta-verification feedback into multimoda</summary>
+    <author><name>Ling Yang</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Import AI 458: Reckoning with the future; and a singularity story</title>
     <link href="https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/" rel="alternate"/>
@@ -44,6 +64,26 @@
     <author><name>Bo Yang</name></author>
     <category term="research"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cross-Platform Fused MoE Dispatch in Triton: Portable Expert Routing Without CUDA [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/</id>
+    <updated>2026-05-27T21:25:31Z</updated>
+    <summary type="text">New preprint. A Mixture-of-Experts inference kernel (TritonMoE) written entirely in OpenAI Triton, targeting portability across NVIDIA and AMD without vendor-specific code. Highlights: A fused gate+up GEMM computes both SwiGLU projections from shared tile loads, eliminating 35% of global memory traffic. 89-131% of Megablocks throughput at inference batch sizes (up to 512 tokens) on A100; the same </summary>
+    <author><name>/u/bassrehab</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>state-of-the-art about AI</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tpbftd/stateoftheart_about_ai/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tpbftd/stateoftheart_about_ai/</id>
+    <updated>2026-05-27T16:54:03Z</updated>
+    <summary type="text">https://github.com/strsrchr/SOTAWISE/blob/main/SOTA/Matrix.md submitted by /u/srsrchr [link] [comments]</summary>
+    <author><name>/u/srsrchr</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>I created a new architecture that is very lightweight without recurrence called a &quot;field machine&quot;.</title>
@@ -111,67 +151,5 @@
     <author><name>/u/not-your-typical-cs</name></author>
     <category term="research"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>PapersWithCode new features - week 1 [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/</id>
-    <updated>2026-05-24T12:31:12Z</updated>
-    <summary type="text">Hi, Niels here from the open-source team at Hugging Face. It's been one week since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting. The reception has been great, and I'm excited to extend this over the next few months. This week, I'</summary>
-    <author><name>/u/NielsRogge</name></author>
-    <category term="open-source"/>
-    <category term="research"/>
-    <category term="product-launch"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>GenRecon: Bridging Generative Priors for Multi-View 3D Scene Reconstruction</title>
-    <link href="https://arxiv.org/abs/2605.23888v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.23888v1</id>
-    <updated>2026-05-22T17:49:59Z</updated>
-    <summary type="text">We introduce a new approach to high-fidelity 3D scene reconstruction from multi-view RGB images that tightly couples reconstruction with a strong generative 3D prior. We cast scene reconstruction as conditional 3D generation over a set of spatially-localized, overlapping chunks that together tile the scene, scaling generation to large scene extents. Crucially, we inherit the fidelity and completen</summary>
-    <author><name>Matthias Nießner</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs</title>
-    <link href="https://arxiv.org/abs/2605.23883v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.23883v1</id>
-    <updated>2026-05-22T17:45:01Z</updated>
-    <summary type="text">Despite remarkable progress in Multimodal Large Language Models (MLLMs), these models still struggle with fine-grained understanding tasks. In this work, we propose Procedurally Generated Tasks (PGT), a simple data-driven framework that serves a dual purpose: inducing fine-grained visual understanding and acting as a low-cost diagnostic tool to identify the source of perception failures. By overla</summary>
-    <author><name>Adriana Romero-Soriano</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>LaMo: Self-Supervised Latent Motion Priors for Physical Realism in Video Generation</title>
-    <link href="https://arxiv.org/abs/2605.23878v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.23878v1</id>
-    <updated>2026-05-22T17:34:42Z</updated>
-    <summary type="text">Modern video generators produce visually compelling clips but still struggle with physical and motion consistency, limiting their use as reliable world simulators. Existing remedies often rely on external simulators, teacher models, or curated physics-focused data. We explore a complementary self-supervised direction: extracting motion cues from the unlabeled videos already used to train video dif</summary>
-    <author><name>Wei Zhan</name></author>
-    <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>A Novel Approach for the Counting of Wood Logs Using cGANs and Image Processing Techniques</title>
-    <link href="https://arxiv.org/abs/2605.23775v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.23775v1</id>
-    <updated>2026-05-22T15:43:16Z</updated>
-    <summary type="text">This study tackles the challenge of precise wood log counting, where applications of the proposed methodology can span from automated approaches for materials management, surveillance, and safety science to wood traffic monitoring, wood volume estimation, and others. We introduce an approach leveraging Conditional Generative Adversarial Networks (cGANs) for eucalyptus log segmentation in images, i</summary>
-    <author><name>Érick O Rodrigues</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Revitalizing Dense Material Segmentation: Stabilized Vision Transformers and the Generalization Paradox</title>
-    <link href="https://arxiv.org/abs/2605.23747v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.23747v1</id>
-    <updated>2026-05-22T15:20:27Z</updated>
-    <summary type="text">Material segmentation, the pixel-wise classification of physical surface properties, remains a challenging problem in computer vision, requiring physicochemical understanding distinct from object-centric parsing. Despite the introduction of the rigorous Apple Dense Material Segmentation (DMS) dataset, the benchmark has suffered from attrition and stagnation, increasingly overshadowed by geometry-b</summary>
-    <author><name>Yavuz İrfanoğlu</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="computer-vision"/>
   </entry>
 </feed>
