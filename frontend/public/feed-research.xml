@@ -4,7 +4,75 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-28T11:29:39Z</updated>
+  <updated>2026-05-29T11:20:26Z</updated>
+  <entry>
+    <title>YoCausal: How Far is Video Generation from World Model? A Causality Perspective</title>
+    <link href="https://arxiv.org/abs/2605.30346v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30346v1</id>
+    <updated>2026-05-28T17:59:51Z</updated>
+    <summary type="text">As video diffusion models (VDMs) advance toward world models, a key question arises: do they truly understand causality, or merely overfit to statistical temporal patterns? Existing benchmarks mostly rely on synthetic data, limiting real-world generalization due to the sim-to-real gap. We present YoCausal, a two-level benchmark inspired by the Violation of Expectation (VoE) paradigm from cognitive</summary>
+    <author><name>Zhixiang Wang</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field</title>
+    <link href="https://arxiv.org/abs/2605.30342v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30342v1</id>
+    <updated>2026-05-28T17:59:32Z</updated>
+    <summary type="text">We present Gaussian Splatting Anisotropic Visibility Field (GAVIS), a novel framework for uncertainty quantification and active mapping in 3DGS. Our key insight is that regions unseen from the training views yield unreliable predictions from the 3DGS. To address this, we introduce a principled and efficient method for quantifying the visibility field in 3DGS, defined as the anisotropic visibility </summary>
+    <author><name>Danfei Xu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>GPIC: A Giant Permissive Image Corpus for Visual Generation</title>
+    <link href="https://arxiv.org/abs/2605.30341v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30341v1</id>
+    <updated>2026-05-28T17:59:26Z</updated>
+    <summary type="text">Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC comprises diverse internet images captioned by a state-of-the-art vision-language model, including 100M training, 200K validation, and 1M test examples. Moreover, all GPIC images are permissively licen</summary>
+    <author><name>Li Fei-Fei</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Benchmarking Single-Factor Physical Video-to-Audio Generation</title>
+    <link href="https://arxiv.org/abs/2605.30339v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30339v1</id>
+    <updated>2026-05-28T17:59:09Z</updated>
+    <summary type="text">Generative video-to-audio (V2A) models produce highly plausible soundtracks, but it remains unclear whether they capture the underlying physical processes. Existing evaluations emphasize perceptual realism and overlook physical correctness under controlled interventions. In this paper, we introduce FlatSounds, a benchmark that audits the physical reasoning of V2A models through: 1) controlled coun</summary>
+    <author><name>Ming-Yu Liu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Colored Noise Diffusion Sampling</title>
+    <link href="https://arxiv.org/abs/2605.30332v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30332v1</id>
+    <updated>2026-05-28T17:58:13Z</updated>
+    <summary type="text">Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing th</summary>
+    <author><name>Sagie Benaim</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Supercharging Thermal Gaussian Splatting with Depth Estimation</title>
+    <link href="https://arxiv.org/abs/2605.30328v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30328v1</id>
+    <updated>2026-05-28T17:57:35Z</updated>
+    <summary type="text">Efficient and robust 3D scene representation is crucial in autonomous driving, robotics, and related fields. While RGB images provide valuable content for 3D reconstruction, other modalities like thermal or depth can enable additional information on the environment. Lately, novel view synthesis methods like 3D Gaussian Splatting have started using multiple modalities to further boost their perform</summary>
+    <author><name>Benjamin Busam</name></author>
+    <category term="research"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>MonoPhysics: Estimating Geometry, Appearance, and Physical Parameters from Monocular Videos</title>
+    <link href="https://arxiv.org/abs/2605.30320v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.30320v1</id>
+    <updated>2026-05-28T17:55:34Z</updated>
+    <summary type="text">Existing inverse physics methods recover physical parameters from multi-view videos, where geometric constraints across views resolve scale and 3D structure. In monocular settings, however, such constraints are absent, leading to severe scale ambiguity, inaccurate geometry, and weak coupling between appearance optimization and physical simulation. We propose MonoPhysics, a framework for monocular </summary>
+    <author><name>Roni Sengupta</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Personal Visual Memory from Explicit and Implicit Evidence</title>
     <link href="https://arxiv.org/abs/2605.28806v1" rel="alternate"/>
@@ -24,6 +92,16 @@
     <author><name>Ling Yang</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/</id>
+    <updated>2026-05-28T17:41:24Z</updated>
+    <summary type="text">Are agents aging after deployment?: https://arxiv.org/abs/2605.26302 On a new longitudinal deployment benchmark, switching the Claude Code CLI agent from Sonnet 4.6 to Opus 4.7 dropped PyTest pass rate by ~15%. This (to me) is a counterintuitive-enough result to pay attention to. The authors built AgingBench, to measure how coding agents hold up over a long deployment, not just on a single task. O</summary>
+    <author><name>/u/CategoryNormal149</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Import AI 458: Reckoning with the future; and a singularity story</title>
@@ -93,63 +171,5 @@
     <summary type="text">Source code: https://github.com/CopilotCoding/FM WIP: Tokenizer needs to be able to scale to large datasets, and need to add seeding or randomization to the outputs so that it stops producing exactly the same song for that loss rate checkpoint. Core algorithm: F=cumsum(P(D)⊙E) Expanded form: D→P(D)→P(D)⊙E→cumsum→F→Decoder→Y D → structured token geometry P(D) → lift into field space ⊙ E → bind iden</summary>
     <author><name>/u/TechnoVoyager</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>[R]GNN Model For Fraud Detection Isn't Performing Well[R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/</id>
-    <updated>2026-05-27T05:02:54Z</updated>
-    <summary type="text">We're writing a research paper on explainable fraud detection GNN model and in the first step we're creating a basic Graph Neural Network for that. We're using the most famous dataset available on this topic i.e IEEE CIS Fraud Detection Dataset and implemented all necessary feature engineering on that data (although majority of feature engineering is already performed in the dataset). Then we cons</summary>
-    <author><name>/u/LiveAccident5312</name></author>
-    <category term="finance-ai"/>
-  </entry>
-  <entry>
-    <title>NVIDIA AI Releases Gated DeltaNet-2: A Linear Attention Layer That Decouples Erase and Write in the Delta Rule</title>
-    <link href="https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/24/nvidia-ai-releases-gated-deltanet-2-a-linear-attention-layer-that-decouples-erase-and-write-in-the-delta-rule/</id>
-    <updated>2026-05-24T07:42:09Z</updated>
-    <summary type="text">Linear attention squeezes the unbounded KV cache into a fixed-size recurrent state, but editing that memory without scrambling existing associations is hard. Prior delta-rule models like Gated DeltaNet and KDA use one scalar gate to control both erasing old content and writing new content. NVIDIA's Gated DeltaNet-2 decouples these into a channel-wise erase gate b_t on the key axis and a channel-wi</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Built an AI companion architecture with real internal needs — looking for first investor after publishing research paper</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tokn46/built_an_ai_companion_architecture_with_real/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tokn46/built_an_ai_companion_architecture_with_real/</id>
-    <updated>2026-05-26T21:20:05Z</updated>
-    <summary type="text">The problem with every AI product right now is that they're all wrappers. Same stateless LLM, different UI. The moment the context window closes, the AI forgets you existed. I built the infrastructure layer that fixes that. PHI // DRIFT gives an AI companion persistent state — seven internal need variables that drift between sessions, memory scored by what emotionally mattered not just what was se</summary>
-    <author><name>/u/Interesting_Time6301</name></author>
-  </entry>
-  <entry>
-    <title>Looking for arXiv cs.LG endorsement — hierarchical SSM that outperforms Transformers at long context</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tog3qg/looking_for_arxiv_cslg_endorsement_hierarchical/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tog3qg/looking_for_arxiv_cslg_endorsement_hierarchical/</id>
-    <updated>2026-05-26T18:42:32Z</updated>
-    <summary type="text">Looking for arXiv cs.LG endorsement — hierarchical SSM that outperforms Transformers at long context. New account, need an endorsement to submit to cs.LG. The paper: Harmonic — a 3-level hierarchical SSM with predictive coding. Each level processes at a different timescale; prediction errors propagate upward. O(L) compute and memory. Results on enwiki8 (28M params, equal token budget): +1.4% over </summary>
-    <author><name>/u/PastConcert2310</name></author>
-    <category term="research"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Augmented Equivariant Mesh Networks for Anatomical Mesh Segmentation (ICML 2026 Workshops) [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tobtmu/augmented_equivariant_mesh_networks_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tobtmu/augmented_equivariant_mesh_networks_for/</id>
-    <updated>2026-05-26T16:18:47Z</updated>
-    <summary type="text">Paper: https://arxiv.org/abs/2605.08172 Workshops: AI for Science &amp; Structured Data for Health at ICML 2026 Abstract: Anatomical mesh segmentation requires models that operate directly on irregular surface geometry while remaining robust to arbitrary patient pose and mesh resolution variation. Existing task-specific mesh and point-cloud methods are not equivariant, and can degrade sharply under te</summary>
-    <author><name>/u/m0ronovich</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>[P] Built a portable GPU ISA after reading too many architecture manuals [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/</id>
-    <updated>2026-05-26T13:36:10Z</updated>
-    <summary type="text">I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures. After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, i</summary>
-    <author><name>/u/not-your-typical-cs</name></author>
-    <category term="research"/>
-    <category term="hardware"/>
   </entry>
 </feed>
