@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-29T11:20:26Z</updated>
+  <updated>2026-05-30T09:51:05Z</updated>
+  <entry>
+    <title>Salesforce claims AI agents cut a 231-day migration to 13 days with fewer incidents</title>
+    <link href="https://the-decoder.com/salesforce-claims-ai-agents-cut-a-231-day-migration-to-13-days-with-fewer-incidents/" rel="alternate"/>
+    <id>https://the-decoder.com/salesforce-claims-ai-agents-cut-a-231-day-migration-to-13-days-with-fewer-incidents/</id>
+    <updated>2026-05-30T09:32:57Z</updated>
+    <summary type="text">Salesforce says it moved its entire dev org to Anthropic's Claude Code with no token limits and reports massive productivity gains for April 2026: 79 percent more pull requests per developer, five percent fewer incidents. The numbers can't be independently verified. The case shows just how divided the coding world is over the agentic shift: real revolution or the biggest build-up of tech debt ever</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How Braintrust turns customer requests into code with Codex</title>
+    <link href="https://openai.com/index/braintrust" rel="alternate"/>
+    <id>https://openai.com/index/braintrust</id>
+    <updated>2026-05-29T12:00:00Z</updated>
+    <summary type="text">How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Anthropic releases Claude Opus 4.8</title>
     <link href="https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/" rel="alternate"/>
@@ -12,6 +31,24 @@
     <updated>2026-05-29T10:44:00Z</updated>
     <summary type="text">Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoning, and knowledge work. The platform can be used through claude.ai, Claude Code and the Claude API, with the API name claude-opus-4-8. The company has also altered some of the details of […] The post Anthropic releases Claude Opus 4.8 appeared first on </summary>
     <author><name>AI News</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Coding agents keep losing context between tools, so I built a local-first handoff CLI</title>
+    <link href="https://dev.to/shuo_xiao_c7d1a80c798f8ec/coding-agents-keep-losing-context-between-tools-so-i-built-a-local-first-handoff-cli-4h01" rel="alternate"/>
+    <id>https://dev.to/shuo_xiao_c7d1a80c798f8ec/coding-agents-keep-losing-context-between-tools-so-i-built-a-local-first-handoff-cli-4h01</id>
+    <updated>2026-05-30T09:29:43Z</updated>
+    <summary type="text">The problem I often switch between Codex, OpenCode, Cline, Claude Desktop, scripts, and terminals. The annoying part is not starting a new tool. The annoying part is explaining the same workspace state again: what changed what is still pending what should not be touched what tests passed what the next agent should read before editing What I built AgentContextBus (acb) is a local-first CLI for hand</summary>
+    <author><name>shuo xiao</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code en GitHub Actions: CI/CD, permisos y seguridad para agentes de código</title>
+    <link href="https://dev.to/khavel/claude-code-en-github-actions-cicd-permisos-y-seguridad-para-agentes-de-codigo-5eh9" rel="alternate"/>
+    <id>https://dev.to/khavel/claude-code-en-github-actions-cicd-permisos-y-seguridad-para-agentes-de-codigo-5eh9</id>
+    <updated>2026-05-30T09:15:14Z</updated>
+    <summary type="text">Claude Code puede vivir dentro de GitHub Actions, pero un agente en CI no debe tener los mismos permisos que un desarrollador interactivo. Claude Code en GitHub Actions convierte una conversación con un agente en una automatización reproducible: puedes invocarlo desde comentarios, pull requests, issues, tareas programadas o workflows internos. La promesa es clara: revisar PRs, preparar cambios, cl</summary>
+    <author><name>Khavel</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -78,6 +115,15 @@
     <summary type="text">The cold-start problem In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However,...</summary>
     <author><name>Schwinn Saereesitthipitak</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>made a local voice AI for windows you can talk to in any language. open source, bring your own key</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1trt8e3/made_a_local_voice_ai_for_windows_you_can_talk_to/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1trt8e3/made_a_local_voice_ai_for_windows_you_can_talk_to/</id>
+    <updated>2026-05-30T07:36:07Z</updated>
+    <summary type="text">been building this on and off for a while and finally got it to a point where i'm not embarrassed to share it, so here goes. it's called Shadow AI. basically a voice-first AI companion that runs on your own windows machine. you just talk to it and it talks back, no typing required. i mostly made it because i was tired of opening a chat window and pecking at a keyboard every time i wanted to ask so</summary>
+    <author><name>/u/shadowdog000</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code</title>
@@ -165,6 +211,15 @@
     <updated>2026-05-28T11:00:01Z</updated>
     <summary type="text">I asked Claude Code to refactor 100 functions across a Python service I owned. It did the job in two passes. CI was green on both. The PR description was so neat I almost felt bad shipping it on a Friday. Two weeks later, on-call paged me because the p95 of one endpoint had drifted from 180 ms to 240 ms. I started bisecting. The bisect landed on the refactor PR. I started reading the refactor PR. </summary>
     <author><name>Ken Imoto</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Feedback request: Testing the $H_{dp}$ bandwidth bound on LLM benchmarks (Preprint check &amp; review)</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/</id>
+    <updated>2026-05-29T16:48:06Z</updated>
+    <summary type="text">While Chain-of-Thought (CoT) is widely treated as a universal accuracy booster, theoretical models like the $H_{dp}$ bandwidth bound (Chen et al., 2024) predict that it should only benefit tasks whose sequential depth exceeds a transformer’s single-pass capacity. This preprint runs an empirical test of this bound across Qwen-2.5 (7B/32B) and Llama-3.1-8B, comparing direct-answer vs. 2048-token CoT</summary>
+    <author><name>/u/tughanbulut</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -299,127 +354,5 @@
     <summary type="text">I've seen so many rag this, memory that projects. What projects are people actually using day to day for agentic workloads. I only use 4, and I still consider that too much honestly. I just want to see what projects people recommend so I can bulk up or trim down my list. submitted by /u/Glittering_Focus1538 [link] [comments]</summary>
     <author><name>/u/Glittering_Focus1538</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Standard RAG has no concept of document versions: cost me a while to figure out why answers kept blending superseded policies</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tpti3t/standard_rag_has_no_concept_of_document_versions/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tpti3t/standard_rag_has_no_concept_of_document_versions/</id>
-    <updated>2026-05-28T04:52:45Z</updated>
-    <summary type="text">Took me longer than I'd like to admit to diagnose this one. Had a LangChain RAG pipeline over an internal knowledge base. Retrieval metrics looked fine. Chunk size tuned. Embeddings solid. But users kept getting wrong answers on policy questions: not made-up wrong, blended wrong. The AI was pulling from multiple versions of the same document and synthesizing them like they were all current. The ro</summary>
-    <author><name>/u/Helpful_Regular_30</name></author>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Training GPT-like model on non-language series [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/</id>
-    <updated>2026-05-28T03:31:08Z</updated>
-    <summary type="text">I am responsible for a research project that is supposed to train a GPT-like model (Transformer-decoder) with 100M, 250M and 500M model variants. params training dataset 750M tokens vocabulary is ~15k to ~100k tokens (depends on tokenizer settings) ~3% of the vocabulary is used in ~50% of the training tokens (similar to language, where most of the vocabulary is used very sparsely) training hyper-p</summary>
-    <author><name>/u/gartin336</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I gave my AI agents email instead of better reasoning. They started fixing each other's bugs.</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tpnyvp/i_gave_my_ai_agents_email_instead_of_better/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tpnyvp/i_gave_my_ai_agents_email_instead_of_better/</id>
-    <updated>2026-05-28T00:38:50Z</updated>
-    <summary type="text">Most multi-agent setups I've seen treat agents like isolated workers. Each one gets a task, runs it, returns a result. No awareness of each other. No way to coordinate. Just parallel execution with a shared clipboard. I've been building a multi-agent framework in public for about 4 months. 13 agents, 8,400+ tests, 135 stars. Here's the thing I didn't expect to matter most - communication. Each age</summary>
-    <author><name>/u/Input-X</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AI coding agents are creating a secret leakage crisis and nobody's talking about it seriously yet</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tpnpj4/ai_coding_agents_are_creating_a_secret_leakage/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tpnpj4/ai_coding_agents_are_creating_a_secret_leakage/</id>
-    <updated>2026-05-28T00:27:26Z</updated>
-    <summary type="text">This isn't a doomer post. It's a pattern I've been watching closely and people does as well and I think it's worth an honest discussion. The old model of secret leakage was human error. Developer moves fast, forgets to add .gitignore, commits a .env file, moves on. Happens, but it's recoverable, it's traceable, and most teams with basic hygiene catch it. The new model is different. AI coding agent</summary>
-    <author><name>/u/wael_Matoussy</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How Semantic Routers Cut Claude Code Skill Tokens by 456x</title>
-    <link href="https://hackernoon.com/how-semantic-routers-cut-claude-code-skill-tokens-by-456x?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/how-semantic-routers-cut-claude-code-skill-tokens-by-456x?source=rss</id>
-    <updated>2026-05-26T03:29:28Z</updated>
-    <summary type="text">An empirical test of semantic routing for Claude Code skills found 87.5% top-5 accuracy and major context-window savings.Read All</summary>
-    <author><name>Dmytro Klymentiev</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I think Anthropic and OpenAI have found product-market fit</title>
-    <link href="https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything</id>
-    <updated>2026-05-27T16:38:35Z</updated>
-    <summary type="text">Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit. Enterprise customers are now paying API prices I think they've found product-market fit And they're ramping up The A</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SWE-rebench Leaderboard (March, April and May 2026): GPT-5.5, Opus 4.7, Cursor (Composer 2.5), Kimi K2.6 and More</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tpawlm/swerebench_leaderboard_march_april_and_may_2026/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tpawlm/swerebench_leaderboard_march_april_and_may_2026/</id>
-    <updated>2026-05-27T16:35:56Z</updated>
-    <summary type="text">Hi all, Sorry for going missing — we’ve been collecting a larger, higher-quality set of more complex tasks. We’re excited to share a major leaderboard update covering the past three months. We’ve updated the SWE-rebench leaderboard with 110 fresh Python tasks from GitHub PRs created in March, April, and part of May. The setup follows the standard SWE-bench format: models read real PR issues, edit </summary>
-    <author><name>/u/CuriousPlatypus1881</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Next step for Claude Code</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tp54ue/next_step_for_claude_code/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tp54ue/next_step_for_claude_code/</id>
-    <updated>2026-05-27T13:10:19Z</updated>
-    <summary type="text">https://www.reddit.com/r/ClaudeAI/s/P0NiDIhmIg I think I should mention this first I started this post taking inspiration from above post and I already wrote my thoughts there so I will brief here; What I try to say that claude code, like its name only code. and it helps a lot to SWEs, and just a toy for non SWEs. And I think that its a time for anthropic to move this to the next step and start to</summary>
-    <author><name>/u/Suitable-Look9053</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>chatgpt when microsoft cancelled their claude code subscriptions</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1tp3n2m/chatgpt_when_microsoft_cancelled_their_claude/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1tp3n2m/chatgpt_when_microsoft_cancelled_their_claude/</id>
-    <updated>2026-05-27T12:09:17Z</updated>
-    <summary type="text">so microsoft just cancelled claude code subscriptions for their employees and told them to use copilot instead. i genuinely felt bad for the developers. these are people who had their entire workflow built around claude code. backend logic, landing pages through runable, docs, everything. one day it's just gone. and then chatgpt sees all these developers scrambling and just stares at them. can a h</summary>
-    <author><name>/u/MankyMan0099</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cross-species RSA: same learning rules (BP, PC, STDP, FA) tested against both human fMRI and macaque electrophysiology [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tp36qb/crossspecies_rsa_same_learning_rules_bp_pc_stdp/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tp36qb/crossspecies_rsa_same_learning_rules_bp_pc_stdp/</id>
-    <updated>2026-05-27T11:49:41Z</updated>
-    <summary type="text">Follow-up to my earlier post on learning rules vs. human fMRI. Same five conditions (BP, FA, PC, STDP, untrained), same model weights, now evaluated against macaque V1/V2 (FreemanZiemba2013, single-unit) and macaque V4/IT (MajajHong2015, multi-electrode). Main findings: Early visual alignment is qualitatively conserved across species. STDP (ρ ≈ 0.30) and PC (ρ ≈ 0.28) lead at macaque V1/V2, consis</summary>
-    <author><name>/u/ConfusionSpiritual19</name></author>
-    <category term="open-source"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Hyvemind OSS - Looking for some testers</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tozzr4/hyvemind_oss_looking_for_some_testers/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tozzr4/hyvemind_oss_looking_for_some_testers/</id>
-    <updated>2026-05-27T09:04:27Z</updated>
-    <summary type="text">Hey Llamas, I have been building this product for the last couple of months, initially for my own usage, then decided to rebuild it for a public open source release. I'm not ready for an official release yet, as my quality expectations are very high for a public release. But I do need more testers and feedback to get it more polished. If you are interested in using it, and leaving useful feedback </summary>
-    <author><name>/u/Hodler-mane</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ISL skeleton-based classifier for medical aid — fine-tune vs. train from scratch? (HS senior, India-based)</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1toza1r/isl_skeletonbased_classifier_for_medical_aid/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1toza1r/isl_skeletonbased_classifier_for_medical_aid/</id>
-    <updated>2026-05-27T08:23:23Z</updated>
-    <summary type="text">Hi — I'm a high school senior based in India, building an isolated ISL (Indian Sign Language) classifier for a hospital communication aid. ~200 clinical signs, MediaPipe Holistic keypoints. Deployment targets: tablet CPU (clinic) and local computer without dedicated GPU. I've done the research and narrowed down my approach, but I have a critical architectural question and several implementation qu</summary>
-    <author><name>/u/Far_Friendship667</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built My First ETL Pipeline as a Complete Beginner. Here’s How.</title>
-    <link href="https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/" rel="alternate"/>
-    <id>https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/</id>
-    <updated>2026-05-25T17:37:48Z</updated>
-    <summary type="text">A beginner's honest walkthrough of Extract, Transform, Load using the GitHub API The post I Built My First ETL Pipeline as a Complete Beginner. Here’s How. appeared first on Towards Data Science.</summary>
-    <author><name>Ibrahim Salami</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
   </entry>
 </feed>

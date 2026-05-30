@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-29T11:20:26Z</updated>
+  <updated>2026-05-30T09:51:05Z</updated>
+  <entry>
+    <title>NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B</title>
+    <link href="https://www.marktechpost.com/2026/05/29/nvidia-introduces-x-token-projection-guided-cross-tokenizer-kd-that-outperforms-gold-by-3-82-average-points-on-llama-3-2-1b/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/29/nvidia-introduces-x-token-projection-guided-cross-tokenizer-kd-that-outperforms-gold-by-3-82-average-points-on-llama-3-2-1b/</id>
+    <updated>2026-05-29T23:19:14Z</updated>
+    <summary type="text">NVIDIA's X-Token fixes two structural failures in GOLD and improves GSM8k accuracy from 2.56 to 15.54 The post NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="product-launch"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Building a Native QR/Barcode Scanner for React Native — New Architecture Ready</title>
+    <link href="https://dev.to/rushikeshpandit/building-a-native-qrbarcode-scanner-for-react-native-new-architecture-ready-mff" rel="alternate"/>
+    <id>https://dev.to/rushikeshpandit/building-a-native-qrbarcode-scanner-for-react-native-new-architecture-ready-mff</id>
+    <updated>2026-05-30T09:25:44Z</updated>
+    <summary type="text">Most QR scanner libraries for React Native share the same problems — they're unmaintained, they don't support the New Architecture, or they pull in a full camera SDK for what is a single-feature module. I wanted something lean, production-grade, and built the right way. So I built it. This is react-native-qr-camera-pro — a QR and barcode scanner for React Native built entirely with native code. No</summary>
+    <author><name>Rushikesh Pandit</name></author>
+  </entry>
   <entry>
     <title>YoCausal: How Far is Video Generation from World Model? A Causality Perspective</title>
     <link href="https://arxiv.org/abs/2605.30346v1" rel="alternate"/>
@@ -74,6 +94,15 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>Feedback request: Testing the $H_{dp}$ bandwidth bound on LLM benchmarks (Preprint check &amp; review)</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/</id>
+    <updated>2026-05-29T16:48:06Z</updated>
+    <summary type="text">While Chain-of-Thought (CoT) is widely treated as a universal accuracy booster, theoretical models like the $H_{dp}$ bandwidth bound (Chen et al., 2024) predict that it should only benefit tasks whose sequential depth exceeds a transformer’s single-pass capacity. This preprint runs an empirical test of this bound across Qwen-2.5 (7B/32B) and Llama-3.1-8B, comparing direct-answer vs. 2048-token CoT</summary>
+    <author><name>/u/tughanbulut</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Personal Visual Memory from Explicit and Implicit Evidence</title>
     <link href="https://arxiv.org/abs/2605.28806v1" rel="alternate"/>
     <id>https://arxiv.org/abs/2605.28806v1</id>
@@ -132,44 +161,5 @@
     <author><name>Mohamed Gabr</name></author>
     <category term="research"/>
     <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>FoundObj: Self-supervised Foundation Models as Rewards for Label-free 3D Object Segmentation</title>
-    <link href="https://arxiv.org/abs/2605.27178v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.27178v1</id>
-    <updated>2026-05-26T15:32:32Z</updated>
-    <summary type="text">We address the challenging task of 3D object segmentation in complex scene point clouds without relying on any scene-level human annotations during training. Existing methods are typically constrained to identifying simple objects, primarily due to insufficient object priors in the learning process. In this paper, we present FoundObj, a novel framework featuring a superpoint-based object discovery</summary>
-    <author><name>Bo Yang</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cross-Platform Fused MoE Dispatch in Triton: Portable Expert Routing Without CUDA [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/</id>
-    <updated>2026-05-27T21:25:31Z</updated>
-    <summary type="text">New preprint. A Mixture-of-Experts inference kernel (TritonMoE) written entirely in OpenAI Triton, targeting portability across NVIDIA and AMD without vendor-specific code. Highlights: A fused gate+up GEMM computes both SwiGLU projections from shared tile loads, eliminating 35% of global memory traffic. 89-131% of Megablocks throughput at inference batch sizes (up to 512 tokens) on A100; the same </summary>
-    <author><name>/u/bassrehab</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>state-of-the-art about AI</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tpbftd/stateoftheart_about_ai/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tpbftd/stateoftheart_about_ai/</id>
-    <updated>2026-05-27T16:54:03Z</updated>
-    <summary type="text">https://github.com/strsrchr/SOTAWISE/blob/main/SOTA/Matrix.md submitted by /u/srsrchr [link] [comments]</summary>
-    <author><name>/u/srsrchr</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>I created a new architecture that is very lightweight without recurrence called a &quot;field machine&quot;.</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1towujt/i_created_a_new_architecture_that_is_very/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1towujt/i_created_a_new_architecture_that_is_very/</id>
-    <updated>2026-05-27T06:09:57Z</updated>
-    <summary type="text">Source code: https://github.com/CopilotCoding/FM WIP: Tokenizer needs to be able to scale to large datasets, and need to add seeding or randomization to the outputs so that it stops producing exactly the same song for that loss rate checkpoint. Core algorithm: F=cumsum(P(D)⊙E) Expanded form: D→P(D)→P(D)⊙E→cumsum→F→Decoder→Y D → structured token geometry P(D) → lift into field space ⊙ E → bind iden</summary>
-    <author><name>/u/TechnoVoyager</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
