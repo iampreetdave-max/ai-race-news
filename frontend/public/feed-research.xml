@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-05-31T10:07:44Z</updated>
+  <updated>2026-06-01T13:27:52Z</updated>
+  <entry>
+    <title>Mellum 2 12B A2.5B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/</id>
+    <updated>2026-06-01T13:23:40Z</updated>
+    <summary type="text">Coding focused small MoE from JetBrains. They claim coding performance around Qwen 3.5 9B for the reasoning model. Worse than Qwen 3.5 4B in in everything else. Models: https://huggingface.co/collections/JetBrains/mellum-2 Technical report: https://arxiv.org/abs/2605.31268 submitted by /u/Middle_Bullfrog_6173 [link] [comments]</summary>
+    <author><name>/u/Middle_Bullfrog_6173</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B</title>
     <link href="https://www.marktechpost.com/2026/05/29/nvidia-introduces-x-token-projection-guided-cross-tokenizer-kd-that-outperforms-gold-by-3-82-average-points-on-llama-3-2-1b/" rel="alternate"/>
@@ -24,6 +35,67 @@
     <updated>2026-05-30T09:25:44Z</updated>
     <summary type="text">Most QR scanner libraries for React Native share the same problems — they're unmaintained, they don't support the New Architecture, or they pull in a full camera SDK for what is a single-feature module. I wanted something lean, production-grade, and built the right way. So I built it. This is react-native-qr-camera-pro — a QR and barcode scanner for React Native built entirely with native code. No</summary>
     <author><name>Rushikesh Pandit</name></author>
+  </entry>
+  <entry>
+    <title>Representation Forcing for Bottleneck-Free Unified Multimodal Models</title>
+    <link href="https://arxiv.org/abs/2605.31604v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31604v1</id>
+    <updated>2026-05-29T17:59:55Z</updated>
+    <summary type="text">Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing </summary>
+    <author><name>Xihui Liu</name></author>
+    <category term="product-launch"/>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Linear Scaling Video VLMs for Long Video Understanding</title>
+    <link href="https://arxiv.org/abs/2605.31598v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31598v1</id>
+    <updated>2026-05-29T17:59:02Z</updated>
+    <summary type="text">Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping</summary>
+    <author><name>Juan Carlos Niebles</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation</title>
+    <link href="https://arxiv.org/abs/2605.31590v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31590v1</id>
+    <updated>2026-05-29T17:56:09Z</updated>
+    <summary type="text">Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video diffusion transformers (DiTs) and uncover intrinsic turning points in the DiT denoising trajectory where conditioning text affects generation from global layout to fine-grained details. Building on this </summary>
+    <author><name>Volker Tresp</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision</title>
+    <link href="https://arxiv.org/abs/2605.31557v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31557v1</id>
+    <updated>2026-05-29T17:20:10Z</updated>
+    <summary type="text">Continuous episodic memory is a core capability for autonomous agents operating in dynamic, real-world environments, yet current streaming video benchmarks provide limited tools for diagnosing what models remember and for how long. We introduce \egostream, a diagnostic benchmark for streaming episodic memory evaluation in egocentric vision. \egostream organizes 2,250 curated questions along seven </summary>
+    <author><name>Antonino Furnari</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video</title>
+    <link href="https://arxiv.org/abs/2605.31535v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31535v1</id>
+    <updated>2026-05-29T16:50:27Z</updated>
+    <summary type="text">Self-supervised novel view synthesis (NVS) remains challenging to scale, despite the abundance of video data, largely due to the brittleness of training on realistic videos and the hard-to-predict scaling behavior of multi-network system designs. We introduce RayDer, a unified, feed-forward transformer that consolidates camera estimation, scene reconstruction, and rendering into a single backbone,</summary>
+    <author><name>Björn Ommer</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Internalizing Temporal Consistency in Video Object-Centric Learning without Explicit Regularization</title>
+    <link href="https://arxiv.org/abs/2605.31508v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2605.31508v1</id>
+    <updated>2026-05-29T16:28:21Z</updated>
+    <summary type="text">Video Object-Centric Learning (OCL) aims to represent objects as \textit{slot} vectors and maintain their consistency across frames. Slot-Slot Contrastive (SSC) loss has become the cornerstone for state-of-the-art (SOTA) video OCL methods. While highly effective, SSC relies on one-to-one object correspondence across frames and introduces an extra loss. Following Occam's Razor, we propose a paradig</summary>
+    <author><name>Joni Pajarinen</name></author>
+    <category term="product-launch"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>nvidia/Qwen3.6-35B-A3B-NVFP4 · Hugging Face</title>
@@ -109,35 +181,6 @@
     <updated>2026-05-28T17:55:34Z</updated>
     <summary type="text">Existing inverse physics methods recover physical parameters from multi-view videos, where geometric constraints across views resolve scale and 3D structure. In monocular settings, however, such constraints are absent, leading to severe scale ambiguity, inaccurate geometry, and weak coupling between appearance optimization and physical simulation. We propose MonoPhysics, a framework for monocular </summary>
     <author><name>Roni Sengupta</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Feedback request: Testing the $H_{dp}$ bandwidth bound on LLM benchmarks (Preprint check &amp; review)</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/</id>
-    <updated>2026-05-29T16:48:06Z</updated>
-    <summary type="text">While Chain-of-Thought (CoT) is widely treated as a universal accuracy booster, theoretical models like the $H_{dp}$ bandwidth bound (Chen et al., 2024) predict that it should only benefit tasks whose sequential depth exceeds a transformer’s single-pass capacity. This preprint runs an empirical test of this bound across Qwen-2.5 (7B/32B) and Llama-3.1-8B, comparing direct-answer vs. 2048-token CoT</summary>
-    <author><name>/u/tughanbulut</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Personal Visual Memory from Explicit and Implicit Evidence</title>
-    <link href="https://arxiv.org/abs/2605.28806v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.28806v1</id>
-    <updated>2026-05-27T17:56:11Z</updated>
-    <summary type="text">Long-term memory is increasingly important for personalized AI agents, yet existing benchmarks and methods remain largely text-centric. Even when images are included, the user-specific information needed for later questions is typically recoverable from text alone, and most memory systems reduce image turns to generic captions. Yet images often carry personal information that text rarely states --</summary>
-    <author><name>Yuheng Li</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration</title>
-    <link href="https://arxiv.org/abs/2605.28805v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.28805v1</id>
-    <updated>2026-05-27T17:56:04Z</updated>
-    <summary type="text">Visual outcomes are increasingly central to multimodal large language models, making reliable and fine-grained verification essential for scaling generalist foundation models. In this work, we investigate multimodal meta-verification, which leverages verifier-generated rationales rather than decision-only signals, and explore how to effectively incorporate meta-verification feedback into multimoda</summary>
-    <author><name>Ling Yang</name></author>
-    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>

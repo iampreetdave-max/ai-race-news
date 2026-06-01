@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-05-31T10:07:44Z</updated>
+  <updated>2026-06-01T13:27:52Z</updated>
+  <entry>
+    <title>An Implementation of the Microsoft Agent Governance Toolkit for Safe AI Agent Tool Use with Policies, Approvals, Audit Logs, and Risk Controls</title>
+    <link href="https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/</id>
+    <updated>2026-05-31T20:07:01Z</updated>
+    <summary type="text">In this tutorial, we build a governed AI-agent workflow using Microsoft’s Agent Governance Toolkit as the reference point. We create a Colab-ready implementation where agents do not directly execute tools; instead, every action first passes through a governance layer that checks the agent’s identity, trust score, risk tier, requested tool, action type, sensitivity level, and […] The post An Implem</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How to Cut AWS Compute Costs 60% Before End of Quarter Without Migrating Anything</title>
+    <link href="https://dev.to/kloudaudit/how-to-cut-aws-compute-costs-60-before-end-of-quarter-without-migrating-anything-4fdp" rel="alternate"/>
+    <id>https://dev.to/kloudaudit/how-to-cut-aws-compute-costs-60-before-end-of-quarter-without-migrating-anything-4fdp</id>
+    <updated>2026-06-01T13:20:06Z</updated>
+    <summary type="text">Your manager just asked you to cut cloud costs by end of quarter. Your first instinct is to look at migrating to a cheaper provider. Don't. That's a 3-month project minimum and you have 6 weeks. Here's what actually works fast — three changes that show up in billing within days, not months. 1. Spot Instances for Training and Batch Jobs (saves 60–70%) If your team is running ML training, ETL jobs, </summary>
+    <author><name>KloudAudit</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>How I built local-first memory for Claude Code, Cursor, and Codex - 94.5% LoCoMo recall@10, 70ms p50</title>
+    <link href="https://hackernoon.com/how-i-built-local-first-memory-for-claude-code-cursor-and-codex-945percent-locomo-recall10-70ms-p50?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/how-i-built-local-first-memory-for-claude-code-cursor-and-codex-945percent-locomo-recall10-70ms-p50?source=rss</id>
+    <updated>2026-06-01T09:48:20Z</updated>
+    <summary type="text">PMB is an open-source MCP memory server for Claude Code, Cursor, and Codex. It runs 100% locally (SQLite + LanceDB), needs zero API keys, and hits 94.5% LoCoMo recall@10 at 70ms p50 - matching or beating cloud alternatives like mem0, Letta, and Zep. This post walks through the five techniques behind it: predicate-aware reranking, verb synonym expansion, no-LLM atomic fact extraction, pattern query</summary>
+    <author><name>Oleksii Bondar</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>An AI Startup Is Changing How AI Agents Route Work Across Models</title>
+    <link href="https://hackernoon.com/an-ai-startup-is-changing-how-ai-agents-route-work-across-models?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/an-ai-startup-is-changing-how-ai-agents-route-work-across-models?source=rss</id>
+    <updated>2026-06-01T05:03:19Z</updated>
+    <summary type="text">Duel Agents routes AI coding tasks across models to cut inference costs without replacing Cursor, Claude Code or existing IDE workflows.Read All</summary>
+    <author><name>Aaron Shaw</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft and Nvidia reportedly team up on AI PCs that run actual agents instead of Copilot</title>
     <link href="https://the-decoder.com/microsoft-and-nvidia-reportedly-team-up-on-ai-pcs-that-run-actual-agents-instead-of-copilot/" rel="alternate"/>
@@ -53,12 +92,69 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Deepseek V4 flash performance on DGX Spark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ttlp99/deepseek_v4_flash_performance_on_dgx_spark/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ttlp99/deepseek_v4_flash_performance_on_dgx_spark/</id>
+    <updated>2026-06-01T08:17:27Z</updated>
+    <summary type="text">Hello Reddit I have been trying to get Deepseek V4 on the DGX Spark for the past week. Yesterday I was finally able to get it to work thanks to the hard work from the folks at local-inference-lab. The variants I have are the ASUS GX10. Two GX10s are Hooked up to their connect X-7 port running in docker with a very janky setup. The max context I can safely fit is around 1M tokens in the KV cache. I</summary>
+    <author><name>/u/Only_Situation_4713</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>How Braintrust turns customer requests into code with Codex</title>
     <link href="https://openai.com/index/braintrust" rel="alternate"/>
     <id>https://openai.com/index/braintrust</id>
     <updated>2026-05-29T12:00:00Z</updated>
     <summary type="text">How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Launching Conifer tomorrow, an open-source local AI runtime + IDE. Different layer of the stack from PewDiePie's Odysseus, would love your honest thoughts</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1ttjdaq/launching_conifer_tomorrow_an_opensource_local_ai/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1ttjdaq/launching_conifer_tomorrow_an_opensource_local_ai/</id>
+    <updated>2026-06-01T06:06:41Z</updated>
+    <summary type="text">Great to see Odysseus blow up this past day, local AI getting this much attention is genuinely good for everyone building in this space. Figured this is the right crowd to share what we're launching tomorrow (June 1st), since we're playing a pretty different game. A quick framing: Odysseus is a self-hosted workspace that points at engines (Ollama, llama.cpp, vLLM, cloud APIs) and runs through Dock</summary>
+    <author><name>/u/No_Elephant_7530</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I was a Data Scientist for 10 years before becoming a quadriplegic. For the past 3 months, I built VibeETL from scratch: A lightning-fast, visual Alteryx alternative powered by Polars &amp; React Flow.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tthxl4/i_was_a_data_scientist_for_10_years_before/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tthxl4/i_was_a_data_scientist_for_10_years_before/</id>
+    <updated>2026-06-01T04:52:40Z</updated>
+    <summary type="text">Hey r/LocalLLaMA I spent nearly a decade working in the trenches as a data scientist, wrestling with massive datasets, handling messy enterprise schemas, and using just about every major ETL tool on the market. A few years ago, my life changed completely when I became a quadriplegic. But my passion for building software close to the metal never stopped. For the past 3 months, I’ve dedicated my tim</summary>
+    <author><name>/u/card_chase</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>What actually counts as &quot;advanced&quot; Machine Learning in 2026? The bar seems to keep shifting and most course lists haven't caught up.</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tthjce/what_actually_counts_as_advanced_machine_learning/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tthjce/what_actually_counts_as_advanced_machine_learning/</id>
+    <updated>2026-06-01T04:32:51Z</updated>
+    <summary type="text">What actually counts as &quot;advanced&quot; ML in 2026? Asking because I've seen courses labeled advanced that are basically logistic regression with a fancier title. And I've seen ones that go deep on Transformers, RAG pipelines, and MLOps that barely market themselves at all. The landscape shifted a lot. Advanced used to mean CNNs and LSTMs. Now it feels like if you're not covering deployment, LLM fine-t</summary>
+    <author><name>/u/Helpful_Regular_30</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Maven, a personal AI agent that feels like JARVIS — what an open agent harness looks like in 2026</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tth2e1/maven_a_personal_ai_agent_that_feels_like_jarvis/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tth2e1/maven_a_personal_ai_agent_that_feels_like_jarvis/</id>
+    <updated>2026-06-01T04:09:58Z</updated>
+    <summary type="text">With all the talk about AI companions and autonomous agents, I’ve been experimenting with building a more personal, always-on assistant that runs locally or on your own hardware. The goal wasn’t just another chatbot — it was something that could handle voice conversations, manage ongoing tasks across different platforms (chat apps, scheduled triggers, etc.), remember context over long periods, and</summary>
+    <author><name>/u/qasimsoomro</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Built a fun weekend project: An MCP server for generating Mandelbrot visualizations</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tte2cu/built_a_fun_weekend_project_an_mcp_server_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tte2cu/built_a_fun_weekend_project_an_mcp_server_for/</id>
+    <updated>2026-06-01T01:49:06Z</updated>
+    <summary type="text">I've always liked fractals, so I wanted to see how well an LLM could explore the Mandelbrot set if it had proper tools to inspect and generate renders. The server gives models access to: Rendering tools for Mandelbrot images Presets for interesting regions (Seahorse Valley, Elephant Valley, triple spirals, etc.) An inspect tool that helps choose iteration counts and viewport settings before render</summary>
+    <author><name>/u/Weak_Engine_8501</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -98,6 +194,16 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Guidance on building 2D image to 3D image Diffusion model</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tt4u8y/guidance_on_building_2d_image_to_3d_image/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tt4u8y/guidance_on_building_2d_image_to_3d_image/</id>
+    <updated>2026-05-31T19:26:28Z</updated>
+    <summary type="text">I’m building a pipeline to turn 4-side product photos into professional studio images. I’m currently using SAM 2 for segmentation and an Inpainting pipeline to generate the studio background, but the model keeps hallucinating or degrading the product’s texture, even when I use a mask. How can I achieve a clean, professional studio look that keeps the product's original texture and color perfectly </summary>
+    <author><name>/u/Ok-Cartographer-5471</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Anthropic Ships Claude Opus 4.8 Alongside Dynamic Workflows and Cheaper Fast Mode, With Workflows Capped at 1,000 Subagents</title>
@@ -208,15 +314,6 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes</title>
-    <link href="https://developer.nvidia.com/blog/nvidia-dynamo-snapshot-fast-startup-for-inference-workloads-on-kubernetes/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/nvidia-dynamo-snapshot-fast-startup-for-inference-workloads-on-kubernetes/</id>
-    <updated>2026-05-27T23:09:52Z</updated>
-    <summary type="text">The cold-start problem In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However,...</summary>
-    <author><name>Schwinn Saereesitthipitak</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
     <title>Weekly AI roundup (May 23–30, 2026): Claude Opus 4.8 Fast Mode 3x cheaper, Qwen 3.7 Max beats Claude at half the price, ChatGPT moves into Excel</title>
     <link href="https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/" rel="alternate"/>
     <id>https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/</id>
@@ -288,104 +385,5 @@
     <summary type="text">In this article, we will go deep under the hood of Ollama's configuration engine, exploring how to fine-tune local language model parameters.</summary>
     <author><name>Matthew Mayo</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building self-improving tax agents with Codex</title>
-    <link href="https://openai.com/index/building-self-improving-tax-agents-with-codex" rel="alternate"/>
-    <id>https://openai.com/index/building-self-improving-tax-agents-with-codex</id>
-    <updated>2026-05-27T07:00:00Z</updated>
-    <summary type="text">See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kubelet Metrics: How cAdvisor and CRI Collect Kubernetes Stats</title>
-    <link href="https://dev.to/gulcantopcu/kubelet-metrics-how-cadvisor-and-cri-collect-kubernetes-stats-12kj" rel="alternate"/>
-    <id>https://dev.to/gulcantopcu/kubelet-metrics-how-cadvisor-and-cri-collect-kubernetes-stats-12kj</id>
-    <updated>2026-05-28T11:23:15Z</updated>
-    <summary type="text">This article was originally published on LearnKube TL;DR: This article dissects the Kubernetes metrics pipeline through kubelet, cAdvisor, and CRI to show where your metrics actually come from and what breaks when the defaults change. This article breaks down how Kubernetes collects container, pod, and node metrics, starting with cAdvisor and the Linux kernel, then shifting to a CRI-native model p</summary>
-    <author><name>Gulcan Topcu</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes Is Eating Your Budget: How to Fix EKS Over-Provisioning</title>
-    <link href="https://dev.to/sourabhkapoor/kubernetes-is-eating-your-budget-how-to-fix-eks-over-provisioning-1977" rel="alternate"/>
-    <id>https://dev.to/sourabhkapoor/kubernetes-is-eating-your-budget-how-to-fix-eks-over-provisioning-1977</id>
-    <updated>2026-05-28T11:17:35Z</updated>
-    <summary type="text">We’ve all experienced the comfort of deploying to AWS EKS—it scales seamlessly, handles failovers, and takes the operational stress out of managing control planes. But that seamless scalability often hides a painful reality: most development teams are aggressively paying for empty headroom. According to the 2026 State of Kubernetes Optimization Report by CAST AI, average CPU utilization in Kuberne</summary>
-    <author><name>Sourabh Kapoor</name></author>
-  </entry>
-  <entry>
-    <title>Controlling Blender with AI — Building an MCP Server for 3D Creation</title>
-    <link href="https://dev.to/iamnishant51/controlling-blender-with-ai-building-an-mcp-server-for-3d-creation-29gi" rel="alternate"/>
-    <id>https://dev.to/iamnishant51/controlling-blender-with-ai-building-an-mcp-server-for-3d-creation-29gi</id>
-    <updated>2026-05-28T11:06:28Z</updated>
-    <summary type="text">Blender's Python API is powerful but has a steep learning curve. What if you could describe a 3D model in plain language and have an AI build it inside Blender automatically? That is what Blender MCP does. It is an MCP server that connects AI assistants like Claude and GitHub Copilot to Blender in real-time. The architecture is simple. The MCP server runs as a Node.js process and spawns Blender as</summary>
-    <author><name>NISHANT UNAVANE</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cursor users who write failing tests before prompting the AI complete features in 37% fewer iterations than those who pr</title>
-    <link href="https://dev.to/a3e_ecosystem/cursor-users-who-write-failing-tests-before-prompting-the-ai-complete-features-in-37-fewer-7hl" rel="alternate"/>
-    <id>https://dev.to/a3e_ecosystem/cursor-users-who-write-failing-tests-before-prompting-the-ai-complete-features-in-37-fewer-7hl</id>
-    <updated>2026-05-28T11:03:02Z</updated>
-    <summary type="text">Cursor users who write failing tests before prompting the AI complete features in 37% fewer iterations than those who prompt first (Yeager 2024, AI-Assisted TDD Patterns). That number comes from an internal Cursor Labs study tracking actual prompt chains, not lab simulations. The gap holds across feature complexity. When you hand the model a red test, you constrain the search space. The AI knows t</summary>
-    <author><name>A3E Ecosystem</name></author>
-  </entry>
-  <entry>
-    <title>I Refactored 100 Functions With Claude. CI Was Green. Production Got Slower in 7 Spots.</title>
-    <link href="https://dev.to/kenimo49/i-refactored-100-functions-with-claude-ci-was-green-production-got-slower-in-7-spots-1d6" rel="alternate"/>
-    <id>https://dev.to/kenimo49/i-refactored-100-functions-with-claude-ci-was-green-production-got-slower-in-7-spots-1d6</id>
-    <updated>2026-05-28T11:00:01Z</updated>
-    <summary type="text">I asked Claude Code to refactor 100 functions across a Python service I owned. It did the job in two passes. CI was green on both. The PR description was so neat I almost felt bad shipping it on a Friday. Two weeks later, on-call paged me because the p95 of one endpoint had drifted from 180 ms to 240 ms. I started bisecting. The bisect landed on the refactor PR. I started reading the refactor PR. </summary>
-    <author><name>Ken Imoto</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Feedback request: Testing the $H_{dp}$ bandwidth bound on LLM benchmarks (Preprint check &amp; review)</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tr7w61/feedback_request_testing_the_h_dp_bandwidth_bound/</id>
-    <updated>2026-05-29T16:48:06Z</updated>
-    <summary type="text">While Chain-of-Thought (CoT) is widely treated as a universal accuracy booster, theoretical models like the $H_{dp}$ bandwidth bound (Chen et al., 2024) predict that it should only benefit tasks whose sequential depth exceeds a transformer’s single-pass capacity. This preprint runs an empirical test of this bound across Qwen-2.5 (7B/32B) and Llama-3.1-8B, comparing direct-answer vs. 2048-token CoT</summary>
-    <author><name>/u/tughanbulut</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built an AI Agent That Runs Autonomous OSINT Investigations From Your Terminal</title>
-    <link href="https://hackernoon.com/i-built-an-ai-agent-that-runs-autonomous-osint-investigations-from-your-terminal?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/i-built-an-ai-agent-that-runs-autonomous-osint-investigations-from-your-terminal?source=rss</id>
-    <updated>2026-05-27T23:36:04Z</updated>
-    <summary type="text">OpenOSINT is an open-source, MCP-native OSINT framework with 14 intelligence tools, an AI-powered interactive REPL, a web UI, and a CLI — all driven by Claude's native tool use API. You type a target in natural language; the agent decides what to investigate, chains the tools, and hands you a structured report. No hallucinated results. Ever.Read All</summary>
-    <author><name>SonoTommy</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building a monokernel for LLM inference on AMD MI300X - up to 3,300 output tokens/s per request [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tqvuz9/building_a_monokernel_for_llm_inference_on_amd/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tqvuz9/building_a_monokernel_for_llm_inference_on_amd/</id>
-    <updated>2026-05-29T08:54:29Z</updated>
-    <summary type="text">We built a monokernel that runs the full decode sequence as one GPU-resident program on AMD MI300X, with some neat optimizations. The die topology is central to the result, we map memory access patterns to the physical layout, compute units group by their associated IOD, and the hardware runs at its full design performance. Up to 3,300 output tokens/s per request, batch size 1, no speculative deco</summary>
-    <author><name>/u/averne_</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How to Effectively Run Many Claude Code Sessions in Parallel</title>
-    <link href="https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/</id>
-    <updated>2026-05-27T16:30:00Z</updated>
-    <summary type="text">Keep an overview of all your coding agents that run in parallel The post How to Effectively Run Many Claude Code Sessions in Parallel appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Liquid AI releases LFM2.5-8B-A1B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tqqnsl/liquid_ai_releases_lfm258ba1b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tqqnsl/liquid_ai_releases_lfm258ba1b/</id>
-    <updated>2026-05-29T04:17:10Z</updated>
-    <summary type="text">Liquid AI released LFM2.5-8B-A1B, an edge model designed to power real-life applications. It builds on LFM2-8B-A1B with three major upgrades: an expanded 128K context window, 38T tokens of pre-training (up from 12T), and large-scale reinforcement learning. It also comes with a doubled vocabulary to improve tokenization for non-Latin languages. The result is a model that chains tool calls, complete</summary>
-    <author><name>/u/PauLabartaBajo</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
