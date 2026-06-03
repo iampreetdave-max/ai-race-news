@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-02T11:57:29Z</updated>
+  <updated>2026-06-03T12:30:20Z</updated>
   <entry>
     <title>Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems</title>
     <link href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/" rel="alternate"/>
@@ -26,6 +26,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Major labs timeshift between the research they publish on Arxiv and implementation in models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tvih98/major_labs_timeshift_between_the_research_they/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tvih98/major_labs_timeshift_between_the_research_they/</id>
+    <updated>2026-06-03T07:52:38Z</updated>
+    <summary type="text">Hi guys, just wanted to ask if you know whether if Google Deepmind publishes an interesting paper on Arxiv on RL then it means it already is implemented in 3.5 flash and is gonna be implemented in 3.5 pro, or not? Basically, do these huge players publish before they test it at large scale or only after? 🙏 Btw, here's the link to the paper in question: https://arxiv.org/html/2606.03962v1 submitted </summary>
+    <author><name>/u/Ok_Zookeepergame8714</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>LL-Bench: Rethinking Low-Level Vision Evaluation in the Era of Large-Scale Generative Models</title>
     <link href="https://arxiv.org/abs/2606.02535v1" rel="alternate"/>
     <id>https://arxiv.org/abs/2606.02535v1</id>
@@ -43,6 +53,23 @@
     <summary type="text">We present MORPHOS, a novel autoregressive framework that generates dynamic 3D assets from videos across diverse representations, including meshes, 3D Gaussians, and radiance fields. Existing methods are typically limited to a single representation, struggle to model topological changes, or fail to maintain temporal consistency over long videos. To address these limitations, we introduce the Tempo</summary>
     <author><name>Seungryong Kim</name></author>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>How can AI be used responsibly?</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tv1ojn/how_can_ai_be_used_responsibly/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tv1ojn/how_can_ai_be_used_responsibly/</id>
+    <updated>2026-06-02T19:36:22Z</updated>
+    <summary type="text">(Cross post from r/antiai) I’ve been a member of this sub for a few months now, and while I absolutely agree with most of the points made here against AI, I do think some people take it to extremes. I don’t think there’s anything necessarily wrong with the technology itself, just moreso the way it’s being pushed and marketed. I think llms can absolutely have some useful applications, as long as th</summary>
+    <author><name>/u/sunbear99999</name></author>
+  </entry>
+  <entry>
+    <title>I trained a 75M parameter LLM from scratch on 18B tokens and it beats a model almost double its size</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/</id>
+    <updated>2026-06-02T17:41:39Z</updated>
+    <summary type="text">I trained a small language model from scratch called KeyLM. It is 75M params, decoder-only, and there is a pretrained base, an instruction-tuned version, and a GGUF. On IFEval (instruction following) the 75M instruct model scores slightly higher than the original SmolLM-135M-Instruct at about half the parameters and a fraction of the training data. (SmolLM was pre trained on 600B tokens and SmolLM</summary>
+    <author><name>/u/cakes_and_candles</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Adapting a SOTA retrieval model for OOD Detection</title>
@@ -125,74 +152,5 @@
     <category term="research"/>
     <category term="product-launch"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Building a Native QR/Barcode Scanner for React Native — New Architecture Ready</title>
-    <link href="https://dev.to/rushikeshpandit/building-a-native-qrbarcode-scanner-for-react-native-new-architecture-ready-mff" rel="alternate"/>
-    <id>https://dev.to/rushikeshpandit/building-a-native-qrbarcode-scanner-for-react-native-new-architecture-ready-mff</id>
-    <updated>2026-05-30T09:25:44Z</updated>
-    <summary type="text">Most QR scanner libraries for React Native share the same problems — they're unmaintained, they don't support the New Architecture, or they pull in a full camera SDK for what is a single-feature module. I wanted something lean, production-grade, and built the right way. So I built it. This is react-native-qr-camera-pro — a QR and barcode scanner for React Native built entirely with native code. No</summary>
-    <author><name>Rushikesh Pandit</name></author>
-  </entry>
-  <entry>
-    <title>Representation Forcing for Bottleneck-Free Unified Multimodal Models</title>
-    <link href="https://arxiv.org/abs/2605.31604v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31604v1</id>
-    <updated>2026-05-29T17:59:55Z</updated>
-    <summary type="text">Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing </summary>
-    <author><name>Xihui Liu</name></author>
-    <category term="product-launch"/>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Linear Scaling Video VLMs for Long Video Understanding</title>
-    <link href="https://arxiv.org/abs/2605.31598v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31598v1</id>
-    <updated>2026-05-29T17:59:02Z</updated>
-    <summary type="text">Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping</summary>
-    <author><name>Juan Carlos Niebles</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation</title>
-    <link href="https://arxiv.org/abs/2605.31590v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31590v1</id>
-    <updated>2026-05-29T17:56:09Z</updated>
-    <summary type="text">Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video diffusion transformers (DiTs) and uncover intrinsic turning points in the DiT denoising trajectory where conditioning text affects generation from global layout to fine-grained details. Building on this </summary>
-    <author><name>Volker Tresp</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision</title>
-    <link href="https://arxiv.org/abs/2605.31557v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31557v1</id>
-    <updated>2026-05-29T17:20:10Z</updated>
-    <summary type="text">Continuous episodic memory is a core capability for autonomous agents operating in dynamic, real-world environments, yet current streaming video benchmarks provide limited tools for diagnosing what models remember and for how long. We introduce \egostream, a diagnostic benchmark for streaming episodic memory evaluation in egocentric vision. \egostream organizes 2,250 curated questions along seven </summary>
-    <author><name>Antonino Furnari</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video</title>
-    <link href="https://arxiv.org/abs/2605.31535v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31535v1</id>
-    <updated>2026-05-29T16:50:27Z</updated>
-    <summary type="text">Self-supervised novel view synthesis (NVS) remains challenging to scale, despite the abundance of video data, largely due to the brittleness of training on realistic videos and the hard-to-predict scaling behavior of multi-network system designs. We introduce RayDer, a unified, feed-forward transformer that consolidates camera estimation, scene reconstruction, and rendering into a single backbone,</summary>
-    <author><name>Björn Ommer</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Internalizing Temporal Consistency in Video Object-Centric Learning without Explicit Regularization</title>
-    <link href="https://arxiv.org/abs/2605.31508v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2605.31508v1</id>
-    <updated>2026-05-29T16:28:21Z</updated>
-    <summary type="text">Video Object-Centric Learning (OCL) aims to represent objects as \textit{slot} vectors and maintain their consistency across frames. Slot-Slot Contrastive (SSC) loss has become the cornerstone for state-of-the-art (SOTA) video OCL methods. While highly effective, SSC relies on one-to-one object correspondence across frames and introduces an extra loss. Following Occam's Razor, we propose a paradig</summary>
-    <author><name>Joni Pajarinen</name></author>
-    <category term="product-launch"/>
-    <category term="research"/>
   </entry>
 </feed>
