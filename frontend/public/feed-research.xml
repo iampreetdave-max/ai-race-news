@@ -4,7 +4,132 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-03T12:30:20Z</updated>
+  <updated>2026-06-04T10:54:19Z</updated>
+  <entry>
+    <title>Test-Time Training for LLMs: Scaling Problem Solving via TextGrad</title>
+    <link href="https://hackernoon.com/test-time-training-for-llms-scaling-problem-solving-via-textgrad?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/test-time-training-for-llms-scaling-problem-solving-via-textgrad?source=rss</id>
+    <updated>2026-06-04T02:19:50Z</updated>
+    <summary type="text">Discover how TextGrad utilizes test-time training and iterative self-refinement to maximize LLM reasoning. Learn how it pushes GPT-4o to a record 55% accuracy on the ultra-hard GPQA benchmark.Read All</summary>
+    <author><name>Writings, Papers and Blogs on Text Models</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>TextGrad Code Optimization: Outperforming Reflexion on LeetCode Hard</title>
+    <link href="https://hackernoon.com/textgrad-code-optimization-outperforming-reflexion-on-leetcode-hard?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/textgrad-code-optimization-outperforming-reflexion-on-leetcode-hard?source=rss</id>
+    <updated>2026-06-04T02:16:14Z</updated>
+    <summary type="text">Discover how TextGrad leverages instance optimization and computation graphs to programmatically debug and refine code. Learn how it pushes GPT-4o's zero-shot LeetCode Hard completion rate to 36%, outperforming the state-of-the-art Reflexion baseline without any in-context demonstrations.Read All</summary>
+    <author><name>Writings, Papers and Blogs on Text Models</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Continual Visual and Verbal Learning Through a Child's Egocentric Input</title>
+    <link href="https://arxiv.org/abs/2606.05115v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.05115v1</id>
+    <updated>2026-06-03T17:20:18Z</updated>
+    <summary type="text">Children learn the meanings of words from a continuous, temporally structured stream of egocentric experience. Recent work shows that neural networks can also learn word-referent mappings from a child's egocentric video recordings, but they cycle through the shuffled data for hundreds of epochs, contrasting with how children actually encounter their environment. We introduce BabyCL, a continual mu</summary>
+    <author><name>Mengye Ren</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have</title>
+    <link href="https://arxiv.org/abs/2606.05107v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.05107v1</id>
+    <updated>2026-06-03T17:10:11Z</updated>
+    <summary type="text">We propose a label-free approach to adapt powerful but generic vision foundation models to specialized scientific domains. Standard supervised fine-tuning is often ill-suited to these settings: labels are scarce, and task-specific training can collapse the model's generality and hurt robustness. We instead leverage metadata to adapt representations to new domains in a self-supervised manner. Our m</summary>
+    <author><name>Camille Couprie</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD</title>
+    <link href="https://arxiv.org/abs/2606.05058v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.05058v1</id>
+    <updated>2026-06-03T16:20:57Z</updated>
+    <summary type="text">Computer-Aided Design (CAD) underpins modern engineering and manufacturing by enabling the creation of precise, editable 3D models. However, CAD research typically studies tasks in isolation, and multi-modal, multi-task learning for CAD is hindered by the absence of a unified benchmark. To address this gap, we introduce UniCAD, a comprehensive benchmark for multi-modal CAD learning that covers poi</summary>
+    <author><name>Chen Qian</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Multi-Camera AR Guidance System for Surgical Instrument Handling and Assembly: Investigating Workload and Efficiency</title>
+    <link href="https://arxiv.org/abs/2606.04992v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.04992v1</id>
+    <updated>2026-06-03T15:13:05Z</updated>
+    <summary type="text">The handling and assembly of instruments during surgery imposes high cognitive demands on scrub nurses, particularly when instruments are unfamiliar. We present a supporting guidance system for surgical instrumentation that combines multi-camera 6D pose estimation with augmented reality in-situ visualization on a head-mounted display without the requirement for additional markers. Pose estimation </summary>
+    <author><name>Daniel Roth</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Food-R1: A Unified Multi-Task Food Vision-Language Model with Reinforcement Learning</title>
+    <link href="https://arxiv.org/abs/2606.04986v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.04986v1</id>
+    <updated>2026-06-03T15:07:12Z</updated>
+    <summary type="text">Recent studies have explored Vision-Language Models (VLMs) for food analysis. However, most existing methods rely primarily on supervised fine-tuning (SFT), which often limits reasoning and generalization capabilities. Moreover, high-quality large-scale nutritional annotations remain scarce. To address these issues, we introduce CalorieBench-80K, a large-scale benchmark with curated calorie labels</summary>
+    <author><name>Xinggang Wang</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Scene-Centric Unsupervised Video Panoptic Segmentation</title>
+    <link href="https://arxiv.org/abs/2606.04925v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.04925v1</id>
+    <updated>2026-06-03T14:19:55Z</updated>
+    <summary type="text">Video panoptic segmentation (VPS) aims to jointly detect, segment, and track all objects while partitioning the video into semantically consistent regions. We introduce the task setting of unsupervised VPS, omitting any human supervision. Existing unsupervised scene understanding works mainly focused on image segmentation tasks; the video domain remains underexplored. We propose VideoCUPS, the fir</summary>
+    <author><name>Stefan Roth</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Triomics Raises $22M to Scale Oncology AI for Early Cancer Detection and Treatment</title>
+    <link href="https://hackernoon.com/triomics-raises-$22m-to-scale-oncology-ai-for-early-cancer-detection-and-treatment?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/triomics-raises-$22m-to-scale-oncology-ai-for-early-cancer-detection-and-treatment?source=rss</id>
+    <updated>2026-06-03T13:41:40Z</updated>
+    <summary type="text">Triomics, an oncology AI company, has raised $22 million in Series B financing led by Battery Ventures, bringing total funding to more than $36 million Existing investors Nexus Venture Partners, Lightspeed, and Y Combinator joined the round, alongside strategic capital from Oncology Ventures and Precision Health Informatics, a wholly-owned subsidiary of Texas Oncology The platform is live at Memor</summary>
+    <author><name>Ishan Pandey</name></author>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>D-Flash - Lossless Speculative Decoding Layer</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/</id>
+    <updated>2026-06-04T04:21:09Z</updated>
+    <summary type="text">Found this interesting paper - [DFlash - Lossless Speculative Decoding](https://arxiv.org/abs/2602.06036https://arxiv.org/abs/2602.06036) Achieves upto 6x speedups in the latency for processing decode layers, They create distilled draft models to predict tokens in bulk, so that decode layers process them quickly as opposed to generating tokens one by one submitted by /u/Achuth_noob [link] [comment</summary>
+    <author><name>/u/Achuth_noob</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/</id>
+    <updated>2026-06-03T19:51:33Z</updated>
+    <summary type="text">I don't really understand the gemma hype. Qwen outperforms gemma gb for gb, and kv cache is lighter. Sure gemma-4-12b-it might be a slight better coder than Qwen3.5-9b, but you could also just use omnicoder-9b (Qwen3.5-9b finetune for coding). Note: Benchmark results come from the official huggingface model cards; formatted into a table with ChatGPT submitted by /u/fulgencio_batista [link] [commen</summary>
+    <author><name>/u/fulgencio_batista</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>122B MoE inference with 8 GB GPU VRAM via CPU-offloaded experts</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1tvyzna/122b_moe_inference_with_8_gb_gpu_vram_via/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1tvyzna/122b_moe_inference_with_8_gb_gpu_vram_via/</id>
+    <updated>2026-06-03T18:55:20Z</updated>
+    <summary type="text">Disclosure: I'm affiliated with the project. We've been working on InstinctRazor-Qwen3.5-122B-A10B, a 122B MoE model/runtime setup that keeps experts on CPU and active GPU VRAM around 8 GB. The compressed model is around 50 GB total, so the tradeoff is not free. The point is that a consumer GPU can handle the active path while CPU memory carries the inactive experts. Benchmark note: in our current</summary>
+    <author><name>/u/Hairy_Strawberry7028</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Encodec.cpp, a portable C++ implementation of Meta's EnCodec using Eigen [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/</id>
+    <updated>2026-06-03T14:09:14Z</updated>
+    <summary type="text">I built a C++ implementation of Meta’s EnCodec using Eigen. Github: https://github.com/pfeatherstone/encodec.cpp Motivation: - A lightweight implementation of EnCodec with no runtime dependencies, in C++ - No ML runtime - Easy integration in CMake project - Maximum performance on single-thread What it supports: - State-of-the-art audio codec - Audio tokenizer - Performance comparable to or exceedi</summary>
+    <author><name>/u/Competitive_Act5981</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems</title>
     <link href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/" rel="alternate"/>
@@ -61,96 +186,5 @@
     <updated>2026-06-02T19:36:22Z</updated>
     <summary type="text">(Cross post from r/antiai) I’ve been a member of this sub for a few months now, and while I absolutely agree with most of the points made here against AI, I do think some people take it to extremes. I don’t think there’s anything necessarily wrong with the technology itself, just moreso the way it’s being pushed and marketed. I think llms can absolutely have some useful applications, as long as th</summary>
     <author><name>/u/sunbear99999</name></author>
-  </entry>
-  <entry>
-    <title>I trained a 75M parameter LLM from scratch on 18B tokens and it beats a model almost double its size</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/</id>
-    <updated>2026-06-02T17:41:39Z</updated>
-    <summary type="text">I trained a small language model from scratch called KeyLM. It is 75M params, decoder-only, and there is a pretrained base, an instruction-tuned version, and a GGUF. On IFEval (instruction following) the 75M instruct model scores slightly higher than the original SmolLM-135M-Instruct at about half the parameters and a fraction of the training data. (SmolLM was pre trained on 600B tokens and SmolLM</summary>
-    <author><name>/u/cakes_and_candles</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Adapting a SOTA retrieval model for OOD Detection</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tukuov/adapting_a_sota_retrieval_model_for_ood_detection/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tukuov/adapting_a_sota_retrieval_model_for_ood_detection/</id>
-    <updated>2026-06-02T08:37:27Z</updated>
-    <summary type="text">Hi everyone, I'm currently working on a project involving a large dataset of complex graphs (500k+ graphs). We are using a state-of-the-art model (GNN) from the literature that was originally designed for retrieval tasks (given a query graph, find the most similar one in the database using Graph Neural Networks and cosine similarity). For retrieval, the model works great, and it ranks the correct </summary>
-    <author><name>/u/Same-Traffic-3854</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Qwen 3.6-35B-A3B with 977 tk/s prompt processing and 262k context window on Intel Arc B70 Pro</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tukrtf/qwen_3635ba3b_with_977_tks_prompt_processing_and/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tukrtf/qwen_3635ba3b_with_977_tks_prompt_processing_and/</id>
-    <updated>2026-06-02T08:32:54Z</updated>
-    <summary type="text">Llama benchmark results model size params backend ngl threads type_k type_v fa test t/s qwen35moe 35B.A3B Q4_K - Medium 20.81 GiB 34.66 B SYCL 99 1 q8_0 q8_0 1 pp512 977.40 ± 2.02 qwen35moe 35B.A3B Q4_K - Medium 20.81 GiB 34.66 B SYCL 99 1 q8_0 q8_0 1 tg128 70.54 ± 0.12 I've chucked all my notes in an LLM and created an article if you want to recreate the same setup. I am currently using this with</summary>
-    <author><name>/u/Atomynos_Atom</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Browse CVPR 2026 papers on PapersWithCode [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/</id>
-    <updated>2026-06-02T08:32:17Z</updated>
-    <summary type="text">https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the open-source team at Hugging Face. It's been 2 weeks since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-seri</summary>
-    <author><name>/u/NielsRogge</name></author>
-    <category term="product-launch"/>
-    <category term="computer-vision"/>
-    <category term="research"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Cool project based on Karpathy's Autoresearch</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tuc952/cool_project_based_on_karpathys_autoresearch/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tuc952/cool_project_based_on_karpathys_autoresearch/</id>
-    <updated>2026-06-02T01:23:34Z</updated>
-    <summary type="text">Not my project but have been helping test it out: https://magnet.hooti.ai/ basically decentralized autoresearch run on distributed compute research paper can be found here: https://arxiv.org/pdf/2603.25813 the developers are really great guys based in South Korea and just want people to know about what they've built and help test it out They're hoping it can be useful tech for the future of AI sub</summary>
-    <author><name>/u/AntOnTheSlant</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Ryan Shea's new AI IQ leaderboard surpasses Maxim Lott's, GPT-5.5 scores 136, and Hinton says some ANSIs may already be at 300!!!</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tu73vy/ryan_sheas_new_ai_iq_leaderboard_surpasses_maxim/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tu73vy/ryan_sheas_new_ai_iq_leaderboard_surpasses_maxim/</id>
-    <updated>2026-06-01T21:53:25Z</updated>
-    <summary type="text">​ Maxim Lott began tracking AI IQ in May 2024. Back then the top model scored 80. 17 months later in October 2025 he found that the top AI scored 130, and reported that the models were improving at an average rate of 2.5 IQ points per month. But he hasn't recorded a score above 130 during the last 8 months, and this suggests that 1) building high-IQ AIs is much harder and 2) his methodology has co</summary>
-    <author><name>/u/andsi2asi</name></author>
-    <category term="data"/>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How much of MLE-Bench's gains are the algorithm vs. better models + more search? [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/</id>
-    <updated>2026-06-01T14:34:16Z</updated>
-    <summary type="text">MLE-Bench scores have jumped from 30% to 80% over the last two years. But how much of that is real algorithmic progress vs. better base models + problem definition shifts + overfitting? Turns out: not much. Once you control for the same step budget and models, and then test on a different set of tasks, the two-year-old AIDE algorithm matches modern agent/evolutionary search systems. Figure from FM</summary>
-    <author><name>/u/Educational_Strain_3</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Mellum 2 12B A2.5B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/</id>
-    <updated>2026-06-01T13:23:40Z</updated>
-    <summary type="text">Coding focused small MoE from JetBrains. They claim coding performance around Qwen 3.5 9B for the reasoning model. Worse than Qwen 3.5 4B in in everything else. Models: https://huggingface.co/collections/JetBrains/mellum-2 Technical report: https://arxiv.org/abs/2605.31268 submitted by /u/Middle_Bullfrog_6173 [link] [comments]</summary>
-    <author><name>/u/Middle_Bullfrog_6173</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B</title>
-    <link href="https://www.marktechpost.com/2026/05/29/nvidia-introduces-x-token-projection-guided-cross-tokenizer-kd-that-outperforms-gold-by-3-82-average-points-on-llama-3-2-1b/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/05/29/nvidia-introduces-x-token-projection-guided-cross-tokenizer-kd-that-outperforms-gold-by-3-82-average-points-on-llama-3-2-1b/</id>
-    <updated>2026-05-29T23:19:14Z</updated>
-    <summary type="text">NVIDIA's X-Token fixes two structural failures in GOLD and improves GSM8k accuracy from 2.56 to 15.54 The post NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="product-launch"/>
-    <category term="hardware"/>
   </entry>
 </feed>
