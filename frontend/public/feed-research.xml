@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-04T10:54:19Z</updated>
+  <updated>2026-06-05T11:18:26Z</updated>
+  <entry>
+    <title>Towards One-to-Many Temporal Grounding</title>
+    <link href="https://arxiv.org/abs/2606.06294v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.06294v1</id>
+    <updated>2026-06-04T15:31:22Z</updated>
+    <summary type="text">Temporal Grounding (TG) aims to localize video segments corresponding to a textual query. Prior research predominantly focuses on single-segment retrieval. Real-world scenarios, however, often require localizing multiple disjoint segments for a single query -- a setting we term One-to-Many Temporal Grounding (OMTG). Previous state-of-the-art MLLMs, optimized for one-to-one settings, struggle in th</summary>
+    <author><name>Jason Li</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>ActiveMimic: Egocentric Video Pretraining with Active Perception</title>
+    <link href="https://arxiv.org/abs/2606.06194v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.06194v1</id>
+    <updated>2026-06-04T14:01:01Z</updated>
+    <summary type="text">Egocentric human video offers a scalable alternative to robot data for pretraining, yet models pretrained on such video consistently underperform those pretrained on robot data. We attribute this gap to a missing signal, the active perception behavior in egocentric videos, where humans continuously reposition their viewpoint during manipulation, inducing camera motion that standard pipelines treat</summary>
+    <author><name>Yu-Gang Jiang</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Test-Time Training for LLMs: Scaling Problem Solving via TextGrad</title>
     <link href="https://hackernoon.com/test-time-training-for-llms-scaling-problem-solving-via-textgrad?source=rss" rel="alternate"/>
@@ -22,6 +40,24 @@
     <summary type="text">Discover how TextGrad leverages instance optimization and computation graphs to programmatically debug and refine code. Learn how it pushes GPT-4o's zero-shot LeetCode Hard completion rate to 36%, outperforming the state-of-the-art Reflexion baseline without any in-context demonstrations.Read All</summary>
     <author><name>Writings, Papers and Blogs on Text Models</name></author>
     <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Benchmark &amp; Reality Check on Gemma 4 12B: Great model, but your local settings are probably breaking it (Fix inside)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txgvrh/benchmark_reality_check_on_gemma_4_12b_great/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txgvrh/benchmark_reality_check_on_gemma_4_12b_great/</id>
+    <updated>2026-06-05T10:21:09Z</updated>
+    <summary type="text">I completed a Python bug hunting benchmark with Gemma 4 12B. I used the Unsloth Dynamic Q5 GGUF model. The model has good capabilities. Default settings in LM Studio disable the reasoning. Fix the LM Studio reasoning configuration. LM Studio looks for Qwen tokens. Gemma 4 uses different tokens. Change your settings with these steps. • Open your inference settings. • Add this text to the first line</summary>
+    <author><name>/u/SummarizedAnu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>[Opinion] Gemma4-12B means that Google is going hard after the market of IoT and mobile and we're helping them</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txeopx/opinion_gemma412b_means_that_google_is_going_hard/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txeopx/opinion_gemma412b_means_that_google_is_going_hard/</id>
+    <updated>2026-06-05T08:15:57Z</updated>
+    <summary type="text">I know it might be a no-brainer in retrospect, but hear me out, y'all, it's not the whole story. [tinfoil-hat] What is the hidden strategic value of Gemma4-12B beyond the stated &quot;laptop friendly&quot; size? Looking at the new architecture one can't help but notice that the potential quality tradeoff of an already small model might be too brutal - all your parameters are now doing work on heterogenous i</summary>
+    <author><name>/u/Opening-Broccoli9190</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -91,6 +127,34 @@
     <category term="funding"/>
   </entry>
   <entry>
+    <title>With reviewers cracking down on LLM text, does anyone use professional paper writer services to polish drafts?</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1twqzf8/with_reviewers_cracking_down_on_llm_text_does/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1twqzf8/with_reviewers_cracking_down_on_llm_text_does/</id>
+    <updated>2026-06-04T15:28:12Z</updated>
+    <summary type="text">I've noticed that arXiv and major ML conferences are getting incredibly strict about AI-generated phrasing. Even if the core research and math are entirely yours, standard AI detectors often flag non-native English text. I'm seriously considering hiring a professional paper writer to review and structure my next submission. Has anyone here found a reliable paper writer online who actually speciali</summary>
+    <author><name>/u/9FerroxenQ</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>KVarN: Variance-Normalized KV-Cache Quantization [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/</id>
+    <updated>2026-06-04T13:21:59Z</updated>
+    <summary type="text">Excited to share some of my own work here :) KVarN is our new KV-Cache quantization method. In very brief, we combine Hadamard rotations with variance-normalization on both axes of the K and V matrices, then round to nearest. Simple, but works very well, especially for decode-heavy test-time-scaling settings (reasoning, code-gen, agentics). We get 3-4x compression at virtually no accuracy drop (mo</summary>
+    <author><name>/u/intentionallyBlue</name></author>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>How Do You Handle Ablation Studies When the Original Model Is Already Trained?[R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/</id>
+    <updated>2026-06-04T11:07:27Z</updated>
+    <summary type="text">I'm running into an issue with an ablation study for a paper I'm preparing. I trained a model. The model achieved my best result, and I saved the trained checkpoint (.pth file). Now my supervisor wants me to perform an ablation study by removing components and how it impacts the accuracy. My concern is that if I retrain from scratch, the accuracies will not exactly match the original run due to ra</summary>
+    <author><name>/u/Plane_Stick8394</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>D-Flash - Lossless Speculative Decoding Layer</title>
     <link href="https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/" rel="alternate"/>
     <id>https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/</id>
@@ -98,93 +162,5 @@
     <summary type="text">Found this interesting paper - [DFlash - Lossless Speculative Decoding](https://arxiv.org/abs/2602.06036https://arxiv.org/abs/2602.06036) Achieves upto 6x speedups in the latency for processing decode layers, They create distilled draft models to predict tokens in bulk, so that decode layers process them quickly as opposed to generating tokens one by one submitted by /u/Achuth_noob [link] [comment</summary>
     <author><name>/u/Achuth_noob</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/</id>
-    <updated>2026-06-03T19:51:33Z</updated>
-    <summary type="text">I don't really understand the gemma hype. Qwen outperforms gemma gb for gb, and kv cache is lighter. Sure gemma-4-12b-it might be a slight better coder than Qwen3.5-9b, but you could also just use omnicoder-9b (Qwen3.5-9b finetune for coding). Note: Benchmark results come from the official huggingface model cards; formatted into a table with ChatGPT submitted by /u/fulgencio_batista [link] [commen</summary>
-    <author><name>/u/fulgencio_batista</name></author>
-    <category term="research"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>122B MoE inference with 8 GB GPU VRAM via CPU-offloaded experts</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1tvyzna/122b_moe_inference_with_8_gb_gpu_vram_via/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1tvyzna/122b_moe_inference_with_8_gb_gpu_vram_via/</id>
-    <updated>2026-06-03T18:55:20Z</updated>
-    <summary type="text">Disclosure: I'm affiliated with the project. We've been working on InstinctRazor-Qwen3.5-122B-A10B, a 122B MoE model/runtime setup that keeps experts on CPU and active GPU VRAM around 8 GB. The compressed model is around 50 GB total, so the tradeoff is not free. The point is that a consumer GPU can handle the active path while CPU memory carries the inactive experts. Benchmark note: in our current</summary>
-    <author><name>/u/Hairy_Strawberry7028</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Encodec.cpp, a portable C++ implementation of Meta's EnCodec using Eigen [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/</id>
-    <updated>2026-06-03T14:09:14Z</updated>
-    <summary type="text">I built a C++ implementation of Meta’s EnCodec using Eigen. Github: https://github.com/pfeatherstone/encodec.cpp Motivation: - A lightweight implementation of EnCodec with no runtime dependencies, in C++ - No ML runtime - Easy integration in CMake project - Maximum performance on single-thread What it supports: - State-of-the-art audio codec - Audio tokenizer - Performance comparable to or exceedi</summary>
-    <author><name>/u/Competitive_Act5981</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems</title>
-    <link href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/</id>
-    <updated>2026-06-01T13:31:56Z</updated>
-    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year:…The more directly you measure the AI economy, the weirder and more unprecedented it seems […]</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization</title>
-    <link href="https://arxiv.org/abs/2606.02564v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.02564v1</id>
-    <updated>2026-06-01T17:54:26Z</updated>
-    <summary type="text">The recent &quot;Reasoning with Video&quot; paradigm utilizes Video Generation Models (VGMs) to generate temporally coherent visual trajectories to complete reasoning tasks. Although state-of-the-art VGMs excel at visual quality, they often struggle to understand and follow task-specific rules, leading to logical failures across diverse reasoning scenarios. Existing efforts try to utilize Vision-Language Mo</summary>
-    <author><name>Jing Liao</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Major labs timeshift between the research they publish on Arxiv and implementation in models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tvih98/major_labs_timeshift_between_the_research_they/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tvih98/major_labs_timeshift_between_the_research_they/</id>
-    <updated>2026-06-03T07:52:38Z</updated>
-    <summary type="text">Hi guys, just wanted to ask if you know whether if Google Deepmind publishes an interesting paper on Arxiv on RL then it means it already is implemented in 3.5 flash and is gonna be implemented in 3.5 pro, or not? Basically, do these huge players publish before they test it at large scale or only after? 🙏 Btw, here's the link to the paper in question: https://arxiv.org/html/2606.03962v1 submitted </summary>
-    <author><name>/u/Ok_Zookeepergame8714</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>LL-Bench: Rethinking Low-Level Vision Evaluation in the Era of Large-Scale Generative Models</title>
-    <link href="https://arxiv.org/abs/2606.02535v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.02535v1</id>
-    <updated>2026-06-01T17:40:09Z</updated>
-    <summary type="text">Large-scale generative models have demonstrated remarkable capabilities across image generation and editing tasks. However, their performance in low-level vision tasks, which require pixel-wise control, remains insufficiently studied. To address this gap, we introduce \textbf{LL-Bench}, a comprehensive \textbf{Benchmark} for evaluating the capabilities of large-scale generative models on \textbf{L</summary>
-    <author><name>Xiaoyun Zhang</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>MORPHOS: Autoregressive 4D Generation with Temporal Structured Latents</title>
-    <link href="https://arxiv.org/abs/2606.02491v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.02491v1</id>
-    <updated>2026-06-01T17:01:21Z</updated>
-    <summary type="text">We present MORPHOS, a novel autoregressive framework that generates dynamic 3D assets from videos across diverse representations, including meshes, 3D Gaussians, and radiance fields. Existing methods are typically limited to a single representation, struggle to model topological changes, or fail to maintain temporal consistency over long videos. To address these limitations, we introduce the Tempo</summary>
-    <author><name>Seungryong Kim</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>How can AI be used responsibly?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tv1ojn/how_can_ai_be_used_responsibly/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tv1ojn/how_can_ai_be_used_responsibly/</id>
-    <updated>2026-06-02T19:36:22Z</updated>
-    <summary type="text">(Cross post from r/antiai) I’ve been a member of this sub for a few months now, and while I absolutely agree with most of the points made here against AI, I do think some people take it to extremes. I don’t think there’s anything necessarily wrong with the technology itself, just moreso the way it’s being pushed and marketed. I think llms can absolutely have some useful applications, as long as th</summary>
-    <author><name>/u/sunbear99999</name></author>
   </entry>
 </feed>
