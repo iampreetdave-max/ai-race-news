@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-05T11:18:26Z</updated>
+  <updated>2026-06-06T09:53:24Z</updated>
   <entry>
     <title>Towards One-to-Many Temporal Grounding</title>
     <link href="https://arxiv.org/abs/2606.06294v1" rel="alternate"/>
@@ -21,6 +21,36 @@
     <updated>2026-06-04T14:01:01Z</updated>
     <summary type="text">Egocentric human video offers a scalable alternative to robot data for pretraining, yet models pretrained on such video consistently underperform those pretrained on robot data. We attribute this gap to a missing signal, the active perception behavior in egocentric videos, where humans continuously reposition their viewpoint during manipulation, inducing camera motion that standard pipelines treat</summary>
     <author><name>Yu-Gang Jiang</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Your transformer's attention entropy collapse isn't a bug. It's the model doing exactly what you trained it to do. Here's how to fix it with a three-line temperature schedule. arXiv-able. Self-contained proof. No citations needed.</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1ty2ayj/your_transformers_attention_entropy_collapse_isnt/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1ty2ayj/your_transformers_attention_entropy_collapse_isnt/</id>
+    <updated>2026-06-06T00:26:43Z</updated>
+    <summary type="text">Attentional Entropy Collapse: Not a Bug. The Model Doing Exactly What You Trained It To Do. The Problem You Know You've seen it. Deep layers in large transformers. Attention distributions go sharp — nearly one-hot. Entropy plummets. The model stops considering alternatives. It becomes brittle on out-of-distribution inputs but appears highly confident. You call it &quot;overfitting&quot; or &quot;mode collapse.&quot; </summary>
+    <author><name>/u/MIXEDGREENS</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Gemma 4 QAT benchmark results (AMD 7900 XTX): faster, less VRAM, no quality loss</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txxd7c/gemma_4_qat_benchmark_results_amd_7900_xtx_faster/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txxd7c/gemma_4_qat_benchmark_results_amd_7900_xtx_faster/</id>
+    <updated>2026-06-05T21:01:19Z</updated>
+    <summary type="text">I’ve been doing lots of testing back and forth with this 7900xtx. All of my workloads were relying on qwen3.6 models, which are amazing fwiw, but I wanted some diversity in thought. Namely for Honcho workload tiers and differing cron jobs. Not every workload benefits from an agentic-tuned model, so I’ve been testing out Gemma 4 models more. They also dropped quantization-aware training versions of</summary>
+    <author><name>/u/IvGranite</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>dots.tts 2B🎙️ SOTA TTS from RedNote</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txwbge/dotstts_2b_sota_tts_from_rednote/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txwbge/dotstts_2b_sota_tts_from_rednote/</id>
+    <updated>2026-06-05T20:21:33Z</updated>
+    <summary type="text">🔗 Blog: https://rednote-hilab.github.io/dots.tts-demo/ 🔗 GitHub: https://github.com/rednote-hilab/dots.tts 🔗 Technical Report: https://arxiv.org/abs/2608.16894 dots.tts 🎙️ New open-source TTS from RedNote (Xiaohongshu) ✨ 2B parameters (Apache 2.0) ✨ Fully continuous architecture (no codec tokens) ✨ 48 kHz synthesis ✨ Zero-shot voice cloning ✨ Direct text → speech (no phoneme pipeline) submitted by</summary>
+    <author><name>/u/KokaOP</name></author>
+    <category term="open-source"/>
     <category term="research"/>
   </entry>
   <entry>
@@ -125,42 +155,5 @@
     <summary type="text">Triomics, an oncology AI company, has raised $22 million in Series B financing led by Battery Ventures, bringing total funding to more than $36 million Existing investors Nexus Venture Partners, Lightspeed, and Y Combinator joined the round, alongside strategic capital from Oncology Ventures and Precision Health Informatics, a wholly-owned subsidiary of Texas Oncology The platform is live at Memor</summary>
     <author><name>Ishan Pandey</name></author>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>With reviewers cracking down on LLM text, does anyone use professional paper writer services to polish drafts?</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1twqzf8/with_reviewers_cracking_down_on_llm_text_does/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1twqzf8/with_reviewers_cracking_down_on_llm_text_does/</id>
-    <updated>2026-06-04T15:28:12Z</updated>
-    <summary type="text">I've noticed that arXiv and major ML conferences are getting incredibly strict about AI-generated phrasing. Even if the core research and math are entirely yours, standard AI detectors often flag non-native English text. I'm seriously considering hiring a professional paper writer to review and structure my next submission. Has anyone here found a reliable paper writer online who actually speciali</summary>
-    <author><name>/u/9FerroxenQ</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>KVarN: Variance-Normalized KV-Cache Quantization [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/</id>
-    <updated>2026-06-04T13:21:59Z</updated>
-    <summary type="text">Excited to share some of my own work here :) KVarN is our new KV-Cache quantization method. In very brief, we combine Hadamard rotations with variance-normalization on both axes of the K and V matrices, then round to nearest. Simple, but works very well, especially for decode-heavy test-time-scaling settings (reasoning, code-gen, agentics). We get 3-4x compression at virtually no accuracy drop (mo</summary>
-    <author><name>/u/intentionallyBlue</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>How Do You Handle Ablation Studies When the Original Model Is Already Trained?[R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/</id>
-    <updated>2026-06-04T11:07:27Z</updated>
-    <summary type="text">I'm running into an issue with an ablation study for a paper I'm preparing. I trained a model. The model achieved my best result, and I saved the trained checkpoint (.pth file). Now my supervisor wants me to perform an ablation study by removing components and how it impacts the accuracy. My concern is that if I retrain from scratch, the accuracies will not exactly match the original run due to ra</summary>
-    <author><name>/u/Plane_Stick8394</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>D-Flash - Lossless Speculative Decoding Layer</title>
-    <link href="https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/" rel="alternate"/>
-    <id>https://www.reddit.com/r/deeplearning/comments/1twcy45/dflash_lossless_speculative_decoding_layer/</id>
-    <updated>2026-06-04T04:21:09Z</updated>
-    <summary type="text">Found this interesting paper - [DFlash - Lossless Speculative Decoding](https://arxiv.org/abs/2602.06036https://arxiv.org/abs/2602.06036) Achieves upto 6x speedups in the latency for processing decode layers, They create distilled draft models to predict tokens in bulk, so that decode layers process them quickly as opposed to generating tokens one by one submitted by /u/Achuth_noob [link] [comment</summary>
-    <author><name>/u/Achuth_noob</name></author>
-    <category term="research"/>
   </entry>
 </feed>
