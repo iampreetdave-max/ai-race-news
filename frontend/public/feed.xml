@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-06T20:13:35Z</updated>
+  <updated>2026-06-06T22:07:36Z</updated>
+  <entry>
+    <title>OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks</title>
+    <link href="https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/</id>
+    <updated>2026-06-06T20:32:24Z</updated>
+    <summary type="text">Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.</summary>
+    <author><name>Anthony Ha</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Sakana AI bets AI that improves itself can break the compute arms race of frontier labs</title>
     <link href="https://the-decoder.com/sakana-ai-bets-ai-that-improves-itself-can-break-the-compute-arms-race-of-frontier-labs/" rel="alternate"/>
@@ -140,6 +150,64 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>We built a coding harness that beats frontier models using open ones. It's in open beta.</title>
+    <link href="https://dev.to/jon_at_backboardio/we-built-a-coding-harness-that-beats-frontier-models-using-open-ones-its-in-open-beta-15g3" rel="alternate"/>
+    <id>https://dev.to/jon_at_backboardio/we-built-a-coding-harness-that-beats-frontier-models-using-open-ones-its-in-open-beta-15g3</id>
+    <updated>2026-06-06T21:42:46Z</updated>
+    <summary type="text">Here is the bet we made: build software memory-first, not model-first, and it will outperform. Everyone else is racing to wrap the next model. We did the opposite. We built the memory layer first, the routing first, tool-calling, now the recursive engine, then let the model be a swappable part. Today that bet has a name: Backboard Development Studio. It starts with the R-CLI, a coding harness now </summary>
+    <author><name>Jonathan Murray</name></author>
+  </entry>
+  <entry>
+    <title>5 micro-SaaS ideas devs are asking for on Reddit</title>
+    <link href="https://dev.to/notomarsol/5-micro-saas-ideas-devs-are-asking-for-on-reddit-5ce2" rel="alternate"/>
+    <id>https://dev.to/notomarsol/5-micro-saas-ideas-devs-are-asking-for-on-reddit-5ce2</id>
+    <updated>2026-06-06T21:41:32Z</updated>
+    <summary type="text">I have a side habit. When I run out of ideas for what to build next, I do not open Twitter or Product Hunt. I open Reddit. There are about thirty subs where the same complaint comes up every week. Someone describes a workflow they hate, asks if a tool exists, and a commenter says &quot;I wish, please tell me if you find one.&quot; That second comment is the cofounder you do not need to pay. Here are 5 I pul</summary>
+    <author><name>Omar Soliman</name></author>
+  </entry>
+  <entry>
+    <title>DuckDB 1.5.3 &amp; Quack Protocol Release; PostgreSQL File Descriptor Tuning</title>
+    <link href="https://dev.to/soytuber/duckdb-153-quack-protocol-release-postgresql-file-descriptor-tuning-2jhj" rel="alternate"/>
+    <id>https://dev.to/soytuber/duckdb-153-quack-protocol-release-postgresql-file-descriptor-tuning-2jhj</id>
+    <updated>2026-06-06T21:35:21Z</updated>
+    <summary type="text">DuckDB 1.5.3 &amp; Quack Protocol Release; PostgreSQL File Descriptor Tuning Today's Highlights This week's database news highlights significant advancements for DuckDB, including a feature-packed 1.5.3 release and the innovative Quack client-server protocol. We also delve into a critical PostgreSQL performance tuning guide on managing file descriptors. DuckDB 1.5.3: Not an Ordinary Patch Release (Duc</summary>
+    <author><name>soy</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Scarab Diagnostic Suite Field Test #013: Kubernetes Watch Cache Critical-Section Boundary</title>
+    <link href="https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-013-kubernetes-watch-cache-critical-section-boundary-284o" rel="alternate"/>
+    <id>https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-013-kubernetes-watch-cache-critical-section-boundary-284o</id>
+    <updated>2026-06-06T21:24:37Z</updated>
+    <summary type="text">This field test was against Kubernetes. The issue was Kubernetes #138728: https://github.com/kubernetes/kubernetes/pull/139545 The issue involved the watch cache path around initial events. The useful diagnostic boundary was: watch cache consistency work → read lock hold time → initial event delivery That matters because cache paths in Kubernetes are not just storage details. They sit between stor</summary>
+    <author><name>Scarab Systems</name></author>
+  </entry>
+  <entry>
+    <title>From Monolith to Microservices: Why I Redesigned Finovara's Architecture - Finovara</title>
+    <link href="https://dev.to/m4rc1nek/from-monolith-to-microservices-why-i-redesigned-finovaras-architecture-finovara-18d3" rel="alternate"/>
+    <id>https://dev.to/m4rc1nek/from-monolith-to-microservices-why-i-redesigned-finovaras-architecture-finovara-18d3</id>
+    <updated>2026-06-06T21:23:26Z</updated>
+    <summary type="text">At some point, a monolith starts working against you. In my case, Finovara was a single Spring Boot application handling everything (authentication, transactions, limits, piggy banks, notifications, activity logs, currency conversion) The bigger it got, the harder it was to change anything without worrying about something else breaking. So I broke it apart. This post is about the first three piece</summary>
+    <author><name>Marcin Parśniak</name></author>
+  </entry>
+  <entry>
+    <title>From Native WordPress to Headless: The Real Engineering Decisions Behind a Production Migration</title>
+    <link href="https://dev.to/jwk19/from-native-wordpress-to-headless-the-real-engineering-decisions-behind-a-production-migration-2b1j" rel="alternate"/>
+    <id>https://dev.to/jwk19/from-native-wordpress-to-headless-the-real-engineering-decisions-behind-a-production-migration-2b1j</id>
+    <updated>2026-06-06T21:07:41Z</updated>
+    <summary type="text">Every headless WordPress conversation starts the same way — someone draws an architecture diagram with arrows pointing from a REST API to a shiny Next.js frontend, and it looks clean. Too clean. This is a post about what happens when you close the whiteboard and open the actual codebase. The Stack Decision: GraphQL vs. REST vs. Direct MySQL This is usually the first fork in the road. For this buil</summary>
+    <author><name>James Kahwai</name></author>
+  </entry>
+  <entry>
+    <title>10 prompt patterns I use every single day</title>
+    <link href="https://dev.to/eternalsix/10-prompt-patterns-i-use-every-single-day-3996" rel="alternate"/>
+    <id>https://dev.to/eternalsix/10-prompt-patterns-i-use-every-single-day-3996</id>
+    <updated>2026-06-06T21:02:14Z</updated>
+    <summary type="text">10 Prompt Patterns I Use Every Single Day Last Tuesday I spent 40 minutes arguing with Claude about a database schema before I realized I had never told it what I already tried. I described the problem, it gave me the same three suggestions I had already ruled out, I pushed back, it apologized and gave me variations of the same three suggestions. The entire session was garbage because I started fr</summary>
+    <author><name>eternalsix</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Building a LangGraph RAG Agent from Scratch — with a Live UI That Shows Every Step</title>
@@ -372,76 +440,5 @@
     <summary type="text">what it costs, what it gains and the three mistakes that I make The post My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax appeared first on Towards Data Science.</summary>
     <author><name>Samit Ganguly</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Rubrik CEO's Big AI Warning</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-05/rubrik-ceo-s-big-ai-warning-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-05/rubrik-ceo-s-big-ai-warning-video</id>
-    <updated>2026-06-05T19:11:18Z</updated>
-    <summary type="text">Rubrik CEO Bipul Sinha explains why AI is transforming cybersecurity, warns that AI agents bring &quot;100x more risk,&quot; and discusses how businesses must shift from preventing attacks to rapidly recovering from them. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Google will pay SpaceX $920M per month for compute</title>
-    <link href="https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</id>
-    <updated>2026-06-05T18:57:20Z</updated>
-    <summary type="text">In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.</summary>
-    <author><name>Sean O'Kane</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft trained its MAI models on unlicensed web data despite promising &quot;enterprise grade, clean and commercially licensed data&quot;</title>
-    <link href="https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/" rel="alternate"/>
-    <id>https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/</id>
-    <updated>2026-06-05T12:10:26Z</updated>
-    <summary type="text">Microsoft sells its LLM training approach as different from other AI companies. It isn't. The company trained its new MAI models partly on unlicensed web data like Common Crawl, despite claiming they used only &quot;clean and commercially licensed data.&quot; Like every other AI lab, Microsoft leans on fair use and puts the burden on site owners to block its crawlers. The article Microsoft trained its MAI m</summary>
-    <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>Tech Trade Under Pressure; Musk Sells His Vision of the Future | Bloomberg Tech 6/05/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-05/bloomberg-tech-6-05-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-05/bloomberg-tech-6-05-2026-video</id>
-    <updated>2026-06-05T18:14:30Z</updated>
-    <summary type="text">Bloomberg’s Ed Ludlow breaks down Elon Musk's vision of the future and how he enchanted investors even as he brushed aside questions about the SpaceX IPO at an investor event. Plus, he takes a look at May's hot jobs report even as tech stocks are under pressure with investors reassessing the path for interest rates. And, he recaps conversations with three of the biggest names in AI at the Bloomber</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Index Ventures' Achadjian on Backing Ex-SpaceX Workers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-05/index-ventures-achadjian-on-backing-ex-spacex-workers-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-05/index-ventures-achadjian-on-backing-ex-spacex-workers-video</id>
-    <updated>2026-06-05T18:10:06Z</updated>
-    <summary type="text">Software has dominated venture capital for years, but as AI moves beyond the digital world and into manufacturing, robotics, and industrial systems, investors are betting the next trillion-dollar opportunities wraps software into the physical world. Nina Achadjian, partner at Index Ventures, an early backer of companies including Anthropic, Physical Intelligence, and ServiceTitan, discusses the ne</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Orbital Data Centers Face Space-Based Challenges</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-05/orbital-data-centers-face-space-based-challenges-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-05/orbital-data-centers-face-space-based-challenges-video</id>
-    <updated>2026-06-05T18:08:02Z</updated>
-    <summary type="text">Philip Johnston, Starcloud CEO, joins to discuss the challenges of building and maintaining orbital data centers in space, this as SpaceX says it wants to ultimately deploy 100 gigawatts of AI compute capacity in orbit. He joins Ed Ludlow on &quot;Bloomberg Tech.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How C3 AI agents will automate predictive maintenance for Shell</title>
-    <link href="https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/</id>
-    <updated>2026-06-05T11:34:09Z</updated>
-    <summary type="text">Shell will use agents from C3 AI to shift from basic anomaly detection towards fully-automated predictive maintenance. The global energy giant is building on their current use of the C3 AI Reliability Suite, which already keeps tabs on more than 30,000 crucial pieces of equipment across upstream and downstream operations. Shell now intends to lean […] The post How C3 AI agents will automate predic</summary>
-    <author><name>Ryan Daws</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AI Not Holding Back Companies From Hiring: Yale Budget Lab</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-05/ai-not-holding-back-companies-hiring-yale-budget-lab-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-05/ai-not-holding-back-companies-hiring-yale-budget-lab-video</id>
-    <updated>2026-06-05T17:52:47Z</updated>
-    <summary type="text">The May jobs report came in stronger than expected, but tech stocks are under pressure as investors reassess the path for interest rates. Martha Gimbel, executive director of the Yale Budget Lab, sees no major AI impact in economic data. She joins Ed Ludlow on &quot;Bloomberg Tech.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
   </entry>
 </feed>
