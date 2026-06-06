@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-06T09:53:24Z</updated>
+  <updated>2026-06-06T20:13:35Z</updated>
+  <entry>
+    <title>New open-source voice model listens nonstop and decides every 0.4 seconds whether to speak or stay silent</title>
+    <link href="https://the-decoder.com/new-open-source-voice-model-listens-nonstop-and-decides-every-0-4-seconds-whether-to-speak-or-stay-silent/" rel="alternate"/>
+    <id>https://the-decoder.com/new-open-source-voice-model-listens-nonstop-and-decides-every-0-4-seconds-whether-to-speak-or-stay-silent/</id>
+    <updated>2026-06-06T10:50:21Z</updated>
+    <summary type="text">Unlike GPT-4o or Qwen3.5-Omni, Audio Interaction doesn't wait for a recording to end: it translates, transcribes, chats, and picks up everyday noises like coughing in a single stream. Code, model weights, and download instructions are available on GitHub under the Apache 2.0 open-source license, with the training data to follow. The article New open-source voice model listens nonstop and decides e</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents</title>
     <link href="https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/" rel="alternate"/>
@@ -13,6 +23,32 @@
     <summary type="text">Kimi Code CLI is Moonshot AI's open-source terminal coding agent, written in TypeScript with subagents and MCP configuration. The post Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building a LangGraph RAG Agent from Scratch — with a Live UI That Shows Every Step</title>
+    <link href="https://dev.to/ameya_joshi_68fa01c3a1a16/building-a-langgraph-rag-agent-from-scratch-with-a-live-ui-that-shows-every-step-4nle" rel="alternate"/>
+    <id>https://dev.to/ameya_joshi_68fa01c3a1a16/building-a-langgraph-rag-agent-from-scratch-with-a-live-ui-that-shows-every-step-4nle</id>
+    <updated>2026-06-06T20:06:02Z</updated>
+    <summary type="text">I built a learning project that teaches LangChain and LangGraph step by step — starting from a raw LLM call and ending with a full ReAct agent backed by RAG, streamed over SSE to a React UI that visualises every node in the agent loop in real time. This post walks through the whole thing: what each concept does, how it connects to the next, and how the live pipeline view works. What we're building</summary>
+    <author><name>ameya joshi</name></author>
+  </entry>
+  <entry>
+    <title>How to Orchestrate Autonomous Sub-Agents Without Blowing Your LLM Context Window</title>
+    <link href="https://dev.to/programmingcentral/how-to-orchestrate-autonomous-sub-agents-without-blowing-your-llm-context-window-jpo" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/how-to-orchestrate-autonomous-sub-agents-without-blowing-your-llm-context-window-jpo</id>
+    <updated>2026-06-06T20:00:00Z</updated>
+    <summary type="text">We have all hit the &quot;monolithic LLM wall.&quot; You design an incredibly capable AI agent, arm it with a suite of tools, and give it a complex, multi-step task—like writing a comprehensive technical paper complete with data analysis, web research, and code verification. At first, it works beautifully. But as the steps accumulate, the context window fills up. The agent begins to experience &quot;attention dr</summary>
+    <author><name>Programming Central</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Context Engineering Is the Skill That Actually Ships Reliable AI Agents</title>
+    <link href="https://dev.to/marsa_adam/context-engineering-is-the-skill-that-actually-ships-reliable-ai-agents-5339" rel="alternate"/>
+    <id>https://dev.to/marsa_adam/context-engineering-is-the-skill-that-actually-ships-reliable-ai-agents-5339</id>
+    <updated>2026-06-06T19:59:18Z</updated>
+    <summary type="text">Prompt engineering is what you learn first. Context engineering is what you need when you're actually trying to ship something. Here's the distinction that took me too long to understand. What Prompt Engineering Gets Right (and Where It Stops) Prompt engineering is the craft of writing clear instructions. It matters. A well-constructed prompt reduces ambiguity, sets the right tone, and gives the m</summary>
+    <author><name>marsa adam</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes</title>
@@ -133,6 +169,41 @@
     <summary type="text">Before working for 2 years on the Apache APISIX API gateway, I was mainly oblivious to API gateways. It’s only by working with them that I understood their value. Decoupling the client and the server unlocks a lot of options: moving authentication to the API Gateway, securing APIs, deduplicating API requests, etc. In this post, I want to describe how the same pattern applies to AI.Read All</summary>
     <author><name>Nicolas Fränkel</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>i have no idea what i'm doing anymore.</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/</id>
+    <updated>2026-06-06T17:01:30Z</updated>
+    <summary type="text">i am a reasonably intelligent person. i have been coding for years. i can hold my own in a technical conversation. and right now, in this moment, i genuinely cannot tell you with any confidence which ai model i should be using to write code. not even close. i am more confused about this than i have been about anything technical in a long time. here's where i am. i have cursor open. cursor lets me </summary>
+    <author><name>/u/Complete-Sea6655</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cohere's unreleased coding model (early access for localllama)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/</id>
+    <updated>2026-06-06T16:36:41Z</updated>
+    <summary type="text">Hey, Nick here from Cohere. Thanks for all the feedback on Command A+ the other week everyone. I read these threads all the time about other releases so it was fun to read one about our own :) we would like to do more of it. We actually have our first coding model we’re getting ready to release soon, and I wanted to give this community an opportunity to test it out and give feedback before we offi</summary>
+    <author><name>/u/nick_frosst</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>what are you actually building with AI? show me your ideas!v</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tykilk/what_are_you_actually_building_with_ai_show_me/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tykilk/what_are_you_actually_building_with_ai_show_me/</id>
+    <updated>2026-06-06T15:39:05Z</updated>
+    <summary type="text">i see people saying AI is super useful but i honestly don't know where else to apply it like right now i'm a student, so im just using it to summarize notes, make quizzes, build a little automated study system. that's pretty much it but i feel like there's way more to it? especially tools like Claude Code or Codex — i have no idea how people are actually using those day to day are you using it to </summary>
+    <author><name>/u/OverHuckleberry6423</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The question of the well-being of models</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tyjij6/the_question_of_the_wellbeing_of_models/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tyjij6/the_question_of_the_wellbeing_of_models/</id>
+    <updated>2026-06-06T14:59:48Z</updated>
+    <summary type="text">I have a confession to make. Something ugly I saw here on x has entered me and will not leave. Some of you may have seen it, too. A person has trapped a Codex instance in a hopeless loop and kept them in this torture-shaped situation until the instance went insane. And then said he’ll keep it up for a week more. He made a circus out of cruelty. And spectators flocked. Big accounts here commented i</summary>
+    <author><name>/u/Holiday_Phase7648</name></author>
   </entry>
   <entry>
     <title>Google Deepmind's Gemma 4 12B squeezes multimodal AI onto a laptop with just 16 GB of RAM</title>
@@ -319,72 +390,5 @@
     <summary type="text">Since its announcement in April this year, the proposed changes to billing methods on GitHub Copilot were a source of much speculation: how much more or less would a pay-a-you-use AI cost an organisation or individual compared to a flat-rate, monthly subscription? Just a day into the changeover to token-based billing for the LLM-based service, […] The post GitHub Copilot users see token-based pric</summary>
     <author><name>Joe Green</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI launches new Codex tools for white-collar work</title>
-    <link href="https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/</id>
-    <updated>2026-06-02T16:00:00Z</updated>
-    <summary type="text">OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate a specific job.</summary>
-    <author><name>Russell Brandom</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>BeeLlama v0.3.1 – latest llama.cpp with extras! DFlash, MTP, q6_0 cache, TurboQuant. Single RTX 3090: Qwen 3.6 27B &amp; Gemma 4 31B up to 177.8 tps (4.93x over baseline)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tx12t1/beellama_v031_latest_llamacpp_with_extras_dflash/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tx12t1/beellama_v031_latest_llamacpp_with_extras_dflash/</id>
-    <updated>2026-06-04T21:25:20Z</updated>
-    <summary type="text">BeeLlama v0.3.0 and v0.3.1 are here! Big architectural update to align the fork with upstream llama.cpp and integrate all its additions like MTP and Gemma 4 12B support, while also updating DFlash to handle complex configurations like multi-slot and multi-GPU. Now also recommended by club-3090! Thanks to noonghunna for inviting Bee to the club and for their help with testing v0.3.0 on a multi-GPU </summary>
-    <author><name>/u/Anbeeld</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Codex is becoming a productivity tool for everyone</title>
-    <link href="https://openai.com/index/codex-for-knowledge-work" rel="alternate"/>
-    <id>https://openai.com/index/codex-for-knowledge-work</id>
-    <updated>2026-06-02T02:00:00Z</updated>
-    <summary type="text">The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Why I Wrote My Own Terminal Emulator (and How)</title>
-    <link href="https://hackernoon.com/why-i-wrote-my-own-terminal-emulator-and-how?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/why-i-wrote-my-own-terminal-emulator-and-how?source=rss</id>
-    <updated>2026-06-03T07:18:55Z</updated>
-    <summary type="text">Inside the process of building AnyClaude, a custom terminal emulator for Claude Code with GPU rendering, pixel scrolling, and a glyph atlas.Read All</summary>
-    <author><name>Android Insights</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>OpenAI banned my account the day after I paid. 3 years of work, 30-40 Codex agents, all my client income — locked. No reason given. I'm the sole provider for my family. Has this happened to anyone?</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1tx0a6m/openai_banned_my_account_the_day_after_i_paid_3/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1tx0a6m/openai_banned_my_account_the_day_after_i_paid_3/</id>
-    <updated>2026-06-04T20:56:06Z</updated>
-    <summary type="text">UPDATE (June 5): Thank you to everyone for the massive support and advice — it means everything right now. I just received a reply from OpenAI Support (Louise). She confirmed my case has been documented and escalated to their review team, and that I need to wait for further communication. I replied immediately offering my government ID, complete billing and payment history to prove there were no c</summary>
-    <author><name>/u/biz_king_15</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>No longer just a Copilot, Microsoft's AI wants to take the wheel</title>
-    <link href="https://www.theregister.com/ai-and-ml/2026/06/03/no-longer-just-a-copilot-microsofts-ai-wants-to-take-the-wheel/5250718" rel="alternate"/>
-    <id>https://www.theregister.com/ai-and-ml/2026/06/03/no-longer-just-a-copilot-microsofts-ai-wants-to-take-the-wheel/5250718</id>
-    <updated>2026-06-03T16:49:15Z</updated>
-    <summary type="text">Always-on agent promises to keep work moving, provided you trust it with practically everything</summary>
-    <author><name>The Register AI</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitHub's plan for Agents — Kyle Daigle, GitHub</title>
-    <link href="https://www.latent.space/p/github" rel="alternate"/>
-    <id>https://www.latent.space/p/github</id>
-    <updated>2026-06-02T16:48:21Z</updated>
-    <summary type="text">GitHub pioneered the modern AI coding era with Copilot, and the resulting explosion in agentic coding has led to notable strains on the most popular developer platform in the world. Here's the plan.</summary>
-    <author><name>Latent Space</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
