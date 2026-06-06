@@ -15,6 +15,7 @@ export default function NewsFeed({ audience }: NewsFeedProps) {
   const [loading, setLoading] = useState(true)
   const [offset, setOffset] = useState(0)
   const [selectedTag, setSelectedTag] = useState<string | null>(null)
+  const [error, setError] = useState<string | null>(null)
   const limit = 30
 
   useEffect(() => {
@@ -23,10 +24,15 @@ export default function NewsFeed({ audience }: NewsFeedProps) {
 
   async function loadArticles(newOffset: number) {
     setLoading(true)
+    setError(null)
     try {
       const data = audience
         ? await fetchAudienceFeed(audience, limit, newOffset)
         : await fetchArticles({ limit, offset: newOffset })
+
+      if (data.error) {
+        setError(data.error)
+      }
 
       if (newOffset === 0) {
         setArticles(data.articles)
@@ -37,6 +43,7 @@ export default function NewsFeed({ audience }: NewsFeedProps) {
       setOffset(newOffset)
     } catch (err) {
       console.error('Failed to load articles:', err)
+      setError(err instanceof Error ? err.message : 'Failed to load articles')
     } finally {
       setLoading(false)
     }
@@ -120,7 +127,21 @@ export default function NewsFeed({ audience }: NewsFeedProps) {
         </div>
       )}
 
-      {!loading && filteredArticles.length === 0 && (
+      {!loading && error && articles.length === 0 && (
+        <div className="text-center py-16">
+          <p className="font-mono text-sm text-text-muted mb-4">
+            Couldn&apos;t load articles. Please try again.
+          </p>
+          <button
+            onClick={() => loadArticles(0)}
+            className="px-5 py-2 text-sm font-mono font-medium text-text-muted hover:text-text-primary border border-border hover:border-border-hover rounded-lg transition-all hover:bg-surface-2"
+          >
+            Retry
+          </button>
+        </div>
+      )}
+
+      {!loading && !error && filteredArticles.length === 0 && (
         <div className="text-center py-16">
           <p className="font-mono text-sm text-text-muted">
             {selectedTag
