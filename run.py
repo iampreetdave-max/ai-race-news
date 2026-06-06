@@ -129,6 +129,24 @@ def main():
             f"{stats['sources_processed']} successful"
         )
 
+        # Outage guardrail: fail the process (and therefore the CI job) when
+        # too few sources succeed, so a total/near-total ingestion outage is
+        # surfaced as a red run instead of a silent green no-op that lets the
+        # export step overwrite good committed JSON with thin data.
+        # Keyed on SOURCE SUCCESS, not articles_inserted (0 inserts is normal
+        # on duplicate-heavy quiet days and must not trip a false failure).
+        min_sources_ok = int(os.getenv("MIN_SOURCES_OK", "3"))
+        sources_ok = stats.get("sources_successful", 0)
+        if sources_ok < min_sources_ok:
+            print(
+                f"\nERROR: ingestion outage guardrail tripped — only "
+                f"{sources_ok} source(s) succeeded (need at least "
+                f"{min_sources_ok}). Exiting non-zero so this run fails "
+                f"instead of overwriting good data.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
