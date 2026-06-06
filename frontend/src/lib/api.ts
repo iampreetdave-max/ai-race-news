@@ -3,16 +3,26 @@ import { ArticleListResponse, StatsResponse } from './types'
 const API_URL = process.env.NEXT_PUBLIC_API_URL || ''
 const IS_STATIC = !API_URL
 
+function assertJson(res: Response): void {
+  const contentType = res.headers.get('content-type')
+  if (!contentType || !contentType.includes('application/json')) {
+    throw new Error(`Expected JSON, got ${contentType || 'unknown content-type'}`)
+  }
+}
+
 export async function fetchArticles(params?: {
   audience?: string
   tags?: string
   limit?: number
   offset?: number
 }): Promise<ArticleListResponse> {
+  const limit = params?.limit || 30
+  const offset = params?.offset || 0
   try {
     if (IS_STATIC) {
       const res = await fetch('/data/articles.json')
       if (!res.ok) throw new Error('Failed to load articles.json')
+      assertJson(res)
       const data: ArticleListResponse = await res.json()
 
       let articles = data.articles
@@ -25,8 +35,6 @@ export async function fetchArticles(params?: {
         articles = articles.filter((a) => a.tags.some((t) => tagList.includes(t)))
       }
 
-      const offset = params?.offset || 0
-      const limit = params?.limit || 30
       const sliced = articles.slice(offset, offset + limit)
 
       return { articles: sliced, total: articles.length, limit, offset }
@@ -43,7 +51,13 @@ export async function fetchArticles(params?: {
     }
   } catch (error) {
     console.error('Failed to fetch articles:', error)
-    return { articles: [], total: 0, limit: 30, offset: 0 }
+    return {
+      articles: [],
+      total: 0,
+      limit,
+      offset,
+      error: error instanceof Error ? error.message : 'fetch failed',
+    }
   }
 }
 
@@ -56,6 +70,7 @@ export async function fetchAudienceFeed(
     if (IS_STATIC) {
       const res = await fetch(`/data/feed-${audience}.json`)
       if (!res.ok) throw new Error(`Failed to load feed-${audience}.json`)
+      assertJson(res)
       const data: ArticleListResponse = await res.json()
       const sliced = data.articles.slice(offset, offset + limit)
       return { articles: sliced, total: data.articles.length, limit, offset }
@@ -66,7 +81,13 @@ export async function fetchAudienceFeed(
     }
   } catch (error) {
     console.error(`Failed to fetch ${audience} feed:`, error)
-    return { articles: [], total: 0, limit, offset }
+    return {
+      articles: [],
+      total: 0,
+      limit,
+      offset,
+      error: error instanceof Error ? error.message : 'fetch failed',
+    }
   }
 }
 
