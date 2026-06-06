@@ -20,6 +20,9 @@ export interface ArticleListResponse {
   total: number
   limit: number
   offset: number
+  // Set when the fetch/parse failed; lets the UI distinguish a real
+  // empty feed from a load error. Optional so existing callers are unaffected.
+  error?: string
 }
 
 export interface StatsResponse {
