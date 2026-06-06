@@ -2,7 +2,9 @@ name: Scrape AI News
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    # Hourly. GitHub Actions cron is best-effort with ~5 min granularity;
+    # hourly is the runner-safe cadence. workflow_dispatch kept for manual runs.
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - uses: actions/checkout@v4
@@ -23,10 +26,10 @@ jobs:
         run: pip install feedparser beautifulsoup4 requests lxml python-dateutil
 
       - name: Restore DB cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/ai_pulse.db
-          key: scraper-db-${{ github.run_id }}
+          key: scraper-db
           restore-keys: |
             scraper-db-
 
@@ -37,9 +40,27 @@ jobs:
         run: python run.py
 
       - name: Export to JSON
+        if: success()
         run: python scraper/export_json.py
 
+      - name: Save DB cache
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: data/ai_pulse.db
+          key: scraper-db-${{ github.run_id }}
+
+      - name: Upload DB artifact (durable backstop)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-pulse-db
+          path: data/ai_pulse.db
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Commit and push data
+        if: success()
         run: |
           git config user.name "AI Race Bot"
           git config user.email "bot@airace.news"
@@ -47,3 +68,25 @@ jobs:
           git add frontend/public/feed.xml frontend/public/feed-*.xml frontend/public/sitemap.xml 2>/dev/null || true
           git diff --staged --quiet || git commit -m "data: update news $(date -u +%Y-%m-%dT%H:%M)"
           git push
+
+      - name: Trigger Cloudflare Pages redeploy
+        if: success()
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/${{ secrets.CLOUDFLARE_PROJECT_NAME }}/deployments" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"source":{"type":"github"}}'
+
+      - name: Alert on scrape failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Scrape run failed (outage guardrail)"
+          BODY="The scheduled scrape workflow failed on run ${{ github.run_id }}. This usually means a total/partial source ingestion outage tripped the run.py guardrail, or a step errored. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          EXISTING=$(gh issue list --state open --search "in:title Scrape run failed (outage guardrail)" --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
