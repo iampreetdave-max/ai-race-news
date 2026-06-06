@@ -2,6 +2,15 @@
   command = "npm run build"
   publish = "out"
 
+# Serve data JSON (and feeds/sitemap) directly. This rule precedes the SPA
+# catch-all below so first-match wins and these requests are never rewritten
+# to index.html.
+[[redirects]]
+  from = "/data/*"
+  to = "/data/:splat"
+  status = 200
+  force = false
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
