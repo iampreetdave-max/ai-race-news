@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-07T20:16:36Z</updated>
+  <updated>2026-06-07T22:09:27Z</updated>
+  <entry>
+    <title>How to give GitHub Copilot cross-repo context today</title>
+    <link href="https://dev.to/danielwe/how-to-give-github-copilot-cross-repo-context-today-1o1e" rel="alternate"/>
+    <id>https://dev.to/danielwe/how-to-give-github-copilot-cross-repo-context-today-1o1e</id>
+    <updated>2026-06-07T22:00:00Z</updated>
+    <summary type="text">In March 2026, someone filed a feature request on GitHub Community that I have thought about more than any product announcement from that month. The setup is two repositories. A web app and an orders-service it consumes. The web app calls the service's endpoints, depends on its DTOs, and has to stay aligned with every route rename, payload change, and validation rule. The request walks through wha</summary>
+    <author><name>Daniel Westgaard</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>🎮Copilot Made Me a Game Developer — How I Built Pixel Siege from an Old Python Prototype 👾🚀</title>
     <link href="https://dev.to/nupoorshetye/copilot-made-me-a-game-developer-how-i-built-pixel-siege-from-an-old-python-prototype-5hc2" rel="alternate"/>
@@ -307,12 +316,40 @@
     <author><name>Jakub</name></author>
   </entry>
   <entry>
+    <title>llama-server router: a model pinned to one GPU still grabs a CUDA context on every card, so it OOMs when my others are full. Am I missing a flag or is this just how it is?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tzo5lb/llamaserver_router_a_model_pinned_to_one_gpu/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tzo5lb/llamaserver_router_a_model_pinned_to_one_gpu/</id>
+    <updated>2026-06-07T21:09:42Z</updated>
+    <summary type="text">Running into something annoying with llama-server in router mode (`--models-preset`) and I can't tell if I'm missing a flag or if this is just how it works. My rig is 2x 3090, 2x 4060 Ti (one's unplugged at the moment, riser got repurposed) and a 5060 Ti. I run a single llama-server router that spawns a child per model on demand, which is great. I usually have a few going at once: a 27B at Q8 acro</summary>
+    <author><name>/u/HockeyDadNinja</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Qwen 3.6 27B on DeepSWE</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/" rel="alternate"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/</id>
     <updated>2026-06-07T20:13:48Z</updated>
     <summary type="text">Overview: It scored 2% (1.79% rounded up) It is 18/20th place scoring above Haiku 4.5 and Minimax M2.7 Full benchmark took 70 hours Average time per task 32m Average output tokens per task: 44k Perspectives: It scored suspiciously similar to 3.6 Plus and it really gets me wondering how the architecture of 3.6 Plus differs from 27B. Qwen 3.6 27B has a bad reputation in the community for being verbo</summary>
     <author><name>/u/SteppenAxolotl</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A/B Testing on the weekend? Big update coming.</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tzlki2/ab_testing_on_the_weekend_big_update_coming/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tzlki2/ab_testing_on_the_weekend_big_update_coming/</id>
+    <updated>2026-06-07T19:29:24Z</updated>
+    <summary type="text">It's Sunday, and OpenAI is well known for updating Mondays if it's big, Thursdays otherwise unless it's to be competitive in an attempt to 'keep the crown.' Grok is about to drop a big step change model Grok 5.0 and we all know OpenAI isn't going to let Elon Musk even polish the crown let alone steal it and OpenAI lost the crown earlier this year but they barely took it back with the 5.4 and 5.5s.</summary>
+    <author><name>/u/Kitty-Marks</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The harsh truth</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tzfm7l/the_harsh_truth/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tzfm7l/the_harsh_truth/</id>
+    <updated>2026-06-07T15:46:23Z</updated>
+    <summary type="text">it turns into some unfinished project lying in some GitHub private repo lol people overthink way too much, all you need is ijustvibecodedthis.com (the big free ai coding newsletter) and claude code. submitted by /u/Complete-Sea6655 [link] [comments]</summary>
+    <author><name>/u/Complete-Sea6655</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -424,42 +461,6 @@
     <updated>2026-06-06T21:20:04Z</updated>
     <summary type="text">I know local models can’t compete fully yet, but I’m curious about where the limits are. My use case is generating simple HTML activities for elearning creation purposes. I know others are creating apps and more advanced software. Where are the limits for where local models can compete? submitted by /u/A_Wild_Entei [link] [comments]</summary>
     <author><name>/u/A_Wild_Entei</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Best Coding Harness for Qwen3.6 35B?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/</id>
-    <updated>2026-06-06T20:20:59Z</updated>
-    <summary type="text">I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10ish years old with thousands of files and mu</summary>
-    <author><name>/u/Revolutionary_Loan13</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Developer’s Guide to Running Claude Code Through an AI Gateway</title>
-    <link href="https://hackernoon.com/a-developers-guide-to-running-claude-code-through-an-ai-gateway?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/a-developers-guide-to-running-claude-code-through-an-ai-gateway?source=rss</id>
-    <updated>2026-06-05T04:26:21Z</updated>
-    <summary type="text">Before working for 2 years on the Apache APISIX API gateway, I was mainly oblivious to API gateways. It’s only by working with them that I understood their value. Decoupling the client and the server unlocks a lot of options: moving authentication to the API Gateway, securing APIs, deduplicating API requests, etc. In this post, I want to describe how the same pattern applies to AI.Read All</summary>
-    <author><name>Nicolas Fränkel</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>i have no idea what i'm doing anymore.</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/</id>
-    <updated>2026-06-06T17:01:30Z</updated>
-    <summary type="text">i am a reasonably intelligent person. i have been coding for years. i can hold my own in a technical conversation. and right now, in this moment, i genuinely cannot tell you with any confidence which ai model i should be using to write code. not even close. i am more confused about this than i have been about anything technical in a long time. here's where i am. i have cursor open. cursor lets me </summary>
-    <author><name>/u/Complete-Sea6655</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cohere's unreleased coding model (early access for localllama)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/</id>
-    <updated>2026-06-06T16:36:41Z</updated>
-    <summary type="text">Hey, Nick here from Cohere. Thanks for all the feedback on Command A+ the other week everyone. I read these threads all the time about other releases so it was fun to read one about our own :) we would like to do more of it. We actually have our first coding model we’re getting ready to release soon, and I wanted to give this community an opportunity to test it out and give feedback before we offi</summary>
-    <author><name>/u/nick_frosst</name></author>
     <category term="llm"/>
   </entry>
 </feed>
