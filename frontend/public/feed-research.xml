@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-07T00:09:19Z</updated>
+  <updated>2026-06-07T05:26:13Z</updated>
+  <entry>
+    <title>Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/</id>
+    <updated>2026-06-07T00:49:07Z</updated>
+    <summary type="text">Edited - After digging into this some more and reviewing unsloth post for better understanding, the divergence APPEARS to stem from I did not use the BF16 QAT model as the &quot;reference&quot; model.... The QAT vs standard Q4 comparison in our benchmark is not apples-to-apples. The QAT models were evaluated against a reference they were never optimised toward. The standard Q4_0 and Q4_K_M comparison is val</summary>
+    <author><name>/u/bitslizer</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Z.ai, we need Air! GLM GGUF wen?</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyresc/zai_we_need_air_glm_gguf_wen/" rel="alternate"/>
@@ -149,42 +158,5 @@
     <author><name>Chen Qian</name></author>
     <category term="research"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Multi-Camera AR Guidance System for Surgical Instrument Handling and Assembly: Investigating Workload and Efficiency</title>
-    <link href="https://arxiv.org/abs/2606.04992v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.04992v1</id>
-    <updated>2026-06-03T15:13:05Z</updated>
-    <summary type="text">The handling and assembly of instruments during surgery imposes high cognitive demands on scrub nurses, particularly when instruments are unfamiliar. We present a supporting guidance system for surgical instrumentation that combines multi-camera 6D pose estimation with augmented reality in-situ visualization on a head-mounted display without the requirement for additional markers. Pose estimation </summary>
-    <author><name>Daniel Roth</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Food-R1: A Unified Multi-Task Food Vision-Language Model with Reinforcement Learning</title>
-    <link href="https://arxiv.org/abs/2606.04986v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.04986v1</id>
-    <updated>2026-06-03T15:07:12Z</updated>
-    <summary type="text">Recent studies have explored Vision-Language Models (VLMs) for food analysis. However, most existing methods rely primarily on supervised fine-tuning (SFT), which often limits reasoning and generalization capabilities. Moreover, high-quality large-scale nutritional annotations remain scarce. To address these issues, we introduce CalorieBench-80K, a large-scale benchmark with curated calorie labels</summary>
-    <author><name>Xinggang Wang</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scene-Centric Unsupervised Video Panoptic Segmentation</title>
-    <link href="https://arxiv.org/abs/2606.04925v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.04925v1</id>
-    <updated>2026-06-03T14:19:55Z</updated>
-    <summary type="text">Video panoptic segmentation (VPS) aims to jointly detect, segment, and track all objects while partitioning the video into semantically consistent regions. We introduce the task setting of unsupervised VPS, omitting any human supervision. Existing unsupervised scene understanding works mainly focused on image segmentation tasks; the video domain remains underexplored. We propose VideoCUPS, the fir</summary>
-    <author><name>Stefan Roth</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Triomics Raises $22M to Scale Oncology AI for Early Cancer Detection and Treatment</title>
-    <link href="https://hackernoon.com/triomics-raises-$22m-to-scale-oncology-ai-for-early-cancer-detection-and-treatment?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/triomics-raises-$22m-to-scale-oncology-ai-for-early-cancer-detection-and-treatment?source=rss</id>
-    <updated>2026-06-03T13:41:40Z</updated>
-    <summary type="text">Triomics, an oncology AI company, has raised $22 million in Series B financing led by Battery Ventures, bringing total funding to more than $36 million Existing investors Nexus Venture Partners, Lightspeed, and Y Combinator joined the round, alongside strategic capital from Oncology Ventures and Precision Health Informatics, a wholly-owned subsidiary of Texas Oncology The platform is live at Memor</summary>
-    <author><name>Ishan Pandey</name></author>
-    <category term="funding"/>
   </entry>
 </feed>
