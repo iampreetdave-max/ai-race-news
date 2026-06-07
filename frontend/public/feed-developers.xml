@@ -4,7 +4,43 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-07T16:21:44Z</updated>
+  <updated>2026-06-07T18:08:14Z</updated>
+  <entry>
+    <title>How to build your first MCP server in 10 minutes</title>
+    <link href="https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-2bk2" rel="alternate"/>
+    <id>https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-2bk2</id>
+    <updated>2026-06-07T18:00:03Z</updated>
+    <summary type="text">I built my first MCP server last week and it was way simpler than I expected. Here is exactly how, no fluff. Prerequisites Node.js 20+ 10 minutes Step 1: Scaffold npx create-mcp-server my-first-server cd my-first-server npm install This generates a complete TypeScript project with one example tool. Step 2: Add your tool Open src/index.ts. Replace the hello tool with whatever you want: server.setRe</summary>
+    <author><name>GrahamduesCN</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Méthode &quot;Pipeline first&quot; pour tes tests</title>
+    <link href="https://dev.to/daphne_herve/methode-pipeline-first-pour-tes-tests-56n5" rel="alternate"/>
+    <id>https://dev.to/daphne_herve/methode-pipeline-first-pour-tes-tests-56n5</id>
+    <updated>2026-06-07T17:43:12Z</updated>
+    <summary type="text">&quot;Start with the pipelines first&quot; est un mantra qui a changé ma façon de travailler. Tu passes des semaines à peaufiner tes tests auto et tu attends que tout soit &quot;parfait&quot; avant de toucher à la CI ? Quand tu penses que tout est bon tu les intègres enfin dans des pipelines. Mais au lancement, les rapports ne sont pas au bon format, les noms des cas de test sont bancals, le déclenchement ne marche p</summary>
+    <author><name>Daphné Hervé</name></author>
+  </entry>
+  <entry>
+    <title>ETL Pipeline: Fetching Real-Time News Data with Python and Postgres</title>
+    <link href="https://dev.to/gathurum/etl-pipeline-fetching-real-time-news-data-with-python-and-postgres-2c88" rel="alternate"/>
+    <id>https://dev.to/gathurum/etl-pipeline-fetching-real-time-news-data-with-python-and-postgres-2c88</id>
+    <updated>2026-06-07T17:25:39Z</updated>
+    <summary type="text">The best way to actually understand data engineering is to build something that breaks, fix it, and watch it successfully run. In this article, we build an ETL pipeline that pulls data from the News API, cleans it up using pandas, and loads it into a local PostgreSQL database. If you are a beginner Python developer or just getting into data engineering, this one is for you! The Goal &amp; The Architec</summary>
+    <author><name>Gathuru_M</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I Built a Privacy-First AI Health Companion — Then Actually Finished It</title>
+    <link href="https://dev.to/vrushabhzade/i-built-a-privacy-first-ai-health-companion-then-actually-finished-it-2d4n" rel="alternate"/>
+    <id>https://dev.to/vrushabhzade/i-built-a-privacy-first-ai-health-companion-then-actually-finished-it-2d4n</id>
+    <updated>2026-06-07T17:18:43Z</updated>
+    <summary type="text">This is a submission for the GitHub Finish-Up-A-Thon Challenge What I Built Chronic Disease Copilot is a privacy-first, voice-enabled AI health companion for people managing chronic conditions — things like diabetes, hypertension, or autoimmune disorders that require constant monitoring and coordination. The idea came from a frustration I've felt watching people close to me struggle with the daily</summary>
+    <author><name>Vrushabh Zade</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>CollectAI — GitHub Finish-Up-A-Thon Submission</title>
     <link href="https://dev.to/ngux_miraclegod_d215973a9/collectai-github-finish-up-a-thon-submission-5e6g" rel="alternate"/>
@@ -424,43 +460,6 @@
     <summary type="text">Google Deepmind's Gemma 4 12B is an open-source model that processes text, images, and audio natively and runs on laptops with just 16 GB of RAM. It nearly matches the twice-as-large 26B model in benchmarks and ships under an Apache 2.0 license for commercial use. The article Google Deepmind's Gemma 4 12B squeezes multimodal AI onto a laptop with just 16 GB of RAM appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Wasmer used Codex to build a Node.js runtime for the edge</title>
-    <link href="https://openai.com/index/wasmer" rel="alternate"/>
-    <id>https://openai.com/index/wasmer</id>
-    <updated>2026-06-03T12:00:00Z</updated>
-    <summary type="text">See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model</title>
-    <link href="https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/" rel="alternate"/>
-    <id>https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/</id>
-    <updated>2026-06-04T16:30:00Z</updated>
-    <summary type="text">In Part 1 of this series, we introduced Chronos-2, a time-series foundation model. We got our hands dirty by walking through a real case study and saw what Chronos-2 can do straight out of the box, with no training. But as we noted at the end of Part 1, zero-shot isn’t always enough. In cases […] The post Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model appeared first on Towards </summary>
-    <author><name>Shuai Guo</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Comparison of Deep Learning Frameworks For Rice Disease Mapping From UAV Multispectral Imaging</title>
-    <link href="https://arxiv.org/abs/2606.06359v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.06359v1</id>
-    <updated>2026-06-04T16:26:00Z</updated>
-    <summary type="text">In this study, UAV multispectral imagery is used to segment the severity of bacterial leaf blight (BLB) in rice using convolutional neural networks (CNNs) and transformer-based models. The evaluated architectures include U-Net with a ResNet- 101 encoder, U-Net++ with EfficientNet-B3 and EfficientNetB7, DeepLabV3+, and SegFormer, all trained under a common pipeline with three input configurations (</summary>
-    <author><name>Leila Hashemi Beni</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Has any AI tool actually saved you significant time, or do they mostly just move the work around?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/</id>
-    <updated>2026-06-06T06:05:05Z</updated>
-    <summary type="text">Unpopular opinion: most AI tools don’t actually save time. They just move the work around. You still have to prompt it, check it, edit it, and sometimes redo it. That’s not automation — that’s just a different kind of work. The only ones I’ve seen genuinely cut time are search tools like Perplexity and coding tools like Cursor. Everything else feels like it’s optimized for the demo, not real use. </summary>
-    <author><name>/u/aiprotivity_</name></author>
     <category term="llm"/>
   </entry>
 </feed>

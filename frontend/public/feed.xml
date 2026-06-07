@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-07T16:21:44Z</updated>
+  <updated>2026-06-07T18:08:14Z</updated>
   <entry>
     <title>Deepseek topped Ramp's trending software vendors in June 2026 as US companies chase cheaper AI</title>
     <link href="https://the-decoder.com/deepseek-topped-ramps-trending-software-vendors-in-june-2026-as-us-companies-chase-cheaper-ai/" rel="alternate"/>
@@ -12,6 +12,15 @@
     <updated>2026-06-07T16:06:34Z</updated>
     <summary type="text">Deepseek topped Ramp's trending software vendors in June 2026 as a paid service that US companies send data to directly. Ramp chief economist Ara Kharazian points to growing cost awareness as a driver but warns about security risks of using Chinese models. The article Deepseek topped Ramp's trending software vendors in June 2026 as US companies chase cheaper AI appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Notion restores access to Anthropic after service disruption</title>
+    <link href="https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/</id>
+    <updated>2026-06-07T17:56:22Z</updated>
+    <summary type="text">Notion's head of product said he was &quot;astonished&quot; at “the amount of people RT-ing this.&quot;</summary>
+    <author><name>Anthony Ha</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -157,6 +166,67 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How to build your first MCP server in 10 minutes</title>
+    <link href="https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-2bk2" rel="alternate"/>
+    <id>https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-2bk2</id>
+    <updated>2026-06-07T18:00:03Z</updated>
+    <summary type="text">I built my first MCP server last week and it was way simpler than I expected. Here is exactly how, no fluff. Prerequisites Node.js 20+ 10 minutes Step 1: Scaffold npx create-mcp-server my-first-server cd my-first-server npm install This generates a complete TypeScript project with one example tool. Step 2: Add your tool Open src/index.ts. Replace the hello tool with whatever you want: server.setRe</summary>
+    <author><name>GrahamduesCN</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Méthode &quot;Pipeline first&quot; pour tes tests</title>
+    <link href="https://dev.to/daphne_herve/methode-pipeline-first-pour-tes-tests-56n5" rel="alternate"/>
+    <id>https://dev.to/daphne_herve/methode-pipeline-first-pour-tes-tests-56n5</id>
+    <updated>2026-06-07T17:43:12Z</updated>
+    <summary type="text">&quot;Start with the pipelines first&quot; est un mantra qui a changé ma façon de travailler. Tu passes des semaines à peaufiner tes tests auto et tu attends que tout soit &quot;parfait&quot; avant de toucher à la CI ? Quand tu penses que tout est bon tu les intègres enfin dans des pipelines. Mais au lancement, les rapports ne sont pas au bon format, les noms des cas de test sont bancals, le déclenchement ne marche p</summary>
+    <author><name>Daphné Hervé</name></author>
+  </entry>
+  <entry>
+    <title>ETL Pipeline: Fetching Real-Time News Data with Python and Postgres</title>
+    <link href="https://dev.to/gathurum/etl-pipeline-fetching-real-time-news-data-with-python-and-postgres-2c88" rel="alternate"/>
+    <id>https://dev.to/gathurum/etl-pipeline-fetching-real-time-news-data-with-python-and-postgres-2c88</id>
+    <updated>2026-06-07T17:25:39Z</updated>
+    <summary type="text">The best way to actually understand data engineering is to build something that breaks, fix it, and watch it successfully run. In this article, we build an ETL pipeline that pulls data from the News API, cleans it up using pandas, and loads it into a local PostgreSQL database. If you are a beginner Python developer or just getting into data engineering, this one is for you! The Goal &amp; The Architec</summary>
+    <author><name>Gathuru_M</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Trivya AI – Voice Assistant with Gemini Integration</title>
+    <link href="https://dev.to/shalini_tiwari_b48d181054/trivya-ai-voice-assistant-with-gemini-integration-29l2" rel="alternate"/>
+    <id>https://dev.to/shalini_tiwari_b48d181054/trivya-ai-voice-assistant-with-gemini-integration-29l2</id>
+    <updated>2026-06-07T17:20:49Z</updated>
+    <summary type="text">This is a submission for the GitHub Finish-Up-A-Thon Challenge Project Description: Trivya AI is a Python-based voice assistant that combines speech recognition, text-to-speech, and Google Gemini AI to provide an interactive assistant experience. The project supports two modes: A terminal-based voice assistant that listens to voice commands and responds through speech. A Streamlit-based web interf</summary>
+    <author><name>Shalini Tiwari</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From Raw SQL Strings to Type-Safe Queries: How I Learned Prisma ORM</title>
+    <link href="https://dev.to/chinwuba_jeffrey/from-raw-sql-strings-to-type-safe-queries-how-i-learned-prisma-orm-1lcd" rel="alternate"/>
+    <id>https://dev.to/chinwuba_jeffrey/from-raw-sql-strings-to-type-safe-queries-how-i-learned-prisma-orm-1lcd</id>
+    <updated>2026-06-07T17:20:06Z</updated>
+    <summary type="text">I'm a web design agency CEO teaching myself full-stack development in public. This is week 7 of a 16-week roadmap I built to go from React-only to full React + Express + PostgreSQL. Last week I finished Express core — routing, middleware, CORS, error handling, full CRUD with in-memory arrays. This week the arrays are gone. I'm talking to a real database now. This post covers everything I learned a</summary>
+    <author><name>Chinwuba</name></author>
+  </entry>
+  <entry>
+    <title>I Built a Privacy-First AI Health Companion — Then Actually Finished It</title>
+    <link href="https://dev.to/vrushabhzade/i-built-a-privacy-first-ai-health-companion-then-actually-finished-it-2d4n" rel="alternate"/>
+    <id>https://dev.to/vrushabhzade/i-built-a-privacy-first-ai-health-companion-then-actually-finished-it-2d4n</id>
+    <updated>2026-06-07T17:18:43Z</updated>
+    <summary type="text">This is a submission for the GitHub Finish-Up-A-Thon Challenge What I Built Chronic Disease Copilot is a privacy-first, voice-enabled AI health companion for people managing chronic conditions — things like diabetes, hypertension, or autoimmune disorders that require constant monitoring and coordination. The idea came from a frustration I've felt watching people close to me struggle with the daily</summary>
+    <author><name>Vrushabh Zade</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Publishing Tool Because I Was Too Lazy to Write</title>
+    <link href="https://dev.to/marwankous/i-built-a-publishing-tool-because-i-was-too-lazy-to-write-44b6" rel="alternate"/>
+    <id>https://dev.to/marwankous/i-built-a-publishing-tool-because-i-was-too-lazy-to-write-44b6</id>
+    <updated>2026-06-07T17:17:24Z</updated>
+    <summary type="text">I wanted to start a blog. I had a niche, I had opinions, and I genuinely wanted to write. But every time I sat down to publish something, I hit the same wall: I had nothing to say today. The blank page won every time. The problem wasn't ideas. It was the starting point. Writing from zero is hard. Reacting to something is easy. So I did what any developer does when they don't want to do the actual </summary>
+    <author><name>marwankous</name></author>
   </entry>
   <entry>
     <title>Road To KiwiEngine #12: Why I Want To Build Hardware Again</title>
@@ -375,79 +445,5 @@
     <summary type="text">Meta is developing a paid AI agent product called &quot;Hatch&quot; that could cost up to $200 per month. Users describe what they need in simple language, and Hatch builds working tools, schedules appointments, or sends emails. CEO Mark Zuckerberg sees the product as a way to open up new revenue streams beyond advertising and refinance the company's massive AI investments. The article Meta's Hatch AI agent</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The AWS Charge Silently Eating Your K8s Budget: NAT Gateway Explained</title>
-    <link href="https://dev.to/kloudaudit/the-aws-charge-silently-eating-your-k8s-budget-nat-gateway-explained-13f2" rel="alternate"/>
-    <id>https://dev.to/kloudaudit/the-aws-charge-silently-eating-your-k8s-budget-nat-gateway-explained-13f2</id>
-    <updated>2026-06-07T11:41:52Z</updated>
-    <summary type="text">You get your AWS bill. EC2 looks reasonable. RDS looks fine. Then there's a line item called &quot;NAT Gateway&quot; sitting at $800 and you have no idea why. This is the charge that catches almost every team running Kubernetes on AWS. Here is exactly what it is, why it grows silently, and how to fix it in 20 minutes. What NAT Gateway Actually Does A NAT Gateway lets resources in your private subnets reach </summary>
-    <author><name>KloudAudit</name></author>
-  </entry>
-  <entry>
-    <title>Unlocking Data’s Secrets: An Excel Journey</title>
-    <link href="https://dev.to/muthoni001tech/unlocking-datas-secrets-an-excel-journey-1c22" rel="alternate"/>
-    <id>https://dev.to/muthoni001tech/unlocking-datas-secrets-an-excel-journey-1c22</id>
-    <updated>2026-06-07T11:37:57Z</updated>
-    <summary type="text">When we talk about Excel, we’re really talking about one of the most influential tools in modern data analysis. Excel is a popular spreadsheet developed by Microsoft, first released in 1985 and has since become a universal language for working with numbers. At its core, Excel allows users to insert, read and manipulate data; but it goes far beyond that. It’s used for storing, processing, analysing</summary>
-    <author><name>Muthoni001-tech</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Building an MCP server with Node.js</title>
-    <link href="https://dev.to/zsevic/building-an-mcp-server-with-nodejs-55b1" rel="alternate"/>
-    <id>https://dev.to/zsevic/building-an-mcp-server-with-nodejs-55b1</id>
-    <updated>2026-06-07T11:25:30Z</updated>
-    <summary type="text">The Model Context Protocol (MCP) is an open standard for connecting AI hosts (Claude, ChatGPT, Cursor, VS Code, and others) to external context and actions through a structured protocol instead of ad-hoc plugins. The host runs an MCP client. Your application is the MCP server, exposing tools (actions the model can invoke), resources (read-only data), and optionally prompts (reusable message templa</summary>
-    <author><name>Željko Šević</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Elon Musk's xAI reportedly trained its coding models on Claude outputs for months before getting cut off</title>
-    <link href="https://the-decoder.com/elon-musks-xai-reportedly-trained-its-coding-models-on-claude-outputs-for-months-before-getting-cut-off/" rel="alternate"/>
-    <id>https://the-decoder.com/elon-musks-xai-reportedly-trained-its-coding-models-on-claude-outputs-for-months-before-getting-cut-off/</id>
-    <updated>2026-06-06T11:22:28Z</updated>
-    <summary type="text">Elon Musk's xAI used Anthropic's Claude to train its own coding models for months and kept going even after Anthropic cut off access, using private accounts and the Blackbox AI service. Meanwhile, xAI's pretraining team shrank to fewer than five people, and several leads walked out. The compute Musk bought up is now being rented to Anthropic and Google instead of powering his own models. The artic</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Migrate Ingress-NGINX to Gateway API Before Retirement</title>
-    <link href="https://dev.to/indra_gustiprasetya_a80a/migrate-ingress-nginx-to-gateway-api-before-retirement-4n37" rel="alternate"/>
-    <id>https://dev.to/indra_gustiprasetya_a80a/migrate-ingress-nginx-to-gateway-api-before-retirement-4n37</id>
-    <updated>2026-06-07T11:22:06Z</updated>
-    <summary type="text">By the end of this you will have the same production traffic that Ingress-NGINX served now flowing through a conformant Gateway API data plane on Envoy Gateway, with every annotation that couldn't translate surfaced and dealt with on purpose instead of lost in a log line. That last part is the whole point: the migration breaks on the annotations nobody checked, not on the YAML you can ask an AI to</summary>
-    <author><name>Indra Gusti Prasetya</name></author>
-  </entry>
-  <entry>
-    <title>I Gave Claude a Stock Screener. Here's What It Picked</title>
-    <link href="https://dev.to/kevin_menesesgonzlez/i-gave-claude-a-stock-screener-heres-what-it-picked-1d7g" rel="alternate"/>
-    <id>https://dev.to/kevin_menesesgonzlez/i-gave-claude-a-stock-screener-heres-what-it-picked-1d7g</id>
-    <updated>2026-06-07T11:21:57Z</updated>
-    <summary type="text">Most &quot;AI picks stocks&quot; demos are fiction. You ask a chatbot for undervalued companies, it hands you five tickers, and they sound reasonable. AAPL. MSFT. A bank you've heard of. It feels like analysis. It isn't. The model is reciting names from its training data. It has no idea what those companies trade at today, what their P/E is this quarter, or whether they're even still profitable. The numbers</summary>
-    <author><name>Kevin Meneses González</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code is not a recursive agent. I read the source and checked.</title>
-    <link href="https://dev.to/sfrangulov/claude-code-is-not-a-recursive-agent-i-read-the-source-and-checked-kll" rel="alternate"/>
-    <id>https://dev.to/sfrangulov/claude-code-is-not-a-recursive-agent-i-read-the-source-and-checked-kll</id>
-    <updated>2026-06-07T11:19:36Z</updated>
-    <summary type="text">A source map shipped in the v2.1.88 npm release: about 1,884 files under src/, original names and comments intact. So I walked the core modules and checked what everyone &quot;knows&quot; about how Claude Code works against what the code actually does. Half of it was wrong. Including things I'd repeated myself. I did not read it line by line. Nobody reads 1,884 files line by line. I walked the key modules a</summary>
-    <author><name>Sergei Frangulov</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ditching the old rusty job platforms: I made my own with cool features</title>
-    <link href="https://dev.to/sohaibs_amir_ea168b94720/revamping-the-rotting-repo-jobhooker-platform-for-github-finish-up-a-thon-3ke1" rel="alternate"/>
-    <id>https://dev.to/sohaibs_amir_ea168b94720/revamping-the-rotting-repo-jobhooker-platform-for-github-finish-up-a-thon-3ke1</id>
-    <updated>2026-06-07T11:19:11Z</updated>
-    <summary type="text">This is the submission for the https://dev.to/challenges/github-2026-05-21 What I Built Job Hooker is a platform which lets you generate tailored cover letters, resumes and upwork proposals based on your profile and job post. You can create as many job feeds as you want each having a different criteria for job matching. For each job, you can create dedicated profile and it will generate your cv co</summary>
-    <author><name>Sohaib’s Amir</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
   </entry>
 </feed>
