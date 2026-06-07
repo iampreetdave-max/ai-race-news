@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-06T22:07:36Z</updated>
+  <updated>2026-06-07T00:09:19Z</updated>
   <entry>
     <title>OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks</title>
     <link href="https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/" rel="alternate"/>
@@ -140,6 +140,88 @@
     <summary type="text">Plus: Hackers use Meta’s AI bots to hack Instagram accounts, Anthropic helps NSA hackers, a decades-long GPS satellite mystery may have been solved, and more.</summary>
     <author><name>Andy Greenberg, Dell Cameron, Dhruv Mehrotra, Maddy Varner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI Built a Lockdown Mode Because Tool-Based Data Exfiltration Is Real — Here's What Catches It Earlier</title>
+    <link href="https://dev.to/coridev/openai-built-a-lockdown-mode-because-tool-based-data-exfiltration-is-real-heres-what-catches-it-342e" rel="alternate"/>
+    <id>https://dev.to/coridev/openai-built-a-lockdown-mode-because-tool-based-data-exfiltration-is-real-heres-what-catches-it-342e</id>
+    <updated>2026-06-06T23:56:34Z</updated>
+    <summary type="text">OpenAI doesn't ship defensive product features out of nowhere. When they announced Lockdown Mode for ChatGPT — a setting that explicitly restricts connected tools and integrations to prevent data exfiltration — that's a product team responding to something they've seen happen, or credibly modeled as likely to happen at scale. The signal is clear: LLM-connected tooling is a data exfiltration vector</summary>
+    <author><name>Cor E</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI Shrinkflation: Your AI Model Was Quietly Dialed Back</title>
+    <link href="https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a" rel="alternate"/>
+    <id>https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a</id>
+    <updated>2026-06-06T23:50:30Z</updated>
+    <summary type="text">AI Shrinkflation: Your AI Model Was Quietly Dialed Back The age of token subsidization is over. AI providers are adjusting pricing, throttling capacity, and dialing back model quality — and most users haven't noticed yet. You open your AI coding assistant on a Tuesday morning. Something feels off. The reasoning feels shallower. The context-building you relied on is gone. It's not stopping to read </summary>
+    <author><name>Keith MacKay</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Syncing AI agents across Claude, Gemini, and Cursor</title>
+    <link href="https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j" rel="alternate"/>
+    <id>https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j</id>
+    <updated>2026-06-06T23:40:48Z</updated>
+    <summary type="text">If you are using AI coding assistants today, chances are you aren't just using one. You might be using Claude Code in the terminal for rapid CLI actions, Gemini CLI for long-context search, and Cursor or Copilot as your main IDE. But there is a major friction point: none of these tools talk to each other. If you configure a Model Context Protocol (MCP) server in Claude, Cursor knows nothing about </summary>
+    <author><name>Mustafa Bahaa</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>40-Year-Old Bug. Claude Found It Before the Author Did.</title>
+    <link href="https://dev.to/keithjmackay/40-year-old-bug-claude-found-it-before-the-author-did-50ga" rel="alternate"/>
+    <id>https://dev.to/keithjmackay/40-year-old-bug-claude-found-it-before-the-author-did-50ga</id>
+    <updated>2026-06-06T23:30:30Z</updated>
+    <summary type="text">40-Year-Old Bug. Claude Found It Before the Author Did. Mark Russinovich — Microsoft's Azure CTO — handed Claude Opus 4.6 a binary from 1986. Not source code. A binary. Raw 6502 machine language he'd written as a teenager for the Apple II. No comments. No variable names. No documentation. Just bytes. Claude decompiled it, reconstructed the logic, and flagged a silent error that had been sitting th</summary>
+    <author><name>Keith MacKay</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Dunning-Kruger Effect, Now Available at Enterprise Scale</title>
+    <link href="https://dev.to/keithjmackay/the-dunning-kruger-effect-now-available-at-enterprise-scale-1hnh" rel="alternate"/>
+    <id>https://dev.to/keithjmackay/the-dunning-kruger-effect-now-available-at-enterprise-scale-1hnh</id>
+    <updated>2026-06-06T23:25:08Z</updated>
+    <summary type="text">The Dunning-Kruger Effect, Now Available at Enterprise Scale The research is starting to coalesce, with different angles on whether AI is degrading human cognition or not. The right response is not panic--but it's also not dismissal. &quot;Cognitive surrender&quot; (outsourcing one's thinking to AI entirely for a given task) has been creeping into our current zeitgeist as a pre-accepted truth, and researche</summary>
+    <author><name>Keith MacKay</name></author>
+  </entry>
+  <entry>
+    <title>How to Add Live Telemetry and Failure Diagnosis to Isaac Lab, MuJoCo, or Gazebo Training in Under 5 Minutes</title>
+    <link href="https://dev.to/simtooreal/how-to-add-live-telemetry-and-failure-diagnosis-to-isaac-lab-mujoco-or-gazebo-training-in-under-5-2416" rel="alternate"/>
+    <id>https://dev.to/simtooreal/how-to-add-live-telemetry-and-failure-diagnosis-to-isaac-lab-mujoco-or-gazebo-training-in-under-5-2416</id>
+    <updated>2026-06-06T23:23:36Z</updated>
+    <summary type="text">If you train robot policies long enough, you eventually realize the main problem is not launching runs. It is answering these questions fast enough: Is the run actually learning? Is it stuck? Did the reward improve for the right reason? Is one joint or one failure mode quietly ruining transfer? Did the crash already tell us what to fix? This post walks through a practical approach using SimTooReal</summary>
+    <author><name>SimTooReal</name></author>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>Writers Who Use AI Without a Harness Are One Published Article From Disaster</title>
+    <link href="https://dev.to/keithjmackay/writers-who-use-ai-without-a-harness-are-one-published-article-from-disaster-3gf2" rel="alternate"/>
+    <id>https://dev.to/keithjmackay/writers-who-use-ai-without-a-harness-are-one-published-article-from-disaster-3gf2</id>
+    <updated>2026-06-06T23:23:32Z</updated>
+    <summary type="text">Writers Who Use AI Without a Harness Are One Published Article From Disaster AI can be tremendously helpful, or can drive you right into Disaster Chasm. Here are some ways to NOT get burned. Just over a month ago, a staff writer at Ars Technica was fired. The journalist covering AI, Benj Edwards, senior AI reporter, got tripped up by AI. The published article attributed quotes to a real person. Th</summary>
+    <author><name>Keith MacKay</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build a Real-Time Stock Signal Scanner in Python (No Bloomberg Terminal Required)</title>
+    <link href="https://dev.to/patrick_devos_45405709dcd/build-a-real-time-stock-signal-scanner-in-python-no-bloomberg-terminal-required-59k4" rel="alternate"/>
+    <id>https://dev.to/patrick_devos_45405709dcd/build-a-real-time-stock-signal-scanner-in-python-no-bloomberg-terminal-required-59k4</id>
+    <updated>2026-06-06T23:23:12Z</updated>
+    <summary type="text">Most retail traders look at one indicator at a time. Professional quant desks look for confluence - multiple signals firing on the same ticker at the same moment. That's what separates a noisy RSI reading from a high-confidence trade setup. This guide shows you how to build a Python stock scanner that finds those confluence moments using the SignalSage API - a quantitative signals API that scans f</summary>
+    <author><name>Patrick DeVos</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Cómo comparé registros de coleópteros del Volcán Tacaná usando iNaturalist, GBIF y Python</title>
+    <link href="https://dev.to/elingejuanmx/como-compare-registros-de-coleopteros-del-volcan-tacana-usando-inaturalist-gbif-y-python-20mj" rel="alternate"/>
+    <id>https://dev.to/elingejuanmx/como-compare-registros-de-coleopteros-del-volcan-tacana-usando-inaturalist-gbif-y-python-20mj</id>
+    <updated>2026-06-06T23:10:35Z</updated>
+    <summary type="text">Cuando se trabaja con datos abiertos de biodiversidad, una de las preguntas más interesantes no es solo cuántos registros pueden descargarse, sino qué cambia cuando se comparan dos infraestructuras distintas sobre el mismo espacio. En este ejercicio tomé observaciones de coleópteros del entorno del Volcán Tacaná desde iNaturalist y GBIF, las normalicé en un mismo formato y las transformé en salida</summary>
+    <author><name>EL_INGE_JUAN_MX</name></author>
   </entry>
   <entry>
     <title>A Hands-On Coding Tutorial on Qualcomm AI Hub Models for Classification, Object Detection, and Hardware-Aware Deployment</title>
@@ -361,84 +443,5 @@
     <updated>2026-06-05T22:11:56Z</updated>
     <summary type="text">DocuSign's shares declined amid a broadly negative market day following the company's full-year guidance, which failed to excite investors. Allan Thygesen, CEO of DocuSign, discussed the company's AI-powered intelligent agreement management platform, highlighting strong adoption with 40,000 customers currently live on the platform. He speaks with Romaine Bostick and Katie Greifeld on &quot;The Close.&quot; </summary>
     <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Satya Nadella publicly torches a VP's plan to make Microsoft's AI agent deliberately addictive</title>
-    <link href="https://the-decoder.com/satya-nadella-publicly-torches-a-vps-plan-to-make-microsofts-ai-agent-deliberately-addictive/" rel="alternate"/>
-    <id>https://the-decoder.com/satya-nadella-publicly-torches-a-vps-plan-to-make-microsofts-ai-agent-deliberately-addictive/</id>
-    <updated>2026-06-05T15:33:56Z</updated>
-    <summary type="text">Microsoft CEO Satya Nadella has sharply criticized an internal memo proposing to make users &quot;addicted&quot; to the company's new AI agent Scout. &quot;Not sure who is writing and leaking this nonsense,&quot; Nadella wrote to about 50 top engineers. AI should empower people, and Scout should actually lead to less screen time. The article Satya Nadella publicly torches a VP's plan to make Microsoft's AI agent deli</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Financial AI Has a Memory Problem Wall Street Can’t Ignore</title>
-    <link href="https://hackernoon.com/financial-ai-has-a-memory-problem-wall-street-cant-ignore?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/financial-ai-has-a-memory-problem-wall-street-cant-ignore?source=rss</id>
-    <updated>2026-06-06T15:00:35Z</updated>
-    <summary type="text">Financial AI can do a good job with one-off tasks, such as explaining a market move, reviewing a portfolio, or helping to prepare a trade. However, the real challenge starts when that work continues over time, and the system needs to carry context from one session to the next.Read All</summary>
-    <author><name>Gabriel Mangalindan</name></author>
-  </entry>
-  <entry>
-    <title>Who Will Win the 2026 Soccer World Cup?</title>
-    <link href="https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/" rel="alternate"/>
-    <id>https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/</id>
-    <updated>2026-06-06T15:00:00Z</updated>
-    <summary type="text">Building a forecast from Elo, Poisson, and 10,000 simulations The post Who Will Win the 2026 Soccer World Cup? appeared first on Towards Data Science.</summary>
-    <author><name>Ari Joury, PhD</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Apollo Wraps Up $35 Billion Debt to Buy AI Chips for Anthropic</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic</id>
-    <updated>2026-06-05T21:02:29Z</updated>
-    <summary type="text">Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure, marking the latest mega-deal in the artificial intelligence race.</summary>
-    <author><name>Paula Seligson, Emily Graffeo, Laura Benitez, Nabila Ahmed</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Prompt: Anthropic's IPO Filing Signals AI's Next Phase</title>
-    <link href="https://aibusiness.com/generative-ai/prompt-anthropic-s-ipo-filing-signals-ai-s-next-phase" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/prompt-anthropic-s-ipo-filing-signals-ai-s-next-phase</id>
-    <updated>2026-06-05T14:35:02Z</updated>
-    <summary type="text">The next chapter of AI could depend less on breakthrough models and more on the resources required to build and sustain them.</summary>
-    <author><name>Liz Hughes</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Former cyber executive turned whistleblower accuses IBM of covering up several data breaches</title>
-    <link href="https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/</id>
-    <updated>2026-06-05T20:31:04Z</updated>
-    <summary type="text">IBM and two of its subsidiary companies were allegedly breached during the mid-2010s — a lawsuit filed by a former cybersecurity executive accuses IBM of not disclosing and actively covering it up.</summary>
-    <author><name>Lorenzo Franceschi-Bicchierai</name></author>
-  </entry>
-  <entry>
-    <title>BOE’s Bailey Warns of Possible AI Rationing on Capacity Limits</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-06-05/boe-s-bailey-warns-of-possible-ai-rationing-on-capacity-limits" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-06-05/boe-s-bailey-warns-of-possible-ai-rationing-on-capacity-limits</id>
-    <updated>2026-06-05T20:22:25Z</updated>
-    <summary type="text">Bank of England Governor Andrew Bailey suggested that artificial intelligence may need to be rationed because a lack of energy capacity will restrain the ability for every economic sector to deploy the new technology.</summary>
-    <author><name>Tom Rees</name></author>
-  </entry>
-  <entry>
-    <title>Amazon Unveils Next-Generation Robot in $11.6B European Push</title>
-    <link href="https://aibusiness.com/robotics/amazon-unveils-next-generation-robot-11-6b-european-push" rel="alternate"/>
-    <id>https://aibusiness.com/robotics/amazon-unveils-next-generation-robot-11-6b-european-push</id>
-    <updated>2026-06-05T13:13:02Z</updated>
-    <summary type="text">The e-commerce giant unveiled new warehouse automation technology as part of a major investment in its fulfillment operations.</summary>
-    <author><name>Scarlett Evans</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax</title>
-    <link href="https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/" rel="alternate"/>
-    <id>https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/</id>
-    <updated>2026-06-06T13:00:00Z</updated>
-    <summary type="text">what it costs, what it gains and the three mistakes that I make The post My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax appeared first on Towards Data Science.</summary>
-    <author><name>Samit Ganguly</name></author>
-    <category term="data"/>
   </entry>
 </feed>

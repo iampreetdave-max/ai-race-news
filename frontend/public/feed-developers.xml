@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-06T22:07:36Z</updated>
+  <updated>2026-06-07T00:09:19Z</updated>
   <entry>
     <title>New open-source voice model listens nonstop and decides every 0.4 seconds whether to speak or stay silent</title>
     <link href="https://the-decoder.com/new-open-source-voice-model-listens-nonstop-and-decides-every-0-4-seconds-whether-to-speak-or-stay-silent/" rel="alternate"/>
@@ -23,6 +23,26 @@
     <summary type="text">Kimi Code CLI is Moonshot AI's open-source terminal coding agent, written in TypeScript with subagents and MCP configuration. The post Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AI Shrinkflation: Your AI Model Was Quietly Dialed Back</title>
+    <link href="https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a" rel="alternate"/>
+    <id>https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a</id>
+    <updated>2026-06-06T23:50:30Z</updated>
+    <summary type="text">AI Shrinkflation: Your AI Model Was Quietly Dialed Back The age of token subsidization is over. AI providers are adjusting pricing, throttling capacity, and dialing back model quality — and most users haven't noticed yet. You open your AI coding assistant on a Tuesday morning. Something feels off. The reasoning feels shallower. The context-building you relied on is gone. It's not stopping to read </summary>
+    <author><name>Keith MacKay</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Syncing AI agents across Claude, Gemini, and Cursor</title>
+    <link href="https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j" rel="alternate"/>
+    <id>https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j</id>
+    <updated>2026-06-06T23:40:48Z</updated>
+    <summary type="text">If you are using AI coding assistants today, chances are you aren't just using one. You might be using Claude Code in the terminal for rapid CLI actions, Gemini CLI for long-context search, and Cursor or Copilot as your main IDE. But there is a major friction point: none of these tools talk to each other. If you configure a Model Context Protocol (MCP) server in Claude, Cursor knows nothing about </summary>
+    <author><name>Mustafa Bahaa</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Scarab Diagnostic Suite Field Test #013: Kubernetes Watch Cache Critical-Section Boundary</title>
@@ -170,12 +190,40 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>ChatGPT via Copilot is officially unreliable (maybe I'm late but I now can confirm based on my personal experience it cannot be trusted for anything)</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1tyuiz6/chatgpt_via_copilot_is_officially_unreliable/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1tyuiz6/chatgpt_via_copilot_is_officially_unreliable/</id>
+    <updated>2026-06-06T22:18:13Z</updated>
+    <summary type="text">Here's its answer after it repeatedly and confidently made up claims and used them as basis for a completely flawed analysis/conclusion after I shared an article with it. Utterly disappointing, didn't point it into the wrong direction with a prompt or anything, just shared an article and it went on a wild conspiracy about how it was satire despite the article published on a reputable site. Any tho</summary>
+    <author><name>/u/PikachuOfTheShadow</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>An open-source tool for validating code changes with browser recordings</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1tyuija/an_opensource_tool_for_validating_code_changes/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1tyuija/an_opensource_tool_for_validating_code_changes/</id>
+    <updated>2026-06-06T22:17:42Z</updated>
+    <summary type="text">Lately I've been experimenting on an open-source project called Canary. https://preview.redd.it/c4dgxw22lq5h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=304f37871aa9b7ee0a084d8b59207fae51d8b7bc It takes a code diff, identifies the UI flows that are likely affected, and then uses Claude Code to test those paths in a real browser. Every run captures video, screenshots, network traffic, HAR files, console</summary>
+    <author><name>/u/wixenheimer</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Are local models good enough to replace Claude/Codex solely for simple HTML tasks?</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyt63g/are_local_models_good_enough_to_replace/" rel="alternate"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1tyt63g/are_local_models_good_enough_to_replace/</id>
     <updated>2026-06-06T21:20:04Z</updated>
     <summary type="text">I know local models can’t compete fully yet, but I’m curious about where the limits are. My use case is generating simple HTML activities for elearning creation purposes. I know others are creating apps and more advanced software. Where are the limits for where local models can compete? submitted by /u/A_Wild_Entei [link] [comments]</summary>
     <author><name>/u/A_Wild_Entei</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Best Coding Harness for Qwen3.6 35B?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/</id>
+    <updated>2026-06-06T20:20:59Z</updated>
+    <summary type="text">I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10ish years old with thousands of files and mu</summary>
+    <author><name>/u/Revolutionary_Loan13</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -367,36 +415,6 @@
     <updated>2026-06-03T14:17:57Z</updated>
     <summary type="text">Current prompt-based and adapter-based tuning of vision-language models (VLMs) is attractive for medical imaging, where clinical data sensitivity favors frozen backbones and annotations are limited. However, these methods typically optimize only the ground-truth class, treating all other classes as equally incorrect, ignoring clinically meaningful class relations and yielding unstable decision bou</summary>
     <author><name>Zhiqiang Shen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built a Claude Code Skill That Diagnoses Windows BSODs Better Than I Can</title>
-    <link href="https://dev.to/sitabanubanu/i-built-a-claude-code-skill-that-diagnoses-windows-bsods-better-than-i-can-3627" rel="alternate"/>
-    <id>https://dev.to/sitabanubanu/i-built-a-claude-code-skill-that-diagnoses-windows-bsods-better-than-i-can-3627</id>
-    <updated>2026-06-03T12:18:05Z</updated>
-    <summary type="text">The Problem I had 3 BSODs in 8 days on my Windows 11 laptop. Every tool — BlueScreenView, WhoCrashed, even WinDbg — could tell me WHAT crashed, but not WHY, and certainly not HOW to fix it. What I Built A Claude Code / Codex skill that runs a complete BSOD diagnosis pipeline in 7 stages. It doesn't just read the dump — it audits the entire system, finds root causes, generates a cleanup plan, and v</summary>
-    <author><name>Socrates liang</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Looking for dev friends who actually get how much work this is</title>
-    <link href="https://dev.to/elionreigns/looking-for-dev-friends-who-actually-get-how-much-work-this-is-3m0c" rel="alternate"/>
-    <id>https://dev.to/elionreigns/looking-for-dev-friends-who-actually-get-how-much-work-this-is-3m0c</id>
-    <updated>2026-06-03T12:18:01Z</updated>
-    <summary type="text">I'm looking for dev friends, not just contacts Most people in my offline life mean well—but they have no idea how much invisible work goes into one &quot;simple&quot; feature: Webhook auth + CORS + SMTP deliverability at 2 a.m. Versioned knowledge bases for voice and web chat cPanel paths, config above public_html, Playwright QA before you call it &quot;done&quot; Schema markup, Search Console, mobile bubble UX, CSV </summary>
-    <author><name>E Lion Reigns</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Google Patched an Actively Exploited Android Flaw. Enterprises Should Treat This as an AI Security Problem Too</title>
-    <link href="https://dev.to/sunychoudhary/google-patched-an-actively-exploited-android-flaw-enterprises-should-treat-this-as-an-ai-security-ohj" rel="alternate"/>
-    <id>https://dev.to/sunychoudhary/google-patched-an-actively-exploited-android-flaw-enterprises-should-treat-this-as-an-ai-security-ohj</id>
-    <updated>2026-06-03T12:17:17Z</updated>
-    <summary type="text">Google recently patched an actively exploited Android flaw affecting millions of devices. Most teams will read that sentence and treat it as a mobile patching issue. That is not wrong. But it is incomplete. In 2026, a compromised mobile device is not just a device problem. It can become an AI security problem too. Employees use Android phones for work email, SaaS dashboards, MFA approvals, browser</summary>
-    <author><name>Suny Choudhary</name></author>
     <category term="llm"/>
   </entry>
 </feed>
