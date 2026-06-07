@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-07T18:08:14Z</updated>
+  <updated>2026-06-07T20:16:36Z</updated>
   <entry>
     <title>Qwen 3.6 27B KV cache quant benchmarks: 75 pairs, q8/q6/q5/q4, KVarN, Turbo/TCQ</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tza4ji/qwen_36_27b_kv_cache_quant_benchmarks_75_pairs/" rel="alternate"/>
@@ -107,26 +107,6 @@
     <summary type="text">Attentional Entropy Collapse: Not a Bug. The Model Doing Exactly What You Trained It To Do. The Problem You Know You've seen it. Deep layers in large transformers. Attention distributions go sharp — nearly one-hot. Entropy plummets. The model stops considering alternatives. It becomes brittle on out-of-distribution inputs but appears highly confident. You call it &quot;overfitting&quot; or &quot;mode collapse.&quot; </summary>
     <author><name>/u/MIXEDGREENS</name></author>
     <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Gemma 4 QAT benchmark results (AMD 7900 XTX): faster, less VRAM, no quality loss</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txxd7c/gemma_4_qat_benchmark_results_amd_7900_xtx_faster/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txxd7c/gemma_4_qat_benchmark_results_amd_7900_xtx_faster/</id>
-    <updated>2026-06-05T21:01:19Z</updated>
-    <summary type="text">I’ve been doing lots of testing back and forth with this 7900xtx. All of my workloads were relying on qwen3.6 models, which are amazing fwiw, but I wanted some diversity in thought. Namely for Honcho workload tiers and differing cron jobs. Not every workload benefits from an agentic-tuned model, so I’ve been testing out Gemma 4 models more. They also dropped quantization-aware training versions of</summary>
-    <author><name>/u/IvGranite</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>dots.tts 2B🎙️ SOTA TTS from RedNote</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1txwbge/dotstts_2b_sota_tts_from_rednote/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1txwbge/dotstts_2b_sota_tts_from_rednote/</id>
-    <updated>2026-06-05T20:21:33Z</updated>
-    <summary type="text">🔗 Blog: https://rednote-hilab.github.io/dots.tts-demo/ 🔗 GitHub: https://github.com/rednote-hilab/dots.tts 🔗 Technical Report: https://arxiv.org/abs/2608.16894 dots.tts 🎙️ New open-source TTS from RedNote (Xiaohongshu) ✨ 2B parameters (Apache 2.0) ✨ Fully continuous architecture (no codec tokens) ✨ 48 kHz synthesis ✨ Zero-shot voice cloning ✨ Direct text → speech (no phoneme pipeline) submitted by</summary>
-    <author><name>/u/KokaOP</name></author>
-    <category term="open-source"/>
     <category term="research"/>
   </entry>
 </feed>
