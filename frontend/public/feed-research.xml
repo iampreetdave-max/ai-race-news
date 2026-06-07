@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-07T05:26:13Z</updated>
+  <updated>2026-06-07T09:21:32Z</updated>
+  <entry>
+    <title>Research collection of Arxiv whitepapers [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/</id>
+    <updated>2026-06-07T08:59:58Z</updated>
+    <summary type="text">I read and collected Arxiv whitepapers starting after the launch of ChatGPT. I copied and pasted excerpts into Word to track them. Then migrated to Obsidian. That vault of some 1700 papers is now online. I figured it was time to see if others would find the collection useful. My whitepapers were organized into some 90 categories, all of which emerged from paper topics. New categories became necess</summary>
+    <author><name>/u/Barton5877</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>How to compare Original vs QAT Gemma 4 31B Q4 quants</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/</id>
+    <updated>2026-06-07T07:37:36Z</updated>
+    <summary type="text">I just came across the following post, where a user found some confusing divergence results between Q4 quants of the original and QAT models with a Q8/unquantized reference of the original model. https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/ From there I understood that after the retraining of Gemma 4 31B QAT, this could be considered as a differe</summary>
+    <author><name>/u/Hot_Strawberry1999</name></author>
+  </entry>
   <entry>
     <title>Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/" rel="alternate"/>
@@ -128,35 +145,6 @@
     <updated>2026-06-05T08:15:57Z</updated>
     <summary type="text">I know it might be a no-brainer in retrospect, but hear me out, y'all, it's not the whole story. [tinfoil-hat] What is the hidden strategic value of Gemma4-12B beyond the stated &quot;laptop friendly&quot; size? Looking at the new architecture one can't help but notice that the potential quality tradeoff of an already small model might be too brutal - all your parameters are now doing work on heterogenous i</summary>
     <author><name>/u/Opening-Broccoli9190</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Continual Visual and Verbal Learning Through a Child's Egocentric Input</title>
-    <link href="https://arxiv.org/abs/2606.05115v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.05115v1</id>
-    <updated>2026-06-03T17:20:18Z</updated>
-    <summary type="text">Children learn the meanings of words from a continuous, temporally structured stream of egocentric experience. Recent work shows that neural networks can also learn word-referent mappings from a child's egocentric video recordings, but they cycle through the shuffled data for hundreds of epochs, contrasting with how children actually encounter their environment. We introduce BabyCL, a continual mu</summary>
-    <author><name>Mengye Ren</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have</title>
-    <link href="https://arxiv.org/abs/2606.05107v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.05107v1</id>
-    <updated>2026-06-03T17:10:11Z</updated>
-    <summary type="text">We propose a label-free approach to adapt powerful but generic vision foundation models to specialized scientific domains. Standard supervised fine-tuning is often ill-suited to these settings: labels are scarce, and task-specific training can collapse the model's generality and hurt robustness. We instead leverage metadata to adapt representations to new domains in a self-supervised manner. Our m</summary>
-    <author><name>Camille Couprie</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD</title>
-    <link href="https://arxiv.org/abs/2606.05058v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.05058v1</id>
-    <updated>2026-06-03T16:20:57Z</updated>
-    <summary type="text">Computer-Aided Design (CAD) underpins modern engineering and manufacturing by enabling the creation of precise, editable 3D models. However, CAD research typically studies tasks in isolation, and multi-modal, multi-task learning for CAD is hindered by the absence of a unified benchmark. To address this gap, we introduce UniCAD, a comprehensive benchmark for multi-modal CAD learning that covers poi</summary>
-    <author><name>Chen Qian</name></author>
-    <category term="research"/>
     <category term="llm"/>
   </entry>
 </feed>
