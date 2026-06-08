@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-08T00:14:22Z</updated>
+  <updated>2026-06-08T05:55:29Z</updated>
   <entry>
     <title>From Spikes to Insights: Mastering CGM Glucose Prediction with Transformers and PyTorch</title>
     <link href="https://dev.to/beck_moulton/from-spikes-to-insights-mastering-cgm-glucose-prediction-with-transformers-and-pytorch-3gji" rel="alternate"/>
@@ -55,12 +55,72 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism</title>
+    <link href="https://arxiv.org/abs/2606.07512v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07512v1</id>
+    <updated>2026-06-05T17:59:21Z</updated>
+    <summary type="text">Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a H</summary>
+    <author><name>Chunhua Shen</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Streaming Video Generation with Streaming Force Control</title>
+    <link href="https://arxiv.org/abs/2606.07508v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07508v1</id>
+    <updated>2026-06-05T17:57:32Z</updated>
+    <summary type="text">We introduce StreamForce, a streaming video generation framework that enables physically grounded control through continuous force inputs. Unlike prior video models that train separate models for different force types, assume fixed forces, or rely on non-causal processing, StreamForce is a causal and unified model that responds instantly and coherently to both local and global, time-varying forces</summary>
+    <author><name>Huaizu Jiang</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How to compare Original vs QAT Gemma 4 31B Q4 quants</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/" rel="alternate"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/</id>
     <updated>2026-06-07T07:37:36Z</updated>
     <summary type="text">I just came across the following post, where a user found some confusing divergence results between Q4 quants of the original and QAT models with a Q8/unquantized reference of the original model. https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/ From there I understood that after the retraining of Gemma 4 31B QAT, this could be considered as a differe</summary>
     <author><name>/u/Hot_Strawberry1999</name></author>
+  </entry>
+  <entry>
+    <title>DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation</title>
+    <link href="https://arxiv.org/abs/2606.07419v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07419v1</id>
+    <updated>2026-06-05T16:14:39Z</updated>
+    <summary type="text">Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to poor generalization in real-world scenarios due to distribution shifts. We therefore introduce DisPOSE, a self-supervised framework that approximates the </summary>
+    <author><name>Nassir Navab</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Varifold Moment Invariants for Sustainable and Explainable Contour Feature Extraction</title>
+    <link href="https://arxiv.org/abs/2606.07333v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07333v1</id>
+    <updated>2026-06-05T14:48:04Z</updated>
+    <summary type="text">We introduce Varifold Moments Invariants (VMI) as a unifying framework for many previously introduced Moment Invariants. These invariants are deeply related to other contour features that are invariant under translations and rotations, like Extended Gaussian Image, Elliptic Fourier Descriptors or Shape Distributions. The advantage of the varifold approach to moments consists in being able to combi</summary>
+    <author><name>A. B. Tumpach</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>CULTURESCORE: Evaluating Cultural Faithfulness in Video Generation Models</title>
+    <link href="https://arxiv.org/abs/2606.07311v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07311v1</id>
+    <updated>2026-06-05T14:28:29Z</updated>
+    <summary type="text">As video generation models like Veo 3.1 and LTX-2 advance, their ability to accurately represent diverse global cultures remains a critical yet understudied frontier. Current metrics, such as VideoScore, only measure visual quality but offer no mechanism for assessing cultural faithfulness. Consequently, a model that replaces a Namaste with a handshake receives the same score as one that generates</summary>
+    <author><name>Paul Pu Liang</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Closed-Form Spectral Regularization for Multi-Task Model Merging</title>
+    <link href="https://arxiv.org/abs/2606.07289v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.07289v1</id>
+    <updated>2026-06-05T14:00:47Z</updated>
+    <summary type="text">Model merging combines several independently fine-tuned experts into a single multi-task model without any training data, reducing the storage, serving, and decentralized-development costs of large foundation models. State-of-the-art merging methods formulate merging as a layer-wise quadratic interference minimization problem. Although this problem admits an exact closed-form pseudoinverse solutio</summary>
+    <author><name>Dacheng Tao</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.</title>
@@ -101,23 +161,5 @@
     <category term="research"/>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Towards One-to-Many Temporal Grounding</title>
-    <link href="https://arxiv.org/abs/2606.06294v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.06294v1</id>
-    <updated>2026-06-04T15:31:22Z</updated>
-    <summary type="text">Temporal Grounding (TG) aims to localize video segments corresponding to a textual query. Prior research predominantly focuses on single-segment retrieval. Real-world scenarios, however, often require localizing multiple disjoint segments for a single query -- a setting we term One-to-Many Temporal Grounding (OMTG). Previous state-of-the-art MLLMs, optimized for one-to-one settings, struggle in th</summary>
-    <author><name>Jason Li</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>ActiveMimic: Egocentric Video Pretraining with Active Perception</title>
-    <link href="https://arxiv.org/abs/2606.06194v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.06194v1</id>
-    <updated>2026-06-04T14:01:01Z</updated>
-    <summary type="text">Egocentric human video offers a scalable alternative to robot data for pretraining, yet models pretrained on such video consistently underperform those pretrained on robot data. We attribute this gap to a missing signal, the active perception behavior in egocentric videos, where humans continuously reposition their viewpoint during manipulation, inducing camera motion that standard pipelines treat</summary>
-    <author><name>Yu-Gang Jiang</name></author>
-    <category term="research"/>
   </entry>
 </feed>
