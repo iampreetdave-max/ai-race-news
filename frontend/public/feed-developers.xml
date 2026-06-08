@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-08T16:01:47Z</updated>
+  <updated>2026-06-08T19:24:17Z</updated>
+  <entry>
+    <title>Building a high-throughput BGP/BMP collector in Java with virtual threads</title>
+    <link href="https://dev.to/lpworks/building-a-high-throughput-bgpbmp-collector-in-java-with-virtual-threads-4797" rel="alternate"/>
+    <id>https://dev.to/lpworks/building-a-high-throughput-bgpbmp-collector-in-java-with-virtual-threads-4797</id>
+    <updated>2026-06-08T19:08:39Z</updated>
+    <summary type="text">Building a high-throughput BGP/BMP collector in Java with virtual threads Most of the &quot;fast data pipeline&quot; folklore in the JVM world ends at the same place: go reactive, or go home. Netty, event loops, backpressure operators, the works. I wanted to find out whether Java 25's virtual threads let you write the boring, blocking, one-thread-per-connection version — and still move hundreds of thousands</summary>
+    <author><name>Lorenzo Pompili</name></author>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>ContextLens — py-spy/pprof but for what's inside your LLM prompt</title>
     <link href="https://dev.to/harshal_sant_be921c5039f2/contextlens-py-spypprof-but-for-whats-inside-your-llm-prompt-59l7" rel="alternate"/>
@@ -284,6 +293,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I'd like to share an updated methodology for building agents.[P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1u0hj6u/id_like_to_share_an_updated_methodology_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1u0hj6u/id_like_to_share_an_updated_methodology_for/</id>
+    <updated>2026-06-08T19:08:15Z</updated>
+    <summary type="text">Hi guys, been exploring here for a while, wanted to share something we've been working on. It's called Spice, an open-source decision layer above agents. We have tons of great execution agents now — Claude Code, Codex, hermes, etc. They're good at doing stuff. But they're terrible at deciding WHAT to do and WHEN to do it. Right now the &quot;decision&quot; layer is basically you typing a prompt. The agent d</summary>
+    <author><name>/u/Alarming_Rou_3841</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Architecture Breakdown: Building an Enterprise-Grade Legal RAG System (From Ingestion to RAGAS Evaluation)</title>
     <link href="https://dev.to/ayanpal98/architecture-breakdown-building-an-enterprise-grade-legal-rag-system-from-ingestion-to-ragas-4m0c" rel="alternate"/>
     <id>https://dev.to/ayanpal98/architecture-breakdown-building-an-enterprise-grade-legal-rag-system-from-ingestion-to-ragas-4m0c</id>
@@ -303,14 +322,34 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Levi: Run AlphaEvolve on your Claude Code/Codex for dirt cheap [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1u0c33t/levi_run_alphaevolve_on_your_claude_codecodex_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1u0c33t/levi_run_alphaevolve_on_your_claude_codecodex_for/</id>
-    <updated>2026-06-08T16:00:15Z</updated>
-    <summary type="text">Hi r/MachineLearning, Wanted to share something I'm excited about. I’ve been fascinated by AlphaEvolve and its results for more than a year now, but using open source frameworks seems overwhelming because of the high costs. I can’t really afford hundreds of Claude Opus calls every time I want to run it. I want to be able to try it out many times and all sorts of unique domains. What if it was poss</summary>
-    <author><name>/u/Longjumping-Music638</name></author>
+    <title>The AI productivity paradox that needs to be addressed rn</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1u0f28f/the_ai_productivity_paradox_that_needs_to_be/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1u0f28f/the_ai_productivity_paradox_that_needs_to_be/</id>
+    <updated>2026-06-08T17:44:46Z</updated>
+    <summary type="text">The conversation around AI coding is still stuck on velocity and its completely missing the real operational bottleneck -&gt; DEBUGGING I use a combination of tools like GitHub Copilot, Cursor, and generic agentic code gen tools(whichever give me the most credits that week) , dropping a 300-line functional block from a natural language prompt takes about a minute. On paper, developer velocity should </summary>
+    <author><name>/u/SpicyTofu_29</name></author>
+    <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How-to guide to create audiobooks?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0etiv/howto_guide_to_create_audiobooks/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0etiv/howto_guide_to_create_audiobooks/</id>
+    <updated>2026-06-08T17:36:17Z</updated>
+    <summary type="text">There are a number of projects posted in this sub aiming to convert ePub or RTF files to MP3, or just read them off the screen. I've even seen a couple that run on Android, which is really cool. I'm curious if there is a simple guide to install something, point it to an openAI compatible model on my network, and generate an audiobook with realistic voices. Or a docker file that includes a voice mo</summary>
+    <author><name>/u/AerosolHubris</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Levi: Run AlphaEvolve on your local QWEN 30B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/</id>
+    <updated>2026-06-08T16:11:16Z</updated>
+    <summary type="text">Hi r/LocalLLaMA, Wanted to share something I'm excited about. I've been fascinated by AlphaEvolve and its results for more than a year now, but running the open source frameworks gets expensive fast. I can't really afford hundreds of GPT-5 or Claude Opus calls every time I want to try something, and I wanted to be able to run it many times across all sorts of domains. What if you could get that ki</summary>
+    <author><name>/u/Longjumping-Music638</name></author>
     <category term="open-source"/>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with Human Communication</title>
@@ -420,42 +459,6 @@
     <updated>2026-06-06T09:35:25Z</updated>
     <summary type="text">Published on: 2026-06-06 Reading time: 8 min Tags: #security #python #audit #devops 개요 3개월에 걸쳐 개발한 6개 Python 프로젝트(3개 봇 + 3개 라이브러리)를 종합 감사했습니다. 25개 보안/코드 이슈를 발견했고, 23개를 즉시 수정했습니다. 감사 대상: FastAPI + Telegram Bot + LLM 통합 시스템 총 파일: 91개 Python 파일 발견 이슈: 25개 (심각 5개, 중간 18개, 경미 2개) 수정율: 92% (23/25) 심각도 높음 - 5개 이슈 1. API 키가 Git 히스토리에 노출됨 🔴 문제: Anthropic, Supabase, Telegram API 키가 .env 파일로 커밋됨 # ❌ 노출된 상태 (</summary>
     <author><name>JustJinoIT</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Choose Tech Decisions That Serve You (And the &quot;This Must Be False&quot; Rule)</title>
-    <link href="https://dev.to/brixmavu/how-to-choose-tech-decisions-that-serve-you-and-the-this-must-be-false-rule-c32" rel="alternate"/>
-    <id>https://dev.to/brixmavu/how-to-choose-tech-decisions-that-serve-you-and-the-this-must-be-false-rule-c32</id>
-    <updated>2026-06-06T09:24:57Z</updated>
-    <summary type="text">Inspired by Nir Eyal's &quot;beliefs are tools&quot; framework Beliefs are tools, not truths. Tech stacks are too. Pick the ones that work for you. Most &quot;tech debt&quot; is actually &quot;belief debt&quot;. We hold onto frameworks, patterns, and processes long after they stop serving the product. To build great software, we need to introduce a core rule: If a tech belief or &quot;best practice&quot; doesn’t solve a real problem for</summary>
-    <author><name>Brix Mavu</name></author>
-  </entry>
-  <entry>
-    <title>OpsPilot AI: Reviving an Unfinished AI-Powered Operations Platform with GitHub Copilot</title>
-    <link href="https://dev.to/sai7337577955coder/opspilot-ai-reviving-an-unfinished-ai-powered-operations-platform-with-github-copilot-34c9" rel="alternate"/>
-    <id>https://dev.to/sai7337577955coder/opspilot-ai-reviving-an-unfinished-ai-powered-operations-platform-with-github-copilot-34c9</id>
-    <updated>2026-06-06T09:22:36Z</updated>
-    <summary type="text">This is a submission for the GitHub Finish-Up-A-Thon Challenge OpsPilot AI: Reviving an Unfinished AI-Powered Operations Platform with GitHub Copilot What I Built OpsPilot AI is an AI-powered operations assistant designed to help DevOps engineers, SREs, and operations teams investigate incidents, monitor service health, and gain actionable operational insights. The project originally started as a </summary>
-    <author><name>Sai Kumar</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>5 mistakes every vibecoder makes in their first project</title>
-    <link href="https://dev.to/jakub_inithouse/5-mistakes-every-vibecoder-makes-in-their-first-project-2g7e" rel="alternate"/>
-    <id>https://dev.to/jakub_inithouse/5-mistakes-every-vibecoder-makes-in-their-first-project-2g7e</id>
-    <updated>2026-06-06T09:20:26Z</updated>
-    <summary type="text">Vibecoding looks easy. You describe what you want, AI writes it, and you ship. Except your first project usually crashes before it sees a user. At Inithouse, a studio shipping a growing portfolio of products in parallel, we've reviewed hundreds of vibecoded projects through our audit tool at auditvibecoding.com. The same five mistakes show up in roughly 90% of them. Here's what goes wrong, and how</summary>
-    <author><name>Jakub</name></author>
-  </entry>
-  <entry>
-    <title>llama-server router: a model pinned to one GPU still grabs a CUDA context on every card, so it OOMs when my others are full. Am I missing a flag or is this just how it is?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tzo5lb/llamaserver_router_a_model_pinned_to_one_gpu/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tzo5lb/llamaserver_router_a_model_pinned_to_one_gpu/</id>
-    <updated>2026-06-07T21:09:42Z</updated>
-    <summary type="text">Running into something annoying with llama-server in router mode (`--models-preset`) and I can't tell if I'm missing a flag or if this is just how it works. My rig is 2x 3090, 2x 4060 Ti (one's unplugged at the moment, riser got repurposed) and a 5060 Ti. I run a single llama-server router that spawns a child per model on demand, which is great. I usually have a few going at once: a 27B at Q8 acro</summary>
-    <author><name>/u/HockeyDadNinja</name></author>
-    <category term="hardware"/>
     <category term="llm"/>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-08T16:01:47Z</updated>
+  <updated>2026-06-08T19:24:17Z</updated>
   <entry>
     <title>Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing</title>
     <link href="https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/" rel="alternate"/>
@@ -33,6 +33,27 @@
     <updated>2026-06-07T21:35:40Z</updated>
     <summary type="text">LLM-powered Learning, Handwritten Digit Recognition, and AI Career Guidance Today's Highlights This week's top stories showcase practical AI applications: an LLM-powered tool for domain learning, a cloud-enhanced handwritten digit recognition system, and an AI-driven career guide. These projects demonstrate how AI frameworks are being applied to real-world workflows, from knowledge acquisition to </summary>
     <author><name>soy</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>An Implementation of NanoQuant: A flexible binary quantization method</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0di9u/an_implementation_of_nanoquant_a_flexible_binary/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0di9u/an_implementation_of_nanoquant_a_flexible_binary/</id>
+    <updated>2026-06-08T16:50:43Z</updated>
+    <summary type="text">https://github.com/pitbox46/NanoQuant TLDR: NanoQuant is a quantization method to create 2 bit/weight, 1 bit/weight, 0.5 bit/weight, etc, quants of dense transformer models. I've followed the paper's methods and created my own implementation which is still very much a work in progress, but currently seems very promising. I am not affiliated with the NanoQuant team What is NanoQuant NanoQuant (Chon</summary>
+    <author><name>/u/pitbox46</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Levi: Run AlphaEvolve on your local QWEN 30B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/</id>
+    <updated>2026-06-08T16:11:16Z</updated>
+    <summary type="text">Hi r/LocalLLaMA, Wanted to share something I'm excited about. I've been fascinated by AlphaEvolve and its results for more than a year now, but running the open source frameworks gets expensive fast. I can't really afford hundreds of GPT-5 or Claude Opus calls every time I want to try something, and I wanted to be able to run it many times across all sorts of domains. What if you could get that ki</summary>
+    <author><name>/u/Longjumping-Music638</name></author>
+    <category term="open-source"/>
     <category term="research"/>
     <category term="llm"/>
   </entry>
@@ -120,34 +141,5 @@
     <summary type="text">We introduce Varifold Moments Invariants (VMI) as a unifying framework for many previously introduced Moment Invariants. These invariants are deeply related to other contour features that are invariant under translations and rotations, like Extended Gaussian Image, Elliptic Fourier Descriptors or Shape Distributions. The advantage of the varifold approach to moments consists in being able to combi</summary>
     <author><name>A. B. Tumpach</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>CULTURESCORE: Evaluating Cultural Faithfulness in Video Generation Models</title>
-    <link href="https://arxiv.org/abs/2606.07311v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.07311v1</id>
-    <updated>2026-06-05T14:28:29Z</updated>
-    <summary type="text">As video generation models like Veo 3.1 and LTX-2 advance, their ability to accurately represent diverse global cultures remains a critical yet understudied frontier. Current metrics, such as VideoScore, only measure visual quality but offer no mechanism for assessing cultural faithfulness. Consequently, a model that replaces a Namaste with a handshake receives the same score as one that generates</summary>
-    <author><name>Paul Pu Liang</name></author>
-    <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Closed-Form Spectral Regularization for Multi-Task Model Merging</title>
-    <link href="https://arxiv.org/abs/2606.07289v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.07289v1</id>
-    <updated>2026-06-05T14:00:47Z</updated>
-    <summary type="text">Model merging combines several independently fine-tuned experts into a single multi-task model without any training data, reducing the storage, serving, and decentralized-development costs of large foundation models. State-of-the-art merging methods formulate merging as a layer-wise quadratic interference minimization problem. Although this problem admits an exact closed-form pseudoinverse solutio</summary>
-    <author><name>Dacheng Tao</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/</id>
-    <updated>2026-06-07T00:49:07Z</updated>
-    <summary type="text">Edited - After digging into this some more and reviewing unsloth post for better understanding, the divergence APPEARS to stem from I did not use the BF16 QAT model as the &quot;reference&quot; model.... The QAT vs standard Q4 comparison in our benchmark is not apples-to-apples. The QAT models were evaluated against a reference they were never optimised toward. The standard Q4_0 and Q4_K_M comparison is val</summary>
-    <author><name>/u/bitslizer</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
