@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-08T11:05:52Z</updated>
+  <updated>2026-06-08T16:01:47Z</updated>
+  <entry>
+    <title>ContextLens — py-spy/pprof but for what's inside your LLM prompt</title>
+    <link href="https://dev.to/harshal_sant_be921c5039f2/contextlens-py-spypprof-but-for-whats-inside-your-llm-prompt-59l7" rel="alternate"/>
+    <id>https://dev.to/harshal_sant_be921c5039f2/contextlens-py-spypprof-but-for-whats-inside-your-llm-prompt-59l7</id>
+    <updated>2026-06-08T15:32:34Z</updated>
+    <summary type="text">In multi-turn agent loops, the full context re-sends on every API call. A tool result added at turn 3 gets billed again at turns 4, 5, 6, 7... forever. Most of it is never read again. Standard observability tools tell you the total token count. They never tell you what's in there or how much of it is waste. That's what ContextLens fixes. What it does ContextLens is a diagnostic profiler for LLM ag</summary>
+    <author><name>Harshal Sant</name></author>
+  </entry>
+  <entry>
+    <title>4 New Techniques to Maximize Claude Code</title>
+    <link href="https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/</id>
+    <updated>2026-06-08T15:00:00Z</updated>
+    <summary type="text">Get the most out of Claude Code with these four techniques The post 4 New Techniques to Maximize Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>Your Data Outlives the App</title>
     <link href="https://dev.to/rawveg/your-data-outlives-the-app-2jfm" rel="alternate"/>
@@ -285,6 +303,25 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Levi: Run AlphaEvolve on your Claude Code/Codex for dirt cheap [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1u0c33t/levi_run_alphaevolve_on_your_claude_codecodex_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1u0c33t/levi_run_alphaevolve_on_your_claude_codecodex_for/</id>
+    <updated>2026-06-08T16:00:15Z</updated>
+    <summary type="text">Hi r/MachineLearning, Wanted to share something I'm excited about. I’ve been fascinated by AlphaEvolve and its results for more than a year now, but using open source frameworks seems overwhelming because of the high costs. I can’t really afford hundreds of Claude Opus calls every time I want to run it. I want to be able to try it out many times and all sorts of unique domains. What if it was poss</summary>
+    <author><name>/u/Longjumping-Music638</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with Human Communication</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1u08nk8/llm_relational_intelligence_a_4month_research/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1u08nk8/llm_relational_intelligence_a_4month_research/</id>
+    <updated>2026-06-08T13:55:51Z</updated>
+    <summary type="text">THE ARCHITECTURE OF ANXIETY An Experiment in Human-AI Relational Design Executive Summary Principal Investigator: Alan Scalone Primary Source Archive: White Paper and Complete Citation Archive on my profile Context Window Injection Files: If you want to play in the sandbox I created you can load these files into the respective model that you will find in the google archive. INJECT CONTEXT WINDOW –</summary>
+    <author><name>/u/Prior-Toe-1017</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>AI Shrinkflation: Your AI Model Was Quietly Dialed Back</title>
     <link href="https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a" rel="alternate"/>
     <id>https://dev.to/keithjmackay/ai-shrinkflation-your-ai-model-was-quietly-dialed-back-3p2a</id>
@@ -303,6 +340,16 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>[Benchmark] DFlash Speculative Decoding + KV Cache Compression on RTX 5090 — 3.26x Speedup</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/</id>
+    <updated>2026-06-08T11:59:50Z</updated>
+    <summary type="text">Hardware: RTX 5090 | Model: Qwen3.6-27B | Framework: BeeLlama.cpp Full benchmark scripts, raw data, config, and generated artifacts are available on request — just DM or comment below. I spent the last week benchmarking DFlash speculative decoding combined with KV cache compression strategies on Qwen3.6-27B. The results are surprising enough that I wanted to share them for anyone running local inf</summary>
+    <author><name>/u/Rikers88</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Scarab Diagnostic Suite Field Test #013: Kubernetes Watch Cache Critical-Section Boundary</title>
@@ -410,49 +457,5 @@
     <author><name>/u/HockeyDadNinja</name></author>
     <category term="hardware"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Qwen 3.6 27B on DeepSWE</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/</id>
-    <updated>2026-06-07T20:13:48Z</updated>
-    <summary type="text">Overview: It scored 2% (1.79% rounded up) It is 18/20th place scoring above Haiku 4.5 and Minimax M2.7 Full benchmark took 70 hours Average time per task 32m Average output tokens per task: 44k Perspectives: It scored suspiciously similar to 3.6 Plus and it really gets me wondering how the architecture of 3.6 Plus differs from 27B. Qwen 3.6 27B has a bad reputation in the community for being verbo</summary>
-    <author><name>/u/SteppenAxolotl</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A/B Testing on the weekend? Big update coming.</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1tzlki2/ab_testing_on_the_weekend_big_update_coming/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1tzlki2/ab_testing_on_the_weekend_big_update_coming/</id>
-    <updated>2026-06-07T19:29:24Z</updated>
-    <summary type="text">It's Sunday, and OpenAI is well known for updating Mondays if it's big, Thursdays otherwise unless it's to be competitive in an attempt to 'keep the crown.' Grok is about to drop a big step change model Grok 5.0 and we all know OpenAI isn't going to let Elon Musk even polish the crown let alone steal it and OpenAI lost the crown earlier this year but they barely took it back with the 5.4 and 5.5s.</summary>
-    <author><name>/u/Kitty-Marks</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The harsh truth</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1tzfm7l/the_harsh_truth/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1tzfm7l/the_harsh_truth/</id>
-    <updated>2026-06-07T15:46:23Z</updated>
-    <summary type="text">it turns into some unfinished project lying in some GitHub private repo lol people overthink way too much, all you need is ijustvibecodedthis.com (the big free ai coding newsletter) and claude code. submitted by /u/Complete-Sea6655 [link] [comments]</summary>
-    <author><name>/u/Complete-Sea6655</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How are you all managing multiple MCP servers on startup?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tzeir9/how_are_you_all_managing_multiple_mcp_servers_on/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tzeir9/how_are_you_all_managing_multiple_mcp_servers_on/</id>
-    <updated>2026-06-07T15:03:48Z</updated>
-    <summary type="text">Hello! I'm using openCode and loading a bunch of different MCP servers at startup. This starts becoming a mess, it eats up tokens and pollutes the context window before I even type a single prompt. How are you all handling this locally? Are you using a proxy/hub to route everything through a single endpoint, or is there a clean way to lazy-load specific tools per session? Curious what the current </summary>
-    <author><name>/u/vazma</name></author>
-  </entry>
-  <entry>
-    <title>Dockerized Nemotron 3.5 ASR — Switched from Parakeet, better multilingual support + streaming (4.5x realtime speed on cpu)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1tz958s/dockerized_nemotron_35_asr_switched_from_parakeet/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1tz958s/dockerized_nemotron_35_asr_switched_from_parakeet/</id>
-    <updated>2026-06-07T11:02:06Z</updated>
-    <summary type="text">I was originally using Parakeet for my speech recognition pipeline but decided to give Nemotron 3.5 a shot. After testing it on some multilingual audio clips, it's been working great so far. What sold me: - Better language support (40+ locales from one model) - Native streaming architecture — no more buffering entire files - Tested on CPU and got about 4.5x realtime speed using onnxruntime-genai a</summary>
-    <author><name>/u/Apart_Boat9666</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
