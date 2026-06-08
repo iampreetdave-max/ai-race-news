@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-08T05:55:29Z</updated>
+  <updated>2026-06-08T11:05:52Z</updated>
+  <entry>
+    <title>Your Data Outlives the App</title>
+    <link href="https://dev.to/rawveg/your-data-outlives-the-app-2jfm" rel="alternate"/>
+    <id>https://dev.to/rawveg/your-data-outlives-the-app-2jfm</id>
+    <updated>2026-06-08T11:00:00Z</updated>
+    <summary type="text">The app on your phone that you opened this morning, the one you use to check the weather or scan a receipt or convert a file format, may be one of the last of its kind. Not because it will stop working, but because the entire concept of downloading, installing, and maintaining software is hurtling toward obsolescence. In its place, something stranger and more fluid is taking shape: software that e</summary>
+    <author><name>Tim Green</name></author>
+  </entry>
+  <entry>
+    <title>Beyond the Hype: How Top Engineering Teams are Actually Using AI...</title>
+    <link href="https://dev.to/talaamm/beyond-the-hype-how-top-engineering-teams-are-actually-using-ai-37" rel="alternate"/>
+    <id>https://dev.to/talaamm/beyond-the-hype-how-top-engineering-teams-are-actually-using-ai-37</id>
+    <updated>2026-06-08T10:53:18Z</updated>
+    <summary type="text">The narrative surrounding AI in software engineering often oscillates between two extremes: that human developers are becoming obsolete or that AI is merely a fancy autocomplete tool. In a recent webinar featuring leadership from Platform9, Monday.com, and PlayStation, a more nuanced reality emerged. Teams are no longer just &quot;trying&quot; AI; they are restructuring their entire Software Development Lif</summary>
+    <author><name>Tala Amm</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>What is llms.txt? Why Every WooCommerce Store Needs It</title>
     <link href="https://dev.to/athenalion/what-is-llmstxt-why-every-woocommerce-store-needs-it-987" rel="alternate"/>
@@ -322,6 +339,15 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Feel like I'm becoming the glue between many AI tools</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/</id>
+    <updated>2026-06-08T07:48:50Z</updated>
+    <summary type="text">PM at a mid-size startup here. Didn’t really notice how bad it got until this week. My workflow now: Claude for ideation ChatGPT for rewriting specs Cursor for implementation Perplexity for research Notion AI for docs Atoms AI for larger tasks None of these tools actually replaced my work. They just redistributed it. I’m still the one dragging context between all of them. Yesterday I literally cau</summary>
+    <author><name>/u/billa01_i</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes</title>
     <link href="https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/</id>
@@ -428,33 +454,5 @@
     <summary type="text">I was originally using Parakeet for my speech recognition pipeline but decided to give Nemotron 3.5 a shot. After testing it on some multilingual audio clips, it's been working great so far. What sold me: - Better language support (40+ locales from one model) - Native streaming architecture — no more buffering entire files - Tested on CPU and got about 4.5x realtime speed using onnxruntime-genai a</summary>
     <author><name>/u/Apart_Boat9666</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism</title>
-    <link href="https://arxiv.org/abs/2606.07512v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.07512v1</id>
-    <updated>2026-06-05T17:59:21Z</updated>
-    <summary type="text">Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a H</summary>
-    <author><name>Chunhua Shen</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Endava is redesigning software delivery around AI agents</title>
-    <link href="https://openai.com/index/endava-frontiers" rel="alternate"/>
-    <id>https://openai.com/index/endava-frontiers</id>
-    <updated>2026-06-04T12:00:00Z</updated>
-    <summary type="text">Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Skill-3D: Evolving Scene-Aware Skills for Agentic 3D Spatial Reasoning</title>
-    <link href="https://arxiv.org/abs/2606.07436v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.07436v1</id>
-    <updated>2026-06-05T16:33:44Z</updated>
-    <summary type="text">This paper explores agentic 3D spatial understanding, i.e., MLLM agents performing 3D reasoning through tool use. Existing methods often misuse tools and exhibit biased tool preferences under 3D scenarios, leaving the agentic paradigm with only marginal gains over non-agentic strategies. We reveal that 3D spatial reasoning tasks are heterogeneous across scenes, while these agents apply a uniform t</summary>
-    <author><name>Yi Yang</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
