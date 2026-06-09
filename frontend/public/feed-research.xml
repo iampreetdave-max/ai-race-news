@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-09T15:14:05Z</updated>
+  <updated>2026-06-09T18:12:17Z</updated>
   <entry>
     <title>Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing</title>
     <link href="https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/" rel="alternate"/>
@@ -85,6 +85,15 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>Our ICML paper on predictable hallucination (information-budget abstention gate), + ntkMirror: a training-free open-weight implementation we're releasing today</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/</id>
+    <updated>2026-06-09T16:23:05Z</updated>
+    <summary type="text">Our paper, Predictable Compression Failures: Order Sensitivity and Information Budgeting for Evidence-Grounded Binary Adjudication, was accepted at ICML 2026. Paper: https://arxiv.org/abs/2509.11208 The idea: in evidence-grounded QA, the order you present exchangeable evidence in changes the model's answer probability (permutation dispersion). We treat order as a nuisance variable, derive the Expe</summary>
+    <author><name>/u/Upset-Presentation28</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>From Spikes to Insights: Mastering CGM Glucose Prediction with Transformers and PyTorch</title>
     <link href="https://dev.to/beck_moulton/from-spikes-to-insights-mastering-cgm-glucose-prediction-with-transformers-and-pytorch-3gji" rel="alternate"/>
     <id>https://dev.to/beck_moulton/from-spikes-to-insights-mastering-cgm-glucose-prediction-with-transformers-and-pytorch-3gji</id>
@@ -112,27 +121,6 @@
     <updated>2026-06-09T02:05:02Z</updated>
     <summary type="text">It makes one of the cleanest cases for AI consciousness out there. Syn is a continuously running cognitive architecture built from five coordinated Gemma models organized into two functional hemispheres, and the paper does not just gush about her. It does something smart. It takes the exact standards that consciousness science already uses to ascribe inner experience to animals and to unusual huma</summary>
     <author><name>/u/Zap_Phoenix</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>An Implementation of NanoQuant: A flexible binary quantization method</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0di9u/an_implementation_of_nanoquant_a_flexible_binary/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0di9u/an_implementation_of_nanoquant_a_flexible_binary/</id>
-    <updated>2026-06-08T16:50:43Z</updated>
-    <summary type="text">https://github.com/pitbox46/NanoQuant TLDR: NanoQuant is a quantization method to create 2 bit/weight, 1 bit/weight, 0.5 bit/weight, etc, quants of dense transformer models. I've followed the paper's methods and created my own implementation which is still very much a work in progress, but currently seems very promising. I am not affiliated with the NanoQuant team What is NanoQuant NanoQuant (Chon</summary>
-    <author><name>/u/pitbox46</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Levi: Run AlphaEvolve on your local QWEN 30B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0cesq/levi_run_alphaevolve_on_your_local_qwen_30b/</id>
-    <updated>2026-06-08T16:11:16Z</updated>
-    <summary type="text">Hi r/LocalLLaMA, Wanted to share something I'm excited about. I've been fascinated by AlphaEvolve and its results for more than a year now, but running the open source frameworks gets expensive fast. I can't really afford hundreds of GPT-5 or Claude Opus calls every time I want to try something, and I wanted to be able to run it many times across all sorts of domains. What if you could get that ki</summary>
-    <author><name>/u/Longjumping-Music638</name></author>
-    <category term="open-source"/>
-    <category term="research"/>
     <category term="llm"/>
   </entry>
 </feed>
