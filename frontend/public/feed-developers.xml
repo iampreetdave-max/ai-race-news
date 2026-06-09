@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-08T23:15:08Z</updated>
+  <updated>2026-06-09T03:56:21Z</updated>
   <entry>
     <title>Apple’s new parental controls are for keeping Apple out of trouble</title>
     <link href="https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc" rel="alternate"/>
@@ -12,6 +12,24 @@
     <updated>2026-06-08T21:48:08Z</updated>
     <summary type="text">When Apple put child safety front and center at WWDC on Monday, its stated goal was helping parents fine-tune their kids' online experiences and avoid excessive screen time. But amid a global debate over internet regulation, its latest updates also looked like a defensive move in a brewing fight against Meta and other app developers. […]</summary>
     <author><name>Lauren Feiner</name></author>
+  </entry>
+  <entry>
+    <title>Why SQLite FTS5's default tokenizer drops your Japanese substrings (and the one-line fix)</title>
+    <link href="https://dev.to/omochi_dev/why-sqlite-fts5s-default-tokenizer-drops-your-japanese-substrings-and-the-one-line-fix-1k2d" rel="alternate"/>
+    <id>https://dev.to/omochi_dev/why-sqlite-fts5s-default-tokenizer-drops-your-japanese-substrings-and-the-one-line-fix-1k2d</id>
+    <updated>2026-06-09T03:34:19Z</updated>
+    <summary type="text">If you're building any kind of personal-memory layer on top of SQLite — Claude Code conversation history, notes app, indexed knowledge base — there's a sharp edge in FTS5 that takes most people by surprise the first time they hit it. The default tokenizer (unicode61) silently drops most Japanese substring queries. The fix is one line of SQL. But the failure mode is invisible enough that you can sh</summary>
+    <author><name>Omochi</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>From Scratch: How to Integrate Reasonix CLI into the HagiCode System</title>
+    <link href="https://dev.to/newbe36524/from-scratch-how-to-integrate-reasonix-cli-into-the-hagicode-system-409c" rel="alternate"/>
+    <id>https://dev.to/newbe36524/from-scratch-how-to-integrate-reasonix-cli-into-the-hagicode-system-409c</id>
+    <updated>2026-06-09T03:05:06Z</updated>
+    <summary type="text">From Scratch: How to Integrate Reasonix CLI into the HagiCode System This article shares the complete technical practice of integrating Reasonix CLI as a first-class Agent Provider into the HagiCode system, covering three-layer architecture design, key technical decisions, and frontend and backend implementation details. Background Reasonix CLI, as it happens, is a pretty interesting thing. It's a</summary>
+    <author><name>Hagicode</name></author>
   </entry>
   <entry>
     <title>[FOR HIRE] Front-End Developer | 4.5+ Years Experience | Next.js /React / TypeScript / JavaScript | Open to Full-Time/PartTime Remote Positions</title>
@@ -39,6 +57,15 @@
     <summary type="text">Building a high-throughput BGP/BMP collector in Java with virtual threads Most of the &quot;fast data pipeline&quot; folklore in the JVM world ends at the same place: go reactive, or go home. Netty, event loops, backpressure operators, the works. I wanted to find out whether Java 25's virtual threads let you write the boring, blocking, one-thread-per-connection version — and still move hundreds of thousands</summary>
     <author><name>Lorenzo Pompili</name></author>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>MAVIS: Multi-Agent Video Retrieval via Structured Video Understanding</title>
+    <link href="https://arxiv.org/abs/2606.09641v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.09641v1</id>
+    <updated>2026-06-08T15:36:15Z</updated>
+    <summary type="text">The dominant paradigm in video retrieval relies on embedding-based full-corpus scanning, which suffers from inherent computational inefficiency and the semantic asymmetry between information-dense videos and sparse textual queries. To bridge this gap, we introduce \textbf{MAVIS}, a novel multi-agent framework that rethinks retrieval as cooperative reasoning rather than brute-force search. MAVIS fi</summary>
+    <author><name>Fei Luo</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>ContextLens — py-spy/pprof but for what's inside your LLM prompt</title>
@@ -434,30 +461,5 @@
     <author><name>/u/Rikers88</name></author>
     <category term="hardware"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scarab Diagnostic Suite Field Test #013: Kubernetes Watch Cache Critical-Section Boundary</title>
-    <link href="https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-013-kubernetes-watch-cache-critical-section-boundary-284o" rel="alternate"/>
-    <id>https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-013-kubernetes-watch-cache-critical-section-boundary-284o</id>
-    <updated>2026-06-06T21:24:37Z</updated>
-    <summary type="text">This field test was against Kubernetes. The issue was Kubernetes #138728: https://github.com/kubernetes/kubernetes/pull/139545 The issue involved the watch cache path around initial events. The useful diagnostic boundary was: watch cache consistency work → read lock hold time → initial event delivery That matters because cache paths in Kubernetes are not just storage details. They sit between stor</summary>
-    <author><name>Scarab Systems</name></author>
-  </entry>
-  <entry>
-    <title>Building a LangGraph RAG Agent from Scratch — with a Live UI That Shows Every Step</title>
-    <link href="https://dev.to/ameya_joshi_68fa01c3a1a16/building-a-langgraph-rag-agent-from-scratch-with-a-live-ui-that-shows-every-step-4nle" rel="alternate"/>
-    <id>https://dev.to/ameya_joshi_68fa01c3a1a16/building-a-langgraph-rag-agent-from-scratch-with-a-live-ui-that-shows-every-step-4nle</id>
-    <updated>2026-06-06T20:06:02Z</updated>
-    <summary type="text">I built a learning project that teaches LangChain and LangGraph step by step — starting from a raw LLM call and ending with a full ReAct agent backed by RAG, streamed over SSE to a React UI that visualises every node in the agent loop in real time. This post walks through the whole thing: what each concept does, how it connects to the next, and how the live pipeline view works. What we're building</summary>
-    <author><name>ameya joshi</name></author>
-  </entry>
-  <entry>
-    <title>How to Orchestrate Autonomous Sub-Agents Without Blowing Your LLM Context Window</title>
-    <link href="https://dev.to/programmingcentral/how-to-orchestrate-autonomous-sub-agents-without-blowing-your-llm-context-window-jpo" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/how-to-orchestrate-autonomous-sub-agents-without-blowing-your-llm-context-window-jpo</id>
-    <updated>2026-06-06T20:00:00Z</updated>
-    <summary type="text">We have all hit the &quot;monolithic LLM wall.&quot; You design an incredibly capable AI agent, arm it with a suite of tools, and give it a complex, multi-step task—like writing a comprehensive technical paper complete with data analysis, web research, and code verification. At first, it works beautifully. But as the steps accumulate, the context window fills up. The agent begins to experience &quot;attention dr</summary>
-    <author><name>Programming Central</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
