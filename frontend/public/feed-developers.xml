@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-09T03:56:21Z</updated>
+  <updated>2026-06-09T07:56:15Z</updated>
   <entry>
     <title>Apple’s new parental controls are for keeping Apple out of trouble</title>
     <link href="https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc" rel="alternate"/>
@@ -12,6 +12,15 @@
     <updated>2026-06-08T21:48:08Z</updated>
     <summary type="text">When Apple put child safety front and center at WWDC on Monday, its stated goal was helping parents fine-tune their kids' online experiences and avoid excessive screen time. But amid a global debate over internet regulation, its latest updates also looked like a defensive move in a brewing fight against Meta and other app developers. […]</summary>
     <author><name>Lauren Feiner</name></author>
+  </entry>
+  <entry>
+    <title>Kubernetes vs Docker, PaaS, and Traditional Deployment Tools for AI Apps: What Developers Need in 2026</title>
+    <link href="https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga" rel="alternate"/>
+    <id>https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga</id>
+    <updated>2026-06-09T07:45:12Z</updated>
+    <summary type="text">A pattern keeps repeating itself in AI projects. The model works. The demo works. The proof of concept gets approved. Then someone asks the question that nobody wants to answer: &quot;How are we going to deploy this thing?&quot; At first, the answer seems simple. You have a FastAPI backend, maybe a vector database, an LLM endpoint, and a Docker container that runs perfectly on your laptop. Then Kubernetes s</summary>
+    <author><name>Hadil Ben Abdallah</name></author>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Why SQLite FTS5's default tokenizer drops your Japanese substrings (and the one-line fix)</title>
@@ -245,6 +254,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Gemma 4 26B A4B IT QAT Comparison</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u0ubbo/gemma_4_26b_a4b_it_qat_comparison/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u0ubbo/gemma_4_26b_a4b_it_qat_comparison/</id>
+    <updated>2026-06-09T04:01:28Z</updated>
+    <summary type="text">Hopefully this isn't too low effort of a post. I just finished the benchmarks and I figured I'd post them online because they certainly were insightful for me. I did not use any AI other than asking Gemini 3.1 Pro if it was statistically significant because I was too tired to do inferential statistics. Methodology: oMLX used to run Gemma 4 26BA4B IT from mlx-community. I used the following models:</summary>
+    <author><name>/u/GoodTip7897</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>5 AI Coding Prompts That Changed How I Ship Software</title>
     <link href="https://dev.to/z_z_c01afd7cf4c3764a2c73d/5-ai-coding-prompts-that-changed-how-i-ship-software-4b22" rel="alternate"/>
     <id>https://dev.to/z_z_c01afd7cf4c3764a2c73d/5-ai-coding-prompts-that-changed-how-i-ship-software-4b22</id>
@@ -439,27 +458,6 @@
     <updated>2026-06-06T23:50:30Z</updated>
     <summary type="text">AI Shrinkflation: Your AI Model Was Quietly Dialed Back The age of token subsidization is over. AI providers are adjusting pricing, throttling capacity, and dialing back model quality — and most users haven't noticed yet. You open your AI coding assistant on a Tuesday morning. Something feels off. The reasoning feels shallower. The context-building you relied on is gone. It's not stopping to read </summary>
     <author><name>Keith MacKay</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Syncing AI agents across Claude, Gemini, and Cursor</title>
-    <link href="https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j" rel="alternate"/>
-    <id>https://dev.to/mustafa_bahaa/syncing-ai-agents-across-claude-gemini-and-cursor-3d0j</id>
-    <updated>2026-06-06T23:40:48Z</updated>
-    <summary type="text">If you are using AI coding assistants today, chances are you aren't just using one. You might be using Claude Code in the terminal for rapid CLI actions, Gemini CLI for long-context search, and Cursor or Copilot as your main IDE. But there is a major friction point: none of these tools talk to each other. If you configure a Model Context Protocol (MCP) server in Claude, Cursor knows nothing about </summary>
-    <author><name>Mustafa Bahaa</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>[Benchmark] DFlash Speculative Decoding + KV Cache Compression on RTX 5090 — 3.26x Speedup</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/</id>
-    <updated>2026-06-08T11:59:50Z</updated>
-    <summary type="text">Hardware: RTX 5090 | Model: Qwen3.6-27B | Framework: BeeLlama.cpp Full benchmark scripts, raw data, config, and generated artifacts are available on request — just DM or comment below. I spent the last week benchmarking DFlash speculative decoding combined with KV cache compression strategies on Qwen3.6-27B. The results are surprising enough that I wanted to share them for anyone running local inf</summary>
-    <author><name>/u/Rikers88</name></author>
-    <category term="hardware"/>
     <category term="llm"/>
   </entry>
 </feed>
