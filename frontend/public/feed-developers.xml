@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-09T21:03:28Z</updated>
+  <updated>2026-06-09T23:20:24Z</updated>
   <entry>
     <title>How engineers at Nextdoor use Codex to build without limits</title>
     <link href="https://openai.com/index/nextdoor" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Codex unlocks for Notion</title>
+    <link href="https://openai.com/index/notion" rel="alternate"/>
+    <id>https://openai.com/index/notion</id>
+    <updated>2026-06-09T10:00:00Z</updated>
+    <summary type="text">How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.</summary>
+    <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
     <title>Autonomous AI Data Loss in DevOps: Building Efficient Defenses</title>
@@ -189,6 +197,15 @@ github.com/Dexter2344/phone-agent</title>
     <summary type="text">The narrative surrounding AI in software engineering often oscillates between two extremes: that human developers are becoming obsolete or that AI is merely a fancy autocomplete tool. In a recent webinar featuring leadership from Platform9, Monday.com, and PlayStation, a more nuanced reality emerged. Teams are no longer just &quot;trying&quot; AI; they are restructuring their entire Software Development Lif</summary>
     <author><name>Tala Amm</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Phinite — multi-agent OS with first-class agent identity, composable skills, behavioral evaluation [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/</id>
+    <updated>2026-06-09T22:17:47Z</updated>
+    <summary type="text">We spent the last year building what we think is the missing infrastructure layer for multi-agent systems. Open to everyone starting today. The technical problem: Agents have no identity. In microservices you have a service mesh + IAM. In agent systems you have a Python file. We built a registry where every agent has a first-class ID, version, owner, skill graph. Behavioral evaluation, not functio</summary>
+    <author><name>/u/Embarrassed-Radio319</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>What is llms.txt? Why Every WooCommerce Store Needs It</title>
@@ -436,35 +453,6 @@ github.com/Dexter2344/phone-agent</title>
     <updated>2026-06-07T13:18:55Z</updated>
     <summary type="text">Security Audit of 6 Python Projects: 25 Issues Found &amp; Fixed Published on: 2026-06-06 Reading time: 8 min Tags: #security #python #audit #devops Overview Over 3 months, I developed and audited 6 Python projects (3 bots + 3 libraries): a FastAPI + Telegram Bot + LLM integration system. I discovered 25 security/code issues and fixed 23 immediately. Audit scope: 91 Python files Issues found: 25 (5 cr</summary>
     <author><name>JustJinoIT</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Termote - Remote Agentic Development Enviroment</title>
-    <link href="https://dev.to/alisharjeel/termote-remote-agentic-development-enviroment-2g33" rel="alternate"/>
-    <id>https://dev.to/alisharjeel/termote-remote-agentic-development-enviroment-2g33</id>
-    <updated>2026-06-07T11:45:14Z</updated>
-    <summary type="text">This is a submission for the GitHub Finish-Up-A-Thon Challenge What I Built I built Termote, a lightweight Rust + Tauri based Agentic Development Environment for people who run terminals, servers, scripts, and AI coding agents on their desktop. At its core, Termote gives you a persistent multi-pane workspace where you can run multiple terminals side by side, launch AI CLI tools like Claude Code or</summary>
-    <author><name>Ali Sharjeel</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The AWS Charge Silently Eating Your K8s Budget: NAT Gateway Explained</title>
-    <link href="https://dev.to/kloudaudit/the-aws-charge-silently-eating-your-k8s-budget-nat-gateway-explained-13f2" rel="alternate"/>
-    <id>https://dev.to/kloudaudit/the-aws-charge-silently-eating-your-k8s-budget-nat-gateway-explained-13f2</id>
-    <updated>2026-06-07T11:41:52Z</updated>
-    <summary type="text">You get your AWS bill. EC2 looks reasonable. RDS looks fine. Then there's a line item called &quot;NAT Gateway&quot; sitting at $800 and you have no idea why. This is the charge that catches almost every team running Kubernetes on AWS. Here is exactly what it is, why it grows silently, and how to fix it in 20 minutes. What NAT Gateway Actually Does A NAT Gateway lets resources in your private subnets reach </summary>
-    <author><name>KloudAudit</name></author>
-  </entry>
-  <entry>
-    <title>Building an MCP server with Node.js</title>
-    <link href="https://dev.to/zsevic/building-an-mcp-server-with-nodejs-55b1" rel="alternate"/>
-    <id>https://dev.to/zsevic/building-an-mcp-server-with-nodejs-55b1</id>
-    <updated>2026-06-07T11:25:30Z</updated>
-    <summary type="text">The Model Context Protocol (MCP) is an open standard for connecting AI hosts (Claude, ChatGPT, Cursor, VS Code, and others) to external context and actions through a structured protocol instead of ad-hoc plugins. The host runs an MCP client. Your application is the MCP server, exposing tools (actions the model can invoke), resources (read-only data), and optionally prompts (reusable message templa</summary>
-    <author><name>Željko Šević</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
     <category term="llm"/>
   </entry>
 </feed>
