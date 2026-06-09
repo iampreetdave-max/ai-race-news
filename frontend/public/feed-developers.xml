@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-09T11:23:23Z</updated>
+  <updated>2026-06-09T15:14:05Z</updated>
   <entry>
     <title>Autonomous AI Data Loss in DevOps: Building Efficient Defenses</title>
     <link href="https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/" rel="alternate"/>
@@ -31,6 +31,21 @@
     <updated>2026-06-08T21:48:08Z</updated>
     <summary type="text">When Apple put child safety front and center at WWDC on Monday, its stated goal was helping parents fine-tune their kids' online experiences and avoid excessive screen time. But amid a global debate over internet regulation, its latest updates also looked like a defensive move in a brewing fight against Meta and other app developers. […]</summary>
     <author><name>Lauren Feiner</name></author>
+  </entry>
+  <entry>
+    <title>Day 2 of building an AI agent that controls a phone.
+
+Repo is live. First script is working. Gemma 4 + ADB + Python.
+
+No cloud. No API keys. Just a phone that understands commands and executes them.
+
+github.com/Dexter2344/phone-agent</title>
+    <link href="https://dev.to/okeke_chukwudubem_5f3bf49/day-2-of-building-an-ai-agent-that-controls-a-phone-repo-is-live-first-script-is-working-435l" rel="alternate"/>
+    <id>https://dev.to/okeke_chukwudubem_5f3bf49/day-2-of-building-an-ai-agent-that-controls-a-phone-repo-is-live-first-script-is-working-435l</id>
+    <updated>2026-06-09T14:57:23Z</updated>
+    <summary type="text">Project Log #2: The AI Phone Agent Has a Repo Okeke Chukwudubem Okeke Chukwudubem Okeke Chukwudubem Follow Jun 9 Project Log #2: The AI Phone Agent Has a Repo #ai #android #automation #gemma Add Comment 1 min read</summary>
+    <author><name>Okeke Chukwudubem</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>The 2026 AI Coding Conversation Has Moved Past Cursor vs Claude Code</title>
@@ -198,6 +213,26 @@
     <updated>2026-06-07T23:48:19Z</updated>
     <summary type="text">API 키 Git 히스토리에서 완전 제거: BFG + force push 가이드 Published on: 2026-06-06 Reading time: 5 min Tags: #security #git #devops #secrets 상황 API 키가 .env 파일로 Git 히스토리에 커밋되었습니다. git log --all --full-history --name-only | grep &quot;.env&quot; # f300032 Remove .env from version control (security: API keys exposed) # c9de179 Initial commit: Contest Agent - AI-powered contest automation 즉각적인 위험: 누구든 git clone → git log → </summary>
     <author><name>JustJinoIT</name></author>
+  </entry>
+  <entry>
+    <title>Apple announced new on device inference engine for Apple Silicon</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/</id>
+    <updated>2026-06-09T13:29:13Z</updated>
+    <summary type="text">This news seem to have flown under the radar. Apple announced CoreAI on WWDC which is basically a future replacement for CoreML and an alternative to MLX/llama.cpp/torch for on-device optimized inference, especially on phones and tablets. The model weights need to be converted similarly to CoreML via python script, atm the list of supported models is mostly from mid 2025 year though https://github</summary>
+    <author><name>/u/bakawolf123</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/</id>
+    <updated>2026-06-09T13:11:08Z</updated>
+    <summary type="text">This is still a work in progress, but since recording the video, I added callbacks for tool use, more tests, and published it as a cargo crate. Currently working on speeding up the prefill. The decode speed is almost the same on my Ryzen 7950x (~37 tokens/s), but the prefill speed is not yet optimized (almost the same as decode). This model can comfortably run on a machine with 16GB of RAM. Its me</summary>
+    <author><name>/u/maximecb</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>How to give GitHub Copilot cross-repo context today</title>
@@ -431,34 +466,5 @@
     <author><name>/u/luongnv-com</name></author>
     <category term="llm"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>I'd like to share an updated methodology for building agents.[P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1u0hj6u/id_like_to_share_an_updated_methodology_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1u0hj6u/id_like_to_share_an_updated_methodology_for/</id>
-    <updated>2026-06-08T19:08:15Z</updated>
-    <summary type="text">Hi guys, been exploring here for a while, wanted to share something we've been working on. It's called Spice, an open-source decision layer above agents. We have tons of great execution agents now — Claude Code, Codex, hermes, etc. They're good at doing stuff. But they're terrible at deciding WHAT to do and WHEN to do it. Right now the &quot;decision&quot; layer is basically you typing a prompt. The agent d</summary>
-    <author><name>/u/Alarming_Rou_3841</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Architecture Breakdown: Building an Enterprise-Grade Legal RAG System (From Ingestion to RAGAS Evaluation)</title>
-    <link href="https://dev.to/ayanpal98/architecture-breakdown-building-an-enterprise-grade-legal-rag-system-from-ingestion-to-ragas-4m0c" rel="alternate"/>
-    <id>https://dev.to/ayanpal98/architecture-breakdown-building-an-enterprise-grade-legal-rag-system-from-ingestion-to-ragas-4m0c</id>
-    <updated>2026-06-07T05:00:49Z</updated>
-    <summary type="text">Hey Devs! 👋 Building a Retrieval-Augmented Generation (RAG) system for standard Q&amp;A is relatively straightforward. But when you move into the legal domain, standard setups fall apart. Accuracy isn't a vanity metric here—hallucinations can have actual legal consequences, and citations are non-negotiable. I recently mapped out and built an end-to-end architecture for a Legal RAG System designed to h</summary>
-    <author><name>Ayan pal</name></author>
-    <category term="rag"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Three new ways to call Prism — CLI, MCP, and SDKs</title>
-    <link href="https://dev.to/rikuq/three-new-ways-to-call-prism-cli-mcp-and-sdks-3o4l" rel="alternate"/>
-    <id>https://dev.to/rikuq/three-new-ways-to-call-prism-cli-mcp-and-sdks-3o4l</id>
-    <updated>2026-06-07T04:30:36Z</updated>
-    <summary type="text">For most of v1.x, the only way to operate Prism — change cache settings, set routing policy, cap a budget, audit who did what — was through the web dashboard. That was fine when the product was an OpenAI-compatible chat endpoint plus a small marketing site. It stopped being fine the moment we asked customers to live with Prism in production. v1.8 closes that gap. Three new surfaces, all backed by </summary>
-    <author><name>Ravi Patel</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
