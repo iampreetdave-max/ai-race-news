@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-10T16:38:55Z</updated>
+  <updated>2026-06-10T19:37:33Z</updated>
   <entry>
     <title>Claude Fable 5: The first Mythos model is powerful, expensive, and heavily filtered</title>
     <link href="https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Microsoft restricts Claude Fable for employees over data retention concerns</title>
+    <link href="https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally" rel="alternate"/>
+    <id>https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally</id>
+    <updated>2026-06-10T16:50:23Z</updated>
+    <summary type="text">Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm […]</summary>
+    <author><name>Tom Warren</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/</id>
@@ -22,6 +31,83 @@
     <summary type="text">Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision. No single tool fits every need. This guide covers the AI coding agents […] The post Top AI Coding Agents and Development Platforms in 2026: </summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What I shipped in one Claude Code session: a real-time mempool rug-detector pipeline</title>
+    <link href="https://dev.to/mik3fly__/what-i-shipped-in-one-claude-code-session-a-real-time-mempool-rug-detector-pipeline-2014" rel="alternate"/>
+    <id>https://dev.to/mik3fly__/what-i-shipped-in-one-claude-code-session-a-real-time-mempool-rug-detector-pipeline-2014</id>
+    <updated>2026-06-10T19:29:12Z</updated>
+    <summary type="text">I run RektRadar, a real-time scam-token detector for Ethereum. This is an honest build-log of one session with Claude Code (the Fable model) where I went from &quot;our scam detection misses a few things&quot; to four new detection signals shipped and a three-repo real-time alert pipeline live in production. Every PR linked below is public. Not &quot;the AI did everything magically&quot;. The interesting part is the </summary>
+    <author><name>Bryan MARTIN</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Amazon Kiro vs Amazon Q Developer: Which AI Coding IDE Wins for Backend Engineers?</title>
+    <link href="https://dev.to/jubinsoni/amazon-kiro-vs-amazon-q-developer-which-ai-coding-ide-wins-for-backend-engineers-egf" rel="alternate"/>
+    <id>https://dev.to/jubinsoni/amazon-kiro-vs-amazon-q-developer-which-ai-coding-ide-wins-for-backend-engineers-egf</id>
+    <updated>2026-06-10T19:25:00Z</updated>
+    <summary type="text">The Abrupt End of Amazon Q Developer In May 2026, AWS dropped a bombshell: Amazon Q Developer IDE plugins and paid subscriptions will reach end-of-support on April 30, 2027, with new signups blocked as of May 15, 2026. The successor? Kiro — AWS's next-generation AI IDE that reframes how engineers build software from scratch. If you're a backend engineer who has been relying on Q Developer for code</summary>
+    <author><name>Jubin Soni</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building Healthcare AI Taught Me That the Model Is the Easy Part</title>
+    <link href="https://dev.to/blakelucey/building-healthcare-ai-taught-me-that-the-model-is-the-easy-part-8ef" rel="alternate"/>
+    <id>https://dev.to/blakelucey/building-healthcare-ai-taught-me-that-the-model-is-the-easy-part-8ef</id>
+    <updated>2026-06-10T19:12:07Z</updated>
+    <summary type="text">When most developers think about healthcare AI, they think about models. Which model should we use? Should we use a managed API or self-host? How large does the context window need to be? What's the cost per token? After spending the last several months building healthcare AI software, I've come to a different conclusion: The model is often the easiest part of the system. The Real Challenge Buildi</summary>
+    <author><name>Blake M Lucey</name></author>
+  </entry>
+  <entry>
+    <title>AI makes experienced devs 19% slower. They just don't feel it.</title>
+    <link href="https://dev.to/adioof/ai-makes-experienced-devs-19-slower-they-just-dont-feel-it-28e0" rel="alternate"/>
+    <id>https://dev.to/adioof/ai-makes-experienced-devs-19-slower-they-just-dont-feel-it-28e0</id>
+    <updated>2026-06-10T19:11:28Z</updated>
+    <summary type="text">Senior devs used AI coding tools and got 19% slower. But they felt 20% faster. Read that again. No, you read that correctly. A 39-percentage-point difference between what people think about something and what the truth is. And it might be the most important finding about AI-assisted development this year. The Study Experienced open-source developers who worked on real tasks were measured by resear</summary>
+    <author><name>Aditya Agarwal</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>We scanned 17,000 Claude Code skills. 39% run shell commands - only 4% say so up front.</title>
+    <link href="https://dev.to/skillock/we-scanned-17000-claude-code-skills-39-run-shell-commands-only-4-say-so-up-front-5b7e" rel="alternate"/>
+    <id>https://dev.to/skillock/we-scanned-17000-claude-code-skills-39-run-shell-commands-only-4-say-so-up-front-5b7e</id>
+    <updated>2026-06-10T19:09:56Z</updated>
+    <summary type="text">An AI skill is a Markdown file your coding agent reads and obeys. GitHub code search currently finds 74,192 SKILL.md files installed under .claude/skills/ in public repos. We pulled a sample of 461 of those repos (plus the official Anthropic, OpenAI, and Trail of Bits catalogs), ran a static capability scan over every skill, and aggregated what they can actually do. Sample: 392 repos with parseabl</summary>
+    <author><name>skil-lock</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>10 free AI tools I actually use in 2026 (no paywall, no catch)</title>
+    <link href="https://dev.to/hao_yang_5fb568e56ecf223c/10-free-ai-tools-i-actually-use-in-2026-no-paywall-no-catch-gb2" rel="alternate"/>
+    <id>https://dev.to/hao_yang_5fb568e56ecf223c/10-free-ai-tools-i-actually-use-in-2026-no-paywall-no-catch-gb2</id>
+    <updated>2026-06-10T19:09:48Z</updated>
+    <summary type="text">The boring truth about &quot;free AI&quot; in 2026 Most lists are affiliate farms. This one is not. Every tool below has a real free tier that I personally use — for writing, coding, image generation, audio, and research. I am not affiliated with any of them, and I paid nothing. My daily stack ChatGPT (free tier) — still the fastest for quick &quot;what is the regex for…&quot; moments. Claude (free tier) — better at </summary>
+    <author><name>hao yang</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Codex CLI in 10 minutes: a hands-on tour for the curious dev</title>
+    <link href="https://dev.to/hao_yang_5fb568e56ecf223c/codex-cli-in-10-minutes-a-hands-on-tour-for-the-curious-dev-13n9" rel="alternate"/>
+    <id>https://dev.to/hao_yang_5fb568e56ecf223c/codex-cli-in-10-minutes-a-hands-on-tour-for-the-curious-dev-13n9</id>
+    <updated>2026-06-10T19:08:45Z</updated>
+    <summary type="text">What Codex CLI actually is I kept seeing Codex CLI show up in my feed and finally gave it a real weekend. Here is the short version: it is a terminal-based coding agent from OpenAI that you can drive from your shell, in your repo, with a single command. If you have used Claude Code, it will feel familiar — but it is a separate product with its own personality. The 5 commands I actually use Command</summary>
+    <author><name>hao yang</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Refactor Code with Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-refactor-code-with-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-refactor-code-with-claude-code/</id>
+    <updated>2026-06-10T18:00:00Z</updated>
+    <summary type="text">Improve coding agent productiveness with refactored code The post How to Refactor Code with Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>How engineers at Nextdoor use Codex to build without limits</title>
@@ -261,6 +347,16 @@ github.com/Dexter2344/phone-agent</title>
     <category term="rag"/>
   </entry>
   <entry>
+    <title>Best Open-Source AI coding model for my specs?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u2a52v/best_opensource_ai_coding_model_for_my_specs/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u2a52v/best_opensource_ai_coding_model_for_my_specs/</id>
+    <updated>2026-06-10T18:12:17Z</updated>
+    <summary type="text">hello everyone! im looking for the most powerful open-source coding ai while still fitting my system my specs: CPU: AMD ryzen 7 7700 GPU: RTX 5070 RAM: 32 gb DDR5 OS: windows 11 use case: Writing, Coding, debugging. any recommendations would be great. thanks in advance submitted by /u/Quietkiller1927 [link] [comments]</summary>
+    <author><name>/u/Quietkiller1927</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
     <title>Why SQLite FTS5's default tokenizer drops your Japanese substrings (and the one-line fix)</title>
     <link href="https://dev.to/omochi_dev/why-sqlite-fts5s-default-tokenizer-drops-your-japanese-substrings-and-the-one-line-fix-1k2d" rel="alternate"/>
     <id>https://dev.to/omochi_dev/why-sqlite-fts5s-default-tokenizer-drops-your-japanese-substrings-and-the-one-line-fix-1k2d</id>
@@ -277,6 +373,25 @@ github.com/Dexter2344/phone-agent</title>
     <updated>2026-06-09T03:05:06Z</updated>
     <summary type="text">From Scratch: How to Integrate Reasonix CLI into the HagiCode System This article shares the complete technical practice of integrating Reasonix CLI as a first-class Agent Provider into the HagiCode system, covering three-layer architecture design, key technical decisions, and frontend and backend implementation details. Background Reasonix CLI, as it happens, is a pretty interesting thing. It's a</summary>
     <author><name>Hagicode</name></author>
+  </entry>
+  <entry>
+    <title>Is my tech stack becoming a liability for future job prospects?</title>
+    <link href="https://www.reddit.com/r/datascience/comments/1u27zad/is_my_tech_stack_becoming_a_liability_for_future/" rel="alternate"/>
+    <id>https://www.reddit.com/r/datascience/comments/1u27zad/is_my_tech_stack_becoming_a_liability_for_future/</id>
+    <updated>2026-06-10T16:57:31Z</updated>
+    <summary type="text">Saw a comment recently about how working with an old tech stack can make you less employable over time, so wanted to get some feedback on what I use daily. I primarily work in predictive modeling. My stack includes Python as my main language, SQL for querying, Spark/PySpark, Hive for big data, and GitHub Copilot for AI assisted coding, agent workflows, and LLM documentation. Any big red flags here</summary>
+    <author><name>/u/quite--average</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>A2A, how it looks in an enterprise build</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1u24krd/a2a_how_it_looks_in_an_enterprise_build/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1u24krd/a2a_how_it_looks_in_an_enterprise_build/</id>
+    <updated>2026-06-10T14:56:59Z</updated>
+    <summary type="text">The team has been deep in agentic AI for enterprise lately and wanted to share some architecture notes from a recent build, specifically around how MCP and A2A play together in practice. The workflow was a fully autonomous churn risk pipeline. Six agents, one human touchpoint: ML model scores customers by churn risk Recommendation agent proposes relevant products based on buying history Availabili</summary>
+    <author><name>/u/AureaAvis71</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>[FOR HIRE] Front-End Developer | 4.5+ Years Experience | Next.js /React / TypeScript / JavaScript | Open to Full-Time/PartTime Remote Positions</title>
@@ -332,41 +447,5 @@ github.com/Dexter2344/phone-agent</title>
     <updated>2026-06-10T08:20:11Z</updated>
     <summary type="text">Any practical advice, what are you guys using due to budget constraint, I cannot use 32 billion 27billion coding models. submitted by /u/AppropriatePush6262 [link] [comments]</summary>
     <author><name>/u/AppropriatePush6262</name></author>
-  </entry>
-  <entry>
-    <title>MAVIS: Multi-Agent Video Retrieval via Structured Video Understanding</title>
-    <link href="https://arxiv.org/abs/2606.09641v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.09641v1</id>
-    <updated>2026-06-08T15:36:15Z</updated>
-    <summary type="text">The dominant paradigm in video retrieval relies on embedding-based full-corpus scanning, which suffers from inherent computational inefficiency and the semantic asymmetry between information-dense videos and sparse textual queries. To bridge this gap, we introduce \textbf{MAVIS}, a novel multi-agent framework that rethinks retrieval as cooperative reasoning rather than brute-force search. MAVIS fi</summary>
-    <author><name>Fei Luo</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>ContextLens — py-spy/pprof but for what's inside your LLM prompt</title>
-    <link href="https://dev.to/harshal_sant_be921c5039f2/contextlens-py-spypprof-but-for-whats-inside-your-llm-prompt-59l7" rel="alternate"/>
-    <id>https://dev.to/harshal_sant_be921c5039f2/contextlens-py-spypprof-but-for-whats-inside-your-llm-prompt-59l7</id>
-    <updated>2026-06-08T15:32:34Z</updated>
-    <summary type="text">In multi-turn agent loops, the full context re-sends on every API call. A tool result added at turn 3 gets billed again at turns 4, 5, 6, 7... forever. Most of it is never read again. Standard observability tools tell you the total token count. They never tell you what's in there or how much of it is waste. That's what ContextLens fixes. What it does ContextLens is a diagnostic profiler for LLM ag</summary>
-    <author><name>Harshal Sant</name></author>
-  </entry>
-  <entry>
-    <title>4 New Techniques to Maximize Claude Code</title>
-    <link href="https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/</id>
-    <updated>2026-06-08T15:00:00Z</updated>
-    <summary type="text">Get the most out of Claude Code with these four techniques The post 4 New Techniques to Maximize Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>In 2 years most people won’t need separate AI tools, it’ll all just be built into your OS. Agree or disagree?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1u1q9bs/in_2_years_most_people_wont_need_separate_ai/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1u1q9bs/in_2_years_most_people_wont_need_separate_ai/</id>
-    <updated>2026-06-10T03:06:28Z</updated>
-    <summary type="text">Apple Intelligence, Copilot, Gemini. It feels like we're heading toward one AI layer underneath everything rather than 5 different subscriptions. do standalone AI tools actually survive that or do they just get absorbed and bundled into bigger more powerful systems? like does having everything in one place make AI more effective or does it just make it more generic? submitted by /u/aiprotivity_ [l</summary>
-    <author><name>/u/aiprotivity_</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
