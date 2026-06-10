@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-10T08:53:29Z</updated>
+  <updated>2026-06-10T12:26:45Z</updated>
+  <entry>
+    <title>Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared</title>
+    <link href="https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/</id>
+    <updated>2026-06-10T10:24:17Z</updated>
+    <summary type="text">Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision. No single tool fits every need. This guide covers the AI coding agents […] The post Top AI Coding Agents and Development Platforms in 2026: </summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>How engineers at Nextdoor use Codex to build without limits</title>
     <link href="https://openai.com/index/nextdoor" rel="alternate"/>
@@ -21,6 +30,52 @@
     <updated>2026-06-09T10:00:00Z</updated>
     <summary type="text">How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>The complete guide to claude code permissions example</title>
+    <link href="https://dev.to/claude_code_security/the-complete-guide-to-claude-code-permissions-example-194m" rel="alternate"/>
+    <id>https://dev.to/claude_code_security/the-complete-guide-to-claude-code-permissions-example-194m</id>
+    <updated>2026-06-10T12:22:13Z</updated>
+    <summary type="text">What Is a Claude Code Permissions Example? A claude code permissions example is a concrete configuration that defines which shell commands, file paths, and MCP tools Claude Code may execute autonomously, and which require explicit user approval. Permissions are declared in .claude/settings.json (project-scoped) or ~/.claude/settings.json (user-scoped) and enforce a least-privilege boundary between</summary>
+    <author><name>Claude code</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Six Months of AI Writing My Tests: What Got Better, What Got Worse</title>
+    <link href="https://dev.to/adrianjiga/six-months-of-ai-writing-my-tests-what-got-better-what-got-worse-32li" rel="alternate"/>
+    <id>https://dev.to/adrianjiga/six-months-of-ai-writing-my-tests-what-got-better-what-got-worse-32li</id>
+    <updated>2026-06-10T12:22:11Z</updated>
+    <summary type="text">Back in January, I wrote about falling in love with Claude Code. That post was the honeymoon phase: the first debugging session that saved me two hours, the first generated test that actually matched my conventions, the feeling that something fundamental had shifted. This is the six-months-later post. The one nobody writes, because &quot;it's complicated&quot; doesn't get clicks the way &quot;this changes everyt</summary>
+    <author><name>Adrian Jiga</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Velero + MinIO: Kubernetes Backup Strategy for Bare Metal</title>
+    <link href="https://dev.to/futhgar/velero-minio-kubernetes-backup-strategy-for-bare-metal-25b9" rel="alternate"/>
+    <id>https://dev.to/futhgar/velero-minio-kubernetes-backup-strategy-for-bare-metal-25b9</id>
+    <updated>2026-06-10T12:15:14Z</updated>
+    <summary type="text">I spent three hours staring at a PartiallyFailed status in Velero, wondering why my backups were failing despite the logs claiming the S3 connection was healthy. The culprit wasn't the network or the credentials. It was a handful of NFS-backed persistent volumes that Velero was trying to snapshot using a CSI driver that didn't support them. If you're running Kubernetes on bare metal, you don't hav</summary>
+    <author><name>Guatu</name></author>
+  </entry>
+  <entry>
+    <title>CI Failures Are Fast to Detect but Slow to Understand — That's the Real Problem</title>
+    <link href="https://dev.to/code-board/ci-failures-are-fast-to-detect-but-slow-to-understand-thats-the-real-problem-2a43" rel="alternate"/>
+    <id>https://dev.to/code-board/ci-failures-are-fast-to-detect-but-slow-to-understand-thats-the-real-problem-2a43</id>
+    <updated>2026-06-10T12:01:53Z</updated>
+    <summary type="text">The Real Cost of a Red Build Most teams have gotten pretty good at making CI pipelines fast. Parallel test runners, dependency caching, incremental builds — the tooling is mature. But speed only solves half the problem. When a build fails, the clock doesn't stop at the red status check. It starts. Now someone has to open the log, find the actual error in hundreds of lines of output, figure out whi</summary>
+    <author><name>Nijat</name></author>
+  </entry>
+  <entry>
+    <title>MCP Model Context Protocol in TypeScript: build portable tools across Claude, GPT, and local models</title>
+    <link href="https://dev.to/jtorchia/mcp-model-context-protocol-in-typescript-build-portable-tools-across-claude-gpt-and-local-models-4ema" rel="alternate"/>
+    <id>https://dev.to/jtorchia/mcp-model-context-protocol-in-typescript-build-portable-tools-across-claude-gpt-and-local-models-4ema</id>
+    <updated>2026-06-10T12:00:54Z</updated>
+    <summary type="text">MCP Model Context Protocol in TypeScript: build portable tools across Claude, GPT, and local models Most MCP tutorials start with npm install @anthropic-ai/sdk and by the third code block they already have business logic coupled to the Anthropic client. You read that right: they teach you the portability protocol using code that isn't portable. And that completely changes how you end up designing </summary>
+    <author><name>Juan Torchia</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Autonomous AI Data Loss in DevOps: Building Efficient Defenses</title>
@@ -204,6 +259,17 @@ github.com/Dexter2344/phone-agent</title>
     <author><name>Pouya Azhkan</name></author>
   </entry>
   <entry>
+    <title>Cohere released North Mini Code: It's first Open-Source Agentic Coding Model</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/</id>
+    <updated>2026-06-10T11:18:53Z</updated>
+    <summary type="text">Small: 30 billion parameters, 3B active. Efficient: Benchmarks to 33.4 on the Artificial Analysis Coding Index, competitive among similar sized models. Open Source: Apache 2.0 license HF: https://huggingface.co/CohereLabs/North-Mini-Code-1.0 submitted by /u/beasthunterr69 [link] [comments]</summary>
+    <author><name>/u/beasthunterr69</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>The GitHub Copilot Bill Came Due. Here's What Engineering Leaders Should Do.</title>
     <link href="https://hackernoon.com/the-github-copilot-bill-came-due-heres-what-engineering-leaders-should-do?source=rss" rel="alternate"/>
     <id>https://hackernoon.com/the-github-copilot-bill-came-due-heres-what-engineering-leaders-should-do?source=rss</id>
@@ -221,6 +287,15 @@ github.com/Dexter2344/phone-agent</title>
     <summary type="text">Building a high-throughput BGP/BMP collector in Java with virtual threads Most of the &quot;fast data pipeline&quot; folklore in the JVM world ends at the same place: go reactive, or go home. Netty, event loops, backpressure operators, the works. I wanted to find out whether Java 25's virtual threads let you write the boring, blocking, one-thread-per-connection version — and still move hundreds of thousands</summary>
     <author><name>Lorenzo Pompili</name></author>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>Anyone else converting PDFs to Markdown before giving them to LLMs? The token savings are crazy.</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1u1wtlu/anyone_else_converting_pdfs_to_markdown_before/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1u1wtlu/anyone_else_converting_pdfs_to_markdown_before/</id>
+    <updated>2026-06-10T09:04:16Z</updated>
+    <summary type="text">Lately, I’ve been manually converting all my research PDFs and DOCX files into clean Markdown before pasting them into ChatGPT or Claude. If you just copy-paste a raw PDF, you’re paying a massive &quot;hidden layout tax.&quot; The model wastes thousands of tokens trying to parse layout trivia; broken hyphens, weird line breaks, headers, and footers. Not only does it bloat your dev budget and eat up your con</summary>
+    <author><name>/u/ShanEnterprises</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What is the best 7b-12b coding model in 2026?</title>
@@ -320,69 +395,5 @@ github.com/Dexter2344/phone-agent</title>
     <summary type="text">AI Product Scout · Blog What Is llms.txt and Why Your WooCommerce Store Needs It llms.txt is the new robots.txt for AI. Learn what it is, how it works, and why every WooCommerce store needs one to be discoverable by ChatGPT, Claude, and other AI assistants. June 8, 2026 · 6 min read The analogy: robots.txt → llms.txt If you've ever managed a website, you know robots.txt. It sits at the root of you</summary>
     <author><name>Liang Chen</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AWS Golden Jacket: My Journey of Learning and Certification</title>
-    <link href="https://dev.to/aws-builders/aws-golden-jacket-my-journey-of-learning-and-certification-fab" rel="alternate"/>
-    <id>https://dev.to/aws-builders/aws-golden-jacket-my-journey-of-learning-and-certification-fab</id>
-    <updated>2026-06-08T05:05:58Z</updated>
-    <summary type="text">Cloud technologies have been one of my biggest professional passions for many years, and AWS has played a significant role in that journey. Through continuous learning, hands-on experience, and the pursuit of AWS certifications, I gained knowledge that helped me make better technical, architectural, and business decisions across a wide range of projects. Over time, I expanded my expertise across m</summary>
-    <author><name>Roman Tsypuk</name></author>
-  </entry>
-  <entry>
-    <title>zai-org/SCAIL-2 · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/</id>
-    <updated>2026-06-09T18:43:26Z</updated>
-    <summary type="text">SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning SCAIL-2 is an open-source model for end-to-end controlled character animation. It animates a reference character with a driving video, and also supports character replacement and multi-character scenarios without relying on intermediate pose representations. Overview Prior approaches to character animation dep</summary>
-    <author><name>/u/pmttyji</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>One-file config that makes Claude Code follow your project conventions — &quot;God Mode CLAUDE.md&quot;</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1u1crnp/onefile_config_that_makes_claude_code_follow_your/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1u1crnp/onefile_config_that_makes_claude_code_follow_your/</id>
-    <updated>2026-06-09T18:03:50Z</updated>
-    <summary type="text">A single CLAUDE.md file with battle-tested rules that dramatically improve Claude Code output quality. Key insight: Anthropic engineers found that CLAUDE.md files over 200 lines actually degrade performance. This file stays lean while covering thinking, safety, quality, and output rules. https://github.com/0rnot/god-mode-claude Also works as a starting point for .cursorrules or other AI coding too</summary>
-    <author><name>/u/NoZookeepergame7900</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI just declared 'chat is dead' and is turning ChatGPT into a superapp - what does this mean for how we use AI?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1u1a4yf/openai_just_declared_chat_is_dead_and_is_turning/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1u1a4yf/openai_just_declared_chat_is_dead_and_is_turning/</id>
-    <updated>2026-06-09T16:32:13Z</updated>
-    <summary type="text">A senior OpenAI employee told the Financial Times that chat is dead as the company prepares the biggest ChatGPT overhaul since launch. The plan is to turn it into a superapp with Codex coding tools, AI agents, and third-party integrations like Canva and Booking.com. This confirms what a lot of us have been feeling - pure chat interfaces have diminishing returns. The buzz is shifting toward agents </summary>
-    <author><name>/u/ArtSelect137</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Why Your AI Agent Works in Dev and Breaks in Prod</title>
-    <link href="https://dev.to/michal_szalinski_91bf893d/why-your-ai-agent-works-in-dev-and-breaks-in-prod-g60" rel="alternate"/>
-    <id>https://dev.to/michal_szalinski_91bf893d/why-your-ai-agent-works-in-dev-and-breaks-in-prod-g60</id>
-    <updated>2026-06-08T00:02:43Z</updated>
-    <summary type="text">Your agent nailed every test case. You shipped it. Within 48 hours, users report hallucinated outputs, silently dropped tool calls, and responses that bear zero resemblance to what worked on your machine. You reload the same prompt locally. It works perfectly. Welcome to the most predictable failure mode in AI engineering: the dev-to-prod gap. This is Crucible C01. We dissect the five failure mode</summary>
-    <author><name>Michal Szalinski</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>permission prompts are not an agent security strategy</title>
-    <link href="https://dev.to/pvgomes/permission-prompts-are-not-an-agent-security-strategy-4pm9" rel="alternate"/>
-    <id>https://dev.to/pvgomes/permission-prompts-are-not-an-agent-security-strategy-4pm9</id>
-    <updated>2026-06-08T00:01:44Z</updated>
-    <summary type="text">Docker published a practical guide last week on securing AI agents, and one sentence in it should be printed on a sticker for every engineering team adopting coding agents: Permission prompts are not a security strategy. That is not the whole guide, obviously. Docker talks about isolation, tool access, identity, credentials, runtime monitoring, MCP provenance, and multi-agent trust boundaries. Goo</summary>
-    <author><name>Paulo Victor Leite Lima Gomes</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>TalkToPlanB vs WhatsApp: an honest comparison (2026)</title>
-    <link href="https://dev.to/jmlee850623/whatsappman-vs-whatsapp-an-honest-comparison-2026-551o" rel="alternate"/>
-    <id>https://dev.to/jmlee850623/whatsappman-vs-whatsapp-an-honest-comparison-2026-551o</id>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <summary type="text">Both TalkToPlanB and WhatsApp let you chat in real time, send voice messages, and share photos and files. The real differences are about who controls your data and how open the platform is to developers and AI agents. TalkToPlanB WhatsApp Real-time group &amp; direct chat ✅ ✅ Voice messages &amp; media ✅ ✅ Where data is hosted Malaysia Meta global servers Encryption HTTPS in transit + AES-256 at rest End-</summary>
-    <author><name>Lee Jian Ming</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
