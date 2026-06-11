@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-11T05:54:29Z</updated>
+  <updated>2026-06-11T10:45:12Z</updated>
+  <entry>
+    <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
+    <link href="https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/</id>
+    <updated>2026-06-11T08:33:27Z</updated>
+    <summary type="text">Cohere's first developer coding model is a 30B mixture-of-experts running on a single H100 with 256K context length. The post Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>How an astrophysicist uses Codex to help simulate black holes</title>
     <link href="https://openai.com/index/using-codex-to-simulate-black-holes" rel="alternate"/>
@@ -30,6 +41,50 @@
     <summary type="text">Anthropic has released Claude Fable 5, the first model in its new Mythos class. It leads nearly every benchmark, including SWE-bench Verified at 95 percent, but costs twice as much as Opus 4.8 at 10 or 50 dollars per million tokens. Strict safety filters block about nine percent of requests, and a new 30-day data retention policy applies even to zero-data-retention contracts. The article Claude Fa</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My complete self-hosting stack: Docker Compose + hardening scripts I use on Hetzner (sharing everything)</title>
+    <link href="https://dev.to/nevik_schmidt_3635afa2b85/my-complete-self-hosting-stack-docker-compose-hardening-scripts-i-use-on-hetzner-sharing-4l8h" rel="alternate"/>
+    <id>https://dev.to/nevik_schmidt_3635afa2b85/my-complete-self-hosting-stack-docker-compose-hardening-scripts-i-use-on-hetzner-sharing-4l8h</id>
+    <updated>2026-06-11T10:41:57Z</updated>
+    <summary type="text">Originally written for r/selfhosted on Reddit — sharing here for the dev.to community. After running my self-hosted setup for 2+ years on a single Hetzner CX32 (4 vCPU, 8GB RAM, €15/mo), I finally cleaned up my config into something reusable. Currently hosting 18+ containers with ~1.7GB RAM to spare. Sharing the full setup in case it helps someone getting started or optimizing. The Stack Services </summary>
+    <author><name>Nevik Schmidt</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>10 n8n workflow templates I actually use daily — sharing the JSON files</title>
+    <link href="https://dev.to/nevik_schmidt_3635afa2b85/10-n8n-workflow-templates-i-actually-use-daily-sharing-the-json-files-p72" rel="alternate"/>
+    <id>https://dev.to/nevik_schmidt_3635afa2b85/10-n8n-workflow-templates-i-actually-use-daily-sharing-the-json-files-p72</id>
+    <updated>2026-06-11T10:41:11Z</updated>
+    <summary type="text">Originally written for r/n8n on Reddit — sharing here for the dev.to community. I see a lot of n8n templates shared here that are either half-baked or broken. After going through my own production workflows, I picked the 10 I genuinely use every day and cleaned them up to share. These run on my self-hosted n8n instance (Docker, single Hetzner VPS). Zero cloud dependencies. Each template is a singl</summary>
+    <author><name>Nevik Schmidt</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a desktop app to run every AI coding tool in one place</title>
+    <link href="https://dev.to/fleetify/i-built-a-desktop-app-to-run-every-ai-coding-tool-in-one-place-2ggp" rel="alternate"/>
+    <id>https://dev.to/fleetify/i-built-a-desktop-app-to-run-every-ai-coding-tool-in-one-place-2ggp</id>
+    <updated>2026-06-11T10:39:51Z</updated>
+    <summary type="text">The problem: too many AI tools, no home If you build with AI today, your setup probably looks like mine did: Claude in one window, Codex in another, a couple of HTTP model APIs, an MCP server you set up once and forgot. Different keys, different configs, different terminals. Switching between them is a tax you pay all day. I got tired of it and built Fleetify — one desktop app to install, run, and</summary>
+    <author><name>Fleetify</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why your AI writes HTML email that breaks in Outlook (and how I fixed it)</title>
+    <link href="https://dev.to/jayeshbansal/why-your-ai-writes-html-email-that-breaks-in-outlook-and-how-i-fixed-it-5447" rel="alternate"/>
+    <id>https://dev.to/jayeshbansal/why-your-ai-writes-html-email-that-breaks-in-outlook-and-how-i-fixed-it-5447</id>
+    <updated>2026-06-11T10:38:16Z</updated>
+    <summary type="text">Ask any AI coding assistant for an email template and you'll get something beautiful: flexbox layout, border-radius, rgba() colors, a clean &lt;button&gt;. Paste it into your ESP, send a test, open it in Gmail on your phone — perfect. Then a customer opens it in Outlook on Windows and it looks like a ransom note. This isn't the AI being dumb. It's the AI being too smart — applying everything it knows ab</summary>
+    <author><name>Jayesh Bansal</name></author>
+  </entry>
+  <entry>
+    <title>How I Recovered 35GB on a Production Server by Moving Docker Builds Off It</title>
+    <link href="https://dev.to/saint_vandora/how-i-recovered-35gb-on-a-production-server-by-moving-docker-builds-off-it-1cmb" rel="alternate"/>
+    <id>https://dev.to/saint_vandora/how-i-recovered-35gb-on-a-production-server-by-moving-docker-builds-off-it-1cmb</id>
+    <updated>2026-06-11T10:37:28Z</updated>
+    <summary type="text">How I Recovered 35GB on a Production Server by Moving Docker Builds Off It FOLASAYO SAMUEL OLAYEMI FOLASAYO SAMUEL OLAYEMI FOLASAYO SAMUEL OLAYEMI Follow Jun 11 How I Recovered 35GB on a Production Server by Moving Docker Builds Off It #devops #infrastructure #productivity #tutorial 5 reactions Add Comment 7 min read</summary>
+    <author><name>FOLASAYO SAMUEL OLAYEMI</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Microsoft restricts Claude Fable for employees over data retention concerns</title>
@@ -420,62 +475,5 @@ github.com/Dexter2344/phone-agent</title>
     <author><name>Kelly Hitchcock</name></author>
     <category term="computer-vision"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>nvidia/diffusiongemma-26B-A4B-it-NVFP4 · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u2np0a/nvidiadiffusiongemma26ba4bitnvfp4_hugging_face/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u2np0a/nvidiadiffusiongemma26ba4bitnvfp4_hugging_face/</id>
-    <updated>2026-06-11T03:28:47Z</updated>
-    <summary type="text">Model Overview Description: DiffusionGemma 26B A4B IT is an open-weights multimodal generative model developed by Google DeepMind that processes text, image, and video inputs to produce text output via discrete diffusion. Built on the Gemma 4 26B A4B Mixture-of-Experts (MoE) architecture with 25.2B total parameters and 3.8B active parameters, the model employs an encoder-decoder design with bidire</summary>
-    <author><name>/u/pmttyji</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How can Deepseek v4 top the coding leaderboards and still sit 8 months behind the frontier?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u2nn2f/how_can_deepseek_v4_top_the_coding_leaderboards/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u2nn2f/how_can_deepseek_v4_top_the_coding_leaderboards/</id>
-    <updated>2026-06-11T03:25:59Z</updated>
-    <summary type="text">Two numbers on this model that don't sit comfortably with each other. The Pro config posts coding scores near the top of every board, 80.6 on SWE-bench Verified and 93.5 on LiveCodeBench. Then CAISI ran it across a spread of domains and landed on it being roughly eight months behind the US frontier, around where GPT-5 was. DeepSeek's own framing at launch put it two months back, right behind the f</summary>
-    <author><name>/u/Substantial_Step_351</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Executing a plan under context constraints</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u2m2tf/executing_a_plan_under_context_constraints/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u2m2tf/executing_a_plan_under_context_constraints/</id>
-    <updated>2026-06-11T02:12:30Z</updated>
-    <summary type="text">I'm running Qwen 3.6 35B-A3B via Pi harness on a 32gb unified RAM setup (Framework 13). llama.cpp, 64k context window. I worked with the model to plan through a refactor, and by the time it came time to execute the plan, I was sitting at around 66% context window usage. This isn't alarming but occasionally planning could lead to very high context window consumption, especially if I am vague and it</summary>
-    <author><name>/u/mailto_devnull</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The 2026 AI Coding Conversation Has Moved Past Cursor vs Claude Code</title>
-    <link href="https://dev.to/ninghonggang/the-2026-ai-coding-conversation-has-moved-past-cursor-vs-claude-code-47ig" rel="alternate"/>
-    <id>https://dev.to/ninghonggang/the-2026-ai-coding-conversation-has-moved-past-cursor-vs-claude-code-47ig</id>
-    <updated>2026-06-09T11:06:06Z</updated>
-    <summary type="text">I went down another rabbit hole this morning, this time reading the 2026 roundups on Juejin, and the pattern that jumped out is that the AI coding tool conversation has moved on from &quot;which one wins&quot; to something more interesting. Everyone is still arguing about Cursor versus Claude Code, but the people shipping real work have already moved past that question. The thing I keep noticing is that the</summary>
-    <author><name>ninghonggang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>One thing I really appreciate about ChatGPT’s Codex (they should teach Claude this)</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1u2idy6/one_thing_i_really_appreciate_about_chatgpts/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1u2idy6/one_thing_i_really_appreciate_about_chatgpts/</id>
-    <updated>2026-06-10T23:24:52Z</updated>
-    <summary type="text">One thing I can say I really appreciate about ChatGPT’s Codex is this: if you hit your daily or weekly limit while something is running, it doesn’t cut you off mid-task. It finishes the entire plan before stopping. That level of respect for the work in progress is genuinely great, and I’m sure a lot of people using the platform appreciate it too. Claude is fantastic in many ways, but getting cut o</summary>
-    <author><name>/u/Digitally_incline99</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kubernetes vs Docker, PaaS, and Traditional Deployment Tools for AI Apps: What Developers Need in 2026</title>
-    <link href="https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga" rel="alternate"/>
-    <id>https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga</id>
-    <updated>2026-06-09T07:45:12Z</updated>
-    <summary type="text">A pattern keeps repeating itself in AI projects. The model works. The demo works. The proof of concept gets approved. Then someone asks the question that nobody wants to answer: &quot;How are we going to deploy this thing?&quot; At first, the answer seems simple. You have a FastAPI backend, maybe a vector database, an LLM endpoint, and a Docker container that runs perfectly on your laptop. Then Kubernetes s</summary>
-    <author><name>Hadil Ben Abdallah</name></author>
-    <category term="rag"/>
   </entry>
 </feed>
