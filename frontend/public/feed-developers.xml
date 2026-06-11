@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-10T22:08:11Z</updated>
+  <updated>2026-06-11T00:20:50Z</updated>
+  <entry>
+    <title>How an astrophysicist uses Codex to help simulate black holes</title>
+    <link href="https://openai.com/index/using-codex-to-simulate-black-holes" rel="alternate"/>
+    <id>https://openai.com/index/using-codex-to-simulate-black-holes</id>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <summary type="text">Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.</summary>
+    <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Access OpenAI models and Codex through your Oracle cloud commitment</title>
+    <link href="https://openai.com/index/openai-on-oracle-cloud" rel="alternate"/>
+    <id>https://openai.com/index/openai-on-oracle-cloud</id>
+    <updated>2026-06-10T20:00:00Z</updated>
+    <summary type="text">Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Claude Fable 5: The first Mythos model is powerful, expensive, and heavily filtered</title>
     <link href="https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/" rel="alternate"/>
@@ -30,6 +47,16 @@
     <updated>2026-06-10T10:24:17Z</updated>
     <summary type="text">Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision. No single tool fits every need. This guide covers the AI coding agents […] The post Top AI Coding Agents and Development Platforms in 2026: </summary>
     <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI Agent Memory Is Not Chat History</title>
+    <link href="https://dev.to/glendel/ai-agent-memory-is-not-chat-history-4jjb" rel="alternate"/>
+    <id>https://dev.to/glendel/ai-agent-memory-is-not-chat-history-4jjb</id>
+    <updated>2026-06-11T00:12:05Z</updated>
+    <summary type="text">Most AI agent systems start with a simple idea: &quot;Let's give the Agent Memory&quot;. At first, this usually means saving previous messages, retrieving similar chunks, and injecting them back into the prompt. That works for demos. It does not work reliably for real organizational workflows. Because chat history is not memory. A vector database is not memory. A bigger context window is not memory. Those a</summary>
+    <author><name>Glendel Joubert Fyne Acosta</name></author>
+    <category term="rag"/>
     <category term="agents"/>
   </entry>
   <entry>
@@ -338,6 +365,15 @@ github.com/Dexter2344/phone-agent</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>One thing I really appreciate about ChatGPT’s Codex (they should teach Claude this)</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1u2idy6/one_thing_i_really_appreciate_about_chatgpts/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1u2idy6/one_thing_i_really_appreciate_about_chatgpts/</id>
+    <updated>2026-06-10T23:24:52Z</updated>
+    <summary type="text">One thing I can say I really appreciate about ChatGPT’s Codex is this: if you hit your daily or weekly limit while something is running, it doesn’t cut you off mid-task. It finishes the entire plan before stopping. That level of respect for the work in progress is genuinely great, and I’m sure a lot of people using the platform appreciate it too. Claude is fantastic in many ways, but getting cut o</summary>
+    <author><name>/u/Digitally_incline99</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Kubernetes vs Docker, PaaS, and Traditional Deployment Tools for AI Apps: What Developers Need in 2026</title>
     <link href="https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga" rel="alternate"/>
     <id>https://dev.to/hadil/kubernetes-vs-docker-paas-and-traditional-deployment-tools-for-ai-apps-what-developers-need-in-3iga</id>
@@ -429,31 +465,5 @@ github.com/Dexter2344/phone-agent</title>
     <author><name>Kilo</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building a high-throughput BGP/BMP collector in Java with virtual threads</title>
-    <link href="https://dev.to/lpworks/building-a-high-throughput-bgpbmp-collector-in-java-with-virtual-threads-4797" rel="alternate"/>
-    <id>https://dev.to/lpworks/building-a-high-throughput-bgpbmp-collector-in-java-with-virtual-threads-4797</id>
-    <updated>2026-06-08T19:08:39Z</updated>
-    <summary type="text">Building a high-throughput BGP/BMP collector in Java with virtual threads Most of the &quot;fast data pipeline&quot; folklore in the JVM world ends at the same place: go reactive, or go home. Netty, event loops, backpressure operators, the works. I wanted to find out whether Java 25's virtual threads let you write the boring, blocking, one-thread-per-connection version — and still move hundreds of thousands</summary>
-    <author><name>Lorenzo Pompili</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Anyone else converting PDFs to Markdown before giving them to LLMs? The token savings are crazy.</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1u1wtlu/anyone_else_converting_pdfs_to_markdown_before/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1u1wtlu/anyone_else_converting_pdfs_to_markdown_before/</id>
-    <updated>2026-06-10T09:04:16Z</updated>
-    <summary type="text">Lately, I’ve been manually converting all my research PDFs and DOCX files into clean Markdown before pasting them into ChatGPT or Claude. If you just copy-paste a raw PDF, you’re paying a massive &quot;hidden layout tax.&quot; The model wastes thousands of tokens trying to parse layout trivia; broken hyphens, weird line breaks, headers, and footers. Not only does it bloat your dev budget and eat up your con</summary>
-    <author><name>/u/ShanEnterprises</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What is the best 7b-12b coding model in 2026?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u1w35p/what_is_the_best_7b12b_coding_model_in_2026/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u1w35p/what_is_the_best_7b12b_coding_model_in_2026/</id>
-    <updated>2026-06-10T08:20:11Z</updated>
-    <summary type="text">Any practical advice, what are you guys using due to budget constraint, I cannot use 32 billion 27billion coding models. submitted by /u/AppropriatePush6262 [link] [comments]</summary>
-    <author><name>/u/AppropriatePush6262</name></author>
   </entry>
 </feed>
