@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-11T10:45:12Z</updated>
+  <updated>2026-06-11T14:42:47Z</updated>
   <entry>
     <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
     <link href="https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/" rel="alternate"/>
@@ -32,6 +32,52 @@
     <summary type="text">Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built Chronicle MCP to stop AI context bloat</title>
+    <link href="https://dev.to/leviathan0x0/i-built-chronicle-mcp-to-stop-ai-context-bloat-5664" rel="alternate"/>
+    <id>https://dev.to/leviathan0x0/i-built-chronicle-mcp-to-stop-ai-context-bloat-5664</id>
+    <updated>2026-06-11T14:39:30Z</updated>
+    <summary type="text">Hello fellow devs, I am a 14 year old developer and I am incredibly excited to finally share this with you! For the past several weeks, I have been working day and night on a massive problem that was driving me absolutely crazy while vibe coding. I use tools like Cursor, Trae, and Claude Code constantly to build my projects. But as my chat sessions grew longer, my development environments got incr</summary>
+    <author><name>G. Ess Brar</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>I Scanned 492 MCP Servers Exposed to the Internet. Here's What I Found.</title>
+    <link href="https://dev.to/crucible_sec/i-scanned-492-mcp-servers-exposed-to-the-internet-heres-what-i-found-8p4" rel="alternate"/>
+    <id>https://dev.to/crucible_sec/i-scanned-492-mcp-servers-exposed-to-the-internet-heres-what-i-found-8p4</id>
+    <updated>2026-06-11T14:36:56Z</updated>
+    <summary type="text">Over the past few weeks, I've been spending a lot of time looking at the security of AI agents. Not the models themselves. The infrastructure around them. Specifically, MCP servers. As more companies adopt AI agents, MCP servers are becoming the bridge between models and the real world. They connect agents to tools, databases, APIs, file systems, internal services, and external workflows. Which go</summary>
+    <author><name>Crucible Security</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>An AI Module Smaller Than a Smartphone Photo. Are We Underestimating the Computer We Carry Every Day?</title>
+    <link href="https://dev.to/__0303fbbdd9e/an-ai-module-smaller-than-a-smartphone-photo-are-we-underestimating-the-computer-we-carry-every-4bc5" rel="alternate"/>
+    <id>https://dev.to/__0303fbbdd9e/an-ai-module-smaller-than-a-smartphone-photo-are-we-underestimating-the-computer-we-carry-every-4bc5</id>
+    <updated>2026-06-11T14:35:10Z</updated>
+    <summary type="text">The Idea and the Main Engineering Challenges Recently, I released a new offline AI feature for my Android application as a separate module. The entire AI module ended up occupying just 4.78 MB, while recognition on modern smartphones typically takes less than 100 ms. Working on this feature made me think more about why some modern applications seem to grow in size faster than their functionality. </summary>
+    <author><name>Maksym Koval</name></author>
+  </entry>
+  <entry>
+    <title>Workflow Engine NEO trials are self-serve now, and your coding agent can grab one too</title>
+    <link href="https://dev.to/optimajet/workflow-engine-neo-trials-are-self-serve-now-and-your-coding-agent-can-grab-one-too-38am" rel="alternate"/>
+    <id>https://dev.to/optimajet/workflow-engine-neo-trials-are-self-serve-now-and-your-coding-agent-can-grab-one-too-38am</id>
+    <updated>2026-06-11T14:17:10Z</updated>
+    <summary type="text">You can grab a Workflow Engine NEO trial key yourself now, no email thread. Go to trial.workflowengine.io, type a business email and a company name, and a 30-day Ultimate key shows up in your inbox. The part I'm actually excited about There's a sibling endpoint for AI coding agents. POST to https://trial.workflowengine.io/api/trial/llm with { &quot;email&quot;: &quot;...&quot;, &quot;companyName&quot;: &quot;...&quot; } and you get the </summary>
+    <author><name>Optimajet Limited</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why New Language Features Need to Target AI Agents, Not Developers</title>
+    <link href="https://dev.to/moderncpp/why-new-language-features-need-to-target-ai-agents-not-developers-4h07" rel="alternate"/>
+    <id>https://dev.to/moderncpp/why-new-language-features-need-to-target-ai-agents-not-developers-4h07</id>
+    <updated>2026-06-11T14:12:20Z</updated>
+    <summary type="text">For the last 50 years, programming language evolution has had one single north star: Human Ergonomics. We design syntax sugar, optional typing, and complex implicit behaviors to make code faster to write and easier for human brains to read. But we are ignoring the elephant in the repository. With autonomous platforms like OpenHands, GitHub Copilot workspace, and custom multi-agent reasoning loops </summary>
+    <author><name>ModernCpp</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Claude Fable 5: The first Mythos model is powerful, expensive, and heavily filtered</title>
@@ -423,57 +469,5 @@
     <author><name>curi0us_dev</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories</title>
-    <link href="https://arxiv.org/abs/2606.11176v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.11176v1</id>
-    <updated>2026-06-09T17:51:55Z</updated>
-    <summary type="text">Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for context, running statistics, choosing an angle, and designing visuals. Recent agents handle individual steps well: data-science agents close the analysis loop, while design agents synthesize beautiful we</summary>
-    <author><name>James Zou</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Apple’s new parental controls are for keeping Apple out of trouble</title>
-    <link href="https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc" rel="alternate"/>
-    <id>https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc</id>
-    <updated>2026-06-08T21:48:08Z</updated>
-    <summary type="text">When Apple put child safety front and center at WWDC on Monday, its stated goal was helping parents fine-tune their kids' online experiences and avoid excessive screen time. But amid a global debate over internet regulation, its latest updates also looked like a defensive move in a brewing fight against Meta and other app developers. […]</summary>
-    <author><name>Lauren Feiner</name></author>
-  </entry>
-  <entry>
-    <title>AnimaSpark: A Feed-Forward Method for Animating Arbitrary 3D Objects</title>
-    <link href="https://arxiv.org/abs/2606.10988v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.10988v1</id>
-    <updated>2026-06-09T15:25:39Z</updated>
-    <summary type="text">While recent advancements in generative AI have substantially accelerated static 3D model creation workflows, the synthesis of category-agnostic 3D animations remains a significant bottleneck in 3D asset production. Current methods for category-agnostic animation generation exhibit critical limitations in inference speed, motion quality, and adherence to textual prompts, thereby leaving the proces</summary>
-    <author><name>Aoyu Wang</name></author>
-    <category term="computer-vision"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Day 2 of building an AI agent that controls a phone.
-
-Repo is live. First script is working. Gemma 4 + ADB + Python.
-
-No cloud. No API keys. Just a phone that understands commands and executes them.
-
-github.com/Dexter2344/phone-agent</title>
-    <link href="https://dev.to/okeke_chukwudubem_5f3bf49/day-2-of-building-an-ai-agent-that-controls-a-phone-repo-is-live-first-script-is-working-435l" rel="alternate"/>
-    <id>https://dev.to/okeke_chukwudubem_5f3bf49/day-2-of-building-an-ai-agent-that-controls-a-phone-repo-is-live-first-script-is-working-435l</id>
-    <updated>2026-06-09T14:57:23Z</updated>
-    <summary type="text">Project Log #2: The AI Phone Agent Has a Repo Okeke Chukwudubem Okeke Chukwudubem Okeke Chukwudubem Follow Jun 9 Project Log #2: The AI Phone Agent Has a Repo #ai #android #automation #gemma Add Comment 1 min read</summary>
-    <author><name>Okeke Chukwudubem</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals</title>
-    <link href="https://arxiv.org/abs/2606.10940v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.10940v1</id>
-    <updated>2026-06-09T14:47:24Z</updated>
-    <summary type="text">Camera traps have become a cornerstone of biodiversity monitoring, but the artificial intelligence that turns vast quantities of images into usable ecological data is often locked behind commercial platforms or trained on fauna that does not match that of the British Isles. In an attempt to remove barriers and increase uptake, we release an open-source object detection model for 31 classes, 28 com</summary>
-    <author><name>Kelly Hitchcock</name></author>
-    <category term="computer-vision"/>
-    <category term="open-source"/>
   </entry>
 </feed>
