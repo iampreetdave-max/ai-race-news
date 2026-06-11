@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-11T14:42:47Z</updated>
+  <updated>2026-06-11T18:20:00Z</updated>
   <entry>
     <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
     <link href="https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/" rel="alternate"/>
@@ -25,6 +25,16 @@
     <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
+    <title>OpenAI to acquire Ona</title>
+    <link href="https://openai.com/index/openai-to-acquire-ona" rel="alternate"/>
+    <id>https://openai.com/index/openai-to-acquire-ona</id>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <summary type="text">OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Access OpenAI models and Codex through your Oracle cloud commitment</title>
     <link href="https://openai.com/index/openai-on-oracle-cloud" rel="alternate"/>
     <id>https://openai.com/index/openai-on-oracle-cloud</id>
@@ -32,6 +42,27 @@
     <summary type="text">Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Give Your AI Agent a Web-Fetch Tool: a 60-Line MCP Server (Free, Self-Hosted)</title>
+    <link href="https://dev.to/0012303/give-your-ai-agent-a-web-fetch-tool-a-60-line-mcp-server-free-self-hosted-23g4" rel="alternate"/>
+    <id>https://dev.to/0012303/give-your-ai-agent-a-web-fetch-tool-a-60-line-mcp-server-free-self-hosted-23g4</id>
+    <updated>2026-06-11T18:13:53Z</updated>
+    <summary type="text">Every MCP web-access tutorial I read this month pointed at a paid API. You don't need one. To let an AI agent read a public web page, sixty lines on the official MCP Python SDK give you a self-hosted web_fetch tool — running on your machine, no key, no per-call bill. I built it, ran it, and pasted the real terminal output below. The catch isn't the wiring (that part is easy). It's the four default</summary>
+    <author><name>Alex Spinov</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>We Built a VS Code Extension That Installs 90+ MCP Servers in One Click</title>
+    <link href="https://dev.to/veduis/we-built-a-vs-code-extension-that-installs-90-mcp-servers-in-one-click-5430" rel="alternate"/>
+    <id>https://dev.to/veduis/we-built-a-vs-code-extension-that-installs-90-mcp-servers-in-one-click-5430</id>
+    <updated>2026-06-11T18:13:36Z</updated>
+    <summary type="text">I have been using Claude Desktop, Cursor, and Cline for months. The Model Context Protocol (MCP) is genuinely useful — it lets your AI assistant query databases, browse the web, manage files, and interact with APIs. But the setup process is painful. You find a server on GitHub, read the README, figure out which config file to edit, add the JSON manually, restart your client, and hope you did not t</summary>
+    <author><name>Veduis</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>I built Chronicle MCP to stop AI context bloat</title>
@@ -442,32 +473,5 @@
     <author><name>FavCRM</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Assistant to Builder: What I Learned Shipping an AI-Assisted Project</title>
-    <link href="https://dev.to/rafael_doria/from-assistant-to-builder-what-i-learned-shipping-an-ai-assisted-project-16ma" rel="alternate"/>
-    <id>https://dev.to/rafael_doria/from-assistant-to-builder-what-i-learned-shipping-an-ai-assisted-project-16ma</id>
-    <updated>2026-06-09T21:01:15Z</updated>
-    <summary type="text">Building a URL shortener with Cursor, ChatGPT, AWS Lambda, API Gateway, and Cloudflare taught me more about shipping software than writing code. Since last year, Cursor has been my go-to development assistant for daily tasks. But at the beginning of this year, just using it to generate snippets didn't feel like enough anymore. Having studied programming since 2011, I knew what modern AI tools coul</summary>
-    <author><name>Rafael Dória</name></author>
-  </entry>
-  <entry>
-    <title>6 Signs Your In-House AI Agents Need an MCP Runtime</title>
-    <link href="https://dev.to/arcade/when-ai-agents-need-mcp-runtime-431p" rel="alternate"/>
-    <id>https://dev.to/arcade/when-ai-agents-need-mcp-runtime-431p</id>
-    <updated>2026-06-09T20:44:55Z</updated>
-    <summary type="text">Someone on your revenue operations team got tired of nagging account executives about CRM hygiene. So they wired up an agent. Salesforce has an MCP server, the model can call tools, and the workflow is obvious: take the meeting transcript, pull out the next steps, update the opportunity, log the activity, push a follow-up task. An afternoon of work, one API token in a .env file, and the thing runs</summary>
-    <author><name>Manveer Chawla</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Developer Documentation Platforms in 2026: GitBook, Mintlify, ReadMe, Docusaurus, and Docsbook Compared</title>
-    <link href="https://dev.to/curi0us_dev/developer-documentation-platforms-in-2026-gitbook-mintlify-readme-docusaurus-and-docsbook-47i1" rel="alternate"/>
-    <id>https://dev.to/curi0us_dev/developer-documentation-platforms-in-2026-gitbook-mintlify-readme-docusaurus-and-docsbook-47i1</id>
-    <updated>2026-06-09T18:01:46Z</updated>
-    <summary type="text">Which platform actually fits how your team works — and how AI agents are starting to consume your docs? There's a weird thing that happens at a lot of startups. Someone sets up a shiny documentation site in the first week of a product launch, puts two or three pages on it, and then... nothing. The site collects dust while the actual knowledge lives in Slack threads, Notion pages, and engineers' he</summary>
-    <author><name>curi0us_dev</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
