@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-11T18:20:00Z</updated>
+  <updated>2026-06-11T21:25:47Z</updated>
   <entry>
     <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
     <link href="https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/" rel="alternate"/>
@@ -42,6 +42,34 @@
     <summary type="text">Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>SkillSpector — Vendor-Backed Security Scanner for AI Agent Skills, Well-Scoped but Dependent on Static Patterns</title>
+    <link href="https://dev.to/alya_mahalini_f05d9953cfa/skillspector-vendor-backed-security-scanner-for-ai-agent-skills-well-scoped-but-dependent-on-4530" rel="alternate"/>
+    <id>https://dev.to/alya_mahalini_f05d9953cfa/skillspector-vendor-backed-security-scanner-for-ai-agent-skills-well-scoped-but-dependent-on-4530</id>
+    <updated>2026-06-11T20:57:41Z</updated>
+    <summary type="text">What It Is SkillSpector is a security scanner that analyzes AI agent skills (code/configuration bundles used by Claude, Codex, Gemini, etc.) to detect vulnerabilities before installation. It runs static analysis + optional LLM semantic checks, outputs findings in multiple formats (terminal, JSON, Markdown, SARIF), and assigns a 0–100 risk score. Who It's For Agent developers wanting to audit skill</summary>
+    <author><name>floworkos</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I got hit with a $400 AI agent bill overnight. Here's the 5-line fix.</title>
+    <link href="https://dev.to/billionaire664/i-got-hit-with-a-400-ai-agent-bill-overnight-heres-the-5-line-fix-611" rel="alternate"/>
+    <id>https://dev.to/billionaire664/i-got-hit-with-a-400-ai-agent-bill-overnight-heres-the-5-line-fix-611</id>
+    <updated>2026-06-11T20:52:20Z</updated>
+    <summary type="text">My LangChain agent entered a loop at 2am. By morning: $400 gone. The problem isn't the loop. The problem is nothing stopped it. Logging doesn't stop it. Alerts don't stop it. They tell you after. What you need is a gate that fires before the LLM call — not after. I built Valta for exactly this. Here's how it works in 5 lines: python from langchain_valta import ValtaBudgetTool from langchain.agents</summary>
+    <author><name>Adebowale Jolaosho</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>A Domain MCP Server in Kotlin: Exposing a Scoring Engine to AI Agents</title>
+    <link href="https://dev.to/theaxcode/a-domain-mcp-server-in-kotlin-exposing-a-scoring-engine-to-ai-agents-abn" rel="alternate"/>
+    <id>https://dev.to/theaxcode/a-domain-mcp-server-in-kotlin-exposing-a-scoring-engine-to-ai-agents-abn</id>
+    <updated>2026-06-11T20:51:47Z</updated>
+    <summary type="text">Previously, I gave an AI agent hands — a Model Context Protocol server in Kotlin/Native that drives real Bluetooth hardware. This one is the other half of the pattern: a domain MCP server. Instead of touching devices, it lets an agent reason over a model — turning weather forecasts into an activity &quot;playability score&quot; — and, crucially, it runs on the exact same Kotlin Multiplatform core that power</summary>
+    <author><name>The AX code</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Give Your AI Agent a Web-Fetch Tool: a 60-Line MCP Server (Free, Self-Hosted)</title>
@@ -444,34 +472,5 @@
     <author><name>Maksim Danilchenko</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Going Serverless - AWS Lambda Functions</title>
-    <link href="https://dev.to/aws-builders/going-serverless-aws-lambda-functions-57bo" rel="alternate"/>
-    <id>https://dev.to/aws-builders/going-serverless-aws-lambda-functions-57bo</id>
-    <updated>2026-06-10T08:33:33Z</updated>
-    <summary type="text">👋 Hey there, tech enthusiasts! I'm Sarvar, a Cloud Architect with a passion for transforming complex technological challenges into elegant solutions. With extensive experience spanning Cloud Operations (AWS &amp; Azure), Data Operations, Analytics, DevOps, and Generative AI, I've had the privilege of architecting solutions for global enterprises that drive real business impact. Through this article se</summary>
-    <author><name>Sarvar Nadaf</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Fable 5 for Developers: API Changes, Pricing, Migration Notes</title>
-    <link href="https://dev.to/tokenmixai/claude-fable-5-for-developers-api-changes-pricing-migration-notes-2f0n" rel="alternate"/>
-    <id>https://dev.to/tokenmixai/claude-fable-5-for-developers-api-changes-pricing-migration-notes-2f0n</id>
-    <updated>2026-06-10T03:46:37Z</updated>
-    <summary type="text">Anthropic shipped Claude Fable 5 on June 9, 2026 — its first generally available Mythos-class model, priced at $10 per million input tokens and $50 per million output. That is exactly double Claude Opus 4.8, and the benchmark deltas are real: SWE-Bench Pro 80.3% vs 69.2%, FrontierCode 29.3% vs 13.4%. But the price is not the migration story. The API behavior is. Fable 5 ships three breaking change</summary>
-    <author><name>tokenmixai</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I just gave AI agents write access to Shopify stores. Here's everything standing between them and disaster.</title>
-    <link href="https://dev.to/favcrm/i-just-gave-ai-agents-write-access-to-shopify-stores-heres-everything-standing-between-them-and-15ei" rel="alternate"/>
-    <id>https://dev.to/favcrm/i-just-gave-ai-agents-write-access-to-shopify-stores-heres-everything-standing-between-them-and-15ei</id>
-    <updated>2026-06-10T03:33:33Z</updated>
-    <summary type="text">Last week I shipped something that would have sounded reckless two years ago: an MCP server that lets an AI agent write to a merchant's live Shopify store. Create discount codes. Build customer segments. Draft WhatsApp campaigns against real order data. Read-only agent integrations are everywhere now, and they're fine — but a read-only agent is just a chatbot wearing a dashboard. The useful versio</summary>
-    <author><name>FavCRM</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
