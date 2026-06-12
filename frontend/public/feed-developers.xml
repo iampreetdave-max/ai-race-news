@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-12T12:57:56Z</updated>
+  <updated>2026-06-12T16:26:41Z</updated>
   <entry>
     <title>OpenAI buys Ona to push Codex toward long-running, autonomous coding tasks</title>
     <link href="https://the-decoder.com/openai-buys-ona-to-push-codex-toward-long-running-autonomous-coding-tasks/" rel="alternate"/>
@@ -14,6 +14,43 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Flutter Agent Skills: How to Make Your AI Agent Actually Good at Flutter</title>
+    <link href="https://dev.to/sayed_ali_alkamel/flutter-agent-skills-how-to-make-your-ai-agent-actually-good-at-flutter-3831" rel="alternate"/>
+    <id>https://dev.to/sayed_ali_alkamel/flutter-agent-skills-how-to-make-your-ai-agent-actually-good-at-flutter-3831</id>
+    <updated>2026-06-12T15:58:16Z</updated>
+    <summary type="text">TL;DR: Your AI coding assistant is a generalist. It writes Flutter that looks right but quietly reaches for 2022 patterns. Agent Skills are a new, official way (from the Dart and Flutter teams) to hand your agent task-specific, battle-tested workflows it loads on demand. Two repos, flutter/skills and dart-lang/skills, ship ready-to-use skills for responsive layouts, routing, testing, localization,</summary>
+    <author><name>Sayed Ali Alkamel</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>LangChain-Core-Components-Guide</title>
+    <link href="https://dev.to/leo_han_02060526/langchain-core-components-guide-11jg" rel="alternate"/>
+    <id>https://dev.to/leo_han_02060526/langchain-core-components-guide-11jg</id>
+    <updated>2026-06-12T15:52:07Z</updated>
+    <summary type="text">LangChain Architect's Guide: Building LLM Applications from First Principles Author's Note: This guide is based on a 9-episode LangChain tutorial series (~5 hours total). Every slide, code demo, and architecture diagram from the videos has been analyzed frame by frame, validated against the latest LangChain API, and rewritten as a comprehensive technical reference. Table of Contents Introduction: </summary>
+    <author><name>Leo Han</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Pairing Claude Code with Local Models</title>
+    <link href="https://www.kdnuggets.com/pairing-claude-code-with-local-models" rel="alternate"/>
+    <id>https://www.kdnuggets.com/pairing-claude-code-with-local-models</id>
+    <updated>2026-06-12T14:00:59Z</updated>
+    <summary type="text">Local models in 2026 are good enough. For the tasks Claude Code handles daily: code completion, refactoring, debugging, codebase explanation; a well-chosen quantized model running locally covers the vast majority of real use cases at zero per-token cost and with no rate limits.</summary>
+    <author><name>Shittu Olumide</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.</title>
+    <link href="https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/" rel="alternate"/>
+    <id>https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/</id>
+    <updated>2026-06-12T13:30:00Z</updated>
+    <summary type="text">I tried to make my ETL pipeline production-ready. Three things broke. Each one taught me something scripting alone never could. The post I Thought Data Engineering Was Just Writing Scripts. I Was Wrong. appeared first on Towards Data Science.</summary>
+    <author><name>Ibrahim Salami</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
@@ -436,42 +473,5 @@
     <updated>2026-06-09T10:00:00Z</updated>
     <summary type="text">How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.</summary>
     <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Local Agentic Programming on the Cheap: Claude Code + Ollama + Gemma4</title>
-    <link href="https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4" rel="alternate"/>
-    <id>https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4</id>
-    <updated>2026-06-10T14:00:17Z</updated>
-    <summary type="text">This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.</summary>
-    <author><name>Shittu Olumide</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The complete guide to claude code permissions example</title>
-    <link href="https://dev.to/claude_code_security/the-complete-guide-to-claude-code-permissions-example-194m" rel="alternate"/>
-    <id>https://dev.to/claude_code_security/the-complete-guide-to-claude-code-permissions-example-194m</id>
-    <updated>2026-06-10T12:22:13Z</updated>
-    <summary type="text">What Is a Claude Code Permissions Example? A claude code permissions example is a concrete configuration that defines which shell commands, file paths, and MCP tools Claude Code may execute autonomously, and which require explicit user approval. Permissions are declared in .claude/settings.json (project-scoped) or ~/.claude/settings.json (user-scoped) and enforce a least-privilege boundary between</summary>
-    <author><name>Claude code</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Six Months of AI Writing My Tests: What Got Better, What Got Worse</title>
-    <link href="https://dev.to/adrianjiga/six-months-of-ai-writing-my-tests-what-got-better-what-got-worse-32li" rel="alternate"/>
-    <id>https://dev.to/adrianjiga/six-months-of-ai-writing-my-tests-what-got-better-what-got-worse-32li</id>
-    <updated>2026-06-10T12:22:11Z</updated>
-    <summary type="text">Back in January, I wrote about falling in love with Claude Code. That post was the honeymoon phase: the first debugging session that saved me two hours, the first generated test that actually matched my conventions, the feeling that something fundamental had shifted. This is the six-months-later post. The one nobody writes, because &quot;it's complicated&quot; doesn't get clicks the way &quot;this changes everyt</summary>
-    <author><name>Adrian Jiga</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Velero + MinIO: Kubernetes Backup Strategy for Bare Metal</title>
-    <link href="https://dev.to/futhgar/velero-minio-kubernetes-backup-strategy-for-bare-metal-25b9" rel="alternate"/>
-    <id>https://dev.to/futhgar/velero-minio-kubernetes-backup-strategy-for-bare-metal-25b9</id>
-    <updated>2026-06-10T12:15:14Z</updated>
-    <summary type="text">I spent three hours staring at a PartiallyFailed status in Velero, wondering why my backups were failing despite the logs claiming the S3 connection was healthy. The culprit wasn't the network or the credentials. It was a handful of NFS-backed persistent volumes that Velero was trying to snapshot using a CSI driver that didn't support them. If you're running Kubernetes on bare metal, you don't hav</summary>
-    <author><name>Guatu</name></author>
   </entry>
 </feed>
