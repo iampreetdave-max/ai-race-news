@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-11T23:27:54Z</updated>
+  <updated>2026-06-12T04:23:04Z</updated>
   <entry>
     <title>Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding</title>
     <link href="https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/" rel="alternate"/>
@@ -33,6 +33,26 @@
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Parallel AI Coding with Git Worktrees: Run Multiple Agents Without Conflicts</title>
+    <link href="https://dev.to/jsmanifest/parallel-ai-coding-with-git-worktrees-run-multiple-agents-without-conflicts-11na" rel="alternate"/>
+    <id>https://dev.to/jsmanifest/parallel-ai-coding-with-git-worktrees-run-multiple-agents-without-conflicts-11na</id>
+    <updated>2026-06-12T03:36:28Z</updated>
+    <summary type="text">Parallel AI Coding with Git Worktrees: Run Multiple Agents Without Conflicts Most parallel AI development problems stem from a single architectural mistake: multiple agents sharing the same working directory. Teams spin up three Claude Code instances, point them at the same project folder, and watch as file writes collide, branch checkouts interrupt each other, and lock files corrupt. The symptom </summary>
+    <author><name>jsmanifest</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP Java SDK – Build Model Context Protocol servers in Java</title>
+    <link href="https://dev.to/6000fish/mcp-java-sdk-build-model-context-protocol-servers-in-java-in6" rel="alternate"/>
+    <id>https://dev.to/6000fish/mcp-java-sdk-build-model-context-protocol-servers-in-java-in6</id>
+    <updated>2026-06-12T03:29:00Z</updated>
+    <summary type="text">Hi HN, I built an open-source Java SDK for building Model Context Protocol servers: https://github.com/6000fish/mcp-java It is intended for Java developers who want to expose tools, resources, or prompts to MCP-compatible agents without implementing the protocol plumbing from scratch. The project includes: Core MCP server SDK stdio transport SSE transport Java API and annotation-based tool registr</summary>
+    <author><name>6000fish</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Access OpenAI models and Codex through your Oracle cloud commitment</title>
@@ -100,6 +120,16 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Mana: Dexterous Manipulation of Articulated Tools</title>
+    <link href="https://arxiv.org/abs/2606.13677v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.13677v1</id>
+    <updated>2026-06-11T17:59:49Z</updated>
+    <summary type="text">Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexity and the difficulty of learning functional grasping and manipulation policies. We present Mana (Manip</summary>
+    <author><name>C. Karen Liu</name></author>
+    <category term="agents"/>
+    <category term="robotics"/>
   </entry>
   <entry>
     <title>I built Chronicle MCP to stop AI context bloat</title>
@@ -441,35 +471,5 @@
     <updated>2026-06-10T12:01:53Z</updated>
     <summary type="text">The Real Cost of a Red Build Most teams have gotten pretty good at making CI pipelines fast. Parallel test runners, dependency caching, incremental builds — the tooling is mature. But speed only solves half the problem. When a build fails, the clock doesn't stop at the red status check. It starts. Now someone has to open the log, find the actual error in hundreds of lines of output, figure out whi</summary>
     <author><name>Nijat</name></author>
-  </entry>
-  <entry>
-    <title>MCP Model Context Protocol in TypeScript: build portable tools across Claude, GPT, and local models</title>
-    <link href="https://dev.to/jtorchia/mcp-model-context-protocol-in-typescript-build-portable-tools-across-claude-gpt-and-local-models-4ema" rel="alternate"/>
-    <id>https://dev.to/jtorchia/mcp-model-context-protocol-in-typescript-build-portable-tools-across-claude-gpt-and-local-models-4ema</id>
-    <updated>2026-06-10T12:00:54Z</updated>
-    <summary type="text">MCP Model Context Protocol in TypeScript: build portable tools across Claude, GPT, and local models Most MCP tutorials start with npm install @anthropic-ai/sdk and by the third code block they already have business logic coupled to the Anthropic client. You read that right: they teach you the portability protocol using code that isn't portable. And that completely changes how you end up designing </summary>
-    <author><name>Juan Torchia</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Autonomous AI Data Loss in DevOps: Building Efficient Defenses</title>
-    <link href="https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/</id>
-    <updated>2026-06-09T08:50:39Z</updated>
-    <summary type="text">Autonomous AI agents are altering the speed at which software is shipped. Unfortunately, they are also shrinking the time it takes for a mistake to become a catastrophe, creating a dangerous blind spot in many security strategies. The threat no longer comes just from external ransomware or malicious insiders. It comes from authorized, internal tools. […] The post Autonomous AI Data Loss in DevOps:</summary>
-    <author><name>Bazoom</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab</title>
-    <link href="https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/</id>
-    <updated>2026-06-09T08:37:48Z</updated>
-    <summary type="text">In this tutorial, we implement a hands-on workflow for NVIDIA cuTile Python, a tile-based GPU programming interface for CUDA-style kernels in Python. We prepare a Colab-friendly environment and check GPU, driver, CUDA, and cuTile availability before running kernels. We then build tiled vector addition, matrix addition, and matrix multiplication, keeping a PyTorch fallback so the notebook stays exe</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
