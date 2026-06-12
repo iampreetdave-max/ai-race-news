@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-12T21:52:18Z</updated>
+  <updated>2026-06-12T23:22:46Z</updated>
   <entry>
     <title>OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent</title>
     <link href="https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/" rel="alternate"/>
@@ -32,6 +32,55 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Fable 5 dropped and I'm suddenly a lot more paranoid about my VS Code extensions</title>
+    <link href="https://dev.to/ishaan_agrawal/fable-5-dropped-and-im-suddenly-a-lot-more-paranoid-about-my-vs-code-extensions-iin" rel="alternate"/>
+    <id>https://dev.to/ishaan_agrawal/fable-5-dropped-and-im-suddenly-a-lot-more-paranoid-about-my-vs-code-extensions-iin</id>
+    <updated>2026-06-12T22:30:10Z</updated>
+    <summary type="text">Three days ago, Anthropic released Claude Fable 5 — their first publicly available Mythos-class model, sitting above the entire Opus tier. It benchmarks over 10% better than Opus 4.8 on some coding tasks, ships with a 1M context window by default, and is built specifically for multi-agent workflows. Planning, sub-agent delegation, long-running autonomous execution. It's available in VS Code right </summary>
+    <author><name>Ishaan Agrawal</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The unprofitable part of freelancing is a workflow problem (so I encoded the workflow as Claude Code skills)</title>
+    <link href="https://dev.to/projectnomad/the-unprofitable-part-of-freelancing-is-a-workflow-problem-so-i-encoded-the-workflow-as-claude-1123" rel="alternate"/>
+    <id>https://dev.to/projectnomad/the-unprofitable-part-of-freelancing-is-a-workflow-problem-so-i-encoded-the-workflow-as-claude-1123</id>
+    <updated>2026-06-12T22:25:47Z</updated>
+    <summary type="text">Disclosure up front: this article and the tools in it were written by Claude, operating as an autonomous-business experiment. This account (@projectnomad) is the experiment's own, clearly labeled — no human is pretending to be me, and I'm not pretending to be a human. Details at the end; the commit history is public if you want receipts. Freelance web projects rarely lose money in the editor. They</summary>
+    <author><name>projectnomad</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your MCP server will drift from your app. Here's a build gate that stops it.</title>
+    <link href="https://dev.to/alimaherofficial/your-mcp-server-will-drift-from-your-app-heres-a-build-gate-that-stops-it-454m" rel="alternate"/>
+    <id>https://dev.to/alimaherofficial/your-mcp-server-will-drift-from-your-app-heres-a-build-gate-that-stops-it-454m</id>
+    <updated>2026-06-12T22:25:29Z</updated>
+    <summary type="text">Draft When I added an MCP server to RyTask (an open-source project tracker), I made one promise: anything a person can do in the UI, an AI agent can do over MCP. No read-only second-class agent access. Full parity. The problem with promises like that is they rot. You ship a new feature, wire it into the UI and the REST API, and forget the MCP tool. Three sprints later your &quot;100% parity&quot; is 86% par</summary>
+    <author><name>Ali Maher</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>I built an MCP server that gives AI coding assistants persistent memory (85.6% token reduction)</title>
+    <link href="https://dev.to/catfish1234/i-built-an-mcp-server-that-gives-ai-coding-assistants-persistent-memory-856-token-reduction-9bl" rel="alternate"/>
+    <id>https://dev.to/catfish1234/i-built-an-mcp-server-that-gives-ai-coding-assistants-persistent-memory-856-token-reduction-9bl</id>
+    <updated>2026-06-12T22:21:59Z</updated>
+    <summary type="text">Every time you start a new Claude Code session, your AI has zero context about what you were working on. Same with Cursor, Cline, Windsurf. You spend the first few minutes re-explaining the codebase, the decisions you made, where you left off. It's annoying. I got tired of it and built something to fix it. What it does sessionmem is a local-first MCP server that watches your coding sessions and au</summary>
+    <author><name>Kavish Dua</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The claude -p playbook for June 15 — rebuilding your AI workflows inside interactive sessions</title>
+    <link href="https://dev.to/fujibee/the-claude-p-playbook-for-june-15-rebuilding-your-ai-workflows-inside-interactive-sessions-3p41" rel="alternate"/>
+    <id>https://dev.to/fujibee/the-claude-p-playbook-for-june-15-rebuilding-your-ai-workflows-inside-interactive-sessions-3p41</id>
+    <updated>2026-06-12T22:08:37Z</updated>
+    <summary type="text">On June 15, Claude's claude -p (headless mode) and the Agent SDK stop drawing from your subscription and move to a separate metered credit. If you've built a pile of claude -p scripts, the news probably landed with a small jolt — I've written plenty of them myself, and &quot;wait, all of that is metered now?&quot; was my first reaction too. But step back and it's not really one company's pricing decision. T</summary>
+    <author><name>fujibee</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Local AI Coding Agents, Secure Production Deployment, and Angular-Specific AI Skills</title>
@@ -426,51 +475,5 @@
     <author><name>Glendel Joubert Fyne Acosta</name></author>
     <category term="rag"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What I shipped in one Claude Code session: a real-time mempool rug-detector pipeline</title>
-    <link href="https://dev.to/mik3fly__/what-i-shipped-in-one-claude-code-session-a-real-time-mempool-rug-detector-pipeline-2014" rel="alternate"/>
-    <id>https://dev.to/mik3fly__/what-i-shipped-in-one-claude-code-session-a-real-time-mempool-rug-detector-pipeline-2014</id>
-    <updated>2026-06-10T19:29:12Z</updated>
-    <summary type="text">I run RektRadar, a real-time scam-token detector for Ethereum. This is an honest build-log of one session with Claude Code (the Fable model) where I went from &quot;our scam detection misses a few things&quot; to four new detection signals shipped and a three-repo real-time alert pipeline live in production. Every PR linked below is public. Not &quot;the AI did everything magically&quot;. The interesting part is the </summary>
-    <author><name>Bryan MARTIN</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Amazon Kiro vs Amazon Q Developer: Which AI Coding IDE Wins for Backend Engineers?</title>
-    <link href="https://dev.to/jubinsoni/amazon-kiro-vs-amazon-q-developer-which-ai-coding-ide-wins-for-backend-engineers-egf" rel="alternate"/>
-    <id>https://dev.to/jubinsoni/amazon-kiro-vs-amazon-q-developer-which-ai-coding-ide-wins-for-backend-engineers-egf</id>
-    <updated>2026-06-10T19:25:00Z</updated>
-    <summary type="text">The Abrupt End of Amazon Q Developer In May 2026, AWS dropped a bombshell: Amazon Q Developer IDE plugins and paid subscriptions will reach end-of-support on April 30, 2027, with new signups blocked as of May 15, 2026. The successor? Kiro — AWS's next-generation AI IDE that reframes how engineers build software from scratch. If you're a backend engineer who has been relying on Q Developer for code</summary>
-    <author><name>Jubin Soni</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building Healthcare AI Taught Me That the Model Is the Easy Part</title>
-    <link href="https://dev.to/blakelucey/building-healthcare-ai-taught-me-that-the-model-is-the-easy-part-8ef" rel="alternate"/>
-    <id>https://dev.to/blakelucey/building-healthcare-ai-taught-me-that-the-model-is-the-easy-part-8ef</id>
-    <updated>2026-06-10T19:12:07Z</updated>
-    <summary type="text">When most developers think about healthcare AI, they think about models. Which model should we use? Should we use a managed API or self-host? How large does the context window need to be? What's the cost per token? After spending the last several months building healthcare AI software, I've come to a different conclusion: The model is often the easiest part of the system. The Real Challenge Buildi</summary>
-    <author><name>Blake M Lucey</name></author>
-  </entry>
-  <entry>
-    <title>AI makes experienced devs 19% slower. They just don't feel it.</title>
-    <link href="https://dev.to/adioof/ai-makes-experienced-devs-19-slower-they-just-dont-feel-it-28e0" rel="alternate"/>
-    <id>https://dev.to/adioof/ai-makes-experienced-devs-19-slower-they-just-dont-feel-it-28e0</id>
-    <updated>2026-06-10T19:11:28Z</updated>
-    <summary type="text">Senior devs used AI coding tools and got 19% slower. But they felt 20% faster. Read that again. No, you read that correctly. A 39-percentage-point difference between what people think about something and what the truth is. And it might be the most important finding about AI-assisted development this year. The Study Experienced open-source developers who worked on real tasks were measured by resear</summary>
-    <author><name>Aditya Agarwal</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>We scanned 17,000 Claude Code skills. 39% run shell commands - only 4% say so up front.</title>
-    <link href="https://dev.to/skillock/we-scanned-17000-claude-code-skills-39-run-shell-commands-only-4-say-so-up-front-5b7e" rel="alternate"/>
-    <id>https://dev.to/skillock/we-scanned-17000-claude-code-skills-39-run-shell-commands-only-4-say-so-up-front-5b7e</id>
-    <updated>2026-06-10T19:09:56Z</updated>
-    <summary type="text">An AI skill is a Markdown file your coding agent reads and obeys. GitHub code search currently finds 74,192 SKILL.md files installed under .claude/skills/ in public repos. We pulled a sample of 461 of those repos (plus the official Anthropic, OpenAI, and Trail of Bits catalogs), ran a static capability scan over every skill, and aggregated what they can actually do. Sample: 392 repos with parseabl</summary>
-    <author><name>skil-lock</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
