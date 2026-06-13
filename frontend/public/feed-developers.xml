@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-13T16:18:03Z</updated>
+  <updated>2026-06-13T18:12:38Z</updated>
+  <entry>
+    <title>How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing</title>
+    <link href="https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/</id>
+    <updated>2026-06-13T17:27:22Z</updated>
+    <summary type="text">In this tutorial, we implement a QwenPaw workflow that provides a practical environment for building and testing an agent-powered assistant. We install and initialize QwenPaw, configure its working directory, set up authentication, connect optional model providers via Colab secrets, and create a structured workspace with custom skills and local knowledge files. We also launch the […] The post How </summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft's SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file</title>
     <link href="https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/" rel="alternate"/>
@@ -24,6 +34,33 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Agent frameworks create workflows. Production needs run receipts.</title>
+    <link href="https://dev.to/armorer_labs/agent-frameworks-create-workflows-production-needs-run-receipts-5eb6" rel="alternate"/>
+    <id>https://dev.to/armorer_labs/agent-frameworks-create-workflows-production-needs-run-receipts-5eb6</id>
+    <updated>2026-06-13T18:01:30Z</updated>
+    <summary type="text">Everyone is comparing agent frameworks: LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, Claude Code, Codex, MCP routers, custom harnesses. That comparison matters, but it misses the layer that starts hurting once the demo works. The framework creates the workflow. It does not automatically answer: what is installed and running locally? which tools, MCP servers, skills, and providers are mounted? wh</summary>
+    <author><name>Armorer Labs</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Three prompt injection stories from this week that your guardrail probably missed</title>
+    <link href="https://dev.to/oraclestech/three-prompt-injection-stories-from-this-week-that-your-guardrail-probably-missed-2iil" rel="alternate"/>
+    <id>https://dev.to/oraclestech/three-prompt-injection-stories-from-this-week-that-your-guardrail-probably-missed-2iil</id>
+    <updated>2026-06-13T17:46:13Z</updated>
+    <summary type="text">A new CVE against Cursor, a LiteLLM supply-chain backdoor, and a study showing image-only injection hits 76% success rate — all in the last 72 hours. Here's what each one means for agents in production. *Three prompt injection stories from this week that your guardrail probably missed * Three things happened in the last 72 hours that, taken together, describe exactly where the agentic AI attack su</summary>
+    <author><name>Oracles Technologies LLC</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I compared every AI &quot;wait-state&quot; ad platform (Kickbacks, IdleAds, Idlen &amp; more)</title>
+    <link href="https://dev.to/digitalcheff/i-compared-every-ai-wait-state-ad-platform-kickbacks-idleads-idlen-more-3m4a" rel="alternate"/>
+    <id>https://dev.to/digitalcheff/i-compared-every-ai-wait-state-ad-platform-kickbacks-idleads-idlen-more-3m4a</id>
+    <updated>2026-06-13T17:44:39Z</updated>
+    <summary type="text">Kickbacks.ai went viral in early June 2026: replace Claude Code's &quot;Discombobulating...&quot; spinner with ads, get ~50% of revenue. But Kickbacks isn't the only option — and the risks aren't obvious. I built AIWaitIndex — a free, independent comparison site for this new category. What's a &quot;wait-state&quot; ad? While an AI coding tool is thinking, you see a spinner or status line. Startups now sell that mome</summary>
+    <author><name>digitalcheff</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent</title>
@@ -441,41 +478,5 @@
     <author><name>G. Ess Brar</name></author>
     <category term="llm"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>I Scanned 492 MCP Servers Exposed to the Internet. Here's What I Found.</title>
-    <link href="https://dev.to/crucible_sec/i-scanned-492-mcp-servers-exposed-to-the-internet-heres-what-i-found-8p4" rel="alternate"/>
-    <id>https://dev.to/crucible_sec/i-scanned-492-mcp-servers-exposed-to-the-internet-heres-what-i-found-8p4</id>
-    <updated>2026-06-11T14:36:56Z</updated>
-    <summary type="text">Over the past few weeks, I've been spending a lot of time looking at the security of AI agents. Not the models themselves. The infrastructure around them. Specifically, MCP servers. As more companies adopt AI agents, MCP servers are becoming the bridge between models and the real world. They connect agents to tools, databases, APIs, file systems, internal services, and external workflows. Which go</summary>
-    <author><name>Crucible Security</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>An AI Module Smaller Than a Smartphone Photo. Are We Underestimating the Computer We Carry Every Day?</title>
-    <link href="https://dev.to/__0303fbbdd9e/an-ai-module-smaller-than-a-smartphone-photo-are-we-underestimating-the-computer-we-carry-every-4bc5" rel="alternate"/>
-    <id>https://dev.to/__0303fbbdd9e/an-ai-module-smaller-than-a-smartphone-photo-are-we-underestimating-the-computer-we-carry-every-4bc5</id>
-    <updated>2026-06-11T14:35:10Z</updated>
-    <summary type="text">The Idea and the Main Engineering Challenges Recently, I released a new offline AI feature for my Android application as a separate module. The entire AI module ended up occupying just 4.78 MB, while recognition on modern smartphones typically takes less than 100 ms. Working on this feature made me think more about why some modern applications seem to grow in size faster than their functionality. </summary>
-    <author><name>Maksym Koval</name></author>
-  </entry>
-  <entry>
-    <title>Workflow Engine NEO trials are self-serve now, and your coding agent can grab one too</title>
-    <link href="https://dev.to/optimajet/workflow-engine-neo-trials-are-self-serve-now-and-your-coding-agent-can-grab-one-too-38am" rel="alternate"/>
-    <id>https://dev.to/optimajet/workflow-engine-neo-trials-are-self-serve-now-and-your-coding-agent-can-grab-one-too-38am</id>
-    <updated>2026-06-11T14:17:10Z</updated>
-    <summary type="text">You can grab a Workflow Engine NEO trial key yourself now, no email thread. Go to trial.workflowengine.io, type a business email and a company name, and a 30-day Ultimate key shows up in your inbox. The part I'm actually excited about There's a sibling endpoint for AI coding agents. POST to https://trial.workflowengine.io/api/trial/llm with { &quot;email&quot;: &quot;...&quot;, &quot;companyName&quot;: &quot;...&quot; } and you get the </summary>
-    <author><name>Optimajet Limited</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why New Language Features Need to Target AI Agents, Not Developers</title>
-    <link href="https://dev.to/moderncpp/why-new-language-features-need-to-target-ai-agents-not-developers-4h07" rel="alternate"/>
-    <id>https://dev.to/moderncpp/why-new-language-features-need-to-target-ai-agents-not-developers-4h07</id>
-    <updated>2026-06-11T14:12:20Z</updated>
-    <summary type="text">For the last 50 years, programming language evolution has had one single north star: Human Ergonomics. We design syntax sugar, optional typing, and complex implicit behaviors to make code faster to write and easier for human brains to read. But we are ignoring the elephant in the repository. With autonomous platforms like OpenHands, GitHub Copilot workspace, and custom multi-agent reasoning loops </summary>
-    <author><name>ModernCpp</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
