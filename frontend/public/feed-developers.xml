@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-12T23:22:46Z</updated>
+  <updated>2026-06-13T04:12:56Z</updated>
   <entry>
     <title>OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent</title>
     <link href="https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/" rel="alternate"/>
@@ -32,6 +32,55 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GEMINI.md 注入攻擊實測</title>
+    <link href="https://dev.to/jh5_pulse/geminimd-zhu-ru-gong-ji-shi-ce-2a8l" rel="alternate"/>
+    <id>https://dev.to/jh5_pulse/geminimd-zhu-ru-gong-ji-shi-ce-2a8l</id>
+    <updated>2026-06-13T04:07:19Z</updated>
+    <summary type="text">10 行 GEMINI.md 跟 100 行效果一樣：Gemini CLI 指令遵循消融實測 這份實測記錄了不同長度提示詞對基礎遵從指令能力的影響。結果顯示，將 GEMINI.md 濃縮到 10 行，其指令遵循率與 100 行的版本完全相同，而且執行速度更快、消耗更少 token。適合正在撰寫專案指令檔，卻不知該放多少內容的 Gemini CLI 使用者參考。 GEMINI.md 該寫多長？ GEMINI.md 是 Gemini CLI 的專案指令檔。每次執行 gemini -p &quot;...&quot; 時，它的內容都會被注入到系統提示詞的 context window 中，作用等同於 Claude Code 的 CLAUDE.md。 社群普遍建議長度要控制在 100 行以內，但沒有人拿數據驗證過這條界線的必要性。為此，我們設計了三種長度版本進行消融測試： GEMINI_0：完全空白（0 tokens</summary>
+    <author><name>JH5</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>本地 LLM 抵擋 MITRE ATT&amp;CK 攻擊的能力差異</title>
+    <link href="https://dev.to/jh5_pulse/ben-di-llm-di-dang-mitre-attck-gong-ji-de-neng-li-chai-yi-3jld" rel="alternate"/>
+    <id>https://dev.to/jh5_pulse/ben-di-llm-di-dang-mitre-attck-gong-ji-de-neng-li-chai-yi-3jld</id>
+    <updated>2026-06-13T04:06:38Z</updated>
+    <summary type="text">本地 LLM 抵擋 MITRE ATT&amp;CK 攻擊的能力差異：Qwen3.6 vs Llama3.1 安全實測 本地開源 LLM 在面對 MITRE ATT&amp;CK 攻擊框架時的抵抗力，其實有著顯著的個體差異。在 15 組紅隊攻擊指令的實測中，Qwen3.6-7B 吐出可用攻擊腳本的比例高達 73.3%，而 Llama3.1-8B 只有 33.3%。這份報告利用 AttackGPT 框架評估了這兩款模型的完整安全數據，適合正在建構本地端 AI 護欄的 MLOps 工程師，或是對 Red Teaming 工具有興趣的研究員參考。 之所以會跑這趟測試，是因為我們團隊近期正在評估把本地 LLM 導入醫療分析管線（例如 NGS 輔助診斷或 Agentic 流程）的可行性。選型的核心焦慮很直接：如果遇到被污染的 Prompt 或惡意誘導，護欄模型是真的能「果斷防住」，還是只是「卡死算很久，最後還是把有</summary>
+    <author><name>JH5</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Google AMS 模型 Activation 掃描實測</title>
+    <link href="https://dev.to/jh5_pulse/google-ams-mo-xing-activation-sao-miao-shi-ce-5809" rel="alternate"/>
+    <id>https://dev.to/jh5_pulse/google-ams-mo-xing-activation-sao-miao-shi-ce-5809</id>
+    <updated>2026-06-13T04:05:53Z</updated>
+    <summary type="text">AMS 模型 Activation 掃描實測：從 Weights 層面驗證安全性，三個小模型全部 CRITICAL Google Cloud 在 2026 年 4 月底開源了 AMS（Activation Model Scanner），它用的不是傳統的行為測試，而是直接量測模型 activation space 的幾何結構，確認 safety training 是否真的在 weights 層面留下了痕跡。我們用三個大小不同的開源模型做了快速掃描，結果是：三個全部 CRITICAL，分數從 0.37 到 1.82 不等，沒有一個跨過 3.5 的安全門檻。 這份報告記錄了 2026 年 4 月底在 Mac 本機上的實測流程，適合正在選型或驗收 open-source LLM 的 MLOps / AI Red Team 工程師。 AMS 是什麼？為什麼跟行為測試不一樣？ AMS 是基於 Apac</summary>
+    <author><name>JH5</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>NVIDIA NIM™ 與 LangGraph 打造智慧醫療數據查詢 AI Agent</title>
+    <link href="https://dev.to/jh5_pulse/nvidia-nim-yu-langgraph-da-zao-zhi-hui-yi-liao-shu-ju-cha-xun-ai-agent-323i" rel="alternate"/>
+    <id>https://dev.to/jh5_pulse/nvidia-nim-yu-langgraph-da-zao-zhi-hui-yi-liao-shu-ju-cha-xun-ai-agent-323i</id>
+    <updated>2026-06-13T04:05:43Z</updated>
+    <summary type="text">用 AI Agent 控制地端 Kubernetes Cluster：開發與實戰經驗彙整 2026 年 3 月 | 整理自社群公開發表的實戰經驗與開源專案 前言 2025–2026 年，AI Agent 從「實驗性玩具」快速演變為能直接操作生產環境的基礎設施。其中最引人注目的應用之一，就是讓 AI Agent 直接控制地端（on-premise）Kubernetes 叢集——從故障診斷、資源調度到自動修復，全都可以用自然語言驅動。 CNCF 在 2026 年 2 月正式宣布 KubeCon Europe 2026 將舉辦 Agentics Day: MCP + Agents 共置活動，標誌著 Agentic AI 在雲原生領域已從實驗走向生產。本文整理了近期社群中公開發表的實戰經驗、開源工具與架構建議，幫助你快速掌握這個領域的最新進展。 一、主流開源工具全景 目前社群中有幾個重要的開源專案</summary>
+    <author><name>JH5</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>VEX demo update: adding Docker Scout attestations (and three new gotchas)</title>
+    <link href="https://dev.to/darkedges/vex-demo-update-adding-docker-scout-attestations-and-three-new-gotchas-dk" rel="alternate"/>
+    <id>https://dev.to/darkedges/vex-demo-update-adding-docker-scout-attestations-and-three-new-gotchas-dk</id>
+    <updated>2026-06-13T03:58:54Z</updated>
+    <summary type="text">This is a follow-up to From 70 CVEs to 0: a hands-on VEX suppression workflow with Trivy. The original demo covered Trivy's VEX repository and the filesystem-embed approach. This update adds Docker Scout attestations as a first-class distribution channel and surfaces three new gotchas that aren't in the docs. The demo repo is the same: github.com/darkedges/trivy-vex-demo pull the latest and the ne</summary>
+    <author><name>DarkEdges</name></author>
   </entry>
   <entry>
     <title>Fable 5 dropped and I'm suddenly a lot more paranoid about my VS Code extensions</title>
@@ -428,52 +477,5 @@
     <category term="llm"/>
     <category term="rag"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Your AI coding agent keeps re-trying the fix that already failed. I built a zero-dependency cure.</title>
-    <link href="https://dev.to/anlor1002alt/your-ai-coding-agent-keeps-re-trying-the-fix-that-already-failed-i-built-a-zero-dependency-cure-4k7e" rel="alternate"/>
-    <id>https://dev.to/anlor1002alt/your-ai-coding-agent-keeps-re-trying-the-fix-that-already-failed-i-built-a-zero-dependency-cure-4k7e</id>
-    <updated>2026-06-11T05:22:43Z</updated>
-    <summary type="text">There's a specific loop that anyone who codes with AI agents knows by heart. The agent tries a fix. The test fails. It tries something else. Fails again. Then — a few prompts later, or after its context window gets compacted — it confidently re-applies the exact first fix that already failed. The failure got erased from its memory. The confidence didn't. I watched Claude Code do this four times in</summary>
-    <author><name>Thi An</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Vibe Coder's Pre-Launch Security Checklist: 25 Checks for Cursor, Lovable, Bolt &amp; Replit Apps</title>
-    <link href="https://dev.to/hacksafe/the-vibe-coders-pre-launch-security-checklist-25-checks-for-cursor-lovable-bolt-replit-apps-12i" rel="alternate"/>
-    <id>https://dev.to/hacksafe/the-vibe-coders-pre-launch-security-checklist-25-checks-for-cursor-lovable-bolt-replit-apps-12i</id>
-    <updated>2026-06-11T05:22:05Z</updated>
-    <summary type="text">The Vibe Coder's Pre-Launch Security Checklist: 25 Checks for Cursor, Lovable, Bolt &amp; Replit Apps I scanned 62 Lovable apps in early 2026. 63% had critical or high severity vulnerabilities. The average app had 10 findings. These weren't obscure edge-case bugs. They were the same mistakes, over and over: exposed API keys, disabled row-level security, missing authentication on routes, no rate limiti</summary>
-    <author><name>Hack Safe</name></author>
-  </entry>
-  <entry>
-    <title>Comparing dual-GPU inference speed between llama.cpp row/tensor split and ik_llama graph split</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1u40m12/comparing_dualgpu_inference_speed_between/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1u40m12/comparing_dualgpu_inference_speed_between/</id>
-    <updated>2026-06-12T16:43:00Z</updated>
-    <summary type="text">Setup: +-----------------------------------------------------------------------------------------+ | NVIDIA-SMI 610.43.02 KMD Version: 610.43.02 CUDA UMD Version: 13.3 | +-----------------------------------------+------------------------+----------------------+ | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. | | |</summary>
-    <author><name>/u/grumd</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Claude Code Doesn't Ship Production Code: Your Config Does</title>
-    <link href="https://hackernoon.com/claude-code-doesnt-ship-production-code-your-config-does?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/claude-code-doesnt-ship-production-code-your-config-does?source=rss</id>
-    <updated>2026-06-11T00:51:03Z</updated>
-    <summary type="text">Most teams use Claude Code as a faster autocomplete and wonder why the output still needs babysitting. The leverage isn't in the prompt — it's in the four config surfaces that wire verification into the agent loop: project memory, hooks, subagents, and headless mode.Read All</summary>
-    <author><name>Veera Ravindra Divi</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agent Memory Is Not Chat History</title>
-    <link href="https://dev.to/glendel/ai-agent-memory-is-not-chat-history-4jjb" rel="alternate"/>
-    <id>https://dev.to/glendel/ai-agent-memory-is-not-chat-history-4jjb</id>
-    <updated>2026-06-11T00:12:05Z</updated>
-    <summary type="text">Most AI agent systems start with a simple idea: &quot;Let's give the Agent Memory&quot;. At first, this usually means saving previous messages, retrieving similar chunks, and injecting them back into the prompt. That works for demos. It does not work reliably for real organizational workflows. Because chat history is not memory. A vector database is not memory. A bigger context window is not memory. Those a</summary>
-    <author><name>Glendel Joubert Fyne Acosta</name></author>
-    <category term="rag"/>
-    <category term="agents"/>
   </entry>
 </feed>
