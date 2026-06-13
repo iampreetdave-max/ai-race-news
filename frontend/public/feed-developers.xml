@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-13T04:12:56Z</updated>
+  <updated>2026-06-13T08:25:24Z</updated>
+  <entry>
+    <title>Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6</title>
+    <link href="https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/</id>
+    <updated>2026-06-13T04:57:12Z</updated>
+    <summary type="text">Moonshot AI has open-sourced Kimi K2.7-Code under a Modified MIT license. It is a coding-focused, agentic model built on Kimi K2.6, with a 256K context window and roughly 30% lower reasoning-token usage. Moonshot reports gains over K2.6 on six benchmarks, including +21.8% on Kimi Code Bench v2. The model is available via the Kimi API and Kimi Code. The post Moonshot AI Releases Kimi K2.7-Code: a C</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent</title>
     <link href="https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/" rel="alternate"/>
@@ -31,6 +41,34 @@
     <summary type="text">OpenAI is acquiring Ona, previously known as Gitpod, a startup founded in Kiel, Germany in 2020 that specializes in AI agents and secure cloud development environments for software development. The article OpenAI buys Ona to push Codex toward long-running, autonomous coding tasks appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why I Stopped Building My Own Document Q&amp;A from Scratch</title>
+    <link href="https://dev.to/__c1b9e06dc90a7e0a676b/why-i-stopped-building-my-own-document-qa-from-scratch-19g5" rel="alternate"/>
+    <id>https://dev.to/__c1b9e06dc90a7e0a676b/why-i-stopped-building-my-own-document-qa-from-scratch-19g5</id>
+    <updated>2026-06-13T08:01:09Z</updated>
+    <summary type="text">Two months ago, I was knee-deep in a project that sounded simple: build a system that could answer questions from our company’s internal documentation. We had hundreds of PDFs, Confluence pages, and READMEs. The goal was to let junior developers ask natural language questions and get accurate answers instantly. I thought, “How hard can it be? I’ll just fine-tune a small LLM on our documents.” Spoi</summary>
+    <author><name>zhongqiyue</name></author>
+    <category term="rag"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your AI coding agent forgets everything between sessions. Here's how to fix that.</title>
+    <link href="https://dev.to/massiron/your-ai-coding-agent-forgets-everything-between-sessions-heres-how-to-fix-that-2cja" rel="alternate"/>
+    <id>https://dev.to/massiron/your-ai-coding-agent-forgets-everything-between-sessions-heres-how-to-fix-that-2cja</id>
+    <updated>2026-06-13T07:54:01Z</updated>
+    <summary type="text">You spend 20 minutes rebuilding context every time you open a new Claude Code or Cursor session. The architecture decision from last week? Gone. The task you were halfway through? Lost. The rationale behind that weird except: pass you left as a TODO? Your future self will curse past you. I built nodestone — a project context memory engine that lives alongside your repo. It remembers decisions, tas</summary>
+    <author><name>massiron</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop pasting context every AI session: one command restores everything</title>
+    <link href="https://dev.to/massiron/stop-pasting-context-every-ai-session-one-command-restores-everything-28ej" rel="alternate"/>
+    <id>https://dev.to/massiron/stop-pasting-context-every-ai-session-one-command-restores-everything-28ej</id>
+    <updated>2026-06-13T07:53:49Z</updated>
+    <summary type="text">The problem Every AI coding session starts the same: paste the README, paste the architecture doc, paste the last error message, re-explain where you left off. If you switch between Claude Code, Cursor, and Gemini in the same project, every tool starts from zero. nodestone fixes that. It's a project-level memory engine for AI-assisted development, and it's free. What it does nodestone tracks four </summary>
+    <author><name>massiron</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -439,43 +477,5 @@
     <summary type="text">Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision. No single tool fits every need. This guide covers the AI coding agents […] The post Top AI Coding Agents and Development Platforms in 2026: </summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Upriver raises $14M to automate enterprise data engineering for AI</title>
-    <link href="https://siliconangle.com/2026/06/11/upriver-raises-14m-automate-enterprise-data-engineering-ai/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/11/upriver-raises-14m-automate-enterprise-data-engineering-ai/</id>
-    <updated>2026-06-11T23:02:00Z</updated>
-    <summary type="text">Israeli data engineering startup Upriver Data Ltd. today announced it has raised $14 million in new funding to automate the data work that enterprises depend on to make artificial intelligence projects succeed. Founded in 2024 by Chief Executive Ido Bronstein and Chief Technology Officer Omri Lifshitz, Upriver has built what it calls an artificial intelligence-native […] The post Upriver raises $1</summary>
-    <author><name>Duncan Riley</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>When the cost of code approaches zero, what does engineering leadership look like?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
-    <link href="https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/" rel="alternate"/>
-    <id>https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/</id>
-    <updated>2026-06-11T07:40:00Z</updated>
-    <summary type="text">On this episode of Leaders of Code, Eric Anderson, director of engineering at Intuit, joins Stack Overflow engineering director Ben Matthews to talk about what happens to software teams when AI makes code generation seemingly free.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​</summary>
-    <author><name>Eira May</name></author>
-  </entry>
-  <entry>
-    <title>Context Mode 的 5 个隐藏用法 🔥 — 让 Claude Code 上下文消耗减少 98% 的 MCP Server</title>
-    <link href="https://dev.to/_cbd692d476c5faf3b61bcf/context-mode-de-5-ge-yin-cang-yong-fa-rang-claude-code-shang-xia-wen-xiao-hao-jian-shao-98-de-mcp-server-2662" rel="alternate"/>
-    <id>https://dev.to/_cbd692d476c5faf3b61bcf/context-mode-de-5-ge-yin-cang-yong-fa-rang-claude-code-shang-xia-wen-xiao-hao-jian-shao-98-de-mcp-server-2662</id>
-    <updated>2026-06-11T05:46:05Z</updated>
-    <summary type="text">如果你用过 Claude Code、Cursor 或任何 AI 编程助手超过 30 分钟，你一定遇到过这道墙：上下文窗口写满了，智能体开始忘记你刚才在编辑哪些文件、任务进展到哪里、你最后问的是什么。这不是模型的问题——是数据路由的问题。而 GitHub 上有一个项目，自 2026 年 2 月起就在解决这个问题，17,032 Stars，被 Microsoft、Google、Meta、Amazon、NVIDIA 等 14 家科技公司的工程师使用。 Context Mode 是一个 MCP Server，位于 AI 编程助手和其工具输出之间，对原始数据进行沙箱隔离，使其永远不会涌入你的上下文窗口。一个 56 KB 的 Playwright 快照变成 299 字节。20 条 GitHub Issue（59 KB）变成 1.1 KB。这是 98–99% 的缩减——而智能体仍然可以通过语义搜索访问它</summary>
-    <author><name>韩</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Context Mode's 5 Hidden Uses 🔥 — MCP Server That Cuts Claude Code Context by 98%</title>
-    <link href="https://dev.to/_cbd692d476c5faf3b61bcf/context-modes-5-hidden-uses-mcp-server-that-cuts-claude-code-context-by-98-32ih" rel="alternate"/>
-    <id>https://dev.to/_cbd692d476c5faf3b61bcf/context-modes-5-hidden-uses-mcp-server-that-cuts-claude-code-context-by-98-32ih</id>
-    <updated>2026-06-11T05:45:53Z</updated>
-    <summary type="text">If you use Claude Code, Cursor, or any AI coding agent for more than 30 minutes, you've hit this wall: the context window fills up, the agent starts forgetting which files you were editing, what tasks are in progress, and what you last asked for. It's not a model problem — it's a data routing problem. And there's a GitHub project with 17,032 Stars that's been solving it since February 2026, used b</summary>
-    <author><name>韩</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-    <category term="hardware"/>
   </entry>
 </feed>
