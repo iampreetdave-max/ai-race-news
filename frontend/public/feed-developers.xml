@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-14T19:42:50Z</updated>
+  <updated>2026-06-14T21:18:02Z</updated>
   <entry>
     <title>AI coding agents find the right file but miss the exact lines that matter, study shows</title>
     <link href="https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/" rel="alternate"/>
@@ -25,6 +25,25 @@
     <category term="agents"/>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Cognitive Benchmark for Code-RAG Retrieval: Part 2 — Why Model Rankings Depend on the Pipeline</title>
+    <link href="https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4" rel="alternate"/>
+    <id>https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4</id>
+    <updated>2026-06-14T21:00:41Z</updated>
+    <summary type="text">When developers enter an unfamiliar project, they rarely search for a specific file by name. They usually ask about system behavior: where incoming connections are accepted, which component cleans logs, or how a request travels between architectural layers. Code-RAG tries to answer such questions through semantic search. It splits and indexes the source code, then retrieves the context most closel</summary>
+    <author><name>Ilias Miftakhov</name></author>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>How to Build AI-Powered Kubernetes Operators for Troubleshooting, Scaling, and Incident Response</title>
+    <link href="https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss</id>
+    <updated>2026-06-14T19:41:08Z</updated>
+    <summary type="text">In this tutorial, you will learn how to build a Kubernetes AI agent using Python, integrate it with cluster data and monitoring systems, and explore real-world use cases such as incident response, performance troubleshooting, and cost optimization. Moreover, you will also learn key security practices for deploying AI agents safely in production environments.Read All</summary>
+    <author><name>PuneetPahuja</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Self-Healing Data Pipelines: Where the Marketing Ends and the Engineering Begins</title>
@@ -448,26 +467,5 @@
     <author><name>JH5</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Google AMS 模型 Activation 掃描實測</title>
-    <link href="https://dev.to/jh5_pulse/google-ams-mo-xing-activation-sao-miao-shi-ce-5809" rel="alternate"/>
-    <id>https://dev.to/jh5_pulse/google-ams-mo-xing-activation-sao-miao-shi-ce-5809</id>
-    <updated>2026-06-13T04:05:53Z</updated>
-    <summary type="text">AMS 模型 Activation 掃描實測：從 Weights 層面驗證安全性，三個小模型全部 CRITICAL Google Cloud 在 2026 年 4 月底開源了 AMS（Activation Model Scanner），它用的不是傳統的行為測試，而是直接量測模型 activation space 的幾何結構，確認 safety training 是否真的在 weights 層面留下了痕跡。我們用三個大小不同的開源模型做了快速掃描，結果是：三個全部 CRITICAL，分數從 0.37 到 1.82 不等，沒有一個跨過 3.5 的安全門檻。 這份報告記錄了 2026 年 4 月底在 Mac 本機上的實測流程，適合正在選型或驗收 open-source LLM 的 MLOps / AI Red Team 工程師。 AMS 是什麼？為什麼跟行為測試不一樣？ AMS 是基於 Apac</summary>
-    <author><name>JH5</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>NVIDIA NIM™ 與 LangGraph 打造智慧醫療數據查詢 AI Agent</title>
-    <link href="https://dev.to/jh5_pulse/nvidia-nim-yu-langgraph-da-zao-zhi-hui-yi-liao-shu-ju-cha-xun-ai-agent-323i" rel="alternate"/>
-    <id>https://dev.to/jh5_pulse/nvidia-nim-yu-langgraph-da-zao-zhi-hui-yi-liao-shu-ju-cha-xun-ai-agent-323i</id>
-    <updated>2026-06-13T04:05:43Z</updated>
-    <summary type="text">用 AI Agent 控制地端 Kubernetes Cluster：開發與實戰經驗彙整 2026 年 3 月 | 整理自社群公開發表的實戰經驗與開源專案 前言 2025–2026 年，AI Agent 從「實驗性玩具」快速演變為能直接操作生產環境的基礎設施。其中最引人注目的應用之一，就是讓 AI Agent 直接控制地端（on-premise）Kubernetes 叢集——從故障診斷、資源調度到自動修復，全都可以用自然語言驅動。 CNCF 在 2026 年 2 月正式宣布 KubeCon Europe 2026 將舉辦 Agentics Day: MCP + Agents 共置活動，標誌著 Agentic AI 在雲原生領域已從實驗走向生產。本文整理了近期社群中公開發表的實戰經驗、開源工具與架構建議，幫助你快速掌握這個領域的最新進展。 一、主流開源工具全景 目前社群中有幾個重要的開源專案</summary>
-    <author><name>JH5</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="hardware"/>
   </entry>
 </feed>

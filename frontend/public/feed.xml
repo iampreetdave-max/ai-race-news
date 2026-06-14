@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-14T19:42:50Z</updated>
+  <updated>2026-06-14T21:18:02Z</updated>
+  <entry>
+    <title>A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics</title>
+    <link href="https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/</id>
+    <updated>2026-06-14T20:45:32Z</updated>
+    <summary type="text">In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow. We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata, and analyze key fields such as URL, language, language score, and token count. We also reproduce simplified versions of FineWeb’s quality-filtering pipeline, apply […] The post A Cod</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>Microsoft Research's Mirage gives video generation a persistent spatial memory that doesn't forget what's around the corner</title>
     <link href="https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/" rel="alternate"/>
@@ -122,6 +132,77 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>How to Use Claude to Troubleshoot Linux Servers</title>
+    <link href="https://dev.to/devopsaitoolkit/how-to-use-claude-to-troubleshoot-linux-servers-1fhe" rel="alternate"/>
+    <id>https://dev.to/devopsaitoolkit/how-to-use-claude-to-troubleshoot-linux-servers-1fhe</id>
+    <updated>2026-06-14T21:15:59Z</updated>
+    <summary type="text">Claude is genuinely useful for production Linux troubleshooting — when you use it right. Here's the workflow that works, after a year of using it on real incidents across Ubuntu, RHEL, and Rocky. The mental model: Claude is a senior pair, not an oracle The mistake most engineers make on day one: they paste a 5-line error message and expect a fix. Claude can do better than that — but only if you gi</summary>
+    <author><name>James Joyner</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Cognitive Benchmark for Code-RAG Retrieval: Part 2 — Why Model Rankings Depend on the Pipeline</title>
+    <link href="https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4" rel="alternate"/>
+    <id>https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4</id>
+    <updated>2026-06-14T21:00:41Z</updated>
+    <summary type="text">When developers enter an unfamiliar project, they rarely search for a specific file by name. They usually ask about system behavior: where incoming connections are accepted, which component cleans logs, or how a request travels between architectural layers. Code-RAG tries to answer such questions through semantic search. It splits and indexes the source code, then retrieves the context most closel</summary>
+    <author><name>Ilias Miftakhov</name></author>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>5 LLM APIs Tested for Latency: Real Data [2026]</title>
+    <link href="https://dev.to/kunal_d6a8fea2309e1571ee7/5-llm-apis-tested-for-latency-real-data-2026-3e4o" rel="alternate"/>
+    <id>https://dev.to/kunal_d6a8fea2309e1571ee7/5-llm-apis-tested-for-latency-real-data-2026-3e4o</id>
+    <updated>2026-06-14T21:00:14Z</updated>
+    <summary type="text">Originally published at kunalganglani.com — read it there for inline code, hero image, and live links. 597 milliseconds. That's how long Claude Haiku 4.5 takes to deliver its first token on a medium-length prompt. GPT-4.1 Mini? Roughly 2,400ms. Four times slower. That gap is the difference between an app that feels alive and one that feels broken. I tested five LLM APIs for latency — Claude Haiku </summary>
+    <author><name>Kunal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Prompt Injection in 2026: Still OWASP's Number One LLM Vulnerability</title>
+    <link href="https://dev.to/kunal_d6a8fea2309e1571ee7/prompt-injection-in-2026-still-owasps-number-one-llm-vulnerability-5f31" rel="alternate"/>
+    <id>https://dev.to/kunal_d6a8fea2309e1571ee7/prompt-injection-in-2026-still-owasps-number-one-llm-vulnerability-5f31</id>
+    <updated>2026-06-14T21:00:13Z</updated>
+    <summary type="text">Originally published at kunalganglani.com — read it there for inline code, hero image, and live links. Prompt injection is a class of attack where crafted inputs manipulate a large language model into ignoring its instructions, leaking data, or performing unauthorized actions. It has held the #1 position — LLM01 — on OWASP's Top 10 for LLM Applications across every published edition, from the orig</summary>
+    <author><name>Kunal</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Local AI Needs Data-Plane Health Checks</title>
+    <link href="https://dev.to/newtorob/local-ai-needs-data-plane-health-checks-2ene" rel="alternate"/>
+    <id>https://dev.to/newtorob/local-ai-needs-data-plane-health-checks-2ene</id>
+    <updated>2026-06-14T20:59:02Z</updated>
+    <summary type="text">The worst network bugs are the ones where every dashboard says green and the packet still dies. That was my Sunday. I have a Mac that I use as my daily machine and a Linux box called newtorob with a 2080 Ti in it. Potluck runs a local AI sidecar on each machine. The Mac can use its own model locally, or route a request to another machine in my household over a WireGuard mesh. The product shape is </summary>
+    <author><name>Rob</name></author>
+  </entry>
+  <entry>
+    <title>🪄🐘 Postgres best practices I wish every app developer knew 🧑‍💻</title>
+    <link href="https://dev.to/bytebase/postgres-best-practices-i-wish-every-app-developer-knew-4f2d" rel="alternate"/>
+    <id>https://dev.to/bytebase/postgres-best-practices-i-wish-every-app-developer-knew-4f2d</id>
+    <updated>2026-06-14T20:52:27Z</updated>
+    <summary type="text">At Bytebase we work with PostgreSQL every day, both inside our own product and across the databases our customers point us at. The same handful of mistakes shows up over and over, and almost none of them are exotic. They are small things an application developer controls and skips anyway. So this is not a database administration checklist. These are the five things I wish every app developer turne</summary>
+    <author><name>Adela</name></author>
+  </entry>
+  <entry>
+    <title>Building GhostPay Mesh: Why We Believe Financial Infrastructure, building an offline-first startup and presenting at Web Summit Rio 2026.</title>
+    <link href="https://dev.to/wesley_favarin_c4b20a9014/building-ghostpay-mesh-why-we-believe-financial-infrastructure-building-an-offline-first-startup-d56" rel="alternate"/>
+    <id>https://dev.to/wesley_favarin_c4b20a9014/building-ghostpay-mesh-why-we-believe-financial-infrastructure-building-an-offline-first-startup-d56</id>
+    <updated>2026-06-14T20:46:52Z</updated>
+    <summary type="text">As software engineers, we often build systems assuming one thing: The internet will always be available. Cloud providers, APIs, payment gateways, databases, authentication services — modern software is designed around constant connectivity. But what happens when that assumption breaks? That question became the foundation of what would eventually become GhostPay Mesh. Recently, our team had the opp</summary>
+    <author><name>Wesley Favarin</name></author>
+  </entry>
+  <entry>
+    <title>Kaggle is Vibe Coding its own Vibe Coding course</title>
+    <link href="https://dev.to/waddah00/kaggle-is-vibe-coding-its-own-vibe-coding-course-4d7l" rel="alternate"/>
+    <id>https://dev.to/waddah00/kaggle-is-vibe-coding-its-own-vibe-coding-course-4d7l</id>
+    <updated>2026-06-14T20:44:47Z</updated>
+    <summary type="text">So, Kaggle just launched their 5-Day Intensive Course on AI Agents and Vibe Coding. Naturally, I clicked on the day one video expecting the usual high-production tutorial or instructor walk-through. Instead, I was greeted by those unmistakable, incredibly enthusiastic, slightly uncanny NotebookLM deep-dive podcast voices. They literally vibe-coded the introduction to their own vibe coding course. </summary>
+    <author><name>Waddah Ali</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>As Anthropic suspends access to new models, India debates its AI future</title>
     <link href="https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/" rel="alternate"/>
     <id>https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/</id>
@@ -129,6 +210,33 @@
     <summary type="text">Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.</summary>
     <author><name>Jagmeet Singh</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Understanding Cloud AI Certifications: A Developer's Map Across Vendors</title>
+    <link href="https://dev.to/dale21certs/understanding-cloud-ai-certifications-a-developers-map-across-vendors-19m5" rel="alternate"/>
+    <id>https://dev.to/dale21certs/understanding-cloud-ai-certifications-a-developers-map-across-vendors-19m5</id>
+    <updated>2026-06-14T20:33:55Z</updated>
+    <summary type="text">If you've spent any time looking at AI and machine learning certifications, you've probably noticed the same thing I did: every cloud vendor has its own, they all use different vocabulary, and none of them tell you how their cert maps to anyone else's. For a developer trying to decide where to invest study time, that fragmentation is the real obstacle — not the difficulty of the material. I'm Larr</summary>
+    <author><name>Larry Barrow</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>The spec is in the wrong place</title>
+    <link href="https://dev.to/penling_paul/the-spec-is-in-the-wrong-place-2ap9" rel="alternate"/>
+    <id>https://dev.to/penling_paul/the-spec-is-in-the-wrong-place-2ap9</id>
+    <updated>2026-06-14T20:33:51Z</updated>
+    <summary type="text">My day job is at a large tech company. Hundreds of engineering teams, and every one of them is somewhere different on AI adoption. Some are still treating coding agents as a curiosity. Some have quietly rebuilt their whole workflow around them. Most are in the messy middle, and watching that middle is where the idea for Penling came from. Spec-driven development has arrived, and I think it's the r</summary>
+    <author><name>Paul Penling</name></author>
+  </entry>
+  <entry>
+    <title>How to Build AI-Powered Kubernetes Operators for Troubleshooting, Scaling, and Incident Response</title>
+    <link href="https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss</id>
+    <updated>2026-06-14T19:41:08Z</updated>
+    <summary type="text">In this tutorial, you will learn how to build a Kubernetes AI agent using Python, integrate it with cluster data and monitoring systems, and explore real-world use cases such as incident response, performance troubleshooting, and cost optimization. Moreover, you will also learn key security practices for deploying AI agents safely in production environments.Read All</summary>
+    <author><name>PuneetPahuja</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Washington Shows Anthropic and the AI Industry What It Can Do to Them</title>
@@ -344,108 +452,5 @@
     <summary type="text">A billing change lands tomorrow, and last week I went looking for what it would break in my own setup. Its headline is narrow. interactive subscription work stays exactly as it was, but anything running headless, in the background, on a schedule, starts drawing from a separate metered pool with its own limit. My subscription was safe. my habits were not. Somewhere along the way I had built the thi</summary>
     <author><name>Mirza Iqbal</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Built My First Real AI Agent with DeepSeek — A Bootcamp Grad's Guide...</title>
-    <link href="https://dev.to/rileykim/how-i-built-my-first-real-ai-agent-with-deepseek-a-bootcamp-grads-guide-542c" rel="alternate"/>
-    <id>https://dev.to/rileykim/how-i-built-my-first-real-ai-agent-with-deepseek-a-bootcamp-grads-guide-542c</id>
-    <updated>2026-06-14T15:01:09Z</updated>
-    <summary type="text">So here's what happened: how I Built My First Real AI Agent with DeepSeek — A Bootcamp Grad's Guide for 2026 I had no idea what I was getting into when I first heard about AI agents. Seriously, six months ago I thought ChatGPT just... answered questions. That's it. One prompt in, one response out, done. Then someone at my bootcamp showed me a demo where an AI was booking flights, checking calendar</summary>
-    <author><name>RileyKim</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG</title>
-    <link href="https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/" rel="alternate"/>
-    <id>https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/</id>
-    <updated>2026-06-14T15:00:00Z</updated>
-    <summary type="text">Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures The post Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG appeared first on Towards Data Science.</summary>
-    <author><name>Kezhan Shi</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Nonmem addition to agent that personalised experience</title>
-    <link href="https://dev.to/neonmem-dev/nonmem-addition-to-agent-that-personalised-experience-2pgj" rel="alternate"/>
-    <id>https://dev.to/neonmem-dev/nonmem-addition-to-agent-that-personalised-experience-2pgj</id>
-    <updated>2026-06-14T14:57:55Z</updated>
-    <summary type="text">One place for everything your AI needs to know about your project If you build anything big with an AI assistant, you've felt the gap. A real project isn't just code — it's folders of docs, months of decisions, meeting notes, the reasons behind the architecture, the timelines, the plans, and the things you tried that didn't work. To be genuinely useful on a project like that, an assistant has to u</summary>
-    <author><name>Neonmem Dev Team</name></author>
-  </entry>
-  <entry>
-    <title>Why I stopped fighting monorepos..</title>
-    <link href="https://dev.to/akshay_sarak/why-i-stopped-fighting-monorepos-mmp" rel="alternate"/>
-    <id>https://dev.to/akshay_sarak/why-i-stopped-fighting-monorepos-mmp</id>
-    <updated>2026-06-14T14:54:06Z</updated>
-    <summary type="text">For a long time, I believed monorepos were overkill. They seemed like something only “big companies” used because they had too much code and not enough structure. So, like most developers early on, I split everything into separate repositories: frontend in one, backend in another, and shared code in a “cleanly isolated” place. It felt organised at first. However, over time, that sense of clarity g</summary>
-    <author><name>Akshay Sarak</name></author>
-  </entry>
-  <entry>
-    <title>Structured Output From Local LLMs: JSON That Never Breaks (Ollama + Zod)</title>
-    <link href="https://dev.to/pavelespitia/structured-output-from-local-llms-json-that-never-breaks-ollama-zod-5d09" rel="alternate"/>
-    <id>https://dev.to/pavelespitia/structured-output-from-local-llms-json-that-never-breaks-ollama-zod-5d09</id>
-    <updated>2026-06-14T14:53:43Z</updated>
-    <summary type="text">A 1.5B model running on your laptop will return JSON that almost parses. The closing brace is missing. A trailing comma sneaks in. The whole thing is wrapped in a markdown fence with a chirpy &quot;Sure! Here's your JSON:&quot; on top. Cloud models do this too, but small local models do it constantly, and that is exactly where most &quot;just prompt it harder&quot; advice falls apart. I wrote about validating LLM res</summary>
-    <author><name>Pavel Espitia</name></author>
-  </entry>
-  <entry>
-    <title>SSR-Safe Internationalization in TanStack Start with i18next</title>
-    <link href="https://dev.to/ookamiiixd/ssr-safe-internationalization-in-tanstack-start-with-i18next-3o1k" rel="alternate"/>
-    <id>https://dev.to/ookamiiixd/ssr-safe-internationalization-in-tanstack-start-with-i18next-3o1k</id>
-    <updated>2026-06-14T14:52:39Z</updated>
-    <summary type="text">SSR can be tricky, mostly because every framework does things its own way. Loaders, lifecycles, hydration, serialization all behave a little differently depending on where you are, so wiring up something like i18next is rarely a copy-paste between frameworks. i18next has solid SSR support, but how you connect it still depends on the framework you're using. This post focuses on TanStack Start speci</summary>
-    <author><name>Royhan</name></author>
-  </entry>
-  <entry>
-    <title>Understanding Docker for Data Engineering</title>
-    <link href="https://dev.to/gathurum/understanding-docker-for-data-engineering-18fg" rel="alternate"/>
-    <id>https://dev.to/gathurum/understanding-docker-for-data-engineering-18fg</id>
-    <updated>2026-06-14T14:52:02Z</updated>
-    <summary type="text">In your data engineering journey, you may have pipelines running locally inside your development environment, and it works beautifully, on your machine. But what happens if you want to hand over a project to a colleague, deploy it to a shared server managed by your team leader, or push it to a cloud provider? Suddenly, a storm of errors appears. Like...: You don't have PostgreSQL 15 installed loca</summary>
-    <author><name>Gathuru_M</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Built an API that translates Korean cosmetic ingredients into strict INCI standards (with AI hallucination control)</title>
-    <link href="https://dev.to/_28e4bcc1b34aa22bcdfcb/built-an-api-that-translates-korean-cosmetic-ingredients-into-strict-inci-standards-with-ai-46k2" rel="alternate"/>
-    <id>https://dev.to/_28e4bcc1b34aa22bcdfcb/built-an-api-that-translates-korean-cosmetic-ingredients-into-strict-inci-standards-with-ai-46k2</id>
-    <updated>2026-06-14T14:51:58Z</updated>
-    <summary type="text">Hi everyone, I’ve noticed that many developers building Shopify apps or automated tools for K-Beauty dropshippers struggle heavily with ingredient translation. General translation tools (like DeepL or standard Google Translate) fail here because they don't provide regulatory-compliant INCI names, which can lead to strict customs rejections in the US or EU. To solve this specific bottleneck, I buil</summary>
-    <author><name>김다희</name></author>
-  </entry>
-  <entry>
-    <title>How to validate UK VAT numbers in Node.js (post-Brexit edition)</title>
-    <link href="https://dev.to/bitowl/how-to-validate-uk-vat-numbers-in-nodejs-post-brexit-edition-4nk7" rel="alternate"/>
-    <id>https://dev.to/bitowl/how-to-validate-uk-vat-numbers-in-nodejs-post-brexit-edition-4nk7</id>
-    <updated>2026-06-14T14:48:49Z</updated>
-    <summary type="text">UK VAT numbers used to be validated through VIES like every other European country. After Brexit they moved to HMRC's own API, which is well-designed for what it does, but comes with some integration overhead that's worth knowing about upfront. I had customers all over the world, storing thousands of VAT numbers in our SaaS solution, and sometimes a mess, manually managed. That brought me to findi</summary>
-    <author><name>BitOwl</name></author>
-  </entry>
-  <entry>
-    <title>FutureX · Physical AI Daily — Issue 28 (06/15)</title>
-    <link href="https://dev.to/future_x/futurex-physical-ai-daily-issue-28-0615-1m54" rel="alternate"/>
-    <id>https://dev.to/future_x/futurex-physical-ai-daily-issue-28-0615-1m54</id>
-    <updated>2026-06-14T14:48:31Z</updated>
-    <summary type="text">Today's Highlights · XPENG issued an internal letter with He Xiaopeng personally taking over as CEO of the robotics division, announcing the company's transformation from an intelligent vehicle company into a &quot;Physical AI company.&quot; The IRON humanoid robot is set for mass production by end of 2026, entering XPENG showrooms as a sales guide in Q1 2027, with full-stack in-house R&amp;D maintained from ch</summary>
-    <author><name>Shawn</name></author>
-    <category term="funding"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>X-Men ’97 has what Master of the Universe is missing</title>
-    <link href="https://www.theverge.com/entertainment/947064/xmen-97-season-2-disney-plus-marvel-masters-of-the-universe-mattel" rel="alternate"/>
-    <id>https://www.theverge.com/entertainment/947064/xmen-97-season-2-disney-plus-marvel-masters-of-the-universe-mattel</id>
-    <updated>2026-06-13T20:00:00Z</updated>
-    <summary type="text">In 2026, Marvel and Mattel are both releasing projects designed to capitalize on people's love for iconic animated heroes from their childhoods. Masters of the Universe has put a live-action He-Man on the big screen, and the second season of X-Men '97 is about to fling some of Charles Xavier's mutants into an apocalyptic future. […]</summary>
-    <author><name>Charles Pulliam-Moore</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft CEO Satya Nadella admits he's a token-maxer, too: &quot;It's addictive&quot;</title>
-    <link href="https://the-decoder.com/microsoft-ceo-satya-nadella-admits-hes-a-token-maxer-too-its-addictive/" rel="alternate"/>
-    <id>https://the-decoder.com/microsoft-ceo-satya-nadella-admits-hes-a-token-maxer-too-its-addictive/</id>
-    <updated>2026-06-13T13:03:49Z</updated>
-    <summary type="text">Microsoft CEO Satya Nadella is warning against &quot;token-maxing,&quot; throwing the most powerful AI models at every problem. Frontier models shouldn't be wasted on everyday tasks, he says. The marginal cost of productivity gains has to match the token cost. Still, Nadella admits, &quot;I'm like a token-maxer too. So it is addictive.&quot; The article Microsoft CEO Satya Nadella admits he's a token-maxer, too: &quot;It'</summary>
-    <author><name>Matthias Bastian</name></author>
   </entry>
 </feed>
