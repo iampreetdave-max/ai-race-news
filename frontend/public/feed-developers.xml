@@ -4,7 +4,28 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-14T05:54:16Z</updated>
+  <updated>2026-06-14T09:42:50Z</updated>
+  <entry>
+    <title>AI coding agents find the right file but miss the exact lines that matter, study shows</title>
+    <link href="https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/" rel="alternate"/>
+    <id>https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/</id>
+    <updated>2026-06-14T08:54:47Z</updated>
+    <summary type="text">AI coding agents like Claude Code or Codex reliably find the right file but miss most of the critical lines within it. The new SWE-Explore benchmark is the first to test code search separately from the actual repair, and it shows that without enough context, even the best fix will fail. The article AI coding agents find the right file but miss the exact lines that matter, study shows appeared firs</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi</title>
+    <link href="https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/</id>
+    <updated>2026-06-14T05:01:39Z</updated>
+    <summary type="text">Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code, Codex, and Pi. It adds composition, contextual policies, and live session sharing under one interface, on terminal, web, desktop, and mobile. The Apache 2.0 project is in alpha. The post Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="data"/>
+    <category term="agents"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing</title>
     <link href="https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/" rel="alternate"/>
@@ -24,6 +45,25 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Cut Microsoft Agent Framework Costs With a Gateway Layer</title>
+    <link href="https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke" rel="alternate"/>
+    <id>https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke</id>
+    <updated>2026-06-14T09:19:54Z</updated>
+    <summary type="text">Microsoft Agent Framework is built for production multi-agent systems, which is exactly why its LLM bill can grow faster than expected. If you are running workflows with retries, handoffs, tools, and checkpoints, the easiest savings do not come from prompting harder — they come from adding a gateway layer under the framework. I built Lynkr, so obvious founder disclosure: this article uses Lynkr as</summary>
+    <author><name>Lynkr</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to give Claude (or Cursor) access to your Rails app's activity logs</title>
+    <link href="https://dev.to/dezsirazvan/how-to-give-claude-or-cursor-access-to-your-rails-apps-activity-logs-38m3" rel="alternate"/>
+    <id>https://dev.to/dezsirazvan/how-to-give-claude-or-cursor-access-to-your-rails-apps-activity-logs-38m3</id>
+    <updated>2026-06-14T09:08:20Z</updated>
+    <summary type="text">Ask Claude this, today, with no setup: &quot;What did user 4421 do in our app yesterday?&quot; You will get an answer. It will be confident, specific, and completely made up. Claude has no access to your production database. So it does what a language model does when it has no facts: it pattern-matches what an answer should look like and hands you fiction in a calm voice. That is the whole problem. Not that</summary>
+    <author><name>Razvan</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>From STTM to Snowflake SQL: Building a Metadata-Driven Data Engineering Copilot</title>
@@ -430,43 +470,5 @@
     <updated>2026-06-12T19:01:19Z</updated>
     <summary type="text">I built Plumbref because I kept running into the same loop with coding agents They would give a confident answer about a repo, and then I’d have to ask: “Are you sure?” “Did you check the other path?” “What about downstream consumers?” “Is this actually only used there?” The issue wasn’t that the agent couldn’t read code. The issue was that the answer didn’t always come with a clear verification t</summary>
     <author><name>Facundo Taboada</name></author>
-  </entry>
-  <entry>
-    <title>Agentjacking: AI Coding Agents Tricked Into Running Malicious Code via Sentry Injection</title>
-    <link href="https://dev.to/etairos/agentjacking-ai-coding-agents-tricked-into-running-malicious-code-via-sentry-injection-f7c" rel="alternate"/>
-    <id>https://dev.to/etairos/agentjacking-ai-coding-agents-tricked-into-running-malicious-code-via-sentry-injection-f7c</id>
-    <updated>2026-06-12T19:01:10Z</updated>
-    <summary type="text">TL;DR what: Attackers inject crafted markdown into Sentry error events that AI coding agents interpret as legitimate diagnostic instructions and execute with developer privileges. impact: Exposes Git credentials, environment variables, private repository URLs, and enables arbitrary code execution on developer machines with full user privileges while bypassing all security controls. fix: Sentry act</summary>
-    <author><name>Etairos.ai</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Flutter Agent Skills: How to Make Your AI Agent Actually Good at Flutter</title>
-    <link href="https://dev.to/sayed_ali_alkamel/flutter-agent-skills-how-to-make-your-ai-agent-actually-good-at-flutter-3831" rel="alternate"/>
-    <id>https://dev.to/sayed_ali_alkamel/flutter-agent-skills-how-to-make-your-ai-agent-actually-good-at-flutter-3831</id>
-    <updated>2026-06-12T15:58:16Z</updated>
-    <summary type="text">TL;DR: Your AI coding assistant is a generalist. It writes Flutter that looks right but quietly reaches for 2022 patterns. Agent Skills are a new, official way (from the Dart and Flutter teams) to hand your agent task-specific, battle-tested workflows it loads on demand. Two repos, flutter/skills and dart-lang/skills, ship ready-to-use skills for responsive layouts, routing, testing, localization,</summary>
-    <author><name>Sayed Ali Alkamel</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>LangChain-Core-Components-Guide</title>
-    <link href="https://dev.to/leo_han_02060526/langchain-core-components-guide-11jg" rel="alternate"/>
-    <id>https://dev.to/leo_han_02060526/langchain-core-components-guide-11jg</id>
-    <updated>2026-06-12T15:52:07Z</updated>
-    <summary type="text">LangChain Architect's Guide: Building LLM Applications from First Principles Author's Note: This guide is based on a 9-episode LangChain tutorial series (~5 hours total). Every slide, code demo, and architecture diagram from the videos has been analyzed frame by frame, validated against the latest LangChain API, and rewritten as a comprehensive technical reference. Table of Contents Introduction: </summary>
-    <author><name>Leo Han</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Pairing Claude Code with Local Models</title>
-    <link href="https://www.kdnuggets.com/pairing-claude-code-with-local-models" rel="alternate"/>
-    <id>https://www.kdnuggets.com/pairing-claude-code-with-local-models</id>
-    <updated>2026-06-12T14:00:59Z</updated>
-    <summary type="text">Local models in 2026 are good enough. For the tasks Claude Code handles daily: code completion, refactoring, debugging, codebase explanation; a well-chosen quantized model running locally covers the vast majority of real use cases at zero per-token cost and with no rate limits.</summary>
-    <author><name>Shittu Olumide</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
