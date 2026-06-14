@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-14T21:18:02Z</updated>
+  <updated>2026-06-14T23:13:02Z</updated>
   <entry>
     <title>AI coding agents find the right file but miss the exact lines that matter, study shows</title>
     <link href="https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/" rel="alternate"/>
@@ -25,6 +25,25 @@
     <category term="agents"/>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Predictive Alpha: Pipeline Engineering for Real-Time Machine Learning Inference</title>
+    <link href="https://dev.to/mountek/predictive-alpha-pipeline-engineering-for-real-time-machine-learning-inference-f69" rel="alternate"/>
+    <id>https://dev.to/mountek/predictive-alpha-pipeline-engineering-for-real-time-machine-learning-inference-f69</id>
+    <updated>2026-06-14T23:00:00Z</updated>
+    <summary type="text">Most retail algorithmic trading bots rely heavily on legacy technical analysis indicators—think RSI, MACD, or Bollinger Bands. While these indicators are easy to calculate, they suffer from a fatal flaw: they are lagging metrics derived entirely from historical price adjustments. In high-frequency, institutional environments, relying on simple moving averages is like trying to drive a car while lo</summary>
+    <author><name>mountek</name></author>
+    <category term="product-launch"/>
+    <category term="finance-ai"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Spring Boot 3 and JVM Resilience in API Development: Avoiding JavaScript’s 2014 Pitfalls</title>
+    <link href="https://dev.to/nitish_95c3a169c005f1d4fe/spring-boot-3-and-jvm-resilience-in-api-development-avoiding-javascripts-2014-pitfalls-4dl4" rel="alternate"/>
+    <id>https://dev.to/nitish_95c3a169c005f1d4fe/spring-boot-3-and-jvm-resilience-in-api-development-avoiding-javascripts-2014-pitfalls-4dl4</id>
+    <updated>2026-06-14T22:39:13Z</updated>
+    <summary type="text">Spring Boot 3 and JVM Resilience in API Development: Avoiding JavaScript’s 2014 Pitfalls Without proper thread pooling and structured error handling, your production APIs might face cascading failures under load—like Node.js applications did during JavaScript’s scalability debates in 2014—while Spring Boot’s thread-per-request model remains unmonitored and unoptimized. Prerequisites Java 17 or lat</summary>
+    <author><name>Nitish</name></author>
   </entry>
   <entry>
     <title>A Cognitive Benchmark for Code-RAG Retrieval: Part 2 — Why Model Rankings Depend on the Pipeline</title>
@@ -447,25 +466,5 @@
     <summary type="text">The problem Every AI coding session starts the same: paste the README, paste the architecture doc, paste the last error message, re-explain where you left off. If you switch between Claude Code, Cursor, and Gemini in the same project, every tool starts from zero. nodestone fixes that. It's a project-level memory engine for AI-assisted development, and it's free. What it does nodestone tracks four </summary>
     <author><name>massiron</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GEMINI.md 注入攻擊實測</title>
-    <link href="https://dev.to/jh5_pulse/geminimd-zhu-ru-gong-ji-shi-ce-2a8l" rel="alternate"/>
-    <id>https://dev.to/jh5_pulse/geminimd-zhu-ru-gong-ji-shi-ce-2a8l</id>
-    <updated>2026-06-13T04:07:19Z</updated>
-    <summary type="text">10 行 GEMINI.md 跟 100 行效果一樣：Gemini CLI 指令遵循消融實測 這份實測記錄了不同長度提示詞對基礎遵從指令能力的影響。結果顯示，將 GEMINI.md 濃縮到 10 行，其指令遵循率與 100 行的版本完全相同，而且執行速度更快、消耗更少 token。適合正在撰寫專案指令檔，卻不知該放多少內容的 Gemini CLI 使用者參考。 GEMINI.md 該寫多長？ GEMINI.md 是 Gemini CLI 的專案指令檔。每次執行 gemini -p &quot;...&quot; 時，它的內容都會被注入到系統提示詞的 context window 中，作用等同於 Claude Code 的 CLAUDE.md。 社群普遍建議長度要控制在 100 行以內，但沒有人拿數據驗證過這條界線的必要性。為此，我們設計了三種長度版本進行消融測試： GEMINI_0：完全空白（0 tokens</summary>
-    <author><name>JH5</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>本地 LLM 抵擋 MITRE ATT&amp;CK 攻擊的能力差異</title>
-    <link href="https://dev.to/jh5_pulse/ben-di-llm-di-dang-mitre-attck-gong-ji-de-neng-li-chai-yi-3jld" rel="alternate"/>
-    <id>https://dev.to/jh5_pulse/ben-di-llm-di-dang-mitre-attck-gong-ji-de-neng-li-chai-yi-3jld</id>
-    <updated>2026-06-13T04:06:38Z</updated>
-    <summary type="text">本地 LLM 抵擋 MITRE ATT&amp;CK 攻擊的能力差異：Qwen3.6 vs Llama3.1 安全實測 本地開源 LLM 在面對 MITRE ATT&amp;CK 攻擊框架時的抵抗力，其實有著顯著的個體差異。在 15 組紅隊攻擊指令的實測中，Qwen3.6-7B 吐出可用攻擊腳本的比例高達 73.3%，而 Llama3.1-8B 只有 33.3%。這份報告利用 AttackGPT 框架評估了這兩款模型的完整安全數據，適合正在建構本地端 AI 護欄的 MLOps 工程師，或是對 Red Teaming 工具有興趣的研究員參考。 之所以會跑這趟測試，是因為我們團隊近期正在評估把本地 LLM 導入醫療分析管線（例如 NGS 輔助診斷或 Agentic 流程）的可行性。選型的核心焦慮很直接：如果遇到被污染的 Prompt 或惡意誘導，護欄模型是真的能「果斷防住」，還是只是「卡死算很久，最後還是把有</summary>
-    <author><name>JH5</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
