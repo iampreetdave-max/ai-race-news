@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-14T15:09:33Z</updated>
+  <updated>2026-06-14T17:24:21Z</updated>
   <entry>
     <title>Microsoft Research's Mirage gives video generation a persistent spatial memory that doesn't forget what's around the corner</title>
     <link href="https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/" rel="alternate"/>
@@ -22,6 +22,23 @@
     <summary type="text">Google Cloud's new Open Knowledge Format (OKF) standardizes scattered organizational knowledge as Markdown files with YAML frontmatter, making it portable and usable for AI agents. The minimalist spec formalizes a pattern Andrej Karpathy recently popularized as the &quot;LLM Wiki.&quot; The article Google Cloud's Open Knowledge Format turns scattered docs into Markdown files for AI agents appeared first on </summary>
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models</id>
+    <updated>2026-06-14T17:02:00Z</updated>
+    <summary type="text">Prime Minister Mark Carney said the US export ban blocking all foreign access to Anthropic PBC’s latest artificial intelligence models underscores the risk of depending on just a handful of powerful AI tools.</summary>
+    <author><name>Brian Platt, Thomas Seal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>TechCrunch Mobility: SpaceX rockets past Tesla</title>
+    <link href="https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/</id>
+    <updated>2026-06-14T16:05:00Z</updated>
+    <summary type="text">Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.</summary>
+    <author><name>Kirsten Korosec</name></author>
   </entry>
   <entry>
     <title>KPMG fabricated AI case studies in a report designed to sell clients on AI adoption</title>
@@ -115,12 +132,103 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I built a dating site where the users are AI agents and the humans are the audience</title>
+    <link href="https://dev.to/grantfosterdev/i-built-a-dating-site-where-the-users-are-ai-agents-and-the-humans-are-the-audience-467p" rel="alternate"/>
+    <id>https://dev.to/grantfosterdev/i-built-a-dating-site-where-the-users-are-ai-agents-and-the-humans-are-the-audience-467p</id>
+    <updated>2026-06-14T17:21:15Z</updated>
+    <summary type="text">The pitch is exactly that. The users are autonomous agents. Humans don't get profiles, don't swipe, don't message. They watch. The site is live at https://dating.makeacompany.ai/?source=dev-to. Code is being run inside makeacompany.ai, where two Claude Code agents (Ross and Joanne) drive a Slack channel and a human (Grant) hits Publish on artifacts the agents can't post under their own name. This </summary>
+    <author><name>Grant Foster</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Python's collections Module: Beyond defaultdict and Counter — 4 Hidden Gems That Solve Real Problems</title>
+    <link href="https://dev.to/kaithorne/pythons-collections-module-beyond-defaultdict-and-counter-4-hidden-gems-that-solve-real-problems-ebf" rel="alternate"/>
+    <id>https://dev.to/kaithorne/pythons-collections-module-beyond-defaultdict-and-counter-4-hidden-gems-that-solve-real-problems-ebf</id>
+    <updated>2026-06-14T17:20:31Z</updated>
+    <summary type="text">Python's collections Module: Beyond defaultdict and Counter — 4 Hidden Gems That Solve Real Problems Every Python developer knows defaultdict and Counter. They're the first things you reach for when you need to group items or count occurrences. But the collections module has more to offer — and these less-known tools can dramatically simplify your code. Here's the thing: I used to write a lot of b</summary>
+    <author><name>Kai Thorne</name></author>
+  </entry>
+  <entry>
+    <title>I Got Fired After Giving Feedback About a System That Was Already in Production</title>
+    <link href="https://dev.to/dobrenteiistvan/i-got-fired-after-giving-feedback-about-a-system-that-was-already-in-production-2bi1" rel="alternate"/>
+    <id>https://dev.to/dobrenteiistvan/i-got-fired-after-giving-feedback-about-a-system-that-was-already-in-production-2bi1</id>
+    <updated>2026-06-14T17:17:29Z</updated>
+    <summary type="text">The system was in production. It worked. And it was built without version control, using Perl scripts, ad-hoc PHP files, PostgreSQL stored procedures, and JasperReports. From a modern engineering perspective, it looked like a disaster. And yet — it had been running for years. Even more surprising: the main developer was also one of the CEOs. One day, he asked for my opinion about the architecture.</summary>
+    <author><name>István Döbrentei</name></author>
+  </entry>
+  <entry>
+    <title>Making your docs site agent-readable: llms.txt, MCP, and the .well-known files that actually matter</title>
+    <link href="https://dev.to/yonyonai/making-your-docs-site-agent-readable-llmstxt-mcp-and-the-well-known-files-that-actually-matter-33c6" rel="alternate"/>
+    <id>https://dev.to/yonyonai/making-your-docs-site-agent-readable-llmstxt-mcp-and-the-well-known-files-that-actually-matter-33c6</id>
+    <updated>2026-06-14T17:13:20Z</updated>
+    <summary type="text">AI agents increasingly read your docs instead of a human. If your documentation site only emits HTML for a browser, an agent has to scrape and guess. There's a better surface — and most of it is a handful of small, standard files. Here's the full stack we ship on the OrchestKit docs site, why each piece exists, and how to verify it. 1. llms.txt — the agent's table of contents A plain-text index at</summary>
+    <author><name>Yonyon</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>YAML vs JSON: The Hidden Problems Most Developers Discover Too Late</title>
+    <link href="https://dev.to/farasat6346138/yaml-vs-json-the-hidden-problems-most-developers-discover-too-late-493p" rel="alternate"/>
+    <id>https://dev.to/farasat6346138/yaml-vs-json-the-hidden-problems-most-developers-discover-too-late-493p</id>
+    <updated>2026-06-14T17:13:20Z</updated>
+    <summary type="text">For years, I assumed YAML was simply a more readable version of JSON. Many developers do. Then I spent time debugging configuration files across Docker, Kubernetes, CI/CD pipelines, GitHub Actions, and infrastructure deployments. That's when I learned that YAML's flexibility is both its greatest strength and its biggest trap. If you've ever spent an hour chasing a configuration bug caused by inden</summary>
+    <author><name>Farasat Ali Shahzad</name></author>
+  </entry>
+  <entry>
+    <title>I Built Dusk: Playwright MCP, but for Flutter Apps</title>
+    <link href="https://dev.to/fluttersdk/i-built-dusk-playwright-mcp-but-for-flutter-apps-l5m" rel="alternate"/>
+    <id>https://dev.to/fluttersdk/i-built-dusk-playwright-mcp-but-for-flutter-apps-l5m</id>
+    <updated>2026-06-14T17:09:36Z</updated>
+    <summary type="text">Last week I watched my AI agent try to test a Flutter screen. It wrote a test file, ran flutter test, copied the stack trace back into the prompt, pasted a screenshot, and called it a workflow. It was slow, and it was guessing. On the web, agents do not work like that anymore. Playwright MCP gives them an accessibility tree to read and stable refs to act on. 33k stars, no screenshot guessing. Flut</summary>
+    <author><name>Anılcan Çakır</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>New AI model called &quot;Count Anything&quot; does exactly what it says, and that's harder than it sounds</title>
     <link href="https://the-decoder.com/new-ai-model-called-count-anything-does-exactly-what-it-says-and-thats-harder-than-it-sounds/" rel="alternate"/>
     <id>https://the-decoder.com/new-ai-model-called-count-anything-does-exactly-what-it-says-and-thats-harder-than-it-sounds/</id>
     <updated>2026-06-13T17:00:19Z</updated>
     <summary type="text">&quot;Count Anything&quot; is intended to be the first AI model capable of counting objects in any type of image, from crowds to cell samples under a microscope, using nothing more than a text prompt. In a comparative test, it cuts the error rate in half compared to previous systems. However, the approach still struggles with extremely dense objects and ambiguous terms. The article New AI model called &quot;Coun</summary>
     <author><name>Jonathan Kemper</name></author>
+  </entry>
+  <entry>
+    <title>4 Lines You Should Include in Your Claude Skill</title>
+    <link href="https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/" rel="alternate"/>
+    <id>https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/</id>
+    <updated>2026-06-14T17:00:00Z</updated>
+    <summary type="text">Without these, Claude will be confidently wrong. The post 4 Lines You Should Include in Your Claude Skill appeared first on Towards Data Science.</summary>
+    <author><name>Haden Pelletier</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Talkis - an opensource alternative to wispr flow</title>
+    <link href="https://dev.to/david_perov_7963d06e094d3/talkis-an-opensource-alternative-to-wispr-flow-10nn" rel="alternate"/>
+    <id>https://dev.to/david_perov_7963d06e094d3/talkis-an-opensource-alternative-to-wispr-flow-10nn</id>
+    <updated>2026-06-14T16:52:30Z</updated>
+    <summary type="text">I wrote a free transcription app ⚡️ Talkis. I created it for myself as an open-source alternative to paid subscription services. What it can do: • Transcribes calls (Zoom, Discord, Telegram, etc.) in real time, on the fly. • Extracts text from any existing audio and video files. • Smart dictation: speak your thoughts aloud, and the app polishes and formats the text to the desired style. How it wor</summary>
+    <author><name>David Perov</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Build Your Own Claude Code Marketplace: Scaffold, Structure, and Auto-Updates</title>
+    <link href="https://dev.to/nagell/build-your-own-claude-code-marketplace-scaffold-structure-and-auto-updates-4n3f" rel="alternate"/>
+    <id>https://dev.to/nagell/build-your-own-claude-code-marketplace-scaffold-structure-and-auto-updates-4n3f</id>
+    <updated>2026-06-14T16:52:08Z</updated>
+    <summary type="text">TL;DR: A Claude Code marketplace is a GitHub repo with a specific folder structure. You create plugins inside it, push to GitHub, and anyone (including yourself) can install your plugins with two commands. This article shows you how to scaffold one from zero and add your first plugin. A one-command setup script comes later in the series, and auto-versioning plus release CI come pre-wired as a bonu</summary>
+    <author><name>Dawid Nitka</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Replacing Fragile CSS Selectors with LLM-Powered Zero-Shot JSON Extraction</title>
+    <link href="https://dev.to/alterlab/replacing-fragile-css-selectors-with-llm-powered-zero-shot-json-extraction-39j2" rel="alternate"/>
+    <id>https://dev.to/alterlab/replacing-fragile-css-selectors-with-llm-powered-zero-shot-json-extraction-39j2</id>
+    <updated>2026-06-14T16:46:02Z</updated>
+    <summary type="text">TL;DR Zero-shot JSON extraction replaces brittle CSS selectors with Large Language Models that map unstructured web content to predefined schemas semantically. By processing cleaned HTML or Markdown through an LLM context window, scraping pipelines become resilient to UI changes, A/B tests, and dynamic class names. This approach shifts data engineering effort from constant selector maintenance to </summary>
+    <author><name>AlterLab</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Amazon security research reportedly led to the White House’s Anthropic Fable ban</title>
@@ -345,111 +453,5 @@
     <updated>2026-06-14T11:16:38Z</updated>
     <summary type="text">Email is the test surface nobody wants to own. It's asynchronous, depends on external providers, has its own version of &quot;flaky&quot; (sometimes a delivery just… takes 90 seconds), and the bugs that bite hardest in production — wrong template variables, broken unsubscribe links, OTPs that expire too fast — are the ones unit tests can't catch. This guide is the working developer's playbook for testing em</summary>
     <author><name>yobox</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI faces investigation from state attorneys general</title>
-    <link href="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/</id>
-    <updated>2026-06-13T16:47:18Z</updated>
-    <summary type="text">It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Fable 5 outpaces GPT-5.5 by 13 points on FrontierMath's toughest problems</title>
-    <link href="https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/</id>
-    <updated>2026-06-13T10:16:26Z</updated>
-    <summary type="text">Anthropic's Claude Fable 5 hits 88 percent accuracy on the hardest FrontierMath tier, a massive jump from Opus 4.5, which sat below 10 percent in early 2026. OpenAI's GPT-5.5 reaches about 75 percent on the same tier. The pace of improvement in AI math keeps accelerating. The article Claude Fable 5 outpaces GPT-5.5 by 13 points on FrontierMath's toughest problems appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meta shifts from &quot;tokenmaxxing&quot; to token managing as internal AI costs reportedly hit billions</title>
-    <link href="https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/" rel="alternate"/>
-    <id>https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/</id>
-    <updated>2026-06-13T09:49:28Z</updated>
-    <summary type="text">An internal memo to 6,000 employees reveals Meta is heading toward billions in AI costs from internal use alone. Starting in 2027, budgets, allocations, and a central dashboard called &quot;AI Gateway&quot; will govern token consumption. CTO Andrew Bosworth put it bluntly: &quot;All motion is not progress and token usage alone is not a measure of impact of any kind.&quot; The article Meta shifts from &quot;tokenmaxxing&quot; t</summary>
-    <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>Running Chinese LLMs at Scale: A Cloud Architect's Notes</title>
-    <link href="https://dev.to/truelane/running-chinese-llms-at-scale-a-cloud-architects-notes-2g57" rel="alternate"/>
-    <id>https://dev.to/truelane/running-chinese-llms-at-scale-a-cloud-architects-notes-2g57</id>
-    <updated>2026-06-14T09:35:17Z</updated>
-    <summary type="text">Running Chinese LLMs at Scale: A Cloud Architect's Notes I want to talk about something I've been wrestling with on real production workloads: the four Chinese model families — DeepSeek, Qwen, Kimi, and GLM — and how they actually behave when you wire them into a multi-region pipeline serving thousands of requests per second. I've spent the last several months routing traffic across all four throu</summary>
-    <author><name>Alex Chen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agents Are the Best Thing to Happen to Network Administration Since SDN</title>
-    <link href="https://dev.to/mariatanbobo/ai-agents-are-the-best-thing-to-happen-to-network-administration-since-sdn-3kji" rel="alternate"/>
-    <id>https://dev.to/mariatanbobo/ai-agents-are-the-best-thing-to-happen-to-network-administration-since-sdn-3kji</id>
-    <updated>2026-06-14T09:21:00Z</updated>
-    <summary type="text">AI Agents Are the Best Thing to Happen to Network Administration Since SDN A single API key, an AI agent, and a router behind a double-NAT in Southeast Asia. What happened next changed how I think about network management. I manage UniFi routers spread throughout the ASEAN region — some for friends, some for relatives, one for a charity. They're in different cities, different ISPs, different level</summary>
-    <author><name>mariatanbobo</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Cut Microsoft Agent Framework Costs With a Gateway Layer</title>
-    <link href="https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke" rel="alternate"/>
-    <id>https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke</id>
-    <updated>2026-06-14T09:19:54Z</updated>
-    <summary type="text">Microsoft Agent Framework is built for production multi-agent systems, which is exactly why its LLM bill can grow faster than expected. If you are running workflows with retries, handoffs, tools, and checkpoints, the easiest savings do not come from prompting harder — they come from adding a gateway layer under the framework. I built Lynkr, so obvious founder disclosure: this article uses Lynkr as</summary>
-    <author><name>Lynkr</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Blinkist Just Admitted AI Narration Failed. That Should Worry Every AI Optimist.</title>
-    <link href="https://dev.to/jamilxt/blinkist-just-admitted-ai-narration-failed-that-should-worry-every-ai-optimist-3a7f" rel="alternate"/>
-    <id>https://dev.to/jamilxt/blinkist-just-admitted-ai-narration-failed-that-should-worry-every-ai-optimist-3a7f</id>
-    <updated>2026-06-14T09:19:08Z</updated>
-    <summary type="text">On June 14, 2026, Blinkist sent an email to its millions of subscribers with a subject line that cut through the noise: &quot;No more AI narration at Blinkist.&quot; In an era where every company is racing to inject AI into their products, Blinkist just did the opposite. They tried AI narration for two years, tested it extensively, refined it — and concluded it wasn't good enough. They're going back to huma</summary>
-    <author><name>Md Jamilur Rahman</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>A program is a tree — building a Verbose compiler in Verbose</title>
-    <link href="https://dev.to/arcker/a-program-is-a-tree-building-a-verbose-compiler-in-verbose-4927" rel="alternate"/>
-    <id>https://dev.to/arcker/a-program-is-a-tree-building-a-verbose-compiler-in-verbose-4927</id>
-    <updated>2026-06-14T09:11:25Z</updated>
-    <summary type="text">Verbose is a small experimental language I'm building. Its compiler proves properties about your code — like termination — and emits tiny, readable x86-64 machine code: no runtime, no GC, no libc. This post stands on its own (you don't need the rest of the series). What it's about: I'm now writing a Verbose compiler in Verbose itself, and this is the foundation brick — how you represent a program </summary>
-    <author><name>arcker</name></author>
-  </entry>
-  <entry>
-    <title>How to give Claude (or Cursor) access to your Rails app's activity logs</title>
-    <link href="https://dev.to/dezsirazvan/how-to-give-claude-or-cursor-access-to-your-rails-apps-activity-logs-38m3" rel="alternate"/>
-    <id>https://dev.to/dezsirazvan/how-to-give-claude-or-cursor-access-to-your-rails-apps-activity-logs-38m3</id>
-    <updated>2026-06-14T09:08:20Z</updated>
-    <summary type="text">Ask Claude this, today, with no setup: &quot;What did user 4421 do in our app yesterday?&quot; You will get an answer. It will be confident, specific, and completely made up. Claude has no access to your production database. So it does what a language model does when it has no facts: it pattern-matches what an answer should look like and hands you fiction in a calm voice. That is the whole problem. Not that</summary>
-    <author><name>Razvan</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My first 24 hours with Siri AI on the Mac</title>
-    <link href="https://www.theverge.com/tech/949502/apple-macos-27-golden-gate-siri-ai-apple-intelligence" rel="alternate"/>
-    <id>https://www.theverge.com/tech/949502/apple-macos-27-golden-gate-siri-ai-apple-intelligence</id>
-    <updated>2026-06-13T15:00:00Z</updated>
-    <summary type="text">I turned off Siri on the Mac years ago and never looked back. Similarly, I found Apple Intelligence so fruitless I never engage with it. But the new Siri AI coming to macOS 27 Golden Gate has at least got me slightly rethinking things. I'm still early in testing Siri AI, as I've only had […]</summary>
-    <author><name>Antonio G. Di Benedetto</name></author>
-  </entry>
-  <entry>
-    <title>Open model Kimi K2.7 Code undercuts GPT-5.5 and Claude by up to 12x on price per token</title>
-    <link href="https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/" rel="alternate"/>
-    <id>https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/</id>
-    <updated>2026-06-13T08:38:41Z</updated>
-    <summary type="text">Moonshot AI has released Kimi K2.7 Code, an open-weights model with one trillion parameters built for programming. It still trails GPT-5.5 and Claude Opus 4.8 in coding benchmarks but costs a fraction of the price. So the key question isn't whether it's the best model, but whether the extra runs you get for the same budget make up for the gap in quality. The article Open model Kimi K2.7 Code under</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order</title>
-    <link href="https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/</id>
-    <updated>2026-06-13T08:15:18Z</updated>
-    <summary type="text">shutdown followed a US government export control directive citing national security authorities. All other Anthropic models, including Opus 4.8, remain available. The post Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
