@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-14T17:24:21Z</updated>
+  <updated>2026-06-14T19:42:50Z</updated>
   <entry>
     <title>Microsoft Research's Mirage gives video generation a persistent spatial memory that doesn't forget what's around the corner</title>
     <link href="https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/" rel="alternate"/>
@@ -22,6 +22,15 @@
     <summary type="text">Google Cloud's new Open Knowledge Format (OKF) standardizes scattered organizational knowledge as Markdown files with YAML frontmatter, making it portable and usable for AI agents. The minimalist spec formalizes a pattern Andrej Karpathy recently popularized as the &quot;LLM Wiki.&quot; The article Google Cloud's Open Knowledge Format turns scattered docs into Markdown files for AI agents appeared first on </summary>
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>China may have accessed Mythos</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos</id>
+    <updated>2026-06-14T18:27:55Z</updated>
+    <summary type="text">According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security […]</summary>
+    <author><name>Terrence O’Brien</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models</title>
@@ -120,6 +129,94 @@
     <summary type="text">Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.</summary>
     <author><name>Jagmeet Singh</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Washington Shows Anthropic and the AI Industry What It Can Do to Them</title>
+    <link href="https://hackernoon.com/washington-shows-anthropic-and-the-ai-industry-what-it-can-do-to-them?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/washington-shows-anthropic-and-the-ai-industry-what-it-can-do-to-them?source=rss</id>
+    <updated>2026-06-14T19:30:50Z</updated>
+    <summary type="text">The Trump administration is creating a precdent for government restricting an AI company's ability to devleop new products under the guise of national security.Read All</summary>
+    <author><name>David Deal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Samiksha AI: Universal Review &amp; comment Analyzer</title>
+    <link href="https://dev.to/techsakhi/samiksha-ai-universal-review-comment-analyzer-1j4a" rel="alternate"/>
+    <id>https://dev.to/techsakhi/samiksha-ai-universal-review-comment-analyzer-1j4a</id>
+    <updated>2026-06-14T19:11:48Z</updated>
+    <summary type="text">Hey DEV Community! I recently participated in a hackathon and built Samiksha AI, a universal review and comment analyzer designed to turn messy customer feedback into structured business intelligence. The Problem Generic star ratings on e-commerce platforms don't give business owners the full picture. Rule-based sentiment tools often fail to catch sarcasm, background noise (like shipping complaint</summary>
+    <author><name>TechSakhi</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Self-Healing Data Pipelines: Where the Marketing Ends and the Engineering Begins</title>
+    <link href="https://dev.to/justsoftlab_x01/self-healing-data-pipelines-where-the-marketing-ends-and-the-engineering-begins-55fe" rel="alternate"/>
+    <id>https://dev.to/justsoftlab_x01/self-healing-data-pipelines-where-the-marketing-ends-and-the-engineering-begins-55fe</id>
+    <updated>2026-06-14T19:03:51Z</updated>
+    <summary type="text">description: &quot;Most self-healing pipelines automate retries and schema-drift detection, covering maybe 20% of real failures. Real resilience is an architecture: deterministic cores, AI for the messy edges, and human-gated repair.&quot; &quot;Self-healing&quot; is the most oversold phrase in data engineering right now. Most platforms wearing the label do two things: retry failed jobs and detect schema drift on sup</summary>
+    <author><name>JustSoftLab</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Desenvolvendo uma Plataforma para Transformar a Comunicação Escolar</title>
+    <link href="https://dev.to/sprtxjh/desenvolvendo-uma-plataforma-para-transformar-a-comunicacao-escolar-77" rel="alternate"/>
+    <id>https://dev.to/sprtxjh/desenvolvendo-uma-plataforma-para-transformar-a-comunicacao-escolar-77</id>
+    <updated>2026-06-14T19:03:09Z</updated>
+    <summary type="text">O Problema Durante pesquisas realizadas com estudantes, identificamos dificuldades relacionadas à comunicação entre alunos e professores, falta de canais adequados para feedback e problemas na divulgação de comunicados escolares. Muitos alunos relataram a necessidade de um ambiente digital mais organizado, participativo e acessível. Para resolver essa situação, desenvolvemos o Sistema de Avaliação</summary>
+    <author><name>Bianca</name></author>
+  </entry>
+  <entry>
+    <title>6 months later: Apple Finally Shipped Local Multimodal in Xcode 27 Beta</title>
+    <link href="https://dev.to/fosteman/100-years-later-apple-finally-shipped-local-multimodal-in-xcode-27-beta-nmc" rel="alternate"/>
+    <id>https://dev.to/fosteman/100-years-later-apple-finally-shipped-local-multimodal-in-xcode-27-beta-nmc</id>
+    <updated>2026-06-14T18:54:30Z</updated>
+    <summary type="text">A while ago I wrote a full llama.cpp iOS implementation using Obj-c bridge because I wanted one thing: image in -&gt; structured JSON out -&gt; no cloud required. It worked. It was fast enough. It was also a lot of plumbing: XCFramework builds ObjC++ bridge tokenizer/eval/sampling internals model + projector file choreography JSON guardrails everywhere Now, about 6 months later, Apple dropped Foundation</summary>
+    <author><name>Timothy Fosteman</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Prompt Caching in LLMs: The Hidden Optimization Saving Millions of GPU Hours</title>
+    <link href="https://dev.to/shrsv/prompt-caching-in-llms-the-hidden-optimization-saving-millions-of-gpu-hours-4gmm" rel="alternate"/>
+    <id>https://dev.to/shrsv/prompt-caching-in-llms-the-hidden-optimization-saving-millions-of-gpu-hours-4gmm</id>
+    <updated>2026-06-14T18:54:16Z</updated>
+    <summary type="text">Hello, I'm Shrijith Venkatramana. I'm building git-lrc, an AI code reviewer that runs on every commit. Star Us to help devs discover the project. Do give it a try and share your feedback for improving the product. Every developer eventually discovers the same frustrating pattern. Your application sends a 20,000-token prompt to an LLM. The first request takes 2 seconds. The next request contains th</summary>
+    <author><name>Shrijith Venkatramana</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Daybreak Protocol - June Solstice Game Jam Submission</title>
+    <link href="https://dev.to/nice_application1_812753/daybreak-protocol-june-solstice-game-jam-submission-11fl" rel="alternate"/>
+    <id>https://dev.to/nice_application1_812753/daybreak-protocol-june-solstice-game-jam-submission-11fl</id>
+    <updated>2026-06-14T18:52:39Z</updated>
+    <summary type="text">🌅 Introduction Welcome to Daybreak Protocol! This is my official submission for the June Solstice Game Jam. It is a race against the clock where you must solve complex algorithmic puzzles before the longest day of the year comes to an end. The core gameplay revolves around shrinking massive blocks of data into manageable kilobytes or megabytes. You have to utilize mathematical formulas and custom </summary>
+    <author><name>Nice Application 1</name></author>
+  </entry>
+  <entry>
+    <title>We Built a Self-Hosted AI Platform That Runs 100% on Your Hardware — Introducing local-ai.run</title>
+    <link href="https://dev.to/rizwan_butt_e9c6522604d1c/we-built-a-self-hosted-ai-platform-that-runs-100-on-your-hardware-introducing-local-airun-57he" rel="alternate"/>
+    <id>https://dev.to/rizwan_butt_e9c6522604d1c/we-built-a-self-hosted-ai-platform-that-runs-100-on-your-hardware-introducing-local-airun-57he</id>
+    <updated>2026-06-14T18:48:54Z</updated>
+    <summary type="text">TL;DR: local-ai.run is a free, open-source, self-hosted AI platform. Chat with your files, generate audio, bring your own models — all offline, all on your hardware, zero data leaving your network. One command to install. 🔗 Website: local-ai.run ⭐ GitHub: github.com/360solutions-dev/local-ai The problem that started it all Every time I needed to analyze a document with AI, I had to choose between </summary>
+    <author><name>Rizwan Hameed</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I Built the Tool I Wish I Had When Learning DSA</title>
+    <link href="https://dev.to/imrishuroy/i-built-the-tool-i-wish-i-had-when-learning-dsa-i4g" rel="alternate"/>
+    <id>https://dev.to/imrishuroy/i-built-the-tool-i-wish-i-had-when-learning-dsa-i4g</id>
+    <updated>2026-06-14T18:48:37Z</updated>
+    <summary type="text">After failing 3 coding interviews, I realized the problem wasn't practice it was how I was practicing. I spent 6 months grinding LeetCode before my first FAANG interview. 400+ problems solved. Every &quot;Blind 75&quot; problem is memorized. I felt ready. Then the interviewer asked a sliding window variation I hadn't seen before. I froze. Drew a blank. Bombed the interview. The problem wasn't that I hadn't </summary>
+    <author><name>Rishu Roy</name></author>
+  </entry>
+  <entry>
+    <title>3- AWS Serverless: REST API vs. HTTP API</title>
+    <link href="https://dev.to/hash01/rest-api-vs-http-api-aws-architecture-3pea" rel="alternate"/>
+    <id>https://dev.to/hash01/rest-api-vs-http-api-aws-architecture-3pea</id>
+    <updated>2026-06-14T18:42:00Z</updated>
+    <summary type="text">There is common point of confusion. what's the different between REST API vs. HTTP API in AWS and what's the different between them and a traditional Rest API you write with e.g express in node in the broader software world, a &quot;REST API&quot; is just an architectural pattern built on top of HTTP requests. The confusion comes entirely from AWS-specific marketing terminology. When you are inside the AWS </summary>
+    <author><name>Hamid Shoja</name></author>
   </entry>
   <entry>
     <title>How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing</title>
@@ -350,108 +447,5 @@
     <updated>2026-06-13T13:03:49Z</updated>
     <summary type="text">Microsoft CEO Satya Nadella is warning against &quot;token-maxing,&quot; throwing the most powerful AI models at every problem. Frontier models shouldn't be wasted on everyday tasks, he says. The marginal cost of productivity gains has to match the token cost. Still, Nadella admits, &quot;I'm like a token-maxer too. So it is addictive.&quot; The article Microsoft CEO Satya Nadella admits he's a token-maxer, too: &quot;It'</summary>
     <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>GPU Time-Slicing for Concurrent LLM Agents on Kubernetes</title>
-    <link href="https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/" rel="alternate"/>
-    <id>https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/</id>
-    <updated>2026-06-14T13:00:00Z</updated>
-    <summary type="text">A systems-level deep dive into the hidden microarchitectural costs of Kubernetes GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads. The post GPU Time-Slicing for Concurrent LLM Agents on Kubernetes appeared first on Towards Data Science.</summary>
-    <author><name>Anubhab Banerjee</name></author>
-    <category term="data"/>
-    <category term="hardware"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Amazon CEO reportedly raised Anthropic model concerns before government crackdown</title>
-    <link href="https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/</id>
-    <updated>2026-06-13T19:11:41Z</updated>
-    <summary type="text">Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google Research's Gemini-SQL2 tops text-to-SQL benchmarks by a wide margin</title>
-    <link href="https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/" rel="alternate"/>
-    <id>https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/</id>
-    <updated>2026-06-13T12:32:11Z</updated>
-    <summary type="text">Google Research's Gemini-SQL2 turns natural language into executable SQL queries. Built on Gemini 3.1 Pro, it tops the BIRD benchmark at 80.04 percent accuracy, well ahead of OpenAI and Anthropic. Google says the technology could improve natural language features across its data services. The article Google Research's Gemini-SQL2 tops text-to-SQL benchmarks by a wide margin appeared first on The D</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft's SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file</title>
-    <link href="https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/" rel="alternate"/>
-    <id>https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/</id>
-    <updated>2026-06-13T12:20:39Z</updated>
-    <summary type="text">Microsoft and three Chinese universities have developed SkillOpt, a method that optimizes instruction documents for AI agents using principles from traditional model training. A simple Markdown file is enough to boost GPT-5.5 by about 23 points on procedural tasks, and the same file transfers across models and agent environments like Codex and Claude Code. The article Microsoft's SkillOpt boosts G</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AWS VPC IPAM: The Most Underrated Feature for Avoiding IP Address Chaos</title>
-    <link href="https://dev.to/srinu_nuthi_5ff587c586662/aws-vpc-ipam-the-most-underrated-feature-for-avoiding-ip-address-chaos-2e2o" rel="alternate"/>
-    <id>https://dev.to/srinu_nuthi_5ff587c586662/aws-vpc-ipam-the-most-underrated-feature-for-avoiding-ip-address-chaos-2e2o</id>
-    <updated>2026-06-14T11:42:01Z</updated>
-    <summary type="text">Most teams manage their VPC IP ranges in a spreadsheet — until two VPCs overlap, a peering connection refuses to come up, and nobody can remember who owns which CIDR. Amazon VPC IP Address Manager (IPAM) is the feature that quietly solves all of this. It's one of the most underrated tools in AWS networking, and here's why. The problem nobody talks about until it breaks IP address planning feels tr</summary>
-    <author><name>srinu nuthi</name></author>
-  </entry>
-  <entry>
-    <title>IONA OS: Building a sovereign operating system in Rust from scratch – No token, no ICO</title>
-    <link href="https://dev.to/ionablokchain/iona-os-building-a-sovereign-operating-system-in-rust-from-scratch-no-token-no-ico-1kig" rel="alternate"/>
-    <id>https://dev.to/ionablokchain/iona-os-building-a-sovereign-operating-system-in-rust-from-scratch-no-token-no-ico-1kig</id>
-    <updated>2026-06-14T11:32:27Z</updated>
-    <summary type="text">I started writing IONA OS on a random night, 13 years ago. Back then, as now, I had no team. I never took money from venture capital funds. And I never launched a token. IONA is not a crypto project. It is a sovereign operating system written in Rust that includes its own blockchain protocol, programming language, GUI, and AI. Everything starts at the kernel and builds upward. 🔐 What does &quot;soverei</summary>
-    <author><name>Eric-Octavian</name></author>
-    <category term="hardware"/>
-    <category term="funding"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Systems Thinking: The Missing Skill in Modern Software Engineering</title>
-    <link href="https://dev.to/elizabeth_omito/systems-thinking-the-missing-skill-in-modern-software-engineering-14ah" rel="alternate"/>
-    <id>https://dev.to/elizabeth_omito/systems-thinking-the-missing-skill-in-modern-software-engineering-14ah</id>
-    <updated>2026-06-14T11:31:41Z</updated>
-    <summary type="text">Many developers learn programming by focusing on functions, classes, frameworks, and algorithms. Early in our careers, success often means writing code that works and implementing features according to requirements. However, as software systems grow, problems rarely exist in isolation. A change in one service affects another. A database bottleneck impacts user experience. A seemingly simple featur</summary>
-    <author><name>Elizabeth Omito</name></author>
-  </entry>
-  <entry>
-    <title>What is an AI Employee? A Practical Definition for 2026</title>
-    <link href="https://dev.to/vladimirnagin/what-is-an-ai-employee-a-practical-definition-for-2026-20e9" rel="alternate"/>
-    <id>https://dev.to/vladimirnagin/what-is-an-ai-employee-a-practical-definition-for-2026-20e9</id>
-    <updated>2026-06-14T11:22:17Z</updated>
-    <summary type="text">Most &quot;AI agent&quot; products in 2026 are GPT wrappers with a nice UI. They respond to prompts. They don't run in the background. They don't have KPIs. They don't escalate to a human when something breaks. An actual AI employee is different. Here's the breakdown from someone who builds them in production. The Definition That Matters An AI employee is an autonomous AI agent with a job description, tools</summary>
-    <author><name>Vladimir Nagin</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why I stopped copy-pasting JSON into online converters and built TypeMorph</title>
-    <link href="https://dev.to/_904affc0d58589ee2ac5/why-i-stopped-copy-pasting-json-into-online-converters-and-built-typemorph-42mp" rel="alternate"/>
-    <id>https://dev.to/_904affc0d58589ee2ac5/why-i-stopped-copy-pasting-json-into-online-converters-and-built-typemorph-42mp</id>
-    <updated>2026-06-14T11:20:42Z</updated>
-    <summary type="text">Why I stopped copy-pasting JSON into online converters and built TypeMorph Every developer has done it. You grab a JSON response from an API, paste it into some random online tool, and get a TypeScript interface back. Fast, convenient — and potentially a huge security mistake. I did this for years before I realized what I was actually doing: sending production API responses, internal data models, </summary>
-    <author><name>Jop</name></author>
-  </entry>
-  <entry>
-    <title>NVIDIA RTX Spark Superchip: Unified CPU–GPU Memory</title>
-    <link href="https://dev.to/pueding/nvidia-rtx-spark-superchip-unified-cpu-gpu-memory-21fp" rel="alternate"/>
-    <id>https://dev.to/pueding/nvidia-rtx-spark-superchip-unified-cpu-gpu-memory-21fp</id>
-    <updated>2026-06-14T11:18:51Z</updated>
-    <summary type="text">What: NVIDIA's RTX Spark &quot;superchip&quot; (unveiled around Computex / Build 2026) pairs a 20-core Grace CPU with a Blackwell RTX GPU that together address one 128GB unified memory pool over NVLink-C2C — the idea this page explains is unified coherent CPU–GPU memory. Why: On an ordinary discrete GPU, any data the GPU touches must first be copied from CPU system RAM into GPU VRAM across the PCIe bus — a </summary>
-    <author><name>pueding</name></author>
-    <category term="data"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Email Testing Guide for Developers (2026 Edition)</title>
-    <link href="https://dev.to/yobox/email-testing-guide-for-developers-2026-edition-2p7n" rel="alternate"/>
-    <id>https://dev.to/yobox/email-testing-guide-for-developers-2026-edition-2p7n</id>
-    <updated>2026-06-14T11:16:38Z</updated>
-    <summary type="text">Email is the test surface nobody wants to own. It's asynchronous, depends on external providers, has its own version of &quot;flaky&quot; (sometimes a delivery just… takes 90 seconds), and the bugs that bite hardest in production — wrong template variables, broken unsubscribe links, OTPs that expire too fast — are the ones unit tests can't catch. This guide is the working developer's playbook for testing em</summary>
-    <author><name>yobox</name></author>
   </entry>
 </feed>
