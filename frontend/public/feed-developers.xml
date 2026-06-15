@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-15T16:21:54Z</updated>
+  <updated>2026-06-15T20:28:13Z</updated>
   <entry>
     <title>Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch</title>
     <link href="https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/" rel="alternate"/>
@@ -24,6 +24,42 @@
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Email Tools for Claude: Tool Use With an Agent Mailbox</title>
+    <link href="https://dev.to/qasim157/email-tools-for-claude-tool-use-with-an-agent-mailbox-4ckp" rel="alternate"/>
+    <id>https://dev.to/qasim157/email-tools-for-claude-tool-use-with-an-agent-mailbox-4ckp</id>
+    <updated>2026-06-15T20:04:25Z</updated>
+    <summary type="text">Claude can operate a real mailbox with three tool definitions and about forty lines of glue code. tools = [ { &quot;name&quot;: &quot;read_emails&quot;, &quot;description&quot;: &quot;List recent emails from the agent's inbox. Returns JSON.&quot;, &quot;input_schema&quot;: { &quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: { &quot;limit&quot;: {&quot;type&quot;: &quot;integer&quot;, &quot;default&quot;: 10}, &quot;unread_only&quot;: {&quot;type&quot;: &quot;boolean&quot;, &quot;default&quot;: False}, }, }, }, { &quot;name&quot;: &quot;search_emails&quot;, &quot;desc</summary>
+    <author><name>Qasim Muhammad</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Give a LangChain Agent a Real Inbox</title>
+    <link href="https://dev.to/qasim157/give-a-langchain-agent-a-real-inbox-2bbd" rel="alternate"/>
+    <id>https://dev.to/qasim157/give-a-langchain-agent-a-real-inbox-2bbd</id>
+    <updated>2026-06-15T20:04:21Z</updated>
+    <summary type="text">An engineer on a small team wires up a LangChain agent over a weekend: it reads the inbox, summarizes threads, drafts replies. The demo kills. Then Monday's planning meeting asks the question that kills the demo back: whose inbox does this run on in production? Nobody wants the bot reading their mail, the shared support@ account is on someone's personal OAuth grant, and legal has opinions about bo</summary>
+    <author><name>Qasim Muhammad</name></author>
+  </entry>
+  <entry>
+    <title>Astrophysics &amp; AI with Python: Unlocking the Universe with Astroquery</title>
+    <link href="https://dev.to/programmingcentral/astrophysics-ai-with-python-unlocking-the-universe-with-astroquery-2kd6" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/astrophysics-ai-with-python-unlocking-the-universe-with-astroquery-2kd6</id>
+    <updated>2026-06-15T20:00:00Z</updated>
+    <summary type="text">The universe is no longer just observed through a physical telescope eyepiece; it is read, parsed, and analyzed through code. For the modern data-driven astronomer, the sky is a massive, distributed database. However, accessing this data presents a unique challenge: the &quot;Babel of Archives.&quot; How do you programmatically search the accumulated knowledge of humanity when that knowledge is scattered ac</summary>
+    <author><name>Programming Central</name></author>
+  </entry>
+  <entry>
+    <title>How to Effectively Align with Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-effectively-align-with-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-effectively-align-with-claude-code/</id>
+    <updated>2026-06-15T16:30:00Z</updated>
+    <summary type="text">Increase productivity with your LLMs The post How to Effectively Align with Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>From Supply Chain to Software: What Containers Actually Are and Why They Matter</title>
@@ -434,41 +470,5 @@
     <summary type="text">Kickbacks.ai went viral in early June 2026: replace Claude Code's &quot;Discombobulating...&quot; spinner with ads, get ~50% of revenue. But Kickbacks isn't the only option — and the risks aren't obvious. I built AIWaitIndex — a free, independent comparison site for this new category. What's a &quot;wait-state&quot; ad? While an AI coding tool is thinking, you see a spinner or status line. Startups now sell that mome</summary>
     <author><name>digitalcheff</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent</title>
-    <link href="https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/</id>
-    <updated>2026-06-12T17:34:23Z</updated>
-    <summary type="text">OpenAI now lets Codex users bank their rate-limit resets and trigger them manually instead of watching them expire on a fixed schedule. If you hit your usage cap mid-session, you can cash in a saved reset right away instead of waiting. Users on the Go, Plus, Pro, and Business plans each get one free reset to start. Plus and Pro users can also invite friends to unlock extra resets. The article Open</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Acquires Startup to Boost Codex</title>
-    <link href="https://aibusiness.com/generative-ai/openai-acquires-startup-to-boost-codex" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/openai-acquires-startup-to-boost-codex</id>
-    <updated>2026-06-12T16:11:33Z</updated>
-    <summary type="text">The move is part of the generative AI vendor’s campaign to keep up with rival Anthropic and its Claude Code agent in the hot AI coding market.</summary>
-    <author><name>Graham Hope</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI enhances Codex with secure self-hosted sandboxes via Ona acquisition</title>
-    <link href="https://dev.to/davekurian/openai-enhances-codex-with-secure-self-hosted-sandboxes-via-ona-acquisition-52j" rel="alternate"/>
-    <id>https://dev.to/davekurian/openai-enhances-codex-with-secure-self-hosted-sandboxes-via-ona-acquisition-52j</id>
-    <updated>2026-06-13T16:05:28Z</updated>
-    <summary type="text">OpenAI’s acquisition of Ona is a decisive step toward making Codex a true enterprise-grade platform—with secure, self-hosted sandboxes at its core. By giving enterprises direct control over where and how autonomous AI agents run, OpenAI closes a critical trust gap. For teams under real compliance and risk constraints, Ona’s persistent, customer-controlled environments finally enable secure, contin</summary>
-    <author><name>Dave Kurian</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kaupang: deploy the same config to Docker Compose, Swarm, or Kubernetes</title>
-    <link href="https://dev.to/clownay/kaupang-deploy-the-same-config-to-docker-compose-swarm-or-kubernetes-1a08" rel="alternate"/>
-    <id>https://dev.to/clownay/kaupang-deploy-the-same-config-to-docker-compose-swarm-or-kubernetes-1a08</id>
-    <updated>2026-06-13T16:04:11Z</updated>
-    <summary type="text">I just released kaupang — Old Norse for a Viking trading hub, where goods from every craft were gathered, packed, and shipped. It's an imperative, push-based deploy CLI: you point it at a config, it makes a target match it, records exactly what it did, and lets you replay or roll back. The same command runs on your laptop and in CI. The itch Every project ended up with its own deploy glue — a comp</summary>
-    <author><name>Andreas Quist Batista</name></author>
   </entry>
 </feed>
