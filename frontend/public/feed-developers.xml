@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-15T10:59:01Z</updated>
+  <updated>2026-06-15T16:21:54Z</updated>
+  <entry>
+    <title>Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch</title>
+    <link href="https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/</id>
+    <updated>2026-06-15T06:10:23Z</updated>
+    <summary type="text">Z.ai launched GLM-5.2 on June 13, 2026, across every GLM Coding Plan tier. The headline is a usable 1-million-token context window plus High and Max effort levels. It drops into Claude Code, Cline, and OpenClaw through an Anthropic-compatible endpoint. No benchmarks shipped at launch, and MIT open weights are promised next week. The post Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Th</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Claude Code Guide 2026: 25 Features with Examples + Demo</title>
     <link href="https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/" rel="alternate"/>
@@ -13,6 +23,23 @@
     <summary type="text">Claude Code is a layered agentic coding tool, not a single chat prompt. This guide breaks down 25 features, from CLAUDE.md, skills, subagents, and hooks to MCP and Auto Mode. It includes a comparison table, working code examples, real use cases, and an interactive demo you can try. The post Claude Code Guide 2026: 25 Features with Examples + Demo appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From Supply Chain to Software: What Containers Actually Are and Why They Matter</title>
+    <link href="https://dev.to/agenticdevops/from-supply-chain-to-software-what-containers-actually-are-and-why-they-matter-4h6" rel="alternate"/>
+    <id>https://dev.to/agenticdevops/from-supply-chain-to-software-what-containers-actually-are-and-why-they-matter-4h6</id>
+    <updated>2026-06-15T16:02:20Z</updated>
+    <summary type="text">Pipeline &amp; Prompts | Byte size guides on DevOps, Cloud and AI The Moment Someone Finally Explained Containers to Me When IBM acquired Red Hat, my world changed overnight. Suddenly everyone around me was talking about containers. Kubernetes. Pods. Orchestration. I was nodding along in meetings while internally having absolutely no idea what any of it meant. My background was in supply chain and log</summary>
+    <author><name>Nerav Doshi</name></author>
+  </entry>
+  <entry>
+    <title>Cursor's compression isn't a bug. It's how it works.</title>
+    <link href="https://dev.to/arthurpro/cursors-compression-isnt-a-bug-its-how-it-works-2680" rel="alternate"/>
+    <id>https://dev.to/arthurpro/cursors-compression-isnt-a-bug-its-how-it-works-2680</id>
+    <updated>2026-06-15T16:00:00Z</updated>
+    <summary type="text">The most useful sentence in Cursor's &quot;Dynamic Context Discovery&quot; blog post (Jan 6, 2026) is the one written in the kind of plain language engineering teams use when they've decided to admit a trade-off they haven't fully solved: When the model's context window fills up, Cursor triggers a summarization step to give the agent a fresh context window with a summary of its work so far. But the agent's </summary>
+    <author><name>Arthur</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -443,32 +470,5 @@
     <updated>2026-06-13T16:04:11Z</updated>
     <summary type="text">I just released kaupang — Old Norse for a Viking trading hub, where goods from every craft were gathered, packed, and shipped. It's an imperative, push-based deploy CLI: you point it at a config, it makes a target match it, records exactly what it did, and lets you replay or roll back. The same command runs on your laptop and in CI. The itch Every project ended up with its own deploy glue — a comp</summary>
     <author><name>Andreas Quist Batista</name></author>
-  </entry>
-  <entry>
-    <title>I built a self-hosted MCP server registry and proxy in TypeScript</title>
-    <link href="https://dev.to/diya730/i-built-a-self-hosted-mcp-server-registry-and-proxy-in-typescript-12b" rel="alternate"/>
-    <id>https://dev.to/diya730/i-built-a-self-hosted-mcp-server-registry-and-proxy-in-typescript-12b</id>
-    <updated>2026-06-13T16:01:36Z</updated>
-    <summary type="text">The official MCP registry is written in Go and cloud-hosted. I wanted something I could self-host, written in TypeScript, that my team could run inside our own infra. So I built mcp-hub. What it does Register any MCP server (SSE, HTTP, stdio transports) Proxy all tool calls through one endpoint with auth forwarding Stream every tool call live via WebSocket (Socket.io) Monitor server health async v</summary>
-    <author><name>Diya</name></author>
-  </entry>
-  <entry>
-    <title>My AI tools kept forgetting everything, so I gave them a shared brain (local + open source)</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1u66kb0/my_ai_tools_kept_forgetting_everything_so_i_gave/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1u66kb0/my_ai_tools_kept_forgetting_everything_so_i_gave/</id>
-    <updated>2026-06-15T04:39:47Z</updated>
-    <summary type="text">Hi there! this is my first small rant that turned into a project: every AI tool I use has its own memory. I tell Claude Desktop something, Cursor has no clue. New chat? Back to zero. It drove me nuts — so I built Centralaizer. This is an open source solution, so it's free with MIT license. It's a little memory hub that runs on your own machine. Any MCP tool (Claude Desktop, Cursor, Claude Code, VS</summary>
-    <author><name>/u/Accomplished-Pen-491</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Man Who Studied the Hippocampus Is Telling You What's Missing</title>
-    <link href="https://dev.to/penfieldlabs/the-man-who-studied-the-hippocampus-is-telling-you-whats-missing-88b" rel="alternate"/>
-    <id>https://dev.to/penfieldlabs/the-man-who-studied-the-hippocampus-is-telling-you-whats-missing-88b</id>
-    <updated>2026-06-13T13:38:21Z</updated>
-    <summary type="text">The Man Who Studied the Hippocampus Is Telling You What's Missing In a recent conversation with Y Combinator's Garry Tan, Google DeepMind CEO Demis Hassabis said something that should get more attention than it's getting. &quot;We're kind of using duct tape right now. Shove it all in the context window. This seems a bit unsatisfying.&quot; That's the head of one of the most well-funded AI labs on earth desc</summary>
-    <author><name>Penfield</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
