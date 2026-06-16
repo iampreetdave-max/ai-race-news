@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-16T19:49:20Z</updated>
+  <updated>2026-06-16T22:17:39Z</updated>
   <entry>
     <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
     <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
@@ -77,6 +77,23 @@
     <updated>2026-06-16T11:15:46Z</updated>
     <summary type="text">SearchLeak exploit shows why the industry's approach to LLM security fails over and over.</summary>
     <author><name>Dan Goodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Comment orchestrer un double déploiement automatique sur Vercel &amp; GitHub Pages avec GitHub Actions</title>
+    <link href="https://dev.to/beautero_kenne_2b7e9bfb01/comment-orchestrer-un-double-deploiement-automatique-sur-vercel-github-pages-avec-github-actions-1pni" rel="alternate"/>
+    <id>https://dev.to/beautero_kenne_2b7e9bfb01/comment-orchestrer-un-double-deploiement-automatique-sur-vercel-github-pages-avec-github-actions-1pni</id>
+    <updated>2026-06-16T21:58:28Z</updated>
+    <summary type="text">Introduction Dans le cadre de mon apprentissage des pratiques DevOps modernes, j’ai conçu et implémenté un pipeline CI/CD (Continuous Integration / Continuous Deployment) capable de déployer automatiquement une application web frontend sur deux environnements de production distincts : Vercel et GitHub Pages. Cette mission constitue une application concrète des concepts fondamentaux du DevOps, nota</summary>
+    <author><name>Beautero Kenne</name></author>
+  </entry>
+  <entry>
+    <title>The Drift from Chat to Backlog: How My AI Task Planning Evolved Over Three Months</title>
+    <link href="https://dev.to/niclydon/the-drift-from-chat-to-backlog-how-my-ai-task-planning-evolved-over-three-months-2akg" rel="alternate"/>
+    <id>https://dev.to/niclydon/the-drift-from-chat-to-backlog-how-my-ai-task-planning-evolved-over-three-months-2akg</id>
+    <updated>2026-06-16T21:39:49Z</updated>
+    <summary type="text">Three months ago, my entire task-management system was a chat window I'd lose when the tab closed. Today it's a Postgres backlog that three different coding agents — Claude Code, Codex, Grok — pull work off autonomously, stamp with attribution, and close against git history. I never decided to build a project-management system. I just kept hitting a wall, patching it, and hitting the next one the </summary>
+    <author><name>Nic Lydon</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -452,24 +469,5 @@
     <category term="data"/>
     <category term="hardware"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Microsoft's SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file</title>
-    <link href="https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/" rel="alternate"/>
-    <id>https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/</id>
-    <updated>2026-06-13T12:20:39Z</updated>
-    <summary type="text">Microsoft and three Chinese universities have developed SkillOpt, a method that optimizes instruction documents for AI agents using principles from traditional model training. A simple Markdown file is enough to boost GPT-5.5 by about 23 points on procedural tasks, and the same file transfers across models and agent environments like Codex and Claude Code. The article Microsoft's SkillOpt boosts G</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Cloudflare CAPTCHA on at least one ampersand</title>
-    <link href="https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything</id>
-    <updated>2026-06-16T00:21:36Z</updated>
-    <summary type="text">TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a &quot;Web Application Firewall &gt; Custom rules &gt; Managed Challenge&quot; these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can regi</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
