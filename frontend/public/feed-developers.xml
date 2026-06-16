@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-15T23:05:41Z</updated>
+  <updated>2026-06-16T04:49:52Z</updated>
   <entry>
     <title>Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch</title>
     <link href="https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/" rel="alternate"/>
@@ -13,6 +13,41 @@
     <summary type="text">Z.ai launched GLM-5.2 on June 13, 2026, across every GLM Coding Plan tier. The headline is a usable 1-million-token context window plus High and Max effort levels. It drops into Claude Code, Cline, and OpenClaw through an Anthropic-compatible endpoint. No benchmarks shipped at launch, and MIT open weights are promised next week. The post Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Th</summary>
     <author><name>Michal Sutter</name></author>
     <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Skills File Pattern</title>
+    <link href="https://dev.to/kavyarani7/the-skills-file-pattern-2oam" rel="alternate"/>
+    <id>https://dev.to/kavyarani7/the-skills-file-pattern-2oam</id>
+    <updated>2026-06-16T04:33:48Z</updated>
+    <summary type="text">SectorFlow Engineering Series · Part 2 of 3 · Read Part 1 first: Token Efficiency in Claude Code How we stopped appending to CLAUDE.md and started importing only what we need. June 2026 · SectorFlow Engineering In this series Part 1: Token Efficiency in Claude Code (start here). Part 3: Picking Models and Tools — the MCPs we tried, refused, and why. The append loop If you use Claude Code for a whi</summary>
+    <author><name>kavyarani7</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Token Efficiency in Claude Code</title>
+    <link href="https://dev.to/kavyarani7/token-efficiency-in-claude-code-2kpi" rel="alternate"/>
+    <id>https://dev.to/kavyarani7/token-efficiency-in-claude-code-2kpi</id>
+    <updated>2026-06-16T04:31:45Z</updated>
+    <summary type="text">SectorFlow Engineering Series · Part 1 of 3 · Parent article Notes on where our context budget was actually going, and what we did about it. June 2026 · SectorFlow Engineering In this series Part 2: The Skills File Pattern — fixing CLAUDE.md bloat with imports. Part 3: Picking Models and Tools — the MCPs we tried, refused, and why. The problem nobody warns you about Claude Code can do a lot. The c</summary>
+    <author><name>kavyarani7</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Auditing Kubernetes Manifests With AI: A Practical Workflow</title>
+    <link href="https://dev.to/devopsaitoolkit/auditing-kubernetes-manifests-with-ai-a-practical-workflow-4368" rel="alternate"/>
+    <id>https://dev.to/devopsaitoolkit/auditing-kubernetes-manifests-with-ai-a-practical-workflow-4368</id>
+    <updated>2026-06-16T04:31:15Z</updated>
+    <summary type="text">A senior K8s engineer I work with audits manifests faster than I read them. He's seen so many patterns that &quot;missing readinessProbe on a Deployment that takes 45 seconds to start&quot; jumps off the page. Most of us don't have that pattern library memorized — and increasingly, we don't need to. AI assistants have read more Kubernetes manifests than any human ever will. The catch: a generic &quot;review this</summary>
+    <author><name>James Joyner</name></author>
+  </entry>
+  <entry>
+    <title>Using ChatGPT Custom Connectors With a Remote MCP Form Server</title>
+    <link href="https://dev.to/lovanaut55/using-chatgpt-custom-connectors-with-a-remote-mcp-form-server-24h5" rel="alternate"/>
+    <id>https://dev.to/lovanaut55/using-chatgpt-custom-connectors-with-a-remote-mcp-form-server-24h5</id>
+    <updated>2026-06-16T04:28:27Z</updated>
+    <summary type="text">ChatGPT can suggest form fields in seconds. That is useful, but it still leaves a gap: Ask ChatGPT for fields Open a form builder Create the form manually Copy labels Configure response emails Preview Fix issues Publish With a remote MCP server, ChatGPT can move one layer deeper. Instead of only describing the form, it can call tools that create and operate the form. This post walks through a narr</summary>
+    <author><name>Lovanaut</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -85,16 +120,6 @@
     <updated>2026-06-15T20:00:00Z</updated>
     <summary type="text">The universe is no longer just observed through a physical telescope eyepiece; it is read, parsed, and analyzed through code. For the modern data-driven astronomer, the sky is a massive, distributed database. However, accessing this data presents a unique challenge: the &quot;Babel of Archives.&quot; How do you programmatically search the accumulated knowledge of humanity when that knowledge is scattered ac</summary>
     <author><name>Programming Central</name></author>
-  </entry>
-  <entry>
-    <title>How to Effectively Align with Claude Code</title>
-    <link href="https://towardsdatascience.com/how-to-effectively-align-with-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-effectively-align-with-claude-code/</id>
-    <updated>2026-06-15T16:30:00Z</updated>
-    <summary type="text">Increase productivity with your LLMs The post How to Effectively Align with Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
   <entry>
     <title>From Supply Chain to Software: What Containers Actually Are and Why They Matter</title>
@@ -316,6 +341,15 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Cloudflare CAPTCHA on at least one ampersand</title>
+    <link href="https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything</id>
+    <updated>2026-06-16T00:21:36Z</updated>
+    <summary type="text">TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a &quot;Web Application Firewall &gt; Custom rules &gt; Managed Challenge&quot; these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can regi</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How to Cut Microsoft Agent Framework Costs With a Gateway Layer</title>
     <link href="https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke" rel="alternate"/>
     <id>https://dev.to/lynkr/how-to-cut-microsoft-agent-framework-costs-with-a-gateway-layer-5gke</id>
@@ -432,43 +466,6 @@
     <updated>2026-06-13T21:42:57Z</updated>
     <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You have an Order. It owns line items and a shipping addre</summary>
     <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Modeling Money in PHP: Your Own Value Object vs brick/money Behind a Port</title>
-    <link href="https://dev.to/gabrielanhaia/modeling-money-in-php-your-own-value-object-vs-brickmoney-behind-a-port-43on" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/modeling-money-in-php-your-own-value-object-vs-brickmoney-behind-a-port-43on</id>
-    <updated>2026-06-13T21:39:09Z</updated>
-    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Open a PHP REPL and type 0.1 + 0.2. You get 0.300000000000</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Hand-Rolled Mappers vs AutoMapper: Keeping the PHP Domain Pure at the Boundary</title>
-    <link href="https://dev.to/gabrielanhaia/hand-rolled-mappers-vs-automapper-keeping-the-php-domain-pure-at-the-boundary-a8a" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/hand-rolled-mappers-vs-automapper-keeping-the-php-domain-pure-at-the-boundary-a8a</id>
-    <updated>2026-06-13T21:37:34Z</updated>
-    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You add a column to a table. discount_cents, nullable, def</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agents Level Up Workflows: Terraform MCP, WebMCP, Pinecone Integrations</title>
-    <link href="https://dev.to/soytuber/ai-agents-level-up-workflows-terraform-mcp-webmcp-pinecone-integrations-c6l" rel="alternate"/>
-    <id>https://dev.to/soytuber/ai-agents-level-up-workflows-terraform-mcp-webmcp-pinecone-integrations-c6l</id>
-    <updated>2026-06-13T21:36:00Z</updated>
-    <summary type="text">AI Agents Level Up Workflows: Terraform MCP, WebMCP, Pinecone Integrations Today's Highlights This week showcases significant advancements in AI agent orchestration and workflow automation, with new tools enabling AI to manage infrastructure, interact with the web, and leverage enterprise data. These developments highlight the growing maturity of applied AI frameworks for real-world production use</summary>
-    <author><name>soy</name></author>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Coding Agents over Telegram, Part 2: From Zero to an Agent That Answers</title>
-    <link href="https://dev.to/jerilk/coding-agents-over-telegram-part-2-from-zero-to-an-agent-that-answers-2777" rel="alternate"/>
-    <id>https://dev.to/jerilk/coding-agents-over-telegram-part-2-from-zero-to-an-agent-that-answers-2777</id>
-    <updated>2026-06-13T19:44:04Z</updated>
-    <summary type="text">This is the one post in the series you do, not just read. By the end you'll have a single Telegram topic where you type a message and a coding agent answers and drives a tmux pane on your own box. That's the entire goal, nothing more. Memory, monitors, tool servers, and the supervisor all come later; none of them are needed to get an agent answering you. Budget ~30–45 minutes. If you only do one t</summary>
-    <author><name>Jeril</name></author>
     <category term="llm"/>
   </entry>
 </feed>
