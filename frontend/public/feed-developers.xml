@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-17T11:53:39Z</updated>
+  <updated>2026-06-17T15:44:31Z</updated>
   <entry>
     <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
     <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
@@ -25,6 +25,57 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Building Effective Dialogue Systems with LLMs</title>
+    <link href="https://dev.to/shashank_ms_6a35baa4be138/building-effective-dialogue-systems-with-llms-4dn4" rel="alternate"/>
+    <id>https://dev.to/shashank_ms_6a35baa4be138/building-effective-dialogue-systems-with-llms-4dn4</id>
+    <updated>2026-06-17T15:36:03Z</updated>
+    <summary type="text">Building a production dialogue system requires more than wrapping a chat endpoint in a UI. You need to manage conversation state, handle tool calls, maintain persona consistency across dozens of turns, and keep latency low under load. The infrastructure you choose determines whether your system stays responsive as context grows and user expectations escalate. Core Architecture for Stateful Convers</summary>
+    <author><name>shashank ms</name></author>
+  </entry>
+  <entry>
+    <title>Twenty years of Linux, and now I run my own AI</title>
+    <link href="https://dev.to/kenahrens/twenty-years-of-linux-and-now-i-run-my-own-ai-4ab9" rel="alternate"/>
+    <id>https://dev.to/kenahrens/twenty-years-of-linux-and-now-i-run-my-own-ai-4ab9</id>
+    <updated>2026-06-17T15:27:00Z</updated>
+    <summary type="text">I've been running Linux and Ubuntu for nearly 20 years. I can date it almost exactly, because I still have the email from my Dad back in early 2007 telling me he'd just installed Ubuntu. That's where this started. The big trend the last couple of years is obviously AI and the large language models, and this balancing act between what you can run yourself on your own machine versus what you get fro</summary>
+    <author><name>Ken Ahrens</name></author>
+    <category term="open-source"/>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Deploy Your Own AI Agent in 5 Minutes — No Kubernetes, No YAML, No Tears</title>
+    <link href="https://dev.to/kunkun_cai_8b7536632c8d0/deploy-your-own-ai-agent-in-5-minutes-no-kubernetes-no-yaml-no-tears-pd1" rel="alternate"/>
+    <id>https://dev.to/kunkun_cai_8b7536632c8d0/deploy-your-own-ai-agent-in-5-minutes-no-kubernetes-no-yaml-no-tears-pd1</id>
+    <updated>2026-06-17T15:25:01Z</updated>
+    <summary type="text">Deploy Your Own AI Agent in 5 Minutes — No Kubernetes, No YAML, No Tears I've been there. You find an amazing open-source AI agent framework on GitHub. You get excited. You clone the repo. You open the README. And then... &quot;First, install Python 3.10, configure your virtual environment, set up Redis, configure Nginx as a reverse proxy, obtain API keys from three different providers, edit the .env f</summary>
+    <author><name>kun'kun cai</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Self-Hosting Your First LLM for Enterprise: What Nobody Tells You Before You Start</title>
+    <link href="https://dev.to/nolanvale/self-hosting-your-first-llm-for-enterprise-what-nobody-tells-you-before-you-start-1d6f" rel="alternate"/>
+    <id>https://dev.to/nolanvale/self-hosting-your-first-llm-for-enterprise-what-nobody-tells-you-before-you-start-1d6f</id>
+    <updated>2026-06-17T15:21:05Z</updated>
+    <summary type="text">I have done this setup process more times than I want to count. Every time I find something that the documentation skipped or assumed. This is the version I wish I had read first. This covers deploying a production-ready self-hosted LLM inference server for an enterprise RAG use case. I am using Llama 3 8B with vLLM on a single A100 instance. Adjust for your hardware. What you actually need before</summary>
+    <author><name>Nolan Vale</name></author>
+    <category term="open-source"/>
+    <category term="rag"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cursor Launches Origin, a GitHub Rival, Right Before SpaceX Buys the Company</title>
+    <link href="https://dev.to/jatniel/cursor-launches-origin-a-github-rival-right-before-spacex-buys-the-company-1d9b" rel="alternate"/>
+    <id>https://dev.to/jatniel/cursor-launches-origin-a-github-rival-right-before-spacex-buys-the-company-1d9b</id>
+    <updated>2026-06-17T15:19:16Z</updated>
+    <summary type="text">Cursor just announced Origin, a code storage and Git hosting platform. In one line: a direct competitor to GitHub. It ships this fall, and for now there's only a waitlist. So far, nothing wild in a market where everyone wants a piece. What makes it interesting isn't the what. It's the when. From editor to platform Some context first. Cursor, made by Anysphere, started as a fork of VS Code with AI </summary>
+    <author><name>Jatniel Guzmán</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
     <title>SpaceX bets $60 billion on Cursor to catch OpenAI and Anthropic</title>
     <link href="https://the-decoder.com/spacex-bets-60-billion-on-cursor-to-catch-openai-and-anthropic/" rel="alternate"/>
     <id>https://the-decoder.com/spacex-bets-60-billion-on-cursor-to-catch-openai-and-anthropic/</id>
@@ -33,6 +84,16 @@
     <author><name>Maximilian Schreiner</name></author>
     <category term="funding"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce</title>
+    <link href="https://hackernoon.com/meet-the-agents-that-pay-for-their-own-compute-inside-aeon-miroshark-and-agentic-commerce?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/meet-the-agents-that-pay-for-their-own-compute-inside-aeon-miroshark-and-agentic-commerce?source=rss</id>
+    <updated>2026-06-17T15:07:41Z</updated>
+    <summary type="text">Aaron Elijah Mars is the founder of two open-source AI projects, Aeon and MiroShark, both built on the conviction that software should run, observe, and ship without waiting for a human prompt. Aeon is a GitHub-native autonomous agent framework where each agent is defined by a SOUL.md (a model of the user's worldview), a STRATEGY.md (their goals), and skills, with every action logged and auditable</summary>
+    <author><name>Ishan Pandey</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>SpaceX Soars On Third Trading Day, Seals Cursor Takeover | Bloomberg Tech 6/16/2026</title>
@@ -405,62 +466,5 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I built a live demo that breaks agent pipelines in 8 different ways - and why every team building on MCP needs one</title>
-    <link href="https://dev.to/harishkotra/how-i-built-a-live-demo-that-breaks-agent-pipelines-in-8-different-ways-and-why-every-team-35bn" rel="alternate"/>
-    <id>https://dev.to/harishkotra/how-i-built-a-live-demo-that-breaks-agent-pipelines-in-8-different-ways-and-why-every-team-35bn</id>
-    <updated>2026-06-15T04:20:39Z</updated>
-    <summary type="text">TL;DR — The Gauntlet is an open-source Next.js app that connects 7 MCP servers through a LangChain multi-agent pipeline, then lets you toggle 8 failure modes live during execution. Built for conference demos. Watch agents break, fix, and break again — all in real time. The Problem If you've built anything with MCP (Model Context Protocol), you know the pattern: connect a few servers, wire up an ag</summary>
-    <author><name>Harish Kotra (he/him)</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Fine-Tune LLMs on Your Own Data: Open-Source Models, RL Environments, and Evals</title>
-    <link href="https://dev.to/rish_poddar/how-to-fine-tune-llms-on-your-own-data-open-source-models-rl-environments-and-evals-h35" rel="alternate"/>
-    <id>https://dev.to/rish_poddar/how-to-fine-tune-llms-on-your-own-data-open-source-models-rl-environments-and-evals-h35</id>
-    <updated>2026-06-15T04:04:56Z</updated>
-    <summary type="text">If you use LLMs long enough, you hit the same wall. The frontier model is impressive, but it is not always the best model for your job. It may be too expensive. It may be too slow. It may be too general. And once you start asking it to follow your company’s rules, tone, domain language, and task structure, the gap between “smart” and “useful” gets obvious fast. That is where post-training comes in</summary>
-    <author><name>Rishabh Poddar</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Predictive Alpha: Pipeline Engineering for Real-Time Machine Learning Inference</title>
-    <link href="https://dev.to/mountek/predictive-alpha-pipeline-engineering-for-real-time-machine-learning-inference-f69" rel="alternate"/>
-    <id>https://dev.to/mountek/predictive-alpha-pipeline-engineering-for-real-time-machine-learning-inference-f69</id>
-    <updated>2026-06-14T23:00:00Z</updated>
-    <summary type="text">Most retail algorithmic trading bots rely heavily on legacy technical analysis indicators—think RSI, MACD, or Bollinger Bands. While these indicators are easy to calculate, they suffer from a fatal flaw: they are lagging metrics derived entirely from historical price adjustments. In high-frequency, institutional environments, relying on simple moving averages is like trying to drive a car while lo</summary>
-    <author><name>mountek</name></author>
-    <category term="product-launch"/>
-    <category term="finance-ai"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Spring Boot 3 and JVM Resilience in API Development: Avoiding JavaScript’s 2014 Pitfalls</title>
-    <link href="https://dev.to/nitish_95c3a169c005f1d4fe/spring-boot-3-and-jvm-resilience-in-api-development-avoiding-javascripts-2014-pitfalls-4dl4" rel="alternate"/>
-    <id>https://dev.to/nitish_95c3a169c005f1d4fe/spring-boot-3-and-jvm-resilience-in-api-development-avoiding-javascripts-2014-pitfalls-4dl4</id>
-    <updated>2026-06-14T22:39:13Z</updated>
-    <summary type="text">Spring Boot 3 and JVM Resilience in API Development: Avoiding JavaScript’s 2014 Pitfalls Without proper thread pooling and structured error handling, your production APIs might face cascading failures under load—like Node.js applications did during JavaScript’s scalability debates in 2014—while Spring Boot’s thread-per-request model remains unmonitored and unoptimized. Prerequisites Java 17 or lat</summary>
-    <author><name>Nitish</name></author>
-  </entry>
-  <entry>
-    <title>A Cognitive Benchmark for Code-RAG Retrieval: Part 2 — Why Model Rankings Depend on the Pipeline</title>
-    <link href="https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4" rel="alternate"/>
-    <id>https://dev.to/miftakhov/a-cognitive-benchmark-for-code-rag-retrieval-part-2-why-model-rankings-depend-on-the-pipeline-12a4</id>
-    <updated>2026-06-14T21:00:41Z</updated>
-    <summary type="text">When developers enter an unfamiliar project, they rarely search for a specific file by name. They usually ask about system behavior: where incoming connections are accepted, which component cleans logs, or how a request travels between architectural layers. Code-RAG tries to answer such questions through semantic search. It splits and indexes the source code, then retrieves the context most closel</summary>
-    <author><name>Ilias Miftakhov</name></author>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>How to Build AI-Powered Kubernetes Operators for Troubleshooting, Scaling, and Incident Response</title>
-    <link href="https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/how-to-build-ai-powered-kubernetes-operators-for-troubleshooting-scaling-and-incident-response?source=rss</id>
-    <updated>2026-06-14T19:41:08Z</updated>
-    <summary type="text">In this tutorial, you will learn how to build a Kubernetes AI agent using Python, integrate it with cluster data and monitoring systems, and explore real-world use cases such as incident response, performance troubleshooting, and cost optimization. Moreover, you will also learn key security practices for deploying AI agents safely in production environments.Read All</summary>
-    <author><name>PuneetPahuja</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
