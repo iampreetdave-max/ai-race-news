@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-17T15:44:31Z</updated>
+  <updated>2026-06-17T18:25:18Z</updated>
+  <entry>
+    <title>Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons</title>
+    <link href="https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/" rel="alternate"/>
+    <id>https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/</id>
+    <updated>2026-06-17T17:30:00Z</updated>
+    <summary type="text">Chinese AI lab Zhipu AI releases GLM-5.2 with a stable 1-million-token context under the MIT license. On FrontierSWE, a benchmark for hours-long coding tasks, the open-source model trails Anthropic's Claude Opus 4.8 by just one percentage point. On reasoning, it still falls well behind closed-source rivals. The article Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons appea</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities</title>
+    <link href="https://www.marktechpost.com/2026/06/17/vercel-releases-eve/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/17/vercel-releases-eve/</id>
+    <updated>2026-06-17T17:22:51Z</updated>
+    <summary type="text">Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a directory of files, with durable execution, sandboxes, approvals, connections, channels, and evals built in. Scaffold with npx eve@latest init and deploy unchanged via vercel deploy. The post Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabi</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
     <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
@@ -22,6 +42,34 @@
     <summary type="text">The acquisition could help SpaceX expand its developer offerings and will give it access to Cursor’s developer workflow and user analytics.</summary>
     <author><name>Esther Shittu</name></author>
     <category term="data"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How I let AI agents pay for APIs per call (the HTTP 402 path)</title>
+    <link href="https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp" rel="alternate"/>
+    <id>https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp</id>
+    <updated>2026-06-17T18:07:56Z</updated>
+    <summary type="text">If you've built an MCP server or any API that costs you money to run (an LLM call, a paid data source, compute), you've probably hit the same wall I did: How do you get paid per call — when the caller is an AI agent, not a human with a credit card form? A human can sign up, enter a card, get an API key. An autonomous agent can't fill out a Stripe checkout form mid-task. And you don't want to hand </summary>
+    <author><name>LemonCake</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>MCP na prática: Tools, Resources e quando usar cada um</title>
+    <link href="https://dev.to/higorae/mcp-na-pratica-tools-resources-e-quando-usar-cada-um-13aa" rel="alternate"/>
+    <id>https://dev.to/higorae/mcp-na-pratica-tools-resources-e-quando-usar-cada-um-13aa</id>
+    <updated>2026-06-17T18:03:32Z</updated>
+    <summary type="text">Aprendizados de construir um servidor MCP de catálogo de cursos — da POC à produção. O que é o Model Context Protocol (MCP)? O Model Context Protocol (MCP) é um padrão aberto que permite que aplicações de IA (como o Cursor, Claude Desktop ou outros hosts) se conectem a fontes de dados e ferramentas externas de forma padronizada. Pense no MCP como uma tomada universal: em vez de cada editor inventa</summary>
+    <author><name>Higor Morais</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cursor debuts Origin, an AI-native GitHub alternative for smooth AI agent collaboration</title>
+    <link href="https://dev.to/davekurian/cursor-debuts-origin-an-ai-native-github-alternative-for-smooth-ai-agent-collaboration-55ei" rel="alternate"/>
+    <id>https://dev.to/davekurian/cursor-debuts-origin-an-ai-native-github-alternative-for-smooth-ai-agent-collaboration-55ei</id>
+    <updated>2026-06-17T18:03:17Z</updated>
+    <summary type="text">The pace of software development is changing. Instead of waiting days for code review, AI agents ship pull requests around the clock. But as the number of AI-generated changes explodes, legacy developer platforms hit a bottleneck. Cursor’s new Origin platform – a GitHub alternative for AI agents – puts collaboration, review, and management of AI-generated code at the center, not the periphery. The</summary>
+    <author><name>Dave Kurian</name></author>
     <category term="agents"/>
   </entry>
   <entry>
@@ -417,54 +465,5 @@
     <updated>2026-06-15T16:02:20Z</updated>
     <summary type="text">Pipeline &amp; Prompts | Byte size guides on DevOps, Cloud and AI The Moment Someone Finally Explained Containers to Me When IBM acquired Red Hat, my world changed overnight. Suddenly everyone around me was talking about containers. Kubernetes. Pods. Orchestration. I was nodding along in meetings while internally having absolutely no idea what any of it meant. My background was in supply chain and log</summary>
     <author><name>Nerav Doshi</name></author>
-  </entry>
-  <entry>
-    <title>Cursor's compression isn't a bug. It's how it works.</title>
-    <link href="https://dev.to/arthurpro/cursors-compression-isnt-a-bug-its-how-it-works-2680" rel="alternate"/>
-    <id>https://dev.to/arthurpro/cursors-compression-isnt-a-bug-its-how-it-works-2680</id>
-    <updated>2026-06-15T16:00:00Z</updated>
-    <summary type="text">The most useful sentence in Cursor's &quot;Dynamic Context Discovery&quot; blog post (Jan 6, 2026) is the one written in the kind of plain language engineering teams use when they've decided to admit a trade-off they haven't fully solved: When the model's context window fills up, Cursor triggers a summarization step to give the agent a fresh context window with a summary of its work so far. But the agent's </summary>
-    <author><name>Arthur</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Is DevOps Worth Learning in 2026? An Honest Answer for Indian Freshers</title>
-    <link href="https://dev.to/nixace_tech_62afe633b44ad203/is-devops-worth-learning-in-2026-an-honest-answer-for-indian-freshers-dcm" rel="alternate"/>
-    <id>https://dev.to/nixace_tech_62afe633b44ad203/is-devops-worth-learning-in-2026-an-honest-answer-for-indian-freshers-dcm</id>
-    <updated>2026-06-15T10:41:09Z</updated>
-    <summary type="text">Key Takeaways Yes, DevOps is worth learning in 2026 but only if you approach it with the right stack, not just theory. Freshers can realistically start at ₹4–8 LPA in India, with ₹12–20 LPA achievable within 2–3 years. 250,000+ active DevOps job openings exist across India right now. AI is changing DevOps, not killing it — creating new specializations like MLOps, AIOps, and platform engineering. T</summary>
-    <author><name>Nixace technologies</name></author>
-  </entry>
-  <entry>
-    <title>AI coding agents find the right file but miss the exact lines that matter, study shows</title>
-    <link href="https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/" rel="alternate"/>
-    <id>https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/</id>
-    <updated>2026-06-14T08:54:47Z</updated>
-    <summary type="text">AI coding agents like Claude Code or Codex reliably find the right file but miss most of the critical lines within it. The new SWE-Explore benchmark is the first to test code search separately from the actual repair, and it shows that without enough context, even the best fix will fail. The article AI coding agents find the right file but miss the exact lines that matter, study shows appeared firs</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi</title>
-    <link href="https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/</id>
-    <updated>2026-06-14T05:01:39Z</updated>
-    <summary type="text">Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code, Codex, and Pi. It adds composition, contextual policies, and live session sharing under one interface, on terminal, web, desktop, and mobile. The Apache 2.0 project is in alpha. The post Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Two Tools, One Goal: Music Generation With Game Dev in Mind</title>
-    <link href="https://dev.to/kaixu/two-tools-one-goal-music-generation-with-game-dev-in-mind-k02" rel="alternate"/>
-    <id>https://dev.to/kaixu/two-tools-one-goal-music-generation-with-game-dev-in-mind-k02</id>
-    <updated>2026-06-15T04:48:44Z</updated>
-    <summary type="text">I'm Kai. Twenty+ years in game dev. Music was always my weakest link — I could listen, but I couldn't make. So over the past few months I built two things. Clef Studio: Write Music Inside Godot + Claude Code A Godot plugin where 7 AI agents collaborate to compose. Composer writes the melody. Harmonist handles chord progressions. Reviewer scores it across six dimensions. You describe the vibe — the</summary>
-    <author><name>Kai Xu</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
