@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-17T21:13:16Z</updated>
+  <updated>2026-06-17T23:43:01Z</updated>
   <entry>
     <title>Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons</title>
     <link href="https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/" rel="alternate"/>
@@ -24,6 +24,14 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Most Engineers Use AI. Few Engineer With It.</title>
+    <link href="https://dev.to/jeelvankhede/most-engineers-use-ai-few-engineer-with-it-3pd" rel="alternate"/>
+    <id>https://dev.to/jeelvankhede/most-engineers-use-ai-few-engineer-with-it-3pd</id>
+    <updated>2026-06-17T23:25:52Z</updated>
+    <summary type="text">Most software engineers I know use AI in some form now. Maybe it is for debugging, boilerplate, tests, docs, SQL queries, shell commands, or quick code reviews. Some use it daily. Some use it quietly. Even the skeptical ones have probably pasted a confusing stack trace into a chat window once. So I do not think the interesting question is: “Do engineers use AI?” The better question is: “Has AI cha</summary>
+    <author><name>Jeel Vankhede</name></author>
   </entry>
   <entry>
     <title>The Best AI Tools for DevOps Engineers in 2026</title>
@@ -461,15 +469,5 @@
     <summary type="text">Recently, I submitted a pull request to a project and had an experience that felt very different from the usual OSS workflow in the past. Instead of the typical back-and-forth with a human maintainer, most of the interaction in my PR came from automated systems: Copilot suggestions, Vercel-related checks, and CI-driven review comments. The maintainer eventually approved the PR with minimal direct </summary>
     <author><name>neither galax</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Email Tools for Claude: Tool Use With an Agent Mailbox</title>
-    <link href="https://dev.to/qasim157/email-tools-for-claude-tool-use-with-an-agent-mailbox-4ckp" rel="alternate"/>
-    <id>https://dev.to/qasim157/email-tools-for-claude-tool-use-with-an-agent-mailbox-4ckp</id>
-    <updated>2026-06-15T20:04:25Z</updated>
-    <summary type="text">Claude can operate a real mailbox with three tool definitions and about forty lines of glue code. tools = [ { &quot;name&quot;: &quot;read_emails&quot;, &quot;description&quot;: &quot;List recent emails from the agent's inbox. Returns JSON.&quot;, &quot;input_schema&quot;: { &quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: { &quot;limit&quot;: {&quot;type&quot;: &quot;integer&quot;, &quot;default&quot;: 10}, &quot;unread_only&quot;: {&quot;type&quot;: &quot;boolean&quot;, &quot;default&quot;: False}, }, }, }, { &quot;name&quot;: &quot;search_emails&quot;, &quot;desc</summary>
-    <author><name>Qasim Muhammad</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
