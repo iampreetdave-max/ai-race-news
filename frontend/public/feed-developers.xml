@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-17T06:19:13Z</updated>
+  <updated>2026-06-17T11:53:39Z</updated>
   <entry>
     <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
     <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
@@ -44,6 +44,23 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>How I built Strimoza – a personal video cloud with Python, Flask and Bunny CDN</title>
+    <link href="https://dev.to/strimoza/how-i-built-strimoza-a-personal-video-cloud-with-python-flask-and-bunny-cdn-17gd" rel="alternate"/>
+    <id>https://dev.to/strimoza/how-i-built-strimoza-a-personal-video-cloud-with-python-flask-and-bunny-cdn-17gd</id>
+    <updated>2026-06-17T11:24:14Z</updated>
+    <summary type="text">I got tired of Google Drive and Dropbox for storing my personal videos, so I built my own: Strimoza. What is it? Strimoza is a personal video cloud with 4 access modes: Cloud – stream from anywhere via Bunny CDN Local – works completely offline Guest – watch without registration PIN – secure access with a PIN code Tech stack Python / Flask PostgreSQL + Redis Celery for background tasks Docker + Ca</summary>
+    <author><name>Strimoza</name></author>
+  </entry>
+  <entry>
+    <title>Microsoft FastContext: a Repo-Explorer Subagent Cuts Coding-Agent Tokens 60%: Explorer-Subagent Context Offloading</title>
+    <link href="https://dev.to/pueding/microsoft-fastcontext-a-repo-explorer-subagent-cuts-coding-agent-tokens-60-explorer-subagent-2lpk" rel="alternate"/>
+    <id>https://dev.to/pueding/microsoft-fastcontext-a-repo-explorer-subagent-cuts-coding-agent-tokens-60-explorer-subagent-2lpk</id>
+    <updated>2026-06-17T11:23:06Z</updated>
+    <summary type="text">What: The FastContext paper (Microsoft) trains a dedicated explorer subagent — a 4B-30B model the main coding agent calls to find code — that issues read-only searches and returns compact file-line citations instead of dumping files into the main context. Why: Reading and searching a repository is the biggest single drain on a coding agent: in GPT-5.4 traces it ate 56.2% of tool-use turns and 46.5</summary>
+    <author><name>pueding</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)</title>
     <link href="https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/</id>
@@ -60,6 +77,15 @@
     <summary type="text">Microsoft is launching new Surface Laptops and a Surface Pro with Qualcomm Snapdragon X2 processors. These are direct follow-ups to the Surface Laptops and Surface Pro from 2024 that launched with Snapdragon X1 chips and jumpstarted Microsoft's Copilot Plus PC initiative with Windows on Arm. The new X2 Surfaces are available today. The Surface Pro […]</summary>
     <author><name>Antonio G. Di Benedetto</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Open-Source AI Needs a Permanent, Verifiable Weight Registry</title>
+    <link href="https://hackernoon.com/why-open-source-ai-needs-a-permanent-verifiable-weight-registry?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/why-open-source-ai-needs-a-permanent-verifiable-weight-registry?source=rss</id>
+    <updated>2026-06-17T06:33:07Z</updated>
+    <summary type="text">OpenWeightHub proposes a permanent, verifiable registry for open AI model weights, datasets, licences, and release metadata.Read All</summary>
+    <author><name>Emeka Emmanuel Oziri</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Why AI Systems Need State Management More Than Bigger Context Windows</title>
@@ -103,15 +129,6 @@
     <updated>2026-06-17T02:18:23Z</updated>
     <summary type="text">Explore the methodology behind TextGrad’s 36% completion rate on LeetCode Hard. Compare test-time instance optimization against Reflexion in this rigorous coding benchmark analysis.Read All</summary>
     <author><name>Writings, Papers and Blogs on Text Models</name></author>
-  </entry>
-  <entry>
-    <title>How I Build Production AI Apps on Cloudflare with Claude Code</title>
-    <link href="https://dev.to/truvisory/how-i-build-production-ai-apps-on-cloudflare-with-claude-code-2hka" rel="alternate"/>
-    <id>https://dev.to/truvisory/how-i-build-production-ai-apps-on-cloudflare-with-claude-code-2hka</id>
-    <updated>2026-06-17T00:03:39Z</updated>
-    <summary type="text">AI makes it trivial to generate a working demo. Making something that survives real traffic is a different skill. Here's how I approach it — the principles from a talk I gave recently, with the full video at the end. Start simple — and earn the complexity Gall's Law: a complex system that works invariably evolved from a simple system that worked. AI tools make it tempting to scaffold a sprawling a</summary>
-    <author><name>Tony Adams, MBA</name></author>
-    <category term="llm"/>
   </entry>
   <entry>
     <title>OpenAI Codex Sites: the launch layer arrives — inside your company workspace</title>
@@ -445,23 +462,5 @@
     <author><name>PuneetPahuja</name></author>
     <category term="agents"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Self-Healing Data Pipelines: Where the Marketing Ends and the Engineering Begins</title>
-    <link href="https://dev.to/justsoftlab_x01/self-healing-data-pipelines-where-the-marketing-ends-and-the-engineering-begins-55fe" rel="alternate"/>
-    <id>https://dev.to/justsoftlab_x01/self-healing-data-pipelines-where-the-marketing-ends-and-the-engineering-begins-55fe</id>
-    <updated>2026-06-14T19:03:51Z</updated>
-    <summary type="text">description: &quot;Most self-healing pipelines automate retries and schema-drift detection, covering maybe 20% of real failures. Real resilience is an architecture: deterministic cores, AI for the messy edges, and human-gated repair.&quot; &quot;Self-healing&quot; is the most oversold phrase in data engineering right now. Most platforms wearing the label do two things: retry failed jobs and detect schema drift on sup</summary>
-    <author><name>JustSoftLab</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>We Built a Self-Hosted AI Platform That Runs 100% on Your Hardware — Introducing local-ai.run</title>
-    <link href="https://dev.to/rizwan_butt_e9c6522604d1c/we-built-a-self-hosted-ai-platform-that-runs-100-on-your-hardware-introducing-local-airun-57he" rel="alternate"/>
-    <id>https://dev.to/rizwan_butt_e9c6522604d1c/we-built-a-self-hosted-ai-platform-that-runs-100-on-your-hardware-introducing-local-airun-57he</id>
-    <updated>2026-06-14T18:48:54Z</updated>
-    <summary type="text">TL;DR: local-ai.run is a free, open-source, self-hosted AI platform. Chat with your files, generate audio, bring your own models — all offline, all on your hardware, zero data leaving your network. One command to install. 🔗 Website: local-ai.run ⭐ GitHub: github.com/360solutions-dev/local-ai The problem that started it all Every time I needed to analyze a document with AI, I had to choose between </summary>
-    <author><name>Rizwan Hameed</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
