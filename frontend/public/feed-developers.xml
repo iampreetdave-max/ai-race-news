@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-16T22:17:39Z</updated>
+  <updated>2026-06-17T00:22:08Z</updated>
   <entry>
     <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
     <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
@@ -77,6 +77,34 @@
     <updated>2026-06-16T11:15:46Z</updated>
     <summary type="text">SearchLeak exploit shows why the industry's approach to LLM security fails over and over.</summary>
     <author><name>Dan Goodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Build Production AI Apps on Cloudflare with Claude Code</title>
+    <link href="https://dev.to/truvisory/how-i-build-production-ai-apps-on-cloudflare-with-claude-code-2hka" rel="alternate"/>
+    <id>https://dev.to/truvisory/how-i-build-production-ai-apps-on-cloudflare-with-claude-code-2hka</id>
+    <updated>2026-06-17T00:03:39Z</updated>
+    <summary type="text">AI makes it trivial to generate a working demo. Making something that survives real traffic is a different skill. Here's how I approach it — the principles from a talk I gave recently, with the full video at the end. Start simple — and earn the complexity Gall's Law: a complex system that works invariably evolved from a simple system that worked. AI tools make it tempting to scaffold a sprawling a</summary>
+    <author><name>Tony Adams, MBA</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI Codex Sites: the launch layer arrives — inside your company workspace</title>
+    <link href="https://dev.to/li_qinyu_81f1e1a923c0a126/openai-codex-sites-the-launch-layer-arrives-inside-your-company-workspace-177p" rel="alternate"/>
+    <id>https://dev.to/li_qinyu_81f1e1a923c0a126/openai-codex-sites-the-launch-layer-arrives-inside-your-company-workspace-177p</id>
+    <updated>2026-06-16T23:50:53Z</updated>
+    <summary type="text">When the company that ships the best coding agents also ships &quot;prompt → hosted web app,&quot; that is not a competitor showing up. That is the strongest validation yet that agents need a launch layer. OpenAI's Codex Sites lets an agent turn a prompt into a running, hosted web app — login-gated, with a real database underneath — without you touching a deploy pipeline. That is the &quot;deploy&quot; half of launch</summary>
+    <author><name>LI QINYU</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cloud Architect's 2026 Guide to Cheaper, Faster LLM Inference</title>
+    <link href="https://dev.to/eagerspark/cloud-architects-2026-guide-to-cheaper-faster-llm-inference-5enh" rel="alternate"/>
+    <id>https://dev.to/eagerspark/cloud-architects-2026-guide-to-cheaper-faster-llm-inference-5enh</id>
+    <updated>2026-06-16T23:24:23Z</updated>
+    <summary type="text">Cloud Architect's 2026 Guide to Cheaper, Faster LLM Inference Three months ago I opened our quarterly cloud spend dashboard and almost choked on my coffee. Our LLM inference line item had ballooned to 14% of the entire infrastructure budget. We were running what I thought was a &quot;moderately busy&quot; multi-region chatbot across US-East, EU-West, and APAC, and the bills told a different story than the d</summary>
+    <author><name>eagerspark</name></author>
+    <category term="hardware"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -440,34 +468,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>My nightly Claude Code cron was about to start costing real money</title>
-    <link href="https://dev.to/mjmirza/my-nightly-claude-code-cron-was-about-to-start-costing-real-money-2ndm" rel="alternate"/>
-    <id>https://dev.to/mjmirza/my-nightly-claude-code-cron-was-about-to-start-costing-real-money-2ndm</id>
-    <updated>2026-06-14T15:01:36Z</updated>
-    <summary type="text">A billing change lands tomorrow, and last week I went looking for what it would break in my own setup. Its headline is narrow. interactive subscription work stays exactly as it was, but anything running headless, in the background, on a schedule, starts drawing from a separate metered pool with its own limit. My subscription was safe. my habits were not. Somewhere along the way I had built the thi</summary>
-    <author><name>Mirza Iqbal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Understanding Docker for Data Engineering</title>
-    <link href="https://dev.to/gathurum/understanding-docker-for-data-engineering-18fg" rel="alternate"/>
-    <id>https://dev.to/gathurum/understanding-docker-for-data-engineering-18fg</id>
-    <updated>2026-06-14T14:52:02Z</updated>
-    <summary type="text">In your data engineering journey, you may have pipelines running locally inside your development environment, and it works beautifully, on your machine. But what happens if you want to hand over a project to a colleague, deploy it to a shared server managed by your team leader, or push it to a cloud provider? Suddenly, a storm of errors appears. Like...: You don't have PostgreSQL 15 installed loca</summary>
-    <author><name>Gathuru_M</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>GPU Time-Slicing for Concurrent LLM Agents on Kubernetes</title>
-    <link href="https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/" rel="alternate"/>
-    <id>https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/</id>
-    <updated>2026-06-14T13:00:00Z</updated>
-    <summary type="text">A systems-level deep dive into the hidden microarchitectural costs of Kubernetes GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads. The post GPU Time-Slicing for Concurrent LLM Agents on Kubernetes appeared first on Towards Data Science.</summary>
-    <author><name>Anubhab Banerjee</name></author>
-    <category term="data"/>
-    <category term="hardware"/>
-    <category term="agents"/>
   </entry>
 </feed>
