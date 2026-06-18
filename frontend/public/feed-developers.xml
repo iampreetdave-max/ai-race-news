@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-18T16:41:08Z</updated>
+  <updated>2026-06-18T19:34:10Z</updated>
+  <entry>
+    <title>Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions</title>
+    <link href="https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/" rel="alternate"/>
+    <id>https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/</id>
+    <updated>2026-06-18T19:02:14Z</updated>
+    <summary type="text">Claude Code can now turn work results into interactive web pages called &quot;artifacts&quot; and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache</title>
     <link href="https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/" rel="alternate"/>
@@ -13,6 +22,25 @@
     <summary type="text">The KV cache now outweighs model weights at long context. Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive. The post The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache appeared first on MarkTechPost.</summary>
     <author><name>Arnav Rai</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>What It Took to Actually Govern Claude Code Across Our Engineering Team</title>
+    <link href="https://dev.to/sahajmeet_kaur_/what-it-took-to-actually-govern-claude-code-across-our-engineering-team-4jp6" rel="alternate"/>
+    <id>https://dev.to/sahajmeet_kaur_/what-it-took-to-actually-govern-claude-code-across-our-engineering-team-4jp6</id>
+    <updated>2026-06-18T19:01:41Z</updated>
+    <summary type="text">TL;DR Claude Code's attack surface is bigger than most teams realize - two CVEs in early 2026 showed that cloning a repo is enough to get your API keys stolen or run arbitrary code on a developer's machine The four gaps we found: unmanaged API keys, no centralized traffic visibility, no filesystem controls, and MCP servers running completely ungoverned Fixing all four required more than just patch</summary>
+    <author><name>Sahajmeet Kaur</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each</title>
+    <link href="https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/" rel="alternate"/>
+    <id>https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/</id>
+    <updated>2026-06-18T18:00:00Z</updated>
+    <summary type="text">Getting reliable, readable responses out of your LLM, and knowing which tool to reach for The post Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each appeared first on Towards Data Science.</summary>
+    <author><name>Maria Mouschoutzi</name></author>
+    <category term="agents"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons</title>
@@ -415,34 +443,5 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OTTO: Give your AI agent a real browser without running a browser farm</title>
-    <link href="https://dev.to/sebivaduva/otto-give-your-ai-agent-a-real-browser-without-running-a-browser-farm-3dk5" rel="alternate"/>
-    <id>https://dev.to/sebivaduva/otto-give-your-ai-agent-a-real-browser-without-running-a-browser-farm-3dk5</id>
-    <updated>2026-06-16T10:02:47Z</updated>
-    <summary type="text">Otto controls real Chrome tabs from your CLI or your LLM over a secure relay — no headless farm, no cloud-browser rental. Here's how it works and why interaction should be code, not tokens: Every time I needed an agent (or a test, or a monitor) to touch a real website, I hit the same wall: the browser. Not the automation logic — the infrastructure under it. You end up choosing between two bad opti</summary>
-    <author><name>Sebastian Vaduva</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>GLM-5.2 is probably the most powerful text-only open weights LLM</title>
-    <link href="https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything</id>
-    <updated>2026-06-17T23:58:39Z</updated>
-    <summary type="text">Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster - with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model - Z.ai have a separate vision family most rece</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Hallucinations in Software Engineering: GitHits Raises $1.75M to Build the &quot;Google for Code&quot;</title>
-    <link href="https://hackernoon.com/ai-hallucinations-in-software-engineering-githits-raises-$175m-to-build-the-google-for-code?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/ai-hallucinations-in-software-engineering-githits-raises-$175m-to-build-the-google-for-code?source=rss</id>
-    <updated>2026-06-16T09:12:30Z</updated>
-    <summary type="text">AI coding agents excel within local repositories but frequently hallucinate when encountering external open-source dependencies. GitHits addresses this bottleneck by building a version-aware index of all public open-source code to provide deterministic context for LLMs. The startup has emerged from stealth with $1.75 million in pre-seed funding from Vendep Capital, Trind, and prominent AI founders</summary>
-    <author><name>Stewart Rogers</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
