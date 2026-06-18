@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-18T12:59:36Z</updated>
+  <updated>2026-06-18T16:41:08Z</updated>
   <entry>
     <title>The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache</title>
     <link href="https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/" rel="alternate"/>
@@ -33,6 +33,25 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Deploying Envoy Gateway on AWS EKS: The Right Way</title>
+    <link href="https://dev.to/ajinkya_a3/deploying-envoy-gateway-on-aws-eks-the-right-way-24dc" rel="alternate"/>
+    <id>https://dev.to/ajinkya_a3/deploying-envoy-gateway-on-aws-eks-the-right-way-24dc</id>
+    <updated>2026-06-18T16:33:49Z</updated>
+    <summary type="text">Some context first: we were running on GKE Autopilot, where the Gateway API just works out of the box. Google manages the CRDs and the underlying load balancer controller for you create a Gateway, and it gets an external IP without you ever thinking about CRD lifecycle. Moving that same ingress layer to EKS meant none of that was ready to use anymore. The first real decision wasn't about Envoy Gat</summary>
+    <author><name>Ajinkya</name></author>
+  </entry>
+  <entry>
+    <title>I Recreated iPhone's Apple Intelligence Edge Glow Effect on Mac</title>
+    <link href="https://dev.to/vector4wang/i-recreated-iphones-apple-intelligence-edge-glow-effect-on-mac-57f5" rel="alternate"/>
+    <id>https://dev.to/vector4wang/i-recreated-iphones-apple-intelligence-edge-glow-effect-on-mac-57f5</id>
+    <updated>2026-06-18T16:29:16Z</updated>
+    <summary type="text">iPhone's Apple Intelligence shows a beautiful iridescent glow around the screen edges when Siri is thinking. I wanted that same effect on my Mac when Claude Code is working. So I built EdgeGlow — a free, open-source macOS menu bar app that recreates iPhone's edge glow effect on Mac. In this post, I'll walk through how I did it and the technical challenges I faced. How It Works AI Agent triggers ho</summary>
+    <author><name>wangxc</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Generative AI vs Agentic AI vs AI Agents [2026 Compared]</title>
@@ -387,16 +406,6 @@
     <category term="agents"/>
   </entry>
   <entry>
-    <title>The Future of Large Language Models</title>
-    <link href="https://dev.to/shashank_ms_6a35baa4be138/the-future-of-large-language-models-1kkg" rel="alternate"/>
-    <id>https://dev.to/shashank_ms_6a35baa4be138/the-future-of-large-language-models-1kkg</id>
-    <updated>2026-06-16T19:31:12Z</updated>
-    <summary type="text">We are building an autonomous research agent that turns a vague question into a structured plan, gathers evidence across multiple calls, and synthesizes a markdown report. This is the practical future of LLMs: not monolithic chat, but small, orchestrated reasoning loops that leverage long context and tool use. Because Oxlo.ai charges a flat rate per request instead of per token (see pricing), runn</summary>
-    <author><name>shashank ms</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
     <title>LLM Trends and Future Outlook</title>
     <link href="https://dev.to/shashank_ms_6a35baa4be138/llm-trends-and-future-outlook-332b" rel="alternate"/>
     <id>https://dev.to/shashank_ms_6a35baa4be138/llm-trends-and-future-outlook-332b</id>
@@ -435,41 +444,5 @@
     <summary type="text">AI coding agents excel within local repositories but frequently hallucinate when encountering external open-source dependencies. GitHits addresses this bottleneck by building a version-aware index of all public open-source code to provide deterministic context for LLMs. The startup has emerged from stealth with $1.75 million in pre-seed funding from Vendep Capital, Trind, and prominent AI founders</summary>
     <author><name>Stewart Rogers</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>SpaceX to acquire vibe coding startup Cursor for $60B</title>
-    <link href="https://siliconangle.com/2026/06/16/spacex-acquire-vibe-coding-startup-cursor-60b/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/16/spacex-acquire-vibe-coding-startup-cursor-60b/</id>
-    <updated>2026-06-16T20:25:29Z</updated>
-    <summary type="text">Newly public SpaceX Corp. today announced plans to acquire Cursor, the developer of a popular vibe coding platform, for $60 billion in stock. The companies expect to close the transaction by the end of the quarter. The move is not unexpected. In April, SpaceX partnered with Cursor to develop artificial intelligence models optimized for coding […] The post SpaceX to acquire vibe coding startup Curs</summary>
-    <author><name>Maria Deutscher</name></author>
-  </entry>
-  <entry>
-    <title>Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch</title>
-    <link href="https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/</id>
-    <updated>2026-06-15T06:10:23Z</updated>
-    <summary type="text">Z.ai launched GLM-5.2 on June 13, 2026, across every GLM Coding Plan tier. The headline is a usable 1-million-token context window plus High and Max effort levels. It drops into Claude Code, Cline, and OpenClaw through an Anthropic-compatible endpoint. No benchmarks shipped at launch, and MIT open weights are promised next week. The post Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Th</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Skills File Pattern</title>
-    <link href="https://dev.to/kavyarani7/the-skills-file-pattern-2oam" rel="alternate"/>
-    <id>https://dev.to/kavyarani7/the-skills-file-pattern-2oam</id>
-    <updated>2026-06-16T04:33:48Z</updated>
-    <summary type="text">SectorFlow Engineering Series · Part 2 of 3 · Read Part 1 first: Token Efficiency in Claude Code How we stopped appending to CLAUDE.md and started importing only what we need. June 2026 · SectorFlow Engineering In this series Part 1: Token Efficiency in Claude Code (start here). Part 3: Picking Models and Tools — the MCPs we tried, refused, and why. The append loop If you use Claude Code for a whi</summary>
-    <author><name>kavyarani7</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Token Efficiency in Claude Code</title>
-    <link href="https://dev.to/kavyarani7/token-efficiency-in-claude-code-2kpi" rel="alternate"/>
-    <id>https://dev.to/kavyarani7/token-efficiency-in-claude-code-2kpi</id>
-    <updated>2026-06-16T04:31:45Z</updated>
-    <summary type="text">SectorFlow Engineering Series · Part 1 of 3 · Parent article Notes on where our context budget was actually going, and what we did about it. June 2026 · SectorFlow Engineering In this series Part 2: The Skills File Pattern — fixing CLAUDE.md bloat with imports. Part 3: Picking Models and Tools — the MCPs we tried, refused, and why. The problem nobody warns you about Claude Code can do a lot. The c</summary>
-    <author><name>kavyarani7</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
