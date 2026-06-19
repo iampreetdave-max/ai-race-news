@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-19T07:13:28Z</updated>
+  <updated>2026-06-19T12:12:07Z</updated>
   <entry>
     <title>Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions</title>
     <link href="https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/" rel="alternate"/>
@@ -12,6 +12,23 @@
     <updated>2026-06-18T19:02:14Z</updated>
     <summary type="text">Claude Code can now turn work results into interactive web pages called &quot;artifacts&quot; and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your LLM reads the whole file. It doesn't have to.</title>
+    <link href="https://dev.to/kiou_ouba_afbd120335456f3/your-llm-reads-the-whole-file-it-doesnt-have-to-hem" rel="alternate"/>
+    <id>https://dev.to/kiou_ouba_afbd120335456f3/your-llm-reads-the-whole-file-it-doesnt-have-to-hem</id>
+    <updated>2026-06-19T12:05:00Z</updated>
+    <summary type="text">Coding agents read specs, design docs, and long READMEs every day. Most of the time, they only need a few sections. Yet they load the entire file into context. The hidden cost of &quot;just read the file&quot; Here's a scenario that plays out constantly. You ask your agent to check the error handling section of a 5,000-line API spec. The agent opens the file, reads all 5,000 lines into its context window, f</summary>
+    <author><name>oubakiou</name></author>
+  </entry>
+  <entry>
+    <title>Unit Test AI Guide — Zero Hallucination, Cross-Stack Standard</title>
+    <link href="https://dev.to/bhaumik-viitor/unit-test-ai-guide-zero-hallucination-cross-stack-standard-p18" rel="alternate"/>
+    <id>https://dev.to/bhaumik-viitor/unit-test-ai-guide-zero-hallucination-cross-stack-standard-p18</id>
+    <updated>2026-06-19T11:46:34Z</updated>
+    <summary type="text">Focus: Unit Tests ONLY — no integration, no E2E Stacks: Node.js (NestJS/Express) · React.js · Python · Angular · Laravel Goal: AI generates unit tests consistently, deterministically, without hallucination IDE: Cursor (Primary) + Claude (Secondary) Part 1 — Best Single Library Per Stack (Final Decision) Do not mix libraries. Pick one per stack, configure it fully, never deviate. | Stack | Library </summary>
+    <author><name>Bhaumik</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -432,23 +449,5 @@
     <summary type="text">When the company that ships the best coding agents also ships &quot;prompt → hosted web app,&quot; that is not a competitor showing up. That is the strongest validation yet that agents need a launch layer. OpenAI's Codex Sites lets an agent turn a prompt into a running, hosted web app — login-gated, with a real database underneath — without you touching a deploy pipeline. That is the &quot;deploy&quot; half of launch</summary>
     <author><name>LI QINYU</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cloud Architect's 2026 Guide to Cheaper, Faster LLM Inference</title>
-    <link href="https://dev.to/eagerspark/cloud-architects-2026-guide-to-cheaper-faster-llm-inference-5enh" rel="alternate"/>
-    <id>https://dev.to/eagerspark/cloud-architects-2026-guide-to-cheaper-faster-llm-inference-5enh</id>
-    <updated>2026-06-16T23:24:23Z</updated>
-    <summary type="text">Cloud Architect's 2026 Guide to Cheaper, Faster LLM Inference Three months ago I opened our quarterly cloud spend dashboard and almost choked on my coffee. Our LLM inference line item had ballooned to 14% of the entire infrastructure budget. We were running what I thought was a &quot;moderately busy&quot; multi-region chatbot across US-East, EU-West, and APAC, and the bills told a different story than the d</summary>
-    <author><name>eagerspark</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Comment orchestrer un double déploiement automatique sur Vercel &amp; GitHub Pages avec GitHub Actions</title>
-    <link href="https://dev.to/beautero_kenne_2b7e9bfb01/comment-orchestrer-un-double-deploiement-automatique-sur-vercel-github-pages-avec-github-actions-1pni" rel="alternate"/>
-    <id>https://dev.to/beautero_kenne_2b7e9bfb01/comment-orchestrer-un-double-deploiement-automatique-sur-vercel-github-pages-avec-github-actions-1pni</id>
-    <updated>2026-06-16T21:58:28Z</updated>
-    <summary type="text">Introduction Dans le cadre de mon apprentissage des pratiques DevOps modernes, j’ai conçu et implémenté un pipeline CI/CD (Continuous Integration / Continuous Deployment) capable de déployer automatiquement une application web frontend sur deux environnements de production distincts : Vercel et GitHub Pages. Cette mission constitue une application concrète des concepts fondamentaux du DevOps, nota</summary>
-    <author><name>Beautero Kenne</name></author>
   </entry>
 </feed>
