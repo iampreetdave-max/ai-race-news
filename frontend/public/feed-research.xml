@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-18T22:17:04Z</updated>
+  <updated>2026-06-19T01:47:14Z</updated>
+  <entry>
+    <title>Through the PRISM: Preference Representation in Intermediate States of Video Diffusion Models</title>
+    <link href="https://arxiv.org/abs/2606.20310v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.20310v1</id>
+    <updated>2026-06-18T14:44:02Z</updated>
+    <summary type="text">Evaluating video generation with clean, pixel-based reward models disconnects evaluation from the noisy diffusion process and incurs massive VAE decoding costs. In this paper, we challenge this paradigm by asking a fundamental question: Can a powerful video generator inherently discriminate preferences directly from noisy latents? To answer this, we introduce \textbf{PRISM} (\textbf{P}reference \t</summary>
+    <author><name>Wei Liu</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Efficiently Linking Real Scenes with Synthetic Data Generation for AI-based Cognitive Robotics and Computer Vision Applications</title>
+    <link href="https://arxiv.org/abs/2606.20272v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.20272v1</id>
+    <updated>2026-06-18T14:17:38Z</updated>
+    <summary type="text">AI vision models are a driving factor for the potential use case scenarios of cognitive robotics within in the industry and household applications. A large array of methods from semantic environment analysis towards 6D and grasping pose estimation have been proposed based on the latest AI achievements. However, such advancements require further strong and efficient methods w.r.t. training data and</summary>
+    <author><name>Jörg Krüger</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>NAMESAKES: Probing Identity Memorization in Text-to-Image Models</title>
+    <link href="https://arxiv.org/abs/2606.20155v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.20155v1</id>
+    <updated>2026-06-18T12:20:26Z</updated>
+    <summary type="text">Text-to-image (T2I) models generate realistic likenesses of some individuals when prompted with their names, raising privacy concerns. However, distinguishing whether a generated face is memorized or fabricated currently requires ground-truth photos, access to training data, or white-box access to model internals, limiting applicability. We introduce a fully black-box behavioral probe that disting</summary>
+    <author><name>Hadar Averbuch-Elor</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields</title>
+    <link href="https://arxiv.org/abs/2606.20131v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.20131v1</id>
+    <updated>2026-06-18T11:55:00Z</updated>
+    <summary type="text">We present TriFlow, a new generative approach for producing compact 3D meshes with artist-like triangle topology directly from input geometry conditions such as signed distance fields. Our key insight is to represent mesh topology as a nearest-vertex vector field (NVF) defined over the surface, where each point encodes its association to the nearest triangle vertex in the local barycentric frame. </summary>
+    <author><name>Matthias Nießner</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Optimizing Reasoning Benchmarks: GPQA and MMLU via TextGrad</title>
     <link href="https://hackernoon.com/optimizing-reasoning-benchmarks-gpqa-and-mmlu-via-textgrad?source=rss" rel="alternate"/>
@@ -64,22 +103,20 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Multi-Class Alzheimer's Disease Classification from MRI: A ResNet-SE Approach</title>
+    <link href="https://www.reddit.com/r/deeplearning/comments/1u9fmc6/multiclass_alzheimers_disease_classification_from/" rel="alternate"/>
+    <id>https://www.reddit.com/r/deeplearning/comments/1u9fmc6/multiclass_alzheimers_disease_classification_from/</id>
+    <updated>2026-06-18T19:18:20Z</updated>
+    <summary type="text">Multi-Class Alzheimer's Disease Classification from MRI Using ResNet-SE, Focal Loss, and Grad-CAM Hi everyone, I would like to share a deep learning project that focuses on the classification of Alzheimer's Disease (AD) progression from T1-weighted MRI scans. The goal of the project is to explore whether modern convolutional neural network architectures, attention mechanisms, and imbalance-aware t</summary>
+    <author><name>/u/GuidanceSuitable4988</name></author>
+  </entry>
+  <entry>
     <title>Adaptive Volumetric Mechanical Property Fields Invariant to Resolution</title>
     <link href="https://arxiv.org/abs/2606.18231v1" rel="alternate"/>
     <id>https://arxiv.org/abs/2606.18231v1</id>
     <updated>2026-06-16T17:56:03Z</updated>
     <summary type="text">Accurate mechanical properties (or materials) Young's modulus ($E$), Poisson's ratio ($ν$) and density ($ρ$) are essential for reliable physics simulation of digital worlds, but most 3D assets lack this information. We propose AdaVoMP, a method for predicting accurate dense spatially-varying ($E$, $ν$, $ρ$) for input 3D objects across representations, improving the resolution, accuracy, and memory</summary>
     <author><name>Maria Shugrina</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Predicting Immune Biomarkers with MultiModal Mixture-of-Expert Pathology Foundation Models Empowers Precision Oncology</title>
-    <link href="https://arxiv.org/abs/2606.18123v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.18123v1</id>
-    <updated>2026-06-16T16:22:42Z</updated>
-    <summary type="text">Predicting immune biomarkers associated with the tumor immune microenvironment (TIME) is critical for advancing precision oncology, yet existing approaches are largely limited to single image modalities and suffer from insufficient resolution and incomplete utilization of complementary clinical and biological information. Here we introduce MixTIME, a multimodal foundation model that leverages a mi</summary>
-    <author><name>Wengong Jin</name></author>
     <category term="llm"/>
     <category term="research"/>
   </entry>
