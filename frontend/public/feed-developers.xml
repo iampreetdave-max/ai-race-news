@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-19T12:12:07Z</updated>
+  <updated>2026-06-19T16:09:53Z</updated>
   <entry>
     <title>Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions</title>
     <link href="https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/" rel="alternate"/>
@@ -13,6 +13,42 @@
     <summary type="text">Claude Code can now turn work results into interactive web pages called &quot;artifacts&quot; and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Multi-Runtime Agent Problem: Why Your Team Needs More Than One Runtime</title>
+    <link href="https://dev.to/paultwist/the-multi-runtime-agent-problem-why-your-team-needs-more-than-one-runtime-9d" rel="alternate"/>
+    <id>https://dev.to/paultwist/the-multi-runtime-agent-problem-why-your-team-needs-more-than-one-runtime-9d</id>
+    <updated>2026-06-19T16:01:32Z</updated>
+    <summary type="text">You're a platform lead at a 150-person company. Your ML team is building a data agent on Anthropic's Claude Managed Agents. Your DevOps team wrote their own scheduling runtime. Your security team wants a custom sandboxed environment. Your frontend team adopted Cursor's agent API for internal coding tasks. Now your CEO asks: &quot;Can we surface all of these agents to the company in one place?&quot; Welcome </summary>
+    <author><name>Paul Twist</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A year of AI-agent incidents. The model is rarely the bug.</title>
+    <link href="https://dev.to/arthurpro/a-year-of-ai-agent-incidents-the-model-is-rarely-the-bug-4kd1" rel="alternate"/>
+    <id>https://dev.to/arthurpro/a-year-of-ai-agent-incidents-the-model-is-rarely-the-bug-4kd1</id>
+    <updated>2026-06-19T16:00:00Z</updated>
+    <summary type="text">I want to walk through the public AI-agent incidents from the last sixteen months in chronological order. The headline framing on each of them, when they hit the press, was the AI did X. Read with a few months of distance, the structural cause in each case turns out to be something much more pedestrian: a permission scope nobody narrowed, a retry loop nobody bounded, a credential nobody rotated, a</summary>
+    <author><name>Arthur</name></author>
+  </entry>
+  <entry>
+    <title>Introducing Cronos: A New Framework for Human-Validated Vibe Coding</title>
+    <link href="https://dev.to/ovidiu/introducing-cronos-a-new-framework-for-human-validated-vibe-coding-16dp" rel="alternate"/>
+    <id>https://dev.to/ovidiu/introducing-cronos-a-new-framework-for-human-validated-vibe-coding-16dp</id>
+    <updated>2026-06-19T15:34:07Z</updated>
+    <summary type="text">Hey dev.to community! 👋 Over the last few months, juggling my roles as a Project Manager, Scrum Master, and lead for QA, Support, and Documentation has been a wild ride. The sheer speed of &quot;vibe coding&quot;—a paradigm shift where the primary role of the developer transitions from manual code construction to high-level intent orchestration—is incredible. Tools like Cursor, Replit Agent, and Google Anti</summary>
+    <author><name>ovidiu MMG</name></author>
+    <category term="agents"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>I Tried to Schedule My ETL Pipeline. Here’s What I Didn’t Expect.</title>
+    <link href="https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/" rel="alternate"/>
+    <id>https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/</id>
+    <updated>2026-06-19T15:00:00Z</updated>
+    <summary type="text">What I thought was a scheduling problem turned out to be a portability problem first The post I Tried to Schedule My ETL Pipeline. Here’s What I Didn’t Expect. appeared first on Towards Data Science.</summary>
+    <author><name>Ibrahim Salami</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Your LLM reads the whole file. It doesn't have to.</title>
@@ -406,48 +442,5 @@
     <summary type="text">Why AI Systems Need State Management More Than Bigger Context Windows Every time a new model launches with a larger context window, the same conversation appears. Now we can fit more information into a single request. More documents. More conversation history. More workflow data. More memory. The assumption is simple: Larger context windows will solve most AI system limitations. After operating AI</summary>
     <author><name>Karan Padhiyar</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Building and Deploying Spring Petclinic Microservices on AWS: My Experience as Co-Project Lead and App &amp; Docker Lead</title>
-    <link href="https://dev.to/ebelechukwu_lucyokafor/building-and-deploying-spring-petclinic-microservices-on-aws-my-experience-as-co-project-lead-and-402f" rel="alternate"/>
-    <id>https://dev.to/ebelechukwu_lucyokafor/building-and-deploying-spring-petclinic-microservices-on-aws-my-experience-as-co-project-lead-and-402f</id>
-    <updated>2026-06-17T05:35:48Z</updated>
-    <summary type="text">Introduction As part of the DMI (DevOps Micro Internship) Cohort 2, our team successfully deployed the Spring Petclinic Microservices application on AWS using modern DevOps practices and cloud technologies. Spring Petclinic is a microservices-based application that consists of multiple independent services working together through service discovery, centralised configuration, API gateways, monitor</summary>
-    <author><name>Ebelechukwu Lucy Okafor</name></author>
-  </entry>
-  <entry>
-    <title>SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO</title>
-    <link href="https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/</id>
-    <updated>2026-06-16T11:21:41Z</updated>
-    <summary type="text">The deal is supposed to help SpaceX's struggling AI division. The company told IPO investors it sees a $26 trillion addressable market in AI.</summary>
-    <author><name>Sean O'Kane</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Critical Copilot vulnerability allowed hackers to seal 2FA code from users</title>
-    <link href="https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/" rel="alternate"/>
-    <id>https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/</id>
-    <updated>2026-06-16T11:15:46Z</updated>
-    <summary type="text">SearchLeak exploit shows why the industry's approach to LLM security fails over and over.</summary>
-    <author><name>Dan Goodin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Benchmarking TextGrad: Automated Code Optimization on LeetCode Hard</title>
-    <link href="https://hackernoon.com/benchmarking-textgrad-automated-code-optimization-on-leetcode-hard?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/benchmarking-textgrad-automated-code-optimization-on-leetcode-hard?source=rss</id>
-    <updated>2026-06-17T02:18:23Z</updated>
-    <summary type="text">Explore the methodology behind TextGrad’s 36% completion rate on LeetCode Hard. Compare test-time instance optimization against Reflexion in this rigorous coding benchmark analysis.Read All</summary>
-    <author><name>Writings, Papers and Blogs on Text Models</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI Codex Sites: the launch layer arrives — inside your company workspace</title>
-    <link href="https://dev.to/li_qinyu_81f1e1a923c0a126/openai-codex-sites-the-launch-layer-arrives-inside-your-company-workspace-177p" rel="alternate"/>
-    <id>https://dev.to/li_qinyu_81f1e1a923c0a126/openai-codex-sites-the-launch-layer-arrives-inside-your-company-workspace-177p</id>
-    <updated>2026-06-16T23:50:53Z</updated>
-    <summary type="text">When the company that ships the best coding agents also ships &quot;prompt → hosted web app,&quot; that is not a competitor showing up. That is the strongest validation yet that agents need a launch layer. OpenAI's Codex Sites lets an agent turn a prompt into a running, hosted web app — login-gated, with a real database underneath — without you touching a deploy pipeline. That is the &quot;deploy&quot; half of launch</summary>
-    <author><name>LI QINYU</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
