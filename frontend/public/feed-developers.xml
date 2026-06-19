@@ -4,7 +4,32 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-19T18:59:45Z</updated>
+  <updated>2026-06-19T20:43:12Z</updated>
+  <entry>
+    <title>Astrophysics &amp; AI with Python: Mastering Solar Flare Analysis with SunPy</title>
+    <link href="https://dev.to/programmingcentral/astrophysics-ai-with-python-mastering-solar-flare-analysis-with-sunpy-n8j" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/astrophysics-ai-with-python-mastering-solar-flare-analysis-with-sunpy-n8j</id>
+    <updated>2026-06-19T20:00:00Z</updated>
+    <summary type="text">The Sun is not a static, gentle star. It is a churning, magnetic powerhouse that bathes our solar system in radiation and particles, capable of launching billion-ton coronal mass ejections and intense solar flares. For data scientists and astrophysicists, this dynamic activity generates a data deluge so massive—petabytes annually—that generic tools simply crumble under the pressure. Welcome to the</summary>
+    <author><name>Programming Central</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How to E2E Test Amazon SES Email Workflows in Playwright</title>
+    <link href="https://dev.to/zerodrop/how-to-e2e-test-amazon-ses-email-workflows-in-playwright-326" rel="alternate"/>
+    <id>https://dev.to/zerodrop/how-to-e2e-test-amazon-ses-email-workflows-in-playwright-326</id>
+    <updated>2026-06-19T19:53:38Z</updated>
+    <summary type="text">Amazon SES is the go-to transactional email service for teams already in the AWS ecosystem. But testing SES emails end-to-end in CI is notoriously painful — IAM permissions, sandbox restrictions, and no easy way to catch sent emails programmatically. This guide shows the complete setup for testing Amazon SES email flows in Playwright using ZeroDrop — no Docker, no shared inboxes, no mocking. The a</summary>
+    <author><name>zerodrop</name></author>
+  </entry>
+  <entry>
+    <title>We Were About to Launch. First, We Decided to Hack Ourselves.</title>
+    <link href="https://dev.to/runecipher137/we-were-about-to-launch-first-we-decided-to-hack-ourselves-16kn" rel="alternate"/>
+    <id>https://dev.to/runecipher137/we-were-about-to-launch-first-we-decided-to-hack-ourselves-16kn</id>
+    <updated>2026-06-19T19:44:24Z</updated>
+    <summary type="text">It was an ordinary Tuesday. The API was running, tests were passing, Docker came up on the first try. We were already imagining our first clients — B2B integrations, Telegram bots, deals. Then someone on the team said: &quot;What if we try to break everything first?&quot; Good idea. It almost always turns out things break faster than you expect. What We Were Building An analytical API for assessing Solana t</summary>
+    <author><name>VeritasLab</name></author>
+  </entry>
   <entry>
     <title>Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions</title>
     <link href="https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/" rel="alternate"/>
@@ -405,15 +430,5 @@
     <summary type="text">The concept of vibe coding is interesting; you don’t need to be a developer or software engineer to build your own applications. You can describe your idea to an AI in plain language, and it will build, edit, and refine your applications so you don’t have to write code line by line. It sounds simple […] The post Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your A</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vLLM/SGLang [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/</id>
-    <updated>2026-06-18T21:36:14Z</updated>
-    <summary type="text">I maintain cuTile Rust and just posted the paper &quot;Fearless Concurrency on the GPU.&quot; As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you write or generate GPU kernels whose memory safety and data-race freedom are verified by the compiler, through Rust's ownership and borrow checking. You get those guarantees by construction. It's a tile-base</summary>
-    <author><name>/u/Exciting_Suspect9088</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
   </entry>
 </feed>
