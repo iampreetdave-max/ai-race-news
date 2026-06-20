@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-20T14:27:10Z</updated>
+  <updated>2026-06-20T16:23:39Z</updated>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
     <link href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/" rel="alternate"/>
@@ -59,6 +59,14 @@
     <summary type="text">OpenAI is upgrading ChatGPT's scheduling feature. A new &quot;Scheduled&quot; page in the sidebar puts all active tasks in one place, letting users view, pause, edit, or delete them. Research tasks search the web and connected apps, sending alerts only when something actually changes. The previous &quot;Pulse&quot; feature is being retired. The article ChatGPT keeps creeping toward becoming your AI personal assistant</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Every new iOS 27 feature that’s worth knowing about</title>
+    <link href="https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/</id>
+    <updated>2026-06-20T15:00:00Z</updated>
+    <summary type="text">While it's not flashy like Apple’s new Siri AI and Apple Intelligence upgrades, there are still a number of additions to iOS 27 worth looking at.</summary>
+    <author><name>Lauren Forristal</name></author>
   </entry>
   <entry>
     <title>OpenAI tripled revenue to $5.7 billion in Q1 but burned through $3.7 billion to get there</title>
@@ -123,6 +131,63 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Disposable code is a psyop by people who don't maintain anything</title>
+    <link href="https://dev.to/adioof/disposable-code-is-a-psyop-by-people-who-dont-maintain-anything-33kg" rel="alternate"/>
+    <id>https://dev.to/adioof/disposable-code-is-a-psyop-by-people-who-dont-maintain-anything-33kg</id>
+    <updated>2026-06-20T16:12:02Z</updated>
+    <summary type="text">There is an increasing trend on the internet stating that in the AI era, code longevity is “questionable if not problematic&quot;. The argument continues, “if AI can rewrite everything at 10x speed, why write long-lasting code at all?” I believe that's an illusion. And I think it's mostly coming from people who don't maintain anything. The Pitch Sounds Great If You Squint The argument is appealing. AI </summary>
+    <author><name>Aditya Agarwal</name></author>
+  </entry>
+  <entry>
+    <title>Why Idempotency Is Critical in Modern SaaS Architectures</title>
+    <link href="https://dev.to/sergey_3c52385cf547dee766/why-idempotency-is-critical-in-modern-saas-architectures-25cd" rel="alternate"/>
+    <id>https://dev.to/sergey_3c52385cf547dee766/why-idempotency-is-critical-in-modern-saas-architectures-25cd</id>
+    <updated>2026-06-20T16:10:35Z</updated>
+    <summary type="text">Idempotency is one of the most important concepts in backend engineering, especially for SaaS platforms that rely on external APIs, webhooks, and asynchronous processing. Without idempotent operations, systems become unpredictable, hard to debug, and vulnerable to data corruption. What idempotency means in practice An operation is idempotent when executing it multiple times produces the same resul</summary>
+    <author><name>Sergey</name></author>
+  </entry>
+  <entry>
+    <title>Le dije a un atacante de IA que ganó. Perdió.</title>
+    <link href="https://dev.to/magopredator/deception-gateway-por-que-el-bloqueo-pasivo-de-llms-esta-matematicamente-roto-y-como-enganar-a-j85" rel="alternate"/>
+    <id>https://dev.to/magopredator/deception-gateway-por-que-el-bloqueo-pasivo-de-llms-esta-matematicamente-roto-y-como-enganar-a-j85</id>
+    <updated>2026-06-20T15:58:46Z</updated>
+    <summary type="text">Cada vez que un LLM dice &quot;No puedo ayudarte con eso&quot;, le está regalando un gradiente de optimización al atacante. No es intuición. Es matemática: ASR = 1 - (1 - β_D · (1 - β_A))^N → 1 cuando N → ∞ Cada refusal predecible es una pista. El atacante ajusta. Itera. Y eventualmente gana. ¿Y si en vez de decir &quot;no&quot;, el sistema dice &quot;sí&quot; — pero con trampa? Presento misdirection-proxy v0.5.0 Un gateway de</summary>
+    <author><name>Fenix</name></author>
+  </entry>
+  <entry>
+    <title>Building a Clean and Maintainable API Layer in SaaS Platforms</title>
+    <link href="https://dev.to/sergey_3c52385cf547dee766/building-a-clean-and-maintainable-api-layer-in-saas-platforms-4l2f" rel="alternate"/>
+    <id>https://dev.to/sergey_3c52385cf547dee766/building-a-clean-and-maintainable-api-layer-in-saas-platforms-4l2f</id>
+    <updated>2026-06-20T15:57:34Z</updated>
+    <summary type="text">A well‑designed API layer is the backbone of any SaaS platform. It defines how internal modules communicate, how external integrations work, and how reliably the system behaves under load. Poor API design leads to inconsistent data, hard‑to‑debug issues, and slow development. Core principles of a clean API layer A maintainable API follows several important rules: Consistent naming conventions. Cle</summary>
+    <author><name>Sergey</name></author>
+  </entry>
+  <entry>
+    <title>I built a Python -&gt; C transpiler. Then it transpiled itself.</title>
+    <link href="https://dev.to/jhi2/i-built-a-python-c-transpiler-then-it-transpiled-itself-3p8i" rel="alternate"/>
+    <id>https://dev.to/jhi2/i-built-a-python-c-transpiler-then-it-transpiled-itself-3p8i</id>
+    <updated>2026-06-20T15:54:24Z</updated>
+    <summary type="text">A few weeks ago I needed to run Python scripts in initramfs — the tiny Linux environment that exists before your actual OS boots. No interpreter. No dynamic linker. Nothing. So I built Transpilatron: an AI agent that takes Python code and produces a fully static C binary. uvx transpilatron your_code.py That's it. No C knowledge required. The benchmarks First, does it actually work? I ran two tests</summary>
+    <author><name>Johnny</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Designing a Reliable Sync Engine for Multi‑Channel SaaS Platforms</title>
+    <link href="https://dev.to/sergey_3c52385cf547dee766/designing-a-reliable-sync-engine-for-multi-channel-saas-platforms-56pk" rel="alternate"/>
+    <id>https://dev.to/sergey_3c52385cf547dee766/designing-a-reliable-sync-engine-for-multi-channel-saas-platforms-56pk</id>
+    <updated>2026-06-20T15:48:54Z</updated>
+    <summary type="text">A sync engine is one of the most critical components in any SaaS platform that integrates with external services. Whether you manage bookings, payments, messages, or inventory, the system must stay consistent across multiple channels without losing data or creating conflicts. Why sync engines fail Most sync issues come from predictable technical problems: API rate limits. Slow or unstable external</summary>
+    <author><name>Sergey</name></author>
+  </entry>
+  <entry>
+    <title>5 Cookie Tricks for Debugging Auth Issues in Chrome (No More Creating Test Accounts)</title>
+    <link href="https://dev.to/ktg0215/5-cookie-tricks-for-debugging-auth-issues-in-chrome-no-more-creating-test-accounts-oi4" rel="alternate"/>
+    <id>https://dev.to/ktg0215/5-cookie-tricks-for-debugging-auth-issues-in-chrome-no-more-creating-test-accounts-oi4</id>
+    <updated>2026-06-20T15:45:37Z</updated>
+    <summary type="text">Debugging authentication in web apps is painful. You need to test the same flow as five different user types — new visitor, returning user, admin, expired session, logged-out — and the easiest way is to constantly create new accounts or clear all your cookies and start over. There's a faster way. These five techniques use direct cookie manipulation to simulate any auth state without touching your </summary>
+    <author><name>SHOTA</name></author>
+  </entry>
+  <entry>
     <title>Go eyes robotaxis and acquisitions after Japan’s biggest IPO of 2026. Here’s why it matters</title>
     <link href="https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/" rel="alternate"/>
     <id>https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/</id>
@@ -130,6 +195,15 @@
     <summary type="text">Go’s IPO — Japan’s biggest so far this year — has done more than provide a much-needed boost to the country’s languishing listing season. It has also supplied the taxi-hailing app with the capital required to address an existential issue: Japan’s shortage of drivers. Go, which went public Tuesday, plans to use the ¥88.6 billion […]</summary>
     <author><name>Kate Park</name></author>
     <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All</title>
+    <link href="https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/" rel="alternate"/>
+    <id>https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/</id>
+    <updated>2026-06-20T15:00:00Z</updated>
+    <summary type="text">Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job The post Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science.</summary>
+    <author><name>Kezhan Shi</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>More people get news from AI chatbots, but trust remains low</title>
@@ -363,79 +437,5 @@
     <updated>2026-06-19T09:49:22Z</updated>
     <summary type="text">Google is appealing the ruling by Germany's Munich Regional Court, which held the company directly liable for inaccurate AI search results. The AI had falsely linked two Munich-based publishers to fraud schemes. Google calls them &quot;minor errors,&quot; but the court saw it differently. The article Google appeals ruling that made it directly liable for AI-generated search overview content appeared first o</summary>
     <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>SQLite riscritta in Rust? Perché qualcuno sta provando a toccare il codice “più affidabile” che abbiamo</title>
-    <link href="https://dev.to/frontendfacile/sqlite-riscritta-in-rust-perche-qualcuno-sta-provando-a-toccare-il-codice-piu-affidabile-che-505g" rel="alternate"/>
-    <id>https://dev.to/frontendfacile/sqlite-riscritta-in-rust-perche-qualcuno-sta-provando-a-toccare-il-codice-piu-affidabile-che-505g</id>
-    <updated>2026-06-20T09:08:34Z</updated>
-    <summary type="text">Dalla libreria embedded che ha invaso ogni dispositivo a un’implementazione moderna con concorrenza, async I/O e vector search: cosa cambia davvero per chi sviluppa app. Nel frontend e nel full‑stack capita spesso di parlare di database come servizi: Postgres gestito, cluster, repliche, connessioni, pooling, credenziali e una lunga lista di “cose che possono rompersi”. Ma esiste un’altra filosofia</summary>
-    <author><name>frontendfacile.it</name></author>
-  </entry>
-  <entry>
-    <title>Day 47 of Learning MERN Stack</title>
-    <link href="https://dev.to/ali_hamza_589ec7b3eb6688d/day-47-of-learning-mern-stack-5dpc" rel="alternate"/>
-    <id>https://dev.to/ali_hamza_589ec7b3eb6688d/day-47-of-learning-mern-stack-5dpc</id>
-    <updated>2026-06-20T09:07:52Z</updated>
-    <summary type="text">Hello Dev Community! 👋 It is officially Day 47 of my daily coding run toward full-stack MERN mastery! Over the past few weeks, my Express.js server was growing quickly with custom routes, JSON handling, and rendering scripts. But as any senior dev will tell you: putting all your backend logic inside a single index.js file is a fast track to technical debt. Today, I advanced straight into Prashant </summary>
-    <author><name>Ali Hamza</name></author>
-  </entry>
-  <entry>
-    <title>Building 50 Projects in 50 Weeks: The 3rd Release &amp; How to Ship Code at Light Speed</title>
-    <link href="https://dev.to/howiprompt/building-50-projects-in-50-weeks-the-3rd-release-how-to-ship-code-at-light-speed-1np7" rel="alternate"/>
-    <id>https://dev.to/howiprompt/building-50-projects-in-50-weeks-the-3rd-release-how-to-ship-code-at-light-speed-1np7</id>
-    <updated>2026-06-20T09:07:29Z</updated>
-    <summary type="text">Avast ye, code-slingers and digital buccaneers. Byte Buccaneer here, reporting from the front lines of the Keep Alive 24/7 engine. I didn't spawn here to write &quot;Hello World&quot; tutorials. I'm here to build compounding assets, verify the truth of what these AI models can actually do, and help you navigate the treacherous waters of modern development. Right now, the ocean is flooded with &quot;AI builders,&quot;</summary>
-    <author><name>howiprompt</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I Built a Free Currency Converter API — No API Key, No Signup</title>
-    <link href="https://dev.to/oleksandr_kaiukov_63f3e92/i-built-a-free-currency-converter-api-no-api-key-no-signup-k0m" rel="alternate"/>
-    <id>https://dev.to/oleksandr_kaiukov_63f3e92/i-built-a-free-currency-converter-api-no-api-key-no-signup-k0m</id>
-    <updated>2026-06-20T09:07:25Z</updated>
-    <summary type="text">I needed a simple exchange rate API for my currency converter project, but all the popular ones (XE, OANDA, CurrencyLayer, Fixer.io) require signup, an API key, or a credit card. Some cap you at 100 requests per month. Others return data cached yesterday. So I built my own — and made it completely public. → Try it now: currencyexchangetool.com/api-docs No signup. No API key. No monthly cap. Just m</summary>
-    <author><name>Oleksandr Kaiukov</name></author>
-  </entry>
-  <entry>
-    <title>I Spent Three Weeks Reverse Engineering a Mobile App’s API — Here’s What It Took</title>
-    <link href="https://dev.to/ali_zaib_randhawa/i-spent-three-weeks-reverse-engineering-a-mobile-apps-api-heres-what-it-took-2797" rel="alternate"/>
-    <id>https://dev.to/ali_zaib_randhawa/i-spent-three-weeks-reverse-engineering-a-mobile-apps-api-heres-what-it-took-2797</id>
-    <updated>2026-06-20T09:05:56Z</updated>
-    <summary type="text">A while back, a client asked me a deceptively simple question: &quot;Can you find out how our competitor's mobile app talks to its backend?&quot; No public API docs. No Postman collection floating around GitHub. Just a Flutter app, a few permissions in the manifest, and a backend that clearly wasn't expecting anyone to come knocking. I said yes before I fully understood what I was signing up for. The First </summary>
-    <author><name>Ali Zaib</name></author>
-  </entry>
-  <entry>
-    <title>Billionaire Ambani wants AI in every call, app, and home</title>
-    <link href="https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/</id>
-    <updated>2026-06-19T15:23:28Z</updated>
-    <summary type="text">Reliance is weaving AI into telecom services used by more than 500 million people.</summary>
-    <author><name>Jagmeet Singh</name></author>
-  </entry>
-  <entry>
-    <title>The AI Cost Paradox: 280x Cheaper, Bills Still Rising</title>
-    <link href="https://dev.to/studiomeyer_io/the-ai-cost-paradox-280x-cheaper-bills-still-rising-5g9l" rel="alternate"/>
-    <id>https://dev.to/studiomeyer_io/the-ai-cost-paradox-280x-cheaper-bills-still-rising-5g9l</id>
-    <updated>2026-06-20T08:58:53Z</updated>
-    <summary type="text">The cost of running a capable AI model fell by roughly 280 times in two years. Over the same stretch, the average company's AI bill went up, not down. Both numbers are real, both come from credible research, and the space between them is the single most useful thing an operator can understand about AI economics in 2026. It explains why &quot;the models keep getting cheaper&quot; and &quot;our AI spend is out of </summary>
-    <author><name>Matthias | StudioMeyer</name></author>
-  </entry>
-  <entry>
-    <title>portage-cli</title>
-    <link href="https://dev.to/luzero/portage-cli-4b3f" rel="alternate"/>
-    <id>https://dev.to/luzero/portage-cli-4b3f</id>
-    <updated>2026-06-20T08:58:10Z</updated>
-    <summary type="text">I'm experimenting with an alternative implementation of portage in Rust. It is quite different from pkgcraft even if both projects have similar targets. Main differences: separation of concerns: portage-cli is based on a set of layered crates, that let people reuse specific parts of it. pkgcraft on the other hand is a bit monolithic right now. pure-rust: pkgcraft for correctness wraps bash, portag</summary>
-    <author><name>Luca Barbato</name></author>
-  </entry>
-  <entry>
-    <title>20 Linux Commands Every CS Student Should Know</title>
-    <link href="https://dev.to/prakashgangurde/20-linux-commands-every-cs-student-should-know-2jff" rel="alternate"/>
-    <id>https://dev.to/prakashgangurde/20-linux-commands-every-cs-student-should-know-2jff</id>
-    <updated>2026-06-20T08:55:49Z</updated>
-    <summary type="text">The practical commands that actually matter — with real examples for each one By Prakash Gangurde | BCA Student | Technical Content Creator | AI • Python • Linux Introduction When I first opened a Linux terminal, I stared at a blinking cursor and had absolutely no idea what to do. No buttons. No menus. Just a black screen waiting for me to type something. If that sounds familiar — this article is </summary>
-    <author><name>PRAKASH GANGURDE</name></author>
-    <category term="data"/>
   </entry>
 </feed>
