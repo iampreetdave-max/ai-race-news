@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-20T20:19:25Z</updated>
+  <updated>2026-06-20T22:14:18Z</updated>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
     <link href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/" rel="alternate"/>
@@ -13,6 +13,34 @@
     <summary type="text">OpenAI has released the &quot;Record &amp; Replay&quot; feature for its Codex app on macOS: users demonstrate a workflow once, Codex converts it into a reusable &quot;skill,&quot; and then repeats it on its own. The feature isn't available yet in the EU, the UK, or Switzerland. The article OpenAI's Codex can now watch you work once and repeat the task forever appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Making Your AI Coding Agent Grep Your Whole Repo — Try codebase-memory-mcp</title>
+    <link href="https://dev.to/arshtechpro/stop-making-your-ai-coding-agent-grep-your-whole-repo-try-codebase-memory-mcp-4g8l" rel="alternate"/>
+    <id>https://dev.to/arshtechpro/stop-making-your-ai-coding-agent-grep-your-whole-repo-try-codebase-memory-mcp-4g8l</id>
+    <updated>2026-06-20T22:01:23Z</updated>
+    <summary type="text">If you use an AI coding agent — Claude Code, Codex CLI, Gemini CLI, Cursor, Zed, Aider, whatever — you've probably watched it burn through tens of thousands of tokens just trying to figure out who calls a function or where a route is defined. It greps, it reads files, it greps again, it reads more files. Eventually it answers your question, but it took a small forest of tokens and several tool cal</summary>
+    <author><name>ArshTechPro</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>EGC: Your AI agents never start from zero again</title>
+    <link href="https://dev.to/fmarzochi/egc-your-ai-agents-never-start-from-zero-again-1o09" rel="alternate"/>
+    <id>https://dev.to/fmarzochi/egc-your-ai-agents-never-start-from-zero-again-1o09</id>
+    <updated>2026-06-20T21:55:37Z</updated>
+    <summary type="text">Every time you open a new session with an AI coding tool, it starts from zero. It does not know what you decided yesterday, what failed last week, or what comes next. You have to explain the project again. And again. EGC (Extended Global Context) fixes this. EGC is a local runtime that gives every AI coding tool you use a persistent memory. At the end of each session, the AI saves what it learned:</summary>
+    <author><name>Felipe Marzochi</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>100 Days of DevOps, Day 1: Linux User Management and AWS Key Pairs</title>
+    <link href="https://dev.to/ndcodes/100-days-of-devops-day-1-linux-user-management-and-aws-key-pairs-3bci" rel="alternate"/>
+    <id>https://dev.to/ndcodes/100-days-of-devops-day-1-linux-user-management-and-aws-key-pairs-3bci</id>
+    <updated>2026-06-20T21:46:34Z</updated>
+    <summary type="text">Doing the work and being able to explain the work are two different skills. I've had the first one for 8 years. I'm building the second one now. I'm a Cloud Platform Engineer. AWS, Kubernetes, Terraform, Linux. Regulated environments, healthcare, production systems. Real experience. Almost zero public documentation of it. That's the gap I'm closing, starting from Day 1. The platform is KodeKloud. </summary>
+    <author><name>Nnamdi Felix Ibe</name></author>
   </entry>
   <entry>
     <title>Data Contracts in Production: Stop Trusting Your Upstream Sources</title>
@@ -248,6 +276,16 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Board where every tile is an agent</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/</id>
+    <updated>2026-06-20T18:13:16Z</updated>
+    <summary type="text">I've been hacking a project which I find extremely useful and wanted to share. Imagine a board where every tile is an agent those job is to maintain the tile. I tried to illustrate the idea with a video here. The project is open source on GitHub and you can also try it out here. (p.s. it requires coding agent to be installed like Claude Code or Codex). Any feedback is much appreciated! submitted b</summary>
+    <author><name>/u/1amrocket</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Large Context Windows Are Not a Solved Problem</title>
     <link href="https://dev.to/lavkeshdwivedi/large-context-windows-are-not-a-solved-problem-2o04" rel="alternate"/>
     <id>https://dev.to/lavkeshdwivedi/large-context-windows-are-not-a-solved-problem-2o04</id>
@@ -323,6 +361,15 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/</id>
+    <updated>2026-06-20T03:36:50Z</updated>
+    <summary type="text">I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract. Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -&gt; SearXNG SearXNG is a self-hostable metasearch</summary>
+    <author><name>/u/luke_pacman</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>Generative AI vs Agentic AI vs AI Agents [2026 Compared]</title>
     <link href="https://dev.to/kunal_d6a8fea2309e1571ee7/generative-ai-vs-agentic-ai-vs-ai-agents-2026-compared-4o77" rel="alternate"/>
     <id>https://dev.to/kunal_d6a8fea2309e1571ee7/generative-ai-vs-agentic-ai-vs-ai-agents-2026-compared-4o77</id>
@@ -330,6 +377,15 @@
     <summary type="text">Originally published at kunalganglani.com — read it there for inline code, hero image, and live links. Generative AI vs agentic AI vs AI agents. Three terms, used interchangeably by people who should know better, burning engineering budgets across the industry in 2026. Generative AI refers to models that produce new content — text, images, code — from a prompt. AI agents are software systems that </summary>
     <author><name>Kunal</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/</id>
+    <updated>2026-06-20T02:56:51Z</updated>
+    <summary type="text">Hey r/LocalLLaMA! Following up on Supra-Title-350M-exp (our first chat title generation model), we're releasing supra-title-FFT-preview, trained on a much larger and cleaner dataset. 🤗 supra-title-FFT-preview What changed Our first chat title model was trained on 12K samples (chat-titles-12K) and it showed: decent on common conversation patterns, weak on niche topics. This release is trained on 11</summary>
+    <author><name>/u/Dangerous_Try3619</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How I Have Build Memory That Actually Works for AI Coding</title>
@@ -391,53 +447,5 @@
     <updated>2026-06-17T23:25:52Z</updated>
     <summary type="text">Most software engineers I know use AI in some form now. Maybe it is for debugging, boilerplate, tests, docs, SQL queries, shell commands, or quick code reviews. Some use it daily. Some use it quietly. Even the skeptical ones have probably pasted a confusing stack trace into a chat window once. So I do not think the interesting question is: “Do engineers use AI?” The better question is: “Has AI cha</summary>
     <author><name>Jeel Vankhede</name></author>
-  </entry>
-  <entry>
-    <title>The Best AI Tools for DevOps Engineers in 2026</title>
-    <link href="https://dev.to/devopsaitoolkit/the-best-ai-tools-for-devops-engineers-in-2026-15a9" rel="alternate"/>
-    <id>https://dev.to/devopsaitoolkit/the-best-ai-tools-for-devops-engineers-in-2026-15a9</id>
-    <updated>2026-06-17T20:59:44Z</updated>
-    <summary type="text">If you spend your day in a terminal, a YAML editor, or a Grafana tab — AI assistants in 2026 are no longer a curiosity. They're a real productivity layer. But not every tool is good at infrastructure work. After a year of daily use across Linux administration, OpenStack operations, Prometheus alert authoring, and Kubernetes debugging, here's the honest shortlist. The criteria We're not ranking on </summary>
-    <author><name>James Joyner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>&quot;Have you tried Claude Code?&quot; — How managing AI with text files led me to build a whole system</title>
-    <link href="https://dev.to/shinjpn1/have-you-tried-claude-code-how-managing-ai-with-text-files-led-me-to-build-a-whole-system-2i8p" rel="alternate"/>
-    <id>https://dev.to/shinjpn1/have-you-tried-claude-code-how-managing-ai-with-text-files-led-me-to-build-a-whole-system-2i8p</id>
-    <updated>2026-06-17T20:54:44Z</updated>
-    <summary type="text">February 2026. One sentence from a coworker woke up a development life that had been asleep for three years. I was clueless about dev communities when a coworker casually dropped this on me: &quot;Have you tried Claude Code?&quot; The AI I'd only ever used in a browser was apparently coming inside my own machine. I tried it half-skeptical, and the result floored me. A development life I'd shelved for three </summary>
-    <author><name>Horrible</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How a 3-Line Loop Can Cost a Developer $1,000+ (And the Architectural Pattern to Fix It)</title>
-    <link href="https://dev.to/billionaire664/how-a-3-line-loop-can-cost-a-developer-1000-and-the-architectural-pattern-to-fix-it-58f3" rel="alternate"/>
-    <id>https://dev.to/billionaire664/how-a-3-line-loop-can-cost-a-developer-1000-and-the-architectural-pattern-to-fix-it-58f3</id>
-    <updated>2026-06-17T20:53:12Z</updated>
-    <summary type="text">AI agents are fundamentally different from traditional software. In a standard application, code executes deterministically. If there is an error, it throws an exception and halts. Autonomous agent frameworks like CrewAI and LangChain operate on a non-deterministic loop. The agent evaluates a goal, picks a tool, looks at the output, and decides what to do next. This introduces a massive engineerin</summary>
-    <author><name>Adebowale Jolaosho</name></author>
-    <category term="rag"/>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek</title>
-    <link href="https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/" rel="alternate"/>
-    <id>https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/</id>
-    <updated>2026-06-16T19:32:38Z</updated>
-    <summary type="text">Microsoft is weighing a fine-tuned version of Deepseek V4 as a cheaper model option for Copilot Cowork. The company is also switching to usage-based billing, since Copilot head Charles Lamanna says flat-rate pricing isn't sustainable. The move fits a broader pattern in the industry. The article Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek appeared first on The Decod</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SpaceX Aims at Agentic Coding With $60B Cursor Acquisition</title>
-    <link href="https://aibusiness.com/generative-ai/spacex-aims-agentic-coding-60b-cursor-acquisition" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/spacex-aims-agentic-coding-60b-cursor-acquisition</id>
-    <updated>2026-06-16T18:49:27Z</updated>
-    <summary type="text">The acquisition could help SpaceX expand its developer offerings and will give it access to Cursor’s developer workflow and user analytics.</summary>
-    <author><name>Esther Shittu</name></author>
-    <category term="data"/>
-    <category term="agents"/>
   </entry>
 </feed>
