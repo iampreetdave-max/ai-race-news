@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-20T18:17:02Z</updated>
+  <updated>2026-06-20T20:19:25Z</updated>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
     <link href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/" rel="alternate"/>
@@ -12,6 +12,24 @@
     <updated>2026-06-20T13:15:08Z</updated>
     <summary type="text">OpenAI has released the &quot;Record &amp; Replay&quot; feature for its Codex app on macOS: users demonstrate a workflow once, Codex converts it into a reusable &quot;skill,&quot; and then repeats it on its own. The feature isn't available yet in the EU, the UK, or Switzerland. The article OpenAI's Codex can now watch you work once and repeat the task forever appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Data Contracts in Production: Stop Trusting Your Upstream Sources</title>
+    <link href="https://dev.to/gabrielhca/data-contracts-in-production-stop-trusting-your-upstream-sources-3gjl" rel="alternate"/>
+    <id>https://dev.to/gabrielhca/data-contracts-in-production-stop-trusting-your-upstream-sources-3gjl</id>
+    <updated>2026-06-20T19:42:39Z</updated>
+    <summary type="text">Your upstream data source changed a column type last night. Your pipeline ran at 2am, ingested everything without a single error, and by the time your stakeholders opened their dashboards at 9am, the revenue numbers were wrong. No alert fired. No test failed. The pipeline was technically healthy. This is the most common and expensive failure mode in data engineering, and it happens because we buil</summary>
+    <author><name>Gabriel Henrique</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Claude Code Built My SaaS But Couldn't Verify Signup Emails</title>
+    <link href="https://dev.to/zerodrop/claude-code-built-my-saas-but-couldnt-verify-signup-emails-3b0a" rel="alternate"/>
+    <id>https://dev.to/zerodrop/claude-code-built-my-saas-but-couldnt-verify-signup-emails-3b0a</id>
+    <updated>2026-06-20T19:40:01Z</updated>
+    <summary type="text">I've been building with Claude Code for the past few months. It's genuinely changed how I work — I can ship features in hours that used to take days. But I hit a wall I didn't expect. Claude Code built me a complete authentication system. NextAuth, email verification, password reset, the works. Every line of code was correct. The tests passed. The PR looked great. Then I tried to run the E2E tests</summary>
+    <author><name>zerodrop</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -420,34 +438,6 @@
     <summary type="text">The acquisition could help SpaceX expand its developer offerings and will give it access to Cursor’s developer workflow and user analytics.</summary>
     <author><name>Esther Shittu</name></author>
     <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I let AI agents pay for APIs per call (the HTTP 402 path)</title>
-    <link href="https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp" rel="alternate"/>
-    <id>https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp</id>
-    <updated>2026-06-17T18:07:56Z</updated>
-    <summary type="text">If you've built an MCP server or any API that costs you money to run (an LLM call, a paid data source, compute), you've probably hit the same wall I did: How do you get paid per call — when the caller is an AI agent, not a human with a credit card form? A human can sign up, enter a card, get an API key. An autonomous agent can't fill out a Stripe checkout form mid-task. And you don't want to hand </summary>
-    <author><name>LemonCake</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>MCP na prática: Tools, Resources e quando usar cada um</title>
-    <link href="https://dev.to/higorae/mcp-na-pratica-tools-resources-e-quando-usar-cada-um-13aa" rel="alternate"/>
-    <id>https://dev.to/higorae/mcp-na-pratica-tools-resources-e-quando-usar-cada-um-13aa</id>
-    <updated>2026-06-17T18:03:32Z</updated>
-    <summary type="text">Aprendizados de construir um servidor MCP de catálogo de cursos — da POC à produção. O que é o Model Context Protocol (MCP)? O Model Context Protocol (MCP) é um padrão aberto que permite que aplicações de IA (como o Cursor, Claude Desktop ou outros hosts) se conectem a fontes de dados e ferramentas externas de forma padronizada. Pense no MCP como uma tomada universal: em vez de cada editor inventa</summary>
-    <author><name>Higor Morais</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cursor debuts Origin, an AI-native GitHub alternative for smooth AI agent collaboration</title>
-    <link href="https://dev.to/davekurian/cursor-debuts-origin-an-ai-native-github-alternative-for-smooth-ai-agent-collaboration-55ei" rel="alternate"/>
-    <id>https://dev.to/davekurian/cursor-debuts-origin-an-ai-native-github-alternative-for-smooth-ai-agent-collaboration-55ei</id>
-    <updated>2026-06-17T18:03:17Z</updated>
-    <summary type="text">The pace of software development is changing. Instead of waiting days for code review, AI agents ship pull requests around the clock. But as the number of AI-generated changes explodes, legacy developer platforms hit a bottleneck. Cursor’s new Origin platform – a GitHub alternative for AI agents – puts collaboration, review, and management of AI-generated code at the center, not the periphery. The</summary>
-    <author><name>Dave Kurian</name></author>
     <category term="agents"/>
   </entry>
 </feed>
