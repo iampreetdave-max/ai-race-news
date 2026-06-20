@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-20T00:14:00Z</updated>
+  <updated>2026-06-20T05:19:56Z</updated>
+  <entry>
+    <title>NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning</title>
+    <link href="https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/</id>
+    <updated>2026-06-19T22:51:59Z</updated>
+    <summary type="text">SpatialClaw is a training-free agent that writes Python in a persistent kernel, composing perception tools for 3D spatial reasoning The post NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline</title>
+    <link href="https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/</id>
+    <updated>2026-06-19T22:06:31Z</updated>
+    <summary type="text">VibeThinker-3B, a 3B MIT-licensed reasoning model matching DeepSeek V3.2 and Kimi K2.5 on verifiable benchmarks. The post VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Norway bans generative AI tools in elementary schools to protect kids' basic learning skills</title>
     <link href="https://the-decoder.com/norway-bans-generative-ai-tools-in-elementary-schools-to-protect-kids-basic-learning-skills/" rel="alternate"/>
@@ -223,6 +241,73 @@
     <category term="regulation"/>
   </entry>
   <entry>
+    <title>I built a Text to Handwriting tool to automate manual notes</title>
+    <link href="https://dev.to/texttohandwriting_hub_da1/i-built-a-text-to-handwriting-tool-to-automate-manual-notes-3494" rel="alternate"/>
+    <id>https://dev.to/texttohandwriting_hub_da1/i-built-a-text-to-handwriting-tool-to-automate-manual-notes-3494</id>
+    <updated>2026-06-20T05:05:41Z</updated>
+    <summary type="text">Hi everyone! I recently decided to work on a personal project that solves a problem many of us face: the need for &quot;handwritten&quot; notes that are actually generated from digital text. I’ve just launched Text to Handwriting Hub, a tool that converts any typed text into realistic, human-like handwriting in just a few seconds. Why I built this? Whether it’s for school assignments, creative projects, or </summary>
+    <author><name>Jame Smith</name></author>
+  </entry>
+  <entry>
+    <title>The Rust Performance Trap I Hit While Sorting Small Network Datasets</title>
+    <link href="https://dev.to/amirsefati/the-rust-performance-trap-i-hit-while-sorting-small-network-datasets-2gj5" rel="alternate"/>
+    <id>https://dev.to/amirsefati/the-rust-performance-trap-i-hit-while-sorting-small-network-datasets-2gj5</id>
+    <updated>2026-06-20T04:58:26Z</updated>
+    <summary type="text">The Rust Performance Trap I Hit While Sorting Small Network Datasets I recently ran into one of those performance problems that looks completely obvious in hindsight, but was surprisingly hard to notice while I was inside the code. I was working on a deep search and ranking part of a Rust project that processed network-related data. The system had to evaluate many small groups of candidates repeat</summary>
+    <author><name>amir</name></author>
+  </entry>
+  <entry>
+    <title>GB10 實測 DiffusionGemma 26B 挑戰 32K 極限</title>
+    <link href="https://dev.to/jh5_pulse/gb10-shi-ce-diffusiongemma-26b-tiao-zhan-32k-ji-xian-43gj" rel="alternate"/>
+    <id>https://dev.to/jh5_pulse/gb10-shi-ce-diffusiongemma-26b-tiao-zhan-32k-ji-xian-43gj</id>
+    <updated>2026-06-20T04:54:12Z</updated>
+    <summary type="text">作為三平台評測的最終章（前兩篇為 M2 Max 96GB MLX 與 GH200 vLLM），本篇將完整測試一下 GB10 的吞吐量表現、32K 長 Context 的速度代價、以及在 Podman 部署時讓人抓狂的 OOM 踩坑紀錄。 在數據的結果來看，155 tok/s，比 M2 Max 快了整整 10 倍！ 更重要的是，Context 長度一路從 2K 解鎖到 32K都成功Pass，直接與老大哥 GH200 站在同一條起跑線上，直到 32,600 tokens 才開始撞牆。 整體來說， NVIDIA GB10（Grace Blackwell 128GB）在執行 DiffusionGemma 26B 時，交出了一份令人驚艷的成績單，雖然 Context 拉長後，速度衰減得比 GH200 明顯，但實際串接在CLI 的使用體感與超高性價比，絕對是本地推理 Server 的首選。 測試環境：</summary>
+    <author><name>JH5</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I Built 18 Free Developer Tools - Here's What I Learned</title>
+    <link href="https://dev.to/darshik_italiya_35cda323e/i-built-18-free-developer-tools-heres-what-i-learned-3pem" rel="alternate"/>
+    <id>https://dev.to/darshik_italiya_35cda323e/i-built-18-free-developer-tools-heres-what-i-learned-3pem</id>
+    <updated>2026-06-20T04:51:20Z</updated>
+    <summary type="text">I Built 18 Free Developer Tools - Here's What I Learned Why I Built This As a developer, I was constantly switching between different online tools - some required signup, others were bloated with ads, and many lacked basic features. So I decided to build my own collection. Introducing DevTools Hub DevTools Hub is a free collection of 18+ online developer utilities, designed with privacy and simpli</summary>
+    <author><name>Darshik Italiya</name></author>
+  </entry>
+  <entry>
+    <title>Quick-Start-Guide</title>
+    <link href="https://dev.to/tengxgfyrz67s/quick-start-guide-4oh8" rel="alternate"/>
+    <id>https://dev.to/tengxgfyrz67s/quick-start-guide-4oh8</id>
+    <updated>2026-06-20T04:48:29Z</updated>
+    <summary type="text">Quick Start Guide Project Code：https://github.com/hyperlane-dev/hyperlane Welcome to hyperlane — a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. This guide will walk you through everything you need to know to get your first hyperlane server up and running in minutes. What is Hyperlane? Hyperlane is a Rust HTTP server framework designed for speed, sim</summary>
+    <author><name>tengxgfyrz67s</name></author>
+  </entry>
+  <entry>
+    <title>How to Let an AI Agent Generate Real PDFs (with an MCP server)</title>
+    <link href="https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3" rel="alternate"/>
+    <id>https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3</id>
+    <updated>2026-06-20T04:37:27Z</updated>
+    <summary type="text">AI agents are great at producing text. But the moment you need an actual document — an invoice, a report, a certificate — they fall apart. You get markdown you have to format yourself, or (with Code Interpreter) a rough PDF from a Python lib with generic fonts and tables that never quite look right. There's no clean way to hand an agent the job of &quot;produce a polished PDF.&quot; So I gave my agents one </summary>
+    <author><name>Gerardo Barrera</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Generate a PDF from JSON in Node.js (without a headless browser)</title>
+    <link href="https://dev.to/gerardo_barrera_538fc60b7/how-to-generate-a-pdf-from-json-in-nodejs-without-a-headless-browser-3i9h" rel="alternate"/>
+    <id>https://dev.to/gerardo_barrera_538fc60b7/how-to-generate-a-pdf-from-json-in-nodejs-without-a-headless-browser-3i9h</id>
+    <updated>2026-06-20T04:29:56Z</updated>
+    <summary type="text">If you've ever had to generate PDFs from a Node app — invoices, receipts, reports, certificates — you've probably reached for Puppeteer or some headless-Chrome setup. It works… until you have to run it in production. Now you're shipping a 300MB Chromium binary, babysitting a browser process, fighting memory leaks, and your &quot;render a PDF&quot; endpoint times out under load. There's a simpler way: descri</summary>
+    <author><name>Gerardo Barrera</name></author>
+  </entry>
+  <entry>
+    <title>Prompts for AI Commits in HagiCode: Design Rationale and Implementation Breakdown</title>
+    <link href="https://dev.to/newbe36524/prompts-for-ai-commits-in-hagicode-design-rationale-and-implementation-breakdown-1dha" rel="alternate"/>
+    <id>https://dev.to/newbe36524/prompts-for-ai-commits-in-hagicode-design-rationale-and-implementation-breakdown-1dha</id>
+    <updated>2026-06-20T04:29:48Z</updated>
+    <summary type="text">Prompts for AI Commits in HagiCode: Design Rationale and Implementation Breakdown When you dump a bunch of messy changes to AI and ask it to help you commit, what exactly is the prompt being sent to the model behind the scenes? Why is the prompt written that way? This article breaks down the actual prompt that drives &quot;AI commits&quot; in HagiCode for you to see. Background Using AI to assist with devel</summary>
+    <author><name>Hagicode</name></author>
+  </entry>
+  <entry>
     <title>A startup claims it broke through a bottleneck that’s holding back LLMs</title>
     <link href="https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/" rel="alternate"/>
     <id>https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/</id>
@@ -352,95 +437,5 @@
     <summary type="text">Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as co-founder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati. Shortly after Zoph returned […]</summary>
     <author><name>Hayden Field</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>New usage analytics and updated spend controls for enterprises</title>
-    <link href="https://openai.com/index/chatgpt-enterprise-spend-controls" rel="alternate"/>
-    <id>https://openai.com/index/chatgpt-enterprise-spend-controls</id>
-    <updated>2026-06-18T17:00:00Z</updated>
-    <summary type="text">OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>We're One Script Away From 30% Cheaper Groceries, Stop Asking AI, Start Asking Why</title>
-    <link href="https://dev.to/djowda/were-one-script-away-from-30-cheaper-groceries-stop-asking-ai-start-asking-why-3g12" rel="alternate"/>
-    <id>https://dev.to/djowda/were-one-script-away-from-30-cheaper-groceries-stop-asking-ai-start-asking-why-3g12</id>
-    <updated>2026-06-19T21:59:36Z</updated>
-    <summary type="text">You don't need a smarter model to make food cheaper. You need to delete a middleman. That's the whole argument. Everything below is just the receipts. The tax nobody votes on Open any grocery or delivery app. The first three results aren't the closest store, or the cheapest one. They're the ones who paid to be there. That's not an accusation, it's the business model. Delivery platforms commonly ta</summary>
-    <author><name>Djowda</name></author>
-  </entry>
-  <entry>
-    <title>Stop Wasting Tokens: I Built a File-Mapping Standard for AI-Assisted Development</title>
-    <link href="https://dev.to/matteoturri/stop-wasting-tokens-i-built-a-file-mapping-standard-for-ai-assisted-development-o25" rel="alternate"/>
-    <id>https://dev.to/matteoturri/stop-wasting-tokens-i-built-a-file-mapping-standard-for-ai-assisted-development-o25</id>
-    <updated>2026-06-19T21:49:29Z</updated>
-    <summary type="text">Every time I started a new AI chat session, it read my entire codebase. 50 files. Thousands of tokens. On every single message. Whether I was asking about authentication, database schema, or a single UI component — the AI read everything. I'm 16 and building AI-powered products. Token costs add up fast. Context windows fill up. The AI loses track of older files. Responses slow down. So I built som</summary>
-    <author><name>Matteo Turri</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>AI Agent Orchestration: Proxmox Automation, OpenAI Data Agents &amp; Azure Serverless Runtime</title>
-    <link href="https://dev.to/soytuber/ai-agent-orchestration-proxmox-automation-openai-data-agents-azure-serverless-runtime-fd5" rel="alternate"/>
-    <id>https://dev.to/soytuber/ai-agent-orchestration-proxmox-automation-openai-data-agents-azure-serverless-runtime-fd5</id>
-    <updated>2026-06-19T21:35:50Z</updated>
-    <summary type="text">AI Agent Orchestration: Proxmox Automation, OpenAI Data Agents &amp; Azure Serverless Runtime Today's Highlights Today's highlights focus on practical AI agent applications and robust deployment strategies. We delve into building a secure AI admin for Proxmox, explore OpenAI's internal data analyst agent, and examine Azure Functions' new serverless runtime for agents. I didn't trust an AI with my Prox</summary>
-    <author><name>soy</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Humanizing Artificial Intelligence in DevOps Documentation: Making Runbooks Easier to Create and Use</title>
-    <link href="https://dev.to/jjoyneriv/humanizing-artificial-intelligence-in-devops-documentation-making-runbooks-easier-to-create-and-use-4fl7" rel="alternate"/>
-    <id>https://dev.to/jjoyneriv/humanizing-artificial-intelligence-in-devops-documentation-making-runbooks-easier-to-create-and-use-4fl7</id>
-    <updated>2026-06-19T21:23:54Z</updated>
-    <summary type="text">The Runbook That Lied to Me at 3am The pager went off at 3:14am for a wedged OpenStack Neutron agent. I did what any tired engineer does: I opened the runbook. It told me to restart a service that had been renamed eighteen months earlier, pointed at a Grafana dashboard that 404'd, and assumed a network topology we'd migrated off of two quarters back. The runbook wasn't just unhelpful. It was activ</summary>
-    <author><name>James Joyner</name></author>
-  </entry>
-  <entry>
-    <title>Migrating Ekehi from Vanilla JS to a TypeScript Stack</title>
-    <link href="https://dev.to/aj1732/migrating-ekehi-from-vanilla-js-to-a-typescript-stack-16nm" rel="alternate"/>
-    <id>https://dev.to/aj1732/migrating-ekehi-from-vanilla-js-to-a-typescript-stack-16nm</id>
-    <updated>2026-06-19T21:20:09Z</updated>
-    <summary type="text">Ekehi platform has moved from hand-written HTML/CSS/JS pages to a typed, component-driven React 19 client and a module-based TypeScript Express/Node.js API. 0. Where we started and where we landed Before. A static client built from per-page folders (landing/, contributors/, login/, signup/, admin/), each shipping its own index.html, a shared styles.css, and vanilla ES module scripts under client/s</summary>
-    <author><name>AJ</name></author>
-  </entry>
-  <entry>
-    <title>Early Users of Anthropic Mythos Still Have Access After US Order</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-06-19/early-users-of-anthropic-mythos-still-have-access-after-us-order" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-06-19/early-users-of-anthropic-mythos-still-have-access-after-us-order</id>
-    <updated>2026-06-19T03:36:08Z</updated>
-    <summary type="text">Some firms chosen early on by Anthropic PBC to test the Mythos AI model ahead of a wider release have preserved their access to a preview of the system, despite a US government order that led to the total shutdown of other versions.</summary>
-    <author><name>Jordan Robertson, Gian Volpicelli, Patrick Howell O'Neill</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building SyncCanvas: An AI-Powered Real-Time Collaborative Whiteboard</title>
-    <link href="https://dev.to/rishibyte/building-synccanvas-an-ai-powered-real-time-collaborative-whiteboard-4f24" rel="alternate"/>
-    <id>https://dev.to/rishibyte/building-synccanvas-an-ai-powered-real-time-collaborative-whiteboard-4f24</id>
-    <updated>2026-06-19T21:10:21Z</updated>
-    <summary type="text">Modern collaboration needs more than documents and chat messages. Teams need a shared visual space where ideas can be created, organized, and refined together in real time. That's why I built SyncCanvas — an AI-powered collaborative whiteboard that combines real-time multiplayer collaboration, infinite canvas drawing, and AI-assisted brainstorming into one modern workspace. The Problem Most collab</summary>
-    <author><name>Rishi Bhardwaj</name></author>
-  </entry>
-  <entry>
-    <title>Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight</title>
-    <link href="https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/</id>
-    <updated>2026-06-18T20:26:20Z</updated>
-    <summary type="text">Perplexity has launched Brain, a self-improving memory system for its Computer agent. Instead of remembering the user, Brain remembers the agent's work — what worked, what failed, and what corrections got made. It builds a traceable context graph, reviews it overnight, and reports early gains in correctness, recall, and cost. The post Perplexity Launches Brain, a Self-Improving Memory System That </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Astrophysics &amp; AI with Python: Mastering Solar Flare Analysis with SunPy</title>
-    <link href="https://dev.to/programmingcentral/astrophysics-ai-with-python-mastering-solar-flare-analysis-with-sunpy-n8j" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/astrophysics-ai-with-python-mastering-solar-flare-analysis-with-sunpy-n8j</id>
-    <updated>2026-06-19T20:00:00Z</updated>
-    <summary type="text">The Sun is not a static, gentle star. It is a churning, magnetic powerhouse that bathes our solar system in radiation and particles, capable of launching billion-ton coronal mass ejections and intense solar flares. For data scientists and astrophysicists, this dynamic activity generates a data deluge so massive—petabytes annually—that generic tools simply crumble under the pressure. Welcome to the</summary>
-    <author><name>Programming Central</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
