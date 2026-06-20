@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-20T16:23:39Z</updated>
+  <updated>2026-06-20T18:17:02Z</updated>
+  <entry>
+    <title>The EU doesn't really know what a deepfake is, and that's becoming a problem for retail</title>
+    <link href="https://the-decoder.com/the-eu-doesnt-really-know-what-a-deepfake-is-and-thats-becoming-a-problem-for-retail/" rel="alternate"/>
+    <id>https://the-decoder.com/the-eu-doesnt-really-know-what-a-deepfake-is-and-thats-becoming-a-problem-for-retail/</id>
+    <updated>2026-06-20T17:17:38Z</updated>
+    <summary type="text">Eurocommerce, the trade association behind Amazon, H&amp;M, and IKEA, wants AI-generated ads exempt from the EU AI Act's transparency rules. The argument: an AI-generated living room image used to sell a sofa isn't a deepfake. Zalando alone says 90 percent of the marketing content on its platform is already AI-generated. The article The EU doesn't really know what a deepfake is, and that's becoming a </summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="regulation"/>
+  </entry>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
     <link href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/" rel="alternate"/>
@@ -104,6 +113,42 @@
     <author><name>Matthias Bastian</name></author>
   </entry>
   <entry>
+    <title>The Oracle and the Wolf: I Made Gemini Lose Like a Kid 🐺</title>
+    <link href="https://dev.to/anchildress1/the-oracle-and-the-wolf-i-made-gemini-lose-like-a-kid-3nk5" rel="alternate"/>
+    <id>https://dev.to/anchildress1/the-oracle-and-the-wolf-i-made-gemini-lose-like-a-kid-3nk5</id>
+    <updated>2026-06-20T18:08:02Z</updated>
+    <summary type="text">This is a submission for the June Solstice Game Jam TL;DR Save the Sun is a kids' deduction game set on the eve of the June solstice: you race Sköll—the wolf who wants to eat the sun—to Sól's one true rune before he catches her and the longest day never dawns. Gemini does two jobs and the engine referees both: it reads the player's questions—typed, or spoken aloud and transcribed—as the Oracle, an</summary>
+    <author><name>Ashley Childress</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Neural Networks with PyTorch and Lightning AI Part 5: Final Results and GPU Acceleration</title>
+    <link href="https://dev.to/rijultp/neural-networks-with-pytorch-and-lightning-ai-part-5-final-results-and-gpu-acceleration-4m0m" rel="alternate"/>
+    <id>https://dev.to/rijultp/neural-networks-with-pytorch-and-lightning-ai-part-5-final-results-and-gpu-acceleration-4m0m</id>
+    <updated>2026-06-20T18:06:54Z</updated>
+    <summary type="text">In the previous article, we saw how we automated several manual pieces when training a neural network. In this article, we will check the final results and also see how we can do hardware acceleration. For verifying that the final_bias is correctly optimized, we can print out the new value: trainer.fit(model, train_dataloaders=dataloader) print(model.final_bias.data) This gives us -16.0098. Plotti</summary>
+    <author><name>Rijul Rajesh</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Feature Flags at Scale: Designing a Distributed Control System for Production Behavior</title>
+    <link href="https://dev.to/sai_ram_0000/feature-flags-at-scale-designing-a-distributed-control-system-for-production-behavior-2p30" rel="alternate"/>
+    <id>https://dev.to/sai_ram_0000/feature-flags-at-scale-designing-a-distributed-control-system-for-production-behavior-2p30</id>
+    <updated>2026-06-20T18:02:32Z</updated>
+    <summary type="text">The Counterintuitive Truth: Feature Flags Are Not Config Files Most engineers first encounter feature flags as a simple abstraction: a key-value lookup that returns true or false. That mental model works fine for a single service handling a few hundred requests per minute. It becomes actively dangerous at scale. A mature feature flag system isn't a config file with an API wrapper — it's a distribu</summary>
+    <author><name>SAI RAM</name></author>
+  </entry>
+  <entry>
+    <title>Cursor vs GitHub Copilot vs Windsurf — Which AI Coding Tool Wins in 2026?</title>
+    <link href="https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le" rel="alternate"/>
+    <id>https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le</id>
+    <updated>2026-06-20T18:01:15Z</updated>
+    <summary type="text">If you write code in 2026, you've had this argument: Cursor, GitHub Copilot, or Windsurf? They look similar on the surface, but they're built on genuinely different philosophies — and picking the wrong one means fighting your editor instead of shipping. I run AI Got Ranked, where every AI tool is scored on the same six metrics with no paid rankings, so here's the honest, no-hype head-to-head. TL;D</summary>
+    <author><name>AI Got Ranked</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Google Deepmind loses another top AI researcher as Nobel laureate John Jumper leaves for Anthropic</title>
     <link href="https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/" rel="alternate"/>
     <id>https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/</id>
@@ -113,6 +158,40 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>5 Performance Mistakes Quietly Slowing Down Your Next.js Site (and How to Fix Each One)</title>
+    <link href="https://dev.to/nxfold_9a37c0ceb3a755db04/5-performance-mistakes-quietly-slowing-down-your-nextjs-site-and-how-to-fix-each-one-1138" rel="alternate"/>
+    <id>https://dev.to/nxfold_9a37c0ceb3a755db04/5-performance-mistakes-quietly-slowing-down-your-nextjs-site-and-how-to-fix-each-one-1138</id>
+    <updated>2026-06-20T17:53:10Z</updated>
+    <summary type="text">Next.js gives you a fast site almost for free. The framework does a lot of heavy lifting out of the box, which is exactly why most performance problems aren't dramatic. There's no error, nothing crashes. Your Lighthouse score just sits at 72 and you're not sure why. Below are five mistakes I see constantly in real client codebases, ordered roughly by how often they show up. Each one is small on it</summary>
+    <author><name>nxfold</name></author>
+  </entry>
+  <entry>
+    <title>What building HIPAA-compliant lakehouses taught me about real-world encryption</title>
+    <link href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co" rel="alternate"/>
+    <id>https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co</id>
+    <updated>2026-06-20T17:50:41Z</updated>
+    <summary type="text">Eighty-two percent of data breaches in healthcare don't happen because of a sophisticated nation-state actor; they happen because a junior engineer accidentally left an S3 bucket open or pushed a cleartext JSON blob containing social security numbers to a shared staging environment. We obsess over &quot;zero trust&quot; and &quot;encryption at rest,&quot; but we rarely talk about the reality of the data lifecycle. If</summary>
+    <author><name>Aniket Abhishek Soni</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I built a sports card scanner that shows you the actual eBay sold comps</title>
+    <link href="https://dev.to/matthew_hastings_9a55c810/i-built-a-sports-card-scanner-that-shows-you-the-actual-ebay-sold-comps-27gh" rel="alternate"/>
+    <id>https://dev.to/matthew_hastings_9a55c810/i-built-a-sports-card-scanner-that-shows-you-the-actual-ebay-sold-comps-27gh</id>
+    <updated>2026-06-20T17:49:55Z</updated>
+    <summary type="text">I'm a solo dev who spent the last 6 months building a sports card scanner app from scratch. Along the way I hit an interesting problem: every existing scanner on the market gives different prices for the same card, and almost none of them tell you why. So I scanned the same 2018 Topps Update Shohei Ohtani rookie card on 5 different pricing apps. The results: CollX: $87 Ludex: $74 Card Ladder: $91 </summary>
+    <author><name>Matthew Hastings</name></author>
+  </entry>
+  <entry>
+    <title>How AI Is Transforming Manufacturing in 2026 — From the Factory Floor to the Supply Chain</title>
+    <link href="https://dev.to/samra_mahmood_235c878310b/how-ai-is-transforming-manufacturing-in-2026-from-the-factory-floor-to-the-supply-chain-33d4" rel="alternate"/>
+    <id>https://dev.to/samra_mahmood_235c878310b/how-ai-is-transforming-manufacturing-in-2026-from-the-factory-floor-to-the-supply-chain-33d4</id>
+    <updated>2026-06-20T17:44:07Z</updated>
+    <summary type="text">Manufacturing has always been the proving ground for new technology. But what's happening right now with AI feels different — not incremental, but foundational. The industry is shifting from digital experimentation to deployment at scale, and the results are measurable. Let me walk you through what's actually changing, and why developers and engineers should be paying close attention. The Landscap</summary>
+    <author><name>Samra Mahmood</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Amazon drops its OpenAI drama film after signing a $50 billion deal with Sam Altman's company</title>
     <link href="https://the-decoder.com/amazon-drops-its-openai-drama-film-after-signing-a-50-billion-deal-with-sam-altmans-company/" rel="alternate"/>
     <id>https://the-decoder.com/amazon-drops-its-openai-drama-film-after-signing-a-50-billion-deal-with-sam-altmans-company/</id>
@@ -120,6 +199,15 @@
     <summary type="text">Amazon MGM Studios has dropped &quot;Artificial,&quot; the nearly finished OpenAI film directed by Luca Guadagnino with Andrew Garfield as Sam Altman. Amazon struck a $50 billion partnership with OpenAI in February. According to an insider, both Altman and Musk come off poorly in the film. The case raises questions about how business ties in the tech industry can limit creative freedom. The article Amazon d</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture</title>
+    <link href="https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/" rel="alternate"/>
+    <id>https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/</id>
+    <updated>2026-06-20T17:00:00Z</updated>
+    <summary type="text">What data teams need to build with AI to make self-healing data architecture a practical reality The post 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture appeared first on Towards Data Science.</summary>
+    <author><name>Hugo Lu</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work</title>
@@ -351,91 +439,5 @@
     <updated>2026-06-20T11:39:18Z</updated>
     <summary type="text">The Code Most People Never See Yeah,yeah i know more than 90% of the people reading this have heard of bitcoin. Everyone talks about Bitcoin's price. Few people talk about what makes it actually work. Under the hood, Bitcoin is a marvel of applied cryptography, distributed systems, and elegant scripting and you don't need to be a cryptographer to understand it. 01 Transactions How a transaction is</summary>
     <author><name>Juma</name></author>
-  </entry>
-  <entry>
-    <title>The Viability Test Every AI-Dev Architecture Fails</title>
-    <link href="https://dev.to/bala_paranj_059d338e44e7e/the-viability-test-every-ai-dev-architecture-fails-d3" rel="alternate"/>
-    <id>https://dev.to/bala_paranj_059d338e44e7e/the-viability-test-every-ai-dev-architecture-fails-d3</id>
-    <updated>2026-06-20T11:37:43Z</updated>
-    <summary type="text">This article builds on the harness response article The Harness is Half the Architecture. The five-element framework draws from TRIZ's Law of System Completeness (Altshuller, extended by Savransky and Mann), applied here to AI-assisted development. The law underneath the diagnosis A previous article argued that the dominant agent architecture — &quot;Agent = Model + Harness&quot; is missing its other half: </summary>
-    <author><name>Bala Paranj</name></author>
-  </entry>
-  <entry>
-    <title>How I built on-device AI background removal in a native Windows app</title>
-    <link href="https://dev.to/iammxfschr/how-i-built-on-device-ai-background-removal-in-a-native-windows-app-5hdp" rel="alternate"/>
-    <id>https://dev.to/iammxfschr/how-i-built-on-device-ai-background-removal-in-a-native-windows-app-5hdp</id>
-    <updated>2026-06-20T11:36:18Z</updated>
-    <summary type="text">Every &quot;remove the background&quot; tool I tried uploads your image to a server first. For a screenshot tool that's backwards — your screenshots are the most private thing on your screen. So I built mine to run 100% on your machine. Here's how — and the honest part: the AI isn't the hard bit. The thing nobody says about &quot;AI background removal&quot; Most tools that cut out a background send your image to thei</summary>
-    <author><name>Max</name></author>
-  </entry>
-  <entry>
-    <title>Among Liars -&gt; The 7th Player Isn't Human</title>
-    <link href="https://dev.to/mirshah12/among-liars-the-7th-player-isnt-human-345h" rel="alternate"/>
-    <id>https://dev.to/mirshah12/among-liars-the-7th-player-isnt-human-345h</id>
-    <updated>2026-06-20T11:24:32Z</updated>
-    <summary type="text">This is a submission for the June Solstice Game Jam. I built Among Liars, a realtime multiplayer elimination where six humans join a room, but the game secretly adds a seventh player: a Gemini-powered AI hiding inside the Spy side. There are two teams: Detectives are trying to expose the hidden AI. Spies are trying to protect the AI long enough for the Detectives to run out of chances. The game is</summary>
-    <author><name>Mir Shah</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I spent 6 months building a runtime governance layer for AI agents — here's what survived testing&quot;</title>
-    <link href="https://dev.to/sentinelsca/i-spent-6-months-building-a-runtime-governance-layer-for-ai-agents-heres-what-survived-testing-54gf" rel="alternate"/>
-    <id>https://dev.to/sentinelsca/i-spent-6-months-building-a-runtime-governance-layer-for-ai-agents-heres-what-survived-testing-54gf</id>
-    <updated>2026-06-20T11:22:29Z</updated>
-    <summary type="text">Agents are moving from demos to touching money, infrastructure, and customer data. Sentinel SCA is a runtime admissibility layer. Before an agent action executes, Sentinel evaluates the request and returns one of three verdicts: ALLOW REVIEW DENY Every decision is cryptographically signed and recorded in a tamper-evident audit ledger. This post is the validation report: what I built, what I tested</summary>
-    <author><name>Sentinel compliance agent</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Plug-and-Play APIs: How Telecom Operators Are Reducing Integration Time by 80%</title>
-    <link href="https://dev.to/telecomhub/plug-and-play-apis-how-telecom-operators-are-reducing-integration-time-by-80-11fk" rel="alternate"/>
-    <id>https://dev.to/telecomhub/plug-and-play-apis-how-telecom-operators-are-reducing-integration-time-by-80-11fk</id>
-    <updated>2026-06-20T11:22:17Z</updated>
-    <summary type="text">If you've worked anywhere near telecom systems integration, you've probably seen some version of that 80% number floating around in a vendor deck or case study. Worth being upfront about where it comes from before going further: it's not an industry-wide average, it's the kind of figure that shows up in specific before/after case studies where a CSP went from a custom point-to-point integration th</summary>
-    <author><name>TelecomHub</name></author>
-  </entry>
-  <entry>
-    <title>Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M: Dense Bi-Encoder and Late-Interaction Models for Fast Multilingual Search Across 11 Languages</title>
-    <link href="https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/</id>
-    <updated>2026-06-19T10:29:39Z</updated>
-    <summary type="text">Liquid AI's LFM2.5 Retrievers combine a dense bi-encoder and ColBERT late-interaction model for multilingual search on edge devices. The post Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M: Dense Bi-Encoder and Late-Interaction Models for Fast Multilingual Search Across 11 Languages appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>OpenAI researchers show small doses of &quot;beneficial trait&quot; training make AI models broadly safer and harder to manipulate</title>
-    <link href="https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/</id>
-    <updated>2026-06-19T10:08:27Z</updated>
-    <summary type="text">OpenAI researchers show that reinforcement learning on desired behavioral traits like truthfulness and corrigibility works across domains. Training on health data also improved deception detection, and the model scored better on 44 out of 53 benchmarks. The approach differs from Anthropic's constitution-based method. The article OpenAI researchers show small doses of &quot;beneficial trait&quot; training ma</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>e2e-assure introduces Cumulo, the U.K.’s only sovereign, AI-driven, zero-day SOC platform to secure IT and OT environments</title>
-    <link href="https://www.artificialintelligence-news.com/news/e2e-assure-introduces-cumulo-the-u-k-s-only-sovereign-ai-driven-zero-day-soc-platform-to-secure-it-and-ot-environments/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/e2e-assure-introduces-cumulo-the-u-k-s-only-sovereign-ai-driven-zero-day-soc-platform-to-secure-it-and-ot-environments/</id>
-    <updated>2026-06-19T09:57:55Z</updated>
-    <summary type="text">Built around digital twin technology and customer-dedicated AI models, Cumulo answers the recent announcement by GCHQ for AI Cyber Shield, enabling early identification of threats and vulnerabilities before incidents occur Abingdon, U.K., 19 June, – SOC-as-a-service provider, e2e-assure, today announced the launch of the updated Cumulo, the U.K.’s only sovereign, AI-first, IT/OT connected SOC plat</summary>
-    <author><name>Rob Demain</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Is the US government’s Anthropic ban accidentally helping the brand?</title>
-    <link href="https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/" rel="alternate"/>
-    <id>https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/</id>
-    <updated>2026-06-19T16:08:17Z</updated>
-    <summary type="text">Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]</summary>
-    <author><name>Theresa Loconsolo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google appeals ruling that made it directly liable for AI-generated search overview content</title>
-    <link href="https://the-decoder.com/google-appeals-ruling-that-made-it-directly-liable-for-ai-generated-search-overview-content/" rel="alternate"/>
-    <id>https://the-decoder.com/google-appeals-ruling-that-made-it-directly-liable-for-ai-generated-search-overview-content/</id>
-    <updated>2026-06-19T09:49:22Z</updated>
-    <summary type="text">Google is appealing the ruling by Germany's Munich Regional Court, which held the company directly liable for inaccurate AI search results. The AI had falsely linked two Munich-based publishers to fraud schemes. Google calls them &quot;minor errors,&quot; but the court saw it differently. The article Google appeals ruling that made it directly liable for AI-generated search overview content appeared first o</summary>
-    <author><name>Matthias Bastian</name></author>
   </entry>
 </feed>
