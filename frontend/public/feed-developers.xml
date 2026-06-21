@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T19:50:02Z</updated>
+  <updated>2026-06-21T21:19:40Z</updated>
   <entry>
     <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
     <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
@@ -15,6 +15,25 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Kinde Is Missing from Mastra's Auth Lineup, So I Built the Provider</title>
+    <link href="https://dev.to/sholajegede/kinde-is-missing-from-mastras-auth-lineup-so-i-built-the-provider-5gc9" rel="alternate"/>
+    <id>https://dev.to/sholajegede/kinde-is-missing-from-mastras-auth-lineup-so-i-built-the-provider-5gc9</id>
+    <updated>2026-06-21T21:10:11Z</updated>
+    <summary type="text">If you're building a SaaS AI agent product and you're already on Kinde, you already know the problem. Mastra is the TypeScript-first AI agent framework. It ships with official auth providers for Clerk, Auth0, Supabase, Firebase, WorkOS, and Better Auth. Kinde is not on that list. The obvious question is why not reach for one of those providers, since Auth0 is already there. Most developers who cho</summary>
+    <author><name>Shola Jegede</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Anthropic measured the human side. Five operators are building the agent side.</title>
+    <link href="https://dev.to/jugeni/anthropic-measured-the-human-side-five-operators-are-building-the-agent-side-17a0" rel="alternate"/>
+    <id>https://dev.to/jugeni/anthropic-measured-the-human-side-five-operators-are-building-the-agent-side-17a0</id>
+    <updated>2026-06-21T20:45:56Z</updated>
+    <summary type="text">I joined dev.to a few days ago because I'd run out of paths to argue this stuff against. Months of building a framework — operator discipline as an orthogonal axis to autonomy, locked decisions with status fields, drift detection, supersession trails — and the only thing I was sure of was that internal coherence isn't proof of anything. Frameworks survive by surviving other people, not by survivin</summary>
+    <author><name>Mike Czerwinski</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Agent demos are easy. Agent operations need receipts.</title>
@@ -443,24 +462,5 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Deploying Envoy Gateway on AWS EKS: The Right Way</title>
-    <link href="https://dev.to/ajinkya_a3/deploying-envoy-gateway-on-aws-eks-the-right-way-24dc" rel="alternate"/>
-    <id>https://dev.to/ajinkya_a3/deploying-envoy-gateway-on-aws-eks-the-right-way-24dc</id>
-    <updated>2026-06-18T16:33:49Z</updated>
-    <summary type="text">Some context first: we were running on GKE Autopilot, where the Gateway API just works out of the box. Google manages the CRDs and the underlying load balancer controller for you create a Gateway, and it gets an external IP without you ever thinking about CRD lifecycle. Moving that same ingress layer to EKS meant none of that was ready to use anymore. The first real decision wasn't about Envoy Gat</summary>
-    <author><name>Ajinkya</name></author>
-  </entry>
-  <entry>
-    <title>I Recreated iPhone's Apple Intelligence Edge Glow Effect on Mac</title>
-    <link href="https://dev.to/vector4wang/i-recreated-iphones-apple-intelligence-edge-glow-effect-on-mac-57f5" rel="alternate"/>
-    <id>https://dev.to/vector4wang/i-recreated-iphones-apple-intelligence-edge-glow-effect-on-mac-57f5</id>
-    <updated>2026-06-18T16:29:16Z</updated>
-    <summary type="text">iPhone's Apple Intelligence shows a beautiful iridescent glow around the screen edges when Siri is thinking. I wanted that same effect on my Mac when Claude Code is working. So I built EdgeGlow — a free, open-source macOS menu bar app that recreates iPhone's edge glow effect on Mac. In this post, I'll walk through how I did it and the technical challenges I faced. How It Works AI Agent triggers ho</summary>
-    <author><name>wangxc</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
 </feed>
