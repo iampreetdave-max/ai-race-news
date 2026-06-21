@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T15:57:16Z</updated>
+  <updated>2026-06-21T17:46:14Z</updated>
   <entry>
     <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
     <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
@@ -200,6 +200,15 @@
     <author><name>Gerardo Barrera</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>EMA on LoRA ? [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/</id>
+    <updated>2026-06-21T16:54:28Z</updated>
+    <summary type="text">Hi guys Does anyone know of papers where EMA on LoRA adapters has been used successfully? Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter. On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models? [1] https://arxiv.org/a</summary>
+    <author><name>/u/South-Conference-395</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>your CI agent is reading more than your prompt</title>
@@ -453,14 +462,5 @@
     <summary type="text">I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract. Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -&gt; SearXNG SearXNG is a self-hostable metasearch</summary>
     <author><name>/u/luke_pacman</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Generative AI vs Agentic AI vs AI Agents [2026 Compared]</title>
-    <link href="https://dev.to/kunal_d6a8fea2309e1571ee7/generative-ai-vs-agentic-ai-vs-ai-agents-2026-compared-4o77" rel="alternate"/>
-    <id>https://dev.to/kunal_d6a8fea2309e1571ee7/generative-ai-vs-agentic-ai-vs-ai-agents-2026-compared-4o77</id>
-    <updated>2026-06-18T12:55:41Z</updated>
-    <summary type="text">Originally published at kunalganglani.com — read it there for inline code, hero image, and live links. Generative AI vs agentic AI vs AI agents. Three terms, used interchangeably by people who should know better, burning engineering budgets across the industry in 2026. Generative AI refers to models that produce new content — text, images, code — from a prompt. AI agents are software systems that </summary>
-    <author><name>Kunal</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
