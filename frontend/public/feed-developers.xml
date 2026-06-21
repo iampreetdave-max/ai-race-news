@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T10:34:21Z</updated>
+  <updated>2026-06-21T13:11:22Z</updated>
   <entry>
     <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
     <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
@@ -24,6 +24,35 @@
     <summary type="text">OpenAI has released the &quot;Record &amp; Replay&quot; feature for its Codex app on macOS: users demonstrate a workflow once, Codex converts it into a reusable &quot;skill,&quot; and then repeats it on its own. The feature isn't available yet in the EU, the UK, or Switzerland. The article OpenAI's Codex can now watch you work once and repeat the task forever appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Playwright Playbook — Part 8: Playwright Meets AI — Agents, MCP &amp; Self-Healing Tests</title>
+    <link href="https://dev.to/sshhfaiz/the-playwright-playbook-part-8-playwright-meets-ai-agents-mcp-self-healing-tests-136p" rel="alternate"/>
+    <id>https://dev.to/sshhfaiz/the-playwright-playbook-part-8-playwright-meets-ai-agents-mcp-self-healing-tests-136p</id>
+    <updated>2026-06-21T12:57:08Z</updated>
+    <summary type="text">The Playwright Playbook — Part 8: Playwright Meets AI — Agents, MCP &amp; Self-Healing Tests &quot;AI doesn't replace QA engineers. It gives them superpowers.&quot; Seven parts. One framework. Built from scratch. POM-based UI tests. Network interception. Multi-user contexts. A full API testing layer with typed clients. Visual regression across four viewports. A complete debugging toolkit. A production CI/CD pip</summary>
+    <author><name>Faizal</name></author>
+  </entry>
+  <entry>
+    <title>Your AI agent has sudo. I built a tool to take it away.</title>
+    <link href="https://dev.to/hasanmehmood/your-ai-agent-has-sudo-i-built-a-tool-to-take-it-away-46mk" rel="alternate"/>
+    <id>https://dev.to/hasanmehmood/your-ai-agent-has-sudo-i-built-a-tool-to-take-it-away-46mk</id>
+    <updated>2026-06-21T12:49:08Z</updated>
+    <summary type="text">A few weeks ago I gave an AI agent access to my machine through MCP. It read files, opened PRs, queried a database. It was great — until I looked at what it could have done if a tool description had been poisoned, or a prompt injection had slipped through. The answer was: anything. ~/.ssh/id_rsa. DROP TABLE users. rm -rf /. The agent had sudo, and nobody had voted for that. So I built AgentPerms —</summary>
+    <author><name>Hassan Mehmood</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>My Agentic Engineering Workflow</title>
+    <link href="https://dev.to/wynandpieters/my-agentic-engineering-workflow-2ocm" rel="alternate"/>
+    <id>https://dev.to/wynandpieters/my-agentic-engineering-workflow-2ocm</id>
+    <updated>2026-06-21T12:42:00Z</updated>
+    <summary type="text">Tools Full comparisons and context in my 2026 AI tech stack post. This is just what you need installed to follow the workflow below. Claude Code If you're new, start with the cheat sheet and Anthropic best practices. Security — set this up first: Claude Code Security Hooks — 7-layer prompt injection defence, read guards, canary files Lock down your .env and any git-secret files in .claude/settings</summary>
+    <author><name>Wynand Pieters</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>What Is CLAUDE.md? A Practical Guide to Configuring Claude Code</title>
@@ -433,32 +462,5 @@
     <summary type="text">Originally published at kunalganglani.com — read it there for inline code, hero image, and live links. Generative AI vs agentic AI vs AI agents. Three terms, used interchangeably by people who should know better, burning engineering budgets across the industry in 2026. Generative AI refers to models that produce new content — text, images, code — from a prompt. AI agents are software systems that </summary>
     <author><name>Kunal</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/</id>
-    <updated>2026-06-20T02:56:51Z</updated>
-    <summary type="text">Hey r/LocalLLaMA! Following up on Supra-Title-350M-exp (our first chat title generation model), we're releasing supra-title-FFT-preview, trained on a much larger and cleaner dataset. 🤗 supra-title-FFT-preview What changed Our first chat title model was trained on 12K samples (chat-titles-12K) and it showed: decent on common conversation patterns, weak on niche topics. This release is trained on 11</summary>
-    <author><name>/u/Dangerous_Try3619</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Have Build Memory That Actually Works for AI Coding</title>
-    <link href="https://dev.to/argonauta/how-i-have-build-memory-that-actually-works-for-ai-coding-5gj3" rel="alternate"/>
-    <id>https://dev.to/argonauta/how-i-have-build-memory-that-actually-works-for-ai-coding-5gj3</id>
-    <updated>2026-06-18T12:38:55Z</updated>
-    <summary type="text">Most AI coding assistants do not really remember your project. They remember just enough to be dangerous. They see the latest prompt, skim a few files, improvise, and then forget the reasoning that made the answer useful five minutes ago. That is fine for toy demos. It breaks down fast inside a real software codebase. In Knotic I take an harder line. Instead of treating memory like a chat log with</summary>
-    <author><name>Riccardo Tartaglia</name></author>
-  </entry>
-  <entry>
-    <title>How to Set Up a Local AI Coding Assistant in VS Code – Free &amp; Private</title>
-    <link href="https://dev.to/everylocalai/how-to-set-up-a-local-ai-coding-assistant-in-vs-code-free-private-2nkk" rel="alternate"/>
-    <id>https://dev.to/everylocalai/how-to-set-up-a-local-ai-coding-assistant-in-vs-code-free-private-2nkk</id>
-    <updated>2026-06-18T09:02:36Z</updated>
-    <summary type="text">Want a Cursor/Copilot-style coding assistant that runs entirely on your machine? Your code never leaves your computer and there's no subscription fee. Here's how to set it up with VS Code, Continue, and Ollama. What You'll Build Tab autocomplete (like Copilot) that suggests code as you type Chat with your codebase - ask questions, generate functions, write tests 100% local - zero data sent to any </summary>
-    <author><name>EveryLocalAI</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
   </entry>
 </feed>
