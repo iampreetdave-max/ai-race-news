@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T21:19:40Z</updated>
+  <updated>2026-06-21T23:20:23Z</updated>
+  <entry>
+    <title>Samsung Electronics brings ChatGPT and Codex to employees</title>
+    <link href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" rel="alternate"/>
+    <id>https://openai.com/index/samsung-electronics-chatgpt-codex-deployment</id>
+    <updated>2026-06-21T23:00:00Z</updated>
+    <summary type="text">Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
     <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
@@ -210,6 +219,16 @@
     <summary type="text">The practical commands that actually matter — with real examples for each one By Prakash Gangurde | BCA Student | Technical Content Creator | AI • Python • Linux Introduction When I first opened a Linux terminal, I stared at a blinking cursor and had absolutely no idea what to do. No buttons. No menus. Just a black screen waiting for me to type something. If that sounds familiar — this article is </summary>
     <author><name>PRAKASH GANGURDE</name></author>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>Temporary Cloudflare Accounts for AI agents</title>
+    <link href="https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything</id>
+    <updated>2026-06-21T22:01:04Z</updated>
+    <summary type="text">Temporary Cloudflare Accounts for AI agents The announcement says this is &quot;for AI agents&quot; but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I Built 18 Free Developer Tools - Here's What I Learned</title>
@@ -442,25 +461,5 @@
     <author><name>Maria Mouschoutzi</name></author>
     <category term="agents"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons</title>
-    <link href="https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/" rel="alternate"/>
-    <id>https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/</id>
-    <updated>2026-06-17T17:30:00Z</updated>
-    <summary type="text">Chinese AI lab Zhipu AI releases GLM-5.2 with a stable 1-million-token context under the MIT license. On FrontierSWE, a benchmark for hours-long coding tasks, the open-source model trails Anthropic's Claude Opus 4.8 by just one percentage point. On reasoning, it still falls well behind closed-source rivals. The article Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons appea</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities</title>
-    <link href="https://www.marktechpost.com/2026/06/17/vercel-releases-eve/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/17/vercel-releases-eve/</id>
-    <updated>2026-06-17T17:22:51Z</updated>
-    <summary type="text">Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a directory of files, with durable execution, sandboxes, approvals, connections, channels, and evals built in. Scaffold with npx eve@latest init and deploy unchanged via vercel deploy. The post Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabi</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
   </entry>
 </feed>
