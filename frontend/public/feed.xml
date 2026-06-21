@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-21T00:13:24Z</updated>
+  <updated>2026-06-21T06:07:49Z</updated>
   <entry>
     <title>Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets</title>
     <link href="https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/" rel="alternate"/>
@@ -111,6 +111,85 @@
     <summary type="text">In the first quarter of 2026, OpenAI pulled in $5.7 billion in revenue and burned through about $3.7 billion, both figures tripled year over year. Stock-based compensation alone ate up over $2.3 billion. With $73 billion in reserves, OpenAI doesn't need fresh capital right now, but a price war with Anthropic could change that fast. The article OpenAI tripled revenue to $5.7 billion in Q1 but burne</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Is an Agent Loop? How AI Agents Reason, Act, and Iterate</title>
+    <link href="https://dev.to/rish_poddar/what-is-an-agent-loop-how-ai-agents-reason-act-and-iterate-1675" rel="alternate"/>
+    <id>https://dev.to/rish_poddar/what-is-an-agent-loop-how-ai-agents-reason-act-and-iterate-1675</id>
+    <updated>2026-06-21T05:24:07Z</updated>
+    <summary type="text">People keep talking about agent loops because they make an AI agent actually do useful work instead of just sounding smart. Without a loop, a model answers a question and stops. With a loop, it can keep going: analyze the task, take action, inspect the result, and decide what to do next. That is the basic shape of agentic AI. The short version An agent loop is an iterative cycle that usually looks</summary>
+    <author><name>Rishabh Poddar</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How AI engines actually decide what to cite (ChatGPT, Perplexity, Gemini, AI Overviews)</title>
+    <link href="https://dev.to/nitishyadav/how-ai-engines-actually-decide-what-to-cite-chatgpt-perplexity-gemini-ai-overviews-6bh" rel="alternate"/>
+    <id>https://dev.to/nitishyadav/how-ai-engines-actually-decide-what-to-cite-chatgpt-perplexity-gemini-ai-overviews-6bh</id>
+    <updated>2026-06-21T05:19:39Z</updated>
+    <summary type="text">Everyone keeps asking &quot;is SEO dead.&quot; Wrong question. AI search doesn't show ten blue links. It generates one answer and names a few brands. If you're not in that answer, you don't exist for that query. So the real question is: how do these engines decide who to name? I went down a rabbit hole on how four of them actually retrieve and cite sources. Here's what's true in 2026, with real numbers. Cha</summary>
+    <author><name>Nitish Yadav</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DNS is weird inside k8s on AWS</title>
+    <link href="https://dev.to/harishteens/dns-is-weird-inside-k8s-on-aws-570c" rel="alternate"/>
+    <id>https://dev.to/harishteens/dns-is-weird-inside-k8s-on-aws-570c</id>
+    <updated>2026-06-21T05:18:46Z</updated>
+    <summary type="text">A ~6 minute read — just three concepts that, once you know them, change how you reason about DNS inside a cluster. While chasing some DNS timeouts recently, I went down a rabbit hole and came out with three concepts I wish I'd known earlier. None of them is exotic, but together they explain a surprising amount of &quot;why is DNS being weird&quot; behaviour on Kubernetes-on-AWS. ndots — why one hostname loo</summary>
+    <author><name>Harish</name></author>
+  </entry>
+  <entry>
+    <title>Vector Databases Compared: pgvector, Qdrant, Pinecone, Weaviate</title>
+    <link href="https://dev.to/nazar_boyko/vector-databases-compared-pgvector-qdrant-pinecone-weaviate-57an" rel="alternate"/>
+    <id>https://dev.to/nazar_boyko/vector-databases-compared-pgvector-qdrant-pinecone-weaviate-57an</id>
+    <updated>2026-06-21T05:18:29Z</updated>
+    <summary type="text">There's a moment in almost every RAG project where someone asks the question that decides your next two years of ops work: &quot;Do we actually need a vector database, or can Postgres just do this?&quot; It's a better question than it sounds, because the honest answer isn't &quot;use Pinecone&quot; or &quot;use Postgres.&quot; It's &quot;it depends on numbers you probably haven't measured yet&quot;: how many vectors, how aggressively yo</summary>
+    <author><name>Nazar Boyko</name></author>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Why I'm building a place to practice catching AI's bugs</title>
+    <link href="https://dev.to/kkhdevs/why-im-building-a-place-to-practice-catching-ais-bugs-1p1a" rel="alternate"/>
+    <id>https://dev.to/kkhdevs/why-im-building-a-place-to-practice-catching-ais-bugs-1p1a</id>
+    <updated>2026-06-21T05:15:58Z</updated>
+    <summary type="text">Two moments made me start building Loupe. Neither was some grand realization — they were just things that kept happening until I couldn't ignore them. The first happened several times a day. I'd hand a feature to my AI coding agent — Claude Code, Codex, whichever — and minutes later it would come back: done, tests passing. Green checkmarks everywhere. But when I actually read what it had written, </summary>
+    <author><name>KYUNGHWAN KIM</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Build Native Android Java/XML Apps Without Android Studio</title>
+    <link href="https://dev.to/nagodip_d219dc4e3a7f8cbb3/build-native-android-javaxml-apps-without-android-studio-4pej" rel="alternate"/>
+    <id>https://dev.to/nagodip_d219dc4e3a7f8cbb3/build-native-android-javaxml-apps-without-android-studio-4pej</id>
+    <updated>2026-06-21T05:09:33Z</updated>
+    <summary type="text">I built Oviora Builder: a lightweight native Android Java/XML CLI builder Android Studio is powerful, but for many beginners it is also heavy. If you are using a low-spec PC, Android Studio can become slow before you even start building your first app. Indexing, Gradle sync, emulator setup, and the deep Android folder structure can make native Android development feel difficult. So I built Oviora </summary>
+    <author><name>Nagodip</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>AIKit Launch Demo Checklist: Turn a Product Update into a Measurable Funnel</title>
+    <link href="https://dev.to/tuannx/aikit-launch-demo-checklist-turn-a-product-update-into-a-measurable-funnel-1cfp" rel="alternate"/>
+    <id>https://dev.to/tuannx/aikit-launch-demo-checklist-turn-a-product-update-into-a-measurable-funnel-1cfp</id>
+    <updated>2026-06-21T05:03:15Z</updated>
+    <summary type="text">A launch demo should not be a feature tour. It should be a measurable funnel that proves the update solves a specific user problem, captures intent, and gives the team a clear next action within the same week. The Problem Most product updates fail quietly because the launch asset stops at announcement copy. A team ships a new workflow, writes a short blog post, posts a screenshot, and waits for tr</summary>
+    <author><name>Tony Nguyen</name></author>
+  </entry>
+  <entry>
+    <title>Local Gradient Accumulation Speeds Training 1.7</title>
+    <link href="https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk" rel="alternate"/>
+    <id>https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk</id>
+    <updated>2026-06-21T05:00:00Z</updated>
+    <summary type="text">PACI removes the bubbles that cripple asynchronous pipeline parallelism and shaves as much as 1.69× off time‑to‑accuracy compared with the fastest synchronous flush baseline. The paper demonstrates this gain on GPT‑2 Medium pre‑training while preserving the same peak memory usage. By locally accumulating gradients, PACI limits how far a micro‑batch can drift from the current weight version, so the</summary>
+    <author><name>Papers Mache</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What 4 months of building taught me right before my first real launch</title>
+    <link href="https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g" rel="alternate"/>
+    <id>https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g</id>
+    <updated>2026-06-21T04:51:58Z</updated>
+    <summary type="text">Tomorrow I launch XEdge on Peerlist's Launchpad. It's not my first time putting XEdge in front of people — I've been posting, building in public, talking to users for 4 months. But it's the first time there's an actual &quot;launch day&quot; with a ranking, a leaderboard, and a finite window where momentum either builds or doesn't. Here's what I'm carrying into tomorrow: The product matters less than the re</summary>
+    <author><name>Harsha Kumar</name></author>
   </entry>
   <entry>
     <title>How to Get a New Site Indexed by Google in 2026 (What Works, What's a Waste)</title>
@@ -360,85 +439,6 @@
     <updated>2026-06-20T18:08:02Z</updated>
     <summary type="text">This is a submission for the June Solstice Game Jam TL;DR Save the Sun is a kids' deduction game set on the eve of the June solstice: you race Sköll—the wolf who wants to eat the sun—to Sól's one true rune before he catches her and the longest day never dawns. Gemini does two jobs and the engine referees both: it reads the player's questions—typed, or spoken aloud and transcribed—as the Oracle, an</summary>
     <author><name>Ashley Childress</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Neural Networks with PyTorch and Lightning AI Part 5: Final Results and GPU Acceleration</title>
-    <link href="https://dev.to/rijultp/neural-networks-with-pytorch-and-lightning-ai-part-5-final-results-and-gpu-acceleration-4m0m" rel="alternate"/>
-    <id>https://dev.to/rijultp/neural-networks-with-pytorch-and-lightning-ai-part-5-final-results-and-gpu-acceleration-4m0m</id>
-    <updated>2026-06-20T18:06:54Z</updated>
-    <summary type="text">In the previous article, we saw how we automated several manual pieces when training a neural network. In this article, we will check the final results and also see how we can do hardware acceleration. For verifying that the final_bias is correctly optimized, we can print out the new value: trainer.fit(model, train_dataloaders=dataloader) print(model.final_bias.data) This gives us -16.0098. Plotti</summary>
-    <author><name>Rijul Rajesh</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Feature Flags at Scale: Designing a Distributed Control System for Production Behavior</title>
-    <link href="https://dev.to/sai_ram_0000/feature-flags-at-scale-designing-a-distributed-control-system-for-production-behavior-2p30" rel="alternate"/>
-    <id>https://dev.to/sai_ram_0000/feature-flags-at-scale-designing-a-distributed-control-system-for-production-behavior-2p30</id>
-    <updated>2026-06-20T18:02:32Z</updated>
-    <summary type="text">The Counterintuitive Truth: Feature Flags Are Not Config Files Most engineers first encounter feature flags as a simple abstraction: a key-value lookup that returns true or false. That mental model works fine for a single service handling a few hundred requests per minute. It becomes actively dangerous at scale. A mature feature flag system isn't a config file with an API wrapper — it's a distribu</summary>
-    <author><name>SAI RAM</name></author>
-  </entry>
-  <entry>
-    <title>Cursor vs GitHub Copilot vs Windsurf — Which AI Coding Tool Wins in 2026?</title>
-    <link href="https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le" rel="alternate"/>
-    <id>https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le</id>
-    <updated>2026-06-20T18:01:15Z</updated>
-    <summary type="text">If you write code in 2026, you've had this argument: Cursor, GitHub Copilot, or Windsurf? They look similar on the surface, but they're built on genuinely different philosophies — and picking the wrong one means fighting your editor instead of shipping. I run AI Got Ranked, where every AI tool is scored on the same six metrics with no paid rankings, so here's the honest, no-hype head-to-head. TL;D</summary>
-    <author><name>AI Got Ranked</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google Deepmind loses another top AI researcher as Nobel laureate John Jumper leaves for Anthropic</title>
-    <link href="https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/" rel="alternate"/>
-    <id>https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/</id>
-    <updated>2026-06-19T17:54:14Z</updated>
-    <summary type="text">Nobel Prize winner John Jumper is leaving Google Deepmind for Anthropic after nearly nine years. Days earlier, Gemini co-lead Noam Shazeer left for OpenAI. Weeks before that, AlphaGo researcher David Silver started his own company. Three of Google's most prominent AI minds, gone within months. The article Google Deepmind loses another top AI researcher as Nobel laureate John Jumper leaves for Anth</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>5 Performance Mistakes Quietly Slowing Down Your Next.js Site (and How to Fix Each One)</title>
-    <link href="https://dev.to/nxfold_9a37c0ceb3a755db04/5-performance-mistakes-quietly-slowing-down-your-nextjs-site-and-how-to-fix-each-one-1138" rel="alternate"/>
-    <id>https://dev.to/nxfold_9a37c0ceb3a755db04/5-performance-mistakes-quietly-slowing-down-your-nextjs-site-and-how-to-fix-each-one-1138</id>
-    <updated>2026-06-20T17:53:10Z</updated>
-    <summary type="text">Next.js gives you a fast site almost for free. The framework does a lot of heavy lifting out of the box, which is exactly why most performance problems aren't dramatic. There's no error, nothing crashes. Your Lighthouse score just sits at 72 and you're not sure why. Below are five mistakes I see constantly in real client codebases, ordered roughly by how often they show up. Each one is small on it</summary>
-    <author><name>nxfold</name></author>
-  </entry>
-  <entry>
-    <title>What building HIPAA-compliant lakehouses taught me about real-world encryption</title>
-    <link href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co" rel="alternate"/>
-    <id>https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co</id>
-    <updated>2026-06-20T17:50:41Z</updated>
-    <summary type="text">Eighty-two percent of data breaches in healthcare don't happen because of a sophisticated nation-state actor; they happen because a junior engineer accidentally left an S3 bucket open or pushed a cleartext JSON blob containing social security numbers to a shared staging environment. We obsess over &quot;zero trust&quot; and &quot;encryption at rest,&quot; but we rarely talk about the reality of the data lifecycle. If</summary>
-    <author><name>Aniket Abhishek Soni</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>I built a sports card scanner that shows you the actual eBay sold comps</title>
-    <link href="https://dev.to/matthew_hastings_9a55c810/i-built-a-sports-card-scanner-that-shows-you-the-actual-ebay-sold-comps-27gh" rel="alternate"/>
-    <id>https://dev.to/matthew_hastings_9a55c810/i-built-a-sports-card-scanner-that-shows-you-the-actual-ebay-sold-comps-27gh</id>
-    <updated>2026-06-20T17:49:55Z</updated>
-    <summary type="text">I'm a solo dev who spent the last 6 months building a sports card scanner app from scratch. Along the way I hit an interesting problem: every existing scanner on the market gives different prices for the same card, and almost none of them tell you why. So I scanned the same 2018 Topps Update Shohei Ohtani rookie card on 5 different pricing apps. The results: CollX: $87 Ludex: $74 Card Ladder: $91 </summary>
-    <author><name>Matthew Hastings</name></author>
-  </entry>
-  <entry>
-    <title>How AI Is Transforming Manufacturing in 2026 — From the Factory Floor to the Supply Chain</title>
-    <link href="https://dev.to/samra_mahmood_235c878310b/how-ai-is-transforming-manufacturing-in-2026-from-the-factory-floor-to-the-supply-chain-33d4" rel="alternate"/>
-    <id>https://dev.to/samra_mahmood_235c878310b/how-ai-is-transforming-manufacturing-in-2026-from-the-factory-floor-to-the-supply-chain-33d4</id>
-    <updated>2026-06-20T17:44:07Z</updated>
-    <summary type="text">Manufacturing has always been the proving ground for new technology. But what's happening right now with AI feels different — not incremental, but foundational. The industry is shifting from digital experimentation to deployment at scale, and the results are measurable. Let me walk you through what's actually changing, and why developers and engineers should be paying close attention. The Landscap</summary>
-    <author><name>Samra Mahmood</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Amazon drops its OpenAI drama film after signing a $50 billion deal with Sam Altman's company</title>
-    <link href="https://the-decoder.com/amazon-drops-its-openai-drama-film-after-signing-a-50-billion-deal-with-sam-altmans-company/" rel="alternate"/>
-    <id>https://the-decoder.com/amazon-drops-its-openai-drama-film-after-signing-a-50-billion-deal-with-sam-altmans-company/</id>
-    <updated>2026-06-19T17:14:33Z</updated>
-    <summary type="text">Amazon MGM Studios has dropped &quot;Artificial,&quot; the nearly finished OpenAI film directed by Luca Guadagnino with Andrew Garfield as Sam Altman. Amazon struck a $50 billion partnership with OpenAI in February. According to an insider, both Altman and Musk come off poorly in the film. The case raises questions about how business ties in the tech industry can limit creative freedom. The article Amazon d</summary>
-    <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
   </entry>
 </feed>
