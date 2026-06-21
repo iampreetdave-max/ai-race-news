@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T17:46:14Z</updated>
+  <updated>2026-06-21T19:50:02Z</updated>
   <entry>
     <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
     <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Agent demos are easy. Agent operations need receipts.</title>
+    <link href="https://dev.to/armorer_labs/agent-demos-are-easy-agent-operations-need-receipts-2315" rel="alternate"/>
+    <id>https://dev.to/armorer_labs/agent-demos-are-easy-agent-operations-need-receipts-2315</id>
+    <updated>2026-06-21T19:20:00Z</updated>
+    <summary type="text">I keep seeing the same pattern with AI agents: the demo works, the first workflow is exciting, and then the boring operational questions show up. What is installed? Which model/provider/config is this run using? What tool calls happened? Which actions needed approval? Can I replay the failure, resume the run, or prove what changed? That gap is what we are building around at Armorer Labs. Armorer A</summary>
+    <author><name>Armorer Labs</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
@@ -452,15 +461,6 @@
     <author><name>wangxc</name></author>
     <category term="llm"/>
     <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/</id>
-    <updated>2026-06-20T03:36:50Z</updated>
-    <summary type="text">I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract. Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -&gt; SearXNG SearXNG is a self-hostable metasearch</summary>
-    <author><name>/u/luke_pacman</name></author>
     <category term="open-source"/>
   </entry>
 </feed>
