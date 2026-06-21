@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-21T06:07:49Z</updated>
+  <updated>2026-06-21T10:34:21Z</updated>
+  <entry>
+    <title>Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration</title>
+    <link href="https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/</id>
+    <updated>2026-06-20T23:04:55Z</updated>
+    <summary type="text">Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy. FAPO evaluates a chain, attributes failures at the step level, proposes variants across prompt, parameter, and chain-structure levels, and validates each through an independent reviewer. In Cisco'</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="product-launch"/>
+  </entry>
   <entry>
     <title>OpenAI's Codex can now watch you work once and repeat the task forever</title>
     <link href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/" rel="alternate"/>
@@ -12,6 +23,15 @@
     <updated>2026-06-20T13:15:08Z</updated>
     <summary type="text">OpenAI has released the &quot;Record &amp; Replay&quot; feature for its Codex app on macOS: users demonstrate a workflow once, Codex converts it into a reusable &quot;skill,&quot; and then repeats it on its own. The feature isn't available yet in the EU, the UK, or Switzerland. The article OpenAI's Codex can now watch you work once and repeat the task forever appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Is CLAUDE.md? A Practical Guide to Configuring Claude Code</title>
+    <link href="https://dev.to/promptmaster/what-is-claudemd-a-practical-guide-to-configuring-claude-code-2eb1" rel="alternate"/>
+    <id>https://dev.to/promptmaster/what-is-claudemd-a-practical-guide-to-configuring-claude-code-2eb1</id>
+    <updated>2026-06-21T09:36:53Z</updated>
+    <summary type="text">If you use Claude Code, there is one file that quietly shapes every session: CLAUDE.md. Most developers either do not have one or have one that works against them. Here is what it actually is, in plain terms. The file Claude reads every session CLAUDE.md is a markdown file that Claude Code reads at the start of every conversation. Think of it as your project's constitution — the source of truth fo</summary>
+    <author><name>PromptMaster</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -440,24 +460,5 @@
     <author><name>EveryLocalAI</name></author>
     <category term="hardware"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Build Your Own Private ChatGPT in 15 Minutes – Local AI, Zero Cloud Cost</title>
-    <link href="https://dev.to/everylocalai/build-your-own-private-chatgpt-in-15-minutes-local-ai-zero-cloud-cost-1gbm" rel="alternate"/>
-    <id>https://dev.to/everylocalai/build-your-own-private-chatgpt-in-15-minutes-local-ai-zero-cloud-cost-1gbm</id>
-    <updated>2026-06-18T09:01:47Z</updated>
-    <summary type="text">Want a ChatGPT-like experience that runs entirely on your own GPU? No monthly fees, no data leaving your machine, and it works offline. Here's how to set it up in 15 minutes. What You'll Build A full ChatGPT-style web UI running locally Your choice of open-source LLM (Qwen3 14B or Llama 3.1 8B) Multiple user accounts for your LAN 100% private - nothing leaves your network Prerequisites A GPU with </summary>
-    <author><name>EveryLocalAI</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Quoting Sean Lynch</title>
-    <link href="https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything</id>
-    <updated>2026-06-19T22:45:49Z</updated>
-    <summary type="text">The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch, comment on Hacker News Tags: model-context-protocol, llms, ai, generative-ai, skills</summary>
-    <author><name>Simon Willison</name></author>
   </entry>
 </feed>
