@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-22T04:52:40Z</updated>
+  <updated>2026-06-22T10:44:08Z</updated>
   <entry>
     <title>Samsung Electronics brings ChatGPT and Codex to employees</title>
     <link href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" rel="alternate"/>
@@ -13,6 +13,24 @@
     <summary type="text">Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Is the cache 4m23s Line in Claude Code's Status Bar Actually Accurate?</title>
+    <link href="https://dev.to/leeguoo/is-the-cache-4m23s-line-in-claude-codes-status-bar-actually-accurate-cl" rel="alternate"/>
+    <id>https://dev.to/leeguoo/is-the-cache-4m23s-line-in-claude-codes-status-bar-actually-accurate-cl</id>
+    <updated>2026-06-22T10:19:13Z</updated>
+    <summary type="text">💡 Originally published on my blog blog.leeguoo.com — field notes on reverse engineering, AI agents, and building things that ship. In the status bar cs / claude-statusbar I wrote for Claude Code, there’s a line that says cache 4m23s: green, ticking down every second, then turning into a red cache COLD when it reaches the end. Someone asked me: how exactly is this number calculated, and is it accur</summary>
+    <author><name>郭立</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AST blueprint generator for better AI understanding</title>
+    <link href="https://dev.to/hrudulmmn/ast-blueprint-generator-for-better-ai-understanding-1ecn" rel="alternate"/>
+    <id>https://dev.to/hrudulmmn/ast-blueprint-generator-for-better-ai-understanding-1ecn</id>
+    <updated>2026-06-22T10:11:20Z</updated>
+    <summary type="text">I Built Crespo: Turning Repositories into AI-Ready Codebase Blueprints Over the last few months, I've been using AI coding assistants extensively for learning, debugging, and understanding unfamiliar codebases. One problem kept showing up: Before an AI can help effectively, it needs context about the project. For small projects, this isn't a big issue. But for larger repositories, I often found my</summary>
+    <author><name>Hrudul Krishna K V</name></author>
   </entry>
   <entry>
     <title>Why I Think Most AI Agents Are Overengineered</title>
@@ -362,6 +380,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>ChatGPT becomes MUCH smarter when most sleeps</title>
+    <link href="https://www.reddit.com/r/ChatGPT/comments/1ubkklr/chatgpt_becomes_much_smarter_when_most_sleeps/" rel="alternate"/>
+    <id>https://www.reddit.com/r/ChatGPT/comments/1ubkklr/chatgpt_becomes_much_smarter_when_most_sleeps/</id>
+    <updated>2026-06-21T08:21:13Z</updated>
+    <summary type="text">The absolute peak global sleep window occurs between 19:00 and 03:00 GMT when 80% (peak) of the world's population are at sleep, meaning OpenAI's servers are underutilized. The difference in GPT's &quot;IQ&quot; is dramatic, So dramatic in fact, that we have decided to work night-time from about 01:00 AM to 10:00 AM local time, with critical Codex and other OpenAI dependent systems. After 9-10 AM the fuckup</summary>
+    <author><name>/u/AsleepDocument7313</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>The Multi-Runtime Agent Problem: Why Your Team Needs More Than One Runtime</title>
     <link href="https://dev.to/paultwist/the-multi-runtime-agent-problem-why-your-team-needs-more-than-one-runtime-9d" rel="alternate"/>
     <id>https://dev.to/paultwist/the-multi-runtime-agent-problem-why-your-team-needs-more-than-one-runtime-9d</id>
@@ -433,32 +460,5 @@
     <category term="rag"/>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Board where every tile is an agent</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/</id>
-    <updated>2026-06-20T18:13:16Z</updated>
-    <summary type="text">I've been hacking a project which I find extremely useful and wanted to share. Imagine a board where every tile is an agent those job is to maintain the tile. I tried to illustrate the idea with a video here. The project is open source on GitHub and you can also try it out here. (p.s. it requires coding agent to be installed like Claude Code or Codex). Any feedback is much appreciated! submitted b</summary>
-    <author><name>/u/1amrocket</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Large Context Windows Are Not a Solved Problem</title>
-    <link href="https://dev.to/lavkeshdwivedi/large-context-windows-are-not-a-solved-problem-2o04" rel="alternate"/>
-    <id>https://dev.to/lavkeshdwivedi/large-context-windows-are-not-a-solved-problem-2o04</id>
-    <updated>2026-06-19T01:13:10Z</updated>
-    <summary type="text">Originally published on lavkesh.com I recall the excitement a year ago when models could hold a million tokens in context. That's about 750,000 words or ten average novels sitting in a single prompt. The demos were impressive, and researchers posted benchmarks, but soon teams realized that having a massive context window and knowing what to do with it are two different problems. I'm not dismissing</summary>
-    <author><name>Lavkesh Dwivedi</name></author>
-  </entry>
-  <entry>
-    <title>Pi Agent Integration: Message Parsing, Retry, and Cancellation</title>
-    <link href="https://dev.to/newbe36524/pi-agent-integration-message-parsing-retry-and-cancellation-nl0" rel="alternate"/>
-    <id>https://dev.to/newbe36524/pi-agent-integration-message-parsing-retry-and-cancellation-nl0</id>
-    <updated>2026-06-19T01:12:00Z</updated>
-    <summary type="text">Pi Agent Integration: Message Parsing, Retry, and Cancellation When integrating a CLI-based AI agent, you can't avoid three things: how to translate its private event stream into stable messages, who's responsible for retry after failures, and how to cleanly stop the process when users click cancel. These three things essentially boil down to &quot;clarifying responsibilities&quot;—it's simple in theory, bu</summary>
-    <author><name>Hagicode</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
