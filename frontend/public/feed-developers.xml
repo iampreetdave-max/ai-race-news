@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-23T09:51:10Z</updated>
+  <updated>2026-06-23T12:37:40Z</updated>
+  <entry>
+    <title>Cursor announces its own AI model, a new Git platform, and a mobile app</title>
+    <link href="https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/" rel="alternate"/>
+    <id>https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/</id>
+    <updated>2026-06-23T12:12:40Z</updated>
+    <summary type="text">Cursor has revealed new details about its first AI model trained entirely in-house and announced two new products. The article Cursor announces its own AI model, a new Git platform, and a mobile app appeared first on The Decoder.</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark</title>
+    <link href="https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/</id>
+    <updated>2026-06-23T10:43:17Z</updated>
+    <summary type="text">OpenAI is expanding its Daybreak cybersecurity initiative with an updated Codex Security plugin, the full GPT-5.5-Cyber model, and a partner network with more than 25 security firms and several governments. The focus shifts from finding vulnerabilities to patching them automatically. The article OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark appeared first </summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>GLM-5.2 OpenAI-Compatible API: A Hands-On Guide to Reasoning Effort, Function Calling, and Long-Context Retrieval</title>
     <link href="https://www.marktechpost.com/2026/06/22/glm-5-2-openai-compatible-api-a-hands-on-guide-to-reasoning-effort-function-calling-and-long-context-retrieval/" rel="alternate"/>
@@ -24,6 +43,15 @@
     <summary type="text">OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Design Deploys to Vercel, WebSockets Go Serverless, and On-Device LLMs Get Serious</title>
+    <link href="https://dev.to/devsignal/claude-design-deploys-to-vercel-websockets-go-serverless-and-on-device-llms-get-serious-2jnh" rel="alternate"/>
+    <id>https://dev.to/devsignal/claude-design-deploys-to-vercel-websockets-go-serverless-and-on-device-llms-get-serious-2jnh</id>
+    <updated>2026-06-23T12:12:13Z</updated>
+    <summary type="text">This week's tooling moves cluster around a theme: collapsing the distance between prototype and production. Vercel shipped WebSocket support in serverless functions, Claude Design wired directly into Vercel deployments, and Apple dropped Core AI—a genuine successor to Core ML that handles 70B-parameter models on-device. The handoff tax is getting cheaper. Claude Design Deploys Directly to Vercel C</summary>
+    <author><name>The Dev Signal</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -438,32 +466,5 @@
     <summary type="text">Hi guys Does anyone know of papers where EMA on LoRA adapters has been used successfully? Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter. On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models? [1] https://arxiv.org/a</summary>
     <author><name>/u/South-Conference-395</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>I'm Building a Production-Grade Spring Boot + React App, One Feature a Day (Day 1)</title>
-    <link href="https://dev.to/dev48v/im-building-a-production-grade-spring-boot-react-app-one-feature-a-day-day-1-26f7" rel="alternate"/>
-    <id>https://dev.to/dev48v/im-building-a-production-grade-spring-boot-react-app-one-feature-a-day-day-1-26f7</id>
-    <updated>2026-06-20T00:01:29Z</updated>
-    <summary type="text">I just finished a 50-day &quot;new tech every day&quot; series. For the next 50 days I'm doing the opposite: ONE production-grade app, one feature a day — and building both the Spring Boot backend AND the React frontend each day. This is Day 1. The app: OrderHub, an e-commerce order-fulfillment backend that will grow into a real event-driven microservices system (Redis → Kafka → sagas → Kubernetes). But tod</summary>
-    <author><name>Devanshu Biswas</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>I automated everything except the code, and that's where Claude Code actually paid off</title>
-    <link href="https://dev.to/rapls/i-automated-everything-except-the-code-and-thats-where-claude-code-actually-paid-off-51oh" rel="alternate"/>
-    <id>https://dev.to/rapls/i-automated-everything-except-the-code-and-thats-where-claude-code-actually-paid-off-51oh</id>
-    <updated>2026-06-19T23:54:19Z</updated>
-    <summary type="text">I build WordPress plugins on my own, and I started using Claude Code for the obvious reason: to write code faster. Six months later, the part it actually saved me wasn't the code at all. It was everything around the code. Every release, I ran the same small gauntlet. Bump the version, update the readme, write the changelog, check the translation files for gaps, draft the announcement. None of it i</summary>
-    <author><name>Rapls</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>One command for 13 AI coding-assistant context files</title>
-    <link href="https://dev.to/horiamc_75e5ef599d3eba906/one-command-for-13-ai-coding-assistant-context-files-211d" rel="alternate"/>
-    <id>https://dev.to/horiamc_75e5ef599d3eba906/one-command-for-13-ai-coding-assistant-context-files-211d</id>
-    <updated>2026-06-19T23:52:59Z</updated>
-    <summary type="text">Every AI coding tool wants a file describing your project. Claude Code reads CLAUDE.md. Cursor reads .cursor/rules. Then there's AGENTS.md, GEMINI.md, Copilot instructions, Aider's CONVENTIONS.md, Windsurf, Cline, Continue, Kilo Code, Trae, Junie, Warp... Same content, a dozen names and formats. Maintaining them by hand is busywork, and the second your stack changes they're stale. One scan, every </summary>
-    <author><name>Horia Stan</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
