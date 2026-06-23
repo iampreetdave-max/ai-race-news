@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-23T15:53:56Z</updated>
+  <updated>2026-06-23T18:02:25Z</updated>
   <entry>
     <title>Cursor announces its own AI model, a new Git platform, and a mobile app</title>
     <link href="https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/" rel="alternate"/>
@@ -34,6 +34,24 @@
     <category term="tutorial"/>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Building a multi-agent document-search copilot — Part 1: muddy results, and one strategy per query</title>
+    <link href="https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og" rel="alternate"/>
+    <id>https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og</id>
+    <updated>2026-06-23T17:56:20Z</updated>
+    <summary type="text">Building a multi-agent document-search copilot — Part 1: muddy results, and one strategy per query The first version ranked documents badly — and worse, it ranked them badly in a way that looked fine on the architecture diagram. Those are the bugs that get under my skin: every box is green, every arrow points the right way, and the answer is still wrong. We were building a chat copilot over a regu</summary>
+    <author><name>Rodrigo Diego</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Emacs' lispy-mode: Convolute real-world example!</title>
+    <link href="https://dev.to/vindarel/emacs-lispy-mode-convolute-real-world-example-fe1" rel="alternate"/>
+    <id>https://dev.to/vindarel/emacs-lispy-mode-convolute-real-world-example-fe1</id>
+    <updated>2026-06-23T17:43:07Z</updated>
+    <summary type="text">It took me years to find a real-world use case for lispy-mode's convolute key, bound to C! Here it is :) My original code. There's a loop and error handling inside. I want to move the error handling before the loop. ;; ORIGINAL (defun post-products (products &amp;rest keys) &quot;Call the API, at most 500 products by POST.&quot; (let ((batches (batches products 500))) (loop for batch in batches for i = 1 then (</summary>
+    <author><name>vindarel</name></author>
   </entry>
   <entry>
     <title>Technical Practice of Integrating Financial Market Data via MCP Protocol</title>
@@ -449,23 +467,5 @@
     <author><name>Simon Willison</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built 18 Free Developer Tools - Here's What I Learned</title>
-    <link href="https://dev.to/darshik_italiya_35cda323e/i-built-18-free-developer-tools-heres-what-i-learned-3pem" rel="alternate"/>
-    <id>https://dev.to/darshik_italiya_35cda323e/i-built-18-free-developer-tools-heres-what-i-learned-3pem</id>
-    <updated>2026-06-20T04:51:20Z</updated>
-    <summary type="text">I Built 18 Free Developer Tools - Here's What I Learned Why I Built This As a developer, I was constantly switching between different online tools - some required signup, others were bloated with ads, and many lacked basic features. So I decided to build my own collection. Introducing DevTools Hub DevTools Hub is a free collection of 18+ online developer utilities, designed with privacy and simpli</summary>
-    <author><name>Darshik Italiya</name></author>
-  </entry>
-  <entry>
-    <title>How to Let an AI Agent Generate Real PDFs (with an MCP server)</title>
-    <link href="https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3" rel="alternate"/>
-    <id>https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3</id>
-    <updated>2026-06-20T04:37:27Z</updated>
-    <summary type="text">AI agents are great at producing text. But the moment you need an actual document — an invoice, a report, a certificate — they fall apart. You get markdown you have to format yourself, or (with Code Interpreter) a rough PDF from a Python lib with generic fonts and tables that never quite look right. There's no clean way to hand an agent the job of &quot;produce a polished PDF.&quot; So I gave my agents one </summary>
-    <author><name>Gerardo Barrera</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
