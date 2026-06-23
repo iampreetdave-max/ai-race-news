@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-22T22:08:14Z</updated>
+  <updated>2026-06-23T00:12:15Z</updated>
   <entry>
     <title>Daybreak: Tools for securing every organization in the world</title>
     <link href="https://openai.com/index/daybreak-securing-the-world" rel="alternate"/>
@@ -30,6 +30,15 @@
     <updated>2026-06-21T23:00:00Z</updated>
     <summary type="text">Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>agent sandboxes are the new enterprise desktop</title>
+    <link href="https://dev.to/pvgomes/agent-sandboxes-are-the-new-enterprise-desktop-d18" rel="alternate"/>
+    <id>https://dev.to/pvgomes/agent-sandboxes-are-the-new-enterprise-desktop-d18</id>
+    <updated>2026-06-23T00:02:04Z</updated>
+    <summary type="text">GitHub put a normal-sounding feature into public preview this month: cloud and local sandboxes for Copilot. Normal is doing a lot of work there. The release says Copilot can now run inside secure, isolated sandboxes, either locally on the developer machine or in a GitHub-hosted cloud environment. Local mode restricts the filesystem, network, and system capabilities available to shell commands star</summary>
+    <author><name>Paulo Victor Leite Lima Gomes</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -208,6 +217,16 @@
     <category term="llm"/>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code</title>
+    <link href="https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything</id>
+    <updated>2026-06-22T23:43:51Z</updated>
+    <summary type="text">This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance, describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA, but since it described itself as 0.2B I decided to try and get it runnin</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What Is CLAUDE.md? A Practical Guide to Configuring Claude Code</title>
@@ -443,23 +462,5 @@
     <updated>2026-06-19T19:44:24Z</updated>
     <summary type="text">It was an ordinary Tuesday. The API was running, tests were passing, Docker came up on the first try. We were already imagining our first clients — B2B integrations, Telegram bots, deals. Then someone on the team said: &quot;What if we try to break everything first?&quot; Good idea. It almost always turns out things break faster than you expect. What We Were Building An analytical API for assessing Solana t</summary>
     <author><name>VeritasLab</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions</title>
-    <link href="https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/</id>
-    <updated>2026-06-18T19:02:14Z</updated>
-    <summary type="text">Claude Code can now turn work results into interactive web pages called &quot;artifacts&quot; and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ChatGPT becomes MUCH smarter when most sleeps</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1ubkklr/chatgpt_becomes_much_smarter_when_most_sleeps/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1ubkklr/chatgpt_becomes_much_smarter_when_most_sleeps/</id>
-    <updated>2026-06-21T08:21:13Z</updated>
-    <summary type="text">The absolute peak global sleep window occurs between 19:00 and 03:00 GMT when 80% (peak) of the world's population are at sleep, meaning OpenAI's servers are underutilized. The difference in GPT's &quot;IQ&quot; is dramatic, So dramatic in fact, that we have decided to work night-time from about 01:00 AM to 10:00 AM local time, with critical Codex and other OpenAI dependent systems. After 9-10 AM the fuckup</summary>
-    <author><name>/u/AsleepDocument7313</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
