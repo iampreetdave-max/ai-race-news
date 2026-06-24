@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-24T20:51:06Z</updated>
+  <updated>2026-06-24T22:22:21Z</updated>
   <entry>
     <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
     <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
@@ -31,6 +31,37 @@
     <updated>2026-06-24T10:00:00Z</updated>
     <summary type="text">Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technical work. According to OpenAI, the deployment covers all Samsung Electronics employees in Korea and all Device eXperience employees worldwide. The DX division includes smartphones, consumer electronics, and home appliances. Samsung plans to use […] The po</summary>
     <author><name>Muhammad Zulhusni</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Uber Burned Through Its Entire AI Coding Budget in 4 Months. Here's What Smart Teams Do Instead.</title>
+    <link href="https://dev.to/aplomb2/uber-burned-through-its-entire-ai-coding-budget-in-4-months-heres-what-smart-teams-do-instead-2792" rel="alternate"/>
+    <id>https://dev.to/aplomb2/uber-burned-through-its-entire-ai-coding-budget-in-4-months-heres-what-smart-teams-do-instead-2792</id>
+    <updated>2026-06-24T22:03:26Z</updated>
+    <summary type="text">The AI coding bill just became everyone's problem. In the last two weeks alone: Uber blew through its entire 2026 Claude Code budget by April and capped employees at $1,500/month Gartner reported that 23% of tech leaders now spend $200-500 per developer per month on AI coding tokens alone GitHub flipped Copilot to usage-based billing, turning a predictable $19/seat into an open-ended credit drain </summary>
+    <author><name>Bo Shen</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Augmentation Gap: Why Using AI Isnt the Same as Engineering With It</title>
+    <link href="https://dev.to/amrree/the-augmentation-gap-why-using-ai-isnt-the-same-as-engineering-with-it-1525" rel="alternate"/>
+    <id>https://dev.to/amrree/the-augmentation-gap-why-using-ai-isnt-the-same-as-engineering-with-it-1525</id>
+    <updated>2026-06-24T21:50:25Z</updated>
+    <summary type="text">The Augmentation Gap: Why Using AI Isn't the Same as Engineering With It Three months running an AI agent full-time has clarified something I didn't expect to learn: most engineers use AI. Few actually engineer with it. There's a gap forming in the engineering world. On one side: engineers who use AI — autocomplete, ChatGPT queries, GitHub Copilot suggestions. They're faster at some tasks. They us</summary>
+    <author><name>Pixelwitch</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My Journey as a Full Stack and AI Developer</title>
+    <link href="https://dev.to/daiki951015/my-journey-as-a-full-stack-and-ai-developer-1akk" rel="alternate"/>
+    <id>https://dev.to/daiki951015/my-journey-as-a-full-stack-and-ai-developer-1akk</id>
+    <updated>2026-06-24T21:45:54Z</updated>
+    <summary type="text">Hello everyone! 👋 I am a Full Stack and AI Developer with a passion for building intelligent applications that solve real-world problems. Over the past several years, I have worked with technologies such as Python, FastAPI, Django, React, TypeScript, PostgreSQL, and cloud platforms to develop scalable web applications and AI-powered solutions. My primary interests in AI include: Large Language Mod</summary>
+    <author><name>Daiki Yamamoto</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -410,32 +441,5 @@
     <summary type="text">LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigati</summary>
     <author><name>Zhizhong Su</name></author>
     <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>How I Stopped Duplicating AI Skills Across Claude Code, Cursor, Codex, Gemini CLI, and Other Tools</title>
-    <link href="https://dev.to/moatazhamada/how-i-stopped-duplicating-ai-skills-across-claude-code-cursor-codex-gemini-cli-and-other-tools-40ap" rel="alternate"/>
-    <id>https://dev.to/moatazhamada/how-i-stopped-duplicating-ai-skills-across-claude-code-cursor-codex-gemini-cli-and-other-tools-40ap</id>
-    <updated>2026-06-22T15:35:18Z</updated>
-    <summary type="text">Has anyone else ended up maintaining the same AI skill in multiple places? I use Claude Code, Codex, Cursor, Gemini CLI, Kimi, and several other AI tools. Over time, I accumulated a huge collection of skills and workflows. The annoying part wasn't creating them. It was keeping them synchronized. A skill would exist in one format for Claude Code, another for Cursor, another for Gemini, and so on. E</summary>
-    <author><name>Moataz Mohamed</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Trust the harness, not the model: a weekend of local agents building their own guardrails</title>
-    <link href="https://dev.to/defilan/trust-the-harness-not-the-model-a-weekend-of-local-agents-building-their-own-guardrails-52nl" rel="alternate"/>
-    <id>https://dev.to/defilan/trust-the-harness-not-the-model-a-weekend-of-local-agents-building-their-own-guardrails-52nl</id>
-    <updated>2026-06-22T15:27:10Z</updated>
-    <summary type="text">Cross-posted from the LLMKube blog. A local 27B coding model, running on hardware in my house, is a coin flip. Some runs it nails the fix in twenty minutes. Some runs it edits the wrong file, writes a test that passes no matter what the code does, and tells you it's done. The bet behind LLMKube's Foreman was never that I would find a local model good enough to trust. It was that I could build a ha</summary>
-    <author><name>Christopher Maher</name></author>
-  </entry>
-  <entry>
-    <title>DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/</id>
-    <updated>2026-06-24T02:03:34Z</updated>
-    <summary type="text">DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining. High diversity: Tasks span a broad pool of 91 repositories across 5 languages. Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code </summary>
-    <author><name>/u/we_are_mammals</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
