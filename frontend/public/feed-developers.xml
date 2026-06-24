@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-24T18:54:33Z</updated>
+  <updated>2026-06-24T20:51:06Z</updated>
+  <entry>
+    <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
+    <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/</id>
+    <updated>2026-06-24T19:08:36Z</updated>
+    <summary type="text">In this tutorial, we build an OpenHarness style agent harness from scratch to see how a practical agent system works. We recreate the core building blocks: tool use, typed tool schemas, permissions, lifecycle hooks, memory, skills, context compaction, retry logic, cost tracking, and multi-agent coordination. We expose the full control flow instead of treating the framework as a black box. We keep </summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question</title>
     <link href="https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/" rel="alternate"/>
@@ -22,6 +32,16 @@
     <summary type="text">Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technical work. According to OpenAI, the deployment covers all Samsung Electronics employees in Korea and all Device eXperience employees worldwide. The DX division includes smartphones, consumer electronics, and home appliances. Samsung plans to use […] The po</summary>
     <author><name>Muhammad Zulhusni</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a RAG App, Then Asked It What Car I Like. It Didn't Know.</title>
+    <link href="https://dev.to/mido-dev/i-built-a-rag-app-then-asked-it-what-car-i-like-it-didnt-know-583n" rel="alternate"/>
+    <id>https://dev.to/mido-dev/i-built-a-rag-app-then-asked-it-what-car-i-like-it-didnt-know-583n</id>
+    <updated>2026-06-24T20:33:23Z</updated>
+    <summary type="text">TL;DR: Phase 1 of a from-scratch RAG app — Spring AI, pgvector, local Ollama — ends with a working pipeline and two failures that look identical from the outside but have nothing to do with each other. One was a chunking bug. The other was a 3B model running out of brain. Here's how I told them apart. Why build this I'm finishing my apprenticeship as a IT specialist in application development and </summary>
+    <author><name>Dogukan Karademir</name></author>
+    <category term="tutorial"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>[</title>
@@ -417,51 +437,5 @@
     <summary type="text">DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining. High diversity: Tasks span a broad pool of 91 repositories across 5 languages. Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code </summary>
     <author><name>/u/we_are_mammals</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Is the cache 4m23s Line in Claude Code's Status Bar Actually Accurate?</title>
-    <link href="https://dev.to/leeguoo/is-the-cache-4m23s-line-in-claude-codes-status-bar-actually-accurate-cl" rel="alternate"/>
-    <id>https://dev.to/leeguoo/is-the-cache-4m23s-line-in-claude-codes-status-bar-actually-accurate-cl</id>
-    <updated>2026-06-22T10:19:13Z</updated>
-    <summary type="text">💡 Originally published on my blog blog.leeguoo.com — field notes on reverse engineering, AI agents, and building things that ship. In the status bar cs / claude-statusbar I wrote for Claude Code, there’s a line that says cache 4m23s: green, ticking down every second, then turning into a red cache COLD when it reaches the end. Someone asked me: how exactly is this number calculated, and is it accur</summary>
-    <author><name>郭立</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AST blueprint generator for better AI understanding</title>
-    <link href="https://dev.to/hrudulmmn/ast-blueprint-generator-for-better-ai-understanding-1ecn" rel="alternate"/>
-    <id>https://dev.to/hrudulmmn/ast-blueprint-generator-for-better-ai-understanding-1ecn</id>
-    <updated>2026-06-22T10:11:20Z</updated>
-    <summary type="text">I Built Crespo: Turning Repositories into AI-Ready Codebase Blueprints Over the last few months, I've been using AI coding assistants extensively for learning, debugging, and understanding unfamiliar codebases. One problem kept showing up: Before an AI can help effectively, it needs context about the project. For small projects, this isn't a big issue. But for larger repositories, I often found my</summary>
-    <author><name>Hrudul Krishna K V</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI expands Daybreak with Patch the Planet and full GPT-5.5-Cyber release</title>
-    <link href="https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/</id>
-    <updated>2026-06-22T22:25:38Z</updated>
-    <summary type="text">OpenAI Group PBC today expanded its Daybreak cybersecurity program with a new open-source patching initiative called Patch the Planet, an updated Codex Security plugin, a partner program and the full release of its most capable defensive artificial intelligence model, GPT-5.5-Cyber. The push marks a shift in how OpenAI talks about AI and security. The company […] The post OpenAI expands Daybreak w</summary>
-    <author><name>Duncan Riley</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OPFS + Pyodide test harness</title>
-    <link href="https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything</id>
-    <updated>2026-06-23T18:58:54Z</updated>
-    <summary type="text">Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer. That's what OFPS (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers. Tags: br</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why I Think Most AI Agents Are Overengineered</title>
-    <link href="https://dev.to/jaideepparashar/why-i-think-most-ai-agents-are-overengineered-249o" rel="alternate"/>
-    <id>https://dev.to/jaideepparashar/why-i-think-most-ai-agents-are-overengineered-249o</id>
-    <updated>2026-06-22T04:48:31Z</updated>
-    <summary type="text">AI agents are everywhere. Multi-agent systems. Agent swarms. Autonomous teams. Planning agents. Self-improving agents. It seems every week a new framework appears promising to build the next generation of autonomous AI systems. After spending considerable time studying and experimenting with AI workflows, I have come to a simple conclusion: I think most AI agents are overengineered. That doesn't m</summary>
-    <author><name>Jaideep Parashar</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
