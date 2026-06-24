@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-23T23:12:01Z</updated>
+  <updated>2026-06-24T03:57:53Z</updated>
   <entry>
     <title>OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark</title>
     <link href="https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/" rel="alternate"/>
@@ -14,6 +14,65 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Notes on adversarial paraphrasing: a paper review</title>
+    <link href="https://dev.to/deitch83919/notes-on-adversarial-paraphrasing-a-paper-review-214o" rel="alternate"/>
+    <id>https://dev.to/deitch83919/notes-on-adversarial-paraphrasing-a-paper-review-214o</id>
+    <updated>2026-06-24T03:24:40Z</updated>
+    <summary type="text">Just finished reading Saha et al. arXiv 2506.07001 on adversarial paraphrasing for AI detector evasion. Key claim: detector-guided paraphrasing with RoBERTa as reward reduces TPR by 87.88 percent across Binoculars, Fast-DetectGPT, Ghostbuster, RADAR, GPTZero. Universal, training-free. What surprised me: the approach works even on detectors that were trained with adversarial examples baked in. Sugg</summary>
+    <author><name>Courtlyn Deitch</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DiffusionBench: On Holistic Evaluation of Diffusion Transformers</title>
+    <link href="https://arxiv.org/abs/2606.24888v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24888v1</id>
+    <updated>2026-06-23T17:59:55Z</updated>
+    <summary type="text">Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternative, i.e., text-to-image (T2I) generation, is perceived as too costly or inconvenient to train and e</summary>
+    <author><name>Liang Zheng</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases</title>
+    <link href="https://arxiv.org/abs/2606.24883v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24883v1</id>
+    <updated>2026-06-23T17:58:59Z</updated>
+    <summary type="text">Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ag</summary>
+    <author><name>Zongwei Zhou</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM</title>
+    <link href="https://arxiv.org/abs/2606.24796v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24796v1</id>
+    <updated>2026-06-23T16:48:58Z</updated>
+    <summary type="text">3D Gaussian Splatting (3DGS) has garnered significant attention in Simultaneous Localization and Mapping (SLAM) due to its advances in capturing fine-grained geometry features and synthesizing novel views. For SLAM in large-scale scenes, such as autonomous driving, 3DGS-SLAM faces a critical limitation: memory consumption increases continuously over time as Gaussian points accumulate, leading to p</summary>
+    <author><name>Yang Zhao</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>VSANet: View-aware Sparse Attention Network for Light Field Image Denoising</title>
+    <link href="https://arxiv.org/abs/2606.24737v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24737v1</id>
+    <updated>2026-06-23T16:00:44Z</updated>
+    <summary type="text">Light field (LF) image denoising is challenging due to the high-dimensional structure of LF data. While noise is independent across sub-aperture images, scene content exhibits strong cross-view correlations. We introduce VSANet, a view-aware sparse attention network for LF denoising. Specifically, we propose a view-aware sparse attention (VSA) block that represents the 4D LF feature map as a unifi</summary>
+    <author><name>Aurobinda Routray</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Evaluating the Interpretability of Sparse Autoencoders with Concept Annotations</title>
+    <link href="https://arxiv.org/abs/2606.24716v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24716v1</id>
+    <updated>2026-06-23T15:39:29Z</updated>
+    <summary type="text">Sparse autoencoders (SAEs) are increasingly used to extract interpretable concepts from vision and vision language models, yet existing evaluation methods largely rely on proxy metrics or qualitative inspection rather than measuring semantic correspondence. We present a human-grounded evaluation framework that quantifies alignment between SAE latents and human-annotated concepts, without requiring</summary>
+    <author><name>Begüm Demir</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Stop returning the same &quot;blocked&quot; error from your agent guardrail</title>
@@ -81,15 +140,6 @@
     <author><name>/u/NielsRogge</name></author>
     <category term="open-source"/>
     <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI researchers show small doses of &quot;beneficial trait&quot; training make AI models broadly safer and harder to manipulate</title>
-    <link href="https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/</id>
-    <updated>2026-06-19T10:08:27Z</updated>
-    <summary type="text">OpenAI researchers show that reinforcement learning on desired behavioral traits like truthfulness and corrigibility works across domains. Training on health data also improved deception detection, and the model scored better on 44 out of 53 benchmarks. The approach differs from Anthropic's constitution-based method. The article OpenAI researchers show small doses of &quot;beneficial trait&quot; training ma</summary>
-    <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
   </entry>
 </feed>

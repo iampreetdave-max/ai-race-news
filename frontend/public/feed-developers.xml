@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-23T23:12:01Z</updated>
+  <updated>2026-06-24T03:57:53Z</updated>
   <entry>
     <title>How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python</title>
     <link href="https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/" rel="alternate"/>
@@ -44,6 +44,24 @@
     <category term="tutorial"/>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Open Source Project of the Day (#104): AgentScope 2.0 — Alibaba's Production-Ready Agent Framework Built Around Model Reasoning</title>
+    <link href="https://dev.to/wonderlab/open-source-project-of-the-day-104-agentscope-20-alibabas-production-ready-agent-framework-4o4d" rel="alternate"/>
+    <id>https://dev.to/wonderlab/open-source-project-of-the-day-104-agentscope-20-alibabas-production-ready-agent-framework-4o4d</id>
+    <updated>2026-06-24T03:35:23Z</updated>
+    <summary type="text">Introduction &quot;Build and run agents you can see, understand, and trust.&quot; This is article #104 in the Open Source Project of the Day series. Today's project is AgentScope 2.0 — Alibaba DAMO Academy's open-source production-ready agent framework. The agent framework space is crowded. LangChain centers on chain-based orchestration. AutoGen centers on multi-agent conversation. CrewAI centers on role-ba</summary>
+    <author><name>WonderLab</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Supercharge your AI Coder with a code-graph</title>
+    <link href="https://dev.to/utabadevmonkey/supercharge-your-ai-coder-with-a-code-graph-4je8" rel="alternate"/>
+    <id>https://dev.to/utabadevmonkey/supercharge-your-ai-coder-with-a-code-graph-4je8</id>
+    <updated>2026-06-24T03:19:06Z</updated>
+    <summary type="text">One of the most powerful upgrades you can give any AI developer Introduction AI coding assistants are dazzling on a single file and surprisingly lost on a large one. Point a capable agent at a mature, multi-package codebase and you watch the same pattern every session: it greps for a symbol, opens a dozen files to work out how they fit together, and burns a large slice of its context window simply</summary>
+    <author><name>Tim Wheeler</name></author>
   </entry>
   <entry>
     <title>Build a tarot reader in Node.js with an open 78-card dataset (no scraping)</title>
@@ -100,6 +118,16 @@
     <summary type="text">OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agentic Collaborative Cognition for Zero-Shot 3D Understanding</title>
+    <link href="https://arxiv.org/abs/2606.24649v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.24649v1</id>
+    <updated>2026-06-23T14:44:04Z</updated>
+    <summary type="text">Recent advancements have explored agentic zero-shot 3D understanding by reformulating it as video keyframe understanding with Multimodal Large Language Models (MLLMs). However, existing methods face an intrinsic bottleneck due to the finite observation perspectives inherent in videos and the implicit perception of 3D scenes. In this paper, we propose a collaborative multi-agent framework that assi</summary>
+    <author><name>Yinjie Lei</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -243,6 +271,15 @@
     <updated>2026-06-22T15:27:10Z</updated>
     <summary type="text">Cross-posted from the LLMKube blog. A local 27B coding model, running on hardware in my house, is a coin flip. Some runs it nails the fix in twenty minutes. Some runs it edits the wrong file, writes a test that passes no matter what the code does, and tells you it's done. The bet behind LLMKube's Foreman was never that I would find a local model good enough to trust. It was that I could build a ha</summary>
     <author><name>Christopher Maher</name></author>
+  </entry>
+  <entry>
+    <title>DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/</id>
+    <updated>2026-06-24T02:03:34Z</updated>
+    <summary type="text">DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining. High diversity: Tasks span a broad pool of 91 repositories across 5 languages. Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code </summary>
+    <author><name>/u/we_are_mammals</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Is the cache 4m23s Line in Claude Code's Status Bar Actually Accurate?</title>
@@ -430,43 +467,5 @@
     <updated>2026-06-20T21:46:34Z</updated>
     <summary type="text">Doing the work and being able to explain the work are two different skills. I've had the first one for 8 years. I'm building the second one now. I'm a Cloud Platform Engineer. AWS, Kubernetes, Terraform, Linux. Regulated environments, healthcare, production systems. Real experience. Almost zero public documentation of it. That's the gap I'm closing, starting from Day 1. The platform is KodeKloud. </summary>
     <author><name>Nnamdi Felix Ibe</name></author>
-  </entry>
-  <entry>
-    <title>Data Contracts in Production: Stop Trusting Your Upstream Sources</title>
-    <link href="https://dev.to/gabrielhca/data-contracts-in-production-stop-trusting-your-upstream-sources-3gjl" rel="alternate"/>
-    <id>https://dev.to/gabrielhca/data-contracts-in-production-stop-trusting-your-upstream-sources-3gjl</id>
-    <updated>2026-06-20T19:42:39Z</updated>
-    <summary type="text">Your upstream data source changed a column type last night. Your pipeline ran at 2am, ingested everything without a single error, and by the time your stakeholders opened their dashboards at 9am, the revenue numbers were wrong. No alert fired. No test failed. The pipeline was technically healthy. This is the most common and expensive failure mode in data engineering, and it happens because we buil</summary>
-    <author><name>Gabriel Henrique</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Code Built My SaaS But Couldn't Verify Signup Emails</title>
-    <link href="https://dev.to/zerodrop/claude-code-built-my-saas-but-couldnt-verify-signup-emails-3b0a" rel="alternate"/>
-    <id>https://dev.to/zerodrop/claude-code-built-my-saas-but-couldnt-verify-signup-emails-3b0a</id>
-    <updated>2026-06-20T19:40:01Z</updated>
-    <summary type="text">I've been building with Claude Code for the past few months. It's genuinely changed how I work — I can ship features in hours that used to take days. But I hit a wall I didn't expect. Claude Code built me a complete authentication system. NextAuth, email verification, password reset, the works. Every line of code was correct. The tests passed. The PR looked great. Then I tried to run the E2E tests</summary>
-    <author><name>zerodrop</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cursor vs GitHub Copilot vs Windsurf — Which AI Coding Tool Wins in 2026?</title>
-    <link href="https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le" rel="alternate"/>
-    <id>https://dev.to/aigotranked/cursor-vs-github-copilot-vs-windsurf-which-ai-coding-tool-wins-in-2026-49le</id>
-    <updated>2026-06-20T18:01:15Z</updated>
-    <summary type="text">If you write code in 2026, you've had this argument: Cursor, GitHub Copilot, or Windsurf? They look similar on the surface, but they're built on genuinely different philosophies — and picking the wrong one means fighting your editor instead of shipping. I run AI Got Ranked, where every AI tool is scored on the same six metrics with no paid rankings, so here's the honest, no-hype head-to-head. TL;D</summary>
-    <author><name>AI Got Ranked</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a Finviz Alternative With Claude Code and EODHD API</title>
-    <link href="https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115" rel="alternate"/>
-    <id>https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115</id>
-    <updated>2026-06-20T13:56:19Z</updated>
-    <summary type="text">Most investors think they need more tools to make better decisions. The truth is different. If you're: screening stocks across multiple sources, checking sector performance on a separate site, or tracking ideas in a spreadsheet that's always out of date, you don't have a tools problem. You have a fragmentation problem. A typical investing workflow looks like this: Finviz for screening stocks Yahoo</summary>
-    <author><name>Kevin Meneses González</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
