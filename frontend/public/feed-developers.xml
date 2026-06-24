@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-24T07:51:46Z</updated>
+  <updated>2026-06-24T10:55:34Z</updated>
+  <entry>
+    <title>Samsung opens ChatGPT Enterprise and Codex access after AI restrictions</title>
+    <link href="https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/" rel="alternate"/>
+    <id>https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/</id>
+    <updated>2026-06-24T10:00:00Z</updated>
+    <summary type="text">Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technical work. According to OpenAI, the deployment covers all Samsung Electronics employees in Korea and all Device eXperience employees worldwide. The DX division includes smartphones, consumer electronics, and home appliances. Samsung plans to use […] The po</summary>
+    <author><name>Muhammad Zulhusni</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python</title>
     <link href="https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/" rel="alternate"/>
@@ -33,6 +42,23 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>How I replaced three Azure emulators with one binary, added Key Vault and ACR, and cut my CI setup to a single step</title>
+    <link href="https://dev.to/kamil-mrzyglod/how-i-replaced-three-azure-emulators-with-one-binary-added-key-vault-and-acr-and-cut-my-ci-setup-18o6" rel="alternate"/>
+    <id>https://dev.to/kamil-mrzyglod/how-i-replaced-three-azure-emulators-with-one-binary-added-key-vault-and-acr-and-cut-my-ci-setup-18o6</id>
+    <updated>2026-06-24T10:35:55Z</updated>
+    <summary type="text">For a while, local Azure development in my projects looked like this: Azurite for Blob and Queue Storage, the Microsoft Service Bus Emulator for messaging, the Cosmos DB Emulator for document storage, and nothing at all for Key Vault, Container Registry, or Entra. The last three were either skipped in local runs, mocked, or simply hit against a real Azure subscription when I needed them. That work</summary>
+    <author><name>Kamil Mrzygłód</name></author>
+  </entry>
+  <entry>
+    <title>Where the Hell Do I Put This Token? Syncing Claude Code Secrets to 3 Macs with the 1Password CLI</title>
+    <link href="https://dev.to/coa00/where-the-hell-do-i-put-this-token-syncing-claude-code-secrets-to-3-macs-with-the-1password-cli-3ljl" rel="alternate"/>
+    <id>https://dev.to/coa00/where-the-hell-do-i-put-this-token-syncing-claude-code-secrets-to-3-macs-with-the-1password-cli-3ljl</id>
+    <updated>2026-06-24T10:28:36Z</updated>
+    <summary type="text">Intro At some point I looked up and I had three Macs. There's a clear reason they multiplied: trying to do everything on one machine fell apart. Run a few AI jobs in the background — Claude Code and friends — and they eat memory by the fistful, and the actual work I'm supposed to be doing starts to stutter. Editor lags, browser lags, and I end up in this backwards place where &quot;running AI stops my </summary>
+    <author><name>Kohei Aoki</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Your AI Agent's Memory Should Be Out of Reach. For Everyone Except You.</title>
@@ -442,35 +468,5 @@
     <author><name>Hassan Mehmood</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>My Agentic Engineering Workflow</title>
-    <link href="https://dev.to/wynandpieters/my-agentic-engineering-workflow-2ocm" rel="alternate"/>
-    <id>https://dev.to/wynandpieters/my-agentic-engineering-workflow-2ocm</id>
-    <updated>2026-06-21T12:42:00Z</updated>
-    <summary type="text">Tools Full comparisons and context in my 2026 AI tech stack post. This is just what you need installed to follow the workflow below. Claude Code If you're new, start with the cheat sheet and Anthropic best practices. Security — set this up first: Claude Code Security Hooks — 7-layer prompt injection defence, read guards, canary files Lock down your .env and any git-secret files in .claude/settings</summary>
-    <author><name>Wynand Pieters</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code</title>
-    <link href="https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything</id>
-    <updated>2026-06-22T23:43:51Z</updated>
-    <summary type="text">This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance, describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA, but since it described itself as 0.2B I decided to try and get it runnin</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What Is CLAUDE.md? A Practical Guide to Configuring Claude Code</title>
-    <link href="https://dev.to/promptmaster/what-is-claudemd-a-practical-guide-to-configuring-claude-code-2eb1" rel="alternate"/>
-    <id>https://dev.to/promptmaster/what-is-claudemd-a-practical-guide-to-configuring-claude-code-2eb1</id>
-    <updated>2026-06-21T09:36:53Z</updated>
-    <summary type="text">If you use Claude Code, there is one file that quietly shapes every session: CLAUDE.md. Most developers either do not have one or have one that works against them. Here is what it actually is, in plain terms. The file Claude reads every session CLAUDE.md is a markdown file that Claude Code reads at the start of every conversation. Think of it as your project's constitution — the source of truth fo</summary>
-    <author><name>PromptMaster</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
