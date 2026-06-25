@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-25T12:25:37Z</updated>
+  <updated>2026-06-25T15:42:32Z</updated>
   <entry>
     <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
     <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
@@ -14,6 +14,44 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why do we import 100MB of frameworks to run a 50-line LLM reasoning loop?</title>
+    <link href="https://dev.to/venu_varma/why-do-we-import-100mb-of-frameworks-to-run-a-50-line-llm-reasoning-loop-3afh" rel="alternate"/>
+    <id>https://dev.to/venu_varma/why-do-we-import-100mb-of-frameworks-to-run-a-50-line-llm-reasoning-loop-3afh</id>
+    <updated>2026-06-25T15:31:08Z</updated>
+    <summary type="text">Stop Importing Bloated Frameworks: Build a Python AI Agent from Scratch You want to build an AI agent. So you head to the docs of a popular orchestration framework, copy the boilerplate, import 20 modules, and spin up an agent. It works—until it doesn't. Suddenly, you're looking at a 50-line stack trace originating from a library wrapper. You don't know where the query failed, what the exact promp</summary>
+    <author><name>Venu gopal varma Bhupathiraju</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Risk Stratification as a Data Pipeline: Turning RAF Into a Worklist</title>
+    <link href="https://dev.to/vbc_risk_analytics/risk-stratification-as-a-data-pipeline-turning-raf-into-a-worklist-49k1" rel="alternate"/>
+    <id>https://dev.to/vbc_risk_analytics/risk-stratification-as-a-data-pipeline-turning-raf-into-a-worklist-49k1</id>
+    <updated>2026-06-25T15:08:09Z</updated>
+    <summary type="text">Risk stratification sounds like a clinical strategy, but for the engineers who build it, it's a ranking pipeline. You take a population, score each member's expected need, sort, and hand a care team a prioritized list. This post is about how that pipeline is actually wired in a Medicare Advantage context. ﻿ The goal, stated as a function stratify(population) -&gt; ranked_list_of_members_by_expected_n</summary>
+    <author><name>VBC Risk Analytics</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Not Enough SMEs or Customers to Make Your Evals? Make Some!</title>
+    <link href="https://dev.to/ohkpond/not-enough-smes-or-customers-to-make-your-evals-make-some-11nc" rel="alternate"/>
+    <id>https://dev.to/ohkpond/not-enough-smes-or-customers-to-make-your-evals-make-some-11nc</id>
+    <updated>2026-06-25T15:07:57Z</updated>
+    <summary type="text">TL;DR: When you cannot reach real users or SMEs to build eval data, you can build realistic stand-ins instead. Gather everything you actually know about the user into a knowledge base, use Claude Code to synthesize personas from it, have the people closest to the user validate them, then turn the validated personas into agents that generate multi-turn conversations and edge cases for your eval set</summary>
+    <author><name>Kate Pond</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal</title>
+    <link href="https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/" rel="alternate"/>
+    <id>https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/</id>
+    <updated>2026-06-25T15:00:00Z</updated>
+    <summary type="text">Beat the 8GB VRAM limit. Learn how to run three different LLMs on a single 8GB GPU using C++ layer multiplexing and admission control. The post 3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal appeared first on Towards Data Science.</summary>
+    <author><name>Anubhab Banerjee</name></author>
+    <category term="hardware"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question</title>
@@ -397,22 +435,5 @@
     <summary type="text">Upbound Inc. today released Modelplane, a new open-source tool for managing artificial intelligence inference clusters. San Francisco-based Upbound is backed by $69 million from Alphabet Inc.’s GV fund, Intel Capital and others. It’s best known as the creator of Crossplane, an open-source infrastructure management engine. It’s an upgraded version of the Kubernetes control plane, a […] The post Upb</summary>
     <author><name>Maria Deutscher</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>simonw/browser-compat-db</title>
-    <link href="https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything</id>
-    <updated>2026-06-24T23:59:03Z</updated>
-    <summary type="text">simonw/browser-compat-db Inspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite database. This new GitHub Repo includes a Claude Code for web (Opus 4.8) generated script for doing that using sqlite-utils. I wanted the resulting ~66MB SQLite database to be avai</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>After 8 Months with Codex CLI, Here Is My Advanced AI Coding Workflow</title>
-    <link href="https://dev.to/codewalk/after-8-months-with-codex-cli-here-is-my-advanced-ai-coding-workflow-4j12" rel="alternate"/>
-    <id>https://dev.to/codewalk/after-8-months-with-codex-cli-here-is-my-advanced-ai-coding-workflow-4j12</id>
-    <updated>2026-06-23T09:19:42Z</updated>
-    <summary type="text">Introduction Hi, I’m Haijun, a Full-Stack Developer | AI Enthusiast | Indie Developer. It has been a while since I last wrote an article. I have been genuinely busy recently, mainly pushing forward AI projects inside the company. From requirement breakdown, solution design, frontend and backend development, to Agent workflows, RAG, API integration, and production debugging, I have basically been c</summary>
-    <author><name>Mariner</name></author>
   </entry>
 </feed>
