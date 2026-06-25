@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-25T00:17:55Z</updated>
+  <updated>2026-06-25T05:09:46Z</updated>
   <entry>
     <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
     <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
@@ -121,6 +121,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>In-Context World Modeling for Robotic Control</title>
+    <link href="https://arxiv.org/abs/2606.26025v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.26025v1</id>
+    <updated>2026-06-24T16:53:36Z</updated>
+    <summary type="text">Modern Vision-Language-Action (VLA) models often fail to generalize to novel setups, such as altered camera viewpoints or robot morphologies, because they are typically conditioned only on current observations and language instructions. By ignoring the underlying system configuration as a variable, these models implicitly assume a fixed execution context encountered during training, necessitating </summary>
+    <author><name>Xipeng Qiu</name></author>
+    <category term="robotics"/>
+  </entry>
+  <entry>
     <title>Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable</title>
     <link href="https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/" rel="alternate"/>
     <id>https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/</id>
@@ -136,6 +145,15 @@
     <updated>2026-06-24T15:51:59Z</updated>
     <summary type="text">As web developers, engineering workflows are heavily dependent on the NPM registry. However, the traditional process of searching, auditing, and integrating packages remains highly fragmented. Developers are routinely forced to hop between npmjs.com, GitHub source repositories, and external documentation tabs simply to verify bundle sizes, check dependency trees, or generate setup boilerplate. Fol</summary>
     <author><name>Saiful Siam</name></author>
+  </entry>
+  <entry>
+    <title>OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training</title>
+    <link href="https://arxiv.org/abs/2606.25906v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.25906v1</id>
+    <updated>2026-06-24T14:54:41Z</updated>
+    <summary type="text">With the advancement of artificial intelligence, research on oracle bone scripts has entered a new era. However, existing methods and benchmarks remain largely confined to recognition tasks, overlooking the equally crucial aspect of oracle bone analysis. To address this gap, we propose OracleAnalyser, a reasoning framework for oracle bone analysis based on post-training techniques. Specifically, w</summary>
+    <author><name>Kaicheng Yu</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>LunarSite: An end-to-end ML pipeline for lunar south pole landing site selection</title>
@@ -397,76 +415,5 @@
     <author><name>Sankalp Kulkarni</name></author>
     <category term="llm"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context</title>
-    <link href="https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08" rel="alternate"/>
-    <id>https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08</id>
-    <updated>2026-06-22T21:36:33Z</updated>
-    <summary type="text">Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context Today's Highlights This week's top security news highlights critical operational bugs impacting AI systems, alongside deeper dives into ensuring the integrity of AI-generated content. We also explore how improved context handling in AI coding assistants can subtly enhance generated code security. Codex logging bug may wr</summary>
-    <author><name>soy</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Two undocumented bugs in MCP Apps I found building a task panel for Claude</title>
-    <link href="https://dev.to/adeoluwaadesina/two-undocumented-bugs-in-mcp-apps-i-found-building-a-task-panel-for-claude-4723" rel="alternate"/>
-    <id>https://dev.to/adeoluwaadesina/two-undocumented-bugs-in-mcp-apps-i-found-building-a-task-panel-for-claude-4723</id>
-    <updated>2026-06-22T21:14:25Z</updated>
-    <summary type="text">I spent a week building Wingman, an open source MCP server that renders a persistent task panel inline in Claude conversations using MCP Apps (SEP-1865). The spec is solid. The SDK is solid. But I hit two bugs that cost me most of a weekend each, and neither is documented anywhere I could find. Writing them up here in case they save someone else the time. Bug 1: resourceUri has two valid-looking l</summary>
-    <author><name>Adeolu Adesina</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Build MCP Servers. Here's the Security Hole Nobody Talks About.</title>
-    <link href="https://dev.to/enjoy_kumawat/i-build-mcp-servers-heres-the-security-hole-nobody-talks-about-41b6" rel="alternate"/>
-    <id>https://dev.to/enjoy_kumawat/i-build-mcp-servers-heres-the-security-hole-nobody-talks-about-41b6</id>
-    <updated>2026-06-22T19:08:55Z</updated>
-    <summary type="text">MCP — the Model Context Protocol — is having its moment. It's the &quot;USB-C of AI&quot;: one standard plug, and suddenly your agent can read your GitHub, query your database, hit your internal APIs, post to Slack. I've built a few MCP servers myself. They're genuinely great. They're also the most casually-installed backdoor in modern dev tooling, and almost nobody talks about why. Here's the part the hype</summary>
-    <author><name>Enjoy Kumawat</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Vibe-Coded Infrastructure: How to Ship Fast Without Torching Production</title>
-    <link href="https://dev.to/jjoyneriv/vibe-coded-infrastructure-how-to-ship-fast-without-torching-production-3l83" rel="alternate"/>
-    <id>https://dev.to/jjoyneriv/vibe-coded-infrastructure-how-to-ship-fast-without-torching-production-3l83</id>
-    <updated>2026-06-22T19:05:48Z</updated>
-    <summary type="text">You described what you wanted in plain English, the model wrote the Terraform, you ran apply, and it worked. No docs, no Stack Overflow, no fighting HCL syntax for an hour. That's vibe coding — building by describing intent and riding the model's output — and for infrastructure it is genuinely, addictively fast. It's also how you accidentally terraform destroy a production VPC at 2 p.m. on a Tuesd</summary>
-    <author><name>James Joyner</name></author>
-  </entry>
-  <entry>
-    <title>A terminal theme tuned for prose, not syntax highlighting</title>
-    <link href="https://dev.to/palo_alto_ai/a-terminal-theme-tuned-for-prose-not-syntax-highlighting-3782" rel="alternate"/>
-    <id>https://dev.to/palo_alto_ai/a-terminal-theme-tuned-for-prose-not-syntax-highlighting-3782</id>
-    <updated>2026-06-22T19:05:47Z</updated>
-    <summary type="text">Claude Code is mostly paragraphs. Tool output, reasoning traces, permission prompts — I read dense prose for hours in a terminal built around syntax highlighting conventions, where &quot;readable&quot; means &quot;your keywords pop.&quot; That's the wrong optimization when your screen is 80% English at body size. I built klein-blue to fix that. Four variations, all anchored to Yves Klein's IKB pigment, all verified a</summary>
-    <author><name>J Now</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Context Rot: Why Your AI Coding Agent Gets Dumber Mid-Session (and How I Stopped It)</title>
-    <link href="https://dev.to/enjoy_kumawat/context-rot-why-your-ai-coding-agent-gets-dumber-mid-session-and-how-i-stopped-it-3e9o" rel="alternate"/>
-    <id>https://dev.to/enjoy_kumawat/context-rot-why-your-ai-coding-agent-gets-dumber-mid-session-and-how-i-stopped-it-3e9o</id>
-    <updated>2026-06-22T18:54:14Z</updated>
-    <summary type="text">You've felt it. The first twenty minutes with Claude Code, Cursor, or whatever agent you live in are magic. It nails the refactor, remembers your conventions, one-shots the test. Then, an hour in, it turns into an intern who skipped lunch. It forgets a function you defined ten messages ago. It re-suggests a fix you already rejected. It loops. You start a sentence with &quot;as I said earlier...&quot; and fe</summary>
-    <author><name>Enjoy Kumawat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse</title>
-    <link href="https://arxiv.org/abs/2606.23581v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.23581v1</id>
-    <updated>2026-06-22T16:47:00Z</updated>
-    <summary type="text">Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their context window slides and reasoning iterates, yet every look-back re-encodes from scratch, because prefix caches serve reuse only at a fixed leading position. We show this recompute is avoidable, and identify exactly what naive KV reuse loses: the cross-chunk conditioning a chunk absorbs </summary>
-    <author><name>Gerhard Wellein</name></author>
-  </entry>
-  <entry>
-    <title>HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory</title>
-    <link href="https://arxiv.org/abs/2606.23565v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.23565v1</id>
-    <updated>2026-06-22T16:31:48Z</updated>
-    <summary type="text">LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigati</summary>
-    <author><name>Zhizhong Su</name></author>
-    <category term="robotics"/>
   </entry>
 </feed>
