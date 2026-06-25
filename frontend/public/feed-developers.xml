@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-25T15:42:32Z</updated>
+  <updated>2026-06-25T18:14:07Z</updated>
+  <entry>
+    <title>DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds</title>
+    <link href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/</id>
+    <updated>2026-06-25T17:11:37Z</updated>
+    <summary type="text">DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench Verified, with all weights under the MIT license. The post DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
     <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
@@ -14,6 +24,17 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>&quot;Put a security gateway in front of any MCP server in 5 minutes&quot;</title>
+    <link href="https://dev.to/c6zks4gssndroid/put-a-security-gateway-in-front-of-any-mcp-server-in-5-minutes-5ag0" rel="alternate"/>
+    <id>https://dev.to/c6zks4gssndroid/put-a-security-gateway-in-front-of-any-mcp-server-in-5-minutes-5ag0</id>
+    <updated>2026-06-25T17:45:04Z</updated>
+    <summary type="text">Put a security gateway in front of any MCP server in 5 minutes If you're shipping an AI agent, you've probably wired it up to one or more MCP servers — for filesystem, GitHub, web search, payments. But here's the uncomfortable truth: most MCP setups today have zero auth, no rate limit, no audit log, and no spending control. Anyone who can hit your MCP URL can drain your wallet, exfiltrate your fil</summary>
+    <author><name>Clarence Etnel</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Why do we import 100MB of frameworks to run a 50-line LLM reasoning loop?</title>
@@ -124,6 +145,16 @@
     <updated>2026-06-24T23:28:59Z</updated>
     <summary type="text">I spent three days last month building a specialized API wrapper for a simple Scikit-learn model. Not because the logic was hard—it wasn't. Because I wanted Cursor to be able to run inference on our churn prediction data without me having to manually copy-paste JSON results into the chat. It is a classic engineering trap: the 'Integration Tax.' You have a working Modelbit workspace, you have your </summary>
     <author><name>Renato Marinho</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Exclusive: LucidLink launches MCP server to give AI agents shared access to distributed files</title>
+    <link href="https://siliconangle.com/2026/06/25/exclusive-lucidlink-launches-mcp-server-give-ai-agents-shared-access-distributed-files/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/06/25/exclusive-lucidlink-launches-mcp-server-give-ai-agents-shared-access-distributed-files/</id>
+    <updated>2026-06-25T13:00:00Z</updated>
+    <summary type="text">LucidLink Corp., the maker of a cloud network-attached storage system based on object storage technology, today extended its distributed file system technology into agentic artificial intelligence with the public beta release of a Model Context Protocol server that lets AI agents access shared files across clouds, on-premises systems and edge environments. The company said its […] The post Exclusi</summary>
+    <author><name>Paul Gillin</name></author>
+    <category term="product-launch"/>
     <category term="agents"/>
   </entry>
   <entry>
@@ -326,6 +357,14 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Would having a dedicated programming language specifically for LLMs be a viable solution? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1ufgw7z/would_having_a_dedicated_programming_language/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1ufgw7z/would_having_a_dedicated_programming_language/</id>
+    <updated>2026-06-25T17:38:11Z</updated>
+    <summary type="text">What if there was a new programming language where the meaning of each token was so dense (or perhaps so specific) that an LLM could write robust code with fewer tokens and faster inference? Assuming there’s enough training data, do you think something like this allow an LLM to write better code faster? Rationale: 1) It would allow for faster inference. Fewer tokens required to do the same thing i</summary>
+    <author><name>/u/Spongebubs</name></author>
+  </entry>
+  <entry>
     <title>Supercharge your AI Coder with a code-graph</title>
     <link href="https://dev.to/utabadevmonkey/supercharge-your-ai-coder-with-a-code-graph-4je8" rel="alternate"/>
     <id>https://dev.to/utabadevmonkey/supercharge-your-ai-coder-with-a-code-graph-4je8</id>
@@ -397,43 +436,5 @@
     <author><name>OpenAI Blog</name></author>
     <category term="product-launch"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Agentic Collaborative Cognition for Zero-Shot 3D Understanding</title>
-    <link href="https://arxiv.org/abs/2606.24649v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.24649v1</id>
-    <updated>2026-06-23T14:44:04Z</updated>
-    <summary type="text">Recent advancements have explored agentic zero-shot 3D understanding by reformulating it as video keyframe understanding with Multimodal Large Language Models (MLLMs). However, existing methods face an intrinsic bottleneck due to the finite observation perspectives inherent in videos and the implicit perception of 3D scenes. In this paper, we propose a collaborative multi-agent framework that assi</summary>
-    <author><name>Yinjie Lei</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Design Deploys to Vercel, WebSockets Go Serverless, and On-Device LLMs Get Serious</title>
-    <link href="https://dev.to/devsignal/claude-design-deploys-to-vercel-websockets-go-serverless-and-on-device-llms-get-serious-2jnh" rel="alternate"/>
-    <id>https://dev.to/devsignal/claude-design-deploys-to-vercel-websockets-go-serverless-and-on-device-llms-get-serious-2jnh</id>
-    <updated>2026-06-23T12:12:13Z</updated>
-    <summary type="text">This week's tooling moves cluster around a theme: collapsing the distance between prototype and production. Vercel shipped WebSocket support in serverless functions, Claude Design wired directly into Vercel deployments, and Apple dropped Core AI—a genuine successor to Core ML that handles 70B-parameter models on-device. The handoff tax is getting cheaper. Claude Design Deploys Directly to Vercel C</summary>
-    <author><name>The Dev Signal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic debuts Claude Tag, a more capable AI teammate that lives within Slack</title>
-    <link href="https://siliconangle.com/2026/06/23/anthropic-debuts-claude-tag-capable-ai-teammate-lives-within-slack/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/23/anthropic-debuts-claude-tag-capable-ai-teammate-lives-within-slack/</id>
-    <updated>2026-06-24T01:25:21Z</updated>
-    <summary type="text">Anthropic PBC today unveiled a new version of its chatbot Claude that lives inside Slack, where it operates like a virtual employee. It’s called Claude Tag, and it’s designed to work across entire organizations, helping multiple employees complete tasks for related projects. It builds on existing agentic artificial intelligence tools offered by Anthropic, including Claude Code […] The post Anthrop</summary>
-    <author><name>Mike Wheatley</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Upbound open-sources Modelplane to optimize inference clusters</title>
-    <link href="https://siliconangle.com/2026/06/23/upbound-open-sources-modelplane-optimize-inference-clusters/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/23/upbound-open-sources-modelplane-optimize-inference-clusters/</id>
-    <updated>2026-06-24T00:31:05Z</updated>
-    <summary type="text">Upbound Inc. today released Modelplane, a new open-source tool for managing artificial intelligence inference clusters. San Francisco-based Upbound is backed by $69 million from Alphabet Inc.’s GV fund, Intel Capital and others. It’s best known as the creator of Crossplane, an open-source infrastructure management engine. It’s an upgraded version of the Kubernetes control plane, a […] The post Upb</summary>
-    <author><name>Maria Deutscher</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
