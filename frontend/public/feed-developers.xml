@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-26T00:14:42Z</updated>
+  <updated>2026-06-26T05:12:41Z</updated>
   <entry>
     <title>DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds</title>
     <link href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/" rel="alternate"/>
@@ -14,6 +14,16 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building a Self-Verifying FTIR Agent with Qwen Function Calling</title>
+    <link href="https://dev.to/bob_lee_2d29b22cee96eb65f/building-a-self-verifying-ftir-agent-with-qwen-function-calling-5he9" rel="alternate"/>
+    <id>https://dev.to/bob_lee_2d29b22cee96eb65f/building-a-self-verifying-ftir-agent-with-qwen-function-calling-5he9</id>
+    <updated>2026-06-26T04:40:16Z</updated>
+    <summary type="text">Built for Track 4: Autopilot Agent — #QwenCloudHackathon Most AI &quot;agents&quot; are API wrappers with a system prompt. Upload data, call one endpoint, return the result. No verification, no reasoning about what went wrong, no ability to self-correct. For the Qwen Cloud Hackathon, I built ChemSpectra Agent — an FTIR spectral analysis system where Qwen-3.7-Max autonomously selects tools, cross-validates e</summary>
+    <author><name>bob lee</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>plugin marketplaces are the new endpoint policy for coding agents</title>
@@ -78,6 +88,14 @@
     <category term="llm"/>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Sculpting NeRF Geometry: Human-Preference Fine-Tuning of a 3D-Aware Face GAN</title>
+    <link href="https://arxiv.org/abs/2606.27305v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.27305v1</id>
+    <updated>2026-06-25T17:26:06Z</updated>
+    <summary type="text">Reinforcement learning from human feedback (RLHF) for 3D generation is now established across a number of works, but most existing pipelines optimise explicit surface representations, often by converting radiance fields into meshes and training heavily on surface-supervised data. We instead fine-tune a pretrained 3D-aware generative model directly from a learned reward over radiance-field density </summary>
+    <author><name>Liam Hodgkinson</name></author>
   </entry>
   <entry>
     <title>Why do we import 100MB of frameworks to run a 50-line LLM reasoning loop?</title>
@@ -423,42 +441,5 @@
     <updated>2026-06-24T03:19:06Z</updated>
     <summary type="text">One of the most powerful upgrades you can give any AI developer Introduction AI coding assistants are dazzling on a single file and surprisingly lost on a large one. Point a capable agent at a mature, multi-package codebase and you watch the same pattern every session: it greps for a symbol, opens a dozen files to work out how they fit together, and burns a large slice of its context window simply</summary>
     <author><name>Tim Wheeler</name></author>
-  </entry>
-  <entry>
-    <title>Build a tarot reader in Node.js with an open 78-card dataset (no scraping)</title>
-    <link href="https://dev.to/merva_yaln_a5acd4a41ba2/build-a-tarot-reader-in-nodejs-with-an-open-78-card-dataset-no-scraping-498c" rel="alternate"/>
-    <id>https://dev.to/merva_yaln_a5acd4a41ba2/build-a-tarot-reader-in-nodejs-with-an-open-78-card-dataset-no-scraping-498c</id>
-    <updated>2026-06-23T22:14:14Z</updated>
-    <summary type="text">I wanted tarot card meanings as clean, structured data for a side project, and quickly hit the usual wall: the good interpretations live in long blog posts, and nobody wants to scrape and parse that. So I ended up packaging all 78 cards as an open, MIT-licensed dataset with npm and Python packages (and an MCP server, more on that at the end). This post is a quick, practical tour: install it, pull </summary>
-    <author><name>Merva Yalçın</name></author>
-  </entry>
-  <entry>
-    <title>I stopped trusting model benchmarks and started running my own eval set, here is what changed[D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1uf53un/i_stopped_trusting_model_benchmarks_and_started/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1uf53un/i_stopped_trusting_model_benchmarks_and_started/</id>
-    <updated>2026-06-25T09:22:10Z</updated>
-    <summary type="text">Three things broke my faith in published benchmarks recently. One, Kimi K2.7 Code shipped with plus 21.8 percent on Kimi Code Bench v2, plus 11 percent on Program Bench, plus 31.5 percent on MLS Bench Lite. All three are Moonshot's own benchmarks. None were submitted to DeepSWE, which is the one independent coding benchmark that actually produces a meaningful spread between models. When a vendor r</summary>
-    <author><name>/u/Additional-Engine402</name></author>
-  </entry>
-  <entry>
-    <title>How to Create Powerful Loops in Claude Code</title>
-    <link href="https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/</id>
-    <updated>2026-06-23T18:00:00Z</updated>
-    <summary type="text">Learn about the concept of loops to power your coding agents. The post How to Create Powerful Loops in Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a multi-agent document-search copilot — Part 1: muddy results, and one strategy per query</title>
-    <link href="https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og" rel="alternate"/>
-    <id>https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og</id>
-    <updated>2026-06-23T17:56:20Z</updated>
-    <summary type="text">Building a multi-agent document-search copilot — Part 1: muddy results, and one strategy per query The first version ranked documents badly — and worse, it ranked them badly in a way that looked fine on the architecture diagram. Those are the bugs that get under my skin: every box is green, every arrow points the right way, and the answer is still wrong. We were building a chat copilot over a regu</summary>
-    <author><name>Rodrigo Diego</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>

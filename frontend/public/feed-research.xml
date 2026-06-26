@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-26T00:14:42Z</updated>
+  <updated>2026-06-26T05:12:41Z</updated>
   <entry>
     <title>How agents are transforming work</title>
     <link href="https://openai.com/index/how-agents-are-transforming-work" rel="alternate"/>
@@ -14,6 +14,33 @@
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance</title>
+    <link href="https://arxiv.org/abs/2606.27371v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.27371v1</id>
+    <updated>2026-06-25T17:59:47Z</updated>
+    <summary type="text">State-of-the-art flow models generate stunning images from text or image prompts. However, they suffer from diversity collapse when generating multiple samples under the same conditioning. Existing methods address this issue via either latent guidance, which has limited effectiveness, or sample selection, which relies on external reward models that incur significant inference-time overhead. In thi</summary>
+    <author><name>R. Venkatesh Babu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>SAM2Matting: Generalized Image and Video Matting</title>
+    <link href="https://arxiv.org/abs/2606.27339v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.27339v1</id>
+    <updated>2026-06-25T17:48:27Z</updated>
+    <summary type="text">Despite impressive advances in image matting, video matting remains challenging due to the inherent gap between high-level tracking, which requires frame-wise understanding, and low-level matting, which focuses on extremely fine-grained details. Existing methods attempt this with expensive and narrowly-scoped video matting datasets, which may limit out-of-domain generalization and compromise track</summary>
+    <author><name>Henghui Ding</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>See &amp; Sniff: Learning Visuo-Olfactory Representations</title>
+    <link href="https://arxiv.org/abs/2606.27307v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.27307v1</id>
+    <updated>2026-06-25T17:26:47Z</updated>
+    <summary type="text">While modern multimodal models integrate vision with language, audio, or touch, olfaction remains largely unexplored due to the lack of paired visuo-olfactory data. We introduce SmellNet-V, a scalable visuo-olfactory dataset built on the insight that odor identity is largely invariant to visual transformations within a semantic category. This allows us to synthetically pair smell-only samples with</summary>
+    <author><name>Arda Senocak</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>RoboAtlas: Contextual Active SLAM</title>
@@ -82,35 +109,5 @@
     <updated>2026-06-25T12:37:44Z</updated>
     <summary type="text">Hello everyone! I'm posting our research work as you might be interested in how we used ML to map part of the brain cells of the human hippocampus :) We used various human brain slices at high resolution (1 micrometer per pixel) and developed a custom segmentation pipeline that uses SoTA whole slice cell segmentation networks, like CellPoseSAM with good zero shot performances. We then refined semi</summary>
     <author><name>/u/V_ector</name></author>
-  </entry>
-  <entry>
-    <title>Looking for arXiv endorsement (eess.AS or cs.SD) [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1uf6iat/looking_for_arxiv_endorsement_eessas_or_cssd_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1uf6iat/looking_for_arxiv_endorsement_eessas_or_cssd_r/</id>
-    <updated>2026-06-25T10:43:15Z</updated>
-    <summary type="text">Hi, I'm an undergrad researcher looking for an arXiv endorsement to submit my first paper in the audio/speech processing domain (keyword spotting on microcontrollers). I've submitted to a peer-reviewed IEEE conference and am awaiting results, but want to get a preprint up in the meantime. If anyone with publishing history in eess.AS or cs.SD could endorse me, I'd really appreciate it. Happy to sha</summary>
-    <author><name>/u/Aadarshadays</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>DiffusionBench: On Holistic Evaluation of Diffusion Transformers</title>
-    <link href="https://arxiv.org/abs/2606.24888v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.24888v1</id>
-    <updated>2026-06-23T17:59:55Z</updated>
-    <summary type="text">Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternative, i.e., text-to-image (T2I) generation, is perceived as too costly or inconvenient to train and e</summary>
-    <author><name>Liang Zheng</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases</title>
-    <link href="https://arxiv.org/abs/2606.24883v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.24883v1</id>
-    <updated>2026-06-23T17:58:59Z</updated>
-    <summary type="text">Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ag</summary>
-    <author><name>Zongwei Zhou</name></author>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>
