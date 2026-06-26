@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-26T05:12:41Z</updated>
+  <updated>2026-06-26T09:35:48Z</updated>
   <entry>
     <title>DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds</title>
     <link href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/" rel="alternate"/>
@@ -14,6 +14,14 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Payload v4: the MCP plugin exposes your collections to LLMs — and it's opt-out</title>
+    <link href="https://dev.to/zawoj/payload-v4-the-mcp-plugin-exposes-your-collections-to-llms-and-its-opt-out-2nlg" rel="alternate"/>
+    <id>https://dev.to/zawoj/payload-v4-the-mcp-plugin-exposes-your-collections-to-llms-and-its-opt-out-2nlg</id>
+    <updated>2026-06-26T09:00:10Z</updated>
+    <summary type="text">@payloadcms/plugin-mcp turns your Payload CMS into an MCP server, exposing your collections as tools for LLMs. Heads up for v4: after a refactor, every collection is now exposed with full CRUD by default. It's opt-out — you disable individual tools rather than enabling them: mcpPlugin({ collections: { // posts is exposed automatically — no entry needed users: { tools: { create: false, update: fals</summary>
+    <author><name>Kacper Zawojski</name></author>
   </entry>
   <entry>
     <title>Building a Self-Verifying FTIR Agent with Qwen Function Calling</title>
@@ -304,6 +312,16 @@
     <summary type="text">A practical data engineering onboarding workflow for environment setup, automated testing, and AI-assisted development. The post Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable appeared first on Towards Data Science.</summary>
     <author><name>Jiayan Yin</name></author>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>How're you deploying LLMs in production now-a-days? What's the best and most affordable way? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1ufyuph/howre_you_deploying_llms_in_production_nowadays/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1ufyuph/howre_you_deploying_llms_in_production_nowadays/</id>
+    <updated>2026-06-26T06:29:59Z</updated>
+    <summary type="text">I've been developing an AI product using LLM APIs (from OpenRouter) but want to deploy an open-source LLM in my own Prod env. which I can control. Few reasons behind this are: - I wanna own the complete stack around my product. - Second I wanna fine-tune the model around my usecase. So, what's the most affordable but a good platform for this? I'm not an AI engineer so don't wanna stuck in CUDA or </summary>
+    <author><name>/u/Necessary_Gazelle211</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The New Standard for NPM Package Discovery: Deep Dive into LibPilot</title>
