@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-25T22:42:14Z</updated>
+  <updated>2026-06-26T00:14:42Z</updated>
   <entry>
     <title>DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds</title>
     <link href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/" rel="alternate"/>
@@ -14,6 +14,15 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>plugin marketplaces are the new endpoint policy for coding agents</title>
+    <link href="https://dev.to/pvgomes/plugin-marketplaces-are-the-new-endpoint-policy-for-coding-agents-19p6" rel="alternate"/>
+    <id>https://dev.to/pvgomes/plugin-marketplaces-are-the-new-endpoint-policy-for-coding-agents-19p6</id>
+    <updated>2026-06-26T00:01:42Z</updated>
+    <summary type="text">GitHub added an enterprise setting this week that looks like the kind of thing most developers will never read about unless it breaks their editor. Enterprise managed settings now support strictKnownMarketplaces for VS Code and GitHub Copilot CLI. In plain English: an organization can restrict which extension and plugin marketplaces are known and allowed inside the developer tools people actually </summary>
+    <author><name>Paulo Victor Leite Lima Gomes</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Notable releases I'm watching: Deno 2.8, Models.dev, DeepSeek V4 Pro permanent pricing</title>
@@ -451,13 +460,5 @@
     <author><name>Rodrigo Diego</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Emacs' lispy-mode: Convolute real-world example!</title>
-    <link href="https://dev.to/vindarel/emacs-lispy-mode-convolute-real-world-example-fe1" rel="alternate"/>
-    <id>https://dev.to/vindarel/emacs-lispy-mode-convolute-real-world-example-fe1</id>
-    <updated>2026-06-23T17:43:07Z</updated>
-    <summary type="text">It took me years to find a real-world use case for lispy-mode's convolute key, bound to C! Here it is :) My original code. There's a loop and error handling inside. I want to move the error handling before the loop. ;; ORIGINAL (defun post-products (products &amp;rest keys) &quot;Call the API, at most 500 products by POST.&quot; (let ((batches (batches products 500))) (loop for batch in batches for i = 1 then (</summary>
-    <author><name>vindarel</name></author>
   </entry>
 </feed>
