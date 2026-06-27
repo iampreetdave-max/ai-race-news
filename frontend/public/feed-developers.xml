@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-26T23:12:39Z</updated>
+  <updated>2026-06-27T03:51:45Z</updated>
   <entry>
     <title>Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer</title>
     <link href="https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/" rel="alternate"/>
@@ -14,6 +14,23 @@
     <author><name>Michelle Horton</name></author>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>从&quot;玩具&quot;到&quot;教材&quot;：一个500行AI框架的自我修养</title>
+    <link href="https://dev.to/llimage/cong-wan-ju-dao-jiao-cai-ge-500xing-aikuang-jia-de-zi-wo-xiu-yang-2nom" rel="alternate"/>
+    <id>https://dev.to/llimage/cong-wan-ju-dao-jiao-cai-ge-500xing-aikuang-jia-de-zi-wo-xiu-yang-2nom</id>
+    <updated>2026-06-27T03:15:07Z</updated>
+    <summary type="text">为什么我要造一个500行的Agent轮子？ 你好，我是 FROST 的作者。 2026年了，Agent 框架多得能让人挑花眼：LangGraph 有 34.5M 月下载量，Dify 在 GitHub 斩获 129.8K Stars，各大厂商都在疯狂推自己的 SDK。这种环境下，再写一个&quot;轮子&quot;，是不是有点多余？ 说实话，我也纠结了很久。 一个困惑：新学者的两难困境 事情要从一次失败的辅导说起。 我帮一个朋友入门 Agent 开发，推荐了 LangChain。结果他学了两个月，还在和 chain.invoke() 搏斗，脑子里依然没有&quot;Agent 到底是怎么工作的&quot;这个概念。 问题出在哪？ 现在的框架太强了，强到把所有的复杂性都藏了起来。 你可以三行代码跑起来一个 Agent，但你也永远不知道它内部发生了什么。就像学开车，你学会了踩油门转弯，但发动机是怎么工作的、变速箱怎么换挡，一概不知。 </summary>
+    <author><name>llimage</name></author>
+  </entry>
+  <entry>
+    <title>Building a Local-First Voice Copilot for the Shell with HoldSpeak and Ollama</title>
+    <link href="https://dev.to/philgrayphilgray/building-a-local-first-voice-copilot-for-the-shell-with-holdspeak-and-ollama-57lm" rel="alternate"/>
+    <id>https://dev.to/philgrayphilgray/building-a-local-first-voice-copilot-for-the-shell-with-holdspeak-and-ollama-57lm</id>
+    <updated>2026-06-27T03:04:40Z</updated>
+    <summary type="text">The Promise: A Private, Voice-Activated Shell The dream of a voice-activated command line is compelling: speak a command, see it executed. But for many developers, piping terminal input through a cloud-based API is a non-starter. This is the promise of a project like karolswdev/HoldSpeak, a cross-platform tool for local voice typing. Could it be the core of a truly local-first, push-to-talk shell </summary>
+    <author><name>Phillip Gray</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>A 6-week study plan for the Claude Certified Architect Foundations exam, based on the published blueprint</title>
@@ -450,25 +467,6 @@
     <updated>2026-06-24T18:34:57Z</updated>
     <summary type="text">[ &quot;# When your $HOME disappears mid-session: building persistent state for a Claude plugin\n\nI've been using Claude Code daily for months and couldn't tell whether I was genuinely improving or just getting faster at the same handful of habits. Anthropic published a study in February that classified 11 observable collaboration behaviors across 9,830 Claude conversations. I wanted to know what mine</summary>
     <author><name>J Now</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python</title>
-    <link href="https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/</id>
-    <updated>2026-06-23T18:31:36Z</updated>
-    <summary type="text">In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2. We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR. We then translate speech into French, German, Spanish, and Italian, and extract word and segment timestamps. We export translated subtitles as an SRT file, test long-form transcription, run batch pro</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How an AI Terminal Assistant Became My Team's Most Productive Engineer - Opencode + Claude + MCP</title>
-    <link href="https://dev.to/velumal09/how-an-ai-terminal-assistant-became-my-teams-most-productive-engineer-opencode-claude-mcp-362i" rel="alternate"/>
-    <id>https://dev.to/velumal09/how-an-ai-terminal-assistant-became-my-teams-most-productive-engineer-opencode-claude-mcp-362i</id>
-    <updated>2026-06-24T18:31:54Z</updated>
-    <summary type="text">Table of Contents The Moment That Changed Everything What It Actually Is The Setup Nobody Believes Is This Simple Focused Sessions — One Agent, One Mission Sub-Agents With Specific Skill Sets Building MCPs for Your Own Stack What We've Actually Achieved How It Became a Force Multiplier for Incident Response From OpenCode to FRIDAY — The Agent That Investigates Incidents Autonomously From FRIDAY to</summary>
-    <author><name>Vinothsingh Elumalai</name></author>
     <category term="llm"/>
   </entry>
 </feed>
