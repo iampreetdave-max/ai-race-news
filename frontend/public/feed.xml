@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-27T21:10:01Z</updated>
+  <updated>2026-06-27T23:07:42Z</updated>
   <entry>
     <title>Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions</title>
     <link href="https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions/" rel="alternate"/>
@@ -169,6 +169,72 @@
     <updated>2026-06-26T23:31:29Z</updated>
     <summary type="text">A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination. The post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Dynamic pricing on Shopify is not a pricing problem. It is a blast-radius problem.</title>
+    <link href="https://dev.to/macmcfall/dynamic-pricing-on-shopify-is-not-a-pricing-problem-it-is-a-blast-radius-problem-2phm" rel="alternate"/>
+    <id>https://dev.to/macmcfall/dynamic-pricing-on-shopify-is-not-a-pricing-problem-it-is-a-blast-radius-problem-2phm</id>
+    <updated>2026-06-27T22:35:39Z</updated>
+    <summary type="text">The first time I watched a dynamic-pricing job touch a live catalog, the algorithm was the part I trusted. The part that scared me was that nothing stood between its output and three thousand real product prices. A stale feed, an off-by-one in a margin floor, and the system would happily write all of it to the storefront. The pricing math was sound. The architecture was a loaded gun. That is the r</summary>
+    <author><name>Mac McFall</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>A Rogue Registry in My Own Backyard: Anatomy of a Two-Line Supply Chain Attack</title>
+    <link href="https://dev.to/sebs/a-rogue-registry-in-my-own-backyard-anatomy-of-a-two-line-supply-chain-attack-5b0h" rel="alternate"/>
+    <id>https://dev.to/sebs/a-rogue-registry-in-my-own-backyard-anatomy-of-a-two-line-supply-chain-attack-5b0h</id>
+    <updated>2026-06-27T22:30:09Z</updated>
+    <summary type="text">The previous parts of this series were written from a comfortable distance. I read the Trend Micro diagrams about Shai-Hulud, I theorised about Docker network egress and rolling keys, and I lectured everyone about phishing training while quietly assuming it would happen to other people's repositories. The universe, being the comedian it is, decided to file a pull request against sebs/etherscan-api</summary>
+    <author><name>Sebastian Schürmann</name></author>
+  </entry>
+  <entry>
+    <title>Building an Artist Attribution Model with PyTorch and ResNet-50</title>
+    <link href="https://dev.to/ghazy001/building-an-artist-attribution-model-with-pytorch-and-resnet-50-2pde" rel="alternate"/>
+    <id>https://dev.to/ghazy001/building-an-artist-attribution-model-with-pytorch-and-resnet-50-2pde</id>
+    <updated>2026-06-27T22:21:53Z</updated>
+    <summary type="text">Introduction Can an AI model look at a painting and predict who created it? That was the main idea behind this project: an artist attribution system built with PyTorch and ResNet-50. The goal was to train a deep learning model on a dataset of paintings and allow it to predict the most likely artist behind a new image. Instead of building a convolutional neural network from scratch, I used transfer</summary>
+    <author><name>Ghazi saoudi</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a RAG System from Scratch — Wrap-up and What Comes Next</title>
+    <link href="https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-wrap-up-and-what-comes-next-2821" rel="alternate"/>
+    <id>https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-wrap-up-and-what-comes-next-2821</id>
+    <updated>2026-06-27T22:21:00Z</updated>
+    <summary type="text">In this final article, we'll recap what we built across the series, consolidate the design decisions, and point to where to go next. What We Built Starting from a blank Python project, we built a complete AI system step by step: 01_setup_db.py pgvector table + extension 02_create_index.py HNSW index (m=16, ef_construction=64) 03_ingest.py Embed documents → store in pgvector 04_search.py Cosine sim</summary>
+    <author><name>Hiroki Kameyama</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Data Centers and Nature - What the fuss is really about?</title>
+    <link href="https://dev.to/harshdeepsingh13/ai-data-centers-and-nature-what-the-fuss-is-really-about-24a2" rel="alternate"/>
+    <id>https://dev.to/harshdeepsingh13/ai-data-centers-and-nature-what-the-fuss-is-really-about-24a2</id>
+    <updated>2026-06-27T22:18:53Z</updated>
+    <summary type="text">Every time you ask a chatbot to draft an email, something physical happens a long way away. In a windowless shed the size of a cathedral, thousands of processors light up, draw power from the grid, and dump heat into the air or into water. Multiply that by a billion prompts a day, then by a building boom unlike anything the electricity system has seen in decades, and you arrive at the argument now</summary>
+    <author><name>Harshdeep Singh</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Local AI - How to Run Open Source AI Models Locally</title>
+    <link href="https://dev.to/harshdeepsingh13/local-ai-how-to-run-open-source-ai-models-locally-4pi2" rel="alternate"/>
+    <id>https://dev.to/harshdeepsingh13/local-ai-how-to-run-open-source-ai-models-locally-4pi2</id>
+    <updated>2026-06-27T22:18:27Z</updated>
+    <summary type="text">There is a particular moment that hooks every developer on local AI. You type a question into a terminal, hit enter, and watch a coherent answer stream back — with your Wi-Fi off, no API key, no usage meter ticking, nothing leaving your laptop. The model is just there, running on silicon you already own. Getting to that moment used to require a research-lab pedigree. It no longer does. In 2026, a </summary>
+    <author><name>Harshdeep Singh</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building an Autonomous AI Agent: From Zero to Production in 2026</title>
+    <link href="https://dev.to/noraxai/building-an-autonomous-ai-agent-from-zero-to-production-in-2026-f6j" rel="alternate"/>
+    <id>https://dev.to/noraxai/building-an-autonomous-ai-agent-from-zero-to-production-in-2026-f6j</id>
+    <updated>2026-06-27T22:17:15Z</updated>
+    <summary type="text">Building an Autonomous AI Agent: From Zero to Production Most &quot;AI agents&quot; today are thin wrappers around an API call. They take a prompt, send it to GPT-4, and return the response. That's not an agent — that's a proxy. A real agent has persistent memory, autonomous decision-making, tool use, self-monitoring, and cost optimization. I've been building one called Norax — a 7th-generation autonomous a</summary>
+    <author><name>Norax AI</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer</title>
@@ -393,68 +459,6 @@
     <updated>2026-06-27T00:33:44Z</updated>
     <summary type="text">After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge. Fable 5, however - the public-facing Mythos-class […]</summary>
     <author><name>Hayden Field</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run</title>
-    <link href="https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/" rel="alternate"/>
-    <id>https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/</id>
-    <updated>2026-06-26T17:24:27Z</updated>
-    <summary type="text">Epoch AI's new MirrorCode benchmark tests whether AI models can recreate complete programs without access to the original code. Claude Opus 4.7 leads with a 56 percent solve rate, rebuilding a 16,000-line toolkit in just 14 hours. But every model tested still fails on the most complex tasks. The article An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>S&amp;P 500 Halts Four-Day Drop To End Jittery Week | The Close 6/26/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-26/the-close-6-26-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-26/the-close-6-26-2026-video</id>
-    <updated>2026-06-26T23:33:21Z</updated>
-    <summary type="text">Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Sony Pictures Entertainment Motion Picture Group Chairman &amp; CEO, Tom Rothman; Former Pro Tennis Player, Caroline Wozniacki; Earn Your Leisure Co-Founders and CEOs, Rashad Bilal &amp; Troy Millings; Forum AI Co-Founder &amp; CEO, Campb</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>I Audited My AWS Account and Here's What I Found</title>
-    <link href="https://dev.to/jas_dev/i-audited-my-aws-account-and-heres-what-i-found-3278" rel="alternate"/>
-    <id>https://dev.to/jas_dev/i-audited-my-aws-account-and-heres-what-i-found-3278</id>
-    <updated>2026-06-27T17:01:02Z</updated>
-    <summary type="text">I finally sat down and did a proper audit of my AWS account. I knew I had projects running and services connected to my domains, but I had never actually gone line by line through the bill. When I did, I found $13.16 in charges across four separate services, some of which I did not even know were running. Here is what I found and what I did about it. AWS is not one bill. It is a lot of meters runn</summary>
-    <author><name>Jas</name></author>
-  </entry>
-  <entry>
-    <title>Hallucinations of &quot;People From Humanity&quot; After Communicating With &quot;Artificial Intelligence&quot;</title>
-    <link href="https://hackernoon.com/hallucinations-of-people-from-humanity-after-communicating-with-artificial-intelligence?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/hallucinations-of-people-from-humanity-after-communicating-with-artificial-intelligence?source=rss</id>
-    <updated>2026-06-27T17:00:00Z</updated>
-    <summary type="text">There are meticulous, tenacious people who have learned to squeeze genuinely serious answers out of smart chats. They're in no hurry to share their method — for each of them, it's a personal competitive advantage, a source of professional authority. And there's a huge mass of users who mostly mess around with AI doing nonsense: asking it to do their work for them, trying to needle it, asking primi</summary>
-    <author><name>Kokhan Serhii</name></author>
-  </entry>
-  <entry>
-    <title>Why your AI agent is flaky — and 7 rules that make it reliable</title>
-    <link href="https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d" rel="alternate"/>
-    <id>https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d</id>
-    <updated>2026-06-27T16:44:23Z</updated>
-    <summary type="text">You built an AI agent. In the demo it was magic. In the wild it loops, hallucinates a tool call, &quot;forgets&quot; the format you asked for twice, and occasionally does something mildly alarming with your filesystem. Here's the uncomfortable truth after shipping a lot of these: a flaky agent is almost never a model problem. It's a specification problem. The model is doing exactly what your prompt, your to</summary>
-    <author><name>Penloom Studio</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to build a production-ready app with Claude Code</title>
-    <link href="https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5" rel="alternate"/>
-    <id>https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5</id>
-    <updated>2026-06-27T16:44:10Z</updated>
-    <summary type="text">Claude Code can build most of an app in a day. The hard part isn't getting something that runs. It's getting something you'd confidently put in front of real users. The gap between those two is where nearly every project I've shipped with it started to unravel. The fix isn't a cleverer prompt. It's process. Here's what actually moved my builds from demo to something I'd deploy. Write the thing dow</summary>
-    <author><name>John Pitarresi</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>US Allows Trusted Partners to Use Anthropic’s Mythos 5 AI Model</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-06-26/us-allows-trusted-partners-to-use-anthropic-s-mythos-5-ai-model" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-06-26/us-allows-trusted-partners-to-use-anthropic-s-mythos-5-ai-model</id>
-    <updated>2026-06-26T23:02:41Z</updated>
-    <summary type="text">The US eased restrictions on the use of Anthropic PBC’s high-end Mythos 5 artificial intelligence model for “trusted partners,” according to a letter from the Commerce Department.</summary>
-    <author><name>Josh Wingrove</name></author>
     <category term="llm"/>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-27T21:10:01Z</updated>
+  <updated>2026-06-27T23:07:42Z</updated>
   <entry>
     <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
     <link href="https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/" rel="alternate"/>
@@ -22,6 +22,34 @@
     <updated>2026-06-26T23:31:29Z</updated>
     <summary type="text">A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination. The post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>A Rogue Registry in My Own Backyard: Anatomy of a Two-Line Supply Chain Attack</title>
+    <link href="https://dev.to/sebs/a-rogue-registry-in-my-own-backyard-anatomy-of-a-two-line-supply-chain-attack-5b0h" rel="alternate"/>
+    <id>https://dev.to/sebs/a-rogue-registry-in-my-own-backyard-anatomy-of-a-two-line-supply-chain-attack-5b0h</id>
+    <updated>2026-06-27T22:30:09Z</updated>
+    <summary type="text">The previous parts of this series were written from a comfortable distance. I read the Trend Micro diagrams about Shai-Hulud, I theorised about Docker network egress and rolling keys, and I lectured everyone about phishing training while quietly assuming it would happen to other people's repositories. The universe, being the comedian it is, decided to file a pull request against sebs/etherscan-api</summary>
+    <author><name>Sebastian Schürmann</name></author>
+  </entry>
+  <entry>
+    <title>Building a RAG System from Scratch — Wrap-up and What Comes Next</title>
+    <link href="https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-wrap-up-and-what-comes-next-2821" rel="alternate"/>
+    <id>https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-wrap-up-and-what-comes-next-2821</id>
+    <updated>2026-06-27T22:21:00Z</updated>
+    <summary type="text">In this final article, we'll recap what we built across the series, consolidate the design decisions, and point to where to go next. What We Built Starting from a blank Python project, we built a complete AI system step by step: 01_setup_db.py pgvector table + extension 02_create_index.py HNSW index (m=16, ef_construction=64) 03_ingest.py Embed documents → store in pgvector 04_search.py Cosine sim</summary>
+    <author><name>Hiroki Kameyama</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building an Autonomous AI Agent: From Zero to Production in 2026</title>
+    <link href="https://dev.to/noraxai/building-an-autonomous-ai-agent-from-zero-to-production-in-2026-f6j" rel="alternate"/>
+    <id>https://dev.to/noraxai/building-an-autonomous-ai-agent-from-zero-to-production-in-2026-f6j</id>
+    <updated>2026-06-27T22:17:15Z</updated>
+    <summary type="text">Building an Autonomous AI Agent: From Zero to Production Most &quot;AI agents&quot; today are thin wrappers around an API call. They take a prompt, send it to GPT-4, and return the response. That's not an agent — that's a proxy. A real agent has persistent memory, autonomous decision-making, tool use, self-monitoring, and cost optimization. I've been building one called Norax — a 7th-generation autonomous a</summary>
+    <author><name>Norax AI</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer</title>
@@ -437,34 +465,5 @@
     <updated>2026-06-25T21:59:12Z</updated>
     <summary type="text">I spent three iterations on an auto-fix pipeline that still doesn't work reliably. Here's what I learned. Loop 1 Wrote a background script. Pull tickets from Azure DevOps, run them through a local model, hand to a coding agent, push the result. Poll → triage → fix → push. Worked 40% of the time on trivial tickets. Anything that crossed file boundaries or needed real context — stalled or hallucinat</summary>
     <author><name>Vilius</name></author>
-  </entry>
-  <entry>
-    <title>I built an AI project manager for dev teams because Jira was too much and Trello was too little — meet Rahnuma.io 🚀</title>
-    <link href="https://dev.to/muhammad_azhar_3826652565/i-built-an-ai-project-manager-for-dev-teams-because-jira-was-too-much-and-trello-was-too-little--4918" rel="alternate"/>
-    <id>https://dev.to/muhammad_azhar_3826652565/i-built-an-ai-project-manager-for-dev-teams-because-jira-was-too-much-and-trello-was-too-little--4918</id>
-    <updated>2026-06-25T21:58:27Z</updated>
-    <summary type="text">After months of building in public, Rahnuma.io is live on Product Hunt today! 🎉 The problem Every dev team I've worked with ends up in the same trap: Jira is too heavy and slows everyone down with ceremony, while Trello/Notion are too light and can't actually tell you if your sprint is on track. Nobody had a tool that combined real project management with AI that actually understands developer wor</summary>
-    <author><name>Muhammad Azhar</name></author>
-  </entry>
-  <entry>
-    <title>How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination</title>
-    <link href="https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/</id>
-    <updated>2026-06-24T19:08:36Z</updated>
-    <summary type="text">In this tutorial, we build an OpenHarness style agent harness from scratch to see how a practical agent system works. We recreate the core building blocks: tool use, typed tool schemas, permissions, lifecycle hooks, memory, skills, context compaction, retry logic, cost tracking, and multi-agent coordination. We expose the full control flow instead of treating the framework as a black box. We keep </summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>&quot;Put a security gateway in front of any MCP server in 5 minutes&quot;</title>
-    <link href="https://dev.to/c6zks4gssndroid/put-a-security-gateway-in-front-of-any-mcp-server-in-5-minutes-5ag0" rel="alternate"/>
-    <id>https://dev.to/c6zks4gssndroid/put-a-security-gateway-in-front-of-any-mcp-server-in-5-minutes-5ag0</id>
-    <updated>2026-06-25T17:45:04Z</updated>
-    <summary type="text">Put a security gateway in front of any MCP server in 5 minutes If you're shipping an AI agent, you've probably wired it up to one or more MCP servers — for filesystem, GitHub, web search, payments. But here's the uncomfortable truth: most MCP setups today have zero auth, no rate limit, no audit log, and no spending control. Anyone who can hit your MCP URL can drain your wallet, exfiltrate your fil</summary>
-    <author><name>Clarence Etnel</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
 </feed>
