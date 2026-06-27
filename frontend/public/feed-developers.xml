@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-27T09:32:42Z</updated>
+  <updated>2026-06-27T11:39:02Z</updated>
   <entry>
     <title>Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer</title>
     <link href="https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/" rel="alternate"/>
@@ -14,6 +14,51 @@
     <author><name>Michelle Horton</name></author>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Using Local Coding Agents</title>
+    <link href="https://magazine.sebastianraschka.com/p/using-local-coding-agents" rel="alternate"/>
+    <id>https://magazine.sebastianraschka.com/p/using-local-coding-agents</id>
+    <updated>2026-06-27T11:21:58Z</updated>
+    <summary type="text">Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions</summary>
+    <author><name>Sebastian Raschka, PhD</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built TokenBoard to track AI coding token usage without uploading prompts or code</title>
+    <link href="https://dev.to/hui_chen_2437f5c7248178f9/i-built-tokenboard-to-track-ai-coding-token-usage-without-uploading-prompts-or-code-39ek" rel="alternate"/>
+    <id>https://dev.to/hui_chen_2437f5c7248178f9/i-built-tokenboard-to-track-ai-coding-token-usage-without-uploading-prompts-or-code-39ek</id>
+    <updated>2026-06-27T11:26:08Z</updated>
+    <summary type="text">AI coding tools are getting good enough that I wanted a simple way to understand usage across real work, not just guesses from billing pages. So I built TokenBoard: https://token-board.com/ It is a small leaderboard and personal stats page for AI coding usage. The local CLI currently supports Codex and reports aggregate metrics such as: tokens sessions messages models estimated cost active days Th</summary>
+    <author><name>Hui Chen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>🧠 AI Context Engineering — Why Great AI Systems Need More Than Great Prompts (Part 1)</title>
+    <link href="https://dev.to/fazal_mansuri_/ai-context-engineering-why-great-ai-systems-need-more-than-great-prompts-part-1-25dd" rel="alternate"/>
+    <id>https://dev.to/fazal_mansuri_/ai-context-engineering-why-great-ai-systems-need-more-than-great-prompts-part-1-25dd</id>
+    <updated>2026-06-27T11:15:39Z</updated>
+    <summary type="text">A couple of years ago, almost every AI discussion revolved around one thing: Prompt Engineering. People shared prompts like: &quot;Use this prompt to become a senior software engineer.&quot; &quot;Use this prompt to write perfect SQL.&quot; &quot;Use this prompt to generate production-ready code.&quot; The assumption was simple: Better prompt = Better AI output. While prompts certainly matter, engineers building production AI </summary>
+    <author><name>Fazal Mansuri</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cheap AI token routing needs fallback receipts</title>
+    <link href="https://dev.to/tokensforge/cheap-ai-token-routing-needs-fallback-receipts-4ic" rel="alternate"/>
+    <id>https://dev.to/tokensforge/cheap-ai-token-routing-needs-fallback-receipts-4ic</id>
+    <updated>2026-06-27T11:06:48Z</updated>
+    <summary type="text">Low-cost AI tokens are great until a user asks why one request cost three times more than the last one. Most routing demos focus on one visible win: send routine work to a cheaper model fall back to a stronger model when the cheap route fails expose everything through one OpenAI-compatible API key That is useful, but it is not enough for production. The confusing spend usually happens in the fallb</summary>
+    <author><name>Tokens Forge</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Four Juejin 2026 AI coding roundups reached the same conclusion, and that is the story</title>
+    <link href="https://dev.to/ninghonggang/four-juejin-2026-ai-coding-roundups-reached-the-same-conclusion-and-that-is-the-story-2l47" rel="alternate"/>
+    <id>https://dev.to/ninghonggang/four-juejin-2026-ai-coding-roundups-reached-the-same-conclusion-and-that-is-the-story-2l47</id>
+    <updated>2026-06-27T11:06:16Z</updated>
+    <summary type="text">I went down a rabbit hole this morning reading four Juejin AI coding tool roundups from 2026 back to back, posted by four different authors on four different dates, and the thing that finally crystallized for me is that they all reached the exact same conclusion — use Cursor for daily edits, use Claude Code for the heavy cross-file refactors, pay for both, do not apologize for the monthly spend. I</summary>
+    <author><name>ninghonggang</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I built a link shortener with a real API (and QR codes that don't look like 2009)</title>
@@ -418,54 +463,6 @@
     <updated>2026-06-24T23:47:34Z</updated>
     <summary type="text">More teams are starting from a prompt now, not a canvas. You describe the thing, an agent builds it, you ship it. It's faster. But the place your team used to leave feedback, Figma comments, was attached to the canvas you just skipped. So the notes have nowhere to land. What's actually happening to Figma Figma went public in the summer of 2025. A year on, the stock sits well below where it opened </summary>
     <author><name>MatttDamon</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop building custom wrappers for your ML models.</title>
-    <link href="https://dev.to/renato_marinho/stop-building-custom-wrappers-for-your-ml-models-1bk" rel="alternate"/>
-    <id>https://dev.to/renato_marinho/stop-building-custom-wrappers-for-your-ml-models-1bk</id>
-    <updated>2026-06-24T23:28:59Z</updated>
-    <summary type="text">I spent three days last month building a specialized API wrapper for a simple Scikit-learn model. Not because the logic was hard—it wasn't. Because I wanted Cursor to be able to run inference on our churn prediction data without me having to manually copy-paste JSON results into the chat. It is a classic engineering trap: the 'Integration Tax.' You have a working Modelbit workspace, you have your </summary>
-    <author><name>Renato Marinho</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What if context compression is a diffusion noise function? Proposal + honest results from untrained-model experiments [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1ug6kyw/what_if_context_compression_is_a_diffusion_noise/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1ug6kyw/what_if_context_compression_is_a_diffusion_noise/</id>
-    <updated>2026-06-26T13:16:29Z</updated>
-    <summary type="text">I'm proposing a way to handle massive context longer than a model's context window by treating semantic compression as the noise function of a diffusion-like process. Instead of denoising masked tokens into coherent text (like DiffusionGemma or Nemotron-Diffusion do for generation), the model reads the source document in multiple passes at decreasing compression levels, heavy summary first, verbat</summary>
-    <author><name>/u/Bravo_Oscar_Zulu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Exclusive: LucidLink launches MCP server to give AI agents shared access to distributed files</title>
-    <link href="https://siliconangle.com/2026/06/25/exclusive-lucidlink-launches-mcp-server-give-ai-agents-shared-access-distributed-files/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/06/25/exclusive-lucidlink-launches-mcp-server-give-ai-agents-shared-access-distributed-files/</id>
-    <updated>2026-06-25T13:00:00Z</updated>
-    <summary type="text">LucidLink Corp., the maker of a cloud network-attached storage system based on object storage technology, today extended its distributed file system technology into agentic artificial intelligence with the public beta release of a Model Context Protocol server that lets AI agents access shared files across clouds, on-premises systems and edge environments. The company said its […] The post Exclusi</summary>
-    <author><name>Paul Gillin</name></author>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Uber Burned Through Its Entire AI Coding Budget in 4 Months. Here's What Smart Teams Do Instead.</title>
-    <link href="https://dev.to/aplomb2/uber-burned-through-its-entire-ai-coding-budget-in-4-months-heres-what-smart-teams-do-instead-2792" rel="alternate"/>
-    <id>https://dev.to/aplomb2/uber-burned-through-its-entire-ai-coding-budget-in-4-months-heres-what-smart-teams-do-instead-2792</id>
-    <updated>2026-06-24T22:03:26Z</updated>
-    <summary type="text">The AI coding bill just became everyone's problem. In the last two weeks alone: Uber blew through its entire 2026 Claude Code budget by April and capped employees at $1,500/month Gartner reported that 23% of tech leaders now spend $200-500 per developer per month on AI coding tokens alone GitHub flipped Copilot to usage-based billing, turning a predictable $19/seat into an open-ended credit drain </summary>
-    <author><name>Bo Shen</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Augmentation Gap: Why Using AI Isnt the Same as Engineering With It</title>
-    <link href="https://dev.to/amrree/the-augmentation-gap-why-using-ai-isnt-the-same-as-engineering-with-it-1525" rel="alternate"/>
-    <id>https://dev.to/amrree/the-augmentation-gap-why-using-ai-isnt-the-same-as-engineering-with-it-1525</id>
-    <updated>2026-06-24T21:50:25Z</updated>
-    <summary type="text">The Augmentation Gap: Why Using AI Isn't the Same as Engineering With It Three months running an AI agent full-time has clarified something I didn't expect to learn: most engineers use AI. Few actually engineer with it. There's a gap forming in the engineering world. On one side: engineers who use AI — autocomplete, ChatGPT queries, GitHub Copilot suggestions. They're faster at some tasks. They us</summary>
-    <author><name>Pixelwitch</name></author>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>
