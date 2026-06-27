@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-27T19:27:29Z</updated>
+  <updated>2026-06-27T21:10:01Z</updated>
   <entry>
     <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
     <link href="https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/" rel="alternate"/>
@@ -41,6 +41,45 @@
     <summary type="text">Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions</summary>
     <author><name>Sebastian Raschka, PhD</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>We Run 9 AI Agents on 2 CPU Cores and 3.6GB RAM: The Engineering Memoir</title>
+    <link href="https://dev.to/zwiserfit/we-run-9-ai-agents-on-2-cpu-cores-and-36gb-ram-the-engineering-memoir-3ad7" rel="alternate"/>
+    <id>https://dev.to/zwiserfit/we-run-9-ai-agents-on-2-cpu-cores-and-36gb-ram-the-engineering-memoir-3ad7</id>
+    <updated>2026-06-27T21:05:20Z</updated>
+    <summary type="text">The Pitch We run 9 AI agents on a server with 2 CPU cores and 3.6 gigabytes of RAM. There's no GPU. There's no Kubernetes cluster. There's not even a cloud VM — it's an Ubuntu box sitting in the back office of a fitness gym in China. And it works. The gym opens every day. Members get their fitness reports interpreted by AI. Coaches get schedules optimized. Investors get due diligence materials pre</summary>
+    <author><name>Suzanne Mok</name></author>
+    <category term="agents"/>
+    <category term="funding"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Creating a Kubernetes scoped kubeconfig by hand is 15 steps of pain. It shouldn't be.</title>
+    <link href="https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig" rel="alternate"/>
+    <id>https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig</id>
+    <updated>2026-06-27T20:54:06Z</updated>
+    <summary type="text">Handing someone least-privilege access to a Kubernetes cluster means assembling a scoped kubeconfig by hand — ServiceAccount, Role, RoleBinding, token, CA, YAML. Here's the full gauntlet, and how Kubexer collapses it. A teammate needs to deploy to one namespace. A CI bot needs read-only access to pods and logs. A contractor needs to poke at team-alpha and nothing else. The right answer is never &quot;h</summary>
+    <author><name>Samer Aburabie</name></author>
+  </entry>
+  <entry>
+    <title>SQL + AI: Real-World Database Solutions You Can Use Today</title>
+    <link href="https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m" rel="alternate"/>
+    <id>https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m</id>
+    <updated>2026-06-27T20:49:39Z</updated>
+    <summary type="text">📦 All code examples in this article are available on GitHub: github.com/andre-carbajal/sql-ai-database-solutions Databases and AI used to live in separate worlds. Your PostgreSQL instance handled structured queries, and your ML pipeline ran somewhere else entirely. That separation is rapidly disappearing. In 2025, your SQL database can store embeddings, answer natural language questions, power sem</summary>
+    <author><name>Andre Carbajal</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Built Air-Cursor - Hand-Gesture Recognition App</title>
+    <link href="https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf" rel="alternate"/>
+    <id>https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf</id>
+    <updated>2026-06-27T20:45:43Z</updated>
+    <summary type="text">Just shipped this: hand tracking via webcam, move your hand = cursor follows. make a fist, hold it = press. open palm = release. colored mist effect around the screen edges so you know it's active. inspired by that old xbox kinect menu system. tech: electron + mediapipe + webgl. desktop app, locally runs, doesn't tank your cpu. totally open source. tested, working, ready to use. github: https://gi</summary>
+    <author><name>Becu Eduard</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Cursor Rules That Actually Improve AI Output (.mdc Project Rules)</title>
@@ -427,41 +466,5 @@
     <category term="llm"/>
     <category term="agents"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Sculpting NeRF Geometry: Human-Preference Fine-Tuning of a 3D-Aware Face GAN</title>
-    <link href="https://arxiv.org/abs/2606.27305v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.27305v1</id>
-    <updated>2026-06-25T17:26:06Z</updated>
-    <summary type="text">Reinforcement learning from human feedback (RLHF) for 3D generation is now established across a number of works, but most existing pipelines optimise explicit surface representations, often by converting radiance fields into meshes and training heavily on surface-supervised data. We instead fine-tune a pretrained 3D-aware generative model directly from a learned reward over radiance-field density </summary>
-    <author><name>Liam Hodgkinson</name></author>
-  </entry>
-  <entry>
-    <title>Why do we import 100MB of frameworks to run a 50-line LLM reasoning loop?</title>
-    <link href="https://dev.to/venu_varma/why-do-we-import-100mb-of-frameworks-to-run-a-50-line-llm-reasoning-loop-3afh" rel="alternate"/>
-    <id>https://dev.to/venu_varma/why-do-we-import-100mb-of-frameworks-to-run-a-50-line-llm-reasoning-loop-3afh</id>
-    <updated>2026-06-25T15:31:08Z</updated>
-    <summary type="text">Stop Importing Bloated Frameworks: Build a Python AI Agent from Scratch You want to build an AI agent. So you head to the docs of a popular orchestration framework, copy the boilerplate, import 20 modules, and spin up an agent. It works—until it doesn't. Suddenly, you're looking at a 50-line stack trace originating from a library wrapper. You don't know where the query failed, what the exact promp</summary>
-    <author><name>Venu gopal varma Bhupathiraju</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Risk Stratification as a Data Pipeline: Turning RAF Into a Worklist</title>
-    <link href="https://dev.to/vbc_risk_analytics/risk-stratification-as-a-data-pipeline-turning-raf-into-a-worklist-49k1" rel="alternate"/>
-    <id>https://dev.to/vbc_risk_analytics/risk-stratification-as-a-data-pipeline-turning-raf-into-a-worklist-49k1</id>
-    <updated>2026-06-25T15:08:09Z</updated>
-    <summary type="text">Risk stratification sounds like a clinical strategy, but for the engineers who build it, it's a ranking pipeline. You take a population, score each member's expected need, sort, and hand a care team a prioritized list. This post is about how that pipeline is actually wired in a Medicare Advantage context. ﻿ The goal, stated as a function stratify(population) -&gt; ranked_list_of_members_by_expected_n</summary>
-    <author><name>VBC Risk Analytics</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Not Enough SMEs or Customers to Make Your Evals? Make Some!</title>
-    <link href="https://dev.to/ohkpond/not-enough-smes-or-customers-to-make-your-evals-make-some-11nc" rel="alternate"/>
-    <id>https://dev.to/ohkpond/not-enough-smes-or-customers-to-make-your-evals-make-some-11nc</id>
-    <updated>2026-06-25T15:07:57Z</updated>
-    <summary type="text">TL;DR: When you cannot reach real users or SMEs to build eval data, you can build realistic stand-ins instead. Gather everything you actually know about the user into a knowledge base, use Claude Code to synthesize personas from it, have the people closest to the user validate them, then turn the validated personas into agents that generate multi-turn conversations and edge cases for your eval set</summary>
-    <author><name>Kate Pond</name></author>
-    <category term="rag"/>
-    <category term="llm"/>
   </entry>
 </feed>

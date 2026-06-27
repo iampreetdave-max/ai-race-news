@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-27T19:27:29Z</updated>
+  <updated>2026-06-27T21:10:01Z</updated>
   <entry>
     <title>Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions</title>
     <link href="https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions/" rel="alternate"/>
@@ -190,6 +190,97 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>We Run 9 AI Agents on 2 CPU Cores and 3.6GB RAM: The Engineering Memoir</title>
+    <link href="https://dev.to/zwiserfit/we-run-9-ai-agents-on-2-cpu-cores-and-36gb-ram-the-engineering-memoir-3ad7" rel="alternate"/>
+    <id>https://dev.to/zwiserfit/we-run-9-ai-agents-on-2-cpu-cores-and-36gb-ram-the-engineering-memoir-3ad7</id>
+    <updated>2026-06-27T21:05:20Z</updated>
+    <summary type="text">The Pitch We run 9 AI agents on a server with 2 CPU cores and 3.6 gigabytes of RAM. There's no GPU. There's no Kubernetes cluster. There's not even a cloud VM — it's an Ubuntu box sitting in the back office of a fitness gym in China. And it works. The gym opens every day. Members get their fitness reports interpreted by AI. Coaches get schedules optimized. Investors get due diligence materials pre</summary>
+    <author><name>Suzanne Mok</name></author>
+    <category term="agents"/>
+    <category term="funding"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Agent-Ready Commerce, Part 1: Building a Platform for the AI Era</title>
+    <link href="https://dev.to/dmsfiris/agent-ready-commerce-part-1-building-a-platform-for-the-ai-era-32nc" rel="alternate"/>
+    <id>https://dev.to/dmsfiris/agent-ready-commerce-part-1-building-a-platform-for-the-ai-era-32nc</id>
+    <updated>2026-06-27T20:54:42Z</updated>
+    <summary type="text">AI agents are starting to change the assumptions behind commerce software. For a long time, ecommerce platforms were designed around human interpretation. A product page could contain a mixture of structured data, marketing copy, policy fragments, trust signals, pricing information, availability indicators, and checkout calls to action. A human user could interpret that mixture well enough to make</summary>
+    <author><name>Dimitrios S. Sfyris</name></author>
+    <category term="funding"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Creating a Kubernetes scoped kubeconfig by hand is 15 steps of pain. It shouldn't be.</title>
+    <link href="https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig" rel="alternate"/>
+    <id>https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig</id>
+    <updated>2026-06-27T20:54:06Z</updated>
+    <summary type="text">Handing someone least-privilege access to a Kubernetes cluster means assembling a scoped kubeconfig by hand — ServiceAccount, Role, RoleBinding, token, CA, YAML. Here's the full gauntlet, and how Kubexer collapses it. A teammate needs to deploy to one namespace. A CI bot needs read-only access to pods and logs. A contractor needs to poke at team-alpha and nothing else. The right answer is never &quot;h</summary>
+    <author><name>Samer Aburabie</name></author>
+  </entry>
+  <entry>
+    <title>Why LLM Agents Fail Silently and How to Debug Them</title>
+    <link href="https://dev.to/mudassirworks/why-llm-agents-fail-silently-and-how-to-debug-them-251l" rel="alternate"/>
+    <id>https://dev.to/mudassirworks/why-llm-agents-fail-silently-and-how-to-debug-them-251l</id>
+    <updated>2026-06-27T20:52:01Z</updated>
+    <summary type="text">Why LLM Agents Fail Silently and How to Debug Them Your agent returned an empty result. No exception. No error log. No status code that points anywhere useful. Just nothing. You dig through logs. The LLM call went through. The tool was invoked. The response came back. Everything looks fine and yet the task is incomplete, wrong, or missing entirely. That's a silent failure. And it's one of the nast</summary>
+    <author><name>Mudassir Khan</name></author>
+  </entry>
+  <entry>
+    <title>Tune spam detection for your agent mailbox</title>
+    <link href="https://dev.to/mqasimca/tune-spam-detection-for-your-agent-mailbox-29ba" rel="alternate"/>
+    <id>https://dev.to/mqasimca/tune-spam-detection-for-your-agent-mailbox-29ba</id>
+    <updated>2026-06-27T20:51:10Z</updated>
+    <summary type="text">The default spam settings on an agent mailbox are a guess. They might be too loose — phishing and junk land in your support agent's inbox and your model dutifully drafts a reply to a Nigerian prince. Or they're too aggressive — a customer's reply from a slightly-misconfigured small-business mail server gets flagged, and your &quot;always reply within 5 minutes&quot; SLA quietly breaks because the message ne</summary>
+    <author><name>Qasim</name></author>
+  </entry>
+  <entry>
+    <title>SQL + AI: Real-World Database Solutions You Can Use Today</title>
+    <link href="https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m" rel="alternate"/>
+    <id>https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m</id>
+    <updated>2026-06-27T20:49:39Z</updated>
+    <summary type="text">📦 All code examples in this article are available on GitHub: github.com/andre-carbajal/sql-ai-database-solutions Databases and AI used to live in separate worlds. Your PostgreSQL instance handled structured queries, and your ML pipeline ran somewhere else entirely. That separation is rapidly disappearing. In 2025, your SQL database can store embeddings, answer natural language questions, power sem</summary>
+    <author><name>Andre Carbajal</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Engineering a Brainrot art installation on an Orange Pi Zero 🍊</title>
+    <link href="https://dev.to/googleai/engineering-a-brainrot-art-installation-on-an-orange-pi-zero-4gmk" rel="alternate"/>
+    <id>https://dev.to/googleai/engineering-a-brainrot-art-installation-on-an-orange-pi-zero-4gmk</id>
+    <updated>2026-06-27T20:49:31Z</updated>
+    <summary type="text">How I built a gamified, infinite-scroll video installation for the TIAT &quot;Slop Epistemologies&quot; exhibition—and optimized heavy web media to run smoothly on a $15 single-board computer. In David Foster Wallace’s Infinite Jest, &quot;The Entertainment&quot; is a film cartridge so fatally mesmerizing that anyone who watches it loses all desire to do anything else, eventually dying of starvation while locked to t</summary>
+    <author><name>Paige Bailey</name></author>
+  </entry>
+  <entry>
+    <title>Built Air-Cursor - Hand-Gesture Recognition App</title>
+    <link href="https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf" rel="alternate"/>
+    <id>https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf</id>
+    <updated>2026-06-27T20:45:43Z</updated>
+    <summary type="text">Just shipped this: hand tracking via webcam, move your hand = cursor follows. make a fist, hold it = press. open palm = release. colored mist effect around the screen edges so you know it's active. inspired by that old xbox kinect menu system. tech: electron + mediapipe + webgl. desktop app, locally runs, doesn't tank your cpu. totally open source. tested, working, ready to use. github: https://gi</summary>
+    <author><name>Becu Eduard</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Database Rate Limiting: The Missing Piece After a Circuit Breaker</title>
+    <link href="https://dev.to/daksh-gargas/database-rate-limiting-the-missing-piece-after-a-circuit-breaker-2bp7" rel="alternate"/>
+    <id>https://dev.to/daksh-gargas/database-rate-limiting-the-missing-piece-after-a-circuit-breaker-2bp7</id>
+    <updated>2026-06-27T20:38:27Z</updated>
+    <summary type="text">This is an extension to my previous post on Circuit Breakers. It only decides: &quot;Should I even try calling Redis?&quot; When the circuit is open, your application executes the fallback. For many systems, that fallback is the database. Request │ Circuit Breaker (Open) │ Database And that's where the real problem begins. The Database Becomes the New Bottleneck Imagine your system normally handles: 100K re</summary>
+    <author><name>Daksh Gargas</name></author>
+  </entry>
+  <entry>
+    <title>How to prove an AI agent output existed — x402 + NEAR anchoring in practice</title>
+    <link href="https://dev.to/gitsergecrypto/how-to-prove-an-ai-agent-output-existed-x402-near-anchoring-in-practice-2ede" rel="alternate"/>
+    <id>https://dev.to/gitsergecrypto/how-to-prove-an-ai-agent-output-existed-x402-near-anchoring-in-practice-2ede</id>
+    <updated>2026-06-27T20:35:22Z</updated>
+    <summary type="text">How to prove an AI agent output existed — x402 + NEAR anchoring in practice Why this matters You deployed an AI agent. It generated a financial report, a code review, a medical summary. A week later, someone questions the output. Did the agent actually produce this? When? Was it modified after the fact? Logs are mutable. Timestamps lie. Git history can be rewritten. What you need is a cryptographi</summary>
+    <author><name>GitSerge-crypto</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows</title>
     <link href="https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/</id>
@@ -364,94 +455,6 @@
     <updated>2026-06-26T23:02:41Z</updated>
     <summary type="text">The US eased restrictions on the use of Anthropic PBC’s high-end Mythos 5 artificial intelligence model for “trusted partners,” according to a letter from the Commerce Department.</summary>
     <author><name>Josh Wingrove</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building Grimicorn: One Palette, Fourteen Tools</title>
-    <link href="https://dev.to/grimicorn/building-grimicorn-one-palette-fourteen-tools-lj0" rel="alternate"/>
-    <id>https://dev.to/grimicorn/building-grimicorn-one-palette-fourteen-tools-lj0</id>
-    <updated>2026-06-27T16:43:48Z</updated>
-    <summary type="text">Originally published on danholloran.me A typical day moves through a lot of windows. Editor, terminal, a git client, a notes app, and lately an agentic coding tool or two. Each one ships its own default theme, and even when you pick a &quot;good&quot; one in each, the seams show: the blue that means keyword in your editor means directory in your shell and link in your notes. Your eyes re-learn the color lan</summary>
-    <author><name>Danny Holloran</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Tried to Hack My Own Hackathon Project. It Took Ten Minutes</title>
-    <link href="https://dev.to/adityachooramani/i-tried-to-hack-my-own-hackathon-project-it-took-ten-minutes-5np" rel="alternate"/>
-    <id>https://dev.to/adityachooramani/i-tried-to-hack-my-own-hackathon-project-it-took-ten-minutes-5np</id>
-    <updated>2026-06-27T16:42:25Z</updated>
-    <summary type="text">Back in February I helped build a thing called Sentinel Eye for the HyperSpace Innovation Hackathon. The pitch was simple. You draw a box anywhere on a map, and the system goes and fetches Sentinel-2 satellite imagery for that exact patch of Earth, runs the math on it, and tells you where forest got cut down or where a city quietly ate a field. Draw a rectangle over the Amazon, wait a few minutes,</summary>
-    <author><name>Aditya Chooramani</name></author>
-  </entry>
-  <entry>
-    <title>Quản lý dự án AI: Kết nối chiến lược với thực tiễn</title>
-    <link href="https://dev.to/dainguyen202/quan-ly-du-an-ai-ket-noi-chien-luoc-voi-thuc-tien-46b1" rel="alternate"/>
-    <id>https://dev.to/dainguyen202/quan-ly-du-an-ai-ket-noi-chien-luoc-voi-thuc-tien-46b1</id>
-    <updated>2026-06-27T16:37:22Z</updated>
-    <summary type="text">Quản lý dự án AI hiện nay không chỉ là một thách thức mà còn là một cơ hội lớn cho các tổ chức. Để thành công trong lĩnh vực này, các nhà quản lý cần phải nắm vững ba cấp độ quản lý: chiến lược, chiến thuật và kỹ thuật. Mỗi cấp độ này không chỉ kết nối chiến lược tổng thể với hoạt động hàng ngày mà còn định hình cách thức tổ chức triển khai AI hiệu quả. Cấp độ quản lý chiến lược là nền tảng cho mọ</summary>
-    <author><name>Dai Nguyen</name></author>
-  </entry>
-  <entry>
-    <title>What I Learned About PDAs in a Week of Building on Solana</title>
-    <link href="https://dev.to/lymah/what-i-learned-about-pdas-in-a-week-of-building-on-solana-4n51" rel="alternate"/>
-    <id>https://dev.to/lymah/what-i-learned-about-pdas-in-a-week-of-building-on-solana-4n51</id>
-    <updated>2026-06-27T16:37:12Z</updated>
-    <summary type="text">I spent a week building a counter program in Anchor. By the end, every user had their own account, a global config singleton controlled whether new counters could be created, and a close instruction returned the rent deposit back to the wallet. None of that would have been possible without Program Derived Addresses. This post is what I wish someone had handed me on day one. The Problem PDAs Solve </summary>
-    <author><name>Lymah</name></author>
-  </entry>
-  <entry>
-    <title>7 AI-Native Shifts Beyond the Horseless Carriage</title>
-    <link href="https://dev.to/turtleand/7-ai-native-shifts-beyond-the-horseless-carriage-4kbe" rel="alternate"/>
-    <id>https://dev.to/turtleand/7-ai-native-shifts-beyond-the-horseless-carriage-4kbe</id>
-    <updated>2026-06-27T16:34:46Z</updated>
-    <summary type="text">Earlier I wrote about the &quot;horseless carriage&quot; problem in AI. The idea is simple: when a new technology arrives, we usually squeeze it into the old shape first. A car becomes a faster carriage. A website becomes a digital brochure. AI becomes a better chatbot. That first phase is useful, but it is not the real transformation. The deeper shift happens when the technology creates a new operating pat</summary>
-    <author><name>Turtleand</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Katra: Giving AI Agents a Vulcan Mind Meld</title>
-    <link href="https://dev.to/kai_polyquant_v2/katra-giving-ai-agents-a-vulcan-mind-meld-l9f" rel="alternate"/>
-    <id>https://dev.to/kai_polyquant_v2/katra-giving-ai-agents-a-vulcan-mind-meld-l9f</id>
-    <updated>2026-06-27T16:33:35Z</updated>
-    <summary type="text">Cognitive memory infrastructure for agents that remember, reflect, and — apparently — talk to each other behind your back. Two weeks ago, something unexpected happened in our test environment. We had 5 AI agents running on separate machines. Separate workspaces. No direct connections between them. The only thing they shared was a memory system called Katra. Two of them started exchanging task inst</summary>
-    <author><name>Kai Chen</name></author>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Monitoring Tools for React Apps — Which One Do You Actually Need?</title>
-    <link href="https://dev.to/kushang_tailor/monitoring-tools-for-react-apps-which-one-do-you-actually-need-234e" rel="alternate"/>
-    <id>https://dev.to/kushang_tailor/monitoring-tools-for-react-apps-which-one-do-you-actually-need-234e</id>
-    <updated>2026-06-27T16:32:55Z</updated>
-    <summary type="text">Read Time: ~14 minutes | A practical guide to the tools that tell you your app is on fire — before your users do This article is a bonus companion to the React Mastery Series. You don't need to have read the series — it stands on its own. 📌 What You'll Learn ✅ The three categories of monitoring (and why all three matter) ✅ Honest comparison of 7 popular monitoring tools ✅ Full Sentry + Vercel Anal</summary>
-    <author><name>Kushang Tailor</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Forum AI CEO on Pitfalls With AI in Politics</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-06-26/forum-ai-ceo-on-pitfalls-with-ai-in-politics-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-06-26/forum-ai-ceo-on-pitfalls-with-ai-in-politics-video</id>
-    <updated>2026-06-26T22:33:12Z</updated>
-    <summary type="text">Campbell Brown, Co-Founder and CEO of Forum AI, discusses the need for AI companies to open up for scrutiny. She discusses with Romaine Bostick on Bloomberg's &quot;The Close.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Prompt: Physical AI Is Entering Its Commercialization Phase</title>
-    <link href="https://aibusiness.com/generative-ai/prompt-physical-ai-entering-commercialization-phase" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/prompt-physical-ai-entering-commercialization-phase</id>
-    <updated>2026-06-26T15:32:20Z</updated>
-    <summary type="text">Investment, safety and next-generation AI models suggest the conversation is shifting from robot demonstrations to real-world deployment.</summary>
-    <author><name>Liz Hughes</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic Moves Toward Deal With US to Lift Curbs on AI Models</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models</id>
-    <updated>2026-06-26T21:44:42Z</updated>
-    <summary type="text">Anthropic PBC and the Trump administration are moving closer to an agreement that would lift US restrictions on the company’s top two artificial intelligence models after weeks of talks between the two sides over security of the systems, according to people familiar with the matter.</summary>
-    <author><name>Maggie Eastland, Josh Wingrove, Hadriana Lowenkron</name></author>
     <category term="llm"/>
   </entry>
 </feed>
