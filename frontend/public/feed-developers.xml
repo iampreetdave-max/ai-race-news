@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-27T15:19:47Z</updated>
+  <updated>2026-06-27T17:16:24Z</updated>
   <entry>
     <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
     <link href="https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/" rel="alternate"/>
@@ -40,6 +40,26 @@
     <updated>2026-06-27T11:21:58Z</updated>
     <summary type="text">Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions</summary>
     <author><name>Sebastian Raschka, PhD</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why your AI agent is flaky — and 7 rules that make it reliable</title>
+    <link href="https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d" rel="alternate"/>
+    <id>https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d</id>
+    <updated>2026-06-27T16:44:23Z</updated>
+    <summary type="text">You built an AI agent. In the demo it was magic. In the wild it loops, hallucinates a tool call, &quot;forgets&quot; the format you asked for twice, and occasionally does something mildly alarming with your filesystem. Here's the uncomfortable truth after shipping a lot of these: a flaky agent is almost never a model problem. It's a specification problem. The model is doing exactly what your prompt, your to</summary>
+    <author><name>Penloom Studio</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to build a production-ready app with Claude Code</title>
+    <link href="https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5" rel="alternate"/>
+    <id>https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5</id>
+    <updated>2026-06-27T16:44:10Z</updated>
+    <summary type="text">Claude Code can build most of an app in a day. The hard part isn't getting something that runs. It's getting something you'd confidently put in front of real users. The gap between those two is where nearly every project I've shipped with it started to unravel. The fix isn't a cleverer prompt. It's process. Here's what actually moved my builds from demo to something I'd deploy. Write the thing dow</summary>
+    <author><name>John Pitarresi</name></author>
+    <category term="tutorial"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -328,6 +348,15 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Hiding messages in the least significant mantissa bits of fine-tuned ONNX model weights [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/</id>
+    <updated>2026-06-27T15:45:36Z</updated>
+    <summary type="text">Hey everyone, I'd like to share my project along with a short explanation of the process and why it came about in the first place. To start off, I'm not exactly the best at cryptography/steganography, in my case it's always been something that sat in the background, as one of the sub-fields needed for another (main) field I'm actually interested in. For this project I tried to look up as much info</summary>
+    <author><name>/u/Admin-ABC-XYZ</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>plugin marketplaces are the new endpoint policy for coding agents</title>
     <link href="https://dev.to/pvgomes/plugin-marketplaces-are-the-new-endpoint-policy-for-coding-agents-19p6" rel="alternate"/>
     <id>https://dev.to/pvgomes/plugin-marketplaces-are-the-new-endpoint-policy-for-coding-agents-19p6</id>
@@ -435,34 +464,6 @@
     <summary type="text">Beat the 8GB VRAM limit. Learn how to run three different LLMs on a single 8GB GPU using C++ layer multiplexing and admission control. The post 3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal appeared first on Towards Data Science.</summary>
     <author><name>Anubhab Banerjee</name></author>
     <category term="hardware"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question</title>
-    <link href="https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/" rel="alternate"/>
-    <id>https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/</id>
-    <updated>2026-06-24T13:00:14Z</updated>
-    <summary type="text">OpenAI deployment chief Arnaud Fournier explains in an interview how DeployCo wants to embed AI deep inside large corporations using its own engineers. He talks about explosive Codex growth, the feedback loop from customers back into model development, and why he thinks the price of AI intelligence has dropped sharply. The article OpenAI's deployment chief on Codex growth, falling AI prices, and t</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>the hybrid inference architecture quietly cutting ai costs by 60%</title>
-    <link href="https://dev.to/monkgs/the-hybrid-inference-architecture-quietly-cutting-ai-costs-by-60-1lfj" rel="alternate"/>
-    <id>https://dev.to/monkgs/the-hybrid-inference-architecture-quietly-cutting-ai-costs-by-60-1lfj</id>
-    <updated>2026-06-25T12:15:27Z</updated>
-    <summary type="text">This post was originally published on Genesis Park. the consensus in 2025 is that optimizing ai costs means compromising on model intelligence—swapping gpt-4 class models for cheaper, less capable alternatives. however, data from recent open-source utility deployments suggests that the real savings aren't coming from cheaper models, but from decoupling reasoning from execution. the architecture of</summary>
-    <author><name>genesispark</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>One Month Into Learning Data Engineering in Public: Here’s What I Didn’t Write About</title>
-    <link href="https://towardsdatascience.com/one-month-into-learning-data-engineering-in-public-heres-what-i-didnt-write-about/" rel="alternate"/>
-    <id>https://towardsdatascience.com/one-month-into-learning-data-engineering-in-public-heres-what-i-didnt-write-about/</id>
-    <updated>2026-06-25T12:00:00Z</updated>
-    <summary type="text">A reflection on the first month of learning data engineering in public, and what actually kept me going. The post One Month Into Learning Data Engineering in Public: Here’s What I Didn’t Write About appeared first on Towards Data Science.</summary>
-    <author><name>Ibrahim Salami</name></author>
     <category term="data"/>
   </entry>
 </feed>
