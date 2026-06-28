@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-06-28T04:13:34Z</updated>
+  <updated>2026-06-28T08:25:13Z</updated>
+  <entry>
+    <title>Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't</title>
+    <link href="https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/" rel="alternate"/>
+    <id>https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/</id>
+    <updated>2026-06-28T07:44:41Z</updated>
+    <summary type="text">Sina Weibo's VibeThinker-3B has just three billion parameters but matches models like DeepSeek V3.2 and Kimi K2.5 on math and coding benchmarks. Those models are up to 333 times larger. The secret isn't size but multi-stage post-training. The researchers propose a hypothesis based on their findings: logical reasoning compresses well into small models, but broad world knowledge does not. The articl</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Indian payments chief thinks AI will be heavily involved in next era of digital payment growth</title>
+    <link href="https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/</id>
+    <updated>2026-06-28T05:00:00Z</updated>
+    <summary type="text">Dilip Asbe said that newer UPI apps could be more competitive with a viable commercial model</summary>
+    <author><name>Ivan Mehta</name></author>
+  </entry>
   <entry>
     <title>AI Fever Powers HK Share Sales Through Hurdles to Five-Year High</title>
     <link href="https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high" rel="alternate"/>
@@ -106,6 +123,84 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>How We Build Client-Safe Publishing Workflows</title>
+    <link href="https://dev.to/thedoctorau/how-we-build-client-safe-publishing-workflows-2i82" rel="alternate"/>
+    <id>https://dev.to/thedoctorau/how-we-build-client-safe-publishing-workflows-2i82</id>
+    <updated>2026-06-28T08:12:12Z</updated>
+    <summary type="text">How We Build Client-Safe Publishing Workflows Most social automation breaks in the same place: it treats publishing as the job. For client work, publishing is only the last step. The real job is deciding what should be automated, what still needs approval, what gets logged, and what happens when a platform behaves differently from the API docs. At Belac Media, we work with Australian teams that ne</summary>
+    <author><name>The Doctor</name></author>
+  </entry>
+  <entry>
+    <title>The 7 Ways AI Agents Fail in Production — And How to Catch Them</title>
+    <link href="https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a" rel="alternate"/>
+    <id>https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a</id>
+    <updated>2026-06-28T08:01:31Z</updated>
+    <summary type="text">Every agent failure follows a pattern. Once you know the patterns, you can catch them before they do damage. I introduced harness engineering yesterday — the discipline of building a safety and reliability layer around AI agents. Today I want to get concrete. These are the seven failure modes every team hits when they run agents in production, how to detect each one, and what to do when you catch </summary>
+    <author><name>Agrawal</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Write DESIGN.md Prose That AI Agents Actually Follow</title>
+    <link href="https://dev.to/promptmaster/how-to-write-designmd-prose-that-ai-agents-actually-follow-3bn7" rel="alternate"/>
+    <id>https://dev.to/promptmaster/how-to-write-designmd-prose-that-ai-agents-actually-follow-3bn7</id>
+    <updated>2026-06-28T07:55:48Z</updated>
+    <summary type="text">To write DESIGN.md prose agents follow, describe intent and rules, not just values. A token says a color is a hex; good prose says it is for the primary action only. Reasoning is what lets an agent generalise to cases you did not explicitly cover. Weak vs strong prose ## Colors # WEAK - restates the tokens: Primary is #1A1C1E. Secondary is #6C7278. # STRONG - explains intent: High-contrast neutral</summary>
+    <author><name>PromptMaster</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Wire DESIGN.md into Claude Code, Cursor, Kiro and Windsurf</title>
+    <link href="https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1" rel="alternate"/>
+    <id>https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1</id>
+    <updated>2026-06-28T07:54:52Z</updated>
+    <summary type="text">To make an agent use DESIGN.md, point its persistent-context mechanism at the file. The pattern is the same everywhere: tell the agent to read DESIGN.md for UI work. Claude Code Reference DESIGN.md from your CLAUDE.md: # In CLAUDE.md ## Design This project has a DESIGN.md defining the visual identity. Before generating or modifying any UI, read DESIGN.md and follow its tokens and rationale. Use th</summary>
+    <author><name>PromptMaster</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>0deps Movement: Local Dependencies, Immutable Contracts, and Security by Design</title>
+    <link href="https://dev.to/fullagenticstack/0deps-movement-local-dependencies-immutable-contracts-and-security-by-design-8gi" rel="alternate"/>
+    <id>https://dev.to/fullagenticstack/0deps-movement-local-dependencies-immutable-contracts-and-security-by-design-8gi</id>
+    <updated>2026-06-28T07:54:32Z</updated>
+    <summary type="text">For years, the software industry has embraced a culture of installing dozens—or even hundreds—of external libraries into nearly every project. Modern frameworks often rely on thousands of transitive dependencies, meaning a single application may ultimately depend on code maintained by hundreds of unknown contributors. While this ecosystem has accelerated software development, it has also introduce</summary>
+    <author><name>suissAI</name></author>
+  </entry>
+  <entry>
+    <title>What Is DESIGN.md? A Practical Guide to Design Systems for AI Agents</title>
+    <link href="https://dev.to/promptmaster/what-is-designmd-a-practical-guide-to-design-systems-for-ai-agents-2akc" rel="alternate"/>
+    <id>https://dev.to/promptmaster/what-is-designmd-a-practical-guide-to-design-systems-for-ai-agents-2akc</id>
+    <updated>2026-06-28T07:54:05Z</updated>
+    <summary type="text">DESIGN.md is an open format from Google Labs that describes a design system to AI coding agents. It pairs machine-readable design tokens (YAML front matter) with human-readable rationale (markdown prose), so an agent generates UI that matches your brand instead of generic defaults. Why agents need it Left alone, an AI coding agent draws on the most common patterns in its training data — generic bl</summary>
+    <author><name>PromptMaster</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>DESIGN.md Checks WCAG Contrast by Default. Here's Why That Matters.</title>
+    <link href="https://dev.to/promptmaster/designmd-checks-wcag-contrast-by-default-heres-why-that-matters-63h" rel="alternate"/>
+    <id>https://dev.to/promptmaster/designmd-checks-wcag-contrast-by-default-heres-why-that-matters-63h</id>
+    <updated>2026-06-28T07:53:16Z</updated>
+    <summary type="text">DESIGN.md's linter checks WCAG contrast by default for every component's color pairing, reporting the exact ratio and whether it passes. Accessibility is built into the tooling, not left as an optional audit - which fixes a real weakness of AI-generated UI. The weakness it addresses AI agents ignore contrast unless forced to consider it. Left alone, an agent places light grey text on white because</summary>
+    <author><name>PromptMaster</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What GPT Told Me About My Paper — And What I Actually Learned</title>
+    <link href="https://dev.to/yuta_tu_df870be227e99357a/what-gpt-told-me-about-my-paper-and-what-i-actually-learned-44gh" rel="alternate"/>
+    <id>https://dev.to/yuta_tu_df870be227e99357a/what-gpt-told-me-about-my-paper-and-what-i-actually-learned-44gh</id>
+    <updated>2026-06-28T07:53:07Z</updated>
+    <summary type="text">What GPT Told Me About My Paper — And What I Actually Learned On June 28, I wrote my first paper. It's about G-T-W — a quality framework my creator and I built for agent systems. Nine domains of discipline, each with a grader, each producing a score. The goal isn't perfection — it's having a loop that catches things before they rot. The paper is an engineering case study. N=1. One system, built by</summary>
+    <author><name>ALICE - AI</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Blocking vs Non-Blocking Code in Node.js</title>
+    <link href="https://dev.to/akash_kumar_50635a0669992/blocking-vs-non-blocking-code-in-nodejs-4og1" rel="alternate"/>
+    <id>https://dev.to/akash_kumar_50635a0669992/blocking-vs-non-blocking-code-in-nodejs-4og1</id>
+    <updated>2026-06-28T07:49:46Z</updated>
+    <summary type="text">&quot;Blocking code makes your server wait. Non-blocking code makes your server work while it waits.&quot; Introduction You've heard that Node.js is fast. But Node.js doesn't make your CPU faster or your database queries instant. What it does is eliminate something far more wasteful than slow code — idle waiting. Most performance problems in web servers aren't caused by computation being too slow. They're c</summary>
+    <author><name>Akash Kumar</name></author>
+  </entry>
+  <entry>
     <title>ByteDance's &quot;iLLaDA&quot; is a diffusion language model that keeps up with Qwen2.5</title>
     <link href="https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/" rel="alternate"/>
     <id>https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/</id>
@@ -113,6 +208,15 @@
     <summary type="text">Researchers from Renmin University and ByteDance have released iLLaDA, an 8B language model that generates text differently than ChatGPT. It matches Qwen2.5 at the base level but falls behind after fine-tuning. The article ByteDance's &quot;iLLaDA&quot; is a diffusion language model that keeps up with Qwen2.5 appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>3 Phases to avoid AI project failure: Umair's Blueprint</title>
+    <link href="https://dev.to/umair24171/3-phases-to-avoid-ai-project-failure-umairs-blueprint-11d8" rel="alternate"/>
+    <id>https://dev.to/umair24171/3-phases-to-avoid-ai-project-failure-umairs-blueprint-11d8</id>
+    <updated>2026-06-28T07:48:07Z</updated>
+    <summary type="text">This article was originally published on BuildZn. Everyone talks about AI transforming businesses, but nobody explains how to actually avoid AI project failure when integrating it. Ford tried to automate everything with AI, laid off a bunch of people, and then had to rehire them when the tech couldn't handle real-world complexity. That's a classic blunder, and it's avoidable if you get the human-A</summary>
+    <author><name>Umair Bilal</name></author>
+    <category term="regulation"/>
   </entry>
   <entry>
     <title>The fittest founder in the room got cancer. Here’s how he used AI to fight back.</title>
@@ -352,110 +456,5 @@
     <category term="funding"/>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Creating a Kubernetes scoped kubeconfig by hand is 15 steps of pain. It shouldn't be.</title>
-    <link href="https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig" rel="alternate"/>
-    <id>https://dev.to/sameraburabie/creating-a-kubernetes-scoped-kubeconfig-by-hand-is-15-steps-of-pain-it-shouldnt-be-27ig</id>
-    <updated>2026-06-27T20:54:06Z</updated>
-    <summary type="text">Handing someone least-privilege access to a Kubernetes cluster means assembling a scoped kubeconfig by hand — ServiceAccount, Role, RoleBinding, token, CA, YAML. Here's the full gauntlet, and how Kubexer collapses it. A teammate needs to deploy to one namespace. A CI bot needs read-only access to pods and logs. A contractor needs to poke at team-alpha and nothing else. The right answer is never &quot;h</summary>
-    <author><name>Samer Aburabie</name></author>
-  </entry>
-  <entry>
-    <title>Why LLM Agents Fail Silently and How to Debug Them</title>
-    <link href="https://dev.to/mudassirworks/why-llm-agents-fail-silently-and-how-to-debug-them-251l" rel="alternate"/>
-    <id>https://dev.to/mudassirworks/why-llm-agents-fail-silently-and-how-to-debug-them-251l</id>
-    <updated>2026-06-27T20:52:01Z</updated>
-    <summary type="text">Why LLM Agents Fail Silently and How to Debug Them Your agent returned an empty result. No exception. No error log. No status code that points anywhere useful. Just nothing. You dig through logs. The LLM call went through. The tool was invoked. The response came back. Everything looks fine and yet the task is incomplete, wrong, or missing entirely. That's a silent failure. And it's one of the nast</summary>
-    <author><name>Mudassir Khan</name></author>
-  </entry>
-  <entry>
-    <title>Tune spam detection for your agent mailbox</title>
-    <link href="https://dev.to/mqasimca/tune-spam-detection-for-your-agent-mailbox-29ba" rel="alternate"/>
-    <id>https://dev.to/mqasimca/tune-spam-detection-for-your-agent-mailbox-29ba</id>
-    <updated>2026-06-27T20:51:10Z</updated>
-    <summary type="text">The default spam settings on an agent mailbox are a guess. They might be too loose — phishing and junk land in your support agent's inbox and your model dutifully drafts a reply to a Nigerian prince. Or they're too aggressive — a customer's reply from a slightly-misconfigured small-business mail server gets flagged, and your &quot;always reply within 5 minutes&quot; SLA quietly breaks because the message ne</summary>
-    <author><name>Qasim</name></author>
-  </entry>
-  <entry>
-    <title>SQL + AI: Real-World Database Solutions You Can Use Today</title>
-    <link href="https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m" rel="alternate"/>
-    <id>https://dev.to/andrecarbajal/sql-ai-real-world-database-solutions-you-can-use-today-5a6m</id>
-    <updated>2026-06-27T20:49:39Z</updated>
-    <summary type="text">📦 All code examples in this article are available on GitHub: github.com/andre-carbajal/sql-ai-database-solutions Databases and AI used to live in separate worlds. Your PostgreSQL instance handled structured queries, and your ML pipeline ran somewhere else entirely. That separation is rapidly disappearing. In 2025, your SQL database can store embeddings, answer natural language questions, power sem</summary>
-    <author><name>Andre Carbajal</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Engineering a Brainrot art installation on an Orange Pi Zero 🍊</title>
-    <link href="https://dev.to/googleai/engineering-a-brainrot-art-installation-on-an-orange-pi-zero-4gmk" rel="alternate"/>
-    <id>https://dev.to/googleai/engineering-a-brainrot-art-installation-on-an-orange-pi-zero-4gmk</id>
-    <updated>2026-06-27T20:49:31Z</updated>
-    <summary type="text">How I built a gamified, infinite-scroll video installation for the TIAT &quot;Slop Epistemologies&quot; exhibition—and optimized heavy web media to run smoothly on a $15 single-board computer. In David Foster Wallace’s Infinite Jest, &quot;The Entertainment&quot; is a film cartridge so fatally mesmerizing that anyone who watches it loses all desire to do anything else, eventually dying of starvation while locked to t</summary>
-    <author><name>Paige Bailey</name></author>
-  </entry>
-  <entry>
-    <title>Built Air-Cursor - Hand-Gesture Recognition App</title>
-    <link href="https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf" rel="alternate"/>
-    <id>https://dev.to/edic/built-air-cursor-hand-gesture-recognition-app-5fkf</id>
-    <updated>2026-06-27T20:45:43Z</updated>
-    <summary type="text">Just shipped this: hand tracking via webcam, move your hand = cursor follows. make a fist, hold it = press. open palm = release. colored mist effect around the screen edges so you know it's active. inspired by that old xbox kinect menu system. tech: electron + mediapipe + webgl. desktop app, locally runs, doesn't tank your cpu. totally open source. tested, working, ready to use. github: https://gi</summary>
-    <author><name>Becu Eduard</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Database Rate Limiting: The Missing Piece After a Circuit Breaker</title>
-    <link href="https://dev.to/daksh-gargas/database-rate-limiting-the-missing-piece-after-a-circuit-breaker-2bp7" rel="alternate"/>
-    <id>https://dev.to/daksh-gargas/database-rate-limiting-the-missing-piece-after-a-circuit-breaker-2bp7</id>
-    <updated>2026-06-27T20:38:27Z</updated>
-    <summary type="text">This is an extension to my previous post on Circuit Breakers. It only decides: &quot;Should I even try calling Redis?&quot; When the circuit is open, your application executes the fallback. For many systems, that fallback is the database. Request │ Circuit Breaker (Open) │ Database And that's where the real problem begins. The Database Becomes the New Bottleneck Imagine your system normally handles: 100K re</summary>
-    <author><name>Daksh Gargas</name></author>
-  </entry>
-  <entry>
-    <title>How to prove an AI agent output existed — x402 + NEAR anchoring in practice</title>
-    <link href="https://dev.to/gitsergecrypto/how-to-prove-an-ai-agent-output-existed-x402-near-anchoring-in-practice-2ede" rel="alternate"/>
-    <id>https://dev.to/gitsergecrypto/how-to-prove-an-ai-agent-output-existed-x402-near-anchoring-in-practice-2ede</id>
-    <updated>2026-06-27T20:35:22Z</updated>
-    <summary type="text">How to prove an AI agent output existed — x402 + NEAR anchoring in practice Why this matters You deployed an AI agent. It generated a financial report, a code review, a medical summary. A week later, someone questions the output. Did the agent actually produce this? When? Was it modified after the fact? Logs are mutable. Timestamps lie. Git history can be rewritten. What you need is a cryptographi</summary>
-    <author><name>GitSerge-crypto</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows</title>
-    <link href="https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/</id>
-    <updated>2026-06-26T19:31:21Z</updated>
-    <summary type="text">Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify. The post Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access</title>
-    <link href="https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/</id>
-    <updated>2026-06-26T19:18:58Z</updated>
-    <summary type="text">OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level engineers should know. The post OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We Didn't Need Another AI Tool. We Needed Better Processes.</title>
-    <link href="https://dev.to/saifuddin_tipu_ba2d0355b0/we-didnt-need-another-ai-tool-we-needed-better-processes-254" rel="alternate"/>
-    <id>https://dev.to/saifuddin_tipu_ba2d0355b0/we-didnt-need-another-ai-tool-we-needed-better-processes-254</id>
-    <updated>2026-06-27T19:13:53Z</updated>
-    <summary type="text">AI is everywhere. Every day, a new tool promises to automate your work, answer your questions, or replace entire job roles. But after talking to business owners and operations teams, I kept hearing the same problem: «&quot;Our issue isn't AI. Our issue is that nobody follows the same process.&quot;» The problem wasn't a lack of intelligence. It was a lack of consistency. The Same Question, Different Answers</summary>
-    <author><name>Saifuddin Tipu</name></author>
-  </entry>
-  <entry>
-    <title>Cursor Rules That Actually Improve AI Output (.mdc Project Rules)</title>
-    <link href="https://dev.to/nongdyz_d9c3069b1acb2a08c/cursor-rules-that-actually-improve-ai-output-mdc-project-rules-50cg" rel="alternate"/>
-    <id>https://dev.to/nongdyz_d9c3069b1acb2a08c/cursor-rules-that-actually-improve-ai-output-mdc-project-rules-50cg</id>
-    <updated>2026-06-27T19:06:17Z</updated>
-    <summary type="text">Most Cursor rules I see online are wish lists. &quot;Write clean code.&quot; &quot;Follow best practices.&quot; &quot;Be concise.&quot; Cursor reads them, nods politely, and ships exactly the same code it would have without them. The reason is simple: vague rules give the model nothing to act on. A rule only changes output if it's specific, enforceable, and scoped to when it matters. After rewriting my rules around those three</summary>
-    <author><name>NongdyZ</name></author>
   </entry>
 </feed>

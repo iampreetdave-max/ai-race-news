@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-28T04:13:34Z</updated>
+  <updated>2026-06-28T08:25:13Z</updated>
   <entry>
     <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
     <link href="https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/" rel="alternate"/>
@@ -14,6 +14,24 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The 7 Ways AI Agents Fail in Production — And How to Catch Them</title>
+    <link href="https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a" rel="alternate"/>
+    <id>https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a</id>
+    <updated>2026-06-28T08:01:31Z</updated>
+    <summary type="text">Every agent failure follows a pattern. Once you know the patterns, you can catch them before they do damage. I introduced harness engineering yesterday — the discipline of building a safety and reliability layer around AI agents. Today I want to get concrete. These are the seven failure modes every team hits when they run agents in production, how to detect each one, and what to do when you catch </summary>
+    <author><name>Agrawal</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Wire DESIGN.md into Claude Code, Cursor, Kiro and Windsurf</title>
+    <link href="https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1" rel="alternate"/>
+    <id>https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1</id>
+    <updated>2026-06-28T07:54:52Z</updated>
+    <summary type="text">To make an agent use DESIGN.md, point its persistent-context mechanism at the file. The pattern is the same everywhere: tell the agent to read DESIGN.md for UI work. Claude Code Reference DESIGN.md from your CLAUDE.md: # In CLAUDE.md ## Design This project has a DESIGN.md defining the visual identity. Before generating or modifying any UI, read DESIGN.md and follow its tokens and rationale. Use th</summary>
+    <author><name>PromptMaster</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro</title>
@@ -449,21 +467,5 @@
     <author><name>MORINAGA</name></author>
     <category term="data"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets</title>
-    <link href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d" rel="alternate"/>
-    <id>https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d</id>
-    <updated>2026-06-25T22:17:00Z</updated>
-    <summary type="text">You have probably copied a Base64 string a hundred times without thinking about it. That long chain of letters and slashes at the end of a JWT. The data:image/png;base64, blob in a CSS file. The Authorization: Basic header in a Postman collection. Base64 is everywhere in a developer's daily work — and most developers have a fuzzy mental model of what it actually does. This article clears that up, </summary>
-    <author><name>Code Wiz Tools</name></author>
-  </entry>
-  <entry>
-    <title>Three Loops, No Ship</title>
-    <link href="https://dev.to/vystartasv/three-loops-no-ship-2pg0" rel="alternate"/>
-    <id>https://dev.to/vystartasv/three-loops-no-ship-2pg0</id>
-    <updated>2026-06-25T21:59:12Z</updated>
-    <summary type="text">I spent three iterations on an auto-fix pipeline that still doesn't work reliably. Here's what I learned. Loop 1 Wrote a background script. Pull tickets from Azure DevOps, run them through a local model, hand to a coding agent, push the result. Poll → triage → fix → push. Worked 40% of the time on trivial tickets. Anything that crossed file boundaries or needed real context — stalled or hallucinat</summary>
-    <author><name>Vilius</name></author>
   </entry>
 </feed>
