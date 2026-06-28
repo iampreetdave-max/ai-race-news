@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-28T19:27:57Z</updated>
+  <updated>2026-06-28T21:07:32Z</updated>
   <entry>
     <title>Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</title>
     <link href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/" rel="alternate"/>
@@ -14,6 +14,14 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I measured how many tech job postings actually list a salary. It's 14%</title>
+    <link href="https://dev.to/myko_myko/i-measured-how-many-tech-job-postings-actually-list-a-salary-its-14-51e" rel="alternate"/>
+    <id>https://dev.to/myko_myko/i-measured-how-many-tech-job-postings-actually-list-a-salary-its-14-51e</id>
+    <updated>2026-06-28T20:35:24Z</updated>
+    <summary type="text">I run a thing that snapshots every open role on a few thousand companies' own Greenhouse, Lever, and Ashby boards once a day — about 42,000 live tech jobs right now — and stores the history so I can watch the market move instead of guessing at it. One number kept bugging me, so I pulled it: of all those postings, how many actually state a salary? 14%. Not 14% of companies. 14% of postings. Five ou</summary>
+    <author><name>Myko</name></author>
   </entry>
   <entry>
     <title>AI didn't kill developer joy. Managers who mandate AI did.</title>
@@ -457,15 +465,5 @@
     <updated>2026-06-26T09:00:10Z</updated>
     <summary type="text">@payloadcms/plugin-mcp turns your Payload CMS into an MCP server, exposing your collections as tools for LLMs. Heads up for v4: after a refactor, every collection is now exposed with full CRUD by default. It's opt-out — you disable individual tools rather than enabling them: mcpPlugin({ collections: { // posts is exposed automatically — no entry needed users: { tools: { create: false, update: fals</summary>
     <author><name>Kacper Zawojski</name></author>
-  </entry>
-  <entry>
-    <title>Building a Self-Verifying FTIR Agent with Qwen Function Calling</title>
-    <link href="https://dev.to/bob_lee_2d29b22cee96eb65f/building-a-self-verifying-ftir-agent-with-qwen-function-calling-5he9" rel="alternate"/>
-    <id>https://dev.to/bob_lee_2d29b22cee96eb65f/building-a-self-verifying-ftir-agent-with-qwen-function-calling-5he9</id>
-    <updated>2026-06-26T04:40:16Z</updated>
-    <summary type="text">Built for Track 4: Autopilot Agent — #QwenCloudHackathon Most AI &quot;agents&quot; are API wrappers with a system prompt. Upload data, call one endpoint, return the result. No verification, no reasoning about what went wrong, no ability to self-correct. For the Qwen Cloud Hackathon, I built ChemSpectra Agent — an FTIR spectral analysis system where Qwen-3.7-Max autonomously selects tools, cross-validates e</summary>
-    <author><name>bob lee</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
