@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-28T21:07:32Z</updated>
+  <updated>2026-06-28T23:08:23Z</updated>
   <entry>
     <title>Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</title>
     <link href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/" rel="alternate"/>
@@ -14,6 +14,14 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built a Production Ready Microservice Notification System with NestJS, Redis, Bull Queues, and Docker</title>
+    <link href="https://dev.to/peacemelodi/how-i-built-a-production-ready-microservice-notification-system-with-nestjs-redis-bull-queues-aa7" rel="alternate"/>
+    <id>https://dev.to/peacemelodi/how-i-built-a-production-ready-microservice-notification-system-with-nestjs-redis-bull-queues-aa7</id>
+    <updated>2026-06-28T22:24:34Z</updated>
+    <summary type="text">I built a real time notification microservice with NestJS, Redis, PostgreSQL, and Docker. When you are building a system that needs to deliver notifications instantly, a simple REST API is not enough. You need a system that is fast, reliable, and does not collapse when traffic spikes. That is the problem this microservice solves. The foundation is NestJS with TypeScript. Everything is modular, eve</summary>
+    <author><name>Peace Melodi</name></author>
   </entry>
   <entry>
     <title>I measured how many tech job postings actually list a salary. It's 14%</title>
@@ -457,13 +465,5 @@
     <updated>2026-06-26T11:51:38Z</updated>
     <summary type="text">What do we mean by “materialized view” on Azure SQL? SQL Server/Azure SQL doesn’t have Oracle-style materialized views; the closest native feature is an Indexed View (schema-bound view with a clustered index). In practice, teams use three flavors: Summary and key points Materialized read models (indexed views or custom projection tables) absolutely help large-scale pagination by removing runtime w</summary>
     <author><name>Hossein Esmati</name></author>
-  </entry>
-  <entry>
-    <title>Payload v4: the MCP plugin exposes your collections to LLMs — and it's opt-out</title>
-    <link href="https://dev.to/zawoj/payload-v4-the-mcp-plugin-exposes-your-collections-to-llms-and-its-opt-out-2nlg" rel="alternate"/>
-    <id>https://dev.to/zawoj/payload-v4-the-mcp-plugin-exposes-your-collections-to-llms-and-its-opt-out-2nlg</id>
-    <updated>2026-06-26T09:00:10Z</updated>
-    <summary type="text">@payloadcms/plugin-mcp turns your Payload CMS into an MCP server, exposing your collections as tools for LLMs. Heads up for v4: after a refactor, every collection is now exposed with full CRUD by default. It's opt-out — you disable individual tools rather than enabling them: mcpPlugin({ collections: { // posts is exposed automatically — no entry needed users: { tools: { create: false, update: fals</summary>
-    <author><name>Kacper Zawojski</name></author>
   </entry>
 </feed>
