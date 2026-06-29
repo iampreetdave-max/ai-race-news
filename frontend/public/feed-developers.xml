@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-28T23:08:23Z</updated>
+  <updated>2026-06-29T04:20:28Z</updated>
   <entry>
     <title>Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</title>
     <link href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/" rel="alternate"/>
@@ -14,6 +14,25 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>5 MCP Servers That Changed How I Build AI Workflows</title>
+    <link href="https://dev.to/jaideepparashar/5-mcp-servers-that-changed-how-i-build-ai-workflows-16j6" rel="alternate"/>
+    <id>https://dev.to/jaideepparashar/5-mcp-servers-that-changed-how-i-build-ai-workflows-16j6</id>
+    <updated>2026-06-29T03:53:41Z</updated>
+    <summary type="text">Over the past year, one concept has fundamentally changed how I think about AI applications. Not larger language models. Not better prompts. Not even AI agents. It's Model Context Protocol (MCP). For a long time, most AI applications lived inside a closed environment. They could generate text, answer questions, or write code, but they couldn't easily interact with external systems. MCP changes tha</summary>
+    <author><name>Jaideep Parashar</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Introducing Crawlberg v1.0.0</title>
+    <link href="https://dev.to/xberg-io/introducing-crawlberg-v100-k7n" rel="alternate"/>
+    <id>https://dev.to/xberg-io/introducing-crawlberg-v100-k7n</id>
+    <updated>2026-06-29T03:53:27Z</updated>
+    <summary type="text">We're upgrading Crawlberg to a new version: Crawlberg v1.0.0. It builds on the previous kreuzcrawl. It declares the public API frozen under the new project name. All technical features below shipped in v0.3.0 (2026-06-23); v1.0.0 is a stability declaration and rename, not a new feature release. The four production-facing changes most likely to require operational action: Package and env var rename</summary>
+    <author><name>Khalid Hussein</name></author>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>How I Built a Production Ready Microservice Notification System with NestJS, Redis, Bull Queues, and Docker</title>
@@ -448,22 +467,5 @@
     <updated>2026-06-26T12:02:12Z</updated>
     <summary type="text">Esta es la parte 5 de Awesome Curated: The Tools, donde hago deep dives en las herramientas que pasan el filtro de nuestro sistema de curación automático. Si llegaste directo acá, te recomiendo arrancar desde el post #1 sobre Docker for Novices para entender cómo funciona el proceso. En el post anterior estuvimos con TensorFlow. Hoy toca su eterno rival — y, spoiler, el que terminó ganando la bata</summary>
     <author><name>Juan Torchia</name></author>
-  </entry>
-  <entry>
-    <title>Batch vs Real-Time Streaming: When to Use Each (with Examples)</title>
-    <link href="https://dev.to/krunalkanojiya/batch-vs-real-time-streaming-when-to-use-each-with-examples-ffo" rel="alternate"/>
-    <id>https://dev.to/krunalkanojiya/batch-vs-real-time-streaming-when-to-use-each-with-examples-ffo</id>
-    <updated>2026-06-26T12:01:16Z</updated>
-    <summary type="text">Every data pipeline makes one foundational decision before a single line of code is written. Does it process data in scheduled chunks, or does it process data as events arrive? That is the batch versus streaming decision. It looks simple on paper. In practice, it shapes everything: the tools you use, the infrastructure you maintain, the guarantees you can make about data freshness, and the cost yo</summary>
-    <author><name>Krunal Kanojiya</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Materialized view patterns, trade-offs, and when to use each on SQL Server/Azure SQL and .NET</title>
-    <link href="https://dev.to/hossein_esmati/materialized-view-patterns-trade-offs-and-when-to-use-each-on-sql-serverazure-sql-and-net-1c95" rel="alternate"/>
-    <id>https://dev.to/hossein_esmati/materialized-view-patterns-trade-offs-and-when-to-use-each-on-sql-serverazure-sql-and-net-1c95</id>
-    <updated>2026-06-26T11:51:38Z</updated>
-    <summary type="text">What do we mean by “materialized view” on Azure SQL? SQL Server/Azure SQL doesn’t have Oracle-style materialized views; the closest native feature is an Indexed View (schema-bound view with a clustered index). In practice, teams use three flavors: Summary and key points Materialized read models (indexed views or custom projection tables) absolutely help large-scale pagination by removing runtime w</summary>
-    <author><name>Hossein Esmati</name></author>
   </entry>
 </feed>

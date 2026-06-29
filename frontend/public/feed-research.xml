@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-06-28T23:08:23Z</updated>
+  <updated>2026-06-29T04:20:28Z</updated>
+  <entry>
+    <title>Building an AI Cloud Cost Intelligence Platform That Doesn't Let AI Make Infrastructure Decisions</title>
+    <link href="https://dev.to/upshivam786/building-an-ai-cloud-cost-intelligence-platform-that-doesnt-let-ai-make-infrastructure-decisions-5gbn" rel="alternate"/>
+    <id>https://dev.to/upshivam786/building-an-ai-cloud-cost-intelligence-platform-that-doesnt-let-ai-make-infrastructure-decisions-5gbn</id>
+    <updated>2026-06-29T04:11:00Z</updated>
+    <summary type="text">Most AI-powered cloud optimization demos follow a simple approach: Azure Resources ↓ Large Language Model ↓ Recommendations At first glance, this seems impressive. But while building my own Azure Cost Intelligence Platform, I ran into a problem that completely changed my architecture. The AI was generating infrastructure recommendations that looked correct—but some of them simply didn't exist. For</summary>
+    <author><name>SHIVAM UPADHYAY</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Best Hosting Platforms for Next.js in 2026: Who Actually Handles ISR &amp; PPR Correctly?</title>
     <link href="https://dev.to/muhammadalisma/best-hosting-platforms-for-nextjs-in-2026-who-actually-handles-isr-ppr-correctly-534g" rel="alternate"/>
@@ -25,6 +34,25 @@
     <category term="tutorial"/>
   </entry>
   <entry>
+    <title>StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views</title>
+    <link href="https://arxiv.org/abs/2606.28321v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.28321v1</id>
+    <updated>2026-06-26T17:59:06Z</updated>
+    <summary type="text">We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is</summary>
+    <author><name>Liqiang Nie</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Differentiable design of the PIAA-ZWFS: a flexible wavefront sensor that approaches the fundamental limit</title>
+    <link href="https://arxiv.org/abs/2606.28136v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.28136v1</id>
+    <updated>2026-06-26T14:36:12Z</updated>
+    <summary type="text">Extreme adaptive optics (AO) is necessary for high contrast astronomy at scales of the habitable zone of nearby systems. We seek to evaluate wavefront sensors that approach fundamental limits of wavefront sensing, enabling adaptive optics systems to run faster or on fainter targets. We present the phase-induced amplitude apodisation Zernike wavefront sensor (PIAA-ZWFS): an adaptation of the conven</summary>
+    <author><name>L. Desdoigts</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
     <title>How agents are transforming work</title>
     <link href="https://openai.com/index/how-agents-are-transforming-work" rel="alternate"/>
     <id>https://openai.com/index/how-agents-are-transforming-work</id>
@@ -33,32 +61,5 @@
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance</title>
-    <link href="https://arxiv.org/abs/2606.27371v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.27371v1</id>
-    <updated>2026-06-25T17:59:47Z</updated>
-    <summary type="text">State-of-the-art flow models generate stunning images from text or image prompts. However, they suffer from diversity collapse when generating multiple samples under the same conditioning. Existing methods address this issue via either latent guidance, which has limited effectiveness, or sample selection, which relies on external reward models that incur significant inference-time overhead. In thi</summary>
-    <author><name>R. Venkatesh Babu</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>SAM2Matting: Generalized Image and Video Matting</title>
-    <link href="https://arxiv.org/abs/2606.27339v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.27339v1</id>
-    <updated>2026-06-25T17:48:27Z</updated>
-    <summary type="text">Despite impressive advances in image matting, video matting remains challenging due to the inherent gap between high-level tracking, which requires frame-wise understanding, and low-level matting, which focuses on extremely fine-grained details. Existing methods attempt this with expensive and narrowly-scoped video matting datasets, which may limit out-of-domain generalization and compromise track</summary>
-    <author><name>Henghui Ding</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>See &amp; Sniff: Learning Visuo-Olfactory Representations</title>
-    <link href="https://arxiv.org/abs/2606.27307v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.27307v1</id>
-    <updated>2026-06-25T17:26:47Z</updated>
-    <summary type="text">While modern multimodal models integrate vision with language, audio, or touch, olfaction remains largely unexplored due to the lack of paired visuo-olfactory data. We introduce SmellNet-V, a scalable visuo-olfactory dataset built on the insight that odor identity is largely invariant to visual transformations within a semantic category. This allows us to synthetically pair smell-only samples with</summary>
-    <author><name>Arda Senocak</name></author>
-    <category term="research"/>
   </entry>
 </feed>
