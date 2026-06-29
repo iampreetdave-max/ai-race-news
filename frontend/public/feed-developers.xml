@@ -4,7 +4,19 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-29T17:42:26Z</updated>
+  <updated>2026-06-29T20:04:41Z</updated>
+  <entry>
+    <title>NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery</title>
+    <link href="https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/</id>
+    <updated>2026-06-29T19:06:47Z</updated>
+    <summary type="text">NVIDIA's open-source BioNeMo Agent Toolkit turns biomolecular models like OpenFold3, DiffDock, and GenMol into documented, callable skills for AI agents. Each skill describes a model's purpose, inputs, artifacts, and failure modes, so an agent can select, run, and interpret it. In NVIDIA's benchmarks with Codex CLI and GPT-5.5 fast, skills raised task completion from 57.1% to 100% and doubled toke</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Meta restricts use of Claude Code and Codex to keep rival AI out of its training data</title>
     <link href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/" rel="alternate"/>
@@ -12,6 +24,15 @@
     <updated>2026-06-29T15:47:43Z</updated>
     <summary type="text">Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its training data appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI is teasing new hardware… for Codex</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder</id>
+    <updated>2026-06-29T18:52:03Z</updated>
+    <summary type="text">OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, &quot;Your favorite Codex shortcuts are getting an upgrade.&quot; This isn't the mysterious AI-powered device OpenAI is working on with […]</summary>
+    <author><name>Emma Roth</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -23,6 +44,15 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MII: Machine Identity Intelligence — discover and risk-score IAM roles, OIDC federations, and CI/CD tokens across AWS</title>
+    <link href="https://dev.to/joseph_tui_c27f5364066e62/mii-machine-identity-intelligence-discover-and-risk-score-iam-roles-oidc-federations-and-cicd-48em" rel="alternate"/>
+    <id>https://dev.to/joseph_tui_c27f5364066e62/mii-machine-identity-intelligence-discover-and-risk-score-iam-roles-oidc-federations-and-cicd-48em</id>
+    <updated>2026-06-29T20:00:20Z</updated>
+    <summary type="text">Released an open-source tool for a problem I kept hitting: no visibility into machine identities. CyberArk's 2025 report found machine identities outnumber humans 82:1. Every IAM role, every OIDC federation from CI/CD to AWS, every service account — they pile up with no one monitoring them. MII connects to your AWS account (read-only) and: Discovers every IAM role and trust relationship Maps them </summary>
+    <author><name>Joseph TUI</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Is AI making us better developers, or is it just making us lazy reviewers? 🤖⚠️</title>
@@ -442,33 +472,5 @@
     <updated>2026-06-26T19:10:55Z</updated>
     <summary type="text">The Problem Every PHP Developer Knows You start a new CodeIgniter 4 project. Before writing a single line of business logic, you spend hours on setup: getting Docker to work, configuring Nginx, wiring PHP-FPM, setting up MySQL and Redis, making PHPUnit run inside the container, and then figuring out why your CI pipeline fails on the first push. That setup time is dead time. It does not ship featur</summary>
     <author><name>Andrés V</name></author>
-  </entry>
-  <entry>
-    <title>The Agentic Stack: Discover the Gemini Enterprise Agent Platform.</title>
-    <link href="https://dev.to/sunny7899/the-agentic-stack-why-managing-thousands-of-ai-agents-is-the-next-enterprise-revolution-5b2o" rel="alternate"/>
-    <id>https://dev.to/sunny7899/the-agentic-stack-why-managing-thousands-of-ai-agents-is-the-next-enterprise-revolution-5b2o</id>
-    <updated>2026-06-26T17:33:28Z</updated>
-    <summary type="text">Learn how to move from building single agents to managing a mission control of thousands of them – all with complete governance. The Agentic Stack: Why Managing Thousands of AI Agents Is the Next Enterprise Revolution For the past two years, the AI industry has been obsessed with one question: &quot;How do we build better AI agents?&quot; But we're now entering a new era where that question is no longer eno</summary>
-    <author><name>Neweraofcoding</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>GenAI Isn't Just for Product Teams</title>
-    <link href="https://dev.to/apazik/genai-isnt-just-for-product-teams-dg7" rel="alternate"/>
-    <id>https://dev.to/apazik/genai-isnt-just-for-product-teams-dg7</id>
-    <updated>2026-06-26T17:27:20Z</updated>
-    <summary type="text">Most GenAI use cases today focus on product teams. Build a customer chatbot. Generate marketing copy. Develop a new product feature. But DevOps, Site Reliability Engineering (SRE), and Cloud Center of Excellence (CCoE) teams have use cases too. Investigate an incident. Create a runbook. Generate cost optimization recommendations. These are repetitive tasks that take time away from reliability impr</summary>
-    <author><name>Alexander Pazik</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Never forget to enter the Stern Grove lottery again!</title>
-    <link href="https://dev.to/entire/never-forget-to-enter-the-stern-grove-lottery-again-31i5" rel="alternate"/>
-    <id>https://dev.to/entire/never-forget-to-enter-the-stern-grove-lottery-again-31i5</id>
-    <updated>2026-06-26T17:18:04Z</updated>
-    <summary type="text">It's summer in San Francisco, which means that every week I forget to enter the lottery for the free Stern Grove Music Festival. Solution? I did what any reasonable developer would do instead of just setting a calendar reminder: I built a Python script that runs weekly via GitHub Actions, scrapes the festival website with Playwright, and auto-enters the lottery for me. The fun part is how I built </summary>
-    <author><name>Lizzie Siegle</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
