@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-29T14:09:17Z</updated>
+  <updated>2026-06-29T17:42:26Z</updated>
+  <entry>
+    <title>Meta restricts use of Claude Code and Codex to keep rival AI out of its training data</title>
+    <link href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/" rel="alternate"/>
+    <id>https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/</id>
+    <updated>2026-06-29T15:47:43Z</updated>
+    <summary type="text">Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its training data appeared first on The Decoder.</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Claude Code runs a GitHub repo's hidden malware without verification, giving attackers full control</title>
     <link href="https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/" rel="alternate"/>
@@ -13,6 +22,15 @@
     <summary type="text">Security researchers at Mozilla's 0DIN platform have shown how a single compromised GitHub repo can take over a developer's machine the moment an AI coding tool like Claude Code runs its setup. The catch: the malicious code only loads at runtime via a DNS query, invisible in the repo, to scanners, and to the AI agent itself. The article Claude Code runs a GitHub repo's hidden malware without verif</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Is AI making us better developers, or is it just making us lazy reviewers? 🤖⚠️</title>
+    <link href="https://dev.to/__rahul_singh__/is-ai-making-us-better-developers-or-is-it-just-making-us-lazy-reviewers-lc1" rel="alternate"/>
+    <id>https://dev.to/__rahul_singh__/is-ai-making-us-better-developers-or-is-it-just-making-us-lazy-reviewers-lc1</id>
+    <updated>2026-06-29T17:10:00Z</updated>
+    <summary type="text">Lately, I’ve noticed a rising trend in the software development world: Developer asks an AI tool (Cursor, Claude Code, or ChatGPT) to write a feature or fix a bug. AI spits out the code. Developer copies, pastes, checks the local output, and immediately raises a Pull Request (PR). No deep dive into the code. No questioning how the solution works. No impact analysis on the wider codebase. If you ar</summary>
+    <author><name>Rahul Singh</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -452,23 +470,5 @@
     <summary type="text">It's summer in San Francisco, which means that every week I forget to enter the lottery for the free Stern Grove Music Festival. Solution? I did what any reasonable developer would do instead of just setting a calendar reminder: I built a Python script that runs weekly via GitHub Actions, scrapes the festival website with Playwright, and auto-enters the lottery for me. The fun part is how I built </summary>
     <author><name>Lizzie Siegle</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds</title>
-    <link href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/</id>
-    <updated>2026-06-25T17:11:37Z</updated>
-    <summary type="text">DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench Verified, with all weights under the MIT license. The post DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>The AI reviewer scored 23/25 and missed the point</title>
-    <link href="https://dev.to/michaeltruong/the-ai-reviewer-scored-2325-and-missed-the-point-51mh" rel="alternate"/>
-    <id>https://dev.to/michaeltruong/the-ai-reviewer-scored-2325-and-missed-the-point-51mh</id>
-    <updated>2026-06-26T15:14:45Z</updated>
-    <summary type="text">I've been building an AI-assisted editorial pipeline for my technical writing. Notion cards become markdown drafts in the repo, pass through review, then sync to dev.to. The motivation was simple: I already had a review loop I trusted for code. Open a PR, run Cursor's Bugbot against a review guide, fix what mattered, merge. I wanted the same rhythm for writing: draft, critique, revise, publish. So</summary>
-    <author><name>Michael Truong</name></author>
   </entry>
 </feed>
