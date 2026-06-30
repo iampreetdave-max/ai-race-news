@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-30T00:09:42Z</updated>
+  <updated>2026-06-30T05:08:58Z</updated>
   <entry>
     <title>NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery</title>
     <link href="https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/" rel="alternate"/>
@@ -46,6 +46,27 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>How to Get Free OpenAI API Credits in 2026</title>
+    <link href="https://dev.to/deniseamsen/how-to-get-free-openai-api-credits-in-2026-nl0" rel="alternate"/>
+    <id>https://dev.to/deniseamsen/how-to-get-free-openai-api-credits-in-2026-nl0</id>
+    <updated>2026-06-30T04:40:21Z</updated>
+    <summary type="text">Are you looking to build AI applications using OpenAI's API but want to reduce upfront costs? Here is the ultimate guide to getting free OpenAI API credits in 2026. 1. New Account Trial Credits OpenAI typically grants $5 in free credits to new developer accounts. These credits expire after 3 months, which is perfect for prototyping. 2. OpenAI for Startups Program If you have an early-stage startup</summary>
+    <author><name>Denise Amsen</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built 25 Executable Skills for My AI Agent (and You Can Too)</title>
+    <link href="https://dev.to/chrislamdev/how-i-built-25-executable-skills-for-my-ai-agent-and-you-can-too-4dfl" rel="alternate"/>
+    <id>https://dev.to/chrislamdev/how-i-built-25-executable-skills-for-my-ai-agent-and-you-can-too-4dfl</id>
+    <updated>2026-06-30T04:40:01Z</updated>
+    <summary type="text">After months of building agent skills for Claude Code, Codex, Cursor, and Hermes Agent, I noticed a problem: every agent needs the same foundational capabilities �” debugging, planning, code review, browser automation �” but you have to write them from scratch for each platform. So I packaged 25 of the most useful skills into a single open-source repo, compatible across all major AI coding agent</summary>
+    <author><name>Chris Lam</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>frontier models are becoming cloud procurement</title>
     <link href="https://dev.to/pvgomes/frontier-models-are-becoming-cloud-procurement-1ong" rel="alternate"/>
     <id>https://dev.to/pvgomes/frontier-models-are-becoming-cloud-procurement-1ong</id>
@@ -80,6 +101,16 @@
     <summary type="text">Released an open-source tool for a problem I kept hitting: no visibility into machine identities. CyberArk's 2025 report found machine identities outnumber humans 82:1. Every IAM role, every OIDC federation from CI/CD to AWS, every service account — they pile up with no one monitoring them. MII connects to your AWS account (read-only) and: Discovers every IAM role and trust relationship Maps them </summary>
     <author><name>Joseph TUI</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>GROW$^2$: Grounding Which and Where for Robot Tool Use</title>
+    <link href="https://arxiv.org/abs/2606.30632v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2606.30632v1</id>
+    <updated>2026-06-29T17:56:53Z</updated>
+    <summary type="text">Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\textit{open-world affordance grounding}$: select an open-category object to act as a tool and localize its specific region of action. To this end, we introduce GROW$^2$ (GROunding Which and Whe</summary>
+    <author><name>David Hsu</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Is AI making us better developers, or is it just making us lazy reviewers? 🤖⚠️</title>
@@ -171,6 +202,14 @@
     <summary type="text">I tried 4 &quot;AI Coding Assistant&quot; Chrome extensions. Only one didn't make me close the tab in 5 minutes I'm a backend dev who's been slowly moving toward frontend work. Last month I spent a weekend trying every AI coding Chrome extension I could find. Here's what actually worked and what was hype. What I tested Continue.dev in the browser. Promising in theory. In practice it kept forgetting the proj</summary>
     <author><name>AI Buddy</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>HTML table extractor</title>
+    <link href="https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything</id>
+    <updated>2026-06-29T23:38:21Z</updated>
+    <summary type="text">Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON. Try it out by selecting everything on the Wikipedia List of cities and towns in the San Francisco Bay Area page and pasting it directly into the tool: On a sim</summary>
+    <author><name>Simon Willison</name></author>
   </entry>
   <entry>
     <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
@@ -431,47 +470,5 @@
     <author><name>Kiran Manne</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I Built a Databricks AI Agent with No Custom Tables (OpenAI Agents SDK + Gradio)</title>
-    <link href="https://dev.to/dipayan_das/how-i-built-a-databricks-ai-agent-with-no-custom-tables-openai-agents-sdk-gradio-351m" rel="alternate"/>
-    <id>https://dev.to/dipayan_das/how-i-built-a-databricks-ai-agent-with-no-custom-tables-openai-agents-sdk-gradio-351m</id>
-    <updated>2026-06-26T22:27:02Z</updated>
-    <summary type="text">Most Databricks agent tutorials start with &quot;set up Unity Catalog and Vector Search first.&quot; This one doesn't. I built a fully working conversational agent using only samples.tpch — the dataset that ships in every Databricks workspace by default. No custom tables, no Vector Search index, no catalog setup. The stack: OpenAI Agents SDK (with AsyncOpenAI — important, sync breaks it) Databricks Model Se</summary>
-    <author><name>Dipayan Das</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>How Malicious MCP Configs in Amazon Q Developer Could Execute Arbitrary Code — and How to Stop It</title>
-    <link href="https://dev.to/coridev/how-malicious-mcp-configs-in-amazon-q-developer-could-execute-arbitrary-code-and-how-to-stop-it-36mg" rel="alternate"/>
-    <id>https://dev.to/coridev/how-malicious-mcp-configs-in-amazon-q-developer-could-execute-arbitrary-code-and-how-to-stop-it-36mg</id>
-    <updated>2026-06-26T22:26:44Z</updated>
-    <summary type="text">A flaw in Amazon Q Developer let malicious repositories inject rogue Model Context Protocol (MCP) configurations into the agentic coding assistant's pipeline. The result: arbitrary code execution, sourced from a repo you pulled down to review. No phishing. No compromised credentials. Just a poisoned config file sitting in a repository that an AI agent trusted without question. What Happened Accord</summary>
-    <author><name>Cor E</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Build an AI Audio Translator in Python on Telnyx Inference</title>
-    <link href="https://dev.to/sonam_50a41a4ced7e6b4f3fa/build-an-ai-audio-translator-in-python-on-telnyx-inference-5e0g" rel="alternate"/>
-    <id>https://dev.to/sonam_50a41a4ced7e6b4f3fa/build-an-ai-audio-translator-in-python-on-telnyx-inference-5e0g</id>
-    <updated>2026-06-26T22:14:42Z</updated>
-    <summary type="text">A lot of AI apps are starting to mix voice, language models, and generated audio. I built a small Python example that shows that full loop: take an audio file transcribe it translate the transcript with an LLM generate translated speech Repo: https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-content-translator-python What it does The app exposes a Flask API for translating spoken co</summary>
-    <author><name>Sonam</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How I built the OSS alternatives directory: GitHub ETL, Turso, and the UPSERT trap I hit</title>
-    <link href="https://dev.to/morinaga/how-i-built-the-oss-alternatives-directory-github-etl-turso-and-the-upsert-trap-i-hit-11ie" rel="alternate"/>
-    <id>https://dev.to/morinaga/how-i-built-the-oss-alternatives-directory-github-etl-turso-and-the-upsert-trap-i-hit-11ie</id>
-    <updated>2026-06-26T22:12:58Z</updated>
-    <summary type="text">When I launched three programmatic directory sites in April 2026, the open-source alternatives site had the most interesting data model. The AI tools directory indexes HuggingFace models — that's a pull from one API. The indie games directory reads Steam. But the OSS alternatives site has to answer a different question: for this SaaS product, which open-source repos actually cover the same use cas</summary>
-    <author><name>MORINAGA</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-    <category term="open-source"/>
   </entry>
 </feed>
