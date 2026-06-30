@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-30T18:01:28Z</updated>
+  <updated>2026-06-30T20:13:44Z</updated>
   <entry>
     <title>SkillOpt: Agent skills as trainable parameters</title>
     <link href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" rel="alternate"/>
@@ -30,6 +30,25 @@
     <updated>2026-06-30T15:08:42Z</updated>
     <summary type="text">X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.</summary>
     <author><name>Sarah Perez</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code vs GitHub Copilot: I Used Both for 30 Days. Here's What Won.</title>
+    <link href="https://dev.to/automate_ai/claude-code-vs-github-copilot-i-used-both-for-30-days-heres-what-won-2hpk" rel="alternate"/>
+    <id>https://dev.to/automate_ai/claude-code-vs-github-copilot-i-used-both-for-30-days-heres-what-won-2hpk</id>
+    <updated>2026-06-30T20:00:03Z</updated>
+    <summary type="text">I've been coding with AI assistants for two years. Started with Copilot in 2023. Switched to Claude Code last month. After 30 days of using Claude Code exclusively, then going back to Copilot for a week, I have opinions. TL;DR: Different tools for different jobs. But one surprised me. The Test Both tools used on real projects: A React dashboard with complex state management A Python data pipeline </summary>
+    <author><name>AutoMate AI</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Archie – Give AI coding tools permanent context about your codebase with one command</title>
+    <link href="https://dev.to/abhishek_208a88756e55d3c3/archie-give-ai-coding-tools-permanent-context-about-your-codebase-with-one-command-42l7" rel="alternate"/>
+    <id>https://dev.to/abhishek_208a88756e55d3c3/archie-give-ai-coding-tools-permanent-context-about-your-codebase-with-one-command-42l7</id>
+    <updated>2026-06-30T19:51:20Z</updated>
+    <summary type="text">Hi everyone, this is my first post on dev.to and I wanted to share a project I've been building. Here's the problem I kept running into with Cursor and Claude Code: the AI has no idea why decisions were made in a codebase. It suggests refactors that break existing architecture. It recommends libraries I'd already evaluated and rejected. It doesn't know my constraints. I ended up re-explaining the </summary>
+    <author><name>Abhishek</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery</title>
@@ -451,25 +470,5 @@
     <updated>2026-06-27T19:06:17Z</updated>
     <summary type="text">Most Cursor rules I see online are wish lists. &quot;Write clean code.&quot; &quot;Follow best practices.&quot; &quot;Be concise.&quot; Cursor reads them, nods politely, and ships exactly the same code it would have without them. The reason is simple: vague rules give the model nothing to act on. A rule only changes output if it's specific, enforceable, and scoped to when it matters. After rewriting my rules around those three</summary>
     <author><name>NongdyZ</name></author>
-  </entry>
-  <entry>
-    <title>Why your AI agent is flaky — and 7 rules that make it reliable</title>
-    <link href="https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d" rel="alternate"/>
-    <id>https://dev.to/penloom_studio_829b7817d3/why-your-ai-agent-is-flaky-and-7-rules-that-make-it-reliable-481d</id>
-    <updated>2026-06-27T16:44:23Z</updated>
-    <summary type="text">You built an AI agent. In the demo it was magic. In the wild it loops, hallucinates a tool call, &quot;forgets&quot; the format you asked for twice, and occasionally does something mildly alarming with your filesystem. Here's the uncomfortable truth after shipping a lot of these: a flaky agent is almost never a model problem. It's a specification problem. The model is doing exactly what your prompt, your to</summary>
-    <author><name>Penloom Studio</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to build a production-ready app with Claude Code</title>
-    <link href="https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5" rel="alternate"/>
-    <id>https://dev.to/grepzero/how-to-build-a-production-ready-app-with-claude-code-me5</id>
-    <updated>2026-06-27T16:44:10Z</updated>
-    <summary type="text">Claude Code can build most of an app in a day. The hard part isn't getting something that runs. It's getting something you'd confidently put in front of real users. The gap between those two is where nearly every project I've shipped with it started to unravel. The fix isn't a cleverer prompt. It's process. Here's what actually moved my builds from demo to something I'd deploy. Write the thing dow</summary>
-    <author><name>John Pitarresi</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
   </entry>
 </feed>
