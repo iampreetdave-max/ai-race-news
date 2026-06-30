@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-06-30T12:13:49Z</updated>
+  <updated>2026-06-30T15:32:48Z</updated>
+  <entry>
+    <title>X now offers an MCP server to make its platform easier for AI tools to use</title>
+    <link href="https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/</id>
+    <updated>2026-06-30T15:08:42Z</updated>
+    <summary type="text">X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.</summary>
+    <author><name>Sarah Perez</name></author>
+  </entry>
   <entry>
     <title>NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery</title>
     <link href="https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/" rel="alternate"/>
@@ -25,6 +33,33 @@
     <summary type="text">Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its training data appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agnostic Cluster Refactor Skill for Antigrafity CLI: Building an AI Agent that Migrates Apps from AWS to GKE (Subagents, HITL Gate &amp; Workload Identity)</title>
+    <link href="https://dev.to/gde/agnostic-cluster-refactor-skill-for-antigrafity-cli-building-an-ai-agent-that-migrates-apps-from-e0" rel="alternate"/>
+    <id>https://dev.to/gde/agnostic-cluster-refactor-skill-for-antigrafity-cli-building-an-ai-agent-that-migrates-apps-from-e0</id>
+    <updated>2026-06-30T15:10:30Z</updated>
+    <summary type="text">Have you ever inherited a codebase where import boto3 appears in 47 different files? Where AWS credentials live in hardcoded environment variables and file storage is a file.save(&quot;/tmp/...&quot;) that will blow up the moment it hits an ephemeral Kubernetes pod? I did. And instead of refactoring everything by hand, I built an AI agent to do it for me — with mandatory human oversight before any productio</summary>
+    <author><name>Carlos Barbero</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Building Local AI Systems: Qwen3.6 + MCPs</title>
+    <link href="https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps" rel="alternate"/>
+    <id>https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps</id>
+    <updated>2026-06-30T14:00:14Z</updated>
+    <summary type="text">Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.</summary>
+    <author><name>Shittu Olumide</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Maximize Codex Exec Command</title>
+    <link href="https://towardsdatascience.com/how-to-maximize-codex-exec-command/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-maximize-codex-exec-command/</id>
+    <updated>2026-06-30T13:30:00Z</updated>
+    <summary type="text">Build a more powerful coding agent setup with a model ensemble The post How to Maximize Codex Exec Command appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI is teasing new hardware… for Codex</title>
@@ -434,43 +469,6 @@
     <updated>2026-06-27T11:26:08Z</updated>
     <summary type="text">AI coding tools are getting good enough that I wanted a simple way to understand usage across real work, not just guesses from billing pages. So I built TokenBoard: https://token-board.com/ It is a small leaderboard and personal stats page for AI coding usage. The local CLI currently supports Codex and reports aggregate metrics such as: tokens sessions messages models estimated cost active days Th</summary>
     <author><name>Hui Chen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>🧠 AI Context Engineering — Why Great AI Systems Need More Than Great Prompts (Part 1)</title>
-    <link href="https://dev.to/fazal_mansuri_/ai-context-engineering-why-great-ai-systems-need-more-than-great-prompts-part-1-25dd" rel="alternate"/>
-    <id>https://dev.to/fazal_mansuri_/ai-context-engineering-why-great-ai-systems-need-more-than-great-prompts-part-1-25dd</id>
-    <updated>2026-06-27T11:15:39Z</updated>
-    <summary type="text">A couple of years ago, almost every AI discussion revolved around one thing: Prompt Engineering. People shared prompts like: &quot;Use this prompt to become a senior software engineer.&quot; &quot;Use this prompt to write perfect SQL.&quot; &quot;Use this prompt to generate production-ready code.&quot; The assumption was simple: Better prompt = Better AI output. While prompts certainly matter, engineers building production AI </summary>
-    <author><name>Fazal Mansuri</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cheap AI token routing needs fallback receipts</title>
-    <link href="https://dev.to/tokensforge/cheap-ai-token-routing-needs-fallback-receipts-4ic" rel="alternate"/>
-    <id>https://dev.to/tokensforge/cheap-ai-token-routing-needs-fallback-receipts-4ic</id>
-    <updated>2026-06-27T11:06:48Z</updated>
-    <summary type="text">Low-cost AI tokens are great until a user asks why one request cost three times more than the last one. Most routing demos focus on one visible win: send routine work to a cheaper model fall back to a stronger model when the cheap route fails expose everything through one OpenAI-compatible API key That is useful, but it is not enough for production. The confusing spend usually happens in the fallb</summary>
-    <author><name>Tokens Forge</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Four Juejin 2026 AI coding roundups reached the same conclusion, and that is the story</title>
-    <link href="https://dev.to/ninghonggang/four-juejin-2026-ai-coding-roundups-reached-the-same-conclusion-and-that-is-the-story-2l47" rel="alternate"/>
-    <id>https://dev.to/ninghonggang/four-juejin-2026-ai-coding-roundups-reached-the-same-conclusion-and-that-is-the-story-2l47</id>
-    <updated>2026-06-27T11:06:16Z</updated>
-    <summary type="text">I went down a rabbit hole this morning reading four Juejin AI coding tool roundups from 2026 back to back, posted by four different authors on four different dates, and the thing that finally crystallized for me is that they all reached the exact same conclusion — use Cursor for daily edits, use Claude Code for the heavy cross-file refactors, pay for both, do not apologize for the monthly spend. I</summary>
-    <author><name>ninghonggang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built a link shortener with a real API (and QR codes that don't look like 2009)</title>
-    <link href="https://dev.to/chathrika/i-built-a-link-shortener-with-a-real-api-and-qr-codes-that-dont-look-like-2009-1p9n" rel="alternate"/>
-    <id>https://dev.to/chathrika/i-built-a-link-shortener-with-a-real-api-and-qr-codes-that-dont-look-like-2009-1p9n</id>
-    <updated>2026-06-27T08:53:25Z</updated>
-    <summary type="text">I am a solo founder, and I just shipped BLNQ: a link shortener and branded QR generator with a proper REST API. Full disclosure up front, this is my own product. Right now every new signup gets 30 days of Pro free, so you can build against the full write API and custom domains with no card. Why I built it Most shorteners either ship no API, gate it behind a $30+/mo plan, or fund their &quot;free analyt</summary>
-    <author><name>Chathrika Aluthge</name></author>
-    <category term="data"/>
     <category term="llm"/>
   </entry>
 </feed>
