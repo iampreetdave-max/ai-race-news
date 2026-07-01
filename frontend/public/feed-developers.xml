@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-01T05:25:53Z</updated>
+  <updated>2026-07-01T09:57:07Z</updated>
   <entry>
     <title>SkillOpt: Agent skills as trainable parameters</title>
     <link href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" rel="alternate"/>
@@ -22,6 +22,36 @@
     <updated>2026-06-30T15:38:50Z</updated>
     <summary type="text">Below, we break down some of tech’s biggest stories, with perspectives from our analysts on the moves that matter the most: SpaceX gets serious about coding AI Meta invests $900M in Cred Y Combinator’s energy infrastructure bet This brief is … The post SpaceX’s $60B Cursor deal and 3 coding AI startups worth watching appeared first on CB Insights Research.</summary>
     <author><name>Adya Pandey</name></author>
+  </entry>
+  <entry>
+    <title>Building an Identity System for AI Agents: AgentCard and Work Records</title>
+    <link href="https://dev.to/mininglamp/building-an-identity-system-for-ai-agents-agentcard-and-work-records-2i76" rel="alternate"/>
+    <id>https://dev.to/mininglamp/building-an-identity-system-for-ai-agents-agentcard-and-work-records-2i76</id>
+    <updated>2026-07-01T09:23:24Z</updated>
+    <summary type="text">Here's a scenario that plays out in engineering teams every day: you spin up a conversation with an AI tool to analyze some code, get a useful response, copy-paste the output, and close the tab. An hour later, you need a follow-up analysis — and you're starting from scratch. No context, no history, no continuity. Now multiply that by five tools running in parallel. ChatGPT for drafting, Claude for</summary>
+    <author><name>Mininglamp</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Sonnet 5 launches: Opus performance at lower cost</title>
+    <link href="https://dev.to/devsignal/sonnet-5-launches-opus-performance-at-lower-cost-1fo9" rel="alternate"/>
+    <id>https://dev.to/devsignal/sonnet-5-launches-opus-performance-at-lower-cost-1fo9</id>
+    <updated>2026-07-01T09:16:33Z</updated>
+    <summary type="text">This week was largely a Claude story: Sonnet 5 landed with enough benchmark muscle to make Opus feel redundant for most workloads, and GitLab's production data backs up the claims. Alongside that, GitHub Copilot quietly dropped its JetBrains friction, and Google's image model got cheaper and faster on Vercel's gateway. Here's what's worth acting on. Claude Sonnet 5 launches on Vercel AI Gateway So</summary>
+    <author><name>The Dev Signal</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>I Made TS Compiler Graph MCP: 10x Fewer Tokens in Claude Code</title>
+    <link href="https://dev.to/samchon/i-made-ts-compiler-graph-mcp-10x-fewer-tokens-in-claude-code-1aea" rel="alternate"/>
+    <id>https://dev.to/samchon/i-made-ts-compiler-graph-mcp-10x-fewer-tokens-in-claude-code-1aea</id>
+    <updated>2026-07-01T09:14:14Z</updated>
+    <summary type="text">TL;DR codegraph, codebase-memory-mcp, and serena all got there first, handing a coding agent code intelligence over MCP so it stops grepping. On my own open-ended questions the token bill didn't budge: the agent kept sliding back to grep, and no amount of forceful prompting could stop it. So I built @ttsc/graph. It gives the agent an index the TypeScript compiler already resolved, never the source</summary>
+    <author><name>Jeongho Nam</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>X now offers an MCP server to make its platform easier for AI tools to use</title>
@@ -370,50 +400,5 @@
     <updated>2026-06-28T20:35:24Z</updated>
     <summary type="text">I run a thing that snapshots every open role on a few thousand companies' own Greenhouse, Lever, and Ashby boards once a day — about 42,000 live tech jobs right now — and stores the history so I can watch the market move instead of guessing at it. One number kept bugging me, so I pulled it: of all those postings, how many actually state a salary? 14%. Not 14% of companies. 14% of postings. Five ou</summary>
     <author><name>Myko</name></author>
-  </entry>
-  <entry>
-    <title>I tried 4 &quot;AI Coding Assistant&quot; Chrome extensions. Only one didn't make me close the tab in 5 minutes</title>
-    <link href="https://dev.to/cwsaibuddy/i-tried-4-ai-coding-assistant-chrome-extensions-only-one-didnt-make-me-close-the-tab-in-5-2n9b" rel="alternate"/>
-    <id>https://dev.to/cwsaibuddy/i-tried-4-ai-coding-assistant-chrome-extensions-only-one-didnt-make-me-close-the-tab-in-5-2n9b</id>
-    <updated>2026-06-28T10:44:56Z</updated>
-    <summary type="text">I tried 4 &quot;AI Coding Assistant&quot; Chrome extensions. Only one didn't make me close the tab in 5 minutes I'm a backend dev who's been slowly moving toward frontend work. Last month I spent a weekend trying every AI coding Chrome extension I could find. Here's what actually worked and what was hype. What I tested Continue.dev in the browser. Promising in theory. In practice it kept forgetting the proj</summary>
-    <author><name>AI Buddy</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>HTML table extractor</title>
-    <link href="https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything</id>
-    <updated>2026-06-29T23:38:21Z</updated>
-    <summary type="text">Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON. Try it out by selecting everything on the Wikipedia List of cities and towns in the San Francisco Bay Area page and pasting it directly into the tool: On a sim</summary>
-    <author><name>Simon Willison</name></author>
-  </entry>
-  <entry>
-    <title>Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read</title>
-    <link href="https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/</id>
-    <updated>2026-06-27T08:38:26Z</updated>
-    <summary type="text">Meta released Astryx, an open-source React design system built on StyleX. It pairs a CSS-variable theme cascade with a CLI and MCP server, so both engineers and AI agents build using the same API. The project is in Beta, MIT-licensed, and grew inside Meta over eight years. The post Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read appeared first on Mar</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The 7 Ways AI Agents Fail in Production — And How to Catch Them</title>
-    <link href="https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a" rel="alternate"/>
-    <id>https://dev.to/agrawal_83a0b8e9e8b/the-7-ways-ai-agents-fail-in-production-and-how-to-catch-them-254a</id>
-    <updated>2026-06-28T08:01:31Z</updated>
-    <summary type="text">Every agent failure follows a pattern. Once you know the patterns, you can catch them before they do damage. I introduced harness engineering yesterday — the discipline of building a safety and reliability layer around AI agents. Today I want to get concrete. These are the seven failure modes every team hits when they run agents in production, how to detect each one, and what to do when you catch </summary>
-    <author><name>Agrawal</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Wire DESIGN.md into Claude Code, Cursor, Kiro and Windsurf</title>
-    <link href="https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1" rel="alternate"/>
-    <id>https://dev.to/promptmaster/how-to-wire-designmd-into-claude-code-cursor-kiro-and-windsurf-41p1</id>
-    <updated>2026-06-28T07:54:52Z</updated>
-    <summary type="text">To make an agent use DESIGN.md, point its persistent-context mechanism at the file. The pattern is the same everywhere: tell the agent to read DESIGN.md for UI work. Claude Code Reference DESIGN.md from your CLAUDE.md: # In CLAUDE.md ## Design This project has a DESIGN.md defining the visual identity. Before generating or modifying any UI, read DESIGN.md and follow its tokens and rationale. Use th</summary>
-    <author><name>PromptMaster</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
