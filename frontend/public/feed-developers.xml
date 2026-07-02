@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-02T19:37:16Z</updated>
+  <updated>2026-07-02T21:13:15Z</updated>
   <entry>
     <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
     <link href="https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/" rel="alternate"/>
@@ -30,6 +30,24 @@
     <updated>2026-07-02T12:00:00Z</updated>
     <summary type="text">Ben Guez has &quot;a bunch of potential international wives in [his] DMs,&quot; thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.</summary>
     <author><name>Amanda Silberling</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>PHP 8.5's New URI Extension: Parsing URLs Without the parse_url() Footguns</title>
+    <link href="https://dev.to/gabrielanhaia/php-85s-new-uri-extension-parsing-urls-without-the-parseurl-footguns-3a49" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/php-85s-new-uri-extension-parsing-urls-without-the-parseurl-footguns-3a49</id>
+    <updated>2026-07-02T21:01:15Z</updated>
+    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub parse_url() has been in PHP since PHP 4. It follows neithe</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Claude Code Bill Quietly Got 5x Worse — And They Were Tracking You Too</title>
+    <link href="https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j" rel="alternate"/>
+    <id>https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j</id>
+    <updated>2026-07-02T20:45:05Z</updated>
+    <summary type="text">This has been a rough week for Anthropic's developer trust. The Invisible Price Hike Developer Vincent Schmalbach published detailed logs showing Claude Code's effective cost increased approximately 5x — without any pricing change announcement. His numbers are hard to argue with: Previous heavy weeks: ~8.9M and ~8.5M visible Opus tokens Current week: ~1.4M visible Opus tokens Same subscription. Sa</summary>
+    <author><name>Bo Shen</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -399,32 +417,5 @@
     <summary type="text">Have you ever inherited a codebase where import boto3 appears in 47 different files? Where AWS credentials live in hardcoded environment variables and file storage is a file.save(&quot;/tmp/...&quot;) that will blow up the moment it hits an ephemeral Kubernetes pod? I did. And instead of refactoring everything by hand, I built an AI agent to do it for me — with mandatory human oversight before any productio</summary>
     <author><name>Carlos Barbero</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building Local AI Systems: Qwen3.6 + MCPs</title>
-    <link href="https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps" rel="alternate"/>
-    <id>https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps</id>
-    <updated>2026-06-30T14:00:14Z</updated>
-    <summary type="text">Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.</summary>
-    <author><name>Shittu Olumide</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Maximize Codex Exec Command</title>
-    <link href="https://towardsdatascience.com/how-to-maximize-codex-exec-command/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-maximize-codex-exec-command/</id>
-    <updated>2026-06-30T13:30:00Z</updated>
-    <summary type="text">Build a more powerful coding agent setup with a model ensemble The post How to Maximize Codex Exec Command appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI is teasing new hardware… for Codex</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder</id>
-    <updated>2026-06-29T18:52:03Z</updated>
-    <summary type="text">OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, &quot;Your favorite Codex shortcuts are getting an upgrade.&quot; This isn't the mysterious AI-powered device OpenAI is working on with […]</summary>
-    <author><name>Emma Roth</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
