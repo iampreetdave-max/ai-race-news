@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-02T00:13:35Z</updated>
+  <updated>2026-07-02T05:01:52Z</updated>
   <entry>
     <title>Why teaching AI agents to use tools keeps blowing up in training</title>
     <link href="https://dev.to/breachprotocol/why-teaching-ai-agents-to-use-tools-keeps-blowing-up-in-training-27bo" rel="alternate"/>
@@ -33,6 +33,16 @@
     <author><name>Breach Protocol</name></author>
     <category term="research"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Towards Metric-Agnostic Trajectory Forecasting</title>
+    <link href="https://arxiv.org/abs/2607.01133v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.01133v1</id>
+    <updated>2026-07-01T16:20:43Z</updated>
+    <summary type="text">Accurate trajectory forecasting of surrounding traffic participants is a core capability for autonomous driving, enabling vehicles to anticipate behavior and plan safe maneuvers. We observe that current state-of-the-art forecasting models on Argoverse 2 and the Waymo Open Motion Dataset tailor their training objectives to the different benchmark metrics. Because these metrics encourage conflicting</summary>
+    <author><name>Bastian Leibe</name></author>
+    <category term="research"/>
+    <category term="robotics"/>
   </entry>
   <entry>
     <title>Seeking Guidance on AI Platform Engineering: Distributed Systems, Scheduling, and GPU Technologies</title>
@@ -65,23 +75,5 @@
     <summary type="text">arXiv’s next chapter: Updates on our spin out from Cornell University: https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/ submitted by /u/Nunki08 [link] [comments]</summary>
     <author><name>/u/Nunki08</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Towards in-the-wild Egocentric 3D Hand-Object Pose Estimation</title>
-    <link href="https://arxiv.org/abs/2606.30598v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.30598v1</id>
-    <updated>2026-06-29T17:38:12Z</updated>
-    <summary type="text">Estimating accurate 3D hand-object pose from in-the-wild egocentric RGB remains challenging due to severe occlusions and ambiguous contact. Existing learning-based methods often struggle to generalise to in-the-wild scenes and are limited by the scarcity of supervision. We address these issues with two contributions. First, we introduce EPIC-Contact, an in-the-wild egocentric dataset of 2.3K clips</summary>
-    <author><name>Dima Damen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>FR-DETR: Frequency and Recurrent Feature Refinement for Robust Object Detection under Adverse Weather</title>
-    <link href="https://arxiv.org/abs/2606.30471v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2606.30471v1</id>
-    <updated>2026-06-29T15:31:08Z</updated>
-    <summary type="text">Object detection under adverse weather remains challenging due to severe visual degradations and domain shifts. Existing enhancer-based approaches attempt to improve detection by cascading an enhancer with a detector, but they introduce redundant feature extraction and incur high computational cost with limited accuracy gains when paired with SOTA detectors. We propose FR-DETR, a detector-centric </summary>
-    <author><name>Duc-Trong Le</name></author>
-    <category term="computer-vision"/>
   </entry>
 </feed>
