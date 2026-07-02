@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-02T21:13:15Z</updated>
+  <updated>2026-07-02T23:12:49Z</updated>
   <entry>
     <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
     <link href="https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/" rel="alternate"/>
@@ -30,6 +30,42 @@
     <updated>2026-07-02T12:00:00Z</updated>
     <summary type="text">Ben Guez has &quot;a bunch of potential international wives in [his] DMs,&quot; thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.</summary>
     <author><name>Amanda Silberling</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Asking AI to &quot;Write Code&quot;. Teach It How to Work.</title>
+    <link href="https://dev.to/joedev090/stop-asking-ai-to-write-code-teach-it-how-to-work-1m47" rel="alternate"/>
+    <id>https://dev.to/joedev090/stop-asking-ai-to-write-code-teach-it-how-to-work-1m47</id>
+    <updated>2026-07-02T22:54:54Z</updated>
+    <summary type="text">Most developers use AI like autocomplete. The best developers use it like a software engineer. Over the past year, AI coding assistants have become part of our daily workflow. Whether you're using ChatGPT, Claude Code, Codex, Cursor, or GitHub Copilot, they can generate code in seconds. But here's the problem: Most of us are still writing prompts like: &quot;Build me a login page.&quot; or &quot;Fix this bug.&quot; B</summary>
+    <author><name>joedev090</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Phantom Squatting: When AI Hallucinated Domains Become Attacker Infrastructure</title>
+    <link href="https://dev.to/coridev/phantom-squatting-when-ai-hallucinated-domains-become-attacker-infrastructure-1i67" rel="alternate"/>
+    <id>https://dev.to/coridev/phantom-squatting-when-ai-hallucinated-domains-become-attacker-infrastructure-1i67</id>
+    <updated>2026-07-02T22:41:46Z</updated>
+    <summary type="text">The Attack Is Simpler Than You Think Researchers at Palo Alto Networks Unit 42 documented a technique they're calling phantom squatting: attackers register domain names that LLMs consistently hallucinate, then sit back and wait for the traffic. No zero-days. No exotic exploit chains. Just a spreadsheet of domains that AI tools confidently recommend — domains that never existed legitimately — and a</summary>
+    <author><name>Cor E</name></author>
+  </entry>
+  <entry>
+    <title>Symfony Messenger Transports: Building a Transactional Outbox on Top</title>
+    <link href="https://dev.to/gabrielanhaia/symfony-messenger-transports-building-a-transactional-outbox-on-top-3op3" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/symfony-messenger-transports-building-a-transactional-outbox-on-top-3op3</id>
+    <updated>2026-07-02T22:22:00Z</updated>
+    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You save an order. The row commits. Then you dispatch Orde</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Symfony Scheduler Component: Cron in Your App, Not Your Crontab</title>
+    <link href="https://dev.to/gabrielanhaia/the-symfony-scheduler-component-cron-in-your-app-not-your-crontab-8p0" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/the-symfony-scheduler-component-cron-in-your-app-not-your-crontab-8p0</id>
+    <updated>2026-07-02T22:13:53Z</updated>
+    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You SSH into the box to check why the nightly report didn'</summary>
+    <author><name>Gabriel Anhaia</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -398,24 +434,6 @@
     <updated>2026-06-30T17:44:50Z</updated>
     <summary type="text">My Stop hook produces nothing. No &quot;all good.&quot; No &quot;checks passed.&quot; Complete silence. And that's exactly how I designed it. Most AI monitoring is noisy. Every hook prints something. &quot;Session complete!&quot; &quot;All checks passed!&quot; &quot;Health: green.&quot; Multiply by 5 hooks × 30 sessions, and you've burned your context window on noise nobody reads. Worse: when everything always says &quot;good,&quot; you stop reading. Then </summary>
     <author><name>YuhaoLin2005</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Meta restricts use of Claude Code and Codex to keep rival AI out of its training data</title>
-    <link href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/" rel="alternate"/>
-    <id>https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/</id>
-    <updated>2026-06-29T15:47:43Z</updated>
-    <summary type="text">Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its training data appeared first on The Decoder.</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Agnostic Cluster Refactor Skill for Antigrafity CLI: Building an AI Agent that Migrates Apps from AWS to GKE (Subagents, HITL Gate &amp; Workload Identity)</title>
-    <link href="https://dev.to/gde/agnostic-cluster-refactor-skill-for-antigrafity-cli-building-an-ai-agent-that-migrates-apps-from-e0" rel="alternate"/>
-    <id>https://dev.to/gde/agnostic-cluster-refactor-skill-for-antigrafity-cli-building-an-ai-agent-that-migrates-apps-from-e0</id>
-    <updated>2026-06-30T15:10:30Z</updated>
-    <summary type="text">Have you ever inherited a codebase where import boto3 appears in 47 different files? Where AWS credentials live in hardcoded environment variables and file storage is a file.save(&quot;/tmp/...&quot;) that will blow up the moment it hits an ephemeral Kubernetes pod? I did. And instead of refactoring everything by hand, I built an AI agent to do it for me — with mandatory human oversight before any productio</summary>
-    <author><name>Carlos Barbero</name></author>
     <category term="agents"/>
   </entry>
 </feed>
