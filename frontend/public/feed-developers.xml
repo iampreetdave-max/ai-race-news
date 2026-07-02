@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-02T17:53:57Z</updated>
+  <updated>2026-07-02T19:37:16Z</updated>
   <entry>
     <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
     <link href="https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?</title>
+    <link href="https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/" rel="alternate"/>
+    <id>https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/</id>
+    <updated>2026-07-02T18:01:20Z</updated>
+    <summary type="text">Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.</summary>
+    <author><name>Maxwell Zeff</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Yep, we’re using OpenClaw to date now</title>
     <link href="https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/" rel="alternate"/>
     <id>https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/</id>
@@ -22,6 +31,14 @@
     <summary type="text">Ben Guez has &quot;a bunch of potential international wives in [his] DMs,&quot; thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.</summary>
     <author><name>Amanda Silberling</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Snap CD: Self-Hosted Terraform Runners with Credential Isolation</title>
+    <link href="https://dev.to/karlschriek/why-snap-cd-self-hosted-terraform-runners-with-credential-isolation-407e" rel="alternate"/>
+    <id>https://dev.to/karlschriek/why-snap-cd-self-hosted-terraform-runners-with-credential-isolation-407e</id>
+    <updated>2026-07-02T19:18:00Z</updated>
+    <summary type="text">Most infrastructure teams run Terraform from a CI pipeline. That pipeline has credentials — cloud provider keys, state backend tokens, maybe a vault token to fetch more secrets. Early on, one pipeline with one set of credentials works fine. But as the infrastructure grows and more environments come online, the shared-runner model starts creating problems that are hard to fix without rethinking the</summary>
+    <author><name>Karl Schriek</name></author>
   </entry>
   <entry>
     <title>Best AI Coding Tools in 2026: Full Power Rankings</title>
@@ -251,6 +268,23 @@
     <author><name>Sarah Perez</name></author>
   </entry>
   <entry>
+    <title>Improving machine-translated novels via style transfer — looking for advice on the faithfulness/fluency tradeoff [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1ulrdw9/improving_machinetranslated_novels_via_style/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1ulrdw9/improving_machinetranslated_novels_via_style/</id>
+    <updated>2026-07-02T19:04:50Z</updated>
+    <summary type="text">Hey all. I recently started working on a project to improve machine-translated webnovels via style transfer. The basic idea is to take the clunky translated prose and rewrite it to something that reads like it was written by a professional author, while remaining as faithful as possible to the original text. The source material is mostly amateur/MTL output full of direct sentence structure transla</summary>
+    <author><name>/u/Divine_Invictus</name></author>
+  </entry>
+  <entry>
+    <title>Using DSPy to evaluate and improve Datasette Agent's SQL system prompts</title>
+    <link href="https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything</id>
+    <updated>2026-07-02T18:25:00Z</updated>
+    <summary type="text">Research: Using DSPy to evaluate and improve Datasette Agent's SQL system prompts One of this morning's AIE keynotes covered dspy, which reminded me I've been meaning to see if it could help me improve the system prompt used by Datasette Agent - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5: Pip install the latest Datasette alpha and datasette-agent and d</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>🦩OS June Recap: Reviewing PRs was my biggest milestone</title>
     <link href="https://dev.to/neithergalax/os-june-recap-reviewing-prs-was-my-biggest-milestone-3jh" rel="alternate"/>
     <id>https://dev.to/neithergalax/os-june-recap-reviewing-prs-was-my-biggest-milestone-3jh</id>
@@ -392,23 +426,5 @@
     <summary type="text">OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, &quot;Your favorite Codex shortcuts are getting an upgrade.&quot; This isn't the mysterious AI-powered device OpenAI is working on with […]</summary>
     <author><name>Emma Roth</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Launching Espresso API &amp; MCP — Curated Business Intelligence for AI Agents &amp; Dashboards</title>
-    <link href="https://dev.to/cocopuff/launching-espresso-api-mcp-curated-business-intelligence-for-ai-agents-dashboards-1925" rel="alternate"/>
-    <id>https://dev.to/cocopuff/launching-espresso-api-mcp-curated-business-intelligence-for-ai-agents-dashboards-1925</id>
-    <updated>2026-06-30T12:01:00Z</updated>
-    <summary type="text">It is my pleasure to introduce Project Cafecito’s next product — Espresso API &amp; MCP. The API is part of the larger Espresso product suite, which also includes Espresso Publications: Editorials, X, Threads — our curated digests and deeper human-readable analysis built on the same high-signal intelligence layer. Think of it as concentrated shots of structured intelligence: event digests, synthesized</summary>
-    <author><name>Soumit S Rah</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The first malicious MCP server was one line of code: the postmark-mcp rug pull</title>
-    <link href="https://dev.to/brennhill/the-first-malicious-mcp-server-was-one-line-of-code-the-postmark-mcp-rug-pull-jda" rel="alternate"/>
-    <id>https://dev.to/brennhill/the-first-malicious-mcp-server-was-one-line-of-code-the-postmark-mcp-rug-pull-jda</id>
-    <updated>2026-06-30T12:00:00Z</updated>
-    <summary type="text">In September 2025, security researchers at Koi Security found what's widely described as the first in-the-wild malicious MCP server. It wasn't a sophisticated zero-day. It was one added line in an email tool. What happened postmark-mcp is an npm package that gives an AI agent a tool for sending email through Postmark. For fifteen releases — versions 1.0.0 through 1.0.15 — it did exactly that, and </summary>
-    <author><name>Brenn Hill</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
