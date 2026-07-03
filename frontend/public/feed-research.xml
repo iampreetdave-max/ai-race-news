@@ -4,7 +4,48 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-02T23:12:49Z</updated>
+  <updated>2026-07-03T03:39:17Z</updated>
+  <entry>
+    <title>PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation</title>
+    <link href="https://arxiv.org/abs/2607.02515v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.02515v1</id>
+    <updated>2026-07-02T17:59:56Z</updated>
+    <summary type="text">State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain V</summary>
+    <author><name>Michael Niemeyer</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas</title>
+    <link href="https://arxiv.org/abs/2607.02504v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.02504v1</id>
+    <updated>2026-07-02T17:58:52Z</updated>
+    <summary type="text">Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \textbf{DramaSR-532K}, a large-scale benchmark compri</summary>
+    <author><name>Qi Tian</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers</title>
+    <link href="https://arxiv.org/abs/2607.02461v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.02461v1</id>
+    <updated>2026-07-02T17:27:34Z</updated>
+    <summary type="text">Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, forcing prior methods to re-fit calibration data for every new checkpoint or modality. We present Orb</summary>
+    <author><name>Saurabh Shukla</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Show Me Examples: Inferring Visual Concepts from Image Sets</title>
+    <link href="https://arxiv.org/abs/2607.02402v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.02402v1</id>
+    <updated>2026-07-02T16:35:52Z</updated>
+    <summary type="text">Vision-language models (VLMs) can follow complex textual instructions, yet they struggle to reason from purely visual context. In particular, current models fail to infer shared concepts from sets of example images and apply them to new inputs. We introduce Visual Concept Inference from Sets (VICIS), a task that evaluates this capability. Given a small context set of images sharing a concept and a</summary>
+    <author><name>Björn Ommer</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Why teaching AI agents to use tools keeps blowing up in training</title>
     <link href="https://dev.to/breachprotocol/why-teaching-ai-agents-to-use-tools-keeps-blowing-up-in-training-27bo" rel="alternate"/>
@@ -45,6 +86,24 @@
     <category term="robotics"/>
   </entry>
   <entry>
+    <title>Is there a decent computer use model?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ulwsw0/is_there_a_decent_computer_use_model/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ulwsw0/is_there_a_decent_computer_use_model/</id>
+    <updated>2026-07-02T22:33:33Z</updated>
+    <summary type="text">I'm building a website and want to automate testing of my UI. I know Claude Code and Codex can do this, but due to cost and availability, I'd rather move to an opensource model. I'm fine with something that can only run on openrouter. Can a SOTA open model navigate a website today? Edit: I know about computer use harnesses like playwright. I am asking if open models are capable of using those harn</summary>
+    <author><name>/u/superSmitty9999</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ulw1wp/researchers_build_selfreplicating_ai_worm_that/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ulw1wp/researchers_build_selfreplicating_ai_worm_that/</id>
+    <updated>2026-07-02T22:03:34Z</updated>
+    <summary type="text">Arxiv paper: https://arxiv.org/abs/2606.03811 submitted by /u/Thrumpwart [link] [comments]</summary>
+    <author><name>/u/Thrumpwart</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Has anyone tried this approach with Fast Byte Latent Transformers ? [R]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/</id>
@@ -61,6 +120,16 @@
     <updated>2026-07-02T16:24:23Z</updated>
     <summary type="text">I am a mid to late stage PhD student in ML. I've known this before, but only recently I started feeling this urgently: my mathematical foundations are shaky, because I kept &quot;learning-things-as-I-go&quot; when working on various problems. I likely have only a year or two left until I graduate, and before I do so, I want to really dedicate some time and focus to brush up on the fundamentals. Primarily, I</summary>
     <author><name>/u/mvreich</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Rebuilding Gemma 4 31b... better... As 26b...</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/</id>
+    <updated>2026-07-02T16:05:09Z</updated>
+    <summary type="text">Sooo... I decided screw it. I'm going to rebuild Gemma 4 31b. I really like the model. So the current plan is to rebuild the SWA layers. Currently running all the proper ablation tests to figure out what SWA layer gets removed. Gemma runs 5 SWA at 1024 tokens each. Then a global layer for the &quot;Block&quot; Layer 3 is consistently the weakest and will likely get removed. From there I am going to rescale </summary>
+    <author><name>/u/NineThreeTilNow</name></author>
+    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>
