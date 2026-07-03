@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-03T17:37:26Z</updated>
+  <updated>2026-07-03T19:36:04Z</updated>
+  <entry>
+    <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
+    <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
+    <id>https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/</id>
+    <updated>2026-07-03T19:24:40Z</updated>
+    <summary type="text">Microsoft reportedly plans to merge its consumer and enterprise Copilot apps into a single app in August. Rarely used features like Copilot Podcasts are getting cut, and new AI agents called &quot;AutoPilot&quot; will handle tasks in the background for an extra fee. The article Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents appeared first on Th</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Claude Code's complicated China problem involves bans on both sides of the Pacific</title>
     <link href="https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/" rel="alternate"/>
@@ -263,6 +273,16 @@
     <author><name>Asif Razzaq</name></author>
   </entry>
   <entry>
+    <title>AI Agents as Digital Employees: Architecture and Lessons from Practice</title>
+    <link href="https://dev.to/slawanextlevels/ai-agents-as-digital-employees-architecture-and-lessons-from-practice-3khd" rel="alternate"/>
+    <id>https://dev.to/slawanextlevels/ai-agents-as-digital-employees-architecture-and-lessons-from-practice-3khd</id>
+    <updated>2026-07-03T19:19:45Z</updated>
+    <summary type="text">The &quot;digital employee&quot; is the most heavily sold and least understood product of 2026. Vendor slides promise a colleague who never sleeps. What arrives in most projects is a very fast intern with no memory who makes every mistake with complete confidence. This isn't a polemic against the technology. We build these agents ourselves, and they work. But they only work if you treat them as what they ar</summary>
+    <author><name>Slawa</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Microsoft launches $2.5 billion &quot;Frontier Company&quot; to embed 6,000 AI engineers inside enterprise clients</title>
     <link href="https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/" rel="alternate"/>
     <id>https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/</id>
@@ -273,12 +293,111 @@
     <category term="product-launch"/>
   </entry>
   <entry>
+    <title>Chunked Prefill: Why One Long Prompt Freezes Your LLM Server</title>
+    <link href="https://dev.to/ji_ai/chunked-prefill-why-one-long-prompt-freezes-your-llm-server-30e0" rel="alternate"/>
+    <id>https://dev.to/ji_ai/chunked-prefill-why-one-long-prompt-freezes-your-llm-server-30e0</id>
+    <updated>2026-07-03T19:16:01Z</updated>
+    <summary type="text">You ship an LLM service. p50 latency looks great. Then a user pastes a 40-page contract into the chat, and for the next 400 milliseconds every other user's tokens stop arriving. Their streams freeze, then catch up in a burst. Your dashboards show inter-token latency spikes with no obvious cause. Nothing crashed. Nothing is rate-limited. One long prompt did it. This is prefill-decode interference, </summary>
+    <author><name>jidonglab</name></author>
+  </entry>
+  <entry>
+    <title>Binary, Hex &amp; Octal — Number Systems Every Developer Must Know</title>
+    <link href="https://dev.to/akaranjkar08/binary-hex-octal-number-systems-every-developer-must-know-5d8o" rel="alternate"/>
+    <id>https://dev.to/akaranjkar08/binary-hex-octal-number-systems-every-developer-must-know-5d8o</id>
+    <updated>2026-07-03T19:15:38Z</updated>
+    <summary type="text">Every time you type chmod 755, set a color to #FF5733, or write permissions &amp; 0x0F in a production codebase, you are doing number system arithmetic. Binary, hexadecimal, and octal are not abstract CS theory you clear from memory after your first algorithms exam. They are the language your operating system, CPU, and network stack speak natively — and fluency pays dividends in code quality, debuggin</summary>
+    <author><name>Anup Karanjkar</name></author>
+  </entry>
+  <entry>
+    <title>I built an AI that predicts its own collapse</title>
+    <link href="https://dev.to/alexander_zuberjatzke_7e/i-built-an-ai-that-predicts-its-own-collapse-17h2" rel="alternate"/>
+    <id>https://dev.to/alexander_zuberjatzke_7e/i-built-an-ai-that-predicts-its-own-collapse-17h2</id>
+    <updated>2026-07-03T19:15:28Z</updated>
+    <summary type="text">1. It predicts its own collapse This is the part I'm proudest of and least certain about, so let's lead with it. NEOTH keeps an internal event stream (every tool call, model request, agent dispatch, fallback, retry). A background observer scores every rolling window of that stream with seven variables — coupling between tools and agents, semantic convergence pressure, resource/context pressure, ag</summary>
+    <author><name>Alexander Zuber-Jatzke</name></author>
+  </entry>
+  <entry>
     <title>Prompt: The Next AI Challenge Isn't the Model. It's the Organization.</title>
     <link href="https://aibusiness.com/agentic-ai/next-challenge-scaling-ai" rel="alternate"/>
     <id>https://aibusiness.com/agentic-ai/next-challenge-scaling-ai</id>
     <updated>2026-07-02T19:02:35Z</updated>
     <summary type="text">AWS's $1 billion investment in embedded AI engineers reflects a broader shift as enterprises focus less on choosing models and more on putting AI to work.</summary>
     <author><name>Liz Hughes</name></author>
+  </entry>
+  <entry>
+    <title>Building Word Embeddings with PyTorch and Lightning AI Part 1: Setting Up the Word Embedding Model</title>
+    <link href="https://dev.to/rijultp/building-word-embeddings-with-pytorch-and-lightning-ai-part-1-setting-up-the-word-embedding-model-3ka3" rel="alternate"/>
+    <id>https://dev.to/rijultp/building-word-embeddings-with-pytorch-and-lightning-ai-part-1-setting-up-the-word-embedding-model-3ka3</id>
+    <updated>2026-07-03T18:56:36Z</updated>
+    <summary type="text">In this article, we will explore how to implement word embeddings using PyTorch and Lightning AI. The implementation is based on the same example that we used in my Word2Vec article series. First, let's import the required modules. import torch import torch.nn as nn from torch.optim import Adam from torch.distributions.uniform import Uniform from torch.utils.data import TensorDataset, DataLoader i</summary>
+    <author><name>Rijul Rajesh</name></author>
+    <category term="rag"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Building an Enterprise-Grade Real-Time Analytics Pipeline with FastAPI and TimescaleDB</title>
+    <link href="https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al" rel="alternate"/>
+    <id>https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al</id>
+    <updated>2026-07-03T18:50:51Z</updated>
+    <summary type="text">I just released v1.0.0 of an open-source, production-ready real-time analytics pipeline built with Python. Here's what it does and why you might care. The Problem Every SaaS product needs analytics — event tracking, real-time dashboards, time-series aggregations. Most teams either pay for Segment/RudderStack or build their own from scratch. This project is the &quot;build your own&quot; done right. Architec</summary>
+    <author><name>Aman Kumar</name></author>
+    <category term="open-source"/>
+    <category term="funding"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Open Knowledge Format (OKF): The Markdown Standard Your AI Agents Have Been Waiting For 📚</title>
+    <link href="https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb" rel="alternate"/>
+    <id>https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb</id>
+    <updated>2026-07-03T18:50:23Z</updated>
+    <summary type="text">AI agents are only as smart as the context you give them. OKF is a new open specification that packages your organizational knowledge as plain markdown files so any agent can read it without custom integrations or proprietary SDKs. Every team building AI agents hits the same wall. The model is capable. The agent framework is set up. But the agent doesn't know anything about your organization. It d</summary>
+    <author><name>Suhas Mallesh</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>개발 지식 없이도 외주 앱 개발 과정을 직접 점검하는 방법</title>
+    <link href="https://dev.to/potenlab/gaebal-jisig-eobsido-oeju-aeb-gaebal-gwajeongeul-jigjeob-jeomgeomhaneun-bangbeob-po7" rel="alternate"/>
+    <id>https://dev.to/potenlab/gaebal-jisig-eobsido-oeju-aeb-gaebal-gwajeongeul-jigjeob-jeomgeomhaneun-bangbeob-po7</id>
+    <updated>2026-07-03T18:46:25Z</updated>
+    <summary type="text">개발 역량이 없어도 외주 개발사의 진행 상황을 명확하게 파악하고 피드백을 줄 수 있다. 필요한 건 기술 지식이 아니라, 올바른 협업 구조다. 이 글은 비개발자 제품 관리자가 바로 적용할 수 있는 투명한 피드백 루프와 점검 방식을 소개한다. 외주 개발에서 비개발자가 소외되는 이유는 무엇인가? 외주 개발사와 일을 시작하면 처음 며칠은 소통이 활발하다. 요구사항 정리, 계약, 착수 미팅까지는 순탄하다. 문제는 그 이후다. 개발이 시작되면 대화의 언어가 바뀐다. &quot;API 연결 중&quot;, &quot;백엔드 스키마 설계 단계&quot;, &quot;프론트 컴포넌트 분리 작업&quot;처럼 전공자가 아니면 체감하기 어려운 표현들이 보고서를 채운다. 이 상태에서 비개발자가 할 수 있는 질문은 사실상 하나뿐이다. &quot;잘 되고 있나요?&quot; 그리고 돌아오는 답도 하나다</summary>
+    <author><name>potenlab</name></author>
+  </entry>
+  <entry>
+    <title>OpenAI Agents SDK 0.13 to 0.17: Three Breaking Changes You Will Hit</title>
+    <link href="https://dev.to/peytongreen_dev/openai-agents-sdk-013-to-017-three-breaking-changes-you-will-hit-385e" rel="alternate"/>
+    <id>https://dev.to/peytongreen_dev/openai-agents-sdk-013-to-017-three-breaking-changes-you-will-hit-385e</id>
+    <updated>2026-07-03T18:45:31Z</updated>
+    <summary type="text">OpenAI Agents SDK 0.13 → 0.17: Three Breaking Changes You Will Hit The OpenAI Agents SDK moved from 0.13 to 0.17 in five weeks (April 9 – May 19, 2026). That's 19 releases, including three breaking changes. Two of them are silent — they change runtime behavior without raising an error at upgrade time. If you're running agents on 0.13.x, this is the migration guide you need before you upgrade. The </summary>
+    <author><name>Peyton Green</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built an AI that plays GeoGuessr. Here is how single-image geolocation actually works.</title>
+    <link href="https://dev.to/atlasgeoai/i-built-an-ai-that-plays-geoguessr-here-is-how-single-image-geolocation-actually-works-39dm" rel="alternate"/>
+    <id>https://dev.to/atlasgeoai/i-built-an-ai-that-plays-geoguessr-here-is-how-single-image-geolocation-actually-works-39dm</id>
+    <updated>2026-07-03T18:43:15Z</updated>
+    <summary type="text">Give a person a single street-view photo with no metadata and ask them which country it is. A trained GeoGuessr player will often get it in a few seconds. They are not reading a hidden GPS tag. They are reading the image: the color of the road lines, the shape of the bollards, the script on a distant sign, the vegetation, the direction of the sun, the style of the power poles. I spent a long time </summary>
+    <author><name>ATLAS</name></author>
+  </entry>
+  <entry>
+    <title>The Right Way to Pair AI With Terraform Plans</title>
+    <link href="https://dev.to/devopsaitoolkit/the-right-way-to-pair-ai-with-terraform-plans-3i1c" rel="alternate"/>
+    <id>https://dev.to/devopsaitoolkit/the-right-way-to-pair-ai-with-terraform-plans-3i1c</id>
+    <updated>2026-07-03T18:42:46Z</updated>
+    <summary type="text">terraform plan is honest about what it's going to do. The problem is it's also verbose, repetitive, and full of cosmetic changes (like recomputed tags) mixed in with real ones (like a database instance scheduled for -/+ replace). On a 400-line plan, the dangerous changes hide. This is the kind of task AI is actually good at: skimming structured text, flagging the entries that matter, ignoring the </summary>
+    <author><name>James Joyner</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Just realized the JSON pain has been already solved thanks to github.com/kaptinlin/jsonrepair 
+
+Shout out to @kaptinlin</title>
+    <link href="https://dev.to/sks/just-realized-the-json-pain-has-been-already-solved-thanks-to-githubcomkaptinlinjsonrepair-eo6" rel="alternate"/>
+    <id>https://dev.to/sks/just-realized-the-json-pain-has-been-already-solved-thanks-to-githubcomkaptinlinjsonrepair-eo6</id>
+    <updated>2026-07-03T18:41:46Z</updated>
+    <summary type="text">Why We Chose Go for Our AI Agent Platform (When Everyone Else Picked Python) Sabith KS Sabith KS Sabith KS Follow Jul 1 Why We Chose Go for Our AI Agent Platform (When Everyone Else Picked Python) #go #aiagents #architecture #llm Add Comment 1 min read</summary>
+    <author><name>Sabith KS</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Chip Industry Urges US to Avoid Moves That Distort Memory Market</title>
@@ -324,116 +443,5 @@
     <updated>2026-07-02T23:30:00Z</updated>
     <summary type="text">Hong Kong has become a vital conduit for high-tech products moving in and out of China, emerging as one node in a $2 trillion network of Asian trade fueled by a global boom in artificial intelligence.</summary>
     <author><name>Nectar Gan, James Mayger</name></author>
-  </entry>
-  <entry>
-    <title>Reading Your Data Layer at 2 AM: Glass Box vs. Black Box Queries</title>
-    <link href="https://dev.to/maskdatabases/reading-your-data-layer-at-2-am-glass-box-vs-black-box-queries-57d1" rel="alternate"/>
-    <id>https://dev.to/maskdatabases/reading-your-data-layer-at-2-am-glass-box-vs-black-box-queries-57d1</id>
-    <updated>2026-07-03T17:05:13Z</updated>
-    <summary type="text">Debugging production issues often feels like a race against the clock, especially when it's 2 AM and a critical system is down. In these moments, the clarity of your codebase becomes paramount. This is particularly true for the data access layer, where an opaque query can turn a quick fix into an all-night struggle. Backend developers regularly interact with databases through various abstractions,</summary>
-    <author><name>Mask Databases</name></author>
-  </entry>
-  <entry>
-    <title>I Pointed My AI Research Engine at Goldbach's Conjecture — It Found a Hidden Bias</title>
-    <link href="https://dev.to/subhansh/i-pointed-my-ai-research-engine-at-goldbachs-conjecture-it-found-a-hidden-bias-44pn" rel="alternate"/>
-    <id>https://dev.to/subhansh/i-pointed-my-ai-research-engine-at-goldbachs-conjecture-it-found-a-hidden-bias-44pn</id>
-    <updated>2026-07-03T17:05:12Z</updated>
-    <summary type="text">As a developer building AI for scientific discovery, I wanted to test if autonomous research actually works. So I built Luka and pointed it at Goldbach's conjecture. The Background Goldbach's conjecture: every even integer &gt; 2 is the sum of two primes. Verified up to 4 × 10¹⁸, but the distributional properties are poorly understood. The Hardy–Littlewood formula predicts the count of representation</summary>
-    <author><name>near</name></author>
-  </entry>
-  <entry>
-    <title>Scarab Systems Field Lab: Same Patch, 96% Less Final Decision Context</title>
-    <link href="https://dev.to/scarab-systems/scarab-systems-field-lab-same-patch-96-less-final-decision-context-16ee" rel="alternate"/>
-    <id>https://dev.to/scarab-systems/scarab-systems-field-lab-same-patch-96-less-final-decision-context-16ee</id>
-    <updated>2026-07-03T16:53:37Z</updated>
-    <summary type="text">Scarab Systems has started formally evaluating the efficiency of using Scarab Diagnostic Suite during AI-assisted software repair. The question is simple: Does a diagnostic governance layer actually improve the agent patching workflow in a measurable way? Not theoretically. Not philosophically. Not because “AI governance” sounds responsible. But in a concrete repair scenario, against a real public</summary>
-    <author><name>Scarab Systems</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>System Design Chapter 1: Fundamentals: Servers, Latency, Request Flow and Throughput</title>
-    <link href="https://dev.to/codexam/system-design-chapter-1-fundamentals-servers-latency-request-flow-and-throughput-dab" rel="alternate"/>
-    <id>https://dev.to/codexam/system-design-chapter-1-fundamentals-servers-latency-request-flow-and-throughput-dab</id>
-    <updated>2026-07-03T16:50:18Z</updated>
-    <summary type="text">You may have built some personal projects where you have a backend and a database, and everything just… works. You hit an API, the server does its thing, sends back a response, done. That's a perfectly fine way to build something for yourself or for a college project. The problem starts when real users show up. This is the first post in a series where I'm starting system design from absolute zero.</summary>
-    <author><name>Subham</name></author>
-  </entry>
-  <entry>
-    <title>We fixed the worst prompt variant. It got better. That doesn't mean the fix worked.</title>
-    <link href="https://dev.to/maya_andersson_dev/your-eval-dashboard-has-30-metrics-some-of-those-wins-are-noise-50i2" rel="alternate"/>
-    <id>https://dev.to/maya_andersson_dev/your-eval-dashboard-has-30-metrics-some-of-those-wins-are-noise-50i2</id>
-    <updated>2026-07-03T16:47:59Z</updated>
-    <summary type="text">A pattern I've seen on more than one team: weekly eval run finishes, someone sorts the leaderboard, and the worst-performing prompt variant or model checkpoint gets flagged for attention. Someone makes a change, a tweak to the system prompt, a different few-shot example, sometimes just a rewording of one instruction. Next week's eval run shows that variant improved. The team credits the fix. Somet</summary>
-    <author><name>Maya Andersson</name></author>
-  </entry>
-  <entry>
-    <title>Ignoring HITL is a massive technical risk: Human-in-the-Loop</title>
-    <link href="https://dev.to/jeandevbr/ignoring-hitl-is-a-massive-technical-risk-human-in-the-loop-49l4" rel="alternate"/>
-    <id>https://dev.to/jeandevbr/ignoring-hitl-is-a-massive-technical-risk-human-in-the-loop-49l4</id>
-    <updated>2026-07-03T16:47:02Z</updated>
-    <summary type="text">The explosion of generative AI and autonomous agents has completely flipped the script on how we develop software. Today, having tools that can write, refactor, and test code in seconds gives engineering teams an insane speed boost. But the more complex tasks we offload to these systems, the more critical the concept of Human-in-the-Loop (HITL) becomes. To put it simply—as big tech players like IB</summary>
-    <author><name>Jean Klebert de A Modesto</name></author>
-  </entry>
-  <entry>
-    <title>From Raw Data to Meaningful Insights: A Beginner's Guide to Data Analysis with Python</title>
-    <link href="https://dev.to/asim_c3dc2da5f8282061e8ea/from-raw-data-to-meaningful-insights-a-beginners-guide-to-data-analysis-with-python-1ccn" rel="alternate"/>
-    <id>https://dev.to/asim_c3dc2da5f8282061e8ea/from-raw-data-to-meaningful-insights-a-beginners-guide-to-data-analysis-with-python-1ccn</id>
-    <updated>2026-07-03T16:45:59Z</updated>
-    <summary type="text">Data is everywhere, but raw data alone has little value. The real power lies in transforming that data into meaningful insights that support better decisions. Whether you're a student working on a final-year project, a researcher analyzing survey results, or a beginner entering the field of data science, understanding the data analysis workflow is an essential skill. In this article, I'll walk thr</summary>
-    <author><name>asim</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Teaching AI Coding Agents How to Build Workflows with Skills and MCP</title>
-    <link href="https://dev.to/marrouchi/teaching-ai-coding-agents-how-to-build-workflows-with-skills-and-mcp-1gdh" rel="alternate"/>
-    <id>https://dev.to/marrouchi/teaching-ai-coding-agents-how-to-build-workflows-with-skills-and-mcp-1gdh</id>
-    <updated>2026-07-03T16:42:28Z</updated>
-    <summary type="text">AI coding agents are becoming more useful, but they still need context. A generic agent can write code, explain files, and generate boilerplate. But when you ask it to work with a specific platform, framework, or internal system, it often misses conventions, syntax rules, and runtime details. That is where the combination of Skills and MCP becomes interesting. Skills Give the Agent Knowledge A Ski</summary>
-    <author><name>Med Marrouchi</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>China Quant Funds Draw Billions as AI Trounces Human Traders</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-02/china-quant-funds-draw-billions-as-ai-trounces-human-traders" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-02/china-quant-funds-draw-billions-as-ai-trounces-human-traders</id>
-    <updated>2026-07-02T23:00:00Z</updated>
-    <summary type="text">Quant funds in China have become so popular that they are being deluged with investors’ money.</summary>
-    <author><name>Charlie Zhu, Dingmin Zhang, Zheng Li</name></author>
-  </entry>
-  <entry>
-    <title>AI Agents Explained: What Is a ReAct Loop and How Does It Work?</title>
-    <link href="https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/" rel="alternate"/>
-    <id>https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/</id>
-    <updated>2026-07-03T16:30:00Z</updated>
-    <summary type="text">How agents reason, act, and observe their way to a final answer, one step at a time The post AI Agents Explained: What Is a ReAct Loop and How Does It Work? appeared first on Towards Data Science.</summary>
-    <author><name>Maria Mouschoutzi</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
-    <link href="https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/</id>
-    <updated>2026-07-02T16:20:29Z</updated>
-    <summary type="text">Anthropic has cut the system prompt for Claude Code by 80 percent. According to staffer Tariq Shihipar, the new Fable 5 models need fewer instructions and examples. Guidelines can even hold the models back because they're &quot;more imaginative&quot; than what they're given. Instead of strict rules, Anthropic now steers through context. The article Anthropic says it cut 80 percent of Claude Code's system pr</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Trump Says He Wants AI Guardrails, But ‘As Little as Possible’</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-02/trump-says-he-wants-ai-guardrails-but-as-little-as-possible" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-02/trump-says-he-wants-ai-guardrails-but-as-little-as-possible</id>
-    <updated>2026-07-02T22:21:44Z</updated>
-    <summary type="text">President Donald Trump said he sees the need for some standards on artificial intelligence technology, but wants to avoid burdensome restrictions that may hamper American companies competing with China.</summary>
-    <author><name>Courtney Subramanian</name></author>
-  </entry>
-  <entry>
-    <title>Treasuries Gain on Fed Rate-Hike Bets | The Close 7/2/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-02/the-close-7-2-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-02/the-close-7-2-2026-video</id>
-    <updated>2026-07-02T22:04:19Z</updated>
-    <summary type="text">Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are MSIM CIO, Portfolio Solutions Group Jim Caron, Roth Capital Senior Research Analyst Craig Irwin, CUNY Graduate Center Research Professor, Economics Paul Krugman, Securitize Co-Founder &amp; CEO Carlos Domingo, Envestnet Co-Chief I</summary>
-    <author><name>Bloomberg Technology</name></author>
   </entry>
 </feed>

@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-03T17:37:26Z</updated>
+  <updated>2026-07-03T19:36:04Z</updated>
+  <entry>
+    <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
+    <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
+    <id>https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/</id>
+    <updated>2026-07-03T19:24:40Z</updated>
+    <summary type="text">Microsoft reportedly plans to merge its consumer and enterprise Copilot apps into a single app in August. Rarely used features like Copilot Podcasts are getting cut, and new AI agents called &quot;AutoPilot&quot; will handle tasks in the background for an extra fee. The article Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents appeared first on Th</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Claude Code's complicated China problem involves bans on both sides of the Pacific</title>
     <link href="https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/" rel="alternate"/>
@@ -13,6 +23,26 @@
     <summary type="text">Anthropic is trying to block Chinese companies like ByteDance and Ant Financial from accessing Claude Code, but they're getting around the restrictions through VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its own employees from using the tool after hidden code was found that could identify Chinese users. The article Claude Code's complicated China problem involves bans on both si</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building an Enterprise-Grade Real-Time Analytics Pipeline with FastAPI and TimescaleDB</title>
+    <link href="https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al" rel="alternate"/>
+    <id>https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al</id>
+    <updated>2026-07-03T18:50:51Z</updated>
+    <summary type="text">I just released v1.0.0 of an open-source, production-ready real-time analytics pipeline built with Python. Here's what it does and why you might care. The Problem Every SaaS product needs analytics — event tracking, real-time dashboards, time-series aggregations. Most teams either pay for Segment/RudderStack or build their own from scratch. This project is the &quot;build your own&quot; done right. Architec</summary>
+    <author><name>Aman Kumar</name></author>
+    <category term="open-source"/>
+    <category term="funding"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Open Knowledge Format (OKF): The Markdown Standard Your AI Agents Have Been Waiting For 📚</title>
+    <link href="https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb" rel="alternate"/>
+    <id>https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb</id>
+    <updated>2026-07-03T18:50:23Z</updated>
+    <summary type="text">AI agents are only as smart as the context you give them. OKF is a new open specification that packages your organizational knowledge as plain markdown files so any agent can read it without custom integrations or proprietary SDKs. Every team building AI agents hits the same wall. The model is capable. The agent framework is set up. But the agent doesn't know anything about your organization. It d</summary>
+    <author><name>Suhas Mallesh</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
@@ -226,6 +256,15 @@
     <author><name>Richard MacManus</name></author>
   </entry>
   <entry>
+    <title>Fable's judgement</title>
+    <link href="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</id>
+    <updated>2026-07-03T18:51:06Z</updated>
+    <summary type="text">One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable &quot;only use automated testing for larger features, don't update and run tests for s</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>What Three Fictional Startups Taught Me About Structured, Semi-Structured, and Unstructured Data on Azure</title>
     <link href="https://dev.to/richyy/what-three-fictional-startups-taught-me-about-structured-semi-structured-and-unstructured-data-on-1h37" rel="alternate"/>
     <id>https://dev.to/richyy/what-three-fictional-startups-taught-me-about-structured-semi-structured-and-unstructured-data-on-1h37</id>
@@ -243,16 +282,6 @@
     <category term="hardware"/>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Designing Enterprise Data Architecture: Lessons Beyond ETL</title>
-    <link href="https://dev.to/jaldeep_patel/designing-enterprise-data-architecture-lessons-beyond-etl-5a2f" rel="alternate"/>
-    <id>https://dev.to/jaldeep_patel/designing-enterprise-data-architecture-lessons-beyond-etl-5a2f</id>
-    <updated>2026-07-02T04:10:11Z</updated>
-    <summary type="text">When people hear &quot;data architecture,&quot; they often think about databases, ETL pipelines, or reporting tools. While those are important pieces, enterprise data architecture is really about designing a platform that can adapt as the business grows. Over the years, I've realized that successful data platforms aren't defined by the technologies they use. They're defined by how well they handle change. E</summary>
-    <author><name>Jaldeep Patel</name></author>
-    <category term="product-launch"/>
-    <category term="data"/>
   </entry>
   <entry>
     <title>More Context Is Making Your AI Worse</title>
@@ -363,23 +392,6 @@
     <updated>2026-07-01T09:14:14Z</updated>
     <summary type="text">TL;DR codegraph, codebase-memory-mcp, and serena all got there first, handing a coding agent code intelligence over MCP so it stops grepping. On my own open-ended questions the token bill didn't budge: the agent kept sliding back to grep, and no amount of forceful prompting could stop it. So I built @ttsc/graph. It gives the agent an index the TypeScript compiler already resolved, never the source</summary>
     <author><name>Jeongho Nam</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>X now offers an MCP server to make its platform easier for AI tools to use</title>
-    <link href="https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/</id>
-    <updated>2026-06-30T15:08:42Z</updated>
-    <summary type="text">X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.</summary>
-    <author><name>Sarah Perez</name></author>
-  </entry>
-  <entry>
-    <title>Is there a decent computer use model?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ulwsw0/is_there_a_decent_computer_use_model/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ulwsw0/is_there_a_decent_computer_use_model/</id>
-    <updated>2026-07-02T22:33:33Z</updated>
-    <summary type="text">I'm building a website and want to automate testing of my UI. I know Claude Code and Codex can do this, but due to cost and availability, I'd rather move to an opensource model. I'm fine with something that can only run on openrouter. Can a SOTA open model navigate a website today? Edit: I know about computer use harnesses like playwright. I am asking if open models are capable of using those harn</summary>
-    <author><name>/u/superSmitty9999</name></author>
     <category term="llm"/>
   </entry>
 </feed>
