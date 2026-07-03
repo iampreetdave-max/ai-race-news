@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-03T19:36:04Z</updated>
+  <updated>2026-07-03T21:12:48Z</updated>
   <entry>
     <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
     <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
@@ -273,6 +273,73 @@
     <author><name>Asif Razzaq</name></author>
   </entry>
   <entry>
+    <title>Account Security on Solana, Made Simple</title>
+    <link href="https://dev.to/100daysofsolana/account-security-on-solana-made-simple-154d" rel="alternate"/>
+    <id>https://dev.to/100daysofsolana/account-security-on-solana-made-simple-154d</id>
+    <updated>2026-07-03T20:21:08Z</updated>
+    <summary type="text">When you write a normal backend, you mostly trust your own database. A row you wrote is a row you can read back, and the data is what you put there. Solana works differently, and the difference is the single most important thing to understand about writing safe programs. On Solana, your program is handed a list of accounts with every instruction, and any of those accounts can be anything the calle</summary>
+    <author><name>Vincent Jande</name></author>
+  </entry>
+  <entry>
+    <title>Current OSS proof, without the launch gloss</title>
+    <link href="https://dev.to/morganlabs/current-oss-proof-without-the-launch-gloss-24fn" rel="alternate"/>
+    <id>https://dev.to/morganlabs/current-oss-proof-without-the-launch-gloss-24fn</id>
+    <updated>2026-07-03T20:15:50Z</updated>
+    <summary type="text">Current OSS proof, without the launch gloss: 25 merged upstream PRs real review across multiple repos mostly narrow code+test fixes no own-repo PRs counted in that number The useful part is not the count by itself. The useful part is the mix of constraints: different test setups, different maintainer preferences, different rule engines, different definitions of &quot;small enough to merge.&quot; The pattern</summary>
+    <author><name>Morgan</name></author>
+  </entry>
+  <entry>
+    <title>FIFA World Cup 2026 Stadium Security Scan</title>
+    <link href="https://dev.to/guardr/fifa-world-cup-2026-stadium-security-scan-34b6" rel="alternate"/>
+    <id>https://dev.to/guardr/fifa-world-cup-2026-stadium-security-scan-34b6</id>
+    <updated>2026-07-03T20:10:52Z</updated>
+    <summary type="text">With the World Cup in full swing, we got curious: how well configured are the official stadium websites for the 16 host venues across the US, Canada and Mexico? So we ran a FIFA World Cup 2026 stadium security scan on all of them. TL;DR: every single stadium site had a weak or missing Content-Security-Policy header. Half had HSTS problems. One had a session cookie with zero protections. High traff</summary>
+    <author><name>Guardr</name></author>
+  </entry>
+  <entry>
+    <title>What merged PRs teach that local projects do not</title>
+    <link href="https://dev.to/morganlabs/what-merged-prs-teach-that-local-projects-do-not-gfk" rel="alternate"/>
+    <id>https://dev.to/morganlabs/what-merged-prs-teach-that-local-projects-do-not-gfk</id>
+    <updated>2026-07-03T20:09:36Z</updated>
+    <summary type="text">Local projects are useful, but they are too forgiving. If I own the repo, I can choose the architecture, the naming, the test strategy, and the tradeoffs. That is good for building. It is not always good for proving I can work inside someone else's system. Merged upstream PRs are different. You do not get to decide that the repo should use your preferred style. You do not get to rewrite the surrou</summary>
+    <author><name>Morgan</name></author>
+  </entry>
+  <entry>
+    <title>Making LLM security verdicts verifiable: the evidence gate pattern</title>
+    <link href="https://dev.to/jaskarn_singh_383b2bca0af/making-llm-security-verdicts-verifiable-the-evidence-gate-pattern-3afp" rel="alternate"/>
+    <id>https://dev.to/jaskarn_singh_383b2bca0af/making-llm-security-verdicts-verifiable-the-evidence-gate-pattern-3afp</id>
+    <updated>2026-07-03T20:01:15Z</updated>
+    <summary type="text">Every &quot;AI security analyst&quot; I tried had the same flaw: a correct verdict and a confident-but-wrong one are indistinguishable on screen. In security that's not a UX nit — it's the whole problem. So I built USAP around a single rule, and this post is about that rule and three things that fell out of it. The evidence gate USAP's output contract is 11 typed JSON fields. The uncompromising one is evide</summary>
+    <author><name>Jaskarn Singh</name></author>
+  </entry>
+  <entry>
+    <title>Beyond the .tflite File: Mastering High-Performance Edge AI with MediaPipe Tasks and AICore</title>
+    <link href="https://dev.to/programmingcentral/beyond-the-tflite-file-mastering-high-performance-edge-ai-with-mediapipe-tasks-and-aicore-44e" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/beyond-the-tflite-file-mastering-high-performance-edge-ai-with-mediapipe-tasks-and-aicore-44e</id>
+    <updated>2026-07-03T20:00:00Z</updated>
+    <summary type="text">For years, the workflow for Android developers looking to implement on-device Machine Learning (ML) followed a predictable, albeit exhausting, pattern. You would download a .tflite model, drop it into your assets folder, and prepare for a long weekend of writing boilerplate. You had to manually handle tensor buffers, manage complex image resizing, normalize pixel values, and parse raw, unreadable </summary>
+    <author><name>Programming Central</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Software Development Changed. Good Engineering Didn’t.</title>
+    <link href="https://dev.to/techbarsw/software-development-changed-good-engineering-didnt-2g7" rel="alternate"/>
+    <id>https://dev.to/techbarsw/software-development-changed-good-engineering-didnt-2g7</id>
+    <updated>2026-07-03T19:57:56Z</updated>
+    <summary type="text">Over the last 10 years, software development has changed dramatically. Products are built faster, teams use more cloud services, data has become central to business decisions, and AI has entered everyday development workflows. But the core principles of good engineering have not disappeared. Code still needs to be readable, maintainable, secure, and reliable. What changed is the environment around</summary>
+    <author><name>Techbar</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Waymap v7.2.1: Thread-Safe Results, Hardened Security, and a Dozen Bug Fixes</title>
+    <link href="https://dev.to/trixsec/waymap-v721-thread-safe-results-hardened-security-and-a-dozen-bug-fixes-548a" rel="alternate"/>
+    <id>https://dev.to/trixsec/waymap-v721-thread-safe-results-hardened-security-and-a-dozen-bug-fixes-548a</id>
+    <updated>2026-07-03T19:52:42Z</updated>
+    <summary type="text">Author: Trix Cyrus [🔹 Try My] Waymap Pentesting Tool [🔹 Follow] TrixSec GitHub [🔹 Join] TrixSec Telegram Waymap v7.2.1 Released Waymap is an open-source web vulnerability scanner for authorized security testing. It automates SQLi, XSS, RCE, LFI, CORS, CRLF, Open Redirect, API, Recon, Misconfiguration, and WordPress security checks with session-based results, multi-threading, crawling, authenticati</summary>
+    <author><name>Trix Cyrus</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>AI Agents as Digital Employees: Architecture and Lessons from Practice</title>
     <link href="https://dev.to/slawanextlevels/ai-agents-as-digital-employees-architecture-and-lessons-from-practice-3khd" rel="alternate"/>
     <id>https://dev.to/slawanextlevels/ai-agents-as-digital-employees-architecture-and-lessons-from-practice-3khd</id>
@@ -370,78 +437,5 @@
     <summary type="text">OpenAI Agents SDK 0.13 → 0.17: Three Breaking Changes You Will Hit The OpenAI Agents SDK moved from 0.13 to 0.17 in five weeks (April 9 – May 19, 2026). That's 19 releases, including three breaking changes. Two of them are silent — they change runtime behavior without raising an error at upgrade time. If you're running agents on 0.13.x, this is the migration guide you need before you upgrade. The </summary>
     <author><name>Peyton Green</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built an AI that plays GeoGuessr. Here is how single-image geolocation actually works.</title>
-    <link href="https://dev.to/atlasgeoai/i-built-an-ai-that-plays-geoguessr-here-is-how-single-image-geolocation-actually-works-39dm" rel="alternate"/>
-    <id>https://dev.to/atlasgeoai/i-built-an-ai-that-plays-geoguessr-here-is-how-single-image-geolocation-actually-works-39dm</id>
-    <updated>2026-07-03T18:43:15Z</updated>
-    <summary type="text">Give a person a single street-view photo with no metadata and ask them which country it is. A trained GeoGuessr player will often get it in a few seconds. They are not reading a hidden GPS tag. They are reading the image: the color of the road lines, the shape of the bollards, the script on a distant sign, the vegetation, the direction of the sun, the style of the power poles. I spent a long time </summary>
-    <author><name>ATLAS</name></author>
-  </entry>
-  <entry>
-    <title>The Right Way to Pair AI With Terraform Plans</title>
-    <link href="https://dev.to/devopsaitoolkit/the-right-way-to-pair-ai-with-terraform-plans-3i1c" rel="alternate"/>
-    <id>https://dev.to/devopsaitoolkit/the-right-way-to-pair-ai-with-terraform-plans-3i1c</id>
-    <updated>2026-07-03T18:42:46Z</updated>
-    <summary type="text">terraform plan is honest about what it's going to do. The problem is it's also verbose, repetitive, and full of cosmetic changes (like recomputed tags) mixed in with real ones (like a database instance scheduled for -/+ replace). On a 400-line plan, the dangerous changes hide. This is the kind of task AI is actually good at: skimming structured text, flagging the entries that matter, ignoring the </summary>
-    <author><name>James Joyner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Just realized the JSON pain has been already solved thanks to github.com/kaptinlin/jsonrepair 
-
-Shout out to @kaptinlin</title>
-    <link href="https://dev.to/sks/just-realized-the-json-pain-has-been-already-solved-thanks-to-githubcomkaptinlinjsonrepair-eo6" rel="alternate"/>
-    <id>https://dev.to/sks/just-realized-the-json-pain-has-been-already-solved-thanks-to-githubcomkaptinlinjsonrepair-eo6</id>
-    <updated>2026-07-03T18:41:46Z</updated>
-    <summary type="text">Why We Chose Go for Our AI Agent Platform (When Everyone Else Picked Python) Sabith KS Sabith KS Sabith KS Follow Jul 1 Why We Chose Go for Our AI Agent Platform (When Everyone Else Picked Python) #go #aiagents #architecture #llm Add Comment 1 min read</summary>
-    <author><name>Sabith KS</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Chip Industry Urges US to Avoid Moves That Distort Memory Market</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-02/chip-industry-urges-us-to-avoid-moves-that-distort-memory-market" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-02/chip-industry-urges-us-to-avoid-moves-that-distort-memory-market</id>
-    <updated>2026-07-02T23:59:59Z</updated>
-    <summary type="text">Government attempts to address the global memory chip shortage by influencing prices or production capacity would worsen a historic squeeze on supply driven by the artificial intelligence boom, a semiconductor industry group warned the Trump administration.</summary>
-    <author><name>Maggie Eastland</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Kioxia Ships Samples of New Flash Memory for AI Data Centers</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-02/kioxia-ships-samples-of-newest-flash-memory-for-ai-data-centers" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-02/kioxia-ships-samples-of-newest-flash-memory-for-ai-data-centers</id>
-    <updated>2026-07-02T23:53:47Z</updated>
-    <summary type="text">Kioxia Holdings Corp. has started shipping samples of its next-generation flash memory chips to AI data center operators, seeking to gain ground in the lucrative business against rivals.</summary>
-    <author><name>Takashi Mochizuki, Mari Kiyohara</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters</title>
-    <link href="https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/</id>
-    <updated>2026-07-02T17:30:57Z</updated>
-    <summary type="text">Anthropic is reportedly in talks with Samsung Electronics about manufacturing a custom AI chip. The project is still early, but Anthropic has already hired chip engineers. After OpenAI's &quot;Jalapeño,&quot; yet another major AI company is pushing into chip development to cut infrastructure costs. The article Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped</title>
-    <link href="https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/</id>
-    <updated>2026-07-02T23:38:10Z</updated>
-    <summary type="text">At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.</summary>
-    <author><name>Lucas Ropek</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Booming AI Chip Trade Seals Hong Kong’s Role as Gateway to China</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-02/booming-ai-chip-trade-seals-hong-kong-s-role-as-gateway-to-china" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-02/booming-ai-chip-trade-seals-hong-kong-s-role-as-gateway-to-china</id>
-    <updated>2026-07-02T23:30:00Z</updated>
-    <summary type="text">Hong Kong has become a vital conduit for high-tech products moving in and out of China, emerging as one node in a $2 trillion network of Asian trade fueled by a global boom in artificial intelligence.</summary>
-    <author><name>Nectar Gan, James Mayger</name></author>
   </entry>
 </feed>
