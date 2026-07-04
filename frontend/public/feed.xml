@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-04T19:20:56Z</updated>
+  <updated>2026-07-04T21:02:43Z</updated>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
     <link href="https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/" rel="alternate"/>
@@ -35,6 +35,14 @@
     <summary type="text">A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>New Google commercial imagines a Declaration of Independence written with help from AI</title>
+    <link href="https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/</id>
+    <updated>2026-07-04T20:55:25Z</updated>
+    <summary type="text">Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?</summary>
+    <author><name>Anthony Ha</name></author>
   </entry>
   <entry>
     <title>Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first</title>
@@ -147,6 +155,93 @@
     <summary type="text">In this tutorial, we build an end-to-end accounts-payable extraction pipeline with lift-pdf, using synthetic invoice PDFs as controlled test documents and a structured JSON schema as the target output format. Instead of treating invoice parsing as a simple OCR task, we frame it as schema-guided document understanding: we generate realistic invoices, define fields such as […] The post Designing a S</summary>
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Clean Edges: Using a PNG Alpha Mask on AI-Generated Animations</title>
+    <link href="https://dev.to/raphink/clean-edges-using-a-png-alpha-mask-on-ai-generated-animations-ifb" rel="alternate"/>
+    <id>https://dev.to/raphink/clean-edges-using-a-png-alpha-mask-on-ai-generated-animations-ifb</id>
+    <updated>2026-07-04T20:51:08Z</updated>
+    <summary type="text">I'm building something new for Isovalent Labs. I can't say much yet, but there's an announcement coming. What I can tell you about is a technical rabbit hole I fell into along the way: AI-generated video, animated WebP, and a transparency problem with a surprisingly clean solution. The Setup The new UI needs animated tiles — isometric city-builder scenes, one per learning zone, that come alive on </summary>
+    <author><name>Raphaël Pinson</name></author>
+  </entry>
+  <entry>
+    <title>🧩 How to Pass a Request Body in a GET Request? Meet the New HTTP QUERY Method (RFC 10008)</title>
+    <link href="https://dev.to/rohanshukla/how-to-pass-a-request-body-in-a-get-request-meet-the-new-http-query-method-rfc-10008-32fk" rel="alternate"/>
+    <id>https://dev.to/rohanshukla/how-to-pass-a-request-body-in-a-get-request-meet-the-new-http-query-method-rfc-10008-32fk</id>
+    <updated>2026-07-04T20:44:22Z</updated>
+    <summary type="text">⚡ A New HTTP Verb for Developers The QUERY method (RFC 10008, June 2026) finally solves a long-standing pain point: sending complex request bodies safely and cacheably without abusing GET or POST. Because QUERY is safe and idempotent, if a network drop happens, the client can automatically retry the request without risk of duplicating side effects—adding great architectural value. The Problem with</summary>
+    <author><name>Rohan Shukla</name></author>
+  </entry>
+  <entry>
+    <title>We deployed a LangChain agent for a client and it silently failed for two weeks. Here's what we built to make sure it never happens again.</title>
+    <link href="https://dev.to/hubert8120/we-deployed-a-langchain-agent-for-a-client-and-it-silently-failed-for-two-weeks-heres-what-we-4f3f" rel="alternate"/>
+    <id>https://dev.to/hubert8120/we-deployed-a-langchain-agent-for-a-client-and-it-silently-failed-for-two-weeks-heres-what-we-4f3f</id>
+    <updated>2026-07-04T20:38:35Z</updated>
+    <summary type="text">Six weeks ago, a LangChain agent we'd deployed for a B2B client started failing on roughly 30% of its sessions. No exceptions. No 500s. Nothing in the logs that looked wrong. The agent kept running, kept returning responses, kept looking completely healthy from the outside. We found out because the client called asking why their numbers looked off. Two weeks of silent failures. About $2,400 in was</summary>
+    <author><name>hubert8120</name></author>
+  </entry>
+  <entry>
+    <title>Catching AI Red-Handed in Financial Data</title>
+    <link href="https://dev.to/alamshoaib134/catching-ai-red-handed-in-financial-data-346a" rel="alternate"/>
+    <id>https://dev.to/alamshoaib134/catching-ai-red-handed-in-financial-data-346a</id>
+    <updated>2026-07-04T20:35:41Z</updated>
+    <summary type="text">When I was building security auditing tools like Git Secret Scanner, the rules were binary: a vulnerability exists, or it doesn't. But when you start building Generative AI pipelines for institutional finance, things get dangerously blurry. Almost every RAG tutorial online shows you how to chunk a PDF, throw it into a vector database, and build a chatbot. That works fine for toy applications. But </summary>
+    <author><name>Shoaib Alam</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Why AI agents need three types of memory (and how I built all of them)</title>
+    <link href="https://dev.to/pragadeesh_21/why-ai-agents-need-three-types-of-memory-and-how-i-built-all-of-them-59k3" rel="alternate"/>
+    <id>https://dev.to/pragadeesh_21/why-ai-agents-need-three-types-of-memory-and-how-i-built-all-of-them-59k3</id>
+    <updated>2026-07-04T20:34:57Z</updated>
+    <summary type="text">Most &quot;agent memory&quot; today is one thing wearing three hats: a vector database.You embed the past, you retrieve the nearest neighbor, you paste it into the prompt. It works until it doesn't, and when it doesn't, you can't tell whether the agent forgot a fact, forgot an experience, or never learned the skill. The human brain does not do this. It keeps three separate systems. I built an agent that doe</summary>
+    <author><name>Pragadeesh</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Built 4 FastAPI Projects in 2 Weeks — Here's What I Wish I Knew Before Starting</title>
+    <link href="https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k" rel="alternate"/>
+    <id>https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k</id>
+    <updated>2026-07-04T20:22:13Z</updated>
+    <summary type="text">I just spent two weeks building 4 FastAPI backends back to back. REST API, web scraper + dashboard, React admin panel, AI workbench with CrewAI. 134 Python files. 38 tests. And 15 CI failures before a single green run. Here's the messy part nobody talks about. Docker Compose is a time sink Every project. Same 5 containers. api, postgres, redis, celery, nginx. By project #3 I was copy-pasting docke</summary>
+    <author><name>Ck-epsilon</name></author>
+  </entry>
+  <entry>
+    <title>Built an AI-Powered WAF for PHP/Laravel Apps in Africa — Here’s What It Catches</title>
+    <link href="https://dev.to/kriosa/built-an-ai-powered-waf-for-phplaravel-apps-in-africa-heres-what-it-catches-4fgf" rel="alternate"/>
+    <id>https://dev.to/kriosa/built-an-ai-powered-waf-for-phplaravel-apps-in-africa-heres-what-it-catches-4fgf</id>
+    <updated>2026-07-04T20:09:27Z</updated>
+    <summary type="text">Originally published on Medium A student developer from Cameroon built a security tool that explains exactly why it blocked a request. Here’s the story and how to install it in 30 seconds. Press enter or click to view image in full size As a PHP developer in Africa, you already know the problem: your apps get hit by automated bots, SQL injection attempts, and XSS attacks every single day — and mos</summary>
+    <author><name>Nchiminyi — Founder, Kriosa</name></author>
+  </entry>
+  <entry>
+    <title>Stop Guessing, Start Profiling: Mastering Edge AI Performance and Power on Android</title>
+    <link href="https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i</id>
+    <updated>2026-07-04T20:00:00Z</updated>
+    <summary type="text">You’ve spent weeks optimizing your machine learning model. You’ve pruned the weights, quantized the tensors, and fine-tuned the hyperparameters. On your high-end development workstation, the inference speed is blistering. But then, you deploy it to a real-world Android device. Three minutes into usage, the app starts to lag. The frame rate drops. The device feels uncomfortably warm in the user's h</summary>
+    <author><name>Programming Central</name></author>
+  </entry>
+  <entry>
+    <title>5 APIs Every Developer Needs for Content Processing (RSS, Extraction, Sitemaps, AI)</title>
+    <link href="https://dev.to/oaida_adrian_afa2428f63d0/5-apis-every-developer-needs-for-content-processing-rss-extraction-sitemaps-ai-2630" rel="alternate"/>
+    <id>https://dev.to/oaida_adrian_afa2428f63d0/5-apis-every-developer-needs-for-content-processing-rss-extraction-sitemaps-ai-2630</id>
+    <updated>2026-07-04T19:56:24Z</updated>
+    <summary type="text">5 APIs Every Developer Needs for Content Processing Every developer who has built a content-driven application knows the pain: you need RSS feeds parsed, web pages extracted cleanly, sitemaps crawled, structured data generated for AI crawlers, and sometimes local business data — all in the same project. Traditionally, that meant juggling five different libraries, each with its own quirks, rate lim</summary>
+    <author><name>Oaida Adrian</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Wanted a quick way to find working MTProto proxies for Teleg</title>
+    <link href="https://dev.to/humja_jaan_fca09049ae97d5/wanted-a-quick-way-to-find-working-mtproto-proxies-for-teleg-23le" rel="alternate"/>
+    <id>https://dev.to/humja_jaan_fca09049ae97d5/wanted-a-quick-way-to-find-working-mtproto-proxies-for-teleg-23le</id>
+    <updated>2026-07-04T19:54:43Z</updated>
+    <summary type="text">Wanted a quick way to find working MTProto proxies for Telegram, but got tired of manually testing dead links. So I threw together a script that scrapes public proxy channels, filters live ones, and publishes them with fake TLS support. It hits multiple sources, tests each proxy, then outputs clean JSON and a live web page. The scraper runs on a schedule via GitHub Actions, so the list stays fresh</summary>
+    <author><name>Humja Jaan</name></author>
   </entry>
   <entry>
     <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
@@ -361,105 +456,5 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <author><name>Ivo Bernardo</name></author>
     <category term="data"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Agentic AI Security: Risks, OWASP Agentic Top 10, and Defensive Patterns (2026)</title>
-    <link href="https://dev.to/securecodinghub/agentic-ai-security-risks-owasp-agentic-top-10-and-defensive-patterns-2026-4a2a" rel="alternate"/>
-    <id>https://dev.to/securecodinghub/agentic-ai-security-risks-owasp-agentic-top-10-and-defensive-patterns-2026-4a2a</id>
-    <updated>2026-07-04T14:33:07Z</updated>
-    <summary type="text">Agentic AI applications — LLM-powered systems that take autonomous action against external tools, services, and APIs based on model reasoning rather than direct user instruction — have moved from research curiosity to production deployment fast enough that the security discipline is still catching up. The class of failures is operationally distinct from non-agentic LLM applications. The OWASP Agen</summary>
-    <author><name>SecureCodingHub</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cloud-Native Security Practices for Developers: Containers, Kubernetes, and CI/CD (2026)</title>
-    <link href="https://dev.to/securecodinghub/cloud-native-security-practices-for-developers-containers-kubernetes-and-cicd-2026-4lpm" rel="alternate"/>
-    <id>https://dev.to/securecodinghub/cloud-native-security-practices-for-developers-containers-kubernetes-and-cicd-2026-4lpm</id>
-    <updated>2026-07-04T14:32:58Z</updated>
-    <summary type="text">Cloud-native security practices in 2026 cover a substantially different attack surface than the web/cloud security disciplines that dominated through 2020. The shift to container-based deployment, Kubernetes orchestration, service-mesh communication, and increasingly autonomous CI/CD supply chains moved the security boundary from &quot;the application&quot; to &quot;the platform plus the application plus the pip</summary>
-    <author><name>SecureCodingHub</name></author>
-  </entry>
-  <entry>
-    <title>Why Do Decision Trees Have High Variance?</title>
-    <link href="https://dev.to/pavan_pothuganti/why-do-decision-trees-have-high-variance-lj8" rel="alternate"/>
-    <id>https://dev.to/pavan_pothuganti/why-do-decision-trees-have-high-variance-lj8</id>
-    <updated>2026-07-04T14:24:44Z</updated>
-    <summary type="text">Every Machine Learning course eventually says this: &quot;Decision Trees have high variance.&quot; When I first heard that, I accepted it and moved on. But later, I stopped and asked myself a simple question: What does that actually mean? Not the textbook definition. What is the model really doing that makes everyone call it a &quot;high variance&quot; algorithm? That question completely changed how I understood Deci</summary>
-    <author><name>Pavan Pothuganti</name></author>
-  </entry>
-  <entry>
-    <title>Maps You Control: A Pure-Vector MapView And Pluggable Native Providers</title>
-    <link href="https://dev.to/codenameone/maps-you-control-a-pure-vector-mapview-and-pluggable-native-providers-409h" rel="alternate"/>
-    <id>https://dev.to/codenameone/maps-you-control-a-pure-vector-mapview-and-pluggable-native-providers-409h</id>
-    <updated>2026-07-04T14:24:26Z</updated>
-    <summary type="text">Yesterday's funding post covered the model behind this week's releases. Here is the first one. PR #5264 brings mapping back into core with two components: a MapView that draws an entire map through Graphics with no native peer, and a NativeMap that embeds the platform's own map. Both sit behind one MapSurface API, so you can switch between them by changing a class name. What is Codename One? Coden</summary>
-    <author><name>Shai Almog</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>If Random Forest Already Reduces Variance, Why Do We Still Need Boosting?</title>
-    <link href="https://dev.to/pavan_pothuganti/if-random-forest-already-reduces-variance-why-do-we-still-need-boosting-1fdp" rel="alternate"/>
-    <id>https://dev.to/pavan_pothuganti/if-random-forest-already-reduces-variance-why-do-we-still-need-boosting-1fdp</id>
-    <updated>2026-07-04T14:22:26Z</updated>
-    <summary type="text">After learning Decision Trees, I understood why they overfit. After learning Bagging, I understood how training multiple trees makes predictions more stable. After learning Random Forest, I thought I had reached the final destination. Then I discovered another family of algorithms: Boosting. My immediate question was simple. If Random Forest already solved the problem, why did researchers invent B</summary>
-    <author><name>Pavan Pothuganti</name></author>
-  </entry>
-  <entry>
-    <title>Building a 10-Agent Security Civilization with Qwen and Alibaba Cloud 🛡️🤖</title>
-    <link href="https://dev.to/astaaddahiya/building-a-10-agent-security-civilization-with-qwen-and-alibaba-cloud-4i21" rel="alternate"/>
-    <id>https://dev.to/astaaddahiya/building-a-10-agent-security-civilization-with-qwen-and-alibaba-cloud-4i21</id>
-    <updated>2026-07-04T13:24:56Z</updated>
-    <summary type="text">Security auditing is broken. If you’ve ever run a static analysis tool (SAST) on a large codebase, you know the pain: thousands of alerts, zero context, and a 90% false-positive rate. On the other end of the spectrum, hiring human penetration testers is incredibly expensive and impossible to scale alongside modern CI/CD pipelines. For the Qwen Cloud Global AI Hackathon, we decided to rethink the p</summary>
-    <author><name>Aryan</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I Packed DeepSeek V4 + Claude Code Into a Starter Kit. Clone It and Ship.</title>
-    <link href="https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn" rel="alternate"/>
-    <id>https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn</id>
-    <updated>2026-07-04T13:24:48Z</updated>
-    <summary type="text">TL;DR: I spent weeks tuning DeepSeek V4 to feel native inside Claude Code. The result: a one-command setup with 9 agents, 7 rules, security hooks, OCR, and auto-backup. Clone → ./init.sh → you're shipping. I wanted DeepSeek's 1M context window inside Claude Code's interface. What I got was two weeks of fighting API configs, debugging token limits, and discovering that most &quot;just swap the model&quot; ad</summary>
-    <author><name>YuhaoLin2005</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built a zero-dependency sky engine in TypeScript, verified to 4.6 arcseconds</title>
-    <link href="https://dev.to/svarbhanu/i-built-a-zero-dependency-sky-engine-in-typescript-verified-to-46-arcseconds-317h" rel="alternate"/>
-    <id>https://dev.to/svarbhanu/i-built-a-zero-dependency-sky-engine-in-typescript-verified-to-46-arcseconds-317h</id>
-    <updated>2026-07-04T13:21:55Z</updated>
-    <summary type="text">Today I shipped v0.1.0 of grahan, an MIT-licensed TypeScript library that computes Sun/Moon positions, sunrise/sunset, moon phases, and the Vedic panchang (tithi, nakshatra, yoga, karana, Rahu Kaal). Zero runtime dependencies. Runs in Node 18+, browsers, and edge runtimes. npm install @grahan/vedic import { panchang } from '@grahan/vedic'; const p = panchang({ date: new Date('2026-07-02T06:00:00Z'</summary>
-    <author><name>Svarbhanu Neel</name></author>
-  </entry>
-  <entry>
-    <title>Building Production AI Systems(Part 1)</title>
-    <link href="https://dev.to/franklyn_nmesoma/building-production-ai-systemspart-1-10gm" rel="alternate"/>
-    <id>https://dev.to/franklyn_nmesoma/building-production-ai-systemspart-1-10gm</id>
-    <updated>2026-07-04T13:15:00Z</updated>
-    <summary type="text">OpenRouter isn't just another AI gateway. It's an architectural decision. This is Part 1 of a five-part series on building production-ready AI applications. A few months ago, if you wanted to experiment with multiple LLM providers in the same application, you'd probably end up with something like this: npm install openai npm install @anthropic-ai/sdk npm install @google/generative-ai Fast forward </summary>
-    <author><name>Franklyn Nmesoma</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My repository isn't written for humans — I run my whole life with Claude Code</title>
-    <link href="https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6" rel="alternate"/>
-    <id>https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6</id>
-    <updated>2026-07-04T13:07:52Z</updated>
-    <summary type="text">I run my life as a single Git repository, operated by several AI agents through Claude Code. Journaling, self-analysis, investing, hobbies, parenting: each of them started as a small app I built to solve a problem of my own. Parental leave gave me a long stretch of free time, so instead of running them separately, I moved them into one place. And the primary reader of this repository is the AI, no</summary>
-    <author><name>Tako</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination</title>
-    <link href="https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/" rel="alternate"/>
-    <id>https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/</id>
-    <updated>2026-07-04T13:00:00Z</updated>
-    <summary type="text">Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable The post Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination appeared first on Towards Data Science.</summary>
-    <author><name>Kezhan Shi</name></author>
-    <category term="data"/>
   </entry>
 </feed>
