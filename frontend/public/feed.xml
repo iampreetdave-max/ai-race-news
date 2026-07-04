@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-04T09:26:22Z</updated>
+  <updated>2026-07-04T11:36:56Z</updated>
+  <entry>
+    <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
+    <link href="https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/</id>
+    <updated>2026-07-04T09:53:21Z</updated>
+    <summary type="text">Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed &quot;because the models weren't ready.&quot; Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is still light-years from that vision. The article OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>A 26,000-student study shows AI's hidden learning cost takes two full years to surface</title>
     <link href="https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/" rel="alternate"/>
@@ -116,6 +125,16 @@
     <author><name>Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek</name></author>
   </entry>
   <entry>
+    <title>MCP Deep Dive, Part 1: Why Model Context Protocol Kills Integration Glue Code for Good</title>
+    <link href="https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-1-why-model-context-protocol-kills-integration-glue-code-for-good-3jcp" rel="alternate"/>
+    <id>https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-1-why-model-context-protocol-kills-integration-glue-code-for-good-3jcp</id>
+    <updated>2026-07-04T11:18:13Z</updated>
+    <summary type="text">Your AI roadmap does not die from a bad model. It dies from integration glue code — the hand-written adapter that wires agent number four to backend number nine, times every agent and every backend you will ever build. Model Context Protocol (MCP) is the thing that stops that multiplication. This is Part 1 of a 15-part deep dive. Every part uses the same running example: Mattrx, our multi-tenant m</summary>
+    <author><name>kirandeepjassal-crypto</name></author>
+    <category term="data"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>GPT and Claude failed Bridgewater's finance tests because the right answers were never public</title>
     <link href="https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/" rel="alternate"/>
     <id>https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/</id>
@@ -126,12 +145,38 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>The True Classification of AI: Part 2 - Agentic AI</title>
+    <link href="https://dev.to/claireg/the-true-classification-of-ai-part-2-agentic-ai-1c6j" rel="alternate"/>
+    <id>https://dev.to/claireg/the-true-classification-of-ai-part-2-agentic-ai-1c6j</id>
+    <updated>2026-07-04T11:15:28Z</updated>
+    <summary type="text">This is where the real confusion — and the real governance problem — actually lives. People talk about “AI deciding,” “AI acting,” “AI refusing,” “AI escalating,” “AI breaking rules,” “AI needing governance”… None of that belongs to Functional AI. It belongs here. Agentic AI is the category everyone argues about, but almost nobody defines correctly. What Agentic AI is Agentic AI is action producin</summary>
+    <author><name>Claire Goldbeg</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Amazon quietly updated 2023’s Fire HD 10 tablet with 4GB of RAM</title>
     <link href="https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update" rel="alternate"/>
     <id>https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update</id>
     <updated>2026-07-03T17:33:55Z</updated>
     <summary type="text">The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now ships […]</summary>
     <author><name>Andrew Liszewski</name></author>
+  </entry>
+  <entry>
+    <title>Stop calling a service that's already down: circuit breakers with Resilience4j</title>
+    <link href="https://dev.to/dev48v/stop-calling-a-service-thats-already-down-circuit-breakers-with-resilience4j-906" rel="alternate"/>
+    <id>https://dev.to/dev48v/stop-calling-a-service-thats-already-down-circuit-breakers-with-resilience4j-906</id>
+    <updated>2026-07-04T11:06:51Z</updated>
+    <summary type="text">Day 14 of building OrderHub in the open. So far we have a monolith with real persistence, validation, exception handling, OpenAPI docs, a Redis cache, and a rate limiter. Today we add the piece that keeps the whole thing standing when a dependency falls over instead of a client: a circuit breaker. Here's the scenario. Placing an order needs a stock check, so the order flow calls an inventory servi</summary>
+    <author><name>Devanshu Biswas</name></author>
+  </entry>
+  <entry>
+    <title>LoRA: Fine-Tune a Giant Model by Training 1% of It</title>
+    <link href="https://dev.to/dev48v/lora-fine-tune-a-giant-model-by-training-1-of-it-2025" rel="alternate"/>
+    <id>https://dev.to/dev48v/lora-fine-tune-a-giant-model-by-training-1-of-it-2025</id>
+    <updated>2026-07-04T11:06:07Z</updated>
+    <summary type="text">Fine-tuning a large model used to mean one painful thing: update every weight in it, keep a full copy per task, and pay for the GPUs to do it. A 7-billion-parameter model has 7 billion knobs. The Adam optimizer keeps two extra numbers per knob, so you're suddenly holding roughly three times the model in memory. Then, for every new task you tune, you store another 13 GB checkpoint. It works, but it</summary>
+    <author><name>Devanshu Biswas</name></author>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>Meta's AI agent push is moving slower than Zuckerberg planned</title>
@@ -143,12 +188,56 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>GPU Survivors: Can You Survive a 1T Parameter Inference Run?</title>
+    <link href="https://dev.to/unitbuilds_cc/gpu-survivors-can-you-survive-a-1t-parameter-inference-run-476d" rel="alternate"/>
+    <id>https://dev.to/unitbuilds_cc/gpu-survivors-can-you-survive-a-1t-parameter-inference-run-476d</id>
+    <updated>2026-07-04T11:04:36Z</updated>
+    <summary type="text">Ever wondered what a GPU goes through during a massive language model inference run? While you type a query and wait for tokens, the silicon under the hood is holding together a fragile house of cards: balancing context window limits, scheduling activations, managing weights, and evading malicious adversarial attacks. To teach you how LLMs behave (and fall apart) under load, I built an interactive</summary>
+    <author><name>UnitBuilds</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Your Indie Project is Stuck in Development Hell</title>
+    <link href="https://dev.to/ntty/why-your-indie-project-is-stuck-in-development-hell-18l1" rel="alternate"/>
+    <id>https://dev.to/ntty/why-your-indie-project-is-stuck-in-development-hell-18l1</id>
+    <updated>2026-07-04T11:00:32Z</updated>
+    <summary type="text">I have spent three years building a project that should have taken three months. For a long time, I told myself I was just ensuring quality. I was building a robust architecture. I was making sure the edge cases were handled. In reality, I was terrified of launching. I was hiding behind my IDE because as long as the project is 'in development', it cannot fail. Once you ship it, the world gets to t</summary>
+    <author><name>Ntty</name></author>
+  </entry>
+  <entry>
+    <title>The Internet Nobody Wrote</title>
+    <link href="https://dev.to/rawveg/the-internet-nobody-wrote-37o3" rel="alternate"/>
+    <id>https://dev.to/rawveg/the-internet-nobody-wrote-37o3</id>
+    <updated>2026-07-04T11:00:00Z</updated>
+    <summary type="text">On 20 March 2026, WordPress.com flipped a switch that most of the internet did not notice but probably should have. The platform, which powers more than 43 per cent of all websites globally according to figures presented at Automattic's State of the Word event in December 2025, enabled AI agents to autonomously write, edit, publish, and manage entire websites. Not draft suggestions. Not autocomple</summary>
+    <author><name>Tim Green</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Tesla caps employee AI spending at $200 per week</title>
     <link href="https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/" rel="alternate"/>
     <id>https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/</id>
     <updated>2026-07-03T10:56:51Z</updated>
     <summary type="text">Tesla caps employee AI spending at $200 per week, according to an internal memo reported by The Information. The article Tesla caps employee AI spending at $200 per week appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
+  </entry>
+  <entry>
+    <title>I Built 45+ Free Tools That Run Entirely in Your Browser — Here's Why</title>
+    <link href="https://dev.to/toollium/i-built-45-free-tools-that-run-entirely-in-your-browser-heres-why-m5n" rel="alternate"/>
+    <id>https://dev.to/toollium/i-built-45-free-tools-that-run-entirely-in-your-browser-heres-why-m5n</id>
+    <updated>2026-07-04T10:56:47Z</updated>
+    <summary type="text">Like a lot of people, I got tired of &quot;free&quot; online tools that: Watermark your files unless you pay Require sign-up just to convert a PDF Upload your files to a server you know nothing about So I built Toollium — a collection of 45+ tools that run entirely in your browser. Nothing gets uploaded anywhere. What's included PDF Convert — PDF ↔ Word, merge, split, compress AI Image Tools — background re</summary>
+    <author><name>Toollium</name></author>
+  </entry>
+  <entry>
+    <title>What Building Anamnesis Taught Me About Giving AI a Memory</title>
+    <link href="https://dev.to/naazim_hussain_7fbe686d11/what-building-anamnesis-taught-me-about-giving-ai-a-memory-1lnc" rel="alternate"/>
+    <id>https://dev.to/naazim_hussain_7fbe686d11/what-building-anamnesis-taught-me-about-giving-ai-a-memory-1lnc</id>
+    <updated>2026-07-04T10:53:29Z</updated>
+    <summary type="text">How Cognee turned a pile of medical PDFs into a living clinical memory graph, and why &quot;storage&quot; and &quot;memory&quot; turned out to be completely different problems. The problem that started it all A patient walks into a clinic. Behind them: years of blood reports, prescriptions, discharge summaries, imaging scans. In front of them: a doctor who has maybe four minutes to reconstruct that entire history bef</summary>
+    <author><name>Naazim Hussain</name></author>
   </entry>
   <entry>
     <title>Google DeepMind Unionization Talks Are Off to a Rocky Start</title>
@@ -166,6 +255,14 @@
     <updated>2026-07-03T16:23:09Z</updated>
     <summary type="text">An Israeli artificial intelligence startup is betting that election victories by Trump-aligned leaders across Latin America will boost demand for its government-focused cybersecurity products.</summary>
     <author><name>Mie Dahl, Andreina Itriago</name></author>
+  </entry>
+  <entry>
+    <title>Takeda signs US$600M AI drug discovery deal with Insilico</title>
+    <link href="https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/" rel="alternate"/>
+    <id>https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/</id>
+    <updated>2026-07-03T10:00:00Z</updated>
+    <summary type="text">Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pharmaceutical company’s therapeutic areas. The companies did not disclose which therapeutic areas or disease targets will be covered under the collaboration. The agreement gives Takeda access to Insilico’s Pharma.AI platform, which supports biological tar</summary>
+    <author><name>Muhammad Zulhusni</name></author>
   </entry>
   <entry>
     <title>WalletConnect in Claude Desktop: Mobile Approval for AI Agent Transactions</title>
@@ -350,96 +447,5 @@
     <updated>2026-07-04T03:14:14Z</updated>
     <summary type="text">A cat astrologer, spec-driven and running on Amazon Bedrock A companion to A Builder in Paris: Do Devs Dream of Électrique Chats? Last month I wrote about the idea. Six rainy days in Paris, a closed laptop, and a hackathon I did not mean to enter, and somewhere between the Musée de l'Orangerie and a lot of walking, an idea arrived. Cats are inscrutable. The people who love them are obsessed with u</summary>
     <author><name>L. Cordero</name></author>
-  </entry>
-  <entry>
-    <title>디지털 최전선, 시험대에 오르다: 암호화폐와 AI 시대, 데이터 신뢰성, 지정학적 갈등, 알고리즘 불투명성 헤쳐나가기</title>
-    <link href="https://dev.to/ice1121/dijiteol-coejeonseon-siheomdaee-oreuda-amhohwapyewa-ai-sidae-deiteo-sinroeseong-jijeonghagjeog-galdeung-algorijeum-bultumyeongseong-hecyeonagagi-2lb0" rel="alternate"/>
-    <id>https://dev.to/ice1121/dijiteol-coejeonseon-siheomdaee-oreuda-amhohwapyewa-ai-sidae-deiteo-sinroeseong-jijeonghagjeog-galdeung-algorijeum-bultumyeongseong-hecyeonagagi-2lb0</id>
-    <updated>2026-07-04T03:14:05Z</updated>
-    <summary type="text">디지털 자산과 인공지능 분야는 핵심 기술은 다르지만, 데이터의 진실성, 규제 체계, 지정학적 함의에 대한 공통된 도전에 직면하며 점차 수렴하고 있다. 최근 일련의 사건들은 탈중앙화와 첨단 연산이 약속하는 미래가 인간의 행동, 경제적 유인, 그리고 국가적 목표라는 현실과 충돌하는 중요한 변곡점을 보여준다. 제재 대상 러시아 스테이블코인의 논란 많은 거래량 주장부터 전 미국 대통령이 약세장 속에서 거둔 전례 없는 암호화폐 수익, 그리고 선두 AI 모델을 둘러싼 당혹스러운 &quot;너프(성능 저하)&quot; 논쟁에 이르기까지, 이 모든 이야기는 혁신과 불투명성이 난무하는 디지털 최전선의 모습을 생생하게 그려낸다. 이 글은 겉으로는 서로 달라 보이는 이러한 현상들을 깊이 파고들어, 그 기저의 메커니즘, 기술적 복잡성, 그리고 글</summary>
-    <author><name>Juno Kim</name></author>
-  </entry>
-  <entry>
-    <title>How to make Telegram animated stickers from an SVG (no After Effects)</title>
-    <link href="https://dev.to/miketogo/how-to-make-telegram-animated-stickers-from-an-svg-no-after-effects-17m1" rel="alternate"/>
-    <id>https://dev.to/miketogo/how-to-make-telegram-animated-stickers-from-an-svg-no-after-effects-17m1</id>
-    <updated>2026-07-04T03:01:08Z</updated>
-    <summary type="text">Telegram animated stickers and custom emoji use a format called TGS — compressed Lottie animation data. The &quot;official&quot; way to make one is a Lottie / After Effects pipeline, which is overkill if you already have a clean SVG icon. Here's the fast path. 1. Start with a clean SVG Export a vector SVG from Figma, Illustrator or Inkscape. Convert text to outlines and avoid embedded raster images — TGS is</summary>
-    <author><name>miketogo</name></author>
-  </entry>
-  <entry>
-    <title>HTTP finally shipped QUERY. I fired it at production and the edge called it a bot.</title>
-    <link href="https://dev.to/arvavit/http-finally-shipped-query-i-fired-it-at-production-and-the-edge-called-it-a-bot-7cj" rel="alternate"/>
-    <id>https://dev.to/arvavit/http-finally-shipped-query-i-fired-it-at-production-and-the-edge-called-it-a-bot-7cj</id>
-    <updated>2026-07-04T02:58:12Z</updated>
-    <summary type="text">TL;DR. QUERY (RFC 10008) is a real HTTP method now, a GET that carries a body. I deployed echo endpoints on Vercel (Python and Node), Supabase Edge, and local FastAPI, then fired GET, POST and QUERY at each. Every runtime handled QUERY fine. Then Vercel's default bot mitigation started 403-challenging my QUERY traffic specifically. Same client, same body: 20 GETs clean, 20 POSTs clean, QUERY tripp</summary>
-    <author><name>Vadym Arnaut</name></author>
-  </entry>
-  <entry>
-    <title>Hardware-Rooted AI Security That Won’t Slow You Down</title>
-    <link href="https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down/</id>
-    <updated>2026-07-02T21:25:42Z</updated>
-    <summary type="text">AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be impeded by concerns...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-  </entry>
-  <entry>
-    <title>The UK’s generational tobacco ban might not work. I’m supporting it anyway.</title>
-    <link href="https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/" rel="alternate"/>
-    <id>https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/</id>
-    <updated>2026-07-03T09:00:00Z</updated>
-    <summary type="text">As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.…</summary>
-    <author><name>Jessica Hamzelou</name></author>
-  </entry>
-  <entry>
-    <title># AI Won’t Replace Developers — But Developers Who Use AI Will Replace Those Who Don’</title>
-    <link href="https://dev.to/sifathossensuvo01/-ai-wont-replace-developers-but-developers-who-use-ai-will-replace-those-who-don-394l" rel="alternate"/>
-    <id>https://dev.to/sifathossensuvo01/-ai-wont-replace-developers-but-developers-who-use-ai-will-replace-those-who-don-394l</id>
-    <updated>2026-07-04T02:41:16Z</updated>
-    <summary type="text">6 min read · AI · Web Development · Productivity There has never been a more exciting time to be a developer. Every week, a new AI tool appears. Some people celebrate it, while others fear it. Social media is full of headlines like: &quot;AI will replace programmers.&quot; But here's the reality: AI isn't replacing developers. It's changing what it means to be one. The developers who learn how to collaborat</summary>
-    <author><name>Mr Shuvo</name></author>
-  </entry>
-  <entry>
-    <title>How to give Claude or ChatGPT your entire codebase (the right way)</title>
-    <link href="https://dev.to/cu_thinvreview_b2/how-to-give-claude-or-chatgpt-your-entire-codebase-the-right-way-4nbm" rel="alternate"/>
-    <id>https://dev.to/cu_thinvreview_b2/how-to-give-claude-or-chatgpt-your-entire-codebase-the-right-way-4nbm</id>
-    <updated>2026-07-04T02:29:24Z</updated>
-    <summary type="text">At some point every &quot;let me just paste my code into the AI&quot; session hits a wall. You want the model to reason about the whole project — not one file — so you start copy-pasting directories. Three things go wrong, usually in this order: You paste a file with a live API key in it. You exceed the context window and get a truncation (or a silently partial answer). The model loses the plot because it c</summary>
-    <author><name>Cửu thiên vũ đế review</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why macOS pbcopy is broken in 2026 (and how I fixed it)</title>
-    <link href="https://dev.to/enigma007/why-macos-pbcopy-is-broken-in-2026-and-how-i-fixed-it-19a3" rel="alternate"/>
-    <id>https://dev.to/enigma007/why-macos-pbcopy-is-broken-in-2026-and-how-i-fixed-it-19a3</id>
-    <updated>2026-07-04T02:25:28Z</updated>
-    <summary type="text">If you spend some time in the macOS terminal, you probably use pbcopy. It's the native way to pipe terminal output directly to your clipboard. Butttt, pbcopy is fundamentally broken for modern developer workflows. Have you ever piped a token to your clipboard (echo &quot;hunny-bunny-secret-society&quot; | pbcopy) and it copies that new line character in the end and that annoyed you? Or have you ever piped f</summary>
-    <author><name>Vansh</name></author>
-  </entry>
-  <entry>
-    <title>AI Productivity Hopes Show ‘Exuberance,’ Allianz’s Subran Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-03/ai-productivity-hopes-show-exuberance-allianz-s-subran-says" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-03/ai-productivity-hopes-show-exuberance-allianz-s-subran-says</id>
-    <updated>2026-07-03T08:43:54Z</updated>
-    <summary type="text">Artificial intelligence is likely to have a less even impact on economies than the market hype would suggest, according to Allianz Chief Economist Ludovic Subran.</summary>
-    <author><name>Craig Stirling, Anna Edwards, Tom Mackenzie</name></author>
-  </entry>
-  <entry>
-    <title>Agent Evidence Levels (AEL): grading the evidence your AI agent leaves behind</title>
-    <link href="https://dev.to/luckypipewrench/agent-evidence-levels-ael-grading-the-evidence-your-ai-agent-leaves-behind-56n0" rel="alternate"/>
-    <id>https://dev.to/luckypipewrench/agent-evidence-levels-ael-grading-the-evidence-your-ai-agent-leaves-behind-56n0</id>
-    <updated>2026-07-04T02:15:07Z</updated>
-    <summary type="text">I build an agent firewall, and the question I keep hitting is not &quot;did it block the attack.&quot; It is &quot;how would anyone else know what my agent did, without taking my word for it.&quot; Most tools answer that with &quot;we keep tamper-proof logs&quot; and stop. That phrase claims the strongest property that still requires trusting whoever holds the signing key. So I wrote down a way to grade the gap, as an open sta</summary>
-    <author><name>Josh Waldrep</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Allianz's Subran Has Doubts Over Europe's 'AI Dividend'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-03/allianz-s-subran-has-doubts-over-europe-s-ai-dividend-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-03/allianz-s-subran-has-doubts-over-europe-s-ai-dividend-video</id>
-    <updated>2026-07-03T08:09:59Z</updated>
-    <summary type="text">Ludovic Subran, chief investment officer and chief economist at Allianz, says there isn't enough evidence to say that the AI trade is in &quot;bubble&quot; territory. Speaking to Bloomberg's Caroline Connan at the Aix-en-Provence Economic Forum in France, he also says emerging-market stocks are looking more attractive due to demand for semiconductors, and that Europe might fail to reap the &quot;AI dividend.&quot; (S</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>

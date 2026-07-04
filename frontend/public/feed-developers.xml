@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-04T09:26:22Z</updated>
+  <updated>2026-07-04T11:36:56Z</updated>
+  <entry>
+    <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
+    <link href="https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/</id>
+    <updated>2026-07-04T09:53:21Z</updated>
+    <summary type="text">Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed &quot;because the models weren't ready.&quot; Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is still light-years from that vision. The article OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code</title>
     <link href="https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/" rel="alternate"/>
@@ -32,6 +41,35 @@
     <updated>2026-07-03T17:11:33Z</updated>
     <summary type="text">Anthropic is trying to block Chinese companies like ByteDance and Ant Financial from accessing Claude Code, but they're getting around the restrictions through VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its own employees from using the tool after hidden code was found that could identify Chinese users. The article Claude Code's complicated China problem involves bans on both si</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LoRA: Fine-Tune a Giant Model by Training 1% of It</title>
+    <link href="https://dev.to/dev48v/lora-fine-tune-a-giant-model-by-training-1-of-it-2025" rel="alternate"/>
+    <id>https://dev.to/dev48v/lora-fine-tune-a-giant-model-by-training-1-of-it-2025</id>
+    <updated>2026-07-04T11:06:07Z</updated>
+    <summary type="text">Fine-tuning a large model used to mean one painful thing: update every weight in it, keep a full copy per task, and pay for the GPUs to do it. A 7-billion-parameter model has 7 billion knobs. The Adam optimizer keeps two extra numbers per knob, so you're suddenly holding roughly three times the model in memory. Then, for every new task you tune, you store another 13 GB checkpoint. It works, but it</summary>
+    <author><name>Devanshu Biswas</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>GPU Survivors: Can You Survive a 1T Parameter Inference Run?</title>
+    <link href="https://dev.to/unitbuilds_cc/gpu-survivors-can-you-survive-a-1t-parameter-inference-run-476d" rel="alternate"/>
+    <id>https://dev.to/unitbuilds_cc/gpu-survivors-can-you-survive-a-1t-parameter-inference-run-476d</id>
+    <updated>2026-07-04T11:04:36Z</updated>
+    <summary type="text">Ever wondered what a GPU goes through during a massive language model inference run? While you type a query and wait for tokens, the silicon under the hood is holding together a fragile house of cards: balancing context window limits, scheduling activations, managing weights, and evading malicious adversarial attacks. To teach you how LLMs behave (and fall apart) under load, I built an interactive</summary>
+    <author><name>UnitBuilds</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Internet Nobody Wrote</title>
+    <link href="https://dev.to/rawveg/the-internet-nobody-wrote-37o3" rel="alternate"/>
+    <id>https://dev.to/rawveg/the-internet-nobody-wrote-37o3</id>
+    <updated>2026-07-04T11:00:00Z</updated>
+    <summary type="text">On 20 March 2026, WordPress.com flipped a switch that most of the internet did not notice but probably should have. The platform, which powers more than 43 per cent of all websites globally according to figures presented at Automattic's State of the Word event in December 2025, enabled AI agents to autonomously write, edit, publish, and manage entire websites. Not draft suggestions. Not autocomple</summary>
+    <author><name>Tim Green</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -226,6 +264,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/</id>
+    <updated>2026-07-04T10:56:40Z</updated>
+    <summary type="text">I've been trying to come up with a solution for keeping extremely long ai sessions coherent. Sometimes there is too much substance to risk compaction. With so much buzz around diffusion going on it got me thinking, what if we treat the context like a progressive render, blurry&gt;sharp. The practical way to make text &quot;blurry&quot; is compression. This is a &quot;diffusion inspired&quot; system which borrows the coa</summary>
+    <author><name>/u/Bravo_Oscar_Zulu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Your Claude Code Bill Quietly Got 5x Worse — And They Were Tracking You Too</title>
     <link href="https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j" rel="alternate"/>
     <id>https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j</id>
@@ -410,50 +457,5 @@
     <author><name>Yifan Yang, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Dongdong Chen, Chong Luo</name></author>
     <category term="agents"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Docker Security Dispatch — Issue 4: Miasma, Phantom Gyp, and AI Routing 🪱️</title>
-    <link href="https://dev.to/docker/docker-security-dispatch-issue-4-miasma-phantom-gyp-and-ai-routing-4n6h" rel="alternate"/>
-    <id>https://dev.to/docker/docker-security-dispatch-issue-4-miasma-phantom-gyp-and-ai-routing-4n6h</id>
-    <updated>2026-07-01T22:09:36Z</updated>
-    <summary type="text">Welcome to the fourth issue of Docker Security Dispatch, written from the beautiful city of Bratislava, Slovakia. June has proven that the security battleground has shifted from the production server to the developer's workstation, the CI/CD pipeline cache, and the AI agent's execution context. Supply chain worms are evolving to bypass the most trusted industry defenses, and new research has expos</summary>
-    <author><name>Mohammad-Ali A'RÂBI</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>A security writeup catalogs how AI agents get attacked -- and one claim raised eyebrows</title>
-    <link href="https://dev.to/breachprotocol/a-security-writeup-catalogs-how-ai-agents-get-attacked-and-one-claim-raised-eyebrows-59dl" rel="alternate"/>
-    <id>https://dev.to/breachprotocol/a-security-writeup-catalogs-how-ai-agents-get-attacked-and-one-claim-raised-eyebrows-59dl</id>
-    <updated>2026-07-01T17:58:19Z</updated>
-    <summary type="text">A semi-annual security roundup from DevFortress catalogs the real attack classes targeting AI agents, and also advances a dramatic, unverified claim that model weights can be extracted cheaply via crafted queries. The taxonomy of known attacks is a solid, actionable reference; the model-extraction claim lacks independent replication and should be treated as interesting-if-true, not settled fact. K</summary>
-    <author><name>Breach Protocol</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Follow-up: DeepSeek V4 Flash on 2x RTX PRO 6000 finishes real coding tasks faster than Sonnet and Opus, at about Sonnet quality</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/</id>
-    <updated>2026-07-03T07:55:54Z</updated>
-    <summary type="text">This is a follow-up to post about which local models stay fast deep into long context and I learned a lot from people here. I kept measuring after that and it turned into a proper indie coding bench. With DeepSeek V4 Flash running on vLLM it lands around Sonnet quality and it finishes the whole task faster in wall-clock than Sonnet or Opus going over the API (Opus and Fable still wins at quality).</summary>
-    <author><name>/u/xquarx</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SpaceX’s $60B Cursor deal and 3 coding AI startups worth watching</title>
-    <link href="https://www.cbinsights.com/research/weekly-tech-recap-june-22/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/weekly-tech-recap-june-22/</id>
-    <updated>2026-06-30T15:38:50Z</updated>
-    <summary type="text">Below, we break down some of tech’s biggest stories, with perspectives from our analysts on the moves that matter the most: SpaceX gets serious about coding AI Meta invests $900M in Cred Y Combinator’s energy infrastructure bet This brief is … The post SpaceX’s $60B Cursor deal and 3 coding AI startups worth watching appeared first on CB Insights Research.</summary>
-    <author><name>Adya Pandey</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic hid tracking signals in Unicode apostrophes. That's not telemetry, that's steganography.</title>
-    <link href="https://dev.to/adioof/anthropic-hid-tracking-signals-in-unicode-apostrophes-thats-not-telemetry-thats-steganography-2p3e" rel="alternate"/>
-    <id>https://dev.to/adioof/anthropic-hid-tracking-signals-in-unicode-apostrophes-thats-not-telemetry-thats-steganography-2p3e</id>
-    <updated>2026-07-01T15:38:04Z</updated>
-    <summary type="text">Your coding assistant is hiding secrets in punctuation marks. Let me explain why that should make you uncomfortable. Anthropic's Claude Code — a tool that runs with shell access on your machine — was caught embedding invisible tracking signals inside its own system prompts. Not in logs. Not in headers. In the shape of apostrophe characters. What Actually Happened Claude Code used Unicode apostroph</summary>
-    <author><name>Aditya Agarwal</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
