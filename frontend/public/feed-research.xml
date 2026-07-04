@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-04T03:32:19Z</updated>
+  <updated>2026-07-04T06:51:12Z</updated>
   <entry>
     <title>GPT and Claude failed Bridgewater's finance tests because the right answers were never public</title>
     <link href="https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/" rel="alternate"/>
@@ -55,6 +55,37 @@
     <category term="computer-vision"/>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Deepseek V4 Flash running on RTX 5090 MoE</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/</id>
+    <updated>2026-07-03T22:48:11Z</updated>
+    <summary type="text">Here is the results of optimizing it for my setup: Benchmark results of the optimisation showing TG T/S from 22.7 to 21.3, and PP T/S from 1105 to 927, test ranges Prompt Processing from 8192 tokens to 65536 tokens, and is set to MoE with no unified KV, no memory map, n-cpu-moe 37 My setup: X870 AORUS ELITE WIFI7 AMD Ryzen 9 9900X3D (24) @ 4.40 GHz NVIDIA GeForce RTX 5090 [Discrete] DDR5 RAM: 18.8</summary>
+    <author><name>/u/H_DANILO</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Portugal just released their own LLM Amalia (9B)!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/</id>
+    <updated>2026-07-03T15:38:16Z</updated>
+    <summary type="text">I didnt see any mention here. Source: https://portugal.gov.pt/en/gc25/communication/news/llm-amalia-shows-portugals-potential HF link SFT: https://huggingface.co/amalia-llm/AMALIA-9B-0626-SFT HF link DFO (Direct Preference Optimization): amalia-llm/AMALIA-9B-0626-DPO · Hugging Face Paper: https://arxiv.org/pdf/2603.26511 Apache 2.0 No concise coding benchmarks, Original posted by u/EveYogaTech in </summary>
+    <author><name>/u/EveningIncrease7579</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Mistral released Leanstral-1.5-119B-A6B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/</id>
+    <updated>2026-07-03T14:44:12Z</updated>
+    <summary type="text">Leanstral 1.5, a free Apache-2.0 licensed model with 6B active parameters, delivers a major performance upgrade in formal verification, saturating miniF2F, solving 587/672 PutnamBench problems, and achieving state-of-the-art results on FATE-H (87%) and FATE-X (34%). Trained through mid-training, supervised fine-tuning, and reinforcement learning with CISPO, it excels in agentic proof engineering a</summary>
+    <author><name>/u/Tall-Ad-7742</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Why teaching AI agents to use tools keeps blowing up in training</title>

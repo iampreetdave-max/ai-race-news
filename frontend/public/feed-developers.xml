@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-04T03:32:19Z</updated>
+  <updated>2026-07-04T06:51:12Z</updated>
   <entry>
     <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
     <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
@@ -23,6 +23,16 @@
     <summary type="text">Anthropic is trying to block Chinese companies like ByteDance and Ant Financial from accessing Claude Code, but they're getting around the restrictions through VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its own employees from using the tool after hidden code was found that could identify Chinese users. The article Claude Code's complicated China problem involves bans on both si</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I just published Postgres MCP Server in Go!</title>
+    <link href="https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab" rel="alternate"/>
+    <id>https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab</id>
+    <updated>2026-07-04T06:22:20Z</updated>
+    <summary type="text">I open sourced a project I have been building on the side: a Go MCP server that connects Claude Code (or Cursor) directly to a live PostgreSQL database. Repo: github.com/gupta-akshay/postgres-mcp The problem it solves Most &quot;AI plus database&quot; workflows still look like this: copy SQL out of a chat window, paste it into a DB client, run it, copy the output back. It breaks flow, and the assistant neve</summary>
+    <author><name>Akshay Gupta</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>How to give Claude or ChatGPT your entire codebase (the right way)</title>
@@ -275,6 +285,15 @@
     <category term="data"/>
   </entry>
   <entry>
+    <title>Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Java from scratch.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/</id>
+    <updated>2026-07-04T01:28:47Z</updated>
+    <summary type="text">I used Claude Code locally running this model. Took a surprisingly long amount of time to pull off. This game is just a test game my friend is making and we're both vibecoding. He uses Codex due to lack of hardware for local models to do the graphics, UI and lighting, while I vibecode with this model on the gameplay, AI and technical sides of this game's functionality. We're just practicing to see</summary>
+    <author><name>/u/swagonflyyyy</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>CUP (Common Useful Python): Building Reliable Python Workflows with Baidu’s Utility Toolkit</title>
     <link href="https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit/</id>
@@ -282,6 +301,15 @@
     <summary type="text">In this tutorial, we explore CUP, Baidu's Common Useful Python library, as a practical utility toolkit for stronger Python workflows. We install it in a Colab-friendly environment and walk its subsystems step by step. We cover logging, decorators, nested configuration, caching, ID generation, thread pools, scheduling, and Linux resource monitoring. Along the way, we connect each module to real tas</summary>
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Longcat 2 model weights have been published</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umo8zu/longcat_2_model_weights_have_been_published/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umo8zu/longcat_2_model_weights_have_been_published/</id>
+    <updated>2026-07-03T19:49:38Z</updated>
+    <summary type="text">https://huggingface.co/meituan-longcat/LongCat-2.0-INT8 https://huggingface.co/meituan-longcat/LongCat-2.0-FP8 submitted by /u/RhubarbSimilar1683 [link] [comments]</summary>
+    <author><name>/u/RhubarbSimilar1683</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>How Cursor deploys AI inside the enterprise</title>
@@ -337,6 +365,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Micro-World - Action-controlled Interactive world model - AMD</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/</id>
+    <updated>2026-07-03T13:47:26Z</updated>
+    <summary type="text">In this work, we introduce Micro-World, an action-controlled interactive world model designed to generate high-quality, open-domain scenes. Built on top of the Wan2.1 family of models, we train both image-to-world (I2W) and text-to-world (T2W) variants to support a wide range of use cases. To foster open research and practical adoption in the community, we release the model weights, full training </summary>
+    <author><name>/u/pmttyji</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>SkillOpt: Agent skills as trainable parameters</title>
     <link href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" rel="alternate"/>
     <id>https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/</id>
@@ -366,6 +403,15 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Follow-up: DeepSeek V4 Flash on 2x RTX PRO 6000 finishes real coding tasks faster than Sonnet and Opus, at about Sonnet quality</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/</id>
+    <updated>2026-07-03T07:55:54Z</updated>
+    <summary type="text">This is a follow-up to post about which local models stay fast deep into long context and I learned a lot from people here. I kept measuring after that and it turned into a proper indie coding bench. With DeepSeek V4 Flash running on vLLM it lands around Sonnet quality and it finishes the whole task faster in wall-clock than Sonnet or Opus going over the API (Opus and Fable still wins at quality).</summary>
+    <author><name>/u/xquarx</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>SpaceX’s $60B Cursor deal and 3 coding AI startups worth watching</title>
     <link href="https://www.cbinsights.com/research/weekly-tech-recap-june-22/" rel="alternate"/>
     <id>https://www.cbinsights.com/research/weekly-tech-recap-june-22/</id>
@@ -389,15 +435,5 @@
     <updated>2026-07-01T15:36:21Z</updated>
     <summary type="text">What is CRD ? A CRD (Custom Resource Definition) is a Kubernetes feature that lets you teach your cluster about new types of resources. Instead of just using standard Kubernetes objects like Pods or Deployments, a CRD lets you define your own custom objects (like a Database or VirtualService) so you can manage them natively.In plain terms, a CRD acts as a blueprint or schema. It tells the Kubernet</summary>
     <author><name>Akshay Gore</name></author>
-  </entry>
-  <entry>
-    <title>What Can We Do When Memory Becomes the New Bottleneck in Data Engineering?</title>
-    <link href="https://towardsdatascience.com/when-memory-becomes-the-new-bottleneck-in-data-engineering-what-can-we-do/" rel="alternate"/>
-    <id>https://towardsdatascience.com/when-memory-becomes-the-new-bottleneck-in-data-engineering-what-can-we-do/</id>
-    <updated>2026-07-01T13:30:00Z</updated>
-    <summary type="text">How Pandas chunking, Dask, and Polars help process millions of records when adding more compute isn't an option. The post What Can We Do When Memory Becomes the New Bottleneck in Data Engineering? appeared first on Towards Data Science.</summary>
-    <author><name>Jiayan Yin</name></author>
-    <category term="rag"/>
-    <category term="data"/>
   </entry>
 </feed>
