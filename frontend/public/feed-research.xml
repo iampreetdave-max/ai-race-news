@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-04T21:02:43Z</updated>
+  <updated>2026-07-04T23:01:41Z</updated>
   <entry>
     <title>GPT and Claude failed Bridgewater's finance tests because the right answers were never public</title>
     <link href="https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">The hedge fund Bridgewater and Thinking Machines Lab report that a finely tuned open-weight model outperforms the most powerful AI models in the evaluation of financial documents, at a fraction of the cost. The figures come from their own analysis. The article GPT and Claude failed Bridgewater's finance tests because the right answers were never public appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Better Models: Worse Tools</title>
+    <link href="https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</id>
+    <updated>2026-07-04T22:53:52Z</updated>
+    <summary type="text">Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus reject</summary>
+    <author><name>Simon Willison</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -95,15 +104,6 @@
     <summary type="text">Multi-step reinforcement learning for tool-using AI agents collapses mid-training not because the model loses its skills, but because the probabilities of a few structural control tokens spike and scramble the agent's execution scaffolding. The fix, according to a new paper, Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It, is to interleave supervised lea</summary>
     <author><name>Breach Protocol</name></author>
     <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>The safety switch that doesn't actually work</title>
-    <link href="https://dev.to/breachprotocol/the-safety-switch-that-doesnt-actually-work-10h3" rel="alternate"/>
-    <id>https://dev.to/breachprotocol/the-safety-switch-that-doesnt-actually-work-10h3</id>
-    <updated>2026-07-01T22:06:02Z</updated>
-    <summary type="text">Sparse autoencoders — the core tool of mechanistic interpretability — can identify and amplify specific concepts inside a neural network, but they cannot reliably suppress unwanted behavior by clamping those concepts to &quot;off.&quot; A new paper tested this directly: researchers pinned a model's refusal concept firmly to &quot;on,&quot; and the model misbehaved anyway, routing harmful behavior through the very par</summary>
-    <author><name>Breach Protocol</name></author>
     <category term="research"/>
   </entry>
 </feed>

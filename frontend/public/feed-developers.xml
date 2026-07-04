@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-04T21:02:43Z</updated>
+  <updated>2026-07-04T23:01:41Z</updated>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
     <link href="https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/" rel="alternate"/>
@@ -42,6 +42,14 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>LLM APIs as Infrastructure: Building Deterministic Systems Around Probabilistic AI</title>
+    <link href="https://dev.to/akilahngqueen/llm-apis-as-infrastructure-building-deterministic-systems-around-probabilistic-ai-1e3b" rel="alternate"/>
+    <id>https://dev.to/akilahngqueen/llm-apis-as-infrastructure-building-deterministic-systems-around-probabilistic-ai-1e3b</id>
+    <updated>2026-07-04T22:06:58Z</updated>
+    <summary type="text">The nature of an AI API Somebody built this thing before you ever touched it. A lab trained it on an enormous amount of text, aligned it, wrapped it behind an endpoint, and rented it to you. You don’t own the model. You inherit the interface: its capabilities, its limits, its context window, and its cost. When you send a prompt, the model has two sources of information: what it learned during trai</summary>
+    <author><name>Akilah Littlejohn</name></author>
   </entry>
   <entry>
     <title>We deployed a LangChain agent for a client and it silently failed for two weeks. Here's what we built to make sure it never happens again.</title>
@@ -309,6 +317,26 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <author><name>Richard MacManus</name></author>
   </entry>
   <entry>
+    <title>Better Models: Worse Tools</title>
+    <link href="https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</id>
+    <updated>2026-07-04T22:53:52Z</updated>
+    <summary type="text">Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus reject</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>If your GPU can run inference, it should be able to fine-tune too. [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/</id>
+    <updated>2026-07-04T21:56:48Z</updated>
+    <summary type="text">I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can run inference on an MoE model, it should also be able to fine-tune it. On my AMD RX 6750 XT (12 GB), I can fine-tune Qwen3-30B-A3B by training sparse expert weights and the router instead of adapters. The project is completely open source under the Apache 2.0 li</summary>
+    <author><name>/u/tsuyu122</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>You Can't Vibe Code Infrastructure. The Job Market Agrees.</title>
     <link href="https://dev.to/remoet/you-cant-vibe-code-infrastructure-the-job-market-agrees-15oh" rel="alternate"/>
     <id>https://dev.to/remoet/you-cant-vibe-code-infrastructure-the-job-market-agrees-15oh</id>
@@ -432,32 +460,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <updated>2026-07-02T17:47:48Z</updated>
     <summary type="text">AI coding tools have changed a lot in 2026. A year ago, GitHub Copilot was the obvious choice. Now you have 7+ serious options — and the right one depends on how you work. This article covers the top AI coding tools as of March 2026. Real pricing. Honest pros and cons. No hype. What We Compare SWE-bench score — a standard coding benchmark. Higher = better at real coding tasks. Best use case — what</summary>
     <author><name>kemal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft's 99 AI Skills Are Interesting. The Bigger Story Is What They Represent.</title>
-    <link href="https://dev.to/restuananda/microsofts-99-ai-skills-are-interesting-the-bigger-story-is-what-they-represent-pl3" rel="alternate"/>
-    <id>https://dev.to/restuananda/microsofts-99-ai-skills-are-interesting-the-bigger-story-is-what-they-represent-pl3</id>
-    <updated>2026-07-02T17:36:46Z</updated>
-    <summary type="text">AI coding assistants already understand .NET. The next challenge is teaching them how your team builds software. One of the most interesting things happening in software engineering right now isn't the arrival of another language model. It's the gradual realization that intelligence alone isn't enough. Over the past couple of years, AI coding assistants have become remarkably capable. Whether you'</summary>
-    <author><name>restu ananda saputra</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Dockeriser une API Flask de zéro sur Ubuntu : le guide complet pour ingénieurs africains</title>
-    <link href="https://dev.to/romeo_dossou_b9a9ace7ba7c/dockeriser-une-api-flask-de-zero-sur-ubuntu-le-guide-complet-pour-ingenieurs-africains-kgi" rel="alternate"/>
-    <id>https://dev.to/romeo_dossou_b9a9ace7ba7c/dockeriser-une-api-flask-de-zero-sur-ubuntu-le-guide-complet-pour-ingenieurs-africains-kgi</id>
-    <updated>2026-07-02T17:14:00Z</updated>
-    <summary type="text">Dockeriser une API Flask de zéro sur Ubuntu : le guide complet Il y a un problème que tout développeur africain a vécu au moins une fois. Tu construis une app. Elle tourne parfaitement sur ta machine. Tu l'envoies en production — ou à ton collègue, ou au client. Elle plante. &quot;Mais ça marchait chez moi…&quot; Docker est la solution définitive à ce problème. Dans ce guide, je te montre comment dockeriser</summary>
-    <author><name>Roméo DOSsOu</name></author>
-  </entry>
-  <entry>
-    <title>AI-Assisted Flutter Development: Claude Code in Production</title>
-    <link href="https://dev.to/khalit_hartmann_17e573503/ai-assisted-flutter-development-claude-code-in-production-1k1g" rel="alternate"/>
-    <id>https://dev.to/khalit_hartmann_17e573503/ai-assisted-flutter-development-claude-code-in-production-1k1g</id>
-    <updated>2026-07-02T15:04:00Z</updated>
-    <summary type="text">AI-Assisted Flutter Development: Claude Code in Production For senior developers, tech leads, and CTOs wondering whether AI coding tools actually work in production -- or just generate impressive demos. TL;DR: I used Claude Code across 827 commits in a Flutter e-commerce app for a Swiss retailer. The difference between &quot;vibe coding&quot; and AI-assisted development is not the AI -- it is the infrastruc</summary>
-    <author><name>Khalit Hartmann</name></author>
     <category term="llm"/>
   </entry>
 </feed>
