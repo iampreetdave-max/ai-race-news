@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-04T11:36:56Z</updated>
+  <updated>2026-07-04T13:42:28Z</updated>
+  <entry>
+    <title>Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first</title>
+    <link href="https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/" rel="alternate"/>
+    <id>https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/</id>
+    <updated>2026-07-04T12:37:51Z</updated>
+    <summary type="text">Anthropic developer Thariq Shihipar argues that with Claude's new model, Fable 5, the bottleneck is no longer the model itself but the user's blind spots. He describes techniques like blindspot passes and structured interviews that programmers can use to systematically uncover their unconscious knowledge gaps before handing implementation off to Claude. The article Anthropic developer shares promp</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
     <link href="https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/" rel="alternate"/>
@@ -52,6 +61,15 @@
     <category term="product-launch"/>
     <category term="hardware"/>
     <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>The fanfiction community is at war with AI — and itself</title>
+    <link href="https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector" rel="alternate"/>
+    <id>https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector</id>
+    <updated>2026-07-04T12:00:00Z</updated>
+    <summary type="text">Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a […]</summary>
+    <author><name>Jess Weatherbed</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>China Envisions AI, Karaoke and Coffee at Cinemas</title>
@@ -123,6 +141,63 @@
     <updated>2026-07-03T21:20:00Z</updated>
     <summary type="text">The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.</summary>
     <author><name>Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek</name></author>
+  </entry>
+  <entry>
+    <title>Building a 10-Agent Security Civilization with Qwen and Alibaba Cloud 🛡️🤖</title>
+    <link href="https://dev.to/astaaddahiya/building-a-10-agent-security-civilization-with-qwen-and-alibaba-cloud-4i21" rel="alternate"/>
+    <id>https://dev.to/astaaddahiya/building-a-10-agent-security-civilization-with-qwen-and-alibaba-cloud-4i21</id>
+    <updated>2026-07-04T13:24:56Z</updated>
+    <summary type="text">Security auditing is broken. If you’ve ever run a static analysis tool (SAST) on a large codebase, you know the pain: thousands of alerts, zero context, and a 90% false-positive rate. On the other end of the spectrum, hiring human penetration testers is incredibly expensive and impossible to scale alongside modern CI/CD pipelines. For the Qwen Cloud Global AI Hackathon, we decided to rethink the p</summary>
+    <author><name>Aryan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I Packed DeepSeek V4 + Claude Code Into a Starter Kit. Clone It and Ship.</title>
+    <link href="https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn" rel="alternate"/>
+    <id>https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn</id>
+    <updated>2026-07-04T13:24:48Z</updated>
+    <summary type="text">TL;DR: I spent weeks tuning DeepSeek V4 to feel native inside Claude Code. The result: a one-command setup with 9 agents, 7 rules, security hooks, OCR, and auto-backup. Clone → ./init.sh → you're shipping. I wanted DeepSeek's 1M context window inside Claude Code's interface. What I got was two weeks of fighting API configs, debugging token limits, and discovering that most &quot;just swap the model&quot; ad</summary>
+    <author><name>YuhaoLin2005</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a zero-dependency sky engine in TypeScript, verified to 4.6 arcseconds</title>
+    <link href="https://dev.to/svarbhanu/i-built-a-zero-dependency-sky-engine-in-typescript-verified-to-46-arcseconds-317h" rel="alternate"/>
+    <id>https://dev.to/svarbhanu/i-built-a-zero-dependency-sky-engine-in-typescript-verified-to-46-arcseconds-317h</id>
+    <updated>2026-07-04T13:21:55Z</updated>
+    <summary type="text">Today I shipped v0.1.0 of grahan, an MIT-licensed TypeScript library that computes Sun/Moon positions, sunrise/sunset, moon phases, and the Vedic panchang (tithi, nakshatra, yoga, karana, Rahu Kaal). Zero runtime dependencies. Runs in Node 18+, browsers, and edge runtimes. npm install @grahan/vedic import { panchang } from '@grahan/vedic'; const p = panchang({ date: new Date('2026-07-02T06:00:00Z'</summary>
+    <author><name>Svarbhanu Neel</name></author>
+  </entry>
+  <entry>
+    <title>Building Production AI Systems(Part 1)</title>
+    <link href="https://dev.to/franklyn_nmesoma/building-production-ai-systemspart-1-10gm" rel="alternate"/>
+    <id>https://dev.to/franklyn_nmesoma/building-production-ai-systemspart-1-10gm</id>
+    <updated>2026-07-04T13:15:00Z</updated>
+    <summary type="text">OpenRouter isn't just another AI gateway. It's an architectural decision. This is Part 1 of a five-part series on building production-ready AI applications. A few months ago, if you wanted to experiment with multiple LLM providers in the same application, you'd probably end up with something like this: npm install openai npm install @anthropic-ai/sdk npm install @google/generative-ai Fast forward </summary>
+    <author><name>Franklyn Nmesoma</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My repository isn't written for humans — I run my whole life with Claude Code</title>
+    <link href="https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6" rel="alternate"/>
+    <id>https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6</id>
+    <updated>2026-07-04T13:07:52Z</updated>
+    <summary type="text">I run my life as a single Git repository, operated by several AI agents through Claude Code. Journaling, self-analysis, investing, hobbies, parenting: each of them started as a small app I built to solve a problem of my own. Parental leave gave me a long stretch of free time, so instead of running them separately, I moved them into one place. And the primary reader of this repository is the AI, no</summary>
+    <author><name>Tako</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination</title>
+    <link href="https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/" rel="alternate"/>
+    <id>https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/</id>
+    <updated>2026-07-04T13:00:00Z</updated>
+    <summary type="text">Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable The post Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination appeared first on Towards Data Science.</summary>
+    <author><name>Kezhan Shi</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>MCP Deep Dive, Part 1: Why Model Context Protocol Kills Integration Glue Code for Good</title>
@@ -378,74 +453,5 @@
     <updated>2026-07-04T06:07:13Z</updated>
     <summary type="text">Mnemo AI: Building an AI That Never Forgets You The Problem Every night, millions of people go to sleep feeling lost and forgotten. Today's AI tools are stateless—they forget you the moment you close the tab. Your struggles disappear. Your goals vanish. Your growth is invisible. The Solution I built Mnemo AI, a Life Intelligence Platform that builds a permanent knowledge graph of your entire life </summary>
     <author><name>Samuel D</name></author>
-  </entry>
-  <entry>
-    <title>Software Isn't a List of Tasks—It's a Network of Dependencies</title>
-    <link href="https://dev.to/moein7/software-isnt-a-list-of-tasks-its-a-network-of-dependencies-5h7m" rel="alternate"/>
-    <id>https://dev.to/moein7/software-isnt-a-list-of-tasks-its-a-network-of-dependencies-5h7m</id>
-    <updated>2026-07-04T06:02:40Z</updated>
-    <summary type="text">If you've worked on a software team long enough, you've probably experienced this. Sprint planning goes well. The team breaks down a feature into tasks, estimates each one, assigns owners, and everyone leaves the meeting feeling confident. A few days later, reality hits. A backend change requires a database migration nobody considered. The frontend team is blocked because an API isn't ready. QA di</summary>
-    <author><name>Moein Hosseini</name></author>
-  </entry>
-  <entry>
-    <title>Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox</title>
-    <link href="https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/</id>
-    <updated>2026-07-03T05:55:47Z</updated>
-    <summary type="text">WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox. It reads pages, extracts data, and automates multi-step tasks through Ask and Act modes. Run it on local models like llama.cpp or Ollama for privacy, or connect any cloud API. The post Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox appeared first on Mark</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video</id>
-    <updated>2026-07-03T11:49:10Z</updated>
-    <summary type="text">Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with cheap, detailed, radiation-free imaging. The nearly 20-minute tour […]</summary>
-    <author><name>Robert Hart</name></author>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Big Tech Sends Workers Into the Field to Help Customers Use AI</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-07-03/microsoft-amazon-send-workers-to-their-customers-to-help-with-ai" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-07-03/microsoft-amazon-send-workers-to-their-customers-to-help-with-ai</id>
-    <updated>2026-07-03T11:02:01Z</updated>
-    <summary type="text">Microsoft, Amazon follow AI companies by creating units of “forward-deployed” engineers</summary>
-    <author><name>Rebecca Torrence</name></author>
-  </entry>
-  <entry>
-    <title>At 17, She Sued Meta and Google, and Won. Now She’s Ready to Tell Her Story</title>
-    <link href="https://www.bloomberg.com/news/features/2026-07-03/google-and-meta-lost-a-landmark-trial-to-kaley-but-kept-her-as-a-user" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/features/2026-07-03/google-and-meta-lost-a-landmark-trial-to-kaley-but-kept-her-as-a-user</id>
-    <updated>2026-07-03T10:00:22Z</updated>
-    <summary type="text">Kaley Glenn-Mills’ lawsuit reshaped the fight to protect children from social media. She says she still can’t stop scrolling.</summary>
-    <author><name>Olivia Carville</name></author>
-  </entry>
-  <entry>
-    <title>Interfaze Ships diffusion-gemma-asr-small, an Open-Source Diffusion ASR Model Transcribing Six Languages via DiffusionGemma’s Parallel Denoising Decoder</title>
-    <link href="https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/</id>
-    <updated>2026-07-03T03:24:23Z</updated>
-    <summary type="text">Interfaze open-sourced diffusion-gemma-asr-small, a multilingual ASR model that transcribes via diffusion, not autoregression. It adds audio to Google's frozen DiffusionGemma using a ~42M-parameter adapter. One adapter covers six languages, with transcription cost set by denoising steps, not transcript length. The post Interfaze Ships diffusion-gemma-asr-small, an Open-Source Diffusion ASR Model T</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I built an entire agency management platform by myself. Here's what actually happened.</title>
-    <link href="https://dev.to/alok_barai/i-built-an-entire-agency-management-platform-by-myself-heres-what-actually-happened-3agf" rel="alternate"/>
-    <id>https://dev.to/alok_barai/i-built-an-entire-agency-management-platform-by-myself-heres-what-actually-happened-3agf</id>
-    <updated>2026-07-04T03:18:54Z</updated>
-    <summary type="text">I used to deliver food on Zepto. 14-15 hours a day. Sun, rain, didn't matter. I saved up, bought a laptop, and started doing video editing for clients. That's when things got messy. I was managing clients on WhatsApp. Tracking who paid me in Google Sheets. Sending invoices as PDF attachments that nobody opened. Every new client meant another chat group, another row in my spreadsheet, another folde</summary>
-    <author><name>Alok Barai</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>AI For Fun! Électrique Chats at Hack the Kitty, Built with Kiro.</title>
-    <link href="https://dev.to/earlgreyhot1701d/ai-for-fun-electric-chats-at-hack-the-kitty-built-with-kiro-849" rel="alternate"/>
-    <id>https://dev.to/earlgreyhot1701d/ai-for-fun-electric-chats-at-hack-the-kitty-built-with-kiro-849</id>
-    <updated>2026-07-04T03:14:14Z</updated>
-    <summary type="text">A cat astrologer, spec-driven and running on Amazon Bedrock A companion to A Builder in Paris: Do Devs Dream of Électrique Chats? Last month I wrote about the idea. Six rainy days in Paris, a closed laptop, and a hackathon I did not mean to enter, and somewhere between the Musée de l'Orangerie and a lot of walking, an idea arrived. Cats are inscrutable. The people who love them are obsessed with u</summary>
-    <author><name>L. Cordero</name></author>
   </entry>
 </feed>

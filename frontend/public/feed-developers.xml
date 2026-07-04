@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-04T11:36:56Z</updated>
+  <updated>2026-07-04T13:42:28Z</updated>
   <entry>
     <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
     <link href="https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/" rel="alternate"/>
@@ -42,6 +42,26 @@
     <summary type="text">Anthropic is trying to block Chinese companies like ByteDance and Ant Financial from accessing Claude Code, but they're getting around the restrictions through VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its own employees from using the tool after hidden code was found that could identify Chinese users. The article Claude Code's complicated China problem involves bans on both si</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Packed DeepSeek V4 + Claude Code Into a Starter Kit. Clone It and Ship.</title>
+    <link href="https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn" rel="alternate"/>
+    <id>https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn</id>
+    <updated>2026-07-04T13:24:48Z</updated>
+    <summary type="text">TL;DR: I spent weeks tuning DeepSeek V4 to feel native inside Claude Code. The result: a one-command setup with 9 agents, 7 rules, security hooks, OCR, and auto-backup. Clone → ./init.sh → you're shipping. I wanted DeepSeek's 1M context window inside Claude Code's interface. What I got was two weeks of fighting API configs, debugging token limits, and discovering that most &quot;just swap the model&quot; ad</summary>
+    <author><name>YuhaoLin2005</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My repository isn't written for humans — I run my whole life with Claude Code</title>
+    <link href="https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6" rel="alternate"/>
+    <id>https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6</id>
+    <updated>2026-07-04T13:07:52Z</updated>
+    <summary type="text">I run my life as a single Git repository, operated by several AI agents through Claude Code. Journaling, self-analysis, investing, hobbies, parenting: each of them started as a small app I built to solve a problem of my own. Parental leave gave me a long stretch of free time, so instead of running them separately, I moved them into one place. And the primary reader of this repository is the AI, no</summary>
+    <author><name>Tako</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>LoRA: Fine-Tune a Giant Model by Training 1% of It</title>
@@ -438,24 +458,5 @@
     <summary type="text">Loop Engineering — เมื่อการ Prompt Agent ด้วยมือไม่พออีกต่อไป แล้ว Programmer ต้องออกแบบ Loop แทน โดย Nokka (นก-กา) | 1 กรกฎาคม 2026 TL;DR — สำหรับคนที่รีบ กลางเดือนมิถุนายน 2026 ที่ผ่านมา วงการ AI developer สั่นสะเทือนด้วยประโยค 6 คำจาก Peter Steinberger ผู้สร้าง OpenClaw: &quot;You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents.&quot; ประโยคนี้มียอดวิว </summary>
     <author><name>Nokka</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Micro-World - Action-controlled Interactive world model - AMD</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/</id>
-    <updated>2026-07-03T13:47:26Z</updated>
-    <summary type="text">In this work, we introduce Micro-World, an action-controlled interactive world model designed to generate high-quality, open-domain scenes. Built on top of the Wan2.1 family of models, we train both image-to-world (I2W) and text-to-world (T2W) variants to support a wide range of use cases. To foster open research and practical adoption in the community, we release the model weights, full training </summary>
-    <author><name>/u/pmttyji</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>SkillOpt: Agent skills as trainable parameters</title>
-    <link href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" rel="alternate"/>
-    <id>https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/</id>
-    <updated>2026-06-30T16:50:02Z</updated>
-    <summary type="text">AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research.</summary>
-    <author><name>Yifan Yang, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Dongdong Chen, Chong Luo</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
 </feed>
