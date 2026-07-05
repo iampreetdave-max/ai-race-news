@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T16:13:05Z</updated>
+  <updated>2026-07-05T18:07:37Z</updated>
   <entry>
     <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
     <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
@@ -34,6 +34,14 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Security Scanner for AI Apps — Then I Ran It on My Own Site</title>
+    <link href="https://dev.to/amrakg93/i-built-a-security-scanner-for-ai-apps-then-i-ran-it-on-my-own-site-b9n" rel="alternate"/>
+    <id>https://dev.to/amrakg93/i-built-a-security-scanner-for-ai-apps-then-i-ran-it-on-my-own-site-b9n</id>
+    <updated>2026-07-05T17:50:08Z</updated>
+    <summary type="text">I built VibeSafe — a 24-check security scanner for apps made with AI coding tools (Cursor, Lovable, Bolt, v0, Replit). The idea came from a pattern I kept seeing: AI tools produce code that works, but rarely code that's secure. Hardcoded API keys, disabled Row Level Security, missing CSP headers, exposed .env files. Same issues, different apps. Before writing a line of scanner code, I manually aud</summary>
+    <author><name>kg8888</name></author>
   </entry>
   <entry>
     <title>NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion</title>
@@ -289,6 +297,16 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Spring boot skills agent</title>
+    <link href="https://dev.to/rrezart_prebreza/spring-boot-skills-agent-4bb2" rel="alternate"/>
+    <id>https://dev.to/rrezart_prebreza/spring-boot-skills-agent-4bb2</id>
+    <updated>2026-07-04T13:08:45Z</updated>
+    <summary type="text">I built an open-source collection of Claude/Codex skills for Spring Boot projects. It includes focused skills for REST APIs, Spring Data JPA, Flyway, Spring Security, Spring Batch, Spring AI, MCP servers, testing, architecture patterns, and more. There are now two versions: skills/spring-boot-3/ for Spring Boot 3.x skills/spring-boot-4/ for Spring Boot 4.x, Spring Framework 7, Spring Security 7, S</summary>
+    <author><name>Rrezart Prebreza</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>My repository isn't written for humans — I run my whole life with Claude Code</title>
     <link href="https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6" rel="alternate"/>
     <id>https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6</id>
@@ -449,25 +467,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <updated>2026-07-02T16:20:29Z</updated>
     <summary type="text">Anthropic has cut the system prompt for Claude Code by 80 percent. According to staffer Tariq Shihipar, the new Fable 5 models need fewer instructions and examples. Guidelines can even hold the models back because they're &quot;more imaginative&quot; than what they're given. Instead of strict rules, Anthropic now steers through context. The article Anthropic says it cut 80 percent of Claude Code's system pr</summary>
     <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Is looping ready to roll? Experts split on the future of coding</title>
-    <link href="https://dev.to/dailycontext/is-looping-ready-to-roll-experts-split-on-the-future-of-coding-2g7p" rel="alternate"/>
-    <id>https://dev.to/dailycontext/is-looping-ready-to-roll-experts-split-on-the-future-of-coding-2g7p</id>
-    <updated>2026-07-03T15:07:40Z</updated>
-    <summary type="text">On the closing day of the AI Engineer World's Fair, industry leaders debated whether loops are ready for mainstream use and whether humans still have a place in coding. On the loops-now side, Geoff Huntley, founder of Latent Patterns, was understandably bullish. He said that over two years ago he was at Canva and watched engineers prompting repeatedly and realized that this could be done much more</summary>
-    <author><name>Iain Thomson</name></author>
-  </entry>
-  <entry>
-    <title>I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/</id>
-    <updated>2026-07-05T03:37:23Z</updated>
-    <summary type="text">I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I've been running local LLMs for agentic workflows (tool use, coding agents, RAG) and kept seeing people obsess over tg128 (token generation speed) as the headline performance metric. So I ran a structured long-context benchmark</summary>
-    <author><name>/u/linuxid10t</name></author>
-    <category term="agents"/>
-    <category term="hardware"/>
     <category term="llm"/>
   </entry>
 </feed>
