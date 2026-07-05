@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-05T03:50:21Z</updated>
+  <updated>2026-07-05T07:31:34Z</updated>
   <entry>
     <title>Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026</title>
     <link href="https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/" rel="alternate"/>
@@ -120,6 +120,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Can You Build an Alternative to LLMs? 8 Months, ~200 Failed Experiments, One Wall. 2</title>
+    <link href="https://dev.to/teolex2020/can-you-build-an-alternative-to-llms-8-months-200-failed-experiments-one-wall-2-3776" rel="alternate"/>
+    <id>https://dev.to/teolex2020/can-you-build-an-alternative-to-llms-8-months-200-failed-experiments-one-wall-2-3776</id>
+    <updated>2026-07-05T07:22:18Z</updated>
+    <summary type="text">This is part 2 of a research series documenting an attempt to build something adjacent to — and in some ways alternative to — large language models. Part 1: &quot;My Synthetic Eval Said 30/30. LoCoMo Said 0.13.&quot; The code that survived lives in AuraSDK. Not a chatbot wrapper. Not another prompt stack. Not a vector database with a nicer UI. The question was narrower and more dangerous: Can a non-neural, </summary>
+    <author><name>Oleksander</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code</title>
     <link href="https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/" rel="alternate"/>
     <id>https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/</id>
@@ -128,6 +138,69 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Query one Apache Iceberg table from Trino, Spark, and DuckDB</title>
+    <link href="https://dev.to/databasin/query-one-apache-iceberg-table-from-trino-spark-and-duckdb-5c1k" rel="alternate"/>
+    <id>https://dev.to/databasin/query-one-apache-iceberg-table-from-trino-spark-and-duckdb-5c1k</id>
+    <updated>2026-07-05T07:06:10Z</updated>
+    <summary type="text">Query one Apache Iceberg table from Trino, Spark, and DuckDB Iceberg is useful because it lets multiple engines read the same table without copying data into engine-specific storage. The table stays in object storage. The engines differ only in how they reach the metadata. That is the part most posts skip. They explain Trino, Spark, or DuckDB in isolation, then leave you to infer how the same tabl</summary>
+    <author><name>Databasin AI</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Why v7 UUIDs beat v4 for database keys (and how to hand-roll both)</title>
+    <link href="https://dev.to/dev48v/why-v7-uuids-beat-v4-for-database-keys-and-how-to-hand-roll-both-3h4b" rel="alternate"/>
+    <id>https://dev.to/dev48v/why-v7-uuids-beat-v4-for-database-keys-and-how-to-hand-roll-both-3h4b</id>
+    <updated>2026-07-05T06:57:04Z</updated>
+    <summary type="text">I build one small browser tool a day and write down what I learned. Day 25 was a UUID generator. What started as &quot;make some random IDs&quot; turned into a proper look at how the bits are laid out, and why the newer v7 format is quietly the better default for a primary key. Live tool: https://dev48v.infy.uk/solve/day25-uuid.html A UUID is just 16 bytes with a few fixed bits A UUID is a 128-bit number, w</summary>
+    <author><name>Devanshu Biswas</name></author>
+  </entry>
+  <entry>
+    <title>How we built KoshurLock Holmes: an AI detective for cyber attacks, and the night it almost broke me</title>
+    <link href="https://dev.to/codewithmehru/how-we-built-koshurlock-holmes-an-ai-detective-for-cyber-attacks-and-the-night-it-almost-broke-me-509k" rel="alternate"/>
+    <id>https://dev.to/codewithmehru/how-we-built-koshurlock-holmes-an-ai-detective-for-cyber-attacks-and-the-night-it-almost-broke-me-509k</id>
+    <updated>2026-07-05T06:54:50Z</updated>
+    <summary type="text">The problem with a data breach is not finding evidence. It is connecting it. But let me start where I actually was: 4 AM, last day of the hackathon, staring at this in my terminal. RateLimitError: GroqException - Rate limit reached for model `llama-3.3-70b-versatile` on tokens per day (TPD): Limit 100000, Used 99787, Requested 1616. Please try again in 20m12s. Used 99,787 out of 100,000. My deploy</summary>
+    <author><name>MEHRAAN AMIN</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Build an Unblockable AI Agent for Browser Automation with JavaScript, Bright Data, Gemini, and Playwright</title>
+    <link href="https://dev.to/codewithshahan/how-to-build-a-production-ready-browser-automation-ai-agent-with-nodejs-bright-data-gemini-and-39ii" rel="alternate"/>
+    <id>https://dev.to/codewithshahan/how-to-build-a-production-ready-browser-automation-ai-agent-with-nodejs-bright-data-gemini-and-39ii</id>
+    <updated>2026-07-05T06:53:41Z</updated>
+    <summary type="text">In this full guide, you’ll learn: 📛 Why most AI browser agents fail on modern websites. 🧱 How browser fingerprinting and anti-bot systems work. ⛑️ How to build an AI browser agent using JavaScript (Node.js) that combines Gemini, Playwright, and Bright Data to browse real websites, extract live data, analyze, reason, and generate reports locally without maintaining fragile anti-bot infrastructure o</summary>
+    <author><name>Programming with Shahan</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>wkhtmltopdf is archived. A straight .NET migration guide (Azure, Windows, and the Linux caveat)</title>
+    <link href="https://dev.to/florentin_badea/wkhtmltopdf-is-archived-a-straight-net-migration-guide-azure-windows-and-the-linux-caveat-2lc6" rel="alternate"/>
+    <id>https://dev.to/florentin_badea/wkhtmltopdf-is-archived-a-straight-net-migration-guide-azure-windows-and-the-linux-caveat-2lc6</id>
+    <updated>2026-07-05T06:53:30Z</updated>
+    <summary type="text">If your .NET app still calls DinkToPdf, NReco.PdfGenerator, Rotativa, or WkHtmlToXSharp in production, you're shipping a wrapper around a binary that hasn't had a security patch in years — and one of its open holes is a CVSS 9.8. wkhtmltopdf's repository has been frozen and read-only since January 2023, and the whole project org was archived by mid-2024. Development has stopped; nobody is acceptin</summary>
+    <author><name>Florentin Badea</name></author>
+  </entry>
+  <entry>
+    <title>I built NexRAG: a framework-agnostic RAG pipeline SDK.</title>
+    <link href="https://dev.to/kevinrawal/i-built-nexrag-a-framework-agnostic-rag-pipeline-sdk-4b2j" rel="alternate"/>
+    <id>https://dev.to/kevinrawal/i-built-nexrag-a-framework-agnostic-rag-pipeline-sdk-4b2j</id>
+    <updated>2026-07-05T06:44:49Z</updated>
+    <summary type="text">Over the past few months, while building RAG applications, I kept noticing the same pattern. Every new project meant rebuilding the same pipeline from scratch: choosing an embedding model selecting a vector database experimenting with chunking strategies switching between LLMs adding rerankers integrating observability evaluating responses wiring it all together in code The business logic changes </summary>
+    <author><name>kevinrawal</name></author>
+    <category term="rag"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Why a curl User-Agent Isn't Automatically Malicious</title>
+    <link href="https://dev.to/logtriage/why-a-curl-user-agent-isnt-automatically-malicious-393a" rel="alternate"/>
+    <id>https://dev.to/logtriage/why-a-curl-user-agent-isnt-automatically-malicious-393a</id>
+    <updated>2026-07-05T06:38:20Z</updated>
+    <summary type="text">A surprising number of security tools treat user-agent strings as a static blocklist: see curl, python-requests, or Go-http-client, raise an alert. In practice, this produces so many false positives that analysts learn to ignore the alert entirely — which defeats the purpose of having it. curl hitting a public /health endpoint is completely unremarkable; it's almost certainly a monitoring probe or</summary>
+    <author><name>logtriage</name></author>
   </entry>
   <entry>
     <title>NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks</title>
@@ -382,78 +455,5 @@
     <updated>2026-07-04T20:38:35Z</updated>
     <summary type="text">Six weeks ago, a LangChain agent we'd deployed for a B2B client started failing on roughly 30% of its sessions. No exceptions. No 500s. Nothing in the logs that looked wrong. The agent kept running, kept returning responses, kept looking completely healthy from the outside. We found out because the client called asking why their numbers looked off. Two weeks of silent failures. About $2,400 in was</summary>
     <author><name>hubert8120</name></author>
-  </entry>
-  <entry>
-    <title>Catching AI Red-Handed in Financial Data</title>
-    <link href="https://dev.to/alamshoaib134/catching-ai-red-handed-in-financial-data-346a" rel="alternate"/>
-    <id>https://dev.to/alamshoaib134/catching-ai-red-handed-in-financial-data-346a</id>
-    <updated>2026-07-04T20:35:41Z</updated>
-    <summary type="text">When I was building security auditing tools like Git Secret Scanner, the rules were binary: a vulnerability exists, or it doesn't. But when you start building Generative AI pipelines for institutional finance, things get dangerously blurry. Almost every RAG tutorial online shows you how to chunk a PDF, throw it into a vector database, and build a chatbot. That works fine for toy applications. But </summary>
-    <author><name>Shoaib Alam</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Why AI agents need three types of memory (and how I built all of them)</title>
-    <link href="https://dev.to/pragadeesh_21/why-ai-agents-need-three-types-of-memory-and-how-i-built-all-of-them-59k3" rel="alternate"/>
-    <id>https://dev.to/pragadeesh_21/why-ai-agents-need-three-types-of-memory-and-how-i-built-all-of-them-59k3</id>
-    <updated>2026-07-04T20:34:57Z</updated>
-    <summary type="text">Most &quot;agent memory&quot; today is one thing wearing three hats: a vector database.You embed the past, you retrieve the nearest neighbor, you paste it into the prompt. It works until it doesn't, and when it doesn't, you can't tell whether the agent forgot a fact, forgot an experience, or never learned the skill. The human brain does not do this. It keeps three separate systems. I built an agent that doe</summary>
-    <author><name>Pragadeesh</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Built 4 FastAPI Projects in 2 Weeks — Here's What I Wish I Knew Before Starting</title>
-    <link href="https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k" rel="alternate"/>
-    <id>https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k</id>
-    <updated>2026-07-04T20:22:13Z</updated>
-    <summary type="text">I just spent two weeks building 4 FastAPI backends back to back. REST API, web scraper + dashboard, React admin panel, AI workbench with CrewAI. 134 Python files. 38 tests. And 15 CI failures before a single green run. Here's the messy part nobody talks about. Docker Compose is a time sink Every project. Same 5 containers. api, postgres, redis, celery, nginx. By project #3 I was copy-pasting docke</summary>
-    <author><name>Ck-epsilon</name></author>
-  </entry>
-  <entry>
-    <title>Built an AI-Powered WAF for PHP/Laravel Apps in Africa — Here’s What It Catches</title>
-    <link href="https://dev.to/kriosa/built-an-ai-powered-waf-for-phplaravel-apps-in-africa-heres-what-it-catches-4fgf" rel="alternate"/>
-    <id>https://dev.to/kriosa/built-an-ai-powered-waf-for-phplaravel-apps-in-africa-heres-what-it-catches-4fgf</id>
-    <updated>2026-07-04T20:09:27Z</updated>
-    <summary type="text">Originally published on Medium A student developer from Cameroon built a security tool that explains exactly why it blocked a request. Here’s the story and how to install it in 30 seconds. Press enter or click to view image in full size As a PHP developer in Africa, you already know the problem: your apps get hit by automated bots, SQL injection attempts, and XSS attacks every single day — and mos</summary>
-    <author><name>Nchiminyi — Founder, Kriosa</name></author>
-  </entry>
-  <entry>
-    <title>Stop Guessing, Start Profiling: Mastering Edge AI Performance and Power on Android</title>
-    <link href="https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i</id>
-    <updated>2026-07-04T20:00:00Z</updated>
-    <summary type="text">You’ve spent weeks optimizing your machine learning model. You’ve pruned the weights, quantized the tensors, and fine-tuned the hyperparameters. On your high-end development workstation, the inference speed is blistering. But then, you deploy it to a real-world Android device. Three minutes into usage, the app starts to lag. The frame rate drops. The device feels uncomfortably warm in the user's h</summary>
-    <author><name>Programming Central</name></author>
-  </entry>
-  <entry>
-    <title>5 APIs Every Developer Needs for Content Processing (RSS, Extraction, Sitemaps, AI)</title>
-    <link href="https://dev.to/oaida_adrian_afa2428f63d0/5-apis-every-developer-needs-for-content-processing-rss-extraction-sitemaps-ai-2630" rel="alternate"/>
-    <id>https://dev.to/oaida_adrian_afa2428f63d0/5-apis-every-developer-needs-for-content-processing-rss-extraction-sitemaps-ai-2630</id>
-    <updated>2026-07-04T19:56:24Z</updated>
-    <summary type="text">5 APIs Every Developer Needs for Content Processing Every developer who has built a content-driven application knows the pain: you need RSS feeds parsed, web pages extracted cleanly, sitemaps crawled, structured data generated for AI crawlers, and sometimes local business data — all in the same project. Traditionally, that meant juggling five different libraries, each with its own quirks, rate lim</summary>
-    <author><name>Oaida Adrian</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Wanted a quick way to find working MTProto proxies for Teleg</title>
-    <link href="https://dev.to/humja_jaan_fca09049ae97d5/wanted-a-quick-way-to-find-working-mtproto-proxies-for-teleg-23le" rel="alternate"/>
-    <id>https://dev.to/humja_jaan_fca09049ae97d5/wanted-a-quick-way-to-find-working-mtproto-proxies-for-teleg-23le</id>
-    <updated>2026-07-04T19:54:43Z</updated>
-    <summary type="text">Wanted a quick way to find working MTProto proxies for Telegram, but got tired of manually testing dead links. So I threw together a script that scrapes public proxy channels, filters live ones, and publishes them with fake TLS support. It hits multiple sources, tests each proxy, then outputs clean JSON and a live web page. The scraper runs on a schedule via GitHub Actions, so the list stays fresh</summary>
-    <author><name>Humja Jaan</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
-    <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
-    <id>https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/</id>
-    <updated>2026-07-03T19:24:40Z</updated>
-    <summary type="text">Microsoft reportedly plans to merge its consumer and enterprise Copilot apps into a single app in August. Rarely used features like Copilot Podcasts are getting cut, and new AI agents called &quot;AutoPilot&quot; will handle tasks in the background for an extra fee. The article Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents appeared first on Th</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
