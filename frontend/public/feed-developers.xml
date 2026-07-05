@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-04T23:01:41Z</updated>
+  <updated>2026-07-05T03:50:21Z</updated>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
     <link href="https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/" rel="alternate"/>
@@ -42,6 +42,44 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AgentGuard vs Semgrep vs CodeQL: 100 Percent vs 0 Percent on AI Agent Security</title>
+    <link href="https://dev.to/dockfixlabs/agentguard-vs-semgrep-vs-codeql-100-percent-vs-0-percent-on-ai-agent-security-4iil" rel="alternate"/>
+    <id>https://dev.to/dockfixlabs/agentguard-vs-semgrep-vs-codeql-100-percent-vs-0-percent-on-ai-agent-security-4iil</id>
+    <updated>2026-07-05T02:56:40Z</updated>
+    <summary type="text">I ran the same 39 AI agent security samples through three scanners: AgentGuard, Semgrep, and CodeQL. The Results Scanner Detection Rate False Positives AgentGuard v0.6.4 100% (39/39) 0 Semgrep 0% (0/39) 0 CodeQL 0% (0/39) 0 Zero. Semgrep and CodeQL detected nothing. They have zero rules for AI agent security. AgentGuard has 17 detection rules covering all 10 OWASP ASI categories plus 4 novel attac</summary>
+    <author><name>Dockfix Labs</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Exporting any Bluesky profile's followers with the open API</title>
+    <link href="https://dev.to/cooki/exporting-any-bluesky-profiles-followers-with-the-open-api-3flb" rel="alternate"/>
+    <id>https://dev.to/cooki/exporting-any-bluesky-profiles-followers-with-the-open-api-3flb</id>
+    <updated>2026-07-05T02:49:35Z</updated>
+    <summary type="text">Every big social network locks audience data behind auth walls and anti-bot systems. Bluesky went the other way. The AT Protocol is open by design, so public profile data (bios, follower counts, full follower and following lists) is queryable through a documented API without logging in. The whole surface is basically two endpoints: GET https://api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=HAND</summary>
+    <author><name>Cooki</name></author>
+  </entry>
+  <entry>
+    <title>I Opened 3 Security Issues on Microsoft AutoGen and LlamaIndex. Here Is Why</title>
+    <link href="https://dev.to/dockfixlabs/i-opened-3-security-issues-on-microsoft-autogen-and-llamaindex-here-is-why-48dg" rel="alternate"/>
+    <id>https://dev.to/dockfixlabs/i-opened-3-security-issues-on-microsoft-autogen-and-llamaindex-here-is-why-48dg</id>
+    <updated>2026-07-05T02:39:31Z</updated>
+    <summary type="text">I just opened 3 security issues on two of the most popular AI agent frameworks on GitHub (combined 110K+ stars). The Issues microsoft/autogen#7917: Docker code executor mounts host filesystem into sandboxed containers without trust boundary validation — container escape vector. microsoft/autogen#7918: Agent self-modification patterns in Canvas memory module — agents can alter their own operating c</summary>
+    <author><name>Dockfix Labs</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Nobody is monitoring Bluesky, so I built a mentions scraper for it</title>
+    <link href="https://dev.to/cooki/nobody-is-monitoring-bluesky-so-i-built-a-mentions-scraper-for-it-19mi" rel="alternate"/>
+    <id>https://dev.to/cooki/nobody-is-monitoring-bluesky-so-i-built-a-mentions-scraper-for-it-19mi</id>
+    <updated>2026-07-05T02:39:14Z</updated>
+    <summary type="text">I wanted to know when people mention a brand on Bluesky. Simple ask. Turns out Brandwatch, Mention, Hootsuite, basically every social listening tool, still doesn't cover it. They're all busy with X and Instagram while Bluesky sits at 27M+ monthly users. So I looked at doing it myself and found out something most people miss: you don't need to scrape anything. Bluesky runs on the AT Protocol, which</summary>
+    <author><name>Cooki</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>LLM APIs as Infrastructure: Building Deterministic Systems Around Probabilistic AI</title>
@@ -309,12 +347,29 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</title>
+    <link href="https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything</id>
+    <updated>2026-07-05T01:00:48Z</updated>
+    <summary type="text">I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Vercel's Andrew Qu on why agents are a new kind of software</title>
     <link href="https://www.latent.space/p/vercel-agents-new-software" rel="alternate"/>
     <id>https://www.latent.space/p/vercel-agents-new-software</id>
     <updated>2026-07-03T00:08:18Z</updated>
     <summary type="text">The Vercel Chief of Software explains how its agent framework, eve, was created — and why skills, sandboxes and agent-readable websites now matter.</summary>
     <author><name>Richard MacManus</name></author>
+  </entry>
+  <entry>
+    <title>Building a World Map with only 500 bytes</title>
+    <link href="https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything</id>
+    <updated>2026-07-04T23:09:02Z</updated>
+    <summary type="text">Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wired together using this neat snippet of JavaScript. I didn't know you could use fetch() with data: URIs like this: fetch('data:;base64,1ZpLsgIxCEXnrM...==').then( r =&gt; r.body.pipeThro</summary>
+    <author><name>Simon Willison</name></author>
   </entry>
   <entry>
     <title>Better Models: Worse Tools</title>
@@ -408,58 +463,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <updated>2026-07-02T22:13:53Z</updated>
     <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You SSH into the box to check why the nightly report didn'</summary>
     <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>PHP 8.5's New URI Extension: Parsing URLs Without the parse_url() Footguns</title>
-    <link href="https://dev.to/gabrielanhaia/php-85s-new-uri-extension-parsing-urls-without-the-parseurl-footguns-3a49" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/php-85s-new-uri-extension-parsing-urls-without-the-parseurl-footguns-3a49</id>
-    <updated>2026-07-02T21:01:15Z</updated>
-    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub parse_url() has been in PHP since PHP 4. It follows neithe</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/</id>
-    <updated>2026-07-04T10:56:40Z</updated>
-    <summary type="text">I've been trying to come up with a solution for keeping extremely long ai sessions coherent. Sometimes there is too much substance to risk compaction. With so much buzz around diffusion going on it got me thinking, what if we treat the context like a progressive render, blurry&gt;sharp. The practical way to make text &quot;blurry&quot; is compression. This is a &quot;diffusion inspired&quot; system which borrows the coa</summary>
-    <author><name>/u/Bravo_Oscar_Zulu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Claude Code Bill Quietly Got 5x Worse — And They Were Tracking You Too</title>
-    <link href="https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j" rel="alternate"/>
-    <id>https://dev.to/aplomb2/your-claude-code-bill-quietly-got-5x-worse-and-they-were-tracking-you-too-3p8j</id>
-    <updated>2026-07-02T20:45:05Z</updated>
-    <summary type="text">This has been a rough week for Anthropic's developer trust. The Invisible Price Hike Developer Vincent Schmalbach published detailed logs showing Claude Code's effective cost increased approximately 5x — without any pricing change announcement. His numbers are hard to argue with: Previous heavy weeks: ~8.9M and ~8.5M visible Opus tokens Current week: ~1.4M visible Opus tokens Same subscription. Sa</summary>
-    <author><name>Bo Shen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why Snap CD: Self-Hosted Terraform Runners with Credential Isolation</title>
-    <link href="https://dev.to/karlschriek/why-snap-cd-self-hosted-terraform-runners-with-credential-isolation-407e" rel="alternate"/>
-    <id>https://dev.to/karlschriek/why-snap-cd-self-hosted-terraform-runners-with-credential-isolation-407e</id>
-    <updated>2026-07-02T19:18:00Z</updated>
-    <summary type="text">Most infrastructure teams run Terraform from a CI pipeline. That pipeline has credentials — cloud provider keys, state backend tokens, maybe a vault token to fetch more secrets. Early on, one pipeline with one set of credentials works fine. But as the infrastructure grows and more environments come online, the shared-runner model starts creating problems that are hard to fix without rethinking the</summary>
-    <author><name>Karl Schriek</name></author>
-  </entry>
-  <entry>
-    <title>BaryGraph - knowledge graph where every relationship is its own embedded document (not an edge) [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/</id>
-    <updated>2026-07-04T08:24:42Z</updated>
-    <summary type="text">Instead of node --edge--&gt; node, every relationship is a first-class document with its own vector, called a BaryEdge. Stack pairs of BaryEdges recursively and you get &quot;MetaBary&quot; triads that surface structural bridges between concepts that live nowhere near each other in embedding space. Running locally on MongoDB Community + mongot + nomic-embed-text over the full English Wiktionary (6.6M docs). MC</summary>
-    <author><name>/u/adseipsum</name></author>
-  </entry>
-  <entry>
-    <title>Best AI Coding Tools in 2026: Full Power Rankings</title>
-    <link href="https://dev.to/kemalcodes/best-ai-coding-tools-in-2026-full-power-rankings-ni3" rel="alternate"/>
-    <id>https://dev.to/kemalcodes/best-ai-coding-tools-in-2026-full-power-rankings-ni3</id>
-    <updated>2026-07-02T17:47:48Z</updated>
-    <summary type="text">AI coding tools have changed a lot in 2026. A year ago, GitHub Copilot was the obvious choice. Now you have 7+ serious options — and the right one depends on how you work. This article covers the top AI coding tools as of March 2026. Real pricing. Honest pros and cons. No hype. What We Compare SWE-bench score — a standard coding benchmark. Higher = better at real coding tasks. Best use case — what</summary>
-    <author><name>kemal</name></author>
     <category term="llm"/>
   </entry>
 </feed>
