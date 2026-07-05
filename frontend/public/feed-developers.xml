@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T20:17:58Z</updated>
+  <updated>2026-07-05T22:05:34Z</updated>
   <entry>
     <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
     <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
@@ -24,6 +24,14 @@
     <category term="rag"/>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Docker vs Kubernetes: Do You Actually Need an Orchestrator Yet?</title>
+    <link href="https://dev.to/jjoyneriv/docker-vs-kubernetes-do-you-actually-need-an-orchestrator-yet-57k0" rel="alternate"/>
+    <id>https://dev.to/jjoyneriv/docker-vs-kubernetes-do-you-actually-need-an-orchestrator-yet-57k0</id>
+    <updated>2026-07-05T21:04:57Z</updated>
+    <summary type="text">&quot;Docker vs Kubernetes&quot; is one of those framings that quietly sends people down the wrong road. It sounds like a choice between two competing tools, so teams treat it like a bake-off. It isn't. Docker builds and runs containers. Kubernetes orchestrates a fleet of them. You can happily use one without the other, and most teams should — at least for a while. The question that actually matters is hidi</summary>
+    <author><name>James Joyner</name></author>
   </entry>
   <entry>
     <title>Using a Node.js Screenshot API to Capture Screenshots, PDFs, and Visual Diffs</title>
@@ -457,15 +465,5 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <summary type="text">AI agents are only as smart as the context you give them. OKF is a new open specification that packages your organizational knowledge as plain markdown files so any agent can read it without custom integrations or proprietary SDKs. Every team building AI agents hits the same wall. The model is capable. The agent framework is set up. But the agent doesn't know anything about your organization. It d</summary>
     <author><name>Suhas Mallesh</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Competence Gate: gating tool-use on a small model's internal confidence signal instead of its verbalised one — Qwen3.5-4B, open weights [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/</id>
-    <updated>2026-07-05T07:49:09Z</updated>
-    <summary type="text">I made a 10MB LoRA adapter for Qwen3.5-4B plus a small orchestration layer. It decides, per query, whether to answer directly, search the web, or retrieve from your own local documents and it refuses to make things up when it can't verify an answer. It runs locally (Apple Silicon / MLX, with a GGUF build for llama.cpp/Ollama). Basically small instruct models are poor at telling users how confident</summary>
-    <author><name>/u/Synthium-</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
