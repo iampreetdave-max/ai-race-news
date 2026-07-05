@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-05T18:07:37Z</updated>
+  <updated>2026-07-05T20:17:58Z</updated>
   <entry>
     <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
     <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
@@ -120,6 +120,93 @@
     <summary type="text">Nvidia Corp.’s server assembly partner Hon Hai Precision Industry Co. reported a bigger-than-expected 40% jump in quarterly sales and said AI demand is growing further.</summary>
     <author><name>Debby Wu</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I Let a Bedrock Agent Watch My AWS Bill for 30 Days. Here Is Everything It Caught, Missed, and Made Up</title>
+    <link href="https://dev.to/aws-builders/i-let-a-bedrock-agent-watch-my-aws-bill-for-30-days-here-is-everything-it-caught-missed-and-made-1lde" rel="alternate"/>
+    <id>https://dev.to/aws-builders/i-let-a-bedrock-agent-watch-my-aws-bill-for-30-days-here-is-everything-it-caught-missed-and-made-1lde</id>
+    <updated>2026-07-05T20:07:54Z</updated>
+    <summary type="text">Ciao Amici 👋 Pull up a chair, because I have a story for you. It involves a forgotten GPU endpoint, a robot accountant I built over two evenings, a NAT gateway that quietly ate my wallet, and one genuinely absurd moment where my own creation reported itself to me as suspicious activity. For thirty days I let an Amazon Bedrock Agent read my AWS bill every morning and tell me what it thought, and by</summary>
+    <author><name>Mursal Furqan Kumbhar</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>The Silent Killer of Edge AI: How to Master Thermal Throttling and Prevent the &quot;Performance Cliff&quot;</title>
+    <link href="https://dev.to/programmingcentral/the-silent-killer-of-edge-ai-how-to-master-thermal-throttling-and-prevent-the-performance-cliff-b2b" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/the-silent-killer-of-edge-ai-how-to-master-thermal-throttling-and-prevent-the-performance-cliff-b2b</id>
+    <updated>2026-07-05T20:00:00Z</updated>
+    <summary type="text">You’ve spent weeks optimizing your transformer-based model. You’ve pruned the weights, quantized the tensors, and fine-tuned the architecture to ensure your Edge AI application runs like a dream on high-end Android hardware. But then, something unexpected happens. Ten minutes into a real-world user session, the smooth 30 FPS object detection begins to stutter. The latency, which was a crisp 30ms, </summary>
+    <author><name>Programming Central</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Applying SAST Tools to Infrastructure as Code — A Hands-On Look at Checkov</title>
+    <link href="https://dev.to/mauchoquenachoque/applying-sast-tools-to-infrastructure-as-code-a-hands-on-look-at-checkov-18lh" rel="alternate"/>
+    <id>https://dev.to/mauchoquenachoque/applying-sast-tools-to-infrastructure-as-code-a-hands-on-look-at-checkov-18lh</id>
+    <updated>2026-07-05T19:53:14Z</updated>
+    <summary type="text">Why Infrastructure as Code Needs Static Analysis Too Infrastructure as Code (IaC) — Terraform, Pulumi, OpenTofu, CloudFormation — turned infrastructure into something version-controlled, reviewable, and reproducible. But that also means a single misconfigured line — an S3 bucket left public, a security group open to 0.0.0.0/0, an unencrypted database — can be committed, merged, and deployed automa</summary>
+    <author><name>Mauricio Choqueña Choque</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Using a Node.js Screenshot API to Capture Screenshots, PDFs, and Visual Diffs</title>
+    <link href="https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089" rel="alternate"/>
+    <id>https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089</id>
+    <updated>2026-07-05T19:50:09Z</updated>
+    <summary type="text">If you have ever shipped a feature that takes screenshots from Node.js, you already know the trap. The first version looks simple: await page.goto(url); await page.screenshot({ path: &quot;page.png&quot;, fullPage: true }); Then production arrives. You need Chromium installed in the right environment. Fonts differ between machines. Pages hang forever. Cookie banners cover half the viewport. Some captures ne</summary>
+    <author><name>SnapshotFlow</name></author>
+  </entry>
+  <entry>
+    <title>AI-Powered Design Systems: The Part Nobody Talks About</title>
+    <link href="https://dev.to/kalpick_sharma_d32ace423a/ai-powered-design-systems-the-part-nobody-talks-about-1h58" rel="alternate"/>
+    <id>https://dev.to/kalpick_sharma_d32ace423a/ai-powered-design-systems-the-part-nobody-talks-about-1h58</id>
+    <updated>2026-07-05T19:47:56Z</updated>
+    <summary type="text">Whenever AI and design are mentioned together, the conversation usually focuses on generating interfaces. But after working across both design and frontend development, I think the more interesting opportunity is somewhere else. Maintaining design systems. As products grow, so do their component libraries, documentation, design tokens, accessibility requirements, and implementation details. Keepin</summary>
+    <author><name>Kalpick Sharma</name></author>
+  </entry>
+  <entry>
+    <title>Your AI agent's trust score can be faked. Here's the one check that can't.</title>
+    <link href="https://dev.to/andysalvo/your-ai-agents-trust-score-can-be-faked-heres-the-one-check-that-cant-58m0" rel="alternate"/>
+    <id>https://dev.to/andysalvo/your-ai-agents-trust-score-can-be-faked-heres-the-one-check-that-cant-58m0</id>
+    <updated>2026-07-05T19:47:45Z</updated>
+    <summary type="text">If you are building agents that pay other agents — x402, AP2, agent-to-agent commerce — you have already hit the question that has no clean answer: before my agent sends money to a counterparty it has never seen, how does it know that counterparty is real? The industry's answer, so far, is a trust score. Identity, activity, reputation, work history, consistency — bundle them into a 0-100 number, s</summary>
+    <author><name>Andy Salvo</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How we handle multi-tenant billing for EU agencies</title>
+    <link href="https://dev.to/cadensa/how-we-handle-multi-tenant-billing-for-eu-agencies-cpd" rel="alternate"/>
+    <id>https://dev.to/cadensa/how-we-handle-multi-tenant-billing-for-eu-agencies-cpd</id>
+    <updated>2026-07-05T19:46:42Z</updated>
+    <summary type="text">The constraint: one product, multiple billing realities Cadensa is a time tracking tool for EU agencies. Each agency is an organizational unit in the system — isolated MongoDB database, isolated workspace hierarchy, isolated team permissions. The multi-tenant architecture was straightforward to design because the isolation requirements were clear. Billing isolation is less obvious. At the surface,</summary>
+    <author><name>Cadensa</name></author>
+  </entry>
+  <entry>
+    <title>&quot;You Probably Don't Need a Headless Browser to Feed Your RAG Pipeline&quot;</title>
+    <link href="https://dev.to/scrapemint/you-probably-dont-need-a-headless-browser-to-feed-your-rag-pipeline-3lh5" rel="alternate"/>
+    <id>https://dev.to/scrapemint/you-probably-dont-need-a-headless-browser-to-feed-your-rag-pipeline-3lh5</id>
+    <updated>2026-07-05T19:42:30Z</updated>
+    <summary type="text">Every RAG tutorial starts the same way: spin up a headless browser, crawl the site, dump the HTML into a text splitter. It works, but the browser is doing almost nothing for you on most of the sites people actually index (docs, blogs, help centers, marketing pages), and it makes the crawl 10 to 100x more expensive than it needs to be. Here is the boring alternative that covers the 80% case. Plain </summary>
+    <author><name>Ken-Mutisya</name></author>
+    <category term="rag"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>From a Single Line to a Universal Function Machine: How Feedforward Networks Work</title>
+    <link href="https://dev.to/fahimu10/from-a-single-line-to-a-universal-function-machine-how-feedforward-networks-work-1mi5" rel="alternate"/>
+    <id>https://dev.to/fahimu10/from-a-single-line-to-a-universal-function-machine-how-feedforward-networks-work-1mi5</id>
+    <updated>2026-07-05T19:42:11Z</updated>
+    <summary type="text">In the last post, we talked about 2012 — the year deep learning stopped being an academic curiosity and started winning. But before we can appreciate why that moment mattered, we need to understand what these networks actually do, mechanically, when you feed them a number. Not the hand-wavy &quot;it's like a brain&quot; version. The actual math, the actual shapes, the actual reason a stack of matrix multipl</summary>
+    <author><name>Fahim Uddin</name></author>
+  </entry>
+  <entry>
+    <title>Quantum mechanics once baffled scientists. Now it's changing the world</title>
+    <link href="https://www.sciencedaily.com/releases/2026/06/260624025516.htm" rel="alternate"/>
+    <id>https://www.sciencedaily.com/releases/2026/06/260624025516.htm</id>
+    <updated>2026-07-05T18:13:44Z</updated>
+    <summary type="text">Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies. Now researchers are pushing its boundaries even further, with potential breakthroughs in energy, medicine, computing, and our understanding of the universe.</summary>
+    <author><name>ScienceDaily AI</name></author>
   </entry>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
@@ -353,98 +440,5 @@
     <updated>2026-07-05T14:17:49Z</updated>
     <summary type="text">Quick answer If you run a small indie site, AI search does not replace SEO. Google's own guidance says generative AI features in Search still depend on the core Search index, crawlability, snippets, and quality systems. The practical change is not &quot;write for AI&quot; or publish more pages. The change is to make every page easier for humans, search crawlers, and AI systems to understand: clear purpose, </summary>
     <author><name>Ahab</name></author>
-  </entry>
-  <entry>
-    <title>PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up</title>
-    <link href="https://towardsdatascience.com/panet-paper-walkthrough-when-feature-pyramids-go-bottom-up/" rel="alternate"/>
-    <id>https://towardsdatascience.com/panet-paper-walkthrough-when-feature-pyramids-go-bottom-up/</id>
-    <updated>2026-07-05T13:00:00Z</updated>
-    <summary type="text">Understanding how PANet shortens the path between low-level and high-level features The post PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up appeared first on Towards Data Science.</summary>
-    <author><name>Muhammad Ardi</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first</title>
-    <link href="https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/</id>
-    <updated>2026-07-04T12:37:51Z</updated>
-    <summary type="text">Anthropic developer Thariq Shihipar argues that with Claude's new model, Fable 5, the bottleneck is no longer the model itself but the user's blind spots. He describes techniques like blindspot passes and structured interviews that programmers can use to systematically uncover their unconscious knowledge gaps before handing implementation off to Claude. The article Anthropic developer shares promp</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building an Energy Comparator Designed to Be Read by AI Agents Before Humans</title>
-    <link href="https://dev.to/us1929/building-an-energy-comparator-designed-to-be-read-by-ai-agents-before-humans-15ob" rel="alternate"/>
-    <id>https://dev.to/us1929/building-an-energy-comparator-designed-to-be-read-by-ai-agents-before-humans-15ob</id>
-    <updated>2026-07-05T12:06:28Z</updated>
-    <summary type="text">I run a small Italian energy tariff comparison site called SwitchAI. For a while the plan was completely ordinary: user uploads a PDF bill, server parses it, site shows cheaper offers. Then I tested that plan against ten real bills from five different Italian providers, and it fell apart in a way that ended up reshaping the whole product. Here's what happened, and what I think it says about buildi</summary>
-    <author><name>US1929</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your Codebase Just Wrote Itself. Terrified Yet?</title>
-    <link href="https://dev.to/prabashanadev/your-codebase-just-wrote-itself-terrified-yet-3i5j" rel="alternate"/>
-    <id>https://dev.to/prabashanadev/your-codebase-just-wrote-itself-terrified-yet-3i5j</id>
-    <updated>2026-07-05T12:04:48Z</updated>
-    <summary type="text">The digital world is abuzz, and a subtle tremor runs through the software development community. OmniCorp's &quot;Synthetica DevNet&quot; has emerged, not merely as an advanced coding assistant, but as a potential paradigm shift. Promising 80%+ autonomous feature development from concept to production, Synthetica isn't just generating snippets; it’s building entire microservices, APIs, and front-end compone</summary>
-    <author><name>Chathura Rathnayaka</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>External Runtimes Should Read `AGENTS.md` Directly</title>
-    <link href="https://dev.to/agentprojectcontext/external-runtimes-should-read-agentsmd-directly-4e5a" rel="alternate"/>
-    <id>https://dev.to/agentprojectcontext/external-runtimes-should-read-agentsmd-directly-4e5a</id>
-    <updated>2026-07-05T12:03:43Z</updated>
-    <summary type="text">External Runtimes Should Read AGENTS.md Directly The cleanest APX design is not a translation layer. It is a handoff. APC is the portable context layer. APX is the daily-use runtime and tooling layer. When APX launches an external runtime like Claude Code, Codex, OpenCode, or Aider, the job is simple: locate the project, start the runtime, and let that runtime read the project's own contract. That</summary>
-    <author><name>Manuel Bruña</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Top AI Papers on Hugging Face - 2026-07-05</title>
-    <link href="https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-05-55fg" rel="alternate"/>
-    <id>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-05-55fg</id>
-    <updated>2026-07-05T12:01:22Z</updated>
-    <summary type="text">10 paper AI nổi bật nhất trên Hugging Face hôm nay: từ “Program-as-Weights” đến benchmark cho data agents Hôm nay, danh sách paper được cộng đồng Hugging Face upvote nhiều nhất cho thấy một xu hướng rất rõ: AI đang dịch chuyển từ mô hình lớn thuần túy sang hệ thống có cấu trúc hơn — có bộ nhớ, có benchmark chuyên biệt, có routing, có rubric đánh giá, và có cách tăng tốc suy luận mà không cần train</summary>
-    <author><name>Y Hành Nhan</name></author>
-  </entry>
-  <entry>
-    <title>Hermes Memory Installer: Memory Sidecar v3.5.1 — Operational Hardening for Agent-Agnostic Memory</title>
-    <link href="https://dev.to/mage0535/hermes-memory-installer-memory-sidecar-v351-operational-hardening-for-agent-agnostic-memory-20ij" rel="alternate"/>
-    <id>https://dev.to/mage0535/hermes-memory-installer-memory-sidecar-v351-operational-hardening-for-agent-agnostic-memory-20ij</id>
-    <updated>2026-07-05T12:00:41Z</updated>
-    <summary type="text">Memory Sidecar v3.5.1 is now public, and with it comes a focused set of operational hardening improvements for teams running agent-agnostic memory infrastructure. If you've been using the sidecar to decouple memory management from your AI agents, this release is about making that setup more resilient, secure, and production-ready without introducing new surface features. The hermes-memory-installe</summary>
-    <author><name>mage0535</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>When Should an AI Agent Ask for Human Approval?</title>
-    <link href="https://dev.to/brennhill/when-should-an-ai-agent-ask-for-human-approval-5a16" rel="alternate"/>
-    <id>https://dev.to/brennhill/when-should-an-ai-agent-ask-for-human-approval-5a16</id>
-    <updated>2026-07-05T12:00:00Z</updated>
-    <summary type="text">An AI agent should ask for human approval when a human can realistically catch the mistake in time and the action is consequential enough to be worth the interruption. That is the whole test. Most teams start from the wrong question, &quot;should a human review this?&quot;, because a human placed in front of an action they cannot actually evaluate or stop will approve it anyway. If a person cannot detect th</summary>
-    <author><name>Brenn Hill</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Scale Wall: Why AI Gurus Are Building Toys While the World Needs Architects</title>
-    <link href="https://dev.to/alan_scottencinas/the-scale-wall-why-ai-gurus-are-building-toys-while-the-world-needs-architects-3fgp" rel="alternate"/>
-    <id>https://dev.to/alan_scottencinas/the-scale-wall-why-ai-gurus-are-building-toys-while-the-world-needs-architects-3fgp</id>
-    <updated>2026-07-05T12:00:00Z</updated>
-    <summary type="text">&quot;Day 5: Finished learning Hugging Face. Built a script that passes a PDF to a pipeline() wrapper. Big lesson: the model is the brain. Day 6: moving on to dominate AI architecture.&quot; I did not make that up. Some version of it scrolls past me every single morning, and every morning it lands the same way. It is the technical equivalent of skimming the index of a biology textbook and then offering to p</summary>
-    <author><name>Alan Scott Encinas</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>cybr.com [LAB] Introduction to Secrets Manager Enumeration (AWS Red Teaming)</title>
-    <link href="https://dev.to/davidonlinearchive/cybrcom-lab-introduction-to-secrets-manager-enumeration-aws-red-teaming-2ebp" rel="alternate"/>
-    <id>https://dev.to/davidonlinearchive/cybrcom-lab-introduction-to-secrets-manager-enumeration-aws-red-teaming-2ebp</id>
-    <updated>2026-07-05T11:58:12Z</updated>
-    <summary type="text">During a cloud security assessment, enumeration is a critical phase. It allows you to understand your current permissions, map out the available attack surface, and identify potential misconfigurations or exposed sensitive data. This writeup walks through a hands-on lab demonstrating how to perform credential enumeration, list secrets, and extract sensitive payloads using the AWS CLI. Part 1: Init</summary>
-    <author><name>David Disu</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
