@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T14:47:15Z</updated>
+  <updated>2026-07-05T16:13:05Z</updated>
+  <entry>
+    <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
+    <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/</id>
+    <updated>2026-07-05T15:58:56Z</updated>
+    <summary type="text">A Google Deepmind developer ported the 2003 real-time strategy game &quot;Command &amp; Conquer: Generals Zero Hour&quot; to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot; appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools</title>
     <link href="https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/" rel="alternate"/>
@@ -34,6 +43,15 @@
     <summary type="text">A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>A cheap, persistent memory that learns your repo so your agent stops re-reading it</title>
+    <link href="https://dev.to/alsterg/a-cheap-persistent-memory-that-learns-your-repo-so-your-agent-stops-re-reading-it-cah" rel="alternate"/>
+    <id>https://dev.to/alsterg/a-cheap-persistent-memory-that-learns-your-repo-so-your-agent-stops-re-reading-it-cah</id>
+    <updated>2026-07-05T15:54:43Z</updated>
+    <summary type="text">Live Memory: stop re-reading your repo on every Claude Code session Every Claude Code session re-discovers your codebase from scratch — re-reading files, re-grepping, re-paying for the same context. live-memory runs a separate, cheaper large-context model in a long-running MCP server whose only job is to accumulate knowledge of your repository over time. Your main agent asks it questions through o</summary>
+    <author><name>Alexandros Stergiakis</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How I Gave Claude Code a Long-Term Memory: 5 Lessons from State Persistence</title>
@@ -340,6 +358,15 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Why I built a proactive context curator instead of a compactor — and what I got wrong for three months [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1uo5r0b/why_i_built_a_proactive_context_curator_instead/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1uo5r0b/why_i_built_a_proactive_context_curator_instead/</id>
+    <updated>2026-07-05T15:57:23Z</updated>
+    <summary type="text">Two ways to handle a context window that's filling up. Reactive: wait until it's full, then compact everything. Proactive: be picky about what gets added every turn so noise never piles up in the first place. Most coding agents take the reactive path. I spent months building the proactive one, and I want to be honest about what actually worked and what didn't. What held up A decision your agent ma</summary>
+    <author><name>/u/Reasonable_Craft_425</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Share Memory by Communicating: When a Channel Beats a Mutex in Go</title>
     <link href="https://dev.to/gabrielanhaia/share-memory-by-communicating-when-a-channel-beats-a-mutex-in-go-315f" rel="alternate"/>
     <id>https://dev.to/gabrielanhaia/share-memory-by-communicating-when-a-channel-beats-a-mutex-in-go-315f</id>
@@ -441,33 +468,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <author><name>/u/linuxid10t</name></author>
     <category term="agents"/>
     <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Vibe Coders vs. Traditional Devs: Both Sides Are Right</title>
-    <link href="https://dev.to/raffy_d/vibe-coders-vs-traditional-devs-both-sides-are-right-56p8" rel="alternate"/>
-    <id>https://dev.to/raffy_d/vibe-coders-vs-traditional-devs-both-sides-are-right-56p8</id>
-    <updated>2026-07-03T12:33:04Z</updated>
-    <summary type="text">There is a fascinating, quiet tension happening in the software engineering community right now. If you listen closely to late-night developer chats, team syncs, or tech forums, you will notice that our industry has rapidly split into two distinct schools of thought regarding the rise of AI coding tools like Cursor, Claude Code, and Copilot. On one side, you have the Traditional Developers. They a</summary>
-    <author><name>Raffy</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?</title>
-    <link href="https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/" rel="alternate"/>
-    <id>https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/</id>
-    <updated>2026-07-02T18:01:20Z</updated>
-    <summary type="text">Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.</summary>
-    <author><name>Maxwell Zeff</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</title>
-    <link href="https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything</id>
-    <updated>2026-07-05T01:00:48Z</updated>
-    <summary type="text">I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on </summary>
-    <author><name>Simon Willison</name></author>
     <category term="llm"/>
   </entry>
 </feed>

@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-05T14:47:15Z</updated>
+  <updated>2026-07-05T16:13:05Z</updated>
+  <entry>
+    <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
+    <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/</id>
+    <updated>2026-07-05T15:58:56Z</updated>
+    <summary type="text">A Google Deepmind developer ported the 2003 real-time strategy game &quot;Command &amp; Conquer: Generals Zero Hour&quot; to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot; appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Baidu's &quot;Unlimited OCR&quot; processes dozens of document pages in one pass by treating memory like human forgetting</title>
+    <link href="https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/" rel="alternate"/>
+    <id>https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/</id>
+    <updated>2026-07-05T15:25:07Z</updated>
+    <summary type="text">Baidu's Unlimited OCR reads dozens of document pages in a single pass, where previous systems topped out at about ten. A modified attention mechanism keeps memory use flat no matter how many pages the model processes. It currently holds the top spot on the most important OCR benchmark. The article Baidu's &quot;Unlimited OCR&quot; processes dozens of document pages in one pass by treating memory like human </summary>
+    <author><name>Jonathan Kemper</name></author>
+  </entry>
   <entry>
     <title>AI private schools sell wealthy US families on personalized learning over traditional education</title>
     <link href="https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/" rel="alternate"/>
@@ -127,6 +144,15 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Jetson Nano: Ollama &amp; Optimal Quantization</title>
+    <link href="https://dev.to/annavi11arrea1/jetson-nano-ollama-optimal-quantization-2de8" rel="alternate"/>
+    <id>https://dev.to/annavi11arrea1/jetson-nano-ollama-optimal-quantization-2de8</id>
+    <updated>2026-07-05T16:06:31Z</updated>
+    <summary type="text">I am delighted to announce that a user reported dysfunction so that I could go down the rabbit hole of fixing it. Messing around locally is one thing, but building a tolerable app for end users has other considerations when using a ‘local’ AI. This led to interesting findings about the limitations of hardware and gaining a high-level understanding of quantization and it's importance. I also explai</summary>
+    <author><name>Anna Villarreal</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
     <title>NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion</title>
     <link href="https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/</id>
@@ -134,6 +160,58 @@
     <summary type="text">A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Why iPhone HEVC Videos Silently Fail as Telegram Avatars</title>
+    <link href="https://dev.to/liveavabot/why-iphone-hevc-videos-silently-fail-as-telegram-avatars-3gk7" rel="alternate"/>
+    <id>https://dev.to/liveavabot/why-iphone-hevc-videos-silently-fail-as-telegram-avatars-3gk7</id>
+    <updated>2026-07-05T16:01:59Z</updated>
+    <summary type="text">My girlfriend sent me a 4 second clip from her iPhone and asked me to set it as her Telegram profile video. Telegram accepted the upload, showed a spinner, then quietly kept the old static photo. No error message, nothing to google. The upload just evaporated. The clip was HEVC (H.265), 1080x1920, 10-bit, straight from default iOS camera settings. Telegram's video avatar pipeline wants something v</summary>
+    <author><name>liveavabot</name></author>
+  </entry>
+  <entry>
+    <title>A cheap, persistent memory that learns your repo so your agent stops re-reading it</title>
+    <link href="https://dev.to/alsterg/a-cheap-persistent-memory-that-learns-your-repo-so-your-agent-stops-re-reading-it-cah" rel="alternate"/>
+    <id>https://dev.to/alsterg/a-cheap-persistent-memory-that-learns-your-repo-so-your-agent-stops-re-reading-it-cah</id>
+    <updated>2026-07-05T15:54:43Z</updated>
+    <summary type="text">Live Memory: stop re-reading your repo on every Claude Code session Every Claude Code session re-discovers your codebase from scratch — re-reading files, re-grepping, re-paying for the same context. live-memory runs a separate, cheaper large-context model in a long-running MCP server whose only job is to accumulate knowledge of your repository over time. Your main agent asks it questions through o</summary>
+    <author><name>Alexandros Stergiakis</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I’m building Euro Toolhub: a German-first index of European software alternatives</title>
+    <link href="https://dev.to/euro-toolhub/im-building-euro-toolhub-a-german-first-index-of-european-software-alternatives-2emf" rel="alternate"/>
+    <id>https://dev.to/euro-toolhub/im-building-euro-toolhub-a-german-first-index-of-european-software-alternatives-2emf</id>
+    <updated>2026-07-05T15:53:14Z</updated>
+    <summary type="text">I’m building Euro Toolhub , a German-first index of European software, SaaS, cloud and AI alternatives. The idea is simple: many companies, agencies, developers and privacy-conscious users want alternatives to common tools when they care about things like data residency, open source, self-hosting, European jurisdiction or reducing dependency on non-European providers. But most existing lists stop </summary>
+    <author><name>Martin Frost</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Slide Builder: RevealJS in YAML, with Prezi-style zoom</title>
+    <link href="https://dev.to/mrduguo/slide-builder-revealjs-in-yaml-with-prezi-style-zoom-560p" rel="alternate"/>
+    <id>https://dev.to/mrduguo/slide-builder-revealjs-in-yaml-with-prezi-style-zoom-560p</id>
+    <updated>2026-07-05T15:51:56Z</updated>
+    <summary type="text">Slides have an odd status in engineering: we make them constantly, but we treat them as disposable. They rarely live in a repo. They rarely go through review. The diagram you spent twenty minutes aligning in Keynote is gone the moment the talk ends. Dinghy's Slide Builder treats a slide like any other artifact: a folder of source files that compiles to a single deliverable. What it is A presentati</summary>
+    <author><name>mrduguo</name></author>
+  </entry>
+  <entry>
+    <title>I Spent 3 Days Building a CLI for an Open Source Project. Here’s What Actually Happened.</title>
+    <link href="https://dev.to/nitinkumaryadav1307/i-spent-3-days-building-a-cli-for-an-open-source-project-heres-what-actually-happened-29ao" rel="alternate"/>
+    <id>https://dev.to/nitinkumaryadav1307/i-spent-3-days-building-a-cli-for-an-open-source-project-heres-what-actually-happened-29ao</id>
+    <updated>2026-07-05T15:47:49Z</updated>
+    <summary type="text">I'm a second-year IT engineering student. What I do have is GitHub, a laptop that overheats, and a habit of picking up problems that are slightly too big for me. This is the story of how I built the official CLI for urBackend a BaaS (Backend as a Service) platform from scratch, over three hard days, and somehow got it merged. How I Found This I was scrolling through GSSOC (GirlScript Summer of Cod</summary>
+    <author><name>Nitin Kumar Yadav</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs</title>
+    <link href="https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/" rel="alternate"/>
+    <id>https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/</id>
+    <updated>2026-07-05T15:00:00Z</updated>
+    <summary type="text">Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call The post Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs appeared first on Towards Data Science.</summary>
+    <author><name>Kezhan Shi</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>👁️ Stop Flying Blind: Implementing Observability Practices in Production (Python, Prometheus &amp; Grafana)</title>
@@ -370,87 +448,5 @@
     <updated>2026-07-05T10:00:39Z</updated>
     <summary type="text">Originally published at htpbe.tech. The version on htpbe.tech stays in sync with the latest detection algorithm — refer to it for the canonical text. Industry surveys consistently put credential misrepresentation among job applicants in the order of one in ten to one in five, depending on the cohort and the definition used — exact figures vary, and we cite no single source as authoritative here. T</summary>
     <author><name>Iurii Rogulia</name></author>
-  </entry>
-  <entry>
-    <title>Building a Document Q&amp;A Bot: Why Embeddings Are Trickier Than They Look</title>
-    <link href="https://dev.to/__c1b9e06dc90a7e0a676b/building-a-document-qa-bot-why-embeddings-are-trickier-than-they-look-3jl8" rel="alternate"/>
-    <id>https://dev.to/__c1b9e06dc90a7e0a676b/building-a-document-qa-bot-why-embeddings-are-trickier-than-they-look-3jl8</id>
-    <updated>2026-07-05T10:00:32Z</updated>
-    <summary type="text">I spent a weekend building a Q&amp;A bot for my team's internal docs. It sounded easy: dump PDFs into a vector database, query with embeddings, get answers. Three days later, I had a working prototype — and a healthy respect for all the hidden traps. The Problem Our team had 200+ pages of configuration guides scattered across Confluence, Google Docs, and a few dusty PDFs. Every week someone asked &quot;How</summary>
-    <author><name>zhongqiyue</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>How Hashing Actually Works (and Why You Can't Un-Hash a Password)</title>
-    <link href="https://dev.to/anh_qunnguyn_57549060f/how-hashing-actually-works-and-why-you-cant-un-hash-a-password-16l6" rel="alternate"/>
-    <id>https://dev.to/anh_qunnguyn_57549060f/how-hashing-actually-works-and-why-you-cant-un-hash-a-password-16l6</id>
-    <updated>2026-07-05T09:54:58Z</updated>
-    <summary type="text">Last time a lot of people learned that Base64 isn't encryption. Hashing gets the same treatment: developers reach for it constantly — password storage, file integrity, cache keys, git commits, deduplication — and a surprising number believe it's a kind of encryption you can reverse with the right function. You can't. That's not a limitation; it's the entire point. Here's what a hash function actua</summary>
-    <author><name>Anh Quân Nguyễn</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
-    <link href="https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/</id>
-    <updated>2026-07-04T09:53:21Z</updated>
-    <summary type="text">Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed &quot;because the models weren't ready.&quot; Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is still light-years from that vision. The article OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>🎯 The AI Engineer 🤖 Interview Playbook 📖</title>
-    <link href="https://dev.to/truongpx396/the-ai-engineer-interview-playbook-45pb" rel="alternate"/>
-    <id>https://dev.to/truongpx396/the-ai-engineer-interview-playbook-45pb</id>
-    <updated>2026-07-05T09:51:04Z</updated>
-    <summary type="text">Everything you need to prepare for — and pass — an AI engineer interview in 2026. Straightforward, organized, and built from what companies actually test. Synthesized from data-driven field research and practitioner guides: Alexey Grigorev's AI Engineering Field Guide (4,894 job descriptions + 100+ candidate stories), Amit Shekhar's AI Engineering Interview Questions, Rohit Ghumare's AI Engineerin</summary>
-    <author><name>Truong Phung</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Week 9: Finally, I understand the Web.</title>
-    <link href="https://dev.to/om_k_4314/week-9-finally-i-understand-the-web-c4b" rel="alternate"/>
-    <id>https://dev.to/om_k_4314/week-9-finally-i-understand-the-web-c4b</id>
-    <updated>2026-07-05T09:48:29Z</updated>
-    <summary type="text">Eight weeks of Python. Then Week 9 started and there wasn't a single .py file in sight. That's not a mistake — it's the plan. Understanding how the web actually works has been on the roadmap since Month 1, and Week 9 was the week to finally build it: HTML, CSS, and JavaScript, from a bare page to a dynamic to-do list talking to a real API. New repo, new language, same daily habit. Here's how it we</summary>
-    <author><name>Om Kolhapure</name></author>
-  </entry>
-  <entry>
-    <title>What is Mistral AI? Everything to know about the OpenAI competitor</title>
-    <link href="https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/</id>
-    <updated>2026-07-04T15:51:32Z</updated>
-    <summary type="text">Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”</summary>
-    <author><name>Anna Heim</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A 26,000-student study shows AI's hidden learning cost takes two full years to surface</title>
-    <link href="https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/" rel="alternate"/>
-    <id>https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/</id>
-    <updated>2026-07-04T09:08:41Z</updated>
-    <summary type="text">A study of more than 26,000 Chinese students found that AI users finished homework faster and scored higher but performed up to 24 percent worse on exams. The full impact on entrance exam results took about two years to show up, meaning short-term studies systematically underestimate the damage. The article A 26,000-student study shows AI's hidden learning cost takes two full years to surface appe</summary>
-    <author><name>Jonathan Kemper</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic launches its own drug discovery programs to tackle diseases Big Pharma considers unprofitable</title>
-    <link href="https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/</id>
-    <updated>2026-07-04T08:11:18Z</updated>
-    <summary type="text">Anthropic is launching its own drug development program for neglected diseases that the pharmaceutical industry considers unprofitable. Novartis CEO Vas Narasimhan thinks AI could cut development time from twelve years to seven or eight and double the success rate from 8 to 16 percent. The article Anthropic launches its own drug discovery programs to tackle diseases Big Pharma considers unprofitab</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Can You Build an Alternative to LLMs? 8 Months, ~200 Failed Experiments, One Wall. 2</title>
-    <link href="https://dev.to/teolex2020/can-you-build-an-alternative-to-llms-8-months-200-failed-experiments-one-wall-2-3776" rel="alternate"/>
-    <id>https://dev.to/teolex2020/can-you-build-an-alternative-to-llms-8-months-200-failed-experiments-one-wall-2-3776</id>
-    <updated>2026-07-05T07:22:18Z</updated>
-    <summary type="text">This is part 2 of a research series documenting an attempt to build something adjacent to — and in some ways alternative to — large language models. Part 1: &quot;My Synthetic Eval Said 30/30. LoCoMo Said 0.13.&quot; The code that survived lives in AuraSDK. Not a chatbot wrapper. Not another prompt stack. Not a vector database with a nicer UI. The question was narrower and more dangerous: Can a non-neural, </summary>
-    <author><name>Oleksander</name></author>
-    <category term="rag"/>
-    <category term="llm"/>
   </entry>
 </feed>
