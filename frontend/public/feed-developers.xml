@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T12:20:02Z</updated>
+  <updated>2026-07-05T14:47:15Z</updated>
+  <entry>
+    <title>LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools</title>
+    <link href="https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/</id>
+    <updated>2026-07-05T07:50:19Z</updated>
+    <summary type="text">LlamaIndex’s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2. It exposes retrieve (hybrid semantic search), find, read, and grep as tools, with automatic per-file versioning and visual citations. The stack is TanStack Start, AI SDK 6 (ToolLoopAgent), Prisma, and WorkOS. The post LlamaIndex ‘legal-kb’: Agentic Retrieval over Inde</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="rag"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
     <link href="https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/" rel="alternate"/>
@@ -23,6 +34,24 @@
     <summary type="text">A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How I Gave Claude Code a Long-Term Memory: 5 Lessons from State Persistence</title>
+    <link href="https://dev.to/yureki_lab/how-i-gave-claude-code-a-long-term-memory-5-lessons-from-state-persistence-1k1m" rel="alternate"/>
+    <id>https://dev.to/yureki_lab/how-i-gave-claude-code-a-long-term-memory-5-lessons-from-state-persistence-1k1m</id>
+    <updated>2026-07-05T14:33:06Z</updated>
+    <summary type="text">TL;DR I run a fully autonomous implementation system built on Claude Code that works on my projects around the clock. The single biggest upgrade I ever made to it wasn't a smarter prompt or a better model — it was giving it a file-based long-term memory. This post covers the state persistence design that turned my agent from a goldfish into a coworker, and the 5 lessons I learned getting there. 💡 </summary>
+    <author><name>yureki_lab</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Codex Record &amp; Replay principles</title>
+    <link href="https://dev.to/ahab_indieseek/codex-record-replay-principles-3j6d" rel="alternate"/>
+    <id>https://dev.to/ahab_indieseek/codex-record-replay-principles-3j6d</id>
+    <updated>2026-07-05T14:17:53Z</updated>
+    <summary type="text">Codex Record &amp; Replay is interesting because it starts from a very human habit: when something is hard to describe, show it once. Instead of writing a long prompt that explains every click, window switch, preference, and edge case, the user records a workflow on macOS. Codex observes the workflow, reads the event trace, and drafts a reusable Skill. The key idea is simple: Human demonstration -&amp;gt;</summary>
+    <author><name>Ahab</name></author>
   </entry>
   <entry>
     <title>Your Codebase Just Wrote Itself. Terrified Yet?</title>
@@ -347,6 +376,16 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>GPT-5.5 vs Claude Fable 5 vs Local Qwen: 3 AI Agents, 1 Task</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1unxcp5/gpt55_vs_claude_fable_5_vs_local_qwen_3_ai_agents/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1unxcp5/gpt55_vs_claude_fable_5_vs_local_qwen_3_ai_agents/</id>
+    <updated>2026-07-05T09:01:14Z</updated>
+    <summary type="text">I ran the same market-entry brief through three different AI models. The result was revealing. I asked three models to independently create a client-ready market-entry brief for launching a privacy-first AI personal assistant for small businesses in the UK. The models were: Claude Fable 5 via Claude Subscription GPT-5.5 via ChatGPT/Codex qwen3.6:27b running locally via Ollama Each got the exact sa</summary>
+    <author><name>/u/Acceptable-Object390</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Building an Enterprise-Grade Real-Time Analytics Pipeline with FastAPI and TimescaleDB</title>
     <link href="https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al" rel="alternate"/>
     <id>https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al</id>
@@ -430,41 +469,5 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <summary type="text">I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on </summary>
     <author><name>Simon Willison</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Vercel's Andrew Qu on why agents are a new kind of software</title>
-    <link href="https://www.latent.space/p/vercel-agents-new-software" rel="alternate"/>
-    <id>https://www.latent.space/p/vercel-agents-new-software</id>
-    <updated>2026-07-03T00:08:18Z</updated>
-    <summary type="text">The Vercel Chief of Software explains how its agent framework, eve, was created — and why skills, sandboxes and agent-readable websites now matter.</summary>
-    <author><name>Richard MacManus</name></author>
-  </entry>
-  <entry>
-    <title>Building a World Map with only 500 bytes</title>
-    <link href="https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything</id>
-    <updated>2026-07-04T23:09:02Z</updated>
-    <summary type="text">Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wired together using this neat snippet of JavaScript. I didn't know you could use fetch() with data: URIs like this: fetch('data:;base64,1ZpLsgIxCEXnrM...==').then( r =&gt; r.body.pipeThro</summary>
-    <author><name>Simon Willison</name></author>
-  </entry>
-  <entry>
-    <title>Better Models: Worse Tools</title>
-    <link href="https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</id>
-    <updated>2026-07-04T22:53:52Z</updated>
-    <summary type="text">Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus reject</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>If your GPU can run inference, it should be able to fine-tune too. [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/</id>
-    <updated>2026-07-04T21:56:48Z</updated>
-    <summary type="text">I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can run inference on an MoE model, it should also be able to fine-tune it. On my AMD RX 6750 XT (12 GB), I can fine-tune Qwen3-30B-A3B by training sparse expert weights and the router instead of adapters. The project is completely open source under the Apache 2.0 li</summary>
-    <author><name>/u/tsuyu122</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-    <category term="open-source"/>
   </entry>
 </feed>
