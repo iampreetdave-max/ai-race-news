@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T07:31:34Z</updated>
+  <updated>2026-07-05T10:20:17Z</updated>
   <entry>
     <title>Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%</title>
     <link href="https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/" rel="alternate"/>
@@ -23,6 +23,32 @@
     <summary type="text">A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>AWS Lightsail Instance for Docker</title>
+    <link href="https://dev.to/acj1971/aws-lightsail-instance-for-docker-4jb8" rel="alternate"/>
+    <id>https://dev.to/acj1971/aws-lightsail-instance-for-docker-4jb8</id>
+    <updated>2026-07-05T10:09:16Z</updated>
+    <summary type="text">This chapter guides you through setting up an Ubuntu Lightsail instance pre-configured for Docker, enabling you to deploy and manage containers for WordPress and MySQL Server quickly. You’ll learn how to: Generate and secure a custom SSH key pair to access the instance. Use AWS CLI commands and configuration files to launch your Lightsail instance. Apply a user-data script to automatically install</summary>
+    <author><name>Adam Craig Johnston</name></author>
+  </entry>
+  <entry>
+    <title>Knowing AI Isn't Enough. Great AI Project Managers Connect Data, Models, and Products</title>
+    <link href="https://dev.to/dainguyen202/toi-nghi-ai-project-manager-gioi-khong-phai-nguoi-biet-ai-ma-la-nguoi-noi-duoc-du-lieu-mo-hinh-58d7" rel="alternate"/>
+    <id>https://dev.to/dainguyen202/toi-nghi-ai-project-manager-gioi-khong-phai-nguoi-biet-ai-ma-la-nguoi-noi-duoc-du-lieu-mo-hinh-58d7</id>
+    <updated>2026-07-05T10:07:08Z</updated>
+    <summary type="text">AI Project Manager: Connecting Data, Models, and Products I've noticed a common scenario many junior team members face: as soon as the company mentions an &quot;upcoming AI project,&quot; they immediately think of models, prompts, ChatGPT, LLMs, and chatbot demos. Yet, once the project kicks off, the focus shifts from &quot;which model to use?&quot; to questions like: Where will the data come from? Who has access? Wh</summary>
+    <author><name>Dai Nguyen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Parsing Claude Code's JSONL: patterns for a schema that keeps moving</title>
+    <link href="https://dev.to/tznthou/parsing-claude-codes-jsonl-patterns-for-a-schema-that-keeps-moving-2dcj" rel="alternate"/>
+    <id>https://dev.to/tznthou/parsing-claude-codes-jsonl-patterns-for-a-schema-that-keeps-moving-2dcj</id>
+    <updated>2026-07-05T10:01:55Z</updated>
+    <summary type="text">Every conversation you have with Claude Code is written to disk as JSONL, under ~/.claude/projects/. Your decisions, your dead ends, the bug hunt that took three sessions: it is all there. You have probably never opened one. The catch: the format is an internal implementation detail. No documentation, no version field, no stability guarantee. The schema changes whenever the CLI updates, which is, </summary>
+    <author><name>林子超（子超）</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>OpenAI cofounder envisions &quot;almost no interface&quot; future where nobody learns software anymore</title>
@@ -292,6 +318,15 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="llm"/>
   </entry>
   <entry>
+    <title>GH Copilot’s BYOK Blocking for Inline Completion Makes No Sense. [THE FIX]</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1unxezp/gh_copilots_byok_blocking_for_inline_completion/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1unxezp/gh_copilots_byok_blocking_for_inline_completion/</id>
+    <updated>2026-07-05T09:05:09Z</updated>
+    <summary type="text">GitHub Copilot allows Bring Your Own Key (BYOK) for its Chat window, but it explicitly blocks those exact same custom models from being used for inline code auto-completion. The official justification from the VS Code team is a supposed &quot;lack of capable FIM (Fill-in-the-Middle) models.&quot; However, this excuse doesn't hold water: It shifts blame incorrectly: If a user configures an incapable model fo</summary>
+    <author><name>/u/studentofknowledg3</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Building an Enterprise-Grade Real-Time Analytics Pipeline with FastAPI and TimescaleDB</title>
     <link href="https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al" rel="alternate"/>
     <id>https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al</id>
@@ -312,6 +347,16 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Competence Gate: gating tool-use on a small model's internal confidence signal instead of its verbalised one — Qwen3.5-4B, open weights [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/</id>
+    <updated>2026-07-05T07:49:09Z</updated>
+    <summary type="text">I made a 10MB LoRA adapter for Qwen3.5-4B plus a small orchestration layer. It decides, per query, whether to answer directly, search the web, or retrieve from your own local documents and it refuses to make things up when it can't verify an answer. It runs locally (Apple Silicon / MLX, with a GGUF build for llama.cpp/Ollama). Basically small instruct models are poor at telling users how confident</summary>
+    <author><name>/u/Synthium-</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models &quot;want a smaller system prompt&quot;</title>
     <link href="https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/" rel="alternate"/>
     <id>https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/</id>
@@ -327,6 +372,17 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <updated>2026-07-03T15:07:40Z</updated>
     <summary type="text">On the closing day of the AI Engineer World's Fair, industry leaders debated whether loops are ready for mainstream use and whether humans still have a place in coding. On the loops-now side, Geoff Huntley, founder of Latent Patterns, was understandably bullish. He said that over two years ago he was at Canva and watched engineers prompting repeatedly and realized that this could be done much more</summary>
     <author><name>Iain Thomson</name></author>
+  </entry>
+  <entry>
+    <title>I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/</id>
+    <updated>2026-07-05T03:37:23Z</updated>
+    <summary type="text">I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I've been running local LLMs for agentic workflows (tool use, coding agents, RAG) and kept seeing people obsess over tg128 (token generation speed) as the headline performance metric. So I ran a structured long-context benchmark</summary>
+    <author><name>/u/linuxid10t</name></author>
+    <category term="agents"/>
+    <category term="hardware"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Vibe Coders vs. Traditional Devs: Both Sides Are Right</title>
@@ -406,63 +462,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <updated>2026-07-02T12:00:00Z</updated>
     <summary type="text">Ben Guez has &quot;a bunch of potential international wives in [his] DMs,&quot; thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.</summary>
     <author><name>Amanda Silberling</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We'll benchmark an Open weights LLM on any GPU you choose — drop your model + hardware and we'll run it. [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/</id>
-    <updated>2026-07-04T18:51:07Z</updated>
-    <summary type="text">We run HexGrid Cloud, a platform for deploying open-source models on GPUs, and we're heads-down optimizing our serving/deployment layer. To pressure-test it we're benchmarking real models under real concurrency — and instead of guessing, we'd rather run what you actually want to see. --- Models available for benchmarking: Nemotron-3 Super 120B-A12B (only NVFP4) Nemotron-3 Nano 30B A3B Qwen-3.6 27B</summary>
-    <author><name>/u/Temporary-Owl1725</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Switching from Claude Code to Grok – Same Interface, Different Model</title>
-    <link href="https://dev.to/dragos_roua/switching-from-claude-code-to-grok-same-interface-different-model-4kcn" rel="alternate"/>
-    <id>https://dev.to/dragos_roua/switching-from-claude-code-to-grok-same-interface-different-model-4kcn</id>
-    <updated>2026-07-03T02:57:34Z</updated>
-    <summary type="text">At the beginning of June I started a “Claude withdrawal” challenge. The plan was to run MiniMax 3 for a month, to see if I can get the same level of quality, but at 5x less the price. Until then, Claude Code was my main driver, with MiniMax on the backup, for when I was running out of quota, or sometimes for code review. The monthly bill for Claude was $100 on the Max plan, whereas for MiniMax I w</summary>
-    <author><name>Dragos Roua</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Asking AI to &quot;Write Code&quot;. Teach It How to Work.</title>
-    <link href="https://dev.to/joedev090/stop-asking-ai-to-write-code-teach-it-how-to-work-1m47" rel="alternate"/>
-    <id>https://dev.to/joedev090/stop-asking-ai-to-write-code-teach-it-how-to-work-1m47</id>
-    <updated>2026-07-02T22:54:54Z</updated>
-    <summary type="text">Most developers use AI like autocomplete. The best developers use it like a software engineer. Over the past year, AI coding assistants have become part of our daily workflow. Whether you're using ChatGPT, Claude Code, Codex, Cursor, or GitHub Copilot, they can generate code in seconds. But here's the problem: Most of us are still writing prompts like: &quot;Build me a login page.&quot; or &quot;Fix this bug.&quot; B</summary>
-    <author><name>joedev090</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Phantom Squatting: When AI Hallucinated Domains Become Attacker Infrastructure</title>
-    <link href="https://dev.to/coridev/phantom-squatting-when-ai-hallucinated-domains-become-attacker-infrastructure-1i67" rel="alternate"/>
-    <id>https://dev.to/coridev/phantom-squatting-when-ai-hallucinated-domains-become-attacker-infrastructure-1i67</id>
-    <updated>2026-07-02T22:41:46Z</updated>
-    <summary type="text">The Attack Is Simpler Than You Think Researchers at Palo Alto Networks Unit 42 documented a technique they're calling phantom squatting: attackers register domain names that LLMs consistently hallucinate, then sit back and wait for the traffic. No zero-days. No exotic exploit chains. Just a spreadsheet of domains that AI tools confidently recommend — domains that never existed legitimately — and a</summary>
-    <author><name>Cor E</name></author>
-  </entry>
-  <entry>
-    <title>Symfony Messenger Transports: Building a Transactional Outbox on Top</title>
-    <link href="https://dev.to/gabrielanhaia/symfony-messenger-transports-building-a-transactional-outbox-on-top-3op3" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/symfony-messenger-transports-building-a-transactional-outbox-on-top-3op3</id>
-    <updated>2026-07-02T22:22:00Z</updated>
-    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You save an order. The row commits. Then you dispatch Orde</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Symfony Scheduler Component: Cron in Your App, Not Your Crontab</title>
-    <link href="https://dev.to/gabrielanhaia/the-symfony-scheduler-component-cron-in-your-app-not-your-crontab-8p0" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/the-symfony-scheduler-component-cron-in-your-app-not-your-crontab-8p0</id>
-    <updated>2026-07-02T22:13:53Z</updated>
-    <summary type="text">Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You SSH into the box to check why the nightly report didn'</summary>
-    <author><name>Gabriel Anhaia</name></author>
     <category term="llm"/>
   </entry>
 </feed>
