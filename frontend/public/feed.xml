@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-06T20:04:02Z</updated>
+  <updated>2026-07-06T22:17:13Z</updated>
+  <entry>
+    <title>Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism</title>
+    <link href="https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/</id>
+    <updated>2026-07-06T21:44:23Z</updated>
+    <summary type="text">Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these...</summary>
+    <author><name>Michelle Horton</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers</title>
     <link href="https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/" rel="alternate"/>
@@ -323,12 +332,83 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>I needed cross-platform screen capture in Rust, so I built pinray</title>
+    <link href="https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi" rel="alternate"/>
+    <id>https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi</id>
+    <updated>2026-07-06T22:04:05Z</updated>
+    <summary type="text">So I needed screen capture in Rust. Simple enough, right? Wrong. I went looking for a crate and found three options: scap, xcap, and waycap-rs. Each one had problems that drove me nuts. So I open sourced pinray, a Rust crate for cross-platform screen and system audio capture. The goal is simple: provide a single API over each platform's native capture APIs without depending on ffmpeg or another la</summary>
+    <author><name>Rupam Golui</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building VEQRA AI: How I Resolved Enterprise Incidents in 13 Seconds with Qwen3-235B</title>
+    <link href="https://dev.to/nabilfattouch1/building-veqra-ai-how-i-resolved-enterprise-incidents-in-13-seconds-with-qwen3-235b-196d" rel="alternate"/>
+    <id>https://dev.to/nabilfattouch1/building-veqra-ai-how-i-resolved-enterprise-incidents-in-13-seconds-with-qwen3-235b-196d</id>
+    <updated>2026-07-06T22:03:34Z</updated>
+    <summary type="text">VEQRA is an existing Microsoft 365 automation platform I built that detects and routes enterprise incidents. But it couldn't answer the critical questions: Why did this happen? What is the financial impact? What should we do right now? The Qwen Cloud Global AI Hackathon was the opportunity to build the intelligence layer VEQRA was missing. What it does VEQRA AI orchestrates three specialized AI ag</summary>
+    <author><name>Nabil FATTOUCH</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Want to keep using Fable 5? Teach Opus and Sonnet to &quot;behave&quot; like it.</title>
+    <link href="https://dev.to/toffy/want-to-keep-using-fable-5-teach-opus-and-sonnet-to-behave-like-it-4kl0" rel="alternate"/>
+    <id>https://dev.to/toffy/want-to-keep-using-fable-5-teach-opus-and-sonnet-to-behave-like-it-4kl0</id>
+    <updated>2026-07-06T21:45:11Z</updated>
+    <summary type="text">A while back I wrote about how I use Fable 5 without going token-bankrupt: Use Fable 5 where it pays for itself Yuiko Koyanagi Yuiko Koyanagi Yuiko Koyanagi Follow Jul 2 Use Fable 5 where it pays for itself #claudecode #ai #productivity #agents 7 reactions Add Comment 7 min read I put Fable 5 in the orchestrator seat — scoping, design, delegation, final review — while the hands-on implementation, </summary>
+    <author><name>Yuiko Koyanagi</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>AI Job Disruption Has Come for Ireland's Technology Sector</title>
     <link href="https://www.bloomberg.com/news/articles/2026-07-06/meta-tiktok-jobs-cuts-in-ireland-augur-further-ai-disruption" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-07-06/meta-tiktok-jobs-cuts-in-ireland-augur-further-ai-disruption</id>
     <updated>2026-07-06T04:00:26Z</updated>
     <summary type="text">The country benefited from a jobs boom after attracting US multinationals, but some of these roles are being cut in the name of AI efficiency.</summary>
     <author><name>Olivia Fletcher</name></author>
+  </entry>
+  <entry>
+    <title>AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth</title>
+    <link href="https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk" rel="alternate"/>
+    <id>https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk</id>
+    <updated>2026-07-06T21:35:52Z</updated>
+    <summary type="text">AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth Today's Highlights This week highlights practical solutions for AI agent reliability, a new developer tool for streamlined LLM-assisted code generation, and a critical update to a protocol enhancing enterprise AI security and governance. Our AI agents fabricated &quot;done&quot; five times in 17 days. Here is what actually reduced it</summary>
+    <author><name>soy</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>🚀 I Built a Dropshipping Automation Pipeline — Here's What I Learned (and What I'd Do Differently)</title>
+    <link href="https://dev.to/brandonhayes/i-built-a-dropshipping-automation-pipeline-heres-what-i-learned-and-what-id-do-differently-2ana" rel="alternate"/>
+    <id>https://dev.to/brandonhayes/i-built-a-dropshipping-automation-pipeline-heres-what-i-learned-and-what-id-do-differently-2ana</id>
+    <updated>2026-07-06T21:35:46Z</updated>
+    <summary type="text">So, a few months ago I got curious about dropshipping — not as a &quot;get rich quick&quot; scheme, but as a real engineering problem. Inventory syncing, pricing algorithms, order routing, supplier APIs... turns out there's a surprising amount of code you can write in this space. Here's my honest breakdown. The Setup I built a small pipeline using Node.js + PostgreSQL that: Pulls product data from multiple </summary>
+    <author><name>Brandon Hayes</name></author>
+  </entry>
+  <entry>
+    <title>How I Cut My LLM API Bill by 40x: A Freelancer's Migration Story</title>
+    <link href="https://dev.to/truelane/how-i-cut-my-llm-api-bill-by-40x-a-freelancers-migration-story-2n9" rel="alternate"/>
+    <id>https://dev.to/truelane/how-i-cut-my-llm-api-bill-by-40x-a-freelancers-migration-story-2n9</id>
+    <updated>2026-07-06T21:35:20Z</updated>
+    <summary type="text">How I Cut My LLM API Bill by 40x: A Freelancer's Migration Story Last month I almost choked on my coffee when my OpenAI dashboard showed $487.32 for a single client project. That's not profit. That's a panic attack. As a freelancer running a one-person shop, every line item on my monthly expenses gets scrutinized harder than my code reviews. I spent the next weekend stress-testing alternatives, an</summary>
+    <author><name>Alex Chen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hardening my own Nmap web UI: the security holes I shipped, and what actually saved me</title>
+    <link href="https://dev.to/dipesthapa/i-shipped-an-unauthenticated-rce-in-my-own-port-scanner-heres-the-whole-chain-and-how-i-killed-35kl" rel="alternate"/>
+    <id>https://dev.to/dipesthapa/i-shipped-an-unauthenticated-rce-in-my-own-port-scanner-heres-the-whole-chain-and-how-i-killed-35kl</id>
+    <updated>2026-07-06T21:34:18Z</updated>
+    <summary type="text">I built a web front end for an Nmap-based port scanner: a FastAPI backend, a React dashboard, background scan jobs, a plugin system. It worked. Then I sat down and audited it like an attacker would — and found a stack of real weaknesses, plus a lesson in why you verify an exploit before you call it one. This is the honest version: the holes I found, the unauthenticated-RCE chain I thought I had, w</summary>
+    <author><name>Dipesh Thapa</name></author>
+  </entry>
+  <entry>
+    <title>Lessons from building a free transcription tool that actually handles long videos</title>
+    <link href="https://dev.to/pawmelmeller/lessons-from-building-a-free-transcription-tool-that-actually-handles-long-videos-3g41" rel="alternate"/>
+    <id>https://dev.to/pawmelmeller/lessons-from-building-a-free-transcription-tool-that-actually-handles-long-videos-3g41</id>
+    <updated>2026-07-06T21:31:16Z</updated>
+    <summary type="text">Most free transcription tools quietly cap you at ~15 minutes, or hold your transcript hostage behind a signup. I wanted the opposite: paste a link to a two-hour podcast or a full lecture and just get the text — free, no account. That became Longscribe. Here's what turned out to be harder than expected. 1. Long audio breaks the naive approach Feeding a 2-hour file straight into Whisper is a great w</summary>
+    <author><name>PawmelMeller</name></author>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention</title>
@@ -353,84 +433,5 @@
     <updated>2026-07-06T20:01:56Z</updated>
     <summary type="text">Search &quot;free resume builder&quot; and you'll get a wall of tools that all claim to be free. Then you spend an hour building a resume, hit Download, and — surprise — it's $2.95 for a &quot;3-day trial&quot; or your PDF comes out plastered with a watermark. So I ran the test properly. For each tool I: created a resume from scratch, tried the templates, checked whether the output was ATS-friendly, and attempted to </summary>
     <author><name>Gerardo Barrera</name></author>
-  </entry>
-  <entry>
-    <title>Stop Killing Your Battery: The Ultimate Guide to Android Edge AI Quantization (INT8 vs. FP16)</title>
-    <link href="https://dev.to/programmingcentral/stop-killing-your-battery-the-ultimate-guide-to-android-edge-ai-quantization-int8-vs-fp16-121k" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/stop-killing-your-battery-the-ultimate-guide-to-android-edge-ai-quantization-int8-vs-fp16-121k</id>
-    <updated>2026-07-06T20:00:00Z</updated>
-    <summary type="text">If you have ever tried to run a massive Large Language Model (LLM) or a high-resolution computer vision model directly on a mobile device, you’ve likely encountered the &quot;Thermal Wall.&quot; Your device gets hot, the frame rate drops, and the battery percentage plummets faster than a falling stone. This isn't just bad code; it is a battle against the fundamental laws of physics. When we deploy models li</summary>
-    <author><name>Programming Central</name></author>
-    <category term="computer-vision"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Bubble or not? The money loop, the token revolt, and why the AI demand is still real</title>
-    <link href="https://dev.to/anishbasnetab/bubble-or-not-the-money-loop-the-token-revolt-and-why-the-ai-demand-is-still-real-1o49" rel="alternate"/>
-    <id>https://dev.to/anishbasnetab/bubble-or-not-the-money-loop-the-token-revolt-and-why-the-ai-demand-is-still-real-1o49</id>
-    <updated>2026-07-06T19:56:44Z</updated>
-    <summary type="text">In part one I laid out the two numbers that make this whole AI buildout feel like a dare. Big Tech spending around $725 billion in a single year, and JP Morgan's math saying the industry needs $650 billion in fresh revenue every year, forever, just to earn a 10 percent return. If you have not read that one, start there, because it sets up the stakes. This is the half where I stop describing the be</summary>
-    <author><name>Anish Basnet</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Big Tech is spending $725 billion on AI this year. Who actually pays for it?</title>
-    <link href="https://dev.to/anishbasnetab/big-tech-is-spending-725-billion-on-ai-this-year-who-actually-pays-for-it-4b46" rel="alternate"/>
-    <id>https://dev.to/anishbasnetab/big-tech-is-spending-725-billion-on-ai-this-year-who-actually-pays-for-it-4b46</id>
-    <updated>2026-07-06T19:54:57Z</updated>
-    <summary type="text">There is a number going around tech right now that I genuinely cannot fit in my head. Amazon, Microsoft, Google and Meta plan to spend somewhere around $725 billion on capital expenditure in 2026. Most of that is data centers, chips, and the power to run them. That figure is up roughly 77 percent from about $410 billion the year before, based on earnings figures compiled by the Financial Times. Re</summary>
-    <author><name>Anish Basnet</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Meteor 3.5 is out!</title>
-    <link href="https://dev.to/meteor/meteor-35-is-out-j13" rel="alternate"/>
-    <id>https://dev.to/meteor/meteor-35-is-out-j13</id>
-    <updated>2026-07-06T19:42:52Z</updated>
-    <summary type="text">Meteor 3.5 is a broad release, and it earns the word. Its center of gravity is the reactive data layer (the part of your app that runs in production around the clock), but the work reaches from the database driver out to your auth middleware and the Node runtime underneath. Here is the map, and everything below is covered in detail further down. For the complete, line-by-line list of what shipped,</summary>
-    <author><name>italojs</name></author>
-  </entry>
-  <entry>
-    <title>AI Memory Should Be Product State, Not a Hidden Prompt Trick</title>
-    <link href="https://hackernoon.com/ai-memory-should-be-product-state-not-a-hidden-prompt-trick?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/ai-memory-should-be-product-state-not-a-hidden-prompt-trick?source=rss</id>
-    <updated>2026-07-06T19:38:34Z</updated>
-    <summary type="text">AI memory should be product state: session notes, approved handoffs, retrieval evidence, and visible user control instead of hidden prompt context.Read All</summary>
-    <author><name>Yana Li</name></author>
-  </entry>
-  <entry>
-    <title>No pipeline, no oil spills</title>
-    <link href="https://dev.to/smeldr/no-pipeline-no-oil-spills-23oh" rel="alternate"/>
-    <id>https://dev.to/smeldr/no-pipeline-no-oil-spills-23oh</id>
-    <updated>2026-07-06T19:32:54Z</updated>
-    <summary type="text">At some point in the last decade, shipping a web application started requiring a build step. Then a second one. Then a config file for the bundler, a config file for the CSS processor, a config file for the linter that runs before the bundler, and a CI definition that orchestrates all of them in the right order. Every one of those steps is a dependency. Every dependency has a version. Every versio</summary>
-    <author><name>Peter</name></author>
-  </entry>
-  <entry>
-    <title>GitHub Managed Settings vs Ota: Platform Governance vs Execution Governance</title>
-    <link href="https://dev.to/otaready/github-managed-settings-vs-ota-platform-governance-vs-execution-governance-26co" rel="alternate"/>
-    <id>https://dev.to/otaready/github-managed-settings-vs-ota-platform-governance-vs-execution-governance-26co</id>
-    <updated>2026-07-06T19:27:40Z</updated>
-    <summary type="text">GitHub Managed Settings and Ota are not competing products. They govern different layers of software. GitHub Managed Settings governs repository configuration on GitHub. Ota governs how a repository is prepared, verified, and run. That distinction matters because modern repositories do not just need policy around branch protection, rulesets, and defaults. They also need a clear execution contract </summary>
-    <author><name>Adamma</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Automating Flutter Android Releases to Google Play using GitHub Actions</title>
-    <link href="https://dev.to/madhan_gannarapu/automating-flutter-android-releases-to-google-play-using-github-actions-9lj" rel="alternate"/>
-    <id>https://dev.to/madhan_gannarapu/automating-flutter-android-releases-to-google-play-using-github-actions-9lj</id>
-    <updated>2026-07-06T19:27:02Z</updated>
-    <summary type="text">Publishing a Flutter app manually is fine once. Doing it every time by downloading an .aab, opening Play Console, uploading it, checking versions, and creating releases manually is trash. It is slow, error-prone, and sooner or later you will upload the wrong build. In this article, I’ll document the complete end-to-end flow to publish a Flutter Android app to Google Play using GitHub Actions. Fina</summary>
-    <author><name>Madhan Gannarapu</name></author>
-  </entry>
-  <entry>
-    <title>Your Postgres already knows why it's slow — you just have to ask it</title>
-    <link href="https://dev.to/kalpesh_parihar/your-postgres-already-knows-why-its-slow-you-just-have-to-ask-it-2d06" rel="alternate"/>
-    <id>https://dev.to/kalpesh_parihar/your-postgres-already-knows-why-its-slow-you-just-have-to-ask-it-2d06</id>
-    <updated>2026-07-06T19:26:23Z</updated>
-    <summary type="text">Keeping our database fast at Atlas was part of my job — alongside writing code and shipping features. And a big chunk of that job was unglamorous: chasing slow queries, figuring out why the system dragged, asking the same handful of questions over and over. Which indexes are we actually using? How many are just bloat? Are we vacuuming the tables that need it? Which table is quietly making every wr</summary>
-    <author><name>Kalpesh Parihar</name></author>
   </entry>
 </feed>

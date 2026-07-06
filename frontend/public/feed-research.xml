@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-06T20:04:02Z</updated>
+  <updated>2026-07-06T22:17:13Z</updated>
   <entry>
     <title>Import AI 464: Fables writes GPU kernels; AI automation; and analog computation</title>
     <link href="https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/" rel="alternate"/>
@@ -61,14 +61,5 @@
     <updated>2026-07-05T08:49:12Z</updated>
     <summary type="text">Has anyone gotten a response from the eccv travel support program listed on their website? https://eccv.ecva.net/Conferences/2026/DEI Edit: also have anyone applied for this program as an accepted author? I have an independent research paper accepted and am currently looking for funds for paying for the registration fees submitted by /u/tedd235 [link] [comments]</summary>
     <author><name>/u/tedd235</name></author>
-  </entry>
-  <entry>
-    <title>Better Models: Worse Tools</title>
-    <link href="https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</id>
-    <updated>2026-07-04T22:53:52Z</updated>
-    <summary type="text">Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus reject</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

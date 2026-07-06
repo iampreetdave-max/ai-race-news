@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-06T20:04:02Z</updated>
+  <updated>2026-07-06T22:17:13Z</updated>
   <entry>
     <title>Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost</title>
     <link href="https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/" rel="alternate"/>
@@ -24,6 +24,24 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I needed cross-platform screen capture in Rust, so I built pinray</title>
+    <link href="https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi" rel="alternate"/>
+    <id>https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi</id>
+    <updated>2026-07-06T22:04:05Z</updated>
+    <summary type="text">So I needed screen capture in Rust. Simple enough, right? Wrong. I went looking for a crate and found three options: scap, xcap, and waycap-rs. Each one had problems that drove me nuts. So I open sourced pinray, a Rust crate for cross-platform screen and system audio capture. The goal is simple: provide a single API over each platform's native capture APIs without depending on ffmpeg or another la</summary>
+    <author><name>Rupam Golui</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth</title>
+    <link href="https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk" rel="alternate"/>
+    <id>https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk</id>
+    <updated>2026-07-06T21:35:52Z</updated>
+    <summary type="text">AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth Today's Highlights This week highlights practical solutions for AI agent reliability, a new developer tool for streamlined LLM-assisted code generation, and a critical update to a protocol enhancing enterprise AI security and governance. Our AI agents fabricated &quot;done&quot; five times in 17 days. Here is what actually reduced it</summary>
+    <author><name>soy</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>What Is an MCP Server? A Plain-English Guide for Builders (2026)</title>
@@ -438,26 +456,5 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <summary type="text">TL;DR: I spent weeks tuning DeepSeek V4 to feel native inside Claude Code. The result: a one-command setup with 9 agents, 7 rules, security hooks, OCR, and auto-backup. Clone → ./init.sh → you're shipping. I wanted DeepSeek's 1M context window inside Claude Code's interface. What I got was two weeks of fighting API configs, debugging token limits, and discovering that most &quot;just swap the model&quot; ad</summary>
     <author><name>YuhaoLin2005</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Spring boot skills agent</title>
-    <link href="https://dev.to/rrezart_prebreza/spring-boot-skills-agent-4bb2" rel="alternate"/>
-    <id>https://dev.to/rrezart_prebreza/spring-boot-skills-agent-4bb2</id>
-    <updated>2026-07-04T13:08:45Z</updated>
-    <summary type="text">I built an open-source collection of Claude/Codex skills for Spring Boot projects. It includes focused skills for REST APIs, Spring Data JPA, Flyway, Spring Security, Spring Batch, Spring AI, MCP servers, testing, architecture patterns, and more. There are now two versions: skills/spring-boot-3/ for Spring Boot 3.x skills/spring-boot-4/ for Spring Boot 4.x, Spring Framework 7, Spring Security 7, S</summary>
-    <author><name>Rrezart Prebreza</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>My repository isn't written for humans — I run my whole life with Claude Code</title>
-    <link href="https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6" rel="alternate"/>
-    <id>https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6</id>
-    <updated>2026-07-04T13:07:52Z</updated>
-    <summary type="text">I run my life as a single Git repository, operated by several AI agents through Claude Code. Journaling, self-analysis, investing, hobbies, parenting: each of them started as a small app I built to solve a problem of my own. Parental leave gave me a long stretch of free time, so instead of running them separately, I moved them into one place. And the primary reader of this repository is the AI, no</summary>
-    <author><name>Tako</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="rag"/>
   </entry>
 </feed>
