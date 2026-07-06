@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-06T10:45:52Z</updated>
+  <updated>2026-07-06T14:29:37Z</updated>
   <entry>
     <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
     <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
@@ -12,6 +12,23 @@
     <updated>2026-07-05T15:58:56Z</updated>
     <summary type="text">A Google Deepmind developer ported the 2003 real-time strategy game &quot;Command &amp; Conquer: Generals Zero Hour&quot; to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot; appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Understanding Kubernetes RBAC: Roles, RoleBindings, and and Client Certificates</title>
+    <link href="https://dev.to/oyebobs/understanding-kubernetes-rbac-roles-rolebindings-and-and-client-certificates-d97" rel="alternate"/>
+    <id>https://dev.to/oyebobs/understanding-kubernetes-rbac-roles-rolebindings-and-and-client-certificates-d97</id>
+    <updated>2026-07-06T14:14:46Z</updated>
+    <summary type="text">One thing I discovered today is that before Kubernetes can decide what you're allowed to do, it first needs to know who you are. That means there are two separate steps: Authentication – Proving your identity using a client certificate. Authorization – Deciding what you're allowed to do using RBAC. In this lab, I created my own Kubernetes user named adeoye, authenticated the user with a certificat</summary>
+    <author><name>Adeoye Malumi</name></author>
+  </entry>
+  <entry>
+    <title>The AI Is Fast. The Decisions Are Mine.</title>
+    <link href="https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5" rel="alternate"/>
+    <id>https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5</id>
+    <updated>2026-07-06T14:14:05Z</updated>
+    <summary type="text">A lot of writing about AI-assisted development focuses on speed. How fast you can generate code. How many lines per hour. How quickly you can go from idea to pull request. Speed is real. But it is not the interesting question. The interesting question is: who is responsible for what? Get that wrong, and speed becomes a liability. You move faster toward the wrong place, with less awareness of how y</summary>
+    <author><name>flipslidersand</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -442,24 +459,6 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <id>https://dev.to/gabrielanhaia/share-memory-by-communicating-when-a-channel-beats-a-mutex-in-go-315f</id>
     <updated>2026-07-03T22:11:51Z</updated>
     <summary type="text">Book: The Complete Guide to Go Programming Also by me: Hexagonal Architecture in Go — the companion book in the Thinking in Go series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You've read the proverb. It's in the Go documentation, on stickers, in half the conference talks: &quot;Do not communicate by sharing mem</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Catching Goroutine Leaks in Go Tests With goleak</title>
-    <link href="https://dev.to/gabrielanhaia/catching-goroutine-leaks-in-go-tests-with-goleak-1jhe" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/catching-goroutine-leaks-in-go-tests-with-goleak-1jhe</id>
-    <updated>2026-07-03T22:09:42Z</updated>
-    <summary type="text">Book: The Complete Guide to Go Programming Also by me: Hexagonal Architecture in Go — the companion book in the Thinking in Go series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You've seen the graph. A Go service that idles at 40 goroutines climbs to 4,000 over three days, then the pod gets OOM-killed and re</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>singleflight in Go: Collapsing Duplicate Work Under Load</title>
-    <link href="https://dev.to/gabrielanhaia/singleflight-in-go-collapsing-duplicate-work-under-load-5f9h" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/singleflight-in-go-collapsing-duplicate-work-under-load-5f9h</id>
-    <updated>2026-07-03T22:07:34Z</updated>
-    <summary type="text">Book: The Complete Guide to Go Programming Also by me: Hexagonal Architecture in Go — the companion book in the Thinking in Go series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub A hot key expires in Redis. In the same millisecond, 5,000 in-flight requests miss the cache and all decide to rebuild it. Every one</summary>
     <author><name>Gabriel Anhaia</name></author>
     <category term="llm"/>
   </entry>
