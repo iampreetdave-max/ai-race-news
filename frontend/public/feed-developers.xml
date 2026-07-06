@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-05T22:05:34Z</updated>
+  <updated>2026-07-06T00:11:42Z</updated>
   <entry>
     <title>Claude Code and Fable 5 ported the 2003 PC game Command &amp; Conquer to native iOS in &quot;a few hours&quot;</title>
     <link href="https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/" rel="alternate"/>
@@ -24,6 +24,33 @@
     <category term="rag"/>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your AI API key is the first integration test, not the last setup step</title>
+    <link href="https://dev.to/edward_li_71f26791eac62b8/your-ai-api-key-is-the-first-integration-test-not-the-last-setup-step-gci" rel="alternate"/>
+    <id>https://dev.to/edward_li_71f26791eac62b8/your-ai-api-key-is-the-first-integration-test-not-the-last-setup-step-gci</id>
+    <updated>2026-07-06T00:09:43Z</updated>
+    <summary type="text">Most AI API onboarding advice starts with model choice: pick a cheap model, pick a fast model, pick the newest model. That is useful, but it skips the thing that actually proves your integration exists: can a brand-new project key make one boring request and leave an auditable log? A practical first test looks like this: Create a project-scoped API key. Set only the base URL, key, and one model id</summary>
+    <author><name>Edward Li</name></author>
+  </entry>
+  <entry>
+    <title>El scale-to-zero no sabe contar hasta uno</title>
+    <link href="https://dev.to/authagonal/el-scale-to-zero-no-sabe-contar-hasta-uno-3906" rel="alternate"/>
+    <id>https://dev.to/authagonal/el-scale-to-zero-no-sabe-contar-hasta-uno-3906</id>
+    <updated>2026-07-06T00:08:27Z</updated>
+    <summary type="text">El consejo siempre tuvo la misma forma. Tu tráfico de autenticación llega en picos. Tu clúster de Kubernetes está mayormente en silencio. Azure Container Apps escala a cero y te cobra por lo que usas. Estás pagando las 24 horas del día por un clúster que pasa la mayor parte de su vida esperando. Lo tomamos en serio hasta el punto de calcular correctamente el costo de la migración. Luego la descart</summary>
+    <author><name>authagonal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>copilot browser tools make the frontend reviewable</title>
+    <link href="https://dev.to/pvgomes/copilot-browser-tools-make-the-frontend-reviewable-293p" rel="alternate"/>
+    <id>https://dev.to/pvgomes/copilot-browser-tools-make-the-frontend-reviewable-293p</id>
+    <updated>2026-07-06T00:02:40Z</updated>
+    <summary type="text">GitHub made browser tools for Copilot in VS Code generally available last week, and the obvious reaction is: nice, now the agent can click around a web app. That is useful. It is also the least interesting part. The more important thing is that agents can now interact with the frontend in the same messy place where users do: a real browser, with real navigation, real clicks, real console errors, r</summary>
+    <author><name>Paulo Victor Leite Lima Gomes</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>Docker vs Kubernetes: Do You Actually Need an Orchestrator Yet?</title>
@@ -435,35 +462,5 @@ https://github.com/blacksmoke26/python-for-typescript-programmers-course</title>
     <summary type="text">GitHub Copilot allows Bring Your Own Key (BYOK) for its Chat window, but it explicitly blocks those exact same custom models from being used for inline code auto-completion. The official justification from the VS Code team is a supposed &quot;lack of capable FIM (Fill-in-the-Middle) models.&quot; However, this excuse doesn't hold water: It shifts blame incorrectly: If a user configures an incapable model fo</summary>
     <author><name>/u/studentofknowledg3</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPT-5.5 vs Claude Fable 5 vs Local Qwen: 3 AI Agents, 1 Task</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1unxcp5/gpt55_vs_claude_fable_5_vs_local_qwen_3_ai_agents/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1unxcp5/gpt55_vs_claude_fable_5_vs_local_qwen_3_ai_agents/</id>
-    <updated>2026-07-05T09:01:14Z</updated>
-    <summary type="text">I ran the same market-entry brief through three different AI models. The result was revealing. I asked three models to independently create a client-ready market-entry brief for launching a privacy-first AI personal assistant for small businesses in the UK. The models were: Claude Fable 5 via Claude Subscription GPT-5.5 via ChatGPT/Codex qwen3.6:27b running locally via Ollama Each got the exact sa</summary>
-    <author><name>/u/Acceptable-Object390</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building an Enterprise-Grade Real-Time Analytics Pipeline with FastAPI and TimescaleDB</title>
-    <link href="https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al" rel="alternate"/>
-    <id>https://dev.to/aman179102/building-an-enterprise-grade-real-time-analytics-pipeline-with-fastapi-and-timescaledb-57al</id>
-    <updated>2026-07-03T18:50:51Z</updated>
-    <summary type="text">I just released v1.0.0 of an open-source, production-ready real-time analytics pipeline built with Python. Here's what it does and why you might care. The Problem Every SaaS product needs analytics — event tracking, real-time dashboards, time-series aggregations. Most teams either pay for Segment/RudderStack or build their own from scratch. This project is the &quot;build your own&quot; done right. Architec</summary>
-    <author><name>Aman Kumar</name></author>
-    <category term="open-source"/>
-    <category term="funding"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Open Knowledge Format (OKF): The Markdown Standard Your AI Agents Have Been Waiting For 📚</title>
-    <link href="https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb" rel="alternate"/>
-    <id>https://dev.to/suhas_mallesh/open-knowledge-format-okf-the-markdown-standard-your-ai-agents-have-been-waiting-for-3mfb</id>
-    <updated>2026-07-03T18:50:23Z</updated>
-    <summary type="text">AI agents are only as smart as the context you give them. OKF is a new open specification that packages your organizational knowledge as plain markdown files so any agent can read it without custom integrations or proprietary SDKs. Every team building AI agents hits the same wall. The model is capable. The agent framework is set up. But the agent doesn't know anything about your organization. It d</summary>
-    <author><name>Suhas Mallesh</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
