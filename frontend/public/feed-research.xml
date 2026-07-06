@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-06T00:11:42Z</updated>
+  <updated>2026-07-06T05:15:53Z</updated>
+  <entry>
+    <title>Autoregressive retriever training raises BEIR scores</title>
+    <link href="https://dev.to/olaughter/autoregressive-retriever-training-raises-beir-scores-38kh" rel="alternate"/>
+    <id>https://dev.to/olaughter/autoregressive-retriever-training-raises-beir-scores-38kh</id>
+    <updated>2026-07-06T05:00:00Z</updated>
+    <summary type="text">Contrastive training still dominates dense retrieval despite its data hunger. DREAM takes a different approach by deriving supervision directly from the next‑token prediction objective of a frozen LLM rather than from pre‑constructed positive and negative pairs[1]. Most dense retrievers such as DPR, ANCE, or ColBERT rely on contrastive loss built from mined query‑document pairs, often requiring bi</summary>
+    <author><name>Papers Mache</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>GPT and Claude failed Bridgewater's finance tests because the right answers were never public</title>
     <link href="https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/" rel="alternate"/>
@@ -58,17 +67,6 @@
     <updated>2026-07-02T17:58:52Z</updated>
     <summary type="text">Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \textbf{DramaSR-532K}, a large-scale benchmark compri</summary>
     <author><name>Qi Tian</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers</title>
-    <link href="https://arxiv.org/abs/2607.02461v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.02461v1</id>
-    <updated>2026-07-02T17:27:34Z</updated>
-    <summary type="text">Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, forcing prior methods to re-fit calibration data for every new checkpoint or modality. We present Orb</summary>
-    <author><name>Saurabh Shukla</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>
