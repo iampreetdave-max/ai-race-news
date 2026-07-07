@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-07T08:27:51Z</updated>
+  <updated>2026-07-07T11:55:34Z</updated>
   <entry>
     <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
     <link href="https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/" rel="alternate"/>
@@ -32,6 +32,15 @@
     <summary type="text">Tencent has released Hy3, an open-source language model with 295 billion parameters built on a mixture-of-experts architecture. Only 21 billion parameters are active at any given time. Tencent says Hy3 matches models two to five times its size while cutting its hallucination rate in half to 5.4 percent. The article Tencent releases Hy3 open-source model that allegedly matches models up to five tim</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>enable AI's Full Potential: Structure Your Codebase for Agent Success</title>
+    <link href="https://dev.to/davekurian/enable-ais-full-potential-structure-your-codebase-for-agent-success-38g6" rel="alternate"/>
+    <id>https://dev.to/davekurian/enable-ais-full-potential-structure-your-codebase-for-agent-success-38g6</id>
+    <updated>2026-07-07T11:05:52Z</updated>
+    <summary type="text">Cursor and Claude Code can take a 200-component design system and ship a working admin page without you writing a line. That's not marketing — I've watched it happen on an OTF SaaS kit. The catch is what the agent can do depends almost entirely on the shape of the repo you hand it. A codebase designed to be read by an agent looks nothing like the 4000-line single file most AI app builders produce.</summary>
+    <author><name>Dave Kurian</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -447,13 +456,5 @@
     <updated>2026-07-04T20:22:13Z</updated>
     <summary type="text">I just spent two weeks building 4 FastAPI backends back to back. REST API, web scraper + dashboard, React admin panel, AI workbench with CrewAI. 134 Python files. 38 tests. And 15 CI failures before a single green run. Here's the messy part nobody talks about. Docker Compose is a time sink Every project. Same 5 containers. api, postgres, redis, celery, nginx. By project #3 I was copy-pasting docke</summary>
     <author><name>Ck-epsilon</name></author>
-  </entry>
-  <entry>
-    <title>Stop Guessing, Start Profiling: Mastering Edge AI Performance and Power on Android</title>
-    <link href="https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/stop-guessing-start-profiling-mastering-edge-ai-performance-and-power-on-android-2p4i</id>
-    <updated>2026-07-04T20:00:00Z</updated>
-    <summary type="text">You’ve spent weeks optimizing your machine learning model. You’ve pruned the weights, quantized the tensors, and fine-tuned the hyperparameters. On your high-end development workstation, the inference speed is blistering. But then, you deploy it to a real-world Android device. Three minutes into usage, the app starts to lag. The frame rate drops. The device feels uncomfortably warm in the user's h</summary>
-    <author><name>Programming Central</name></author>
   </entry>
 </feed>
