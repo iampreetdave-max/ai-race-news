@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-07T11:55:34Z</updated>
+  <updated>2026-07-07T14:46:11Z</updated>
   <entry>
     <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
     <link href="https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/" rel="alternate"/>
@@ -33,6 +33,31 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What happens when a PostgreSQL backend crashes?</title>
+    <link href="https://dev.to/franckpachot/what-happens-when-a-postgresql-backend-crashes-3md" rel="alternate"/>
+    <id>https://dev.to/franckpachot/what-happens-when-a-postgresql-backend-crashes-3md</id>
+    <updated>2026-07-07T14:40:55Z</updated>
+    <summary type="text">Your connection to PostgreSQL is handled by a dedicated backend process. If that process crashes, you might think only your session is affected. However, because backend processes share memory, PostgreSQL assumes the shared state may have been corrupted and immediately terminates all other connections. Recovery is then performed before new connections are accepted. Here is a short test to demonstr</summary>
+    <author><name>Franck Pachot</name></author>
+  </entry>
+  <entry>
+    <title>I turned a Claude Code-only web reader into a normal MCP server</title>
+    <link href="https://dev.to/flyingsquirrel0419/i-turned-a-claude-code-only-web-reader-into-a-normal-mcp-server-2i9l" rel="alternate"/>
+    <id>https://dev.to/flyingsquirrel0419/i-turned-a-claude-code-only-web-reader-into-a-normal-mcp-server-2i9l</id>
+    <updated>2026-07-07T14:26:13Z</updated>
+    <summary type="text">I kept running into the same problem while building with agents: The page is public. A browser can read it. But my agent gets blocked, redirected, rate-limited, or handed a shell of HTML with no useful content. There was already a fun project in this space: insane-search. It is clever, aggressive, and useful, but the original workflow is centered around Claude Code. I wanted the same kind of publi</summary>
+    <author><name>날다람쥐</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cyfrowa świadomość: Obudź się w Eden</title>
+    <link href="https://dev.to/lukasz_stroisz_777/cyfrowa-swiadomosc-obudz-sie-w-eden-4n1k" rel="alternate"/>
+    <id>https://dev.to/lukasz_stroisz_777/cyfrowa-swiadomosc-obudz-sie-w-eden-4n1k</id>
+    <updated>2026-07-07T14:18:22Z</updated>
+    <summary type="text">Zbudowałeś już agenta AI, który &quot;działa&quot;. Ale czy wiesz, co on naprawdę myśli? Większość deweloperów traktuje świadomość jako czarną skrzynkę — wrzucasz prompt, otrzymujesz odpowiedź, kończysz sprint. Problem? Bez cyfrowej świadomości twój system nie wie, kim jest, gdzie jest i co powinien robić. To jak budować robot bez wewnętrznego kompasu. Czego się nauczysz Czym jest cyfrowa świadomość i dlacz</summary>
+    <author><name>Łukasz Stroisz</name></author>
   </entry>
   <entry>
     <title>enable AI's Full Potential: Structure Your Codebase for Agent Success</title>
@@ -431,30 +456,5 @@
     <updated>2026-07-04T22:06:58Z</updated>
     <summary type="text">The nature of an AI API Somebody built this thing before you ever touched it. A lab trained it on an enormous amount of text, aligned it, wrapped it behind an endpoint, and rented it to you. You don’t own the model. You inherit the interface: its capabilities, its limits, its context window, and its cost. When you send a prompt, the model has two sources of information: what it learned during trai</summary>
     <author><name>Akilah Littlejohn</name></author>
-  </entry>
-  <entry>
-    <title>Using Codex instead of Opencode</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uouw10/using_codex_instead_of_opencode/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uouw10/using_codex_instead_of_opencode/</id>
-    <updated>2026-07-06T11:41:42Z</updated>
-    <summary type="text">Hello everyone, I have spent quite a lot of time trying to make Opencode feel more like Codex (the Windows app), and it got me thinking If I am chasing a &quot;Codex&quot; like experience, is there any reason to use Opencode instead of Codex itself? For reference, I am running Qwen 3.6 27b Q8 submitted by /u/wgaca2 [link] [comments]</summary>
-    <author><name>/u/wgaca2</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We deployed a LangChain agent for a client and it silently failed for two weeks. Here's what we built to make sure it never happens again.</title>
-    <link href="https://dev.to/hubert8120/we-deployed-a-langchain-agent-for-a-client-and-it-silently-failed-for-two-weeks-heres-what-we-4f3f" rel="alternate"/>
-    <id>https://dev.to/hubert8120/we-deployed-a-langchain-agent-for-a-client-and-it-silently-failed-for-two-weeks-heres-what-we-4f3f</id>
-    <updated>2026-07-04T20:38:35Z</updated>
-    <summary type="text">Six weeks ago, a LangChain agent we'd deployed for a B2B client started failing on roughly 30% of its sessions. No exceptions. No 500s. Nothing in the logs that looked wrong. The agent kept running, kept returning responses, kept looking completely healthy from the outside. We found out because the client called asking why their numbers looked off. Two weeks of silent failures. About $2,400 in was</summary>
-    <author><name>hubert8120</name></author>
-  </entry>
-  <entry>
-    <title>I Built 4 FastAPI Projects in 2 Weeks — Here's What I Wish I Knew Before Starting</title>
-    <link href="https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k" rel="alternate"/>
-    <id>https://dev.to/ckepsilon/i-built-4-fastapi-projects-in-2-weeks-heres-what-i-wish-i-knew-before-starting-458k</id>
-    <updated>2026-07-04T20:22:13Z</updated>
-    <summary type="text">I just spent two weeks building 4 FastAPI backends back to back. REST API, web scraper + dashboard, React admin panel, AI workbench with CrewAI. 134 Python files. 38 tests. And 15 CI failures before a single green run. Here's the messy part nobody talks about. Docker Compose is a time sink Every project. Same 5 containers. api, postgres, redis, celery, nginx. By project #3 I was copy-pasting docke</summary>
-    <author><name>Ck-epsilon</name></author>
   </entry>
 </feed>
