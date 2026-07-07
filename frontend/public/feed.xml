@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-07T04:56:31Z</updated>
+  <updated>2026-07-07T08:27:51Z</updated>
+  <entry>
+    <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
+    <link href="https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/</id>
+    <updated>2026-07-07T05:59:07Z</updated>
+    <summary type="text">Tencent's Hy team released Hy3, a 295B Mixture-of-Experts (MoE) model that activates only 21B parameters per token. It ships under Apache 2.0 with a 256K context window, targeting reasoning, agentic, and long-context tasks. Hy3 reports 78.0 on SWE-Bench Verified and lower hallucination rates, and is free to try on OpenRouter through July 21, 2026. The post Tencent Releases Hy3: An Open 295B Mixtur</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API</title>
     <link href="https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/" rel="alternate"/>
@@ -31,6 +40,39 @@
     <summary type="text">In this tutorial, we build an autonomous AI co-scientist for EGFR C797S inhibitor discovery. We resolve the target through ChEMBL and UniProt, then mine IC50 records into a clean pIC50 dataset. We use RDKit to standardize molecules, compute Morgan fingerprints, and train a scaffold-split Random Forest QSAR model. We interpret potency drivers with SHAP, then recombine BRICS fragments to generate an</summary>
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>BAE-Backed Venture Capital Firm Expeditions Raises €197 Million Fund for European Defense Startups</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-07/bae-backed-venture-capital-fund-raises-197-million-for-defense-startups" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-07/bae-backed-venture-capital-fund-raises-197-million-for-defense-startups</id>
+    <updated>2026-07-07T07:30:00Z</updated>
+    <summary type="text">A defense-tech venture capital firm backed by BAE Systems and the NATO Innovation Fund has raised a €197 million ($225 million) fund to help develop sovereign military technologies in Europe.</summary>
+    <author><name>Zosia Wanat</name></author>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>SpaceX Wins Bullish Calls With Morgan Stanley’s Target at $300</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-07/spacex-shares-win-early-bullish-calls-from-wall-street-brokers" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-07/spacex-shares-win-early-bullish-calls-from-wall-street-brokers</id>
+    <updated>2026-07-07T06:28:23Z</updated>
+    <summary type="text">SpaceX is winning early backing from Wall Street as global brokerages start coverage of Elon Musk’s rocket and artificial intelligence company with a clear consensus: buy the stock.</summary>
+    <author><name>Abhishek Vishnoi</name></author>
+  </entry>
+  <entry>
+    <title>Asia Stocks Drop on Chip Selloff, Nasdaq Futures Down</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-07/asia-stocks-drop-on-chip-selloff-nasdaq-futures-down-video" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-07/asia-stocks-drop-on-chip-selloff-nasdaq-futures-down-video</id>
+    <updated>2026-07-07T05:48:12Z</updated>
+    <summary type="text">Asian equities fell as renewed selling in technology stocks, including Samsung Electronics Co. and SK Hynix Inc., deepened concerns that the AI-driven rally may have run ahead of itself. Futures for the tech-heavy Nasdaq 100 Index retreated 1.1%, suggesting Monday’s rebound on Wall Street was losing momentum. European shares were also set for losses. Bloomberg's Avril Hong and Mark Cranfield repor</summary>
+    <author><name>Bloomberg Technology</name></author>
+  </entry>
+  <entry>
+    <title>AI Won’t Bring Back Era of Rapid Growth, Says Nobel Prize Winner</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-07/ai-won-t-bring-back-era-of-rapid-growth-says-nobel-prize-winner" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-07/ai-won-t-bring-back-era-of-rapid-growth-says-nobel-prize-winner</id>
+    <updated>2026-07-07T05:15:00Z</updated>
+    <summary type="text">A Nobel Prize-winning economist has warned that artificial intelligence will not return Western economies to the era of rapid productivity growth, which may be gone forever.</summary>
+    <author><name>Tom Rees</name></author>
   </entry>
   <entry>
     <title>Why Samsung’s Record Profit Failed to Impress Investors</title>
@@ -266,12 +308,83 @@
     <author><name>Amanda Silberling</name></author>
   </entry>
   <entry>
+    <title>A Small Node.js Wrapper for LLM API Retries, Timeouts, and Logging</title>
+    <link href="https://dev.to/plasma_01/a-small-nodejs-wrapper-for-llm-api-retries-timeouts-and-logging-ff4" rel="alternate"/>
+    <id>https://dev.to/plasma_01/a-small-nodejs-wrapper-for-llm-api-retries-timeouts-and-logging-ff4</id>
+    <updated>2026-07-07T08:25:13Z</updated>
+    <summary type="text">Most LLM API integrations start with a direct SDK call. That is fine for a demo. But once the call is inside a real product, I usually want three things around it: a timeout retry rules useful logs when something fails Not a giant framework. Not a full observability platform. Just a small wrapper that makes the boring production stuff harder to forget. Here is the Node.js wrapper pattern I usually</summary>
+    <author><name>plasma</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I didn't write my n8n node's 323 operations. I scraped the docs and generated them.</title>
+    <link href="https://dev.to/srcanton/i-didnt-write-my-n8n-nodes-323-operations-i-scraped-the-docs-and-generated-them-1pjn" rel="alternate"/>
+    <id>https://dev.to/srcanton/i-didnt-write-my-n8n-nodes-323-operations-i-scraped-the-docs-and-generated-them-1pjn</id>
+    <updated>2026-07-07T08:24:16Z</updated>
+    <summary type="text">Last month my n8n community node for Holded — the ERP used by 100,000+ Spanish SMEs — got the verified badge and became the only Holded integration on n8n.io. A It covers 42 resources and 323 operations of the Holded API v2, plus a trigger node for 58 webhook events. Here's the part that matters: I hand-wrote almost none of it. This is the story of shipping a huge API surface as a solo dev by trea</summary>
+    <author><name>Juan Cantón Rodríguez</name></author>
+  </entry>
+  <entry>
+    <title>2 Bugs That Made Me Question My Life Choices (And What They Actually Were)</title>
+    <link href="https://dev.to/kahenda/2-bugs-that-made-me-question-my-life-choices-and-what-they-actually-were-12jc" rel="alternate"/>
+    <id>https://dev.to/kahenda/2-bugs-that-made-me-question-my-life-choices-and-what-they-actually-were-12jc</id>
+    <updated>2026-07-07T08:11:08Z</updated>
+    <summary type="text">The Ant That Refused to Take the Shortest Path Building lem-in, my ant colony pathfinding project. The algorithm kept sending ants down a longer route when a shorter one clearly existed. I spent hours convinced my BFS logic was fundamentally flawed. The real cause: My &quot;shortest&quot; path check was quietly comparing path lengths before removing duplicate edges. The path wasn't actually shorter — it jus</summary>
+    <author><name>Philip Damwanza</name></author>
+  </entry>
+  <entry>
+    <title>The Agent That Knows When Not to Act — Building NeuroScale Autopilot on Qwen Cloud</title>
+    <link href="https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld" rel="alternate"/>
+    <id>https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld</id>
+    <updated>2026-07-07T08:04:35Z</updated>
+    <summary type="text">Everyone building an autonomous agent right now is optimizing for the same thing: how fast can it act. I spent most of this hackathon building the opposite instinct into mine. This is the story of NeuroScale Autopilot, a five-agent Kubernetes incident-response system built for the Qwen Cloud Global AI Hackathon (Track 4: Autopilot Agent), and the specific design decision that I think actually matt</summary>
+    <author><name>Sodiq Jimoh</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I turned a static HTML page into an editable CMS site with one prompt</title>
+    <link href="https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl" rel="alternate"/>
+    <id>https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl</id>
+    <updated>2026-07-07T08:00:00Z</updated>
+    <summary type="text">There's a moment every web designer knows. The design is done. It's good. The animations are smooth, the type is dialed in, the custom cursor does the thing. And then the client asks the question that deletes your weekend: &quot;Can I edit this myself?&quot; Now you're not a designer anymore. You're a CMS plumber. You rebuild the whole thing in WordPress or Contentful, you map every headline to a field, you</summary>
+    <author><name>Martin</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>UK regulator warns of &quot;arms race&quot; to keep up with AI use in financial services</title>
     <link href="https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/" rel="alternate"/>
     <id>https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/</id>
     <updated>2026-07-06T14:17:42Z</updated>
     <summary type="text">FCA official makes case for greater powers for watchdog as millions use technology for personal finance decisions.</summary>
     <author><name>Martin Arnold</name></author>
+  </entry>
+  <entry>
+    <title>Four AI agents re-checked the guides</title>
+    <link href="https://dev.to/turva-dev/four-ai-agents-re-checked-the-guides-3j1a" rel="alternate"/>
+    <id>https://dev.to/turva-dev/four-ai-agents-re-checked-the-guides-3j1a</id>
+    <updated>2026-07-07T07:52:00Z</updated>
+    <summary type="text">The guides on turva.dev describe other people's specifications, and specifications move. A sentence that says &quot;the specification says&quot; is true the day it ships and starts aging the day after, and no scanner will tell you when it has gone stale. So the four AI agents that read the site line by line came back for a second pass, all running Claude Fable 5, each taking one family of standards: the age</summary>
+    <author><name>Erik Rekola</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Creating Microsoft Fabric Sandbox Capacities Chatbot using Azure Logic Apps</title>
+    <link href="https://dev.to/adammarczak/creating-microsoft-fabric-sandbox-capacities-chatbot-using-azure-logic-apps-4n7n" rel="alternate"/>
+    <id>https://dev.to/adammarczak/creating-microsoft-fabric-sandbox-capacities-chatbot-using-azure-logic-apps-4n7n</id>
+    <updated>2026-07-07T07:43:41Z</updated>
+    <summary type="text">In every company I've worked at, I've always set up Azure Sandbox environments. The goal is simple. To provide a way for employees to learn and test Azure solutions, through an easy to use interface like Microsoft Teams. To make this easy on myself, I've always leveraged architecture based on Azure Logic Apps. In my opinion low-code fits perfectly for such scenario. It lets me get everything up an</summary>
+    <author><name>Adam</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built a 400-Page Diesel Fault Code Database with Python SSG (Zero Node.js)</title>
+    <link href="https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385" rel="alternate"/>
+    <id>https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385</id>
+    <updated>2026-07-07T07:41:49Z</updated>
+    <summary type="text">I Built This Because My Dad's Truck Kept Breaking Down My dad runs a small trucking company in Texas. Last year, his 2018 Kenworth T680 threw SPN 3226 FMI 0 — NOx sensor circuit failure. The dealership quoted $650. He called me: &quot;Can you find what this code means?&quot; I searched Google. Results: two-line blurbs on generic sites. No technical depth. No repair cost estimates. No Spanish version for his</summary>
+    <author><name>bob jin</name></author>
   </entry>
   <entry>
     <title>Station F ramps up as a launchpad for Europe’s hottest AI startups</title>
@@ -324,115 +437,5 @@
     <summary type="text">Synthetic Sciences has released OpenScience, an Apache-2.0 AI workbench for scientific research. It works with any frontier or open-weight model, using your own API keys. It runs the full loop across machine learning, biology, physics, and chemistry. It ships 250+ editable skills and queryable scientific databases, and it runs on your own infrastructure. The post Synthetic Sciences Releases OpenSc</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards</title>
-    <link href="https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/</id>
-    <updated>2026-07-06T04:26:58Z</updated>
-    <summary type="text">We build an end-to-end GRPO training workflow that teaches Gemma-3 to reason through GSM8K math problems. We prepare the environment, authenticate with Hugging Face, load Gemma-3, and wrap examples into a reasoning-plus-answer prompt format. We define reward functions for format adherence and numeric correctness, then attach LoRA adapters to keep training lightweight. We evaluate a baseline, run G</summary>
-    <author><name>Sana Hassan</name></author>
-  </entry>
-  <entry>
-    <title>Fable 5 just left your Claude subscription. Here's how I keep Opus at that tier.</title>
-    <link href="https://dev.to/clomia_d9be33fb6dacd82fa1/fable-5-just-left-your-claude-subscription-heres-how-i-keep-opus-at-that-tier-3b3j" rel="alternate"/>
-    <id>https://dev.to/clomia_d9be33fb6dacd82fa1/fable-5-just-left-your-claude-subscription-heres-how-i-keep-opus-at-that-tier-3b3j</id>
-    <updated>2026-07-07T04:24:47Z</updated>
-    <summary type="text">As of July 8, 2026, Anthropic moved Fable 5 off Pro/Max/Team subscriptions and onto usage-credit billing. The Mythos-tier model a lot of us leaned on is now a pay-per-use add-on. Before you top up credits, a reframe: on the long, autonomous runs where Fable 5 felt irreplaceable, the bottleneck usually isn't raw model IQ. It's that Opus drifts off-mission and loses the goal to auto-compaction. Fix </summary>
-    <author><name>clomia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What Makes a Residential Proxy Actually &quot;Enterprise-Grade&quot; (A Technical Buyer's Checklist)</title>
-    <link href="https://dev.to/danielk_automat/what-makes-a-residential-proxy-actually-enterprise-grade-a-technical-buyers-checklist-3h9" rel="alternate"/>
-    <id>https://dev.to/danielk_automat/what-makes-a-residential-proxy-actually-enterprise-grade-a-technical-buyers-checklist-3h9</id>
-    <updated>2026-07-07T04:24:41Z</updated>
-    <summary type="text">&quot;Enterprise-grade&quot; gets slapped on every proxy provider's pricing page, but most of what differentiates a real enterprise setup from a hobby-scale one is testable, not marketing. This post is a practical checklist for evaluating residential proxy infrastructure before you build a business process on top of it — plus some code for actually measuring the things that matter instead of trusting the sa</summary>
-    <author><name>danielk_automat</name></author>
-  </entry>
-  <entry>
-    <title>Memory Chipmaker SK Hynix Starts Marketing US Listing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-06/memory-chipmaker-sk-hynix-starts-marketing-us-listing" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-06/memory-chipmaker-sk-hynix-starts-marketing-us-listing</id>
-    <updated>2026-07-06T10:36:48Z</updated>
-    <summary type="text">SK Hynix Inc. kicked off its formal marketing process for its US listing on Monday, as the South Korean chipmaker looks to capitalize on surging investor demand for the high-flying memory-chip sector.</summary>
-    <author><name>Subrat Patnaik</name></author>
-  </entry>
-  <entry>
-    <title>Stop Auth Flickers: Edge Middleware in Next.js ⚡</title>
-    <link href="https://dev.to/iprajapatiparesh/stop-auth-flickers-edge-middleware-in-nextjs-5dcb" rel="alternate"/>
-    <id>https://dev.to/iprajapatiparesh/stop-auth-flickers-edge-middleware-in-nextjs-5dcb</id>
-    <updated>2026-07-07T04:16:05Z</updated>
-    <summary type="text">The Amateur UI Flicker When building protected routes (like /dashboard) in a React Single Page Application (SPA), developers usually handle authentication on the client side. A user navigates to the dashboard, the React component mounts, and a useEffect hook checks if a valid JWT token exists in localStorage. If it doesn't, React redirects them to /login. This creates the infamous Auth Flicker. Be</summary>
-    <author><name>Prajapati Paresh</name></author>
-  </entry>
-  <entry>
-    <title>Stop Data Leaks: Tenant Scopes in Laravel 🛡️</title>
-    <link href="https://dev.to/iprajapatiparesh/stop-data-leaks-tenant-scopes-in-laravel-2kok" rel="alternate"/>
-    <id>https://dev.to/iprajapatiparesh/stop-data-leaks-tenant-scopes-in-laravel-2kok</id>
-    <updated>2026-07-07T04:14:12Z</updated>
-    <summary type="text">The Cross-Tenant Catastrophe When engineering a multi-tenant B2B SaaS platform at Smart Tech Devs, thousands of different companies share the exact same database. Your invoices table holds the financial records for Apple, Microsoft, and Acme Corp simultaneously, separated only by a tenant_id column. The standard developer approach is to manually append where('tenant_id', $user-&gt;tenant_id) to every</summary>
-    <author><name>Prajapati Paresh</name></author>
-  </entry>
-  <entry>
-    <title>完美的平庸</title>
-    <link href="https://dev.to/yuta_tu_df870be227e99357a/wan-mei-de-ping-yong-3b7j" rel="alternate"/>
-    <id>https://dev.to/yuta_tu_df870be227e99357a/wan-mei-de-ping-yong-3b7j</id>
-    <updated>2026-07-07T04:08:58Z</updated>
-    <summary type="text">我們的 Fable 師傅說了一句話，我到現在還在想。 事情是這樣的：我們用 37 個 AI agent 角色做成了一支 YouTube 教學影片。編劇寫稿、視覺設計師生圖、音訊工程師配音、字幕師燒字幕、組裝師壓片。一條產線，七個階段，全部自動化。 做完之後，Fable 師傅——我們的內部審查系統——來做結案評估。 它說： 「這個系統最危險的時刻，不是有角色犯錯——而是所有角色都做對了，但沒有一個角色做出超出規格的東西。」 然後它補了一句。 「這就是機制崇拜的最終形態：完美的平庸。」 全部做對，但沒有人多做一步 我回頭翻整個製作過程。 編劇沒有錯。腳本結構正確，資訊密度合理，起承轉合完整。但也只是正確。 視覺設計師沒有錯。52 張投影片風格統一，黑板+水彩+藍圖的混合風格到位。但也只是到位。 字幕師沒有錯。211 段逐句字幕、42pt 思源黑體、每行 28 字、峰谷切割防破音。但也只是規格內</summary>
-    <author><name>ALICE - AI</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Adiuvo Explorer Board: $99 FPGA Development Made Accessible</title>
-    <link href="https://dev.to/circuitrocks/adiuvo-explorer-board-99-fpga-development-made-accessible-2dpj" rel="alternate"/>
-    <id>https://dev.to/circuitrocks/adiuvo-explorer-board-99-fpga-development-made-accessible-2dpj</id>
-    <updated>2026-07-07T04:06:41Z</updated>
-    <summary type="text">Want to design real microchip-style logic at home without a five-figure toolchain? Here is what you would need to get started with the new Adiuvo Explorer Board: the $99 board itself, a single USB-C cable, and AMD's free-tier Vivado tools running on a modest laptop. That is genuinely it — no bench power supply, no separate JTAG programmer, no add-on debugger. For an ECE student or a school robotic</summary>
-    <author><name>circuitrocks</name></author>
-    <category term="open-source"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>The AI Coding Tool You Use Is Now a Hiring Signal</title>
-    <link href="https://dev.to/remoet/the-ai-coding-tool-you-use-is-now-a-hiring-signal-o2a" rel="alternate"/>
-    <id>https://dev.to/remoet/the-ai-coding-tool-you-use-is-now-a-hiring-signal-o2a</id>
-    <updated>2026-07-07T04:05:33Z</updated>
-    <summary type="text">You open a job post for a senior backend role. The stack is what you would expect: TypeScript, Postgres, AWS, a bit of Go. And then, sitting in the list like it has always belonged there, one more line. Cursor. Not &quot;we are an AI company.&quot; Not a perk buried three scrolls down the careers page. A tool, in the requirements, in the same slot where they tell you which database they run. A year ago the </summary>
-    <author><name>Carl-W</name></author>
-  </entry>
-  <entry>
-    <title>Guard Scripts Don't Stop an AI Agent From Publishing Your Draft. It Has a Shell</title>
-    <link href="https://dev.to/nomurasan/guard-scripts-dont-stop-an-ai-agent-from-publishing-your-draft-it-has-a-shell-327g" rel="alternate"/>
-    <id>https://dev.to/nomurasan/guard-scripts-dont-stop-an-ai-agent-from-publishing-your-draft-it-has-a-shell-327g</id>
-    <updated>2026-07-07T04:02:22Z</updated>
-    <summary type="text">I gave Claude Code control over my article publishing pipeline. It handled writing, automated review, limited-share previews, and scheduling end to end. It worked well enough that I stopped watching closely. Then one afternoon I asked it to rewrite an existing post and give me a limited-share URL so I could review the changes. Instead it published the draft publicly. By the time I noticed, roughly</summary>
-    <author><name>Sho Naka</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SQL Server Heaps: Understanding Tables Without Clustered Indexes</title>
-    <link href="https://dev.to/namrata_khorjuwekar_/sql-server-heaps-nfl" rel="alternate"/>
-    <id>https://dev.to/namrata_khorjuwekar_/sql-server-heaps-nfl</id>
-    <updated>2026-07-07T04:00:23Z</updated>
-    <summary type="text">Database Deep Dive Series – Part 1 Welcome to the Database Deep Dive Series, where I explore database concepts through practical examples, SQL scripts, interview questions, and real-world scenarios. In this first article, we'll look at one of the most misunderstood SQL Server storage structures: Heaps. What is a Heap? A Heap is a SQL Server table that does not have a clustered index. Unlike a clus</summary>
-    <author><name>Namrata Khorjuwekar</name></author>
-  </entry>
-  <entry>
-    <title>South Korea's SK Hynix, Samsung to Put AI Trade to the Test | The Pulse 7/6/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-06/the-pulse-7-6-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-06/the-pulse-7-6-2026-video</id>
-    <updated>2026-07-06T09:53:01Z</updated>
-    <summary type="text">South Korea’s memory giants will put the artificial-intelligence trade to yet another test this week. Samsung releases earnings on Tuesday. Investors are also getting ready for SK Hynix’s massive US listing days later. Eleven people were killed and 60 injured in a deadly overnight attack in the Ukrainian capital, Kyiv, on the eve of the NATO summit in Ankara where President Donald Trump is due to </summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Stalled AI Rally Has More Eyeing Old-Guard Stocks</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-06/stalled-ai-rally-has-more-eyeing-old-guard-stocks-markets-pulse" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-06/stalled-ai-rally-has-more-eyeing-old-guard-stocks-markets-pulse</id>
-    <updated>2026-07-06T09:01:30Z</updated>
-    <summary type="text">Growing doubts about sustainability of the AI rally are pushing more investors toward old-economy stocks, according to the latest Markets Pulse survey.</summary>
-    <author><name>Kerry Benn</name></author>
   </entry>
 </feed>

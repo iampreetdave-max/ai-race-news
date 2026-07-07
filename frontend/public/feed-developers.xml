@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-07T04:56:31Z</updated>
+  <updated>2026-07-07T08:27:51Z</updated>
+  <entry>
+    <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
+    <link href="https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/</id>
+    <updated>2026-07-07T05:59:07Z</updated>
+    <summary type="text">Tencent's Hy team released Hy3, a 295B Mixture-of-Experts (MoE) model that activates only 21B parameters per token. It ships under Apache 2.0 with a 256K context window, targeting reasoning, agentic, and long-context tasks. Hy3 reports 78.0 on SWE-Bench Verified and lower hallucination rates, and is free to try on OpenRouter through July 21, 2026. The post Tencent Releases Hy3: An Open 295B Mixtur</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost</title>
     <link href="https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/" rel="alternate"/>
@@ -24,6 +33,33 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Agent That Knows When Not to Act — Building NeuroScale Autopilot on Qwen Cloud</title>
+    <link href="https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld" rel="alternate"/>
+    <id>https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld</id>
+    <updated>2026-07-07T08:04:35Z</updated>
+    <summary type="text">Everyone building an autonomous agent right now is optimizing for the same thing: how fast can it act. I spent most of this hackathon building the opposite instinct into mine. This is the story of NeuroScale Autopilot, a five-agent Kubernetes incident-response system built for the Qwen Cloud Global AI Hackathon (Track 4: Autopilot Agent), and the specific design decision that I think actually matt</summary>
+    <author><name>Sodiq Jimoh</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I turned a static HTML page into an editable CMS site with one prompt</title>
+    <link href="https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl" rel="alternate"/>
+    <id>https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl</id>
+    <updated>2026-07-07T08:00:00Z</updated>
+    <summary type="text">There's a moment every web designer knows. The design is done. It's good. The animations are smooth, the type is dialed in, the custom cursor does the thing. And then the client asks the question that deletes your weekend: &quot;Can I edit this myself?&quot; Now you're not a designer anymore. You're a CMS plumber. You rebuild the whole thing in WordPress or Contentful, you map every headline to a field, you</summary>
+    <author><name>Martin</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How I Built a 400-Page Diesel Fault Code Database with Python SSG (Zero Node.js)</title>
+    <link href="https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385" rel="alternate"/>
+    <id>https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385</id>
+    <updated>2026-07-07T07:41:49Z</updated>
+    <summary type="text">I Built This Because My Dad's Truck Kept Breaking Down My dad runs a small trucking company in Texas. Last year, his 2018 Kenworth T680 threw SPN 3226 FMI 0 — NOx sensor circuit failure. The dealership quoted $650. He called me: &quot;Can you find what this code means?&quot; I searched Google. Results: two-line blurbs on generic sites. No technical depth. No repair cost estimates. No Spanish version for his</summary>
+    <author><name>bob jin</name></author>
   </entry>
   <entry>
     <title>Fable 5 just left your Claude subscription. Here's how I keep Opus at that tier.</title>
@@ -419,42 +455,5 @@
     <updated>2026-07-04T20:00:00Z</updated>
     <summary type="text">You’ve spent weeks optimizing your machine learning model. You’ve pruned the weights, quantized the tensors, and fine-tuned the hyperparameters. On your high-end development workstation, the inference speed is blistering. But then, you deploy it to a real-world Android device. Three minutes into usage, the app starts to lag. The frame rate drops. The device feels uncomfortably warm in the user's h</summary>
     <author><name>Programming Central</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</title>
-    <link href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/" rel="alternate"/>
-    <id>https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/</id>
-    <updated>2026-07-03T19:24:40Z</updated>
-    <summary type="text">Microsoft reportedly plans to merge its consumer and enterprise Copilot apps into a single app in August. Rarely used features like Copilot Podcasts are getting cut, and new AI agents called &quot;AutoPilot&quot; will handle tasks in the background for an extra fee. The article Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents appeared first on Th</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Stop Creating a React Project Just to Preview a JSX File</title>
-    <link href="https://dev.to/robin_hood_991fffecf68062/stop-creating-a-react-project-just-to-preview-a-jsx-file-5gm6" rel="alternate"/>
-    <id>https://dev.to/robin_hood_991fffecf68062/stop-creating-a-react-project-just-to-preview-a-jsx-file-5gm6</id>
-    <updated>2026-07-04T18:46:23Z</updated>
-    <summary type="text">If you're using AI coding assistants like ChatGPT, Claude, Cursor, or Lovable, you've probably accumulated dozens of JSX components. Generating them is incredibly fast. Previewing them? Not so much. The Typical Workflow Every time I received a JSX component, I found myself repeating the same process. Create a React project (or open an existing one) Copy the JSX file Install dependencies Fix missin</summary>
-    <author><name>Robin Hood</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code's complicated China problem involves bans on both sides of the Pacific</title>
-    <link href="https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/</id>
-    <updated>2026-07-03T17:11:33Z</updated>
-    <summary type="text">Anthropic is trying to block Chinese companies like ByteDance and Ant Financial from accessing Claude Code, but they're getting around the restrictions through VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its own employees from using the tool after hidden code was found that could identify Chinese users. The article Claude Code's complicated China problem involves bans on both si</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>7 AI Tools Every SDET Should Learn in 2026 — With Real Testing Use Cases</title>
-    <link href="https://dev.to/vishal_kumar_32aca0795138/7-ai-tools-every-sdet-should-learn-in-2026-with-real-testing-use-cases-j71" rel="alternate"/>
-    <id>https://dev.to/vishal_kumar_32aca0795138/7-ai-tools-every-sdet-should-learn-in-2026-with-real-testing-use-cases-j71</id>
-    <updated>2026-07-04T17:08:05Z</updated>
-    <summary type="text">AI is changing software testing. But probably not in the way many QA engineers think. AI is not simply going to replace Selenium scripts, Playwright tests, API automation, or performance testing. The bigger change is this: The role of an SDET is moving from writing every test manually to designing, guiding, reviewing, and validating intelligent testing systems. I have worked across API automation,</summary>
-    <author><name>Vishal Kumar</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
