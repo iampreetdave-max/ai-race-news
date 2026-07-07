@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-07T14:46:11Z</updated>
+  <updated>2026-07-07T17:21:27Z</updated>
+  <entry>
+    <title>We Rewrote VictoriaMetrics in Rust. It Now Beats the Original on Every Benchmark Metric</title>
+    <link href="https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62" rel="alternate"/>
+    <id>https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62</id>
+    <updated>2026-07-07T17:02:38Z</updated>
+    <summary type="text">VictoriaMetrics is one of the fastest open-source time-series databases in existence. Its Go implementation is not naive code that a rewrite trivially beats — it is a decade of careful engineering around the garbage collector: object pools everywhere, unsafe byte↔string casts, buffer recycling as a way of life. That made it the perfect subject for a question we wanted a rigorous answer to: how muc</summary>
+    <author><name>Softalink LLC</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Import AI 464: Fables writes GPU kernels; AI automation; and analog computation</title>
     <link href="https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/" rel="alternate"/>
@@ -61,25 +71,5 @@
     <author><name>Maximilian Schreiner</name></author>
     <category term="research"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Is the current Open Weight LLM model viable in the long term?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/</id>
-    <updated>2026-07-05T18:29:49Z</updated>
-    <summary type="text">I've been thinking about this lately. The Qwen team has released several new models recently, but they appear to be holding back the 122B, 35B, 27B, and 9B versions for now. One possible reason is that these larger models performed so strongly that the team chose not to release them immediately as open weights. If that's the case, they will likely wait until they have even more capable models befo</summary>
-    <author><name>/u/Alan_Silva_TI</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Is Intrinsic Motivation a Viable PhD Topic in 2026? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/</id>
-    <updated>2026-07-05T15:50:02Z</updated>
-    <summary type="text">I started a PhD in CS about a year an a half ago. Generally speaking my topic is on intrinsic motivation (more commonly people refer to it as unsupervised RL). Intrinsic motivation (IM) is a niche field within AI. It seeks to develop reward signals which are not specific to any task but rather something closer to the low level motivators that drive intelligent behaviors in animals. Some prominent </summary>
-    <author><name>/u/soup----</name></author>
-    <category term="research"/>
   </entry>
 </feed>

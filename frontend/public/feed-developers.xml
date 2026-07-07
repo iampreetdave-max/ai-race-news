@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-07T14:46:11Z</updated>
+  <updated>2026-07-07T17:21:27Z</updated>
+  <entry>
+    <title>NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads</title>
+    <link href="https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/</id>
+    <updated>2026-07-07T15:10:10Z</updated>
+    <summary type="text">Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and...</summary>
+    <author><name>Michelle Horton</name></author>
+    <category term="agents"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models</title>
+    <link href="https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/</id>
+    <updated>2026-07-07T16:50:50Z</updated>
+    <summary type="text">Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A doom loop repeats a span until the context window is exhausted. Antidoom finds the token that starts the loop and retrains only that position using Final Token Preference Optimization (FTPO). On LFM2.5-2.6B, doom-loop rates fell from 10.2% to 1.4%; on Qwen3.5-4B, from 22.9% to 1%. Generation, detectio</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
     <link href="https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/" rel="alternate"/>
@@ -32,6 +52,44 @@
     <summary type="text">Tencent has released Hy3, an open-source language model with 295 billion parameters built on a mixture-of-experts architecture. Only 21 billion parameters are active at any given time. Tencent says Hy3 matches models two to five times its size while cutting its hallucination rate in half to 5.4 percent. The article Tencent releases Hy3 open-source model that allegedly matches models up to five tim</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>4,900 Stars in One Week: This Repo Went Viral by Unpacking the Hidden Instructions Behind AI Models</title>
+    <link href="https://hackernoon.com/4900-stars-in-one-week-this-repo-went-viral-by-unpacking-the-hidden-instructions-behind-ai-models?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/4900-stars-in-one-week-this-repo-went-viral-by-unpacking-the-hidden-instructions-behind-ai-models?source=rss</id>
+    <updated>2026-07-07T17:09:20Z</updated>
+    <summary type="text">A viral GitHub repository containing more than 140 leaked system prompts reveals the hidden instructions powering ChatGPT, Claude, Gemini, Cursor, and other leading AI tools. The collection shows how companies shape model behavior through internal prompts, explains why AI assistants behave so differently, and offers developers, researchers, and prompt engineers an unprecedented look inside the ind</summary>
+    <author><name>Velokey</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GitHub Agentic Workflows Vulnerable to GitLost Data Leak Exploit</title>
+    <link href="https://dev.to/davekurian/github-agentic-workflows-vulnerable-to-gitlost-data-leak-exploit-4i6m" rel="alternate"/>
+    <id>https://dev.to/davekurian/github-agentic-workflows-vulnerable-to-gitlost-data-leak-exploit-4i6m</id>
+    <updated>2026-07-07T17:03:56Z</updated>
+    <summary type="text">GitHub Agentic Workflows shipped into public preview in February with a pitch that genuinely earned the excitement: skip the automation scripts, write a Markdown file in plain English, hand it to an AI agent powered by GitHub Copilot, Anthropic's Claude, Google Gemini, or OpenAI Codex, and watch it triage issues, run tools, and post comments on its own. No YAML plumbing. No webhook glue. The agent</summary>
+    <author><name>Dave Kurian</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>We Rewrote VictoriaMetrics in Rust. It Now Beats the Original on Every Benchmark Metric</title>
+    <link href="https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62" rel="alternate"/>
+    <id>https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62</id>
+    <updated>2026-07-07T17:02:38Z</updated>
+    <summary type="text">VictoriaMetrics is one of the fastest open-source time-series databases in existence. Its Go implementation is not naive code that a rewrite trivially beats — it is a decade of careful engineering around the garbage collector: object pools everywhere, unsafe byte↔string casts, buffer recycling as a way of life. That made it the perfect subject for a question we wanted a rigorous answer to: how muc</summary>
+    <author><name>Softalink LLC</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AI-Generated Code Overwhelms Human Reviewers: Strategies to Streamline Code Review Process</title>
+    <link href="https://hackernoon.com/ai-generated-code-overwhelms-human-reviewers-strategies-to-streamline-code-review-process?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/ai-generated-code-overwhelms-human-reviewers-strategies-to-streamline-code-review-process?source=rss</id>
+    <updated>2026-07-07T16:05:33Z</updated>
+    <summary type="text">AI coding assistants like Claude Code, GitHub Copilot, and Cursor are generating code faster than engineering teams can review it, creating a growing quality and security bottleneck. This article explores why traditional code review no longer scales, the risks of AI-generated code, and practical strategies—from automated analysis to risk-based reviews—to maintain software quality without slowing d</summary>
+    <author><name>Ethan Carver</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -403,58 +461,5 @@
     <author><name>Dockfix Labs</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Exporting any Bluesky profile's followers with the open API</title>
-    <link href="https://dev.to/cooki/exporting-any-bluesky-profiles-followers-with-the-open-api-3flb" rel="alternate"/>
-    <id>https://dev.to/cooki/exporting-any-bluesky-profiles-followers-with-the-open-api-3flb</id>
-    <updated>2026-07-05T02:49:35Z</updated>
-    <summary type="text">Every big social network locks audience data behind auth walls and anti-bot systems. Bluesky went the other way. The AT Protocol is open by design, so public profile data (bios, follower counts, full follower and following lists) is queryable through a documented API without logging in. The whole surface is basically two endpoints: GET https://api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=HAND</summary>
-    <author><name>Cooki</name></author>
-  </entry>
-  <entry>
-    <title>I Opened 3 Security Issues on Microsoft AutoGen and LlamaIndex. Here Is Why</title>
-    <link href="https://dev.to/dockfixlabs/i-opened-3-security-issues-on-microsoft-autogen-and-llamaindex-here-is-why-48dg" rel="alternate"/>
-    <id>https://dev.to/dockfixlabs/i-opened-3-security-issues-on-microsoft-autogen-and-llamaindex-here-is-why-48dg</id>
-    <updated>2026-07-05T02:39:31Z</updated>
-    <summary type="text">I just opened 3 security issues on two of the most popular AI agent frameworks on GitHub (combined 110K+ stars). The Issues microsoft/autogen#7917: Docker code executor mounts host filesystem into sandboxed containers without trust boundary validation — container escape vector. microsoft/autogen#7918: Agent self-modification patterns in Canvas memory module — agents can alter their own operating c</summary>
-    <author><name>Dockfix Labs</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Nobody is monitoring Bluesky, so I built a mentions scraper for it</title>
-    <link href="https://dev.to/cooki/nobody-is-monitoring-bluesky-so-i-built-a-mentions-scraper-for-it-19mi" rel="alternate"/>
-    <id>https://dev.to/cooki/nobody-is-monitoring-bluesky-so-i-built-a-mentions-scraper-for-it-19mi</id>
-    <updated>2026-07-05T02:39:14Z</updated>
-    <summary type="text">I wanted to know when people mention a brand on Bluesky. Simple ask. Turns out Brandwatch, Mention, Hootsuite, basically every social listening tool, still doesn't cover it. They're all busy with X and Instagram while Bluesky sits at 27M+ monthly users. So I looked at doing it myself and found out something most people miss: you don't need to scrape anything. Bluesky runs on the AT Protocol, which</summary>
-    <author><name>Cooki</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Am I Expecting Too Much?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1up01zs/am_i_expecting_too_much/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1up01zs/am_i_expecting_too_much/</id>
-    <updated>2026-07-06T15:08:42Z</updated>
-    <summary type="text">I’ve been trying to get started with local coding help after finding Claude Code really useful but I’m just running into a ton of problems. On my RTX 5090, I’ve been running Qwen 3.6 27B UD_4 at 131K context, no KV quants, quant’d by Unsloth. I’ve been using Cline in VS Code, as it seemed the closest parallel to Claude Code. Recently, I wanted to try implementing some plans I had made with Fable. </summary>
-    <author><name>/u/adcimagery</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to handle frame deduplication for VLMs? (Analyzing long videos with MiniCPM-V)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uoxjty/how_to_handle_frame_deduplication_for_vlms/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uoxjty/how_to_handle_frame_deduplication_for_vlms/</id>
-    <updated>2026-07-06T13:35:15Z</updated>
-    <summary type="text">Hey everyone, I'm trying to use MiniCPM-V to analyze long react-style videos (where a creator is on-screen commenting on a piece of content, photo, or text shown next to them). Right now, I have the audio side figured out—using WhisperX to get word-level transcripts with precise timestamps. My next step is to inject the actual visual changes into the context alongside the transcript. The problem i</summary>
-    <author><name>/u/888surf</name></author>
-  </entry>
-  <entry>
-    <title>LLM APIs as Infrastructure: Building Deterministic Systems Around Probabilistic AI</title>
-    <link href="https://dev.to/akilahngqueen/llm-apis-as-infrastructure-building-deterministic-systems-around-probabilistic-ai-1e3b" rel="alternate"/>
-    <id>https://dev.to/akilahngqueen/llm-apis-as-infrastructure-building-deterministic-systems-around-probabilistic-ai-1e3b</id>
-    <updated>2026-07-04T22:06:58Z</updated>
-    <summary type="text">The nature of an AI API Somebody built this thing before you ever touched it. A lab trained it on an enormous amount of text, aligned it, wrapped it behind an endpoint, and rented it to you. You don’t own the model. You inherit the interface: its capabilities, its limits, its context window, and its cost. When you send a prompt, the model has two sources of information: what it learned during trai</summary>
-    <author><name>Akilah Littlejohn</name></author>
   </entry>
 </feed>
