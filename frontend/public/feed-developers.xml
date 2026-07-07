@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-07T20:02:22Z</updated>
+  <updated>2026-07-07T22:13:58Z</updated>
   <entry>
     <title>NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads</title>
     <link href="https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/" rel="alternate"/>
@@ -61,6 +61,23 @@
     <updated>2026-07-07T00:00:00Z</updated>
     <summary type="text">See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Dev Log: 2026-07-07</title>
+    <link href="https://dev.to/nasrulhazim/dev-log-2026-07-07-3jc2" rel="alternate"/>
+    <id>https://dev.to/nasrulhazim/dev-log-2026-07-07-3jc2</id>
+    <updated>2026-07-07T21:48:06Z</updated>
+    <summary type="text">TL;DR Collapsed a billing model from à-la-carte features to plans-only, in four safe phases. Unified authorization across web, API, and MCP so all three obey one permission layer. Fixed a legacy Oracle password-sync writing to the wrong column. Four repos moved today. Here's the thread that ties most of them together: one source of truth beats two. Billing: plans-only Spent most of the day migrati</summary>
+    <author><name>Nasrul Hazim</name></author>
+  </entry>
+  <entry>
+    <title>Deploying SFTPGo as an Azure Storage SFTP Alternative on Linux</title>
+    <link href="https://dev.to/vultr/deploying-sftpgo-as-an-azure-storage-sftp-alternative-on-linux-2335" rel="alternate"/>
+    <id>https://dev.to/vultr/deploying-sftpgo-as-an-azure-storage-sftp-alternative-on-linux-2335</id>
+    <updated>2026-07-07T21:42:43Z</updated>
+    <summary type="text">Azure Storage SFTP is Microsoft's managed file transfer service on top of Azure Blob Storage, convenient, but billed continuously per endpoint (roughly $0.30/hour, ~$220/month) and tied to Azure AD. SFTPGo is an open-source file transfer server offering SFTP, FTP/S, and WebDAV with pluggable storage backends (local disk, Azure Blob, S3-compatible, GCS) and no per-endpoint charge. This guide deploy</summary>
+    <author><name>Sanskriti Harmukh</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>🚀 We're Hiring Software Engineers at 10xHire</title>
@@ -442,23 +459,5 @@
     <summary type="text">Live Memory: stop re-reading your repo on every Claude Code session Every Claude Code session re-discovers your codebase from scratch — re-reading files, re-grepping, re-paying for the same context. live-memory runs a separate, cheaper large-context model in a long-running MCP server whose only job is to accumulate knowledge of your repository over time. Your main agent asks it questions through o</summary>
     <author><name>Alexandros Stergiakis</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Gave Claude Code a Long-Term Memory: 5 Lessons from State Persistence</title>
-    <link href="https://dev.to/yureki_lab/how-i-gave-claude-code-a-long-term-memory-5-lessons-from-state-persistence-1k1m" rel="alternate"/>
-    <id>https://dev.to/yureki_lab/how-i-gave-claude-code-a-long-term-memory-5-lessons-from-state-persistence-1k1m</id>
-    <updated>2026-07-05T14:33:06Z</updated>
-    <summary type="text">TL;DR I run a fully autonomous implementation system built on Claude Code that works on my projects around the clock. The single biggest upgrade I ever made to it wasn't a smarter prompt or a better model — it was giving it a file-based long-term memory. This post covers the state persistence design that turned my agent from a goldfish into a coworker, and the 5 lessons I learned getting there. 💡 </summary>
-    <author><name>yureki_lab</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Codex Record &amp; Replay principles</title>
-    <link href="https://dev.to/ahab_indieseek/codex-record-replay-principles-3j6d" rel="alternate"/>
-    <id>https://dev.to/ahab_indieseek/codex-record-replay-principles-3j6d</id>
-    <updated>2026-07-05T14:17:53Z</updated>
-    <summary type="text">Codex Record &amp; Replay is interesting because it starts from a very human habit: when something is hard to describe, show it once. Instead of writing a long prompt that explains every click, window switch, preference, and edge case, the user records a workflow on macOS. Codex observes the workflow, reads the event trace, and drafts a reusable Skill. The key idea is simple: Human demonstration -&amp;gt;</summary>
-    <author><name>Ahab</name></author>
   </entry>
 </feed>
