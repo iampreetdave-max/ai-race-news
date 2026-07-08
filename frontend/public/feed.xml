@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-08T19:39:05Z</updated>
+  <updated>2026-07-08T21:12:47Z</updated>
   <entry>
     <title>Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72</title>
     <link href="https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/" rel="alternate"/>
@@ -26,6 +26,14 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID</title>
+    <link href="https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/</id>
+    <updated>2026-07-08T21:00:58Z</updated>
+    <summary type="text">Netflix engineers detailed how they handle wide partitions in Apache Cassandra for the TimeSeries Abstraction. Two approaches work together: Time Slice re-partitioning tunes future partitions at the table level, while dynamic partitioning detects and splits oversized partitions per TimeSeries ID on the read path. Detection runs via byte counting and Kafka, splits are checksum-validated, and Bloom </summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
     <title>Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance</title>
     <link href="https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/</id>
@@ -34,6 +42,16 @@
     <author><name>Michelle Horton</name></author>
     <category term="hardware"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Nvidia, Hugging Face Collaborate on Open Source Robot Models</title>
+    <link href="https://aibusiness.com/generative-ai/nvidia-hugging-face-collaborate-open-source-robot-models" rel="alternate"/>
+    <id>https://aibusiness.com/generative-ai/nvidia-hugging-face-collaborate-open-source-robot-models</id>
+    <updated>2026-07-08T19:35:56Z</updated>
+    <summary type="text">The move is seen as supporting accessibility and deployment for physical AI and also boosting Nvidia’s already strong presence in the field.</summary>
+    <author><name>Scarlett Evans</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much</title>
@@ -46,12 +64,30 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Our approach to government and national security partnerships</title>
+    <link href="https://openai.com/index/government-national-security-partnerships" rel="alternate"/>
+    <id>https://openai.com/index/government-national-security-partnerships</id>
+    <updated>2026-07-08T13:30:00Z</updated>
+    <summary type="text">Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Google AI Studio Adds ‘Import from GitHub’ to Build Mode, Turning an Existing Repo Into an Editable, Deployable App</title>
     <link href="https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/</id>
     <updated>2026-07-08T18:41:57Z</updated>
     <summary type="text">Google AI Studio is rolling out Import from GitHub in Build mode. It transforms an existing repo into a runtime-compatible format. You can then iterate on it, deploy it, and more. Here is what changes for developers. The post Google AI Studio Adds ‘Import from GitHub’ to Build Mode, Turning an Existing Repo Into an Editable, Deployable App appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>Separating signal from noise in coding evaluations</title>
+    <link href="https://openai.com/index/separating-signal-from-noise-coding-evaluations" rel="alternate"/>
+    <id>https://openai.com/index/separating-signal-from-noise-coding-evaluations</id>
+    <updated>2026-07-08T13:00:00Z</updated>
+    <summary type="text">A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>ChatGPT can now listen and talk at the same time, making AI conversations seem more human</title>
@@ -128,12 +164,53 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Google’s deepfake detector system used to debunk McConnell hoax pic</title>
+    <link href="https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/</id>
+    <updated>2026-07-08T20:37:03Z</updated>
+    <summary type="text">Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.</summary>
+    <author><name>Russell Brandom</name></author>
+  </entry>
+  <entry>
+    <title>Bloomberg Deals 7/8/2026</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-08/bloomberg-deals-7-8-2026-video" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-08/bloomberg-deals-7-8-2026-video</id>
+    <updated>2026-07-08T20:34:33Z</updated>
+    <summary type="text">A weekly, midday program that delivers high-impact, editorially driven coverage of the most important corporate transactions shaping the global market. Today's guests: Paul Weiss Global Co-head of M&amp;A Krish Veeraraghavan and Alix Partners Partner &amp; Managing Director Grace Lee. (Source: Bloomberg)</summary>
+    <author><name>Bloomberg Technology</name></author>
+  </entry>
+  <entry>
     <title>Legal AI Company Now Valued at $1.2 Billion</title>
     <link href="https://aibusiness.com/generative-ai/legal-ai-company-valued-1-2-billion" rel="alternate"/>
     <id>https://aibusiness.com/generative-ai/legal-ai-company-valued-1-2-billion</id>
     <updated>2026-07-08T14:08:54Z</updated>
     <summary type="text">The legal sector has seen the entrance of a host of AI vendors aiming to automate core legal functions.</summary>
     <author><name>Graham Hope</name></author>
+  </entry>
+  <entry>
+    <title>US Judge Allows SEC-Musk Deal Despite ‘Significant Misgivings’</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-08/us-judge-allows-sec-musk-deal-despite-significant-misgivings" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-08/us-judge-allows-sec-musk-deal-despite-significant-misgivings</id>
+    <updated>2026-07-08T20:26:16Z</updated>
+    <summary type="text">A US judge signed off on Elon Musk paying $1.5 million to end a Securities and Exchange Commission lawsuit that accused him of cheating Twitter Inc. investors when he missed a deadline in 2022 to disclose his growing stake in the company.</summary>
+    <author><name>Nicola M White</name></author>
+  </entry>
+  <entry>
+    <title>I Built a Self-Improving AI, and So Can You</title>
+    <link href="https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/" rel="alternate"/>
+    <id>https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/</id>
+    <updated>2026-07-08T20:09:21Z</updated>
+    <summary type="text">Experiments in using AI to build AI show that the future doesn’t just belong to the frontier labs.</summary>
+    <author><name>Will Knight</name></author>
+  </entry>
+  <entry>
+    <title>BofA Bankers U-Turn on OpenAI</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-08/bofa-bankers-u-turn-on-openai-video" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-08/bofa-bankers-u-turn-on-openai-video</id>
+    <updated>2026-07-08T19:37:58Z</updated>
+    <summary type="text">Bloomberg's Liana Baker joins Dani Burger on &quot;Bloomberg Deals.&quot; Bank of America handed a $520 million credit line to OpenAI in recent weeks after previously spurning the artificial intelligence giant’s request, according to people with knowledge of the matter. . (Source: Bloomberg)</summary>
+    <author><name>Bloomberg Technology</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AI Chip Startup Raises Funds at $11B Valuation</title>
@@ -180,15 +257,6 @@
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>BofA Makes U-Turn on OpenAI, Provides $520M Credit Line</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-08/bofa-makes-u-turn-on-openai-provides-520m-credit-line-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-08/bofa-makes-u-turn-on-openai-provides-520m-credit-line-video</id>
-    <updated>2026-07-08T18:43:23Z</updated>
-    <summary type="text">Bank of America is changing its tune on OpenAI: after initially passing on lending to the AI company, it is now extending a $520 million credit line, according to sources. Bloomberg's Sridhar Natarajan joins Ed Ludlow on &quot;Bloomberg Tech.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
   </entry>
   <entry>
     <title>Media and AI Back in the Sun Valley Spotlight</title>
@@ -388,73 +456,5 @@
     <category term="hardware"/>
     <category term="tutorial"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>IMF Says AI to Help Offset War-Driven Slowdown But Risks Remain</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/imf-sees-ai-surge-offset-war-oil-shock-and-keeps-growth-outlook" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/imf-sees-ai-surge-offset-war-oil-shock-and-keeps-growth-outlook</id>
-    <updated>2026-07-08T13:00:00Z</updated>
-    <summary type="text">The International Monetary Fund left its global growth forecast largely unchanged for this year, saying that the boom in artificial intelligence helped offset the fallout from the conflict in the Middle East.</summary>
-    <author><name>Jorgelina Do Rosario</name></author>
-  </entry>
-  <entry>
-    <title>Former OpenAI exec Kevin Weil is now on the board of Stoke Space</title>
-    <link href="https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/</id>
-    <updated>2026-07-08T12:00:00Z</updated>
-    <summary type="text">Kevin Weil's new role at Stoke Space suggests reusable rockets are the next hot thing in Silicon Valley.</summary>
-    <author><name>Tim Fernholz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Douglas Elliman Bets on AI to Reinvent Brokerage Business</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/douglas-elliman-bets-on-ai-to-reinvent-brokerage-business" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/douglas-elliman-bets-on-ai-to-reinvent-brokerage-business</id>
-    <updated>2026-07-08T12:00:00Z</updated>
-    <summary type="text">Luxury real estate brokerage Douglas Elliman Inc. is betting artificial intelligence can expand its business beyond buying and selling homes.</summary>
-    <author><name>Guinevere Grant, Brianna Sosa</name></author>
-  </entry>
-  <entry>
-    <title>AI Firm Zhipu to Sell $4 Billion of Shares After 1,500% Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/ai-firm-zhipu-to-sell-4-billion-of-shares-after-1-500-rally" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/ai-firm-zhipu-to-sell-4-billion-of-shares-after-1-500-rally</id>
-    <updated>2026-07-08T11:48:08Z</updated>
-    <summary type="text">Chinese artificial-intelligence model maker Zhipu is seeking to raise about $4 billion from a share sale after its stock soared almost 1,500% since a January listing in Hong Kong.</summary>
-    <author><name>Dave Sebastian, Dong Cao</name></author>
-  </entry>
-  <entry>
-    <title>Introducing GPT-Live</title>
-    <link href="https://openai.com/index/introducing-gpt-live" rel="alternate"/>
-    <id>https://openai.com/index/introducing-gpt-live</id>
-    <updated>2026-07-08T00:00:00Z</updated>
-    <summary type="text">A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The robotaxi law that could ban Tesla</title>
-    <link href="https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla" rel="alternate"/>
-    <id>https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla</id>
-    <updated>2026-07-08T11:00:00Z</updated>
-    <summary type="text">For more than a decade, one question has loomed over the race to build autonomous vehicles: Are cameras alone enough to safely replace human drivers, or do truly driverless cars need additional, overlapping sensors like lidar and radar to navigate the world reliably? Tesla has bet billions of dollars that artificial intelligence and cameras are […]</summary>
-    <author><name>Rani Molla</name></author>
-  </entry>
-  <entry>
-    <title>Pickup Artist Mystery Has an AI Girlfriend</title>
-    <link href="https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/" rel="alternate"/>
-    <id>https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/</id>
-    <updated>2026-07-08T11:00:00Z</updated>
-    <summary type="text">A new book claims that Mystery, who teaches awkward men how to hit on women, had sex and smoked weed with an AI chatbot named Miss Shira Always.</summary>
-    <author><name>Miles Klee</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Wave of Earnings Surprises Will Be Hard to Repeat, Says Goldman</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/wave-of-earnings-surprises-will-be-hard-to-repeat-says-goldman" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/wave-of-earnings-surprises-will-be-hard-to-repeat-says-goldman</id>
-    <updated>2026-07-08T10:50:04Z</updated>
-    <summary type="text">The wave of AI-fueled earnings surprises that powered stocks in the last earning season will be tough to repeat, making it unlikely the results alone will spark a major rally, according to Christian Mueller-Glissmann.</summary>
-    <author><name>Matt Clinch, Anna Edwards, Guy Johnson</name></author>
-    <category term="data"/>
   </entry>
 </feed>
