@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-08T07:32:00Z</updated>
+  <updated>2026-07-08T10:23:13Z</updated>
   <entry>
     <title>NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads</title>
     <link href="https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/" rel="alternate"/>
@@ -44,6 +44,15 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Stop Writing Prompts. Start Writing Loops.</title>
+    <link href="https://dev.to/mininglamp/stop-writing-prompts-start-writing-loops-416o" rel="alternate"/>
+    <id>https://dev.to/mininglamp/stop-writing-prompts-start-writing-loops-416o</id>
+    <updated>2026-07-08T10:15:54Z</updated>
+    <summary type="text">For over a year now most people have used LLMs the same way. Write a prompt, send it, get a response. If it is not good enough tweak the prompt and try again. If it works copy the result and move on. This works fine for one-shot tasks like Q&amp;A, writing help, or generating code snippets. It falls apart the moment a task requires multiple steps, mid-course corrections based on intermediate results, </summary>
+    <author><name>Mininglamp</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context</title>
@@ -451,13 +460,5 @@
     <updated>2026-07-05T21:04:57Z</updated>
     <summary type="text">&quot;Docker vs Kubernetes&quot; is one of those framings that quietly sends people down the wrong road. It sounds like a choice between two competing tools, so teams treat it like a bake-off. It isn't. Docker builds and runs containers. Kubernetes orchestrates a fleet of them. You can happily use one without the other, and most teams should — at least for a while. The question that actually matters is hidi</summary>
     <author><name>James Joyner</name></author>
-  </entry>
-  <entry>
-    <title>Using a Node.js Screenshot API to Capture Screenshots, PDFs, and Visual Diffs</title>
-    <link href="https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089" rel="alternate"/>
-    <id>https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089</id>
-    <updated>2026-07-05T19:50:09Z</updated>
-    <summary type="text">If you have ever shipped a feature that takes screenshots from Node.js, you already know the trap. The first version looks simple: await page.goto(url); await page.screenshot({ path: &quot;page.png&quot;, fullPage: true }); Then production arrives. You need Chromium installed in the right environment. Fonts differ between machines. Pages hang forever. Cookie banners cover half the viewport. Some captures ne</summary>
-    <author><name>SnapshotFlow</name></author>
   </entry>
 </feed>
