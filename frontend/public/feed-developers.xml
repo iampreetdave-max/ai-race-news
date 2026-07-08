@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-08T00:01:18Z</updated>
+  <updated>2026-07-08T04:17:29Z</updated>
   <entry>
     <title>NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads</title>
     <link href="https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/" rel="alternate"/>
@@ -217,14 +217,6 @@
     <summary type="text">AI coding assistants like Claude Code, GitHub Copilot, and Cursor are generating code faster than engineering teams can review it, creating a growing quality and security bottleneck. This article explores why traditional code review no longer scales, the risks of AI-generated code, and practical strategies—from automated analysis to risk-based reviews—to maintain software quality without slowing d</summary>
     <author><name>Ethan Carver</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What happens when a PostgreSQL backend crashes?</title>
-    <link href="https://dev.to/franckpachot/what-happens-when-a-postgresql-backend-crashes-3md" rel="alternate"/>
-    <id>https://dev.to/franckpachot/what-happens-when-a-postgresql-backend-crashes-3md</id>
-    <updated>2026-07-07T14:40:55Z</updated>
-    <summary type="text">Your connection to PostgreSQL is handled by a dedicated backend process. If that process crashes, you might think only your session is affected. However, because backend processes share memory, PostgreSQL assumes the shared state may have been corrupted and immediately terminates all other connections. Recovery is then performed before new connections are accepted. Here is a short test to demonstr</summary>
-    <author><name>Franck Pachot</name></author>
   </entry>
   <entry>
     <title>I turned a Claude Code-only web reader into a normal MCP server</title>
@@ -459,5 +451,13 @@
     <updated>2026-07-05T21:04:57Z</updated>
     <summary type="text">&quot;Docker vs Kubernetes&quot; is one of those framings that quietly sends people down the wrong road. It sounds like a choice between two competing tools, so teams treat it like a bake-off. It isn't. Docker builds and runs containers. Kubernetes orchestrates a fleet of them. You can happily use one without the other, and most teams should — at least for a while. The question that actually matters is hidi</summary>
     <author><name>James Joyner</name></author>
+  </entry>
+  <entry>
+    <title>Using a Node.js Screenshot API to Capture Screenshots, PDFs, and Visual Diffs</title>
+    <link href="https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089" rel="alternate"/>
+    <id>https://dev.to/snapshotflow/using-a-nodejs-screenshot-api-to-capture-screenshots-pdfs-and-visual-diffs-3089</id>
+    <updated>2026-07-05T19:50:09Z</updated>
+    <summary type="text">If you have ever shipped a feature that takes screenshots from Node.js, you already know the trap. The first version looks simple: await page.goto(url); await page.screenshot({ path: &quot;page.png&quot;, fullPage: true }); Then production arrives. You need Chromium installed in the right environment. Fonts differ between machines. Pages hang forever. Cookie banners cover half the viewport. Some captures ne</summary>
+    <author><name>SnapshotFlow</name></author>
   </entry>
 </feed>
