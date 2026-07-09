@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-09T13:53:15Z</updated>
+  <updated>2026-07-09T16:30:14Z</updated>
   <entry>
     <title>OpenAI finds roughly 30 percent of popular AI coding test is broken</title>
     <link href="https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/" rel="alternate"/>
@@ -62,6 +62,34 @@
     <summary type="text">A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The project file is the interface: letting AI agents drive a video editor</title>
+    <link href="https://dev.to/ronak_parmar_033c50d168b5/the-project-file-is-the-interface-letting-ai-agents-drive-a-video-editor-58hd" rel="alternate"/>
+    <id>https://dev.to/ronak_parmar_033c50d168b5/the-project-file-is-the-interface-letting-ai-agents-drive-a-video-editor-58hd</id>
+    <updated>2026-07-09T15:54:17Z</updated>
+    <summary type="text">Last week I open sourced FableCut, a Premiere-style video editor that runs in the browser and that AI agents can operate. It hit the front page of Hacker News (thread), and the questions there made me realize the interesting part isn't the editor. It's one design decision: the project file is the interface. The usual way, and why I flipped it Most AI video tools hide the edit behind an API. You ca</summary>
+    <author><name>Ronak Parmar</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I built a CLI to drive every AI coding agent from one interface</title>
+    <link href="https://dev.to/agentiknet/i-built-a-cli-to-drive-every-ai-coding-agent-from-one-interface-ai" rel="alternate"/>
+    <id>https://dev.to/agentiknet/i-built-a-cli-to-drive-every-ai-coding-agent-from-one-interface-ai</id>
+    <updated>2026-07-09T15:53:27Z</updated>
+    <summary type="text">TLDR; I got tired of babysitting N terminal tabs of five different coding-agent CLIs. So I built agentproto — one daemon that drives Claude Code, Codex, Hermes, opencode, and Mastra through the same lifecycle, and actually supervises them. Why I built a daemon to drive every AI coding agent from one interface I have a confession: at any given moment I have Claude Code, Codex, and Hermes running in</summary>
+    <author><name>Agentik</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Running OpenClaw with Ollama</title>
+    <link href="https://www.kdnuggets.com/running-openclaw-with-ollama" rel="alternate"/>
+    <id>https://www.kdnuggets.com/running-openclaw-with-ollama</id>
+    <updated>2026-07-09T14:00:15Z</updated>
+    <summary type="text">This article covers the full path from zero to a running private research assistant on Telegram, including configuring the context length correctly, connecting the channel, enabling web search, and deploying it headlessly in Docker.</summary>
+    <author><name>Shittu Olumide</name></author>
   </entry>
   <entry>
     <title>SpaceXAI, Cursor Unveil Grok AI Model for Legal, Finance Tasks</title>
@@ -247,6 +275,16 @@
     <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
+    <title>This is how I started using coding agents for DS/ML workflows [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1urvakh/this_is_how_i_started_using_coding_agents_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1urvakh/this_is_how_i_started_using_coding_agents_for/</id>
+    <updated>2026-07-09T16:29:37Z</updated>
+    <summary type="text">https://i.redd.it/2zg99j8jd8ch1.gif I built Lemma. She plugs into your coding agent as an MCP server, one install and it has both her rules and her tools. Every session starts with her rulebook already loaded. From there your agent calls her tools to read, manage, and interact with a live Jupyter kernel, VS Code, PyCharm, or JupyterLab, instead of trusting whatever's sitting in a static .ipynb fil</summary>
+    <author><name>/u/Spare_Suit3701</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>Treat the Context Window Like a Budget, Not a Junk Drawer</title>
     <link href="https://dev.to/orieken/treat-the-context-window-like-a-budget-not-a-junk-drawer-5602" rel="alternate"/>
     <id>https://dev.to/orieken/treat-the-context-window-like-a-budget-not-a-junk-drawer-5602</id>
@@ -426,42 +464,6 @@
     <updated>2026-07-07T11:05:52Z</updated>
     <summary type="text">Cursor and Claude Code can take a 200-component design system and ship a working admin page without you writing a line. That's not marketing — I've watched it happen on an OTF SaaS kit. The catch is what the agent can do depends almost entirely on the shape of the repo you hand it. A codebase designed to be read by an agent looks nothing like the 4000-line single file most AI app builders produce.</summary>
     <author><name>Dave Kurian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Agent That Knows When Not to Act — Building NeuroScale Autopilot on Qwen Cloud</title>
-    <link href="https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld" rel="alternate"/>
-    <id>https://dev.to/sodiqjimoh/the-agent-that-knows-when-not-to-act-building-neuroscale-autopilot-on-qwen-cloud-1lld</id>
-    <updated>2026-07-07T08:04:35Z</updated>
-    <summary type="text">Everyone building an autonomous agent right now is optimizing for the same thing: how fast can it act. I spent most of this hackathon building the opposite instinct into mine. This is the story of NeuroScale Autopilot, a five-agent Kubernetes incident-response system built for the Qwen Cloud Global AI Hackathon (Track 4: Autopilot Agent), and the specific design decision that I think actually matt</summary>
-    <author><name>Sodiq Jimoh</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I turned a static HTML page into an editable CMS site with one prompt</title>
-    <link href="https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl" rel="alternate"/>
-    <id>https://dev.to/neletomartin/i-turned-a-static-html-page-into-an-editable-cms-site-with-one-prompt-4ajl</id>
-    <updated>2026-07-07T08:00:00Z</updated>
-    <summary type="text">There's a moment every web designer knows. The design is done. It's good. The animations are smooth, the type is dialed in, the custom cursor does the thing. And then the client asks the question that deletes your weekend: &quot;Can I edit this myself?&quot; Now you're not a designer anymore. You're a CMS plumber. You rebuild the whole thing in WordPress or Contentful, you map every headline to a field, you</summary>
-    <author><name>Martin</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I Built a 400-Page Diesel Fault Code Database with Python SSG (Zero Node.js)</title>
-    <link href="https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385" rel="alternate"/>
-    <id>https://dev.to/bob_jin_7f587761570888b89/why-nobody-talks-about-your-most-disturbing-dreams-and-why-that-matters-1385</id>
-    <updated>2026-07-07T07:41:49Z</updated>
-    <summary type="text">I Built This Because My Dad's Truck Kept Breaking Down My dad runs a small trucking company in Texas. Last year, his 2018 Kenworth T680 threw SPN 3226 FMI 0 — NOx sensor circuit failure. The dealership quoted $650. He called me: &quot;Can you find what this code means?&quot; I searched Google. Results: two-line blurbs on generic sites. No technical depth. No repair cost estimates. No Spanish version for his</summary>
-    <author><name>bob jin</name></author>
-  </entry>
-  <entry>
-    <title>Fable 5 just left your Claude subscription. Here's how I keep Opus at that tier.</title>
-    <link href="https://dev.to/clomia_d9be33fb6dacd82fa1/fable-5-just-left-your-claude-subscription-heres-how-i-keep-opus-at-that-tier-3b3j" rel="alternate"/>
-    <id>https://dev.to/clomia_d9be33fb6dacd82fa1/fable-5-just-left-your-claude-subscription-heres-how-i-keep-opus-at-that-tier-3b3j</id>
-    <updated>2026-07-07T04:24:47Z</updated>
-    <summary type="text">As of July 8, 2026, Anthropic moved Fable 5 off Pro/Max/Team subscriptions and onto usage-credit billing. The Mythos-tier model a lot of us leaned on is now a pay-per-use add-on. Before you top up credits, a reframe: on the long, autonomous runs where Fable 5 felt irreplaceable, the bottleneck usually isn't raw model IQ. It's that Opus drifts off-mission and loses the goal to auto-compaction. Fix </summary>
-    <author><name>clomia</name></author>
     <category term="llm"/>
   </entry>
 </feed>
