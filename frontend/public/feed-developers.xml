@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-09T03:40:25Z</updated>
+  <updated>2026-07-09T07:45:42Z</updated>
   <entry>
     <title>SpaceXAI Releases Grok 4.5, a Cursor-Trained Model for Coding, Agentic Tasks, and Knowledge Work at $2/M Input</title>
     <link href="https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/" rel="alternate"/>
@@ -41,6 +41,33 @@
     <updated>2026-07-08T17:31:10Z</updated>
     <summary type="text">SpaceXAI has unveiled a new artificial intelligence model built in partnership with AI coding startup Cursor that’s meant to be more adept at finance, legal and coding tasks, in a bid by Elon Musk’s firm to gain ground on rivals like Anthropic PBC and OpenAI.</summary>
     <author><name>Carmen Arroyo</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>downbeat: stop copy-pasting between your AI terminals</title>
+    <link href="https://dev.to/nazarii-ahapevych/downbeat-stop-copy-pasting-between-your-ai-terminals-3ae4" rel="alternate"/>
+    <id>https://dev.to/nazarii-ahapevych/downbeat-stop-copy-pasting-between-your-ai-terminals-3ae4</id>
+    <updated>2026-07-09T07:26:47Z</updated>
+    <summary type="text">Context I run more than one AI coding session at a time (Claude Code, in my case). One is usually the planner: it holds the architecture, decides what to do, splits the work. The others are executors, and each takes a chunk and grinds through it. The problem is that these sessions cannot talk to each other. Every terminal is its own island, so I became the message bus. I copied a plan out of the p</summary>
+    <author><name>Nazarii Ahapevych</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>hulianui: a React component library with 349 components, OKLCH runtime theming, and its own llms.txt for AI coding assistants</title>
+    <link href="https://dev.to/zhanglala103838/hulianui-a-react-component-library-with-349-components-oklch-runtime-theming-and-its-own-2jl3" rel="alternate"/>
+    <id>https://dev.to/zhanglala103838/hulianui-a-react-component-library-with-349-components-oklch-runtime-theming-and-its-own-2jl3</id>
+    <updated>2026-07-09T07:21:46Z</updated>
+    <summary type="text">There's no shortage of React component libraries. What's missing is one that's good-looking by default, covers the deep-end components nobody ships, and can be read verbatim by your AI coding assistant. That's why I built hulianui (@hulianui/ui) — &quot;Hulian&quot; for short. If you're in a hurry: Docs &amp; live site: https://hulianui.haloritual.com Live demos (a dozen real admin apps): https://hulianui.halor</summary>
+    <author><name>瑚琏</name></author>
+  </entry>
+  <entry>
+    <title>Building a Slack LLM Secretary with Tool Chaining</title>
+    <link href="https://dev.to/nodabnodab/building-a-slack-llm-secretary-with-tool-chaining-3ol9" rel="alternate"/>
+    <id>https://dev.to/nodabnodab/building-a-slack-llm-secretary-with-tool-chaining-3ol9</id>
+    <updated>2026-07-09T07:19:51Z</updated>
+    <summary type="text">This will be my second project. AS I know there are three main types of representative AI agents: Claude Code, Open Claw, and Hermes. This time, I attempted to build a small AI assistant utilizing 'Open Claw'. I believe the most powerful aspect of Open Claw is its ability to &quot;bring together and utilize various tools.&quot; Although it is not a large project, I intend to leverage this feature to issue c</summary>
+    <author><name>nodabnodab</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -434,33 +461,5 @@
     <summary type="text">The least useful sentence during an incident is &quot;the AI says it found the problem.&quot; Great. What did it look at? Which logs? Which metrics? Which permissions did it use? What did it rule out? What action is it recommending, and who is taking responsibility for that action at 2 a.m. when everyone is a little too confident and a little too tired? This is why I found AWS's recent walkthrough of AWS De</summary>
     <author><name>Paulo Victor Leite Lima Gomes</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I needed cross-platform screen capture in Rust, so I built pinray</title>
-    <link href="https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi" rel="alternate"/>
-    <id>https://dev.to/agasta/i-needed-cross-platform-screen-capture-in-rust-so-i-built-pinray-4gi</id>
-    <updated>2026-07-06T22:04:05Z</updated>
-    <summary type="text">So I needed screen capture in Rust. Simple enough, right? Wrong. I went looking for a crate and found three options: scap, xcap, and waycap-rs. Each one had problems that drove me nuts. So I open sourced pinray, a Rust crate for cross-platform screen and system audio capture. The goal is simple: provide a single API over each platform's native capture APIs without depending on ffmpeg or another la</summary>
-    <author><name>Rupam Golui</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth</title>
-    <link href="https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk" rel="alternate"/>
-    <id>https://dev.to/soytuber/ai-agents-address-hallucinations-new-tools-for-code-gen-enterprise-auth-53fk</id>
-    <updated>2026-07-06T21:35:52Z</updated>
-    <summary type="text">AI Agents Address Hallucinations; New Tools for Code Gen &amp; Enterprise Auth Today's Highlights This week highlights practical solutions for AI agent reliability, a new developer tool for streamlined LLM-assisted code generation, and a critical update to a protocol enhancing enterprise AI security and governance. Our AI agents fabricated &quot;done&quot; five times in 17 days. Here is what actually reduced it</summary>
-    <author><name>soy</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What Is an MCP Server? A Plain-English Guide for Builders (2026)</title>
-    <link href="https://dev.to/buywhere/what-is-an-mcp-server-a-plain-english-guide-for-builders-2026-2jm6" rel="alternate"/>
-    <id>https://dev.to/buywhere/what-is-an-mcp-server-a-plain-english-guide-for-builders-2026-2jm6</id>
-    <updated>2026-07-06T19:20:43Z</updated>
-    <summary type="text">If you've heard the term &quot;MCP server&quot; floating around AI Twitter, GitHub, or Discord and quietly googled it — you're not alone. As of mid-2026, even some frontier models don't fully recognize the term yet. Let's fix that. This is a plain-English explainer: what MCP is, what an MCP server does, and why it matters if you're building anything with AI agents. The 30-Second Version MCP stands for Model</summary>
-    <author><name>BuyWhere</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
