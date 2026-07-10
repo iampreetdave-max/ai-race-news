@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-10T00:09:47Z</updated>
+  <updated>2026-07-10T04:56:34Z</updated>
   <entry>
     <title>Robbyant Releases LingBot-VLA 2.0: An Open-Source 6B Vision-Language-Action (VLA) Model for Cross-Embodiment Robot Manipulation</title>
     <link href="https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0/" rel="alternate"/>
@@ -14,6 +14,34 @@
     <author><name>Asif Razzaq</name></author>
     <category term="research"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models</title>
+    <link href="https://arxiv.org/abs/2607.08770v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.08770v1</id>
+    <updated>2026-07-09T17:59:52Z</updated>
+    <summary type="text">Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video m</summary>
+    <author><name>Yu-Lun Liu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Whareformer: Learning to Track What is Where in Long Egocentric Videos</title>
+    <link href="https://arxiv.org/abs/2607.08537v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.08537v1</id>
+    <updated>2026-07-09T14:33:24Z</updated>
+    <summary type="text">The recently established 'Out of Sight, Not out of Mind' (OSNOM) task for egocentric videos focuses on tracking objects that are moved by the camera wearer, online, maintaining knowledge of instance locations throughout the video even when they leave the field of view or become heavily occluded. In this paper, we propose the first learning-based solution to the OSNOM task: Whareformer, a transform</summary>
+    <author><name>Diane Larlus</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>CT-CLIP Representations for Multimodal Lung Cancer Survival Prediction</title>
+    <link href="https://arxiv.org/abs/2607.08503v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.08503v1</id>
+    <updated>2026-07-09T14:00:14Z</updated>
+    <summary type="text">Accurate prognosis prediction is important for treatment planning in lung cancer, but deep learning-driven survival modelling is often limited by the scarcity of curated imaging cohorts with reliable outcome data. This study evaluates whether representations from a domain-specific foundation model can be used for multimodal survival prediction in data-constrained clinical settings. We assess the f</summary>
+    <author><name>Jennifer Alvén</name></author>
+    <category term="llm"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Ant Group’s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception</title>
@@ -64,15 +92,5 @@
     <summary type="text">3D Morphable Models (3DMMs) remain the standard parametric shape priors for many state-of-the-art 3D face reconstruction algorithms. However, as these models are derived from a finite number of 3D face samples, they inherit the morphological biases of their training data, potentially limiting their generalizability across diverse global populations. In this paper, we propose a novel framework to a</summary>
     <author><name>Jean-Michel Loubes</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>We Rewrote VictoriaMetrics in Rust. It Now Beats the Original on Every Benchmark Metric</title>
-    <link href="https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62" rel="alternate"/>
-    <id>https://dev.to/softalink/we-rewrote-victoriametrics-in-rust-it-now-beats-the-original-on-every-benchmark-metric-2g62</id>
-    <updated>2026-07-07T17:02:38Z</updated>
-    <summary type="text">VictoriaMetrics is one of the fastest open-source time-series databases in existence. Its Go implementation is not naive code that a rewrite trivially beats — it is a decade of careful engineering around the garbage collector: object pools everywhere, unsafe byte↔string casts, buffer recycling as a way of life. That made it the perfect subject for a question we wanted a rigorous answer to: how muc</summary>
-    <author><name>Softalink LLC</name></author>
-    <category term="research"/>
-    <category term="open-source"/>
   </entry>
 </feed>

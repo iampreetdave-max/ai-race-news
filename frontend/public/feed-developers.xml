@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-10T00:09:47Z</updated>
+  <updated>2026-07-10T04:56:34Z</updated>
+  <entry>
+    <title>Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API</title>
+    <link href="https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/</id>
+    <updated>2026-07-09T22:26:16Z</updated>
+    <summary type="text">Meta Superintelligence Labs released Muse Spark 1.1 on July 9, 2026, alongside a public preview of the Meta Model API. It is a multimodal reasoning model built for agentic tasks, with a 1,000,000-token context window the model actively compacts, zero-shot generalization to new tools and MCP servers, and multi-agent delegation across parallel subagents. Meta's own launch table shows it leading tool</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="data"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API</title>
     <link href="https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/" rel="alternate"/>
@@ -124,6 +135,16 @@
     <updated>2026-07-08T13:00:00Z</updated>
     <summary type="text">A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation</title>
+    <link href="https://arxiv.org/abs/2607.08741v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.08741v1</id>
+    <updated>2026-07-09T17:41:49Z</updated>
+    <summary type="text">Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings. Conversely, existing online methods enable real-time synthesis but often sacrifice cont</summary>
+    <author><name>Davis Rempe</name></author>
+    <category term="robotics"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -392,77 +413,5 @@
     <summary type="text">Look at what your coding agents actually pull into context. For a single task, the agent greps the repo, runs a broad vector search, and loads dozens of files and chunks that merely resemble the request into the window before it writes a line. You pay for that twice. Once in tokens, for context the model never uses and once in precision, because the few facts that matter are now buried in lookalik</summary>
     <author><name>Cleber de Lima</name></author>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Why I chose PGMQ over Redis for IoT sensor ingestion</title>
-    <link href="https://dev.to/growerzer0/why-i-chose-pgmq-over-redis-for-iot-sensor-ingestion-idl" rel="alternate"/>
-    <id>https://dev.to/growerzer0/why-i-chose-pgmq-over-redis-for-iot-sensor-ingestion-idl</id>
-    <updated>2026-07-07T23:20:49Z</updated>
-    <summary type="text">In my last post, I introduced CultivatorsLedger — a local-first cultivation telemetry platform built on Next.js, PostgreSQL, and Docker. One of the first architectural decisions I made was how to handle sensor data ingestion. In a grow environment, WiFi is not reliable. Network drops happen. And when they do, standard HTTP posts lose data. I needed a queue. The Contenders I looked at three options</summary>
-    <author><name>GrowerZer0</name></author>
-  </entry>
-  <entry>
-    <title>Dev Log: 2026-07-07</title>
-    <link href="https://dev.to/nasrulhazim/dev-log-2026-07-07-3jc2" rel="alternate"/>
-    <id>https://dev.to/nasrulhazim/dev-log-2026-07-07-3jc2</id>
-    <updated>2026-07-07T21:48:06Z</updated>
-    <summary type="text">TL;DR Collapsed a billing model from à-la-carte features to plans-only, in four safe phases. Unified authorization across web, API, and MCP so all three obey one permission layer. Fixed a legacy Oracle password-sync writing to the wrong column. Four repos moved today. Here's the thread that ties most of them together: one source of truth beats two. Billing: plans-only Spent most of the day migrati</summary>
-    <author><name>Nasrul Hazim</name></author>
-  </entry>
-  <entry>
-    <title>Deploying SFTPGo as an Azure Storage SFTP Alternative on Linux</title>
-    <link href="https://dev.to/vultr/deploying-sftpgo-as-an-azure-storage-sftp-alternative-on-linux-2335" rel="alternate"/>
-    <id>https://dev.to/vultr/deploying-sftpgo-as-an-azure-storage-sftp-alternative-on-linux-2335</id>
-    <updated>2026-07-07T21:42:43Z</updated>
-    <summary type="text">Azure Storage SFTP is Microsoft's managed file transfer service on top of Azure Blob Storage, convenient, but billed continuously per endpoint (roughly $0.30/hour, ~$220/month) and tied to Azure AD. SFTPGo is an open-source file transfer server offering SFTP, FTP/S, and WebDAV with pluggable storage backends (local disk, Azure Blob, S3-compatible, GCS) and no per-endpoint charge. This guide deploy</summary>
-    <author><name>Sanskriti Harmukh</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>🚀 We're Hiring Software Engineers at 10xHire</title>
-    <link href="https://dev.to/shivanshu814/were-hiring-software-engineers-at-10xhire-1g0h" rel="alternate"/>
-    <id>https://dev.to/shivanshu814/were-hiring-software-engineers-at-10xhire-1g0h</id>
-    <updated>2026-07-07T19:43:26Z</updated>
-    <summary type="text">👉 Apply Here First Application Form: https://forms.gle/QJNF7TXVBTgbLoaC7 At 10xHire, we're building the next generation of technical hiring. We believe great engineers shouldn't be judged by how many LeetCode problems they've memorized. Instead, we're creating AI-native technical assessments that measure real engineering judgment—how developers design systems, debug issues, review AI-generated cod</summary>
-    <author><name>Shivanshu Pathak</name></author>
-  </entry>
-  <entry>
-    <title>Atlases: 16 Interactive Learning Guides That Run Code in Your Browser</title>
-    <link href="https://dev.to/bsymbolic/atlases-16-interactive-learning-guides-that-run-code-in-your-browser-5650" rel="alternate"/>
-    <id>https://dev.to/bsymbolic/atlases-16-interactive-learning-guides-that-run-code-in-your-browser-5650</id>
-    <updated>2026-07-07T19:40:22Z</updated>
-    <summary type="text">Atlases is a learning site: 16 long-form technical guides, each one a 12-chapter deep dive that you read in a browser tab while running the actual thing in another pane of the same tab. The databases atlas ships a real SQLite engine. The Python atlas runs CPython. The C++ atlas compiles C++. Nothing is a screenshot or an animated GIF pretending to be a terminal — it's the real interpreter, downloa</summary>
-    <author><name>C. Wheatley</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scrapling MCP: Giving Claude Code a Real Web Scraper</title>
-    <link href="https://dev.to/bsymbolic/scrapling-mcp-giving-claude-code-a-real-web-scraper-3j04" rel="alternate"/>
-    <id>https://dev.to/bsymbolic/scrapling-mcp-giving-claude-code-a-real-web-scraper-3j04</id>
-    <updated>2026-07-07T19:40:04Z</updated>
-    <summary type="text">Claude Code can read my files and run my shell, but out of the box it can't actually go get a page from the live web in a way that survives modern anti-bot defenses. A curl from the Bash tool gets you a 403 from anything behind Cloudflare. So I took an existing open-source scraper — D4Vinci/Scrapling — installed it locally, and registered its built-in MCP server with Claude Code. Now the agent has</summary>
-    <author><name>C. Wheatley</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Opus 4.7: Benchmarks, xhigh Effort Level, and What Changed</title>
-    <link href="https://dev.to/akaranjkar08/claude-opus-47-benchmarks-xhigh-effort-level-and-what-changed-5159" rel="alternate"/>
-    <id>https://dev.to/akaranjkar08/claude-opus-47-benchmarks-xhigh-effort-level-and-what-changed-5159</id>
-    <updated>2026-07-07T19:39:05Z</updated>
-    <summary type="text">Claude Opus 4.7 is Anthropic's most capable publicly available model as of April 16, 2026 — and if you use the API for agentic coding or production tasks, you should upgrade today. The headline improvements are a 13% lift on coding benchmarks, a new xhigh effort level designed specifically for long agentic runs, and high-resolution vision support at up to 3.75 megapixels. Based on our analysis of </summary>
-    <author><name>Anup Karanjkar</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost</title>
-    <link href="https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/" rel="alternate"/>
-    <id>https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/</id>
-    <updated>2026-07-06T18:28:26Z</updated>
-    <summary type="text">Zhipu AI is bringing GLM-5.2 to its ZCode development environment, pitching the model's long-context capabilities for complex coding tasks. New customers get a free five-day trial with up to 5 million tokens per day, and subscribers receive about 1.5 times more token quota through July 2026. The article Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost app</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
