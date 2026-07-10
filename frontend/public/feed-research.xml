@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-10T18:40:28Z</updated>
+  <updated>2026-07-10T20:27:15Z</updated>
   <entry>
     <title>NVIDIA taught robots to think before they act. Prices hit $25,000. Here's what you missed this week.</title>
     <link href="https://dev.to/xberry-tech/nvidia-taught-robots-to-think-before-they-act-prices-hit-25000-heres-what-you-missed-this-week-p58" rel="alternate"/>
@@ -55,6 +55,16 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>On Adversarial RL [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/</id>
+    <updated>2026-07-10T19:15:02Z</updated>
+    <summary type="text">Zhang et al. paper's introducing the SA-MDP framework (2020) (state adversarial MDP) argues that an attack using the critic network (V(s)) is expected and supposed to produce a weaker attack than an attack using the actor network (pi(s)) itself to generate perturbation on agent observations. A claim supported by their empirical results using different single-agent simulation environment. However, </summary>
+    <author><name>/u/ham_bam0</name></author>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Ant Group’s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception</title>
     <link href="https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/</id>
@@ -93,15 +103,6 @@
     <summary type="text">OpenScience hands an AI agent the whole scientific loop and lets it run: read the literature, form a hypothesis, write and run code, execute the experiment on real compute, then write up the result. It is a research workbench, not a chat window, and it treats the messy middle of science as the part worth automating. What the loop actually covers Most AI research tools stop at &quot;help me understand t</summary>
     <author><name>Reno Lu</name></author>
     <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Discovering Geometric Biases in 3D Face Reconstruction: A Curvature-Aware Spectral Framework for Fairness Evaluation</title>
-    <link href="https://arxiv.org/abs/2607.07486v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.07486v1</id>
-    <updated>2026-07-08T14:48:06Z</updated>
-    <summary type="text">3D Morphable Models (3DMMs) remain the standard parametric shape priors for many state-of-the-art 3D face reconstruction algorithms. However, as these models are derived from a finite number of 3D face samples, they inherit the morphological biases of their training data, potentially limiting their generalizability across diverse global populations. In this paper, we propose a novel framework to a</summary>
-    <author><name>Jean-Michel Loubes</name></author>
     <category term="research"/>
   </entry>
 </feed>
