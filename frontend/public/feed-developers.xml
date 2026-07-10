@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-10T11:56:45Z</updated>
+  <updated>2026-07-10T14:40:50Z</updated>
   <entry>
     <title>Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API</title>
     <link href="https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/" rel="alternate"/>
@@ -51,6 +51,23 @@
     <summary type="text">Rebranded Codex promises independent workflows that can run &quot;for hours if needed.&quot;</summary>
     <author><name>Kyle Orland</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Vercel AI SDK 6: An Agent Is Just a while Loop</title>
+    <link href="https://dev.to/curioustore_48788631d0e2e/vercel-ai-sdk-6-an-agent-is-just-a-while-loop-4kf3" rel="alternate"/>
+    <id>https://dev.to/curioustore_48788631d0e2e/vercel-ai-sdk-6-an-agent-is-just-a-while-loop-4kf3</id>
+    <updated>2026-07-10T14:38:28Z</updated>
+    <summary type="text">I wired the same model and the same single tool into two functions in the exact same way. One of them ran the tool once and then gave back no answer at all; the other called that same model twenty times over. The only thing that changed in the code was one line — whether or not I flipped on an option called stopWhen. That was the scene I ran into the first time I actually installed Vercel AI SDK 6</summary>
+    <author><name>curioustore</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Docker Checks for AWS Config Drift Emails</title>
+    <link href="https://dev.to/jasonmills94/docker-checks-for-aws-config-drift-emails-156e" rel="alternate"/>
+    <id>https://dev.to/jasonmills94/docker-checks-for-aws-config-drift-emails-156e</id>
+    <updated>2026-07-10T14:23:50Z</updated>
+    <summary type="text">AWS Config drift emails look simple until you depend on them during a release window. A rule flags a changed security group, EventBridge pushes the event forward, and everyone assumes the alert path still works because the Lambda log says success. In practice, that is where things often start to slip. I started treating these notifications like a deployable surface, not an afterthought. The useful</summary>
+    <author><name>jasonmills94</name></author>
   </entry>
   <entry>
     <title>OpenAI finds roughly 30 percent of popular AI coding test is broken</title>
