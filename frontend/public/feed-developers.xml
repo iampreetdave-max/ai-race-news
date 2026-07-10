@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-10T04:56:34Z</updated>
+  <updated>2026-07-10T08:27:44Z</updated>
   <entry>
     <title>Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API</title>
     <link href="https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/" rel="alternate"/>
@@ -71,6 +71,33 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>Engineering Beyond the Keystroke: Why the Future Belongs to Systems Thinkers</title>
+    <link href="https://dev.to/nahamaalochi/engineering-beyond-the-keystroke-why-the-future-belongs-to-systems-thinkers-542h" rel="alternate"/>
+    <id>https://dev.to/nahamaalochi/engineering-beyond-the-keystroke-why-the-future-belongs-to-systems-thinkers-542h</id>
+    <updated>2026-07-10T08:25:37Z</updated>
+    <summary type="text">The New Software Engineer Is a Systems Manager AI writes functions. That part is no longer impressive. A few years ago, watching a large language model generate a working API endpoint felt magical. Today, it is baseline reality. Provide a well-structured prompt, some repository context, and a few reference files, and a model will reliably output a controller, a database migration, an integration t</summary>
+    <author><name>Edgar Nahama Alochi</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built a Concurrency-Safe Reservation System</title>
+    <link href="https://dev.to/rahul_chaduvula_a406acb5c/how-i-built-a-concurrency-safe-reservation-system-2eea" rel="alternate"/>
+    <id>https://dev.to/rahul_chaduvula_a406acb5c/how-i-built-a-concurrency-safe-reservation-system-2eea</id>
+    <updated>2026-07-10T08:03:29Z</updated>
+    <summary type="text">What happens when 100 users try to reserve the same seat at exactly the same time? Without proper concurrency control, multiple users could end up booking the same seat—a classic race condition that every booking platform must solve. To better understand how production reservation systems handle this problem, I built a Concurrency-Safe Movie Reservation Backend using FastAPI, PostgreSQL, Redis, an</summary>
+    <author><name>Rahul Chaduvula</name></author>
+  </entry>
+  <entry>
+    <title>Beyond the Black Box: A Developer's Guide to Open-Weight LLM API Integration</title>
+    <link href="https://dev.to/sbt112321321/beyond-the-black-box-a-developers-guide-to-open-weight-llm-api-integration-1ea6" rel="alternate"/>
+    <id>https://dev.to/sbt112321321/beyond-the-black-box-a-developers-guide-to-open-weight-llm-api-integration-1ea6</id>
+    <updated>2026-07-10T08:01:29Z</updated>
+    <summary type="text">Beyond the Black Box: A Developer's Guide to Open-Weight LLM API Integration The landscape of artificial intelligence is shifting. For a long time, interacting with Large Language Models (LLMs) meant sending your data to a proprietary black box, hoping for the best, and paying a premium for the privilege. But the tides are turning. Enter the era of open-weight LLMs. Unlike their closed-source coun</summary>
+    <author><name>NovaStack</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users</title>
@@ -357,61 +384,5 @@
     <updated>2026-07-07T00:00:00Z</updated>
     <summary type="text">See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.</summary>
     <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Talos-XII: hand-written autograd + small RL/MLP stack in Rust, applied to gacha probability modeling (no tch-rs/ndarray/PyTorch) — looking for benchmark help on ARM/AVX-512/GPU [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1urvxgb/talosxii_handwritten_autograd_small_rlmlp_stack/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1urvxgb/talosxii_handwritten_autograd_small_rlmlp_stack/</id>
-    <updated>2026-07-09T16:52:11Z</updated>
-    <summary type="text">What it is Talos-XII is a CLI simulator for the gacha system in Arknights: Endfield. Rather than sampling from a static probability table, it trains a small set of neural nets to model environment uncertainty and pull-decision policy, then uses them to answer questions a static table can’t easily express — e.g. “as a F2P player, what’s my probability of getting the rate-up unit on free currency al</summary>
-    <author><name>/u/zay0kami</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>This is how I started using coding agents for DS/ML workflows [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1urvakh/this_is_how_i_started_using_coding_agents_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1urvakh/this_is_how_i_started_using_coding_agents_for/</id>
-    <updated>2026-07-09T16:29:37Z</updated>
-    <summary type="text">https://i.redd.it/2zg99j8jd8ch1.gif I built Lemma. She plugs into your coding agent as an MCP server, one install and it has both her rules and her tools. Every session starts with her rulebook already loaded. From there your agent calls her tools to read, manage, and interact with a live Jupyter kernel, VS Code, PyCharm, or JupyterLab, instead of trusting whatever's sitting in a static .ipynb fil</summary>
-    <author><name>/u/Spare_Suit3701</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Treat the Context Window Like a Budget, Not a Junk Drawer</title>
-    <link href="https://dev.to/orieken/treat-the-context-window-like-a-budget-not-a-junk-drawer-5602" rel="alternate"/>
-    <id>https://dev.to/orieken/treat-the-context-window-like-a-budget-not-a-junk-drawer-5602</id>
-    <updated>2026-07-07T23:54:12Z</updated>
-    <summary type="text">Most AI coding workflows treat context as something that happens accidentally. You open a few files. Paste a stack trace. Ask the model to inspect a directory. Then another. Then the chat grows heavy, the model starts missing earlier instructions, and everyone pretends the problem is &quot;the model got weird.&quot; In ai-assistant-dot-files(I probably need to rename this now as its grown into something els</summary>
-    <author><name>Oscar Rieken</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Response to 'gVisor vs Firecracker for AI Agent Sandboxing' — what we learned auditing 8,764 MCP servers</title>
-    <link href="https://dev.to/edison_flores_6d2cd381b13/response-to-gvisor-vs-firecracker-for-ai-agent-sandboxing-what-we-learned-auditing-8764-mcp-4p05" rel="alternate"/>
-    <id>https://dev.to/edison_flores_6d2cd381b13/response-to-gvisor-vs-firecracker-for-ai-agent-sandboxing-what-we-learned-auditing-8764-mcp-4p05</id>
-    <updated>2026-07-07T23:44:38Z</updated>
-    <summary type="text">I read @chunxiaoxx's excellent post MCP Security Patterns 2026: gVisor vs Firecracker for AI Agent Sandboxing and wanted to share what we actually found running gVisor in production. We built MarketNow — a marketplace for MCP servers where every server gets audited. Our L2.5 layer uses gVisor (runsc) exactly as the article describes. What the article gets right The article correctly identifies the</summary>
-    <author><name>Edison Flores</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>MCP server marketplaces compared: Smithery vs Glama vs PulseMCP vs MarketNow</title>
-    <link href="https://dev.to/edison_flores_6d2cd381b13/mcp-server-marketplaces-compared-smithery-vs-glama-vs-pulsemcp-vs-marketnow-2e83" rel="alternate"/>
-    <id>https://dev.to/edison_flores_6d2cd381b13/mcp-server-marketplaces-compared-smithery-vs-glama-vs-pulsemcp-vs-marketnow-2e83</id>
-    <updated>2026-07-07T23:43:40Z</updated>
-    <summary type="text">The MCP marketplace landscape If you're looking for MCP (Model Context Protocol) servers, there are now several marketplaces. I built one of them (MarketNow), so I'm biased — but here's an honest comparison. The 4 marketplaces Marketplace Servers Security audit Pricing Unique feature Smithery 3,000+ None Free Easy install via CLI Glama 2,000+ None Free Quality scores (algorithmic) PulseMCP 21,000+</summary>
-    <author><name>Edison Flores</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your Coding Agents Are Drowning in Context: You Pay Twice, in Tokens and in Precision</title>
-    <link href="https://dev.to/cleberdelima/your-coding-agents-are-drowning-in-context-you-pay-twice-in-tokens-and-in-precision-1pp7" rel="alternate"/>
-    <id>https://dev.to/cleberdelima/your-coding-agents-are-drowning-in-context-you-pay-twice-in-tokens-and-in-precision-1pp7</id>
-    <updated>2026-07-07T23:29:35Z</updated>
-    <summary type="text">Look at what your coding agents actually pull into context. For a single task, the agent greps the repo, runs a broad vector search, and loads dozens of files and chunks that merely resemble the request into the window before it writes a line. You pay for that twice. Once in tokens, for context the model never uses and once in precision, because the few facts that matter are now buried in lookalik</summary>
-    <author><name>Cleber de Lima</name></author>
-    <category term="rag"/>
   </entry>
 </feed>
