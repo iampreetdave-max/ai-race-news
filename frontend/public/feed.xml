@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-11T20:55:30Z</updated>
+  <updated>2026-07-11T21:55:03Z</updated>
   <entry>
     <title>OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour</title>
     <link href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/" rel="alternate"/>
@@ -140,6 +140,87 @@
     <updated>2026-07-10T16:36:02Z</updated>
     <summary type="text">AI performance comes down to three dimensions: Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...</summary>
     <author><name>Elizabeth Goodman</name></author>
+  </entry>
+  <entry>
+    <title>I built a file-grounded continuity system for my AI German teacher—what am I overcomplicating?</title>
+    <link href="https://dev.to/nr7whfms97/i-built-a-file-grounded-continuity-system-for-my-ai-german-teacher-what-am-i-overcomplicating-i32" rel="alternate"/>
+    <id>https://dev.to/nr7whfms97/i-built-a-file-grounded-continuity-system-for-my-ai-german-teacher-what-am-i-overcomplicating-i32</id>
+    <updated>2026-07-11T21:43:57Z</updated>
+    <summary type="text">Why I built this I use an AI named Felix as my German teacher. Over time, I ran into a continuity problem: individual chats are fragile. Conversations become long, context can disappear, platforms change, uploaded files may become unavailable, and a fresh AI instance may not understand what happened before. I did not want to repeatedly reconstruct my learning history, project decisions, lessons, c</summary>
+    <author><name>nr7whfms97</name></author>
+  </entry>
+  <entry>
+    <title>AI Agents &amp; Workflows: Local Deployment, Label Orchestration, Cloud Enablement</title>
+    <link href="https://dev.to/soytuber/ai-agents-workflows-local-deployment-label-orchestration-cloud-enablement-3dao" rel="alternate"/>
+    <id>https://dev.to/soytuber/ai-agents-workflows-local-deployment-label-orchestration-cloud-enablement-3dao</id>
+    <updated>2026-07-11T21:35:40Z</updated>
+    <summary type="text">AI Agents &amp; Workflows: Local Deployment, Label Orchestration, Cloud Enablement Today's Highlights This week highlights innovative approaches to AI agent deployment and orchestration, from local Dockerized workstations for privacy-first applications to novel workflow management via issue tracker labels. Cloudflare also introduces new temporary accounts, enhancing secure production deployments for a</summary>
+    <author><name>soy</name></author>
+    <category term="product-launch"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Stop Paying AWS Just to Test Your Code Locally</title>
+    <link href="https://dev.to/hammad153/stop-paying-aws-just-to-test-your-code-locally-die" rel="alternate"/>
+    <id>https://dev.to/hammad153/stop-paying-aws-just-to-test-your-code-locally-die</id>
+    <updated>2026-07-11T21:35:25Z</updated>
+    <summary type="text">Every developer building on AWS eventually runs into the same frustrations: waiting for deployments just to verify a small change, needing an internet connection for local development, watching cloud costs grow during testing, and discovering issues in CI that could have been caught earlier. That's exactly why we built LocalEmu. LocalEmu is an open-source AWS emulator that lets you build and test </summary>
+    <author><name>Hammad153</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Linux 7.2 Improves Multi-GPU Displays, M3 Support, Mesa Rusticl Defaults Arm Mali</title>
+    <link href="https://dev.to/soytuber/linux-72-improves-multi-gpu-displays-m3-support-mesa-rusticl-defaults-arm-mali-5g3l" rel="alternate"/>
+    <id>https://dev.to/soytuber/linux-72-improves-multi-gpu-displays-m3-support-mesa-rusticl-defaults-arm-mali-5g3l</id>
+    <updated>2026-07-11T21:34:39Z</updated>
+    <summary type="text">Linux 7.2 Improves Multi-GPU Displays, M3 Support, Mesa Rusticl Defaults Arm Mali Today's Highlights This week's hardware and driver news highlights include critical Linux 7.2 kernel updates for multi-GPU display detection and initial support for Apple M3 Pro/Max/Ultra SoCs. Additionally, Mesa's Rusticl OpenCL implementation now defaults to enabling Arm Mali Panfrost driver support, simplifying GP</summary>
+    <author><name>soy</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>AI News Roundup: Grok 4.5 Hits Tesla, Perplexity's Orchestrator Beats Opus, and Meta Undercuts Pricing</title>
+    <link href="https://dev.to/terminalblog/ai-news-roundup-grok-45-hits-tesla-perplexitys-orchestrator-beats-opus-and-meta-undercuts-43dl" rel="alternate"/>
+    <id>https://dev.to/terminalblog/ai-news-roundup-grok-45-hits-tesla-perplexitys-orchestrator-beats-opus-and-meta-undercuts-43dl</id>
+    <updated>2026-07-11T21:24:31Z</updated>
+    <summary type="text">Five stories moved the AI-coding world today. None are about a single model winning forever — they are about the ground shifting under who runs the agents and who pays for them. Musk puts Grok 4.5 to work at Tesla and SpaceX Tesla and SpaceX have been told to trial Grok 4.5. The signal is not the benchmark — it is that a frontier model is being pointed at real engineering and ops inside hardware c</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Got 9.9 Lower TTFT on a Real Android Phone by Reusing llama.cpp KV State</title>
+    <link href="https://dev.to/bossandboss/i-got-99x-lower-ttft-on-a-real-android-phone-by-reusing-llamacpp-kv-state-1ngi" rel="alternate"/>
+    <id>https://dev.to/bossandboss/i-got-99x-lower-ttft-on-a-real-android-phone-by-reusing-llamacpp-kv-state-1ngi</id>
+    <updated>2026-07-11T21:17:57Z</updated>
+    <summary type="text">Local LLM inference has an expensive habit: It recomputes prefixes it has already seen. A system prompt. A reused RAG document. A few-shot block. A long static context. If the prefix is identical, why pay the prefill cost again? That's the problem I explored with EdgeSync-LLM. The idea The mechanism is simple: Prompt = shared prefix + new suffix On the first request, EdgeSync prefills the prefix a</summary>
+    <author><name>bossandboss</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Offline Sync in the Browser Without a Framework</title>
+    <link href="https://dev.to/ctrotech/offline-sync-in-the-browser-without-a-framework-pai" rel="alternate"/>
+    <id>https://dev.to/ctrotech/offline-sync-in-the-browser-without-a-framework-pai</id>
+    <updated>2026-07-11T21:13:52Z</updated>
+    <summary type="text">I've been building apps with IndexedDB for years. The local part works fine — store data, query it, show it on screen. The hard part is keeping that data in sync with a server when the network comes and goes. Most tutorials show you how to build an offline app with a framework. Firebase, RxDB, WatermelonDB. Those work, but they bring their own abstractions, their own sync protocols, their own opin</summary>
+    <author><name>Odejobi Abiola Samuel</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I Made a Free AI Tool That Plans Your PQQ Responses</title>
+    <link href="https://dev.to/vystartasv/i-made-a-free-ai-tool-that-plans-your-pqq-responses-38h5" rel="alternate"/>
+    <id>https://dev.to/vystartasv/i-made-a-free-ai-tool-that-plans-your-pqq-responses-38h5</id>
+    <updated>2026-07-11T21:06:43Z</updated>
+    <summary type="text">If you've ever bid on a public sector contract, you know the PQQ drill. Someone sends you a Word document with 47 questions spread across 6 sections. Company info. Technical capability. Financial standing. Health &amp; safety. References. Maybe something about modern slavery or carbon reporting because it's 2026 and everything has to check everything. You have to: Read every question Figure out what c</summary>
+    <author><name>Vilius</name></author>
+  </entry>
+  <entry>
+    <title>AI Doesn’t Replace Agile. It Makes Good Agile More Important.</title>
+    <link href="https://dev.to/architech/ai-doesnt-replace-agile-it-makes-good-agile-more-important-5ed4" rel="alternate"/>
+    <id>https://dev.to/architech/ai-doesnt-replace-agile-it-makes-good-agile-more-important-5ed4</id>
+    <updated>2026-07-11T21:02:58Z</updated>
+    <summary type="text">AI Doesn’t Replace Agile. It Makes Good Agile More Important. The discussion around AI replacing Agile is becoming increasingly common. The argument usually goes something like this: Information is now instantly accessible. Code can be generated in hours instead of weeks. Documentation is no longer expensive to produce. Communication overhead is dramatically reduced. If all of that is true, do we </summary>
+    <author><name>Nenad</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Building a Local-First, AI-Agent Powered Trading Workstation in Docker 🚀</title>
@@ -374,82 +455,5 @@
     <summary type="text">Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give it a try and share your feedback. So, funny story I basically don't code alone anymore. Cursor is open on my left, Claude is open on my right, and I spend my day describing things to two very confident int</summary>
     <author><name>Athreya aka Maneshwar</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Turned Canadian Open Government Data Into a Live Licence-Verification Site + API (Build Log, 2026)</title>
-    <link href="https://dev.to/truenorthdata/how-i-turned-canadian-open-government-data-into-a-live-licence-verification-site-api-build-log-1a8l" rel="alternate"/>
-    <id>https://dev.to/truenorthdata/how-i-turned-canadian-open-government-data-into-a-live-licence-verification-site-api-build-log-1a8l</id>
-    <updated>2026-07-11T17:45:06Z</updated>
-    <summary type="text">Six weeks ago &quot;verify a contractor licence in Canada&quot; meant opening a different clunky government portal for every province. I wanted one search box. So I built one — a live site backed by 65,177 official contractor and home-builder licences, plus an API for the same data. This is the build log: the stack, the data pipeline, and the one bug that quietly cost me 98% of my Ontario records. The probl</summary>
-    <author><name>Dave Zavin</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Meta removes controversial AI feature on Instagram after backlash</title>
-    <link href="https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/</id>
-    <updated>2026-07-10T23:55:07Z</updated>
-    <summary type="text">Meta told Dylan Byers, of Puck News, that it had nixed the feature after backlash from its user base.</summary>
-    <author><name>Lucas Ropek</name></author>
-  </entry>
-  <entry>
-    <title>Your OpenAPI spec is already your documentation</title>
-    <link href="https://dev.to/jkballa/your-openapi-spec-is-already-your-documentation-4bch" rel="alternate"/>
-    <id>https://dev.to/jkballa/your-openapi-spec-is-already-your-documentation-4bch</id>
-    <updated>2026-07-11T17:36:00Z</updated>
-    <summary type="text">If your team defines APIs with an OpenAPI spec, you're closer to good docs than you think. That spec already describes every endpoint, parameter, and response. Machines love it. Humans reading raw YAML? Not so much. And that gap is where docs die. Someone hand-writes a &quot;readable&quot; version that immediately drifts out of sync with the spec. Close the gap. Feed your spec into OpenAPI to Markdown and g</summary>
-    <author><name>Jitendra Balla</name></author>
-  </entry>
-  <entry>
-    <title>Meta turns off the Instagram feature that let users make AI deepfakes of public accounts</title>
-    <link href="https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes" rel="alternate"/>
-    <id>https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes</id>
-    <updated>2026-07-10T23:49:50Z</updated>
-    <summary type="text">Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]</summary>
-    <author><name>Jay Peters</name></author>
-  </entry>
-  <entry>
-    <title>27 Firms Just Backed the World's First Internet Court for AI Agents</title>
-    <link href="https://dev.to/terminalblog/27-firms-just-backed-the-worlds-first-internet-court-for-ai-agents-31f7" rel="alternate"/>
-    <id>https://dev.to/terminalblog/27-firms-just-backed-the-worlds-first-internet-court-for-ai-agents-31f7</id>
-    <updated>2026-07-11T17:20:51Z</updated>
-    <summary type="text">GenLayer launched an Internet Court specifically designed for AI agents, backed by 27 firms. The pitch: when autonomous agents transact, negotiate, or execute contracts, they need a dispute-resolution layer that isn't &quot;ask a human to read the logs.&quot; The court is an on-chain mechanism where agent-to-agent disputes get adjudicated automatically — no lawyers, no tickets, no escalation to a human slac</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>New Dashboard Tool Lets You Monitor Claude Usage</title>
-    <link href="https://aibusiness.com/generative-ai/new-dashboard-tool-lets-you-monitor-claude-usage" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/new-dashboard-tool-lets-you-monitor-claude-usage</id>
-    <updated>2026-07-10T17:19:56Z</updated>
-    <summary type="text">The generative AI vendor is aiming to counter dependence on and overuse of its popular model.</summary>
-    <author><name>Graham Hope</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal</title>
-    <link href="https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/" rel="alternate"/>
-    <id>https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/</id>
-    <updated>2026-07-10T16:48:05Z</updated>
-    <summary type="text">Tencent is in talks to buy a majority stake in AI agent startup Manus at the same $2 billion valuation, according to the Financial Times, after Beijing blocked Meta's acquisition. Tencent sees overlap with its own agent plans, including for WeChat. U.S. firm Benchmark is not expected to take part. The article Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 b</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenClaw Adds a Claude Session Fleet and Production Cloud Workers</title>
-    <link href="https://dev.to/terminalblog/openclaw-adds-a-claude-session-fleet-and-production-cloud-workers-kbc" rel="alternate"/>
-    <id>https://dev.to/terminalblog/openclaw-adds-a-claude-session-fleet-and-production-cloud-workers-kbc</id>
-    <updated>2026-07-11T16:01:26Z</updated>
-    <summary type="text">OpenClaw took a clear step this window from &quot;agent you run locally&quot; toward &quot;agent you run as infrastructure.&quot; Two commits do the heavy lifting. A Claude session fleet The first adds a Claude session fleet. Rather than one Claude session per user or per task, OpenClaw can now manage a pool of sessions as a unit — start, track, and tear down many at once. For anyone running agents across a team, a f</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Crush FAANG Coding Interviews in 3 Months: The Neo Way</title>
-    <link href="https://dev.to/timevolt/how-to-crush-faang-coding-interviews-in-3-months-the-neo-way-2iag" rel="alternate"/>
-    <id>https://dev.to/timevolt/how-to-crush-faang-coding-interviews-in-3-months-the-neo-way-2iag</id>
-    <updated>2026-07-11T16:00:10Z</updated>
-    <summary type="text">The Quest Begins (The “Why”) I remember the first time I opened LeetCode after applying to a handful of FAANG roles. I felt like I was staring at a blank screen, heart pounding, wondering if I’d ever get past the first round. I’d spend hours grinding easy problems, then jump to mediums, only to find myself staring at the same pattern over and over—I could solve it when I looked at the solution, bu</summary>
-    <author><name>Timevolt</name></author>
   </entry>
 </feed>
