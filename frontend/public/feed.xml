@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-11T19:16:58Z</updated>
+  <updated>2026-07-11T20:55:30Z</updated>
   <entry>
     <title>OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour</title>
     <link href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/" rel="alternate"/>
@@ -142,12 +142,56 @@
     <author><name>Elizabeth Goodman</name></author>
   </entry>
   <entry>
+    <title>Building a Local-First, AI-Agent Powered Trading Workstation in Docker 🚀</title>
+    <link href="https://dev.to/mrhustlex/i-built-tradingspy-a-completely-local-privacy-first-ai-trading-research-assistant-backtester-15kj" rel="alternate"/>
+    <id>https://dev.to/mrhustlex/i-built-tradingspy-a-completely-local-privacy-first-ai-trading-research-assistant-backtester-15kj</id>
+    <updated>2026-07-11T20:38:51Z</updated>
+    <summary type="text">Like many devs who double as market hobbyists, my weekends usually look like a chaotic mess of Jupyter notebooks, multiple stock data APIs, and half-broken custom scripts trying to backtest a simple idea. A few months ago, I hit a wall. I realized I was writing more infrastructure plumbing than actual strategy code. When looking at commercial alternatives, I found they either cost a fortune, force</summary>
+    <author><name>Mr hustle</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>React Server Components: Under the Hood of Streaming and Client Boundaries</title>
+    <link href="https://dev.to/mspk97/react-server-components-under-the-hood-of-streaming-and-client-boundaries-57po" rel="alternate"/>
+    <id>https://dev.to/mspk97/react-server-components-under-the-hood-of-streaming-and-client-boundaries-57po</id>
+    <updated>2026-07-11T20:24:08Z</updated>
+    <summary type="text">You’ve probably hit that moment where your React app feels sluggish, or where splitting code between client and server logic gets messy fast. React Server Components (RSC) promise to fix that by letting you run components on the server while streaming their output to the client , all without losing interactivity. But how does this actually work under the hood? I dug into the mechanics to understan</summary>
+    <author><name>Srikar Phani Kumar Marti</name></author>
+  </entry>
+  <entry>
     <title>Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI</title>
     <link href="https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/</id>
     <updated>2026-07-10T20:21:08Z</updated>
     <summary type="text">MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline, benchmarks against YourMT3+, instrument conditioning, and setup, with an interactive explainer demo. The post Kyutai Releases MuScriptor: An Open-Weight Decoder-O</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Tablas STRICT en SQLite: fin a los bugs de tipos desde la 3.37</title>
+    <link href="https://dev.to/lu1tr0n/tablas-strict-en-sqlite-fin-a-los-bugs-de-tipos-desde-la-337-24m7" rel="alternate"/>
+    <id>https://dev.to/lu1tr0n/tablas-strict-en-sqlite-fin-a-los-bugs-de-tipos-desde-la-337-24m7</id>
+    <updated>2026-07-11T20:05:42Z</updated>
+    <summary type="text">Por defecto, SQLite permite guardar texto en una columna declarada como número, o insertar un valor con formato desconocido en cualquier campo. Desde la versión 3.37.0, publicada en noviembre de 2021, existe una alternativa que corrige ese comportamiento: las tablas STRICT, que obligan a SQLite a respetar el tipo de dato declarado en cada columna. El desarrollador Evan Hahn retomó el tema en un ar</summary>
+    <author><name>lu1tr0n</name></author>
+  </entry>
+  <entry>
+    <title>Stop Moving Pixels: Mastering Zero-Copy Image Processing for High-Performance Edge AI</title>
+    <link href="https://dev.to/programmingcentral/stop-moving-pixels-mastering-zero-copy-image-processing-for-high-performance-edge-ai-3n46" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/stop-moving-pixels-mastering-zero-copy-image-processing-for-high-performance-edge-ai-3n46</id>
+    <updated>2026-07-11T20:00:00Z</updated>
+    <summary type="text">You’ve spent months optimizing your neural network. You’ve pruned the weights, quantized to INT8, and selected the most efficient architecture for your mobile vision model. Your NPU (Neural Processing Unit) boasts massive TFLOPS, and your GPU is ready to roar. Yet, when you run your real-time inference pipeline on a flagship Android device, the results are underwhelming. Frames drop, the device ge</summary>
+    <author><name>Programming Central</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Exploded: Break it and learn it</title>
+    <link href="https://dev.to/ananth_ram_omkar/exploded-break-it-and-learn-it-4663" rel="alternate"/>
+    <id>https://dev.to/ananth_ram_omkar/exploded-break-it-and-learn-it-4663</id>
+    <updated>2026-07-11T19:57:03Z</updated>
+    <summary type="text">This is a submission for Weekend Challenge: Passion Edition What I Built From my childhood I loved to take things apart and learn how stuff around works.But that's not very practical (ehh..couldn't always assemble it back 🥲. Soo, now in college and getting this passion challenge, I decided to make this digital with Three.js. From a list of 3D objects (including hard disk, watch and smart phone) se</summary>
+    <author><name>Ananth Ram Omkar K Prabhu</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -158,6 +202,46 @@
     <summary type="text">OpenAI head of safety Johannes Heidecke is leaving the artificial intelligence company following a reorganization, according to Wired.</summary>
     <author><name>Yi Wei Wong</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>No Baked-In Behavior: Why Your AI Agent's System Prompt Should Be Yours</title>
+    <link href="https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2" rel="alternate"/>
+    <id>https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2</id>
+    <updated>2026-07-11T19:45:26Z</updated>
+    <summary type="text">Every AI coding agent ships with baked-in behavior. Hidden system prompts you can't see. Tools you can't remove. Steering baked in by the company that made it. It's just how these products work. Batteries included. Claude Code has a system prompt. A long one. It tells the agent how to behave, what to prioritize, what to avoid. It's not exposed in the product. You can dig it out of the npm package </summary>
+    <author><name>Daniel Bílek</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GPT-5.6 Sol Matches Claude Fable 5 on Code Arena — For 40% Less</title>
+    <link href="https://dev.to/terminalblog/gpt-56-sol-matches-claude-fable-5-on-code-arena-for-40-less-2i22" rel="alternate"/>
+    <id>https://dev.to/terminalblog/gpt-56-sol-matches-claude-fable-5-on-code-arena-for-40-less-2i22</id>
+    <updated>2026-07-11T19:45:01Z</updated>
+    <summary type="text">The benchmark numbers landed, and they are tight: GPT-5.6 Sol tied Claude Fable 5 on Code Arena — the standard coding agent evaluation — while costing 40% less. That is the kind of performance-per-dollar delta that makes budgeting for agentic workflows interesting again. Code Arena measures real-world code generation, debugging, and refactoring tasks. A tie means both models produce comparable qua</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenScience Emerges as Open-Source AI Workbench for Researchers</title>
+    <link href="https://dev.to/dd8888/openscience-emerges-as-open-source-ai-workbench-for-researchers-38l3" rel="alternate"/>
+    <id>https://dev.to/dd8888/openscience-emerges-as-open-source-ai-workbench-for-researchers-38l3</id>
+    <updated>2026-07-11T19:38:13Z</updated>
+    <summary type="text">OpenScience, a new open-source AI workbench developed primarily in TypeScript, has garnered significant attention on GitHub, amassing over 2,167 stars. This project aims to provide a collaborative environment for scientific research, leveraging AI tools to streamline workflows. The emergence of OpenScience highlights an ongoing trend of open-source solutions in research, but it raises questions ab</summary>
+    <author><name>David Díaz</name></author>
+    <category term="open-source"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Kraken’s Mobile Relaunch Puts Agentic Trading Bots in Your Pocket</title>
+    <link href="https://dev.to/terminalblog/krakens-mobile-relaunch-puts-agentic-trading-bots-in-your-pocket-48i4" rel="alternate"/>
+    <id>https://dev.to/terminalblog/krakens-mobile-relaunch-puts-agentic-trading-bots-in-your-pocket-48i4</id>
+    <updated>2026-07-11T19:37:54Z</updated>
+    <summary type="text">Agentic behavior is moving from developer terminals into consumer apps. Kraken relaunched its mobile app with integrated agentic trading bots — automated strategies that run directly on your phone, no separate infrastructure or API key management needed. This is a notable move because it normalizes autonomous agents for a mainstream audience. The same pattern that powers coding agents — a model th</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis</title>
@@ -367,81 +451,5 @@
     <updated>2026-07-11T16:00:10Z</updated>
     <summary type="text">The Quest Begins (The “Why”) I remember the first time I opened LeetCode after applying to a handful of FAANG roles. I felt like I was staring at a blank screen, heart pounding, wondering if I’d ever get past the first round. I’d spend hours grinding easy problems, then jump to mediums, only to find myself staring at the same pattern over and over—I could solve it when I looked at the solution, bu</summary>
     <author><name>Timevolt</name></author>
-  </entry>
-  <entry>
-    <title>AI Hallucinations: Fixing &quot;Nice School Code&quot; Errors with an API</title>
-    <link href="https://dev.to/junhee916/ai-hallucinations-fixing-nice-school-code-errors-with-an-api-1fak" rel="alternate"/>
-    <id>https://dev.to/junhee916/ai-hallucinations-fixing-nice-school-code-errors-with-an-api-1fak</id>
-    <updated>2026-07-11T16:00:00Z</updated>
-    <summary type="text">AI Answer Errors: The Nice School Code Hallucination Phenomenon, Solved with an API in 2026 There were times when AI answers would occasionally spit out strange Nice school codes. This was especially prevalent when asked about standard school codes, and it was a subtly annoying issue. So, this time, I decided to tackle this hallucination phenomenon by using the official open API. Attempts and Pitf</summary>
-    <author><name>박준희</name></author>
-  </entry>
-  <entry>
-    <title>Why I rewrote `sirv` for Edge Runtimes (and added a plugin system)</title>
-    <link href="https://dev.to/rabbxdev/why-i-rewrote-sirv-for-edge-runtimes-and-added-a-plugin-system-213p" rel="alternate"/>
-    <id>https://dev.to/rabbxdev/why-i-rewrote-sirv-for-edge-runtimes-and-added-a-plugin-system-213p</id>
-    <updated>2026-07-11T15:59:09Z</updated>
-    <summary type="text">Lukeed's sirv is legendary, but the edge runtime landscape has shifted. We need zero-copy streaming, native Web APIs, and composable transforms without pulling in Node-specific shims. Enter @rabbx/sirv. It’s an ultra-fast, zero-dependency static file middleware for Bun, Deno, Node.js, and Cloudflare Workers. The Problem with Existing Middleware Most static servers are built for Node.js. When you t</summary>
-    <author><name>rabbxdev</name></author>
-  </entry>
-  <entry>
-    <title>How to clone a Keycloak realm on the same instance (fixing &quot;duplicate key value violates unique constraint&quot;)</title>
-    <link href="https://dev.to/vimukthishohanjay/how-to-clone-a-keycloak-realm-on-the-same-instance-fixing-duplicate-key-value-violates-unique-25ja" rel="alternate"/>
-    <id>https://dev.to/vimukthishohanjay/how-to-clone-a-keycloak-realm-on-the-same-instance-fixing-duplicate-key-value-violates-unique-25ja</id>
-    <updated>2026-07-11T15:48:07Z</updated>
-    <summary type="text">If you've ever tried to duplicate a Keycloak realm on the same server — say, to spin up a myrealm-dev realm alongside your existing myrealm — you've probably hit this wall: Export the realm from the Admin Console (Realm settings → Action → Partial export, with clients and groups/roles included). Rename it in a text editor, or in the import dialog's &quot;realm name&quot; field. Import it back into the same </summary>
-    <author><name>Vimukthi Shohan Jayawardana</name></author>
-  </entry>
-  <entry>
-    <title>Your Background Subagents Can Leak Secrets — Build the Isolation Model</title>
-    <link href="https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h" rel="alternate"/>
-    <id>https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h</id>
-    <updated>2026-07-11T15:44:20Z</updated>
-    <summary type="text">Developers flagged a freshly filed, reproducible issue that should make anyone running background agents pause: Claude Code's background Opus subagents intermittently stall on their first turn and, instead of producing useful work, emit system-prompt fragments — including text shaped like authorization data — as their only output. It's labeled a security issue, it has a reproduction, and it's open</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Tencent's Hy3 Coding AI Puts Input Tokens at $0.14 Per Million</title>
-    <link href="https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1" rel="alternate"/>
-    <id>https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1</id>
-    <updated>2026-07-11T15:44:19Z</updated>
-    <summary type="text">The feed showed a new entrant worth watching: Tencent has launched Hy3, a coding-focused AI model, with input tokens priced at $0.14 per million. For developers who live in the terminal running coding agents, that price point lands well below the per-token rates most frontier models charge, and it puts a major lab's coding model into the &quot;cheap enough to leave running&quot; category. What makes this in</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The JDK's forgotten JMX protocol</title>
-    <link href="https://dev.to/deniss_larka/the-jdks-forgotten-jmx-protocol-4pci" rel="alternate"/>
-    <id>https://dev.to/deniss_larka/the-jdks-forgotten-jmx-protocol-4pci</id>
-    <updated>2026-07-11T15:36:29Z</updated>
-    <summary type="text">Every Java engineer who has connected JConsole — or JDK Mission Control — to a server in another network segment knows the ritual. Open the JMX port. Discover that RMI quietly opened a second port — random by default. Pin it with a system property nobody remembers without searching. File a firewall ticket for both. Wait. What fewer people know: the JMX specification shipped with the second remote </summary>
-    <author><name>Deniss Larka</name></author>
-  </entry>
-  <entry>
-    <title>SK Hynix Debut Is a Bet That AI Breaks Boom-and-Bust Chip Cycle</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle</id>
-    <updated>2026-07-10T21:52:56Z</updated>
-    <summary type="text">South Korean memory chipmaker SK Hynix Inc. just pulled off the largest public listing by a foreign company in US market history. Shares soared 13% on their first day of trading.</summary>
-    <author><name>Maggie Eastland, Edward Ludlow, Yoolim Lee, Dina Bass</name></author>
-  </entry>
-  <entry>
-    <title>How to Add Evals to an LLM Feature</title>
-    <link href="https://dev.to/techpotions/how-to-add-evals-to-an-llm-feature-3c20" rel="alternate"/>
-    <id>https://dev.to/techpotions/how-to-add-evals-to-an-llm-feature-3c20</id>
-    <updated>2026-07-11T15:30:39Z</updated>
-    <summary type="text">Learning how to add evals to an LLM feature is the difference between shipping a demo and shipping a reliable product. When you embed an LLM into a real feature — a chatbot, a voice agent, a document summarizer — you’re not just calling a model. You’re betting your user’s experience on a non‑deterministic system that can silently break with every prompt tweak, model update, or edge case. That’s wh</summary>
-    <author><name>techpotions</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Memprediksi Peluang Klub Promosi Bertahan di Liga Top Eropa — Part 1: Kickoff &amp; Rencana</title>
-    <link href="https://dev.to/daggermaster/memprediksi-peluang-klub-promosi-bertahan-di-liga-top-eropa-part-1-kickoff-rencana-256c" rel="alternate"/>
-    <id>https://dev.to/daggermaster/memprediksi-peluang-klub-promosi-bertahan-di-liga-top-eropa-part-1-kickoff-rencana-256c</id>
-    <updated>2026-07-11T15:29:12Z</updated>
-    <summary type="text">series: Prediksi Survival Klub Debutan Kenapa Project Ini? Setiap musim, klub yang promosi ke liga top (Premier League, La Liga, dst.) menghadapi risiko besar: sekitar 2 dari 3 klub yang naik biasanya kembali terdegradasi di musim pertama mereka. Saya penasaran — bisakah performa di beberapa laga awal musim memberi sinyal dini soal peluang klub tersebut bertahan? Ini jadi project portofolio pertam</summary>
-    <author><name>Daggermaster</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
