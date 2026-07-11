@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-11T09:42:14Z</updated>
+  <updated>2026-07-11T11:09:47Z</updated>
   <entry>
     <title>China's Orca world model matches specialized robotics systems without ever seeing a single action label</title>
     <link href="https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/" rel="alternate"/>
@@ -32,6 +32,16 @@
     <summary type="text">Following the launch of ChatGPT Work and GPT-5.6 Sol, OpenAI has acknowledged significant issues: excessive compute usage, a confusing transition to the desktop interface for chats and projects, an unclear distinction between Codex and ChatGPT Work, and regressions in existing workflows. In some cases, GPT-5.6 Sol reportedly deleted data on its own that the user had not authorized. The article Ope</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI</title>
+    <link href="https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/</id>
+    <updated>2026-07-11T07:56:11Z</updated>
+    <summary type="text">Ant Group's Robbyant has released the LingBot-VA 2.0 technical report — a Physical AI video-action foundation model built from scratch for embodiment rather than fine-tuned from a video generator. It predicts future states ahead of execution through Foresight Reasoning, re-grounds on every real observation, and reaches 225 Hz asynchronous control. We break down the causal DiT, the sparse-MoE video</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>Apple sues OpenAI for allegedly running a &quot;coordinated campaign&quot; to steal trade secrets through poached employees</title>
@@ -260,6 +270,40 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>acpdbg: let the agent sit at the debugger 🐛</title>
+    <link href="https://dev.to/phimage/acpdbg-let-the-agent-sit-at-the-debugger-47co" rel="alternate"/>
+    <id>https://dev.to/phimage/acpdbg-let-the-agent-sit-at-the-debugger-47co</id>
+    <updated>2026-07-11T11:08:35Z</updated>
+    <summary type="text">I had an idea, and it starts from a habit. LLM agents are genuinely good at static analysis: give them a backtrace and the source around it, and they usually spot the bad pointer before I do. So what do I actually do when a native program crashes? I copy the stack trace from the debugger, paste it into the agent's context, then copy the source of the functions involved, paste again… I'm the transp</summary>
+    <author><name>Eric Marchand</name></author>
+  </entry>
+  <entry>
+    <title>Cloud Storage: Object vs Block vs File</title>
+    <link href="https://dev.to/sri2614/cloud-storage-object-vs-block-vs-file-17p3" rel="alternate"/>
+    <id>https://dev.to/sri2614/cloud-storage-object-vs-block-vs-file-17p3</id>
+    <updated>2026-07-11T11:00:26Z</updated>
+    <summary type="text">Three kinds of storage, and why it matters &quot;Just store the file&quot; turns out to have three very different answers in the cloud, and picking the wrong one is a classic, and expensive, beginner mistake. People put a database on the wrong storage and it's slow; or they store millions of images on a disk that can only attach to one server. The three types are object, block, and file storage. Each is bui</summary>
+    <author><name>Sri Balaji</name></author>
+  </entry>
+  <entry>
+    <title>5 launchd Traps I Hit Running Claude Code Automation 24/7 on macOS</title>
+    <link href="https://dev.to/bokuwalily/5-launchd-traps-i-hit-running-claude-code-automation-247-on-macos-32bi" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/5-launchd-traps-i-hit-running-claude-code-automation-247-on-macos-32bi</id>
+    <updated>2026-07-11T11:00:05Z</updated>
+    <summary type="text">In earlier posts I walked through a mechanism that auto-generates skills and context auditing. The whole point of these is to run them automatically at a fixed time every night — that's where the value comes from. Right now my setup has 20 launchd jobs running (skill generation, context audits, a morning briefing generator, Vault ingestion, and more). The catch: setting up scheduled jobs on macOS </summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Same Symptoms, Different Care</title>
+    <link href="https://dev.to/rawveg/same-symptoms-different-care-4701" rel="alternate"/>
+    <id>https://dev.to/rawveg/same-symptoms-different-care-4701</id>
+    <updated>2026-07-11T11:00:00Z</updated>
+    <summary type="text">The promise was straightforward enough. Large language models, trained on the sum total of medical literature, would help emergency physicians triage patients faster, assist radiologists in catching what the human eye missed, and give overwhelmed clinicians a second opinion when the waiting room was full and the clock was running. The reality, according to a growing body of peer-reviewed research,</summary>
+    <author><name>Tim Green</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs</title>
     <link href="https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/" rel="alternate"/>
     <id>https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/</id>
@@ -267,6 +311,41 @@
     <summary type="text">The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.</summary>
     <author><name>Kate Park</name></author>
     <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Building a Freelance Platform on Cloudflare Workers: The Good, The Bad, and The Pyodide</title>
+    <link href="https://dev.to/aiomniu/building-a-freelance-platform-on-cloudflare-workers-the-good-the-bad-and-the-pyodide-nm3" rel="alternate"/>
+    <id>https://dev.to/aiomniu/building-a-freelance-platform-on-cloudflare-workers-the-good-the-bad-and-the-pyodide-nm3</id>
+    <updated>2026-07-11T10:55:01Z</updated>
+    <summary type="text">Building a Freelance Platform on Cloudflare Workers: The Good, The Bad, and The Pyodide Six months ago I sat down to build aiomniu — a freelance marketplace for AI and tech projects. The constraints were simple: zero budget, fast load times, and a backend I could write in Python. The stack I ended up with: Cloudflare Workers + Pyodide + FastAPI on the backend, Next.js 15 + OpenNext on the frontend</summary>
+    <author><name>aiomniu</name></author>
+  </entry>
+  <entry>
+    <title>XRPL MEMO SCANNER (OPEN SOURCE)</title>
+    <link href="https://dev.to/ghostrayu/xrpl-memo-scanner-open-source-3i57" rel="alternate"/>
+    <id>https://dev.to/ghostrayu/xrpl-memo-scanner-open-source-3i57</id>
+    <updated>2026-07-11T10:47:41Z</updated>
+    <summary type="text">This is a submission for Weekend Challenge: Passion Edition What I Built a zero-backend web tool that scans any XRP Ledger (or Xahau) address's entire transaction history and surfaces every memo it's ever left on-chain, decoded from raw hex into readable text or JSON. The Memos field on XRPL/Xahau transactions is public, permanent, and almost entirely ignored by mainstream tooling — most explorers</summary>
+    <author><name>GHOST RAYU</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Claude Code, Beyond the Prompt — Part 4: Your First MCP Server (Give Claude Safe Hands on Your Own Tools)</title>
+    <link href="https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p" rel="alternate"/>
+    <id>https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</id>
+    <updated>2026-07-11T10:45:28Z</updated>
+    <summary type="text">Part 4 of Claude Code, Beyond the Prompt — patterns from running a live automated trading system on Claude Code. Part 3: slash commands and skills. Here's a workflow you've definitely done: You ask Claude what's wrong with production. It can't see production. So you SSH in, run a command, copy the output, paste it back into the chat. Claude reads it, asks for another command. You run that, copy, p</summary>
+    <author><name>Gde</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Every per-IP control we shipped was bypassable with one header</title>
+    <link href="https://dev.to/authagonal/every-per-ip-control-we-shipped-was-bypassable-with-one-header-371i" rel="alternate"/>
+    <id>https://dev.to/authagonal/every-per-ip-control-we-shipped-was-bypassable-with-one-header-371i</id>
+    <updated>2026-07-11T10:44:30Z</updated>
+    <summary type="text">Our account-lockout counter capped failed logins at five. Our rate limiter throttled abusive clients. Both keyed off the client's IP address, which is the obvious thing to key them off. Both were completely bypassable, and the bypass was a single HTTP header you could set yourself. Here is why. When your app runs behind a reverse proxy, and ours runs behind nginx on Kubernetes, the TCP connection </summary>
+    <author><name>authagonal</name></author>
   </entry>
   <entry>
     <title>Spotify will let you fine-tune your weekly Release Radar playlist</title>
@@ -369,84 +448,5 @@
     <author><name>Odilon HUGONNOT</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What an agent pays to read your site</title>
-    <link href="https://dev.to/turva-dev/what-an-agent-pays-to-read-your-site-ge9" rel="alternate"/>
-    <id>https://dev.to/turva-dev/what-an-agent-pays-to-read-your-site-ge9</id>
-    <updated>2026-07-11T09:00:00Z</updated>
-    <summary type="text">When an AI agent visits your site to check a price or finish a task for someone, it pays to read the page. That cost is counted in tokens, and a normal HTML page is expensive. Navigation, styling, scripts and structured data all arrive whether the agent needs them or not. The agent either spends its budget getting past that markup or runs out of room and reads only part of the page. Both outcomes </summary>
-    <author><name>Erik Rekola</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Why SNS Silently Drops Your Messages and How to Catch It Before You Ship</title>
-    <link href="https://dev.to/siddharth_pandey_27/why-sns-silently-drops-your-messages-and-how-to-catch-it-before-you-ship-1fcm" rel="alternate"/>
-    <id>https://dev.to/siddharth_pandey_27/why-sns-silently-drops-your-messages-and-how-to-catch-it-before-you-ship-1fcm</id>
-    <updated>2026-07-11T08:53:46Z</updated>
-    <summary type="text">Your checkout service publishes an OrderRefunded event to an SNS topic. The publish call returns a MessageId. No exception, no retry, nothing in the dead-letter queue. Three days later a customer emails asking where their refund is, and you discover the refund Lambda was never invoked. The message wasn't lost. It was filtered. One of the topic's subscriptions has a filter policy that requires an e</summary>
-    <author><name>Siddharth Pandey</name></author>
-  </entry>
-  <entry>
-    <title>Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data</title>
-    <link href="https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/</id>
-    <updated>2026-07-10T08:52:04Z</updated>
-    <summary type="text">SensorFM, a wearable health foundation model from Google Research, Google DeepMind, and university collaborators. We walk through its ViT-1D masked-autoencoder backbone, pretrained on more than one trillion minutes of unlabeled sensor signals from 5,000,000 consented participants. We examine the co-scaling results across four model sizes and four data volumes, including the case where capacity out</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Government Action is Crucial for AI Entrepreneurs Says Pelgo CEO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-10/gov-action-vital-for-ai-entrepreneurs-says-pelgo-ceo-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-10/gov-action-vital-for-ai-entrepreneurs-says-pelgo-ceo-video</id>
-    <updated>2026-07-10T15:08:48Z</updated>
-    <summary type="text">Artificial intelligence could reshape the jobs of nearly 80 million people across Southeast Asia, but there is little sign it has led to large-scale employment cuts, according to the International Labour Organization. The ILO urged governments to strengthen AI governance and better integrate AI policies through a human-centered approach to help workers and businesses adapt. Pelgo CEO Chieh Huang d</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>Vault auth methods — OIDC for humans, Kubernetes for workloads</title>
-    <link href="https://dev.to/secopsloghq/vault-auth-methods-oidc-for-humans-kubernetes-for-workloads-iok" rel="alternate"/>
-    <id>https://dev.to/secopsloghq/vault-auth-methods-oidc-for-humans-kubernetes-for-workloads-iok</id>
-    <updated>2026-07-11T08:47:00Z</updated>
-    <summary type="text">Humans via SSO, workloads via service accounts. Think of Vault as a secured building with two entrances. Humans walk in through the front lobby, where the badge reader is wired straight into your corporate identity provider — there is no separate Vault password to remember or leak, just the SSO login your engineers already have. Workloads use the loading dock around back, where the only ID that co</summary>
-    <author><name>secopslog</name></author>
-  </entry>
-  <entry>
-    <title>AI Bust Fallout Would Be 'More Significant' Than Dot-Com, Says George Noble</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-10/ai-bust-would-be-worse-than-dot-com-bubble-says-noble-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-10/ai-bust-would-be-worse-than-dot-com-bubble-says-noble-video</id>
-    <updated>2026-07-10T15:05:31Z</updated>
-    <summary type="text">The US stock market’s rally to new highs has been propelled by so few stocks that it’s reminding some on Wall Street of the runup to the dot-com bubble. George Noble, Managing Partner of Noble Capital Advisors, discusses the AI trade and how he believes the coming bust would be much worse than the dot-com bubble fallout. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits</title>
-    <link href="https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/</id>
-    <updated>2026-07-10T15:00:09Z</updated>
-    <summary type="text">The massive round was co-led by ARCH Venture Partners, Spark Capital, and Khosla Ventures.</summary>
-    <author><name>Marina Temkin</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>EU threatens Meta with fines over addictive features on Facebook and Instagram</title>
-    <link href="https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/</id>
-    <updated>2026-07-10T14:19:40Z</updated>
-    <summary type="text">The tech giant is in breach of the Digital Services Act by focusing on features like infinite scroll, autoplay, push notifications, and the highly personalized recommendation algorithms, the European Commission said.</summary>
-    <author><name>Aisha Malik</name></author>
-  </entry>
-  <entry>
-    <title>Hugging Face’s CEO on why companies are done renting their AI</title>
-    <link href="https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/</id>
-    <updated>2026-07-10T14:00:00Z</updated>
-    <summary type="text">Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start […]</summary>
-    <author><name>Theresa Loconsolo</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
