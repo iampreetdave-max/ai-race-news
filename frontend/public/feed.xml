@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-11T14:58:54Z</updated>
+  <updated>2026-07-11T16:02:58Z</updated>
   <entry>
     <title>China's Orca world model matches specialized robotics systems without ever seeing a single action label</title>
     <link href="https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/" rel="alternate"/>
@@ -216,12 +216,107 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>OpenClaw Adds a Claude Session Fleet and Production Cloud Workers</title>
+    <link href="https://dev.to/terminalblog/openclaw-adds-a-claude-session-fleet-and-production-cloud-workers-kbc" rel="alternate"/>
+    <id>https://dev.to/terminalblog/openclaw-adds-a-claude-session-fleet-and-production-cloud-workers-kbc</id>
+    <updated>2026-07-11T16:01:26Z</updated>
+    <summary type="text">OpenClaw took a clear step this window from &quot;agent you run locally&quot; toward &quot;agent you run as infrastructure.&quot; Two commits do the heavy lifting. A Claude session fleet The first adds a Claude session fleet. Rather than one Claude session per user or per task, OpenClaw can now manage a pool of sessions as a unit — start, track, and tear down many at once. For anyone running agents across a team, a f</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Crush FAANG Coding Interviews in 3 Months: The Neo Way</title>
+    <link href="https://dev.to/timevolt/how-to-crush-faang-coding-interviews-in-3-months-the-neo-way-2iag" rel="alternate"/>
+    <id>https://dev.to/timevolt/how-to-crush-faang-coding-interviews-in-3-months-the-neo-way-2iag</id>
+    <updated>2026-07-11T16:00:10Z</updated>
+    <summary type="text">The Quest Begins (The “Why”) I remember the first time I opened LeetCode after applying to a handful of FAANG roles. I felt like I was staring at a blank screen, heart pounding, wondering if I’d ever get past the first round. I’d spend hours grinding easy problems, then jump to mediums, only to find myself staring at the same pattern over and over—I could solve it when I looked at the solution, bu</summary>
+    <author><name>Timevolt</name></author>
+  </entry>
+  <entry>
+    <title>AI Hallucinations: Fixing &quot;Nice School Code&quot; Errors with an API</title>
+    <link href="https://dev.to/junhee916/ai-hallucinations-fixing-nice-school-code-errors-with-an-api-1fak" rel="alternate"/>
+    <id>https://dev.to/junhee916/ai-hallucinations-fixing-nice-school-code-errors-with-an-api-1fak</id>
+    <updated>2026-07-11T16:00:00Z</updated>
+    <summary type="text">AI Answer Errors: The Nice School Code Hallucination Phenomenon, Solved with an API in 2026 There were times when AI answers would occasionally spit out strange Nice school codes. This was especially prevalent when asked about standard school codes, and it was a subtly annoying issue. So, this time, I decided to tackle this hallucination phenomenon by using the official open API. Attempts and Pitf</summary>
+    <author><name>박준희</name></author>
+  </entry>
+  <entry>
+    <title>Why I rewrote `sirv` for Edge Runtimes (and added a plugin system)</title>
+    <link href="https://dev.to/rabbxdev/why-i-rewrote-sirv-for-edge-runtimes-and-added-a-plugin-system-213p" rel="alternate"/>
+    <id>https://dev.to/rabbxdev/why-i-rewrote-sirv-for-edge-runtimes-and-added-a-plugin-system-213p</id>
+    <updated>2026-07-11T15:59:09Z</updated>
+    <summary type="text">Lukeed's sirv is legendary, but the edge runtime landscape has shifted. We need zero-copy streaming, native Web APIs, and composable transforms without pulling in Node-specific shims. Enter @rabbx/sirv. It’s an ultra-fast, zero-dependency static file middleware for Bun, Deno, Node.js, and Cloudflare Workers. The Problem with Existing Middleware Most static servers are built for Node.js. When you t</summary>
+    <author><name>rabbxdev</name></author>
+  </entry>
+  <entry>
+    <title>How to clone a Keycloak realm on the same instance (fixing &quot;duplicate key value violates unique constraint&quot;)</title>
+    <link href="https://dev.to/vimukthishohanjay/how-to-clone-a-keycloak-realm-on-the-same-instance-fixing-duplicate-key-value-violates-unique-25ja" rel="alternate"/>
+    <id>https://dev.to/vimukthishohanjay/how-to-clone-a-keycloak-realm-on-the-same-instance-fixing-duplicate-key-value-violates-unique-25ja</id>
+    <updated>2026-07-11T15:48:07Z</updated>
+    <summary type="text">If you've ever tried to duplicate a Keycloak realm on the same server — say, to spin up a myrealm-dev realm alongside your existing myrealm — you've probably hit this wall: Export the realm from the Admin Console (Realm settings → Action → Partial export, with clients and groups/roles included). Rename it in a text editor, or in the import dialog's &quot;realm name&quot; field. Import it back into the same </summary>
+    <author><name>Vimukthi Shohan Jayawardana</name></author>
+  </entry>
+  <entry>
+    <title>Your Background Subagents Can Leak Secrets — Build the Isolation Model</title>
+    <link href="https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h" rel="alternate"/>
+    <id>https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h</id>
+    <updated>2026-07-11T15:44:20Z</updated>
+    <summary type="text">Developers flagged a freshly filed, reproducible issue that should make anyone running background agents pause: Claude Code's background Opus subagents intermittently stall on their first turn and, instead of producing useful work, emit system-prompt fragments — including text shaped like authorization data — as their only output. It's labeled a security issue, it has a reproduction, and it's open</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Tencent's Hy3 Coding AI Puts Input Tokens at $0.14 Per Million</title>
+    <link href="https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1" rel="alternate"/>
+    <id>https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1</id>
+    <updated>2026-07-11T15:44:19Z</updated>
+    <summary type="text">The feed showed a new entrant worth watching: Tencent has launched Hy3, a coding-focused AI model, with input tokens priced at $0.14 per million. For developers who live in the terminal running coding agents, that price point lands well below the per-token rates most frontier models charge, and it puts a major lab's coding model into the &quot;cheap enough to leave running&quot; category. What makes this in</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The JDK's forgotten JMX protocol</title>
+    <link href="https://dev.to/deniss_larka/the-jdks-forgotten-jmx-protocol-4pci" rel="alternate"/>
+    <id>https://dev.to/deniss_larka/the-jdks-forgotten-jmx-protocol-4pci</id>
+    <updated>2026-07-11T15:36:29Z</updated>
+    <summary type="text">Every Java engineer who has connected JConsole — or JDK Mission Control — to a server in another network segment knows the ritual. Open the JMX port. Discover that RMI quietly opened a second port — random by default. Pin it with a system property nobody remembers without searching. File a firewall ticket for both. Wait. What fewer people know: the JMX specification shipped with the second remote </summary>
+    <author><name>Deniss Larka</name></author>
+  </entry>
+  <entry>
     <title>SK Hynix Debut Is a Bet That AI Breaks Boom-and-Bust Chip Cycle</title>
     <link href="https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle</id>
     <updated>2026-07-10T21:52:56Z</updated>
     <summary type="text">South Korean memory chipmaker SK Hynix Inc. just pulled off the largest public listing by a foreign company in US market history. Shares soared 13% on their first day of trading.</summary>
     <author><name>Maggie Eastland, Edward Ludlow, Yoolim Lee, Dina Bass</name></author>
+  </entry>
+  <entry>
+    <title>How to Add Evals to an LLM Feature</title>
+    <link href="https://dev.to/techpotions/how-to-add-evals-to-an-llm-feature-3c20" rel="alternate"/>
+    <id>https://dev.to/techpotions/how-to-add-evals-to-an-llm-feature-3c20</id>
+    <updated>2026-07-11T15:30:39Z</updated>
+    <summary type="text">Learning how to add evals to an LLM feature is the difference between shipping a demo and shipping a reliable product. When you embed an LLM into a real feature — a chatbot, a voice agent, a document summarizer — you’re not just calling a model. You’re betting your user’s experience on a non‑deterministic system that can silently break with every prompt tweak, model update, or edge case. That’s wh</summary>
+    <author><name>techpotions</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Memprediksi Peluang Klub Promosi Bertahan di Liga Top Eropa — Part 1: Kickoff &amp; Rencana</title>
+    <link href="https://dev.to/daggermaster/memprediksi-peluang-klub-promosi-bertahan-di-liga-top-eropa-part-1-kickoff-rencana-256c" rel="alternate"/>
+    <id>https://dev.to/daggermaster/memprediksi-peluang-klub-promosi-bertahan-di-liga-top-eropa-part-1-kickoff-rencana-256c</id>
+    <updated>2026-07-11T15:29:12Z</updated>
+    <summary type="text">series: Prediksi Survival Klub Debutan Kenapa Project Ini? Setiap musim, klub yang promosi ke liga top (Premier League, La Liga, dst.) menghadapi risiko besar: sekitar 2 dari 3 klub yang naik biasanya kembali terdegradasi di musim pertama mereka. Saya penasaran — bisakah performa di beberapa laga awal musim memberi sinyal dini soal peluang klub tersebut bertahan? Ini jadi project portofolio pertam</summary>
+    <author><name>Daggermaster</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work</title>
+    <link href="https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/" rel="alternate"/>
+    <id>https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/</id>
+    <updated>2026-07-11T15:00:00Z</updated>
+    <summary type="text">LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality. This article introduces a deterministic prompt-pruning layer that reduces token usage without breaking dependencies, backed by real benchmarks and production-tested design. The po</summary>
+    <author><name>Emmimal P Alexander</name></author>
+    <category term="product-launch"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Practice Real-World Testing Scenarios for QA: Challenge 2 - Data Grid Validation and CRUD Operations</title>
@@ -286,6 +381,15 @@
     <author><name>Abhilash Kumar | Oracle ACE ♠</name></author>
   </entry>
   <entry>
+    <title>Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets</title>
+    <link href="https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/" rel="alternate"/>
+    <id>https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/</id>
+    <updated>2026-07-10T20:44:05Z</updated>
+    <summary type="text">The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.</summary>
+    <author><name>Maxwell Zeff</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Lessons from building a Multi-Horizon Crypto Prediction System with Transformers</title>
     <link href="https://dev.to/eventhorizon-ia/lessons-from-building-a-multi-horizon-crypto-prediction-system-with-transformers-1cio" rel="alternate"/>
     <id>https://dev.to/eventhorizon-ia/lessons-from-building-a-multi-horizon-crypto-prediction-system-with-transformers-1cio</id>
@@ -345,111 +449,5 @@
     <updated>2026-07-11T13:01:07Z</updated>
     <summary type="text">Quando comecei a estudar Rust há alguns anos, confesso que estranhei sua curva de aprendizado. Hoje, depois de aplicá-la em projetos de tokenização na blockchain Stellar e em sistemas críticos de perícia digital, tenho convicção: estamos diante da linguagem que vai redefinir como construímos infraestrutura confiável. Não se trata de modismo — é uma resposta técnica a problemas que atormentam desen</summary>
     <author><name>André Dias Moreira Prol</name></author>
-  </entry>
-  <entry>
-    <title>You're Not Paying for Compute. You're Paying for Memory Bandwidth</title>
-    <link href="https://dev.to/aiexplore369zoho/youre-not-paying-for-compute-youre-paying-for-memory-bandwidth-3b5h" rel="alternate"/>
-    <id>https://dev.to/aiexplore369zoho/youre-not-paying-for-compute-youre-paying-for-memory-bandwidth-3b5h</id>
-    <updated>2026-07-11T13:00:52Z</updated>
-    <summary type="text">TL;DR— Inference cost conversations obsess over FLOPs and token prices, but the real constraint on LLM serving is memory bandwidth— specifically the cost of moving the KV cache in and out of GPU memory on every decode step. Teams that optimize for compute utilization instead of memory traffic end up overpaying for capacity they never use. The fix is architectural: disaggregating prefill from decod</summary>
-    <author><name>AI Explore</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It</title>
-    <link href="https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/" rel="alternate"/>
-    <id>https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/</id>
-    <updated>2026-07-11T13:00:00Z</updated>
-    <summary type="text">The best AI models still hallucinate. These hallucinations are sometimes funny, and sometimes cause actual damage. In this post we will consider recent tales of AI hallucinations, and then look under the hood to understand why they happen. The post That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It appeared first on Towards Data Science.</summary>
-    <author><name>Omer Rosenbaum</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>The Ultimate Claude Masterclass: 13 Power Features Changing the AI Game</title>
-    <link href="https://dev.to/darshanraval/the-ultimate-claude-masterclass-13-power-features-changing-the-ai-game-17lf" rel="alternate"/>
-    <id>https://dev.to/darshanraval/the-ultimate-claude-masterclass-13-power-features-changing-the-ai-game-17lf</id>
-    <updated>2026-07-11T12:59:36Z</updated>
-    <summary type="text">The Ultimate Claude Masterclass: 13 Power Features Changing the AI Game Artificial Intelligence is no longer just about asking questions and getting text answers. Anthropic’s Claude has evolved from a simple chatbot into a fully autonomous, visual, and connected AI ecosystem. If you are still using it just to draft emails, you are barely scratching the surface. Whether you are a developer, content</summary>
-    <author><name>Darshan Raval</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Monte Carlo Simulation for Tournament Forecasting: From a Match Model to Bracket Probabilities</title>
-    <link href="https://dev.to/neu_portal_999f2396dbff8d/monte-carlo-simulation-for-tournament-forecasting-from-a-match-model-to-bracket-probabilities-8fm" rel="alternate"/>
-    <id>https://dev.to/neu_portal_999f2396dbff8d/monte-carlo-simulation-for-tournament-forecasting-from-a-match-model-to-bracket-probabilities-8fm</id>
-    <updated>2026-07-11T12:54:59Z</updated>
-    <summary type="text">Suppose you have a decent model for a single game вАФ say a Poisson model that, given two teams, spits out the probability of a home win, a draw, and an away win. Now someone asks the bigger question: &quot;What's the probability this team lifts the trophy?&quot; It's tempting to reach for a calculator and start multiplying. Resist that instinct. For anything past the simplest bracket, hand-multiplication q</summary>
-    <author><name>Neu Portal</name></author>
-  </entry>
-  <entry>
-    <title>How to Thrive (Not Just Survive) as a Developer in the Age of AI</title>
-    <link href="https://dev.to/gaurav101/how-to-thrive-not-just-survive-as-a-developer-in-the-age-of-ai-3bdp" rel="alternate"/>
-    <id>https://dev.to/gaurav101/how-to-thrive-not-just-survive-as-a-developer-in-the-age-of-ai-3bdp</id>
-    <updated>2026-07-11T12:54:36Z</updated>
-    <summary type="text">The narrative around Artificial Intelligence and software engineering has shifted dramatically. We are no longer asking if AI will change development, but rather how we change with it. If your value as a developer is tied solely to how fast you can churn out boilerplate code, write standard API endpoints, or memorize syntax, the landscape is becoming challenging. AI can do those things in seconds.</summary>
-    <author><name>Gaurav Kumar Singh</name></author>
-  </entry>
-  <entry>
-    <title>How to Prove a Prediction Was Made Before the Event (with OpenTimestamps)</title>
-    <link href="https://dev.to/neu_portal_999f2396dbff8d/how-to-prove-a-prediction-was-made-before-the-event-with-opentimestamps-4p5d" rel="alternate"/>
-    <id>https://dev.to/neu_portal_999f2396dbff8d/how-to-prove-a-prediction-was-made-before-the-event-with-opentimestamps-4p5d</id>
-    <updated>2026-07-11T12:47:26Z</updated>
-    <summary type="text">Everyone who has ever been right about something loud enough to remember it will tell you they called it. The screenshot arrives after the match, after the candle, after the election. And there is no way to know whether it was written on Monday or edited on Friday. This is the quiet rot at the center of most &quot;track records&quot;: a prediction you cannot date is not a prediction at all. It is a memory w</summary>
-    <author><name>Neu Portal</name></author>
-  </entry>
-  <entry>
-    <title>How Deutsche Telekom is rewiring telecommunications with AI</title>
-    <link href="https://openai.com/index/deutsche-telekom" rel="alternate"/>
-    <id>https://openai.com/index/deutsche-telekom</id>
-    <updated>2026-07-10T07:00:00Z</updated>
-    <summary type="text">How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI kills its Atlas browser after just eight months and folds everything into ChatGPT</title>
-    <link href="https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/</id>
-    <updated>2026-07-10T12:19:21Z</updated>
-    <summary type="text">OpenAI is killing its AI browser Atlas less than eight months after launch. Its features are moving into ChatGPT's updated Chrome extension, which will let users run ChatGPT directly in Chrome's sidebar. Atlas joins a growing list of scrapped OpenAI products. The article OpenAI kills its Atlas browser after just eight months and folds everything into ChatGPT appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation</title>
-    <link href="https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/" rel="alternate"/>
-    <id>https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/</id>
-    <updated>2026-07-10T12:18:32Z</updated>
-    <summary type="text">Fed Chair Kevin Warsh has appointed venture capitalist Marc Andreessen to advise the Federal Reserve on AI's economic impact. Warsh views AI as a &quot;significant disinflationary force,&quot; but Andreessen's firm Andreessen Horowitz is heavily invested in AI companies, raising conflict-of-interest questions. The article The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation </summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat</title>
-    <link href="https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/</id>
-    <updated>2026-07-10T17:42:36Z</updated>
-    <summary type="text">Fizz has expanded its lawsuit against rival Sidechat, alleging that a Maveron VC shared its confidential information obtained during a fundraising meeting with the competing startup.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Nvidia&amp;#8217;s biggest RAM supplier just had a trillion-dollar debut on Wall Street</title>
-    <link href="https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut" rel="alternate"/>
-    <id>https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut</id>
-    <updated>2026-07-10T17:31:35Z</updated>
-    <summary type="text">As the AI boom boosts demand for RAM, SK Hynix - one of the world's biggest suppliers of memory chips - launched on Wall Street Friday. The South Korean chipmaker opened at $170 per share and raised $26.5 billion, surpassing Alibaba's record as the largest debut of a foreign company, according to reports from Associated […]</summary>
-    <author><name>Emma Roth</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Bun ditches Zig for Rust with help from Claude Fable 5, writes over a million lines of code in 11 days</title>
-    <link href="https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/" rel="alternate"/>
-    <id>https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/</id>
-    <updated>2026-07-10T11:09:44Z</updated>
-    <summary type="text">The JavaScript tool Bun has been fully rewritten from Zig to Rust, and Anthropic's Fable 5 did most of the work. The article Bun ditches Zig for Rust with help from Claude Fable 5, writes over a million lines of code in 11 days appeared first on The Decoder.</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

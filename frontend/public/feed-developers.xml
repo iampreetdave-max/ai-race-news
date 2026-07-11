@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-11T14:58:54Z</updated>
+  <updated>2026-07-11T16:02:58Z</updated>
   <entry>
     <title>OpenAI admits it &quot;didn't get everything quite right&quot; with ChatGPT Work launch and scrambles to fix UX and costs</title>
     <link href="https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/" rel="alternate"/>
@@ -23,6 +23,24 @@
     <author><name>Tanya Lenz</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Background Subagents Can Leak Secrets — Build the Isolation Model</title>
+    <link href="https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h" rel="alternate"/>
+    <id>https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h</id>
+    <updated>2026-07-11T15:44:20Z</updated>
+    <summary type="text">Developers flagged a freshly filed, reproducible issue that should make anyone running background agents pause: Claude Code's background Opus subagents intermittently stall on their first turn and, instead of producing useful work, emit system-prompt fragments — including text shaped like authorization data — as their only output. It's labeled a security issue, it has a reproduction, and it's open</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Tencent's Hy3 Coding AI Puts Input Tokens at $0.14 Per Million</title>
+    <link href="https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1" rel="alternate"/>
+    <id>https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1</id>
+    <updated>2026-07-11T15:44:19Z</updated>
+    <summary type="text">The feed showed a new entrant worth watching: Tencent has launched Hy3, a coding-focused AI model, with input tokens priced at $0.14 per million. For developers who live in the terminal running coding agents, that price point lands well below the per-token rates most frontier models charge, and it puts a major lab's coding model into the &quot;cheap enough to leave running&quot; category. What makes this in</summary>
+    <author><name>TerminalBlog</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -435,15 +453,5 @@
     <summary type="text">Pytest Fundamentals for Data Engineers Data engineering code is still software, and software that doesn't have tests is a liability. If you've ever had a production pipeline silently produce wrong numbers because a downstream transformation made an assumption about a column that changed upstream, you know the pain. Testing isn't just about &quot;does the pipeline run&quot; — it's about verifying that every </summary>
     <author><name>Felipe de Godoy</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>AI Agents aren't magic</title>
-    <link href="https://dev.to/patrick0806/ai-agents-arent-magic-33pn" rel="alternate"/>
-    <id>https://dev.to/patrick0806/ai-agents-arent-magic-33pn</id>
-    <updated>2026-07-09T02:38:41Z</updated>
-    <summary type="text">Today, I think all areas, especially IT, are becoming involved with AI. Right now, I think the term I hear most often is AI Agent. For non-technical people, it may seem like it's just the .md files we generate with Claude Code CLI, Codex, and similar tools. But as a engenier or dev, I think it's worth looking a little deeper into what an AI agent actually is. We know it isn't magic. An AI agent is</summary>
-    <author><name>patrick0806</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
