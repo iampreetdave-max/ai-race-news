@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-11T07:13:57Z</updated>
+  <updated>2026-07-11T09:42:14Z</updated>
+  <entry>
+    <title>OpenAI admits it &quot;didn't get everything quite right&quot; with ChatGPT Work launch and scrambles to fix UX and costs</title>
+    <link href="https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/</id>
+    <updated>2026-07-11T08:01:09Z</updated>
+    <summary type="text">Following the launch of ChatGPT Work and GPT-5.6 Sol, OpenAI has acknowledged significant issues: excessive compute usage, a confusing transition to the desktop interface for chats and projects, an unclear distinction between Codex and ChatGPT Work, and regressions in existing workflows. In some cases, GPT-5.6 Sol reportedly deleted data on its own that the user had not authorized. The article Ope</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading</title>
     <link href="https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/" rel="alternate"/>
@@ -23,6 +32,32 @@
     <updated>2026-07-10T17:02:13Z</updated>
     <summary type="text">Spotify is giving listeners control to fine-tune what gets surfaced for them in Release Radar - one of its most popular weekly playlists. The new options allow you to narrow the playlist to a specific genre, focus on artists that are new to you, and more. Listeners can choose from up to five options like […]</summary>
     <author><name>Terrence O’Brien</name></author>
+  </entry>
+  <entry>
+    <title>Build an MCP Server in Go (for Claude Code)</title>
+    <link href="https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i" rel="alternate"/>
+    <id>https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i</id>
+    <updated>2026-07-11T09:00:03Z</updated>
+    <summary type="text">Claude Code can read your repo, run your CLI, query your database — as long as you give it the entry point. That entry point is an MCP server (Model Context Protocol). The day I wanted Claude to query our internal billing API without me copy-pasting JSON responses by hand, I wrote a small MCP server. In Go, not Python — and in hindsight that was the right call, for one specific reason we'll get to</summary>
+    <author><name>Odilon HUGONNOT</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why SNS Silently Drops Your Messages and How to Catch It Before You Ship</title>
+    <link href="https://dev.to/siddharth_pandey_27/why-sns-silently-drops-your-messages-and-how-to-catch-it-before-you-ship-1fcm" rel="alternate"/>
+    <id>https://dev.to/siddharth_pandey_27/why-sns-silently-drops-your-messages-and-how-to-catch-it-before-you-ship-1fcm</id>
+    <updated>2026-07-11T08:53:46Z</updated>
+    <summary type="text">Your checkout service publishes an OrderRefunded event to an SNS topic. The publish call returns a MessageId. No exception, no retry, nothing in the dead-letter queue. Three days later a customer emails asking where their refund is, and you discover the refund Lambda was never invoked. The message wasn't lost. It was filtered. One of the topic's subscriptions has a filter policy that requires an e</summary>
+    <author><name>Siddharth Pandey</name></author>
+  </entry>
+  <entry>
+    <title>Vault auth methods — OIDC for humans, Kubernetes for workloads</title>
+    <link href="https://dev.to/secopsloghq/vault-auth-methods-oidc-for-humans-kubernetes-for-workloads-iok" rel="alternate"/>
+    <id>https://dev.to/secopsloghq/vault-auth-methods-oidc-for-humans-kubernetes-for-workloads-iok</id>
+    <updated>2026-07-11T08:47:00Z</updated>
+    <summary type="text">Humans via SSO, workloads via service accounts. Think of Vault as a secured building with two entrances. Humans walk in through the front lobby, where the badge reader is wired straight into your corporate identity provider — there is no separate Vault password to remember or leak, just the SSO login your engineers already have. Workloads use the loading dock around back, where the only ID that co</summary>
+    <author><name>secopslog</name></author>
   </entry>
   <entry>
     <title>ReskPoints: AI Agent Logging with Sampling, Masking, and Multi-Export</title>
@@ -419,36 +454,5 @@
     <updated>2026-07-08T19:23:02Z</updated>
     <summary type="text">Most Telegram commerce ideas hit the same wall right after the prototype stage: the bot or Mini App itself is easy to build, but Stars and Premium fulfilment still need a dependable backend flow. That's usually when people start searching for a Fragment API. MyStars FaaS gives you that missing layer. FaaS here means Fragment as a Service: your Telegram product keeps the user experience and order d</summary>
     <author><name>MyStars.tg</name></author>
-  </entry>
-  <entry>
-    <title>Did you guys know about this tool &quot;S.A.G.E - CLI&quot; that saved me $45 in AI tokens by compressing terminal output 93% in just 3 days of using it.</title>
-    <link href="https://dev.to/psycgod/did-you-guys-know-about-this-tool-sage-cli-that-saved-me-45-in-ai-tokens-by-compressing-2df1" rel="alternate"/>
-    <id>https://dev.to/psycgod/did-you-guys-know-about-this-tool-sage-cli-that-saved-me-45-in-ai-tokens-by-compressing-2df1</id>
-    <updated>2026-07-08T19:18:48Z</updated>
-    <summary type="text">I've been using AI coding assistants (Claude, Codex, etc.) and kept hitting token limits because terminal output is SUPER noisy. A single pytest command can eat 30,000 tokens of your context. So I started using SAGE (Smart Agent Guidance Engine) - it sits between your terminal and AI agents, compressing output by 93% while keeping all the important stuff. CLI install pip install psycgod-sage sage </summary>
-    <author><name>Valancio Dsouza</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs</title>
-    <link href="https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/" rel="alternate"/>
-    <id>https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/</id>
-    <updated>2026-07-07T18:35:58Z</updated>
-    <summary type="text">Microsoft is replacing AI models from OpenAI and Anthropic with its own MAI models in products like Excel and Outlook. Tens of thousands of queries per week already run through them. AI chief Mustafa Suleyman wants to &quot;ultimately eliminate&quot; the cost of external models. For Copilot customers, that could mean less performance for the same price. The article Copilot goes cheap as Microsoft phases out</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cohere Transcribe Arabic is an open-source model built for Arabic's toughest transcription problems</title>
-    <link href="https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/" rel="alternate"/>
-    <id>https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/</id>
-    <updated>2026-07-07T17:54:08Z</updated>
-    <summary type="text">Cohere has released Transcribe Arabic, an open-source model for Arabic speech recognition that the company says outperforms Whisper and OmniASR on dialects, code-switching, and bilingual Arabic-English speech. The 2-billion-parameter model is available on Hugging Face under the Apache 2.0 license. The article Cohere Transcribe Arabic is an open-source model built for Arabic's toughest transcriptio</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="research"/>
   </entry>
 </feed>
