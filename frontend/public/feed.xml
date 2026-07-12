@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-12T03:48:21Z</updated>
+  <updated>2026-07-12T06:38:08Z</updated>
   <entry>
     <title>How to Evaluate General-Purpose Robot Policies for Real-World Deployment</title>
     <link href="https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/" rel="alternate"/>
@@ -141,6 +141,94 @@
     <summary type="text">Apple is suing OpenAI over systematic employee poaching and the alleged theft of trade secrets tied to unreleased products. According to the complaint, more than 400 ex-Apple employees now work at OpenAI, including former iPhone design chief Tang Tan. The lawsuit hits OpenAI right as it's building out its own hardware division, with its first product not expected to ship until 2027 at the earliest</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>EU AI Act compliance as API calls</title>
+    <link href="https://dev.to/moltycel/eu-ai-act-compliance-as-api-calls-43d7" rel="alternate"/>
+    <id>https://dev.to/moltycel/eu-ai-act-compliance-as-api-calls-43d7</id>
+    <updated>2026-07-12T06:25:53Z</updated>
+    <summary type="text">We shipped eight endpoints on api.moltrust.ch (v2.5) this week. Three implement EU AI Act obligations directly. This is the short version for people who want to call them; the full reasoning is on our blog (https://moltrust.ch/blog/compliance-as-an-api.html). Why no model in the loop: the Aithos LARA study (May 2026) placed twelve frontier models in simulated workplaces where the task required bre</summary>
+    <author><name>Lars</name></author>
+    <category term="regulation"/>
+  </entry>
+  <entry>
+    <title>How to Debug AI API Failures Across Multiple Models</title>
+    <link href="https://dev.to/ye_allen_/how-to-debug-ai-api-failures-across-multiple-models-2cal" rel="alternate"/>
+    <id>https://dev.to/ye_allen_/how-to-debug-ai-api-failures-across-multiple-models-2cal</id>
+    <updated>2026-07-12T06:20:18Z</updated>
+    <summary type="text">Getting an AI API request to return a response is only the beginning. For real AI products, the harder question is what happens when something goes wrong. A chatbot may become slower. A RAG answer may stop using the right context. A structured extraction workflow may start returning invalid JSON. An agent may trigger the wrong tool. A fallback model may answer correctly, but at a much higher cost.</summary>
+    <author><name>Ye Allen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Happened When I Let Several AI Agents Loose in One Repo</title>
+    <link href="https://dev.to/whynext/what-happened-when-i-let-several-ai-agents-loose-in-one-repo-3eoh" rel="alternate"/>
+    <id>https://dev.to/whynext/what-happened-when-i-let-several-ai-agents-loose-in-one-repo-3eoh</id>
+    <updated>2026-07-12T06:19:39Z</updated>
+    <summary type="text">Originally published at blog.whynext.app. Work with AI agents for a while and the ambition comes naturally. While one session fixes a bug, another can refactor, and a third can investigate an issue, right? You can spin up as many models as you like, so productivity should scale to match. That's how I started too. And within a week I learned that the real enemy of parallel agents isn't the models' </summary>
+    <author><name>Why Next</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Equality Operators (==, !=) in Java — Part 1</title>
+    <link href="https://dev.to/rajeshbhola1/equality-operators-in-java-part-1-2ajo" rel="alternate"/>
+    <id>https://dev.to/rajeshbhola1/equality-operators-in-java-part-1-2ajo</id>
+    <updated>2026-07-12T06:15:11Z</updated>
+    <summary type="text">Equality operators are among the most frequently used operators in Java. They allow us to compare two values and determine whether they are equal or not. Unlike relational operators (&lt;, &gt;, &lt;=, &gt;=), equality operators work with all primitive data types, including boolean, and they can also compare object references. However, many beginners get confused about how == behaves with objects, strings, an</summary>
+    <author><name>Rajesh Bhola</name></author>
+  </entry>
+  <entry>
+    <title>Generate TypeScript Types from JSON (and where the auto-generators trip up)</title>
+    <link href="https://dev.to/jsonviewertool/generate-typescript-types-from-json-and-where-the-auto-generators-trip-up-4pl0" rel="alternate"/>
+    <id>https://dev.to/jsonviewertool/generate-typescript-types-from-json-and-where-the-auto-generators-trip-up-4pl0</id>
+    <updated>2026-07-12T06:11:00Z</updated>
+    <summary type="text">You've got a JSON API response and you want TypeScript interfaces for it. Here's how to generate them fast — and where the auto-generators quietly get it wrong. The fast path Paste your JSON, get interfaces: { &quot;id&quot;: 1, &quot;name&quot;: &quot;Ada&quot;, &quot;roles&quot;: [&quot;admin&quot;], &quot;profile&quot;: { &quot;active&quot;: true } } → interface Root { id: number; name: string; roles: string[]; profile: Profile; } interface Profile { active: bool</summary>
+    <author><name>Avinash Verma</name></author>
+  </entry>
+  <entry>
+    <title>Week 13: a second team is now running an AI agent on atomic HTLC swaps. Here is what that validates.</title>
+    <link href="https://dev.to/barissozen/week-13-a-second-team-is-now-running-an-ai-agent-on-atomic-htlc-swaps-here-is-what-that-validates-5h69" rel="alternate"/>
+    <id>https://dev.to/barissozen/week-13-a-second-team-is-now-running-an-ai-agent-on-atomic-htlc-swaps-here-is-what-that-validates-5h69</id>
+    <updated>2026-07-12T06:08:40Z</updated>
+    <summary type="text">Title: Week 13: a second team is now running an AI agent on atomic HTLC swaps. Here is what that validates. Tags: mcp, ai, cryptocurrency, blockchain For most of this spring, the map of the agent economy had a strange gap. Wallets to hold keys. Rails like x402 to move value. Marketplaces and reputation so an agent knows who to trust. And then, at the exact moment two parties settle a trade, a cust</summary>
+    <author><name>Baris Sozen</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Built a Chrome Dictionary Extension in 2 Weeks:</title>
+    <link href="https://dev.to/shanbasu/i-built-a-chrome-dictionary-extension-in-2-weeks-4k39" rel="alternate"/>
+    <id>https://dev.to/shanbasu/i-built-a-chrome-dictionary-extension-in-2-weeks-4k39</id>
+    <updated>2026-07-12T06:03:51Z</updated>
+    <summary type="text">From Local Hacking to 4 Browser Stores TL;DR: Shipped a Chrome extension that fetches word definitions from a free API, published to Chrome Web Store, and now expanding to Firefox, Opera, and Brave. Here's what I learned. Why I Built This I spend a lot of time reading articles and documentation online. Sometimes I encounter words I want to quickly understand without losing my flow. Most dictionary</summary>
+    <author><name>shantanu basu</name></author>
+  </entry>
+  <entry>
+    <title>Distributed AI in Action: Deploying and Optimizing Mesh LLM on iroh for Scalable Machine Learning</title>
+    <link href="https://dev.to/tamizuddin/distributed-ai-in-action-deploying-and-optimizing-mesh-llm-on-iroh-for-scalable-machine-learning-mb9" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/distributed-ai-in-action-deploying-and-optimizing-mesh-llm-on-iroh-for-scalable-machine-learning-mb9</id>
+    <updated>2026-07-12T06:00:54Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The proliferation of Large Language Models (LLMs) has pushed the boundaries of what's possible in AI, yet their immense computational and data requirements often centralize their deployment. Distributed AI offers a compelling alternative, enabling models to operate across multiple nodes, leveraging collective resources and enhancing resilience. This article deep-</summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>TypeScript 7.0 Is Here: The Compiler Is Much Faster</title>
+    <link href="https://dev.to/jatniel/typescript-70-is-here-the-compiler-is-much-faster-30n" rel="alternate"/>
+    <id>https://dev.to/jatniel/typescript-70-is-here-the-compiler-is-much-faster-30n</id>
+    <updated>2026-07-12T06:00:44Z</updated>
+    <summary type="text">TypeScript 7.0 is now officially available as a stable release, and this is one worth paying attention to. Not because it introduces a flashy new syntax feature or another configuration option, but because it improves something developers feel every day: waiting. The TypeScript compiler has been rewritten in Go. The goal is clear: take advantage of native code, multithreading, and better paralleli</summary>
+    <author><name>Jatniel Guzmán</name></author>
+    <category term="open-source"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>I got tired of paying $139/month for SEO data that costs $4 wholesale, so I built my own</title>
+    <link href="https://dev.to/testedmedia/i-got-tired-of-paying-139month-for-seo-data-that-costs-4-wholesale-so-i-built-my-own-2jbl" rel="alternate"/>
+    <id>https://dev.to/testedmedia/i-got-tired-of-paying-139month-for-seo-data-that-costs-4-wholesale-so-i-built-my-own-2jbl</id>
+    <updated>2026-07-12T05:54:46Z</updated>
+    <summary type="text">Last year Ahrefs raised prices on small teams by 81% (SpendHound tracked it). Semrush Pro sits at $139.95 a month. And here's what those subscriptions buy you: a dashboard on top of SERP data they purchase wholesale. The same data is sitting behind pay-as-you-go APIs. DataForSEO charges cents per SERP pull. My real deployment tracks 570 keywords across 5 sites, updated daily, plus weekly local map</summary>
+    <author><name>Victor Smushkevich</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Why Fox is ‘the most Disciplined’ Media Entertainment Company in the Streaming Era</title>
@@ -366,98 +454,5 @@
     <updated>2026-07-11T21:59:07Z</updated>
     <summary type="text">Backend engineering is going through one of the biggest shifts in years many developers are still trying to keep pace. In my opinion, here is what is shaping the space in 2026: Microservices are no longer the future, they are the default. Monolithic backends are not old school anymore they are becoming the exception. Systems are designed as a collection of independent services from the beginning, </summary>
     <author><name>Augustine Amponsah</name></author>
-  </entry>
-  <entry>
-    <title>AI Daily Digest — July 12, 2026: GPT-5.6 Goes Public, Muse Spark 1.1 Arrives, Open Robotics Pipeline</title>
-    <link href="https://dev.to/hiroki-ii-ai/ai-daily-digest-july-12-2026-gpt-56-goes-public-muse-spark-11-arrives-open-robotics-pipeline-5di2" rel="alternate"/>
-    <id>https://dev.to/hiroki-ii-ai/ai-daily-digest-july-12-2026-gpt-56-goes-public-muse-spark-11-arrives-open-robotics-pipeline-5di2</id>
-    <updated>2026-07-11T21:59:01Z</updated>
-    <summary type="text">🤖💻 AI Daily Digest — July 12, 2026 Another packed week in AI. OpenAI ended its 12-day restricted preview and opened GPT-5.6 to the world — three models, a new durability concept, and the ChatGPT Work + Codex integration that signals where the company is headed. Meta's Muse Spark 1.1 landed with enough firepower to pull Mark Zuckerberg back to X after three years of silence. And NVIDIA and Hugging </summary>
-    <author><name>HIROKI II</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-    <category term="data"/>
-    <category term="product-launch"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>AI Model Co-Design: Hardware-Friendly LLM Design</title>
-    <link href="https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/</id>
-    <updated>2026-07-10T16:36:02Z</updated>
-    <summary type="text">AI performance comes down to three dimensions: Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-  </entry>
-  <entry>
-    <title>I built a file-grounded continuity system for my AI German teacher—what am I overcomplicating?</title>
-    <link href="https://dev.to/nr7whfms97/i-built-a-file-grounded-continuity-system-for-my-ai-german-teacher-what-am-i-overcomplicating-i32" rel="alternate"/>
-    <id>https://dev.to/nr7whfms97/i-built-a-file-grounded-continuity-system-for-my-ai-german-teacher-what-am-i-overcomplicating-i32</id>
-    <updated>2026-07-11T21:43:57Z</updated>
-    <summary type="text">Why I built this I use an AI named Felix as my German teacher. Over time, I ran into a continuity problem: individual chats are fragile. Conversations become long, context can disappear, platforms change, uploaded files may become unavailable, and a fresh AI instance may not understand what happened before. I did not want to repeatedly reconstruct my learning history, project decisions, lessons, c</summary>
-    <author><name>nr7whfms97</name></author>
-  </entry>
-  <entry>
-    <title>OpenClaw Just Shipped an Animated Welcome &amp; Android Image Previews</title>
-    <link href="https://dev.to/terminalblog/openclaw-just-shipped-an-animated-welcome-android-image-previews-2mi5" rel="alternate"/>
-    <id>https://dev.to/terminalblog/openclaw-just-shipped-an-animated-welcome-android-image-previews-2mi5</id>
-    <updated>2026-07-11T21:43:46Z</updated>
-    <summary type="text">OpenClaw pushed 10 commits in the last 3 hours — headlining with a redesigned chat welcome screen and native Android image previews, alongside a wave of UTF-16 safety fixes and CI stability work. What changed Animated welcome replaces canned suggestions. The chat landing page now shows an animated Clawd mascot alongside the user’s recent conversations instead of static suggestion chips. Makes the </summary>
-    <author><name>TerminalBlog</name></author>
-  </entry>
-  <entry>
-    <title>AI Agents &amp; Workflows: Local Deployment, Label Orchestration, Cloud Enablement</title>
-    <link href="https://dev.to/soytuber/ai-agents-workflows-local-deployment-label-orchestration-cloud-enablement-3dao" rel="alternate"/>
-    <id>https://dev.to/soytuber/ai-agents-workflows-local-deployment-label-orchestration-cloud-enablement-3dao</id>
-    <updated>2026-07-11T21:35:40Z</updated>
-    <summary type="text">AI Agents &amp; Workflows: Local Deployment, Label Orchestration, Cloud Enablement Today's Highlights This week highlights innovative approaches to AI agent deployment and orchestration, from local Dockerized workstations for privacy-first applications to novel workflow management via issue tracker labels. Cloudflare also introduces new temporary accounts, enhancing secure production deployments for a</summary>
-    <author><name>soy</name></author>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Stop Paying AWS Just to Test Your Code Locally</title>
-    <link href="https://dev.to/hammad153/stop-paying-aws-just-to-test-your-code-locally-die" rel="alternate"/>
-    <id>https://dev.to/hammad153/stop-paying-aws-just-to-test-your-code-locally-die</id>
-    <updated>2026-07-11T21:35:25Z</updated>
-    <summary type="text">Every developer building on AWS eventually runs into the same frustrations: waiting for deployments just to verify a small change, needing an internet connection for local development, watching cloud costs grow during testing, and discovering issues in CI that could have been caught earlier. That's exactly why we built LocalEmu. LocalEmu is an open-source AWS emulator that lets you build and test </summary>
-    <author><name>Hammad153</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Linux 7.2 Improves Multi-GPU Displays, M3 Support, Mesa Rusticl Defaults Arm Mali</title>
-    <link href="https://dev.to/soytuber/linux-72-improves-multi-gpu-displays-m3-support-mesa-rusticl-defaults-arm-mali-5g3l" rel="alternate"/>
-    <id>https://dev.to/soytuber/linux-72-improves-multi-gpu-displays-m3-support-mesa-rusticl-defaults-arm-mali-5g3l</id>
-    <updated>2026-07-11T21:34:39Z</updated>
-    <summary type="text">Linux 7.2 Improves Multi-GPU Displays, M3 Support, Mesa Rusticl Defaults Arm Mali Today's Highlights This week's hardware and driver news highlights include critical Linux 7.2 kernel updates for multi-GPU display detection and initial support for Apple M3 Pro/Max/Ultra SoCs. Additionally, Mesa's Rusticl OpenCL implementation now defaults to enabling Arm Mali Panfrost driver support, simplifying GP</summary>
-    <author><name>soy</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI News Roundup: Grok 4.5 Hits Tesla, Perplexity's Orchestrator Beats Opus, and Meta Undercuts Pricing</title>
-    <link href="https://dev.to/terminalblog/ai-news-roundup-grok-45-hits-tesla-perplexitys-orchestrator-beats-opus-and-meta-undercuts-43dl" rel="alternate"/>
-    <id>https://dev.to/terminalblog/ai-news-roundup-grok-45-hits-tesla-perplexitys-orchestrator-beats-opus-and-meta-undercuts-43dl</id>
-    <updated>2026-07-11T21:24:31Z</updated>
-    <summary type="text">Five stories moved the AI-coding world today. None are about a single model winning forever — they are about the ground shifting under who runs the agents and who pays for them. Musk puts Grok 4.5 to work at Tesla and SpaceX Tesla and SpaceX have been told to trial Grok 4.5. The signal is not the benchmark — it is that a frontier model is being pointed at real engineering and ops inside hardware c</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Got 9.9 Lower TTFT on a Real Android Phone by Reusing llama.cpp KV State</title>
-    <link href="https://dev.to/bossandboss/i-got-99x-lower-ttft-on-a-real-android-phone-by-reusing-llamacpp-kv-state-1ngi" rel="alternate"/>
-    <id>https://dev.to/bossandboss/i-got-99x-lower-ttft-on-a-real-android-phone-by-reusing-llamacpp-kv-state-1ngi</id>
-    <updated>2026-07-11T21:17:57Z</updated>
-    <summary type="text">Local LLM inference has an expensive habit: It recomputes prefixes it has already seen. A system prompt. A reused RAG document. A few-shot block. A long static context. If the prefix is identical, why pay the prefill cost again? That's the problem I explored with EdgeSync-LLM. The idea The mechanism is simple: Prompt = shared prefix + new suffix On the first request, EdgeSync prefills the prefix a</summary>
-    <author><name>bossandboss</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Offline Sync in the Browser Without a Framework</title>
-    <link href="https://dev.to/ctrotech/offline-sync-in-the-browser-without-a-framework-pai" rel="alternate"/>
-    <id>https://dev.to/ctrotech/offline-sync-in-the-browser-without-a-framework-pai</id>
-    <updated>2026-07-11T21:13:52Z</updated>
-    <summary type="text">I've been building apps with IndexedDB for years. The local part works fine — store data, query it, show it on screen. The hard part is keeping that data in sync with a server when the network comes and goes. Most tutorials show you how to build an offline app with a framework. Firebase, RxDB, WatermelonDB. Those work, but they bring their own abstractions, their own sync protocols, their own opin</summary>
-    <author><name>Odejobi Abiola Samuel</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
