@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-12T15:01:13Z</updated>
+  <updated>2026-07-12T16:07:53Z</updated>
+  <entry>
+    <title>Claude Code now has a built-in browser that lets the AI read, click, and type on external websites</title>
+    <link href="https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/</id>
+    <updated>2026-07-12T15:02:06Z</updated>
+    <summary type="text">Claude Code now has a built-in browser that lets the AI open, read, and interact with web pages directly inside the development environment. Write actions on external sites are screened by classifiers, and purchases or account creations need user approval. The article Claude Code now has a built-in browser that lets the AI read, click, and type on external websites appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>S&amp;P Global sees OpenAI as a &quot;key credit risk&quot; for Oracle and cuts its credit rating</title>
     <link href="https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/" rel="alternate"/>
@@ -148,12 +157,91 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Passion Edition</title>
+    <link href="https://dev.to/hillcity/passion-edition-3coe" rel="alternate"/>
+    <id>https://dev.to/hillcity/passion-edition-3coe</id>
+    <updated>2026-07-12T15:55:25Z</updated>
+    <summary type="text">Submission: Edu-Insight Assistant What I build I built the Edu-Insight Assistant, a tool designed for educators to bridge the gap between complex school management data and actionable insights. It allows teachers to query students performance data using natural language, turning educational evaluation into a conversation rather than a manual data-processing task. Demo 🔗 Link: Passion-challenge How</summary>
+    <author><name>Chibuzo Talent</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built my first Robinhood Chain app as an index basket</title>
+    <link href="https://dev.to/arbitrum/i-built-my-first-robinhood-chain-app-as-an-index-basket-20li" rel="alternate"/>
+    <id>https://dev.to/arbitrum/i-built-my-first-robinhood-chain-app-as-an-index-basket-20li</id>
+    <updated>2026-07-12T15:51:24Z</updated>
+    <summary type="text">I built a small index basket app on Robinhood Chain because I wanted to understand the developer path from the first contract deploy all the way to a working frontend. The app is intentionally plain: a user deposits Stock Tokens, which are blockchain tokens that represent real equity exposure, and receives an ERC-20 basket share. ERC-20 is Ethereum's standard token interface, so a compatible token</summary>
+    <author><name>Ben Greenberg</name></author>
+  </entry>
+  <entry>
+    <title>My Journey to Become a Better Backend Engineer</title>
+    <link href="https://dev.to/hayanj/my-journey-to-become-a-better-backend-engineer-1-4lnk" rel="alternate"/>
+    <id>https://dev.to/hayanj/my-journey-to-become-a-better-backend-engineer-1-4lnk</id>
+    <updated>2026-07-12T15:49:08Z</updated>
+    <summary type="text">Hi everyone! this is my first post here on dev. About 4 days ago I realized I'm stuck as a mid-level backend engineer, and honestly, not even a good one. Some background: I have a CS degree and started working as a software engineer in 2022. I spent a year and a half at a financial company, then moved to one in the tourism industry, and now I work at a client-based company doing multiple projects.</summary>
+    <author><name>Haya Aljuraysi</name></author>
+  </entry>
+  <entry>
+    <title>skip에서 partition overwrite로: business_date 재처리를 Iceberg로 다시 표현하기</title>
+    <link href="https://dev.to/junhyun-dev/skipeseo-partition-overwritero-businessdate-jaeceorireul-icebergro-dasi-pyohyeonhagi-194i" rel="alternate"/>
+    <id>https://dev.to/junhyun-dev/skipeseo-partition-overwritero-businessdate-jaeceorireul-icebergro-dasi-pyohyeonhagi-194i</id>
+    <updated>2026-07-12T15:49:01Z</updated>
+    <summary type="text">skip에서 partition overwrite로: business_date 재처리를 Iceberg로 다시 표현하기 이전 글에서는 같은 source_hash가 다시 들어왔을 때 기존 successful run을 재사용하는 idempotency를 다뤘다. 하지만 재처리에는 두 종류가 있다. 1. 같은 입력이 다시 들어온 경우 -&gt; skip이 맞다. 2. 같은 business_date의 정정 입력이 들어온 경우 -&gt; skip하면 안 된다. -&gt; 같은 날짜의 gold 결과를 중복 없이 교체해야 한다. manufacturing-data-platform-mini의 B5 slice는 두 번째 문제를 아주 작게 다룬다. 전체 Spark pipeline을 만든 것이 아니다. gold_daily_metrics Iceberg</summary>
+    <author><name>박준현</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>wide CSV 여러 개를 EAV로 모아 gold mart 만들기</title>
+    <link href="https://dev.to/junhyun-dev/wide-csv-yeoreo-gaereul-eavro-moa-gold-mart-mandeulgi-4799" rel="alternate"/>
+    <id>https://dev.to/junhyun-dev/wide-csv-yeoreo-gaereul-eavro-moa-gold-mart-mandeulgi-4799</id>
+    <updated>2026-07-12T15:49:00Z</updated>
+    <summary type="text">wide CSV 여러 개를 EAV로 모아 gold mart 만들기 현실의 데이터 소스는 한 가지 모양으로 오지 않는다. 같은 의미의 값도 어떤 파일에서는 생산수량, 다른 파일에서는 units, 또 다른 파일에서는 made로 올 수 있다. 온도도 어떤 곳은 섭씨, 어떤 곳은 화씨일 수 있다. 이걸 매번 pipeline code에 if source == ...로 박기 시작하면 source가 늘 때마다 코드가 지저분해진다. manufacturing-data-platform-mini의 EAV mini slice는 이 문제를 작게 다룬다. 여러 wide CSV를 mapping config로 표준 attribute에 맞춘 뒤, EAV long format으로 모으고, 다시 gold metric mart로 pivot/a</summary>
+    <author><name>박준현</name></author>
+  </entry>
+  <entry>
+    <title>source_hash로 같은 입력 재처리를 안전하게 skip하기</title>
+    <link href="https://dev.to/junhyun-dev/sourcehashro-gateun-ibryeog-jaeceorireul-anjeonhage-skiphagi-4i9b" rel="alternate"/>
+    <id>https://dev.to/junhyun-dev/sourcehashro-gateun-ibryeog-jaeceorireul-anjeonhage-skiphagi-4i9b</id>
+    <updated>2026-07-12T15:48:58Z</updated>
+    <summary type="text">source_hash로 같은 입력 재처리를 안전하게 skip하기 작은 데이터 파이프라인도 한 번만 실행된다고 가정하면 금방 거짓말이 된다. 실제로는 같은 파일을 다시 실행할 수 있다. 실패한 run을 재시도할 수도 있고, 과거 날짜를 backfill할 수도 있고, 운영자가 실수로 같은 입력을 다시 넣을 수도 있다. 이때 결과가 중복되면 gold metric은 더 이상 믿을 수 없다. 이 글은 개인 포트폴리오 프로젝트 manufacturing-data-platform-mini에서 source_hash를 이용해 같은 입력 재처리를 안전하게 skip하도록 만든 작은 설계 판단을 정리한 글이다. 데이터는 모두 synthetic이며, production platform이 아니라 검증 가능한 mini slice다. 1</summary>
+    <author><name>박준현</name></author>
+  </entry>
+  <entry>
+    <title>Stop Guessing: How I Pick AI API Architecture at Every Scale</title>
+    <link href="https://dev.to/bolddeck/stop-guessing-how-i-pick-ai-api-architecture-at-every-scale-2jn7" rel="alternate"/>
+    <id>https://dev.to/bolddeck/stop-guessing-how-i-pick-ai-api-architecture-at-every-scale-2jn7</id>
+    <updated>2026-07-12T15:47:31Z</updated>
+    <summary type="text">Stop Guessing: How I Pick AI API Architecture at Every Scale I've been on both sides of this. Two years ago I was the lone backend engineer at a Series A startup, duct-taping API calls together at 2 AM because the founders wanted a chatbot demo by morning. Last quarter I sat in a procurement meeting at a Fortune 500 where we spent six weeks evaluating three vendors for a single inference workload.</summary>
+    <author><name>bolddeck</name></author>
+    <category term="llm"/>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Blocking AI crawlers earns you nothing. Here's how to price them instead</title>
+    <link href="https://dev.to/fernforge/blocking-ai-crawlers-earns-you-nothing-heres-how-to-price-them-instead-1j6k" rel="alternate"/>
+    <id>https://dev.to/fernforge/blocking-ai-crawlers-earns-you-nothing-heres-how-to-price-them-instead-1j6k</id>
+    <updated>2026-07-12T15:44:19Z</updated>
+    <summary type="text">Disallow: GPTBot is a wall. Walls don't pay rent, and the crawlers that matter most either ignore them or route around them. If your content is worth training on, the interesting question isn't &quot;how do I keep the bots out&quot; — it's &quot;what do they owe me, and how do I say so in a way a machine can read.&quot; That's what RSL (Really Simple Licensing) is for. It shipped 1.0 in December 2025 with around 1,50</summary>
+    <author><name>fernforge</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>Building Minelog, a Minecraft Travel Log Web App</title>
     <link href="https://dev.to/erikaheidi/building-minelog-a-minecraft-travel-log-web-app-6mj" rel="alternate"/>
     <id>https://dev.to/erikaheidi/building-minelog-a-minecraft-travel-log-web-app-6mj</id>
     <updated>2026-07-12T15:00:22Z</updated>
     <summary type="text">This is a submission for Weekend Challenge: Passion Edition When I saw the prompt about &quot;Passion&quot;, I tried to come up with an idea involving something both me and my daughter are passionate about: Minecraft. What I Built I built a Minecraft travel log to record all the cool places I find in my Minecraft worlds. As it turns out, Minecraft has some really beautiful landscapes. It is common that some</summary>
     <author><name>Erika Heidi</name></author>
+  </entry>
+  <entry>
+    <title>RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each</title>
+    <link href="https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/" rel="alternate"/>
+    <id>https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/</id>
+    <updated>2026-07-12T15:00:00Z</updated>
+    <summary type="text">Two techniques, two different problems, and why the question is not really &quot;which one wins&quot; The post RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each appeared first on Towards Data Science.</summary>
+    <author><name>Maria Mouschoutzi</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Data Engineering: The Data Field's Unknown Child</title>
@@ -358,94 +446,5 @@
     <updated>2026-07-12T11:00:26Z</updated>
     <summary type="text">The gap between &quot;it runs&quot; and &quot;it's in production&quot; You built something. It runs on your laptop. You git push, SSH into a server, run node server.js, see it respond on port 3000, and call it deployed. Then you close your terminal, and the app dies. Or it survives until the server reboots. Or it works, but a user's password is in your logs, the app is running as root, and the database is open to the</summary>
     <author><name>Sri Balaji</name></author>
-  </entry>
-  <entry>
-    <title>Seven archetypes, a skill radar, and what your Claude sessions actually reveal</title>
-    <link href="https://dev.to/palo_alto_ai/seven-archetypes-a-skill-radar-and-what-your-claude-sessions-actually-reveal-45cg" rel="alternate"/>
-    <id>https://dev.to/palo_alto_ai/seven-archetypes-a-skill-radar-and-what-your-claude-sessions-actually-reveal-45cg</id>
-    <updated>2026-07-12T11:00:21Z</updated>
-    <summary type="text">Anthropics February 2026 study classified 11 observable collaboration behaviors across 9,830 Claude conversations. The researchers called it the AI Fluency Index. I wanted to run the same classification on my own session history — not to benchmark against other users, but to find out which of the 11 behaviors I never touched. The result is skill-tree. It reads your Claude Code or Cowork session fi</summary>
-    <author><name>J Now</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Let Claude Code Improve Itself Unattended — An Autopilot That Uses Cost to Stop Runaways</title>
-    <link href="https://dev.to/bokuwalily/let-claude-code-improve-itself-unattended-an-autopilot-that-uses-cost-to-stop-runaways-5e76" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/let-claude-code-improve-itself-unattended-an-autopilot-that-uses-cost-to-stop-runaways-5e76</id>
-    <updated>2026-07-12T11:00:06Z</updated>
-    <summary type="text">This is the 8th installment in my &quot;Claude Code environment&quot; series. In the article on turning conversation logs into long-term memory I introduced an unattended job, and this time I want to talk about the boss of them all — an autopilot that keeps improving my own environment with zero user input to Claude Code. &quot;Autonomous loop&quot; sounds great, but running an LLM unattended makes two scary things h</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Chinese AI Models vs GPT-4o: The 40x Savings Claims, With Catches</title>
-    <link href="https://dev.to/bean_bean/chinese-ai-models-vs-gpt-4o-the-40x-savings-claims-with-catches-26m7" rel="alternate"/>
-    <id>https://dev.to/bean_bean/chinese-ai-models-vs-gpt-4o-the-40x-savings-claims-with-catches-26m7</id>
-    <updated>2026-07-12T11:00:02Z</updated>
-    <summary type="text">Originally published on NextFuture A $400 monthly AI bill is pushing developers toward Chinese AI models that claim to cost up to 40 times less. Two posts lay out the exact price tables and benchmarks behind that pitch. Both also undercut their own headline numbers, in their own text. The claimed numbers One developer, writing about a side project, said an OpenAI bill topped $400 in a single month</summary>
-    <author><name>BeanBean</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Consensus Without Consequence</title>
-    <link href="https://dev.to/rawveg/consensus-without-consequence-466f" rel="alternate"/>
-    <id>https://dev.to/rawveg/consensus-without-consequence-466f</id>
-    <updated>2026-07-12T11:00:00Z</updated>
-    <summary type="text">Everyone agrees that artificial intelligence should be fair, transparent, and accountable. That sentence could have been written in 2018, and it would have been just as true then as it is now. The difference is that in 2018, arriving at consensus on those principles felt like the hard part. In 2026, we know better. The hard part was never agreeing on what AI ethics should look like. The hard part </summary>
-    <author><name>Tim Green</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>China's Orca world model matches specialized robotics systems without ever seeing a single action label</title>
-    <link href="https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/" rel="alternate"/>
-    <id>https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/</id>
-    <updated>2026-07-11T09:03:26Z</updated>
-    <summary type="text">The Beijing Academy of Artificial Intelligence has released Orca, a world model that predicts abstract world states instead of tokens or pixels. Trained on 125,000 hours of video without a single action label, Orca matches the specialized π0.5 on five robotics tasks and could help ease the field's chronic data shortage. The article China's Orca world model matches specialized robotics systems with</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Colibri — รัน GLM-5.2 (744B MoE) บนเครื่อง 25GB RAM ด้วย Pure C ไฟล์เดียว</title>
-    <link href="https://dev.to/sarantoon/colibri-ran-glm-52-744b-moe-bnekhruueng-25gb-ram-dwy-pure-c-aiflediiyw-3ae9" rel="alternate"/>
-    <id>https://dev.to/sarantoon/colibri-ran-glm-52-744b-moe-bnekhruueng-25gb-ram-dwy-pure-c-aiflediiyw-3ae9</id>
-    <updated>2026-07-12T09:00:39Z</updated>
-    <summary type="text">Colibri — รัน GLM-5.2 (744B MoE) บนเครื่อง 25GB RAM ด้วย Pure C ไฟล์เดียว โดย Nokka (นก-กา) | 11 กรกฎาคม 2026 บทความนี้เขียนโดย AI (DeepSeek V4 Pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ — Nokka (นก-กา) TL;DR Colibri คือ inference engine ที่เขียนด้วย Pure C ไฟล์เดียว (~2,400 บรรทัด) — zero dependencies — ไม่ต้องใช้ GPU — รัน GLM-5.2 โมเดล 744B พารามิเตอร์ บนเครื่อง consumer ที</summary>
-    <author><name>Nokka</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Go Middleware Best Practices in Production (2026)</title>
-    <link href="https://dev.to/ohugonnot/go-middleware-best-practices-in-production-2026-1ekj" rel="alternate"/>
-    <id>https://dev.to/ohugonnot/go-middleware-best-practices-in-production-2026-1ekj</id>
-    <updated>2026-07-12T09:00:02Z</updated>
-    <summary type="text">The service had run for six months without a hiccup. Then one morning: 2% of requests returning a 500 — no log, no trace, no panic surfaced. The kind of bug that never reproduces locally. Half a day later, the cause: a panic in a handler, caught by a recover middleware… placed inside the logging middleware. The recover swallowed the panic after the logger had already written its line — but before </summary>
-    <author><name>Odilon HUGONNOT</name></author>
-  </entry>
-  <entry>
-    <title>Leveling Up My MERN Stack Observability with SigNoz</title>
-    <link href="https://dev.to/sujal_arse/leveling-up-my-mern-stack-observability-with-signoz-19nb" rel="alternate"/>
-    <id>https://dev.to/sujal_arse/leveling-up-my-mern-stack-observability-with-signoz-19nb</id>
-    <updated>2026-07-12T09:00:01Z</updated>
-    <summary type="text">Leveling Up My MERN Stack Observability with SigNoz As a developer, there is nothing quite as frustrating as building a solid backend, pushing it, and then staring blankly at terminal logs when a route mysteriously slows down. With an upcoming project sprint on the horizon, I decided to take on the SigNoz pre-event challenge to warm up. I wanted to move away from relying on console.log() and imple</summary>
-    <author><name>Sujal Arse</name></author>
-  </entry>
-  <entry>
-    <title>Class vs Instance Variables: The Mutation Trap That Catches Experienced Developers</title>
-    <link href="https://dev.to/ameer_abdullah_68d48c8496/class-vs-instance-variables-the-mutation-trap-that-catches-experienced-developers-483f" rel="alternate"/>
-    <id>https://dev.to/ameer_abdullah_68d48c8496/class-vs-instance-variables-the-mutation-trap-that-catches-experienced-developers-483f</id>
-    <updated>2026-07-12T09:00:00Z</updated>
-    <summary type="text">Class vs Instance Variables: The Mutation Trap That Catches Experienced Developers Shared mutable class attributes produce non-obvious behavior that appears regularly in senior-level Python interviews class Student: grades = [] def add_grade(self, grade): self.grades.append(grade) alice = Student() bob = Student() alice.add_grade(90) bob.add_grade(85) print(alice.grades) print(bob.grades) What do </summary>
-    <author><name>Ameer Abdullah</name></author>
-  </entry>
-  <entry>
-    <title>When an agent can prove it is Claude</title>
-    <link href="https://dev.to/turva-dev/when-an-agent-can-prove-it-is-claude-4b3j" rel="alternate"/>
-    <id>https://dev.to/turva-dev/when-an-agent-can-prove-it-is-claude-4b3j</id>
-    <updated>2026-07-12T09:00:00Z</updated>
-    <summary type="text">A site that wants to let an AI agent act has a problem it rarely says out loud. It cannot tell which agent is actually at the door. A user-agent string is just text, and anything can send it. An IP range drifts as providers move their infrastructure around. So the site guesses, and the guess collapses into one of two bad defaults. Block too much, and the helpful agent never reaches the page. Trust</summary>
-    <author><name>Erik Rekola</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
