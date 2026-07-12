@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-12T09:06:26Z</updated>
+  <updated>2026-07-12T11:14:19Z</updated>
+  <entry>
+    <title>Claude Cowork's biggest use case is the mundane office work nobody wants to own, Anthropic says</title>
+    <link href="https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/</id>
+    <updated>2026-07-12T09:36:39Z</updated>
+    <summary type="text">Anthropic analyzed 1.2 million Claude Cowork sessions from more than 600,000 organizations. About half of all usage goes toward business processes and text creation, what Anthropic calls &quot;the work around the work.&quot; That means tasks like compiling status reports, building onboarding checklists, or putting together slide decks. Software development barely shows up in Cowork because developers stick </summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights</title>
     <link href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/" rel="alternate"/>
@@ -13,6 +22,24 @@
     <summary type="text">Thinking Machines Lab published &quot;The Future Worth Building Is Human.&quot; The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights. The post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Cus</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Seven archetypes, a skill radar, and what your Claude sessions actually reveal</title>
+    <link href="https://dev.to/palo_alto_ai/seven-archetypes-a-skill-radar-and-what-your-claude-sessions-actually-reveal-45cg" rel="alternate"/>
+    <id>https://dev.to/palo_alto_ai/seven-archetypes-a-skill-radar-and-what-your-claude-sessions-actually-reveal-45cg</id>
+    <updated>2026-07-12T11:00:21Z</updated>
+    <summary type="text">Anthropics February 2026 study classified 11 observable collaboration behaviors across 9,830 Claude conversations. The researchers called it the AI Fluency Index. I wanted to run the same classification on my own session history — not to benchmark against other users, but to find out which of the 11 behaviors I never touched. The result is skill-tree. It reads your Claude Code or Cowork session fi</summary>
+    <author><name>J Now</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Let Claude Code Improve Itself Unattended — An Autopilot That Uses Cost to Stop Runaways</title>
+    <link href="https://dev.to/bokuwalily/let-claude-code-improve-itself-unattended-an-autopilot-that-uses-cost-to-stop-runaways-5e76" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/let-claude-code-improve-itself-unattended-an-autopilot-that-uses-cost-to-stop-runaways-5e76</id>
+    <updated>2026-07-12T11:00:06Z</updated>
+    <summary type="text">This is the 8th installment in my &quot;Claude Code environment&quot; series. In the article on turning conversation logs into long-term memory I introduced an unattended job, and this time I want to talk about the boss of them all — an autopilot that keeps improving my own environment with zero user input to Claude Code. &quot;Autonomous loop&quot; sounds great, but running an LLM unattended makes two scary things h</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Leveling Up My MERN Stack Observability with SigNoz</title>
@@ -439,32 +466,5 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Engineering Beyond the Keystroke: Why the Future Belongs to Systems Thinkers</title>
-    <link href="https://dev.to/nahamaalochi/engineering-beyond-the-keystroke-why-the-future-belongs-to-systems-thinkers-542h" rel="alternate"/>
-    <id>https://dev.to/nahamaalochi/engineering-beyond-the-keystroke-why-the-future-belongs-to-systems-thinkers-542h</id>
-    <updated>2026-07-10T08:25:37Z</updated>
-    <summary type="text">The New Software Engineer Is a Systems Manager AI writes functions. That part is no longer impressive. A few years ago, watching a large language model generate a working API endpoint felt magical. Today, it is baseline reality. Provide a well-structured prompt, some repository context, and a few reference files, and a model will reliably output a controller, a database migration, an integration t</summary>
-    <author><name>Edgar Nahama Alochi</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Built a Concurrency-Safe Reservation System</title>
-    <link href="https://dev.to/rahul_chaduvula_a406acb5c/how-i-built-a-concurrency-safe-reservation-system-2eea" rel="alternate"/>
-    <id>https://dev.to/rahul_chaduvula_a406acb5c/how-i-built-a-concurrency-safe-reservation-system-2eea</id>
-    <updated>2026-07-10T08:03:29Z</updated>
-    <summary type="text">What happens when 100 users try to reserve the same seat at exactly the same time? Without proper concurrency control, multiple users could end up booking the same seat—a classic race condition that every booking platform must solve. To better understand how production reservation systems handle this problem, I built a Concurrency-Safe Movie Reservation Backend using FastAPI, PostgreSQL, Redis, an</summary>
-    <author><name>Rahul Chaduvula</name></author>
-  </entry>
-  <entry>
-    <title>Beyond the Black Box: A Developer's Guide to Open-Weight LLM API Integration</title>
-    <link href="https://dev.to/sbt112321321/beyond-the-black-box-a-developers-guide-to-open-weight-llm-api-integration-1ea6" rel="alternate"/>
-    <id>https://dev.to/sbt112321321/beyond-the-black-box-a-developers-guide-to-open-weight-llm-api-integration-1ea6</id>
-    <updated>2026-07-10T08:01:29Z</updated>
-    <summary type="text">Beyond the Black Box: A Developer's Guide to Open-Weight LLM API Integration The landscape of artificial intelligence is shifting. For a long time, interacting with Large Language Models (LLMs) meant sending your data to a proprietary black box, hoping for the best, and paying a premium for the privilege. But the tides are turning. Enter the era of open-weight LLMs. Unlike their closed-source coun</summary>
-    <author><name>NovaStack</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
