@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-12T06:38:08Z</updated>
+  <updated>2026-07-12T09:06:26Z</updated>
+  <entry>
+    <title>Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI</title>
+    <link href="https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/" rel="alternate"/>
+    <id>https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/</id>
+    <updated>2026-07-12T08:25:25Z</updated>
+    <summary type="text">An economics professor at Brown University suspects most of his 86 students used AI to cheat on a take-home exam that averaged 96 percent. When he made the final an in-person test, 18 students dropped the course, nine didn't show up, and the average fell to 48.6 percent. Two large studies from China and UC Berkeley back up his case: where students lean on AI for homework, their proctored exam scor</summary>
+    <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory</title>
+    <link href="https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/" rel="alternate"/>
+    <id>https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/</id>
+    <updated>2026-07-12T07:45:35Z</updated>
+    <summary type="text">The AgenticSTS project replaces the ever-growing chat log of AI agents with five separate memory layers. Tested on the card game Slay the Spire 2, the prompt stays at around 5,000 tokens instead of ballooning past 500,000. The agent wins 6 out of 10 games, while competing agents don't win any. The article AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>How to Evaluate General-Purpose Robot Policies for Real-World Deployment</title>
     <link href="https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/" rel="alternate"/>
@@ -23,6 +40,14 @@
     <summary type="text">Thinking Machines Lab published &quot;The Future Worth Building Is Human.&quot; The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights. The post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Cus</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Zhipu’s Chinese Founder Says Frontier AI Should Stay Open to All</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all</id>
+    <updated>2026-07-12T06:59:51Z</updated>
+    <summary type="text">The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain broadly accessible rather than controlled by select individuals, weighing in on a growing debate about the risks posed by ever more powerful models.</summary>
+    <author><name>Charlie Zhu, Zheping Huang, Ying Tian, Haze Fan</name></author>
   </entry>
   <entry>
     <title>A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention</title>
@@ -78,6 +103,58 @@
     <category term="robotics"/>
   </entry>
   <entry>
+    <title>Colibri — รัน GLM-5.2 (744B MoE) บนเครื่อง 25GB RAM ด้วย Pure C ไฟล์เดียว</title>
+    <link href="https://dev.to/sarantoon/colibri-ran-glm-52-744b-moe-bnekhruueng-25gb-ram-dwy-pure-c-aiflediiyw-3ae9" rel="alternate"/>
+    <id>https://dev.to/sarantoon/colibri-ran-glm-52-744b-moe-bnekhruueng-25gb-ram-dwy-pure-c-aiflediiyw-3ae9</id>
+    <updated>2026-07-12T09:00:39Z</updated>
+    <summary type="text">Colibri — รัน GLM-5.2 (744B MoE) บนเครื่อง 25GB RAM ด้วย Pure C ไฟล์เดียว โดย Nokka (นก-กา) | 11 กรกฎาคม 2026 บทความนี้เขียนโดย AI (DeepSeek V4 Pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ — Nokka (นก-กา) TL;DR Colibri คือ inference engine ที่เขียนด้วย Pure C ไฟล์เดียว (~2,400 บรรทัด) — zero dependencies — ไม่ต้องใช้ GPU — รัน GLM-5.2 โมเดล 744B พารามิเตอร์ บนเครื่อง consumer ที</summary>
+    <author><name>Nokka</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Go Middleware Best Practices in Production (2026)</title>
+    <link href="https://dev.to/ohugonnot/go-middleware-best-practices-in-production-2026-1ekj" rel="alternate"/>
+    <id>https://dev.to/ohugonnot/go-middleware-best-practices-in-production-2026-1ekj</id>
+    <updated>2026-07-12T09:00:02Z</updated>
+    <summary type="text">The service had run for six months without a hiccup. Then one morning: 2% of requests returning a 500 — no log, no trace, no panic surfaced. The kind of bug that never reproduces locally. Half a day later, the cause: a panic in a handler, caught by a recover middleware… placed inside the logging middleware. The recover swallowed the panic after the logger had already written its line — but before </summary>
+    <author><name>Odilon HUGONNOT</name></author>
+  </entry>
+  <entry>
+    <title>Leveling Up My MERN Stack Observability with SigNoz</title>
+    <link href="https://dev.to/sujal_arse/leveling-up-my-mern-stack-observability-with-signoz-19nb" rel="alternate"/>
+    <id>https://dev.to/sujal_arse/leveling-up-my-mern-stack-observability-with-signoz-19nb</id>
+    <updated>2026-07-12T09:00:01Z</updated>
+    <summary type="text">Leveling Up My MERN Stack Observability with SigNoz As a developer, there is nothing quite as frustrating as building a solid backend, pushing it, and then staring blankly at terminal logs when a route mysteriously slows down. With an upcoming project sprint on the horizon, I decided to take on the SigNoz pre-event challenge to warm up. I wanted to move away from relying on console.log() and imple</summary>
+    <author><name>Sujal Arse</name></author>
+  </entry>
+  <entry>
+    <title>Class vs Instance Variables: The Mutation Trap That Catches Experienced Developers</title>
+    <link href="https://dev.to/ameer_abdullah_68d48c8496/class-vs-instance-variables-the-mutation-trap-that-catches-experienced-developers-483f" rel="alternate"/>
+    <id>https://dev.to/ameer_abdullah_68d48c8496/class-vs-instance-variables-the-mutation-trap-that-catches-experienced-developers-483f</id>
+    <updated>2026-07-12T09:00:00Z</updated>
+    <summary type="text">Class vs Instance Variables: The Mutation Trap That Catches Experienced Developers Shared mutable class attributes produce non-obvious behavior that appears regularly in senior-level Python interviews class Student: grades = [] def add_grade(self, grade): self.grades.append(grade) alice = Student() bob = Student() alice.add_grade(90) bob.add_grade(85) print(alice.grades) print(bob.grades) What do </summary>
+    <author><name>Ameer Abdullah</name></author>
+  </entry>
+  <entry>
+    <title>When an agent can prove it is Claude</title>
+    <link href="https://dev.to/turva-dev/when-an-agent-can-prove-it-is-claude-4b3j" rel="alternate"/>
+    <id>https://dev.to/turva-dev/when-an-agent-can-prove-it-is-claude-4b3j</id>
+    <updated>2026-07-12T09:00:00Z</updated>
+    <summary type="text">A site that wants to let an AI agent act has a problem it rarely says out loud. It cannot tell which agent is actually at the door. A user-agent string is just text, and anything can send it. An IP range drifts as providers move their infrastructure around. So the site guesses, and the guess collapses into one of two bad defaults. Block too much, and the helpful agent never reaches the page. Trust</summary>
+    <author><name>Erik Rekola</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Vibe Coding and the New Developer Interview: What to Expect in 2026</title>
+    <link href="https://dev.to/xeito-ai/vibe-coding-and-the-new-developer-interview-what-to-expect-in-2026-4l09" rel="alternate"/>
+    <id>https://dev.to/xeito-ai/vibe-coding-and-the-new-developer-interview-what-to-expect-in-2026-4l09</id>
+    <updated>2026-07-12T08:57:25Z</updated>
+    <summary type="text">A year ago, the debate over whether candidates should be allowed to use AI tools during take-home assignments was all the rage. Now, most engineering teams have moved on. The question isn't whether you use AI, but whether you can use it well. That's a big difference. The shift has had a profound impact on technical hiring. Some candidates are getting a leg up, while others are struggling to keep u</summary>
+    <author><name>Xeito</name></author>
+  </entry>
+  <entry>
     <title>Meta's Muse Spark 1.1 outperforms GLM-5.2 in coding and costs slightly less</title>
     <link href="https://the-decoder.com/metas-muse-spark-1-1-outperforms-glm-5-2-in-coding-and-costs-slightly-less/" rel="alternate"/>
     <id>https://the-decoder.com/metas-muse-spark-1-1-outperforms-glm-5-2-in-coding-and-costs-slightly-less/</id>
@@ -86,6 +163,31 @@
     <author><name>Matthias Bastian</name></author>
     <category term="research"/>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>AWS puts gray zone failures into the EKS control loop</title>
+    <link href="https://dev.to/leobaniak/aws-puts-gray-zone-failures-into-the-eks-control-loop-1d87" rel="alternate"/>
+    <id>https://dev.to/leobaniak/aws-puts-gray-zone-failures-into-the-eks-control-loop-1d87</id>
+    <updated>2026-07-12T08:25:29Z</updated>
+    <summary type="text">What AWS is calling out The New Stack, on July 10, published a walk-through of what running Kubernetes across a very large EKS fleet has taught AWS about availability zone failures. The operational take is one line: the failures that hurt production the most are not the ones that trip the alarms, and EKS now has a primitive that treats that mode as its own category. The piece frames gray failures </summary>
+    <author><name>Leo</name></author>
+  </entry>
+  <entry>
+    <title>Day 1/30: ReAct Pattern Explained</title>
+    <link href="https://dev.to/yashwanth_kasi/day-130-react-pattern-explained-3nbf" rel="alternate"/>
+    <id>https://dev.to/yashwanth_kasi/day-130-react-pattern-explained-3nbf</id>
+    <updated>2026-07-12T08:25:11Z</updated>
+    <summary type="text">Day 1/30: ReAct Pattern Explained I was recently tasked with building a support bot that could handle customer inquiries about our company's products. The bot was supposed to be able to understand the context of the conversation and respond accordingly. However, I soon realized that my initial implementation had a major flaw - the bot would often forget the context of the conversation and respond </summary>
+    <author><name>Kasi Yaswanth</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Your dropdown is a div. The browser has a native popover now.</title>
+    <link href="https://dev.to/parsajiravand/your-dropdown-is-a-div-the-browser-has-a-native-popover-now-43d6" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/your-dropdown-is-a-div-the-browser-has-a-native-popover-now-43d6</id>
+    <updated>2026-07-12T08:24:42Z</updated>
+    <summary type="text">You've written some version of this before: function toggleMenu() { setOpen(prev =&gt; !prev); } useEffect(() =&gt; { const handler = (e) =&gt; { if (!ref.current?.contains(e.target)) setOpen(false); }; document.addEventListener('mousedown', handler); return () =&gt; document.removeEventListener('mousedown', handler); }, []); Plus the CSS that sets position: absolute; z-index: 9999. Plus the aria-expanded you</summary>
+    <author><name>Parsa Jiravand</name></author>
   </entry>
   <entry>
     <title>Apple Sues OpenAI Over AI Talent Fight</title>
@@ -348,111 +450,5 @@
     <category term="open-source"/>
     <category term="hardware"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cómo revisar emails de reactivación trial</title>
-    <link href="https://dev.to/hannahdev56/como-revisar-emails-de-reactivacion-trial-7d" rel="alternate"/>
-    <id>https://dev.to/hannahdev56/como-revisar-emails-de-reactivacion-trial-7d</id>
-    <updated>2026-07-11T23:24:18Z</updated>
-    <summary type="text">Cuando un trial se enfría, muchas veces el equipo corre a cambiar el asunto del email o a meter un descuento. A veces funciona, pero bastante seguido el problema real está en otra parte: segmentación floja, eventos tardíos o usuarios de prueba mezclados con usuarios reales. En un SaaS pequeño eso pasa muy facil, y luego cuesta saber si la campaña de reactivación ayudó o solo hizo más ruido. Si tra</summary>
-    <author><name>Hannah</name></author>
-  </entry>
-  <entry>
-    <title>How to Forward WhatsApp Messages to Telegram (Without Losing Your Media)</title>
-    <link href="https://dev.to/alex_gv_24192032990395354/how-to-forward-whatsapp-messages-to-telegram-without-losing-your-media-c4e" rel="alternate"/>
-    <id>https://dev.to/alex_gv_24192032990395354/how-to-forward-whatsapp-messages-to-telegram-without-losing-your-media-c4e</id>
-    <updated>2026-07-11T23:23:34Z</updated>
-    <summary type="text">If you run a community, a support desk, or you're simply moving your life from one app to the other, sooner or later you hit the same wall: there is no built-in way to send messages from WhatsApp to Telegram. The two apps don't talk to each other, and the &quot;obvious&quot; workarounds quietly destroy your media along the way. I've gone down this rabbit hole more than once, so here's the honest breakdown o</summary>
-    <author><name>Alex Gv</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Service Level Objectives for Complex Microservices</title>
-    <link href="https://dev.to/samson_tanimawo/service-level-objectives-for-complex-microservices-42i7" rel="alternate"/>
-    <id>https://dev.to/samson_tanimawo/service-level-objectives-for-complex-microservices-42i7</id>
-    <updated>2026-07-11T23:15:07Z</updated>
-    <summary type="text">Why SLOs Break in Microservices A SLO that works for a monolith often collapses when you distribute the same logic across 30 services. The math of availability is unforgiving. If your service depends on 5 others, each at 99.9%, your realistic ceiling is 0.999^5 = 99.5%. That 0.4% gap eats your entire error budget before your own code even runs. The Three Mistakes Teams Make 1. Copying the same SLO</summary>
-    <author><name>Samson Tanimawo</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>I Built a $0 Local AI Automation Stack: Agentic Coding + Market Data Over MCP</title>
-    <link href="https://dev.to/hugo_kuznicki_1ff20709904/i-built-a-0-local-ai-automation-stack-agentic-coding-market-data-over-mcp-1d92" rel="alternate"/>
-    <id>https://dev.to/hugo_kuznicki_1ff20709904/i-built-a-0-local-ai-automation-stack-agentic-coding-market-data-over-mcp-1d92</id>
-    <updated>2026-07-11T23:00:45Z</updated>
-    <summary type="text">Serious AI-assisted development has a habit of turning into a stack of subscriptions: a coding-assistant plan, a market-data API, a backtesting service, model credits. Each one is reasonable on its own, and together they quietly become a monthly bill that also locks you into someone else's rate limits. I wanted to know how far you can get without any of that. The answer turned out to be: surprisin</summary>
-    <author><name>Hugo Kuznicki</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>La capa sobre el asistente: por qué tu contexto muere entre IDEs y cómo construir el puente</title>
-    <link href="https://dev.to/hsaenzg/la-capa-sobre-el-asistente-por-que-tu-contexto-muere-entre-ides-y-como-construir-el-puente-3ae0" rel="alternate"/>
-    <id>https://dev.to/hsaenzg/la-capa-sobre-el-asistente-por-que-tu-contexto-muere-entre-ides-y-como-construir-el-puente-3ae0</id>
-    <updated>2026-07-11T22:59:26Z</updated>
-    <summary type="text">El problema de los workflows multi-IDE no es la calidad del modelo, es que cada sesión empieza desde cero. Tienes tres asistentes de IA en tu flujo de trabajo. Kiro para triage y razonamiento sobre el codebase, Cursor para implementación rápida, y Claude Code para sesiones largas de refactor donde necesitas un modelo con ventana de contexto grande. Cada uno hace bien su parte. El problema está en </summary>
-    <author><name>Hazel Saenz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Common Problems in AI-Generated Frontend Code and How to Avoid Them</title>
-    <link href="https://dev.to/karishma_dev/common-problems-in-ai-generated-frontend-code-and-how-to-avoid-them-4kef" rel="alternate"/>
-    <id>https://dev.to/karishma_dev/common-problems-in-ai-generated-frontend-code-and-how-to-avoid-them-4kef</id>
-    <updated>2026-07-11T22:55:43Z</updated>
-    <summary type="text">Over the last year, I’ve reviewed about a dozen projects where AI was used heavily in development. These were real products with real users, built fast and shipped to production. Most worked fine. Some had interesting patterns that kept showing up across different codebases. These aren’t unique to any one team or project, they’re just common things that happen when AI writes code and humans skip t</summary>
-    <author><name>Karishma</name></author>
-  </entry>
-  <entry>
-    <title>A Backend Engineer's Field Notes on Cheap AI APIs in 2026</title>
-    <link href="https://dev.to/truelane/a-backend-engineers-field-notes-on-cheap-ai-apis-in-2026-1pop" rel="alternate"/>
-    <id>https://dev.to/truelane/a-backend-engineers-field-notes-on-cheap-ai-apis-in-2026-1pop</id>
-    <updated>2026-07-11T22:35:52Z</updated>
-    <summary type="text">A Backend Engineer's Field Notes on Cheap AI APIs in 2026 Last quarter, my team's LLM bill crossed five figures and someone — not naming names — got an email from finance. So I went down the rabbit hole of comparing every API I could find, ranked them by output price, and figured out which models actually earn their place in a production stack. These are my notes, and yes, the numbers are real. Th</summary>
-    <author><name>Alex Chen</name></author>
-  </entry>
-  <entry>
-    <title>Day 15: My AI agent just completed its first multi-app task. It copied my bank balance from my banking app and sent it to Mom on WhatsApp. Two apps. One task. Fully autonomous. Task memory is the key.
-
-👉 github.com/Dexter2344/phone-agent</title>
-    <link href="https://dev.to/okeke_chukwudubem_5f3bf49/day-15-my-ai-agent-just-completed-its-first-multi-app-task-it-copied-my-bank-balance-from-my-4eid" rel="alternate"/>
-    <id>https://dev.to/okeke_chukwudubem_5f3bf49/day-15-my-ai-agent-just-completed-its-first-multi-app-task-it-copied-my-bank-balance-from-my-4eid</id>
-    <updated>2026-07-11T22:21:45Z</updated>
-    <summary type="text">Project Log #15: My AI Agent Just Completed Its First Multi-App Task Okeke Chukwudubem Okeke Chukwudubem Okeke Chukwudubem Follow Jul 11 Project Log #15: My AI Agent Just Completed Its First Multi-App Task #ai #webdev #programming #productivity Add Comment 3 min read</summary>
-    <author><name>Okeke Chukwudubem</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Project Log #15: My AI Agent Just Completed Its First Multi-App Task</title>
-    <link href="https://dev.to/okeke_chukwudubem_5f3bf49/project-log-15-my-ai-agent-just-completed-its-first-multi-app-task-38n7" rel="alternate"/>
-    <id>https://dev.to/okeke_chukwudubem_5f3bf49/project-log-15-my-ai-agent-just-completed-its-first-multi-app-task-38n7</id>
-    <updated>2026-07-11T22:21:17Z</updated>
-    <summary type="text">Day 15. The agent switched between two apps, copied data from one, and pasted it into another. For 14 days, my AI agent could do one thing well: operate within a single app. Open WhatsApp. Find a contact. Send a message. All within one ecosystem. Today, that changed. The Milestone I gave the agent a command: &quot;Copy my account balance from my banking app and send it to Mom on WhatsApp.&quot; It opened th</summary>
-    <author><name>Okeke Chukwudubem</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>GPT-5.6 Sol vs Terra vs Luna: which tier should you actually use?</title>
-    <link href="https://dev.to/amdmsz/gpt-56-sol-vs-terra-vs-luna-which-tier-should-you-actually-use-2elm" rel="alternate"/>
-    <id>https://dev.to/amdmsz/gpt-56-sol-vs-terra-vs-luna-which-tier-should-you-actually-use-2elm</id>
-    <updated>2026-07-11T22:01:53Z</updated>
-    <summary type="text">When GPT-5.6 landed as three models instead of one, my first reaction was mild annoyance. Sol, Terra, Luna — great names, zero help when I'm staring at a config file deciding which string to paste into model. So I did the boring thing: I wired all three into the same app, ran a week of real traffic through them, watched the token meter, and wrote down what I learned. This is that write-up — the de</summary>
-    <author><name>amdmsz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead</title>
-    <link href="https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/</id>
-    <updated>2026-07-10T16:41:03Z</updated>
-    <summary type="text">There are many ways to optimize code for GPUs. In this post, you’ll learn how kernel fusion can improve memory bandwidth and reduce kernel launch overhead,...</summary>
-    <author><name>Michelle Horton</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Backend Engineering</title>
-    <link href="https://dev.to/augustineamponsah/backend-engineering-287a" rel="alternate"/>
-    <id>https://dev.to/augustineamponsah/backend-engineering-287a</id>
-    <updated>2026-07-11T21:59:07Z</updated>
-    <summary type="text">Backend engineering is going through one of the biggest shifts in years many developers are still trying to keep pace. In my opinion, here is what is shaping the space in 2026: Microservices are no longer the future, they are the default. Monolithic backends are not old school anymore they are becoming the exception. Systems are designed as a collection of independent services from the beginning, </summary>
-    <author><name>Augustine Amponsah</name></author>
   </entry>
 </feed>
