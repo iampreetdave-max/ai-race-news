@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-11T22:55:13Z</updated>
+  <updated>2026-07-12T00:00:29Z</updated>
   <entry>
     <title>OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour</title>
     <link href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/" rel="alternate"/>
@@ -114,6 +114,15 @@
     <author><name>Bloomberg Technology</name></author>
   </entry>
   <entry>
+    <title>CI Health Check: a /ci Skill for Claude Code</title>
+    <link href="https://dev.to/gbti-network/ci-health-check-a-ci-skill-for-claude-code-2njg" rel="alternate"/>
+    <id>https://dev.to/gbti-network/ci-health-check-a-ci-skill-for-claude-code-2njg</id>
+    <updated>2026-07-11T23:44:04Z</updated>
+    <summary type="text">By Hudson Atwell, GBTI Network Member. Originally published on gbti.network. Claude Code loads any markdown file at .claude/skills/&lt;name&gt;/SKILL.md as a reusable slash command (a &quot;skill&quot;). This one gives your agent a /ci command that audits your GitHub Actions: a red/green health board, real failure triage, a post-push watcher, and a living inventory of what every workflow does. It exists because a</summary>
+    <author><name>GBTI Network</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading</title>
     <link href="https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/</id>
@@ -123,6 +132,58 @@
     <category term="open-source"/>
     <category term="hardware"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cómo revisar emails de reactivación trial</title>
+    <link href="https://dev.to/hannahdev56/como-revisar-emails-de-reactivacion-trial-7d" rel="alternate"/>
+    <id>https://dev.to/hannahdev56/como-revisar-emails-de-reactivacion-trial-7d</id>
+    <updated>2026-07-11T23:24:18Z</updated>
+    <summary type="text">Cuando un trial se enfría, muchas veces el equipo corre a cambiar el asunto del email o a meter un descuento. A veces funciona, pero bastante seguido el problema real está en otra parte: segmentación floja, eventos tardíos o usuarios de prueba mezclados con usuarios reales. En un SaaS pequeño eso pasa muy facil, y luego cuesta saber si la campaña de reactivación ayudó o solo hizo más ruido. Si tra</summary>
+    <author><name>Hannah</name></author>
+  </entry>
+  <entry>
+    <title>How to Forward WhatsApp Messages to Telegram (Without Losing Your Media)</title>
+    <link href="https://dev.to/alex_gv_24192032990395354/how-to-forward-whatsapp-messages-to-telegram-without-losing-your-media-c4e" rel="alternate"/>
+    <id>https://dev.to/alex_gv_24192032990395354/how-to-forward-whatsapp-messages-to-telegram-without-losing-your-media-c4e</id>
+    <updated>2026-07-11T23:23:34Z</updated>
+    <summary type="text">If you run a community, a support desk, or you're simply moving your life from one app to the other, sooner or later you hit the same wall: there is no built-in way to send messages from WhatsApp to Telegram. The two apps don't talk to each other, and the &quot;obvious&quot; workarounds quietly destroy your media along the way. I've gone down this rabbit hole more than once, so here's the honest breakdown o</summary>
+    <author><name>Alex Gv</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Service Level Objectives for Complex Microservices</title>
+    <link href="https://dev.to/samson_tanimawo/service-level-objectives-for-complex-microservices-42i7" rel="alternate"/>
+    <id>https://dev.to/samson_tanimawo/service-level-objectives-for-complex-microservices-42i7</id>
+    <updated>2026-07-11T23:15:07Z</updated>
+    <summary type="text">Why SLOs Break in Microservices A SLO that works for a monolith often collapses when you distribute the same logic across 30 services. The math of availability is unforgiving. If your service depends on 5 others, each at 99.9%, your realistic ceiling is 0.999^5 = 99.5%. That 0.4% gap eats your entire error budget before your own code even runs. The Three Mistakes Teams Make 1. Copying the same SLO</summary>
+    <author><name>Samson Tanimawo</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I Built a $0 Local AI Automation Stack: Agentic Coding + Market Data Over MCP</title>
+    <link href="https://dev.to/hugo_kuznicki_1ff20709904/i-built-a-0-local-ai-automation-stack-agentic-coding-market-data-over-mcp-1d92" rel="alternate"/>
+    <id>https://dev.to/hugo_kuznicki_1ff20709904/i-built-a-0-local-ai-automation-stack-agentic-coding-market-data-over-mcp-1d92</id>
+    <updated>2026-07-11T23:00:45Z</updated>
+    <summary type="text">Serious AI-assisted development has a habit of turning into a stack of subscriptions: a coding-assistant plan, a market-data API, a backtesting service, model credits. Each one is reasonable on its own, and together they quietly become a monthly bill that also locks you into someone else's rate limits. I wanted to know how far you can get without any of that. The answer turned out to be: surprisin</summary>
+    <author><name>Hugo Kuznicki</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>La capa sobre el asistente: por qué tu contexto muere entre IDEs y cómo construir el puente</title>
+    <link href="https://dev.to/hsaenzg/la-capa-sobre-el-asistente-por-que-tu-contexto-muere-entre-ides-y-como-construir-el-puente-3ae0" rel="alternate"/>
+    <id>https://dev.to/hsaenzg/la-capa-sobre-el-asistente-por-que-tu-contexto-muere-entre-ides-y-como-construir-el-puente-3ae0</id>
+    <updated>2026-07-11T22:59:26Z</updated>
+    <summary type="text">El problema de los workflows multi-IDE no es la calidad del modelo, es que cada sesión empieza desde cero. Tienes tres asistentes de IA en tu flujo de trabajo. Kiro para triage y razonamiento sobre el codebase, Cursor para implementación rápida, y Claude Code para sesiones largas de refactor donde necesitas un modelo con ventana de contexto grande. Cada uno hace bien su parte. El problema está en </summary>
+    <author><name>Hazel Saenz</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Common Problems in AI-Generated Frontend Code and How to Avoid Them</title>
+    <link href="https://dev.to/karishma_dev/common-problems-in-ai-generated-frontend-code-and-how-to-avoid-them-4kef" rel="alternate"/>
+    <id>https://dev.to/karishma_dev/common-problems-in-ai-generated-frontend-code-and-how-to-avoid-them-4kef</id>
+    <updated>2026-07-11T22:55:43Z</updated>
+    <summary type="text">Over the last year, I’ve reviewed about a dozen projects where AI was used heavily in development. These were real products with real users, built fast and shipped to production. Most worked fine. Some had interesting patterns that kept showing up across different codebases. These aren’t unique to any one team or project, they’re just common things that happen when AI writes code and humans skip t</summary>
+    <author><name>Karishma</name></author>
   </entry>
   <entry>
     <title>A Backend Engineer's Field Notes on Cheap AI APIs in 2026</title>
@@ -401,65 +462,5 @@
     <category term="data"/>
     <category term="tutorial"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Password Managers: 3 Key Differences for a Secure Choice</title>
-    <link href="https://dev.to/merbayerp/password-managers-3-key-differences-for-a-secure-choice-46b8" rel="alternate"/>
-    <id>https://dev.to/merbayerp/password-managers-3-key-differences-for-a-secure-choice-46b8</id>
-    <updated>2026-07-11T19:04:09Z</updated>
-    <summary type="text">Last month, on a client project, I realized that a password shared by a developer for accessing the development environment came from a leaked service in another infrastructure. This situation once again demonstrated how critical password managers are, not just for personal but also for corporate security. When choosing among the many password managers on the market, it's essential to consider thr</summary>
-    <author><name>Mustafa ERBAY</name></author>
-  </entry>
-  <entry>
-    <title>Why iPhone Videos Fail as Telegram Avatars and How I Fixed It</title>
-    <link href="https://dev.to/liveavabot/why-iphone-videos-fail-as-telegram-avatars-and-how-i-fixed-it-22do" rel="alternate"/>
-    <id>https://dev.to/liveavabot/why-iphone-videos-fail-as-telegram-avatars-and-how-i-fixed-it-22do</id>
-    <updated>2026-07-11T19:04:02Z</updated>
-    <summary type="text">Last month a friend tried to set a video from her iPhone as her Telegram profile video. Telegram accepted the upload, spun for a second, then quietly did nothing. No error message. The video just never appeared. The cause is boring: iPhones have recorded HEVC (H.265) by default since iOS 11, and Telegram's video avatar pipeline only accepts H.264. Telegram never tells you this. It fails silently, </summary>
-    <author><name>liveavabot</name></author>
-  </entry>
-  <entry>
-    <title>Model Kombat: The LLM Fighting Game!</title>
-    <link href="https://dev.to/unitbuilds_cc/model-kombat-the-llm-fighting-game-2lof" rel="alternate"/>
-    <id>https://dev.to/unitbuilds_cc/model-kombat-the-llm-fighting-game-2lof</id>
-    <updated>2026-07-11T18:59:06Z</updated>
-    <summary type="text">Ever wondered what would happen if the world's leading Large Language Models settled their benchmark disputes in a 2D cybercity arena? It's easy to look at model performance on standardized benchmarks (like MMLU, MATH, or HumanEval). It is much more fun to visualize their underlying architectures, parameter scales, and hardware constraints as a retro-cyber fighting game. So, we built Model Kombat </summary>
-    <author><name>UnitBuilds</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I got tired of GitHub deleting my traffic stats after 14 days, so I built a local-first alternative 🚀</title>
-    <link href="https://dev.to/rakkunn/i-got-tired-of-github-deleting-my-traffic-stats-after-14-days-so-i-built-a-local-first-alternative-307h" rel="alternate"/>
-    <id>https://dev.to/rakkunn/i-got-tired-of-github-deleting-my-traffic-stats-after-14-days-so-i-built-a-local-first-alternative-307h</id>
-    <updated>2026-07-11T18:56:07Z</updated>
-    <summary type="text">Hey DEV community! 👋 If you maintain open-source projects on GitHub, you probably love checking your repository's &quot;Insights&quot; tab. Seeing people clone, view, and star your project is an amazing feeling. But there are two catches that have always frustrated me: The Tedious Click-Fest: To see how your projects are doing, you have to manually open GitHub in your browser, navigate to each repository in</summary>
-    <author><name>Im Woojin</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Claude Code Is Crashing Your Frame Rate on Windows 11 — The Fix</title>
-    <link href="https://dev.to/terminalblog/claude-code-is-crashing-your-frame-rate-on-windows-11-the-fix-m65" rel="alternate"/>
-    <id>https://dev.to/terminalblog/claude-code-is-crashing-your-frame-rate-on-windows-11-the-fix-m65</id>
-    <updated>2026-07-11T18:51:00Z</updated>
-    <summary type="text">You know the feeling — you submit a prompt, the spinner starts, and instead of smooth animation you get a choppy, stuttering mess. You check your CPU. It's idle. You check RAM. Half empty. You toggle every terminal setting you can find. Nothing helps. If you're on Windows 11 and Claude Code feels like it's running through molasses, you're not alone. A detailed issue report (#76745) with instrument</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scaling a Static Site to 4,400 Pages Without Breaking Google</title>
-    <link href="https://dev.to/casually2068/scaling-a-static-site-to-4400-pages-without-breaking-google-4abj" rel="alternate"/>
-    <id>https://dev.to/casually2068/scaling-a-static-site-to-4400-pages-without-breaking-google-4abj</id>
-    <updated>2026-07-11T18:50:30Z</updated>
-    <summary type="text">I built Luxury Hotel Offers, a fully static site with 3,400+ listings that generates 4,400 HTML pages at build time. No SSR, no database at runtime. Here are the four hardest scaling problems I hit. 1. Googlebot's 2 MB HTML Limit With 3,400 hotels on one listing page, the naive approach (render all cards in HTML) produced a 9 MB page. Googlebot truncates at 2 MB and ignores the rest. The fix: cap </summary>
-    <author><name>Jonathan</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI’s Head of Safety Is Leaving the Company</title>
-    <link href="https://www.wired.com/story/openai-head-of-safety-leaving/" rel="alternate"/>
-    <id>https://www.wired.com/story/openai-head-of-safety-leaving/</id>
-    <updated>2026-07-11T01:07:26Z</updated>
-    <summary type="text">Johannes Heidecke’s departure comes as OpenAI tries to further integrate its research and safety teams.</summary>
-    <author><name>Maxwell Zeff</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
