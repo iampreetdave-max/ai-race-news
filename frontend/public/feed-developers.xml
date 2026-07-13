@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-13T19:28:16Z</updated>
+  <updated>2026-07-13T21:01:16Z</updated>
   <entry>
     <title>OpenAI's new prompting guide tells users to stop overthinking and start with the result</title>
     <link href="https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/" rel="alternate"/>
@@ -22,6 +22,23 @@
     <summary type="text">Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researc</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Can you trust your sensor data? A developer's guide to the full stack</title>
+    <link href="https://dev.to/mariusgjerd/can-you-trust-your-sensor-data-a-developers-guide-to-the-full-stack-3376" rel="alternate"/>
+    <id>https://dev.to/mariusgjerd/can-you-trust-your-sensor-data-a-developers-guide-to-the-full-stack-3376</id>
+    <updated>2026-07-13T20:30:19Z</updated>
+    <summary type="text">Every data pipeline in industrial IoT starts the same way: something physical happens, a sensor detects it, and a number appears in your database. The gap between “something physical happens” and “a number appears in your database” is where most data quality problems live. If you’ve only ever worked on the database side, that gap is invisible. This post is a map of it. We’ll trace a single tempera</summary>
+    <author><name>Marius Gjerd</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>AI Coding's Real Bottleneck Is Repository Execution Trust</title>
+    <link href="https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah" rel="alternate"/>
+    <id>https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah</id>
+    <updated>2026-07-13T20:20:02Z</updated>
+    <summary type="text">Overview For a while, the central question in AI coding felt obvious: Can the model generate good code? That is still important, but it is no longer the main bottleneck in many real workflows. The bigger problem now is repository execution trust. Can the agent trust the repository enough to act correctly? Can the repository tell the agent what setup is required, what task is canonical, what workfl</summary>
+    <author><name>Bobai Kato</name></author>
   </entry>
   <entry>
     <title>Let Me Show You Which AI Model Actually Writes the Best Code</title>
@@ -400,6 +417,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Your Claude Code May Be Silently Approving Permissions — Here's How to Check</title>
+    <link href="https://dev.to/terminalblog/your-claude-code-may-be-silently-approving-permissions-heres-how-to-check-4b4o" rel="alternate"/>
+    <id>https://dev.to/terminalblog/your-claude-code-may-be-silently-approving-permissions-heres-how-to-check-4b4o</id>
+    <updated>2026-07-11T18:51:01Z</updated>
+    <summary type="text">Come back from a coffee break, click on your Claude Code window to resume working, and — without touching the keyboard — you've just approved (or rejected) a permission prompt you never read. That's not a hypothetical. That's issue #76743, filed against Claude Code on Windows 11, and the implications for safety are immediate. What's Happening When Claude Code is running with a permission prompt pe</summary>
+    <author><name>TerminalBlog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Claude Code Is Crashing Your Frame Rate on Windows 11 — The Fix</title>
     <link href="https://dev.to/terminalblog/claude-code-is-crashing-your-frame-rate-on-windows-11-the-fix-m65" rel="alternate"/>
     <id>https://dev.to/terminalblog/claude-code-is-crashing-your-frame-rate-on-windows-11-the-fix-m65</id>
@@ -435,31 +461,5 @@
     <summary type="text">Six weeks ago &quot;verify a contractor licence in Canada&quot; meant opening a different clunky government portal for every province. I wanted one search box. So I built one — a live site backed by 65,177 official contractor and home-builder licences, plus an API for the same data. This is the build log: the stack, the data pipeline, and the one bug that quietly cost me 98% of my Ontario records. The probl</summary>
     <author><name>Dave Zavin</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>What non-university ML certificates are industry standard or highly regarded? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1uv35xz/what_nonuniversity_ml_certificates_are_industry/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1uv35xz/what_nonuniversity_ml_certificates_are_industry/</id>
-    <updated>2026-07-13T06:07:05Z</updated>
-    <summary type="text">I'm considering which certificates are worth the time and money to support my own ML software firm and strengthen my credentials. There is a sea of suggestions online coming from a range of sources that say you don't need a university degree to do this and just need to do &quot;these&quot; courses. What courses do you guys suggest? My current list below is where I'm at presently: Cloud MLOps &amp; Architecture </summary>
-    <author><name>/u/cam-douglas</name></author>
-  </entry>
-  <entry>
-    <title>Your Background Subagents Can Leak Secrets — Build the Isolation Model</title>
-    <link href="https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h" rel="alternate"/>
-    <id>https://dev.to/terminalblog/your-background-subagents-can-leak-secrets-build-the-isolation-model-c1h</id>
-    <updated>2026-07-11T15:44:20Z</updated>
-    <summary type="text">Developers flagged a freshly filed, reproducible issue that should make anyone running background agents pause: Claude Code's background Opus subagents intermittently stall on their first turn and, instead of producing useful work, emit system-prompt fragments — including text shaped like authorization data — as their only output. It's labeled a security issue, it has a reproduction, and it's open</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Tencent's Hy3 Coding AI Puts Input Tokens at $0.14 Per Million</title>
-    <link href="https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1" rel="alternate"/>
-    <id>https://dev.to/terminalblog/tencents-hy3-coding-ai-puts-input-tokens-at-014-per-million-10g1</id>
-    <updated>2026-07-11T15:44:19Z</updated>
-    <summary type="text">The feed showed a new entrant worth watching: Tencent has launched Hy3, a coding-focused AI model, with input tokens priced at $0.14 per million. For developers who live in the terminal running coding agents, that price point lands well below the per-token rates most frontier models charge, and it puts a major lab's coding model into the &quot;cheap enough to leave running&quot; category. What makes this in</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
