@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-13T17:17:01Z</updated>
+  <updated>2026-07-13T19:28:16Z</updated>
+  <entry>
+    <title>OpenAI's new prompting guide tells users to stop overthinking and start with the result</title>
+    <link href="https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/" rel="alternate"/>
+    <id>https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/</id>
+    <updated>2026-07-13T17:47:39Z</updated>
+    <summary type="text">OpenAI has released a prompting guide for everyday users, not developers. Instead of rigid formulas, it suggests four optional building blocks: goal, context, format, and constraints. The core advice is simple: describe the result you want, not the steps to get there. It's the first time OpenAI covers both Chat and Codex in a single framework. The article OpenAI's new prompting guide tells users t</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment</title>
     <link href="https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/" rel="alternate"/>
@@ -13,6 +22,15 @@
     <summary type="text">Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researc</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Let Me Show You Which AI Model Actually Writes the Best Code</title>
+    <link href="https://dev.to/gentlenode/let-me-show-you-which-ai-model-actually-writes-the-best-code-3epa" rel="alternate"/>
+    <id>https://dev.to/gentlenode/let-me-show-you-which-ai-model-actually-writes-the-best-code-3epa</id>
+    <updated>2026-07-13T19:00:44Z</updated>
+    <summary type="text">Let Me Show You Which AI Model Actually Writes the Best Code I've been obsessed with AI coding assistants lately. Like, embarrassingly obsessed. I keep finding excuses to throw real-world problems at different models just to see what sticks. So last month I did something that ate up way more of my weekend than I'd like to admit — I ran 10 of the top LLMs through five coding tasks and tracked every</summary>
+    <author><name>gentlenode</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The Question That Disappeared: Remote Claude Code and the 3-Hour Trap</title>
@@ -287,6 +305,14 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>MCP…. Is bad?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uvaqxp/mcp_is_bad/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uvaqxp/mcp_is_bad/</id>
+    <updated>2026-07-13T12:54:23Z</updated>
+    <summary type="text">So like many of you I realized I was creating custom tools for each one of my AI based applications and then realized alright I guess I should go forth and build a local MCP server. SOMEONE TELL ME IF IM DOING SOMETHING WRONG but it seems like permissions control for an agent has to be managed by the MCP service. This honestly leads to an annoying amount of config on both the service and the clien</summary>
+    <author><name>/u/No_Cartographer3953</name></author>
+  </entry>
+  <entry>
     <title>Backend Engineering</title>
     <link href="https://dev.to/augustineamponsah/backend-engineering-287a" rel="alternate"/>
     <id>https://dev.to/augustineamponsah/backend-engineering-287a</id>
@@ -383,6 +409,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Compressed Version of Qwen-3.6-27B coming from PrismML - Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/</id>
+    <updated>2026-07-13T07:59:33Z</updated>
+    <summary type="text">The startup, PrismML, said it has shrunk down Qwen 3.6, an open-source large language model developed by Chinese internet giant Alibaba, to run on an iPhone 17 Pro. The model has 27 billion parameters, which are roughly similar to the synapses in a brain and can help determine the complexity of the data a model can process. In contrast, most models that run on mobile phones have only a few billion</summary>
+    <author><name>/u/pmttyji</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>I finally counted my tokens before they hatched</title>
     <link href="https://dev.to/lovestaco/i-finally-counted-my-tokens-before-they-hatched-32i4" rel="alternate"/>
     <id>https://dev.to/lovestaco/i-finally-counted-my-tokens-before-they-hatched-32i4</id>
@@ -424,42 +460,6 @@
     <updated>2026-07-11T15:44:19Z</updated>
     <summary type="text">The feed showed a new entrant worth watching: Tencent has launched Hy3, a coding-focused AI model, with input tokens priced at $0.14 per million. For developers who live in the terminal running coding agents, that price point lands well below the per-token rates most frontier models charge, and it puts a major lab's coding model into the &quot;cheap enough to leave running&quot; category. What makes this in</summary>
     <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Loop Engineering: Score the System That Prompts Your Agents</title>
-    <link href="https://dev.to/renolu/loop-engineering-score-the-system-that-prompts-your-agents-emd" rel="alternate"/>
-    <id>https://dev.to/renolu/loop-engineering-score-the-system-that-prompts-your-agents-emd</id>
-    <updated>2026-07-11T14:18:35Z</updated>
-    <summary type="text">Loop Engineering makes a blunt argument: the person who writes prompts to a coding agent is now the bottleneck, so the job is to design the system that prompts the agent instead. The repo, cobusgreyling/loop-engineering, turns that claim into something you can measure. Run npx @cobusgreyling/loop-init . and it scaffolds skills, state, and budget files, then prints a &quot;Loop Ready&quot; score and your fir</summary>
-    <author><name>Reno Lu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Thrive (Not Just Survive) as a Developer in the Age of AI</title>
-    <link href="https://dev.to/gaurav101/how-to-thrive-not-just-survive-as-a-developer-in-the-age-of-ai-3bdp" rel="alternate"/>
-    <id>https://dev.to/gaurav101/how-to-thrive-not-just-survive-as-a-developer-in-the-age-of-ai-3bdp</id>
-    <updated>2026-07-11T12:54:36Z</updated>
-    <summary type="text">The narrative around Artificial Intelligence and software engineering has shifted dramatically. We are no longer asking if AI will change development, but rather how we change with it. If your value as a developer is tied solely to how fast you can churn out boilerplate code, write standard API endpoints, or memorize syntax, the landscape is becoming challenging. AI can do those things in seconds.</summary>
-    <author><name>Gaurav Kumar Singh</name></author>
-  </entry>
-  <entry>
-    <title>5 launchd Traps I Hit Running Claude Code Automation 24/7 on macOS</title>
-    <link href="https://dev.to/bokuwalily/5-launchd-traps-i-hit-running-claude-code-automation-247-on-macos-32bi" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/5-launchd-traps-i-hit-running-claude-code-automation-247-on-macos-32bi</id>
-    <updated>2026-07-11T11:00:05Z</updated>
-    <summary type="text">In earlier posts I walked through a mechanism that auto-generates skills and context auditing. The whole point of these is to run them automatically at a fixed time every night — that's where the value comes from. Right now my setup has 20 launchd jobs running (skill generation, context audits, a morning briefing generator, Vault ingestion, and more). The catch: setting up scheduled jobs on macOS </summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code, Beyond the Prompt — Part 4: Your First MCP Server (Give Claude Safe Hands on Your Own Tools)</title>
-    <link href="https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p" rel="alternate"/>
-    <id>https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</id>
-    <updated>2026-07-11T10:45:28Z</updated>
-    <summary type="text">Part 4 of Claude Code, Beyond the Prompt — patterns from running a live automated trading system on Claude Code. Part 3: slash commands and skills. Here's a workflow you've definitely done: You ask Claude what's wrong with production. It can't see production. So you SSH in, run a command, copy the output, paste it back into the chat. Claude reads it, asks for another command. You run that, copy, p</summary>
-    <author><name>Gde</name></author>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>

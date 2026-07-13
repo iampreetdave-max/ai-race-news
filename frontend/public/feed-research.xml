@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-13T17:17:01Z</updated>
+  <updated>2026-07-13T19:28:16Z</updated>
   <entry>
     <title>Scientists discovered the brain doesn't make decisions the way we thought</title>
     <link href="https://www.sciencedaily.com/releases/2026/07/260712011757.htm" rel="alternate"/>
@@ -77,6 +77,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Why do people keep fine-tuning on summarized/censored SOTA CoT traces?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/</id>
+    <updated>2026-07-12T23:54:52Z</updated>
+    <summary type="text">Am I missing something? It seems like some people think distillation is magic and will raise the quality of output above what the base model is actually capable of. It's especially weird to me to see all these Fable fine-tunes, because as far as I understand it, they miss the fact that the reasoning traces you get from Anthropic's models are completely different from the actual chain of thought th</summary>
+    <author><name>/u/wombweed</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>What Bun’s Rust Rewrite Tells Us About Rebuilding the AI Infrastructure Layer in C#</title>
     <link href="https://dev.to/zhongkaifu/what-buns-rust-rewrite-tells-us-about-rebuilding-the-ai-infrastructure-layer-in-c-14ch" rel="alternate"/>
     <id>https://dev.to/zhongkaifu/what-buns-rust-rewrite-tells-us-about-rebuilding-the-ai-infrastructure-layer-in-c-14ch</id>
@@ -86,23 +95,12 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Seeking arXiv Endorsement for CS.CL / CS.AI - Multi-Agent Literature-Review Generation &amp; Citation Verification [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1uua2gt/seeking_arxiv_endorsement_for_cscl_csai/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1uua2gt/seeking_arxiv_endorsement_for_cscl_csai/</id>
-    <updated>2026-07-12T08:50:58Z</updated>
-    <summary type="text">Hi everyone, I am a researcher looking for an arXiv endorsement in the Computer Science (Computation and Language—cs.CL) or Artificial Intelligence (cs.AI) category for my upcoming paper. My paper addresses the critical issue of hallucinated/fabricated citations when using LLMs for systematic literature reviews. I propose a four-agent framework built on CrewAI (Academic Retriever, Critical Reviewe</summary>
-    <author><name>/u/FanTax98</name></author>
-    <category term="research"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scalable Visual Pretraining for Language Intelligence</title>
-    <link href="https://arxiv.org/abs/2607.09657v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.09657v1</id>
-    <updated>2026-07-10T17:57:03Z</updated>
-    <summary type="text">The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by </summary>
-    <author><name>Kai Chen</name></author>
+    <title>moondream3.1-9B-A2B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/</id>
+    <updated>2026-07-12T18:40:55Z</updated>
+    <summary type="text">Moondream 3.1 is a vision language model with a mixture-of-experts architecture (9B total parameters, 2B active). It delivers state-of-the-art visual reasoning and detection while staying fast and cheap to deploy. Skills include query, detect, point, and caption, all native and all returning structured output. submitted by /u/secopsml [link] [comments]</summary>
+    <author><name>/u/secopsml</name></author>
     <category term="research"/>
     <category term="llm"/>
   </entry>
