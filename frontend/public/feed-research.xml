@@ -4,7 +4,64 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-13T23:57:34Z</updated>
+  <updated>2026-07-14T03:16:49Z</updated>
+  <entry>
+    <title>Evidence-Backed Video Question Answering</title>
+    <link href="https://arxiv.org/abs/2607.11862v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11862v1</id>
+    <updated>2026-07-13T17:49:10Z</updated>
+    <summary type="text">Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggle to capture complex video dynamics such as occlusions and non-rigid deformations. We propose Evidence-Backed Video Quest</summary>
+    <author><name>Juan Carlos Niebles</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents</title>
+    <link href="https://arxiv.org/abs/2607.11818v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11818v1</id>
+    <updated>2026-07-13T17:13:09Z</updated>
+    <summary type="text">We introduce MM-ToolSandBox, a benchmark and evaluation framework for visually grounded tool-calling agents. The framework provides a stateful execution environment spanning 500+ tools across 16 application domains, supporting multi-image, multi-turn tasks where agents must ground progressively arriving visual inputs into executable tool calls while handling realistic conversational phenomena (goa</summary>
+    <author><name>Afshin Dehghan</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Higher-Order Cell Tracking Transformer</title>
+    <link href="https://arxiv.org/abs/2607.11754v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11754v1</id>
+    <updated>2026-07-13T16:12:29Z</updated>
+    <summary type="text">Reconstructing lineages from live-imaging microscopy requires linking cell detections across time, including through cell divisions. A common approach is to construct a candidate graph and associate cell segmentations (nodes) across frames. However, these and other existing methods overlook two structural obstacles in candidate tracking graphs: (i) cell divisions entangle distinct lineage paths in</summary>
+    <author><name>Loïc A. Royer</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>GFR-SAM: Training-Free Referring Camouflaged Object Segmentation via Cross-Image Prompting</title>
+    <link href="https://arxiv.org/abs/2607.11732v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11732v1</id>
+    <updated>2026-07-13T15:55:45Z</updated>
+    <summary type="text">Referring Camouflaged Object Detection (Ref-COD) requires segmenting hidden targets guided by reference cues. While supervised methods are annotation-heavy and training-free approaches via sparse point-prompting are sensitive to localization errors, we propose GFR-SAM, a robust three-stage training-free framework. GFR-SAM shifts the paradigm from fragile point-matching to a &quot;Generate-Filter-Refine</summary>
+    <author><name>Liujuan Cao</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>SVI360: Spherical Video Interpolation</title>
+    <link href="https://arxiv.org/abs/2607.11710v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11710v1</id>
+    <updated>2026-07-13T15:37:52Z</updated>
+    <summary type="text">This paper addresses the problem of omnidirectional video interpolation, which plays an essential role in applications such as virtual reality and immersive video enhancement. Existing video interpolation methods are not well-suited for spherical videos, as they have difficulty handling severe distortions close to the poles. To address this issue, we propose SVI360, a dual-branch framework that co</summary>
+    <author><name>Cedric Demonceaux</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Similarity-Guided Curriculum Fine-Tuning of LLMs for Neural Architecture Synthesis</title>
+    <link href="https://arxiv.org/abs/2607.11591v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.11591v1</id>
+    <updated>2026-07-13T14:14:30Z</updated>
+    <summary type="text">Introduce a MinHash-based similarity scheduling framework that constructs a progressive curriculum over neural architecture code for LLM-based neural architecture search (NAS). Using 128-permutation MinHash signatures over normalised 7-gram source code shingles, we partition the reference pool into similarity bands and present them in increasing architectural heterogeneity, with the best LoRA adap</summary>
+    <author><name>Dmitry Ignatov</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Scientists discovered the brain doesn't make decisions the way we thought</title>
     <link href="https://www.sciencedaily.com/releases/2026/07/260712011757.htm" rel="alternate"/>
@@ -83,25 +140,6 @@
     <updated>2026-07-12T23:54:52Z</updated>
     <summary type="text">Am I missing something? It seems like some people think distillation is magic and will raise the quality of output above what the base model is actually capable of. It's especially weird to me to see all these Fable fine-tunes, because as far as I understand it, they miss the fact that the reasoning traces you get from Anthropic's models are completely different from the actual chain of thought th</summary>
     <author><name>/u/wombweed</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What Bun’s Rust Rewrite Tells Us About Rebuilding the AI Infrastructure Layer in C#</title>
-    <link href="https://dev.to/zhongkaifu/what-buns-rust-rewrite-tells-us-about-rebuilding-the-ai-infrastructure-layer-in-c-14ch" rel="alternate"/>
-    <id>https://dev.to/zhongkaifu/what-buns-rust-rewrite-tells-us-about-rebuilding-the-ai-infrastructure-layer-in-c-14ch</id>
-    <updated>2026-07-11T06:49:06Z</updated>
-    <summary type="text">Original Chinese article: https://www.cnblogs.com/shanyou/p/21309486 TL;DR Bun’s migration from Zig to Rust demonstrates a broader infrastructure trend: as software moves from experimentation into production, compiler-enforced correctness becomes more valuable than conventions that depend on developers always being careful. The same transition may now be happening in AI infrastructure. Python rema</summary>
-    <author><name>Zhongkai Fu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>moondream3.1-9B-A2B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/</id>
-    <updated>2026-07-12T18:40:55Z</updated>
-    <summary type="text">Moondream 3.1 is a vision language model with a mixture-of-experts architecture (9B total parameters, 2B active). It delivers state-of-the-art visual reasoning and detection while staying fast and cheap to deploy. Skills include query, detect, point, and caption, all native and all returning structured output. submitted by /u/secopsml [link] [comments]</summary>
-    <author><name>/u/secopsml</name></author>
-    <category term="research"/>
     <category term="llm"/>
   </entry>
 </feed>

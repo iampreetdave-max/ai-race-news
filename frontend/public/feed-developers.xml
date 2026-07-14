@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-13T23:57:34Z</updated>
+  <updated>2026-07-14T03:16:49Z</updated>
   <entry>
     <title>OpenAI's new prompting guide tells users to stop overthinking and start with the result</title>
     <link href="https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>[AINews] Codex usage up &gt;10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??</title>
+    <link href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months" rel="alternate"/>
+    <id>https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months</id>
+    <updated>2026-07-14T01:22:27Z</updated>
+    <summary type="text">a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...</summary>
+    <author><name>Latent Space</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment</title>
     <link href="https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/</id>
@@ -22,6 +31,15 @@
     <summary type="text">Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researc</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>MedPMC: A New Framework for High-Fidelity Medical Multimodal Data</title>
+    <link href="https://dev.to/pneumetron/medpmc-a-new-framework-for-high-fidelity-medical-multimodal-data-dmo" rel="alternate"/>
+    <id>https://dev.to/pneumetron/medpmc-a-new-framework-for-high-fidelity-medical-multimodal-data-dmo</id>
+    <updated>2026-07-14T02:49:43Z</updated>
+    <summary type="text">What Changed The development of multimodal foundation models in medicine has been significantly hampered by the scarcity of large-scale, high-quality clinical data. While PubMed Central (PMC) offers a vast repository of expert-authored image-text data, existing PMC-derived datasets have historically suffered from limitations in fidelity, reproducibility, and clinical validation. A new framework, M</summary>
+    <author><name>Pneumetron</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The AI Supply Chain: The Next Evolution of Third Party Risk</title>
@@ -444,23 +462,5 @@
     <author><name>TerminalBlog</name></author>
     <category term="open-source"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Model Kombat: The LLM Fighting Game!</title>
-    <link href="https://dev.to/unitbuilds_cc/model-kombat-the-llm-fighting-game-2lof" rel="alternate"/>
-    <id>https://dev.to/unitbuilds_cc/model-kombat-the-llm-fighting-game-2lof</id>
-    <updated>2026-07-11T18:59:06Z</updated>
-    <summary type="text">Ever wondered what would happen if the world's leading Large Language Models settled their benchmark disputes in a 2D cybercity arena? It's easy to look at model performance on standardized benchmarks (like MMLU, MATH, or HumanEval). It is much more fun to visualize their underlying architectures, parameter scales, and hardware constraints as a retro-cyber fighting game. So, we built Model Kombat </summary>
-    <author><name>UnitBuilds</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Claude Code May Be Silently Approving Permissions — Here's How to Check</title>
-    <link href="https://dev.to/terminalblog/your-claude-code-may-be-silently-approving-permissions-heres-how-to-check-4b4o" rel="alternate"/>
-    <id>https://dev.to/terminalblog/your-claude-code-may-be-silently-approving-permissions-heres-how-to-check-4b4o</id>
-    <updated>2026-07-11T18:51:01Z</updated>
-    <summary type="text">Come back from a coffee break, click on your Claude Code window to resume working, and — without touching the keyboard — you've just approved (or rejected) a permission prompt you never read. That's not a hypothetical. That's issue #76743, filed against Claude Code on Windows 11, and the implications for safety are immediate. What's Happening When Claude Code is running with a permission prompt pe</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
