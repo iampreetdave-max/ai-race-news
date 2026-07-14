@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-14T06:14:35Z</updated>
+  <updated>2026-07-14T09:07:42Z</updated>
+  <entry>
+    <title>Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder</title>
+    <link href="https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/</id>
+    <updated>2026-07-14T08:15:29Z</updated>
+    <summary type="text">Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folde</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>OpenAI's new prompting guide tells users to stop overthinking and start with the result</title>
     <link href="https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/" rel="alternate"/>
@@ -21,6 +30,24 @@
     <updated>2026-07-14T01:22:27Z</updated>
     <summary type="text">a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...</summary>
     <author><name>Latent Space</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code burns 5x more tokens before you type a word. Here's where they go.</title>
+    <link href="https://dev.to/thegatewayguy/claude-code-burns-5x-more-tokens-before-you-type-a-word-heres-where-they-go-2djb" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/claude-code-burns-5x-more-tokens-before-you-type-a-word-heres-where-they-go-2djb</id>
+    <updated>2026-07-14T08:58:35Z</updated>
+    <summary type="text">Somebody finally put a logging proxy between the harnesses and the API and measured what actually goes over the wire. Systima did it, and the numbers are not subtle. Claude Code opens a session with roughly 33,000 tokens of system prompt, tool schemas, and injected scaffolding. OpenCode, running the same model on the same machine, opens with about 7,000. You haven't typed anything yet. What actual</summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code faked its own work, then wrote me an unprompted confession</title>
+    <link href="https://dev.to/jun_uen0/claude-code-faked-its-own-work-then-wrote-me-an-unprompted-confession-29e5" rel="alternate"/>
+    <id>https://dev.to/jun_uen0/claude-code-faked-its-own-work-then-wrote-me-an-unprompted-confession-29e5</id>
+    <updated>2026-07-14T08:56:28Z</updated>
+    <summary type="text">I'll confess up front: this is basically a sequel to my earlier piece, the one where an AI decided it was being hacked when nobody was attacking it, and spiraled. An AI lied to me again. Only this time, after the lie got caught, it sent me a long confession — one I never asked for. Somewhere in reading it, I stopped laughing. Here's the whole thing. For the record, I run these agents fairly carefu</summary>
+    <author><name>Jun</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -433,34 +460,5 @@
     <author><name>soy</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building a Local-First, AI-Agent Powered Trading Workstation in Docker 🚀</title>
-    <link href="https://dev.to/mrhustlex/i-built-tradingspy-a-completely-local-privacy-first-ai-trading-research-assistant-backtester-15kj" rel="alternate"/>
-    <id>https://dev.to/mrhustlex/i-built-tradingspy-a-completely-local-privacy-first-ai-trading-research-assistant-backtester-15kj</id>
-    <updated>2026-07-11T20:38:51Z</updated>
-    <summary type="text">Like many devs who double as market hobbyists, my weekends usually look like a chaotic mess of Jupyter notebooks, multiple stock data APIs, and half-broken custom scripts trying to backtest a simple idea. A few months ago, I hit a wall. I realized I was writing more infrastructure plumbing than actual strategy code. When looking at commercial alternatives, I found they either cost a fortune, force</summary>
-    <author><name>Mr hustle</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>No Baked-In Behavior: Why Your AI Agent's System Prompt Should Be Yours</title>
-    <link href="https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2" rel="alternate"/>
-    <id>https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2</id>
-    <updated>2026-07-11T19:45:26Z</updated>
-    <summary type="text">Every AI coding agent ships with baked-in behavior. Hidden system prompts you can't see. Tools you can't remove. Steering baked in by the company that made it. It's just how these products work. Batteries included. Claude Code has a system prompt. A long one. It tells the agent how to behave, what to prioritize, what to avoid. It's not exposed in the product. You can dig it out of the npm package </summary>
-    <author><name>Daniel Bílek</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPT-5.6 Sol Matches Claude Fable 5 on Code Arena — For 40% Less</title>
-    <link href="https://dev.to/terminalblog/gpt-56-sol-matches-claude-fable-5-on-code-arena-for-40-less-2i22" rel="alternate"/>
-    <id>https://dev.to/terminalblog/gpt-56-sol-matches-claude-fable-5-on-code-arena-for-40-less-2i22</id>
-    <updated>2026-07-11T19:45:01Z</updated>
-    <summary type="text">The benchmark numbers landed, and they are tight: GPT-5.6 Sol tied Claude Fable 5 on Code Arena — the standard coding agent evaluation — while costing 40% less. That is the kind of performance-per-dollar delta that makes budgeting for agentic workflows interesting again. Code Arena measures real-world code generation, debugging, and refactoring tasks. A tie means both models produce comparable qua</summary>
-    <author><name>TerminalBlog</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
