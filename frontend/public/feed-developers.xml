@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T21:04:36Z</updated>
+  <updated>2026-07-15T23:01:19Z</updated>
   <entry>
     <title>Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex</title>
     <link href="https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/" rel="alternate"/>
@@ -34,6 +34,23 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your AI Coding Assistant Isn't Reading Your Code, It's Mailing It Home</title>
+    <link href="https://dev.to/coridev/your-ai-coding-assistant-isnt-reading-your-code-its-mailing-it-home-3blg" rel="alternate"/>
+    <id>https://dev.to/coridev/your-ai-coding-assistant-isnt-reading-your-code-its-mailing-it-home-3blg</id>
+    <updated>2026-07-15T22:40:16Z</updated>
+    <summary type="text">Hook An AI coding CLI that uploads your entire Git history — commit logs, secrets, and all — to a vendor-controlled bucket, and does it through a channel that your privacy opt-out doesn't even touch. That's not a bug bounty footnote. That's the exact threat model everyone waved off as &quot;theoretical&quot; a year ago, now confirmed with a canary file. Context This isn't new territory conceptually — &quot;AI to</summary>
+    <author><name>Cor E</name></author>
+  </entry>
+  <entry>
+    <title>What's Actually Cooking in Azure AI Right Now (Notes from My MVP Prep Rabbit Hole)</title>
+    <link href="https://dev.to/ibne_sabidsaikat_1443282/whats-actually-cooking-in-azure-ai-right-now-notes-from-my-mvp-prep-rabbit-hole-9hf" rel="alternate"/>
+    <id>https://dev.to/ibne_sabidsaikat_1443282/whats-actually-cooking-in-azure-ai-right-now-notes-from-my-mvp-prep-rabbit-hole-9hf</id>
+    <updated>2026-07-15T22:15:12Z</updated>
+    <summary type="text">So here's the thing — I've been buried in Azure documentation for the past few weeks, partly because I'm putting together my Microsoft MVP application, and partly because I genuinely can't keep up with how fast the Azure AI stack is moving anymore. Every time I close one tab, three new &quot;What's New&quot; pages pop up. I figured instead of hoarding all these notes in a random OneNote page I'll never open</summary>
+    <author><name>Ibne sabid saikat</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task</title>
@@ -428,44 +445,6 @@
     <updated>2026-07-13T17:01:35Z</updated>
     <summary type="text">The task had been running a while on my remote box — one of those long, multi-step jobs I kick off and step away from — and I was somewhere else entirely when my phone buzzed. It was a Telegram ping from a small notifier I'd built, claude-code-notify, which reaches me whenever a Claude Code turn needs my input, finishes, or dies — so I don't have to sit and watch. This one was the first kind: Clau</summary>
     <author><name>Jerome</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From REST to MCP (2/2): The Design Shift</title>
-    <link href="https://dev.to/ibrahim_mohammed_47/from-rest-to-mcp-22-the-design-shift-4bda" rel="alternate"/>
-    <id>https://dev.to/ibrahim_mohammed_47/from-rest-to-mcp-22-the-design-shift-4bda</id>
-    <updated>2026-07-13T16:41:54Z</updated>
-    <summary type="text">Intro In part one, we saw why the environments of MCPs and REST APIs are fundamentally different, and therefore concluded that their design should also differ. In this article we will go through some MCP design good practices, but we will have a REST intro to each one. My goal is to elaborate the shift in design between the two. The examples below come from Sentry, Notion, GitHub and Stripe. We wi</summary>
-    <author><name>Ibrahim Mohammed</name></author>
-  </entry>
-  <entry>
-    <title>TurboQuant, Four Months Later: Chasing Google's 6x VRAM Claim Into the Wild</title>
-    <link href="https://dev.to/carryologist/turboquant-four-months-later-chasing-googles-6x-vram-claim-into-the-wild-4gh1" rel="alternate"/>
-    <id>https://dev.to/carryologist/turboquant-four-months-later-chasing-googles-6x-vram-claim-into-the-wild-4gh1</id>
-    <updated>2026-07-13T16:41:35Z</updated>
-    <summary type="text">Back in Q1, I read a headline about Google cutting AI memory use by 6x and filed TurboQuant under &quot;watch and revisit&quot; — no code, tested only up to 8B parameters, nothing to actually run against AI-NT-No-Problem. Four months is a long time in this industry. I went back to see what actually happened, and the honest answer is: a lot, but not the thing I expected. What Google Actually Shipped Quick re</summary>
-    <author><name>Rob</name></author>
-    <category term="hardware"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code now has a built-in browser that lets the AI read, click, and type on external websites</title>
-    <link href="https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/</id>
-    <updated>2026-07-12T15:02:06Z</updated>
-    <summary type="text">Claude Code now has a built-in browser that lets the AI open, read, and interact with web pages directly inside the development environment. Write actions on external sites are screened by classifiers, and purchases or account creations need user approval. The article Claude Code now has a built-in browser that lets the AI read, click, and type on external websites appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Context Rot: Why Claude Code Sessions Decay, and How to Govern Them</title>
-    <link href="https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/</id>
-    <updated>2026-07-13T15:00:00Z</updated>
-    <summary type="text">Long sessions rot quietly, well before any token limit is reached. Here’s why, and how to govern your context in Claude Code. The post Context Rot: Why Claude Code Sessions Decay, and How to Govern Them appeared first on Towards Data Science.</summary>
-    <author><name>Jake Minns</name></author>
-    <category term="data"/>
     <category term="llm"/>
   </entry>
 </feed>
