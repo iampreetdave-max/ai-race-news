@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T06:19:38Z</updated>
+  <updated>2026-07-15T09:12:10Z</updated>
+  <entry>
+    <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
+    <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
+    <id>https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/</id>
+    <updated>2026-07-15T08:30:48Z</updated>
+    <summary type="text">Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Terra, the encryption is mandatory. The article OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation appeared first on The Decode</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task</title>
     <link href="https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/" rel="alternate"/>
@@ -362,6 +372,25 @@
     <author><name>r1ACK</name></author>
   </entry>
   <entry>
+    <title>How does a 102M-parameter transformer forecast multivariate time series?</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1uwh9ko/how_does_a_102mparameter_transformer_forecast/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1uwh9ko/how_does_a_102mparameter_transformer_forecast/</id>
+    <updated>2026-07-14T18:36:31Z</updated>
+    <summary type="text">I recently worked through the architecture of t0-alpha, a 101.6M-parameter foundation model for time-series forecasting. The design choice I found most interesting is that it separates two kinds of reasoning: Time attention learns how each variable evolves across time. Group attention allows related variables to exchange information. The rest of the architecture, briefly: inputs are split into pat</summary>
+    <author><name>/u/sjm213</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>The absolute nightmare of putting AI agents into actual production</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1uwg8kk/the_absolute_nightmare_of_putting_ai_agents_into/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1uwg8kk/the_absolute_nightmare_of_putting_ai_agents_into/</id>
+    <updated>2026-07-14T18:01:01Z</updated>
+    <summary type="text">It feels like the conversation around AI agents has quietly shifted over the last few months from &quot;look at what this autonomous loop can do&quot; to &quot;how do we actually keep these things from breaking in production.&quot; Most of us have figured out the build phase. You pick up a framework like LangGraph or CrewAI, connect a couple of tools and you have a prototype that looks incredible in a controlled envi</summary>
+    <author><name>/u/Kitchen-Owl4274</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Why Your Team's AI Assistant Acts Like It's the First Day on the Job, Every Single Time</title>
     <link href="https://dev.to/mininglamp/why-your-teams-ai-assistant-acts-like-its-the-first-day-on-the-job-every-single-time-2mep" rel="alternate"/>
     <id>https://dev.to/mininglamp/why-your-teams-ai-assistant-acts-like-its-the-first-day-on-the-job-every-single-time-2mep</id>
@@ -394,23 +423,5 @@
     <updated>2026-07-12T21:56:20Z</updated>
     <summary type="text">Python is an excellent language for automating cloud infrastructure, but the official Kubernetes Python client leaves developers with an important architectural decision: Where should Kubernetes manifests live? Should they be constructed directly with Python objects? Embedded as multiline strings? Or stored as external files and rendered at runtime? Each approach works, but they have very differen</summary>
     <author><name>Joaquin Menchaca</name></author>
-  </entry>
-  <entry>
-    <title>What do you use AI for the most?</title>
-    <link href="https://dev.to/arikaturika/what-do-you-use-ai-for-the-most-14im" rel="alternate"/>
-    <id>https://dev.to/arikaturika/what-do-you-use-ai-for-the-most-14im</id>
-    <updated>2026-07-12T17:54:33Z</updated>
-    <summary type="text">At work, I use Claude, ChatGPT and Copilot, depending on the task I have. Sometimes I create my task plan using one agent, another one helps with writing the code and another one does the code review. Sometimes I use the same agent for all three steps, so I don't really have a flow that's set in stone. One thing I did notice though is that, all agents perform very well when it comes to generatig c</summary>
-    <author><name>Arika O</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Measured Claude Code's Prompt-Cache Cost Three Ways. 85% of It Wasn't Mine to Trim.</title>
-    <link href="https://dev.to/nomurasan/i-measured-claude-codes-prompt-cache-cost-three-ways-85-of-it-wasnt-mine-to-trim-48hm" rel="alternate"/>
-    <id>https://dev.to/nomurasan/i-measured-claude-codes-prompt-cache-cost-three-ways-85-of-it-wasnt-mine-to-trim-48hm</id>
-    <updated>2026-07-12T17:37:12Z</updated>
-    <summary type="text">I ran the same empty Claude Code project through three launch paths and read the cache tokens off the session log after every turn. One of those paths never touched the shared server-side cache at all — cache_read stayed at 0 on every run. TL;DR: the launch path (VSCode extension, VSCode-internal terminal, or a standalone terminal like iTerm2) decides whether Claude Code hits Anthropic's shared pr</summary>
-    <author><name>Sho Naka</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
