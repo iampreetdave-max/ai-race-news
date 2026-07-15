@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T13:51:57Z</updated>
+  <updated>2026-07-15T15:28:40Z</updated>
   <entry>
     <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
     <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
@@ -31,6 +31,24 @@
     <updated>2026-07-14T20:16:51Z</updated>
     <summary type="text">OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Pl</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>I Gave an AI Agent a Database, Compute, Storage, and Models From One CLI</title>
+    <link href="https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h</id>
+    <updated>2026-07-15T15:21:45Z</updated>
+    <summary type="text">A working AI agent has an unglamorous shopping list. It needs a database to remember things, somewhere to run that can stream tokens without timing out, object storage for whatever it produces, and access to a model. Assembled the usual way, that is four separate signups: a Postgres host, a compute platform, an S3 bucket, and an OpenAI or Anthropic account, each with its own credential to provisio</summary>
+    <author><name>DevOps Daily</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cursor has an unpatched 0-day. It's been 7 months.</title>
+    <link href="https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk</id>
+    <updated>2026-07-15T15:08:38Z</updated>
+    <summary type="text">A developer opens a repository in Cursor on Windows. If that repo contains a file named git.exe in the root, Cursor executes it automatically. No clicks. No warnings. No prompts. Just code execution — under the current user's privileges. Mindgard found this on December 15, 2025. They reported it the same day. Today is July 2026 — 197+ Cursor versions later — and it's still there. &quot;The vulnerabilit</summary>
+    <author><name>Andrew Kew</name></author>
   </entry>
   <entry>
     <title>A plugin can pass validation and still fail after install</title>
@@ -389,22 +407,5 @@
     <author><name>/u/sjm213</name></author>
     <category term="llm"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>The absolute nightmare of putting AI agents into actual production</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1uwg8kk/the_absolute_nightmare_of_putting_ai_agents_into/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1uwg8kk/the_absolute_nightmare_of_putting_ai_agents_into/</id>
-    <updated>2026-07-14T18:01:01Z</updated>
-    <summary type="text">It feels like the conversation around AI agents has quietly shifted over the last few months from &quot;look at what this autonomous loop can do&quot; to &quot;how do we actually keep these things from breaking in production.&quot; Most of us have figured out the build phase. You pick up a framework like LangGraph or CrewAI, connect a couple of tools and you have a prototype that looks incredible in a controlled envi</summary>
-    <author><name>/u/Kitchen-Owl4274</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Why Your Team's AI Assistant Acts Like It's the First Day on the Job, Every Single Time</title>
-    <link href="https://dev.to/mininglamp/why-your-teams-ai-assistant-acts-like-its-the-first-day-on-the-job-every-single-time-2mep" rel="alternate"/>
-    <id>https://dev.to/mininglamp/why-your-teams-ai-assistant-acts-like-its-the-first-day-on-the-job-every-single-time-2mep</id>
-    <updated>2026-07-13T03:48:29Z</updated>
-    <summary type="text">Anyone who has used AI tools for a while has probably run into this annoyance. You ask it to write a weekly report in the morning and it doesn't know your KPI framework was overhauled last week. You ask for a technical proposal in the afternoon and it has no idea you spent three months locking down your tech stack. Every new conversation means re-explaining the project background, which decisions </summary>
-    <author><name>Mininglamp</name></author>
   </entry>
 </feed>

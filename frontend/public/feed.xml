@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-15T13:51:57Z</updated>
+  <updated>2026-07-15T15:28:40Z</updated>
+  <entry>
+    <title>Moving Enterprise AI From Pilots to Payoff</title>
+    <link href="https://aibusiness.com/agentic-ai/moving-enterprise-ai-from-pilots-payoff" rel="alternate"/>
+    <id>https://aibusiness.com/agentic-ai/moving-enterprise-ai-from-pilots-payoff</id>
+    <updated>2026-07-15T14:34:16Z</updated>
+    <summary type="text">How businesses can close the gap between surface-level adoption and genuine transformation.</summary>
+    <author><name>Scarlett Evans</name></author>
+  </entry>
   <entry>
     <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
     <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
@@ -298,6 +306,33 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I Built an OpenAI-Compatible Gateway to Control LLM Costs</title>
+    <link href="https://dev.to/qaz1214430044/i-built-an-openai-compatible-gateway-to-control-llm-costs-2ppm" rel="alternate"/>
+    <id>https://dev.to/qaz1214430044/i-built-an-openai-compatible-gateway-to-control-llm-costs-2ppm</id>
+    <updated>2026-07-15T15:24:59Z</updated>
+    <summary type="text">As an indie developer building AI products, I kept hitting the same wall: how do I control LLM costs without vendor lock-in? Direct API keys meant zero visibility into per-project spending. Month-end surprise bills. No way to cap costs per feature. Rate limit headaches. So I built CostLLM — an OpenAI-compatible API gateway that sits between your code and the LLM provider. What it does Virtual API </summary>
+    <author><name>QAZ1214430044</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Small ASP.NET Core Improvement That Can Save Big Server Resources: `CancellationToken`</title>
+    <link href="https://dev.to/rhuturaj_takle/a-small-aspnet-core-improvement-that-can-save-big-server-resources-cancellationtoken-3ink" rel="alternate"/>
+    <id>https://dev.to/rhuturaj_takle/a-small-aspnet-core-improvement-that-can-save-big-server-resources-cancellationtoken-3ink</id>
+    <updated>2026-07-15T15:22:09Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. A Small ASP.NET Core Improvement That Can Save Big Server Resources: CancellationToken 🚀 The Improvement During a recent review of our ASP.NET Core APIs, we noticed something that many teams—including ours—often overlook: we weren't passing CancellationToken through our API, service, and repository layers. The applic</summary>
+    <author><name>Rhuturaj Takle</name></author>
+  </entry>
+  <entry>
+    <title>I Gave an AI Agent a Database, Compute, Storage, and Models From One CLI</title>
+    <link href="https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h</id>
+    <updated>2026-07-15T15:21:45Z</updated>
+    <summary type="text">A working AI agent has an unglamorous shopping list. It needs a database to remember things, somewhere to run that can stream tokens without timing out, object storage for whatever it produces, and access to a model. Assembled the usual way, that is four separate signups: a Postgres host, a compute platform, an S3 bucket, and an OpenAI or Anthropic account, each with its own credential to provisio</summary>
+    <author><name>DevOps Daily</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How to manage AI investments in the agentic era</title>
     <link href="https://openai.com/index/managing-ai-investments-in-agentic-era" rel="alternate"/>
     <id>https://openai.com/index/managing-ai-investments-in-agentic-era</id>
@@ -307,6 +342,38 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>I Spent 3 Weeks Reverse-Engineering Newsletter Platforms — Here’s What Matters for Developers</title>
+    <link href="https://dev.to/videovfy/i-spent-3-weeks-reverse-engineering-newsletter-platforms-heres-what-matters-for-developers-1b88" rel="alternate"/>
+    <id>https://dev.to/videovfy/i-spent-3-weeks-reverse-engineering-newsletter-platforms-heres-what-matters-for-developers-1b88</id>
+    <updated>2026-07-15T15:10:35Z</updated>
+    <summary type="text">Most newsletter platform comparisons focus on pricing, templates, and user interface design. That is useful when the goal is simply to publish a weekly email. But if you are building a paid newsletter, a media business, or a content engine connected to other applications, the technical layer matters just as much. APIs, webhooks, DNS configuration, template control, data portability, and payment ow</summary>
+    <author><name>VideoVFY</name></author>
+  </entry>
+  <entry>
+    <title>Strong TypeScript contracts turn refactors into checklists</title>
+    <link href="https://dev.to/lksvn/strong-typescript-contracts-turn-refactors-into-checklists-40h4" rel="alternate"/>
+    <id>https://dev.to/lksvn/strong-typescript-contracts-turn-refactors-into-checklists-40h4</id>
+    <updated>2026-07-15T15:10:00Z</updated>
+    <summary type="text">Today a TypeScript refactor produced 15 compiler errors. It looked worse than it was. My Candidate Tracker used a type called AsyncResult&lt;T&gt; with errors represented only as strings. While adding a real PostgreSQL repository, two design problems became clear: the result itself was not asynchronous; the surrounding Promise was an error string discarded its category and original cause I changed the c</summary>
+    <author><name>LkSvn</name></author>
+  </entry>
+  <entry>
+    <title>Realtime Without a WebSocket Service</title>
+    <link href="https://dev.to/devopsdaily/realtime-without-a-websocket-service-1gk3" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/realtime-without-a-websocket-service-1gk3</id>
+    <updated>2026-07-15T15:09:58Z</updated>
+    <summary type="text">The moment a feature needs to update live, a live counter, a presence indicator, a &quot;new message&quot; badge, an activity feed, the reflex is to reach for a websocket service. Pusher, Ably, a Socket.IO server, a stateful Node process parked next to your stateless app. That is one more thing to deploy, scale, secure, and pay for, and it exists mostly to move small events from one place to a bunch of conn</summary>
+    <author><name>DevOps Daily</name></author>
+  </entry>
+  <entry>
+    <title>Cursor has an unpatched 0-day. It's been 7 months.</title>
+    <link href="https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk</id>
+    <updated>2026-07-15T15:08:38Z</updated>
+    <summary type="text">A developer opens a repository in Cursor on Windows. If that repo contains a file named git.exe in the root, Cursor executes it automatically. No clicks. No warnings. No prompts. Just code execution — under the current user's privileges. Mindgard found this on December 15, 2025. They reported it the same day. Today is July 2026 — 197+ Cursor versions later — and it's still there. &quot;The vulnerabilit</summary>
+    <author><name>Andrew Kew</name></author>
+  </entry>
+  <entry>
     <title>OpenAI may announce a ChatGPT smart speaker this year</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device" rel="alternate"/>
     <id>https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device</id>
@@ -314,6 +381,42 @@
     <summary type="text">OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to &quot;understand&quot; your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused […]</summary>
     <author><name>Jay Peters</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Replaced Me -- Just Not the Way You Think</title>
+    <link href="https://dev.to/javedharis/ai-replaced-me-just-not-the-way-you-think-53lm" rel="alternate"/>
+    <id>https://dev.to/javedharis/ai-replaced-me-just-not-the-way-you-think-53lm</id>
+    <updated>2026-07-15T15:07:25Z</updated>
+    <summary type="text">AI replaced me. Not the way you think. I'm still a software engineer. But the work I used to do in the office? AI does that now. I got replaced... and became something else. Let me explain with a story from the start of my career. The best client in my early career Early in my career at KNYSYS, I got the opportunity to work with a client building a Laboratory Information Management System (LIMS). </summary>
+    <author><name>Muhammad Haris Javed</name></author>
+  </entry>
+  <entry>
+    <title>Mistral's Move into Physical AI with Robostral Navigate</title>
+    <link href="https://dev.to/albertomontagnese/mistrals-move-into-physical-ai-with-robostral-navigate-203p" rel="alternate"/>
+    <id>https://dev.to/albertomontagnese/mistrals-move-into-physical-ai-with-robostral-navigate-203p</id>
+    <updated>2026-07-15T15:01:34Z</updated>
+    <summary type="text">Mistral AI has released Robostral Navigate, its first model for the physical AI space. This move signals a clear direction for foundation models: moving out of the purely digital realm and into robots that operate in complex, real-world environments. The key takeaway is that the hardware requirements for autonomous navigation are becoming simpler, with this model relying only on a single RGB camer</summary>
+    <author><name>albe_sf</name></author>
+    <category term="robotics"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM</title>
+    <link href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" rel="alternate"/>
+    <id>https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko</id>
+    <updated>2026-07-15T15:01:21Z</updated>
+    <summary type="text">Originally published on CyberNetSec. Executive Summary A sophisticated supply chain attack has targeted the AsyncAPI open-source project, resulting in the publication of malicious versions of several popular npm packages. The threat actor compromised the project's GitHub repositories to inject a multi-stage malware loader that deploys the Miasma RAT. The attack is notable for its method: by commit</summary>
+    <author><name>NetSecOpsIO</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building Trustworthy Production RAG Systems Through Continuous Evaluation</title>
+    <link href="https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/" rel="alternate"/>
+    <id>https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/</id>
+    <updated>2026-07-15T15:00:00Z</updated>
+    <summary type="text">A practical guide to building an evaluation workflow that catches retrieval failures, hallucinations, and performance drift before they reach users The post Building Trustworthy Production RAG Systems Through Continuous Evaluation appeared first on Towards Data Science.</summary>
+    <author><name>Priyansh Bhardwaj</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Cost to Build Meta’s 5GW Louisiana AI Supercluster Hits $50 Billion</title>
@@ -340,111 +443,6 @@
     <summary type="text">The model uses a single RGB camera and natural language instructions to help robots navigate unfamiliar environments.</summary>
     <author><name>Scarlett Evans</name></author>
     <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your AI built something private. A public link is the wrong way to share it.</title>
-    <link href="https://dev.to/thryvate/your-ai-built-something-private-a-public-link-is-the-wrong-way-to-share-it-138j" rel="alternate"/>
-    <id>https://dev.to/thryvate/your-ai-built-something-private-a-public-link-is-the-wrong-way-to-share-it-138j</id>
-    <updated>2026-07-15T13:31:51Z</updated>
-    <summary type="text">Building with AI got fast. You describe a thing, and a page, a dashboard, a small internal report, or a client-facing microsite comes out. The awkward part is the next step: you want exactly three people to see it, and the default way we share a built thing is a public URL that anyone who gets the link can open. For a landing page that is fine. For a client's numbers, an unreleased feature, a draf</summary>
-    <author><name>Alex</name></author>
-  </entry>
-  <entry>
-    <title>How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)</title>
-    <link href="https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/</id>
-    <updated>2026-07-15T13:30:00Z</updated>
-    <summary type="text">The strategies, questions, and process I used to ace coding interviews. The post How I Mastered Data Structures and Algorithms for ML (In 6 Weeks) appeared first on Towards Data Science.</summary>
-    <author><name>Egor Howell</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Apple opens its new Siri AI to everyone with the iOS 27 public beta</title>
-    <link href="https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/</id>
-    <updated>2026-07-14T19:42:27Z</updated>
-    <summary type="text">If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features before the software’s official launch this fall.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Anthropic’s newest ad is creeping people out</title>
-    <link href="https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/</id>
-    <updated>2026-07-14T19:41:27Z</updated>
-    <summary type="text">Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.</summary>
-    <author><name>Lucas Ropek</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The founder of Hinge raised $18M to build a new AI dating service, Overtone</title>
-    <link href="https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/</id>
-    <updated>2026-07-14T19:39:39Z</updated>
-    <summary type="text">Overtone describes itself as &quot;a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.&quot;</summary>
-    <author><name>Amanda Silberling</name></author>
-  </entry>
-  <entry>
-    <title>A Black Box Drawn Over a PDF Isn't Redaction — Here's How I Fixed It Client-Side</title>
-    <link href="https://dev.to/androve2k/a-black-box-drawn-over-a-pdf-isnt-redaction-heres-how-i-fixed-it-client-side-10hd" rel="alternate"/>
-    <id>https://dev.to/androve2k/a-black-box-drawn-over-a-pdf-isnt-redaction-heres-how-i-fixed-it-client-side-10hd</id>
-    <updated>2026-07-15T13:11:10Z</updated>
-    <summary type="text">I wanted a complete PDF editor running entirely in the browser — page reordering, annotations, highlights, a drawn signature, watermark — on the same zero-upload principle as the rest of my site's tools. The interesting technical problem wasn't the interface. It was redaction. A black box drawn over text in a PDF covers it visually, but the text stays in the document underneath, selectable and cop</summary>
-    <author><name>Andrea Roversi</name></author>
-  </entry>
-  <entry>
-    <title>Why Must AIOps Move from Processing Alerts to Understanding Business Service Relationships?</title>
-    <link href="https://dev.to/da-li-at-pl/why-must-aiops-move-from-processing-alerts-to-understanding-business-service-relationships-48" rel="alternate"/>
-    <id>https://dev.to/da-li-at-pl/why-must-aiops-move-from-processing-alerts-to-understanding-business-service-relationships-48</id>
-    <updated>2026-07-15T13:09:07Z</updated>
-    <summary type="text">The alerts have been processed, but the business problem remains A critical business system begins responding slowly, and the monitoring environment immediately generates a large number of alerts. Application server CPU usage rises, database connections increase, storage latency fluctuates, containers restart, and network ports report packet loss. A conventional alert platform can deduplicate, com</summary>
-    <author><name>Da</name></author>
-  </entry>
-  <entry>
-    <title>Empty Is Not Clean: Five Fail-Open Bugs in an AI Agent</title>
-    <link href="https://dev.to/jeremy_longshore/empty-is-not-clean-five-fail-open-bugs-in-an-ai-agent-5fd8" rel="alternate"/>
-    <id>https://dev.to/jeremy_longshore/empty-is-not-clean-five-fail-open-bugs-in-an-ai-agent-5fd8</id>
-    <updated>2026-07-15T13:07:49Z</updated>
-    <summary type="text">A policy said deny anything under /etc. A Bash call read /etc/shadow and came back {allow, rule: 'trust-bash'}. No human in the loop. The deny rule was still there, still first in the list, still scoped exactly the way an operator would write it. It just never fired. Two cold-contributor reviewers reproduced it independently on this policy: const policy = [ { effect: 'deny', tool: 'Bash', pathPref</summary>
-    <author><name>Jeremy Longshore</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SpaceXAI&amp;#8217;s Grok programming tool was uploading its users&amp;#8217; entire codebase to cloud storage</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload</id>
-    <updated>2026-07-14T19:25:00Z</updated>
-    <summary type="text">SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, &quot;including files it was told not to open […]</summary>
-    <author><name>Stevie Bonifield</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>3 ways to add link previews to a React app (with and without a backend)</title>
-    <link href="https://dev.to/daviscodesbugs/3-ways-to-add-link-previews-to-a-react-app-with-and-without-a-backend-35hb" rel="alternate"/>
-    <id>https://dev.to/daviscodesbugs/3-ways-to-add-link-previews-to-a-react-app-with-and-without-a-backend-35hb</id>
-    <updated>2026-07-15T13:05:55Z</updated>
-    <summary type="text">Link previews (those little cards with a title, image, and description) make any list of URLs dramatically more scannable. But you can't build them purely client-side: fetching another site's HTML from the browser is blocked by CORS, and even if it weren't, you'd be shipping a full HTML parser to every visitor. You need something server-side. Here are three ways to do it in a React app, from zero-</summary>
-    <author><name>Davis</name></author>
-  </entry>
-  <entry>
-    <title>I Pitted China's Best Open AI Models Against Each Other</title>
-    <link href="https://dev.to/rarenode/i-pitted-chinas-best-open-ai-models-against-each-other-23lm" rel="alternate"/>
-    <id>https://dev.to/rarenode/i-pitted-chinas-best-open-ai-models-against-each-other-23lm</id>
-    <updated>2026-07-15T13:05:02Z</updated>
-    <summary type="text">I Pitted China's Best Open AI Models Against Each Other Last month I did something that probably annoyed a few of my colleagues. I ripped out every OpenAI and Anthropic call from my side projects and replaced them with Chinese open-weight models running through Global API. Not because I have some chip on my shoulder about Silicon Valley — although, honestly, the vendor lock-in stuff does grind my </summary>
-    <author><name>rarenode</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A plugin can pass validation and still fail after install</title>
-    <link href="https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j" rel="alternate"/>
-    <id>https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j</id>
-    <updated>2026-07-15T13:01:41Z</updated>
-    <summary type="text">Plugin validators are good at answering one narrow question: does this manifest match the schema the harness expects? That is necessary, but it is not the same as proving that the package a user installs still contains a working plugin. The gap gets wider when one repository targets both Codex and Claude Code. The two harnesses share several conventions, but they do not have identical requirements</summary>
-    <author><name>Nekoautomata Miki</name></author>
     <category term="llm"/>
   </entry>
 </feed>
