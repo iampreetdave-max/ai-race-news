@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T11:38:44Z</updated>
+  <updated>2026-07-15T13:51:57Z</updated>
   <entry>
     <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
     <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
@@ -31,6 +31,15 @@
     <updated>2026-07-14T20:16:51Z</updated>
     <summary type="text">OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Pl</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>A plugin can pass validation and still fail after install</title>
+    <link href="https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j" rel="alternate"/>
+    <id>https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j</id>
+    <updated>2026-07-15T13:01:41Z</updated>
+    <summary type="text">Plugin validators are good at answering one narrow question: does this manifest match the schema the harness expects? That is necessary, but it is not the same as proving that the package a user installs still contains a working plugin. The gap gets wider when one repository targets both Codex and Claude Code. The two harnesses share several conventions, but they do not have identical requirements</summary>
+    <author><name>Nekoautomata Miki</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder</title>
@@ -397,23 +406,5 @@
     <updated>2026-07-13T03:48:29Z</updated>
     <summary type="text">Anyone who has used AI tools for a while has probably run into this annoyance. You ask it to write a weekly report in the morning and it doesn't know your KPI framework was overhauled last week. You ask for a technical proposal in the afternoon and it has no idea you spent three months locking down your tech stack. Every new conversation means re-explaining the project background, which decisions </summary>
     <author><name>Mininglamp</name></author>
-  </entry>
-  <entry>
-    <title>Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights</title>
-    <link href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/</id>
-    <updated>2026-07-12T00:46:13Z</updated>
-    <summary type="text">Thinking Machines Lab published &quot;The Future Worth Building Is Human.&quot; The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights. The post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Cus</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Agentes de código: já leu a documentação oficial?</title>
-    <link href="https://dev.to/asouza/agentes-de-codigo-ja-leu-a-documentacao-oficial-4dk" rel="alternate"/>
-    <id>https://dev.to/asouza/agentes-de-codigo-ja-leu-a-documentacao-oficial-4dk</id>
-    <updated>2026-07-12T22:08:36Z</updated>
-    <summary type="text">Disclaimer Este texto foi inicialmente concebido pela IA Generativa em função da transcrição de um vídeo do canal Dev Eficiente, apresentado por Alberto Souza. Se preferir acompanhar por vídeo, é só dar o play. Introdução Quero começar com duas perguntas. A primeira: você usa agentes de código, tipo Claude Code, Cursor ou Codex? Se sim, e eu imagino que sim, vem a segunda: você já leu a documentaç</summary>
-    <author><name>Alberto Luiz Souza</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
