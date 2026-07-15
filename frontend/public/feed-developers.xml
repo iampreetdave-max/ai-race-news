@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T15:28:40Z</updated>
+  <updated>2026-07-15T17:21:51Z</updated>
+  <entry>
+    <title>OpenAI finally launches hardware… for Codex</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch</id>
+    <updated>2026-07-15T16:00:00Z</updated>
+    <summary type="text">OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, […]</summary>
+    <author><name>Robert Hart</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
   <entry>
     <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
     <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
@@ -31,6 +41,25 @@
     <updated>2026-07-14T20:16:51Z</updated>
     <summary type="text">OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Pl</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>0xPdf Now: Pay-as-You-Go Wallet, Free First Parse, $5 Welcome Credit &amp; MCP</title>
+    <link href="https://dev.to/rishamax/0xpdf-now-pay-as-you-go-wallet-free-first-parse-5-welcome-credit-mcp-2bec" rel="alternate"/>
+    <id>https://dev.to/rishamax/0xpdf-now-pay-as-you-go-wallet-free-first-parse-5-welcome-credit-mcp-2bec</id>
+    <updated>2026-07-15T16:53:12Z</updated>
+    <summary type="text">Schema-first PDF → JSON was the product. What’s new is how you buy and use it — no monthly plans, prepaid wallet, a real free first success, and an MCP server for agents. TL;DR Feature What it means Pay as you go ~$6 / 1,000 text pages, ~$24 / 1,000 OCR pages — no subscription Prepaid wallet Top up from $5, spend down as you parse Free first parse Your first successful parse is free (no hold / no </summary>
+    <author><name>risha-max</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Don’t Let Claude Grade Its Own Homework</title>
+    <link href="https://towardsdatascience.com/dont-let-claude-gaslight-you/" rel="alternate"/>
+    <id>https://towardsdatascience.com/dont-let-claude-gaslight-you/</id>
+    <updated>2026-07-15T16:30:00Z</updated>
+    <summary type="text">Cross-provider PR review with Codex in GitHub Actions, and why a second opinion from a different lab beats any self-review The post Don’t Let Claude Grade Its Own Homework appeared first on Towards Data Science.</summary>
+    <author><name>Ruben Broekx</name></author>
+    <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>I Gave an AI Agent a Database, Compute, Storage, and Models From One CLI</title>
@@ -373,39 +402,5 @@
     <summary type="text">Anthropic analyzed 1.2 million Claude Cowork sessions from more than 600,000 organizations. About half of all usage goes toward business processes and text creation, what Anthropic calls &quot;the work around the work.&quot; That means tasks like compiling status reports, building onboarding checklists, or putting together slide decks. Software development barely shows up in Cowork because developers stick </summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From SDLC to AI-DLC: Coding Agents Are Only the Beginning</title>
-    <link href="https://dev.to/aws-builders/from-sdlc-to-ai-dlc-coding-agents-are-only-the-beginning-3n6f" rel="alternate"/>
-    <id>https://dev.to/aws-builders/from-sdlc-to-ai-dlc-coding-agents-are-only-the-beginning-3n6f</id>
-    <updated>2026-07-13T07:15:38Z</updated>
-    <summary type="text">From SDLC to AI-DLC: Coding Agents Are Only the Beginning Part 1 of a five-part series on the AI-Driven Development Lifecycle Most engineering organizations have started using AI somewhere in the development process. A developer uses it to understand an unfamiliar class. Another uses it to generate unit tests. Someone else asks it to fix a static-analysis finding or prepare a first draft of a pull</summary>
-    <author><name>Amit Kayal</name></author>
-  </entry>
-  <entry>
-    <title>Secure Kubernetes Dashboard with Cloudflare Zero Trust Tunnel</title>
-    <link href="https://dev.to/oleksandr_kuryzhev_42873f/secure-kubernetes-dashboard-with-cloudflare-zero-trust-tunnel-3le2" rel="alternate"/>
-    <id>https://dev.to/oleksandr_kuryzhev_42873f/secure-kubernetes-dashboard-with-cloudflare-zero-trust-tunnel-3le2</id>
-    <updated>2026-07-13T07:01:53Z</updated>
-    <summary type="text">Originally published on kuryzhev.cloud We found our Kubernetes Dashboard sitting on a NodePort, reachable from the internet, during a routine Shodan sweep we ran against our own IP ranges. No VPN in front of it, no Access policy, just `kubectl proxy --address=0.0.0.0` leftover from a debugging session three weeks earlier. That's the scenario that pushed us to build a Kubernetes Dashboard Cloudflar</summary>
-    <author><name>Oleksandr Kuryzhev</name></author>
-  </entry>
-  <entry>
-    <title>ใช้ AI เขียน Unit Test อย่างมีประสิทธิภาพ: เพิ่ม Coverage โดยไม่ต้องเสียเวลาทั้งวัน</title>
-    <link href="https://dev.to/11_thanyathonr1ack__b2/aich-ai-ekhiiyn-unit-test-yaangmiiprasiththiphaaph-ephim-coverage-odyaimtngesiiyewlaathangwan-1o0m" rel="alternate"/>
-    <id>https://dev.to/11_thanyathonr1ack__b2/aich-ai-ekhiiyn-unit-test-yaangmiiprasiththiphaaph-ephim-coverage-odyaimtngesiiyewlaathangwan-1o0m</id>
-    <updated>2026-07-13T07:00:39Z</updated>
-    <summary type="text">การเขียนเทสต์เป็นงานที่นักพัฒนาส่วนใหญ่รู้ดีว่าจำเป็น แต่ก็มักถูกเลื่อนออกไปเสมอ เพราะใช้เวลานาน ทำซ้ำ ๆ และไม่ได้สร้างฟีเจอร์ใหม่ให้ผู้ใช้เห็นโดยตรง เมื่อ AI Coding Assistant เข้ามามีบทบาทมากขึ้นในกระบวนการพัฒนา คำถามที่หลายทีมอยากรู้คำตอบคือ AI สามารถช่วยเขียน Unit Test ได้จริงหรือไม่ และถ้าทำได้ จะช่วยเพิ่ม Test Coverage อย่างมีคุณภาพโดยไม่ต้องทุ่มเวลาทั้งวันได้อย่างไร บทความนี้จะพาสำรวจความสาม</summary>
-    <author><name>r1ACK</name></author>
-  </entry>
-  <entry>
-    <title>How does a 102M-parameter transformer forecast multivariate time series?</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1uwh9ko/how_does_a_102mparameter_transformer_forecast/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1uwh9ko/how_does_a_102mparameter_transformer_forecast/</id>
-    <updated>2026-07-14T18:36:31Z</updated>
-    <summary type="text">I recently worked through the architecture of t0-alpha, a 101.6M-parameter foundation model for time-series forecasting. The design choice I found most interesting is that it separates two kinds of reasoning: Time attention learns how each variable evolves across time. Group attention allows related variables to exchange information. The rest of the architecture, briefly: inputs are split into pat</summary>
-    <author><name>/u/sjm213</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
