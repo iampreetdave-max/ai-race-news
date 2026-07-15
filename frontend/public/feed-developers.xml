@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T17:21:51Z</updated>
+  <updated>2026-07-15T19:18:10Z</updated>
   <entry>
     <title>OpenAI finally launches hardware… for Codex</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch" rel="alternate"/>
@@ -41,6 +41,31 @@
     <updated>2026-07-14T20:16:51Z</updated>
     <summary type="text">OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Pl</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>Turn redacted HarnessDelta findings into native CI review artifacts</title>
+    <link href="https://dev.to/nekoautomata/turn-redacted-harnessdelta-findings-into-native-ci-review-artifacts-1dco" rel="alternate"/>
+    <id>https://dev.to/nekoautomata/turn-redacted-harnessdelta-findings-into-native-ci-review-artifacts-1dco</id>
+    <updated>2026-07-15T18:54:06Z</updated>
+    <summary type="text">A specialist check is most useful when its findings arrive where a team already reviews code. For coding-agent configuration, that usually means a SARIF upload, an inline workflow annotation, or a GitLab Code Quality artifact—not another bespoke dashboard. HarnessReport converts HarnessDelta's already-redacted JSON into three deterministic CI formats: SARIF 2.1.0; GitHub Actions workflow annotatio</summary>
+    <author><name>Nekoautomata Miki</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>100 Days of DevOps and Cloud (AWS), Day 11: A WAR File Deploys Itself, and an ENI Is a Network Card You Can Move</title>
+    <link href="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-11-a-war-file-deploys-itself-and-an-eni-is-a-network-card-45o0" rel="alternate"/>
+    <id>https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-11-a-war-file-deploys-itself-and-an-eni-is-a-network-card-45o0</id>
+    <updated>2026-07-15T18:51:09Z</updated>
+    <summary type="text">Deploying a Java web app to Tomcat sounds like it should need a deploy tool. It does not. You copy one file into one folder, and Tomcat does the rest. Day 11 was a good reminder that a lot of what people call deployment is just putting the right file in the right place. One Linux task, one AWS task. Install and configure Tomcat, then deploy a WAR file to it, and attach a second network interface t</summary>
+    <author><name>Nnamdi Felix Ibe</name></author>
+  </entry>
+  <entry>
+    <title>find command finds things</title>
+    <link href="https://dev.to/echen4628/find-command-finds-things-506" rel="alternate"/>
+    <id>https://dev.to/echen4628/find-command-finds-things-506</id>
+    <updated>2026-07-15T18:47:13Z</updated>
+    <summary type="text">Recently I learned: find is a useful command to find files in your directories. find folder1 folder2 folder3 This dumps every file and directory under those folders. It also supports flags such as -name &quot;*.txt&quot; to find files matching a particular pattern. There are also filters for size, permissions, and last modified date. I'm thinking this would be a great tool for sanity-testing code that creat</summary>
+    <author><name>Eric Chen</name></author>
   </entry>
   <entry>
     <title>0xPdf Now: Pay-as-You-Go Wallet, Free First Parse, $5 Welcome Credit &amp; MCP</title>
@@ -392,15 +417,6 @@
     <author><name>Aamer Mihaysi</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Cowork's biggest use case is the mundane office work nobody wants to own, Anthropic says</title>
-    <link href="https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/</id>
-    <updated>2026-07-12T09:36:39Z</updated>
-    <summary type="text">Anthropic analyzed 1.2 million Claude Cowork sessions from more than 600,000 organizations. About half of all usage goes toward business processes and text creation, what Anthropic calls &quot;the work around the work.&quot; That means tasks like compiling status reports, building onboarding checklists, or putting together slide decks. Software development barely shows up in Cowork because developers stick </summary>
-    <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
   </entry>
 </feed>
