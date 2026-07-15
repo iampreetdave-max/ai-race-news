@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T03:25:40Z</updated>
+  <updated>2026-07-15T06:19:38Z</updated>
   <entry>
     <title>Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task</title>
     <link href="https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/" rel="alternate"/>
@@ -30,6 +30,24 @@
     <summary type="text">Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folde</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AI agent evaluation is evolving. Here's what we're building.</title>
+    <link href="https://dev.to/sofaliferi/ai-agent-evaluation-is-evolving-heres-what-were-building-59oc" rel="alternate"/>
+    <id>https://dev.to/sofaliferi/ai-agent-evaluation-is-evolving-heres-what-were-building-59oc</id>
+    <updated>2026-07-15T06:05:05Z</updated>
+    <summary type="text">The past year has given us an explosion of frameworks for building AI agents. Evaluating them, however, still often comes down to running isolated prompts and comparing outputs. That isn't how agents behave in production. They call tools. They interact with APIs. They maintain context across multiple turns. They make decisions that depend on previous actions. And they're expected to follow organiz</summary>
+    <author><name>Sofia Aliferi</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Clean up Docker images that are taking up space</title>
+    <link href="https://dev.to/thomasbnt/clean-up-docker-images-that-are-taking-up-space-7mk" rel="alternate"/>
+    <id>https://dev.to/thomasbnt/clean-up-docker-images-that-are-taking-up-space-7mk</id>
+    <updated>2026-07-15T06:00:00Z</updated>
+    <summary type="text">The Problem The more I use AI in my daily life, the longer my conversations get. And the longer a conversation goes on, the greater the risk that the AI will stray from my initial instructions. A change in tone, a forgotten constraint, a format that’s no longer followed… Nothing dramatic in itself, but enough to waste time rereading each response in detail to make sure it’s still consistent. Just </summary>
+    <author><name>Thomas Bnt</name></author>
   </entry>
   <entry>
     <title>Build your first MCP server in Python: give Claude your own notes</title>
@@ -393,24 +411,6 @@
     <updated>2026-07-12T17:37:12Z</updated>
     <summary type="text">I ran the same empty Claude Code project through three launch paths and read the cache tokens off the session log after every turn. One of those paths never touched the shared server-side cache at all — cache_read stayed at 0 on every run. TL;DR: the launch path (VSCode extension, VSCode-internal terminal, or a standalone terminal like iTerm2) decides whether Claude Code hits Anthropic's shared pr</summary>
     <author><name>Sho Naka</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Data Engineering: The Data Field's Unknown Child</title>
-    <link href="https://dev.to/khaytorah/data-engineering-the-data-fields-unknown-child-4510" rel="alternate"/>
-    <id>https://dev.to/khaytorah/data-engineering-the-data-fields-unknown-child-4510</id>
-    <updated>2026-07-12T14:53:50Z</updated>
-    <summary type="text">Why has nobody explained this to me before? If you've spent any time around tech content, you've heard of Data Science. You've probably also heard of Data Analytics. Both have flashy job titles, viral LinkedIn posts, and &quot;become a Data Scientist in 6 months&quot; bootcamps aimed squarely at career switchers like me. But somewhere behind both of them quietly, without the fanfare sits Data Engineering, a</summary>
-    <author><name>Itoro James</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Why IKB Fails as Terminal Text (and How I Split It Across Two ANSI Slots)</title>
-    <link href="https://dev.to/palo_alto_ai/why-ikb-fails-as-terminal-text-and-how-i-split-it-across-two-ansi-slots-4bd" rel="alternate"/>
-    <id>https://dev.to/palo_alto_ai/why-ikb-fails-as-terminal-text-and-how-i-split-it-across-two-ansi-slots-4bd</id>
-    <updated>2026-07-12T14:48:38Z</updated>
-    <summary type="text">Most terminal themes are built for code. Mine is built for Claude Code, which means most of what I read in it is prose — tool output, reasoning traces, permission prompts. After a few months of daily sessions, the default theme started feeling wrong in a way I couldn't immediately name. The problem I eventually landed on: no one had tuned an ANSI theme for the specific slots Claude Code actually u</summary>
-    <author><name>J Now</name></author>
     <category term="llm"/>
   </entry>
 </feed>
