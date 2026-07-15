@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T19:18:10Z</updated>
+  <updated>2026-07-15T21:04:36Z</updated>
+  <entry>
+    <title>Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex</title>
+    <link href="https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</id>
+    <updated>2026-07-15T19:41:38Z</updated>
+    <summary type="text">OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.</summary>
+    <author><name>Lucas Ropek</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI finally launches hardware… for Codex</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch" rel="alternate"/>
@@ -35,12 +45,62 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Lattice: The Pure Rust LLM Engine Optimized for Apple Silicon</title>
+    <link href="https://dev.to/terminalchai/lattice-the-pure-rust-llm-engine-optimized-for-apple-silicon-37ba" rel="alternate"/>
+    <id>https://dev.to/terminalchai/lattice-the-pure-rust-llm-engine-optimized-for-apple-silicon-37ba</id>
+    <updated>2026-07-15T20:45:00Z</updated>
+    <summary type="text">Native Local AI on Mac: Meet Lattice Running Large Language Models (LLMs) locally has become standard practice for developers seeking privacy and speed. However, configuring runtimes usually means dealing with heavy dependencies like Python, C++ compilations, and ONNX configurations. Lattice is an open-source project that bypasses this complexity entirely. Written in pure Rust, it is an inference </summary>
+    <author><name>Terminal Chai</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem</title>
+    <link href="https://dev.to/xbill/my-demo-script-found-a-production-bug-on-its-first-run-a-tiny-post-mortem-k35" rel="alternate"/>
+    <id>https://dev.to/xbill/my-demo-script-found-a-production-bug-on-its-first-run-a-tiny-post-mortem-k35</id>
+    <updated>2026-07-15T20:36:09Z</updated>
+    <summary type="text">I built a demo script to show off a project. It failed on step 2 — and in doing so, it found a real bug that had been sitting in the codebase the whole time, invisible to a fully green test suite. This is a short technical report on what happened, why the tests missed it, and what it taught me about validating against remote APIs. Total incident cost: about ten minutes. Lessons: worth writing down</summary>
+    <author><name>xbill</name></author>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)</title>
+    <link href="https://dev.to/xbill/build-one-ai-tool-server-call-it-from-three-different-agents-mcp-explained-22l2" rel="alternate"/>
+    <id>https://dev.to/xbill/build-one-ai-tool-server-call-it-from-three-different-agents-mcp-explained-22l2</id>
+    <updated>2026-07-15T20:35:35Z</updated>
+    <summary type="text">Have you ever wanted to give an AI assistant a new ability — like generating images — and have that ability work in any AI tool you use, not just one? That's exactly what this project does, and the magic ingredient is the Model Context Protocol (MCP). In this article we'll walk through a real, working repo where one small Python server gives image-generation superpowers to three completely differe</summary>
+    <author><name>xbill</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I audited my own AI-generated refactor and found 46 bugs. Here's what that taught me.</title>
+    <link href="https://dev.to/cesarbr2025/i-audited-my-own-ai-generated-refactor-and-found-46-bugs-heres-what-that-taught-me-14ah" rel="alternate"/>
+    <id>https://dev.to/cesarbr2025/i-audited-my-own-ai-generated-refactor-and-found-46-bugs-heres-what-that-taught-me-14ah</id>
+    <updated>2026-07-15T20:21:07Z</updated>
+    <summary type="text">How a 1,920-line file turned into 410 lines, why &quot;it works&quot; was a lie twice, and why the fix wasn't a smarter model — it was a gate that doesn't trust anyone, including me. The setup I maintain YouMindAG, an open-source CLI (npx youmindag) that injects project context — architecture, dependencies, rules, DB schema — into AI coding tools like Claude Code, Cursor, opencode, and Copilot, so they don'</summary>
+    <author><name>CESARBR2025</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms</title>
     <link href="https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/</id>
     <updated>2026-07-14T20:16:51Z</updated>
     <summary type="text">OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Pl</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>5 mistakes I made building my first Android app (and how I fixed them)</title>
+    <link href="https://dev.to/tiny_spark_23534/5-mistakes-i-made-building-my-first-android-app-and-how-i-fixed-them-4jem" rel="alternate"/>
+    <id>https://dev.to/tiny_spark_23534/5-mistakes-i-made-building-my-first-android-app-and-how-i-fixed-them-4jem</id>
+    <updated>2026-07-15T20:13:50Z</updated>
+    <summary type="text">I'm not a developer. I build Android apps on evenings and weekends using AI coding assistants (GitHub Copilot and Claude). My latest app, ScorePop, is a free score counter for board games — you tap + or − to track points. Simple concept, but getting it right taught me a lot. Here are 5 mistakes I made and how I fixed each one. The app crashed when users rotated their phone I had a popup (a BottomS</summary>
+    <author><name>Tiny Spark</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Turn redacted HarnessDelta findings into native CI review artifacts</title>
@@ -406,17 +466,6 @@
     <summary type="text">Long sessions rot quietly, well before any token limit is reached. Here’s why, and how to govern your context in Claude Code. The post Context Rot: Why Claude Code Sessions Decay, and How to Govern Them appeared first on Towards Data Science.</summary>
     <author><name>Jake Minns</name></author>
     <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Llamafile vs vLLM: Two Ways to Serve a Local Model, and When Each Makes Sense</title>
-    <link href="https://dev.to/o96a/llamafile-vs-vllm-two-ways-to-serve-a-local-model-and-when-each-makes-sense-gim" rel="alternate"/>
-    <id>https://dev.to/o96a/llamafile-vs-vllm-two-ways-to-serve-a-local-model-and-when-each-makes-sense-gim</id>
-    <updated>2026-07-13T14:37:21Z</updated>
-    <summary type="text">I spent last weekend comparing two ways to serve a local model: Llamafile and the more traditional vLLM + Docker setup I've been running for months. Same model (Qwen2.5-7B-Instruct), same hardware (a single RTX 4090), same test queries. The gap between them is smaller than I expected, and the trade-offs are worth talking about. Llamafile is Mozilla's trick — a single executable that bundles the mo</summary>
-    <author><name>Aamer Mihaysi</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
     <category term="llm"/>
   </entry>
 </feed>
