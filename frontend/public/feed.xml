@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-15T09:12:10Z</updated>
+  <updated>2026-07-15T11:38:44Z</updated>
   <entry>
     <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
     <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
@@ -48,6 +48,32 @@
     <updated>2026-07-15T06:48:56Z</updated>
     <summary type="text">OpenAI plans to enter hardware with a portable, screenless smart speaker. Equipped with a camera, sensors, and moving mechanical parts, the device is designed as an AI companion that feels &quot;alive.&quot; But Apple's trade secrets lawsuit involving OpenAI hardware chief Tang Tan could delay its planned 2027 launch. The article OpenAI's first hardware product is a screenless AI speaker designed to feel al</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse</title>
+    <link href="https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse/</id>
+    <updated>2026-07-15T11:00:00Z</updated>
+    <summary type="text">Cofounded by senior entrepreneur Shai Morag, Israeli identity management startup Oak is emerging out of stealth with $60 million in seed funding.</summary>
+    <author><name>Anna Heim</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Spotify’s Daniel Ek is bringing his body-scanning clinics to the US</title>
+    <link href="https://www.theverge.com/science/965849/spotify-founder-ek-startup-neko-health-scanner-us-push" rel="alternate"/>
+    <id>https://www.theverge.com/science/965849/spotify-founder-ek-startup-neko-health-scanner-us-push</id>
+    <updated>2026-07-15T10:13:47Z</updated>
+    <summary type="text">Spotify founder Daniel Ek's body-scanning startup, Neko Health, is setting its sights on the United States after raising $700 million from a star-studded group of celebrities, entrepreneurs, and investment firms. It plans to open its first clinic in New York this year before expanding rapidly across the country. Neko operates private clinics offering full-body scans […]</summary>
+    <author><name>Robert Hart</name></author>
+  </entry>
+  <entry>
+    <title>My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell</title>
+    <link href="https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/" rel="alternate"/>
+    <id>https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/</id>
+    <updated>2026-07-15T10:00:00Z</updated>
+    <summary type="text">Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating.</summary>
+    <author><name>Dillon Thompson</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -335,6 +361,47 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Python Exception Handling: Tracing try/except/else/finally Blocks</title>
+    <link href="https://dev.to/ameer_abdullah_68d48c8496/python-exception-handling-tracing-tryexceptelsefinally-blocks-l02" rel="alternate"/>
+    <id>https://dev.to/ameer_abdullah_68d48c8496/python-exception-handling-tracing-tryexceptelsefinally-blocks-l02</id>
+    <updated>2026-07-15T11:25:00Z</updated>
+    <summary type="text">The execution order of exception handling blocks is non-obvious and regularly tested in senior interviews Most developers use try/except regularly. Fewer can predict the exact execution order when you combine try, except, else, and finally in a single block, especially when return statements or nested exceptions are involved. The Complete Structure try: # code that might raise an exception except </summary>
+    <author><name>Ameer Abdullah</name></author>
+  </entry>
+  <entry>
+    <title>Show What an AI Agent Did Not Inspect Before Asking for Review</title>
+    <link href="https://dev.to/haaaaaley/show-what-an-ai-agent-did-not-inspect-before-asking-for-review-30jb" rel="alternate"/>
+    <id>https://dev.to/haaaaaley/show-what-an-ai-agent-did-not-inspect-before-asking-for-review-30jb</id>
+    <updated>2026-07-15T11:22:47Z</updated>
+    <summary type="text">Agent review screens usually emphasize activity: files changed, tests passed, and a confident summary. Review quality also depends on negative evidence—what the agent did not inspect or could not verify. Absence is not failure by itself. Hidden absence is the problem. An inspection-coverage model type EvidenceItem = { target: string; status: &quot;inspected&quot; | &quot;partially-inspected&quot; | &quot;not-inspected&quot; | </summary>
+    <author><name>Haley</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Keep Agent Logs Out of Mobile Cloud Backups on iOS and Android</title>
+    <link href="https://dev.to/roronoa_/keep-agent-logs-out-of-mobile-cloud-backups-on-ios-and-android-3786" rel="alternate"/>
+    <id>https://dev.to/roronoa_/keep-agent-logs-out-of-mobile-cloud-backups-on-ios-and-android-3786</id>
+    <updated>2026-07-15T11:22:41Z</updated>
+    <summary type="text">A mobile client may store agent prompts, repository paths, diffs, command output, and downloaded artifacts. Protecting the live app sandbox is not enough if those files enter a device cloud backup you did not include in the threat model. Start with a data inventory. Data Needed offline? Backup allowed? Delete trigger task ID and status yes maybe account removal prompt and response maybe usually no</summary>
+    <author><name>Roronoa</name></author>
+  </entry>
+  <entry>
+    <title>Deliver Large Agent Artifacts With Signed URLs, Not Giant JSON Responses</title>
+    <link href="https://dev.to/kongkong1/deliver-large-agent-artifacts-with-signed-urls-not-giant-json-responses-kp5" rel="alternate"/>
+    <id>https://dev.to/kongkong1/deliver-large-agent-artifacts-with-signed-urls-not-giant-json-responses-kp5</id>
+    <updated>2026-07-15T11:22:24Z</updated>
+    <summary type="text">An agent finishes a task and produces a 180 MB archive. Returning it inside the task JSON makes the API slow, retries expensive, and browser failure states unclear. Keep task metadata small. Deliver large artifacts through a separate, expiring download contract. The API shape type Artifact = { id: string; taskId: string; filename: string; contentType: string; sizeBytes: number; sha256: string; sta</summary>
+    <author><name>kongkong</name></author>
+  </entry>
+  <entry>
+    <title>Build a Bounded JSON Repair Loop for LLM Output in Python</title>
+    <link href="https://dev.to/magickong/build-a-bounded-json-repair-loop-for-llm-output-in-python-1dm4" rel="alternate"/>
+    <id>https://dev.to/magickong/build-a-bounded-json-repair-loop-for-llm-output-in-python-1dm4</id>
+    <updated>2026-07-15T11:22:10Z</updated>
+    <summary type="text">“Return JSON” is a request, not a guarantee. An LLM can produce invalid syntax, valid JSON with the wrong shape, or a structurally valid answer that violates the task. A repair loop should classify those failures and stop after a small number of attempts. A runnable validator This example uses only Python's standard library: import json CATEGORIES = {&quot;bug&quot;, &quot;feature&quot;, &quot;question&quot;} def validate(raw:</summary>
+    <author><name>Alex Chen</name></author>
+  </entry>
+  <entry>
     <title>PixVerse's $2B valuation shows investors still believe AI video generation has room for another winner</title>
     <link href="https://the-decoder.com/pixverses-2b-valuation-shows-investors-still-believe-ai-video-generation-has-room-for-another-winner/" rel="alternate"/>
     <id>https://the-decoder.com/pixverses-2b-valuation-shows-investors-still-believe-ai-video-generation-has-room-for-another-winner/</id>
@@ -378,73 +445,5 @@
     <updated>2026-07-14T16:28:14Z</updated>
     <summary type="text">The new Google image search will use your &quot;unique interests&quot; to create an always-updated gallery.</summary>
     <author><name>Ryan Whitwam</name></author>
-  </entry>
-  <entry>
-    <title>Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer</title>
-    <link href="https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/</id>
-    <updated>2026-07-14T16:22:15Z</updated>
-    <summary type="text">Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.</summary>
-    <author><name>Sarah Perez</name></author>
-  </entry>
-  <entry>
-    <title>YouTube and X Have Become ‘Gateways’ to Nudify Apps</title>
-    <link href="https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/" rel="alternate"/>
-    <id>https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/</id>
-    <updated>2026-07-14T16:05:18Z</updated>
-    <summary type="text">A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.</summary>
-    <author><name>Ej Dickson</name></author>
-  </entry>
-  <entry>
-    <title>Spotify is now an AI chatbot, too</title>
-    <link href="https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts" rel="alternate"/>
-    <id>https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts</id>
-    <updated>2026-07-14T15:47:36Z</updated>
-    <summary type="text">Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The &quot;Talk to Spotify&quot; feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your request in the […]</summary>
-    <author><name>Jess Weatherbed</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>5 Trends That Defined AI Engineering at World’s Fair 2026</title>
-    <link href="https://www.latent.space/p/aiewf26trends" rel="alternate"/>
-    <id>https://www.latent.space/p/aiewf26trends</id>
-    <updated>2026-07-14T23:21:21Z</updated>
-    <summary type="text">At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.</summary>
-    <author><name>Richard MacManus</name></author>
-  </entry>
-  <entry>
-    <title>Production RAG at Scale: Lessons from Processing 10,000+ Listings Daily</title>
-    <link href="https://dev.to/abdul___rehman/production-rag-at-scale-lessons-from-processing-10000-listings-daily-22gm" rel="alternate"/>
-    <id>https://dev.to/abdul___rehman/production-rag-at-scale-lessons-from-processing-10000-listings-daily-22gm</id>
-    <updated>2026-07-15T09:05:08Z</updated>
-    <summary type="text">I spent time debugging a RAG pipeline that looked correct in staging and behaved differently under real load. The job board I built processes thousands of listings every day, scoring each one against candidate profiles using LLM function calls. Getting that pipeline stable and affordable took more than a good vector store choice. It took understanding where the system actually breaks. Here's what </summary>
-    <author><name>Abdul Rehman</name></author>
-    <category term="rag"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>X admits its broken algorithm made the site feel like a &amp;#8216;battleground&amp;#8217;</title>
-    <link href="https://www.theverge.com/tech/965360/x-algorithm-tweak-mutuals-strangers-community" rel="alternate"/>
-    <id>https://www.theverge.com/tech/965360/x-algorithm-tweak-mutuals-strangers-community</id>
-    <updated>2026-07-14T15:20:21Z</updated>
-    <summary type="text">X's head of product, Nikita Bier, admitted in a post on Monday that X's algorithm was &quot;missing&quot; data about surfacing posts from people who you've followed back. Now, he says a tweak will &quot;boost visibility of your posts to your mutuals,&quot; hopefully enhancing the sense of community instead of highlighting and spreading random arguments, but […]</summary>
-    <author><name>Stevie Bonifield</name></author>
-  </entry>
-  <entry>
-    <title>What makes an AI agent's decisions reliable</title>
-    <link href="https://dev.to/turva-dev/what-makes-an-ai-agents-decisions-reliable-1fmo" rel="alternate"/>
-    <id>https://dev.to/turva-dev/what-makes-an-ai-agents-decisions-reliable-1fmo</id>
-    <updated>2026-07-15T09:00:00Z</updated>
-    <summary type="text">In the audits I have run, including this site's own, one thing keeps surfacing. An agent that is instructed well, and given the right settings, can take in data and make the correct decision, every time the rules call for it. The capability is real, and it is wider than most of the conversation around it. The limits are rarely the model. They sit in two places that are easy to overlook. A decision</summary>
-    <author><name>Erik Rekola</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Generar epub desde una lista de ficheros html</title>
-    <link href="https://dev.to/arcadio_ortega/generar-epub-desde-una-lista-de-ficheros-html-4lel" rel="alternate"/>
-    <id>https://dev.to/arcadio_ortega/generar-epub-desde-una-lista-de-ficheros-html-4lel</id>
-    <updated>2026-07-15T08:59:30Z</updated>
-    <summary type="text">Desde html hasta epub Ejemplos de libros que he generado desde mis páginas html AI - IA. Inteligencia artificial aplicada a la programación y la docencia Nube privada virtual Manual Técnico: servidor DNS En https://github.com/aortrei469/epubDesdeHTML se encuentra el software al que se hace referencia en el artículo Generar epub desde una relación de ficheros html HACER COPIA DE SEGURIDAD DE TODO A</summary>
-    <author><name>Arcadio Ortega Reinoso</name></author>
   </entry>
 </feed>
