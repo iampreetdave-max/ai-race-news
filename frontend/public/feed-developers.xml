@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-15T23:01:19Z</updated>
+  <updated>2026-07-16T00:09:38Z</updated>
+  <entry>
+    <title>Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort</title>
+    <link href="https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/</id>
+    <updated>2026-07-15T23:48:58Z</updated>
+    <summary type="text">Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch. The full weights ship under Apache 2.0. It is a 975B-parameter Mixture-of-Experts transformer with 41B active parameters, a 1M-token context window, and native text, image, and audio input. The lab states plainly that Inkling is not the strongest model available, open or closed. It is positioned instead </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex</title>
     <link href="https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/" rel="alternate"/>
@@ -33,6 +42,57 @@
     <summary type="text">Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Terra, the encryption is mandatory. The article OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation appeared first on The Decode</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Smash Story: The Demo Script That Out-Debugged My Test Suite</title>
+    <link href="https://dev.to/gde/smash-story-the-demo-script-that-out-debugged-my-test-suite-430k" rel="alternate"/>
+    <id>https://dev.to/gde/smash-story-the-demo-script-that-out-debugged-my-test-suite-430k</id>
+    <updated>2026-07-15T23:58:42Z</updated>
+    <summary type="text">This is a Smash Stories submission for the DEV Summer Bug Smash: a debugging story about the gap between &quot;all tests pass&quot; and &quot;it actually works&quot; — and the unlikely hero that closed it. The setup The project is a small MCP (Model Context Protocol) server that wraps Google's gemini-3.1-flash-lite-image model. It exposes image generation and stateful image editing as four tools that any MCP-speaking</summary>
+    <author><name>xbill</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Post-Mortem: Building a Local MCP Server for Codebase Memory using Ollama and ChromaDB</title>
+    <link href="https://dev.to/kike/post-mortem-building-a-local-mcp-server-for-codebase-memory-using-ollama-and-chromadb-3ilg" rel="alternate"/>
+    <id>https://dev.to/kike/post-mortem-building-a-local-mcp-server-for-codebase-memory-using-ollama-and-chromadb-3ilg</id>
+    <updated>2026-07-15T23:46:16Z</updated>
+    <summary type="text">Developers are pushing back against cloud API billing and the privacy risks of sending proprietary codebases to third-party endpoints. A Hacker News thread from this year put it plainly: the problem isn't the price per token, it's the unpredictability of usage-based billing when AI agents are continuously polling APIs. On Reddit, the privacy concern is starker -- for enterprise and defense work, s</summary>
+    <author><name>Enrique B.</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Three AI Agents That Actually Write Code for You (and How to Use Them)</title>
+    <link href="https://dev.to/zaid_hossain_4815f41c7d7c/three-ai-agents-that-actually-write-code-for-you-and-how-to-use-them-5a5c" rel="alternate"/>
+    <id>https://dev.to/zaid_hossain_4815f41c7d7c/three-ai-agents-that-actually-write-code-for-you-and-how-to-use-them-5a5c</id>
+    <updated>2026-07-15T23:46:00Z</updated>
+    <summary type="text">I got tired of copy-pasting snippets from ChatGPT If you're still bouncing between your editor and a chat window, asking an LLM for code and then manually wiring it into your project, you're doing it the hard way. In 2026, AI agents have matured into tools that read your entire codebase, propose multi-file changes, and execute commands on your behalf. They don't just autocomplete—they plan, edit, </summary>
+    <author><name>Zaid Hossain</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Build a Natural Language to SQL API in Python</title>
+    <link href="https://dev.to/sonam_50a41a4ced7e6b4f3fa/build-a-natural-language-to-sql-api-in-python-3a7p" rel="alternate"/>
+    <id>https://dev.to/sonam_50a41a4ced7e6b4f3fa/build-a-natural-language-to-sql-api-in-python-3a7p</id>
+    <updated>2026-07-15T23:21:04Z</updated>
+    <summary type="text">Most data questions start in plain English. &quot;Which customers spent the most?&quot; &quot;How many orders are pending?&quot; &quot;What products generated revenue last month?&quot; Someone can turn those questions into SQL, but that usually means waiting on a developer, analyst, or dashboard update. This Python example shows how to build a small natural language to SQL API with Telnyx AI Inference. Code: https://github.com</summary>
+    <author><name>Sonam</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>zapier/marketplace fresh off the press!</title>
+    <link href="https://dev.to/benmcgit/zapiermarketplace-fresh-off-the-press-20m9" rel="alternate"/>
+    <id>https://dev.to/benmcgit/zapiermarketplace-fresh-off-the-press-20m9</id>
+    <updated>2026-07-15T23:05:07Z</updated>
+    <summary type="text">Your AI coding agent shouldn’t stop at writing code. If you’re using Claude Code, GitHub Copilot CLI, or OpenAI Codex, you’ve probably hit this: Your agent writes great code… until you ask it to update Notion, read Google Docs, or send a Slack message. Then you’re back to copy-pasting between apps. We built the Zapier Marketplace to fix that. Install it in one command: claude plugin marketplace ad</summary>
+    <author><name>Ben McAdams</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -411,40 +471,5 @@
     <summary type="text">In the fast-moving world of cryptocurrency, market data changes every second — prices fluctuate, trades execute, and volumes shift continuously. Capturing this stream of real-time data and transforming it into meaningful insights requires a robust and scalable pipeline. In this project, I built a complete real-time crypto market data pipeline that captures, streams, stores, and visualizes live dat</summary>
     <author><name>Kepha Mwandiki</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Can you trust your sensor data? A developer's guide to the full stack</title>
-    <link href="https://dev.to/mariusgjerd/can-you-trust-your-sensor-data-a-developers-guide-to-the-full-stack-3376" rel="alternate"/>
-    <id>https://dev.to/mariusgjerd/can-you-trust-your-sensor-data-a-developers-guide-to-the-full-stack-3376</id>
-    <updated>2026-07-13T20:30:19Z</updated>
-    <summary type="text">Every data pipeline in industrial IoT starts the same way: something physical happens, a sensor detects it, and a number appears in your database. The gap between “something physical happens” and “a number appears in your database” is where most data quality problems live. If you’ve only ever worked on the database side, that gap is invisible. This post is a map of it. We’ll trace a single tempera</summary>
-    <author><name>Marius Gjerd</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>AI Coding's Real Bottleneck Is Repository Execution Trust</title>
-    <link href="https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah" rel="alternate"/>
-    <id>https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah</id>
-    <updated>2026-07-13T20:20:02Z</updated>
-    <summary type="text">Overview For a while, the central question in AI coding felt obvious: Can the model generate good code? That is still important, but it is no longer the main bottleneck in many real workflows. The bigger problem now is repository execution trust. Can the agent trust the repository enough to act correctly? Can the repository tell the agent what setup is required, what task is canonical, what workfl</summary>
-    <author><name>Bobai Kato</name></author>
-  </entry>
-  <entry>
-    <title>Let Me Show You Which AI Model Actually Writes the Best Code</title>
-    <link href="https://dev.to/gentlenode/let-me-show-you-which-ai-model-actually-writes-the-best-code-3epa" rel="alternate"/>
-    <id>https://dev.to/gentlenode/let-me-show-you-which-ai-model-actually-writes-the-best-code-3epa</id>
-    <updated>2026-07-13T19:00:44Z</updated>
-    <summary type="text">Let Me Show You Which AI Model Actually Writes the Best Code I've been obsessed with AI coding assistants lately. Like, embarrassingly obsessed. I keep finding excuses to throw real-world problems at different models just to see what sticks. So last month I did something that ate up way more of my weekend than I'd like to admit — I ran 10 of the top LLMs through five coding tasks and tracked every</summary>
-    <author><name>gentlenode</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Question That Disappeared: Remote Claude Code and the 3-Hour Trap</title>
-    <link href="https://dev.to/jeromefromhk/the-question-that-disappeared-remote-claude-code-and-the-3-hour-trap-1d8c" rel="alternate"/>
-    <id>https://dev.to/jeromefromhk/the-question-that-disappeared-remote-claude-code-and-the-3-hour-trap-1d8c</id>
-    <updated>2026-07-13T17:01:35Z</updated>
-    <summary type="text">The task had been running a while on my remote box — one of those long, multi-step jobs I kick off and step away from — and I was somewhere else entirely when my phone buzzed. It was a Telegram ping from a small notifier I'd built, claude-code-notify, which reaches me whenever a Claude Code turn needs my input, finishes, or dies — so I don't have to sit and watch. This one was the first kind: Clau</summary>
-    <author><name>Jerome</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
