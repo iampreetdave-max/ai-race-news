@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-16T19:18:37Z</updated>
+  <updated>2026-07-16T21:05:41Z</updated>
   <entry>
     <title>OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents</title>
     <link href="https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/" rel="alternate"/>
@@ -42,6 +42,36 @@
     <updated>2026-07-15T23:48:58Z</updated>
     <summary type="text">Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch. The full weights ship under Apache 2.0. It is a 975B-parameter Mixture-of-Experts transformer with 41B active parameters, a 1M-token context window, and native text, image, and audio input. The lab states plainly that Inkling is not the strongest model available, open or closed. It is positioned instead </summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How do you become a Forward Deployed Engineer? (2026)</title>
+    <link href="https://dev.to/manduks/how-do-you-become-a-forward-deployed-engineer-2026-2l8p" rel="alternate"/>
+    <id>https://dev.to/manduks/how-do-you-become-a-forward-deployed-engineer-2026-2l8p</id>
+    <updated>2026-07-16T20:28:08Z</updated>
+    <summary type="text">You become a Forward Deployed Engineer by developing production AI fluency, building a portfolio that proves you can ship agents into production, and passing an interview loop that tests technical depth, customer judgment, and reasoning through ambiguity in roughly equal measure. You do not need a PhD or an ML research background. You need to demonstrate that you can take a vague problem and turn </summary>
+    <author><name>Armando Gonzalez</name></author>
+    <category term="agents"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Create Logos and Full Brand Kits Inside Claude: A Practical Guide to the Zoviz MCP Server</title>
+    <link href="https://dev.to/zovizapp/create-logos-and-full-brand-kits-inside-claude-a-practical-guide-to-the-zoviz-mcp-server-1b5n" rel="alternate"/>
+    <id>https://dev.to/zovizapp/create-logos-and-full-brand-kits-inside-claude-a-practical-guide-to-the-zoviz-mcp-server-1b5n</id>
+    <updated>2026-07-16T20:21:49Z</updated>
+    <summary type="text">Originally created for the Zoviz MCP page. Cross posted to DEV with a canonical link. If you build side projects, you know the drill. The code is done, the product works, and then you lose an entire evening making a logo, an OG image, and social banners in a design tool you barely know. The Model Context Protocol (MCP) has quietly fixed this category of problem. Since Anthropic open sourced MCP, a</summary>
+    <author><name>Zoviz Team</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why Uber's $1,200 Claude Code Session Is Actually a Routing Problem</title>
+    <link href="https://dev.to/aplomb2/why-ubers-1200-claude-code-session-is-actually-a-routing-problem-d66" rel="alternate"/>
+    <id>https://dev.to/aplomb2/why-ubers-1200-claude-code-session-is-actually-a-routing-problem-d66</id>
+    <updated>2026-07-16T19:57:54Z</updated>
+    <summary type="text">Uber burned through its entire 2026 AI coding budget in four months. One executive racked up a $1,200 bill in a single two-hour Claude Code session. By spring, 95% of their engineers had adopted AI coding tools, with heavy users hitting $2,000 per month. Their response? Spending caps at $1,500 per engineer. But caps are a bandaid. The real problem is architectural. The Tokenmaxxing Trap CNBC coine</summary>
+    <author><name>Bo Shen</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -449,32 +479,5 @@
     <author><name>Ruben Broekx</name></author>
     <category term="llm"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>I Gave an AI Agent a Database, Compute, Storage, and Models From One CLI</title>
-    <link href="https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h" rel="alternate"/>
-    <id>https://dev.to/devopsdaily/i-gave-an-ai-agent-a-database-compute-storage-and-models-from-one-cli-514h</id>
-    <updated>2026-07-15T15:21:45Z</updated>
-    <summary type="text">A working AI agent has an unglamorous shopping list. It needs a database to remember things, somewhere to run that can stream tokens without timing out, object storage for whatever it produces, and access to a model. Assembled the usual way, that is four separate signups: a Postgres host, a compute platform, an S3 bucket, and an OpenAI or Anthropic account, each with its own credential to provisio</summary>
-    <author><name>DevOps Daily</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cursor has an unpatched 0-day. It's been 7 months.</title>
-    <link href="https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk" rel="alternate"/>
-    <id>https://dev.to/thegatewayguy/cursor-has-an-unpatched-0-day-its-been-7-months-59mk</id>
-    <updated>2026-07-15T15:08:38Z</updated>
-    <summary type="text">A developer opens a repository in Cursor on Windows. If that repo contains a file named git.exe in the root, Cursor executes it automatically. No clicks. No warnings. No prompts. Just code execution — under the current user's privileges. Mindgard found this on December 15, 2025. They reported it the same day. Today is July 2026 — 197+ Cursor versions later — and it's still there. &quot;The vulnerabilit</summary>
-    <author><name>Andrew Kew</name></author>
-  </entry>
-  <entry>
-    <title>A plugin can pass validation and still fail after install</title>
-    <link href="https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j" rel="alternate"/>
-    <id>https://dev.to/nekoautomata/a-plugin-can-pass-validation-and-still-fail-after-install-570j</id>
-    <updated>2026-07-15T13:01:41Z</updated>
-    <summary type="text">Plugin validators are good at answering one narrow question: does this manifest match the schema the harness expects? That is necessary, but it is not the same as proving that the package a user installs still contains a working plugin. The gap gets wider when one repository targets both Codex and Claude Code. The two harnesses share several conventions, but they do not have identical requirements</summary>
-    <author><name>Nekoautomata Miki</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
