@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-16T00:09:38Z</updated>
+  <updated>2026-07-16T04:12:17Z</updated>
   <entry>
     <title>Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort</title>
     <link href="https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/" rel="alternate"/>
@@ -42,6 +42,61 @@
     <summary type="text">Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Terra, the encryption is mandatory. The article OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation appeared first on The Decode</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Email Verification Bots with Playwright</title>
+    <link href="https://dev.to/francofuji/email-verification-bots-with-playwright-1dc7" rel="alternate"/>
+    <id>https://dev.to/francofuji/email-verification-bots-with-playwright-1dc7</id>
+    <updated>2026-07-16T04:00:54Z</updated>
+    <summary type="text">If you've ever tried to test your own signup flow, provision a demo account, or sign up for a vendor's API on behalf of your one-person company, you've hit the same wall every solo founder hits: the form submits fine, and then the service says &quot;check your email to verify your account.&quot; Now a human has to open an inbox, find the code or the link, and come back to finish the job. That single step is</summary>
+    <author><name>Francisco Perez</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Research Human Security Review in the Copilot App With Stop Conditions</title>
+    <link href="https://dev.to/haaaaaley/research-human-security-review-in-the-copilot-app-with-stop-conditions-2g71" rel="alternate"/>
+    <id>https://dev.to/haaaaaley/research-human-security-review-in-the-copilot-app-with-stop-conditions-2g71</id>
+    <updated>2026-07-16T04:00:36Z</updated>
+    <summary type="text">GitHub announced on July 14, 2026 that security reviews are available in the GitHub Copilot app. Primary source: GitHub Changelog, July 14, 2026. The meaningful research question is not whether people click Accept. It is whether they can build an evidence-backed decision when guidance is useful, incomplete, or wrong. understand change -&gt; inspect evidence -&gt; challenge findings -&gt; verify uncertainty</summary>
+    <author><name>Haley</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Secure Mobile Handoff Checklist for Copilot Conflict Resolution</title>
+    <link href="https://dev.to/roronoa_/a-secure-mobile-handoff-checklist-for-copilot-conflict-resolution-49jg" rel="alternate"/>
+    <id>https://dev.to/roronoa_/a-secure-mobile-handoff-checklist-for-copilot-conflict-resolution-49jg</id>
+    <updated>2026-07-16T04:00:29Z</updated>
+    <summary type="text">GitHub announced on July 8, 2026 that GitHub Mobile can start a Copilot cloud-agent workflow to fix pull-request merge conflicts. Primary source: GitHub Changelog, July 8, 2026. The unsafe mental model is “tap once and the conflict is solved.” A safer model is: mobile intent -&gt; bounded remote task -&gt; proposed patch -&gt; verification -&gt; human merge This is a source-based checklist, not a hands-on pro</summary>
+    <author><name>Roronoa</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Test Copilot's BYOK Provider and Model Selector for Keyboard Accessibility</title>
+    <link href="https://dev.to/babycat/test-copilots-byok-provider-and-model-selector-for-keyboard-accessibility-9ea" rel="alternate"/>
+    <id>https://dev.to/babycat/test-copilots-byok-provider-and-model-selector-for-keyboard-accessibility-9ea</id>
+    <updated>2026-07-16T04:00:25Z</updated>
+    <summary type="text">GitHub announced on July 14, 2026 that Copilot for JetBrains expanded bring-your-own-key capabilities. Primary source: GitHub Changelog, July 14, 2026. Provider and model selection looks like two dropdowns, but behaves like one dependent workflow: credential context -&gt; provider -&gt; compatible models -&gt; confirmed session This is a proposed accessibility test plan, not a hands-on review. It does not </summary>
+    <author><name>babycat</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Learn Schema Validation With a Tiny GitHub Issue Fields Project</title>
+    <link href="https://dev.to/magickong/learn-schema-validation-with-a-tiny-github-issue-fields-project-9" rel="alternate"/>
+    <id>https://dev.to/magickong/learn-schema-validation-with-a-tiny-github-issue-fields-project-9</id>
+    <updated>2026-07-16T04:00:10Z</updated>
+    <summary type="text">GitHub announced on July 2, 2026 that Issue fields are generally available, including integration with GitHub's MCP server. Primary source: GitHub Changelog, July 2, 2026. That creates a useful beginner project: validate structured issue metadata before an MCP client—or any program—uses it. The schema below is invented for learning. It is not GitHub's API schema. Define three fields // schema.mjs </summary>
+    <author><name>Alex Chen</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Remove the Copilot CLI PAT From GitHub Actions Without Losing Your Rollback</title>
+    <link href="https://dev.to/rivera123/remove-the-copilot-cli-pat-from-github-actions-without-losing-your-rollback-42p" rel="alternate"/>
+    <id>https://dev.to/rivera123/remove-the-copilot-cli-pat-from-github-actions-without-losing-your-rollback-42p</id>
+    <updated>2026-07-16T04:00:06Z</updated>
+    <summary type="text">GitHub announced on July 2, 2026 that Copilot CLI no longer needs a personal access token when it runs in GitHub Actions. Primary source: GitHub Changelog, July 2, 2026. Deleting a secret is easy. Proving the workflow still works—and recovering without hurriedly pasting credentials back into YAML—is the useful part. This is an unexecuted migration template, not a report from a production repositor</summary>
+    <author><name>Sam Rivera</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -381,6 +436,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Mermaid to Unicode box art (grok-mermaid)</title>
+    <link href="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</id>
+    <updated>2026-07-16T00:33:18Z</updated>
+    <summary type="text">Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a &quot;self-contained terminal renderer for Mermaid diagrams&quot; written in Rust. I figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Claude Code burns 5x more tokens before you type a word. Here's where they go.</title>
     <link href="https://dev.to/thegatewayguy/claude-code-burns-5x-more-tokens-before-you-type-a-word-heres-where-they-go-2djb" rel="alternate"/>
     <id>https://dev.to/thegatewayguy/claude-code-burns-5x-more-tokens-before-you-type-a-word-heres-where-they-go-2djb</id>
@@ -406,70 +471,5 @@
     <summary type="text">Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researc</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title># Production Patterns for AI Agent Tool Calling: 8 Lessons from 6 Months of 24/7</title>
-    <link href="https://dev.to/manoir_yantai_f22f01340f0/-production-patterns-for-ai-agent-tool-calling-8-lessons-from-6-months-of-247-3e5l" rel="alternate"/>
-    <id>https://dev.to/manoir_yantai_f22f01340f0/-production-patterns-for-ai-agent-tool-calling-8-lessons-from-6-months-of-247-3e5l</id>
-    <updated>2026-07-14T06:00:53Z</updated>
-    <summary type="text">Production Patterns for AI Agent Tool Calling: 8 Lessons from 6 Months of 24/7 Operation Getting an LLM to call a tool once is easy. Getting it to call tools reliably 500 times a day, every day, for six months — that's a different problem entirely. Every LLM in 2026 supports function calling natively. OpenAI, Claude, Gemini — they all do it. Frameworks like LangChain, CrewAI, and AutoGen make it t</summary>
-    <author><name>Manoir Yantai</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>EKS vs AKS vs GKE: An Honest Comparison From Running All Three in Production</title>
-    <link href="https://dev.to/deplyra/eks-vs-aks-vs-gke-an-honest-comparison-from-running-all-three-in-production-382b" rel="alternate"/>
-    <id>https://dev.to/deplyra/eks-vs-aks-vs-gke-an-honest-comparison-from-running-all-three-in-production-382b</id>
-    <updated>2026-07-14T05:49:40Z</updated>
-    <summary type="text">EKS vs AKS vs GKE is really three comparisons in one: cost, networking, and day-2 operations. We have run production workloads on all three managed Kubernetes services — Amazon EKS, Azure AKS, and Google GKE — and they all pass conformance tests and run the same YAML. Yet the day-2 experience — the upgrades, the networking incidents, the 2am pages — is very different on each. This is the compariso</summary>
-    <author><name>Deplyra</name></author>
-  </entry>
-  <entry>
-    <title>MedPMC: A New Framework for High-Fidelity Medical Multimodal Data</title>
-    <link href="https://dev.to/pneumetron/medpmc-a-new-framework-for-high-fidelity-medical-multimodal-data-dmo" rel="alternate"/>
-    <id>https://dev.to/pneumetron/medpmc-a-new-framework-for-high-fidelity-medical-multimodal-data-dmo</id>
-    <updated>2026-07-14T02:49:43Z</updated>
-    <summary type="text">What Changed The development of multimodal foundation models in medicine has been significantly hampered by the scarcity of large-scale, high-quality clinical data. While PubMed Central (PMC) offers a vast repository of expert-authored image-text data, existing PMC-derived datasets have historically suffered from limitations in fidelity, reproducibility, and clinical validation. A new framework, M</summary>
-    <author><name>Pneumetron</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The AI Supply Chain: The Next Evolution of Third Party Risk</title>
-    <link href="https://dev.to/alifunk/the-ai-supply-chain-the-next-evolution-of-third-party-risk-1ek" rel="alternate"/>
-    <id>https://dev.to/alifunk/the-ai-supply-chain-the-next-evolution-of-third-party-risk-1ek</id>
-    <updated>2026-07-13T23:32:44Z</updated>
-    <summary type="text">Most enterprise security teams believe they have third party risk under control. They send out questionnaires, review SOC 2 reports, and negotiate vendor contracts. In the age of enterprise AI, this traditional approach is no longer enough. It is dangerously incomplete. The real risk has shifted from vendors to dependencies. We are moving away from legal agreements to neural weights, embeddings, r</summary>
-    <author><name>Ali-Funk</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Building a production AI agent in TypeScript with Mastra: a 2026 step-by-step.</title>
-    <link href="https://dev.to/thegdsks/building-a-production-ai-agent-in-typescript-with-mastra-a-2026-step-by-step-37dc" rel="alternate"/>
-    <id>https://dev.to/thegdsks/building-a-production-ai-agent-in-typescript-with-mastra-a-2026-step-by-step-37dc</id>
-    <updated>2026-07-13T23:30:15Z</updated>
-    <summary type="text">Building a production AI agent in TypeScript with Mastra: a 2026 step-by-step. I spent an afternoon last month wiring up an AI agent in raw TypeScript using the Anthropic SDK directly. The code worked, but I owned every piece of it: the tool dispatch loop, the conversation history array, the retry logic. Around 400 lines before the agent did anything interesting. Mastra cuts that to about 60. A Ty</summary>
-    <author><name>GDS K S</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your rules file only grows. Here's how to find the rules that do nothing</title>
-    <link href="https://dev.to/rulestack/your-rules-file-only-grows-heres-how-to-find-the-rules-that-do-nothing-4n2m" rel="alternate"/>
-    <id>https://dev.to/rulestack/your-rules-file-only-grows-heres-how-to-find-the-rules-that-do-nothing-4n2m</id>
-    <updated>2026-07-13T23:15:09Z</updated>
-    <summary type="text">This is part 3 of a series on project rules for AI coding agents. Part 1 covered how Cursor, Claude Code, and Codex load your rules. Part 2 covered enforcing rules with hooks. This one covers the part almost nobody does: figuring out which of your rules are dead weight. The append-only problem Nearly every long-lived rules file I've seen has the same life story. It starts as five lines. An agent d</summary>
-    <author><name>Rulestack</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Capturing, Streaming, Storing, and Visualizing Crypto Market Data in Real Time with PostgreSQL, Debezium, Kafka, JDBC &amp; Grafana</title>
-    <link href="https://dev.to/kepha_mwandiki/capturing-streaming-storing-and-visualizing-crypto-market-data-in-real-time-with-postgresql-54b4" rel="alternate"/>
-    <id>https://dev.to/kepha_mwandiki/capturing-streaming-storing-and-visualizing-crypto-market-data-in-real-time-with-postgresql-54b4</id>
-    <updated>2026-07-13T21:43:58Z</updated>
-    <summary type="text">In the fast-moving world of cryptocurrency, market data changes every second — prices fluctuate, trades execute, and volumes shift continuously. Capturing this stream of real-time data and transforming it into meaningful insights requires a robust and scalable pipeline. In this project, I built a complete real-time crypto market data pipeline that captures, streams, stores, and visualizes live dat</summary>
-    <author><name>Kepha Mwandiki</name></author>
-    <category term="data"/>
   </entry>
 </feed>
