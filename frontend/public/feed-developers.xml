@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-16T12:23:22Z</updated>
+  <updated>2026-07-16T15:06:28Z</updated>
+  <entry>
+    <title>OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents</title>
+    <link href="https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/</id>
+    <updated>2026-07-16T14:31:34Z</updated>
+    <summary type="text">OpenAI and keyboard manufacturer Work Louder have unveiled the Codex Micro, a compact hardware controller designed for working with AI agents. The article OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents appeared first on The Decoder.</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI</title>
     <link href="https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/" rel="alternate"/>
@@ -22,6 +32,53 @@
     <updated>2026-07-15T23:48:58Z</updated>
     <summary type="text">Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch. The full weights ship under Apache 2.0. It is a 975B-parameter Mixture-of-Experts transformer with 41B active parameters, a 1M-token context window, and native text, image, and audio input. The lab states plainly that Inkling is not the strongest model available, open or closed. It is positioned instead </summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Is an Agentic Semantic Layer?</title>
+    <link href="https://dev.to/maxbonnard/what-is-an-agentic-semantic-layer-4hbj" rel="alternate"/>
+    <id>https://dev.to/maxbonnard/what-is-an-agentic-semantic-layer-4hbj</id>
+    <updated>2026-07-16T14:53:15Z</updated>
+    <summary type="text">An agentic semantic layer is a metadata layer between AI agents and a data warehouse that defines business metrics, enforces access control, and exposes governed query interfaces. Instead of writing raw SQL, agents query metric definitions through protocols like MCP (Model Context Protocol) or REST APIs. Every agent gets the same answer because the business logic is defined once, not interpreted p</summary>
+    <author><name>Max Mealing</name></author>
+    <category term="agents"/>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP Charts: Add Interactive Charts to Your MCP Server</title>
+    <link href="https://dev.to/maxbonnard/mcp-charts-add-interactive-charts-to-your-mcp-server-po1" rel="alternate"/>
+    <id>https://dev.to/maxbonnard/mcp-charts-add-interactive-charts-to-your-mcp-server-po1</id>
+    <updated>2026-07-16T14:49:01Z</updated>
+    <summary type="text">Your MCP server returns data. The agent reads it back as a wall of numbers, or it tries to draw a chart in HTML and gets it wrong. The visual, the part the user actually wanted, gets left to the model to improvise. MCP charts fix that. You give your MCP server one visualize tool: the agent calls it with a query, your database returns the rows, and an interactive chart renders right in Claude or Ch</summary>
+    <author><name>Max Mealing</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How we built our FinOps MCP server: lessons learned</title>
+    <link href="https://dev.to/tanguy_compagnon/how-we-built-our-finops-mcp-server-lessons-learned-50lf" rel="alternate"/>
+    <id>https://dev.to/tanguy_compagnon/how-we-built-our-finops-mcp-server-lessons-learned-50lf</id>
+    <updated>2026-07-16T14:40:34Z</updated>
+    <summary type="text">TL;DR — Our first MCP was basically our API, exposed as-is. Claude wouldn't use it. We had a dedicated tool to compare two periods and it never called it once: it just called query_cost twice and did the subtraction itself. The tools made sense if you knew our database. The model didn't. We ended up rebuilding most of it, and the app is better for it. Costory pulls in billing data from all your co</summary>
+    <author><name>Tanguy Compagnon de La Servette</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kiro CLI Gets Worse After an Hour. Here's How I Fixed It.</title>
+    <link href="https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g" rel="alternate"/>
+    <id>https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g</id>
+    <updated>2026-07-16T14:37:01Z</updated>
+    <summary type="text">Two hours into a Kiro CLI session, it gave me a generic IAM trust policy example. We had literally set up the OIDC provider together 30 minutes earlier. It forgot. This is not a bug. It has a name: context rot. And once I understood the mechanics, I stopped fighting it and started managing it. I use Kiro CLI every day. Checking CloudWatch alarms, debugging IAM policies, reviewing security groups, </summary>
+    <author><name>Sarvar Nadaf</name></author>
+  </entry>
+  <entry>
+    <title>How I Built My Site With Claude Code</title>
+    <link href="https://dev.to/imisic/how-i-built-my-site-with-claude-code-2ojh" rel="alternate"/>
+    <id>https://dev.to/imisic/how-i-built-my-site-with-claude-code-2ojh</id>
+    <updated>2026-07-16T14:30:20Z</updated>
+    <summary type="text">I built this website from scratch over about three weeks of actual work. A week during holiday, a handful of weekends, and some late nights in between. No WordPress. No Laravel. No React. No Tailwind. Just PHP, vanilla JavaScript, a custom CSS design system, and Claude Code as my development partner. Here's the full story: what I built, how I built it, what worked, what didn't, and what I'd change</summary>
+    <author><name>Ivan Misic</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -420,62 +477,5 @@
     <author><name>Minor Keith</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI DevOps startup MyDecisive launches with $12M and open-source SmartHub</title>
-    <link href="https://siliconangle.com/2026/07/15/ai-devops-startup-mydecisive-launches-12m-open-source-smarthub/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/07/15/ai-devops-startup-mydecisive-launches-12m-open-source-smarthub/</id>
-    <updated>2026-07-15T12:00:19Z</updated>
-    <summary type="text">Artificial intelligence DevOps startup MyDecisive formally launched today and announced $12 million in new funding to bring to market an open-source foundation for managing observability data and a commercial suite it says can slash what enterprises spend running production systems. Ari Zilka founded MyDecisive in San Francisco in 2023, backed by a long track record […] The post AI DevOps startup </summary>
-    <author><name>Duncan Riley</name></author>
-    <category term="product-launch"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I Built a Task Orchestrator, Then Deleted Its Best Number</title>
-    <link href="https://dev.to/vystartasv/i-built-a-task-orchestrator-then-deleted-its-best-number-57np" rel="alternate"/>
-    <id>https://dev.to/vystartasv/i-built-a-task-orchestrator-then-deleted-its-best-number-57np</id>
-    <updated>2026-07-14T20:57:09Z</updated>
-    <summary type="text">Tags: #ai #agents #golang #opensource ORA is out: a single Go binary that takes a task, breaks it into subtasks, routes each one to the cheapest model that can actually do it, runs them, and reconciles the results. It works with Claude Code, Codex, Pi, Cursor, Cline, Hermes — or standalone. go install github.com/vystartasv/ora/cmd/ora@latest ora &quot;build a login system with JWT&quot; ora &quot;refactor the AP</summary>
-    <author><name>Vilius</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The bugs I could only find by running the thing</title>
-    <link href="https://dev.to/moui72/the-bugs-i-could-only-find-by-running-the-thing-3mjc" rel="alternate"/>
-    <id>https://dev.to/moui72/the-bugs-i-could-only-find-by-running-the-thing-3mjc</id>
-    <updated>2026-07-14T20:52:28Z</updated>
-    <summary type="text">Last week I wrote about being bad at discipline and building a tool to compensate — ArDD, a set of Claude Code skills that push a project through artifacts, plans, and tasks instead of letting an agent freewheel from a one-line prompt straight to code. I ended that post wondering whether it was just a good CLAUDE.md wearing a costume. I'm the only person who runs ArDD (as of this writing), so what</summary>
-    <author><name>Tyler Peckenpaugh</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OmniRoute: The Open-Source AI Gateway Slashing Token Costs by 95%</title>
-    <link href="https://dev.to/terminalchai/omniroute-the-open-source-ai-gateway-slashing-token-costs-by-95-2nfd" rel="alternate"/>
-    <id>https://dev.to/terminalchai/omniroute-the-open-source-ai-gateway-slashing-token-costs-by-95-2nfd</id>
-    <updated>2026-07-14T20:17:04Z</updated>
-    <summary type="text">Optimizing LLM Costs: Meet OmniRoute AI coding agents are boosting developer productivity, but they consume a massive amount of tokens. For developers running coding assistants like Claude Code, Cursor, or Copilot all day, API subscription fees and token costs can scale quickly. OmniRoute is an open-source AI gateway designed to tackle this problem. By combining advanced token compression with sma</summary>
-    <author><name>Terminal Chai</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How to Use Claude Code Plugins (Install from a Marketplace or Build Your Own)</title>
-    <link href="https://dev.to/thryx/how-to-use-claude-code-plugins-install-from-a-marketplace-or-build-your-own-574" rel="alternate"/>
-    <id>https://dev.to/thryx/how-to-use-claude-code-plugins-install-from-a-marketplace-or-build-your-own-574</id>
-    <updated>2026-07-14T19:00:09Z</updated>
-    <summary type="text">This is a cross-post — the original (and any updates) live at broke2builtai.com. My Claude Code setup took months to accrete: a review command here, a formatting hook there, an MCP server for the database, a subagent for QA. Then I started a second project and discovered the setup didn't come with me — it was smeared across four config surfaces in the first repo, and &quot;install my tooling&quot; meant a t</summary>
-    <author><name>Thryx</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Fine-Tuning Qwen2-VL for Blockchain Graph Classification on AMD MI300X: What the Docs Don't Tell You</title>
-    <link href="https://dev.to/ericwoooo_kr/fine-tuning-qwen2-vl-for-blockchain-graph-classification-on-amd-mi300x-what-the-docs-dont-tell-you-4247" rel="alternate"/>
-    <id>https://dev.to/ericwoooo_kr/fine-tuning-qwen2-vl-for-blockchain-graph-classification-on-amd-mi300x-what-the-docs-dont-tell-you-4247</id>
-    <updated>2026-07-14T18:53:39Z</updated>
-    <summary type="text">TL;DR: Graph renderings of blockchain transactions carry topology signals that serialize badly into token sequences. A hub node surrounded by 47 short-lived leaf wallets looks like a table of addresses and amounts in text form — recognizable only if you already know the pattern. 📖 Reading time: ~23 min What's in this article The Problem: Blockchain Forensics Needs Vision, Not Just Text Hardware an</summary>
-    <author><name>우병수</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>
