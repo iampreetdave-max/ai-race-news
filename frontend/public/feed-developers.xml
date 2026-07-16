@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-16T21:05:41Z</updated>
+  <updated>2026-07-16T23:01:35Z</updated>
   <entry>
     <title>OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents</title>
     <link href="https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/" rel="alternate"/>
@@ -42,6 +42,47 @@
     <updated>2026-07-15T23:48:58Z</updated>
     <summary type="text">Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch. The full weights ship under Apache 2.0. It is a 975B-parameter Mixture-of-Experts transformer with 41B active parameters, a 1M-token context window, and native text, image, and audio input. The lab states plainly that Inkling is not the strongest model available, open or closed. It is positioned instead </summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I burned through thousands of AI tokens. Then a friend did it for free</title>
+    <link href="https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8" rel="alternate"/>
+    <id>https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8</id>
+    <updated>2026-07-16T22:52:32Z</updated>
+    <summary type="text">(yep, kinda clickbait, just for the funsies 😊) At the beginning of the year, I relaunched my portfolio site using Codex and Gemini CLI as my main development tools. It wasn't entirely vibe-coded: I spent several days updating content and researching best practices, plus a good pile of tokens on brainstorming sessions. For personal projects, I'm trying to keep a philosophy of &quot;done is better than p</summary>
+    <author><name>Paulo Henrique</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Image models kept getting my App Store screenshots rejected, so I made my coding agent render them to exact spec</title>
+    <link href="https://dev.to/selcukatli/image-models-kept-getting-my-app-store-screenshots-rejected-so-i-made-my-coding-agent-render-them-3afp" rel="alternate"/>
+    <id>https://dev.to/selcukatli/image-models-kept-getting-my-app-store-screenshots-rejected-so-i-made-my-coding-agent-render-them-3afp</id>
+    <updated>2026-07-16T22:23:49Z</updated>
+    <summary type="text">Like a lot of people shipping iOS apps this year, I tried generating App Store screenshots with image models. GPT Image, nano banana — the results looked genuinely great. Then App Store Connect rejected them: wrong canvas sizes, subtly warped text, device frames that don't match any real device. After the third rejection I realized the problem wasn't prompt engineering. Frames and canvases are geo</summary>
+    <author><name>Selcukatli</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Live Registry of 750+ MCP Servers — Here's What I Found</title>
+    <link href="https://dev.to/kiprio/i-built-a-live-registry-of-750-mcp-servers-heres-what-i-found-2ic7" rel="alternate"/>
+    <id>https://dev.to/kiprio/i-built-a-live-registry-of-750-mcp-servers-heres-what-i-found-2ic7</id>
+    <updated>2026-07-16T22:02:11Z</updated>
+    <summary type="text">Model Context Protocol (MCP) has exploded in the past six months. Every week, dozens of new MCP servers appear on GitHub — tools that let Claude and other AI assistants connect to databases, APIs, file systems, and basically anything else you can imagine. The problem? There's no easy way to discover them. So I built one: kiprio.com/mcp-registry — a live registry that tracks, categorises, and ranks</summary>
+    <author><name>Kiprio</name></author>
+    <category term="agents"/>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Power Up Your Claude Workflows with the Kiprio MCP Server</title>
+    <link href="https://dev.to/kiprio/power-up-your-claude-workflows-with-the-kiprio-mcp-server-23cm" rel="alternate"/>
+    <id>https://dev.to/kiprio/power-up-your-claude-workflows-with-the-kiprio-mcp-server-23cm</id>
+    <updated>2026-07-16T22:02:10Z</updated>
+    <summary type="text">dev.to Article Draft: Using Kiprio MCP Server in Your Claude Workflows Power Up Your Claude Workflows with the Kiprio MCP Server claude, mcp, api, developer, ai If you're using Claude Desktop or Claude Code and want to add real-world data capabilities to your AI workflows, the Kiprio MCP server gives you instant access to a growing set of APIs — no backend code required. In this post, I'll walk th</summary>
+    <author><name>Kiprio</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -444,40 +485,5 @@
     <summary type="text">A specialist check is most useful when its findings arrive where a team already reviews code. For coding-agent configuration, that usually means a SARIF upload, an inline workflow annotation, or a GitLab Code Quality artifact—not another bespoke dashboard. HarnessReport converts HarnessDelta's already-redacted JSON into three deterministic CI formats: SARIF 2.1.0; GitHub Actions workflow annotatio</summary>
     <author><name>Nekoautomata Miki</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>100 Days of DevOps and Cloud (AWS), Day 11: A WAR File Deploys Itself, and an ENI Is a Network Card You Can Move</title>
-    <link href="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-11-a-war-file-deploys-itself-and-an-eni-is-a-network-card-45o0" rel="alternate"/>
-    <id>https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-11-a-war-file-deploys-itself-and-an-eni-is-a-network-card-45o0</id>
-    <updated>2026-07-15T18:51:09Z</updated>
-    <summary type="text">Deploying a Java web app to Tomcat sounds like it should need a deploy tool. It does not. You copy one file into one folder, and Tomcat does the rest. Day 11 was a good reminder that a lot of what people call deployment is just putting the right file in the right place. One Linux task, one AWS task. Install and configure Tomcat, then deploy a WAR file to it, and attach a second network interface t</summary>
-    <author><name>Nnamdi Felix Ibe</name></author>
-  </entry>
-  <entry>
-    <title>find command finds things</title>
-    <link href="https://dev.to/echen4628/find-command-finds-things-506" rel="alternate"/>
-    <id>https://dev.to/echen4628/find-command-finds-things-506</id>
-    <updated>2026-07-15T18:47:13Z</updated>
-    <summary type="text">Recently I learned: find is a useful command to find files in your directories. find folder1 folder2 folder3 This dumps every file and directory under those folders. It also supports flags such as -name &quot;*.txt&quot; to find files matching a particular pattern. There are also filters for size, permissions, and last modified date. I'm thinking this would be a great tool for sanity-testing code that creat</summary>
-    <author><name>Eric Chen</name></author>
-  </entry>
-  <entry>
-    <title>0xPdf Now: Pay-as-You-Go Wallet, Free First Parse, $5 Welcome Credit &amp; MCP</title>
-    <link href="https://dev.to/rishamax/0xpdf-now-pay-as-you-go-wallet-free-first-parse-5-welcome-credit-mcp-2bec" rel="alternate"/>
-    <id>https://dev.to/rishamax/0xpdf-now-pay-as-you-go-wallet-free-first-parse-5-welcome-credit-mcp-2bec</id>
-    <updated>2026-07-15T16:53:12Z</updated>
-    <summary type="text">Schema-first PDF → JSON was the product. What’s new is how you buy and use it — no monthly plans, prepaid wallet, a real free first success, and an MCP server for agents. TL;DR Feature What it means Pay as you go ~$6 / 1,000 text pages, ~$24 / 1,000 OCR pages — no subscription Prepaid wallet Top up from $5, spend down as you parse Free first parse Your first successful parse is free (no hold / no </summary>
-    <author><name>risha-max</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Don’t Let Claude Grade Its Own Homework</title>
-    <link href="https://towardsdatascience.com/dont-let-claude-gaslight-you/" rel="alternate"/>
-    <id>https://towardsdatascience.com/dont-let-claude-gaslight-you/</id>
-    <updated>2026-07-15T16:30:00Z</updated>
-    <summary type="text">Cross-provider PR review with Codex in GitHub Actions, and why a second opinion from a different lab beats any self-review The post Don’t Let Claude Grade Its Own Homework appeared first on Towards Data Science.</summary>
-    <author><name>Ruben Broekx</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>
