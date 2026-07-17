@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-17T22:56:24Z</updated>
+  <updated>2026-07-17T23:56:57Z</updated>
   <entry>
     <title>Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph</title>
     <link href="https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph/" rel="alternate"/>
@@ -353,12 +353,37 @@
     <author><name>Bloomberg News</name></author>
   </entry>
   <entry>
+    <title>Four things I would check first with NestJS if a bank's API kept leaking sensitive data</title>
+    <link href="https://dev.to/peacemelodi/four-things-i-would-check-first-with-nestjs-if-a-banks-api-kept-leaking-sensitive-data-p8o" rel="alternate"/>
+    <id>https://dev.to/peacemelodi/four-things-i-would-check-first-with-nestjs-if-a-banks-api-kept-leaking-sensitive-data-p8o</id>
+    <updated>2026-07-17T23:10:07Z</updated>
+    <summary type="text">A bank's API rarely leaks sensitive data on purpose. Nobody writes a line of code that says send the customer's full account number to anyone who asks. It happens in smaller, quieter ways, a response object that includes more fields than the frontend actually needed, an authorization check that confirms someone is logged in but never checks whether they should see this specific record, a log line </summary>
+    <author><name>Peace Melodi</name></author>
+  </entry>
+  <entry>
+    <title>Building a signed handoff protocol for AI coding agents</title>
+    <link href="https://dev.to/dbisina/building-a-signed-handoff-protocol-for-ai-coding-agents-37c6" rel="alternate"/>
+    <id>https://dev.to/dbisina/building-a-signed-handoff-protocol-for-ai-coding-agents-37c6</id>
+    <updated>2026-07-17T22:53:07Z</updated>
+    <summary type="text">Building a signed handoff protocol for AI coding agents If you run more than one AI coding agent, you've hit this: Claude Code (or Codex, or whichever) gets deep into a task, hits its usage limit, and everything it knew evaporates. The plan, the half-finished edit, the &quot;don't redo this migration&quot; context. You paste a summary into the next tool by hand and hope you didn't forget anything. I got tir</summary>
+    <author><name>Bisina Daniel</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Mega-rounds hit 81% of Q2 funding. One company explains why.</title>
     <link href="https://www.cbinsights.com/research/july-16-newsletter/" rel="alternate"/>
     <id>https://www.cbinsights.com/research/july-16-newsletter/</id>
     <updated>2026-07-16T22:50:23Z</updated>
     <summary type="text">Below, we break down some of tech’s biggest stories, with analyst perspective on the moves that matter the most. Here’s what we’re watching this week: HLTH USA 2026 insights Mega-rounds drove Q2 venture Helsing’s $1.8B Series E This brief is … The post Mega-rounds hit 81% of Q2 funding. One company explains why. appeared first on CB Insights Research.</summary>
     <author><name>Adya Pandey</name></author>
+  </entry>
+  <entry>
+    <title>My build in public journey: creating an Ebook generator</title>
+    <link href="https://dev.to/viniciusramos91/my-build-in-public-journey-creating-an-ebook-generator-hh0" rel="alternate"/>
+    <id>https://dev.to/viniciusramos91/my-build-in-public-journey-creating-an-ebook-generator-hh0</id>
+    <updated>2026-07-17T22:46:40Z</updated>
+    <summary type="text">I once spent three weekends writing a single ebook for my Python course. Last month, my product (Ebookr.ai) generated a better one in about fifteen minutes, while I was making coffee. This is the story of the gap between those two sentences. The problem that started everything I run Jornada Python, a Python course for Brazilian devs. Ebooks are great assets for a course business: lead magnets, bon</summary>
+    <author><name>Vinícius Ramos</name></author>
   </entry>
   <entry>
     <title>Security news weekly round-up - 17th July 2026</title>
@@ -410,33 +435,5 @@
     <author><name>Convertica</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>You don't have a prompt problem. You have a contract problem.</title>
-    <link href="https://dev.to/ndreno/you-dont-have-a-prompt-problem-you-have-a-contract-problem-1ae5" rel="alternate"/>
-    <id>https://dev.to/ndreno/you-dont-have-a-prompt-problem-you-have-a-contract-problem-1ae5</id>
-    <updated>2026-07-17T22:03:33Z</updated>
-    <summary type="text">A manifesto is a set of good intentions. Good intentions drift. So we stopped writing them down and started compiling them. I read The Token Manifesto this morning, and it stuck. It's a satirical rewrite of the Agile Manifesto for the age of large language models, and like the best satire it's mostly just true. Its values, stripped of the wink: Brevity over sophistication. A tight system prompt be</summary>
-    <author><name>Nico</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Code Review, Part 2: The Reviewer That Learned To Lie Better</title>
-    <link href="https://dev.to/raleighschickel/code-review-part-2-the-reviewer-that-learned-to-lie-better-4901" rel="alternate"/>
-    <id>https://dev.to/raleighschickel/code-review-part-2-the-reviewer-that-learned-to-lie-better-4901</id>
-    <updated>2026-07-17T21:35:45Z</updated>
-    <summary type="text">Several posts ago, I wrote about setting up a multi-agent adversarial code review process as part of my development pipeline. The premise came from a podcast: if one frontier model is writing the code, you want a different lineage model doing the review. I'd already been running an informal version of this: just Claude Code reviewing Claude Code with an adversarial prompt. It had shockingly good l</summary>
-    <author><name>Raleigh Schickel</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Steer by Intent, Monitor by Exception</title>
-    <link href="https://dev.to/sameer_halbe_42366ad6cd70/steer-by-intentmonitor-by-exception-4pfo" rel="alternate"/>
-    <id>https://dev.to/sameer_halbe_42366ad6cd70/steer-by-intentmonitor-by-exception-4pfo</id>
-    <updated>2026-07-17T21:35:38Z</updated>
-    <summary type="text">The most expensive thing you can do with an AI agent is watch it. Not audit it. Not review its output. Watch it -- step by step, approval by approval, second-guessing every action before it takes the next one. And yet that is precisely how most engineering teams are deploying AI agents in 2026: on a leash so short the agent cannot take three steps without a human tapping it on the shoulder. I unde</summary>
-    <author><name>Sameer Halbe</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
