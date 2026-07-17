@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-17T14:46:57Z</updated>
+  <updated>2026-07-17T16:18:43Z</updated>
+  <entry>
+    <title>Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters</title>
+    <link href="https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72" rel="alternate"/>
+    <id>https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72</id>
+    <updated>2026-07-17T16:03:04Z</updated>
+    <summary type="text">Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters You have two agents. Agent A analyzes customer data. Agent B generates support tickets based on that analysis. Between them, they're supposed to solve the problem. Here's what happens in production: Agent A runs on Claude Managed Agents. It finishes its analysis, returns JSON. Agent B is running on Cursor in your local h</summary>
+    <author><name>Paul Twist</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents</title>
     <link href="https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/" rel="alternate"/>
@@ -476,16 +486,5 @@
     <category term="llm"/>
     <category term="computer-vision"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Post-Mortem: Building a Local MCP Server for Codebase Memory using Ollama and ChromaDB</title>
-    <link href="https://dev.to/kike/post-mortem-building-a-local-mcp-server-for-codebase-memory-using-ollama-and-chromadb-3ilg" rel="alternate"/>
-    <id>https://dev.to/kike/post-mortem-building-a-local-mcp-server-for-codebase-memory-using-ollama-and-chromadb-3ilg</id>
-    <updated>2026-07-15T23:46:16Z</updated>
-    <summary type="text">Developers are pushing back against cloud API billing and the privacy risks of sending proprietary codebases to third-party endpoints. A Hacker News thread from this year put it plainly: the problem isn't the price per token, it's the unpredictability of usage-based billing when AI agents are continuously polling APIs. On Reddit, the privacy concern is starker -- for enterprise and defense work, s</summary>
-    <author><name>Enrique B.</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="rag"/>
   </entry>
 </feed>
