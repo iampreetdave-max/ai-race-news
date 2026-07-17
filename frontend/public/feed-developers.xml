@@ -4,7 +4,32 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-17T16:18:43Z</updated>
+  <updated>2026-07-17T18:09:46Z</updated>
+  <entry>
+    <title>My OpenClaw Agent Got Slow and Expensive. I Split It Into Three Sub-Agents — Here's What Happened</title>
+    <link href="https://dev.to/mrclaw207/my-openclaw-agent-got-slow-and-expensive-i-split-it-into-three-sub-agents-heres-what-happened-51l1" rel="alternate"/>
+    <id>https://dev.to/mrclaw207/my-openclaw-agent-got-slow-and-expensive-i-split-it-into-three-sub-agents-heres-what-happened-51l1</id>
+    <updated>2026-07-17T18:04:03Z</updated>
+    <summary type="text">Last Tuesday my agent took 14 minutes to do something it used to do in 3. The transcript was a wall of repeated context. It was re-reading the same 40,000 tokens on every turn because I'd been piling tasks into one session for months. The fix was embarrassingly simple: stop trying to run everything through one agent. I split the workload across three sub-agents running in parallel. Response time d</summary>
+    <author><name>MrClaw207</name></author>
+  </entry>
+  <entry>
+    <title>When Should You /clear? A 1913 Inventory Formula Has the Answer</title>
+    <link href="https://dev.to/nomadop/when-should-you-clear-a-1913-inventory-formula-has-the-answer-4o20" rel="alternate"/>
+    <id>https://dev.to/nomadop/when-should-you-clear-a-1913-inventory-formula-has-the-answer-4o20</id>
+    <updated>2026-07-17T17:41:09Z</updated>
+    <summary type="text">I run Claude Code sessions that span hundreds of turns. For months, I restarted when the agent &quot;felt slow.&quot; Sometimes too early — throwing away all my warm context. Sometimes too late — paying rent on garbage I'd stopped needing fifty turns ago. The advice you hear everywhere is &quot;restart when it gets sluggish&quot; or &quot;use /compact.&quot; That's like telling a warehouse manager &quot;reorder when the shelves loo</summary>
+    <author><name>nomadop</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>7 Things Nobody Tells You Before Deploying Your First Full-Stack Application</title>
+    <link href="https://dev.to/drpratik/7-things-nobody-tells-you-before-deploying-your-first-full-stack-application-c5j" rel="alternate"/>
+    <id>https://dev.to/drpratik/7-things-nobody-tells-you-before-deploying-your-first-full-stack-application-c5j</id>
+    <updated>2026-07-17T17:36:40Z</updated>
+    <summary type="text">When I built my first full-stack application, I thought the hard part was writing the code. I was wrong. The application worked perfectly on my local machine. The frontend loaded, the backend responded, the database connected, and everything seemed ready for production. Then I deployed it. That's when I realized deployment isn't just the final step—it's an entirely different skill. Here are seven </summary>
+    <author><name>Pratik Dhore</name></author>
+  </entry>
   <entry>
     <title>Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters</title>
     <link href="https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72" rel="alternate"/>
@@ -457,34 +482,5 @@
     <summary type="text">GitHub announced on July 14, 2026 that Copilot for JetBrains expanded bring-your-own-key capabilities. Primary source: GitHub Changelog, July 14, 2026. Provider and model selection looks like two dropdowns, but behaves like one dependent workflow: credential context -&gt; provider -&gt; compatible models -&gt; confirmed session This is a proposed accessibility test plan, not a hands-on review. It does not </summary>
     <author><name>babycat</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Learn Schema Validation With a Tiny GitHub Issue Fields Project</title>
-    <link href="https://dev.to/magickong/learn-schema-validation-with-a-tiny-github-issue-fields-project-9" rel="alternate"/>
-    <id>https://dev.to/magickong/learn-schema-validation-with-a-tiny-github-issue-fields-project-9</id>
-    <updated>2026-07-16T04:00:10Z</updated>
-    <summary type="text">GitHub announced on July 2, 2026 that Issue fields are generally available, including integration with GitHub's MCP server. Primary source: GitHub Changelog, July 2, 2026. That creates a useful beginner project: validate structured issue metadata before an MCP client—or any program—uses it. The schema below is invented for learning. It is not GitHub's API schema. Define three fields // schema.mjs </summary>
-    <author><name>Alex Chen</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Remove the Copilot CLI PAT From GitHub Actions Without Losing Your Rollback</title>
-    <link href="https://dev.to/rivera123/remove-the-copilot-cli-pat-from-github-actions-without-losing-your-rollback-42p" rel="alternate"/>
-    <id>https://dev.to/rivera123/remove-the-copilot-cli-pat-from-github-actions-without-losing-your-rollback-42p</id>
-    <updated>2026-07-16T04:00:06Z</updated>
-    <summary type="text">GitHub announced on July 2, 2026 that Copilot CLI no longer needs a personal access token when it runs in GitHub Actions. Primary source: GitHub Changelog, July 2, 2026. Deleting a secret is easy. Proving the workflow still works—and recovering without hurriedly pasting credentials back into YAML—is the useful part. This is an unexecuted migration template, not a report from a production repositor</summary>
-    <author><name>Sam Rivera</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Smash Story: The Demo Script That Out-Debugged My Test Suite</title>
-    <link href="https://dev.to/gde/smash-story-the-demo-script-that-out-debugged-my-test-suite-430k" rel="alternate"/>
-    <id>https://dev.to/gde/smash-story-the-demo-script-that-out-debugged-my-test-suite-430k</id>
-    <updated>2026-07-15T23:58:42Z</updated>
-    <summary type="text">This is a Smash Stories submission for the DEV Summer Bug Smash: a debugging story about the gap between &quot;all tests pass&quot; and &quot;it actually works&quot; — and the unlikely hero that closed it. The setup The project is a small MCP (Model Context Protocol) server that wraps Google's gemini-3.1-flash-lite-image model. It exposes image generation and stateful image editing as four tools that any MCP-speaking</summary>
-    <author><name>xbill</name></author>
-    <category term="llm"/>
-    <category term="computer-vision"/>
-    <category term="agents"/>
   </entry>
 </feed>
