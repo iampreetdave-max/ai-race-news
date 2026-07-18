@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-18T05:32:09Z</updated>
+  <updated>2026-07-18T07:59:10Z</updated>
+  <entry>
+    <title>Claude Code Forgets Everything Between Sessions. I Built a Fix.</title>
+    <link href="https://dev.to/_548fe7f9c7fcd1125fd/claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5" rel="alternate"/>
+    <id>https://dev.to/_548fe7f9c7fcd1125fd/claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5</id>
+    <updated>2026-07-18T07:51:31Z</updated>
+    <summary type="text">Claude Code Starts From Scratch Every Session If you use Claude Code every day, you've probably found yourself repeating the same explanations over and over again. Why did we choose this architecture? Why did we reject that implementation? What parts are we planning to improve later? Even when you're working on the same project, Claude Code forgets everything once a session ends. The conversation </summary>
+    <author><name>nnyannya</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Is Your Team Ready to Embrace AI? I Built a Free In-Browser Assessment to Find Out</title>
+    <link href="https://dev.to/yunbow/is-your-team-ready-to-embrace-ai-i-built-a-free-in-browser-assessment-to-find-out-51df" rel="alternate"/>
+    <id>https://dev.to/yunbow/is-your-team-ready-to-embrace-ai-i-built-a-free-in-browser-assessment-to-find-out-51df</id>
+    <updated>2026-07-18T07:47:22Z</updated>
+    <summary type="text">Hook Your team bought the AI coding assistant licenses three months ago. Then the real questions started: Can we let an agent refactor the billing module? Does AI-generated code go through the same review? Is our documentation even good enough for an AI to work from? Nobody in the room has a criterion — just opinions. That gap led me to build AI-Driven Development Readiness Check — a free, open-so</summary>
+    <author><name>yunbow</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Building AI That Matters: Why We Started Ventara</title>
+    <link href="https://dev.to/ventara/building-ai-that-matters-why-we-started-ventara-30lb" rel="alternate"/>
+    <id>https://dev.to/ventara/building-ai-that-matters-why-we-started-ventara-30lb</id>
+    <updated>2026-07-18T07:23:44Z</updated>
+    <summary type="text">The AI world is moving faster than ever. Every day, there's a new model, a new framework, a new benchmark, or a new promise that AI will change everything. Yet, when you talk to businesses, a different picture emerges. Most organizations aren't asking, &quot;Which LLM has the highest benchmark score?&quot; They're asking: How can AI reduce repetitive work? Can we automate customer conversations? How do we m</summary>
+    <author><name>Ventara AI</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Fully Custom Claude Code Status Line: A JSON-Driven 3-Line Readout of Quota, Cost, and Health</title>
     <link href="https://dev.to/bokuwalily/fully-custom-claude-code-status-line-a-json-driven-3-line-readout-of-quota-cost-and-health-56d6" rel="alternate"/>
@@ -448,35 +476,5 @@
     <summary type="text">MCP for AWS Security Engineers: Build a Read-Only Security Hub Triage Agent For AWS-heavy security work, I would start with AWS Agent Toolkit for AWS and the managed AWS MCP Server, not a custom MCP server. The reason is practical. AWS now provides a managed MCP path that can connect AI coding agents to AWS documentation, AWS APIs, AWS skills, and existing IAM credentials. The Agent Toolkit also p</summary>
     <author><name>Mike Anderson</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI finally launches hardware… for Codex</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch</id>
-    <updated>2026-07-15T16:00:00Z</updated>
-    <summary type="text">OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, […]</summary>
-    <author><name>Robert Hart</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</title>
-    <link href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/" rel="alternate"/>
-    <id>https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/</id>
-    <updated>2026-07-15T08:30:48Z</updated>
-    <summary type="text">Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Terra, the encryption is mandatory. The article OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation appeared first on The Decode</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building and Deploying a Remote MCP Server: Lessons from Connecting an Expense Tracker to Claude Desktop</title>
-    <link href="https://dev.to/ali_raza_1ce2540f37e01a91/building-and-deploying-a-remote-mcp-server-lessons-from-connecting-an-expense-tracker-to-claude-2f4o" rel="alternate"/>
-    <id>https://dev.to/ali_raza_1ce2540f37e01a91/building-and-deploying-a-remote-mcp-server-lessons-from-connecting-an-expense-tracker-to-claude-2f4o</id>
-    <updated>2026-07-16T07:21:50Z</updated>
-    <summary type="text">The Problem Personal finance tracking usually means switching between an app, a spreadsheet, or a browser tab just to log a single transaction. I wanted a lower-friction way to capture and query expenses — ideally through natural conversation with an AI assistant, without giving up structured storage or control over my own data. The Model Context Protocol (MCP) made this possible: it lets an AI cl</summary>
-    <author><name>Ali Raza</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
