@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-18T16:04:03Z</updated>
+  <updated>2026-07-18T17:58:38Z</updated>
+  <entry>
+    <title>Hardcoded Secrets: Why AI Code Fails Your First SOC 2 Audit</title>
+    <link href="https://dev.to/c_k_fb750e731394/hardcoded-secrets-why-ai-code-fails-your-first-soc-2-audit-3i54" rel="alternate"/>
+    <id>https://dev.to/c_k_fb750e731394/hardcoded-secrets-why-ai-code-fails-your-first-soc-2-audit-3i54</id>
+    <updated>2026-07-18T17:21:02Z</updated>
+    <summary type="text">TL;DR AI editors keep hardcoding API keys and secrets directly into source files That single pattern is an automatic fail on SOC 2, PCI-DSS, and HIPAA reviews Solo founders and small teams now get enterprise security questionnaires before they've ever hired a security person, and this is the first thing reviewers grep for A solo founder I've been advising pinged me two weeks before his first SOC 2</summary>
+    <author><name>Charles Kern</name></author>
+  </entry>
   <entry>
     <title>A Book of Wrong Answers</title>
     <link href="https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97" rel="alternate"/>
@@ -464,15 +472,6 @@
     <author><name>Max Mealing</name></author>
     <category term="agents"/>
     <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MCP Charts: Add Interactive Charts to Your MCP Server</title>
-    <link href="https://dev.to/maxbonnard/mcp-charts-add-interactive-charts-to-your-mcp-server-po1" rel="alternate"/>
-    <id>https://dev.to/maxbonnard/mcp-charts-add-interactive-charts-to-your-mcp-server-po1</id>
-    <updated>2026-07-16T14:49:01Z</updated>
-    <summary type="text">Your MCP server returns data. The agent reads it back as a wall of numbers, or it tries to draw a chart in HTML and gets it wrong. The visual, the part the user actually wanted, gets left to the model to improvise. MCP charts fix that. You give your MCP server one visualize tool: the agent calls it with a query, your database returns the rows, and an interactive chart renders right in Claude or Ch</summary>
-    <author><name>Max Mealing</name></author>
     <category term="llm"/>
   </entry>
 </feed>
