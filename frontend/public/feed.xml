@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-18T14:58:32Z</updated>
+  <updated>2026-07-18T16:04:03Z</updated>
   <entry>
     <title>China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order</title>
     <link href="https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/" rel="alternate"/>
@@ -232,6 +232,66 @@
     <category term="data"/>
   </entry>
   <entry>
+    <title>A Book of Wrong Answers</title>
+    <link href="https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97" rel="alternate"/>
+    <id>https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97</id>
+    <updated>2026-07-18T15:49:52Z</updated>
+    <summary type="text">There is a note in my runbooks that says the Enter key works. That is almost the whole note. Press Enter and the prompt submits. I wrote it in bold, with sources and a date, because one of my AI agents once fixed the Enter key. The fix was the bug. The Fix Was the Bug I run a fleet of Claude Code agents in tmux panes. An orchestrator script types a prompt into a pane and presses Enter for it. One </summary>
+    <author><name>Nabbil Khan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The ~+9.4% You Can't Afford to Verify: Evaluating SDAR (and the FinOps of Trying)</title>
+    <link href="https://dev.to/shoaibalimir/the-94-you-cant-afford-to-verify-evaluating-sdar-and-the-finops-of-trying-ffj" rel="alternate"/>
+    <id>https://dev.to/shoaibalimir/the-94-you-cant-afford-to-verify-evaluating-sdar-and-the-finops-of-trying-ffj</id>
+    <updated>2026-07-18T15:44:24Z</updated>
+    <summary type="text">Recap. Part 1 framed the supervision problem. Part 2 architected the four-model system on AWS and counted the hardware. Part 3 put the gate on the page in fifteen lines of PyTorch. Now the question that decides whether any of it mattered: does the gate actually earn its keep - and what would it cost to know? This is the close. A verification design, the stability instrumentation that separates a r</summary>
+    <author><name>Shoaibali Mir</name></author>
+  </entry>
+  <entry>
+    <title>Server-Side A/B Testing with Optimizely: A Practical Guide</title>
+    <link href="https://dev.to/david_sert/server-side-ab-testing-with-optimizely-a-practical-guide-426k" rel="alternate"/>
+    <id>https://dev.to/david_sert/server-side-ab-testing-with-optimizely-a-practical-guide-426k</id>
+    <updated>2026-07-18T15:26:28Z</updated>
+    <summary type="text">Most A/B testing happens in the browser: a script swaps a headline or button color after the page loads. That works for surface-level UI changes, but it cannot test the logic that runs before a page is ever rendered — a pricing algorithm, a search ranking model, a checkout flow, or a backend API response. Server-side A/B testing moves the experiment decision into your application code, where you c</summary>
+    <author><name>David Sert</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Source View Technology: Combining the Strengths of APT and AST</title>
+    <link href="https://dev.to/shiou/source-view-technology-combining-the-strengths-of-apt-and-ast-7jl" rel="alternate"/>
+    <id>https://dev.to/shiou/source-view-technology-combining-the-strengths-of-apt-and-ast-7jl</id>
+    <updated>2026-07-18T15:23:46Z</updated>
+    <summary type="text">Background Take Lombok as an example: at compile time, it reads annotations like @Getter and @Setter through an Annotation Processor (APT, Annotation Processing Tool), then directly modifies the AST (Abstract Syntax Tree) in memory, injecting getter/setter methods for fields. Developers only need to annotate fields, and the compiled .class files automatically include these methods. Advantages of A</summary>
+    <author><name>Shiou</name></author>
+  </entry>
+  <entry>
+    <title>Memoria – A Self‑Evolving Personal AI with Human‑like Memory</title>
+    <link href="https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p" rel="alternate"/>
+    <id>https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p</id>
+    <updated>2026-07-18T15:22:47Z</updated>
+    <summary type="text">Most AI assistants forget everything after each session. Memoria remembers, forgets, and evolves—extracting personal facts, resolving contradictions, and reflecting on what it knows. This post shares the journey of building a production‑ready MemoryAgent for the Qwen Cloud Hackathon, Track 1. Inspiration Every conversation with a typical chatbot starts from zero. You tell it you're allergic to pea</summary>
+    <author><name>Muhammad Awais</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a Slack Deploy Queue Bot: Lessons from NestJS, BullMQ, and Redis in Production</title>
+    <link href="https://dev.to/lus_felipedlima_7d2ac2/building-a-slack-deploy-queue-bot-lessons-from-nestjs-bullmq-and-redis-in-production-1246" rel="alternate"/>
+    <id>https://dev.to/lus_felipedlima_7d2ac2/building-a-slack-deploy-queue-bot-lessons-from-nestjs-bullmq-and-redis-in-production-1246</id>
+    <updated>2026-07-18T15:21:46Z</updated>
+    <summary type="text">Over the past few months I built a side project that taught me more about production system design than any course. A Slack bot for deploy queue management. This isn't about the business side of it, it's a technical breakdown of the architecture decisions, the real problems I hit building a Slack app with NestJS, and what I learned solving each one. The problem Every engineering team has lived thi</summary>
+    <author><name>Luís Felipe D Lima</name></author>
+  </entry>
+  <entry>
+    <title>What Actually Enforces Code Standards in the AI Era</title>
+    <link href="https://dev.to/majdizlitni/what-actually-enforces-code-standards-in-the-ai-era-17kf" rel="alternate"/>
+    <id>https://dev.to/majdizlitni/what-actually-enforces-code-standards-in-the-ai-era-17kf</id>
+    <updated>2026-07-18T15:21:09Z</updated>
+    <summary type="text">If your team has ever spent 20 minutes on a pull request arguing about brace placement instead of the actual bug, welcome to the club. StyleCop was the tool to keep C# codebases from turning into everyone's personal-style soup. It did its job. But it's also old, slow, and wasn't built for a world where half your codebase might be vibe coded. The good news: .NET now ships with everything you need t</summary>
+    <author><name>Majdi Zlitni</name></author>
+  </entry>
+  <entry>
     <title>A scorecard for the AI age</title>
     <link href="https://openai.com/index/a-scorecard-for-the-ai-age" rel="alternate"/>
     <id>https://openai.com/index/a-scorecard-for-the-ai-age</id>
@@ -239,6 +299,23 @@
     <summary type="text">Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>How My Frustrating Job Search Led Me to Build an AI Job-Matching Platform</title>
+    <link href="https://dev.to/jaydeepgio/how-my-frustrating-job-search-led-me-to-build-an-ai-job-matching-platform-2h06" rel="alternate"/>
+    <id>https://dev.to/jaydeepgio/how-my-frustrating-job-search-led-me-to-build-an-ai-job-matching-platform-2h06</id>
+    <updated>2026-07-18T15:17:37Z</updated>
+    <summary type="text">A few months ago, I was searching for a backend engineering job. Every day looked the same: Open LinkedIn Open Naukri Search for Python jobs Open dozens of tabs Read every job description Apply Repeat The frustrating part wasn't finding jobs. It was finding the right jobs. I kept getting recommendations for roles that technically matched my resume because they contained words like Python, Backend,</summary>
+    <author><name>Jaydeep Goswami</name></author>
+  </entry>
+  <entry>
+    <title>Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It</title>
+    <link href="https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/" rel="alternate"/>
+    <id>https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/</id>
+    <updated>2026-07-18T15:00:00Z</updated>
+    <summary type="text">Enterprise Document Intelligence [Vol.1 #10A] - The escalation cascade and the free, deterministic checks that flag a failed parse before you pay for a deeper one The post Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It appeared first on Towards Data Science.</summary>
+    <author><name>angela shi</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenClaw：被资本催肥的幻觉寄生虫，只剩营销价值的AI泡沫</title>
@@ -367,83 +444,5 @@
     <updated>2026-07-18T13:18:17Z</updated>
     <summary type="text">Can Codex Build an Entire x86 Assembly Game Autonomously? Most demonstrations of AI coding focus on generating snippets of code, building CRUD applications, or creating small projects in modern programming languages. I wanted to test something different. Rather than asking whether an AI could generate Assembly code, I wanted to know whether it could complete an entire software project with minimal</summary>
     <author><name>Bostjan Maroh</name></author>
-  </entry>
-  <entry>
-    <title>TikTok is testing an AI likeness detection tool</title>
-    <link href="https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool" rel="alternate"/>
-    <id>https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool</id>
-    <updated>2026-07-17T19:34:30Z</updated>
-    <summary type="text">TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with &quot;some&quot; US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool […]</summary>
-    <author><name>Jay Peters</name></author>
-  </entry>
-  <entry>
-    <title>I kept losing the things AI made for me, so I built an iPhone library for them</title>
-    <link href="https://dev.to/spingras/i-kept-losing-the-things-ai-made-for-me-so-i-built-an-iphone-library-for-them-4pe7" rel="alternate"/>
-    <id>https://dev.to/spingras/i-kept-losing-the-things-ai-made-for-me-so-i-built-an-iphone-library-for-them-4pe7</id>
-    <updated>2026-07-18T13:13:22Z</updated>
-    <summary type="text">I use Claude and other AIs all the time. A single chat will give me a component. Another will give me a small Python script, Mermaid diagram, Markdown file, or utility that addresses the issue I faced that day. And then it's gone. The AI doesn't fail. The problem is what happens once it comes up with something useful, as it ends up locked away in a chat history that wasn't designed to serve as an </summary>
-    <author><name>spingras</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Real App-Building Kit for Non-Technical Founders: Trustworthy AI-Powered Development</title>
-    <link href="https://dev.to/davekurian/the-real-app-building-kit-for-non-technical-founders-trustworthy-ai-powered-development-2jl8" rel="alternate"/>
-    <id>https://dev.to/davekurian/the-real-app-building-kit-for-non-technical-founders-trustworthy-ai-powered-development-2jl8</id>
-    <updated>2026-07-18T13:05:49Z</updated>
-    <summary type="text">Today's agent can scaffold your app before lunch A coding agent in 2026 can scaffold a SaaS dashboard, wire Stripe, set up auth, and deploy to a real domain in an afternoon. That's not a pitch — that's what Claude Code and Cursor do today, and it's genuinely impressive. The first commit to first production URL is faster than it's ever been for anyone, technical or not. The hard part is the day aft</summary>
-    <author><name>Dave Kurian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lucy 2.5 Real-Time AI Video Editing: Decart's 40ms Live Stream Revolution</title>
-    <link href="https://dev.to/khuram_youraj_6c4b6780ae1/lucy-25-real-time-ai-video-editing-decarts-40ms-live-stream-revolution-1agl" rel="alternate"/>
-    <id>https://dev.to/khuram_youraj_6c4b6780ae1/lucy-25-real-time-ai-video-editing-decarts-40ms-live-stream-revolution-1agl</id>
-    <updated>2026-07-18T13:01:38Z</updated>
-    <summary type="text">Lucy 2.5 Real-Time AI Video Editing: Decart's 40ms Live Stream Revolution AI video editing has finally gone real-time — from VTubing to live commerce, Lucy 2.5 is redefining how creators work with live streams Last week, Decart AI released Lucy 2.5, an AI model that edits video frames in real time during a live stream. We're talking sub-40ms latency at 30 FPS — by the time you finish a gesture on </summary>
-    <author><name>Khuram Youraj</name></author>
-  </entry>
-  <entry>
-    <title>KDnuggets Weekly Roundup: Week of July 13, 2026</title>
-    <link href="https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13" rel="alternate"/>
-    <id>https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13</id>
-    <updated>2026-07-18T13:00:05Z</updated>
-    <summary type="text">Stop Using If-Else Chains: Use the Registry Pattern in Python Instead • 5 Real-World SQL Projects to Build Your Data Portfolio • 10 YouTube Channels Keeping You Ahead in AI • Structured Language Model Generation with Outlines</summary>
-    <author><name>KDnuggets</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Improve Customer Retention in FinTech</title>
-    <link href="https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/</id>
-    <updated>2026-07-18T13:00:00Z</updated>
-    <summary type="text">A practical guide to combining pre-churn scoring with uplift modelling for smarter retention. The post How to Improve Customer Retention in FinTech appeared first on Towards Data Science.</summary>
-    <author><name>Aleksei Terentev</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Why I built a SQL client when 10 already exist — then let AI agents into it</title>
-    <link href="https://dev.to/gillarohith/why-i-built-a-sql-client-when-10-already-exist-then-let-ai-agents-into-it-4kk4" rel="alternate"/>
-    <id>https://dev.to/gillarohith/why-i-built-a-sql-client-when-10-already-exist-then-let-ai-agents-into-it-4kk4</id>
-    <updated>2026-07-18T12:59:03Z</updated>
-    <summary type="text">There are plenty of good SQL clients. I built another one. For a long time the honest answer to &quot;why?&quot; was just taste — I wanted something fast, keyboard-first, monospace-native, with no telemetry and no ceremony. A tool that gets out of the way. That's a fine reason to build for yourself, but it's a weak reason to expect anyone else to care. Then AI agents showed up, and the question changed. The</summary>
-    <author><name>Rohith Gilla</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Argo - LLM-native static vulnerability detection</title>
-    <link href="https://dev.to/mr_limitless_abe15f71d2fe/argo-llm-native-static-vulnerability-detection-4k9a" rel="alternate"/>
-    <id>https://dev.to/mr_limitless_abe15f71d2fe/argo-llm-native-static-vulnerability-detection-4k9a</id>
-    <updated>2026-07-18T12:57:48Z</updated>
-    <summary type="text">Hey! 👋 My friend and I have spent the last 6 months researching and building Argo, an open-source project exploring AI-powered code auditing. Instead of relying solely on static rules, Argo uses LLMs to analyze repositories, understand their context, and generate reviewable security findings. We're now moving into the validation phase by testing it on real-world GitHub repositories. Our goal is to</summary>
-    <author><name>Coffe Guy</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>SpaceX in Talks to Sell Computing Power to Pentagon, WSJ Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-17/spacex-in-talks-to-sell-computing-power-to-pentagon-wsj-says" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-17/spacex-in-talks-to-sell-computing-power-to-pentagon-wsj-says</id>
-    <updated>2026-07-17T19:16:20Z</updated>
-    <summary type="text">SpaceX is in talks to sell computing power to the US Department of Defense, the Wall Street Journal reported on Friday, adding to a spate of infrastructure deals for Elon Musk’s rocket, satellite and artificial intelligence conglomerate.</summary>
-    <author><name>Eric Johnson</name></author>
   </entry>
 </feed>

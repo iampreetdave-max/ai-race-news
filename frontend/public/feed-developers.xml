@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-18T14:58:32Z</updated>
+  <updated>2026-07-18T16:04:03Z</updated>
+  <entry>
+    <title>A Book of Wrong Answers</title>
+    <link href="https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97" rel="alternate"/>
+    <id>https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97</id>
+    <updated>2026-07-18T15:49:52Z</updated>
+    <summary type="text">There is a note in my runbooks that says the Enter key works. That is almost the whole note. Press Enter and the prompt submits. I wrote it in bold, with sources and a date, because one of my AI agents once fixed the Enter key. The fix was the bug. The Fix Was the Bug I run a fleet of Claude Code agents in tmux panes. An orchestrator script types a prompt into a pane and presses Enter for it. One </summary>
+    <author><name>Nabbil Khan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Memoria – A Self‑Evolving Personal AI with Human‑like Memory</title>
+    <link href="https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p" rel="alternate"/>
+    <id>https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p</id>
+    <updated>2026-07-18T15:22:47Z</updated>
+    <summary type="text">Most AI assistants forget everything after each session. Memoria remembers, forgets, and evolves—extracting personal facts, resolving contradictions, and reflecting on what it knows. This post shares the journey of building a production‑ready MemoryAgent for the Qwen Cloud Hackathon, Track 1. Inspiration Every conversation with a typical chatbot starts from zero. You tell it you're allergic to pea</summary>
+    <author><name>Muhammad Awais</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Can Codex Build an Entire x86 Assembly Game Autonomously? A Real-World Experiment</title>
     <link href="https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik" rel="alternate"/>
@@ -455,23 +474,5 @@
     <summary type="text">Your MCP server returns data. The agent reads it back as a wall of numbers, or it tries to draw a chart in HTML and gets it wrong. The visual, the part the user actually wanted, gets left to the model to improvise. MCP charts fix that. You give your MCP server one visualize tool: the agent calls it with a query, your database returns the rows, and an interactive chart renders right in Claude or Ch</summary>
     <author><name>Max Mealing</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How we built our FinOps MCP server: lessons learned</title>
-    <link href="https://dev.to/tanguy_compagnon/how-we-built-our-finops-mcp-server-lessons-learned-50lf" rel="alternate"/>
-    <id>https://dev.to/tanguy_compagnon/how-we-built-our-finops-mcp-server-lessons-learned-50lf</id>
-    <updated>2026-07-16T14:40:34Z</updated>
-    <summary type="text">TL;DR — Our first MCP was basically our API, exposed as-is. Claude wouldn't use it. We had a dedicated tool to compare two periods and it never called it once: it just called query_cost twice and did the subtraction itself. The tools made sense if you knew our database. The model didn't. We ended up rebuilding most of it, and the app is better for it. Costory pulls in billing data from all your co</summary>
-    <author><name>Tanguy Compagnon de La Servette</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Kiro CLI Gets Worse After an Hour. Here's How I Fixed It.</title>
-    <link href="https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g" rel="alternate"/>
-    <id>https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g</id>
-    <updated>2026-07-16T14:37:01Z</updated>
-    <summary type="text">Two hours into a Kiro CLI session, it gave me a generic IAM trust policy example. We had literally set up the OIDC provider together 30 minutes earlier. It forgot. This is not a bug. It has a name: context rot. And once I understood the mechanics, I stopped fighting it and started managing it. I use Kiro CLI every day. Checking CloudWatch alarms, debugging IAM policies, reviewing security groups, </summary>
-    <author><name>Sarvar Nadaf</name></author>
   </entry>
 </feed>
