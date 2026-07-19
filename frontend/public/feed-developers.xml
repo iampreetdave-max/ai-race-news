@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-19T09:07:40Z</updated>
+  <updated>2026-07-19T11:12:31Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -17,6 +17,15 @@
     <category term="llm"/>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Auto-Retiring Skills You No Longer Use: Weekly Skill Lifecycle Management with launchd</title>
+    <link href="https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf</id>
+    <updated>2026-07-19T11:00:06Z</updated>
+    <summary type="text">Generating skills automatically is the easy part. Deciding when to throw them away is where everything falls apart. In my last post I covered auto-detecting Claude Code model retirements and switching aliases. This time I use the same launchd machinery to build lifecycle management that keeps a bloating pile of auto-skills from rotting. As I described in an earlier article, auto-skills are generat</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The Verification Ladder: A Field Guide</title>
@@ -466,13 +475,5 @@
     <summary type="text">My previous post, Making costs visible by monitoring output tokens, was about stopping overuse. This time it's the opposite problem: how to keep waking up a session that has stalled — the story of resume-on-ratelimit.sh. I got burned more than once by handing a long task to Claude Code, stepping away from my desk, and coming back to find it had halted on a rate limit. Restarting by hand is tedious</summary>
     <author><name>Lily</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Use the Google Flights API in 2026 (Python, MCP, and a No-Code Shortcut)</title>
-    <link href="https://dev.to/trufflepig/how-to-use-the-google-flights-api-in-2026-python-mcp-and-a-no-code-shortcut-1ej6" rel="alternate"/>
-    <id>https://dev.to/trufflepig/how-to-use-the-google-flights-api-in-2026-python-mcp-and-a-no-code-shortcut-1ej6</id>
-    <updated>2026-07-17T02:50:22Z</updated>
-    <summary type="text">Getting live flight prices out of Google Flights by hand is a grind. There is no public API to call, the search URL hides the whole query behind an opaque tfs blob, and the page renders its results with JavaScript that fights simple scripts. I'll show the manual way and where it breaks, then a faster path, and a repo you can clone. The faster path uses the Google Flights API on Apify, which turns </summary>
-    <author><name>Truffle Pig Data</name></author>
   </entry>
 </feed>
