@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-19T13:26:26Z</updated>
+  <updated>2026-07-19T15:01:03Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -17,6 +17,43 @@
     <category term="llm"/>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Pin Metric Revisions Before Repository Usage Backfills Rewrite History</title>
+    <link href="https://dev.to/robinzzz/pin-metric-revisions-before-repository-usage-backfills-rewrite-history-1jnh" rel="alternate"/>
+    <id>https://dev.to/robinzzz/pin-metric-revisions-before-repository-usage-backfills-rewrite-history-1jnh</id>
+    <updated>2026-07-19T14:39:51Z</updated>
+    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api/. GitHub added Copilot app activity to the usage metrics API on July 17. When a source or product surface enters a metric, historical totals may arrive late or change meaning. A dashboard that overwrites rows cannot explain yesterday's number. metric key = repository + day + surface +</summary>
+    <author><name>Robin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Test the Copilot Desktop App With a 20-Minute BYOK Exit Drill</title>
+    <link href="https://dev.to/rivera123/test-the-copilot-desktop-app-with-a-20-minute-byok-exit-drill-1b16" rel="alternate"/>
+    <id>https://dev.to/rivera123/test-the-copilot-desktop-app-with-a-20-minute-byok-exit-drill-1b16</id>
+    <updated>2026-07-19T14:39:48Z</updated>
+    <summary type="text">Primary source: https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/. GitHub made the Copilot app available across Copilot plans and says users can also run sessions with their own model-provider key. Before moving real work into a desktop agent, run one cheap exit test. 0–5: clone a disposable repository 5–12: ask for one failing-test fix 12–17: disconnect or close the ap</summary>
+    <author><name>Sam Rivera</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Repository-Level Copilot Metrics Need a Cardinality Budget Before Export</title>
+    <link href="https://dev.to/odd_background_328/repository-level-copilot-metrics-need-a-cardinality-budget-before-export-2450" rel="alternate"/>
+    <id>https://dev.to/odd_background_328/repository-level-copilot-metrics-need-a-cardinality-budget-before-export-2450</id>
+    <updated>2026-07-19T14:39:45Z</updated>
+    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available/. GitHub made repository-level Copilot usage metrics generally available on July 17. Repository granularity helps allocation, but naïvely exporting every repository, team, model, editor, and date combination can create high-cardinality telemetry. GitHub usage API -&gt; bounded co</summary>
+    <author><name>Odd_Background_328</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Make Copilot Review Configuration Observable From Pull Request to Finding</title>
+    <link href="https://dev.to/kongkong1/make-copilot-review-configuration-observable-from-pull-request-to-finding-3p0n" rel="alternate"/>
+    <id>https://dev.to/kongkong1/make-copilot-review-configuration-observable-from-pull-request-to-finding-3p0n</id>
+    <updated>2026-07-19T14:39:12Z</updated>
+    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements/. GitHub expanded Copilot code-review customization on July 17. Teams now need a cross-layer answer to a simple question: which configuration produced this finding? type ReviewRun={ pullRequest:string; baseSha:string; headSha:string; configDigest:string; startedAt:string; fin</summary>
+    <author><name>kongkong</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I built a Chrome extension that reads AI usage limits, and MV3 cookies nearly broke me</title>
@@ -431,48 +468,5 @@
     <updated>2026-07-17T10:27:43Z</updated>
     <summary type="text">It is safe to assume that Docker shows up at some point in every developer's life. We often reach for compose.yaml files to run our applications and their dependencies locally, and sometimes even in production. Real projects tend to need more than &quot;start these containers&quot;. You may need to run a database migration before the app boots, guarantee the database is actually ready to accept connections,</summary>
     <author><name>Marcelo Lino</name></author>
-  </entry>
-  <entry>
-    <title>Why I Switched from Ponytail to Guardsman for AI Coding</title>
-    <link href="https://dev.to/antoinette_clennox/why-i-switched-from-ponytail-to-guardsman-for-ai-coding-2m8a" rel="alternate"/>
-    <id>https://dev.to/antoinette_clennox/why-i-switched-from-ponytail-to-guardsman-for-ai-coding-2m8a</id>
-    <updated>2026-07-17T08:05:54Z</updated>
-    <summary type="text">TL;DR: Ponytail taught my AI agent to write less code. Guardsman taught it to write accountable code. If you're tired of deleting AI-generated bloat or debugging AI-generated &quot;minimal&quot; disasters three weeks later, read this. Introduction: The Date Picker Moment You know the story. You ask Claude Code for a date picker. Without blinking, it installs flatpickr, writes a React wrapper, adds a CSS imp</summary>
-    <author><name>Antoinette C. Lennox</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Summarize PDFs Locally with Open-Source LLMs (No API, No Data Leaving Your Machine)</title>
-    <link href="https://dev.to/aitools_overview/how-to-summarize-pdfs-locally-with-open-source-llms-no-api-no-data-leaving-your-machine-3oko" rel="alternate"/>
-    <id>https://dev.to/aitools_overview/how-to-summarize-pdfs-locally-with-open-source-llms-no-api-no-data-leaving-your-machine-3oko</id>
-    <updated>2026-07-17T08:00:24Z</updated>
-    <summary type="text">Most &quot;summarize a PDF with AI&quot; tutorials send your document to a cloud API. That's fine — until the document is a contract, a patient record, or anything your compliance team would rather not ship to a third party. The alternative in 2026 is genuinely good: run an open-source model locally, so the bytes never leave your machine and you pay $0 per token. Here's how to build a local PDF summarizer w</summary>
-    <author><name>Ai tools overview</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How I built an OpenAI-compatible prompt encryption proxy in 300 lines of Python</title>
-    <link href="https://dev.to/tlyyxjz/devto-ji-zhu-chang-wen-ying-wen-shou-fa-ke-repost-medium-hashnode-4h69" rel="alternate"/>
-    <id>https://dev.to/tlyyxjz/devto-ji-zhu-chang-wen-ying-wen-shou-fa-ke-repost-medium-hashnode-4h69</id>
-    <updated>2026-07-17T07:56:39Z</updated>
-    <summary type="text">I sell GPT prompts. Small business, $20-50 per prompt, mostly to people who use ChatBox or Cursor. Last month, one of my buyers screenshotted my prompt text and posted it in a Discord server. Within 24 hours, three other people were reselling it on Telegram. I felt sick. The obvious fix — &quot;just don't ship the prompt text&quot; — sounded dumb until I realized that's exactly what every SaaS does. ChatGPT</summary>
-    <author><name>Xjz · Builder</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
-    <link href="https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/" rel="alternate"/>
-    <id>https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/</id>
-    <updated>2026-07-17T07:40:00Z</updated>
-    <summary type="text">At MS Build, Ryan is joined by Cassidy Williams, Senior Director of Developer Advocacy at GitHub and former Stack Overflow Podcast host, to discuss how agentic coding is shifting dev work towards higher-level strategy while increasing decision fatigue; why human taste, community feedback, and mentorship are becoming more essential than ever for developer careers; and the new GitHub Copilot announc</summary>
-    <author><name>Stack Overflow Blog</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
