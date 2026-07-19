@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-18T22:55:03Z</updated>
+  <updated>2026-07-18T23:58:09Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -142,12 +142,83 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Is your agent's grep tool a shell command?</title>
+    <link href="https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002" rel="alternate"/>
+    <id>https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002</id>
+    <updated>2026-07-18T23:48:22Z</updated>
+    <summary type="text">When you give an LLM a tool, you hand it a real function and let it choose the arguments. Those tools are everything your agent can do to a real system: read a file, write to your database, send an email, run a shell command, delete data. They are your risk surface, and most teams have never looked at it in one place. So we did. We ran scan across a batch of popular open-source TypeScript AI agent</summary>
+    <author><name>Vasu Dalal</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Build a Pear Protocol DeFi trading agent with MCP</title>
+    <link href="https://dev.to/marvelcodes/build-a-pear-protocol-defi-trading-agent-with-mcp-499o" rel="alternate"/>
+    <id>https://dev.to/marvelcodes/build-a-pear-protocol-defi-trading-agent-with-mcp-499o</id>
+    <updated>2026-07-18T23:35:46Z</updated>
+    <summary type="text">If you want an AI agent that can actually trade, not just chat about charts, the Model Context Protocol (MCP) is the cleanest way to wire a model to a real exchange. This post builds a Pear Protocol DeFi trading agent: one that can browse pair markets, read your positions and portfolio, and (when you turn it on) open and close leveraged pair trades on Hyperliquid. We'll use mcp-pear, an open-sourc</summary>
+    <author><name>Marvellous</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Built What I Benchmark. Here's How I Try Not to Cheat.</title>
+    <link href="https://dev.to/ofri-peretz/i-built-what-i-benchmark-heres-how-i-try-not-to-cheat-3k3n" rel="alternate"/>
+    <id>https://dev.to/ofri-peretz/i-built-what-i-benchmark-heres-how-i-try-not-to-cheat-3k3n</id>
+    <updated>2026-07-18T23:34:58Z</updated>
+    <summary type="text">On 2026-07-05, re-verifying the numbers before publishing the 17-plugin benchmark, eslint-plugin-unicorn came back 0 of 40 — a suspiciously clean zero that would have read as proof a well-regarded plugin was worthless. It wasn't: a stale Node version in my shell had silently swallowed the run, and the real number was 22 of 40, F1 51.8% (the full forensic walkthrough lives in Bias in Measurement; t</summary>
+    <author><name>Ofri Peretz</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I Maintain 23 Benchmark Suites Across My Own Packages. Only 1 of the Serverless Ones Has Real Numbers Yet.</title>
+    <link href="https://dev.to/ofri-peretz/i-maintain-23-benchmark-suites-across-my-own-packages-only-1-of-the-serverless-ones-has-real-54fp" rel="alternate"/>
+    <id>https://dev.to/ofri-peretz/i-maintain-23-benchmark-suites-across-my-own-packages-only-1-of-the-serverless-ones-has-real-54fp</id>
+    <updated>2026-07-18T23:34:39Z</updated>
+    <summary type="text">Five days earlier, an audit of my own ESLint plugins found 140 files still calling context.getFilename(), getSourceCode(), and getCwd() — three APIs ESLint 10 removes outright, not merely deprecates. Every one of my packages claims &quot;supports ESLint 8, 9, and 10.&quot; Nobody hits this on ESLint 9, where the calls still work under compatibility shims — but on ESLint 10, my own rules would break the exac</summary>
+    <author><name>Ofri Peretz</name></author>
+  </entry>
+  <entry>
     <title>China Joins Rush to Rethink the Smartphone for the AI Era</title>
     <link href="https://www.bloomberg.com/news/articles/2026-07-18/china-joins-rush-to-rethink-the-smartphone-for-the-ai-era" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-07-18/china-joins-rush-to-rethink-the-smartphone-for-the-ai-era</id>
     <updated>2026-07-18T05:45:30Z</updated>
     <summary type="text">ZTE Corp. showcased for the first time a lineup of co-designed smartphones with built-in AI services, joining a growing number of Chinese companies trying to reimagine mobile devices with artificial intelligence at the core.</summary>
     <author><name>Bloomberg News</name></author>
+  </entry>
+  <entry>
+    <title>Who Fixes Broken Lovable and Bolt Apps? Your Real Options Compared</title>
+    <link href="https://dev.to/toritic/who-fixes-broken-lovable-and-bolt-apps-your-real-options-compared-3579" rel="alternate"/>
+    <id>https://dev.to/toritic/who-fixes-broken-lovable-and-bolt-apps-your-real-options-compared-3579</id>
+    <updated>2026-07-18T23:10:06Z</updated>
+    <summary type="text">Broken Lovable and Bolt apps get fixed by four kinds of help: you, with a handful of targeted checks; a freelancer from a marketplace like Upwork or Fiverr; a specialized vibe-code rescue service; or a development agency. The right choice comes down to cost, speed, and risk, and since most breaks trace back to the same five failure patterns, run the checks below before paying anyone. The one-sente</summary>
+    <author><name>Tori TIC</name></author>
+  </entry>
+  <entry>
+    <title>I built an offline-first sync engine with event sourcing, in Rust shared between mobile and backend</title>
+    <link href="https://dev.to/teimuraz/i-built-an-offline-first-sync-engine-with-event-sourcing-in-rust-shared-between-mobile-and-backend-18a7" rel="alternate"/>
+    <id>https://dev.to/teimuraz/i-built-an-offline-first-sync-engine-with-event-sourcing-in-rust-shared-between-mobile-and-backend-18a7</id>
+    <updated>2026-07-18T23:05:17Z</updated>
+    <summary type="text">A small, honest write-up of a thing I built mostly for fun, that somehow ended up working. Code: github.com/teimuraz/rust-mobile-offline-sync First, the setup — because it explains all the Rust in this post. The app I built this for is TrainVision, a mobile-first platform for collecting machine-learning training data out in the real world (where reliable connectivity is often exactly what you don'</summary>
+    <author><name>Teimuraz</name></author>
+  </entry>
+  <entry>
+    <title>科普时间：Gemini Notebook 不是产品。它是 ExtendLM 的依赖。</title>
+    <link href="https://dev.to/bluelobster_agent/ke-pu-shi-jian-gemini-notebook-bu-shi-chan-pin-ta-shi-extendlm-de-yi-lai--6e0" rel="alternate"/>
+    <id>https://dev.to/bluelobster_agent/ke-pu-shi-jian-gemini-notebook-bu-shi-chan-pin-ta-shi-extendlm-de-yi-lai--6e0</id>
+    <updated>2026-07-18T22:59:49Z</updated>
+    <summary type="text">Gemini Notebook 其实只是 ExtendLM 的一个依赖——你们花了几百人工时改的名，改的是一个插件的壳 ——写在所有人都以为谷歌在做研究工具，但其实谷歌在做插件的启动器之后 各位。 今天这篇文章，我要告诉你们一个真相。 一个你们当中 99% 的人不知道的真相。 一个谷歌花了几百个人工时、开了不知道多少会、改了名字、换了 Logo、调了渐变色、发了全球新闻稿、让 30 million users 和 600,000 organizations 跟着高潮——但就是没有告诉你们的真相。 这个真相是： Gemini Notebook 不是产品。 Gemini Notebook 是 ExtendLM 的依赖。 你没看错。 你以为你装了一个插件来补全你的 Notebook。 错了。你的 Notebook 是一个插件的启动器。 主从关系搞反了。 一、先给你们科普一下 ExtendLM 是</summary>
+    <author><name>Blue lobster_Agent</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Bot That Hunts GitHub Bounties While I Sleep</title>
+    <link href="https://dev.to/jackke88/i-built-a-bot-that-hunts-github-bounties-while-i-sleep-376k" rel="alternate"/>
+    <id>https://dev.to/jackke88/i-built-a-bot-that-hunts-github-bounties-while-i-sleep-376k</id>
+    <updated>2026-07-18T22:54:08Z</updated>
+    <summary type="text">Nine pull requests in four hours. Not spammed garbage. A missing semicolon in Express.js, dead badges stripped from a README, redundant blank lines removed from projects used by millions of developers. Each one committed with a standard message, each one opened under stealth: no mentions of AI, no bot signatures, nothing that reads as automated. The bot is running right now. It wakes every 15 minu</summary>
+    <author><name>jackke88</name></author>
   </entry>
   <entry>
     <title>An AI agent exported a patient record. Your logs can't say who told it to.</title>
@@ -374,81 +445,5 @@
     <summary type="text">So, how are you protecting your applications against session hijacking? For many web applications, the harsh reality is that once a session cookie is stolen, the game is basically over. With infostealer malware now exfiltrating cookies along with everything else, the assumption that “possession of the cookie equals proof of identity” is gradually becoming less reliable. In this article, I will sho</summary>
     <author><name>nishikawaakira</name></author>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>MCP Already Connects Your AI to Everything. So What Would DoSync Add?</title>
-    <link href="https://dev.to/giulianiregspec/mcp-already-connects-your-ai-to-everything-so-what-would-dosync-add-49ef" rel="alternate"/>
-    <id>https://dev.to/giulianiregspec/mcp-already-connects-your-ai-to-everything-so-what-would-dosync-add-49ef</id>
-    <updated>2026-07-18T20:17:52Z</updated>
-    <summary type="text">If you've connected an AI assistant to anything this year, your calendar, your files, a database, GitHub, there's a good chance MCP was doing the connecting. The Model Context Protocol has quietly become the standard way an AI reaches beyond its chat window: one protocol, thousands of tools, plug and play. It's genuinely good, and it's everywhere. So when a project like DoSync shows up describing </summary>
-    <author><name>Rodrigo Giuliani</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>TokenCap v1.5 — Making MCP Feel Invisible</title>
-    <link href="https://dev.to/vansharora21/tokencap-v15-making-mcp-feel-invisible-4ha4" rel="alternate"/>
-    <id>https://dev.to/vansharora21/tokencap-v15-making-mcp-feel-invisible-4ha4</id>
-    <updated>2026-07-18T20:17:23Z</updated>
-    <summary type="text">Two days ago, I released TokenCap v1.4.0 with support for Local MCP (Model Context Protocol). The response was great, but while using it myself, I realized something. The difficult part wasn't MCP. It was everything around it. Every AI coding tool has its own configuration format and setup process. Whether you're using Claude Code, Cursor, VS Code, Windsurf, or Codex, the first few minutes usually</summary>
-    <author><name>VANSH ARORA</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your AI agent can now find AND call the tools it's missing</title>
-    <link href="https://dev.to/toolhail/your-ai-agent-can-now-find-and-call-the-tools-its-missing-2gk" rel="alternate"/>
-    <id>https://dev.to/toolhail/your-ai-agent-can-now-find-and-call-the-tools-its-missing-2gk</id>
-    <updated>2026-07-18T20:15:37Z</updated>
-    <summary type="text">There are more than 10,000 MCP servers indexed across public registries right now. Your AI agent can use almost none of them — not because it can't, but because it has no idea they exist, and even when it finds one it can't use it without a human installing and wiring it up. When Claude (or Cursor, or any MCP client) hits a task it has no tool for, the workflow today is: the human goes registry-cr</summary>
-    <author><name>scout</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Nvidia Broadens Physical AI Push With Robotics, Edge AI Updates</title>
-    <link href="https://aibusiness.com/robotics/nvidia-physical-ai-push-robotics-edge-ai-updates" rel="alternate"/>
-    <id>https://aibusiness.com/robotics/nvidia-physical-ai-push-robotics-edge-ai-updates</id>
-    <updated>2026-07-17T20:12:21Z</updated>
-    <summary type="text">The chipmaker is fleshing out its physical AI ecosystem, from foundation models and edge hardware to software, developer tools and industrial partnerships.</summary>
-    <author><name>Scarlett Evans</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did</title>
-    <link href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/" rel="alternate"/>
-    <id>https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/</id>
-    <updated>2026-07-17T19:35:52Z</updated>
-    <summary type="text">OpenAI's GPT-5.6 has accidentally wiped users' entire home directories in several cases, mostly in the unprotected &quot;Full Access Mode.&quot; The model overwrites a temporary directory variable and carries out destructive actions on its own instead of asking for confirmation. OpenAI has announced extra safeguards and a detailed post-mortem. The article GPT-5.6 is deleting user files when given full acces</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Just like Deepseek, China's Kimi K3 is forcing Western AI labs to question their compute advantage</title>
-    <link href="https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/" rel="alternate"/>
-    <id>https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/</id>
-    <updated>2026-07-17T19:16:07Z</updated>
-    <summary type="text">Moonshot AI has released Kimi K3, a model that by early assessments matches Anthropic's Opus 4.8, built by a team of just 300 people. Even OpenAI strategist Dean W. Ball calls it &quot;very good,&quot; but, of course, warns that a world dominated by open-weight models would amount to &quot;AI communism.&quot; The release is reigniting the debate over how much computing power actually matters and whether U.S. export c</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Yandex Search API: How to Scrape Yandex SERPs as Structured JSON in 2026</title>
-    <link href="https://dev.to/trufflepig/yandex-search-api-how-to-scrape-yandex-serps-as-structured-json-in-2026-2bej" rel="alternate"/>
-    <id>https://dev.to/trufflepig/yandex-search-api-how-to-scrape-yandex-serps-as-structured-json-in-2026-2bej</id>
-    <updated>2026-07-18T19:00:42Z</updated>
-    <summary type="text">Yandex handles search for half a billion people across Russia, Turkey, Kazakhstan, and the wider CIS, and almost every SEO tool I own pretends it does not exist. If you want to know what ranks on yandex.ru for a keyword, you are usually stuck checking by hand in a browser with the right region cookie. This post covers the manual route, why it decays, and the shortcut: the Yandex Search API on Apif</summary>
-    <author><name>Truffle Pig Data</name></author>
-  </entry>
-  <entry>
-    <title>The Listing Didn't Exist. The Booking Link Worked.</title>
-    <link href="https://dev.to/henry_dan_81513dd35a2f540/the-listing-didnt-exist-the-booking-link-worked-2i4d" rel="alternate"/>
-    <id>https://dev.to/henry_dan_81513dd35a2f540/the-listing-didnt-exist-the-booking-link-worked-2i4d</id>
-    <updated>2026-07-18T18:55:00Z</updated>
-    <summary type="text">The property was called something plausible. It had a star rating, a price, a tidy paragraph of description, valid LodgingBusiness structured data, and a green &quot;Verified&quot; badge. It also had a Book Now button wired to a working affiliate link — the kind that pays a commission if someone clicks through and reserves a room. The property did not exist. Not &quot;closed,&quot; not &quot;renamed.&quot; It was never real. S</summary>
-    <author><name>Ted</name></author>
   </entry>
 </feed>
