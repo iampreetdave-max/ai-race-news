@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-19T18:01:00Z</updated>
+  <updated>2026-07-19T19:20:48Z</updated>
   <entry>
     <title>Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is &quot;second only to Fable 5&quot;</title>
     <link href="https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Alibaba has unveiled Qwen 3.8, a multimodal AI model with 2.4 trillion parameters that the Qwen team says rivals leading models and trails only Fable 5. A preview is available now. The article Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is &quot;second only to Fable 5&quot; appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I hate that I don’t hate this song made with Suno</title>
+    <link href="https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music" rel="alternate"/>
+    <id>https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music</id>
+    <updated>2026-07-19T17:35:54Z</updated>
+    <summary type="text">I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that […]</summary>
+    <author><name>Terrence O’Brien</name></author>
   </entry>
   <entry>
     <title>Google Deepmind argues video generators already contain the world models computer vision has been missing</title>
@@ -155,6 +163,50 @@
     <category term="llm"/>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Testing AI Agents with AgentSpec: Jest for Non-Deterministic Behavior</title>
+    <link href="https://dev.to/pawfromoz/testing-ai-agents-with-agentspec-jest-for-non-deterministic-behavior-55kg" rel="alternate"/>
+    <id>https://dev.to/pawfromoz/testing-ai-agents-with-agentspec-jest-for-non-deterministic-behavior-55kg</id>
+    <updated>2026-07-19T19:13:47Z</updated>
+    <summary type="text">AI agents are non-deterministic. This is both their superpower and their biggest testing challenge. When you change a prompt, swap a model, or update a tool definition, the agent's behavior shifts in ways you can't predict. Traditional test tools (Jest, Vitest, Playwright) are built for deterministic code — they expect exact string matching. AI agents don't work that way. Last week, I changed a sy</summary>
+    <author><name>pawfromoz</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How AI Agents Actually Work</title>
+    <link href="https://dev.to/paulcrinigan/how-ai-agents-actually-work-1ljd" rel="alternate"/>
+    <id>https://dev.to/paulcrinigan/how-ai-agents-actually-work-1ljd</id>
+    <updated>2026-07-19T19:05:47Z</updated>
+    <summary type="text">An AI agent looks like magic in a demo and like plumbing in production. Underneath the branding, it is a loop: the model observes the current state, plans a next step, calls a tool, reads the result, and repeats until the goal is met or it runs out of room. Three things decide whether that loop holds up. First, the context window, since every step has to fit inside a finite budget and long tasks q</summary>
+    <author><name>Paul Crinigan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How We Distribute Video Events Across Regions With NATS JetStream</title>
+    <link href="https://dev.to/ahmet_gedik778845/how-we-distribute-video-events-across-regions-with-nats-jetstream-oam" rel="alternate"/>
+    <id>https://dev.to/ahmet_gedik778845/how-we-distribute-video-events-across-regions-with-nats-jetstream-oam</id>
+    <updated>2026-07-19T19:00:01Z</updated>
+    <summary type="text">When a new video shows up in one of our regional crawlers, three things need to happen almost immediately: the SQLite FTS5 search index for that region needs a new row, the discovery ranking cache needs to be invalidated, and the sitemap generator needs to know a URL was born. For a long time we did all of this inline, inside the same cron process that fetched the video. It worked until it didn't.</summary>
+    <author><name>ahmet gedik</name></author>
+  </entry>
+  <entry>
+    <title>On-Premise AI Code Review: How We Deployed Claude Locally in an Air-Gapped Environment (Setup Guide)</title>
+    <link href="https://dev.to/dextralabs/on-premise-ai-code-review-how-we-deployed-claude-locally-in-an-air-gapped-environment-setup-guide-5f6h" rel="alternate"/>
+    <id>https://dev.to/dextralabs/on-premise-ai-code-review-how-we-deployed-claude-locally-in-an-air-gapped-environment-setup-guide-5f6h</id>
+    <updated>2026-07-19T18:44:52Z</updated>
+    <summary type="text">The security officer said no. Not &quot;maybe with some modifications.&quot; Not &quot;let us review the data handling policy.&quot; No. Cloud-hosted AI code review was not going to happen in their environment. The codebase contained classified material. The network was air-gapped. No data leaves the building. End of conversation. This was a defence contractor. Their development team was writing code that couldn't to</summary>
+    <author><name>Dextra Labs</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Next.js Middleware Auth Bypass: CVE-2025-29927</title>
+    <link href="https://dev.to/emil_alander_7c/nextjs-middleware-auth-bypass-cve-2025-29927-36no" rel="alternate"/>
+    <id>https://dev.to/emil_alander_7c/nextjs-middleware-auth-bypass-cve-2025-29927-36no</id>
+    <updated>2026-07-19T18:44:06Z</updated>
+    <summary type="text">A spoofable x-middleware-subrequest header let requests skip Next.js middleware, bypassing auth. Upgrade to the patched version; don't trust middleware alone. TL;DR — CVE-2025-29927 is a critical (CVSS 9.1) authorization bypass in Next.js. The framework used an internal header, x-middleware-subrequest, to stop middleware from recursing — and it trusted that header even on requests coming from the </summary>
+    <author><name>Emil Alander</name></author>
   </entry>
   <entry>
     <title>Vibe Coding: From Viral Tweet to Default Development Practice</title>
@@ -400,58 +452,5 @@
     <summary type="text">I use six AI tools every day. Claude, ChatGPT, Codex, Cursor, Grok, Perplexity. Each one has limits, and each one hides them somewhere different. So I built a Chrome extension to pull all of it into one view. The idea was trivial. The implementation taught me three things about Manifest V3 that I wish someone had put in a blog post. So here is that post. The extension is called AI Karma Tracker. T</summary>
     <author><name>JSDev Space</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Using 'password123': A Developer's Guide to Strong Passwords</title>
-    <link href="https://dev.to/zhihu_wu_dea1d82af01a04d7/stop-using-password123-a-developers-guide-to-strong-passwords-1on1" rel="alternate"/>
-    <id>https://dev.to/zhihu_wu_dea1d82af01a04d7/stop-using-password123-a-developers-guide-to-strong-passwords-1on1</id>
-    <updated>2026-07-19T13:05:44Z</updated>
-    <summary type="text">Every developer knows the drill: create an account, type a &quot;temporary&quot; password, and promise to change it later. Months go by, and that password — often something painfully predictable — is still protecting your production database, your CI/CD pipeline, or your cloud console. Let's fix that. Here's what actually makes a password strong, and how to generate one you can trust. Length Is Everything P</summary>
-    <author><name>zhihu wu</name></author>
-  </entry>
-  <entry>
-    <title>Orchestrating 16 Cursor subagents in a single session — what actually stuck</title>
-    <link href="https://dev.to/baolin_tikool_43da6f2b56f/orchestrating-16-cursor-subagents-in-a-single-session-what-actually-stuck-546m" rel="alternate"/>
-    <id>https://dev.to/baolin_tikool_43da6f2b56f/orchestrating-16-cursor-subagents-in-a-single-session-what-actually-stuck-546m</id>
-    <updated>2026-07-19T13:02:31Z</updated>
-    <summary type="text">I did a count that afternoon. From 2pm to 8pm — six hours — I opened 16 subagents in Cursor. Four waves of four each, all running in parallel. Combined output: about 500 KB of documentation, roughly the size of a novella. On the product side, a Cloudflare Worker upgraded from Stripe-only to Stripe + Creem parallel checkout. Four real products live in production. All 12 webhook event types verified</summary>
-    <author><name>Baolin Tikool</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Advanced Prompt Engineering: Techniques That Transform AI Response Quality</title>
-    <link href="https://dev.to/andr_diasmoreiraprol_b/advanced-prompt-engineering-techniques-that-transform-ai-response-quality-47m6" rel="alternate"/>
-    <id>https://dev.to/andr_diasmoreiraprol_b/advanced-prompt-engineering-techniques-that-transform-ai-response-quality-47m6</id>
-    <updated>2026-07-19T13:01:29Z</updated>
-    <summary type="text">After two decades leading technology teams and, more recently, integrating AI into blockchain forensics workflows, I've noticed something counterintuitive: the gap between a mediocre AI output and a brilliant one rarely lies in the model itself. It lies in how we talk to it. The same GPT-4 or Claude instance can produce vague generalities or surgical precision—the difference is engineering. Let me</summary>
-    <author><name>André Dias Moreira Prol</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your AI Agent Passed Every Eval. Finance Still Killed It.</title>
-    <link href="https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/" rel="alternate"/>
-    <id>https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/</id>
-    <updated>2026-07-19T13:00:00Z</updated>
-    <summary type="text">An AI agent passed every metric in the eval harness I published, then the CFO killed it — its successful resolutions cost more than the humans it replaced. The one metric that predicts whether an agent survives production, and how to measure it without a rebuild. The post Your AI Agent Passed Every Eval. Finance Still Killed It. appeared first on Towards Data Science.</summary>
-    <author><name>Pratik Rupareliya</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Built a Fully Autonomous AI Reverse-Engineering Agent in Go</title>
-    <link href="https://dev.to/abdulm/i-built-a-fully-autonomous-ai-reverse-engineering-agent-in-go-257k" rel="alternate"/>
-    <id>https://dev.to/abdulm/i-built-a-fully-autonomous-ai-reverse-engineering-agent-in-go-257k</id>
-    <updated>2026-07-19T12:53:09Z</updated>
-    <summary type="text">Jurig (Sundanese: ghost) — an autonomous AI agent that haunts your binaries. .-. ██ ██ ██ ██████ ██ ██████ (o o) ██ ██ ██ ██ ██ ██ ██ | u | ██ ██ ██ ██████ ██ ██ ███ | | ██ ██ ██ ██ ██ ██ ██ ██ ██ '~-~' █████ ██████ ██ ██ ██ ██████ autonomous reverse-engineering agent · android · binary · frida Point it at an APK, XAPK, or native binary and it plans, decompiles, searches, hooks, captures traffic, </summary>
-    <author><name>Taqin</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Python quickstart: nutrition data in 10 lines</title>
-    <link href="https://dev.to/dietly/python-quickstart-nutrition-data-in-10-lines-5ff4" rel="alternate"/>
-    <id>https://dev.to/dietly/python-quickstart-nutrition-data-in-10-lines-5ff4</id>
-    <updated>2026-07-19T12:52:34Z</updated>
-    <summary type="text">Python quickstart: nutrition data in 10 lines You can search Dietly's public nutrition catalog with one GET request to https://api.getdietly.com/search. The response is a JSON array of foods, not an object with a results property. Install requests, run the example below, and you have a working nutrition lookup. The rest of this page turns that single call into something dependable: a client class,</summary>
-    <author><name>Dietly</name></author>
   </entry>
 </feed>
