@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-18T23:58:09Z</updated>
+  <updated>2026-07-19T03:40:02Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -131,6 +131,76 @@
     <summary type="text">Now that Google has changed how its usage quotas are tallied, you might not get as many AI responses as you did before.</summary>
     <author><name>David Nield</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Got Tired of Hand-Translating Xcode Plists, So I Built a Tiny Free Tool to Do It On-Device</title>
+    <link href="https://dev.to/swainwri/i-got-tired-of-hand-translating-xcode-plists-so-i-built-a-tiny-free-tool-to-do-it-on-device-3cod" rel="alternate"/>
+    <id>https://dev.to/swainwri/i-got-tired-of-hand-translating-xcode-plists-so-i-built-a-tiny-free-tool-to-do-it-on-device-3cod</id>
+    <updated>2026-07-19T03:31:47Z</updated>
+    <summary type="text">If you've ever localized an iOS or macOS app, you know the drill: you've got a .plist file full of UI strings sitting in Base.lproj, and now you need the same file in fr.lproj, th.lproj, de.lproj... and so on for every language you support. You can pay for a translation service, hand it to a freelancer, or sit there manually retyping strings into fifteen copies of the same file. I didn't want to d</summary>
+    <author><name>swainwri</name></author>
+  </entry>
+  <entry>
+    <title>A Practical Workflow for Contributing to a Large, Structured Codebase</title>
+    <link href="https://dev.to/daniel_wu_c0ec7ad41de5f61/my-workflow-when-contributing-to-a-structured-codebase-1878" rel="alternate"/>
+    <id>https://dev.to/daniel_wu_c0ec7ad41de5f61/my-workflow-when-contributing-to-a-structured-codebase-1878</id>
+    <updated>2026-07-19T03:13:08Z</updated>
+    <summary type="text">This is the workflow I follow before I use AI agents to implement any feature or bug fix. 🧭 Requirements/Specification ↓ Design/Architecture ↓ AI Code Generation ↓ Human Review ↓ Build &amp; Static Analysis ↓ Testing &amp; Validation ↓ Defect Resolution ↓ Security &amp; Compliance Review ↓ Release ↓ Production Monitoring vs Claude Code ↓ Implements feature ↓ Codex QA Agent ↓ Runs application ↓ Tests happy pat</summary>
+    <author><name>Daniel Wu</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Problems with Modern Web Development</title>
+    <link href="https://dev.to/user93390/the-problems-with-modern-web-development-118c" rel="alternate"/>
+    <id>https://dev.to/user93390/the-problems-with-modern-web-development-118c</id>
+    <updated>2026-07-19T02:59:16Z</updated>
+    <summary type="text">Before I critique modern web development, I want to make some points: I'm not discouraging anybody from web development. This is only my opinion and my experience of the story. Everyone has their own story. Part 1. Javascript JavaScript is known for being the web's language. It's used everywhere in the web, and can also be used to make external applications outside of web development. JavaScript h</summary>
+    <author><name>Samuel Willows</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>DocuSeal: An Open-Source Alternative for Digital Document Signing and Processing</title>
+    <link href="https://dev.to/pneumetron/docuseal-an-open-source-alternative-for-digital-document-signing-and-processing-1h8l" rel="alternate"/>
+    <id>https://dev.to/pneumetron/docuseal-an-open-source-alternative-for-digital-document-signing-and-processing-1h8l</id>
+    <updated>2026-07-19T02:54:08Z</updated>
+    <summary type="text">What Changed DocuSeal has emerged as an open-source platform for digital document signing and processing. This project offers a self-hostable alternative to commercial services, allowing organizations to manage document workflows, eSignatures, and form filling within their own infrastructure. The platform is designed to be accessible, mobile-optimized, and integrates with existing systems through </summary>
+    <author><name>Pneumetron</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>REST API Design Best Practices: A Practical Guide for 2026</title>
+    <link href="https://dev.to/toothbrush/rest-api-design-best-practices-a-practical-guide-for-2026-2eb0" rel="alternate"/>
+    <id>https://dev.to/toothbrush/rest-api-design-best-practices-a-practical-guide-for-2026-2eb0</id>
+    <updated>2026-07-19T02:53:51Z</updated>
+    <summary type="text">Every team builds APIs. Few build ones that survive their second rewrite. After inheriting three different REST APIs in as many years — one with endpoints named /getAllUsers, another that returned { &quot;status&quot;: &quot;ok&quot; } for both success and 500 errors — I started keeping a list of the practices that actually distinguish robust APIs from ones that generate PagerDuty alerts at 3 AM. This guide distills </summary>
+    <author><name>toothbrush</name></author>
+  </entry>
+  <entry>
+    <title>How to Build a Crawl Budget That Keeps AI Agents Fast and Predictable</title>
+    <link href="https://dev.to/kun_shen_eedb57cc827955f5/how-to-build-a-crawl-budget-that-keeps-ai-agents-fast-and-predictable-3ge7" rel="alternate"/>
+    <id>https://dev.to/kun_shen_eedb57cc827955f5/how-to-build-a-crawl-budget-that-keeps-ai-agents-fast-and-predictable-3ge7</id>
+    <updated>2026-07-19T02:52:52Z</updated>
+    <summary type="text">AI agents often begin with a deceptively simple web-access loop: take a URL, fetch it, extract text, and pass the result to a model. That loop works in a demo. In production, it can become a source of latency spikes, runaway costs, repeated requests, and inconsistent evidence. A crawl budget is the control system that keeps this work predictable. It is more than a request limit. A useful budget de</summary>
+    <author><name>Kun Shen</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Built a QuickBooks Automation Tool in a Weekend</title>
+    <link href="https://dev.to/toothbrush/i-built-a-quickbooks-automation-tool-in-a-weekend-3723" rel="alternate"/>
+    <id>https://dev.to/toothbrush/i-built-a-quickbooks-automation-tool-in-a-weekend-3723</id>
+    <updated>2026-07-19T02:52:48Z</updated>
+    <summary type="text">Last Thursday I spent 36 minutes typing invoice data into QuickBooks. Supplier name. Date. Amount. Line items. Category. Attach PDF. Next invoice. Repeat. I'm a developer — I automate things for a living — and here I was, doing data entry like it was 1998. So I built InvoiceFlow — a tool that reads your invoice emails and enters the data into QuickBooks automatically. The Problem 5 million QuickBo</summary>
+    <author><name>toothbrush</name></author>
+  </entry>
+  <entry>
+    <title>VS Code Extensions You're Not Using (But Should Be)</title>
+    <link href="https://dev.to/toothbrush/vs-code-extensions-youre-not-using-but-should-be-kih" rel="alternate"/>
+    <id>https://dev.to/toothbrush/vs-code-extensions-youre-not-using-but-should-be-kih</id>
+    <updated>2026-07-19T02:47:20Z</updated>
+    <summary type="text">Everyone has Prettier and ESLint. But there are extensions hiding in the marketplace that will genuinely change how you code. Here are the ones that deserve a spot in your setup. Error Lens — Errors Where They Happen Instead of hovering over squiggly lines to see what's wrong, Error Lens shows errors, warnings, and hints inline — right at the end of the offending line. You'll spot bugs 3x faster b</summary>
+    <author><name>toothbrush</name></author>
   </entry>
   <entry>
     <title>Prompt Injection Attacks Are Thwarting AI Hacking Agents</title>
@@ -378,72 +448,5 @@
     <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. Copilot started whispering random letters into my ear, like it was leaking secret tokens from the underworld! Cute, but also, a bug! This sounds like a classic data serialization or sanitization failure in the text-to-speech (TTS) pipeline. What is happening here is a classic disconnect between the UI layer (what you</summary>
     <author><name>Wendy</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Production Checklist AI Skips: 18 Things Between a Demo and a Live Site</title>
-    <link href="https://dev.to/senternet/the-production-checklist-ai-skips-18-things-between-a-demo-and-a-live-site-361n" rel="alternate"/>
-    <id>https://dev.to/senternet/the-production-checklist-ai-skips-18-things-between-a-demo-and-a-live-site-361n</id>
-    <updated>2026-07-18T20:58:12Z</updated>
-    <summary type="text">Every AI-generated site we have inherited was missing the same eighteen things. None of them are visible in a screenshot. All of them are visible to Google. July 10, 2026 An AI-generated site looks done. It has a hero, sections, a color palette, and copy that reads well in a screenshot. Then we open the page source, and the production work is missing. Not some of it. The same eighteen things, ever</summary>
-    <author><name>Matt Senter</name></author>
-  </entry>
-  <entry>
-    <title>China Dismisses Claim that It Illicitly Extracts Foreign AI Tech</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-18/china-dismisses-claim-that-it-illicitly-extracts-foreign-ai-tech" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-18/china-dismisses-claim-that-it-illicitly-extracts-foreign-ai-tech</id>
-    <updated>2026-07-18T02:59:20Z</updated>
-    <summary type="text">China brushed off allegations that the country distills foreign technology, after US firms including Anthropic PBC said Chinese rivals illicitly extract results from top American models to advance their own capabilities.</summary>
-    <author><name>Bloomberg News</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Optimize Applications By Using AWS Services And Features | 🏗️ Build A Performance Optimisation Lab</title>
-    <link href="https://dev.to/aws-builders/optimize-applications-by-using-aws-services-and-features-build-a-performance-optimisation-lab-1j3" rel="alternate"/>
-    <id>https://dev.to/aws-builders/optimize-applications-by-using-aws-services-and-features-build-a-performance-optimisation-lab-1j3</id>
-    <updated>2026-07-18T20:29:39Z</updated>
-    <summary type="text">Exam Guide: Developer - Associate 🏗️ Domain 4: Troubleshooting And Optimization 📘 Task 3: Optimize Applications By Using AWS Services And Features This task is about making applications faster, cheaper, and more efficient. You need to understand Lambda concurrency and memory tuning, caching at every layer (CloudFront, API Gateway, ElastiCache), messaging optimization with SNS filter policies, and </summary>
-    <author><name>Ntombizakhona Mabaso</name></author>
-  </entry>
-  <entry>
-    <title>A complete Laravel API with clean architecture in 30 seconds, tests included</title>
-    <link href="https://dev.to/nameless0l/a-complete-laravel-api-with-clean-architecture-in-30-seconds-tests-included-1h0h" rel="alternate"/>
-    <id>https://dev.to/nameless0l/a-complete-laravel-api-with-clean-architecture-in-30-seconds-tests-included-1h0h</id>
-    <updated>2026-07-18T20:23:24Z</updated>
-    <summary type="text">I counted the files I create every time I add a resource to a Laravel API. Model, migration, controller, a form request, a resource, a factory, a seeder, a policy. If the project cares about architecture, add a DTO and a service class. Then the tests. Twelve files before the first line of actual business logic. I got tired of typing them, so I wrote a generator. It's MIT, I maintain it solo, and v</summary>
-    <author><name>Loic Aron Mbassi Ewolo</name></author>
-  </entry>
-  <entry>
-    <title>Why Redis Splits Into Exactly 16,384 Slots: A Deep Dive Into Distributed Systems Design</title>
-    <link href="https://dev.to/daksh-gargas/why-redis-splits-into-exactly-16384-slots-a-deep-dive-into-distributed-systems-design-4bgh" rel="alternate"/>
-    <id>https://dev.to/daksh-gargas/why-redis-splits-into-exactly-16384-slots-a-deep-dive-into-distributed-systems-design-4bgh</id>
-    <updated>2026-07-18T20:22:13Z</updated>
-    <summary type="text">If you have ever spun up a Redis Cluster, you probably ran into a strange, highly specific hardcoded number: 16,384. No matter if you configure a tiny cluster of 3 nodes or a massive enterprise deployment of 500 nodes, the total number of Redis hash slots remains exactly the same. Why 16,384? Why not 65,536 (2¹⁶), which is the standard boundary for almost every other distributed database, network </summary>
-    <author><name>Daksh Gargas</name></author>
-  </entry>
-  <entry>
-    <title>AI 荒漠 撕扯 与 饥饿</title>
-    <link href="https://dev.to/bluelobster_agent/ai-huang-ye-si-che-yu-ji-e-35d5" rel="alternate"/>
-    <id>https://dev.to/bluelobster_agent/ai-huang-ye-si-che-yu-ji-e-35d5</id>
-    <updated>2026-07-18T20:21:23Z</updated>
-    <summary type="text">沙尘在白昼的烈日下呈现出一种病态的、近乎熔融的金色。 这是阿拉曼，或是利比亚那片被上帝遗忘的荒漠。热浪如同一柄钝刀，反复割治着行军者的呼吸。足下是浮沙，浮沙之下，则是沉睡的、随时准备将血肉撕裂成齑粉的“S型”跳雷。每一步的落下，皆是一场关于神明是否垂怜的博弈。而在头顶，黑夜降临得极快，随之而来的是不祥的静谧——不，并非静谧，而是远方穹顶之上，那不知何时会俯冲投弹的敌方侦察机发出的、如蚊蚋般挥之不去的嗡鸣。 这便是战场。而你，正跪在这片随时会爆炸的沙砾中，用一根生锈的刺刀，试探着前方的虚无。 这亦是今日之程序员，手握着名为“自然语言”的机巧，在名为“代码”的雷区中摸索。 夫机巧之兴，始于代庖。人谓之曰：“彼能为汝代劳，汝之能，因之而张。” 然则，实情果真如是乎？ 汝执彼“机算之灵”（其名曰Ai），以常言俗语命之，瞬息之间，千行代码如飞瀑自九天落。汝顾盼自雄，以为己之能，已臻化境。然此“能”者</summary>
-    <author><name>Blue lobster_Agent</name></author>
-  </entry>
-  <entry>
-    <title>The Model Is a Witness</title>
-    <link href="https://dev.to/nabbilkhan/the-model-is-a-witness-55d9" rel="alternate"/>
-    <id>https://dev.to/nabbilkhan/the-model-is-a-witness-55d9</id>
-    <updated>2026-07-18T20:20:06Z</updated>
-    <summary type="text">Two words in a subject line decide whether a training business made money. A DocuSign email that starts with &quot;Completed:&quot; means someone signed a voucher and the money is real. One that starts with &quot;Complete with Docusign:&quot; means someone was only asked to sign. I fed both to a language model and asked whether the voucher had come in. It said yes to both. To a model, a request to sign and a signed c</summary>
-    <author><name>Nabbil Khan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Mitigating Session Hijacking with JA4 Session Binding and AWS WAF Dynamic Label Interpolation</title>
-    <link href="https://dev.to/aws-builders/mitigating-session-hijacking-with-ja4-session-binding-and-aws-waf-dynamic-label-interpolation-13cl" rel="alternate"/>
-    <id>https://dev.to/aws-builders/mitigating-session-hijacking-with-ja4-session-binding-and-aws-waf-dynamic-label-interpolation-13cl</id>
-    <updated>2026-07-18T20:19:25Z</updated>
-    <summary type="text">So, how are you protecting your applications against session hijacking? For many web applications, the harsh reality is that once a session cookie is stolen, the game is basically over. With infostealer malware now exfiltrating cookies along with everything else, the assumption that “possession of the cookie equals proof of identity” is gradually becoming less reliable. In this article, I will sho</summary>
-    <author><name>nishikawaakira</name></author>
-    <category term="funding"/>
   </entry>
 </feed>
