@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-19T03:40:02Z</updated>
+  <updated>2026-07-19T06:34:19Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -17,6 +17,34 @@
     <category term="llm"/>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>A Complete Guide to Moonshot's New 2.8T Flagship</title>
+    <link href="https://dev.to/prodevopsguytech/a-complete-guide-to-moonshots-new-28t-flagship-2lme" rel="alternate"/>
+    <id>https://dev.to/prodevopsguytech/a-complete-guide-to-moonshots-new-28t-flagship-2lme</id>
+    <updated>2026-07-19T06:18:12Z</updated>
+    <summary type="text">By the end of this article, you'll know: what Kimi K3 actually is, the architecture, the scale, and what changed from the K2 family how to run it today, free in the browser, through the API, or wired into Claude Code, Cursor, Cline, and RooCode which exact model ID and settings unlock the full 1 million token context how K3 stacks up on price and benchmarks against DeepSeek V4, Qwen3.7 Max, GLM-5.</summary>
+    <author><name>H A R S H H A A</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>J'ai automatisé la production d'articles SEO avec Claude Code — et le plus important, c'est le garde-fou</title>
+    <link href="https://dev.to/hernanz/jai-automatise-la-production-darticles-seo-avec-claude-code-et-le-plus-important-cest-le-421f" rel="alternate"/>
+    <id>https://dev.to/hernanz/jai-automatise-la-production-darticles-seo-avec-claude-code-et-le-plus-important-cest-le-421f</id>
+    <updated>2026-07-19T05:42:07Z</updated>
+    <summary type="text">Google a effacé jusqu'à 80 % du trafic de sites qui publiaient du contenu IA en masse. C'est le motif scaled content abuse. On voulait quand même automatiser la production d'articles. La question n'était donc pas « comment produire vite », mais « comment empêcher la machine de publier de la bouillie ». Voilà l'architecture qu'on a retenue, et le morceau de code qui compte vraiment. Le pipeline Six</summary>
+    <author><name>Olivier</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Claude Code Interface Blindness: Hook Eclipse JDT LS via MCP for AST-Aware Java Refactoring</title>
+    <link href="https://dev.to/machinecodingmaster/stop-claude-code-interface-blindness-hook-eclipse-jdt-ls-via-mcp-for-ast-aware-java-refactoring-1eog" rel="alternate"/>
+    <id>https://dev.to/machinecodingmaster/stop-claude-code-interface-blindness-hook-eclipse-jdt-ls-via-mcp-for-ast-aware-java-refactoring-1eog</id>
+    <updated>2026-07-19T05:37:05Z</updated>
+    <summary type="text">Stop Claude Code Interface Blindness: Hook Eclipse JDT LS via MCP for AST-Aware Java Refactoring Claude Code is a beast in the terminal, but letting it raw-grep your enterprise Spring Boot codebase is a recipe for hallucinated method signatures and broken builds. If your AI agent doesn't understand the Abstract Syntax Tree (AST) of your decoupled interfaces, it is simply guessing. Why Most Develop</summary>
+    <author><name>Machine coding Master</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>A Practical Workflow for Contributing to a Large, Structured Codebase</title>
@@ -315,6 +343,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Claude Code uses Bun written in Rust now</title>
+    <link href="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything</id>
+    <updated>2026-07-19T03:54:09Z</updated>
+    <summary type="text">In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: s</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>USING SQLITE IN GO AND IT'S IMPORTANCE</title>
     <link href="https://dev.to/wairewaire/using-sqlite-in-go-and-its-importance-3de1" rel="alternate"/>
     <id>https://dev.to/wairewaire/using-sqlite-in-go-and-its-importance-3de1</id>
@@ -438,42 +475,5 @@
     <author><name>Debbie Shapiro</name></author>
     <category term="open-source"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Building the PHP QR Library I Always Wanted — SVG Is Here</title>
-    <link href="https://dev.to/amirezaeb/building-the-php-qr-library-i-always-wanted-svg-is-here-5bbj" rel="alternate"/>
-    <id>https://dev.to/amirezaeb/building-the-php-qr-library-i-always-wanted-svg-is-here-5bbj</id>
-    <updated>2026-07-17T02:07:24Z</updated>
-    <summary type="text">🚀 HeroQR just reached another milestone! One of the most requested features from the roadmap is now implemented: ✅ Customizable SVG QR Code generation The goal of HeroQR isn't just to generate QR codes—it's to become the most modern, flexible, and developer-friendly QR code library for PHP. This is still the beginning, and I'd love your help shaping what's next. 💬 If you build PHP or Laravel appli</summary>
-    <author><name>Amirreza Ebrahimi</name></author>
-  </entry>
-  <entry>
-    <title>Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort</title>
-    <link href="https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/</id>
-    <updated>2026-07-15T23:48:58Z</updated>
-    <summary type="text">Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch. The full weights ship under Apache 2.0. It is a 975B-parameter Mixture-of-Experts transformer with 41B active parameters, a 1M-token context window, and native text, image, and audio input. The lab states plainly that Inkling is not the strongest model available, open or closed. It is positioned instead </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I burned through thousands of AI tokens. Then a friend did it for free</title>
-    <link href="https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8" rel="alternate"/>
-    <id>https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8</id>
-    <updated>2026-07-16T22:52:32Z</updated>
-    <summary type="text">(yep, kinda clickbait, just for the funsies 😊) At the beginning of the year, I relaunched my portfolio site using Codex and Gemini CLI as my main development tools. It wasn't entirely vibe-coded: I spent several days updating content and researching best practices, plus a good pile of tokens on brainstorming sessions. For personal projects, I'm trying to keep a philosophy of &quot;done is better than p</summary>
-    <author><name>Paulo Henrique</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Image models kept getting my App Store screenshots rejected, so I made my coding agent render them to exact spec</title>
-    <link href="https://dev.to/selcukatli/image-models-kept-getting-my-app-store-screenshots-rejected-so-i-made-my-coding-agent-render-them-3afp" rel="alternate"/>
-    <id>https://dev.to/selcukatli/image-models-kept-getting-my-app-store-screenshots-rejected-so-i-made-my-coding-agent-render-them-3afp</id>
-    <updated>2026-07-16T22:23:49Z</updated>
-    <summary type="text">Like a lot of people shipping iOS apps this year, I tried generating App Store screenshots with image models. GPT Image, nano banana — the results looked genuinely great. Then App Store Connect rejected them: wrong canvas sizes, subtly warped text, device frames that don't match any real device. After the third rejection I realized the problem wasn't prompt engineering. Frames and canvases are geo</summary>
-    <author><name>Selcukatli</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
   </entry>
 </feed>
