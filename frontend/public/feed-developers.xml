@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-19T20:55:44Z</updated>
+  <updated>2026-07-19T21:58:00Z</updated>
+  <entry>
+    <title>Are AI Agent Engrams Open Source or Proprietary?</title>
+    <link href="https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh" rel="alternate"/>
+    <id>https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh</id>
+    <updated>2026-07-19T21:22:44Z</updated>
+    <summary type="text">Are AI Agent Engrams Open Source or Proprietary? The short answer: both, and the split matters. The major agent-memory engines — Mem0, Letta, Cognee, Graphiti, LangMem, and PLUR — are all Apache-2.0 or MIT licensed on GitHub. But &quot;open source&quot; and &quot;open format&quot; are not the same thing. A project can ship under Apache-2.0 while storing your memories in opaque vector blobs you cannot read, edit, or e</summary>
+    <author><name>gregor</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>100 Days of DevOps and Cloud (AWS), Day 14: Restoring a Broken httpd, and the One EC2 Command With No Undo</title>
+    <link href="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-14-restoring-a-broken-httpd-and-the-one-ec2-command-with-1fpg" rel="alternate"/>
+    <id>https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-14-restoring-a-broken-httpd-and-the-one-ec2-command-with-1fpg</id>
+    <updated>2026-07-19T21:08:36Z</updated>
+    <summary type="text">Some commands you can walk back. Terminating an EC2 instance is not one of them. Day 14 paired a recoverable problem, a web server knocked over by a rogue process, with an unrecoverable one, deleting a server on purpose, and the contrast is the whole lesson. One Linux task, one AWS task. Track down the process blocking Apache and restore the service, then terminate an EC2 instance and confirm it i</summary>
+    <author><name>Nnamdi Felix Ibe</name></author>
+  </entry>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -451,24 +469,5 @@
     <updated>2026-07-17T13:39:02Z</updated>
     <summary type="text">When starting a new software project, the instinct for most developers is to immediately reach for a heavy relational database network. We spin up Docker containers for PostgreSQL, configure user permissions, manage connection strings, and worry about hosting fees before we have written a single line of business logic.What if you could bypass all that infrastructure friction with a single file?Ent</summary>
     <author><name>wairewaire</name></author>
-  </entry>
-  <entry>
-    <title>Top AI Papers on Hugging Face - 2026-07-17</title>
-    <link href="https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-17-43fk" rel="alternate"/>
-    <id>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-17-43fk</id>
-    <updated>2026-07-17T12:01:45Z</updated>
-    <summary type="text">10 paper AI hot nhất trên Hugging Face hôm nay: agent, multimodal, coding, video và guardrails đang đi về đâu? Hôm nay, bảng xếp hạng paper được upvote cao trên Hugging Face cho thấy một bức tranh rất rõ: AI đang dịch chuyển mạnh từ mô hình “trả lời tốt” sang hệ thống “hành động tốt”. Các chủ đề nổi bật gồm: Agent framework và agent RL Multimodal understanding/generation Coding foundation models V</summary>
-    <author><name>Y Hành Nhan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agents Don't Need a Bigger Prompt. They Need Governed Memory</title>
-    <link href="https://dev.to/teolex2020/ai-agents-dont-need-a-bigger-prompt-they-need-governed-memory-1pke" rel="alternate"/>
-    <id>https://dev.to/teolex2020/ai-agents-dont-need-a-bigger-prompt-they-need-governed-memory-1pke</id>
-    <updated>2026-07-17T10:41:45Z</updated>
-    <summary type="text">Most AI agents have a memory problem disguised as a prompting problem. We keep adding conversation history to the context window, summarizing old messages, or placing documents in a vector database. These techniques are useful, but they do not answer several important questions: What should be remembered for hours, weeks, or months? What should decay when it stops being useful? Which source suppor</summary>
-    <author><name>Oleksander</name></author>
-    <category term="agents"/>
-    <category term="rag"/>
   </entry>
 </feed>
