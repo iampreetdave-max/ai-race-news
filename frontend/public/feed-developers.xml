@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-19T11:12:31Z</updated>
+  <updated>2026-07-19T13:26:26Z</updated>
   <entry>
     <title>NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking</title>
     <link href="https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/" rel="alternate"/>
@@ -17,6 +17,24 @@
     <category term="llm"/>
     <category term="hardware"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I built a Chrome extension that reads AI usage limits, and MV3 cookies nearly broke me</title>
+    <link href="https://dev.to/jsdevspace/i-built-a-chrome-extension-that-reads-ai-usage-limits-and-mv3-cookies-nearly-broke-me-3fce" rel="alternate"/>
+    <id>https://dev.to/jsdevspace/i-built-a-chrome-extension-that-reads-ai-usage-limits-and-mv3-cookies-nearly-broke-me-3fce</id>
+    <updated>2026-07-19T13:09:22Z</updated>
+    <summary type="text">I use six AI tools every day. Claude, ChatGPT, Codex, Cursor, Grok, Perplexity. Each one has limits, and each one hides them somewhere different. So I built a Chrome extension to pull all of it into one view. The idea was trivial. The implementation taught me three things about Manifest V3 that I wish someone had put in a blog post. So here is that post. The extension is called AI Karma Tracker. T</summary>
+    <author><name>JSDev Space</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Orchestrating 16 Cursor subagents in a single session — what actually stuck</title>
+    <link href="https://dev.to/baolin_tikool_43da6f2b56f/orchestrating-16-cursor-subagents-in-a-single-session-what-actually-stuck-546m" rel="alternate"/>
+    <id>https://dev.to/baolin_tikool_43da6f2b56f/orchestrating-16-cursor-subagents-in-a-single-session-what-actually-stuck-546m</id>
+    <updated>2026-07-19T13:02:31Z</updated>
+    <summary type="text">I did a count that afternoon. From 2pm to 8pm — six hours — I opened 16 subagents in Cursor. Four waves of four each, all running in parallel. Combined output: about 500 KB of documentation, roughly the size of a novella. On the product side, a Cloudflare Worker upgraded from Stripe-only to Stripe + Creem parallel checkout. Four real products live in production. All 12 webhook event types verified</summary>
+    <author><name>Baolin Tikool</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Auto-Retiring Skills You No Longer Use: Weekly Skill Lifecycle Management with launchd</title>
@@ -456,24 +474,5 @@
     <author><name>Stack Overflow Blog</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI</title>
-    <link href="https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/</id>
-    <updated>2026-07-16T06:35:54Z</updated>
-    <summary type="text">SpaceXAI published the Grok Build source on July 15, 2026. The Apache 2.0 Rust tree covers the agent loop, tool dispatch, the TUI, and the extension system. Grok 4.5 stays closed, and external contributions are not accepted. The post SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How I Auto-Resume a Rate-Limited Claude Code Session with PROGRESS.md and Retries</title>
-    <link href="https://dev.to/bokuwalily/how-i-auto-resume-a-rate-limited-claude-code-session-with-progressmd-and-retries-5cl5" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/how-i-auto-resume-a-rate-limited-claude-code-session-with-progressmd-and-retries-5cl5</id>
-    <updated>2026-07-17T05:00:05Z</updated>
-    <summary type="text">My previous post, Making costs visible by monitoring output tokens, was about stopping overuse. This time it's the opposite problem: how to keep waking up a session that has stalled — the story of resume-on-ratelimit.sh. I got burned more than once by handing a long task to Claude Code, stepping away from my desk, and coming back to find it had halted on a rate limit. Restarting by hand is tedious</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
