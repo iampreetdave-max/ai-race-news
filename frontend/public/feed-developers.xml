@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-20T14:15:03Z</updated>
+  <updated>2026-07-20T16:27:41Z</updated>
   <entry>
     <title>Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</title>
     <link href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/" rel="alternate"/>
@@ -30,6 +30,15 @@
     <updated>2026-07-19T22:20:23Z</updated>
     <summary type="text">Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills into self-hostable 4B and 9B checkpoints. The post Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query appe</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Future of AI in Coding: Flexibility Over Generation</title>
+    <link href="https://dev.to/davekurian/the-future-of-ai-in-coding-flexibility-over-generation-5fa" rel="alternate"/>
+    <id>https://dev.to/davekurian/the-future-of-ai-in-coding-flexibility-over-generation-5fa</id>
+    <updated>2026-07-20T16:06:38Z</updated>
+    <summary type="text">Vibe coding, the natural-language-to-code approach Andrej Karpathy named last year, now ships in over 25 million apps per Inferya's count. That single number should retire the &quot;which AI coding tool is winning&quot; framing — the answer is &quot;all of them, simultaneously, because the substrate won.&quot; The more useful question is what each tool is actually for, and the data Exceeds published this July gets us</summary>
+    <author><name>Dave Kurian</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -287,6 +296,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Training a harness for model-agnostic and task-environment-agnostic capability improvements with PyTorch-like framework [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v1qbl7/training_a_harness_for_modelagnostic_and/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v1qbl7/training_a_harness_for_modelagnostic_and/</id>
+    <updated>2026-07-20T16:26:55Z</updated>
+    <summary type="text">I worked on this project (https://github.com/workofart/harness-training) for the past few months to reframe &quot;Agent-driven Self-improving Harness&quot; to &quot;Harness Training&quot;. The idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to any model and evaluate the &quot;frozen trained harness&quot; with any task LLM on any new ta</summary>
+    <author><name>/u/Megadragon9</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Is your agent's grep tool a shell command?</title>
     <link href="https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002" rel="alternate"/>
     <id>https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002</id>
@@ -451,23 +470,5 @@
     <summary type="text">The AI world is moving faster than ever. Every day, there's a new model, a new framework, a new benchmark, or a new promise that AI will change everything. Yet, when you talk to businesses, a different picture emerges. Most organizations aren't asking, &quot;Which LLM has the highest benchmark score?&quot; They're asking: How can AI reduce repetitive work? Can we automate customer conversations? How do we m</summary>
     <author><name>Ventara AI</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Fully Custom Claude Code Status Line: A JSON-Driven 3-Line Readout of Quota, Cost, and Health</title>
-    <link href="https://dev.to/bokuwalily/fully-custom-claude-code-status-line-a-json-driven-3-line-readout-of-quota-cost-and-health-56d6" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/fully-custom-claude-code-status-line-a-json-driven-3-line-readout-of-quota-cost-and-health-56d6</id>
-    <updated>2026-07-18T05:00:05Z</updated>
-    <summary type="text">This is part of my &quot;Claude Code environment&quot; series. Last time I wrote about the Codex worktree swarm, a setup that gets Codex and Claude Code collaborating. This time the topic is something far less flashy but that you look at every single turn: customizing the status line. Claude Code can print a single status line at the bottom of the window. By default it shows little more than the model name.</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Hallmark Is Racing to 12K Stars for a Reason</title>
-    <link href="https://dev.to/max_quimby/hallmark-is-racing-to-12k-stars-for-a-reason-4jll" rel="alternate"/>
-    <id>https://dev.to/max_quimby/hallmark-is-racing-to-12k-stars-for-a-reason-4jll</id>
-    <updated>2026-07-18T04:52:16Z</updated>
-    <summary type="text">Hallmark Is Racing to 12K Stars for a Reason Nutlope/hallmark hit 12,200 GitHub stars this week -- gaining 1,486 in a single day -- and claimed the #1 trending repository spot on Trendshift on July 15, 2026. It is an anti-AI-slop design skill for Claude Code, Cursor, and Codex built by Hassan El Mghari at Together AI. One command installs it: npx skills add nutlope/hallmark. The star velocity is n</summary>
-    <author><name>Max Quimby</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
