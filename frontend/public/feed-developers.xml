@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-20T00:06:35Z</updated>
+  <updated>2026-07-20T04:38:48Z</updated>
   <entry>
     <title>Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query</title>
     <link href="https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/" rel="alternate"/>
@@ -13,6 +13,35 @@
     <summary type="text">Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills into self-hostable 4B and 9B checkpoints. The post Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query appe</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AgentGrove v0.1.42: a DBeaver-style database tree inside your agent workspace</title>
+    <link href="https://dev.to/arnab_karmakar_41f6ef02ca/agentgrove-v0142-a-dbeaver-style-database-tree-inside-your-agent-workspace-23pf" rel="alternate"/>
+    <id>https://dev.to/arnab_karmakar_41f6ef02ca/agentgrove-v0142-a-dbeaver-style-database-tree-inside-your-agent-workspace-23pf</id>
+    <updated>2026-07-20T04:36:49Z</updated>
+    <summary type="text">Last week I launched AgentGrove, an open-source local workspace that runs AI coding agents (Claude Code, opencode, Kimi) in isolated git worktrees. Today's release, v0.1.42, makes its database tooling much more useful: a DBeaver-style database tree. What's new The left rail's Database view now renders the full connection → databases → tables tree: Every database on the server, expandable and lazy-</summary>
+    <author><name>Arnab Karmakar</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>VIDRAFT Releases Aether-7B-5Attn: A Fully Open Foundation Model with Training Recipes, Logs, and Checkpoints</title>
+    <link href="https://dev.to/ai_openfree_b23025ef075cf/vidraft-releases-aether-7b-5attn-a-fully-open-foundation-model-with-training-recipes-logs-and-18f7" rel="alternate"/>
+    <id>https://dev.to/ai_openfree_b23025ef075cf/vidraft-releases-aether-7b-5attn-a-fully-open-foundation-model-with-training-recipes-logs-and-18f7</id>
+    <updated>2026-07-20T04:36:41Z</updated>
+    <summary type="text">VIDRAFT Releases Aether-7B-5Attn: A Fully Open Foundation Model with Training Recipes, Logs, and Checkpoints TL;DR: VIDRAFT, a Korean Pre-AGI AI startup, has released Aether-7B-5Attn on Hugging Face under the Apache-2.0 license — not just the weights, but the full training recipe, training code, hyperparameters, logs, intermediate checkpoints, and evaluation code. Think OLMo-style radical transpar</summary>
+    <author><name>AI OpenFree</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Designing Scalable Data Pipelines for Machine Learning Applications</title>
+    <link href="https://dev.to/eva_clari_289d85ecc68da48/designing-scalable-data-pipelines-for-machine-learning-applications-1boo" rel="alternate"/>
+    <id>https://dev.to/eva_clari_289d85ecc68da48/designing-scalable-data-pipelines-for-machine-learning-applications-1boo</id>
+    <updated>2026-07-20T04:15:00Z</updated>
+    <summary type="text">Most ML projects do not fail because the model is wrong. They fail because the data pipeline feeding the model cannot survive contact with production. A notebook that trains a model on a clean CSV proves nothing about whether that model gets fresh, correct, timely data once real users and real systems are involved. Data engineering and ML engineering are converging fast. Teams that treat pipeline </summary>
+    <author><name>Eva Clari</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Gateway Talents in Solon AI: OpenAPI, Tool, and MCP Surfaces That Scale Without Context Blow-Up</title>
@@ -440,32 +469,5 @@
     <updated>2026-07-17T18:04:03Z</updated>
     <summary type="text">Last Tuesday my agent took 14 minutes to do something it used to do in 3. The transcript was a wall of repeated context. It was re-reading the same 40,000 tokens on every turn because I'd been piling tasks into one session for months. The fix was embarrassingly simple: stop trying to run everything through one agent. I split the workload across three sub-agents running in parallel. Response time d</summary>
     <author><name>MrClaw207</name></author>
-  </entry>
-  <entry>
-    <title>When Should You /clear? A 1913 Inventory Formula Has the Answer</title>
-    <link href="https://dev.to/nomadop/when-should-you-clear-a-1913-inventory-formula-has-the-answer-4o20" rel="alternate"/>
-    <id>https://dev.to/nomadop/when-should-you-clear-a-1913-inventory-formula-has-the-answer-4o20</id>
-    <updated>2026-07-17T17:41:09Z</updated>
-    <summary type="text">I run Claude Code sessions that span hundreds of turns. For months, I restarted when the agent &quot;felt slow.&quot; Sometimes too early — throwing away all my warm context. Sometimes too late — paying rent on garbage I'd stopped needing fifty turns ago. The advice you hear everywhere is &quot;restart when it gets sluggish&quot; or &quot;use /compact.&quot; That's like telling a warehouse manager &quot;reorder when the shelves loo</summary>
-    <author><name>nomadop</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>7 Things Nobody Tells You Before Deploying Your First Full-Stack Application</title>
-    <link href="https://dev.to/drpratik/7-things-nobody-tells-you-before-deploying-your-first-full-stack-application-c5j" rel="alternate"/>
-    <id>https://dev.to/drpratik/7-things-nobody-tells-you-before-deploying-your-first-full-stack-application-c5j</id>
-    <updated>2026-07-17T17:36:40Z</updated>
-    <summary type="text">When I built my first full-stack application, I thought the hard part was writing the code. I was wrong. The application worked perfectly on my local machine. The frontend loaded, the backend responded, the database connected, and everything seemed ready for production. Then I deployed it. That's when I realized deployment isn't just the final step—it's an entirely different skill. Here are seven </summary>
-    <author><name>Pratik Dhore</name></author>
-  </entry>
-  <entry>
-    <title>Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters</title>
-    <link href="https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72" rel="alternate"/>
-    <id>https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72</id>
-    <updated>2026-07-17T16:03:04Z</updated>
-    <summary type="text">Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters You have two agents. Agent A analyzes customer data. Agent B generates support tickets based on that analysis. Between them, they're supposed to solve the problem. Here's what happens in production: Agent A runs on Claude Managed Agents. It finishes its analysis, returns JSON. Agent B is running on Cursor in your local h</summary>
-    <author><name>Paul Twist</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
