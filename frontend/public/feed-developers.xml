@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-20T04:38:48Z</updated>
+  <updated>2026-07-20T08:09:56Z</updated>
   <entry>
     <title>Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query</title>
     <link href="https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/" rel="alternate"/>
@@ -13,6 +13,24 @@
     <summary type="text">Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills into self-hostable 4B and 9B checkpoints. The post Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query appe</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Playwright can test Chrome extensions. So why does my AI agent still need my help?</title>
+    <link href="https://dev.to/frog404/playwright-can-test-chrome-extensions-so-why-does-my-ai-agent-still-need-my-help-1jpf" rel="alternate"/>
+    <id>https://dev.to/frog404/playwright-can-test-chrome-extensions-so-why-does-my-ai-agent-still-need-my-help-1jpf</id>
+    <updated>2026-07-20T07:44:45Z</updated>
+    <summary type="text">What happens when you let an AI write a browser extension I've been building Chrome extensions with AI coding agents — Claude Code, Cursor, whatever. Writing the code is the fast part. The problem is everything after. &quot;Build it, load it into the browser, open the popup, click the button, check the console.&quot; That part? All me. Every time. The agent can write the code, but it can't see what the code</summary>
+    <author><name>frog404</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title># DevOps</title>
+    <link href="https://dev.to/charles_otugeh/-devops-5a5i" rel="alternate"/>
+    <id>https://dev.to/charles_otugeh/-devops-5a5i</id>
+    <updated>2026-07-20T07:41:40Z</updated>
+    <summary type="text">Who Cleans the Code? My Journey from DevOps Confusion to Building a Secure CI/CD Pipeline. Starting a career in DevOps is like drinking water from a fire-hose. You are hit with an overwhelming number of tools, frameworks, and acronyms.When I first started, I found myself stuck on a fundamental question: Who is actually responsible for code quality? Is it **Quality Assurance (QA)**, or is it **DevO</summary>
+    <author><name>Charles Otugeh</name></author>
   </entry>
   <entry>
     <title>AgentGrove v0.1.42: a DBeaver-style database tree inside your agent workspace</title>
@@ -453,21 +471,5 @@
     <author><name>Abayomi Olatunji</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Best Railway alternatives for enterprises in 2026: Governance, reliability, and why Railway is not the default</title>
-    <link href="https://dev.to/engineeringjournal/best-railway-alternatives-for-enterprises-in-2026-governance-reliability-and-why-railway-is-not-212m" rel="alternate"/>
-    <id>https://dev.to/engineeringjournal/best-railway-alternatives-for-enterprises-in-2026-governance-reliability-and-why-railway-is-not-212m</id>
-    <updated>2026-07-17T19:31:00Z</updated>
-    <summary type="text">TL;DR Railway remains useful for prototypes, hackathons, and internal innovation sandboxes where downtime and data loss carry low business risk. It should not be the default platform for serious enterprise production in 2026, given its reliability track record and the way governance features are plan gated. Platform outages in May 2026 (GCP account suspension) and July 2026 (US East network failur</summary>
-    <author><name>Max Salisbury</name></author>
-  </entry>
-  <entry>
-    <title>My OpenClaw Agent Got Slow and Expensive. I Split It Into Three Sub-Agents — Here's What Happened</title>
-    <link href="https://dev.to/mrclaw207/my-openclaw-agent-got-slow-and-expensive-i-split-it-into-three-sub-agents-heres-what-happened-51l1" rel="alternate"/>
-    <id>https://dev.to/mrclaw207/my-openclaw-agent-got-slow-and-expensive-i-split-it-into-three-sub-agents-heres-what-happened-51l1</id>
-    <updated>2026-07-17T18:04:03Z</updated>
-    <summary type="text">Last Tuesday my agent took 14 minutes to do something it used to do in 3. The transcript was a wall of repeated context. It was re-reading the same 40,000 tokens on every turn because I'd been piling tasks into one session for months. The fix was embarrassingly simple: stop trying to run everything through one agent. I split the workload across three sub-agents running in parallel. Response time d</summary>
-    <author><name>MrClaw207</name></author>
   </entry>
 </feed>
