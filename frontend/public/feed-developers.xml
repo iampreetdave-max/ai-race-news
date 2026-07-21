@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T11:50:25Z</updated>
+  <updated>2026-07-21T14:02:32Z</updated>
   <entry>
     <title>LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex" rel="alternate"/>
@@ -14,6 +14,24 @@
     <author><name>Last Week in AI</name></author>
     <category term="funding"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How I Fixed Hallucinations by Switching from AGENTS.md to AGENTS.db</title>
+    <link href="https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1" rel="alternate"/>
+    <id>https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1</id>
+    <updated>2026-07-21T14:01:18Z</updated>
+    <summary type="text">Before I dive in, a bit of background on how our agentic workflow at Exam Intelligence for deep analysis and notes generation works... Initially, I tried to create a complete end-to-end LangGraph workflow. Except, things always ran into unexpected bugs caused by external factors like missing PDFs, being unable to find papers, failing to parse them, or agents returning 503 errors or broken JSONs. A</summary>
+    <author><name>Mohammed Ibrahim Khan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>We Built Our Own AI PR Reviewer for Azure DevOps — Then Benchmarked It Against CodeRabbit and Friends</title>
+    <link href="https://dev.to/vicky_acedia/we-built-our-own-ai-pr-reviewer-for-azure-devops-then-benchmarked-it-against-coderabbit-and-5dne" rel="alternate"/>
+    <id>https://dev.to/vicky_acedia/we-built-our-own-ai-pr-reviewer-for-azure-devops-then-benchmarked-it-against-coderabbit-and-5dne</id>
+    <updated>2026-07-21T13:58:32Z</updated>
+    <summary type="text">An honest comparison between a single-file, homegrown review desk and the commercial AI code review tools — four tables, no marketing. The goal I was trying to achieve Our team is small — three people handling support and development — and our pull request hygiene had a traceability problem. PRs were getting merged with no work items linked, no reviewer approvals, and empty descriptions. When a bu</summary>
+    <author><name>Vignesh Athiappan</name></author>
   </entry>
   <entry>
     <title>Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</title>
@@ -130,6 +148,15 @@
     <updated>2026-07-19T22:20:23Z</updated>
     <summary type="text">Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills into self-hostable 4B and 9B checkpoints. The post Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query appe</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>China’s Low-Priced Z.ai Model Is Exposing Costly Coder Habits</title>
+    <link href="https://spectrum.ieee.org/ai-coding-assistant-china-anthropic" rel="alternate"/>
+    <id>https://spectrum.ieee.org/ai-coding-assistant-china-anthropic</id>
+    <updated>2026-07-21T12:00:01Z</updated>
+    <summary type="text">Zain Hasan, an AI engineer at Together AI, has taught himself to use AI coding assistants while still keeping an eye on cost. He directs difficult problems to a frontier model, meaning one near the current state of the art in reasoning and capability, such as Anthropic’s Fable. But if the task that Hasan is outsourcing is more straightforward, he directs it to a less capable—and less expensive—lan</summary>
+    <author><name>Matthew S. Smith</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -281,6 +308,15 @@
     <author><name>mi8bi</name></author>
   </entry>
   <entry>
+    <title>A Fireside Chat with Cat and Thariq from the Claude Code team</title>
+    <link href="https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything</id>
+    <updated>2026-07-21T12:54:02Z</updated>
+    <summary type="text">Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube. Below is an edited copy of the transcript, with extra</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Are AI Agent Engrams Open Source or Proprietary?</title>
     <link href="https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh" rel="alternate"/>
     <id>https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh</id>
@@ -430,45 +466,5 @@
     <summary type="text">Google a effacé jusqu'à 80 % du trafic de sites qui publiaient du contenu IA en masse. C'est le motif scaled content abuse. On voulait quand même automatiser la production d'articles. La question n'était donc pas « comment produire vite », mais « comment empêcher la machine de publier de la bouillie ». Voilà l'architecture qu'on a retenue, et le morceau de code qui compte vraiment. Le pipeline Six</summary>
     <author><name>Olivier</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Claude Code Interface Blindness: Hook Eclipse JDT LS via MCP for AST-Aware Java Refactoring</title>
-    <link href="https://dev.to/machinecodingmaster/stop-claude-code-interface-blindness-hook-eclipse-jdt-ls-via-mcp-for-ast-aware-java-refactoring-1eog" rel="alternate"/>
-    <id>https://dev.to/machinecodingmaster/stop-claude-code-interface-blindness-hook-eclipse-jdt-ls-via-mcp-for-ast-aware-java-refactoring-1eog</id>
-    <updated>2026-07-19T05:37:05Z</updated>
-    <summary type="text">Stop Claude Code Interface Blindness: Hook Eclipse JDT LS via MCP for AST-Aware Java Refactoring Claude Code is a beast in the terminal, but letting it raw-grep your enterprise Spring Boot codebase is a recipe for hallucinated method signatures and broken builds. If your AI agent doesn't understand the Abstract Syntax Tree (AST) of your decoupled interfaces, it is simply guessing. Why Most Develop</summary>
-    <author><name>Machine coding Master</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Practical Workflow for Contributing to a Large, Structured Codebase</title>
-    <link href="https://dev.to/daniel_wu_c0ec7ad41de5f61/my-workflow-when-contributing-to-a-structured-codebase-1878" rel="alternate"/>
-    <id>https://dev.to/daniel_wu_c0ec7ad41de5f61/my-workflow-when-contributing-to-a-structured-codebase-1878</id>
-    <updated>2026-07-19T03:13:08Z</updated>
-    <summary type="text">This is the workflow I follow before I use AI agents to implement any feature or bug fix. 🧭 Requirements/Specification ↓ Design/Architecture ↓ AI Code Generation ↓ Human Review ↓ Build &amp; Static Analysis ↓ Testing &amp; Validation ↓ Defect Resolution ↓ Security &amp; Compliance Review ↓ Release ↓ Production Monitoring vs Claude Code ↓ Implements feature ↓ Codex QA Agent ↓ Runs application ↓ Tests happy pat</summary>
-    <author><name>Daniel Wu</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Training a harness for model-agnostic and task-environment-agnostic capability improvements with PyTorch-like framework [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v1qbl7/training_a_harness_for_modelagnostic_and/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v1qbl7/training_a_harness_for_modelagnostic_and/</id>
-    <updated>2026-07-20T16:26:55Z</updated>
-    <summary type="text">I worked on this project (https://github.com/workofart/harness-training) for the past few months to reframe &quot;Agent-driven Self-improving Harness&quot; to &quot;Harness Training&quot;. The idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to any model and evaluate the &quot;frozen trained harness&quot; with any task LLM on any new ta</summary>
-    <author><name>/u/Megadragon9</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Is your agent's grep tool a shell command?</title>
-    <link href="https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002" rel="alternate"/>
-    <id>https://dev.to/vdalal/is-your-agents-grep-tool-a-shell-command-4002</id>
-    <updated>2026-07-18T23:48:22Z</updated>
-    <summary type="text">When you give an LLM a tool, you hand it a real function and let it choose the arguments. Those tools are everything your agent can do to a real system: read a file, write to your database, send an email, run a shell command, delete data. They are your risk surface, and most teams have never looked at it in one place. So we did. We ran scan across a batch of popular open-source TypeScript AI agent</summary>
-    <author><name>Vasu Dalal</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
   </entry>
 </feed>
