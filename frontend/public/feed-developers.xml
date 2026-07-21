@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T14:02:32Z</updated>
+  <updated>2026-07-21T16:25:47Z</updated>
   <entry>
     <title>LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex" rel="alternate"/>
@@ -16,6 +16,33 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure</title>
+    <link href="https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8" rel="alternate"/>
+    <id>https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8</id>
+    <updated>2026-07-21T16:03:06Z</updated>
+    <summary type="text">Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure By Paul Twist — July 21, 2026 Here's what nobody wants to say in public: your agent's persistent memory is going to betray you. Not because the memory system is broken. Because when you add persistent memory to agents that worked fine as short-lived experiments, you don't just get better agents. Yo</summary>
+    <author><name>Paul Twist</name></author>
+  </entry>
+  <entry>
+    <title>9 Best Open-Source LLMs in 2026 (Compared)</title>
+    <link href="https://dev.to/smakosh/9-best-open-source-llms-in-2026-compared-29p2" rel="alternate"/>
+    <id>https://dev.to/smakosh/9-best-open-source-llms-in-2026-compared-29p2</id>
+    <updated>2026-07-21T15:49:11Z</updated>
+    <summary type="text">Open-source LLMs stopped being the budget option in 2026. Kimi K3 sits level with Claude Opus 4.8 on the Artificial Analysis Intelligence Index (its hosted API is live; the weights themselves are expected by July 27), GLM-5.2 held the top open-model spot before it, and the field behind them is deep enough that the hard part is choosing. This ranking covers the nine best open-weight models right no</summary>
+    <author><name>smakosh</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How to Use Kimi K3 with Claude Code, Cursor, and Cline</title>
+    <link href="https://dev.to/smakosh/how-to-use-kimi-k3-with-claude-code-cursor-and-cline-1dpi" rel="alternate"/>
+    <id>https://dev.to/smakosh/how-to-use-kimi-k3-with-claude-code-cursor-and-cline-1dpi</id>
+    <updated>2026-07-21T15:48:36Z</updated>
+    <summary type="text">Kimi K3 took first place in Arena's Frontend Code evaluation the week it launched, and it holds a 1M-token context — but Moonshot doesn't ship a coding agent, and your coding agent doesn't ship Kimi K3. Claude Code is locked to Anthropic's API by default, Cursor to its own backend, Cline to whatever key you hand it. LLM Gateway bridges that gap. It speaks both the Anthropic and OpenAI API formats,</summary>
+    <author><name>smakosh</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How I Fixed Hallucinations by Switching from AGENTS.md to AGENTS.db</title>
     <link href="https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1" rel="alternate"/>
     <id>https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1</id>
@@ -24,6 +51,15 @@
     <author><name>Mohammed Ibrahim Khan</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Run the Mythos Enhanced Coding Model Locally with llama.cpp and Pi</title>
+    <link href="https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi" rel="alternate"/>
+    <id>https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi</id>
+    <updated>2026-07-21T14:00:42Z</updated>
+    <summary type="text">Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compatible API.</summary>
+    <author><name>Abid Ali Awan</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>We Built Our Own AI PR Reviewer for Azure DevOps — Then Benchmarked It Against CodeRabbit and Friends</title>
@@ -292,6 +328,14 @@
     <category term="data"/>
   </entry>
   <entry>
+    <title>Nativ: Run AI models locally on your Mac</title>
+    <link href="https://simonwillison.net/2026/Jul/21/nativ/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/21/nativ/#atom-everything</id>
+    <updated>2026-07-21T14:22:27Z</updated>
+    <summary type="text">Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models</summary>
+    <author><name>Simon Willison</name></author>
+  </entry>
+  <entry>
     <title>Gateway Talents in Solon AI: OpenAPI, Tool, and MCP Surfaces That Scale Without Context Blow-Up</title>
     <link href="https://dev.to/solonjava/gateway-talents-in-solon-ai-openapi-tool-and-mcp-surfaces-that-scale-without-context-blow-up-36ca" rel="alternate"/>
     <id>https://dev.to/solonjava/gateway-talents-in-solon-ai-openapi-tool-and-mcp-surfaces-that-scale-without-context-blow-up-36ca</id>
@@ -420,51 +464,6 @@
     <updated>2026-07-19T13:02:31Z</updated>
     <summary type="text">I did a count that afternoon. From 2pm to 8pm — six hours — I opened 16 subagents in Cursor. Four waves of four each, all running in parallel. Combined output: about 500 KB of documentation, roughly the size of a novella. On the product side, a Cloudflare Worker upgraded from Stripe-only to Stripe + Creem parallel checkout. Four real products live in production. All 12 webhook event types verified</summary>
     <author><name>Baolin Tikool</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Tri-Net v2: Open-source implementation of our Scientific Reports paper on unified skin lesion and symptom-based monkeypox detection [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/</id>
-    <updated>2026-07-21T03:01:03Z</updated>
-    <summary type="text">Hi everyone, We've open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfolio) paper: &quot;Tri-Net: Unified Deep Learning for Skin Lesion and Symptom-Based Monkeypox Detection&quot; Rather than releasing only training scripts, we rebuilt the project as a reproducible research framework. Highlights: • Leakage-free data preparation pipeline •</summary>
-    <author><name>/u/Rich-Fruit-326</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Auto-Retiring Skills You No Longer Use: Weekly Skill Lifecycle Management with launchd</title>
-    <link href="https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf</id>
-    <updated>2026-07-19T11:00:06Z</updated>
-    <summary type="text">Generating skills automatically is the easy part. Deciding when to throw them away is where everything falls apart. In my last post I covered auto-detecting Claude Code model retirements and switching aliases. This time I use the same launchd machinery to build lifecycle management that keeps a bloating pile of auto-skills from rotting. As I described in an earlier article, auto-skills are generat</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Verification Ladder: A Field Guide</title>
-    <link href="https://dev.to/dang-w/the-verification-ladder-a-field-guide-3978" rel="alternate"/>
-    <id>https://dev.to/dang-w/the-verification-ladder-a-field-guide-3978</id>
-    <updated>2026-07-19T08:51:26Z</updated>
-    <summary type="text">Claude has, at various points in our working relationship, warmly endorsed: an efficiency statistic fabricated over one too many turns of a massive write-up - oops (&quot;This is perfect... Nice work! 🎉&quot;). A test suite that had never once gone red, because a module remap had it quietly testing a mock. And its own confidently wrong claim that my repo hadn't been pushed - sourced from a stale cache, stat</summary>
-    <author><name>Dan Walsh</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Complete Guide to Moonshot's New 2.8T Flagship</title>
-    <link href="https://dev.to/prodevopsguytech/a-complete-guide-to-moonshots-new-28t-flagship-2lme" rel="alternate"/>
-    <id>https://dev.to/prodevopsguytech/a-complete-guide-to-moonshots-new-28t-flagship-2lme</id>
-    <updated>2026-07-19T06:18:12Z</updated>
-    <summary type="text">By the end of this article, you'll know: what Kimi K3 actually is, the architecture, the scale, and what changed from the K2 family how to run it today, free in the browser, through the API, or wired into Claude Code, Cursor, Cline, and RooCode which exact model ID and settings unlock the full 1 million token context how K3 stacks up on price and benchmarks against DeepSeek V4, Qwen3.7 Max, GLM-5.</summary>
-    <author><name>H A R S H H A A</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>J'ai automatisé la production d'articles SEO avec Claude Code — et le plus important, c'est le garde-fou</title>
-    <link href="https://dev.to/hernanz/jai-automatise-la-production-darticles-seo-avec-claude-code-et-le-plus-important-cest-le-421f" rel="alternate"/>
-    <id>https://dev.to/hernanz/jai-automatise-la-production-darticles-seo-avec-claude-code-et-le-plus-important-cest-le-421f</id>
-    <updated>2026-07-19T05:42:07Z</updated>
-    <summary type="text">Google a effacé jusqu'à 80 % du trafic de sites qui publiaient du contenu IA en masse. C'est le motif scaled content abuse. On voulait quand même automatiser la production d'articles. La question n'était donc pas « comment produire vite », mais « comment empêcher la machine de publier de la bouillie ». Voilà l'architecture qu'on a retenue, et le morceau de code qui compte vraiment. Le pipeline Six</summary>
-    <author><name>Olivier</name></author>
     <category term="llm"/>
   </entry>
 </feed>
