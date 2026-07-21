@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T18:18:03Z</updated>
+  <updated>2026-07-21T20:21:00Z</updated>
   <entry>
     <title>LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex" rel="alternate"/>
@@ -14,6 +14,16 @@
     <author><name>Last Week in AI</name></author>
     <category term="funding"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How I Solved Cross-Environment Vector Database Schema Mismatches in a Dockerized AI Agent</title>
+    <link href="https://dev.to/benaiahhhh/how-i-solved-cross-environment-vector-database-schema-mismatches-in-a-dockerized-ai-agent-4nbn" rel="alternate"/>
+    <id>https://dev.to/benaiahhhh/how-i-solved-cross-environment-vector-database-schema-mismatches-in-a-dockerized-ai-agent-4nbn</id>
+    <updated>2026-07-21T20:01:13Z</updated>
+    <summary type="text">Every engineer has uttered the phrase, &quot;But it works on my machine.&quot; I hit a wall that perfectly encapsulates why that phrase is a trap. The application ran flawlessly in my local development environment but immediately crashed upon deployment to the cloud. Here is a post-mortem of the two major blockers I faced during deployment, how I diagnosed them, and the pragmatic resolutions that got the ag</summary>
+    <author><name>Benaiah</name></author>
+    <category term="agents"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>🤔 What Really Happens When You Run kubectl apply? Episode 3</title>
@@ -456,14 +466,5 @@
     <author><name>Odd_Background_328</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Make Copilot Review Configuration Observable From Pull Request to Finding</title>
-    <link href="https://dev.to/kongkong1/make-copilot-review-configuration-observable-from-pull-request-to-finding-3p0n" rel="alternate"/>
-    <id>https://dev.to/kongkong1/make-copilot-review-configuration-observable-from-pull-request-to-finding-3p0n</id>
-    <updated>2026-07-19T14:39:12Z</updated>
-    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements/. GitHub expanded Copilot code-review customization on July 17. Teams now need a cross-layer answer to a simple question: which configuration produced this finding? type ReviewRun={ pullRequest:string; baseSha:string; headSha:string; configDigest:string; startedAt:string; fin</summary>
-    <author><name>kongkong</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
