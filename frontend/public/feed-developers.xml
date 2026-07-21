@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-20T22:04:17Z</updated>
+  <updated>2026-07-21T00:00:20Z</updated>
   <entry>
     <title>Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</title>
     <link href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/" rel="alternate"/>
@@ -22,6 +22,35 @@
     <summary type="text">A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate what a fine-tune actually inherits from real capability, and flag the licensing question the model card leaves open. The post Someone Fine-Tuned OpenBMB’s Mi</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How Does an LLM Request and Response Cycle Work? A Full Walkthrough</title>
+    <link href="https://dev.to/qainsights/how-does-an-llm-request-and-response-cycle-work-a-full-walkthrough-2k7j" rel="alternate"/>
+    <id>https://dev.to/qainsights/how-does-an-llm-request-and-response-cycle-work-a-full-walkthrough-2k7j</id>
+    <updated>2026-07-20T23:36:59Z</updated>
+    <summary type="text">In this blog post, we will see how an LLM request and response cycle works, from the second you hit send to the moment the last word lands on your screen. I will not throw a wall of transformer math at you. Instead, we will follow one single prompt through every stage of the journey, so nothing feels abstract. A single prompt sent to a large language model passes through multiple distinct stages b</summary>
+    <author><name>NaveenKumar Namachivayam ⚡</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I Tried Kimi K3 for a Week. Here’s What Happened.</title>
+    <link href="https://dev.to/joodi/i-tried-kimi-k3-for-a-week-heres-what-happened-3867" rel="alternate"/>
+    <id>https://dev.to/joodi/i-tried-kimi-k3-for-a-week-heres-what-happened-3867</id>
+    <updated>2026-07-20T23:26:43Z</updated>
+    <summary type="text">A few days ago I posted my first impressions of Kimi K3 on LinkedIn. Since then, I’ve been using it daily for real work — not benchmarks, not demos. Here’s what actually held up. The Context Window Isn’t Marketing I tested the 1M token claim the hard way: dumped a 40,000-line codebase into it, then asked it to refactor a utility function that was referenced across 12 files. It traced every call si</summary>
+    <author><name>Joodi</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>We built Multi-Repo Workspaces for AI coding</title>
+    <link href="https://dev.to/devswarm/we-built-multi-repo-workspaces-for-ai-coding-2ib1" rel="alternate"/>
+    <id>https://dev.to/devswarm/we-built-multi-repo-workspaces-for-ai-coding-2ib1</id>
+    <updated>2026-07-20T23:25:18Z</updated>
+    <summary type="text">Most production applications aren't monorepos. A feature often spans the frontend, backend, shared packages, infrastructure, and more. While polyrepos work well for ownership, AI coding tools typically only see one repository at a time. We wanted to change that. With Multi-Repo Workspaces in DevSwarm, you can bundle multiple Git repositories into a single workspace while keeping each repository in</summary>
+    <author><name>DevSwarm</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query</title>
@@ -444,32 +473,6 @@
     <updated>2026-07-18T15:22:47Z</updated>
     <summary type="text">Most AI assistants forget everything after each session. Memoria remembers, forgets, and evolves—extracting personal facts, resolving contradictions, and reflecting on what it knows. This post shares the journey of building a production‑ready MemoryAgent for the Qwen Cloud Hackathon, Track 1. Inspiration Every conversation with a typical chatbot starts from zero. You tell it you're allergic to pea</summary>
     <author><name>Muhammad Awais</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Can Codex Build an Entire x86 Assembly Game Autonomously? A Real-World Experiment</title>
-    <link href="https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik" rel="alternate"/>
-    <id>https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik</id>
-    <updated>2026-07-18T13:18:17Z</updated>
-    <summary type="text">Can Codex Build an Entire x86 Assembly Game Autonomously? Most demonstrations of AI coding focus on generating snippets of code, building CRUD applications, or creating small projects in modern programming languages. I wanted to test something different. Rather than asking whether an AI could generate Assembly code, I wanted to know whether it could complete an entire software project with minimal</summary>
-    <author><name>Bostjan Maroh</name></author>
-  </entry>
-  <entry>
-    <title>The Real App-Building Kit for Non-Technical Founders: Trustworthy AI-Powered Development</title>
-    <link href="https://dev.to/davekurian/the-real-app-building-kit-for-non-technical-founders-trustworthy-ai-powered-development-2jl8" rel="alternate"/>
-    <id>https://dev.to/davekurian/the-real-app-building-kit-for-non-technical-founders-trustworthy-ai-powered-development-2jl8</id>
-    <updated>2026-07-18T13:05:49Z</updated>
-    <summary type="text">Today's agent can scaffold your app before lunch A coding agent in 2026 can scaffold a SaaS dashboard, wire Stripe, set up auth, and deploy to a real domain in an afternoon. That's not a pitch — that's what Claude Code and Cursor do today, and it's genuinely impressive. The first commit to first production URL is faster than it's ever been for anyone, technical or not. The hard part is the day aft</summary>
-    <author><name>Dave Kurian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Auto-Migrating Claude Code with a Throwaway launchd Job — a Script That Deletes Itself When Its Work Is Done</title>
-    <link href="https://dev.to/bokuwalily/auto-migrating-claude-code-with-a-throwaway-launchd-job-a-script-that-deletes-itself-when-its-e7k" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/auto-migrating-claude-code-with-a-throwaway-launchd-job-a-script-that-deletes-itself-when-its-e7k</id>
-    <updated>2026-07-18T11:00:05Z</updated>
-    <summary type="text">This continues my &quot;Claude Code environment&quot; series that started with showing rate limits live in the status line. This time it's a one-shot model-migration job — the &quot;throwaway job&quot; pattern, where the job removes its own plist with launchctl unload once it's finished. Fable 5 shuts down on 2026-07-07. If your Claude Code settings.json has model: fable-5, it will keep pointing at that stale ID from</summary>
-    <author><name>Lily</name></author>
     <category term="llm"/>
   </entry>
 </feed>
