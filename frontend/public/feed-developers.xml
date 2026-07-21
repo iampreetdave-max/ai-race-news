@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T00:00:20Z</updated>
+  <updated>2026-07-21T03:36:11Z</updated>
   <entry>
     <title>Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</title>
     <link href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/" rel="alternate"/>
@@ -13,6 +13,22 @@
     <summary type="text">Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework. During forensic analysis, commercial AI models actually got in the way of the defenders because their safety guardrails couldn't tell exploit data from real attacks. The article H</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>projports: find every port your project declares</title>
+    <link href="https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h" rel="alternate"/>
+    <id>https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h</id>
+    <updated>2026-07-21T03:20:55Z</updated>
+    <summary type="text">Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get EADDRINUSE or a silent hang because Postgres is mapped to 5433 in Compose and 5432 in someone's muscle memory. The ports are not secret. They are scattered across docker-compose.yml, .env.example, package.json scripts, Vite/Next configs, Spring application.yml, Kubernetes manifests, </summary>
+    <author><name>SybilGambleyyu</name></author>
+  </entry>
+  <entry>
+    <title>openFDA Adverse Event API: Paging Past 25,000 and Flattening</title>
+    <link href="https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l" rel="alternate"/>
+    <id>https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l</id>
+    <updated>2026-07-21T03:18:57Z</updated>
+    <summary type="text">You wrote a loop against api.fda.gov/drug/event.json, incremented skip, and at 25,001 got {&quot;code&quot;:&quot;BAD_REQUEST&quot;,&quot;message&quot;:&quot;Skip value must 25000 or less.&quot;} (yes, the API's own message is missing the word &quot;be&quot;). Meanwhile your row count is 100x what you expected, your daily cron returns nothing, and patient.drug[] refuses to become a CSV. Every one of those has a specific, checkable cause. Every nu</summary>
+    <author><name>Mayd-It</name></author>
   </entry>
   <entry>
     <title>Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model</title>
@@ -88,6 +104,15 @@
     <summary type="text">A simple tutorial series on go in Hinglish. Jitna mujhe aata hai utna, aur zyada tar mere notes se! Note: Me non-native speaker hu to spelling mistakes to honge, is liye Hinglish spellings aur grammar ke liye main AI use karunga, par dev ke bot ko pata nahi chalega kyuki ye English nahi hai 😉 Parichay / Intro Shuruat hum isse karenge ki Go kya hai aur uske fayde kya hain. Pehle hum Wikipedia ki de</summary>
     <author><name>csm</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric</title>
+    <link href="https://arxiv.org/abs/2607.18237v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.18237v1</id>
+    <updated>2026-07-20T17:59:51Z</updated>
+    <summary type="text">Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each</summary>
+    <author><name>Richard Zhang</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How to Run Claude Code Agents for 24+ Hours</title>
@@ -307,6 +332,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Tri-Net v2: Open-source implementation of our Scientific Reports paper on unified skin lesion and symptom-based monkeypox detection [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/</id>
+    <updated>2026-07-21T03:01:03Z</updated>
+    <summary type="text">Hi everyone, We've open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfolio) paper: &quot;Tri-Net: Unified Deep Learning for Skin Lesion and Symptom-Based Monkeypox Detection&quot; Rather than releasing only training scripts, we rebuilt the project as a reproducible research framework. Highlights: • Leakage-free data preparation pipeline •</summary>
+    <author><name>/u/Rich-Fruit-326</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>Auto-Retiring Skills You No Longer Use: Weekly Skill Lifecycle Management with launchd</title>
     <link href="https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf" rel="alternate"/>
     <id>https://dev.to/bokuwalily/auto-retiring-skills-you-no-longer-use-weekly-skill-lifecycle-management-with-launchd-4lgf</id>
@@ -437,42 +471,5 @@
     <category term="product-launch"/>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your AI agent can now find AND call the tools it's missing</title>
-    <link href="https://dev.to/toolhail/your-ai-agent-can-now-find-and-call-the-tools-its-missing-2gk" rel="alternate"/>
-    <id>https://dev.to/toolhail/your-ai-agent-can-now-find-and-call-the-tools-its-missing-2gk</id>
-    <updated>2026-07-18T20:15:37Z</updated>
-    <summary type="text">There are more than 10,000 MCP servers indexed across public registries right now. Your AI agent can use almost none of them — not because it can't, but because it has no idea they exist, and even when it finds one it can't use it without a human installing and wiring it up. When Claude (or Cursor, or any MCP client) hits a task it has no tool for, the workflow today is: the human goes registry-cr</summary>
-    <author><name>scout</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Hardcoded Secrets: Why AI Code Fails Your First SOC 2 Audit</title>
-    <link href="https://dev.to/c_k_fb750e731394/hardcoded-secrets-why-ai-code-fails-your-first-soc-2-audit-3i54" rel="alternate"/>
-    <id>https://dev.to/c_k_fb750e731394/hardcoded-secrets-why-ai-code-fails-your-first-soc-2-audit-3i54</id>
-    <updated>2026-07-18T17:21:02Z</updated>
-    <summary type="text">TL;DR AI editors keep hardcoding API keys and secrets directly into source files That single pattern is an automatic fail on SOC 2, PCI-DSS, and HIPAA reviews Solo founders and small teams now get enterprise security questionnaires before they've ever hired a security person, and this is the first thing reviewers grep for A solo founder I've been advising pinged me two weeks before his first SOC 2</summary>
-    <author><name>Charles Kern</name></author>
-  </entry>
-  <entry>
-    <title>A Book of Wrong Answers</title>
-    <link href="https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97" rel="alternate"/>
-    <id>https://dev.to/nabbilkhan/a-book-of-wrong-answers-4m97</id>
-    <updated>2026-07-18T15:49:52Z</updated>
-    <summary type="text">There is a note in my runbooks that says the Enter key works. That is almost the whole note. Press Enter and the prompt submits. I wrote it in bold, with sources and a date, because one of my AI agents once fixed the Enter key. The fix was the bug. The Fix Was the Bug I run a fleet of Claude Code agents in tmux panes. An orchestrator script types a prompt into a pane and presses Enter for it. One </summary>
-    <author><name>Nabbil Khan</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Memoria – A Self‑Evolving Personal AI with Human‑like Memory</title>
-    <link href="https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p" rel="alternate"/>
-    <id>https://dev.to/imawais/memoria-a-self-evolving-personal-ai-with-human-like-memory-34p</id>
-    <updated>2026-07-18T15:22:47Z</updated>
-    <summary type="text">Most AI assistants forget everything after each session. Memoria remembers, forgets, and evolves—extracting personal facts, resolving contradictions, and reflecting on what it knows. This post shares the journey of building a production‑ready MemoryAgent for the Qwen Cloud Hackathon, Track 1. Inspiration Every conversation with a typical chatbot starts from zero. You tell it you're allergic to pea</summary>
-    <author><name>Muhammad Awais</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
