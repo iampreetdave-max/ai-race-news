@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T20:21:00Z</updated>
+  <updated>2026-07-21T22:07:00Z</updated>
+  <entry>
+    <title>TraceTree: Feature Update!!!</title>
+    <link href="https://dev.to/tejas_yaml/tracetree-feature-update-h4h" rel="alternate"/>
+    <id>https://dev.to/tejas_yaml/tracetree-feature-update-h4h</id>
+    <updated>2026-07-21T21:24:01Z</updated>
+    <summary type="text">TraceTree is a tool I've been building that scans files for malicious behavior before you run them. It combines radare2 disassembly, YARA rule matching, and a small ML pipeline to flag risky files, then shows the verdict in a dashboard instead of leaving you to read raw logs. I just wrapped up OpenAI Build Week with another round on it. It's not a project I built for hackathons, it's something I k</summary>
+    <author><name>Tejas</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex" rel="alternate"/>
@@ -456,15 +465,5 @@
     <summary type="text">Primary source: https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/. GitHub made the Copilot app available across Copilot plans and says users can also run sessions with their own model-provider key. Before moving real work into a desktop agent, run one cheap exit test. 0–5: clone a disposable repository 5–12: ask for one failing-test fix 12–17: disconnect or close the ap</summary>
     <author><name>Sam Rivera</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Repository-Level Copilot Metrics Need a Cardinality Budget Before Export</title>
-    <link href="https://dev.to/odd_background_328/repository-level-copilot-metrics-need-a-cardinality-budget-before-export-2450" rel="alternate"/>
-    <id>https://dev.to/odd_background_328/repository-level-copilot-metrics-need-a-cardinality-budget-before-export-2450</id>
-    <updated>2026-07-19T14:39:45Z</updated>
-    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available/. GitHub made repository-level Copilot usage metrics generally available on July 17. Repository granularity helps allocation, but naïvely exporting every repository, team, model, editor, and date combination can create high-cardinality telemetry. GitHub usage API -&gt; bounded co</summary>
-    <author><name>Odd_Background_328</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
