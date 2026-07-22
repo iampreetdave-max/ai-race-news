@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-21T23:58:27Z</updated>
+  <updated>2026-07-22T03:33:55Z</updated>
+  <entry>
+    <title>Grok 4.5 Isn't Open Source. The Apache 2.0 Release Has a Privacy Catch.</title>
+    <link href="https://dev.to/tokenmixai/grok-45-isnt-open-source-the-apache-20-release-has-a-privacy-catch-1mkj" rel="alternate"/>
+    <id>https://dev.to/tokenmixai/grok-45-isnt-open-source-the-apache-20-release-has-a-privacy-catch-1mkj</id>
+    <updated>2026-07-22T02:48:44Z</updated>
+    <summary type="text">SpaceXAI open-sourced Grok Build, and three versions of the story immediately started circulating: &quot;Grok 4.5 is open source now.&quot; &quot;You can run the whole Grok stack offline.&quot; &quot;The privacy problem is solved because the code is public.&quot; The first two are wrong. The third is directionally useful, but nowhere near proven. I cloned the July 21 public repository, checked 2,847 tracked files, traced the c</summary>
+    <author><name>tokenmixai</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Self-Hosting Like a Pro, Part 2: Docker, K3s and Traefik v3 with Automatic HTTPS</title>
+    <link href="https://dev.to/adeutou/self-hosting-like-a-pro-part-2-docker-k3s-and-traefik-v3-with-automatic-https-1kpn" rel="alternate"/>
+    <id>https://dev.to/adeutou/self-hosting-like-a-pro-part-2-docker-k3s-and-traefik-v3-with-automatic-https-1kpn</id>
+    <updated>2026-07-22T02:47:16Z</updated>
+    <summary type="text">This is Part 2 of a four-part series where I document how I turned a 10€/month VPS into a production-grade platform hosting multiple projects. In Part 1 we hardened a fresh Ubuntu server. Today we install the actual platform: a container runtime, a lightweight Kubernetes distribution, a modern reverse proxy, and automatic TLS certificates. By the end of this article, deploying an app with HTTPS wi</summary>
+    <author><name>adeutou</name></author>
+  </entry>
   <entry>
     <title>Learnings from Building an MCP Server</title>
     <link href="https://dev.to/mklfarha/learnings-from-building-an-mcp-server-32oh" rel="alternate"/>
@@ -43,6 +61,15 @@
     <author><name>Benaiah</name></author>
     <category term="agents"/>
     <category term="rag"/>
+  </entry>
+  <entry>
+    <title>OmniReasoner: Thinking with Long Audio-Video via Native Tool Use</title>
+    <link href="https://arxiv.org/abs/2607.19339v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.19339v1</id>
+    <updated>2026-07-21T17:57:50Z</updated>
+    <summary type="text">Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a </summary>
+    <author><name>Chaofan Chen</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>🤔 What Really Happens When You Run kubectl apply? Episode 3</title>
@@ -437,33 +464,5 @@
     <author><name>Paul Crinigan</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building SmartStock AI: An AI-Powered Inventory Management Platform with Django, LangChain &amp; Multi-Agent Workflows</title>
-    <link href="https://dev.to/ayman_kasim/building-smartstock-ai-an-ai-powered-inventory-management-platform-with-django-langchain--mhk" rel="alternate"/>
-    <id>https://dev.to/ayman_kasim/building-smartstock-ai-an-ai-powered-inventory-management-platform-with-django-langchain--mhk</id>
-    <updated>2026-07-19T15:35:43Z</updated>
-    <summary type="text">Over the past few months, I've been exploring how AI can move beyond chatbots and become an active part of business workflows. That journey led me to build SmartStock AI, an inventory management platform that combines modern web technologies with AI agents, Retrieval-Augmented Generation (RAG), demand forecasting, and automation. Instead of only tracking inventory, SmartStock AI helps businesses m</summary>
-    <author><name>Ayman Mohamed</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Pin Metric Revisions Before Repository Usage Backfills Rewrite History</title>
-    <link href="https://dev.to/robinzzz/pin-metric-revisions-before-repository-usage-backfills-rewrite-history-1jnh" rel="alternate"/>
-    <id>https://dev.to/robinzzz/pin-metric-revisions-before-repository-usage-backfills-rewrite-history-1jnh</id>
-    <updated>2026-07-19T14:39:51Z</updated>
-    <summary type="text">Primary source: https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api/. GitHub added Copilot app activity to the usage metrics API on July 17. When a source or product surface enters a metric, historical totals may arrive late or change meaning. A dashboard that overwrites rows cannot explain yesterday's number. metric key = repository + day + surface +</summary>
-    <author><name>Robin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Test the Copilot Desktop App With a 20-Minute BYOK Exit Drill</title>
-    <link href="https://dev.to/rivera123/test-the-copilot-desktop-app-with-a-20-minute-byok-exit-drill-1b16" rel="alternate"/>
-    <id>https://dev.to/rivera123/test-the-copilot-desktop-app-with-a-20-minute-byok-exit-drill-1b16</id>
-    <updated>2026-07-19T14:39:48Z</updated>
-    <summary type="text">Primary source: https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/. GitHub made the Copilot app available across Copilot plans and says users can also run sessions with their own model-provider key. Before moving real work into a desktop agent, run one cheap exit test. 0–5: clone a disposable repository 5–12: ask for one failing-test fix 12–17: disconnect or close the ap</summary>
-    <author><name>Sam Rivera</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
