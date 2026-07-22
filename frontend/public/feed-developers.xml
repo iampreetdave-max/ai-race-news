@@ -4,7 +4,36 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-22T09:29:39Z</updated>
+  <updated>2026-07-22T11:50:50Z</updated>
+  <entry>
+    <title>Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual</title>
+    <link href="https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/</id>
+    <updated>2026-07-22T00:01:32Z</updated>
+    <summary type="text">Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under OpenMDW-1.1, and runs on a single NVIDIA DGX Spark. The post Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+    <category term="data"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Claude Code hides your context % and usage limits. Here's how to see them.</title>
+    <link href="https://dev.to/technical_turtle/claude-code-hides-your-context-and-usage-limits-heres-how-to-see-them-37he" rel="alternate"/>
+    <id>https://dev.to/technical_turtle/claude-code-hides-your-context-and-usage-limits-heres-how-to-see-them-37he</id>
+    <updated>2026-07-22T11:22:02Z</updated>
+    <summary type="text">before: ~/code/myapp main after: ctx 48% | 5h 14% ~1h20m | 7d 21% ~5d10h | opus-4.8 ~/code/myapp main One command, and your Claude Code statusline now shows how full your context is and how close you are to the Pro/Max limits, each with a reset countdown, in front of whatever bar you already run. Claude Code hides both of those numbers until you slam into them: the context compacts out from under </summary>
+    <author><name>Technical Turtle</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Codex Made GPT Look Bad At UI</title>
+    <link href="https://dev.to/pranavbobde/maybe-gpt-wasnt-the-ui-problem-38ag" rel="alternate"/>
+    <id>https://dev.to/pranavbobde/maybe-gpt-wasnt-the-ui-problem-38ag</id>
+    <updated>2026-07-22T11:16:36Z</updated>
+    <summary type="text">I had this default belief for a while: Claude/Opus for UI. Codex/GPT for code. And honestly, I think a lot of devs had some version of that in their head too. Claude Code usually felt more tasteful. Codex frontend output had that same repeated smell: cards everywhere, generic dashboard polish, same-ish layouts, same-ish &quot;AI app&quot; vibe. So the easy conclusion was: GPT just sucks at UI. But after wat</summary>
+    <author><name>Pranav - (pranavb.xyz)</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Claude Code's 17 Official Skills: the Rule vs the Practice</title>
     <link href="https://dev.to/ohugonnot/claude-codes-17-official-skills-the-rule-vs-the-practice-4f15" rel="alternate"/>
@@ -434,30 +463,5 @@
     <updated>2026-07-21T14:22:27Z</updated>
     <summary type="text">Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models</summary>
     <author><name>Simon Willison</name></author>
-  </entry>
-  <entry>
-    <title>Gateway Talents in Solon AI: OpenAPI, Tool, and MCP Surfaces That Scale Without Context Blow-Up</title>
-    <link href="https://dev.to/solonjava/gateway-talents-in-solon-ai-openapi-tool-and-mcp-surfaces-that-scale-without-context-blow-up-36ca" rel="alternate"/>
-    <id>https://dev.to/solonjava/gateway-talents-in-solon-ai-openapi-tool-and-mcp-surfaces-that-scale-without-context-blow-up-36ca</id>
-    <updated>2026-07-19T23:35:24Z</updated>
-    <summary type="text">When an agent can see 80 tools at once, the model does not get smarter. It gets noisier. Token bills climb, tool choice drifts, and a simple “check order status” prompt suddenly carries half of your company’s OpenAPI surface. Solon AI (v4.0.3) answers that with the Gateway Talent trio in solon-ai-talent-gateway: Talent Source of tools Unit of management OpenApiGatewayTalent OpenAPI / Swagger docs </summary>
-    <author><name>Solon Framework</name></author>
-  </entry>
-  <entry>
-    <title>I built a site with 150+ browser-only dev tools (Astro + Vue 3 + TypeScript) — here's how it's put together</title>
-    <link href="https://dev.to/mi8bi/i-built-a-site-with-150-browser-only-dev-tools-astro-vue-3-typescript-heres-how-its-put-52l2" rel="alternate"/>
-    <id>https://dev.to/mi8bi/i-built-a-site-with-150-browser-only-dev-tools-astro-vue-3-typescript-heres-how-its-put-52l2</id>
-    <updated>2026-07-19T23:24:09Z</updated>
-    <summary type="text">What this is Torinoa Tools is a side project I've been building solo: 152 developer utilities — Base64 conversion, JSON formatting, a regex tester, subnet calculators, AES encrypt/decrypt, and more — all in one site, all running entirely client-side. No server processing — input never leaves the browser Bilingual (Japanese/English) via Astro Content Collections Static site built with Astro + Vue 3</summary>
-    <author><name>mi8bi</name></author>
-  </entry>
-  <entry>
-    <title>A Fireside Chat with Cat and Thariq from the Claude Code team</title>
-    <link href="https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything</id>
-    <updated>2026-07-21T12:54:02Z</updated>
-    <summary type="text">Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube. Below is an edited copy of the transcript, with extra</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
