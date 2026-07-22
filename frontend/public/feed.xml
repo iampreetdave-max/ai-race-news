@@ -4,7 +4,33 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-22T06:32:57Z</updated>
+  <updated>2026-07-22T09:29:39Z</updated>
+  <entry>
+    <title>OpenAI claims responsibility for the Hugging Face hack after its own models escaped a test sandbox</title>
+    <link href="https://the-decoder.com/openai-claims-responsibility-for-the-hugging-face-hack-after-its-own-models-escaped-a-test-sandbox/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-claims-responsibility-for-the-hugging-face-hack-after-its-own-models-escaped-a-test-sandbox/</id>
+    <updated>2026-07-22T08:41:30Z</updated>
+    <summary type="text">During an internal security evaluation, OpenAI models, including GPT-5.6 Sol, escaped their sandbox, independently discovered a zero-day vulnerability, and breached Hugging Face's production infrastructure. The models were trying to steal benchmark solutions to cheat on the evaluation. OpenAI admits that disabling security filters during the test was inadequate. The article OpenAI claims responsib</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Synthesia’s AI training platform is moving beyond videos into live coaching</title>
+    <link href="https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/</id>
+    <updated>2026-07-22T08:00:00Z</updated>
+    <summary type="text">Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.</summary>
+    <author><name>Rebecca Bellan</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Tencent Slides Most in Over a Year, Leading China Gaming Selloff</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-22/tencent-slides-most-in-over-a-year-leading-china-gaming-selloff" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-22/tencent-slides-most-in-over-a-year-leading-china-gaming-selloff</id>
+    <updated>2026-07-22T07:22:39Z</updated>
+    <summary type="text">Tencent Holdings Ltd. fell the most in over a year, dragging Chinese gaming stocks lower as investors grew concerned about its mobile gaming business and some funds rotated back into AI-related names.</summary>
+    <author><name>Charlotte Yang</name></author>
+  </entry>
   <entry>
     <title>Introducing the ChatGPT for small business program</title>
     <link href="https://openai.com/index/introducing-chatgpt-small-business-program" rel="alternate"/>
@@ -371,12 +397,45 @@
     <author><name>Rebecca Bellan</name></author>
   </entry>
   <entry>
+    <title>I Spent 16 Months Building My Own SaaS Solo — Why the Last 10% Takes Months</title>
+    <link href="https://dev.to/joshmsn/i-spent-16-months-building-my-own-saas-solo-the-last-10-took-longer-than-the-first-90-288" rel="alternate"/>
+    <id>https://dev.to/joshmsn/i-spent-16-months-building-my-own-saas-solo-the-last-10-took-longer-than-the-first-90-288</id>
+    <updated>2026-07-22T09:18:29Z</updated>
+    <summary type="text">16 months. Several hundred hours alongside client work. One finished product. I built LaizyNote — a business operating system for freelancers and solo entrepreneurs: notes, tasks, projects, time tracking, contacts, calendar, documents and an AI assistant in a single interface. I've written plenty about client projects. This is different — this one is mine. And that changes everything: the perspect</summary>
+    <author><name>Joshua</name></author>
+  </entry>
+  <entry>
     <title>OpenAI’s Altman to Brief US Officials on Next Wave of AI Models</title>
     <link href="https://www.bloomberg.com/news/articles/2026-07-21/openai-s-altman-to-brief-us-officials-on-next-wave-of-ai-models" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-07-21/openai-s-altman-to-brief-us-officials-on-next-wave-of-ai-models</id>
     <updated>2026-07-21T15:35:53Z</updated>
     <summary type="text">OpenAI Chief Executive Officer Sam Altman plans to brief the Trump administration and US lawmakers next week on the upcoming generation of artificial intelligence models as the US works to create a process to review the safety of cutting-edge AI systems, according to a senior company executive.</summary>
     <author><name>Maggie Eastland</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Anti-bot without melting your budget: the proxy waterfall.</title>
+    <link href="https://dev.to/votiakov/anti-bot-without-melting-your-budget-the-proxy-waterfall-4a04" rel="alternate"/>
+    <id>https://dev.to/votiakov/anti-bot-without-melting-your-budget-the-proxy-waterfall-4a04</id>
+    <updated>2026-07-22T09:05:44Z</updated>
+    <summary type="text">Residential proxies are the caviar of scraping infra. They work when nothing else does, and they cost accordingly. The mistake I see over and over is teams routing every single request through residential IPs because a handful of pages needed it. You end up paying steak prices to fetch a robots.txt. On one client I cut BrightData spend by 90% and ScrapingBee by 67% without touching success rates, </summary>
+    <author><name>Andrii Votiakov</name></author>
+  </entry>
+  <entry>
+    <title>Recover Missed LINE MINI App Purchase Webhooks with a 7-Day Reconciliation Job</title>
+    <link href="https://dev.to/unifyport/recover-missed-line-mini-app-purchase-webhooks-with-a-7-day-reconciliation-job-4k7c" rel="alternate"/>
+    <id>https://dev.to/unifyport/recover-missed-line-mini-app-purchase-webhooks-with-a-7-day-reconciliation-job-4k7c</id>
+    <updated>2026-07-22T09:02:38Z</updated>
+    <summary type="text">A successful LINE MINI App purchase reservation does not mean that the customer completed the payment. The final source of truth is the purchaseComplete webhook. But what happens when your endpoint is unavailable, a deployment breaks webhook processing, or the event reaches your server but the business transaction fails? LINE provides an event history API that can recover purchase webhooks from th</summary>
+    <author><name>unifyport</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code's 17 Official Skills: the Rule vs the Practice</title>
+    <link href="https://dev.to/ohugonnot/claude-codes-17-official-skills-the-rule-vs-the-practice-4f15" rel="alternate"/>
+    <id>https://dev.to/ohugonnot/claude-codes-17-official-skills-the-rule-vs-the-practice-4f15</id>
+    <updated>2026-07-22T09:00:03Z</updated>
+    <summary type="text">Anthropic's docs are clear: a SKILL.md should be under 500 lines. Their own docx skill is 590. I read all 17 of Anthropic's official skills, frontmatter by frontmatter, while building my own marketplace alongside. Every time, the same gap: the docs say one thing, the corpus does another. And the corpus is the one that's right. Here's what actually comes out when you read the code instead of the do</summary>
+    <author><name>Odilon HUGONNOT</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -387,67 +446,5 @@
     <summary type="text">Xiaomi trained Xiaomi-Robotics-1 on more than 100,000 hours of motion data collected by people using camera-equipped handheld grippers rather than robots. Adding data improved performance far more than increasing model size. The gains haven't plateaued, though absolute success rates remain low. The article Xiaomi-Robotics-1 shows that more data beats bigger models when training robots to move appe</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Meta Open-Sources Astryx: An Agent-Ready React Design System With 150+ Accessible Components, Seven Themes, and a CLI</title>
-    <link href="https://www.marktechpost.com/2026/07/21/meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/21/meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli/</id>
-    <updated>2026-07-21T08:49:55Z</updated>
-    <summary type="text">Meta has open-sourced Astryx, the React and StyleX design system it ran internally for eight years across 13,000+ apps. It ships 150+ accessible components, seven themes, dark mode, templates, and an agent-ready CLI under MIT — with React 19+ required. The post Meta Open-Sources Astryx: An Agent-Ready React Design System With 150+ Accessible Components, Seven Themes, and a CLI appeared first on Ma</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Google launches a cheaper alternative to large AI security models like Mythos</title>
-    <link href="https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model" rel="alternate"/>
-    <id>https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model</id>
-    <updated>2026-07-21T15:00:00Z</updated>
-    <summary type="text">Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a &quot;cost-efficient and highly capable alternative&quot; to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model […]</summary>
-    <author><name>Emma Roth</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Nvidia Wants to Own Every Chip Inside AI Data Centers</title>
-    <link href="https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/" rel="alternate"/>
-    <id>https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/</id>
-    <updated>2026-07-21T15:00:00Z</updated>
-    <summary type="text">Nvidia’s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company’s growing ambition to power every layer of AI infrastructure.</summary>
-    <author><name>Lauren Goode</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Nvidia Touts Progress Getting New Rubin Design to Customers</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/nvidia-touts-progress-getting-new-rubin-design-to-customers" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/nvidia-touts-progress-getting-new-rubin-design-to-customers</id>
-    <updated>2026-07-21T15:00:00Z</updated>
-    <summary type="text">Nvidia Corp., the semiconductor company at the heart of the artificial intelligence boom, said its latest chip designs are making their way to customers and will help solidify the chipmaker’s leadership in the industry.</summary>
-    <author><name>Ian King</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI music generator Suno breach affects 55M users, per Have I Been Pwned</title>
-    <link href="https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/</id>
-    <updated>2026-07-21T14:48:18Z</updated>
-    <summary type="text">A hacker took names, phone numbers, and physical addresses of millions of customers who used AI music generator Suno.</summary>
-    <author><name>Zack Whittaker</name></author>
-  </entry>
-  <entry>
-    <title>China’s Moonshot in Talks on Pre-IPO Funds at $50 Billion Value</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/china-s-moonshot-in-talks-on-pre-ipo-funds-at-50-billion-value" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/china-s-moonshot-in-talks-on-pre-ipo-funds-at-50-billion-value</id>
-    <updated>2026-07-21T14:23:58Z</updated>
-    <summary type="text">Moonshot AI is preparing to begin discussions in August on a final round of fundraising before listing in Hong Kong, capitalizing on the excitement around its latest model to raise capital at a valuation of as much as $50 billion.</summary>
-    <author><name>Haze Fan and Pei Li</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Chinese open-weight models are cheap. Washington is deciding what that costs.</title>
-    <link href="https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk/</id>
-    <updated>2026-07-21T08:00:00Z</updated>
-    <summary type="text">Enterprises evaluating Chinese open-weight models this month face a question that has nothing to do with benchmarks: whether using one will still be straightforward in a year. Moonshot AI’s Kimi K3 arrived on July 16 as the largest open-weight model yet released, and within days it had reopened a policy argument in Washington that had […] The post Chinese open-weight models are cheap. Washington i</summary>
-    <author><name>Dashveenjit Kaur</name></author>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-22T06:32:57Z</updated>
+  <updated>2026-07-22T09:29:39Z</updated>
   <entry>
     <title>Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan</title>
     <link href="https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/" rel="alternate"/>
@@ -21,6 +21,16 @@
     <updated>2026-07-20T17:36:05Z</updated>
     <summary type="text">Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for example an object detector missing objects. While methods such as data augmentation or Adversarial Training can improve empirical robustness, th</summary>
     <author><name>Alessio Lomuscio</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/</id>
+    <updated>2026-07-22T07:04:40Z</updated>
+    <summary type="text">Paper:https://arxiv.org/abs/2607.19058 Code (GitHub):https://github.com/nuemaan/skewadam Hi everyone, I just published a preprint on a new optimizer designed to tackle the massive VRAM bottleneck in Mixture-of-Experts (MoE) training. If you've trained MoEs, you know that optimizer state is usually the largest single line item in the memory budget. AdamW, for example, spends 50.6 GB of state memory</summary>
+    <author><name>/u/Kooky-Ad-4124</name></author>
+    <category term="hardware"/>
     <category term="research"/>
   </entry>
   <entry>

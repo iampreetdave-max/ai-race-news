@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-22T06:32:57Z</updated>
+  <updated>2026-07-22T09:29:39Z</updated>
+  <entry>
+    <title>Claude Code's 17 Official Skills: the Rule vs the Practice</title>
+    <link href="https://dev.to/ohugonnot/claude-codes-17-official-skills-the-rule-vs-the-practice-4f15" rel="alternate"/>
+    <id>https://dev.to/ohugonnot/claude-codes-17-official-skills-the-rule-vs-the-practice-4f15</id>
+    <updated>2026-07-22T09:00:03Z</updated>
+    <summary type="text">Anthropic's docs are clear: a SKILL.md should be under 500 lines. Their own docx skill is 590. I read all 17 of Anthropic's official skills, frontmatter by frontmatter, while building my own marketplace alongside. Every time, the same gap: the docs say one thing, the corpus does another. And the corpus is the one that's right. Here's what actually comes out when you read the code instead of the do</summary>
+    <author><name>Odilon HUGONNOT</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>I lint-scanned 36 popular MCP servers. A third of them are failing your agent.</title>
     <link href="https://dev.to/tengbyte/i-lint-scanned-36-popular-mcp-servers-a-third-of-them-are-failing-your-agent-102d" rel="alternate"/>
@@ -450,15 +459,5 @@
     <summary type="text">Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube. Below is an edited copy of the transcript, with extra</summary>
     <author><name>Simon Willison</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Are AI Agent Engrams Open Source or Proprietary?</title>
-    <link href="https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh" rel="alternate"/>
-    <id>https://dev.to/plur9/are-ai-agent-engrams-open-source-or-proprietary-58kh</id>
-    <updated>2026-07-19T21:22:44Z</updated>
-    <summary type="text">Are AI Agent Engrams Open Source or Proprietary? The short answer: both, and the split matters. The major agent-memory engines — Mem0, Letta, Cognee, Graphiti, LangMem, and PLUR — are all Apache-2.0 or MIT licensed on GitHub. But &quot;open source&quot; and &quot;open format&quot; are not the same thing. A project can ship under Apache-2.0 while storing your memories in opaque vector blobs you cannot read, edit, or e</summary>
-    <author><name>gregor</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
   </entry>
 </feed>
