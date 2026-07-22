@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-22T18:11:01Z</updated>
+  <updated>2026-07-22T20:13:43Z</updated>
   <entry>
     <title>Building AI infrastructure with the Effingham County community</title>
     <link href="https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community" rel="alternate"/>
@@ -35,6 +35,33 @@
     <category term="hardware"/>
     <category term="data"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How I Solved Claude Code Silently Missing the SQS Trigger on My Lambda</title>
+    <link href="https://dev.to/siddharth_pandey_27/how-i-solved-claude-code-silently-missing-the-sqs-trigger-on-my-lambda-5a" rel="alternate"/>
+    <id>https://dev.to/siddharth_pandey_27/how-i-solved-claude-code-silently-missing-the-sqs-trigger-on-my-lambda-5a</id>
+    <updated>2026-07-22T19:50:35Z</updated>
+    <summary type="text">I asked Claude Code to add a handler for processOrders, a Lambda wired up to consume from orders-queue and read the matching row out of the Orders DynamoDB table. It wrote one immediately — confidently, in one shot, the way it writes most things. It also parsed the event body wrong. The problem: Claude Code didn't know the Lambda had an SQS trigger processOrders is invoked by orders-queue through </summary>
+    <author><name>Siddharth Pandey</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ML Zoomcamp WEEK 10: Kubernetes. Finally!!!</title>
+    <link href="https://dev.to/olyray/ml-zoomcamp-week-10-kubernetes-finally-3ah5" rel="alternate"/>
+    <id>https://dev.to/olyray/ml-zoomcamp-week-10-kubernetes-finally-3ah5</id>
+    <updated>2026-07-22T19:38:42Z</updated>
+    <summary type="text">Like Docker, Kubernetes is one of those words I see being thrown around, and I've always been curious about it. Which is one of the reasons why I decided to do Machine Learning Zoomcamp, because of the introduction to Kubernetes the course offers. So, What is Kubernetes? From my current understanding, Kubernetes is used for scaling. In this context, for scaling machine learning models. Traditional</summary>
+    <author><name>Olamide Olanrewaju</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Has Claude Code changed your role from coding to making engineering decisions?</title>
+    <link href="https://dev.to/sanasar_yuzbashyan_277daa/has-claude-code-changed-your-role-from-coding-to-making-engineering-decisions-28a0" rel="alternate"/>
+    <id>https://dev.to/sanasar_yuzbashyan_277daa/has-claude-code-changed-your-role-from-coding-to-making-engineering-decisions-28a0</id>
+    <updated>2026-07-22T19:26:57Z</updated>
+    <summary type="text">For the last 8–9 months, I haven't written a single line of code manually. I've been building entirely with Claude Code. My day now looks something like this: Understand what the client actually needs Ask clarifying questions until the requirement is unambiguous Translate those requirements into precise instructions Review Claude's implementation Decide whether it's good enough to ship At some poi</summary>
+    <author><name>Sanasar Yuzbashyan</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What 90% Line-Rate Utilization on a Single 100GbE Port Means: Analyzing Network Bottlenecks in Inference Storage</title>
@@ -435,33 +462,5 @@
     <summary type="text">A simple tutorial series on go in Hinglish. Jitna mujhe aata hai utna, aur zyada tar mere notes se! Note: Me non-native speaker hu to spelling mistakes to honge, is liye Hinglish spellings aur grammar ke liye main AI use karunga, par dev ke bot ko pata nahi chalega kyuki ye English nahi hai 😉 Parichay / Intro Shuruat hum isse karenge ki Go kya hai aur uske fayde kya hain. Pehle hum Wikipedia ki de</summary>
     <author><name>csm</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric</title>
-    <link href="https://arxiv.org/abs/2607.18237v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.18237v1</id>
-    <updated>2026-07-20T17:59:51Z</updated>
-    <summary type="text">Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each</summary>
-    <author><name>Richard Zhang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Run Claude Code Agents for 24+ Hours</title>
-    <link href="https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/</id>
-    <updated>2026-07-20T16:30:00Z</updated>
-    <summary type="text">Apply long-running coding agents to become a more productive engineer The post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Vibe-coded a tool to ELI5 research papers in-place [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/</id>
-    <updated>2026-07-22T06:21:48Z</updated>
-    <summary type="text">As I was reading interp papers, I found myself copy-pasting passages back and forth to Claude to parse through them. Eventually just vibe-coded a tool to annotate and discuss papers in place. https://paper-reader.dev - select a passage, a formula, or a figure, and explain the selection with the full paper as context. You can also select a citation to get a brief overview of the cited paper without</summary>
-    <author><name>/u/tumanian</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
