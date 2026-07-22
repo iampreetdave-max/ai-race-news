@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-22T16:22:25Z</updated>
+  <updated>2026-07-22T18:11:01Z</updated>
   <entry>
     <title>Building AI infrastructure with the Effingham County community</title>
     <link href="https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community" rel="alternate"/>
@@ -35,6 +35,32 @@
     <category term="hardware"/>
     <category term="data"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What 90% Line-Rate Utilization on a Single 100GbE Port Means: Analyzing Network Bottlenecks in Inference Storage</title>
+    <link href="https://dev.to/mingxintech/what-90-line-rate-utilization-on-a-single-100gbe-port-means-analyzing-network-bottlenecks-in-531m" rel="alternate"/>
+    <id>https://dev.to/mingxintech/what-90-line-rate-utilization-on-a-single-100gbe-port-means-analyzing-network-bottlenecks-in-531m</id>
+    <updated>2026-07-22T18:01:07Z</updated>
+    <summary type="text">In LLM inference clusters, the core bottleneck for KV Cache storage acceleration often lies not in the storage medium itself, but in network bandwidth. Mingxin FX100 achieves 90% line-rate utilization on a single 100GbE port in measured tests (approximately 11.25 GB/s effective bandwidth). This metric means that in typical inference deployments, the network is no longer the primary limiting factor</summary>
+    <author><name>Mingxin Technology</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>TypeScript 6.0 `--noEmit` and Type-Only Builds: Why Your CI Pipeline Should Never Call tsc for Output Again</title>
+    <link href="https://dev.to/jsmanifest/typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb" rel="alternate"/>
+    <id>https://dev.to/jsmanifest/typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb</id>
+    <updated>2026-07-22T17:46:59Z</updated>
+    <summary type="text">TypeScript 6.0 --noEmit and Type-Only Builds: Why Your CI Pipeline Should Never Call tsc for Output Again This article was written with the assistance of AI, under human supervision and review. Most TypeScript build problems stem from a fundamental confusion: teams treat the TypeScript compiler as both a type-checker and a build tool when it should only ever be the former. The typical CI pipeline </summary>
+    <author><name>jsmanifest</name></author>
+  </entry>
+  <entry>
+    <title>AI Can Write Code Faster Than I Can Responsibly Review It</title>
+    <link href="https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4" rel="alternate"/>
+    <id>https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4</id>
+    <updated>2026-07-22T17:30:30Z</updated>
+    <summary type="text">I use Claude Code almost every day while building Zenovay. It can scaffold a feature, trace a bug across several files, write tests, refactor an old module, and explain an unfamiliar part of the codebase before I have finished my coffee. That sounds like pure leverage. But it created a problem I did not expect: AI can produce code much faster than I can build a reliable mental model of it. The bot</summary>
+    <author><name>Zenovay</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>From Prompting to Production: A Practical Framework for AI-Assisted Software Development</title>
@@ -436,35 +462,6 @@
     <updated>2026-07-22T06:21:48Z</updated>
     <summary type="text">As I was reading interp papers, I found myself copy-pasting passages back and forth to Claude to parse through them. Eventually just vibe-coded a tool to annotate and discuss papers in place. https://paper-reader.dev - select a passage, a formula, or a figure, and explain the selection with the full paper as context. You can also select a citation to get a brief overview of the cited paper without</summary>
     <author><name>/u/tumanian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Future of AI in Coding: Flexibility Over Generation</title>
-    <link href="https://dev.to/davekurian/the-future-of-ai-in-coding-flexibility-over-generation-5fa" rel="alternate"/>
-    <id>https://dev.to/davekurian/the-future-of-ai-in-coding-flexibility-over-generation-5fa</id>
-    <updated>2026-07-20T16:06:38Z</updated>
-    <summary type="text">Vibe coding, the natural-language-to-code approach Andrej Karpathy named last year, now ships in over 25 million apps per Inferya's count. That single number should retire the &quot;which AI coding tool is winning&quot; framing — the answer is &quot;all of them, simultaneously, because the substrate won.&quot; The more useful question is what each tool is actually for, and the data Exceeds published this July gets us</summary>
-    <author><name>Dave Kurian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building Dev-Code: An Agentic AI Coding Assistant With RAG Memory and VS Code Integration</title>
-    <link href="https://dev.to/nishal_poojary_235/building-dev-code-an-agentic-ai-coding-assistant-with-rag-memory-and-vs-code-integration-1hld" rel="alternate"/>
-    <id>https://dev.to/nishal_poojary_235/building-dev-code-an-agentic-ai-coding-assistant-with-rag-memory-and-vs-code-integration-1hld</id>
-    <updated>2026-07-20T14:05:28Z</updated>
-    <summary type="text">I recently completed Dev-Code, an AI coding assistant project built around Agentic AI, RAG-style memory, and developer-tool integration. GitHub repo: Ailover123 / Dev-Code Dev-Code Dev-Code is an A2A ReAct debugging agent for Python and JavaScript code. It runs broken code in a local sandbox, analyzes the error, searches memory and web context, generates a fix with Gemini when needed, verifies the</summary>
-    <author><name>Nishal Poojary</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming</title>
-    <link href="https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming" rel="alternate"/>
-    <id>https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming</id>
-    <updated>2026-07-20T14:00:23Z</updated>
-    <summary type="text">This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agentic work.</summary>
-    <author><name>Shittu Olumide</name></author>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>
