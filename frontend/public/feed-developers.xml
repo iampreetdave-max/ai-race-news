@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-22T11:50:50Z</updated>
+  <updated>2026-07-22T14:05:02Z</updated>
+  <entry>
+    <title>Building AI infrastructure with the Effingham County community</title>
+    <link href="https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community" rel="alternate"/>
+    <id>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</id>
+    <updated>2026-07-22T13:00:00Z</updated>
+    <summary type="text">OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
   <entry>
     <title>Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual</title>
     <link href="https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/" rel="alternate"/>
@@ -15,6 +25,26 @@
     <category term="hardware"/>
     <category term="data"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Never Let the Model Pick the Tenant ID: Securing an LLM Agent in Go</title>
+    <link href="https://dev.to/julesrobineau/never-let-the-model-pick-the-tenant-id-securing-an-llm-agent-in-go-o6e" rel="alternate"/>
+    <id>https://dev.to/julesrobineau/never-let-the-model-pick-the-tenant-id-securing-an-llm-agent-in-go-o6e</id>
+    <updated>2026-07-22T13:33:57Z</updated>
+    <summary type="text">TL;DR: an LLM that calls tools is a client you cannot trust. And it holds your production credentials. The most important rule fits in one sentence. Your server decides who the user is, never the model. In this article, I show how I secured a real LLM agent in Go, in production. Everything also applies to MCP servers. This article is for Go developers who put an LLM agent or an MCP server in produ</summary>
+    <author><name>Jules Robineau</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Build an LLM Agent That Can Write and Run Code</title>
+    <link href="https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/</id>
+    <updated>2026-07-22T13:30:00Z</updated>
+    <summary type="text">A hands-on walkthrough of code execution with the OpenAI Agents SDK and Docker The post Build an LLM Agent That Can Write and Run Code appeared first on Towards Data Science.</summary>
+    <author><name>Shuai Guo</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Claude Code hides your context % and usage limits. Here's how to see them.</title>
@@ -436,32 +466,5 @@
     <updated>2026-07-20T07:41:40Z</updated>
     <summary type="text">Who Cleans the Code? My Journey from DevOps Confusion to Building a Secure CI/CD Pipeline. Starting a career in DevOps is like drinking water from a fire-hose. You are hit with an overwhelming number of tools, frameworks, and acronyms.When I first started, I found myself stuck on a fundamental question: Who is actually responsible for code quality? Is it **Quality Assurance (QA)**, or is it **DevO</summary>
     <author><name>Charles Otugeh</name></author>
-  </entry>
-  <entry>
-    <title>AgentGrove v0.1.42: a DBeaver-style database tree inside your agent workspace</title>
-    <link href="https://dev.to/arnab_karmakar_41f6ef02ca/agentgrove-v0142-a-dbeaver-style-database-tree-inside-your-agent-workspace-23pf" rel="alternate"/>
-    <id>https://dev.to/arnab_karmakar_41f6ef02ca/agentgrove-v0142-a-dbeaver-style-database-tree-inside-your-agent-workspace-23pf</id>
-    <updated>2026-07-20T04:36:49Z</updated>
-    <summary type="text">Last week I launched AgentGrove, an open-source local workspace that runs AI coding agents (Claude Code, opencode, Kimi) in isolated git worktrees. Today's release, v0.1.42, makes its database tooling much more useful: a DBeaver-style database tree. What's new The left rail's Database view now renders the full connection → databases → tables tree: Every database on the server, expandable and lazy-</summary>
-    <author><name>Arnab Karmakar</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Designing Scalable Data Pipelines for Machine Learning Applications</title>
-    <link href="https://dev.to/eva_clari_289d85ecc68da48/designing-scalable-data-pipelines-for-machine-learning-applications-1boo" rel="alternate"/>
-    <id>https://dev.to/eva_clari_289d85ecc68da48/designing-scalable-data-pipelines-for-machine-learning-applications-1boo</id>
-    <updated>2026-07-20T04:15:00Z</updated>
-    <summary type="text">Most ML projects do not fail because the model is wrong. They fail because the data pipeline feeding the model cannot survive contact with production. A notebook that trains a model on a clean CSV proves nothing about whether that model gets fresh, correct, timely data once real users and real systems are involved. Data engineering and ML engineering are converging fast. Teams that treat pipeline </summary>
-    <author><name>Eva Clari</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Nativ: Run AI models locally on your Mac</title>
-    <link href="https://simonwillison.net/2026/Jul/21/nativ/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/21/nativ/#atom-everything</id>
-    <updated>2026-07-21T14:22:27Z</updated>
-    <summary type="text">Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models</summary>
-    <author><name>Simon Willison</name></author>
   </entry>
 </feed>
