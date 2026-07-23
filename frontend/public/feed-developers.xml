@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-23T10:27:15Z</updated>
+  <updated>2026-07-23T12:26:29Z</updated>
+  <entry>
+    <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
+    <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
+    <id>https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/</id>
+    <updated>2026-07-23T12:24:53Z</updated>
+    <summary type="text">Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal</title>
     <link href="https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/" rel="alternate"/>
@@ -43,6 +52,25 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Building MaxOS #6: The Architecture Is Finished. Now It's Time to Build.</title>
+    <link href="https://dev.to/maxpaardekam/building-maxos-6-the-architecture-is-finished-now-its-time-to-build-1nb7" rel="alternate"/>
+    <id>https://dev.to/maxpaardekam/building-maxos-6-the-architecture-is-finished-now-its-time-to-build-1nb7</id>
+    <updated>2026-07-23T12:15:25Z</updated>
+    <summary type="text">A few weeks ago, MaxOS was just an idea sitting in my notes. Today, I finished designing the architecture that will power it. Ironically, I still haven't written much application code. And I think that was the right decision. Looking Back When I started this project, I thought I'd spend most of my time inside Cursor writing TypeScript. Instead, I've spent days designing. At first, that felt like I</summary>
+    <author><name>Max Paardekam</name></author>
+  </entry>
+  <entry>
+    <title>7 Best Claude Code Alternatives for CLI Agentic Coding</title>
+    <link href="https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding" rel="alternate"/>
+    <id>https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding</id>
+    <updated>2026-07-23T12:00:42Z</updated>
+    <summary type="text">Discover seven cheaper, faster Claude Code alternatives for CLI agentic coding, with open-source tools, local models, MCP support, and better context control.</summary>
+    <author><name>Abid Ali Awan</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Your Safety Guardrails Just Became an Incident Response Blocker</title>
@@ -128,17 +156,6 @@
     <updated>2026-07-23T03:35:07Z</updated>
     <summary type="text">Back on 2026-07-14 I found and fixed a real landmine in this repo: requirements.txt had mcp[cli] with no version constraint at all. Any fresh install could pull in a breaking major version with zero warning. I pinned it to mcp[cli]&gt;=1.28.0,&lt;2.0.0 and moved on, feeling like I'd closed the gap. I hadn't. I'd only pinned the library. The actual contract my MCP server exposes to any agent that connect</summary>
     <author><name>Enjoy Kumawat</name></author>
-  </entry>
-  <entry>
-    <title>Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual</title>
-    <link href="https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/</id>
-    <updated>2026-07-22T00:01:32Z</updated>
-    <summary type="text">Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under OpenMDW-1.1, and runs on a single NVIDIA DGX Spark. The post Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="hardware"/>
-    <category term="data"/>
-    <category term="agents"/>
   </entry>
   <entry>
     <title>Hunting Down Zombie Agents: Logging Subagent Usage with a Claude Code Stop Hook</title>
@@ -434,25 +451,6 @@
     <updated>2026-07-21T15:48:36Z</updated>
     <summary type="text">Kimi K3 took first place in Arena's Frontend Code evaluation the week it launched, and it holds a 1M-token context — but Moonshot doesn't ship a coding agent, and your coding agent doesn't ship Kimi K3. Claude Code is locked to Anthropic's API by default, Cursor to its own backend, Cline to whatever key you hand it. LLM Gateway bridges that gap. It speaks both the Anthropic and OpenAI API formats,</summary>
     <author><name>smakosh</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Fixed Hallucinations by Switching from AGENTS.md to AGENTS.db</title>
-    <link href="https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1" rel="alternate"/>
-    <id>https://dev.to/0x1brahim/how-i-fixed-hallucinations-by-switching-from-agentsmd-to-agentsdb-2ch1</id>
-    <updated>2026-07-21T14:01:18Z</updated>
-    <summary type="text">Before I dive in, a bit of background on how our agentic workflow at Exam Intelligence for deep analysis and notes generation works... Initially, I tried to create a complete end-to-end LangGraph workflow. Except, things always ran into unexpected bugs caused by external factors like missing PDFs, being unable to find papers, failing to parse them, or agents returning 503 errors or broken JSONs. A</summary>
-    <author><name>Mohammed Ibrahim Khan</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Run the Mythos Enhanced Coding Model Locally with llama.cpp and Pi</title>
-    <link href="https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi" rel="alternate"/>
-    <id>https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi</id>
-    <updated>2026-07-21T14:00:42Z</updated>
-    <summary type="text">Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compatible API.</summary>
-    <author><name>Abid Ali Awan</name></author>
     <category term="llm"/>
   </entry>
 </feed>
