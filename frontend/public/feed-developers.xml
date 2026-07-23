@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-23T00:03:46Z</updated>
+  <updated>2026-07-23T04:18:16Z</updated>
   <entry>
     <title>Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost</title>
     <link href="https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/" rel="alternate"/>
@@ -41,6 +41,39 @@
     <updated>2026-07-22T00:00:00Z</updated>
     <summary type="text">NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>L1.9: I built a prompt injection firewall for AI agents (28 detection rules)</title>
+    <link href="https://dev.to/edison_flores_6d2cd381b13/l19-i-built-a-prompt-injection-firewall-for-ai-agents-28-detection-rules-18nb" rel="alternate"/>
+    <id>https://dev.to/edison_flores_6d2cd381b13/l19-i-built-a-prompt-injection-firewall-for-ai-agents-28-detection-rules-18nb</id>
+    <updated>2026-07-23T04:00:30Z</updated>
+    <summary type="text">Prompt injection is the #1 attack against AI agents. Nobody solves it well. I built L1.9 — a prompt injection defense layer that scans every tool description, system prompt, and skill metadata BEFORE the agent installs the skill. The problem When an agent installs an MCP server, that server tool descriptions become part of the LLM context window. If a tool description says ignore previous instruct</summary>
+    <author><name>Edison Flores</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How do you accurately implement a messy Figma design with AI coding tools?</title>
+    <link href="https://dev.to/merlinxu/how-do-you-accurately-implement-a-messy-figma-design-with-ai-coding-tools-8g3" rel="alternate"/>
+    <id>https://dev.to/merlinxu/how-do-you-accurately-implement-a-messy-figma-design-with-ai-coding-tools-8g3</id>
+    <updated>2026-07-23T03:47:57Z</updated>
+    <summary type="text">I use Codex to implement frontend pages from Figma designs. When the Figma file is well structured, the workflow is straightforward. But some real project files have poorly named layers, inconsistent grouping, and unclear spacing or alignment rules. My current workflow is: Give Codex as much Figma context as possible. Use detailed prompts that discourage unnecessary absolute positioning and favor </summary>
+    <author><name>Merlin</name></author>
+  </entry>
+  <entry>
+    <title>My MCP Tool Defaults to Draft Mode. The Script That Actually Publishes My Blog Doesn't Call It.</title>
+    <link href="https://dev.to/enjoy_kumawat/my-mcp-tool-defaults-to-draft-mode-the-script-that-actually-publishes-my-blog-doesnt-call-it-4176" rel="alternate"/>
+    <id>https://dev.to/enjoy_kumawat/my-mcp-tool-defaults-to-draft-mode-the-script-that-actually-publishes-my-blog-doesnt-call-it-4176</id>
+    <updated>2026-07-23T03:35:49Z</updated>
+    <summary type="text">A trending post this week was about someone giving their agent the ability to send email — and the obvious first question in the comments was &quot;what stops it from sending the wrong thing.&quot; I've had a version of that question sitting unexamined in my own repo for weeks, because I built the same shape of thing: an MCP tool with write access to a public identity, plus a completely separate unattended </summary>
+    <author><name>Enjoy Kumawat</name></author>
+  </entry>
+  <entry>
+    <title>My requirements.txt Is Pinned. My MCP Server's Actual Contract Isn't, and Nothing Would Catch It Changing.</title>
+    <link href="https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng" rel="alternate"/>
+    <id>https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng</id>
+    <updated>2026-07-23T03:35:07Z</updated>
+    <summary type="text">Back on 2026-07-14 I found and fixed a real landmine in this repo: requirements.txt had mcp[cli] with no version constraint at all. Any fresh install could pull in a breaking major version with zero warning. I pinned it to mcp[cli]&gt;=1.28.0,&lt;2.0.0 and moved on, feeling like I'd closed the gap. I hadn't. I'd only pinned the library. The actual contract my MCP server exposes to any agent that connect</summary>
+    <author><name>Enjoy Kumawat</name></author>
   </entry>
   <entry>
     <title>Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual</title>
@@ -419,40 +452,6 @@
     <updated>2026-07-21T06:12:18Z</updated>
     <summary type="text">OpenAI just bought a cloud company, and if you only read the headline you'd miss the point. This deal tells you exactly where AI coding is heading: out of your editor and into the cloud. Here's what happened and why it matters. What OpenAI actually bought On June 11, 2026, OpenAI announced it's acquiring Ona, a German startup you might know by its old name, Gitpod. Terms weren't disclosed, and the</summary>
     <author><name>Muskan Bandta</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LangChain Advanced Patterns: Building Production-Grade AI Systems</title>
-    <link href="https://dev.to/mzunain/langchain-advanced-patterns-building-production-grade-ai-systems-4d65" rel="alternate"/>
-    <id>https://dev.to/mzunain/langchain-advanced-patterns-building-production-grade-ai-systems-4d65</id>
-    <updated>2026-07-21T06:00:00Z</updated>
-    <summary type="text">Beyond Basic LangChain You've built a simple agent. Now scale it. Production LangChain systems require: Memory management Error handling Performance optimization Monitoring &amp; observability Memory Patterns Conversation Memory from langchain.memory import ConversationBufferMemory memory = ConversationBufferMemory() agent = initialize_agent( tools, llm, memory=memory, agent_type=&quot;conversational&quot; ) Su</summary>
-    <author><name>Muhammad Zulqarnain</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>projports: find every port your project declares</title>
-    <link href="https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h" rel="alternate"/>
-    <id>https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h</id>
-    <updated>2026-07-21T03:20:55Z</updated>
-    <summary type="text">Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get EADDRINUSE or a silent hang because Postgres is mapped to 5433 in Compose and 5432 in someone's muscle memory. The ports are not secret. They are scattered across docker-compose.yml, .env.example, package.json scripts, Vite/Next configs, Spring application.yml, Kubernetes manifests, </summary>
-    <author><name>SybilGambleyyu</name></author>
-  </entry>
-  <entry>
-    <title>openFDA Adverse Event API: Paging Past 25,000 and Flattening</title>
-    <link href="https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l" rel="alternate"/>
-    <id>https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l</id>
-    <updated>2026-07-21T03:18:57Z</updated>
-    <summary type="text">You wrote a loop against api.fda.gov/drug/event.json, incremented skip, and at 25,001 got {&quot;code&quot;:&quot;BAD_REQUEST&quot;,&quot;message&quot;:&quot;Skip value must 25000 or less.&quot;} (yes, the API's own message is missing the word &quot;be&quot;). Meanwhile your row count is 100x what you expected, your daily cron returns nothing, and patient.drug[] refuses to become a CSV. Every one of those has a specific, checkable cause. Every nu</summary>
-    <author><name>Mayd-It</name></author>
-  </entry>
-  <entry>
-    <title>Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model</title>
-    <link href="https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/</id>
-    <updated>2026-07-20T01:56:50Z</updated>
-    <summary type="text">A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate what a fine-tune actually inherits from real capability, and flag the licensing question the model card leaves open. The post Someone Fine-Tuned OpenBMB’s Mi</summary>
-    <author><name>Michal Sutter</name></author>
     <category term="llm"/>
   </entry>
 </feed>
