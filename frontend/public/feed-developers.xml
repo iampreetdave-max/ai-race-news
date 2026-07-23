@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-23T07:35:45Z</updated>
+  <updated>2026-07-23T10:27:15Z</updated>
   <entry>
     <title>Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal</title>
     <link href="https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/" rel="alternate"/>
@@ -43,6 +43,33 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your Safety Guardrails Just Became an Incident Response Blocker</title>
+    <link href="https://dev.to/coridev/your-safety-guardrails-just-became-an-incident-response-blocker-3n1j" rel="alternate"/>
+    <id>https://dev.to/coridev/your-safety-guardrails-just-became-an-incident-response-blocker-3n1j</id>
+    <updated>2026-07-23T10:06:24Z</updated>
+    <summary type="text">The hook An AI-native company got attacked by an autonomous AI agent, and when it turned to frontline American models for help investigating, those models said no. So it reached for a Chinese open-source model instead. Sit with that for a second — the safety features built to protect us just became the reason a defender had to shop elsewhere. Where this fits This isn't really a &quot;China vs. US AI&quot; s</summary>
+    <author><name>Cor E</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Introducing tinbase — local Supabase without Docker (one process, real Postgres)</title>
+    <link href="https://dev.to/russel_dsouza_bd584a3cb2a/introducing-tinbase-local-supabase-without-docker-one-process-real-postgres-o0b" rel="alternate"/>
+    <id>https://dev.to/russel_dsouza_bd584a3cb2a/introducing-tinbase-local-supabase-without-docker-one-process-real-postgres-o0b</id>
+    <updated>2026-07-23T10:04:50Z</updated>
+    <summary type="text">Supabase local dev = a 12-container, 2.3 GB Docker stack. tinbase serves the same APIs from one 58 MB process. No Docker. It's real Postgres 17 — RLS, auth.uid(), jsonb, triggers, foreign keys all behave like hosted Supabase. The official supabase-js SDK works unchanged (168/168 integration tests pass). The whole backend — database included — can run inside a browser tab. Open source, MIT. Try it:</summary>
+    <author><name>Russel Dsouza</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>GitLab CI &quot;Cannot connect to unix:///var/run/docker.sock&quot;</title>
+    <link href="https://dev.to/devopsstart/gitlab-ci-cannot-connect-to-unixvarrundockersock-1doj" rel="alternate"/>
+    <id>https://dev.to/devopsstart/gitlab-ci-cannot-connect-to-unixvarrundockersock-1doj</id>
+    <updated>2026-07-23T09:39:01Z</updated>
+    <summary type="text">The fast fix If your GitLab CI job fails with Cannot connect to the Docker daemon at unix:///var/run/docker.sock, your docker client is looking for a local socket that does not exist inside the job container, because DOCKER_HOST is not set. Point the client at the docker:dind service over TCP and the error goes away: build: image: docker:28.3 services: - name: docker:28.3-dind alias: docker variab</summary>
+    <author><name>DevOps Start</name></author>
   </entry>
   <entry>
     <title>You do not need to Dockerize your entire app to run multiple agent workspaces</title>
@@ -426,32 +453,6 @@
     <updated>2026-07-21T14:00:42Z</updated>
     <summary type="text">Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compatible API.</summary>
     <author><name>Abid Ali Awan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We Built Our Own AI PR Reviewer for Azure DevOps — Then Benchmarked It Against CodeRabbit and Friends</title>
-    <link href="https://dev.to/vicky_acedia/we-built-our-own-ai-pr-reviewer-for-azure-devops-then-benchmarked-it-against-coderabbit-and-5dne" rel="alternate"/>
-    <id>https://dev.to/vicky_acedia/we-built-our-own-ai-pr-reviewer-for-azure-devops-then-benchmarked-it-against-coderabbit-and-5dne</id>
-    <updated>2026-07-21T13:58:32Z</updated>
-    <summary type="text">An honest comparison between a single-file, homegrown review desk and the commercial AI code review tools — four tables, no marketing. The goal I was trying to achieve Our team is small — three people handling support and development — and our pull request hygiene had a traceability problem. PRs were getting merged with no work items linked, no reviewer approvals, and empty descriptions. When a bu</summary>
-    <author><name>Vignesh Athiappan</name></author>
-  </entry>
-  <entry>
-    <title>Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</title>
-    <link href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/" rel="alternate"/>
-    <id>https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/</id>
-    <updated>2026-07-20T12:12:47Z</updated>
-    <summary type="text">Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework. During forensic analysis, commercial AI models actually got in the way of the defenders because their safety guardrails couldn't tell exploit data from real attacks. The article H</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Kimi K3 API Guide: Reasoning, Tool Calling, Structured Output, and Vision</title>
-    <link href="https://dev.to/aihubmix/kimi-k3-api-guide-reasoning-tool-calling-structured-output-and-vision-bn3" rel="alternate"/>
-    <id>https://dev.to/aihubmix/kimi-k3-api-guide-reasoning-tool-calling-structured-output-and-vision-bn3</id>
-    <updated>2026-07-21T11:24:37Z</updated>
-    <summary type="text">If you are testing Kimi K3 through an OpenAI-compatible API, there are a few details worth knowing before you wire it into production. Kimi K3 is not just another chat model with a larger context window. It has always-on thinking, a 1M-token context window, API-specific differences across Chat Completions, Responses, and Claude-compatible Messages, plus a few edge cases that can surprise client co</summary>
-    <author><name>AIHubMix</name></author>
     <category term="llm"/>
   </entry>
 </feed>
