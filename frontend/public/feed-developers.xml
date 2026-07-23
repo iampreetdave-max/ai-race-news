@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-23T04:18:16Z</updated>
+  <updated>2026-07-23T07:35:45Z</updated>
+  <entry>
+    <title>Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal</title>
+    <link href="https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/</id>
+    <updated>2026-07-23T06:12:05Z</updated>
+    <summary type="text">Anthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch files that you review and apply yourself. Anthropic emphasized the tool’s versatility upon announcement, highlighting its capability to […] The post Anthropic Releases C</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost</title>
     <link href="https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/" rel="alternate"/>
@@ -33,6 +43,23 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>You do not need to Dockerize your entire app to run multiple agent workspaces</title>
+    <link href="https://dev.to/themassiveone/you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-agent-workspaces-4b9h" rel="alternate"/>
+    <id>https://dev.to/themassiveone/you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-agent-workspaces-4b9h</id>
+    <updated>2026-07-23T07:11:35Z</updated>
+    <summary type="text">When several coding agents run the same app, Docker looks like the obvious answer: put every frontend in a container, put every API in a container, and put every worker in a container. It works, but it adds friction. Stale images can serve old code, rebuilds slow down feedback, caches hide what actually changed, images and layers clutter storage, and debugging gains another runtime layer. With one</summary>
+    <author><name>Daniel Maß</name></author>
+  </entry>
+  <entry>
+    <title>An AI Writes My Solana Programs. Here's the Environment That Makes That Safe</title>
+    <link href="https://hackernoon.com/an-ai-writes-my-solana-programs-heres-the-environment-that-makes-that-safe?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/an-ai-writes-my-solana-programs-heres-the-environment-that-makes-that-safe?source=rss</id>
+    <updated>2026-07-23T06:23:09Z</updated>
+    <summary type="text">Most of the code in my Solana programs is written by an AI agent. That’s not a confession—it’s the premise. The interesting engineering question is no longer whether a model can write Rust for the SVM (it can), but what has to be true about your repository to let it do so safely. My answer has three layers: a hermetic environment where the human, the agent, and CI all run the same commands; a data</summary>
+    <author><name>Alexander Kalankhodzhaev</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>NTT DATA Group cuts incident analysis to 30 minutes with Codex</title>
@@ -425,33 +452,6 @@
     <updated>2026-07-21T11:24:37Z</updated>
     <summary type="text">If you are testing Kimi K3 through an OpenAI-compatible API, there are a few details worth knowing before you wire it into production. Kimi K3 is not just another chat model with a larger context window. It has always-on thinking, a 1M-token context window, API-specific differences across Chat Completions, Responses, and Claude-compatible Messages, plus a few edge cases that can surprise client co</summary>
     <author><name>AIHubMix</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Running Docker on Proxmox: LXC vs VMs and the Firewall Rules That Actually Matter</title>
-    <link href="https://dev.to/resul_oztas/running-docker-on-proxmox-lxc-vs-vms-and-the-firewall-rules-that-actually-matter-4hkd" rel="alternate"/>
-    <id>https://dev.to/resul_oztas/running-docker-on-proxmox-lxc-vs-vms-and-the-firewall-rules-that-actually-matter-4hkd</id>
-    <updated>2026-07-21T09:06:15Z</updated>
-    <summary type="text">A few months ago I pulled an old i7-7700 box out of a closet, threw 15GB of RAM at it, and turned it into my home lab. No GPU, nothing fancy. I run Proxmox VE on it and use it for agent workloads and internal automation while my actual client sites live on Hetzner. What surprised me was how many small decisions on this box ended up mattering more than the hardware itself — mainly where I put Docke</summary>
-    <author><name>Resul Öztaş</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Supercharge Laravel Boost with Neo4j MCP 🚀</title>
-    <link href="https://dev.to/zaeem2331/supercharge-laravel-boost-with-neo4j-mcp-226k" rel="alternate"/>
-    <id>https://dev.to/zaeem2331/supercharge-laravel-boost-with-neo4j-mcp-226k</id>
-    <updated>2026-07-21T06:22:21Z</updated>
-    <summary type="text">AI coding assistants have transformed the way we build software. They can understand your code, generate features, and help with debugging but they usually have no idea what's inside your database. That's where Neo4j Laravel Boost comes in. It integrates the official Neo4j MCP server directly into Laravel Boost, giving any MCP-compatible AI client access to your live Neo4j database and graph tooli</summary>
-    <author><name>Zaeem Ul Huda Ansari</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI Just Bought Gitpod: The AI IDE Wars Are Officially On</title>
-    <link href="https://dev.to/muskan_bandta/openai-just-bought-gitpod-the-ai-ide-wars-are-officially-on-48ph" rel="alternate"/>
-    <id>https://dev.to/muskan_bandta/openai-just-bought-gitpod-the-ai-ide-wars-are-officially-on-48ph</id>
-    <updated>2026-07-21T06:12:18Z</updated>
-    <summary type="text">OpenAI just bought a cloud company, and if you only read the headline you'd miss the point. This deal tells you exactly where AI coding is heading: out of your editor and into the cloud. Here's what happened and why it matters. What OpenAI actually bought On June 11, 2026, OpenAI announced it's acquiring Ona, a German startup you might know by its old name, Gitpod. Terms weren't disclosed, and the</summary>
-    <author><name>Muskan Bandta</name></author>
     <category term="llm"/>
   </entry>
 </feed>
