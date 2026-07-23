@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-23T15:12:34Z</updated>
+  <updated>2026-07-23T17:27:47Z</updated>
   <entry>
     <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
     <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
@@ -42,6 +42,24 @@
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Teaching Claude Code to Direct: A Stateful Video-Editing Skill Built on Gemini's Interactions API and MCP</title>
+    <link href="https://dev.to/gde/teaching-claude-code-to-direct-a-stateful-video-editing-skill-built-on-geminis-interactions-api-2h7l" rel="alternate"/>
+    <id>https://dev.to/gde/teaching-claude-code-to-direct-a-stateful-video-editing-skill-built-on-geminis-interactions-api-2h7l</id>
+    <updated>2026-07-23T17:17:43Z</updated>
+    <summary type="text">TL;DR: omni-skill-claude wraps Google's gemini-omni-flash-preview model (Omni Flash) in a tiny FastMCP server and packages it as a Claude Code skill. You type &quot;generate a video of a fox running through snow&quot; into Claude Code, and it just... does it. Then you say &quot;make it nighttime with snowfall&quot; and it edits the same video without re-prompting the whole scene. It can also animate a still image, in</summary>
+    <author><name>xbill</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Beyond the Form Tester: Building a Skill Pack for Your Whole Playwright Suite</title>
+    <link href="https://dev.to/aswani25/beyond-the-form-tester-building-a-skill-pack-for-your-whole-playwright-suite-gk5" rel="alternate"/>
+    <id>https://dev.to/aswani25/beyond-the-form-tester-building-a-skill-pack-for-your-whole-playwright-suite-gk5</id>
+    <updated>2026-07-23T16:30:00Z</updated>
+    <summary type="text">Part 6 of the &quot;Automating Playwright with Claude Code&quot; series. In Part 4 we built one Skill; in Part 5 we learned why installing many Skills doesn't bloat every session. This post uses both to grow a single Skill into a small, organized **pack* covering more of your actual test suite.* One Skill is useful. A handful of related Skills, organized as a pack, is what actually replaces a chunk of your </summary>
+    <author><name>Aswani Kumar</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>OpenAI's &quot;Project Camellia&quot; in Georgia secures a massive 3.2-gigawatt power deal through 2032</title>
@@ -433,22 +451,5 @@
     <summary type="text">Follow the complete journey of a Kubernetes Deployment—from your terminal to a running container inside the cluster. Most Kubernetes tutorials teach us how to create resources: kubectl apply -f deployment.yaml A few seconds later, Pods start running. Simple, right? But Kubernetes is doing far more work than most people realize. Hola Amigos! Welcome to the third episode of K8s with Pravesh. Today, </summary>
     <author><name>Pravesh Sudha</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Introducing Agent-Up: run multiple agent-built versions of your web app at once</title>
-    <link href="https://dev.to/themassiveone/introducing-agent-up-run-multiple-agent-built-versions-of-your-web-app-at-once-1nb4" rel="alternate"/>
-    <id>https://dev.to/themassiveone/introducing-agent-up-run-multiple-agent-built-versions-of-your-web-app-at-once-1nb4</id>
-    <updated>2026-07-21T17:28:32Z</updated>
-    <summary type="text">Agent-Up is an open-source, cross-platform desktop app for running and reviewing multiple AI coding agent workspaces on the same machine. It is built specifically for web application development, where each agent needs more than just an isolated source tree — it needs an isolated runtime. Every agent workspace in Agent-Up gets its own processes, stable ports, isolated Docker services, a dedicated </summary>
-    <author><name>Daniel Maß</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure</title>
-    <link href="https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8" rel="alternate"/>
-    <id>https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8</id>
-    <updated>2026-07-21T16:03:06Z</updated>
-    <summary type="text">Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure By Paul Twist — July 21, 2026 Here's what nobody wants to say in public: your agent's persistent memory is going to betray you. Not because the memory system is broken. Because when you add persistent memory to agents that worked fine as short-lived experiments, you don't just get better agents. Yo</summary>
-    <author><name>Paul Twist</name></author>
   </entry>
 </feed>
