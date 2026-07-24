@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T07:35:26Z</updated>
+  <updated>2026-07-24T10:23:27Z</updated>
   <entry>
     <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
     <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Asked My AI &quot;Who Are You&quot; — It Cost 42,000 Tokens to Answer</title>
+    <link href="https://dev.to/therabbithole/-i-asked-my-ai-who-are-you-it-cost-42000-tokens-to-answer-44jp" rel="alternate"/>
+    <id>https://dev.to/therabbithole/-i-asked-my-ai-who-are-you-it-cost-42000-tokens-to-answer-44jp</id>
+    <updated>2026-07-24T09:43:22Z</updated>
+    <summary type="text">I typed a 19-character question into Claude Code: who are you? Then I opened the network logs of what my machine actually sent over the wire. I recommend you never do this. It ruins something in you. The numbers My question was 19 bytes. The request that carried it was 118,693 bytes. That's a 6,200x amplification before the model reads a single word I wrote. My actual message was 0.016% of the pay</summary>
+    <author><name>TheRabbitHole</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Deploying a Full Stack SaaS</title>
@@ -441,14 +450,5 @@
     <category term="llm"/>
     <category term="tutorial"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Code hides your context % and usage limits. Here's how to see them.</title>
-    <link href="https://dev.to/technical_turtle/claude-code-hides-your-context-and-usage-limits-heres-how-to-see-them-37he" rel="alternate"/>
-    <id>https://dev.to/technical_turtle/claude-code-hides-your-context-and-usage-limits-heres-how-to-see-them-37he</id>
-    <updated>2026-07-22T11:22:02Z</updated>
-    <summary type="text">before: ~/code/myapp main after: ctx 48% | 5h 14% ~1h20m | 7d 21% ~5d10h | opus-4.8 ~/code/myapp main One command, and your Claude Code statusline now shows how full your context is and how close you are to the Pro/Max limits, each with a reset countdown, in front of whatever bar you already run. Claude Code hides both of those numbers until you slam into them: the context compacts out from under </summary>
-    <author><name>Technical Turtle</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
