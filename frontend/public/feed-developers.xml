@@ -4,7 +4,42 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T12:23:04Z</updated>
+  <updated>2026-07-24T15:00:03Z</updated>
+  <entry>
+    <title>Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool</title>
+    <link href="https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/" rel="alternate"/>
+    <id>https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/</id>
+    <updated>2026-07-24T14:37:57Z</updated>
+    <summary type="text">Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service remains unavailable in the EU. The article Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI’s new voice mode makes it to the ChatGPT desktop app</title>
+    <link href="https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/</id>
+    <updated>2026-07-24T13:36:42Z</updated>
+    <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
+    <author><name>Ivan Mehta</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI-Generated Code: Anatomy of Security Vulnerabilities and the Cost</title>
+    <link href="https://dev.to/merbayerp/ai-generated-code-anatomy-of-security-vulnerabilities-and-the-cost-577c" rel="alternate"/>
+    <id>https://dev.to/merbayerp/ai-generated-code-anatomy-of-security-vulnerabilities-and-the-cost-577c</id>
+    <updated>2026-07-24T14:34:28Z</updated>
+    <summary type="text">A few weeks ago, while working on AI-generated code snippets we had added to our projects, we encountered an unexpected security vulnerability. This incident forced us to re-evaluate the risks and costs associated with AI code generation tools, which are rapidly adopted for their promise of increased efficiency. Now, we must not only verify the correctness of the code but also question its origin </summary>
+    <author><name>Mustafa ERBAY</name></author>
+  </entry>
+  <entry>
+    <title>Deploying Kubernetes Dashboard and Managing Cluster Resources</title>
+    <link href="https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426" rel="alternate"/>
+    <id>https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426</id>
+    <updated>2026-07-24T14:19:09Z</updated>
+    <summary type="text">Kubernetes Dashboard is an open-source web GUI for managing cluster resources (CronJobs, DaemonSets, Deployments, Pods, ReplicaSets, StatefulSets) deploying apps, and monitoring cluster health in real time. This guide installs it via Helm, sets up admin and read-only RBAC access, secures it behind Nginx Ingress with cert-manager TLS, and deploys a sample app from the UI. Prerequisites: a Kubernete</summary>
+    <author><name>Sanskriti Harmukh</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
     <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
@@ -417,39 +452,5 @@
     <summary type="text">In LLM inference clusters, the core bottleneck for KV Cache storage acceleration often lies not in the storage medium itself, but in network bandwidth. Mingxin FX100 achieves 90% line-rate utilization on a single 100GbE port in measured tests (approximately 11.25 GB/s effective bandwidth). This metric means that in typical inference deployments, the network is no longer the primary limiting factor</summary>
     <author><name>Mingxin Technology</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>TypeScript 6.0 `--noEmit` and Type-Only Builds: Why Your CI Pipeline Should Never Call tsc for Output Again</title>
-    <link href="https://dev.to/jsmanifest/typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb" rel="alternate"/>
-    <id>https://dev.to/jsmanifest/typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb</id>
-    <updated>2026-07-22T17:46:59Z</updated>
-    <summary type="text">TypeScript 6.0 --noEmit and Type-Only Builds: Why Your CI Pipeline Should Never Call tsc for Output Again This article was written with the assistance of AI, under human supervision and review. Most TypeScript build problems stem from a fundamental confusion: teams treat the TypeScript compiler as both a type-checker and a build tool when it should only ever be the former. The typical CI pipeline </summary>
-    <author><name>jsmanifest</name></author>
-  </entry>
-  <entry>
-    <title>AI Can Write Code Faster Than I Can Responsibly Review It</title>
-    <link href="https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4" rel="alternate"/>
-    <id>https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4</id>
-    <updated>2026-07-22T17:30:30Z</updated>
-    <summary type="text">I use Claude Code almost every day while building Zenovay. It can scaffold a feature, trace a bug across several files, write tests, refactor an old module, and explain an unfamiliar part of the codebase before I have finished my coffee. That sounds like pure leverage. But it created a problem I did not expect: AI can produce code much faster than I can build a reliable mental model of it. The bot</summary>
-    <author><name>Zenovay</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Prompting to Production: A Practical Framework for AI-Assisted Software Development</title>
-    <link href="https://dev.to/aswani_nayak_cdcb2fe8ee38/from-prompting-to-production-a-practical-framework-for-ai-assisted-software-development-37pp" rel="alternate"/>
-    <id>https://dev.to/aswani_nayak_cdcb2fe8ee38/from-prompting-to-production-a-practical-framework-for-ai-assisted-software-development-37pp</id>
-    <updated>2026-07-22T16:06:22Z</updated>
-    <summary type="text">How structured workflows, context engineering, and human oversight can transform AI from a coding assistant into a true engineering partner. Introduction Generative AI is rapidly changing how software is built. While many development teams have experimented with AI-powered coding tools, the real challenge is not generating code—it's creating a repeatable process that produces reliable, high-qualit</summary>
-    <author><name>Aswani Nayak</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Link Manual Test Cases to Playwright and Robot Specs</title>
-    <link href="https://dev.to/weiwen-weng/link-manual-yaml-cases-to-playwright-and-robot-specs-5782" rel="alternate"/>
-    <id>https://dev.to/weiwen-weng/link-manual-yaml-cases-to-playwright-and-robot-specs-5782</id>
-    <updated>2026-07-22T15:44:09Z</updated>
-    <summary type="text">Most teams already keep Playwright or Robot Framework specs next to the product. Manual cases often live somewhere else — a spreadsheet, a cloud TMS, or a wiki page nobody updates after the first release. That is why automation coverage is usually a quarterly guess: the catalog and the specs never share an id. Put both in the same Git repo, give every manual case a stable id, and linking becomes a</summary>
-    <author><name>Weiwen Weng</name></author>
   </entry>
 </feed>
