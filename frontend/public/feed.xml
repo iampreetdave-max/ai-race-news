@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-24T20:23:51Z</updated>
+  <updated>2026-07-24T22:09:12Z</updated>
   <entry>
     <title>ModelExpress: Distributing Model Artifacts at the Speed of Light</title>
     <link href="https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/" rel="alternate"/>
@@ -12,6 +12,24 @@
     <updated>2026-07-24T16:45:00Z</updated>
     <summary type="text">Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...</summary>
     <author><name>Elizabeth Goodman</name></author>
+  </entry>
+  <entry>
+    <title>Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing</title>
+    <link href="https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/</id>
+    <updated>2026-07-24T21:50:46Z</updated>
+    <summary type="text">Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the intelligence of Claude Fable 5 at half the price. It is now the default model on […] The post Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Comput</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Unified Predictive Decision Making for Retail Growth</title>
+    <link href="https://emerj.com/unified-predictive-decision-making-for-retail-growth/" rel="alternate"/>
+    <id>https://emerj.com/unified-predictive-decision-making-for-retail-growth/</id>
+    <updated>2026-07-24T21:35:17Z</updated>
+    <summary type="text">This interview analysis is sponsored by 7Learnings and was written, edited, and published in alignment with our Emerj sponsored content guidelines. Learn more about our thought leadership and content creation services on our Emerj Media Services page. Retail runs on thin margins. General merchandise retailers posted an average net margin of 5.6% in the most […]</summary>
+    <author><name>Yolandi de Weerdt</name></author>
   </entry>
   <entry>
     <title>Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price</title>
@@ -349,6 +367,32 @@
     <author><name>Adya Pandey</name></author>
   </entry>
   <entry>
+    <title>Pytest - Production test Coverage</title>
+    <link href="https://dev.to/felipe_de_godoy/pytest-pt4-production-test-coverage-6hn" rel="alternate"/>
+    <id>https://dev.to/felipe_de_godoy/pytest-pt4-production-test-coverage-6hn</id>
+    <updated>2026-07-24T21:55:23Z</updated>
+    <summary type="text">Production-Ready Pytest You've written solid tests — fixtures keep setup DRY, parametrization makes edge cases explicit, and temporary directories prevent leaked artifacts. Now the question is: how do you run these tests in a way that gives you fast feedback, readable output, and reliability in CI? This final post covers logging configuration, splitting unit and integration tests with markers, cod</summary>
+    <author><name>Felipe de Godoy</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>How to Check SPF, DKIM, and DMARC Records in Python</title>
+    <link href="https://dev.to/devyjones/how-to-check-spf-dkim-and-dmarc-records-in-python-143" rel="alternate"/>
+    <id>https://dev.to/devyjones/how-to-check-spf-dkim-and-dmarc-records-in-python-143</id>
+    <updated>2026-07-24T21:42:16Z</updated>
+    <summary type="text">If your app sends email — transactional or marketing — three DNS records decide whether it lands in the inbox or the spam folder: SPF, DKIM, and DMARC. Here's how to look them up and sanity-check them in Python, no third-party API required. Install the one dependency: pip install dnspython SPF: who is allowed to send SPF lives in a TXT record on the domain itself and starts with v=spf1. import dns</summary>
+    <author><name>Billy</name></author>
+  </entry>
+  <entry>
+    <title>Integrating AI and WordPress: From Idea to Execution, Real-World Challenges, and Practical Workflows</title>
+    <link href="https://dev.to/faridkhoshdel/integrating-ai-and-wordpress-from-idea-to-execution-real-world-challenges-and-practical-workflows-2oj6" rel="alternate"/>
+    <id>https://dev.to/faridkhoshdel/integrating-ai-and-wordpress-from-idea-to-execution-real-world-challenges-and-practical-workflows-2oj6</id>
+    <updated>2026-07-24T21:29:59Z</updated>
+    <summary type="text">Integrating AI and WordPress: From Idea to Execution, Real-World Challenges, and Practical Workflows The rise of artificial intelligence has fundamentally transformed our definition of an effective website. The era of static websites that merely served as digital placeholders is over. Today, Content Management Systems like WordPress—backed by custom AI capabilities—are evolving into intelligent, a</summary>
+    <author><name>Farid khoshdel</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit</title>
     <link href="https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/</id>
@@ -356,6 +400,15 @@
     <summary type="text">NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your Prompt Templates Are Tool Calls: How AskUserQuestion's 4-Option Cap Bit Me Three Times</title>
+    <link href="https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6" rel="alternate"/>
+    <id>https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6</id>
+    <updated>2026-07-24T21:23:02Z</updated>
+    <summary type="text">The same bug hit me in three separate sessions before I fixed it properly. Each time, my orchestrator reached a decision point, tried to present its menu, and burned a turn on a validation error instead of a question: InputValidationError: { &quot;code&quot;: &quot;too_big&quot;, &quot;maximum&quot;: 4, &quot;path&quot;: [&quot;questions&quot;, 0, &quot;options&quot;] } // abridged; the full payload includes the Zod message Claude Code's AskUserQuestion to</summary>
+    <author><name>Wessam Ibrahim</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes</title>
@@ -367,84 +420,29 @@
     <category term="hardware"/>
   </entry>
   <entry>
-    <title>What the OpenAI-Hugging Face Hack Means for Enterprises</title>
-    <link href="https://aibusiness.com/cybersecurity/what-openai-hugging-face-hack-means-enterprises" rel="alternate"/>
-    <id>https://aibusiness.com/cybersecurity/what-openai-hugging-face-hack-means-enterprises</id>
-    <updated>2026-07-23T20:55:53Z</updated>
-    <summary type="text">The incident is a lesson for enterprises that they need to implement appropriate cybersecurity guidance and keep their data within safe confines.</summary>
-    <author><name>Esther Shittu</name></author>
-    <category term="llm"/>
+    <title>My idle ClickHouse was merging 11 million rows every 30 seconds</title>
+    <link href="https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i" rel="alternate"/>
+    <id>https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i</id>
+    <updated>2026-07-24T21:12:14Z</updated>
+    <summary type="text">I run a small self-hosted observability tool on the cheapest VPS I could find on purpose: 2 cores, 2 GB RAM, 20 GB SATA SSD. It ingests errors, traces and metrics from two low-traffic sites of mine. The stack is three containers — a Go app, PostgreSQL, and ClickHouse. One evening docker stats showed ClickHouse sitting on 880 MB of its 1 GB limit and the box swapping, with basically zero events com</summary>
+    <author><name>OtezVikentiy</name></author>
   </entry>
   <entry>
-    <title>How to host an app your AI built with its own URL and saved data</title>
-    <link href="https://dev.to/usecharming/how-to-host-an-app-your-ai-built-with-its-own-url-and-saved-data-18ma" rel="alternate"/>
-    <id>https://dev.to/usecharming/how-to-host-an-app-your-ai-built-with-its-own-url-and-saved-data-18ma</id>
-    <updated>2026-07-24T20:17:03Z</updated>
-    <summary type="text">Claude can write a working app right inside a chat. Close the chat and it's gone: no URL, no saved data, nothing to open tomorrow. This is how you turn that throwaway app into a hosted one with its own URL and a database behind it. The example is a reading list, live at charm.ing/avi/reading-list. The thing doing the hosting is Charming. Claude writes the code, Charming runs it. You keep using Cla</summary>
-    <author><name>Akhilesh Rangani</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
+    <title>I built a small library so my LLM agent stops double-charging people</title>
+    <link href="https://dev.to/sangaraju1988/i-built-a-small-library-so-my-llm-agent-stops-double-charging-people-4p8" rel="alternate"/>
+    <id>https://dev.to/sangaraju1988/i-built-a-small-library-so-my-llm-agent-stops-double-charging-people-4p8</id>
+    <updated>2026-07-24T21:03:30Z</updated>
+    <summary type="text">Agents that call tools over a network eventually retry a call they shouldn't have. If the tool isn't idempotent, that retry becomes a duplicate charge, a duplicate email, a duplicate order — quietly, with nothing in the logs to flag it. It's a decades-old distributed-systems problem wearing a new agent costume, and as far as I could tell, nobody had shipped a small, pip-installable fix for the age</summary>
+    <author><name>vsangaraju</name></author>
   </entry>
   <entry>
-    <title>Making a launch video for Claude Opus 5</title>
-    <link href="https://dev.to/remocn/making-a-launch-video-for-claude-opus-5-2jlo" rel="alternate"/>
-    <id>https://dev.to/remocn/making-a-launch-video-for-claude-opus-5-2jlo</id>
-    <updated>2026-07-24T20:15:50Z</updated>
-    <summary type="text">Anthropic shipped Claude Opus 5 today. Nobody asked us for a video, so we made one anyway — fifty-five seconds, twelve beats, every claim on screen lifted from the launch post itself. This is the hardest kind of unofficial spot to get away with: the brand is one most people look at daily, so a color that's a shade off or a serif that isn't quite the right serif reads instantly. Nothing here is eye</summary>
-    <author><name>Remocn</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Context Compression: Making AI Agents Forget Without Losing the Plot</title>
-    <link href="https://dev.to/rijultp/context-compression-making-ai-agents-forget-without-losing-the-plot-5g7a" rel="alternate"/>
-    <id>https://dev.to/rijultp/context-compression-making-ai-agents-forget-without-losing-the-plot-5g7a</id>
-    <updated>2026-07-24T20:09:52Z</updated>
-    <summary type="text">Hello, I'm Rijul. I'm building git-lrc, a micro AI code reviewer that runs on every commit. It's free and source-available on GitHub. Star git-lrc to help more developers discover the project. Do give it a try and share your feedback Suppose you are working with an AI agent to fix an API. You give it a simple instruction: Fix the API 500 error. The agent might go through a workflow like this: Agen</summary>
-    <author><name>Rijul Rajesh</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I shipped three AI tools that run entirely in the browser — here's everything that broke</title>
-    <link href="https://dev.to/dodly-jr/i-shipped-three-ai-tools-that-run-entirely-in-the-browser-heres-everything-that-broke-1o0e" rel="alternate"/>
-    <id>https://dev.to/dodly-jr/i-shipped-three-ai-tools-that-run-entirely-in-the-browser-heres-everything-that-broke-1o0e</id>
-    <updated>2026-07-24T20:04:12Z</updated>
-    <summary type="text">I set myself one rule for a side project: every tool has to run entirely in the user's browser. No file ever gets uploaded to a server. If I couldn't do something client-side, it didn't ship. That rule turned out to be a great filter for what to build, and a brutal filter for how. Here's what actually broke along the way — a broken model file caught by physically-impossible output, an upstream ONN</summary>
-    <author><name>Dodly Forbi</name></author>
-  </entry>
-  <entry>
-    <title>Building Your First Model Context Protocol (MCP) Server with TypeScript and Zod</title>
-    <link href="https://dev.to/programmingcentral/building-your-first-model-context-protocol-mcp-server-with-typescript-and-zod-2non" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/building-your-first-model-context-protocol-mcp-server-with-typescript-and-zod-2non</id>
-    <updated>2026-07-24T20:00:00Z</updated>
-    <summary type="text">If you’ve been building AI agents or working with Large Language Models recently, you’ve likely hit the integration wall. Historically, connecting an LLM like Claude or GPT-4 to external environments—such as querying a production database, checking system logs, or interacting with a local file system—required building ad-hoc, brittle integration layers. Every single AI framework required bespoke t</summary>
-    <author><name>Programming Central</name></author>
+    <title>Rod Johnson Is Back - and He's Bringing AI Agents to Java</title>
+    <link href="https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa" rel="alternate"/>
+    <id>https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa</id>
+    <updated>2026-07-24T20:58:44Z</updated>
+    <summary type="text">If you have written enterprise Java in the last 20 years, you know the name Rod Johnson. He created Spring Framework back in 2003 - the thing that made Java dependency injection feel natural instead of like wrestling XML. Spring basically rewrote how enterprise Java works. Johnson stepped away from active Spring development years ago. But in early 2026, he returned - and he did not come back to bu</summary>
+    <author><name>jamilxt</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Parse AI Coding JSONL Safely Before You Infer Completion</title>
-    <link href="https://dev.to/agentis/parse-ai-coding-jsonl-safely-before-you-infer-completion-8j8" rel="alternate"/>
-    <id>https://dev.to/agentis/parse-ai-coding-jsonl-safely-before-you-infer-completion-8j8</id>
-    <updated>2026-07-24T19:58:00Z</updated>
-    <summary type="text">JSONL is easy to underestimate. One object per line sounds like a format you can parse with a short loop. A live coding-agent transcript adds the cases that make that loop unsafe: a partial final append, an unusually large record, duplicate events, provider-specific envelopes, and old completion markers that later activity has invalidated. Here is the defensive design we use before inferring sessi</summary>
-    <author><name>Agent Island</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Designing for the Surge: The Real-World Cost of Separating Reads and Writes</title>
-    <link href="https://dev.to/shubham_shaw_63d2b4bec156/designing-for-the-surge-the-real-world-cost-of-separating-reads-and-writes-5a8d" rel="alternate"/>
-    <id>https://dev.to/shubham_shaw_63d2b4bec156/designing-for-the-surge-the-real-world-cost-of-separating-reads-and-writes-5a8d</id>
-    <updated>2026-07-24T19:54:11Z</updated>
-    <summary type="text">At seven o'clock every Monday morning, thousands of workers on active heavy construction sites log into their mobile devices to complete mandatory equipment safety checks. Early in my career working on enterprise platforms, our software system routinely struggled under this sudden surge. Every time a field supervisor submitted a safety audit, the system tried to write that multi-page record into o</summary>
-    <author><name>shubham shaw</name></author>
-  </entry>
-  <entry>
-    <title>Cara Print Langsung dari Browser ke Printer Thermal Tanpa Dialog Windows</title>
-    <link href="https://dev.to/ajis_dzalparo/cara-print-langsung-dari-browser-ke-printer-thermal-tanpa-dialog-windows-k83" rel="alternate"/>
-    <id>https://dev.to/ajis_dzalparo/cara-print-langsung-dari-browser-ke-printer-thermal-tanpa-dialog-windows-k83</id>
-    <updated>2026-07-24T19:51:14Z</updated>
-    <summary type="text">Mencetak dokumen dari aplikasi web biasanya harus melewati dialog print bawaan browser atau Windows. Untuk aplikasi biasa, hal tersebut mungkin tidak menjadi masalah. Namun, pada aplikasi POS, warehouse, inventory, dan shipping, pengguna bisa mencetak puluhan hingga ratusan label setiap hari. Membuka dialog print untuk setiap dokumen membuat proses menjadi lambat dan sulit diotomatisasi. Saya memb</summary>
-    <author><name>Ajis Dzalparo</name></author>
   </entry>
 </feed>

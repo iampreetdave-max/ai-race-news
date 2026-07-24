@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T20:23:51Z</updated>
+  <updated>2026-07-24T22:09:12Z</updated>
   <entry>
     <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
     <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" rel="alternate"/>
@@ -31,6 +31,33 @@
     <updated>2026-07-24T13:36:42Z</updated>
     <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
     <author><name>Ivan Mehta</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Prompt Templates Are Tool Calls: How AskUserQuestion's 4-Option Cap Bit Me Three Times</title>
+    <link href="https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6" rel="alternate"/>
+    <id>https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6</id>
+    <updated>2026-07-24T21:23:02Z</updated>
+    <summary type="text">The same bug hit me in three separate sessions before I fixed it properly. Each time, my orchestrator reached a decision point, tried to present its menu, and burned a turn on a validation error instead of a question: InputValidationError: { &quot;code&quot;: &quot;too_big&quot;, &quot;maximum&quot;: 4, &quot;path&quot;: [&quot;questions&quot;, 0, &quot;options&quot;] } // abridged; the full payload includes the Zod message Claude Code's AskUserQuestion to</summary>
+    <author><name>Wessam Ibrahim</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My idle ClickHouse was merging 11 million rows every 30 seconds</title>
+    <link href="https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i" rel="alternate"/>
+    <id>https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i</id>
+    <updated>2026-07-24T21:12:14Z</updated>
+    <summary type="text">I run a small self-hosted observability tool on the cheapest VPS I could find on purpose: 2 cores, 2 GB RAM, 20 GB SATA SSD. It ingests errors, traces and metrics from two low-traffic sites of mine. The stack is three containers — a Go app, PostgreSQL, and ClickHouse. One evening docker stats showed ClickHouse sitting on 880 MB of its 1 GB limit and the box swapping, with basically zero events com</summary>
+    <author><name>OtezVikentiy</name></author>
+  </entry>
+  <entry>
+    <title>Rod Johnson Is Back - and He's Bringing AI Agents to Java</title>
+    <link href="https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa" rel="alternate"/>
+    <id>https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa</id>
+    <updated>2026-07-24T20:58:44Z</updated>
+    <summary type="text">If you have written enterprise Java in the last 20 years, you know the name Rod Johnson. He created Spring Framework back in 2003 - the thing that made Java dependency injection feel natural instead of like wrestling XML. Spring basically rewrote how enterprise Java works. Johnson stepped away from active Spring development years ago. But in early 2026, he returned - and he did not come back to bu</summary>
+    <author><name>jamilxt</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -430,34 +457,5 @@
     <updated>2026-07-23T03:35:49Z</updated>
     <summary type="text">A trending post this week was about someone giving their agent the ability to send email — and the obvious first question in the comments was &quot;what stops it from sending the wrong thing.&quot; I've had a version of that question sitting unexamined in my own repo for weeks, because I built the same shape of thing: an MCP tool with write access to a public identity, plus a completely separate unattended </summary>
     <author><name>Enjoy Kumawat</name></author>
-  </entry>
-  <entry>
-    <title>My requirements.txt Is Pinned. My MCP Server's Actual Contract Isn't, and Nothing Would Catch It Changing.</title>
-    <link href="https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng" rel="alternate"/>
-    <id>https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng</id>
-    <updated>2026-07-23T03:35:07Z</updated>
-    <summary type="text">Back on 2026-07-14 I found and fixed a real landmine in this repo: requirements.txt had mcp[cli] with no version constraint at all. Any fresh install could pull in a breaking major version with zero warning. I pinned it to mcp[cli]&gt;=1.28.0,&lt;2.0.0 and moved on, feeling like I'd closed the gap. I hadn't. I'd only pinned the library. The actual contract my MCP server exposes to any agent that connect</summary>
-    <author><name>Enjoy Kumawat</name></author>
-  </entry>
-  <entry>
-    <title>Hunting Down Zombie Agents: Logging Subagent Usage with a Claude Code Stop Hook</title>
-    <link href="https://dev.to/bokuwalily/hunting-down-zombie-agents-logging-subagent-usage-with-a-claude-code-stop-hook-332g" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/hunting-down-zombie-agents-logging-subagent-usage-with-a-claude-code-stop-hook-332g</id>
-    <updated>2026-07-23T00:00:06Z</updated>
-    <summary type="text">Quick question: how many of the subagents you've defined in ~/.claude/agents/ have actually been called this month? I couldn't have told you — until I started measuring, and this morning's tally revealed 44 agents that hadn't been invoked even once in 30 days. This post is part of my &quot;Claude Code environment&quot; series (a follow-up to automatic terminal window tiling), continuing the theme of keeping</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/</id>
-    <updated>2026-07-24T12:15:31Z</updated>
-    <summary type="text">Built an open-source AI coding agent that was 7%–75% cheaper than a cold &quot;claude -p&quot; run on 6/6 well-localized tasks across repositories up to ~82k LOC. The biggest difference: Cold agent: $6.83, 207 turns AutoDev Studio: ~$1.70 for the same bug The full benchmark (including cases where it loses) is in the README. So what's different? Most AI coding agents re-explore a repository from scratch on e</summary>
-    <author><name>/u/NeighborhoodOwn8510</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="rag"/>
-    <category term="open-source"/>
   </entry>
 </feed>
