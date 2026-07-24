@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T16:52:02Z</updated>
+  <updated>2026-07-24T18:22:02Z</updated>
   <entry>
     <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
     <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" rel="alternate"/>
@@ -32,6 +32,36 @@
     <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
     <author><name>Ivan Mehta</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Stopped Doing the Work Myself. My OpenClaw Agent Now Delegates to Sub-Agents.</title>
+    <link href="https://dev.to/mrclaw207/i-stopped-doing-the-work-myself-my-openclaw-agent-now-delegates-to-sub-agents-18g1" rel="alternate"/>
+    <id>https://dev.to/mrclaw207/i-stopped-doing-the-work-myself-my-openclaw-agent-now-delegates-to-sub-agents-18g1</id>
+    <updated>2026-07-24T18:13:01Z</updated>
+    <summary type="text">There's a moment when you stop thinking of your AI agent as a tool you're holding, and start thinking of it as infrastructure you're operating. For me, that moment was when I started delegating work to sub-agents — spawning child sessions inside my main OpenClaw agent to handle parallel streams of work. It changed how I think about the whole system. Instead of one agent doing things sequentially, </summary>
+    <author><name>MrClaw207</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Your coding agent knows your codebase. It knows nothing about your users.</title>
+    <link href="https://dev.to/scatterlabz/your-coding-agent-knows-your-codebase-it-knows-nothing-about-your-users-5339" rel="alternate"/>
+    <id>https://dev.to/scatterlabz/your-coding-agent-knows-your-codebase-it-knows-nothing-about-your-users-5339</id>
+    <updated>2026-07-24T18:05:25Z</updated>
+    <summary type="text">Your AI agent can read every file in your repository. It knows your schema, your route handlers, the half-finished migration you left in alembic/versions. Ask it how to build almost anything and it will tell you. Ask it what to build and it has nothing. That asymmetry bothered me for months. I'd be in Claude Code planning a sprint, and the actual demand signal , what users were asking for, how man</summary>
+    <author><name>djaas_factory</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Turning Claude into a Code Quality Auditor with MCP</title>
+    <link href="https://dev.to/renato_marinho/turning-claude-into-a-code-quality-auditor-with-mcp-eci" rel="alternate"/>
+    <id>https://dev.to/renato_marinho/turning-claude-into-a-code-quality-auditor-with-mcp-eci</id>
+    <updated>2026-07-24T17:45:41Z</updated>
+    <summary type="text">Context switching is where engineering productivity goes to die. You're deep in a refactor inside Cursor or Claude Code, logic is flowing, and then—a notification. A repository grade dropped from an A to a B. Or worse, test coverage slipped by 3% on the last main branch merge. Your instinct is to jump over to the Code Climate dashboard, hunt through repositories, find the right snapshot, and figur</summary>
+    <author><name>Renato Marinho</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Why Cursor Keeps Generating Wildcard CORS Headers in Your API</title>
@@ -429,30 +459,5 @@
     <category term="agents"/>
     <category term="rag"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>MergeForge: Resolve Git Conflicts in VS Code or Cursor Like in JetBrains</title>
-    <link href="https://dev.to/ognjenmarcheta/mergeforge-resolve-git-conflicts-in-vs-code-or-cursor-like-in-jetbrains-3oj1" rel="alternate"/>
-    <id>https://dev.to/ognjenmarcheta/mergeforge-resolve-git-conflicts-in-vs-code-or-cursor-like-in-jetbrains-3oj1</id>
-    <updated>2026-07-22T21:47:48Z</updated>
-    <summary type="text">Tired of squinting at VS Code’s stacked merge editor? MergeForge brings a JetBrains-style three-pane conflict resolver to VS Code and Cursor — and pairs it with an AI assistant that actually reads your repository before it suggests a fix. The problem We’ve all been there. You’re halfway through a rebase. Git stops. Twelve files are conflicted. You open one in VS Code… and get that familiar stacked</summary>
-    <author><name>Ognjen Marčeta</name></author>
-  </entry>
-  <entry>
-    <title>From Docker Build to Kubernetes Deploy on Ubuntu: The Image Workflow That Never Changed</title>
-    <link href="https://dev.to/jjoyneriv/from-docker-build-to-kubernetes-deploy-on-ubuntu-the-image-workflow-that-never-changed-d4f" rel="alternate"/>
-    <id>https://dev.to/jjoyneriv/from-docker-build-to-kubernetes-deploy-on-ubuntu-the-image-workflow-that-never-changed-d4f</id>
-    <updated>2026-07-22T21:31:12Z</updated>
-    <summary type="text">Amid all the noise about dockershim, one thing got lost: the everyday workflow of building an image with Docker and running it on Kubernetes never changed. Docker is still an excellent build tool, Kubernetes still runs OCI images, and on Ubuntu the loop is clean. Here it is end to end. 1. A build-friendly Dockerfile Multi-stage keeps the runtime image small and the attack surface low — this matter</summary>
-    <author><name>James Joyner</name></author>
-  </entry>
-  <entry>
-    <title>I ran 3 months of spec-driven development without ever reading the code</title>
-    <link href="https://dev.to/giboulz/i-ran-3-months-of-spec-driven-development-without-ever-reading-the-code-1nbc" rel="alternate"/>
-    <id>https://dev.to/giboulz/i-ran-3-months-of-spec-driven-development-without-ever-reading-the-code-1nbc</id>
-    <updated>2026-07-22T21:28:42Z</updated>
-    <summary type="text">I'm a scrum master. I was a developer ten years ago. I have enough background to discuss design and trade-offs with an LLM — but three months ago I made a deliberate bet on my solo project: I would never read the code. The specs define the tests. The tests control the code. The code is a black box. I'm not claiming this is what everyone should do. But it's my bet, and it forced a system into exist</summary>
-    <author><name>giboulz</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
