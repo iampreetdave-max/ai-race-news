@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T10:23:27Z</updated>
+  <updated>2026-07-24T12:23:04Z</updated>
   <entry>
     <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
     <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What actually breaks when you deploy an AI-built app</title>
+    <link href="https://dev.to/actuant/what-actually-happens-when-you-ship-an-ai-built-app-50f3" rel="alternate"/>
+    <id>https://dev.to/actuant/what-actually-happens-when-you-ship-an-ai-built-app-50f3</id>
+    <updated>2026-07-24T12:04:15Z</updated>
+    <summary type="text">I ran launch audits on 20 AI-built apps, Lovable, Bolt, v0, a couple of Cursor builds. Same checks on each, run against the live deployed URL, not the code. These were the most common problems: 14/20 had a canonical tag pointing at the wrong domain. Usually the builder's preview URL. The site works fine on the custom domain, but it's telling Google the real version lives at something.lovable.app. </summary>
+    <author><name>Actuant</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>I Asked My AI &quot;Who Are You&quot; — It Cost 42,000 Tokens to Answer</title>
@@ -330,6 +339,18 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/</id>
+    <updated>2026-07-24T12:15:31Z</updated>
+    <summary type="text">Built an open-source AI coding agent that was 7%–75% cheaper than a cold &quot;claude -p&quot; run on 6/6 well-localized tasks across repositories up to ~82k LOC. The biggest difference: Cold agent: $6.83, 207 turns AutoDev Studio: ~$1.70 for the same bug The full benchmark (including cases where it loses) is in the README. So what's different? Most AI coding agents re-explore a repository from scratch on e</summary>
+    <author><name>/u/NeighborhoodOwn8510</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="rag"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>MergeForge: Resolve Git Conflicts in VS Code or Cursor Like in JetBrains</title>
     <link href="https://dev.to/ognjenmarcheta/mergeforge-resolve-git-conflicts-in-vs-code-or-cursor-like-in-jetbrains-3oj1" rel="alternate"/>
     <id>https://dev.to/ognjenmarcheta/mergeforge-resolve-git-conflicts-in-vs-code-or-cursor-like-in-jetbrains-3oj1</id>
@@ -430,25 +451,5 @@
     <updated>2026-07-22T15:44:09Z</updated>
     <summary type="text">Most teams already keep Playwright or Robot Framework specs next to the product. Manual cases often live somewhere else — a spreadsheet, a cloud TMS, or a wiki page nobody updates after the first release. That is why automation coverage is usually a quarterly guess: the catalog and the specs never share an id. Put both in the same Git repo, give every manual case a stable id, and linking becomes a</summary>
     <author><name>Weiwen Weng</name></author>
-  </entry>
-  <entry>
-    <title>Never Let the Model Pick the Tenant ID: Securing an LLM Agent in Go</title>
-    <link href="https://dev.to/julesrobineau/never-let-the-model-pick-the-tenant-id-securing-an-llm-agent-in-go-o6e" rel="alternate"/>
-    <id>https://dev.to/julesrobineau/never-let-the-model-pick-the-tenant-id-securing-an-llm-agent-in-go-o6e</id>
-    <updated>2026-07-22T13:33:57Z</updated>
-    <summary type="text">TL;DR: an LLM that calls tools is a client you cannot trust. And it holds your production credentials. The most important rule fits in one sentence. Your server decides who the user is, never the model. In this article, I show how I secured a real LLM agent in Go, in production. Everything also applies to MCP servers. This article is for Go developers who put an LLM agent or an MCP server in produ</summary>
-    <author><name>Jules Robineau</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Build an LLM Agent That Can Write and Run Code</title>
-    <link href="https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/</id>
-    <updated>2026-07-22T13:30:00Z</updated>
-    <summary type="text">A hands-on walkthrough of code execution with the OpenAI Agents SDK and Docker The post Build an LLM Agent That Can Write and Run Code appeared first on Towards Data Science.</summary>
-    <author><name>Shuai Guo</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="data"/>
   </entry>
 </feed>
