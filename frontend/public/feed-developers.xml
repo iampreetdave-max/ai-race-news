@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T00:08:01Z</updated>
+  <updated>2026-07-24T04:19:03Z</updated>
   <entry>
     <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
     <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
@@ -21,6 +21,26 @@
     <updated>2026-07-23T06:12:05Z</updated>
     <summary type="text">Anthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch files that you review and apply yourself. Anthropic emphasized the tool’s versatility upon announcement, highlighting its capability to […] The post Anthropic Releases C</summary>
     <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What Is AI Agent Tool Calling? MCP, Function Calling, and A2A Explained (2026)</title>
+    <link href="https://dev.to/arcade/ai-agent-tool-calling-mcp-a2a-23l6" rel="alternate"/>
+    <id>https://dev.to/arcade/ai-agent-tool-calling-mcp-a2a-23l6</id>
+    <updated>2026-07-24T04:11:49Z</updated>
+    <summary type="text">Connecting an LLM to external systems has converged on an established set of open protocols that standardize communication between autonomous agents and enterprise infrastructure. However, as organizations move beyond chat interfaces into deploying multi-user production agents, a new bottleneck has emerged. Protocol connectivity is largely solved, with MCP established as the de facto connectivity </summary>
+    <author><name>Manveer Chawla</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The Problem with AI-Generated 'Shadow' Duplication</title>
+    <link href="https://dev.to/renato_marinho/the-problem-with-ai-generated-shadow-duplication-2gi3" rel="alternate"/>
+    <id>https://dev.to/renato_marinho/the-problem-with-ai-generated-shadow-duplication-2gi3</id>
+    <updated>2026-07-24T03:44:07Z</updated>
+    <summary type="text">AI agents are incredible at writing functions. They're even better at accidentally duplicating your entire business logic without you realizing it. If you use Claude Code, Cursor, or any LLM-based agent to refactor code, you’ve probably seen the pattern. You ask it to 'extract this logic into a reusable utility,' and while the new function works perfectly, a few days later, there's a slightly diff</summary>
+    <author><name>Renato Marinho</name></author>
     <category term="llm"/>
     <category term="agents"/>
   </entry>
@@ -121,6 +141,17 @@
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>GS-Agent: Creating 4D Physical Worlds With Generative Simulation</title>
+    <link href="https://arxiv.org/abs/2607.21522v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.21522v1</id>
+    <updated>2026-07-23T17:04:36Z</updated>
+    <summary type="text">Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning to generate such 4D worlds from large-scale </summary>
+    <author><name>Chuang Gan</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Beyond the Form Tester: Building a Skill Pack for Your Whole Playwright Suite</title>
@@ -420,32 +451,5 @@
     <summary type="text">Originally published at tengli.dev Your MCP server can be 100% spec-compliant and still be unusable by an agent. The Model Context Protocol spec tells you how to transport tools: JSON-RPC framing, capability negotiation, schema shapes. It says nothing about whether a model can actually use what you serve — whether it picks the right tool out of your catalog, fills the arguments correctly, or burns</summary>
     <author><name>Teng</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>SKILL.md: how to write a Claude Code skill that actually triggers (format + template)</title>
-    <link href="https://dev.to/rulestack/skillmd-how-to-write-a-claude-code-skill-that-actually-triggers-format-template-27cp" rel="alternate"/>
-    <id>https://dev.to/rulestack/skillmd-how-to-write-a-claude-code-skill-that-actually-triggers-format-template-27cp</id>
-    <updated>2026-07-22T05:41:02Z</updated>
-    <summary type="text">Claude Code skills answer a specific pain: you keep pasting the same checklist into chat, or a section of your CLAUDE.md has quietly grown from facts about the project into a multi-step procedure. The official guidance is exactly that — when instructions become a procedure you re-explain, move them into a skill. Unlike CLAUDE.md content, a skill's body loads only when it's used, so a long runbook </summary>
-    <author><name>Rulestack</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Grok 4.5 Isn't Open Source. The Apache 2.0 Release Has a Privacy Catch.</title>
-    <link href="https://dev.to/tokenmixai/grok-45-isnt-open-source-the-apache-20-release-has-a-privacy-catch-1mkj" rel="alternate"/>
-    <id>https://dev.to/tokenmixai/grok-45-isnt-open-source-the-apache-20-release-has-a-privacy-catch-1mkj</id>
-    <updated>2026-07-22T02:48:44Z</updated>
-    <summary type="text">SpaceXAI open-sourced Grok Build, and three versions of the story immediately started circulating: &quot;Grok 4.5 is open source now.&quot; &quot;You can run the whole Grok stack offline.&quot; &quot;The privacy problem is solved because the code is public.&quot; The first two are wrong. The third is directionally useful, but nowhere near proven. I cloned the July 21 public repository, checked 2,847 tracked files, traced the c</summary>
-    <author><name>tokenmixai</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Self-Hosting Like a Pro, Part 2: Docker, K3s and Traefik v3 with Automatic HTTPS</title>
-    <link href="https://dev.to/adeutou/self-hosting-like-a-pro-part-2-docker-k3s-and-traefik-v3-with-automatic-https-1kpn" rel="alternate"/>
-    <id>https://dev.to/adeutou/self-hosting-like-a-pro-part-2-docker-k3s-and-traefik-v3-with-automatic-https-1kpn</id>
-    <updated>2026-07-22T02:47:16Z</updated>
-    <summary type="text">This is Part 2 of a four-part series where I document how I turned a 10€/month VPS into a production-grade platform hosting multiple projects. In Part 1 we hardened a fresh Ubuntu server. Today we install the actual platform: a container runtime, a lightweight Kubernetes distribution, a modern reverse proxy, and automatic TLS certificates. By the end of this article, deploying an app with HTTPS wi</summary>
-    <author><name>adeutou</name></author>
   </entry>
 </feed>
