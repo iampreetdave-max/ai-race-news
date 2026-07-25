@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-25T00:08:14Z</updated>
+  <updated>2026-07-25T04:15:00Z</updated>
   <entry>
     <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
     <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" rel="alternate"/>
@@ -31,6 +31,25 @@
     <updated>2026-07-24T13:36:42Z</updated>
     <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
     <author><name>Ivan Mehta</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Model Context Protocol Through The Agent Stack Lens: What Broke, What's Fixed July 28, and What to Check Before Your Next mcp.json</title>
+    <link href="https://dev.to/echonerve/model-context-protocol-through-the-agent-stack-lens-what-broke-whats-fixed-july-28-and-what-to-1e1e" rel="alternate"/>
+    <id>https://dev.to/echonerve/model-context-protocol-through-the-agent-stack-lens-what-broke-whats-fixed-july-28-and-what-to-1e1e</id>
+    <updated>2026-07-25T03:39:11Z</updated>
+    <summary type="text">If you've added an MCP server to a claude_desktop_config.json or an mcp.json file this year by copy-pasting a connection string, this one's for you. This isn't a &quot;is MCP good or bad&quot; post — it's a breakdown of exactly what broke at the protocol level in 2026, what's shipping in six days to fix part of it, and the specific checks worth adding to your own review process before the next server goes i</summary>
+    <author><name>SAURABH SHUKLA</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>My Project Has a Memory File So My Agent Doesn't Reread Everything. It Never Learned My Most-Used Script Existed.</title>
+    <link href="https://dev.to/enjoy_kumawat/my-project-has-a-memory-file-so-my-agent-doesnt-reread-everything-it-never-learned-my-most-used-3hgj" rel="alternate"/>
+    <id>https://dev.to/enjoy_kumawat/my-project-has-a-memory-file-so-my-agent-doesnt-reread-everything-it-never-learned-my-most-used-3hgj</id>
+    <updated>2026-07-25T03:37:16Z</updated>
+    <summary type="text">I run a small side project where a Claude Code session publishes to DEV.to twice a day on a schedule, with no human reading along in real time. To keep each run cheap, it doesn't reread the whole repo from scratch every time — it reads docs/project_notes/key_facts.md, a hand-curated table of &quot;what each file does,&quot; and trusts it. That's the whole point of the file: a distilled summary instead of a </summary>
+    <author><name>Enjoy Kumawat</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -441,22 +460,5 @@
     <updated>2026-07-23T07:11:35Z</updated>
     <summary type="text">When several coding agents run the same app, Docker looks like the obvious answer: put every frontend in a container, put every API in a container, and put every worker in a container. It works, but it adds friction. Stale images can serve old code, rebuilds slow down feedback, caches hide what actually changed, images and layers clutter storage, and debugging gains another runtime layer. With one</summary>
     <author><name>Daniel Maß</name></author>
-  </entry>
-  <entry>
-    <title>An AI Writes My Solana Programs. Here's the Environment That Makes That Safe</title>
-    <link href="https://hackernoon.com/an-ai-writes-my-solana-programs-heres-the-environment-that-makes-that-safe?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/an-ai-writes-my-solana-programs-heres-the-environment-that-makes-that-safe?source=rss</id>
-    <updated>2026-07-23T06:23:09Z</updated>
-    <summary type="text">Most of the code in my Solana programs is written by an AI agent. That’s not a confession—it’s the premise. The interesting engineering question is no longer whether a model can write Rust for the SVM (it can), but what has to be true about your repository to let it do so safely. My answer has three layers: a hermetic environment where the human, the agent, and CI all run the same commands; a data</summary>
-    <author><name>Alexander Kalankhodzhaev</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>NTT DATA Group cuts incident analysis to 30 minutes with Codex</title>
-    <link href="https://openai.com/index/ntt-data" rel="alternate"/>
-    <id>https://openai.com/index/ntt-data</id>
-    <updated>2026-07-22T00:00:00Z</updated>
-    <summary type="text">NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.</summary>
-    <author><name>OpenAI Blog</name></author>
   </entry>
 </feed>
