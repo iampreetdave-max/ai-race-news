@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-25T04:15:00Z</updated>
+  <updated>2026-07-25T07:22:07Z</updated>
   <entry>
     <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
     <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" rel="alternate"/>
@@ -32,6 +32,41 @@
     <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
     <author><name>Ivan Mehta</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>🐳 MyZubster Ecosystem: Docker Integration, Monero Mainnet, and NFT Expansion</title>
+    <link href="https://dev.to/danielioni/myzubster-ecosystem-docker-integration-monero-mainnet-and-nft-expansion-1d30" rel="alternate"/>
+    <id>https://dev.to/danielioni/myzubster-ecosystem-docker-integration-monero-mainnet-and-nft-expansion-1d30</id>
+    <updated>2026-07-25T07:07:25Z</updated>
+    <summary type="text">🐳 MyZubster Ecosystem: Docker Integration, Monero Mainnet, and NFT Expansion A comprehensive update on infrastructure, security, and the path to production. 🚀 What's New? The MyZubster ecosystem has undergone a major infrastructure overhaul in the last 48 hours. We've moved from a collection of scripts to a fully containerized, production-ready architecture. Here's what changed. 📦 1. Docker Integr</summary>
+    <author><name>Daniel Ioni</name></author>
+  </entry>
+  <entry>
+    <title>Claude Opus 5: Hands-On with Code Generation, Agent Orchestration, and Cost Analysis</title>
+    <link href="https://dev.to/yanmoheluo/claude-opus-5-hands-on-with-code-generation-agent-orchestration-and-cost-analysis-38b7" rel="alternate"/>
+    <id>https://dev.to/yanmoheluo/claude-opus-5-hands-on-with-code-generation-agent-orchestration-and-cost-analysis-38b7</id>
+    <updated>2026-07-25T06:53:55Z</updated>
+    <summary type="text">Anthropic quietly shipped Claude Opus 5 last week. Not a flashy announcement, but the numbers caught my attention: roughly 33% cheaper than Opus 4, better at code generation, and supposedly more reliable with tool calling. I run a small cross-border e-commerce operation where we process product data from dozens of suppliers, generate multi-language descriptions, and manage order workflows. AI is a</summary>
+    <author><name>yanmoheluo</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Defeating the Multi-Tenant SaaS Concurrency Trap in PostgreSQL</title>
+    <link href="https://dev.to/dollykm49/defeating-the-multi-tenant-saas-concurrency-trap-in-postgresql-5c9k" rel="alternate"/>
+    <id>https://dev.to/dollykm49/defeating-the-multi-tenant-saas-concurrency-trap-in-postgresql-5c9k</id>
+    <updated>2026-07-25T06:34:52Z</updated>
+    <summary type="text">Most backend engineers implement multi-tenant quota checks using a standard &quot;read-then-write&quot; pattern. In production, this pattern is highly unsafe: SELECT grading_scans_remaining FROM profiles; If greater than 0, execute the application logic. UPDATE profiles SET grading_scans_remaining = grading_scans_remaining - 1; Under high volume or rapid concurrent requests, two independent processes will r</summary>
+    <author><name>Dkmooney</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Agent Memory Is Not Merely a Storage &amp; Retrieval Problem, It Is an Architecture Problem.</title>
+    <link href="https://dev.to/gaurav_dadhich/agent-memory-is-not-merely-a-storage-retrieval-problem-it-is-an-architecture-problem-3e1j" rel="alternate"/>
+    <id>https://dev.to/gaurav_dadhich/agent-memory-is-not-merely-a-storage-retrieval-problem-it-is-an-architecture-problem-3e1j</id>
+    <updated>2026-07-25T06:21:18Z</updated>
+    <summary type="text">Most teams building AI agents are treating memory and inference cost as something the next model release will eventually fix. They believe that a bigger context window, a smarter retriever, a cheaper token rate, etc. would absolve the need for a system for solving agent memory. This posture is convenient but it is wrong. What an agent remembers, when it forgets, and how much it costs to reason are</summary>
+    <author><name>Gaurav Dadhich</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Model Context Protocol Through The Agent Stack Lens: What Broke, What's Fixed July 28, and What to Check Before Your Next mcp.json</title>
@@ -425,40 +460,5 @@
     <category term="open-source"/>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Safety Guardrails Just Became an Incident Response Blocker</title>
-    <link href="https://dev.to/coridev/your-safety-guardrails-just-became-an-incident-response-blocker-3n1j" rel="alternate"/>
-    <id>https://dev.to/coridev/your-safety-guardrails-just-became-an-incident-response-blocker-3n1j</id>
-    <updated>2026-07-23T10:06:24Z</updated>
-    <summary type="text">The hook An AI-native company got attacked by an autonomous AI agent, and when it turned to frontline American models for help investigating, those models said no. So it reached for a Chinese open-source model instead. Sit with that for a second — the safety features built to protect us just became the reason a defender had to shop elsewhere. Where this fits This isn't really a &quot;China vs. US AI&quot; s</summary>
-    <author><name>Cor E</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Introducing tinbase — local Supabase without Docker (one process, real Postgres)</title>
-    <link href="https://dev.to/russel_dsouza_bd584a3cb2a/introducing-tinbase-local-supabase-without-docker-one-process-real-postgres-o0b" rel="alternate"/>
-    <id>https://dev.to/russel_dsouza_bd584a3cb2a/introducing-tinbase-local-supabase-without-docker-one-process-real-postgres-o0b</id>
-    <updated>2026-07-23T10:04:50Z</updated>
-    <summary type="text">Supabase local dev = a 12-container, 2.3 GB Docker stack. tinbase serves the same APIs from one 58 MB process. No Docker. It's real Postgres 17 — RLS, auth.uid(), jsonb, triggers, foreign keys all behave like hosted Supabase. The official supabase-js SDK works unchanged (168/168 integration tests pass). The whole backend — database included — can run inside a browser tab. Open source, MIT. Try it:</summary>
-    <author><name>Russel Dsouza</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>GitLab CI &quot;Cannot connect to unix:///var/run/docker.sock&quot;</title>
-    <link href="https://dev.to/devopsstart/gitlab-ci-cannot-connect-to-unixvarrundockersock-1doj" rel="alternate"/>
-    <id>https://dev.to/devopsstart/gitlab-ci-cannot-connect-to-unixvarrundockersock-1doj</id>
-    <updated>2026-07-23T09:39:01Z</updated>
-    <summary type="text">The fast fix If your GitLab CI job fails with Cannot connect to the Docker daemon at unix:///var/run/docker.sock, your docker client is looking for a local socket that does not exist inside the job container, because DOCKER_HOST is not set. Point the client at the docker:dind service over TCP and the error goes away: build: image: docker:28.3 services: - name: docker:28.3-dind alias: docker variab</summary>
-    <author><name>DevOps Start</name></author>
-  </entry>
-  <entry>
-    <title>You do not need to Dockerize your entire app to run multiple agent workspaces</title>
-    <link href="https://dev.to/themassiveone/you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-agent-workspaces-4b9h" rel="alternate"/>
-    <id>https://dev.to/themassiveone/you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-agent-workspaces-4b9h</id>
-    <updated>2026-07-23T07:11:35Z</updated>
-    <summary type="text">When several coding agents run the same app, Docker looks like the obvious answer: put every frontend in a container, put every API in a container, and put every worker in a container. It works, but it adds friction. Stale images can serve old code, rebuilds slow down feedback, caches hide what actually changed, images and layers clutter storage, and debugging gains another runtime layer. With one</summary>
-    <author><name>Daniel Maß</name></author>
   </entry>
 </feed>
