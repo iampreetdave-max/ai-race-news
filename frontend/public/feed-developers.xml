@@ -4,7 +4,45 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-25T20:57:18Z</updated>
+  <updated>2026-07-25T22:01:52Z</updated>
+  <entry>
+    <title>Claude Opus 5 leads on agentic work — and undercuts Fable 5 on cost</title>
+    <link href="https://dev.to/thegatewayguy/claude-opus-5-leads-on-agentic-work-and-undercuts-fable-5-on-cost-4b02" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/claude-opus-5-leads-on-agentic-work-and-undercuts-fable-5-on-cost-4b02</id>
+    <updated>2026-07-25T21:42:47Z</updated>
+    <summary type="text">Claude Opus 5 is out, and Artificial Analysis — who supported Anthropic's pre-release evaluation — just dropped their full benchmark breakdown. The headline: new top model for agentic knowledge work, and cheaper per task than Fable 5. That combination doesn't come along often at the frontier. &quot;Opus 5 (max) scores 61 on the Artificial Analysis Intelligence Index, effectively tied with Claude Fable </summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>We Got the Prompt Cache Working. Our Pipeline Got Slower.</title>
+    <link href="https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f" rel="alternate"/>
+    <id>https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f</id>
+    <updated>2026-07-25T21:40:21Z</updated>
+    <summary type="text">&quot;You're spawning a fresh codex exec for every single call? Just run the app-server and reuse a thread. The prompt cache alone will pay for it.&quot; That sentence sounds so obviously right that nobody ever benchmarks it. We run a small bazaar of headless AI daemons — designers, reviewers, code workers — and each one shells out to OpenAI's Codex CLI dozens of times per work item. A resident codex app-se</summary>
+    <author><name>Teru Murata</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a CLI that tells you if your codebase fits an LLM's context window</title>
+    <link href="https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d" rel="alternate"/>
+    <id>https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d</id>
+    <updated>2026-07-25T21:19:20Z</updated>
+    <summary type="text">Every time I wanted to paste a whole project into Claude or ChatGPT, I ended up guessing whether it would even fit — and often found out the hard way, mid-conversation, that it didn't. So I built Tokenazire, a small CLI tool that solves exactly that. What it does Scans a local folder or a GitHub repo (just pass the URL, it clones it for you) Counts tokens per file using tiktoken (the same tokenize</summary>
+    <author><name>Michael</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a desktop client for an AI coding agent</title>
+    <link href="https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n" rel="alternate"/>
+    <id>https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n</id>
+    <updated>2026-07-25T21:15:28Z</updated>
+    <summary type="text">Lessons from wrapping grok-build — the architecture, the traps, and why we picked Tauri over Electron. TL;DR grok-build is xAI's open-source Rust coding agent. It ships as a TUI. We wrote a native desktop client for it — Tauri 2 (~8 MB binary), React frontend, Rust runtime that spawns the CLI as a child process and talks to it over ACP/JSON-RPC 2.0. This post is the architecture deep-dive: how the</summary>
+    <author><name>King Wan</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Your AI Agent Has a Backpack. It's Called Retrieval Memory.</title>
     <link href="https://dev.to/rijultp/your-ai-agent-has-a-backpack-its-called-retrieval-memory-1d95" rel="alternate"/>
@@ -423,39 +461,5 @@
     <summary type="text">Cursor has made Cursor Router generally available for Teams and Enterprise plans. The system classifies each request on query, context, task complexity and domain, then routes it to the most suitable model. Cursor reports frontier-quality output at 60% savings in online A/B tests, and 30–50% savings for three early-access enterprise accounts measured against Opus 4.8 rates. The post Cursor Release</summary>
     <author><name>Michal Sutter</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>I built a terminal tool to see your AI coding limits before they stop you</title>
-    <link href="https://dev.to/pawfromoz/i-built-a-terminal-tool-to-see-your-ai-coding-limits-before-they-stop-you-3a93" rel="alternate"/>
-    <id>https://dev.to/pawfromoz/i-built-a-terminal-tool-to-see-your-ai-coding-limits-before-they-stop-you-3a93</id>
-    <updated>2026-07-23T22:23:44Z</updated>
-    <summary type="text">The worst moment in a coding session is hitting a rate limit mid-task. You're deep in a refactor. Claude Code stops. Or Codex resets. And you spend the next 20 minutes switching tools, losing context, or just waiting. The &quot;Codex Resets&quot; thread on Hacker News got 270 points and 175 comments. The pain is widespread. The problem isn't the limit — it's that you don't know how close you are until you h</summary>
-    <author><name>Paw from Oz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agents in Finance Live or Die by Runtime Receipts | Focused Labs</title>
-    <link href="https://dev.to/focused_dot_io/ai-agents-in-finance-live-or-die-by-runtime-receipts-focused-labs-33ni" rel="alternate"/>
-    <id>https://dev.to/focused_dot_io/ai-agents-in-finance-live-or-die-by-runtime-receipts-focused-labs-33ni</id>
-    <updated>2026-07-23T22:13:45Z</updated>
-    <summary type="text">The board wants to see the bottom line of the RFP. Show the receipt. Financial services boards want to know what they get from the spend on AI in LangChain’s July post titled proving the ROI of agentic AI in financial services. In the case of agentic RFP responses, AML investigations, portfolio management workflows, and financial services compliance reviews, the work crosses documents, systems, ap</summary>
-    <author><name>Austin Vance</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>My Developer Associate Certification Journey and Resources to Certify With Confidence</title>
-    <link href="https://dev.to/aws-builders/my-developer-associate-certification-journey-and-resources-to-certify-with-confidence-402l" rel="alternate"/>
-    <id>https://dev.to/aws-builders/my-developer-associate-certification-journey-and-resources-to-certify-with-confidence-402l</id>
-    <updated>2026-07-23T20:18:18Z</updated>
-    <summary type="text">☁️ Exam Guide: Developer Associate Resources to Certify With Confidence My Developer Associate Certification Journey 🧭 First Things First A Note on Renewal One lesson I learned the hard way came from my earlier certification journey. As I mentioned in my Solutions Architect Associate Certification Journey, I let that certification expire instead of just taking the Professional Version. Looking bac</summary>
-    <author><name>Ntombizakhona Mabaso</name></author>
-  </entry>
-  <entry>
-    <title>[Boost]</title>
-    <link href="https://dev.to/mxlliana/-47hf" rel="alternate"/>
-    <id>https://dev.to/mxlliana/-47hf</id>
-    <updated>2026-07-23T20:01:29Z</updated>
-    <summary type="text">I let an AI test my app 55 times in a week. Here's what it broke (and what I broke). Resque Resque Resque Follow Jul 23 I let an AI test my app 55 times in a week. Here's what it broke (and what I broke). #testing #ai #webdev #devops 12 reactions 12 comments 6 min read</summary>
-    <author><name>MXLN</name></author>
   </entry>
 </feed>

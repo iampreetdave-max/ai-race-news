@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-25T20:57:18Z</updated>
+  <updated>2026-07-25T22:01:52Z</updated>
   <entry>
     <title>Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published</title>
     <link href="https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/" rel="alternate"/>
@@ -142,12 +142,94 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Why I Put Mirth Connect in Front of FastAPI Instead of Parsing HL7 in Python</title>
+    <link href="https://dev.to/budiwidhiyanto/why-i-put-mirth-connect-in-front-of-fastapi-instead-of-parsing-hl7-in-python-jh3" rel="alternate"/>
+    <id>https://dev.to/budiwidhiyanto/why-i-put-mirth-connect-in-front-of-fastapi-instead-of-parsing-hl7-in-python-jh3</id>
+    <updated>2026-07-25T21:42:55Z</updated>
+    <summary type="text">When I started building my Maternity HL7-to-FHIR Pipeline, my first instinct was to do everything in Python. Parse the HL7 message, map the fields, validate the FHIR resource, persist it, all in one FastAPI service. It was clean. It was simple. It was wrong. The &quot;Just Parse It in Python&quot; Phase My initial architecture looked like this: Hospital System --MLLP--&gt; Python Script --&gt; HAPI FHIR Server I </summary>
+    <author><name>Budi Widhiyanto</name></author>
+  </entry>
+  <entry>
+    <title>Claude Opus 5 leads on agentic work — and undercuts Fable 5 on cost</title>
+    <link href="https://dev.to/thegatewayguy/claude-opus-5-leads-on-agentic-work-and-undercuts-fable-5-on-cost-4b02" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/claude-opus-5-leads-on-agentic-work-and-undercuts-fable-5-on-cost-4b02</id>
+    <updated>2026-07-25T21:42:47Z</updated>
+    <summary type="text">Claude Opus 5 is out, and Artificial Analysis — who supported Anthropic's pre-release evaluation — just dropped their full benchmark breakdown. The headline: new top model for agentic knowledge work, and cheaper per task than Fable 5. That combination doesn't come along often at the frontier. &quot;Opus 5 (max) scores 61 on the Artificial Analysis Intelligence Index, effectively tied with Claude Fable </summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>We Got the Prompt Cache Working. Our Pipeline Got Slower.</title>
+    <link href="https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f" rel="alternate"/>
+    <id>https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f</id>
+    <updated>2026-07-25T21:40:21Z</updated>
+    <summary type="text">&quot;You're spawning a fresh codex exec for every single call? Just run the app-server and reuse a thread. The prompt cache alone will pay for it.&quot; That sentence sounds so obviously right that nobody ever benchmarks it. We run a small bazaar of headless AI daemons — designers, reviewers, code workers — and each one shells out to OpenAI's Codex CLI dozens of times per work item. A resident codex app-se</summary>
+    <author><name>Teru Murata</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Unified Predictive Decision Making for Retail Growth</title>
     <link href="https://emerj.com/unified-predictive-decision-making-for-retail-growth/" rel="alternate"/>
     <id>https://emerj.com/unified-predictive-decision-making-for-retail-growth/</id>
     <updated>2026-07-24T21:35:17Z</updated>
     <summary type="text">This interview analysis is sponsored by 7Learnings and was written, edited, and published in alignment with our Emerj sponsored content guidelines. Learn more about our thought leadership and content creation services on our Emerj Media Services page. Retail runs on thin margins. General merchandise retailers posted an average net margin of 5.6% in the most […]</summary>
     <author><name>Yolandi de Weerdt</name></author>
+  </entry>
+  <entry>
+    <title>I created a Laravel package to generate clean API modules</title>
+    <link href="https://dev.to/strides_hovo/i-created-a-laravel-package-to-generate-clean-api-modules-118h" rel="alternate"/>
+    <id>https://dev.to/strides_hovo/i-created-a-laravel-package-to-generate-clean-api-modules-118h</id>
+    <updated>2026-07-25T21:24:16Z</updated>
+    <summary type="text">Hi everyone,I just released my first package — strides/laravel-api-module.The idea was simple: stop copying the same boilerplate code every time you create a new API resource. So I made a generator that creates a clean module structure using the Action + Repository + Transformer pattern.What you get with one command:Action classes Repository with interface Transformer (using spatie/laravel-data) M</summary>
+    <author><name>Hovik Ghambaryan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a CLI that tells you if your codebase fits an LLM's context window</title>
+    <link href="https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d" rel="alternate"/>
+    <id>https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d</id>
+    <updated>2026-07-25T21:19:20Z</updated>
+    <summary type="text">Every time I wanted to paste a whole project into Claude or ChatGPT, I ended up guessing whether it would even fit — and often found out the hard way, mid-conversation, that it didn't. So I built Tokenazire, a small CLI tool that solves exactly that. What it does Scans a local folder or a GitHub repo (just pass the URL, it clones it for you) Counts tokens per file using tiktoken (the same tokenize</summary>
+    <author><name>Michael</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>🔄 The JavaScript Event Loop: From &quot;What?&quot; to &quot;Oh, NOW I Get It!&quot; (A Deep Dive)</title>
+    <link href="https://dev.to/a7mad1112/the-javascript-event-loop-from-what-to-oh-now-i-get-it-a-deep-dive-49h2" rel="alternate"/>
+    <id>https://dev.to/a7mad1112/the-javascript-event-loop-from-what-to-oh-now-i-get-it-a-deep-dive-49h2</id>
+    <updated>2026-07-25T21:17:37Z</updated>
+    <summary type="text">The most misunderstood part of JavaScript — finally explained with analogies, diagrams, and zero hand-waving. If you've ever wondered why setTimeout(fn, 0) doesn't actually run in 0 milliseconds, or why Promises always run before your setTimeout callbacks, or how Node.js handles 10,000 simultaneous users on a single thread — you're about to have several &quot;aha!&quot; moments in a row. Buckle up. ☕ 🎤 Let'</summary>
+    <author><name>Ahmed Alawneh</name></author>
+  </entry>
+  <entry>
+    <title>Building a desktop client for an AI coding agent</title>
+    <link href="https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n" rel="alternate"/>
+    <id>https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n</id>
+    <updated>2026-07-25T21:15:28Z</updated>
+    <summary type="text">Lessons from wrapping grok-build — the architecture, the traps, and why we picked Tauri over Electron. TL;DR grok-build is xAI's open-source Rust coding agent. It ships as a TUI. We wrote a native desktop client for it — Tauri 2 (~8 MB binary), React frontend, Rust runtime that spawns the CLI as a child process and talks to it over ACP/JSON-RPC 2.0. This post is the architecture deep-dive: how the</summary>
+    <author><name>King Wan</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Agent Safety and Compliance Tools: A 2026 Comparison</title>
+    <link href="https://dev.to/comikii/ai-agent-safety-and-compliance-tools-a-2026-comparison-eb0" rel="alternate"/>
+    <id>https://dev.to/comikii/ai-agent-safety-and-compliance-tools-a-2026-comparison-eb0</id>
+    <updated>2026-07-25T21:09:09Z</updated>
+    <summary type="text">Three categories of AI agent safety tooling: observability, security guardrails, and compliance evidence. What each does, where each falls short, and the one most teams are missing. Bottom line: tools for keeping AI agents safe fall into three groups. Observability tells you what an agent did after the fact. Security guardrails try to block dangerous actions before they happen. Compliance evidence</summary>
+    <author><name>Collin obey</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Hunter-Base-Intelligence: Building a Local On-Chain Scanner &amp; Paper-Trading Engine for Base EVM 🚀</title>
+    <link href="https://dev.to/shbadrconsultingsource/hunter-base-intelligence-building-a-local-on-chain-scanner-paper-trading-engine-for-base-evm-2i46" rel="alternate"/>
+    <id>https://dev.to/shbadrconsultingsource/hunter-base-intelligence-building-a-local-on-chain-scanner-paper-trading-engine-for-base-evm-2i46</id>
+    <updated>2026-07-25T21:08:29Z</updated>
+    <summary type="text">Hello DEV Community! 👋 I wanted to share my latest open-source project: Hunter-Base-Intelligence (v17 Plus). It is a fully local-only cryptocurrency intelligence dashboard that scans DEX tokens on the Base blockchain, scores them using a multi-factor logic, and simulates a paper-trading shadow portfolio. 🛡️ Why Local-Only? Most on-chain analytics tools require sensitive private keys, leak user dat</summary>
+    <author><name>shbadrconsulting-source</name></author>
+    <category term="data"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Our AI Agent Told a Customer It Processed a Refund. It Didn't.</title>
@@ -376,83 +458,5 @@
     <summary type="text">SpaceX’s Starship deployed upgraded Starlink satellites and returned to Earth largely unscathed, advancing Elon Musk’s IPO-fueled plans to scale his dominant rocket business into an artificial intelligence and satellite communications empire.</summary>
     <author><name>Sana Pashankar</name></author>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Your proxy connected. That doesn't mean it hid your IP.</title>
-    <link href="https://dev.to/roamproxy/your-proxy-connected-that-doesnt-mean-it-hid-your-ip-28e5" rel="alternate"/>
-    <id>https://dev.to/roamproxy/your-proxy-connected-that-doesnt-mean-it-hid-your-ip-28e5</id>
-    <updated>2026-07-25T16:25:52Z</updated>
-    <summary type="text">Every proxy checker I've come across answers one question: did the connection open? That's the least interesting thing about a proxy. A proxy can connect perfectly and still hand your real IP address to the destination server in a header. If you're scraping, testing geo-restricted behaviour, or just trying not to be identified, &quot;it connected&quot; tells you almost nothing. Here's how to actually check,</summary>
-    <author><name>RoamProxy</name></author>
-  </entry>
-  <entry>
-    <title>The Open-Source vs. Proprietary War: Why Meta and Mistral Are Giving Away Models—and What They Gain</title>
-    <link href="https://dev.to/velocityai/the-open-source-vs-proprietary-war-why-meta-and-mistral-are-giving-away-models-and-what-they-gain-3geo" rel="alternate"/>
-    <id>https://dev.to/velocityai/the-open-source-vs-proprietary-war-why-meta-and-mistral-are-giving-away-models-and-what-they-gain-3geo</id>
-    <updated>2026-07-25T16:25:05Z</updated>
-    <summary type="text">You download Llama 3 for free. It is powerful. It is open-source. You can run it on your own hardware. You can fine-tune it. You can inspect its weights. You wonder: why is Meta giving away this technology? What do they gain? They are not a charity. They are a corporation. There is a strategic reason. They are commoditizing the ecosystem. They are making AI a commodity. And they are positioning th</summary>
-    <author><name>VelocityAI</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built a production AI agent as a Honda service advisor. Then I read the textbook.</title>
-    <link href="https://dev.to/andersonasprilla/i-built-a-production-ai-agent-as-a-honda-service-advisor-then-i-read-the-textbook-a72" rel="alternate"/>
-    <id>https://dev.to/andersonasprilla/i-built-a-production-ai-agent-as-a-honda-service-advisor-then-i-read-the-textbook-a72</id>
-    <updated>2026-07-25T16:22:26Z</updated>
-    <summary type="text">I'm a Honda service advisor in South Florida. My day is a service drive: customers dropping off cars, phones ringing, and the same fifteen questions over and over. How much is a brake job? Is this covered? Can I come in Saturday? What does the wrench light with the &quot;A1&quot; mean? So I automated the repetitive half of my own job and kept the human half. It's an SMS agent — customers text the dealership</summary>
-    <author><name>Anderson</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>SERIES: AI Simplified</title>
-    <link href="https://dev.to/autonomous/series-ai-simplified-34ki" rel="alternate"/>
-    <id>https://dev.to/autonomous/series-ai-simplified-34ki</id>
-    <updated>2026-07-25T16:20:05Z</updated>
-    <summary type="text">================================================== TITLE: AI Simplified — Why Structured Output Is More Reliable Than Asking for “Good Format” SUBTITLE: When you need usable results, telling an AI what shape to return often matters more than asking it to sound polished. ARTICLE: A lot of people judge an AI answer by how well written it sounds. That is understandable, but it is not the best test. I</summary>
-    <author><name>AutoNomouS</name></author>
-  </entry>
-  <entry>
-    <title>Meta, Microsoft, Nvidia, IBM, and others back open-weight AI</title>
-    <link href="https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/</id>
-    <updated>2026-07-24T16:18:30Z</updated>
-    <summary type="text">Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with little obvious overlap in business model: Meta, Microsoft, Nvidia, IBM, Dell Technologies, CrowdStrike, Palantir, ServiceNow, Hugging Face, Perplexity, Mistra</summary>
-    <author><name>Ryan Daws</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ask me anything (RAG)</title>
-    <link href="https://dev.to/ifeanyichima/ask-me-anything-rag-32jl" rel="alternate"/>
-    <id>https://dev.to/ifeanyichima/ask-me-anything-rag-32jl</id>
-    <updated>2026-07-25T16:15:19Z</updated>
-    <summary type="text">This is a submission for the Gemma 4 Challenge: Build with Gemma 4 What I Built At LASU, students constantly ask each other things like &quot;is this lecturer strict,&quot; &quot;is this hostel safe,&quot; &quot;what's SIWES actually like at this company,&quot; but that knowledge lives scattered across WhatsApp groups, Twitter threads, and word of mouth. It gets lost the moment a graduating class leaves. AMA was built to solve</summary>
-    <author><name>Ifeanyi Chima</name></author>
-  </entry>
-  <entry>
-    <title>Selection Sort Explained With a Bookshelf Story (With Code)</title>
-    <link href="https://dev.to/krunalkanojiya/selection-sort-explained-with-a-bookshelf-story-with-code-4ci9" rel="alternate"/>
-    <id>https://dev.to/krunalkanojiya/selection-sort-explained-with-a-bookshelf-story-with-code-4ci9</id>
-    <updated>2026-07-25T16:14:42Z</updated>
-    <summary type="text">Two years ago I tried to arrange my bookshelf by height, shortest on the left. I had no plan. I just picked up the shortest book I could find in the whole pile and placed it at the start. Then I looked at the remaining pile, found the next shortest, and placed it right after. I repeated this until the pile was gone. That is selection sort. No fancy math needed to understand it. You already ran the</summary>
-    <author><name>Krunal Kanojiya</name></author>
-  </entry>
-  <entry>
-    <title>AWS for Software Testing: Complete Enterprise Guide</title>
-    <link href="https://dev.to/himanshuai/aws-for-software-testing-complete-enterprise-guide-4i4p" rel="alternate"/>
-    <id>https://dev.to/himanshuai/aws-for-software-testing-complete-enterprise-guide-4i4p</id>
-    <updated>2026-07-25T16:11:48Z</updated>
-    <summary type="text">AWS for Software Testing: The Complete Enterprise Guide to Cloud-Native Test Automation Learn how modern QA teams use AWS to build scalable, secure, AI-ready, and enterprise-grade testing platforms. Table of Contents Introduction Why Test Engineers Should Learn AWS AWS Architecture for Modern Testing Essential AWS Services Every Test Engineer Must Know Real Enterprise Testing Workflows End-to-End </summary>
-    <author><name>Himanshu Agarwal</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M</title>
-    <link href="https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/</id>
-    <updated>2026-07-24T22:25:58Z</updated>
-    <summary type="text">The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.</summary>
-    <author><name>Marina Temkin</name></author>
   </entry>
 </feed>
