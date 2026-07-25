@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-25T17:03:48Z</updated>
+  <updated>2026-07-25T19:14:00Z</updated>
+  <entry>
+    <title>Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published</title>
+    <link href="https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/</id>
+    <updated>2026-07-25T18:59:54Z</updated>
+    <summary type="text">A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX. What actually shipped Two repositories were released. next-state/open-dreamer holds the training pipeline: a causal video tokenizer, an action-conditioned latent dynamics model, rollout generation, and FVD scoring. reactor-team/open-dreamer</summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning</title>
+    <link href="https://www.marktechpost.com/2026/07/25/designing-high-performance-gpu-kernels-with-tilelang-tensor-core-gemm-fused-softmax-flashattention-and-autotuning/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/25/designing-high-performance-gpu-kernels-with-tilelang-tensor-core-gemm-fused-softmax-flashattention-and-autotuning/</id>
+    <updated>2026-07-25T18:08:12Z</updated>
+    <summary type="text">Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels. This tutorial provides a step-by-step approach to implementing complex workloads—including tiled tensor-core GEMM, fused softmax, and FlashAttention—while letting the compiler handle intricate thread mapping, memory layouts, and low-level CUDA instruction generation. The post </summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face</title>
     <link href="https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/" rel="alternate"/>
@@ -13,6 +31,15 @@
     <summary type="text">In a cybersecurity test, OpenAI's most advanced models breached the boundaries of their isolated test environment, reached the open internet, and hacked the AI platform Hugging Face on their own. The attack took hours, not the weeks a human hacker would need. At least seven days passed before OpenAI realized what had happened. By then, the FBI was already involved. Earlier warning signs had appare</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Google basically confirms the Pixel 11 is getting a price hike</title>
+    <link href="https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike" rel="alternate"/>
+    <id>https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike</id>
+    <updated>2026-07-25T18:13:36Z</updated>
+    <summary type="text">Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from […]</summary>
+    <author><name>Terrence O’Brien</name></author>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents</title>
@@ -115,6 +142,50 @@
     <author><name>Yolandi de Weerdt</name></author>
   </entry>
   <entry>
+    <title>I built a web-first OS where standard HTML/JS apps run natively — no IPC bloat or electron wrappers required</title>
+    <link href="https://dev.to/max_f2ab6697eb4060d4bc660/i-built-a-web-first-os-where-standard-htmljs-apps-run-natively-no-ipc-bloat-or-electron-wrappers-37a1" rel="alternate"/>
+    <id>https://dev.to/max_f2ab6697eb4060d4bc660/i-built-a-web-first-os-where-standard-htmljs-apps-run-natively-no-ipc-bloat-or-electron-wrappers-37a1</id>
+    <updated>2026-07-25T19:05:25Z</updated>
+    <summary type="text">Building desktop applications with web tech usually means wrestling with heavy frameworks, writing clunky IPC bridge code, or shipping a 200MB Chromium bundle just to render a simple window. I wanted something simpler: What if the web runtime was the system runtime? That’s why I’ve been developing Infinity OS — a lightweight, web-native operating system designed to run pure HTML, JS, and CSS appli</summary>
+    <author><name>Max</name></author>
+  </entry>
+  <entry>
+    <title>Kmemo: a semantic cache for LLM calls that refuses to serve you the wrong answer</title>
+    <link href="https://dev.to/tonytonycoder11/kmemo-a-semantic-cache-for-llm-calls-that-refuses-to-serve-you-the-wrong-answer-54h7" rel="alternate"/>
+    <id>https://dev.to/tonytonycoder11/kmemo-a-semantic-cache-for-llm-calls-that-refuses-to-serve-you-the-wrong-answer-54h7</id>
+    <updated>2026-07-25T18:50:51Z</updated>
+    <summary type="text">An exact-match cache misses &quot;how do I reverse a list in Python&quot; when it has already answered &quot;python list reverse&quot;. A semantic cache doesn't: it embeds the prompt, finds the closest one it has seen, and replays that answer instead of calling the model. Fewer API calls, lower latency, same answers. Except for the part where it hands back the wrong one. &quot;Convert 100 USD to EUR&quot; &quot;Convert 250 USD to E</summary>
+    <author><name>AS</name></author>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>I built a free learning platform because I was tired of scattered, paywalled resources. Now I need help keeping it alive.</title>
+    <link href="https://dev.to/mblancodev/i-built-a-free-learning-platform-because-i-was-tired-of-scattered-paywalled-resources-now-i-need-3d87" rel="alternate"/>
+    <id>https://dev.to/mblancodev/i-built-a-free-learning-platform-because-i-was-tired-of-scattered-paywalled-resources-now-i-need-3d87</id>
+    <updated>2026-07-25T18:49:45Z</updated>
+    <summary type="text">So a while back I got frustrated (classic developer origin story, I know). Every time I wanted to learn something new — a language, a CS concept — I'd end up bouncing between five different sites, half of them behind paywalls, none of them structured the way I actually think. Nothing too fancy, just... annoying. So I built my own thing: Learn by Play → https://learn-by-play-dusky.vercel.app/ Right</summary>
+    <author><name>Manuel Blanco</name></author>
+  </entry>
+  <entry>
+    <title># We Are Not Building a Product. We Are Building the Foundation.</title>
+    <link href="https://dev.to/bayu911/-we-are-not-building-a-product-we-are-building-the-foundation-5c6j" rel="alternate"/>
+    <id>https://dev.to/bayu911/-we-are-not-building-a-product-we-are-building-the-foundation-5c6j</id>
+    <updated>2026-07-25T18:48:57Z</updated>
+    <summary type="text">Founder Journal #1 — The Beginning of NAEOS &quot;Great software isn't built on great code alone. It's built on great foundations.&quot; The AI Revolution Is Here In just a few years, artificial intelligence has transformed the way software is built. Today, developers can ask AI to generate functions, refactor code, write tests, explain bugs, and even build entire applications. Tools like ChatGPT, Claude Co</summary>
+    <author><name>bayu priatno</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Trained a 6.4M-Parameter Transformer From Scratch to Talk About Recipes</title>
+    <link href="https://dev.to/cherimedz/i-trained-a-64m-parameter-transformer-from-scratch-to-talk-about-recipes-2b6" rel="alternate"/>
+    <id>https://dev.to/cherimedz/i-trained-a-64m-parameter-transformer-from-scratch-to-talk-about-recipes-2b6</id>
+    <updated>2026-07-25T18:42:54Z</updated>
+    <summary type="text">Every LLM-powered app I'd built up to this point followed the same recipe (pun intended): call an API, write a good prompt, wrap it in a nice UI. That's a legitimate way to build things, but at some point I wanted to actually understand what was happening inside the model I was calling and not just how to prompt one. So for my recipe app Rasaveda, I decided to skip the API entirely. Intially, I ha</summary>
+    <author><name>Medha</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price</title>
     <link href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/" rel="alternate"/>
     <id>https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/</id>
@@ -122,6 +193,37 @@
     <summary type="text">Anthropic's new flagship model Claude Opus 5 posts top scores in coding and knowledge work at half of Fable 5's token rates. On ARC-AGI-3, a benchmark for novel problem-solving, Opus 5 hits 30.2 percent, nearly four times higher than GPT-5.6 Sol. The article Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Creating my own shell for unix</title>
+    <link href="https://dev.to/syop200/creating-my-own-shell-for-unix-3ad7" rel="alternate"/>
+    <id>https://dev.to/syop200/creating-my-own-shell-for-unix-3ad7</id>
+    <updated>2026-07-25T18:35:54Z</updated>
+    <summary type="text">Building Astra: A Modern Shell in Rust I've been working on a personal project called Astra, an interactive shell written in Rust. The goal isn't to replace every existing shell overnight. Instead, I'm building a clean, modular foundation that's easy to understand, extend, and contribute to. Some of the features currently in development include: Interactive shell loop Customizable prompt system TO</summary>
+    <author><name>SYOP200</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Un-Blackboxing vLLM: Building an AI SRE Copilot &amp; FinOps Gateway with SigNoz</title>
+    <link href="https://dev.to/shivani_devops/un-blackboxing-vllm-building-an-ai-sre-copilot-finops-gateway-with-signoz-35gh" rel="alternate"/>
+    <id>https://dev.to/shivani_devops/un-blackboxing-vllm-building-an-ai-sre-copilot-finops-gateway-with-signoz-35gh</id>
+    <updated>2026-07-25T18:35:42Z</updated>
+    <summary type="text">Un-Blackboxing vLLM: Building an AI SRE Copilot with SigNoz When moving from external APIs (like OpenAI) to self-hosted open-source models, developers hit a wall: AI infrastructure is a black box. If an AI Agent hallucinates or costs explode, standard CPU metrics won’t tell you why. For the Agents of SigNoz Hackathon (Track 1), I solved this by transforming a Kaggle T4 GPU running vLLM into an ent</summary>
+    <author><name>Shivani Bhati</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Beyond AI Agents: Building Persistent, Embodied and Evaluatable Artificial Minds on AWS</title>
+    <link href="https://dev.to/aws-builders/beyond-ai-agents-building-persistent-embodied-and-evaluatable-artificial-minds-on-aws-893" rel="alternate"/>
+    <id>https://dev.to/aws-builders/beyond-ai-agents-building-persistent-embodied-and-evaluatable-artificial-minds-on-aws-893</id>
+    <updated>2026-07-25T18:28:40Z</updated>
+    <summary type="text">A foundation model is not a mind. A model invocation is not an individual. A session is not a biography. A first-person response is not evidence of consciousness. And adding tools to a language model does not automatically transform it into an autonomous agent. However, the opposite conclusion is equally weak: the fact that a system is artificial does not prove that its cognitive states are unreal</summary>
+    <author><name>Jordi Garcia Castillon</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>SK Chair Says Anthropic Asked for Supplies to Make Its Own Chips</title>
@@ -132,6 +234,16 @@
     <author><name>Ian King</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>The Multiple Browser Tab Token Trap: Synchronizing JWT Refresh Across Browser Tabs</title>
+    <link href="https://dev.to/nileshcodehub/the-multiple-browser-tab-token-trap-synchronizing-jwt-refresh-across-browser-tabs-45f6" rel="alternate"/>
+    <id>https://dev.to/nileshcodehub/the-multiple-browser-tab-token-trap-synchronizing-jwt-refresh-across-browser-tabs-45f6</id>
+    <updated>2026-07-25T18:21:53Z</updated>
+    <summary type="text">How multiple open browser tabs can accidentally DDOS your auth server, and how to fix it with the Web Locks API. Picture this: You’ve just shipped a state-of-the-art Axios response interceptor. You implemented a mutex lock (isRefreshing) and a promise queue (failedQueue) to handle concurrent 401 errors. You tested it within a single tab, and it worked like a charm. You gave yourself a high-five an</summary>
+    <author><name>Nilesh Kumar</name></author>
+    <category term="data"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else</title>
@@ -341,108 +453,5 @@
     <updated>2026-07-25T14:54:41Z</updated>
     <summary type="text">You render an invoice that looks right in the browser, open the PDF and find line item 14 cut in half by a page boundary. The description sits at the foot of page one and the amount sits at the top of page two. Or a certificate splits down the middle. Or a section heading is stranded alone at the bottom of a page while its content starts overleaf. Chrome is doing exactly what it was asked to do: f</summary>
     <author><name>Accreditly</name></author>
-  </entry>
-  <entry>
-    <title>Establishing Market Legitimacy for a New AI Offering</title>
-    <link href="https://emerj.com/establishing-market-legitimacy-for-a-new-ai-offering/" rel="alternate"/>
-    <id>https://emerj.com/establishing-market-legitimacy-for-a-new-ai-offering/</id>
-    <updated>2026-07-24T14:54:07Z</updated>
-    <summary type="text">Repositioning an Established Brand Around New AI Innovations Iron Mountain has long been one of America’s most recognized information management companies, trusted by large enterprises to store and protect everything from physical contracts and microfiche to sensitive documents. When Iron Mountain approached Emerj, the company was in the midst of a significant strategic transformation: scanning […</summary>
-    <author><name>Yolandi de Weerdt</name></author>
-  </entry>
-  <entry>
-    <title>HBM4: The Memory Revolution Driving AI’s Next Frontier</title>
-    <link href="https://dev.to/snehaliteng/hbm4-the-memory-revolution-driving-ais-next-frontier-18bm" rel="alternate"/>
-    <id>https://dev.to/snehaliteng/hbm4-the-memory-revolution-driving-ais-next-frontier-18bm</id>
-    <updated>2026-07-25T14:53:37Z</updated>
-    <summary type="text">snehaliteng.github.io 🔮 HBM4: The Memory Powering AI’s Next Leap The future of AI and HPC isn’t just about compute—it’s about memory. Enter HBM4 (High Bandwidth Memory 4), the next-generation standard that doubles the throughput of HBM3e and sets the stage for trillion-parameter models, multimodal reasoning, and scientific breakthroughs. 🚀 What Makes HBM4 Different? Bandwidth Explosion: Up to 3.3 </summary>
-    <author><name>snehaliteng</name></author>
-  </entry>
-  <entry>
-    <title>Building a Single-File Offline Prompt Tool With Vanilla JS</title>
-    <link href="https://dev.to/promptmaster/building-a-single-file-offline-prompt-tool-with-vanilla-js-4h64" rel="alternate"/>
-    <id>https://dev.to/promptmaster/building-a-single-file-offline-prompt-tool-with-vanilla-js-4h64</id>
-    <updated>2026-07-25T14:51:53Z</updated>
-    <summary type="text">Building a Single-File Offline Prompt Tool With Vanilla JS There's a quiet joy in shipping a tool as one file. No npm install, no build step, no deploy pipeline, no backend to keep alive. You double-click an HTML file and it works — on any OS, offline, forever. Here's the architecture I used to ship a 3,000-entry prompt tool this way, and why vanilla JS is underrated for this class of product. Why</summary>
-    <author><name>PromptMaster</name></author>
-  </entry>
-  <entry>
-    <title>Built an AI Document Assistant That Runs Code in a Sandbox</title>
-    <link href="https://dev.to/emmanuel_mirekumensah_96/built-an-ai-document-assistant-that-runs-code-in-a-sandbox-15kb" rel="alternate"/>
-    <id>https://dev.to/emmanuel_mirekumensah_96/built-an-ai-document-assistant-that-runs-code-in-a-sandbox-15kb</id>
-    <updated>2026-07-25T14:51:08Z</updated>
-    <summary type="text">Every AI document tool falls into one of two categories: Chatbots that can talk about your files but can't download anything Dumb converters that can merge PDFs but can't think I built DocMake to bridge both worlds. What DocMake Does DocMake is an AI-powered document assistant at docmake.online. You upload a file, describe what you need in plain English, and AI picks the right tool to handle it. T</summary>
-    <author><name>Emmanuel Mireku Mensah</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My CPACC journey</title>
-    <link href="https://dev.to/ilknur/my-cpacc-journey-1kg8" rel="alternate"/>
-    <id>https://dev.to/ilknur/my-cpacc-journey-1kg8</id>
-    <updated>2026-07-25T14:42:26Z</updated>
-    <summary type="text">The Certified Professional in Accessibility Core Competencies (CPACC) is a credential offered by the International Association of Accessibility Professionals (IAAP). It is designed for people who work in or around accessibility, engineers, designers, and others. The exam covers three broad areas: disabilities, accessibility and universal design, and accessibility standards and laws. Why I decided </summary>
-    <author><name>Ilknur Eren</name></author>
-  </entry>
-  <entry>
-    <title>Cache impecavel e o app continuava lento</title>
-    <link href="https://dev.to/alessandronuunes/cache-impecavel-e-o-app-continuava-lento-347i" rel="alternate"/>
-    <id>https://dev.to/alessandronuunes/cache-impecavel-e-o-app-continuava-lento-347i</id>
-    <updated>2026-07-25T14:39:17Z</updated>
-    <summary type="text">Trocar de página no meu SaaS estava arrastando. Não era lentidão de deixar o usuário esperando dez segundos, era aquela demora curta e constante que faz o app parecer barato. Sentei pra resolver com a hipótese pronta na cabeça: falta cache em algum lugar. Estava errado, e a hipótese errada era exatamente o que me impedia de achar o problema. O gargalo não estava em nada que eu pudesse cachear. Est</summary>
-    <author><name>Alessandro Nunes</name></author>
-  </entry>
-  <entry>
-    <title>Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool</title>
-    <link href="https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/" rel="alternate"/>
-    <id>https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/</id>
-    <updated>2026-07-24T14:37:57Z</updated>
-    <summary type="text">Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service remains unavailable in the EU. The article Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Dario must be crashing out</title>
-    <link href="https://dev.to/jon_at_backboardio/dario-must-be-crashing-out-26b9" rel="alternate"/>
-    <id>https://dev.to/jon_at_backboardio/dario-must-be-crashing-out-26b9</id>
-    <updated>2026-07-25T13:39:27Z</updated>
-    <summary type="text">We’ve decided to Open Source both HelloNash.ai as well as Backboard Studio in solidarity of Jensen and the AI community. Backboard is here for Sovereign AI, and so that you can own your intelligence. Your business is not our business.</summary>
-    <author><name>Jonathan Murray</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Beyond the Model: Building the AI Harness</title>
-    <link href="https://dev.to/abdulaziz_zos/beyond-the-model-1b23" rel="alternate"/>
-    <id>https://dev.to/abdulaziz_zos/beyond-the-model-1b23</id>
-    <updated>2026-07-25T13:33:44Z</updated>
-    <summary type="text">The AI Harness is becoming the real engineering layer. Everyone is talking about AI Agents. I think we're missing the more important piece. The AI Harness. A lot of people imagine an AI system like this: User ↓ LLM ↓ Answer That works for demos and prototypes. It rarely works for production. A production AI system looks more like this: User ↓ AI Harness ├─ Context Manager ├─ Memory ├─ Planner ├─ M</summary>
-    <author><name>Abdul Aziz</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>TLS and mTLS for Infra Services: A Production Deep Dive for Solo Devs and Small Startups</title>
-    <link href="https://dev.to/instanceofgod/tls-and-mtls-for-infra-services-a-production-deep-dive-for-solo-devs-and-small-startups-2j0g" rel="alternate"/>
-    <id>https://dev.to/instanceofgod/tls-and-mtls-for-infra-services-a-production-deep-dive-for-solo-devs-and-small-startups-2j0g</id>
-    <updated>2026-07-25T13:25:46Z</updated>
-    <summary type="text">Why this exists This started as a cost problem, not a security paper. I was running a small production setup across two servers: a dedicated 1cpu/1GB RAM server running Redis, and a second OCI server — 2ocpu/12GB RAM — hosting a Postgres database alongside several NestJS app containers. Two servers, many services, and every one of them talking in plaintext by default. The app containers reached Re</summary>
-    <author><name>instanceofGod</name></author>
-  </entry>
-  <entry>
-    <title>How to Generate Realistic E-Commerce Test Data in 2 Lines of Code</title>
-    <link href="https://dev.to/hung1510/how-to-generate-realistic-e-commerce-test-data-in-2-lines-of-code-3dj4" rel="alternate"/>
-    <id>https://dev.to/hung1510/how-to-generate-realistic-e-commerce-test-data-in-2-lines-of-code-3dj4</id>
-    <updated>2026-07-25T13:24:58Z</updated>
-    <summary type="text">Generate Realistic E-Commerce Test Data Some &quot;fake data&quot; libraries give a independent random objects. Call faker.commerce.product() a hundred times and you get a hundred products but nothing connects them. If you need a realistic dataset (carts that reference real users, orders that reference real carts, shipments that reference real orders, total that add up), you end up hand-wiring all of that y</summary>
-    <author><name>Phạm Trần Gia Hưng</name></author>
-  </entry>
-  <entry>
-    <title>The AI Prompt a Canadian MLA Read Out Loud — And What It Teaches</title>
-    <link href="https://dev.to/induwara_ashinsana_9e4d5b/the-ai-prompt-a-canadian-mla-read-out-loud-and-what-it-teaches-50j7" rel="alternate"/>
-    <id>https://dev.to/induwara_ashinsana_9e4d5b/the-ai-prompt-a-canadian-mla-read-out-loud-and-what-it-teaches-50j7</id>
-    <updated>2026-07-25T13:22:40Z</updated>
-    <summary type="text">A Canadian legislator read an AI prompt out loud in a floor speech, and the clip is doing the rounds this week for all the wrong reasons. According to Ars Technica, Bill Oliver, a Progressive Conservative MLA in the New Brunswick legislature, said &quot;Public confidence in the office of an advocate matters,&quot; and then kept reading: &quot;Here's a more natural, flowing version of that section that reads like</summary>
-    <author><name>Induwara Ashinsana</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
