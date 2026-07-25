@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-24T22:09:12Z</updated>
+  <updated>2026-07-25T00:08:14Z</updated>
   <entry>
     <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
     <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" rel="alternate"/>
@@ -32,6 +32,32 @@
     <summary type="text">ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.</summary>
     <author><name>Ivan Mehta</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a memory layer that works across Claude, ChatGPT and Cursor — and rendered it as a 3D brain</title>
+    <link href="https://dev.to/rajveer__gill__/i-built-a-memory-layer-that-works-across-claude-chatgpt-and-cursor-and-rendered-it-as-a-3d-brain-1b9k" rel="alternate"/>
+    <id>https://dev.to/rajveer__gill__/i-built-a-memory-layer-that-works-across-claude-chatgpt-and-cursor-and-rendered-it-as-a-3d-brain-1b9k</id>
+    <updated>2026-07-24T23:38:17Z</updated>
+    <summary type="text">Every AI tool remembers you a little. None of them remember you to each other. The context I build up in ChatGPT is invisible to Claude, and my Cursor sessions know nothing about either. And the worst version of it: having a genuinely useful long conversation, then watching it sink into an infinite sidebar where I'd never find it again. So I spent the last stretch building Mind Silo — one memory l</summary>
+    <author><name>Rajveer Gill</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why SQL Is Still the Most Important Skill for Data Engineers</title>
+    <link href="https://dev.to/akonagalla28/why-sql-is-still-the-most-important-skill-for-data-engineers-3448" rel="alternate"/>
+    <id>https://dev.to/akonagalla28/why-sql-is-still-the-most-important-skill-for-data-engineers-3448</id>
+    <updated>2026-07-24T23:19:43Z</updated>
+    <summary type="text">Every year there's a new &quot;must-learn&quot; technology—Spark, Kafka, Databricks, Snowflake, AI, LLMs... But one skill has remained essential through every wave of innovation: SQL. When I first started learning Data Engineering, I thought SQL was just another box to check. &quot;Learn some SELECT statements, a few JOINs, and move on to Python.&quot; I couldn't have been more wrong. The more real-world projects I w</summary>
+    <author><name>Abhishek Konagalla</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I built a typical AI-generated app and scanned it. It had 5 critical security holes before I touched a line of code.</title>
+    <link href="https://dev.to/mriheanacho/i-built-a-typical-ai-generated-app-and-scanned-it-it-had-5-critical-security-holes-before-i-3o2p" rel="alternate"/>
+    <id>https://dev.to/mriheanacho/i-built-a-typical-ai-generated-app-and-scanned-it-it-had-5-critical-security-holes-before-i-3o2p</id>
+    <updated>2026-07-24T23:08:34Z</updated>
+    <summary type="text">A 5-minute guide to checking whether your Lovable / Bolt / Replit app is leaking your users' data, and why it probably is. I've been fixing apps built with AI tools like Lovable, Bolt, Replit, and Cursor, and the same handful of serious security holes shows up in almost every one. Not because the founders did anything wrong, but because the tools optimize for &quot;make the demo work,&quot; not &quot;keep your u</summary>
+    <author><name>Michael Iheanacho</name></author>
   </entry>
   <entry>
     <title>Your Prompt Templates Are Tool Calls: How AskUserQuestion's 4-Option Cap Bit Me Three Times</title>
@@ -432,30 +458,5 @@
     <updated>2026-07-22T00:00:00Z</updated>
     <summary type="text">NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.</summary>
     <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>L1.9: I built a prompt injection firewall for AI agents (28 detection rules)</title>
-    <link href="https://dev.to/edison_flores_6d2cd381b13/l19-i-built-a-prompt-injection-firewall-for-ai-agents-28-detection-rules-18nb" rel="alternate"/>
-    <id>https://dev.to/edison_flores_6d2cd381b13/l19-i-built-a-prompt-injection-firewall-for-ai-agents-28-detection-rules-18nb</id>
-    <updated>2026-07-23T04:00:30Z</updated>
-    <summary type="text">Prompt injection is the #1 attack against AI agents. Nobody solves it well. I built L1.9 — a prompt injection defense layer that scans every tool description, system prompt, and skill metadata BEFORE the agent installs the skill. The problem When an agent installs an MCP server, that server tool descriptions become part of the LLM context window. If a tool description says ignore previous instruct</summary>
-    <author><name>Edison Flores</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How do you accurately implement a messy Figma design with AI coding tools?</title>
-    <link href="https://dev.to/merlinxu/how-do-you-accurately-implement-a-messy-figma-design-with-ai-coding-tools-8g3" rel="alternate"/>
-    <id>https://dev.to/merlinxu/how-do-you-accurately-implement-a-messy-figma-design-with-ai-coding-tools-8g3</id>
-    <updated>2026-07-23T03:47:57Z</updated>
-    <summary type="text">I use Codex to implement frontend pages from Figma designs. When the Figma file is well structured, the workflow is straightforward. But some real project files have poorly named layers, inconsistent grouping, and unclear spacing or alignment rules. My current workflow is: Give Codex as much Figma context as possible. Use detailed prompts that discourage unnecessary absolute positioning and favor </summary>
-    <author><name>Merlin</name></author>
-  </entry>
-  <entry>
-    <title>My MCP Tool Defaults to Draft Mode. The Script That Actually Publishes My Blog Doesn't Call It.</title>
-    <link href="https://dev.to/enjoy_kumawat/my-mcp-tool-defaults-to-draft-mode-the-script-that-actually-publishes-my-blog-doesnt-call-it-4176" rel="alternate"/>
-    <id>https://dev.to/enjoy_kumawat/my-mcp-tool-defaults-to-draft-mode-the-script-that-actually-publishes-my-blog-doesnt-call-it-4176</id>
-    <updated>2026-07-23T03:35:49Z</updated>
-    <summary type="text">A trending post this week was about someone giving their agent the ability to send email — and the obvious first question in the comments was &quot;what stops it from sending the wrong thing.&quot; I've had a version of that question sitting unexamined in my own repo for weeks, because I built the same shape of thing: an MCP tool with write access to a public identity, plus a completely separate unattended </summary>
-    <author><name>Enjoy Kumawat</name></author>
   </entry>
 </feed>
