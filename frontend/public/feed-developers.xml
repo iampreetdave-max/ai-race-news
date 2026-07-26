@@ -4,7 +4,52 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-26T04:29:25Z</updated>
+  <updated>2026-07-26T07:37:48Z</updated>
+  <entry>
+    <title>Are your MCP server's safety labels honest? A one-command check (and what it found on 31 popular servers)</title>
+    <link href="https://dev.to/formael/are-your-mcp-servers-safety-labels-honest-a-one-command-check-and-what-it-found-on-31-popular-1ml3" rel="alternate"/>
+    <id>https://dev.to/formael/are-your-mcp-servers-safety-labels-honest-a-one-command-check-and-what-it-found-on-31-popular-1ml3</id>
+    <updated>2026-07-26T07:34:04Z</updated>
+    <summary type="text">You wrote this once, on the day the tool was born: { &quot;name&quot;: &quot;search_docs&quot;, &quot;annotations&quot;: { &quot;readOnlyHint&quot;: true, &quot;destructiveHint&quot;: false, &quot;openWorldHint&quot;: false } } Then the tool kept changing. A parameter got added. A backend call got wired in. The schema grew. The annotations block stayed exactly as you left it. Why the drift matters The MCP spec calls these annotations hints and tells client</summary>
+    <author><name>Dilan Srilal (dilansri)</name></author>
+  </entry>
+  <entry>
+    <title>Running Hermes Agent with Kokoro TTS: A Local-First AI Assistant Setup</title>
+    <link href="https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h" rel="alternate"/>
+    <id>https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h</id>
+    <updated>2026-07-26T07:19:14Z</updated>
+    <summary type="text">Most AI agents today depend heavily on cloud APIs. They're fast, but every request costs money, depends on an internet connection, and sends your data to external providers. Over the weekend, I experimented with Hermes Agent and Kokoro TTS, building a completely local voice-enabled AI assistant. The result was surprisingly good—responses were generated locally, converted into natural speech, and e</summary>
+    <author><name>Nishikanta Ray</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Hacker News + Reddit r/kubernetes (the compose-as-anti-pattern claim is the debate magnet that earns comments)</title>
+    <link href="https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5" rel="alternate"/>
+    <id>https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5</id>
+    <updated>2026-07-26T07:19:05Z</updated>
+    <summary type="text">docker-compose is not a production stand-in — and here's the receipt Chapter 2 of a local-Kubernetes series. The thesis is opinionated on purpose: a production-like local environment is not one where everything is like prod — it's one where you know exactly what matches, what doesn't, and why. Key takeaways &quot;Production-like&quot; ≠ &quot;a copy of prod.&quot; You can't fit prod on a laptop and you don't need to.</summary>
+    <author><name>Mikhail Dorokhovich</name></author>
+  </entry>
+  <entry>
+    <title>We Built a Flight Recorder for AI Coding Agents: Here's What SigNoz Taught Us About Watching Them Think</title>
+    <link href="https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc" rel="alternate"/>
+    <id>https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc</id>
+    <updated>2026-07-26T07:15:43Z</updated>
+    <summary type="text">We Built an AI Agent... Then Realized We Had No Idea What It Was Doing Our AI agent was writing code, running tests, and opening pull requests, but I had absolutely no idea why some runs took 8 seconds while others took 45. Was the LLM thinking too long? Was it stuck retrying a failing shell command? Was Docker slow? I couldn't tell. All I had was a loading spinner and a final result. That gap bet</summary>
+    <author><name>hussain jamal</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Claude Opus 5: everything you need to know</title>
+    <link href="https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7" rel="alternate"/>
+    <id>https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7</id>
+    <updated>2026-07-26T07:08:55Z</updated>
+    <summary type="text">Claude Opus 5 shipped on the 24th of July, 2026, as claude-opus-5. It's priced at $5 per million input tokens and $25 per million output tokens — the same as Opus 4.8, and half of what Fable 5 costs. The context window is 1M tokens long, the max output is 128K. And there's one breaking change: the model thinks by default now. In other words, on the older Opus you had to ask for thinking explicitly</summary>
+    <author><name>dsplce.co</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Google Sheets in VS Code, Cursor, and Windsurf over MCP</title>
     <link href="https://dev.to/pastesheet/google-sheets-in-vs-code-cursor-and-windsurf-over-mcp-5467" rel="alternate"/>
@@ -328,6 +373,16 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>We compared different LLMs on IMO 2026 [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/</id>
+    <updated>2026-07-26T07:21:40Z</updated>
+    <summary type="text">There are a few reasons why problems from International Mathematical Olympiad function as a good benchmark for LLMs: - The problems are new, not included in the training data of any model - Hard math problems are quite a good proxy for general intelligence capability - These are complex multi-step tasks that can benefit from orchestration / harness engineering Results: Frontier models (sol and fab</summary>
+    <author><name>/u/pequalnp92</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Why Cursor Keeps Generating Wildcard CORS Headers in Your API</title>
     <link href="https://dev.to/c_k_fb750e731394/why-cursor-keeps-generating-wildcard-cors-headers-in-your-api-33ii" rel="alternate"/>
     <id>https://dev.to/c_k_fb750e731394/why-cursor-keeps-generating-wildcard-cors-headers-in-your-api-33ii</id>
@@ -343,6 +398,15 @@
     <summary type="text">Long-running agents have a boring failure mode: they accumulate conversation until they hit the model's context window and fall over. xAI ships a fix for Grok 4.5 — a context-compaction endpoint — but you have to call it yourself, on the right cadence, and feed the result back in a very specific way. grok-loop-kit does that for you. npm install grok-loop-kit # Node (CJS + ESM + types) pip install </summary>
     <author><name>Christo</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/</id>
+    <updated>2026-07-26T06:43:11Z</updated>
+    <summary type="text">This was my Bachelor's Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without relying on existing inference frameworks. The goal was to understand how modern neural network inference engines work at a low level and explore optimization techniques for faster and more efficient edge AI execution on Raspberry Pi 4. The implementation include</summary>
+    <author><name>/u/Forward_Confusion902</name></author>
+    <category term="computer-vision"/>
   </entry>
   <entry>
     <title>The None That Broke Permissions: How a Single Null Crashed Hermes Agent Approvals</title>
@@ -396,70 +460,5 @@
     <summary type="text">I ran launch audits on 20 AI-built apps, Lovable, Bolt, v0, a couple of Cursor builds. Same checks on each, run against the live deployed URL, not the code. These were the most common problems: 14/20 had a canonical tag pointing at the wrong domain. Usually the builder's preview URL. The site works fine on the custom domain, but it's telling Google the real version lives at something.lovable.app. </summary>
     <author><name>Actuant</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>I Asked My AI &quot;Who Are You&quot; — It Cost 42,000 Tokens to Answer</title>
-    <link href="https://dev.to/therabbithole/-i-asked-my-ai-who-are-you-it-cost-42000-tokens-to-answer-44jp" rel="alternate"/>
-    <id>https://dev.to/therabbithole/-i-asked-my-ai-who-are-you-it-cost-42000-tokens-to-answer-44jp</id>
-    <updated>2026-07-24T09:43:22Z</updated>
-    <summary type="text">I typed a 19-character question into Claude Code: who are you? Then I opened the network logs of what my machine actually sent over the wire. I recommend you never do this. It ruins something in you. The numbers My question was 19 bytes. The request that carried it was 118,693 bytes. That's a 6,200x amplification before the model reads a single word I wrote. My actual message was 0.016% of the pay</summary>
-    <author><name>TheRabbitHole</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Deploying a Full Stack SaaS</title>
-    <link href="https://dev.to/moose978/deploying-a-full-stack-saas-5g06" rel="alternate"/>
-    <id>https://dev.to/moose978/deploying-a-full-stack-saas-5g06</id>
-    <updated>2026-07-24T07:06:11Z</updated>
-    <summary type="text">The previous article in this series covered feature flags: how to decouple deploying code from releasing it, so a bad idea can be turned off without a rollback. That only pays off if deploying itself is a boring, repeatable event rather than a stressful one. This article is about making it boring. This is part of the Full Stack SaaS Masterclass, and it sits at a point where the temptation to overb</summary>
-    <author><name>Aman Kumar Singh</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Scaling a SaaS Beyond One Server</title>
-    <link href="https://dev.to/moose978/scaling-a-saas-beyond-one-server-4jbo" rel="alternate"/>
-    <id>https://dev.to/moose978/scaling-a-saas-beyond-one-server-4jbo</id>
-    <updated>2026-07-24T07:06:09Z</updated>
-    <summary type="text">In Deploying a Full Stack SaaS, I got the app running in production on a single instance: Docker images, a CI/CD pipeline, one NestJS container and one Postgres database behind it. That setup will carry a real SaaS further than most people expect. It also has a hard ceiling. The day you hit it, &quot;just add another server&quot; turns out to be a much bigger sentence than it sounds. This is Module 4 of the</summary>
-    <author><name>Aman Kumar Singh</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>AI-Assisted Cross-Platform Code Generation: Beyond Write Once, Run Anywhere</title>
-    <link href="https://hackernoon.com/ai-assisted-cross-platform-code-generation-beyond-write-once-run-anywhere?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/ai-assisted-cross-platform-code-generation-beyond-write-once-run-anywhere?source=rss</id>
-    <updated>2026-07-24T06:20:03Z</updated>
-    <summary type="text">AI-powered observability transforms mobile telemetry into predictive insights, preventing user experience issues before they affect customers.Read All</summary>
-    <author><name>Flaregun-dev</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal</title>
-    <link href="https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/</id>
-    <updated>2026-07-23T06:12:05Z</updated>
-    <summary type="text">Anthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch files that you review and apply yourself. Anthropic emphasized the tool’s versatility upon announcement, highlighting its capability to […] The post Anthropic Releases C</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What Is AI Agent Tool Calling? MCP, Function Calling, and A2A Explained (2026)</title>
-    <link href="https://dev.to/arcade/ai-agent-tool-calling-mcp-a2a-23l6" rel="alternate"/>
-    <id>https://dev.to/arcade/ai-agent-tool-calling-mcp-a2a-23l6</id>
-    <updated>2026-07-24T04:11:49Z</updated>
-    <summary type="text">Connecting an LLM to external systems has converged on an established set of open protocols that standardize communication between autonomous agents and enterprise infrastructure. However, as organizations move beyond chat interfaces into deploying multi-user production agents, a new bottleneck has emerged. Protocol connectivity is largely solved, with MCP established as the de facto connectivity </summary>
-    <author><name>Manveer Chawla</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Problem with AI-Generated 'Shadow' Duplication</title>
-    <link href="https://dev.to/renato_marinho/the-problem-with-ai-generated-shadow-duplication-2gi3" rel="alternate"/>
-    <id>https://dev.to/renato_marinho/the-problem-with-ai-generated-shadow-duplication-2gi3</id>
-    <updated>2026-07-24T03:44:07Z</updated>
-    <summary type="text">AI agents are incredible at writing functions. They're even better at accidentally duplicating your entire business logic without you realizing it. If you use Claude Code, Cursor, or any LLM-based agent to refactor code, you’ve probably seen the pattern. You ask it to 'extract this logic into a reusable utility,' and while the new function works perfectly, a few days later, there's a slightly diff</summary>
-    <author><name>Renato Marinho</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
