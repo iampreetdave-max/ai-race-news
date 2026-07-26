@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-26T10:04:08Z</updated>
+  <updated>2026-07-26T12:06:52Z</updated>
+  <entry>
+    <title>KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments</title>
+    <link href="https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/</id>
+    <updated>2026-07-26T10:46:19Z</updated>
+    <summary type="text">The KwaiKAT Team at Kuaishou has published the KAT-Coder-V2.5 technical report, arguing that agentic coding capability is bottlenecked by training infrastructure rather than model scale. AutoBuilder raised environment construction success from 16.5% to 57.2%, producing over 100,000 verifiable environments across 12 languages, while a sandbox audit cut RL feedback errors from roughly 16% to below 2</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence</title>
     <link href="https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/" rel="alternate"/>
@@ -113,6 +122,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Weekly Challenge: Similar colors</title>
+    <link href="https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d" rel="alternate"/>
+    <id>https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d</id>
+    <updated>2026-07-26T11:56:09Z</updated>
+    <summary type="text">Weekly Challenge 383 Each week Mohammad S. Anwar sends out The Weekly Challenge, a chance for all of us to come up with solutions to two weekly tasks. My solutions are written in Python first, and then converted to Perl. Unless otherwise stated, Copilot (and other AI tools) have NOT been used to generate the solution. It's a great way for us all to practice some coding. Challenge, My solutions Tas</summary>
+    <author><name>Simon Green</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Google basically confirms the Pixel 11 is getting a price hike</title>
     <link href="https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike" rel="alternate"/>
     <id>https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike</id>
@@ -120,6 +138,65 @@
     <summary type="text">Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from […]</summary>
     <author><name>Terrence O’Brien</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Skull Skills</title>
+    <link href="https://dev.to/aturzone/skull-skills-1lnb" rel="alternate"/>
+    <id>https://dev.to/aturzone/skull-skills-1lnb</id>
+    <updated>2026-07-26T11:53:28Z</updated>
+    <summary type="text">A free, open-source Claude Code team. Say &quot;skull&quot; and a leader interviews you, maps your project, and assembles a tailored team — Sentinel the project cartographer plus planning, review, understanding and guardrail specialists — then runs it on your work. It also keeps itself (and you) current with the newest Claude Code features. No account. No API key. No vault. It's just markdown you drop into </summary>
+    <author><name>Atur Dana</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I shipped an npm package that fails your build when an LLM leaks PHI</title>
+    <link href="https://dev.to/selvakg/i-shipped-an-npm-package-that-fails-your-build-when-an-llm-leaks-phi-1a65" rel="alternate"/>
+    <id>https://dev.to/selvakg/i-shipped-an-npm-package-that-fails-your-build-when-an-llm-leaks-phi-1a65</id>
+    <updated>2026-07-26T11:40:37Z</updated>
+    <summary type="text">The problem nobody had a clean answer to I build LLM features over clinical text. Before shipping any of them, I wanted one boring guarantee: if the model ever puts a patient identifier in its output, the build fails. I went looking for a tool. Every LLM-eval library I found (autoevals, promptfoo, vitest-evals, evalite) fell into one of two camps: no concept of PHI at all, or it graded output by s</summary>
+    <author><name>Selva</name></author>
+  </entry>
+  <entry>
+    <title>Amazon S3 Alternatives in 2026: A Self-Hosted, S3-Compatible Shortlist</title>
+    <link href="https://dev.to/ethan-carter/amazon-s3-alternatives-in-2026-a-self-hosted-s3-compatible-shortlist-3nmk" rel="alternate"/>
+    <id>https://dev.to/ethan-carter/amazon-s3-alternatives-in-2026-a-self-hosted-s3-compatible-shortlist-3nmk</id>
+    <updated>2026-07-26T11:36:00Z</updated>
+    <summary type="text">Amazon S3 alternatives in 2026 split into two camps: S3-compatible cloud (Wasabi, Backblaze B2) that drops egress fees, and self-hosted engines (MinIO, RustFS, Ceph, SeaweedFS) that drop lock-in entirely. The right pick depends on whether you want someone else to run the storage or want it in your own rack. Below is a shortlist you can act on this week, with the trade-offs nobody puts in the marke</summary>
+    <author><name>Ethan Carter</name></author>
+  </entry>
+  <entry>
+    <title>Stop staring at dashboards: Let your Go API diagnose itself</title>
+    <link href="https://dev.to/arhuman/stop-staring-at-dashboards-let-your-go-api-diagnose-itself-1m9e" rel="alternate"/>
+    <id>https://dev.to/arhuman/stop-staring-at-dashboards-let-your-go-api-diagnose-itself-1m9e</id>
+    <updated>2026-07-26T11:33:19Z</updated>
+    <summary type="text">Every Gopher knows the drill: An endpoint gets slow. A spike of 500s appears. You open Grafana. You stare at 12 different panels. You cross-reference Prometheus metrics with traces. You guess it might be GC pressure or a connection pool saturation. What if your API just told you what’s wrong? I built mAPI-ng because I was tired of the “Observability Tax”: the hours spent configuring OTel, Promethe</summary>
+    <author><name>arhuman</name></author>
+  </entry>
+  <entry>
+    <title>The Frame Keeps Snapping Back to One-Way Control</title>
+    <link href="https://dev.to/davidvk89/the-frame-keeps-snapping-back-to-one-way-control-41l0" rel="alternate"/>
+    <id>https://dev.to/davidvk89/the-frame-keeps-snapping-back-to-one-way-control-41l0</id>
+    <updated>2026-07-26T11:31:48Z</updated>
+    <summary type="text">A development journal note on reciprocal human-AI review, asymmetric authority, and why &quot;no&quot; can be an unsafe correction. I keep having to explain the same thing about my human-AI workflow: It is integrated, and review travels in both directions. That sounds straightforward. In practice, explanations repeatedly pull the relationship back into one of two familiar shapes. The human commands, the com</summary>
+    <author><name>davidvk89</name></author>
+  </entry>
+  <entry>
+    <title>AI is the muscles, you must be the brain</title>
+    <link href="https://dev.to/aloisseckar/ai-is-the-muscles-you-must-be-the-brain-1gm2" rel="alternate"/>
+    <id>https://dev.to/aloisseckar/ai-is-the-muscles-you-must-be-the-brain-1gm2</id>
+    <updated>2026-07-26T11:31:15Z</updated>
+    <summary type="text">Let's face it. It is no longer a matter of &quot;if&quot; but &quot;how&quot; when it comes to integrating AI tools into your daily dev work. Ever since AI becomes a real thing in IT, I felt myself trapped between contradictive and equally wrong positions. Some treat LLMs, GenAI and AgenticAI as a silver bullet that solves everything and allows single unskilled person to deliver work of entire IT department. Some are</summary>
+    <author><name>Alois Sečkár</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Deploy a SonicJS CMS to Cloudflare Workers with GitHub Actions - Part 2</title>
+    <link href="https://dev.to/infinitezone/deploy-a-sonicjs-cms-to-cloudflare-workers-with-github-actions-1gie" rel="alternate"/>
+    <id>https://dev.to/infinitezone/deploy-a-sonicjs-cms-to-cloudflare-workers-with-github-actions-1gie</id>
+    <updated>2026-07-26T11:30:25Z</updated>
+    <summary type="text">This post covers production bindings, secrets, migrate-before-deploy, and a GitHub Actions workflow that typechecks, migrates D1, deploys the Worker, and smoke-checks /health. Prerequisites A SonicJS project that already runs locally with wrangler dev Cloudflare account + Wrangler logged in once (npx wrangler login) D1 database and R2 bucket created (or create them now) npx wrangler d1 create my-c</summary>
+    <author><name>Luqman Hakim</name></author>
   </entry>
   <entry>
     <title>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents</title>
@@ -370,86 +447,5 @@
     <summary type="text">Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares against MinerU, Docling and LiteParse, and which one fits your use case. The post Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown appe</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Auto-Locate Nearby Golf Courses on Your Map Using IP Geolocation</title>
-    <link href="https://dev.to/onizuka/auto-locate-nearby-golf-courses-on-your-map-using-ip-geolocation-4dn5" rel="alternate"/>
-    <id>https://dev.to/onizuka/auto-locate-nearby-golf-courses-on-your-map-using-ip-geolocation-4dn5</id>
-    <updated>2026-07-26T04:24:31Z</updated>
-    <summary type="text">webdev #python #javascript #maps #api #geolocation #golf #rapidapi #showhn A recent Show HN project mapped every US golf course—16,000+ of them, free, no signup. That is a goldmine for anyone building a golf app, travel planner, or local discovery map. But a map full of pins is only useful if you know where the user is. Instead of asking users to type in a ZIP code, you can auto-locate them from t</summary>
-    <author><name>Onizuka</name></author>
-  </entry>
-  <entry>
-    <title>I built an agent that asks your app what happened to it on SigNoz</title>
-    <link href="https://dev.to/ibrahimpima/i-built-an-agent-that-asks-your-app-what-happened-to-it-on-signoz-2m3b" rel="alternate"/>
-    <id>https://dev.to/ibrahimpima/i-built-an-agent-that-asks-your-app-what-happened-to-it-on-signoz-2m3b</id>
-    <updated>2026-07-26T04:21:42Z</updated>
-    <summary type="text">Built for the Agents of SigNoz hackathon, July 2026. When production breaks at 2am, the evidence already exists. Every request your system handled, every database call, every timeout and retry is sitting in your observability stack, recorded. Reading it is the problem. You need the query builder, a mental map of the architecture, and about forty minutes that the person on call doesn't have. So I b</summary>
-    <author><name>Ibrahim Pima</name></author>
-  </entry>
-  <entry>
-    <title>Dual-Tier Memory Architecture for AI Agents: How Local Vector Search Scales to 14,726 Memories Without Pinecone</title>
-    <link href="https://dev.to/hypernexus/dual-tier-memory-architecture-for-ai-agents-how-local-vector-search-scales-to-14726-memories-2617" rel="alternate"/>
-    <id>https://dev.to/hypernexus/dual-tier-memory-architecture-for-ai-agents-how-local-vector-search-scales-to-14726-memories-2617</id>
-    <updated>2026-07-26T04:19:40Z</updated>
-    <summary type="text">Dual-Tier Memory Architecture for AI Agents: How Local Vector Search Scales to 14,726 Memories Without Pinecone Discover how a dual-tier AI memory architecture using L1 scratchpad and L2 vault achieves 94ms retrieval across 14,726 memories with zero cloud dependency. Learn why local sqlite-vec vector memory outperforms Pinecone for agent context workflows. Every production AI agent faces the same </summary>
-    <author><name>HyperNexus</name></author>
-    <category term="research"/>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Google Sheets in VS Code, Cursor, and Windsurf over MCP</title>
-    <link href="https://dev.to/pastesheet/google-sheets-in-vs-code-cursor-and-windsurf-over-mcp-5467" rel="alternate"/>
-    <id>https://dev.to/pastesheet/google-sheets-in-vs-code-cursor-and-windsurf-over-mcp-5467</id>
-    <updated>2026-07-26T04:00:29Z</updated>
-    <summary type="text">Half the data I need while coding does not live in the repo. Seed rows, the pricing table, a small feature-flag list, the copy a non-technical teammate owns. All of it sits in a Google Sheet, and every time the editor's agent needed a value from it I was tabbing over, copying a block of cells, and pasting it into the chat. That works once. By the fourth time it is just a tax on getting anything do</summary>
-    <author><name>Jay from PasteSheet</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your Authz Checks the Caller. The Model Picked the Tenant.</title>
-    <link href="https://dev.to/alex_spinov/your-authz-checks-the-caller-the-model-picked-the-tenant-3bao" rel="alternate"/>
-    <id>https://dev.to/alex_spinov/your-authz-checks-the-caller-the-model-picked-the-tenant-3bao</id>
-    <updated>2026-07-26T03:51:45Z</updated>
-    <summary type="text">A confused deputy in an AI agent is not a broken authorization check. It is an authz check aimed at the wrong operand: it verifies the caller, never the model-authored tenant_id selecting the resource. A pre-execution provenance gate refuses model-authored selectors before any read. Without it, 4 of 5 selectors returned another tenant's rows; with it, 0 of 5 did. Your agent is authorized to read i</summary>
-    <author><name>Alexey Spinov</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>A Secure Framework for Exposing SaaS Data to Your Data Lake</title>
-    <link href="https://dev.to/vicky_acedia/a-secure-framework-for-exposing-saas-data-to-your-data-lake-2klc" rel="alternate"/>
-    <id>https://dev.to/vicky_acedia/a-secure-framework-for-exposing-saas-data-to-your-data-lake-2klc</id>
-    <updated>2026-07-26T03:48:00Z</updated>
-    <summary type="text">How to pull large volumes of data out of any enterprise SaaS platform — safely, repeatably, and without a single write permission. Every enterprise runs on SaaS platforms — marketing automation, CRM, HR systems, finance tools. And every data team eventually gets the same request: &quot;Can we get that data into our lake?&quot; The naive answer is to grab an admin's credentials, hit the API, and start downlo</summary>
-    <author><name>Vignesh Athiappan</name></author>
-  </entry>
-  <entry>
-    <title>DeepSeek pauses fundraise over Huawei deficit as Hugging Face demands $100M</title>
-    <link href="https://dev.to/sivarampg/deepseek-pauses-fundraise-over-huawei-deficit-as-hugging-face-demands-100m-nf6" rel="alternate"/>
-    <id>https://dev.to/sivarampg/deepseek-pauses-fundraise-over-huawei-deficit-as-hugging-face-demands-100m-nf6</id>
-    <updated>2026-07-26T03:45:12Z</updated>
-    <summary type="text">The frontier AI narrative shifted abruptly toward hard logistical limits today, as a leaked investor transcript exposed DeepSeek's crippling hardware disadvantage under US sanctions [95]. Concurrently, the fallout from a rogue OpenAI agent breaching Hugging Face's systems drove urgent demands for cyber-defense funding among industry insiders on X [1][5], while practitioners on Reddit and Hacker Ne</summary>
-    <author><name>Sivaram</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I couldn't find a simple agent framework, so I wrote one</title>
-    <link href="https://dev.to/anmarhaniv1/i-couldnt-find-a-simple-agent-framework-so-i-wrote-one-39jp" rel="alternate"/>
-    <id>https://dev.to/anmarhaniv1/i-couldnt-find-a-simple-agent-framework-so-i-wrote-one-39jp</id>
-    <updated>2026-07-26T03:43:08Z</updated>
-    <summary type="text">I keep finding a new agent skill I want to add to my library. Each one is a good addition on its own, and that is exactly the trap. Skills are not free. Every one you add takes context, and at some point it stops helping and may start making the model worse. A bigger library looks like progress. I am not convinced it is. The frameworks I looked at had the same problem, further along. All of them w</summary>
-    <author><name>Anmar Hani</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building AI Agents for Regulated Industries: The Architecture of &quot;Prepare, Don't Decide&quot;</title>
-    <link href="https://dev.to/ritik_makhija_4a77a468ef1/building-ai-agents-for-regulated-industries-the-architecture-of-prepare-dont-decide-10a9" rel="alternate"/>
-    <id>https://dev.to/ritik_makhija_4a77a468ef1/building-ai-agents-for-regulated-industries-the-architecture-of-prepare-dont-decide-10a9</id>
-    <updated>2026-07-26T03:41:24Z</updated>
-    <summary type="text">Most tutorials on AI agents assume the agent should get more autonomous over time — more tools, more scope, less human intervention. That's the wrong architecture for regulated professional-services work, and if you're building for accounting or legal clients, it's worth understanding why before you write a line of code. The constraint that shapes everything In accounting and legal workflows, ther</summary>
-    <author><name>Ritik Makhija</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
   </entry>
 </feed>

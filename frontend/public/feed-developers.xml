@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-26T10:04:08Z</updated>
+  <updated>2026-07-26T12:06:52Z</updated>
+  <entry>
+    <title>KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments</title>
+    <link href="https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/</id>
+    <updated>2026-07-26T10:46:19Z</updated>
+    <summary type="text">The KwaiKAT Team at Kuaishou has published the KAT-Coder-V2.5 technical report, arguing that agentic coding capability is bottlenecked by training infrastructure rather than model scale. AutoBuilder raised environment construction success from 16.5% to 57.2%, producing over 100,000 verifiable environments across 12 languages, while a sandbox audit cut RL feedback errors from roughly 16% to below 2</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics</title>
     <link href="https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/" rel="alternate"/>
@@ -14,6 +23,33 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Weekly Challenge: Similar colors</title>
+    <link href="https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d" rel="alternate"/>
+    <id>https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d</id>
+    <updated>2026-07-26T11:56:09Z</updated>
+    <summary type="text">Weekly Challenge 383 Each week Mohammad S. Anwar sends out The Weekly Challenge, a chance for all of us to come up with solutions to two weekly tasks. My solutions are written in Python first, and then converted to Perl. Unless otherwise stated, Copilot (and other AI tools) have NOT been used to generate the solution. It's a great way for us all to practice some coding. Challenge, My solutions Tas</summary>
+    <author><name>Simon Green</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Skull Skills</title>
+    <link href="https://dev.to/aturzone/skull-skills-1lnb" rel="alternate"/>
+    <id>https://dev.to/aturzone/skull-skills-1lnb</id>
+    <updated>2026-07-26T11:53:28Z</updated>
+    <summary type="text">A free, open-source Claude Code team. Say &quot;skull&quot; and a leader interviews you, maps your project, and assembles a tailored team — Sentinel the project cartographer plus planning, review, understanding and guardrail specialists — then runs it on your work. It also keeps itself (and you) current with the newest Claude Code features. No account. No API key. No vault. It's just markdown you drop into </summary>
+    <author><name>Atur Dana</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I shipped an npm package that fails your build when an LLM leaks PHI</title>
+    <link href="https://dev.to/selvakg/i-shipped-an-npm-package-that-fails-your-build-when-an-llm-leaks-phi-1a65" rel="alternate"/>
+    <id>https://dev.to/selvakg/i-shipped-an-npm-package-that-fails-your-build-when-an-llm-leaks-phi-1a65</id>
+    <updated>2026-07-26T11:40:37Z</updated>
+    <summary type="text">The problem nobody had a clean answer to I build LLM features over clinical text. Before shipping any of them, I wanted one boring guarantee: if the model ever puts a patient identifier in its output, the build fails. I went looking for a tool. Every LLM-eval library I found (autoevals, promptfoo, vitest-evals, evalite) fell into one of two camps: no concept of PHI at all, or it graded output by s</summary>
+    <author><name>Selva</name></author>
   </entry>
   <entry>
     <title>Opus 5 vs GPT-5.6 Sol vs Kimi K3: Who Leads Now?</title>
@@ -426,41 +462,5 @@
     <author><name>Renato Marinho</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>We compared different LLMs on IMO 2026 [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/</id>
-    <updated>2026-07-26T07:21:40Z</updated>
-    <summary type="text">There are a few reasons why problems from International Mathematical Olympiad function as a good benchmark for LLMs: - The problems are new, not included in the training data of any model - Hard math problems are quite a good proxy for general intelligence capability - These are complex multi-step tasks that can benefit from orchestration / harness engineering Results: Frontier models (sol and fab</summary>
-    <author><name>/u/pequalnp92</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Why Cursor Keeps Generating Wildcard CORS Headers in Your API</title>
-    <link href="https://dev.to/c_k_fb750e731394/why-cursor-keeps-generating-wildcard-cors-headers-in-your-api-33ii" rel="alternate"/>
-    <id>https://dev.to/c_k_fb750e731394/why-cursor-keeps-generating-wildcard-cors-headers-in-your-api-33ii</id>
-    <updated>2026-07-24T16:49:36Z</updated>
-    <summary type="text">TL;DR AI editors keep generating CORS middleware that reflects the request's Origin header back verbatim while also allowing credentials, so any site on the internet can make authenticated calls to your API and read the response It passes local testing because reflecting the origin &quot;just works&quot; for every dev port and tool, so nobody notices until a scanner or a pentest catches it (CWE-942) The fix</summary>
-    <author><name>Charles Kern</name></author>
-  </entry>
-  <entry>
-    <title>Stop your Grok 4.5 agents from blowing past the context window</title>
-    <link href="https://dev.to/booyaka101/stop-your-grok-45-agents-from-blowing-past-the-context-window-27jb" rel="alternate"/>
-    <id>https://dev.to/booyaka101/stop-your-grok-45-agents-from-blowing-past-the-context-window-27jb</id>
-    <updated>2026-07-24T16:41:02Z</updated>
-    <summary type="text">Long-running agents have a boring failure mode: they accumulate conversation until they hit the model's context window and fall over. xAI ships a fix for Grok 4.5 — a context-compaction endpoint — but you have to call it yourself, on the right cadence, and feed the result back in a very specific way. grok-loop-kit does that for you. npm install grok-loop-kit # Node (CJS + ESM + types) pip install </summary>
-    <author><name>Christo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/</id>
-    <updated>2026-07-26T06:43:11Z</updated>
-    <summary type="text">This was my Bachelor's Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without relying on existing inference frameworks. The goal was to understand how modern neural network inference engines work at a low level and explore optimization techniques for faster and more efficient edge AI execution on Raspberry Pi 4. The implementation include</summary>
-    <author><name>/u/Forward_Confusion902</name></author>
-    <category term="computer-vision"/>
   </entry>
 </feed>
