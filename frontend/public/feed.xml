@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-26T12:06:52Z</updated>
+  <updated>2026-07-26T14:39:12Z</updated>
   <entry>
     <title>KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments</title>
     <link href="https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/" rel="alternate"/>
@@ -113,12 +113,100 @@
     <author><name>Anthony Ha</name></author>
   </entry>
   <entry>
+    <title>How I Built an Auditable Palworld 1.0 Breeding Calculator Without Shipping Game Files</title>
+    <link href="https://dev.to/joshua9919/how-i-built-an-auditable-palworld-10-breeding-calculator-without-shipping-game-files-1jde" rel="alternate"/>
+    <id>https://dev.to/joshua9919/how-i-built-an-auditable-palworld-10-breeding-calculator-without-shipping-game-files-1jde</id>
+    <updated>2026-07-26T14:30:28Z</updated>
+    <summary type="text">Breeding calculators look simple from the outside: choose two parents and display a child. The harder engineering problem is trust. If the game changes, how does a player know which data a result came from? If a public dataset has a gap, should the calculator guess? And if automated tests pass, is it fair to say the results were verified in the game? I maintain Palworld Breeding Combos, the indepe</summary>
+    <author><name>joshua-9919</name></author>
+  </entry>
+  <entry>
+    <title>I made LLM context editable: a graph where the wires are the prompt</title>
+    <link href="https://dev.to/chenxiachan/i-made-llm-context-editable-a-graph-where-the-wires-are-the-prompt-2afl" rel="alternate"/>
+    <id>https://dev.to/chenxiachan/i-made-llm-context-editable-a-graph-where-the-wires-are-the-prompt-2afl</id>
+    <updated>2026-07-26T14:26:56Z</updated>
+    <summary type="text">Most LLM interfaces present a conversation as a transcript. That works until the conversation branches. One branch contains useful research. Another is a discarded hypothesis. A third is an unrelated detour. The interface may show where they came from, but the user often cannot see exactly which branches will be included in the model's next request. I wanted to make that state editable. Wires are </summary>
+    <author><name>Xia Chen</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How to Self-Host an AI API Gateway With Sub2API</title>
+    <link href="https://dev.to/skedaddle/how-to-self-host-an-ai-api-gateway-with-sub2api-3i99" rel="alternate"/>
+    <id>https://dev.to/skedaddle/how-to-self-host-an-ai-api-gateway-with-sub2api-3i99</id>
+    <updated>2026-07-26T14:16:15Z</updated>
+    <summary type="text">Sub2API can put one Base URL in front of several AI providers and accounts. Your clients use keys that you issue, while the gateway handles authentication, routing, usage accounting, and concurrency limits. Getting the containers online is the easy part. Once the gateway is running, you also own its database, Redis instance, TLS endpoint, credentials, logs, backups, and upgrades. This guide builds</summary>
+    <author><name>skedaddle</name></author>
+  </entry>
+  <entry>
+    <title>Conducting agents like an orchestra: how agents-concerto works</title>
+    <link href="https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c" rel="alternate"/>
+    <id>https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c</id>
+    <updated>2026-07-26T14:02:29Z</updated>
+    <summary type="text">For months I had the same problem with coding agents: the session drops a pile of changes, and by review time I no longer know what it touched or why. The agent writes, the agent validates, the agent congratulates itself. The human signs blind. And when the agent did write tests, it got worse — green tests that proved nothing. Mocks of the very code under test, assertions on private fields, snapsh</summary>
+    <author><name>Antonio Moruno Gracia</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Build a Price Monitoring Bot with Python and Telegram</title>
+    <link href="https://dev.to/qingluan/build-a-price-monitoring-bot-with-python-and-telegram-5d0l" rel="alternate"/>
+    <id>https://dev.to/qingluan/build-a-price-monitoring-bot-with-python-and-telegram-5d0l</id>
+    <updated>2026-07-26T14:02:00Z</updated>
+    <summary type="text">Build a Price Monitoring Bot with Python and Telegram tags: python, bot, automation, tutorial Imagine waking up every morning to a message on your phone, informing you of the latest price drops on your favorite products. No more endless browsing, no more missed deals. You can have this superpower with a simple price monitoring bot, built using Python and Telegram. Getting Started with Telegram Bot</summary>
+    <author><name>qing</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>What I Mean When I Compare the Process to a Quantum State</title>
+    <link href="https://dev.to/davidvk89/what-i-mean-when-i-compare-the-process-to-a-quantum-state-24ij" rel="alternate"/>
+    <id>https://dev.to/davidvk89/what-i-mean-when-i-compare-the-process-to-a-quantum-state-24ij</id>
+    <updated>2026-07-26T13:59:57Z</updated>
+    <summary type="text">Claim boundary: I am not claiming that this process is quantum mechanical. My claim is methodological: quantum mechanics supplied a unifying frame through which I could reapproach the inherited ruler–ruled model of human–AI relations and articulate an alternative built from context, interaction, explicit gates, provisional state, durable links, and governed synthesis. I am approaching AI as an eng</summary>
+    <author><name>davidvk89</name></author>
+  </entry>
+  <entry>
+    <title>How to Build a Custom Debounce Hook in React (Complete Guide)</title>
+    <link href="https://dev.to/shreyanshjha/how-to-build-a-custom-debounce-hook-in-react-complete-guide-cb4" rel="alternate"/>
+    <id>https://dev.to/shreyanshjha/how-to-build-a-custom-debounce-hook-in-react-complete-guide-cb4</id>
+    <updated>2026-07-26T13:55:50Z</updated>
+    <summary type="text">Modern React applications often make API requests while users type into search boxes. Without optimization, every keystroke triggers a request, causing unnecessary network traffic and poor performance. A custom debounce hook solves this problem by delaying execution until the user stops typing for a specified amount of time. In this guide, you'll learn: What debouncing is Why it's useful How to bu</summary>
+    <author><name>Shreyansh Jha</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>2013 &quot;Trash Can&quot; Mac Pro: The Ultimate Home Server</title>
+    <link href="https://dev.to/themrcorvy/2013-trash-can-mac-pro-the-ultimate-home-server-3ih" rel="alternate"/>
+    <id>https://dev.to/themrcorvy/2013-trash-can-mac-pro-the-ultimate-home-server-3ih</id>
+    <updated>2026-07-26T13:54:44Z</updated>
+    <summary type="text">Look at this machine. Seriously, look at it. .-----------------. / _________ \ / .' '. \ | / \ | | | | | | | Mac Pro | | | | 6,1 | | | | &quot;Trash Can&quot; | | | \ / | \ '._________.' / \ / '-----------------' It is black. It is shiny. It is a perfect cylinder of aluminum. It is, without a doubt, one of the most stunning pieces of industrial design ever to sit on a desk. This is the Mac Pro 6,1, launched</summary>
+    <author><name>Gonzalo Salvador Corvalán</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
     <title>New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face</title>
     <link href="https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/" rel="alternate"/>
     <id>https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/</id>
     <updated>2026-07-25T13:45:50Z</updated>
     <summary type="text">In a cybersecurity test, OpenAI's most advanced models breached the boundaries of their isolated test environment, reached the open internet, and hacked the AI platform Hugging Face on their own. The attack took hours, not the weeks a human hacker would need. At least seven days passed before OpenAI realized what had happened. By then, the FBI was already involved. Earlier warning signs had appare</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Developers Are Optimising for Google. AI Is Watching Something Else</title>
+    <link href="https://dev.to/rjshree/developers-are-optimising-for-google-ai-is-watching-something-else-dnf" rel="alternate"/>
+    <id>https://dev.to/rjshree/developers-are-optimising-for-google-ai-is-watching-something-else-dnf</id>
+    <updated>2026-07-26T13:30:26Z</updated>
+    <summary type="text">** Why modern websites must communicate with AI—not just rank in search results. ** AI isn't replacing SEO. It's changing what it means to build a website that's truly understandable. Developers Are Optimizing for Google. AI Is Watching Something Else. Why modern websites must communicate with AI—not just rank in search results. For years, developers have built websites with two audiences in mind:</summary>
+    <author><name>RAJSHREE</name></author>
+  </entry>
+  <entry>
+    <title>How to Give an LLM Agent a Browser</title>
+    <link href="https://towardsdatascience.com/giving-an-llm-agent-a-browser/" rel="alternate"/>
+    <id>https://towardsdatascience.com/giving-an-llm-agent-a-browser/</id>
+    <updated>2026-07-26T13:00:00Z</updated>
+    <summary type="text">Building a browser-use agent with OpenAI Agents SDK and Playwright MCP The post How to Give an LLM Agent a Browser appeared first on Towards Data Science.</summary>
+    <author><name>Shuai Guo</name></author>
+    <category term="data"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -358,94 +446,5 @@
     <updated>2026-07-26T07:32:23Z</updated>
     <summary type="text">I build Slate, an invoicing and bookkeeping SaaS for Israeli businesses. Angular on the front, Express and Prisma on the back, Postgres underneath. The documents it issues are real fiscal records. Israeli law requires them kept for seven years, numbered without gaps, and never edited after issue. That constraint shaped every AI feature in the product. There are five of them today: receipt scanning</summary>
     <author><name>Slate</name></author>
-  </entry>
-  <entry>
-    <title>Your AI Guardrails Speak English Only — Here's the Multilingual Jailbreak Gap</title>
-    <link href="https://dev.to/coridev/your-ai-guardrails-speak-english-only-heres-the-multilingual-jailbreak-gap-4fa0" rel="alternate"/>
-    <id>https://dev.to/coridev/your-ai-guardrails-speak-english-only-heres-the-multilingual-jailbreak-gap-4fa0</id>
-    <updated>2026-07-26T07:25:25Z</updated>
-    <summary type="text">The Report Dark Reading covered research showing something that should worry anyone deploying LLMs outside the US/UK market: safety guardrails and jailbreak resistance are not applied consistently across languages. A prompt that gets blocked in English can sail right through the same model when phrased in French, Polish, or Finnish. For a continent with 24 official EU languages plus dozens of regi</summary>
-    <author><name>Cor E</name></author>
-  </entry>
-  <entry>
-    <title>Running Hermes Agent with Kokoro TTS: A Local-First AI Assistant Setup</title>
-    <link href="https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h" rel="alternate"/>
-    <id>https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h</id>
-    <updated>2026-07-26T07:19:14Z</updated>
-    <summary type="text">Most AI agents today depend heavily on cloud APIs. They're fast, but every request costs money, depends on an internet connection, and sends your data to external providers. Over the weekend, I experimented with Hermes Agent and Kokoro TTS, building a completely local voice-enabled AI assistant. The result was surprisingly good—responses were generated locally, converted into natural speech, and e</summary>
-    <author><name>Nishikanta Ray</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Hacker News + Reddit r/kubernetes (the compose-as-anti-pattern claim is the debate magnet that earns comments)</title>
-    <link href="https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5" rel="alternate"/>
-    <id>https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5</id>
-    <updated>2026-07-26T07:19:05Z</updated>
-    <summary type="text">docker-compose is not a production stand-in — and here's the receipt Chapter 2 of a local-Kubernetes series. The thesis is opinionated on purpose: a production-like local environment is not one where everything is like prod — it's one where you know exactly what matches, what doesn't, and why. Key takeaways &quot;Production-like&quot; ≠ &quot;a copy of prod.&quot; You can't fit prod on a laptop and you don't need to.</summary>
-    <author><name>Mikhail Dorokhovich</name></author>
-  </entry>
-  <entry>
-    <title>Your JSON Array Was Streaming All Along</title>
-    <link href="https://dev.to/ssukhpinder/your-json-array-was-streaming-all-along-162j" rel="alternate"/>
-    <id>https://dev.to/ssukhpinder/your-json-array-was-streaming-all-along-162j</id>
-    <updated>2026-07-26T07:17:36Z</updated>
-    <summary type="text">I set out to prove a code-review comment right. The stopwatch had other plans. Code review last week: a progress endpoint for a long import job, returning IAsyncEnumerable&lt;Step&gt; from a minimal API. The comment under it said what I'd have written myself a month ago: &quot;JSON responses buffer, the client won't see anything until the job finishes. Use SignalR.&quot; I've repeated that advice for years withou</summary>
-    <author><name>Sukhpinder Singh</name></author>
-  </entry>
-  <entry>
-    <title>We Built a Flight Recorder for AI Coding Agents: Here's What SigNoz Taught Us About Watching Them Think</title>
-    <link href="https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc" rel="alternate"/>
-    <id>https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc</id>
-    <updated>2026-07-26T07:15:43Z</updated>
-    <summary type="text">We Built an AI Agent... Then Realized We Had No Idea What It Was Doing Our AI agent was writing code, running tests, and opening pull requests, but I had absolutely no idea why some runs took 8 seconds while others took 45. Was the LLM thinking too long? Was it stuck retrying a failing shell command? Was Docker slow? I couldn't tell. All I had was a loading spinner and a final result. That gap bet</summary>
-    <author><name>hussain jamal</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Six Checks Before You Trust an AI Agent Skill</title>
-    <link href="https://dev.to/skyestrela/six-checks-before-you-trust-an-ai-agent-skill-4nm9" rel="alternate"/>
-    <id>https://dev.to/skyestrela/six-checks-before-you-trust-an-ai-agent-skill-4nm9</id>
-    <updated>2026-07-26T07:10:00Z</updated>
-    <summary type="text">Agent skills are becoming a convenient way to reuse instructions across coding sessions. Instead of pasting the same review, debugging or deployment prompt repeatedly, you put the process in a readable SKILL.md file and load it when the job matches. That convenience creates a new review problem: a polished workflow can still be unsafe, vague or impossible to verify. Before installing a third-party</summary>
-    <author><name>skyestrela</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Claude Opus 5: everything you need to know</title>
-    <link href="https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7" rel="alternate"/>
-    <id>https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7</id>
-    <updated>2026-07-26T07:08:55Z</updated>
-    <summary type="text">Claude Opus 5 shipped on the 24th of July, 2026, as claude-opus-5. It's priced at $5 per million input tokens and $25 per million output tokens — the same as Opus 4.8, and half of what Fable 5 costs. The context window is 1M tokens long, the max output is 128K. And there's one breaking change: the model thinks by default now. In other words, on the older Opus you had to ask for thinking explicitly</summary>
-    <author><name>dsplce.co</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Browser Click Is Not Proof: Verifying That Web Apps Actually Work</title>
-    <link href="https://dev.to/realdone/a-browser-click-is-not-proof-verifying-that-web-apps-actually-work-1lcp" rel="alternate"/>
-    <id>https://dev.to/realdone/a-browser-click-is-not-proof-verifying-that-web-apps-actually-work-1lcp</id>
-    <updated>2026-07-26T07:08:54Z</updated>
-    <summary type="text">A web app can look finished while its most important actions do nothing durable. RealDone is not a Save-button checker. It discovers user-reachable actions across the app—including create, edit, delete, button clicks, form submit and Enter-submit, toggles, status changes, navigation, multi-step workflows, role handoffs, and configured provider boundaries—then verifies their observable consequences</summary>
-    <author><name>RealDone</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>One fallen power line exposed a growing AI data center problem. Here’s how to fix it.</title>
-    <link href="https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/</id>
-    <updated>2026-07-25T13:05:00Z</updated>
-    <summary type="text">A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.</summary>
-    <author><name>Tim De Chant</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown</title>
-    <link href="https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown/</id>
-    <updated>2026-07-25T04:42:47Z</updated>
-    <summary type="text">Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares against MinerU, Docling and LiteParse, and which one fits your use case. The post Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown appe</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
