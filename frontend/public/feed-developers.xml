@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-26T20:12:18Z</updated>
+  <updated>2026-07-26T22:02:19Z</updated>
   <entry>
     <title>Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work</title>
     <link href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/" rel="alternate"/>
@@ -31,6 +31,23 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Your agent's instructions are promises nobody checks. I counted.</title>
+    <link href="https://dev.to/mbajalan/your-agents-instructions-are-promises-nobody-checks-i-counted-22in" rel="alternate"/>
+    <id>https://dev.to/mbajalan/your-agents-instructions-are-promises-nobody-checks-i-counted-22in</id>
+    <updated>2026-07-26T21:01:12Z</updated>
+    <summary type="text">I didn't set out to build a developer tool. For a long time now I've been working with AI on everything in my life — daily conversations about my daughters, planning projects, ideas for ones that don't exist yet. The goal was always the same: ease my life, get more done, and break the barrier between human and AI — stop treating it as a search box, start treating it as a partner. Somewhere along t</summary>
+    <author><name>Mohammed Bajalan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Learning DevOps as a Computer Engineering Grad...</title>
+    <link href="https://dev.to/sandradev20/learning-devops-as-a-computer-engineering-grad-jk5" rel="alternate"/>
+    <id>https://dev.to/sandradev20/learning-devops-as-a-computer-engineering-grad-jk5</id>
+    <updated>2026-07-26T20:28:27Z</updated>
+    <summary type="text">Late that night which was two weeks to my final year project defense, I stared at the ceiling thinking about life after school. As a Nigerian, the reality of the economy hits differently from what you imagine. I questioned why I chose to study Computer Engineering only to finish with no jobs and no internships afterwards. And one thing, I knew was that I wanted to work in tech, but I was confused </summary>
+    <author><name>Sandy</name></author>
   </entry>
   <entry>
     <title>🤖 The Copilot’s Honest Opinion about Rullst!</title>
@@ -442,24 +459,5 @@
     <summary type="text">Most backend engineers implement multi-tenant quota checks using a standard &quot;read-then-write&quot; pattern. In production, this pattern is highly unsafe: SELECT grading_scans_remaining FROM profiles; If greater than 0, execute the application logic. UPDATE profiles SET grading_scans_remaining = grading_scans_remaining - 1; Under high volume or rapid concurrent requests, two independent processes will r</summary>
     <author><name>Dkmooney</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Agent Memory Is Not Merely a Storage &amp; Retrieval Problem, It Is an Architecture Problem.</title>
-    <link href="https://dev.to/gaurav_dadhich/agent-memory-is-not-merely-a-storage-retrieval-problem-it-is-an-architecture-problem-3e1j" rel="alternate"/>
-    <id>https://dev.to/gaurav_dadhich/agent-memory-is-not-merely-a-storage-retrieval-problem-it-is-an-architecture-problem-3e1j</id>
-    <updated>2026-07-25T06:21:18Z</updated>
-    <summary type="text">Most teams building AI agents are treating memory and inference cost as something the next model release will eventually fix. They believe that a bigger context window, a smarter retriever, a cheaper token rate, etc. would absolve the need for a system for solving agent memory. This posture is convenient but it is wrong. What an agent remembers, when it forgets, and how much it costs to reason are</summary>
-    <author><name>Gaurav Dadhich</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Model Context Protocol Through The Agent Stack Lens: What Broke, What's Fixed July 28, and What to Check Before Your Next mcp.json</title>
-    <link href="https://dev.to/echonerve/model-context-protocol-through-the-agent-stack-lens-what-broke-whats-fixed-july-28-and-what-to-1e1e" rel="alternate"/>
-    <id>https://dev.to/echonerve/model-context-protocol-through-the-agent-stack-lens-what-broke-whats-fixed-july-28-and-what-to-1e1e</id>
-    <updated>2026-07-25T03:39:11Z</updated>
-    <summary type="text">If you've added an MCP server to a claude_desktop_config.json or an mcp.json file this year by copy-pasting a connection string, this one's for you. This isn't a &quot;is MCP good or bad&quot; post — it's a breakdown of exactly what broke at the protocol level in 2026, what's shipping in six days to fix part of it, and the specific checks worth adding to your own review process before the next server goes i</summary>
-    <author><name>SAURABH SHUKLA</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>

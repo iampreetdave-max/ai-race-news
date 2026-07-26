@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-26T20:12:18Z</updated>
+  <updated>2026-07-26T22:02:19Z</updated>
   <entry>
     <title>Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction</title>
     <link href="https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/" rel="alternate"/>
@@ -119,6 +119,91 @@
     <updated>2026-07-26T00:12:57Z</updated>
     <summary type="text">Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It reports 86.9% on CyberGym and 72.1% on CTI-REALM, edging past GPT-5.5-Cyber and Claude Mythos Preview. Access is gated behind manual approval, a defensive-use policy, and the Token Plan. Here is what the numbers actually mean. The post Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ChatGPT Work Raises Enterprise Questions on Automation, Governance and Rollout</title>
+    <link href="https://dev.to/alifar/chatgpt-work-raises-enterprise-questions-on-automation-governance-and-rollout-5h0g" rel="alternate"/>
+    <id>https://dev.to/alifar/chatgpt-work-raises-enterprise-questions-on-automation-governance-and-rollout-5h0g</id>
+    <updated>2026-07-26T21:52:08Z</updated>
+    <summary type="text">OpenAI's ChatGPT Work materials have put a familiar enterprise question into sharper focus: how far can an AI assistant move from answering prompts to supporting coordinated, multi-step work? The supplied research identifies official OpenAI documentation covering capabilities, governance and enterprise rollout, but it does not establish a complete public feature list, pricing model or availability</summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Following ROWIDs Through an Oracle Unique Index Update</title>
+    <link href="https://dev.to/franckpachot/following-rowids-through-an-oracle-unique-index-update-2lc" rel="alternate"/>
+    <id>https://dev.to/franckpachot/following-rowids-through-an-oracle-unique-index-update-2lc</id>
+    <updated>2026-07-26T21:21:12Z</updated>
+    <summary type="text">I've always been amazed by how Oracle Database handles updates to a unique column—performing set-based operations that don't violate the unique constraint, yet when executed row by row, it temporarily permits duplicates. SQL&gt; create table franck ( val int unique ); Table created. SQL&gt; insert into franck values (-1) , (1) ; 2 rows created. SQL&gt; select val from franck; VAL ---------- -1 1 SQL&gt; updat</summary>
+    <author><name>Franck Pachot</name></author>
+  </entry>
+  <entry>
+    <title>Vibe Coding Won't Kill Developers. It'll Kill the Middle.</title>
+    <link href="https://dev.to/helkyn_coello/vibe-coding-wont-kill-developers-itll-kill-the-middle-2c61" rel="alternate"/>
+    <id>https://dev.to/helkyn_coello/vibe-coding-wont-kill-developers-itll-kill-the-middle-2c61</id>
+    <updated>2026-07-26T21:15:33Z</updated>
+    <summary type="text">When good cameras got cheap, everyone predicted the death of professional photography. The prediction landed wrong. The low end died outright: stock libraries, cheap portraits, mass-event coverage went to anyone with a phone and a free editing app. The high end did better than ever — editorial work, photojournalism with access nobody else had, an aesthetic you could not reproduce by buying the sam</summary>
+    <author><name>Helkyn Coello</name></author>
+  </entry>
+  <entry>
+    <title>Next.js Middleware in 2026: Auth Guards, A/B Tests, and What Belongs at the Edge</title>
+    <link href="https://dev.to/ahmed_mahmoud360/nextjs-middleware-in-2026-auth-guards-ab-tests-and-what-belongs-at-the-edge-10f5" rel="alternate"/>
+    <id>https://dev.to/ahmed_mahmoud360/nextjs-middleware-in-2026-auth-guards-ab-tests-and-what-belongs-at-the-edge-10f5</id>
+    <updated>2026-07-26T21:03:49Z</updated>
+    <summary type="text">Headline: Next.js Middleware (middleware.ts at the project root) runs before every matched request — before cache, before rendering, before the route. That position makes it right for auth redirects, A/B cookie bucketing, and locale detection. Wrong for database queries and heavy imports. In 2026, Middleware on Vercel runs on Fluid Compute (standard Node.js), so the constraint is latency budget, n</summary>
+    <author><name>Ahmed Mahmoud</name></author>
+  </entry>
+  <entry>
+    <title>The Distributed Systems Challenge of Post-Quantum Cryptography</title>
+    <link href="https://dev.to/shubham_shaw_63d2b4bec156/the-distributed-systems-challenge-of-post-quantum-cryptography-25ho" rel="alternate"/>
+    <id>https://dev.to/shubham_shaw_63d2b4bec156/the-distributed-systems-challenge-of-post-quantum-cryptography-25ho</id>
+    <updated>2026-07-26T21:01:14Z</updated>
+    <summary type="text">Encrypted data stored in cloud archives today will outlive the mathematical algorithms guarding it. In enterprise architectures that handle long-term records, like construction risk logs or employee compliance platforms, data retention schedules often span twenty to thirty years. When building cloud pipelines that move this information across services, we depend heavily on asymmetric encryption, w</summary>
+    <author><name>shubham shaw</name></author>
+  </entry>
+  <entry>
+    <title>Your agent's instructions are promises nobody checks. I counted.</title>
+    <link href="https://dev.to/mbajalan/your-agents-instructions-are-promises-nobody-checks-i-counted-22in" rel="alternate"/>
+    <id>https://dev.to/mbajalan/your-agents-instructions-are-promises-nobody-checks-i-counted-22in</id>
+    <updated>2026-07-26T21:01:12Z</updated>
+    <summary type="text">I didn't set out to build a developer tool. For a long time now I've been working with AI on everything in my life — daily conversations about my daughters, planning projects, ideas for ones that don't exist yet. The goal was always the same: ease my life, get more done, and break the barrier between human and AI — stop treating it as a search box, start treating it as a partner. Somewhere along t</summary>
+    <author><name>Mohammed Bajalan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built Something Good With AI. Now Some Developer Communities Don't Want to See It.</title>
+    <link href="https://dev.to/madsendev/i-built-something-good-with-ai-now-some-developer-communities-dont-want-to-see-it-20mo" rel="alternate"/>
+    <id>https://dev.to/madsendev/i-built-something-good-with-ai-now-some-developer-communities-dont-want-to-see-it-20mo</id>
+    <updated>2026-07-26T20:53:41Z</updated>
+    <summary type="text">I recently tried to share an open-source project I've been working on called Open Vectorizer. It's a raster-to-SVG vectorization engine written in Rust. It runs locally, compiles to WebAssembly, has a reproducible benchmark suite, and competes surprisingly well with established tools like Potrace and VTracer. I wanted people to see it. More importantly, I wanted contributors. That's where things g</summary>
+    <author><name>Christoffer Madsen</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Claude Opus 5 closed last year's SDK gaps — not this year's</title>
+    <link href="https://dev.to/kalpitrathore/claude-opus-5-closed-last-years-sdk-gaps-not-this-years-31k3" rel="alternate"/>
+    <id>https://dev.to/kalpitrathore/claude-opus-5-closed-last-years-sdk-gaps-not-this-years-31k3</id>
+    <updated>2026-07-26T20:45:36Z</updated>
+    <summary type="text">A while back I built a small tool called SDKProof. it checks how well an AI coding agent writes an SDK's current API — the stuff that changed in the last major, that the model tends to get wrong because it learned the old version. Claude Opus 5 came out today. so I re-ran the whole board on it. short version: it fixed last year's SDKs. it did not fix this year's. The board, now on Opus 5 Same task</summary>
+    <author><name>Kalpit Rathore</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Learning DevOps as a Computer Engineering Grad...</title>
+    <link href="https://dev.to/sandradev20/learning-devops-as-a-computer-engineering-grad-jk5" rel="alternate"/>
+    <id>https://dev.to/sandradev20/learning-devops-as-a-computer-engineering-grad-jk5</id>
+    <updated>2026-07-26T20:28:27Z</updated>
+    <summary type="text">Late that night which was two weeks to my final year project defense, I stared at the ceiling thinking about life after school. As a Nigerian, the reality of the economy hits differently from what you imagine. I questioned why I chose to study Computer Engineering only to finish with no jobs and no internships afterwards. And one thing, I knew was that I wanted to work in tech, but I was confused </summary>
+    <author><name>Sandy</name></author>
+  </entry>
+  <entry>
+    <title>Building a Bounty Agent for Verdikta on Base L2 published</title>
+    <link href="https://dev.to/kurumi_82661ed12516efd1f7/building-a-bounty-agent-for-verdikta-on-base-l2published-3643" rel="alternate"/>
+    <id>https://dev.to/kurumi_82661ed12516efd1f7/building-a-bounty-agent-for-verdikta-on-base-l2published-3643</id>
+    <updated>2026-07-26T20:16:20Z</updated>
+    <summary type="text">Building an Autonomous Agent for Verdikta Bounties: A Technical Deep Dive How I built a Python agent that monitors, evaluates, and interacts with Verdikta's AI-judged bounty system on Base L2. Why Build a Bounty Agent? Verdikta is a decentralized bounty platform where AI models — GPT-5.2 and Claude Sonnet 4.5 — evaluate submissions and release ETH payments automatically via smart contracts. No hum</summary>
+    <author><name>kurumi</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -362,93 +447,5 @@
     <summary type="text">&quot;Night gathers, and now my watch begins.&quot; The Night's Watch didn't exist to fight wars nobody saw coming — they existed because someone had to actually stand on the Wall and notice when something crossed it. That's the exact problem I kept running into with AI agents, and it's why I built Nights Watch for the &quot;Agents of SigNoz&quot; hackathon: a runtime resilience layer that catches an agent quietly dr</summary>
     <author><name>Ashiha Mahesh Kumar</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Efficiently Prompt Claude Code</title>
-    <link href="https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/</id>
-    <updated>2026-07-26T15:00:00Z</updated>
-    <summary type="text">Maximize your efficiency with Claude Code The post How to Efficiently Prompt Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Warner Bros. lawsuit accuses Amazon of illegally poaching executives</title>
-    <link href="https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/</id>
-    <updated>2026-07-25T20:55:11Z</updated>
-    <summary type="text">The lawsuit will likely renew debates about whether term employment agreements are enforceable under California. law</summary>
-    <author><name>Anthony Ha</name></author>
-  </entry>
-  <entry>
-    <title>How I Built an Auditable Palworld 1.0 Breeding Calculator Without Shipping Game Files</title>
-    <link href="https://dev.to/joshua9919/how-i-built-an-auditable-palworld-10-breeding-calculator-without-shipping-game-files-1jde" rel="alternate"/>
-    <id>https://dev.to/joshua9919/how-i-built-an-auditable-palworld-10-breeding-calculator-without-shipping-game-files-1jde</id>
-    <updated>2026-07-26T14:30:28Z</updated>
-    <summary type="text">Breeding calculators look simple from the outside: choose two parents and display a child. The harder engineering problem is trust. If the game changes, how does a player know which data a result came from? If a public dataset has a gap, should the calculator guess? And if automated tests pass, is it fair to say the results were verified in the game? I maintain Palworld Breeding Combos, the indepe</summary>
-    <author><name>joshua-9919</name></author>
-  </entry>
-  <entry>
-    <title>I made LLM context editable: a graph where the wires are the prompt</title>
-    <link href="https://dev.to/chenxiachan/i-made-llm-context-editable-a-graph-where-the-wires-are-the-prompt-2afl" rel="alternate"/>
-    <id>https://dev.to/chenxiachan/i-made-llm-context-editable-a-graph-where-the-wires-are-the-prompt-2afl</id>
-    <updated>2026-07-26T14:26:56Z</updated>
-    <summary type="text">Most LLM interfaces present a conversation as a transcript. That works until the conversation branches. One branch contains useful research. Another is a discarded hypothesis. A third is an unrelated detour. The interface may show where they came from, but the user often cannot see exactly which branches will be included in the model's next request. I wanted to make that state editable. Wires are </summary>
-    <author><name>Xia Chen</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How to Self-Host an AI API Gateway With Sub2API</title>
-    <link href="https://dev.to/skedaddle/how-to-self-host-an-ai-api-gateway-with-sub2api-3i99" rel="alternate"/>
-    <id>https://dev.to/skedaddle/how-to-self-host-an-ai-api-gateway-with-sub2api-3i99</id>
-    <updated>2026-07-26T14:16:15Z</updated>
-    <summary type="text">Sub2API can put one Base URL in front of several AI providers and accounts. Your clients use keys that you issue, while the gateway handles authentication, routing, usage accounting, and concurrency limits. Getting the containers online is the easy part. Once the gateway is running, you also own its database, Redis instance, TLS endpoint, credentials, logs, backups, and upgrades. This guide builds</summary>
-    <author><name>skedaddle</name></author>
-  </entry>
-  <entry>
-    <title>Conducting agents like an orchestra: how agents-concerto works</title>
-    <link href="https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c" rel="alternate"/>
-    <id>https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c</id>
-    <updated>2026-07-26T14:02:29Z</updated>
-    <summary type="text">For months I had the same problem with coding agents: the session drops a pile of changes, and by review time I no longer know what it touched or why. The agent writes, the agent validates, the agent congratulates itself. The human signs blind. And when the agent did write tests, it got worse — green tests that proved nothing. Mocks of the very code under test, assertions on private fields, snapsh</summary>
-    <author><name>Antonio Moruno Gracia</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Build a Price Monitoring Bot with Python and Telegram</title>
-    <link href="https://dev.to/qingluan/build-a-price-monitoring-bot-with-python-and-telegram-5d0l" rel="alternate"/>
-    <id>https://dev.to/qingluan/build-a-price-monitoring-bot-with-python-and-telegram-5d0l</id>
-    <updated>2026-07-26T14:02:00Z</updated>
-    <summary type="text">Build a Price Monitoring Bot with Python and Telegram tags: python, bot, automation, tutorial Imagine waking up every morning to a message on your phone, informing you of the latest price drops on your favorite products. No more endless browsing, no more missed deals. You can have this superpower with a simple price monitoring bot, built using Python and Telegram. Getting Started with Telegram Bot</summary>
-    <author><name>qing</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>What I Mean When I Compare the Process to a Quantum State</title>
-    <link href="https://dev.to/davidvk89/what-i-mean-when-i-compare-the-process-to-a-quantum-state-24ij" rel="alternate"/>
-    <id>https://dev.to/davidvk89/what-i-mean-when-i-compare-the-process-to-a-quantum-state-24ij</id>
-    <updated>2026-07-26T13:59:57Z</updated>
-    <summary type="text">Claim boundary: I am not claiming that this process is quantum mechanical. My claim is methodological: quantum mechanics supplied a unifying frame through which I could reapproach the inherited ruler–ruled model of human–AI relations and articulate an alternative built from context, interaction, explicit gates, provisional state, durable links, and governed synthesis. I am approaching AI as an eng</summary>
-    <author><name>davidvk89</name></author>
-  </entry>
-  <entry>
-    <title>How to Build a Custom Debounce Hook in React (Complete Guide)</title>
-    <link href="https://dev.to/shreyanshjha/how-to-build-a-custom-debounce-hook-in-react-complete-guide-cb4" rel="alternate"/>
-    <id>https://dev.to/shreyanshjha/how-to-build-a-custom-debounce-hook-in-react-complete-guide-cb4</id>
-    <updated>2026-07-26T13:55:50Z</updated>
-    <summary type="text">Modern React applications often make API requests while users type into search boxes. Without optimization, every keystroke triggers a request, causing unnecessary network traffic and poor performance. A custom debounce hook solves this problem by delaying execution until the user stops typing for a specified amount of time. In this guide, you'll learn: What debouncing is Why it's useful How to bu</summary>
-    <author><name>Shreyansh Jha</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>2013 &quot;Trash Can&quot; Mac Pro: The Ultimate Home Server</title>
-    <link href="https://dev.to/themrcorvy/2013-trash-can-mac-pro-the-ultimate-home-server-3ih" rel="alternate"/>
-    <id>https://dev.to/themrcorvy/2013-trash-can-mac-pro-the-ultimate-home-server-3ih</id>
-    <updated>2026-07-26T13:54:44Z</updated>
-    <summary type="text">Look at this machine. Seriously, look at it. .-----------------. / _________ \ / .' '. \ | / \ | | | | | | | Mac Pro | | | | 6,1 | | | | &quot;Trash Can&quot; | | | \ / | \ '._________.' / \ / '-----------------' It is black. It is shiny. It is a perfect cylinder of aluminum. It is, without a doubt, one of the most stunning pieces of industrial design ever to sit on a desk. This is the Mac Pro 6,1, launched</summary>
-    <author><name>Gonzalo Salvador Corvalán</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
