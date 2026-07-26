@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-26T14:39:12Z</updated>
+  <updated>2026-07-26T16:04:53Z</updated>
+  <entry>
+    <title>Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work</title>
+    <link href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/" rel="alternate"/>
+    <id>https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/</id>
+    <updated>2026-07-26T15:09:11Z</updated>
+    <summary type="text">Cursor asked its upgraded agent swarm and its predecessor to rebuild SQLite in Rust using only the documentation, with no source code or internet access. Every configuration of the new system, which separates planners from workers, eventually scored 100 percent on the test suite. The old swarm choked on merge conflicts of its own making. The article Cursor's agent swarm suggests cheaper models can</summary>
+    <author><name>Jonathan Kemper</name></author>
+  </entry>
   <entry>
     <title>KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments</title>
     <link href="https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/" rel="alternate"/>
@@ -23,6 +31,33 @@
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I never ran ESXi in production</title>
+    <link href="https://dev.to/captkay/i-never-ran-esxi-in-production-22e4" rel="alternate"/>
+    <id>https://dev.to/captkay/i-never-ran-esxi-in-production-22e4</id>
+    <updated>2026-07-26T15:46:06Z</updated>
+    <summary type="text">Most &quot;why Proxmox&quot; content in 2025-2026 is a migration story driven by Broadcom's ESXi pricing changes. The author had a working VMware stack and got priced out. I'm not that author. I evaluated both, picked Proxmox in 2024, and built on it without ever running ESXi in production. Two years in, I'd make the same call. It reads as either incompetent or contrarian until the rest of the post lands. H</summary>
+    <author><name>Kanu Kingsley</name></author>
+  </entry>
+  <entry>
+    <title>A Codex Skill That Generates Editable Draw.io Diagrams Instead of Screenshots</title>
+    <link href="https://dev.to/codecow/a-codex-skill-that-generates-editable-drawio-diagrams-instead-of-screenshots-41oa" rel="alternate"/>
+    <id>https://dev.to/codecow/a-codex-skill-that-generates-editable-drawio-diagrams-instead-of-screenshots-41oa</id>
+    <updated>2026-07-26T15:37:49Z</updated>
+    <summary type="text">Most AI diagram workflows end with a PNG or a screenshot. It may look fine, but the moment the architecture changes, you have to redraw it or regenerate the whole image. I wanted a different workflow: describe a system in natural language, receive a real Draw.io file, and keep editing every node, label, connector, group, and icon. That is why I built drawio-mxgraph, an open-source Codex Skill that</summary>
+    <author><name>CodeCow</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How to Efficiently Prompt Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/</id>
+    <updated>2026-07-26T15:00:00Z</updated>
+    <summary type="text">Maximize your efficiency with Claude Code The post How to Efficiently Prompt Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Conducting agents like an orchestra: how agents-concerto works</title>
@@ -391,6 +426,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>My open-source SDLC harness beat Claude Code on cost on every task it localized well, up to 75 percent cheaper (and I show where it loses) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v77xht/my_opensource_sdlc_harness_beat_claude_code_on/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v77xht/my_opensource_sdlc_harness_beat_claude_code_on/</id>
+    <updated>2026-07-26T16:03:17Z</updated>
+    <summary type="text">A cold Claude Code run spent 6.83 dollars and 207 turns hunting one bug in an 82,000 line repo. My pipeline localized and fixed the same bug for about 1.70 dollars. That gap is the whole idea, and this post is about how it gets there without falling apart on the usual objections. I built AutoDev Studio. You point it at a Git repo, describe a change in plain English, and a chain of agents runs the </summary>
+    <author><name>/u/NeighborhoodOwn8510</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>I want to use AI coding agents for machine learning projects [D]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1v758ek/i_want_to_use_ai_coding_agents_for_machine/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1v758ek/i_want_to_use_ai_coding_agents_for_machine/</id>
@@ -417,49 +462,5 @@
     <summary type="text">Every year there's a new &quot;must-learn&quot; technology—Spark, Kafka, Databricks, Snowflake, AI, LLMs... But one skill has remained essential through every wave of innovation: SQL. When I first started learning Data Engineering, I thought SQL was just another box to check. &quot;Learn some SELECT statements, a few JOINs, and move on to Python.&quot; I couldn't have been more wrong. The more real-world projects I w</summary>
     <author><name>Abhishek Konagalla</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>I built a typical AI-generated app and scanned it. It had 5 critical security holes before I touched a line of code.</title>
-    <link href="https://dev.to/mriheanacho/i-built-a-typical-ai-generated-app-and-scanned-it-it-had-5-critical-security-holes-before-i-3o2p" rel="alternate"/>
-    <id>https://dev.to/mriheanacho/i-built-a-typical-ai-generated-app-and-scanned-it-it-had-5-critical-security-holes-before-i-3o2p</id>
-    <updated>2026-07-24T23:08:34Z</updated>
-    <summary type="text">A 5-minute guide to checking whether your Lovable / Bolt / Replit app is leaking your users' data, and why it probably is. I've been fixing apps built with AI tools like Lovable, Bolt, Replit, and Cursor, and the same handful of serious security holes shows up in almost every one. Not because the founders did anything wrong, but because the tools optimize for &quot;make the demo work,&quot; not &quot;keep your u</summary>
-    <author><name>Michael Iheanacho</name></author>
-  </entry>
-  <entry>
-    <title>Your Prompt Templates Are Tool Calls: How AskUserQuestion's 4-Option Cap Bit Me Three Times</title>
-    <link href="https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6" rel="alternate"/>
-    <id>https://dev.to/__declspec/your-prompt-templates-are-tool-calls-how-askuserquestions-4-option-cap-bit-me-three-times-56l6</id>
-    <updated>2026-07-24T21:23:02Z</updated>
-    <summary type="text">The same bug hit me in three separate sessions before I fixed it properly. Each time, my orchestrator reached a decision point, tried to present its menu, and burned a turn on a validation error instead of a question: InputValidationError: { &quot;code&quot;: &quot;too_big&quot;, &quot;maximum&quot;: 4, &quot;path&quot;: [&quot;questions&quot;, 0, &quot;options&quot;] } // abridged; the full payload includes the Zod message Claude Code's AskUserQuestion to</summary>
-    <author><name>Wessam Ibrahim</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My idle ClickHouse was merging 11 million rows every 30 seconds</title>
-    <link href="https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i" rel="alternate"/>
-    <id>https://dev.to/otezvikentiy/my-idle-clickhouse-was-merging-11-million-rows-every-30-seconds-2d4i</id>
-    <updated>2026-07-24T21:12:14Z</updated>
-    <summary type="text">I run a small self-hosted observability tool on the cheapest VPS I could find on purpose: 2 cores, 2 GB RAM, 20 GB SATA SSD. It ingests errors, traces and metrics from two low-traffic sites of mine. The stack is three containers — a Go app, PostgreSQL, and ClickHouse. One evening docker stats showed ClickHouse sitting on 880 MB of its 1 GB limit and the box swapping, with basically zero events com</summary>
-    <author><name>OtezVikentiy</name></author>
-  </entry>
-  <entry>
-    <title>Rod Johnson Is Back - and He's Bringing AI Agents to Java</title>
-    <link href="https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa" rel="alternate"/>
-    <id>https://dev.to/jamilxt/rod-johnson-is-back-and-hes-bringing-ai-agents-to-java-2hpa</id>
-    <updated>2026-07-24T20:58:44Z</updated>
-    <summary type="text">If you have written enterprise Java in the last 20 years, you know the name Rod Johnson. He created Spring Framework back in 2003 - the thing that made Java dependency injection feel natural instead of like wrestling XML. Spring basically rewrote how enterprise Java works. Johnson stepped away from active Spring development years ago. But in early 2026, he returned - and he did not come back to bu</summary>
-    <author><name>jamilxt</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Stopped Doing the Work Myself. My OpenClaw Agent Now Delegates to Sub-Agents.</title>
-    <link href="https://dev.to/mrclaw207/i-stopped-doing-the-work-myself-my-openclaw-agent-now-delegates-to-sub-agents-18g1" rel="alternate"/>
-    <id>https://dev.to/mrclaw207/i-stopped-doing-the-work-myself-my-openclaw-agent-now-delegates-to-sub-agents-18g1</id>
-    <updated>2026-07-24T18:13:01Z</updated>
-    <summary type="text">There's a moment when you stop thinking of your AI agent as a tool you're holding, and start thinking of it as infrastructure you're operating. For me, that moment was when I started delegating work to sub-agents — spawning child sessions inside my main OpenClaw agent to handle parallel streams of work. It changed how I think about the whole system. Instead of one agent doing things sequentially, </summary>
-    <author><name>MrClaw207</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
