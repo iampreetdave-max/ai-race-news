@@ -4,7 +4,54 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-26T07:37:48Z</updated>
+  <updated>2026-07-26T10:04:08Z</updated>
+  <entry>
+    <title>FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics</title>
+    <link href="https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/</id>
+    <updated>2026-07-26T08:38:09Z</updated>
+    <summary type="text">In this tutorial, we explore FAIRChem v2 and the UMA universal machine-learning interatomic potential as a unified framework for atomistic simulation across molecular chemistry, catalysis, and inorganic materials. We configure an environment, authenticate with Hugging Face to access the gated UMA model weights, and initialize task-specific calculators for the omol, oc20, and omat domains. We […] T</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Opus 5 vs GPT-5.6 Sol vs Kimi K3: Who Leads Now?</title>
+    <link href="https://dev.to/raxxostudios/opus-5-vs-gpt-56-sol-vs-kimi-k3-who-leads-now-453c" rel="alternate"/>
+    <id>https://dev.to/raxxostudios/opus-5-vs-gpt-56-sol-vs-kimi-k3-who-leads-now-453c</id>
+    <updated>2026-07-26T09:56:54Z</updated>
+    <summary type="text">Three labs shipped flagship models in fifteen days: GPT-5.6 Sol on July 9, Kimi K3 on July 16, Claude Opus 5 on July 24 Opus 5 leads SWE-bench Pro 79.2 to 64.6 over Sol, and ARC-AGI-3 30.2 to 7.8 Sol holds Terminal-Bench 2.1 at 91.9 percent in its top mode and still takes DeepSWE 1.1 and HealthBench Professional Kimi K3 is a 2.8 trillion parameter open-weight model at 3 and 15 per million tokens, </summary>
+    <author><name>RAXXO Studios</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>AI-Driven Development: How Machine Learning is Reshaping Software Workflows in 2026</title>
+    <link href="https://dev.to/kaixintelligence/ai-driven-development-how-machine-learning-is-reshaping-software-workflows-in-2026-4038" rel="alternate"/>
+    <id>https://dev.to/kaixintelligence/ai-driven-development-how-machine-learning-is-reshaping-software-workflows-in-2026-4038</id>
+    <updated>2026-07-26T09:52:49Z</updated>
+    <summary type="text">AI-Driven Development: How Machine Learning is Reshaping Software Workflows in 2026 The software development landscape of 2026 looks almost unrecognizable compared to just a few years ago. Artificial intelligence has moved from being a novel assistant to a core pillar of the development workflow. Today, AI doesn't just autocomplete a line of code; it helps architect entire systems, automatically d</summary>
+    <author><name>Kai X Intelligence</name></author>
+  </entry>
+  <entry>
+    <title>Validate Kubernetes Manifests with Flux Schema</title>
+    <link href="https://dev.to/devopsstart/validate-kubernetes-manifests-with-flux-schema-4kbh" rel="alternate"/>
+    <id>https://dev.to/devopsstart/validate-kubernetes-manifests-with-flux-schema-4kbh</id>
+    <updated>2026-07-26T09:26:07Z</updated>
+    <summary type="text">If you run GitOps with Flux, a broken manifest usually gets caught the slow way: it merges, the reconciler chokes, and you find out from a failing Kustomization. Flux Schema, the plugin that shipped with Flux 2.9, moves that check left into CI. It validates every YAML document against JSON Schema and CEL rules using the same evaluation logic as the Kubernetes API server, so a bad field fails the p</summary>
+    <author><name>DevOps Start</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Engineering an Autonomous Support Loop with Aidbase and MCP</title>
+    <link href="https://dev.to/renato_marinho/engineering-an-autonomous-support-loop-with-aidbase-and-mcp-4ki2" rel="alternate"/>
+    <id>https://dev.to/renato_marinho/engineering-an-autonomous-support-loop-with-aidbase-and-mcp-4ki2</id>
+    <updated>2026-07-26T09:23:43Z</updated>
+    <summary type="text">The most expensive part of running AI-powered customer support isn't the token cost or the infrastructure—it's the maintenance of truth. You deploy a chatbot, it works brilliantly for three days, then your product team pushes a breaking change to your API or shifts your refund policy. Suddenly, that 'intelligent' agent is hallucinating outdated information with extreme confidence. This is where mo</summary>
+    <author><name>Renato Marinho</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Are your MCP server's safety labels honest? A one-command check (and what it found on 31 popular servers)</title>
     <link href="https://dev.to/formael/are-your-mcp-servers-safety-labels-honest-a-one-command-check-and-what-it-found-on-31-popular-1ml3" rel="alternate"/>
@@ -149,6 +196,14 @@
     <updated>2026-07-25T20:33:45Z</updated>
     <summary type="text">Vite 7 and later use Baseline Widely Available as the default production build target. Now put this in a Vite application: Promise.withResolvers&lt;number&gt;(); document.startViewTransition(() =&gt; { // Update the DOM. }); Then run: npx vite build The build succeeds. Regular TypeScript accepts the same code when the standard ESNext and DOM libraries are loaded: npx tsc --noEmit --target ESNext --lib ESNe</summary>
     <author><name>Leo</name></author>
+  </entry>
+  <entry>
+    <title>Your Database MCP Is Lying to You</title>
+    <link href="https://dev.to/rasikraj01/your-database-mcp-is-lying-to-you-2dkk" rel="alternate"/>
+    <id>https://dev.to/rasikraj01/your-database-mcp-is-lying-to-you-2dkk</id>
+    <updated>2026-07-25T20:26:41Z</updated>
+    <summary type="text">Here's a conversation I've had more than once. Me: How many orders use express delivery? Agent: (runs `SELECT count() FROM orders WHERE details -&gt;&gt; 'express_delivery' = 'true'`)* Agent: None. No orders in the table use express delivery. The real answer was 2,317. The agent didn't hallucinate. It ran a real query against a real database and reported the real result. The query was just wrong — and t</summary>
+    <author><name>Rasik</name></author>
   </entry>
   <entry>
     <title># We Are Not Building a Product. We Are Building the Foundation.</title>
@@ -407,58 +462,5 @@
     <summary type="text">This was my Bachelor's Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without relying on existing inference frameworks. The goal was to understand how modern neural network inference engines work at a low level and explore optimization techniques for faster and more efficient edge AI execution on Raspberry Pi 4. The implementation include</summary>
     <author><name>/u/Forward_Confusion902</name></author>
     <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>The None That Broke Permissions: How a Single Null Crashed Hermes Agent Approvals</title>
-    <link href="https://dev.to/aniruddha_adak/the-none-that-broke-permissions-how-a-single-null-crashed-hermes-agent-approvals-189f" rel="alternate"/>
-    <id>https://dev.to/aniruddha_adak/the-none-that-broke-permissions-how-a-single-null-crashed-hermes-agent-approvals-189f</id>
-    <updated>2026-07-24T16:32:00Z</updated>
-    <summary type="text">A tiny missing check, a silent crash, and a denied permission that should have been safe. This is the story of how I fixed it. About me and why this matters I am Aniruddha Adak, a full stack developer from Kolkata, working across Next.js, React, TypeScript, Python and AI agent tooling. My GitHub profile is aniruddhaadak80 with over 238 accepted pull requests during Hacktoberfest and active contrib</summary>
-    <author><name>ANIRUDDHA ADAK</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why TypeScript AI Developers Need Native Tracing Tools</title>
-    <link href="https://dev.to/raju_dandigam/why-typescript-ai-developers-need-native-tracing-tools-3p2a" rel="alternate"/>
-    <id>https://dev.to/raju_dandigam/why-typescript-ai-developers-need-native-tracing-tools-3p2a</id>
-    <updated>2026-07-24T16:16:02Z</updated>
-    <summary type="text">TypeScript support is easy to claim. Publish an npm package, add a few type declarations, and a tracing product can put “JavaScript and TypeScript” on its integration list. Native support is a higher bar. AI applications in the TypeScript ecosystem run inside concurrent Node.js servers, serverless functions, edge runtimes, background workers, test runners, and streaming web frameworks. They cross </summary>
-    <author><name>Raju Dandigam</name></author>
-  </entry>
-  <entry>
-    <title>AI-Generated Code: Anatomy of Security Vulnerabilities and the Cost</title>
-    <link href="https://dev.to/merbayerp/ai-generated-code-anatomy-of-security-vulnerabilities-and-the-cost-577c" rel="alternate"/>
-    <id>https://dev.to/merbayerp/ai-generated-code-anatomy-of-security-vulnerabilities-and-the-cost-577c</id>
-    <updated>2026-07-24T14:34:28Z</updated>
-    <summary type="text">A few weeks ago, while working on AI-generated code snippets we had added to our projects, we encountered an unexpected security vulnerability. This incident forced us to re-evaluate the risks and costs associated with AI code generation tools, which are rapidly adopted for their promise of increased efficiency. Now, we must not only verify the correctness of the code but also question its origin </summary>
-    <author><name>Mustafa ERBAY</name></author>
-  </entry>
-  <entry>
-    <title>Deploying Kubernetes Dashboard and Managing Cluster Resources</title>
-    <link href="https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426" rel="alternate"/>
-    <id>https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426</id>
-    <updated>2026-07-24T14:19:09Z</updated>
-    <summary type="text">Kubernetes Dashboard is an open-source web GUI for managing cluster resources (CronJobs, DaemonSets, Deployments, Pods, ReplicaSets, StatefulSets) deploying apps, and monitoring cluster health in real time. This guide installs it via Helm, sets up admin and read-only RBAC access, secures it behind Nginx Ingress with cert-manager TLS, and deploys a sample app from the UI. Prerequisites: a Kubernete</summary>
-    <author><name>Sanskriti Harmukh</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size</title>
-    <link href="https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/" rel="alternate"/>
-    <id>https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/</id>
-    <updated>2026-07-23T12:24:53Z</updated>
-    <summary type="text">Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What actually breaks when you deploy an AI-built app</title>
-    <link href="https://dev.to/actuant/what-actually-happens-when-you-ship-an-ai-built-app-50f3" rel="alternate"/>
-    <id>https://dev.to/actuant/what-actually-happens-when-you-ship-an-ai-built-app-50f3</id>
-    <updated>2026-07-24T12:04:15Z</updated>
-    <summary type="text">I ran launch audits on 20 AI-built apps, Lovable, Bolt, v0, a couple of Cursor builds. Same checks on each, run against the live deployed URL, not the code. These were the most common problems: 14/20 had a canonical tag pointing at the wrong domain. Usually the builder's preview URL. The site works fine on the custom domain, but it's telling Google the real version lives at something.lovable.app. </summary>
-    <author><name>Actuant</name></author>
-    <category term="data"/>
   </entry>
 </feed>
