@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-27T19:40:50Z</updated>
+  <updated>2026-07-27T21:15:42Z</updated>
   <entry>
     <title>Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race</title>
     <link href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/" rel="alternate"/>
@@ -32,6 +32,41 @@
     <summary type="text">For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…</summary>
     <author><name>Keegan Sheedy, Lucas Melo</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Can Google ADK Talk to Microsoft Foundry on Azure? A Cross-Cloud A2A Benchmark</title>
+    <link href="https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36" rel="alternate"/>
+    <id>https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36</id>
+    <updated>2026-07-27T20:54:36Z</updated>
+    <summary type="text">This article provides a step-by-step guide to building and testing a cross-cloud currency agent. A coordinator hosted on Microsoft Foundry in Azure calls a Google ADK agent on Google Cloud over A2A v1.0, uses an MCP exchange-rate tool, and records what independent verification costs in latency. What is This Project Trying to Do? Most Agent-to-Agent (A2A) protocol demos stop at &quot;look, the request s</summary>
+    <author><name>xbill</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>AI Changes the Tools, Not the Fundamentals</title>
+    <link href="https://dev.to/ron_moon_dev/ai-changes-the-tools-not-the-fundamentals-cef" rel="alternate"/>
+    <id>https://dev.to/ron_moon_dev/ai-changes-the-tools-not-the-fundamentals-cef</id>
+    <updated>2026-07-27T20:49:58Z</updated>
+    <summary type="text">This may sound counterintuitive, but in the era of AI, less is more. AI can help anyone write code faster, but it can't replace an understanding of how production systems actually work. The competitive advantage isn't knowing more tools—it's understanding the fundamentals that every production application is built on. Mastering those fundamentals may be the way to do more with less. Every good bas</summary>
+    <author><name>Ron Moon</name></author>
+  </entry>
+  <entry>
+    <title>The Real Cost of AI Coding in July 2026: What Nobody Tells You About Claude Code, Codex, and Cursor Bills</title>
+    <link href="https://dev.to/aplomb2/the-real-cost-of-ai-coding-in-july-2026-what-nobody-tells-you-about-claude-code-codex-and-cursor-4i7k" rel="alternate"/>
+    <id>https://dev.to/aplomb2/the-real-cost-of-ai-coding-in-july-2026-what-nobody-tells-you-about-claude-code-codex-and-cursor-4i7k</id>
+    <updated>2026-07-27T20:42:13Z</updated>
+    <summary type="text">Everyone's comparing AI coding tool prices on paper. Claude Code Max at $200/mo. Cursor Ultra at $200/mo. Codex with ChatGPT Pro at $200/mo. But after 6 months of running 10+ production apps across these tools, I can tell you: the sticker price tells you almost nothing about your actual cost. Here's what I learned tracking every dollar. The pricing page lie Comparison articles love neat tables. &quot;$</summary>
+    <author><name>Bo Shen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My LLM Kept Making Stuff Up on Resumes. Here’s How I Shut It Down.</title>
+    <link href="https://dev.to/risola_me_a79eac9d2622b19/my-llm-kept-making-stuff-up-on-resumes-heres-how-i-shut-it-down-15d2" rel="alternate"/>
+    <id>https://dev.to/risola_me_a79eac9d2622b19/my-llm-kept-making-stuff-up-on-resumes-heres-how-i-shut-it-down-15d2</id>
+    <updated>2026-07-27T20:36:50Z</updated>
+    <summary type="text">I'm building NextStep — an AI thing that scores your resume against a job and rewrites it to fit. Two features, both completely dependent on the model not lying. And GPT-4o loves to lie. Two bugs made me stop trusting it: Score the same resume twice → 87, then 79. Cool, so the number means nothing. Ask it to &quot;optimize for this DevOps role&quot; → it adds &quot;Managed production Kubernetes clusters&quot; to a gu</summary>
+    <author><name>risola_me</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -426,43 +461,6 @@
     <summary type="text">Claude Opus 5 is out, and Artificial Analysis — who supported Anthropic's pre-release evaluation — just dropped their full benchmark breakdown. The headline: new top model for agentic knowledge work, and cheaper per task than Fable 5. That combination doesn't come along often at the frontier. &quot;Opus 5 (max) scores 61 on the Artificial Analysis Intelligence Index, effectively tied with Claude Fable </summary>
     <author><name>Andrew Kew</name></author>
     <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>We Got the Prompt Cache Working. Our Pipeline Got Slower.</title>
-    <link href="https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f" rel="alternate"/>
-    <id>https://dev.to/terum/we-got-the-prompt-cache-working-our-pipeline-got-slower-265f</id>
-    <updated>2026-07-25T21:40:21Z</updated>
-    <summary type="text">&quot;You're spawning a fresh codex exec for every single call? Just run the app-server and reuse a thread. The prompt cache alone will pay for it.&quot; That sentence sounds so obviously right that nobody ever benchmarks it. We run a small bazaar of headless AI daemons — designers, reviewers, code workers — and each one shells out to OpenAI's Codex CLI dozens of times per work item. A resident codex app-se</summary>
-    <author><name>Teru Murata</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built a CLI that tells you if your codebase fits an LLM's context window</title>
-    <link href="https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d" rel="alternate"/>
-    <id>https://dev.to/deklain4ik/i-built-a-cli-that-tells-you-if-your-codebase-fits-an-llms-context-window-164d</id>
-    <updated>2026-07-25T21:19:20Z</updated>
-    <summary type="text">Every time I wanted to paste a whole project into Claude or ChatGPT, I ended up guessing whether it would even fit — and often found out the hard way, mid-conversation, that it didn't. So I built Tokenazire, a small CLI tool that solves exactly that. What it does Scans a local folder or a GitHub repo (just pass the URL, it clones it for you) Counts tokens per file using tiktoken (the same tokenize</summary>
-    <author><name>Michael</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a desktop client for an AI coding agent</title>
-    <link href="https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n" rel="alternate"/>
-    <id>https://dev.to/timexingxin/building-a-desktop-client-for-an-ai-coding-agent-147n</id>
-    <updated>2026-07-25T21:15:28Z</updated>
-    <summary type="text">Lessons from wrapping grok-build — the architecture, the traps, and why we picked Tauri over Electron. TL;DR grok-build is xAI's open-source Rust coding agent. It ships as a TUI. We wrote a native desktop client for it — Tauri 2 (~8 MB binary), React frontend, Rust runtime that spawns the CLI as a child process and talks to it over ACP/JSON-RPC 2.0. This post is the architecture deep-dive: how the</summary>
-    <author><name>King Wan</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your AI Agent Has a Backpack. It's Called Retrieval Memory.</title>
-    <link href="https://dev.to/rijultp/your-ai-agent-has-a-backpack-its-called-retrieval-memory-1d95" rel="alternate"/>
-    <id>https://dev.to/rijultp/your-ai-agent-has-a-backpack-its-called-retrieval-memory-1d95</id>
-    <updated>2026-07-25T20:40:54Z</updated>
-    <summary type="text">Hello, I'm Rijul. I'm building git-lrc, a micro AI code reviewer that runs on every commit. It's free and source-available on GitHub. Star git-lrc to help more developers discover the project. Do give it a try and share your feedback Imagine your AI agent has a backpack. It stores your preferences, project details, past experiences, and procedures. But it doesn't carry everything in that backpack </summary>
-    <author><name>Rijul Rajesh</name></author>
     <category term="agents"/>
   </entry>
 </feed>
