@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-28T11:21:59Z</updated>
+  <updated>2026-07-28T14:18:11Z</updated>
   <entry>
     <title>Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym</title>
     <link href="https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/" rel="alternate"/>
@@ -31,6 +31,23 @@
     <updated>2026-07-27T16:32:47Z</updated>
     <summary type="text">Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single binary for macOS arm64 and Linux, alongside an Agent Skill for Claude Code, Codex CLI and any harness that can read a URL. The post Perplexity Releases pplx, a</summary>
     <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How redis-packhash Helps You Leverage Listpack Hashes in Redis</title>
+    <link href="https://dev.to/fariz_prawira/how-redis-packhash-helps-you-leverage-listpack-hashes-in-redis-117c" rel="alternate"/>
+    <id>https://dev.to/fariz_prawira/how-redis-packhash-helps-you-leverage-listpack-hashes-in-redis-117c</id>
+    <updated>2026-07-28T14:00:00Z</updated>
+    <summary type="text">In my earlier post, I showed that storing a million small values as Redis keys is a waste of memory. It's because every key has its own overhead. To fix that, we need to group the keys into hashes and keep them small enough that Redis will keep them in the compact listpack encoding. In my benchmark with 1M keys before, a 53.8 MB memory usage went down to 6.9 MB. I call it an 87% discount. The catc</summary>
+    <author><name>Fariz Prawira</name></author>
+  </entry>
+  <entry>
+    <title>The Middelmen (Ep-3 of The 0$ Cloud)</title>
+    <link href="https://dev.to/adhithyan_b_5d2daadc216e4/the-middelmen-ep-3-of-the-0-cloud-268m" rel="alternate"/>
+    <id>https://dev.to/adhithyan_b_5d2daadc216e4/the-middelmen-ep-3-of-the-0-cloud-268m</id>
+    <updated>2026-07-28T13:40:32Z</updated>
+    <summary type="text">It turns out the internet is full of middlemen. Some forward requests, some establish trust, and some simply make communication possible. I learned about two of those middlemen: Nginx and SSH. Learning about networking and all that stuff during my college days was always like, &quot;Meh... it's just protocols, IP addresses, and a bunch of theory. Nothing much, man.&quot; But after I started building my own </summary>
+    <author><name>Adhithyan B</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -448,24 +465,5 @@
     <author><name>Antonio Moruno Gracia</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Weekly Challenge: Similar colors</title>
-    <link href="https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d" rel="alternate"/>
-    <id>https://dev.to/simongreennet/weekly-challenge-similar-colors-1n4d</id>
-    <updated>2026-07-26T11:56:09Z</updated>
-    <summary type="text">Weekly Challenge 383 Each week Mohammad S. Anwar sends out The Weekly Challenge, a chance for all of us to come up with solutions to two weekly tasks. My solutions are written in Python first, and then converted to Perl. Unless otherwise stated, Copilot (and other AI tools) have NOT been used to generate the solution. It's a great way for us all to practice some coding. Challenge, My solutions Tas</summary>
-    <author><name>Simon Green</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Skull Skills</title>
-    <link href="https://dev.to/aturzone/skull-skills-1lnb" rel="alternate"/>
-    <id>https://dev.to/aturzone/skull-skills-1lnb</id>
-    <updated>2026-07-26T11:53:28Z</updated>
-    <summary type="text">A free, open-source Claude Code team. Say &quot;skull&quot; and a leader interviews you, maps your project, and assembles a tailored team — Sentinel the project cartographer plus planning, review, understanding and guardrail specialists — then runs it on your work. It also keeps itself (and you) current with the newest Claude Code features. No account. No API key. No vault. It's just markdown you drop into </summary>
-    <author><name>Atur Dana</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
