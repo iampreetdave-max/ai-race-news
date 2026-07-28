@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-28T02:49:13Z</updated>
+  <updated>2026-07-28T05:51:18Z</updated>
   <entry>
     <title>Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race</title>
     <link href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/" rel="alternate"/>
@@ -22,6 +22,63 @@
     <updated>2026-07-27T16:32:47Z</updated>
     <summary type="text">Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single binary for macOS arm64 and Linux, alongside an Agent Skill for Claude Code, Codex CLI and any harness that can read a URL. The post Perplexity Releases pplx, a</summary>
     <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LangGraph Agent 编排模式:6 种生产级 Multi-Agent 架构</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/langgraph-agent-bian-pai-mo-shi-6-chong-sheng-chan-ji-multi-agent-jia-gou-eme" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/langgraph-agent-bian-pai-mo-shi-6-chong-sheng-chan-ji-multi-agent-jia-gou-eme</id>
+    <updated>2026-07-28T05:38:33Z</updated>
+    <summary type="text">LangGraph Agent 编排模式:6 种生产级 Multi-Agent 架构 单个 LLM agent 能力有限:它会被长任务搞晕、会在多步推理中失忆、会把所有职责搅成一团。生产级的 AI 系统需要多个 agent 分工协作——但「多个 agent 怎么协作」本身就是个难题。LangGraph 把 agent 编排建模成「状态图」,让复杂协作变得可调试、可持久化、可观测。本文是 IHUI-AI 在 apps/ai-service/app/graphs/ 落地 6 种编排模式的工程总结。 一、LangGraph 与 LangChain 的关系 很多人分不清 LangChain 和 LangGraph。 1.1 LangChain 是「链」 LangChain 的核心抽象是 Chain——线性的步骤序列: [输入] → [Prompt 模板] → [LLM] → [输出解析] → [输</summary>
+    <author><name>李春川</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>MCP 协议实现指南:从零构建生产级 AI 工具生态</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shi-xian-zhi-nan-cong-ling-gou-jian-sheng-chan-ji-ai-gong-ju-sheng-tai-1pl" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shi-xian-zhi-nan-cong-ling-gou-jian-sheng-chan-ji-ai-gong-ju-sheng-tai-1pl</id>
+    <updated>2026-07-28T05:38:23Z</updated>
+    <summary type="text">MCP 协议实现指南:从零构建生产级 AI 工具生态 当 LLM 不再只是「聊天机器人」,而是要查数据库、发邮件、调内部 API 时,工具调用就成了 AI 应用的命脉。Anthropic 在 2024 年开源的 Model Context Protocol (MCP),正在成为 AI 工具生态的「USB-C 接口」。本文是 IHUI-AI 在生产环境落地 MCP 的完整工程总结。 一、MCP 协议是什么 Model Context Protocol(简称 MCP)是 Anthropic 于 2024 年 11 月开源的开放协议,目标是标准化 AI 应用与外部工具/数据源之间的连接方式。 在 MCP 出现之前,每个 AI 应用都要为每个工具写一份适配代码: ┌─────────┐ 自定义协议 A ┌──────────┐ │ App 1 │ ──────────────────▶│ Tool</summary>
+    <author><name>李春川</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Agent 市场设计:让 Agent 像 App 一样被交易与编排</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/ai-agent-shi-chang-she-ji-rang-agent-xiang-app-yang-bei-jiao-yi-yu-bian-pai-1n67" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/ai-agent-shi-chang-she-ji-rang-agent-xiang-app-yang-bei-jiao-yi-yu-bian-pai-1n67</id>
+    <updated>2026-07-28T05:38:15Z</updated>
+    <summary type="text">AI Agent 市场设计:让 Agent 像 App 一样被交易与编排 App Store 把「软件」变成了可被一键购买、安装、评分的商品,AI 时代对应的实体是「Agent」。一个 Agent = 一段可被复用的提示词 + 工具集 + 知识库 + 模型路由配置。本文讲清楚一个 Agent 市场需要哪些核心机制,以及 IHUI-AI 的实现路径。 一、Agent 市场的产品定义 什么是「可上架的 Agent」 不是所有对话 prompt 都能成为商品。一个可上架的 Agent 必须满足: 可独立运行:用户购买后能立刻用,不需要再写代码。 可复用:不同用户用同一个 Agent 都能得到稳定结果。 可定价:有明确的使用边界(次数 / 时长 / 调用规模)。 可评估:有客观的质量指标(成功率 / 满意度 / 失败率)。 Agent 定义格式 IHUI-AI 用一份 schema 描述可上架的 </summary>
+    <author><name>李春川</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>MCP 协议深度解析:从 Function Call 到通用工具调用标准</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shen-du-jie-xi-cong-function-call-dao-tong-yong-gong-ju-diao-yong-biao-zhun-41pd" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shen-du-jie-xi-cong-function-call-dao-tong-yong-gong-ju-diao-yong-biao-zhun-41pd</id>
+    <updated>2026-07-28T05:38:03Z</updated>
+    <summary type="text">MCP 协议深度解析:从 Function Call 到通用工具调用标准 Model Context Protocol(简称 MCP)是 Anthropic 在 2024 年底开源的协议,目标是把「AI 调用外部工具」从各家自定义的接口,统一成一种像 USB-C 一样的标准。本文从协议原理出发,讲清 MCP 与 Function Call 的本质差异,以及 IHUI-AI 项目里 MCP 客户端 + 服务端的双向实现。 一、MCP 不是 Function Call 的「升级版」,而是「协议层」 很多人把 MCP 类比成「Function Call 的下一代」,这是误解。Function Call 是模型能力:LLM 输出一段 JSON,由应用层去执行。MCP 是协议层:它规定「工具如何被发现、如何被描述、如何被调用、如何被注销」,与具体模型解耦。 打个比方:Function Call 是「</summary>
+    <author><name>李春川</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>开源项目如何挣钱:IHUI AI 的 7 大盈利模式设计</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/kai-yuan-xiang-mu-ru-he-zheng-qian-ihui-ai-de-7-da-ying-li-mo-shi-she-ji-4k8b" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/kai-yuan-xiang-mu-ru-he-zheng-qian-ihui-ai-de-7-da-ying-li-mo-shi-she-ji-4k8b</id>
+    <updated>2026-07-28T05:37:59Z</updated>
+    <summary type="text">开源项目如何挣钱:IHUI AI 的 7 大盈利模式设计 &quot;我开源了 6 个月,GitHub 5k star,但银行账户快见底了。&quot;——某 AI 项目作者在 Twitter 倒苦水。 &quot;我用 IHUI AI 替代了 ChatGPT Team + Claude Code + Notion AI,月省 $60+。&quot;——IHUI AI 用户在知乎评论。 开源项目的最大悖论:star 不能当饭吃。本文讲 IHUI AI 作为 Apache 2.0 开源 AI 操作系统,如何设计 7 大盈利模式让开源可持续。这不是 PPT,是真实在跑的商业闭环。 一、痛点:开源项目的「死亡之谷」 开源项目挣钱有 4 个经典坑: 坑 1:只开源不商业化,作者饿死 写了 3 年开源,贡献者上百,但没人付费。维护成本越来越高,作者最终 burnout,项目死掉。代表:无数个 2018 年的 Vue 插件作者。 坑 2:L</summary>
+    <author><name>李春川</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP 协议集成实战:让 AI Agent 调用任意工具</title>
+    <link href="https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-ji-cheng-shi-zhan-rang-ai-agent-diao-yong-ren-yi-gong-ju-4fjo" rel="alternate"/>
+    <id>https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-ji-cheng-shi-zhan-rang-ai-agent-diao-yong-ren-yi-gong-ju-4fjo</id>
+    <updated>2026-07-28T05:37:51Z</updated>
+    <summary type="text">MCP 协议集成实战:让 AI Agent 调用任意工具 你让 AI 帮你订张机票。AI 说:&quot;我是语言模型,无法访问外部系统。&quot;你换个 Agent 产品,它说自己能订,但要你把密码给它,还得给它管理员权限。你犹豫了。 LLM 的下一个十年战争不是模型本身,而是工具调用。Anthropic 在 2024 年底开源了 Model Context Protocol (MCP),把「AI 调用外部工具」标准化了。本文讲 IHUI AI 如何在 8 端全栈 AI 操作系统里集成 MCP,让 Agent 真正能干活。 一、痛点:AI 只会聊天,不会干活 LLM 应用最尴尬的现状:模型很聪明,但被关在玻璃箱子里。 痛点 1:每家 Agent 框架各搞一套工具协议 OpenAI Function Calling:tools + tool_calls Anthropic Tool Use:tool_use</summary>
+    <author><name>李春川</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -117,6 +174,15 @@
     <author><name>Jonathan Pitter</name></author>
   </entry>
   <entry>
+    <title>DreamStyle3D: Efficient 3D Stylized Asset Generation via Dual-Attention Disentanglement</title>
+    <link href="https://arxiv.org/abs/2607.24721v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.24721v1</id>
+    <updated>2026-07-27T17:55:21Z</updated>
+    <summary type="text">With the growth of gaming, animation, and virtual reality industries, the demand for efficient generation of stylized 3D assets is rapidly increasing. However, existing approaches still struggle to jointly preserve style fidelity, geometric consistency, and generation efficiency, as most of them still rely on indirect 2D-to-3D stylization pipelines. This motivates a native 3D stylization framework</summary>
+    <author><name>Qibin Hou</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>Kiro and the Future of AI-Assisted Development</title>
     <link href="https://dev.to/dionarodrigues/kiro-and-the-future-of-ai-assisted-development-4nam" rel="alternate"/>
     <id>https://dev.to/dionarodrigues/kiro-and-the-future-of-ai-assisted-development-4nam</id>
@@ -124,6 +190,16 @@
     <summary type="text">I started using Kiro at work and am incredibly impressed by how it transforms our AI coding workflow. Instead of writing code first and refactoring later (the typical loop with Copilot and ChatGPT), Kiro uses a spec-driven approach. The Kiro methodology — moving from requirements to technical design to tasks — perfectly solves a challenge I had been trying to fix with GitHub Copilot. I wanted a wa</summary>
     <author><name>Diona Rodrigues</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>CADER: Confidence-Aware Dynamic Evidence Reasoning for Long-Video Understanding</title>
+    <link href="https://arxiv.org/abs/2607.24582v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.24582v1</id>
+    <updated>2026-07-27T15:49:42Z</updated>
+    <summary type="text">Long-video understanding increasingly relies on large vision-language models and tool-augmented reasoning, but most systems apply the same inference procedure to every example regardless of difficulty. This uniform strategy invokes unnecessary tool-assisted processing for easy questions and provides limited control when difficult questions require fine-grained temporal evidence. We propose CADER (</summary>
+    <author><name>Sijie Cheng</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -310,6 +386,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Mix local LLMs, Claude Code, Codex, Gemini and more in one SDLC pipeline (open source) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v8nuwc/mix_local_llms_claude_code_codex_gemini_and_more/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v8nuwc/mix_local_llms_claude_code_codex_gemini_and_more/</id>
+    <updated>2026-07-28T04:35:33Z</updated>
+    <summary type="text">A lot of AI coding tools assume one model should do everything: understand the task, write the code, review it, and decide whether it is correct. I ended up building something around the opposite idea. Instead of one model doing the whole software development lifecycle, every stage can use a completely different model. That means you can mix local LLMs and hosted models however you want. For examp</summary>
+    <author><name>/u/NeighborhoodOwn8510</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>Conducting agents like an orchestra: how agents-concerto works</title>
     <link href="https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c" rel="alternate"/>
     <id>https://dev.to/moruno21/conducting-agents-like-an-orchestra-how-agents-concerto-works-1b2c</id>
@@ -381,89 +467,6 @@
     <summary type="text">The most expensive part of running AI-powered customer support isn't the token cost or the infrastructure—it's the maintenance of truth. You deploy a chatbot, it works brilliantly for three days, then your product team pushes a breaking change to your API or shifts your refund policy. Suddenly, that 'intelligent' agent is hallucinating outdated information with extreme confidence. This is where mo</summary>
     <author><name>Renato Marinho</name></author>
     <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction</title>
-    <link href="http://bair.berkeley.edu/blog/2026/07/26/abbel/" rel="alternate"/>
-    <id>http://bair.berkeley.edu/blog/2026/07/26/abbel/</id>
-    <updated>2026-07-26T09:00:00Z</updated>
-    <summary type="text">--&gt; --&gt; Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each belief state.. As task horizons grow, LLM contexts can’t scale forever. Self-summarization enables concise, interpretable contexts, but at a significant performance cost, e</summary>
-    <author><name>Berkeley BAIR</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>An opinionated guide to which AI to use to do stuff</title>
-    <link href="https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything</id>
-    <updated>2026-07-27T21:55:53Z</updated>
-    <summary type="text">An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - &quot;where the AI is capable of doing the equivalent of man</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Are your MCP server's safety labels honest? A one-command check (and what it found on 31 popular servers)</title>
-    <link href="https://dev.to/formael/are-your-mcp-servers-safety-labels-honest-a-one-command-check-and-what-it-found-on-31-popular-1ml3" rel="alternate"/>
-    <id>https://dev.to/formael/are-your-mcp-servers-safety-labels-honest-a-one-command-check-and-what-it-found-on-31-popular-1ml3</id>
-    <updated>2026-07-26T07:34:04Z</updated>
-    <summary type="text">You wrote this once, on the day the tool was born: { &quot;name&quot;: &quot;search_docs&quot;, &quot;annotations&quot;: { &quot;readOnlyHint&quot;: true, &quot;destructiveHint&quot;: false, &quot;openWorldHint&quot;: false } } Then the tool kept changing. A parameter got added. A backend call got wired in. The schema grew. The annotations block stayed exactly as you left it. Why the drift matters The MCP spec calls these annotations hints and tells client</summary>
-    <author><name>Dilan Srilal (dilansri)</name></author>
-  </entry>
-  <entry>
-    <title>Running Hermes Agent with Kokoro TTS: A Local-First AI Assistant Setup</title>
-    <link href="https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h" rel="alternate"/>
-    <id>https://dev.to/nishikantaray/running-hermes-agent-with-kokoro-tts-a-local-first-ai-assistant-setup-523h</id>
-    <updated>2026-07-26T07:19:14Z</updated>
-    <summary type="text">Most AI agents today depend heavily on cloud APIs. They're fast, but every request costs money, depends on an internet connection, and sends your data to external providers. Over the weekend, I experimented with Hermes Agent and Kokoro TTS, building a completely local voice-enabled AI assistant. The result was surprisingly good—responses were generated locally, converted into natural speech, and e</summary>
-    <author><name>Nishikanta Ray</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Hacker News + Reddit r/kubernetes (the compose-as-anti-pattern claim is the debate magnet that earns comments)</title>
-    <link href="https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5" rel="alternate"/>
-    <id>https://dev.to/mikhail_dorokhovich_0c532/hacker-news-reddit-rkubernetes-the-compose-as-anti-pattern-claim-is-the-debate-magnet-that-2ic5</id>
-    <updated>2026-07-26T07:19:05Z</updated>
-    <summary type="text">docker-compose is not a production stand-in — and here's the receipt Chapter 2 of a local-Kubernetes series. The thesis is opinionated on purpose: a production-like local environment is not one where everything is like prod — it's one where you know exactly what matches, what doesn't, and why. Key takeaways &quot;Production-like&quot; ≠ &quot;a copy of prod.&quot; You can't fit prod on a laptop and you don't need to.</summary>
-    <author><name>Mikhail Dorokhovich</name></author>
-  </entry>
-  <entry>
-    <title>We Built a Flight Recorder for AI Coding Agents: Here's What SigNoz Taught Us About Watching Them Think</title>
-    <link href="https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc" rel="alternate"/>
-    <id>https://dev.to/hussain_jamal_/we-built-a-flight-recorder-for-ai-coding-agents-heres-what-signoz-taught-us-about-watching-them-28mc</id>
-    <updated>2026-07-26T07:15:43Z</updated>
-    <summary type="text">We Built an AI Agent... Then Realized We Had No Idea What It Was Doing Our AI agent was writing code, running tests, and opening pull requests, but I had absolutely no idea why some runs took 8 seconds while others took 45. Was the LLM thinking too long? Was it stuck retrying a failing shell command? Was Docker slow? I couldn't tell. All I had was a loading spinner and a final result. That gap bet</summary>
-    <author><name>hussain jamal</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Claude Opus 5: everything you need to know</title>
-    <link href="https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7" rel="alternate"/>
-    <id>https://dev.to/dsplce-co/claude-opus-5-everything-you-need-to-know-le7</id>
-    <updated>2026-07-26T07:08:55Z</updated>
-    <summary type="text">Claude Opus 5 shipped on the 24th of July, 2026, as claude-opus-5. It's priced at $5 per million input tokens and $25 per million output tokens — the same as Opus 4.8, and half of what Fable 5 costs. The context window is 1M tokens long, the max output is 128K. And there's one breaking change: the model thinks by default now. In other words, on the older Opus you had to ask for thinking explicitly</summary>
-    <author><name>dsplce.co</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google Sheets in VS Code, Cursor, and Windsurf over MCP</title>
-    <link href="https://dev.to/pastesheet/google-sheets-in-vs-code-cursor-and-windsurf-over-mcp-5467" rel="alternate"/>
-    <id>https://dev.to/pastesheet/google-sheets-in-vs-code-cursor-and-windsurf-over-mcp-5467</id>
-    <updated>2026-07-26T04:00:29Z</updated>
-    <summary type="text">Half the data I need while coding does not live in the repo. Seed rows, the pricing table, a small feature-flag list, the copy a non-technical teammate owns. All of it sits in a Google Sheet, and every time the editor's agent needed a value from it I was tabbing over, copying a block of cells, and pasting it into the chat. That works once. By the fourth time it is just a tax on getting anything do</summary>
-    <author><name>Jay from PasteSheet</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I couldn't find a simple agent framework, so I wrote one</title>
-    <link href="https://dev.to/anmarhaniv1/i-couldnt-find-a-simple-agent-framework-so-i-wrote-one-39jp" rel="alternate"/>
-    <id>https://dev.to/anmarhaniv1/i-couldnt-find-a-simple-agent-framework-so-i-wrote-one-39jp</id>
-    <updated>2026-07-26T03:43:08Z</updated>
-    <summary type="text">I keep finding a new agent skill I want to add to my library. Each one is a good addition on its own, and that is exactly the trap. Skills are not free. Every one you add takes context, and at some point it stops helping and may start making the model worse. A bigger library looks like progress. I am not convinced it is. The frameworks I looked at had the same problem, further along. All of them w</summary>
-    <author><name>Anmar Hani</name></author>
     <category term="llm"/>
   </entry>
 </feed>
