@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/business" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-business.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/business/</id>
-  <updated>2026-07-27T23:06:52Z</updated>
+  <updated>2026-07-28T02:49:13Z</updated>
+  <entry>
+    <title>Beyond System Prompts: Enforcing Policy &amp; Action Boundaries in Enterprise AI Agents</title>
+    <link href="https://dev.to/gde/beyond-system-prompts-enforcing-policy-action-boundaries-in-enterprise-ai-agents-29ac" rel="alternate"/>
+    <id>https://dev.to/gde/beyond-system-prompts-enforcing-policy-action-boundaries-in-enterprise-ai-agents-29ac</id>
+    <updated>2026-07-28T02:21:07Z</updated>
+    <summary type="text">The Failure of Prompt-Based Guardrails Telling an AI agent &quot;do not drop production database tables&quot; or &quot;do not approve refunds exceeding $5,000&quot; inside a system prompt is not a security control. It is advisory text. Under context pressure, complex multi-step reasoning, or adversarial prompt injection, probabilistic models frequently bypass prompt-level instructions. When autonomous agents chain to</summary>
+    <author><name>Jitendra Gupta</name></author>
+    <category term="rag"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Architecting Zero Trust for Enterprise AI Pipelines</title>
     <link href="https://dev.to/alifunk/architecting-zero-trust-for-enterprise-ai-pipelines-30p" rel="alternate"/>
@@ -22,15 +32,6 @@
     <updated>2026-07-27T20:49:58Z</updated>
     <summary type="text">This may sound counterintuitive, but in the era of AI, less is more. AI can help anyone write code faster, but it can't replace an understanding of how production systems actually work. The competitive advantage isn't knowing more tools—it's understanding the fundamentals that every production application is built on. Mastering those fundamentals may be the way to do more with less. Every good bas</summary>
     <author><name>Ron Moon</name></author>
-  </entry>
-  <entry>
-    <title>Beyond Prompt Injection: The Non-Human Authorization Gap in Enterprise AI</title>
-    <link href="https://dev.to/gde/beyond-prompt-injection-the-non-human-authorization-gap-in-enterprise-ai-3g5c" rel="alternate"/>
-    <id>https://dev.to/gde/beyond-prompt-injection-the-non-human-authorization-gap-in-enterprise-ai-3g5c</id>
-    <updated>2026-07-27T03:59:04Z</updated>
-    <summary type="text">The Hidden Vulnerability in Multi-Agent Chains The biggest architectural risk in enterprise AI today isn’t prompt injection—it’s Delegation Escalation. When a human user triggers an AI Agent Orchestrator, which then delegates tasks to sub-agents and tool execution gateways via MCP or internal APIs, traditional static service accounts break down. If you pass broad bearer tokens or static user API k</summary>
-    <author><name>Jitendra Gupta</name></author>
-    <category term="agents"/>
   </entry>
   <entry>
     <title>New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face</title>
