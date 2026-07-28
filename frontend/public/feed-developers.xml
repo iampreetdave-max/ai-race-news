@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-28T16:44:18Z</updated>
+  <updated>2026-07-28T18:18:25Z</updated>
   <entry>
     <title>Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym</title>
     <link href="https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/" rel="alternate"/>
@@ -32,6 +32,24 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From Black Box to Audit Trail: Why 'Unlimited Context' is Technical Debt and How to Secure Your AI Agents</title>
+    <link href="https://dev.to/tamizuddin/from-black-box-to-audit-trail-why-unlimited-context-is-technical-debt-and-how-to-secure-your-ai-168j" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/from-black-box-to-audit-trail-why-unlimited-context-is-technical-debt-and-how-to-secure-your-ai-168j</id>
+    <updated>2026-07-28T18:01:13Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The prevailing architectural pattern for modern AI agents—feeding the entire conversation history and all available documentation into a single, massive prompt—is a ticking time bomb. It is not a feature; it is unbounded technical debt masquerading as convenience. As systems scale, this &quot;black box&quot; approach obliterates observability, inflates latency, and creates</summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Build a REST API with Django REST Framework</title>
+    <link href="https://dev.to/qingluan/build-a-rest-api-with-django-rest-framework-40gf" rel="alternate"/>
+    <id>https://dev.to/qingluan/build-a-rest-api-with-django-rest-framework-40gf</id>
+    <updated>2026-07-28T18:00:04Z</updated>
+    <summary type="text">Build a REST API with Django REST Framework tags: python, django, api, tutorial tags: python, django, api, tutorial Build a REST API with Django REST Framework in Under 30 Minutes Imagine you’ve spent hours crafting a sleek Django model, but your frontend team is stuck waiting for you to manually format JSON responses or write boilerplate view functions. That friction ends today. With Django REST </summary>
+    <author><name>qing</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents</title>
@@ -354,6 +372,15 @@
     <author><name>Juan David Gómez</name></author>
   </entry>
   <entry>
+    <title>Might need math+code benchmark for frontier model(LLMs Silently Replace Math)[D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/</id>
+    <updated>2026-07-28T17:05:17Z</updated>
+    <summary type="text">Hello guys. I found some problems in current frontier models. And want to share. # math_code_hallucination &gt; Record of a failure caused by combining mathematics and code in a single prompt. --- ## Case 1 ### Initial prompt ( `p0` ) If you enter the following prompt: ```python make code implementation of sub rieman applied to mitigate hallucination in llm using lora, pretrained llm(such as qwen, mi</summary>
+    <author><name>/u/Round_Apple2573</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Agent Mini: a minimal, local-first AI agent you can actually read, understand, and extend. [P]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1v9131l/agent_mini_a_minimal_localfirst_ai_agent_you_can/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1v9131l/agent_mini_a_minimal_localfirst_ai_agent_you_can/</id>
@@ -435,31 +462,5 @@
     <summary type="text">We've built servers, clients, tools, auth, and governance across this series — all in C#, without ever slowing down to look at how the .NET tooling makes it pleasant. This part does. If your backend is already .NET, an MCP server turns out to be one of the highest-leverage things you can build: a thin, attributed, DI-native surface over the domain services you already own. This is Part 12 of a 15-</summary>
     <author><name>kirandeepjassal-crypto</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Andrej Karpathy's &quot;Deep Dive into LLMs like ChatGPT&quot;</title>
-    <link href="https://dev.to/absterellio/andrej-karpathys-deep-dive-into-llms-like-chatgpt-576o" rel="alternate"/>
-    <id>https://dev.to/absterellio/andrej-karpathys-deep-dive-into-llms-like-chatgpt-576o</id>
-    <updated>2026-07-26T17:31:42Z</updated>
-    <summary type="text">I wanted to dive deeper and learn more about the underlying architecture and function of LLMs. I discovered Andrej Karpathy's YouTube video, &quot;Deep Dive into LLMs like ChatGPT&quot; to be extremely informative and also full of resources to keep learning on my own. As a software engineer, I use Claude Code to write code, generate architecture diagrams, investigate issues, complete Jira tickets, unit test</summary>
-    <author><name>absterellio</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I never ran ESXi in production</title>
-    <link href="https://dev.to/captkay/i-never-ran-esxi-in-production-22e4" rel="alternate"/>
-    <id>https://dev.to/captkay/i-never-ran-esxi-in-production-22e4</id>
-    <updated>2026-07-26T15:46:06Z</updated>
-    <summary type="text">Most &quot;why Proxmox&quot; content in 2025-2026 is a migration story driven by Broadcom's ESXi pricing changes. The author had a working VMware stack and got priced out. I'm not that author. I evaluated both, picked Proxmox in 2024, and built on it without ever running ESXi in production. Two years in, I'd make the same call. It reads as either incompetent or contrarian until the rest of the post lands. H</summary>
-    <author><name>Kanu Kingsley</name></author>
-  </entry>
-  <entry>
-    <title>A Codex Skill That Generates Editable Draw.io Diagrams Instead of Screenshots</title>
-    <link href="https://dev.to/codecow/a-codex-skill-that-generates-editable-drawio-diagrams-instead-of-screenshots-41oa" rel="alternate"/>
-    <id>https://dev.to/codecow/a-codex-skill-that-generates-editable-drawio-diagrams-instead-of-screenshots-41oa</id>
-    <updated>2026-07-26T15:37:49Z</updated>
-    <summary type="text">Most AI diagram workflows end with a PNG or a screenshot. It may look fine, but the moment the architecture changes, you have to redraw it or regenerate the whole image. I wanted a different workflow: describe a system in natural language, receive a real Draw.io file, and keep editing every node, label, connector, group, and icon. That is why I built drawio-mxgraph, an open-source Codex Skill that</summary>
-    <author><name>CodeCow</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
