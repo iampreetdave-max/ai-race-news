@@ -4,7 +4,34 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-07-28T05:51:18Z</updated>
+  <updated>2026-07-28T08:41:04Z</updated>
+  <entry>
+    <title>Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym</title>
+    <link href="https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/</id>
+    <updated>2026-07-28T08:33:30Z</updated>
+    <summary type="text">Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window. The model does not ship as a standalone endpoint — it runs inside MDASH, Microsoft's multi-model agentic scanning harness, where it handles up to 90% of tasks and pushes the system to 95.95% on CyberGym</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows</title>
+    <link href="https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/</id>
+    <updated>2026-07-28T07:53:48Z</updated>
+    <summary type="text">In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama.cpp, which provides the specialized CUDA kernels required to decode the model’s Q1_0_g128 GGUF quantization format The post Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows appeared first on MarkTechPost.</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Lyft and Baidu enter London’s robotaxi battleground as testing begins</title>
+    <link href="https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/</id>
+    <updated>2026-07-28T08:00:00Z</updated>
+    <summary type="text">Baidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025.</summary>
+    <author><name>Kirsten Korosec</name></author>
+  </entry>
   <entry>
     <title>Hugging Face Has a Deepfake Nudes Problem</title>
     <link href="https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/" rel="alternate"/>
@@ -340,6 +367,71 @@
     <author><name>Antonio G. Di Benedetto</name></author>
   </entry>
   <entry>
+    <title>Rust polymorphism</title>
+    <link href="https://dev.to/qrrcnaxne/rust-polymorphism-5bop" rel="alternate"/>
+    <id>https://dev.to/qrrcnaxne/rust-polymorphism-5bop</id>
+    <updated>2026-07-28T08:28:00Z</updated>
+    <summary type="text">Traits is an incredible feature rust has. Let's go on a journey. Imagine you want to build a typical desktop software. It will go on the internet, it will dance with databases, it will do some heavy processing. All packaged together. But internet isn't reliable. Choice of a particular database isn't written in stone. Processing too can be done by variety of libraries. This is the standard use case</summary>
+    <author><name>Qrrcnaxne</name></author>
+  </entry>
+  <entry>
+    <title>Passwordless OTP Needs Inbox Boundaries</title>
+    <link href="https://dev.to/sophiax99/passwordless-otp-needs-inbox-boundaries-1079" rel="alternate"/>
+    <id>https://dev.to/sophiax99/passwordless-otp-needs-inbox-boundaries-1079</id>
+    <updated>2026-07-28T08:24:07Z</updated>
+    <summary type="text">Passwordless login by email can feel safer because there is no password database to defend. That part is true, but it hides a quieter problem: many teams treat the inbox like a neutral transport layer when it is actualy part of the auth boundary. If one inbox can collect codes for multiple sessions, environments, or users, your OTP flow gets harder to reason about and easier to abuse. I have seen </summary>
+    <author><name>SophiaXS</name></author>
+  </entry>
+  <entry>
+    <title>How Cursor + BrowserAct Handles Dynamic Pages Without Brittle Selectors</title>
+    <link href="https://dev.to/anthonymax/how-cursor-browseract-handles-dynamic-pages-without-brittle-selectors-dh4" rel="alternate"/>
+    <id>https://dev.to/anthonymax/how-cursor-browseract-handles-dynamic-pages-without-brittle-selectors-dh4</id>
+    <updated>2026-07-28T08:17:28Z</updated>
+    <summary type="text">TL;DR Modern web applications change constantly. Components are re-rendered, generated attributes may differ between builds. Even when the UI looks identical, browser automation can fail because it still relies on assumptions captured before the page changed. In this article, I used Cursor with BrowserAct CLI to test a dynamic project filter. Instead of relying on unreliable selectors, Cursor used</summary>
+    <author><name>Anthony Max</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why a Pricing Page Can Come Before Payment Integration</title>
+    <link href="https://dev.to/waseverinlabs/why-a-pricing-page-can-come-before-payment-integration-21ep" rel="alternate"/>
+    <id>https://dev.to/waseverinlabs/why-a-pricing-page-can-come-before-payment-integration-21ep</id>
+    <updated>2026-07-28T08:15:46Z</updated>
+    <summary type="text">A recent update to WASEVERIN Image Converter introduced a public Pricing page. The image converter remains free, and payments are not enabled yet. The page currently explains what users can access today and previews a possible Pro plan for future features. This raises a useful product question: Should a SaaS product publish pricing before its payment system is ready? The answer can be yes, as long</summary>
+    <author><name>WaseverinLabs</name></author>
+  </entry>
+  <entry>
+    <title>&quot;I built a Python compiler that runs in browser using WebAssembly&quot;</title>
+    <link href="https://dev.to/shrirang_8770f57b6607952a/i-built-a-python-compiler-that-runs-in-browser-using-webassembly-26if" rel="alternate"/>
+    <id>https://dev.to/shrirang_8770f57b6607952a/i-built-a-python-compiler-that-runs-in-browser-using-webassembly-26if</id>
+    <updated>2026-07-28T08:10:46Z</updated>
+    <summary type="text">&quot;I recently built PyPlayground — a free online Python compiler. The interesting part is it runs Python 3.12 entirely in the browser using Pyodide WebAssembly — no server required! How it works: • User writes Python code • Pyodide compiles it to WASM • Runs natively in browser • Output shown instantly Tech stack: • Next.js for frontend • Pyodide for Python runtime • Netlify for hosting Try it here:</summary>
+    <author><name>shrirang</name></author>
+  </entry>
+  <entry>
+    <title>Did it check, or did it guess? Testing a tool whose output is written by an LLM</title>
+    <link href="https://dev.to/dragosbln/did-it-check-or-did-it-guess-testing-a-tool-whose-output-is-written-by-an-llm-1i4c" rel="alternate"/>
+    <id>https://dev.to/dragosbln/did-it-check-or-did-it-guess-testing-a-tool-whose-output-is-written-by-an-llm-1i4c</id>
+    <updated>2026-07-28T08:10:31Z</updated>
+    <summary type="text">My first AI tool was ready, and in typical AI-era fashion, I rushed to publish it. After all, it worked. Or at least when I ran it, the output looked right to me. But one scenario kept haunting me: I recommend it to a client, they run it and challenge one of its findings. Then they ask &quot;What makes it trustworthy? Did it check, or did it guess? How do you know?&quot; I didn't have a good answer. &quot;My pro</summary>
+    <author><name>Bilaniuc Dragos</name></author>
+  </entry>
+  <entry>
+    <title>73,049 dates through a numerology rule: mostly mod 9, and 33's rarity depends on when you reduce</title>
+    <link href="https://dev.to/vknull/73049-dates-through-a-numerology-rule-mostly-mod-9-and-33s-rarity-depends-on-when-you-reduce-2993" rel="alternate"/>
+    <id>https://dev.to/vknull/73049-dates-through-a-numerology-rule-mostly-mod-9-and-33s-rarity-depends-on-when-you-reduce-2993</id>
+    <updated>2026-07-28T08:10:04Z</updated>
+    <summary type="text">The usual headline is that 33 is the rarest Life Path, about half a percent. Half a percent of what, reduced in which order? Change the order, to another convention inside the same master-preserving school, and 33 turns up 2,186 times instead of 393. Same rule, same dates, 5.6x. Life Path is a digit-reduction rule mapping a birth date to a small integer. It predicts nothing. But it is a determinis</summary>
+    <author><name>vk</name></author>
+  </entry>
+  <entry>
+    <title>Drizzle's `with` is not a JOIN: peeking at the SQL it actually generates</title>
+    <link href="https://dev.to/hirodeath/drizzles-with-is-not-a-join-peeking-at-the-sql-it-actually-generates-57el" rel="alternate"/>
+    <id>https://dev.to/hirodeath/drizzles-with-is-not-a-join-peeking-at-the-sql-it-actually-generates-57el</id>
+    <updated>2026-07-28T08:08:03Z</updated>
+    <summary type="text">This is a translation of my original article in Japanese: Qiita I run the backends of two side projects on Drizzle + Cloudflare D1, and I realized I had never actually checked what SQL the relational queries API (db.query.xxx.findMany({ with: ... })) produces. Is it a JOIN? Or does it quietly turn into N+1 queries? I wired up a logger and measured it, and the answer was neither. Drizzle compiles t</summary>
+    <author><name>hiro@</name></author>
+  </entry>
+  <entry>
     <title>Shared Claude chats were reportedly showing up in search engines</title>
     <link href="https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/" rel="alternate"/>
     <id>https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/</id>
@@ -347,106 +439,5 @@
     <summary type="text">Shared conversations with Anthropic's Claude chatbot briefly appeared in Google search results because the pages lacked a noindex tag. Users said some chats contained crypto keys and legal questions. OpenAI made the same mistake last year. The article Shared Claude chats were reportedly showing up in search engines appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>You need reliable AI context for your site reliability​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
-    <link href="https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/" rel="alternate"/>
-    <id>https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/</id>
-    <updated>2026-07-28T07:40:00Z</updated>
-    <summary type="text">Ryan is joined by Asaf Savich, Komodor’s AI Engineering Group Manager, to discuss why modern reliability work requires navigating massive cross-service context, what good context engineering actually likes when AI is integrated into site reliability, and how the work of human SREs is shifting towards strategy and AI agent management.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌</summary>
-    <author><name>Phoebe Sajor</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup</id>
-    <updated>2026-07-27T13:14:45Z</updated>
-    <summary type="text">Nvidia Corp. said it has made a “substantial” investment in Safe Superintelligence Inc., the artificial intelligence startup co-founded by former OpenAI chief scientist Ilya Sutskever.</summary>
-    <author><name>Shirin Ghaffary</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Enigma raises $70M to make controlling a robot as easy as adjusting the volume</title>
-    <link href="https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/</id>
-    <updated>2026-07-27T13:00:00Z</updated>
-    <summary type="text">The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.</summary>
-    <author><name>Marina Temkin</name></author>
-  </entry>
-  <entry>
-    <title>NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding</title>
-    <link href="https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/</id>
-    <updated>2026-07-27T00:45:00Z</updated>
-    <summary type="text">Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-    <category term="hardware"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing</title>
-    <link href="https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/</id>
-    <updated>2026-07-27T00:45:00Z</updated>
-    <summary type="text">As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...</summary>
-    <author><name>Tanya Lenz</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity</id>
-    <updated>2026-07-27T12:06:22Z</updated>
-    <summary type="text">Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety […]</summary>
-    <author><name>Robert Hart</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Monorepo 8 端同步开发:Turborepo + pnpm Workspace 实战</title>
-    <link href="https://dev.to/_fd4c731d8fc551b91150a/monorepo-8-duan-tong-bu-kai-fa-turborepo-pnpm-workspace-shi-zhan-1g7k" rel="alternate"/>
-    <id>https://dev.to/_fd4c731d8fc551b91150a/monorepo-8-duan-tong-bu-kai-fa-turborepo-pnpm-workspace-shi-zhan-1g7k</id>
-    <updated>2026-07-28T05:38:41Z</updated>
-    <summary type="text">Monorepo 8 端同步开发:Turborepo + pnpm Workspace 实战 做一个 AI 应用,产品经理说要上 Web、小程序、桌面端、浏览器插件、CLI、移动端 6 个端,加上 API 和 AI 服务共 8 个工程。是开 8 个仓库各干各的,还是用一个 monorepo 统管?IHUI-AI 选了后者。本文是我们在 8 端 monorepo 上用 Turborepo + pnpm Workspace 的工程总结,包含构建编排、依赖管理、跨端类型安全、CI 优化的完整实践。 一、为什么选 monorepo 1.1 polyrepo 的痛点 8 个端开 8 个仓库,会遇到: 类型重复:同一个 User 类型在 8 个仓库各定义一份,字段一改全端爆炸 API 契约漂移:API 仓库改了字段,Web 仓库不知道,上线就 500 UI 组件重复:按钮、对话框、消息气泡在 5 个端</summary>
-    <author><name>李春川</name></author>
-  </entry>
-  <entry>
-    <title>LangGraph Agent 编排模式:6 种生产级 Multi-Agent 架构</title>
-    <link href="https://dev.to/_fd4c731d8fc551b91150a/langgraph-agent-bian-pai-mo-shi-6-chong-sheng-chan-ji-multi-agent-jia-gou-eme" rel="alternate"/>
-    <id>https://dev.to/_fd4c731d8fc551b91150a/langgraph-agent-bian-pai-mo-shi-6-chong-sheng-chan-ji-multi-agent-jia-gou-eme</id>
-    <updated>2026-07-28T05:38:33Z</updated>
-    <summary type="text">LangGraph Agent 编排模式:6 种生产级 Multi-Agent 架构 单个 LLM agent 能力有限:它会被长任务搞晕、会在多步推理中失忆、会把所有职责搅成一团。生产级的 AI 系统需要多个 agent 分工协作——但「多个 agent 怎么协作」本身就是个难题。LangGraph 把 agent 编排建模成「状态图」,让复杂协作变得可调试、可持久化、可观测。本文是 IHUI-AI 在 apps/ai-service/app/graphs/ 落地 6 种编排模式的工程总结。 一、LangGraph 与 LangChain 的关系 很多人分不清 LangChain 和 LangGraph。 1.1 LangChain 是「链」 LangChain 的核心抽象是 Chain——线性的步骤序列: [输入] → [Prompt 模板] → [LLM] → [输出解析] → [输</summary>
-    <author><name>李春川</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>MCP 协议实现指南:从零构建生产级 AI 工具生态</title>
-    <link href="https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shi-xian-zhi-nan-cong-ling-gou-jian-sheng-chan-ji-ai-gong-ju-sheng-tai-1pl" rel="alternate"/>
-    <id>https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shi-xian-zhi-nan-cong-ling-gou-jian-sheng-chan-ji-ai-gong-ju-sheng-tai-1pl</id>
-    <updated>2026-07-28T05:38:23Z</updated>
-    <summary type="text">MCP 协议实现指南:从零构建生产级 AI 工具生态 当 LLM 不再只是「聊天机器人」,而是要查数据库、发邮件、调内部 API 时,工具调用就成了 AI 应用的命脉。Anthropic 在 2024 年开源的 Model Context Protocol (MCP),正在成为 AI 工具生态的「USB-C 接口」。本文是 IHUI-AI 在生产环境落地 MCP 的完整工程总结。 一、MCP 协议是什么 Model Context Protocol(简称 MCP)是 Anthropic 于 2024 年 11 月开源的开放协议,目标是标准化 AI 应用与外部工具/数据源之间的连接方式。 在 MCP 出现之前,每个 AI 应用都要为每个工具写一份适配代码: ┌─────────┐ 自定义协议 A ┌──────────┐ │ App 1 │ ──────────────────▶│ Tool</summary>
-    <author><name>李春川</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>开源项目的 7 种 SaaS 变现模式:从 Open Core 到 API 计费</title>
-    <link href="https://dev.to/_fd4c731d8fc551b91150a/kai-yuan-xiang-mu-de-7-chong-saas-bian-xian-mo-shi-cong-open-core-dao-api-ji-fei-4l60" rel="alternate"/>
-    <id>https://dev.to/_fd4c731d8fc551b91150a/kai-yuan-xiang-mu-de-7-chong-saas-bian-xian-mo-shi-cong-open-core-dao-api-ji-fei-4l60</id>
-    <updated>2026-07-28T05:38:18Z</updated>
-    <summary type="text">开源项目的 7 种 SaaS 变现模式:从 Open Core 到 API 计费 「开源」和「赚钱」并不矛盾。GitLab、HashiCorp、Supabase、Vercel 都从开源项目起步,各自走出不同的变现路径。本文梳理 7 种被市场验证过的开源 SaaS 变现模式,以及 IHUI-AI 是如何组合它们的。 一、开源变现的核心命题 开源不是「免费送代码」,而是「用免费换信任,用信任换付费意愿」。它的商业逻辑建立在三个事实之上: 用户能看代码 → 信任度高 → 转化率比闭源高 3-5 倍。 社区传播 → 获客成本接近零。 客户自己能部署 → 不付钱的用户不消耗你的运维成本。 难点在于:如何把「能用」和「想付费」之间画一条不越界的线。 二、7 种 SaaS 变现模式 模式 1:Open Core(开放核心 + 付费企业功能) 做法:核心开源(Apache 2.0 / MIT),企业必需功</summary>
-    <author><name>李春川</name></author>
-  </entry>
-  <entry>
-    <title>AI Agent 市场设计:让 Agent 像 App 一样被交易与编排</title>
-    <link href="https://dev.to/_fd4c731d8fc551b91150a/ai-agent-shi-chang-she-ji-rang-agent-xiang-app-yang-bei-jiao-yi-yu-bian-pai-1n67" rel="alternate"/>
-    <id>https://dev.to/_fd4c731d8fc551b91150a/ai-agent-shi-chang-she-ji-rang-agent-xiang-app-yang-bei-jiao-yi-yu-bian-pai-1n67</id>
-    <updated>2026-07-28T05:38:15Z</updated>
-    <summary type="text">AI Agent 市场设计:让 Agent 像 App 一样被交易与编排 App Store 把「软件」变成了可被一键购买、安装、评分的商品,AI 时代对应的实体是「Agent」。一个 Agent = 一段可被复用的提示词 + 工具集 + 知识库 + 模型路由配置。本文讲清楚一个 Agent 市场需要哪些核心机制,以及 IHUI-AI 的实现路径。 一、Agent 市场的产品定义 什么是「可上架的 Agent」 不是所有对话 prompt 都能成为商品。一个可上架的 Agent 必须满足: 可独立运行:用户购买后能立刻用,不需要再写代码。 可复用:不同用户用同一个 Agent 都能得到稳定结果。 可定价:有明确的使用边界(次数 / 时长 / 调用规模)。 可评估:有客观的质量指标(成功率 / 满意度 / 失败率)。 Agent 定义格式 IHUI-AI 用一份 schema 描述可上架的 </summary>
-    <author><name>李春川</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
