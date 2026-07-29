@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-29T04:14:57Z</updated>
+  <updated>2026-07-29T07:46:09Z</updated>
   <entry>
     <title>Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models</title>
     <link href="https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/" rel="alternate"/>
@@ -22,6 +22,16 @@
     <summary type="text">Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window. The model does not ship as a standalone endpoint — it runs inside MDASH, Microsoft's multi-model agentic scanning harness, where it handles up to 90% of tasks and pushes the system to 95.95% on CyberGym</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Stop Regex-ing User-Agents. Give Your AI Agent a Parser Instead.</title>
+    <link href="https://dev.to/renato_marinho/stop-regex-ing-user-agents-give-your-ai-agent-a-parser-instead-n49" rel="alternate"/>
+    <id>https://dev.to/renato_marinho/stop-regex-ing-user-agents-give-your-ai-agent-a-parser-instead-n49</id>
+    <updated>2026-07-29T06:58:22Z</updated>
+    <summary type="text">I spent years writing regex patterns for User-Agent strings. I thought I was clever. Every time a new browser version dropped or a weird mobile device emerged, my pattern would break, and I'd be back in the terminal, squinting at logs, trying to figure out if that string was a legitimate crawler or a bot attempting to scrape our endpoints. We all know how it goes. You have a massive log file from </summary>
+    <author><name>Renato Marinho</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The Era of Probabilistic Defense Is Over</title>
@@ -454,15 +464,5 @@
     <summary type="text">The KwaiKAT Team at Kuaishou has published the KAT-Coder-V2.5 technical report, arguing that agentic coding capability is bottlenecked by training infrastructure rather than model scale. AutoBuilder raised environment construction success from 16.5% to 57.2%, producing over 100,000 verifiable environments across 12 languages, while a sandbox audit cut RL feedback errors from roughly 16% to below 2</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics</title>
-    <link href="https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/</id>
-    <updated>2026-07-26T08:38:09Z</updated>
-    <summary type="text">In this tutorial, we explore FAIRChem v2 and the UMA universal machine-learning interatomic potential as a unified framework for atomistic simulation across molecular chemistry, catalysis, and inorganic materials. We configure an environment, authenticate with Hugging Face to access the gated UMA model weights, and initialize task-specific calculators for the omol, oc20, and omat domains. We […] T</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="tutorial"/>
-    <category term="open-source"/>
   </entry>
 </feed>
