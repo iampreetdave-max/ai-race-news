@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-29T17:19:11Z</updated>
+  <updated>2026-07-29T19:23:15Z</updated>
   <entry>
     <title>How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails</title>
     <link href="https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/" rel="alternate"/>
@@ -50,6 +50,22 @@
     <summary type="text">Fireworks AI has released Fireworks Nexus, an AI management and routing platform aimed at engineering organizations. It connects the coding tools developers already use to a managed layer of open-weight models. The problem it targets is well documented. Forbes reported that Uber exhausted its entire 2026 AI budget in four months. Claude Code had reached […] The post Fireworks AI Releases Fireworks</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Montando um Cluster Kubernetes On-Premise — Parte 6: Deploy, Atualização e Escalabilidade de uma Aplicação Própria</title>
+    <link href="https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-6-deploy-atualizacao-e-escalabilidade-de-uma-588g" rel="alternate"/>
+    <id>https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-6-deploy-atualizacao-e-escalabilidade-de-uma-588g</id>
+    <updated>2026-07-29T19:04:42Z</updated>
+    <summary type="text">🇺🇸 English version coming soon. Na Parte 5 desta série, validamos o cluster de ponta a ponta fazendo o deploy do Nginx. Agora vamos um passo além: construir a imagem Docker de uma aplicação própria, publicá-la, colocá-la para rodar no cluster e explorar operações do dia a dia — atualização de versão, rollback e escalabilidade (manual e automática). Como exemplo, foi utilizada uma API REST simples </summary>
+    <author><name>Celso Nery</name></author>
+  </entry>
+  <entry>
+    <title>Internet &amp; Networking Explained, The Foundation Every DevOps Engineer Should Know.</title>
+    <link href="https://dev.to/promzy/internet-networking-explained-the-foundation-every-devops-engineer-should-know-b51" rel="alternate"/>
+    <id>https://dev.to/promzy/internet-networking-explained-the-foundation-every-devops-engineer-should-know-b51</id>
+    <updated>2026-07-29T18:34:24Z</updated>
+    <summary type="text">When you open a website, send a message, or watch a YouTube video, many technologies work together in the background. As a beginner in DevOps, understanding these basic networking concepts will help you understand how applications communicate over the internet. **What Is a Protocol? A protocol is a set of rules that devices follow when communicating with each other. Think about two people having a</summary>
+    <author><name>Eneje Promise</name></author>
   </entry>
   <entry>
     <title>Build a Typed Training Data Client in TypeScript with intervals-icu</title>
@@ -375,6 +391,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>AI Worming through Word</title>
+    <link href="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything</id>
+    <updated>2026-07-29T18:43:03Z</updated>
+    <summary type="text">AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the docume</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>A beginner's guide to the Kimi-K3 model by Moonshotai on Huggingface</title>
     <link href="https://dev.to/aimodels-fyi/a-beginners-guide-to-the-kimi-k3-model-by-moonshotai-on-huggingface-912" rel="alternate"/>
     <id>https://dev.to/aimodels-fyi/a-beginners-guide-to-the-kimi-k3-model-by-moonshotai-on-huggingface-912</id>
@@ -394,6 +419,15 @@
     <author><name>SyncSoft.AI</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I keep coming back to Qwen... Over and Over. Is there really nothing better under 120B?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/</id>
+    <updated>2026-07-29T14:27:51Z</updated>
+    <summary type="text">I was looking for a strong coding model and a strong general model, both should be 120b or under. After weeks of researching, qwen3.6 27b(general) and qwen3 coder next(coding) are the top choices. I mean there has to be something better. Any reccommendations? submitted by /u/Possible_Grocery8079 [link] [comments]</summary>
+    <author><name>/u/Possible_Grocery8079</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I Burned My £20 Cursor Budget on Opus 5 (And All I Got Was 44 Files of Absolute Garbage)</title>
@@ -428,41 +462,5 @@
     <summary type="text">Everyone's comparing AI coding tool prices on paper. Claude Code Max at $200/mo. Cursor Ultra at $200/mo. Codex with ChatGPT Pro at $200/mo. But after 6 months of running 10+ production apps across these tools, I can tell you: the sticker price tells you almost nothing about your actual cost. Here's what I learned tracking every dollar. The pricing page lie Comparison articles love neat tables. &quot;$</summary>
     <author><name>Bo Shen</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My LLM Kept Making Stuff Up on Resumes. Here’s How I Shut It Down.</title>
-    <link href="https://dev.to/risola_me_a79eac9d2622b19/my-llm-kept-making-stuff-up-on-resumes-heres-how-i-shut-it-down-15d2" rel="alternate"/>
-    <id>https://dev.to/risola_me_a79eac9d2622b19/my-llm-kept-making-stuff-up-on-resumes-heres-how-i-shut-it-down-15d2</id>
-    <updated>2026-07-27T20:36:50Z</updated>
-    <summary type="text">I'm building NextStep — an AI thing that scores your resume against a job and rewrites it to fit. Two features, both completely dependent on the model not lying. And GPT-4o loves to lie. Two bugs made me stop trusting it: Score the same resume twice → 87, then 79. Cool, so the number means nothing. Ask it to &quot;optimize for this DevOps role&quot; → it adds &quot;Managed production Kubernetes clusters&quot; to a gu</summary>
-    <author><name>risola_me</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Four lessons from building AI, education, and healthcare products with Next.js</title>
-    <link href="https://dev.to/robertionutfundulea/four-lessons-from-building-ai-education-and-healthcare-products-with-nextjs-3nm7" rel="alternate"/>
-    <id>https://dev.to/robertionutfundulea/four-lessons-from-building-ai-education-and-healthcare-products-with-nextjs-3nm7</id>
-    <updated>2026-07-27T19:20:30Z</updated>
-    <summary type="text">Over the last few years, I have built products in very different domains: generative AI, job search, education, and clinic operations. Although the interfaces and users are different, several engineering lessons appeared repeatedly. 1. Multiple AI features still need to feel like one product Klyro brings together streamed chat, cited web search, image analysis, and image generation. The difficult </summary>
-    <author><name>Robert Ionut Fundulea</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The rollback endpoint took a deployment ID and did nothing with it</title>
-    <link href="https://dev.to/jonny2k26/the-rollback-endpoint-took-a-deployment-id-and-did-nothing-with-it-3nad" rel="alternate"/>
-    <id>https://dev.to/jonny2k26/the-rollback-endpoint-took-a-deployment-id-and-did-nothing-with-it-3nad</id>
-    <updated>2026-07-27T18:55:55Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview Staxa is a multi-tenant deployment platform I am building solo under Stackforge Labs. The backend is a single Go binary (staxad) using the chi router, with about 60 API endpoints, running on K3s on a Hetzner CAX21 ARM64 server that costs around $11/month. Each tenant gets an isolated Kubernetes na</summary>
-    <author><name>Jonathan Pitter</name></author>
-  </entry>
-  <entry>
-    <title>DreamStyle3D: Efficient 3D Stylized Asset Generation via Dual-Attention Disentanglement</title>
-    <link href="https://arxiv.org/abs/2607.24721v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.24721v1</id>
-    <updated>2026-07-27T17:55:21Z</updated>
-    <summary type="text">With the growth of gaming, animation, and virtual reality industries, the demand for efficient generation of stylized 3D assets is rapidly increasing. However, existing approaches still struggle to jointly preserve style fidelity, geometric consistency, and generation efficiency, as most of them still rely on indirect 2D-to-3D stylization pipelines. This motivates a native 3D stylization framework</summary>
-    <author><name>Qibin Hou</name></author>
-    <category term="data"/>
   </entry>
 </feed>
