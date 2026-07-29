@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-29T21:00:54Z</updated>
+  <updated>2026-07-29T22:08:58Z</updated>
   <entry>
     <title>How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails</title>
     <link href="https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/" rel="alternate"/>
@@ -50,6 +50,33 @@
     <summary type="text">Fireworks AI has released Fireworks Nexus, an AI management and routing platform aimed at engineering organizations. It connects the coding tools developers already use to a managed layer of open-weight models. The problem it targets is well documented. Forbes reported that Uber exhausted its entire 2026 AI budget in four months. Claude Code had reached […] The post Fireworks AI Releases Fireworks</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From RAG to Agentic AI. How I Added LangGraph to My Local</title>
+    <link href="https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e" rel="alternate"/>
+    <id>https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e</id>
+    <updated>2026-07-29T21:42:11Z</updated>
+    <summary type="text">In my previous article, I built a fully local RAG assistant Ollama, ChromaDB, LangChain, all running in Docker. It answered technical support questions by searching through documentation and citing sources. It worked. But after using it for a while, I noticed something uncomfortable: it treated every question the same way. Ask it &quot;how to close monthly payroll?&quot; it searches the docs. Fine. Ask it &quot;</summary>
+    <author><name>TAGBA G-Josaphat E.</name></author>
+    <category term="agents"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Your Software Architecture Is Quietly Copying Your Team</title>
+    <link href="https://dev.to/marcel-bundle/your-software-architecture-is-quietly-copying-your-team-4g2d" rel="alternate"/>
+    <id>https://dev.to/marcel-bundle/your-software-architecture-is-quietly-copying-your-team-4g2d</id>
+    <updated>2026-07-29T21:19:43Z</updated>
+    <summary type="text">If this is too long, tldr: Google Conway’s Law wath yt video and think There is a popular rule in software development called Conway's Law. It says that organizations design systems that mirror the way people inside those organizations communicate. In simpler terms: Your architecture will eventually look like your team structure. Big company with separate frontend, backend, data, DevOps, and platf</summary>
+    <author><name>Marcel Czuryszkiewicz</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>AWS retired its free database migration assessment tool. The reason should change how you build developer tools.</title>
+    <link href="https://dev.to/sajjasudhakararao/aws-retired-its-free-database-migration-assessment-tool-the-reason-should-change-how-you-build-dn3" rel="alternate"/>
+    <id>https://dev.to/sajjasudhakararao/aws-retired-its-free-database-migration-assessment-tool-the-reason-should-change-how-you-build-dn3</id>
+    <updated>2026-07-29T21:11:06Z</updated>
+    <summary type="text">On May 20, 2026, AWS ended support for DMS Fleet Advisor. Fleet Advisor answered a question every migration team asks first: what is actually in my database estate, and how hard will it be to move? It was free. It was fully managed. It was backed by the largest cloud provider on earth. It still lost. AWS's official notice says only: &quot;After careful consideration, we decided to end support for AWS D</summary>
+    <author><name>Sajja Sudhakararao</name></author>
   </entry>
   <entry>
     <title>OpenAI Codex Security Enters Research Preview, Clarifying Its Role in the Codex Ecosystem</title>
@@ -439,31 +466,5 @@
     <author><name>SyncSoft.AI</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I keep coming back to Qwen... Over and Over. Is there really nothing better under 120B?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/</id>
-    <updated>2026-07-29T14:27:51Z</updated>
-    <summary type="text">I was looking for a strong coding model and a strong general model, both should be 120b or under. After weeks of researching, qwen3.6 27b(general) and qwen3 coder next(coding) are the top choices. I mean there has to be something better. Any reccommendations? submitted by /u/Possible_Grocery8079 [link] [comments]</summary>
-    <author><name>/u/Possible_Grocery8079</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Burned My £20 Cursor Budget on Opus 5 (And All I Got Was 44 Files of Absolute Garbage)</title>
-    <link href="https://dev.to/agentic_architect/i-burned-my-ps20-cursor-budget-on-opus-5-and-all-i-got-was-44-files-of-absolute-garbage-je2" rel="alternate"/>
-    <id>https://dev.to/agentic_architect/i-burned-my-ps20-cursor-budget-on-opus-5-and-all-i-got-was-44-files-of-absolute-garbage-je2</id>
-    <updated>2026-07-27T22:13:51Z</updated>
-    <summary type="text">So, I decided to do a little experiment. With Opus 5 just launched, I set it loose on a pretty deep, open-ended task: scan the landscape, dig into niche corners of the web, and find viable, low-competition opportunities to make money online. Spoiler alert: It completely torched my £20 monthly Cursor credit budget in one sitting, left my workspace looking like a digital bomb site, and handed me vir</summary>
-    <author><name>Agentic Architect</name></author>
-  </entry>
-  <entry>
-    <title>Can Google ADK Talk to Microsoft Foundry on Azure? A Cross-Cloud A2A Benchmark</title>
-    <link href="https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36" rel="alternate"/>
-    <id>https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36</id>
-    <updated>2026-07-27T20:54:36Z</updated>
-    <summary type="text">This article provides a step-by-step guide to building and testing a cross-cloud currency agent. A coordinator hosted on Microsoft Foundry in Azure calls a Google ADK agent on Google Cloud over A2A v1.0, uses an MCP exchange-rate tool, and records what independent verification costs in latency. What is This Project Trying to Do? Most Agent-to-Agent (A2A) protocol demos stop at &quot;look, the request s</summary>
-    <author><name>xbill</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
