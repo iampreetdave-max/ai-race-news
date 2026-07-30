@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-30T17:40:05Z</updated>
+  <updated>2026-07-30T19:39:04Z</updated>
+  <entry>
+    <title>Microsoft's AI Story Is Still Being Discovered, Says Goldman</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video</id>
+    <updated>2026-07-30T17:55:38Z</updated>
+    <summary type="text">Gabriela Borges, Goldman Sachs managing director and senior software equity research analyst, joins Bloomberg after raising her price target on Microsoft, saying the software giant is showing stronger signs that its AI investments are translating into revenue. She discusses Azure growth, improving adoption of Copilot, Microsoft's AI strategy, and why she believes investors are only beginning to ap</summary>
+    <author><name>Bloomberg Technology</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft's Goldilocks AI Quarter</title>
     <link href="https://www.bloomberg.com/news/videos/2026-07-30/microsoft-s-goldilocks-ai-quarter-video" rel="alternate"/>
@@ -32,6 +41,16 @@
     <summary type="text">Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache</title>
+    <link href="https://dev.to/susheem-k/how-coding-agents-like-cursor-quietly-cut-input-costs-by-reusing-kv-states-across-turns-and-what-49fe" rel="alternate"/>
+    <id>https://dev.to/susheem-k/how-coding-agents-like-cursor-quietly-cut-input-costs-by-reusing-kv-states-across-turns-and-what-49fe</id>
+    <updated>2026-07-30T19:11:26Z</updated>
+    <summary type="text">Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and noticed a metric I'd never paid attention to before: Cache Read. Date Type Model Tokens May 2, 06:50 PM Included auto 898K → Cache Read May 2, 06:49 PM Included auto 1.4M → Cache Write May 2, 06:47 PM Included auto 346.8K → Input / Output Almost 99% of my input tokens for that session were served from cache. That </summary>
+    <author><name>Susheem Koul</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>🔐 SSH Essentials Every DevOps Engineer Should Know</title>
@@ -447,23 +466,5 @@
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Black Box to Audit Trail: Why 'Unlimited Context' is Technical Debt and How to Secure Your AI Agents</title>
-    <link href="https://dev.to/tamizuddin/from-black-box-to-audit-trail-why-unlimited-context-is-technical-debt-and-how-to-secure-your-ai-168j" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/from-black-box-to-audit-trail-why-unlimited-context-is-technical-debt-and-how-to-secure-your-ai-168j</id>
-    <updated>2026-07-28T18:01:13Z</updated>
-    <summary type="text">Originally published on tamiz.pro. The prevailing architectural pattern for modern AI agents—feeding the entire conversation history and all available documentation into a single, massive prompt—is a ticking time bomb. It is not a feature; it is unbounded technical debt masquerading as convenience. As systems scale, this &quot;black box&quot; approach obliterates observability, inflates latency, and creates</summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Build a REST API with Django REST Framework</title>
-    <link href="https://dev.to/qingluan/build-a-rest-api-with-django-rest-framework-40gf" rel="alternate"/>
-    <id>https://dev.to/qingluan/build-a-rest-api-with-django-rest-framework-40gf</id>
-    <updated>2026-07-28T18:00:04Z</updated>
-    <summary type="text">Build a REST API with Django REST Framework tags: python, django, api, tutorial tags: python, django, api, tutorial Build a REST API with Django REST Framework in Under 30 Minutes Imagine you’ve spent hours crafting a sleek Django model, but your frontend team is stuck waiting for you to manually format JSON responses or write boilerplate view functions. That friction ends today. With Django REST </summary>
-    <author><name>qing</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
