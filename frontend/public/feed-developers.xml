@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-30T04:09:37Z</updated>
+  <updated>2026-07-30T07:39:35Z</updated>
+  <entry>
+    <title>Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training</title>
+    <link href="https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/</id>
+    <updated>2026-07-30T05:28:39Z</updated>
+    <summary type="text">Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distributed Mixture-of-Experts (MoE) workloads. The team announced the release as a library built to make expert-parallel communication more efficient at scale. It ships under an MIT license. MoonEP arrived as part of Kimi K3 Open Day. Alongside the K3 model weights and technical […] The post Moonshot AI Open</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails</title>
     <link href="https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/" rel="alternate"/>
@@ -42,6 +51,23 @@
     <updated>2026-07-29T10:53:39Z</updated>
     <summary type="text">OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and Anthropic’s Claude Code in three others. Worth flagging upfront: this is a vendor publishing a survey of its own […] The post OpenAI report links coding agents to faster science so</summary>
     <author><name>Ryan Daws</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Developer-Led Content Marketing: Building a Technical Blog That Compounds to 50k Monthly Readers Without an Audience</title>
+    <link href="https://dev.to/software_mvp-factory/developer-led-content-marketing-building-a-technical-blog-that-compounds-to-50k-monthly-readers-160" rel="alternate"/>
+    <id>https://dev.to/software_mvp-factory/developer-led-content-marketing-building-a-technical-blog-that-compounds-to-50k-monthly-readers-160</id>
+    <updated>2026-07-30T07:34:35Z</updated>
+    <summary type="text">--- title: &quot;Developer-Led Content Marketing: Building a Technical Blog That Compounds to 50k Monthly Readers&quot; published: true description: &quot;Topic clustering, keyword mapping, and internal linking strategies to grow a developer blog to 50k monthly readers — no existing audience required.&quot; tags: architecture, devops, performance canonical_url: https://mvpfactory.co/blog/developer-content-marketing-5</summary>
+    <author><name>SoftwareDevs mvpfactory.io</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code Team Memory: CLAUDE.md, Git, or MCP?</title>
+    <link href="https://dev.to/_3ffb5be7950c3a975b5d/claude-code-team-memory-claudemd-git-or-mcp-5and" rel="alternate"/>
+    <id>https://dev.to/_3ffb5be7950c3a975b5d/claude-code-team-memory-claudemd-git-or-mcp-5and</id>
+    <updated>2026-07-30T07:24:53Z</updated>
+    <summary type="text">If a team wants its Claude Code agents to remember decisions and context, three tools come up: a CLAUDE.md file, Git itself, and an MCP memory server. They're often framed as competitors. They're not — they cover different layers. Here's the boundary. CLAUDE.md: standing instructions, per repo CLAUDE.md is a file Claude Code reads automatically. It's the right home for stable, repo-scoped conventi</summary>
+    <author><name>Seiji Nakaya</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -436,36 +462,6 @@
     <updated>2026-07-28T05:37:51Z</updated>
     <summary type="text">MCP 协议集成实战:让 AI Agent 调用任意工具 你让 AI 帮你订张机票。AI 说:&quot;我是语言模型,无法访问外部系统。&quot;你换个 Agent 产品,它说自己能订,但要你把密码给它,还得给它管理员权限。你犹豫了。 LLM 的下一个十年战争不是模型本身,而是工具调用。Anthropic 在 2024 年底开源了 Model Context Protocol (MCP),把「AI 调用外部工具」标准化了。本文讲 IHUI AI 如何在 8 端全栈 AI 操作系统里集成 MCP,让 Agent 真正能干活。 一、痛点:AI 只会聊天,不会干活 LLM 应用最尴尬的现状:模型很聪明,但被关在玻璃箱子里。 痛点 1:每家 Agent 框架各搞一套工具协议 OpenAI Function Calling:tools + tool_calls Anthropic Tool Use:tool_use</summary>
     <author><name>李春川</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building the enterprise environment for agentic AI</title>
-    <link href="https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/" rel="alternate"/>
-    <id>https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/</id>
-    <updated>2026-07-27T11:32:58Z</updated>
-    <summary type="text">For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…</summary>
-    <author><name>Keegan Sheedy, Lucas Melo</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Worming through Word</title>
-    <link href="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything</id>
-    <updated>2026-07-29T18:43:03Z</updated>
-    <summary type="text">AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the docume</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A beginner's guide to the Kimi-K3 model by Moonshotai on Huggingface</title>
-    <link href="https://dev.to/aimodels-fyi/a-beginners-guide-to-the-kimi-k3-model-by-moonshotai-on-huggingface-912" rel="alternate"/>
-    <id>https://dev.to/aimodels-fyi/a-beginners-guide-to-the-kimi-k3-model-by-moonshotai-on-huggingface-912</id>
-    <updated>2026-07-28T02:40:00Z</updated>
-    <summary type="text">This is a simplified guide to an AI model called Kimi-K3 maintained by Moonshotai. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Overview Kimi-K3 is a 2.8 trillion parameter open-weight multimodal agentic model developed by moonshotai. It represents the world's first open 3T-class model, built on proprietary Kimi Delta Attention (KDA) and Attention Resi</summary>
-    <author><name>aimodels-fyi</name></author>
-    <category term="open-source"/>
     <category term="agents"/>
     <category term="llm"/>
   </entry>
