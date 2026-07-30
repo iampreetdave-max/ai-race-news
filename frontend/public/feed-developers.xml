@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-30T10:29:21Z</updated>
+  <updated>2026-07-30T12:48:03Z</updated>
   <entry>
     <title>Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training</title>
     <link href="https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/" rel="alternate"/>
@@ -33,6 +33,34 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Top AI Papers on Hugging Face - 2026-07-30</title>
+    <link href="https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-30-2cpn" rel="alternate"/>
+    <id>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-30-2cpn</id>
+    <updated>2026-07-30T12:01:19Z</updated>
+    <summary type="text">10 paper AI nổi bật nhất trên Hugging Face hôm nay: robot thời gian thực, agentic search, coding agents và học tăng cường thế hệ mới Hôm nay, top paper được upvote cao trên Hugging Face cho thấy một bức tranh rất rõ về hướng đi của AI hiện tại: AI đang rời khỏi các benchmark tĩnh để tiến vào thế giới hành động thực tế — robot phải chạy nhanh hơn, agent phải tìm tài liệu tốt hơn, coding assistant p</summary>
+    <author><name>Y Hành Nhan</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why Your AI Agents Need Finite State Machines: Building Deterministic Workflows in a Vibe-Coding World</title>
+    <link href="https://dev.to/tamizuddin/why-your-ai-agents-need-finite-state-machines-building-deterministic-workflows-in-a-vibe-coding-4apd" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/why-your-ai-agents-need-finite-state-machines-building-deterministic-workflows-in-a-vibe-coding-4apd</id>
+    <updated>2026-07-30T12:01:05Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The rise of &quot;vibe coding&quot; has democratized software development, allowing developers to build complex applications using natural language prompts. However, this same flexibility introduces a fundamental challenge for enterprise-grade AI agents: non-determinism. When you ask an LLM to &quot;handle this customer support ticket,&quot; the model might draft an email, query a d</summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="agents"/>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build a Dependency Vulnerability Scanner with Python</title>
+    <link href="https://dev.to/qingluan/build-a-dependency-vulnerability-scanner-with-python-alb" rel="alternate"/>
+    <id>https://dev.to/qingluan/build-a-dependency-vulnerability-scanner-with-python-alb</id>
+    <updated>2026-07-30T12:00:12Z</updated>
+    <summary type="text">Build a Dependency Vulnerability Scanner with Python tags: python, security, devops, tools tags: python, security, devops, tools Build a Dependency Vulnerability Scanner with Python Your requirements.txt looks clean, but one of those dependencies might be a ticking time bomb waiting to expose your users to a data breach. You don’t need to wait for a security audit to find out—you can build your ow</summary>
+    <author><name>qing</name></author>
   </entry>
   <entry>
     <title>OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line</title>
@@ -435,32 +463,5 @@
     <summary type="text">It turns out the internet is full of middlemen. Some forward requests, some establish trust, and some simply make communication possible. I learned about two of those middlemen: Nginx and SSH. Learning about networking and all that stuff during my college days was always like, &quot;Meh... it's just protocols, IP addresses, and a bunch of theory. Nothing much, man.&quot; But after I started building my own </summary>
     <author><name>Adhithyan B</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Same AI Coding Tools, Two Languages For Buying Them a7c8d3</title>
-    <link href="https://dev.to/ninghonggang/same-ai-coding-tools-two-languages-for-buying-them-a7c8d3-18in" rel="alternate"/>
-    <id>https://dev.to/ninghonggang/same-ai-coding-tools-two-languages-for-buying-them-a7c8d3-18in</id>
-    <updated>2026-07-28T11:09:46Z</updated>
-    <summary type="text">Reading the Juejin search results for 热门 AI this morning, I kept tripping over the same AI coding tools but rating them with two completely different vocabularies. One review crowns winners in tier letters (S, A, B, D). Another review, covering almost the same tools, crowns winners in procurement language (等保三级认证, 国密SM4加密, 中文代码生成接受率87%). The names on the shortlists overlap. The vocabulary does not</summary>
-    <author><name>ninghonggang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How LLMs Generate Text — one token at a time</title>
-    <link href="https://dev.to/amtocbot/how-llms-generate-text-one-token-at-a-time-57j2" rel="alternate"/>
-    <id>https://dev.to/amtocbot/how-llms-generate-text-one-token-at-a-time-57j2</id>
-    <updated>2026-07-28T11:00:38Z</updated>
-    <summary type="text">One token at a time — a very well-read autocomplete. A large language model doesn't plan a whole answer up front. It predicts the next token from everything so far, appends it, and repeats — with attention letting it weigh which earlier words matter most. How each token appears Tokenize. Text is split into subword tokens and mapped to numbers. Embed. Each token becomes a vector encoding meaning an</summary>
-    <author><name>Toc am</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Cursor + BrowserAct Handles Dynamic Pages Without Brittle Selectors</title>
-    <link href="https://dev.to/anthonymax/how-cursor-browseract-handles-dynamic-pages-without-brittle-selectors-dh4" rel="alternate"/>
-    <id>https://dev.to/anthonymax/how-cursor-browseract-handles-dynamic-pages-without-brittle-selectors-dh4</id>
-    <updated>2026-07-28T08:17:28Z</updated>
-    <summary type="text">TL;DR Modern web applications change constantly. Components are re-rendered, generated attributes may differ between builds. Even when the UI looks identical, browser automation can fail because it still relies on assumptions captured before the page changed. In this article, I used Cursor with BrowserAct CLI to test a dynamic project filter. Instead of relying on unreliable selectors, Cursor used</summary>
-    <author><name>Anthony Max</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
