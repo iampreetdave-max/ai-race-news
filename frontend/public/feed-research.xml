@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-30T19:39:04Z</updated>
+  <updated>2026-07-30T21:15:34Z</updated>
+  <entry>
+    <title>OpenAI’s Evaluation Playbook Puts Harness Design at the Center of Model Testing</title>
+    <link href="https://dev.to/alifar/openais-evaluation-playbook-puts-harness-design-at-the-center-of-model-testing-2hpi" rel="alternate"/>
+    <id>https://dev.to/alifar/openais-evaluation-playbook-puts-harness-design-at-the-center-of-model-testing-2hpi</id>
+    <updated>2026-07-30T21:00:31Z</updated>
+    <summary type="text">OpenAI is urging a broader view of frontier-model evaluation: benchmark results reflect not only the model being tested, but also the surrounding system used to test it. In its official playbook for trustworthy third-party evaluations, the company says API settings, prompting, tool access, state management, compute budgets, scoring, and harness design can materially affect conclusions about model </summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>OpenAI Says AI Benchmark Scores Depend on Harnesses, Budgets, and Memory Design</title>
+    <link href="https://dev.to/alifar/openai-says-ai-benchmark-scores-depend-on-harnesses-budgets-and-memory-design-448k" rel="alternate"/>
+    <id>https://dev.to/alifar/openai-says-ai-benchmark-scores-depend-on-harnesses-budgets-and-memory-design-448k</id>
+    <updated>2026-07-30T20:40:30Z</updated>
+    <summary type="text">OpenAI is urging researchers, evaluators, and AI buyers to treat benchmark results as measurements of a model in a particular setup, not as permanent measures of a model's standalone capability. Its new guidance on third-party evaluations says the harness, resource budget, available tools, and approach to memory and context management can materially change observed performance, especially on long-</summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>The Python Ecosystem That Changed AI Development</title>
     <link href="https://towardsdatascience.com/the-python-ecosystem-that-changed-ai-development/" rel="alternate"/>
@@ -79,15 +98,6 @@
     <summary type="text">Generation in video diffusion or flow models is computationally expensive due to the slow and iterative sampling process. Current state-of-the-art (SOTA) acceleration methods heavily rely on variational score distillation (VSD) and adversarial losses to distill diffusion models into few-step generators. Albeit achieving high-quality video generation, these training losses are notoriously hard to o</summary>
     <author><name>Julius Berner</name></author>
     <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Shieldstral</title>
-    <link href="https://arxiv.org/abs/2607.25857v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.25857v1</id>
-    <updated>2026-07-28T15:27:53Z</updated>
-    <summary type="text">We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety classifier that matches or outperforms models nearly 7$\times$ its size on text safety benchmarks and sets a new state of the art on multimodal safety classification. Shieldstral formulates content moderation as a binary question-answering task. This simple formulation unifies diverse moderation tasks into a single yes/no p</summary>
-    <author><name>Yimu Pan</name></author>
     <category term="research"/>
   </entry>
 </feed>
