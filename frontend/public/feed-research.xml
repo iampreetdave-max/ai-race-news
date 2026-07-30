@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-07-30T00:04:12Z</updated>
+  <updated>2026-07-30T04:09:37Z</updated>
   <entry>
     <title>Accelerating scientific discovery with ChatGPT for Academic Researchers</title>
     <link href="https://openai.com/index/chatgpt-for-academic-researchers" rel="alternate"/>
@@ -24,6 +24,16 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI</title>
+    <link href="https://arxiv.org/abs/2607.27139v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.27139v1</id>
+    <updated>2026-07-29T17:12:03Z</updated>
+    <summary type="text">Accurate 3D reconstruction from satellite imagery typically relies on near-simultaneous stereo pairs, limiting its applicability to diachronic settings where multi-date images exhibit varying seasonal and illumination conditions. Training dense stereo matching models robust to appearance changes is a long-standing challenge, as aligned multi-date imagery and ground-truth geometry are costly to obt</summary>
+    <author><name>Gabriele Facciolo</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>That's a Great Idea!</title>
     <link href="https://dev.to/thebraindonor/thats-a-great-idea-1i83" rel="alternate"/>
     <id>https://dev.to/thebraindonor/thats-a-great-idea-1i83</id>
@@ -39,6 +49,16 @@
     <updated>2026-07-29T16:47:14Z</updated>
     <summary type="text">If you've tried building RAG over scientific papers, you've probably hit this: the PDF looks fine, the text extracts fine, and then a table with merged cells turns into three columns of garbage, or an equation comes out as ?123? where the integral sign should be, the figures and diagrams were taken as images when I needed them in LaTex notation and stuff like that This post is about what I found t</summary>
     <author><name>Santiago Garcia</name></author>
+  </entry>
+  <entry>
+    <title>ScratchSim: A Procedural Synthetic Data Pipeline for Surface Scratch Detection</title>
+    <link href="https://arxiv.org/abs/2607.27065v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2607.27065v1</id>
+    <updated>2026-07-29T15:54:01Z</updated>
+    <summary type="text">While automated defect detection such as the detection of surface scratched is an important aspect in industrial quality control, the scarcity of annotated defect data make this task challenging. This paper presents a procedural rendering pipeline that generates large-scale annotated synthetic training data using BlenderProc, with configurable material appearance, camera modes, and domain randomiz</summary>
+    <author><name>Michael Weinmann</name></author>
+    <category term="data"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Parallel Decoding Distillation for Fast Image and Video Generation</title>
@@ -129,46 +149,5 @@
     <author><name>T-row</name></author>
     <category term="research"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>~1,400 years ago, scholars built a rigorous system to verify who you can trust. I rebuilt it as a trust layer for AI agents.</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1v9qdpe/1400_years_ago_scholars_built_a_rigorous_system/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1v9qdpe/1400_years_ago_scholars_built_a_rigorous_system/</id>
-    <updated>2026-07-29T08:45:37Z</updated>
-    <summary type="text">I wrote this and just put it on arXiv, sharing for the discussion. When statements spread through long chains of people — some reliable, some not — you can't trust a claim just because it sounds right. Islamic scholars faced this centuries ago and built one of history's most rigorous systems for verifying transmitted knowledge: every claim carries its full chain of transmitters (isnād), every tran</summary>
-    <author><name>/u/alizahidrajaa</name></author>
-    <category term="research"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams</title>
-    <link href="https://arxiv.org/abs/2607.24707v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.24707v1</id>
-    <updated>2026-07-27T17:46:43Z</updated>
-    <summary type="text">Entity-Relationship Diagrams (ERDs) are central to conceptual database design, yet they are typically available only as rendered images rather than machine-readable schemas, limiting AI-assisted database engineering. We introduce ERUnderstand, the first large-scale benchmark for structured understanding of ER diagrams, comprising 2,960 diagrams collected from curated educational sources, real-worl</summary>
-    <author><name>Eduard Dragut</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/</id>
-    <updated>2026-07-29T06:47:01Z</updated>
-    <summary type="text">Hey everyone, ​I recently finished pre-training BetterGPT-150M, a small, lightweight causal language model with ~152 million parameters.Trained on 15B tokens. Dataset &amp; Training: Trained across stable and annealing phases using curated datasets (including FineWeb-Edu, fine maths, cosmopedia, starcode-python), ensuring strong capability retention while maximizing token efficiency. ​Performance: Ben</summary>
-    <author><name>/u/Rich-Title-3668</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Test-Time Adaptation via Dual Distillation for Videos Under Severe Distribution Shifts</title>
-    <link href="https://arxiv.org/abs/2607.24611v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.24611v1</id>
-    <updated>2026-07-27T16:12:11Z</updated>
-    <summary type="text">Deep learning models have achieved state-of-the-art performance in several computer vision tasks. However, they experience severe performance degradation when applied to real-world scenarios due to unanticipated distribution shifts. Test-Time Adaptation (TTA) attempts to solve this problem by using unlabeled data from the target domain to dynamically adapt to the test distribution at inference tim</summary>
-    <author><name>Jurandy Almeida</name></author>
-    <category term="research"/>
-    <category term="computer-vision"/>
   </entry>
 </feed>
