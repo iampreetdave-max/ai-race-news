@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T19:40:02Z</updated>
+  <updated>2026-07-31T21:10:32Z</updated>
+  <entry>
+    <title>LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export</title>
+    <link href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/</id>
+    <updated>2026-07-31T20:27:13Z</updated>
+    <summary type="text">Discover how to implement a streaming 3D reconstruction pipeline using LingBot-Map. From GPU-aware configuration and preprocessing to GCTStream model inference and point cloud generation, this guide walks you through the steps to convert image or video sequences into consistent 3D scenes with exportable PLY and NPZ artifacts. The post LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Expor</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="hardware"/>
+    <category term="tutorial"/>
+  </entry>
   <entry>
     <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
     <link href="https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/" rel="alternate"/>
@@ -13,6 +23,16 @@
     <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The Requests library for AI one Unified Python SDK for every LLM provider</title>
+    <link href="https://dev.to/6t9/the-requests-library-for-ai-one-unified-python-sdk-for-every-llm-provider-3job" rel="alternate"/>
+    <id>https://dev.to/6t9/the-requests-library-for-ai-one-unified-python-sdk-for-every-llm-provider-3job</id>
+    <updated>2026-07-31T20:19:48Z</updated>
+    <summary type="text">UniversalAI The Requests library for AI — one unified SDK for every LLM provider. Write once, run anywhere. pip install universal-ai from universal_ai import AI ai = AI(provider=&quot;openai&quot;, model=&quot;gpt-4o&quot;) response = await ai.chat(&quot;What is quantum computing?&quot;) print(response.content) Why UniversalAI? Building AI applications today means juggling multiple provider SDKs, each with different APIs, erro</summary>
+    <author><name>Malik Taimoor Awan</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Why Deleting a Hardcoded Secret Does Not Fix It (CWE-798)</title>
@@ -444,23 +464,5 @@
     <summary type="text">If this is too long, tldr: Google Conway’s Law wath yt video and think There is a popular rule in software development called Conway's Law. It says that organizations design systems that mirror the way people inside those organizations communicate. In simpler terms: Your architecture will eventually look like your team structure. Big company with separate frontend, backend, data, DevOps, and platf</summary>
     <author><name>Marcel Czuryszkiewicz</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>AWS retired its free database migration assessment tool. The reason should change how you build developer tools.</title>
-    <link href="https://dev.to/sajjasudhakararao/aws-retired-its-free-database-migration-assessment-tool-the-reason-should-change-how-you-build-dn3" rel="alternate"/>
-    <id>https://dev.to/sajjasudhakararao/aws-retired-its-free-database-migration-assessment-tool-the-reason-should-change-how-you-build-dn3</id>
-    <updated>2026-07-29T21:11:06Z</updated>
-    <summary type="text">On May 20, 2026, AWS ended support for DMS Fleet Advisor. Fleet Advisor answered a question every migration team asks first: what is actually in my database estate, and how hard will it be to move? It was free. It was fully managed. It was backed by the largest cloud provider on earth. It still lost. AWS's official notice says only: &quot;After careful consideration, we decided to end support for AWS D</summary>
-    <author><name>Sajja Sudhakararao</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI Codex Security Enters Research Preview, Clarifying Its Role in the Codex Ecosystem</title>
-    <link href="https://dev.to/alifar/openai-codex-security-enters-research-preview-clarifying-its-role-in-the-codex-ecosystem-23j3" rel="alternate"/>
-    <id>https://dev.to/alifar/openai-codex-security-enters-research-preview-clarifying-its-role-in-the-codex-ecosystem-23j3</id>
-    <updated>2026-07-29T20:40:30Z</updated>
-    <summary type="text">OpenAI has introduced Codex Security in research preview, positioning it as a project-contextual security capability within the Codex ecosystem. The feature is designed to build threat models for a codebase, validate potential findings in sandboxed environments, and surface proposed patches for human review. The release is significant for teams evaluating AI-assisted application security because i</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
