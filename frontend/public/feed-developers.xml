@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T03:22:32Z</updated>
+  <updated>2026-07-31T06:48:43Z</updated>
   <entry>
     <title>Microsoft's AI Story Is Still Being Discovered, Says Goldman</title>
     <link href="https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video" rel="alternate"/>
@@ -23,6 +23,42 @@
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>We added mobile approvals to our CLI AI tool -- approve Claude's destructive commands from your phone</title>
+    <link href="https://dev.to/sumaninster/we-added-mobile-approvals-to-our-cli-ai-tool-approve-claudes-destructive-commands-from-your-19il" rel="alternate"/>
+    <id>https://dev.to/sumaninster/we-added-mobile-approvals-to-our-cli-ai-tool-approve-claudes-destructive-commands-from-your-19il</id>
+    <updated>2026-07-31T06:22:29Z</updated>
+    <summary type="text">Quick share of a feature we built into Telechat (self-hosted Claude AI bot) that's been surprisingly useful for devops workflows: Desktop Bridge with mobile approvals. The problem You're running Claude Code (or any Claude-powered agent) on your workstation. It's refactoring a module, running tests, deploying to staging. You step away for coffee, a meeting, or just to stretch. Claude hits a tool ca</summary>
+    <author><name>Subhendu Das</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Telechat: self-host Claude AI across Telegram/WhatsApp/Slack with one npm install</title>
+    <link href="https://dev.to/sumaninster/telechat-self-host-claude-ai-across-telegramwhatsappslack-with-one-npm-install-26pj" rel="alternate"/>
+    <id>https://dev.to/sumaninster/telechat-self-host-claude-ai-across-telegramwhatsappslack-with-one-npm-install-26pj</id>
+    <updated>2026-07-31T06:22:29Z</updated>
+    <summary type="text">Built something the r/selfhosted crowd might appreciate: Telechat — a self-hosted Claude AI bot that connects to Telegram, WhatsApp, Slack, and web chat from a single process. Why self-hosted matters here Anthropic launched Claude Code Channels recently — Claude on Telegram/Discord, managed by Anthropic. It works great, but every message goes through their cloud. Telechat takes the opposite approa</summary>
+    <author><name>Subhendu Das</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Nice post explaining the small bits about local RAG!</title>
+    <link href="https://dev.to/yaser/nice-post-explaining-the-small-bits-about-local-rag-h8b" rel="alternate"/>
+    <id>https://dev.to/yaser/nice-post-explaining-the-small-bits-about-local-rag-h8b</id>
+    <updated>2026-07-31T06:20:26Z</updated>
+    <summary type="text">Building a 100% Local RAG System on Kubernetes — No API Keys Required Ahmed Nafies Ahmed Nafies Ahmed Nafies Follow Jul 30 Building a 100% Local RAG System on Kubernetes — No API Keys Required #kubernetes #rag #llm #postgres 1 reaction Add Comment 8 min read</summary>
+    <author><name>Yaser Al-Najjar</name></author>
+  </entry>
+  <entry>
+    <title>I built a self-hosted alternative to Claude Code Channels -- here's why</title>
+    <link href="https://dev.to/sumaninster/i-built-a-self-hosted-alternative-to-claude-code-channels-heres-why-3j0g" rel="alternate"/>
+    <id>https://dev.to/sumaninster/i-built-a-self-hosted-alternative-to-claude-code-channels-heres-why-3j0g</id>
+    <updated>2026-07-31T06:14:44Z</updated>
+    <summary type="text">When Claude Code Channels launched, I was stoked — Claude on my phone, finally. Then I hit the limitations: Only Telegram and Discord. I live in WhatsApp (most of the world does). Everything routes through Anthropic's servers. Fine for most people, but I work with clients who have strict data policies. Requires Pro subscription. I was already spending less via API keys for my usage pattern. No bud</summary>
+    <author><name>Subhendu Das</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training</title>
@@ -421,41 +457,5 @@
     <author><name>mariatanbobo</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI</title>
-    <link href="https://www.latent.space/p/chatgpt-work" rel="alternate"/>
-    <id>https://www.latent.space/p/chatgpt-work</id>
-    <updated>2026-07-28T15:26:30Z</updated>
-    <summary type="text">OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.</summary>
-    <author><name>Latent Space</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Operable Over Sophisticated: What Shipping AI Agents at Scale Actually Looks Like</title>
-    <link href="https://dev.to/oscarrabasa/operable-over-sophisticated-what-shipping-ai-agents-at-scale-actually-looks-like-2461" rel="alternate"/>
-    <id>https://dev.to/oscarrabasa/operable-over-sophisticated-what-shipping-ai-agents-at-scale-actually-looks-like-2461</id>
-    <updated>2026-07-28T23:50:16Z</updated>
-    <summary type="text">A couple of months ago I attended LangChain Interrupt 2026 in San Francisco. As someone leading AI platform and developer experience day to day, some of what I heard confirmed what I'd already been thinking. Some of it reframed it entirely. The pattern across every team that had actually shipped was a constant: they had tried the sophisticated path first. Production required operability; it was wh</summary>
-    <author><name>Oscar Rabasa</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your AI Agent Can Call Every API — Except Your Bank. Here's Why.</title>
-    <link href="https://dev.to/johnfrandsen/your-ai-agent-can-call-every-api-except-your-bank-heres-why-46gi" rel="alternate"/>
-    <id>https://dev.to/johnfrandsen/your-ai-agent-can-call-every-api-except-your-bank-heres-why-46gi</id>
-    <updated>2026-07-28T23:20:52Z</updated>
-    <summary type="text">Every API you'd want an agent to call has a clean path: an API key, an OAuth dance, maybe a scoped token. Your LLM can read your calendar, file your issues, query your database. Then it hits your bank — and the door slams. It's not that bank APIs don't exist. PSD2 forced EU banks to publish them. It's that the authentication layer is built for institutions, not agents. Getting onto a bank's API as</summary>
-    <author><name>John Frandsen</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Silent Outage: Monitoring What You Can't See</title>
-    <link href="https://dev.to/samson_tanimawo/the-silent-outage-monitoring-what-you-cant-see-323n" rel="alternate"/>
-    <id>https://dev.to/samson_tanimawo/the-silent-outage-monitoring-what-you-cant-see-323n</id>
-    <updated>2026-07-28T23:14:19Z</updated>
-    <summary type="text">The worst kind of outage is one nobody notices. Your metrics are green. Your dashboards are fine. Your users are quietly getting a broken experience. I've been burned by three silent outages in my career. Here's how I catch them now. How silent outages happen Frontend caching the error. Your API returned a 500. Your CDN cached it. Now all users get the cached error for 10 minutes, but your API hea</summary>
-    <author><name>Samson Tanimawo</name></author>
-    <category term="data"/>
   </entry>
 </feed>
