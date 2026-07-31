@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T15:23:15Z</updated>
+  <updated>2026-07-31T17:43:25Z</updated>
   <entry>
     <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
     <link href="https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/" rel="alternate"/>
@@ -13,6 +13,23 @@
     <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Kubernetes earned its security badge in 2017 and never came back</title>
+    <link href="https://dev.to/svyatov/kubernetes-earned-its-security-badge-in-2017-and-never-came-back-58eh" rel="alternate"/>
+    <id>https://dev.to/svyatov/kubernetes-earned-its-security-badge-in-2017-and-never-came-back-58eh</id>
+    <updated>2026-07-31T17:23:07Z</updated>
+    <summary type="text">Kubernetes has an OpenSSF Best Practices badge. It earned that badge on 16 August 2017 at 14:52:28 UTC, and nobody has touched the entry since. The save that earned it is still the last anyone made: the two timestamps sit three milliseconds apart, because one save wrote both. The badge on that page today looks exactly like a badge earned this morning. It carries no date. bestpractices.dev has been</summary>
+    <author><name>Leonid Svyatov</name></author>
+  </entry>
+  <entry>
+    <title>Resolve Open Questions: a /qa Skill for Claude Code</title>
+    <link href="https://dev.to/gbti-network/resolve-open-questions-a-qa-skill-for-claude-code-1jp2" rel="alternate"/>
+    <id>https://dev.to/gbti-network/resolve-open-questions-a-qa-skill-for-claude-code-1jp2</id>
+    <updated>2026-07-31T17:22:00Z</updated>
+    <summary type="text">By @atwellpub, GBTI Network Member. Originally published on gbti.network. Claude Code loads any markdown file at .claude/skills/&lt;name&gt;/SKILL.md as a reusable slash command (a &quot;skill&quot;). This one gives your agent a /qa command that stops before it builds, pulls every unresolved decision into a single batch of questions, and refuses to write code until you have answered them. It exists because open q</summary>
+    <author><name>GBTI Network</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Fixing a Hidden State Mutation Bug in StayPresent's Web API</title>
@@ -446,25 +463,5 @@
     <updated>2026-07-29T19:04:42Z</updated>
     <summary type="text">🇺🇸 English version coming soon. Na Parte 5 desta série, validamos o cluster de ponta a ponta fazendo o deploy do Nginx. Agora vamos um passo além: construir a imagem Docker de uma aplicação própria, publicá-la, colocá-la para rodar no cluster e explorar operações do dia a dia — atualização de versão, rollback e escalabilidade (manual e automática). Como exemplo, foi utilizada uma API REST simples </summary>
     <author><name>Celso Nery</name></author>
-  </entry>
-  <entry>
-    <title>ScratchSim: A Procedural Synthetic Data Pipeline for Surface Scratch Detection</title>
-    <link href="https://arxiv.org/abs/2607.27065v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2607.27065v1</id>
-    <updated>2026-07-29T15:54:01Z</updated>
-    <summary type="text">While automated defect detection such as the detection of surface scratched is an important aspect in industrial quality control, the scarcity of annotated defect data make this task challenging. This paper presents a procedural rendering pipeline that generates large-scale annotated synthetic training data using BlenderProc, with configurable material appearance, camera modes, and domain randomiz</summary>
-    <author><name>Michael Weinmann</name></author>
-    <category term="data"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Build a Typed Training Data Client in TypeScript with intervals-icu</title>
-    <link href="https://dev.to/paladini/build-a-typed-training-data-client-in-typescript-with-intervals-icu-8fc" rel="alternate"/>
-    <id>https://dev.to/paladini/build-a-typed-training-data-client-in-typescript-with-intervals-icu-8fc</id>
-    <updated>2026-07-29T15:36:16Z</updated>
-    <summary type="text">If your training dashboard starts as one HTTP request and grows into athletes, activities, wellness, workouts, gear, and performance data, a hand-written fetch wrapper becomes expensive to maintain. Every new endpoint adds another URL, another response shape, and another place to get authentication or retry behavior wrong. This tutorial shows a small, reproducible path with intervals-icu, an open-</summary>
-    <author><name>Fernando Paladini</name></author>
-    <category term="open-source"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
