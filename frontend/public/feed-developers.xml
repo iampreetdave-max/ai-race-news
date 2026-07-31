@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T21:10:32Z</updated>
+  <updated>2026-07-31T23:05:36Z</updated>
   <entry>
     <title>LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export</title>
     <link href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/" rel="alternate"/>
@@ -23,6 +23,39 @@
     <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Preparing for AWS CI/CD Hands-On Project - Prerequisites</title>
+    <link href="https://dev.to/kadhamvj23/preparing-for-aws-cicd-hands-on-project-prerequisites-3h5o" rel="alternate"/>
+    <id>https://dev.to/kadhamvj23/preparing-for-aws-cicd-hands-on-project-prerequisites-3h5o</id>
+    <updated>2026-07-31T22:42:55Z</updated>
+    <summary type="text">Introduction In the previous article, we learned how AWS CodePipeline automates the software delivery process. Before we start building our AWS CI/CD pipeline, we need one more important tool: Docker. Modern applications are rarely deployed directly from the source code. Instead, they are packaged into Docker images, making them portable and consistent across different environments. In this articl</summary>
+    <author><name>Vijaya Laxmi Kadham</name></author>
+  </entry>
+  <entry>
+    <title>Cost Attribution in Shared Infrastructure</title>
+    <link href="https://dev.to/samson_tanimawo/cost-attribution-in-shared-infrastructure-h7p" rel="alternate"/>
+    <id>https://dev.to/samson_tanimawo/cost-attribution-in-shared-infrastructure-h7p</id>
+    <updated>2026-07-31T22:23:15Z</updated>
+    <summary type="text">Your shared Kubernetes cluster costs $80k/month. Which team owes what? If your answer is 'I don't know,' you have a finops problem that's about to become a political problem. Here's how to do cost attribution without starting a war. The levels of attribution Level 0: No attribution. Infra budget is infrastructure's problem. Teams spend freely. This works at &lt;50 engineers. Above that, waste explode</summary>
+    <author><name>Samson Tanimawo</name></author>
+  </entry>
+  <entry>
+    <title>Beyond the Resume: Why Every Tech Professional Needs a Portfolio</title>
+    <link href="https://dev.to/priya_sajja_c336921bbda87/beyond-the-resume-why-every-tech-professional-needs-a-portfolio-1dp2" rel="alternate"/>
+    <id>https://dev.to/priya_sajja_c336921bbda87/beyond-the-resume-why-every-tech-professional-needs-a-portfolio-1dp2</id>
+    <updated>2026-07-31T22:11:36Z</updated>
+    <summary type="text">Why Every Tech Professional Should Have a Portfolio Today, I want to talk about something that can make a huge difference in your career: your portfolio. When people hear the word portfolio, they often think it is only for UX designers or graphic designers. In reality, a portfolio is valuable for almost everyone working in technology—whether you are a UX designer, UX researcher, software developer</summary>
+    <author><name>Pavanipriya Sajja</name></author>
+  </entry>
+  <entry>
+    <title>Claude Sonnet 5 vs Opus 5: A Real-World Comparison (2026)</title>
+    <link href="https://dev.to/tonyspiro/claude-sonnet-5-vs-opus-5-a-real-world-comparison-2026-1o67" rel="alternate"/>
+    <id>https://dev.to/tonyspiro/claude-sonnet-5-vs-opus-5-a-real-world-comparison-2026-1o67</id>
+    <updated>2026-07-31T22:07:25Z</updated>
+    <summary type="text">Originally published on the Cosmic blog. Anthropic shipped Claude Sonnet 5 on June 30, 2026 and Claude Opus 5 on July 24, 2026. Both are excellent. The expensive mistake is picking one, wiring it into every code path, and then either overpaying on trivial work or under-resourcing the work that actually matters. This is the practical breakdown: what each model is measurably good at, what the same j</summary>
+    <author><name>Tony Spiro</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>The Requests library for AI one Unified Python SDK for every LLM provider</title>
@@ -428,41 +461,5 @@
     <summary type="text">The UK’s consumer and antitrust watchdog is investigating whether Microsoft Corp. misled customers into paying more for its productivity tools software subscriptions after adding its Copilot AI product to the suite.</summary>
     <author><name>Upmanyu Trivedi</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Alpine Mirage: How Upgrading Python Broke My Build and Led to a Truer Security Posture</title>
-    <link href="https://dev.to/rohithtp/the-alpine-mirage-how-upgrading-python-broke-my-build-and-led-to-a-truer-security-posture-38ne" rel="alternate"/>
-    <id>https://dev.to/rohithtp/the-alpine-mirage-how-upgrading-python-broke-my-build-and-led-to-a-truer-security-posture-38ne</id>
-    <updated>2026-07-30T03:50:29Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. The Initial Goal: &quot;Upgrade and Secure&quot; Like many developers, I recently fell into the trap of assuming that &quot;smaller is always better, and newer is always safer.&quot; I decided to upgrade my terminal-based web UI project, py_terminal, to the bleeding-edge python:3.15-rc-alpine Docker base image. The logic was sound: Alpi</summary>
-    <author><name>Rohith Pavithran</name></author>
-  </entry>
-  <entry>
-    <title>Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models</title>
-    <link href="https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/</id>
-    <updated>2026-07-28T22:45:56Z</updated>
-    <summary type="text">Fireworks AI has released Fireworks Nexus, an AI management and routing platform aimed at engineering organizations. It connects the coding tools developers already use to a managed layer of open-weight models. The problem it targets is well documented. Forbes reported that Uber exhausted its entire 2026 AI budget in four months. Claude Code had reached […] The post Fireworks AI Releases Fireworks</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From RAG to Agentic AI. How I Added LangGraph to My Local</title>
-    <link href="https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e" rel="alternate"/>
-    <id>https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e</id>
-    <updated>2026-07-29T21:42:11Z</updated>
-    <summary type="text">In my previous article, I built a fully local RAG assistant Ollama, ChromaDB, LangChain, all running in Docker. It answered technical support questions by searching through documentation and citing sources. It worked. But after using it for a while, I noticed something uncomfortable: it treated every question the same way. Ask it &quot;how to close monthly payroll?&quot; it searches the docs. Fine. Ask it &quot;</summary>
-    <author><name>TAGBA G-Josaphat E.</name></author>
-    <category term="agents"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Your Software Architecture Is Quietly Copying Your Team</title>
-    <link href="https://dev.to/marcel-bundle/your-software-architecture-is-quietly-copying-your-team-4g2d" rel="alternate"/>
-    <id>https://dev.to/marcel-bundle/your-software-architecture-is-quietly-copying-your-team-4g2d</id>
-    <updated>2026-07-29T21:19:43Z</updated>
-    <summary type="text">If this is too long, tldr: Google Conway’s Law wath yt video and think There is a popular rule in software development called Conway's Law. It says that organizations design systems that mirror the way people inside those organizations communicate. In simpler terms: Your architecture will eventually look like your team structure. Big company with separate frontend, backend, data, DevOps, and platf</summary>
-    <author><name>Marcel Czuryszkiewicz</name></author>
-    <category term="data"/>
   </entry>
 </feed>
