@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T17:43:25Z</updated>
+  <updated>2026-07-31T19:40:02Z</updated>
   <entry>
     <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
     <link href="https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/" rel="alternate"/>
@@ -13,6 +13,32 @@
     <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
     <author><name>Michal Sutter</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why Deleting a Hardcoded Secret Does Not Fix It (CWE-798)</title>
+    <link href="https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1" rel="alternate"/>
+    <id>https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1</id>
+    <updated>2026-07-31T19:38:33Z</updated>
+    <summary type="text">TL;DR AI editors paste real-looking API keys, JWT secrets, and DB passwords straight into your source code because their training data is full of tutorials that do exactly that. A hardcoded secret in a committed file is a live credential the moment it hits your git history, and rotating it later doesn't undo the exposure. The fix is to read every secret from an environment variable and run a secre</summary>
+    <author><name>Charles Kern</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Data Migration, Conversion, and ETL — What I Actually Did, Across Two Eras</title>
+    <link href="https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj" rel="alternate"/>
+    <id>https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj</id>
+    <updated>2026-07-31T19:26:58Z</updated>
+    <summary type="text">Three words that engineers use interchangeably and shouldn't: Migration is a one-time move — different system, different schema, run once, archive the scripts. Conversion is what happens inside a migration when the shape of the data has to change (types, keys, business rules). ETL is a continuous integration pattern — extract, transform, load — running forever between two systems that both stay al</summary>
+    <author><name>Sangeetha Kalia</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>From 1.2GB to 24MB: How I Sped Up Our Next.js CI/CD Pipeline by 4 in One Afternoon</title>
+    <link href="https://dev.to/stevez/from-12gb-to-24mb-how-i-sped-up-our-nextjs-cicd-pipeline-by-4-in-one-afternoon-3523" rel="alternate"/>
+    <id>https://dev.to/stevez/from-12gb-to-24mb-how-i-sped-up-our-nextjs-cicd-pipeline-by-4-in-one-afternoon-3523</id>
+    <updated>2026-07-31T18:58:41Z</updated>
+    <summary type="text">The Situation Our team's CI/CD pipeline on Azure DevOps was taking 15 minutes to complete on every push to develop. You'd merge a PR, grab a coffee, come back — and it was still running. A 15-minute feedback loop breaks flow state — by the time the pipeline finishes, you've already switched context twice and forgotten what you were checking. I spent an afternoon digging into the Azure DevOps logs.</summary>
+    <author><name>Steve Zhang</name></author>
   </entry>
   <entry>
     <title>Kubernetes earned its security badge in 2017 and never came back</title>
@@ -57,15 +83,6 @@
     <updated>2026-07-31T15:00:32Z</updated>
     <summary type="text">AI-Assisted Code Reviews: Your New Pair Programmer Let's be real—code reviews are necessary but tedious. You're already tired, and now you have to nitpick someone's variable names while staying constructive. What if you had a second pair of eyes that never gets grumpy? The Problem With Manual Reviews Manual code reviews catch bugs, but they're slow. They're also subjective. One reviewer gets picky</summary>
     <author><name>Learn AI Resource</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft's AI Story Is Still Being Discovered, Says Goldman</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video</id>
-    <updated>2026-07-30T17:55:38Z</updated>
-    <summary type="text">Gabriela Borges, Goldman Sachs managing director and senior software equity research analyst, joins Bloomberg after raising her price target on Microsoft, saying the software giant is showing stronger signs that its AI investments are translating into revenue. She discusses Azure growth, improving adoption of Copilot, Microsoft's AI strategy, and why she believes investors are only beginning to ap</summary>
-    <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -445,23 +462,5 @@
     <author><name>Ali Farhat</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I built Lucius to make coding-agent sessions easier to understand</title>
-    <link href="https://dev.to/berkantay/i-built-lucius-to-make-coding-agent-sessions-easier-to-understand-4677" rel="alternate"/>
-    <id>https://dev.to/berkantay/i-built-lucius-to-make-coding-agent-sessions-easier-to-understand-4677</id>
-    <updated>2026-07-29T20:17:17Z</updated>
-    <summary type="text">Claude Code and Codex are powerful, but longer sessions can become surprisingly difficult to follow. The terminal quickly fills with: tool calls shell commands retries errors test output file changes long explanations By the end of a session, the important questions are often still unclear: What actually changed? Why did it change? What failed? What should I review? That is why I built Lucius. Luc</summary>
-    <author><name>Berkant</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Montando um Cluster Kubernetes On-Premise — Parte 6: Deploy, Atualização e Escalabilidade de uma Aplicação Própria</title>
-    <link href="https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-6-deploy-atualizacao-e-escalabilidade-de-uma-588g" rel="alternate"/>
-    <id>https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-6-deploy-atualizacao-e-escalabilidade-de-uma-588g</id>
-    <updated>2026-07-29T19:04:42Z</updated>
-    <summary type="text">🇺🇸 English version coming soon. Na Parte 5 desta série, validamos o cluster de ponta a ponta fazendo o deploy do Nginx. Agora vamos um passo além: construir a imagem Docker de uma aplicação própria, publicá-la, colocá-la para rodar no cluster e explorar operações do dia a dia — atualização de versão, rollback e escalabilidade (manual e automática). Como exemplo, foi utilizada uma API REST simples </summary>
-    <author><name>Celso Nery</name></author>
   </entry>
 </feed>
