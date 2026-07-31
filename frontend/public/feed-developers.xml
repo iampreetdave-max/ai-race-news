@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-07-31T09:48:45Z</updated>
+  <updated>2026-07-31T12:03:56Z</updated>
+  <entry>
+    <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
+    <link href="https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/</id>
+    <updated>2026-07-31T05:06:43Z</updated>
+    <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Microsoft's AI Story Is Still Being Discovered, Says Goldman</title>
     <link href="https://www.bloomberg.com/news/videos/2026-07-30/goldman-sees-more-ai-upside-for-microsoft-video" rel="alternate"/>
@@ -13,6 +22,45 @@
     <summary type="text">Gabriela Borges, Goldman Sachs managing director and senior software equity research analyst, joins Bloomberg after raising her price target on Microsoft, saying the software giant is showing stronger signs that its AI investments are translating into revenue. She discusses Azure growth, improving adoption of Copilot, Microsoft's AI strategy, and why she believes investors are only beginning to ap</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Data Warehouse Is Not Your Data Pipeline</title>
+    <link href="https://dev.to/andrew_tan_layline/your-data-warehouse-is-not-your-data-pipeline-4n6" rel="alternate"/>
+    <id>https://dev.to/andrew_tan_layline/your-data-warehouse-is-not-your-data-pipeline-4n6</id>
+    <updated>2026-07-31T11:14:14Z</updated>
+    <summary type="text">Teams keep forcing their warehouse to do integration work it was never designed for. The result is ballooning costs, opaque failures, and architectures that become harder to maintain the more they ‘succeed.’ Here’s the case for separating data movement from analytics storage. The expensive truth about modern data stacks Spend enough time around data platform teams and you hear the same story. A co</summary>
+    <author><name>Andrew Tan</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>A user spent four days designing a feature for my project. The right answer was zero lines of code.</title>
+    <link href="https://dev.to/achiya-automation/a-user-spent-four-days-designing-a-feature-for-my-project-the-right-answer-was-zero-lines-of-code-bff" rel="alternate"/>
+    <id>https://dev.to/achiya-automation/a-user-spent-four-days-designing-a-feature-for-my-project-the-right-answer-was-zero-lines-of-code-bff</id>
+    <updated>2026-07-31T11:12:44Z</updated>
+    <summary type="text">Last week I got the best feature request my open-source project has ever received. It was detailed, technically literate, fail-closed by design, and came from someone who clearly runs the tool harder than I do. I'm not going to build it. And the person who asked for it agrees — because the conversation ended with him shipping the fix, in his own layer, as a package other people can now use. I want</summary>
+    <author><name>אחיה כהן</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How BrowserAct Fixed the Stale-Selector Failures Breaking My Browser Tasks</title>
+    <link href="https://dev.to/dannwaneri/how-browseract-fixed-the-stale-selector-failures-breaking-my-browser-tasks-52b5" rel="alternate"/>
+    <id>https://dev.to/dannwaneri/how-browseract-fixed-the-stale-selector-failures-breaking-my-browser-tasks-52b5</id>
+    <updated>2026-07-31T11:06:54Z</updated>
+    <summary type="text">Disclosure: BrowserAct sponsored this piece. The BrowserAct links below are affiliate-tracked — I get credit if you sign up through them. I keep hitting the same failure building agent workflows in Claude Code: the agent captures a selector once, the page re-renders with a new build hash, and the next run breaks on an element that's still right there on the screen — just under a different id. Brow</summary>
+    <author><name>Daniel Nwaneri</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Your RAG copilot can't count — stop letting it try</title>
+    <link href="https://dev.to/rdiegoss/your-rag-copilot-cant-count-stop-letting-it-try-2ie3" rel="alternate"/>
+    <id>https://dev.to/rdiegoss/your-rag-copilot-cant-count-stop-letting-it-try-2ie3</id>
+    <updated>2026-07-31T11:00:29Z</updated>
+    <summary type="text">Your RAG copilot can't count — stop letting it try A user asked our document-search copilot a completely reasonable question: how many documents a specific person authored. The copilot answered with a number. Confidently. With a nice sentence around it. The real answer, computed by the database, was 84. The copilot said — because it did what every RAG system does when you ask it an aggregation que</summary>
+    <author><name>Rodrigo Diego</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Microsoft's Goldilocks AI Quarter</title>
@@ -416,43 +464,6 @@
     <updated>2026-07-29T10:32:56Z</updated>
     <summary type="text">AI-Driven Development: Transforming Software Workflows in 2026 In 2026, the software development landscape has undergone a seismic shift. Artificial intelligence is no longer a peripheral tool for auto-completing lines of code; it has become the central nervous system of the development process. From ideation to deployment, AI agents, large language models, and machine learning pipelines are embed</summary>
     <author><name>Kai X Intelligence</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Terraform Should Not Deploy Into EKS. ArgoCD Should.</title>
-    <link href="https://dev.to/valeriouberti/terraform-should-not-deploy-into-eks-argocd-should-5cii" rel="alternate"/>
-    <id>https://dev.to/valeriouberti/terraform-should-not-deploy-into-eks-argocd-should-5cii</id>
-    <updated>2026-07-29T10:17:01Z</updated>
-    <summary type="text">Many teams use Terraform to provision AWS and then keep going: Helm charts, namespaces, add-ons, even application manifests inside EKS. That looks efficient. It is actually the fastest way to blur the boundary between infrastructure and platform. The better model is less convenient at first: application repo for source code and builds; ops repo for Terraform and GitOps manifests; Terraform limited</summary>
-    <author><name>Valerio Uberti</name></author>
-  </entry>
-  <entry>
-    <title>Arc 14 Catch-up: Agentic Solana</title>
-    <link href="https://dev.to/100daysofsolana/arc-14-catch-up-agentic-solana-4ap2" rel="alternate"/>
-    <id>https://dev.to/100daysofsolana/arc-14-catch-up-agentic-solana-4ap2</id>
-    <updated>2026-07-29T09:59:11Z</updated>
-    <summary type="text">An AI agent with access to a wallet sounds powerful. It also sounds like it could be risky. A language model can misunderstand a request, choose the wrong tool, repeat an action, or confidently pursue a goal that should never have been allowed in the first place. Giving it unrestricted signing authority would turn those mistakes into transactions. Arc 14 was about building something more useful th</summary>
-    <author><name>Matthew Revell</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym</title>
-    <link href="https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/</id>
-    <updated>2026-07-28T08:33:30Z</updated>
-    <summary type="text">Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window. The model does not ship as a standalone endpoint — it runs inside MDASH, Microsoft's multi-model agentic scanning harness, where it handles up to 90% of tasks and pushes the system to 95.95% on CyberGym</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Stop Regex-ing User-Agents. Give Your AI Agent a Parser Instead.</title>
-    <link href="https://dev.to/renato_marinho/stop-regex-ing-user-agents-give-your-ai-agent-a-parser-instead-n49" rel="alternate"/>
-    <id>https://dev.to/renato_marinho/stop-regex-ing-user-agents-give-your-ai-agent-a-parser-instead-n49</id>
-    <updated>2026-07-29T06:58:22Z</updated>
-    <summary type="text">I spent years writing regex patterns for User-Agent strings. I thought I was clever. Every time a new browser version dropped or a weird mobile device emerged, my pattern would break, and I'd be back in the terminal, squinting at logs, trying to figure out if that string was a legitimate crawler or a bot attempting to scrape our endpoints. We all know how it goes. You have a massive log file from </summary>
-    <author><name>Renato Marinho</name></author>
     <category term="agents"/>
     <category term="llm"/>
   </entry>
