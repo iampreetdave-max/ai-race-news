@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-01T11:20:35Z</updated>
+  <updated>2026-08-01T13:36:10Z</updated>
   <entry>
     <title>Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks</title>
     <link href="https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/" rel="alternate"/>
@@ -24,6 +24,23 @@
     <author><name>Sana Hassan</name></author>
     <category term="hardware"/>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Spec-driven development with AI agents: constitutions, checkpoints, and handoffs</title>
+    <link href="https://dev.to/hannody/spec-driven-development-with-ai-agents-constitutions-checkpoints-and-handoffs-2o8l" rel="alternate"/>
+    <id>https://dev.to/hannody/spec-driven-development-with-ai-agents-constitutions-checkpoints-and-handoffs-2o8l</id>
+    <updated>2026-08-01T13:09:19Z</updated>
+    <summary type="text">AI coding agents are strangely lopsided. Hand one a well-scoped task and it writes better code, faster, than I do. Hand it a large feature, the kind that takes days and touches a dozen files across several layers, and the failure mode changes. The context window fills up and quality quietly degrades (AKA context rot). A fresh session, missing the history, confidently invents an API that never exis</summary>
+    <author><name>Mohanad Abu-Nayla</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>A Practical MCP Server Health Check: 6 Signals Before You Install</title>
+    <link href="https://dev.to/wwqking/a-practical-mcp-server-health-check-6-signals-before-you-install-nig" rel="alternate"/>
+    <id>https://dev.to/wwqking/a-practical-mcp-server-health-check-6-signals-before-you-install-nig</id>
+    <updated>2026-08-01T12:56:23Z</updated>
+    <summary type="text">An MCP server can give an AI assistant access to a filesystem, browser, database, API, or internal service. That makes installation less like adding a bookmark and more like approving a new integration. Before I install one, I run a short health check. It does not replace a security audit, but it catches the most common problems: stale packages, unclear ownership, excessive permissions, and instru</summary>
+    <author><name>stotyMan</name></author>
   </entry>
   <entry>
     <title>AWS Lambda and NestJS: Communication between services</title>
@@ -359,6 +376,15 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Gemma4 (31B, bf16) constantly fails to edit files due to mismatches in original text - just me?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vcn0w2/gemma4_31b_bf16_constantly_fails_to_edit_files/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vcn0w2/gemma4_31b_bf16_constantly_fails_to_edit_files/</id>
+    <updated>2026-08-01T13:09:33Z</updated>
+    <summary type="text">I've been trying to find a good model to run locally, and in the benchmarks I can Gemma4 does well. However, whenever I give it anything that involves writing any code, it sits in loops trying to edit files sending the wrong original content (usually it messes up something like the indentation) and the harness rejects it saying that code doesn't exist in the file. I tried the same task in a bunch </summary>
+    <author><name>/u/DanTup</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How to Connect Claude Code to Your CMS with MCP</title>
     <link href="https://dev.to/tonyspiro/how-to-connect-claude-code-to-your-cms-with-mcp-3n95" rel="alternate"/>
     <id>https://dev.to/tonyspiro/how-to-connect-claude-code-to-your-cms-with-mcp-3n95</id>
@@ -432,32 +458,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Copilot for Word Will Copy Its Own Poison Into Every Document It Touches</title>
-    <link href="https://dev.to/coridev/copilot-for-word-will-copy-its-own-poison-into-every-document-it-touches-509e" rel="alternate"/>
-    <id>https://dev.to/coridev/copilot-for-word-will-copy-its-own-poison-into-every-document-it-touches-509e</id>
-    <updated>2026-07-30T14:31:32Z</updated>
-    <summary type="text">A researcher just disclosed something that should worry anyone using Microsoft 365 Copilot for document generation: Copilot for Word can be manipulated by hidden, invisible-formatted text embedded in a document, and the resulting bad behavior doesn't stay contained to that one file. It alters financial figures on command, and it copies the malicious instructions forward into newly generated docume</summary>
-    <author><name>Cor E</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Every gate in my system is a scar</title>
-    <link href="https://dev.to/martinschenk/every-gate-in-my-system-is-a-scar-33la" rel="alternate"/>
-    <id>https://dev.to/martinschenk/every-gate-in-my-system-is-a-scar-33la</id>
-    <updated>2026-07-30T14:09:36Z</updated>
-    <summary type="text">Last week a Claude Code session told me that my order queue had 180 open items, that none of them was older than 13 days, and that 221 of the 254 entries had been written by Claude Code sessions. It had counted itself. The largest single mailbox in the system was the system working on itself: 36 orders, about 30 of which were the tooling improving its own tooling. I had not looked at that list in </summary>
-    <author><name>Martin Schenk</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Top AI Papers on Hugging Face - 2026-07-30</title>
-    <link href="https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-30-2cpn" rel="alternate"/>
-    <id>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-07-30-2cpn</id>
-    <updated>2026-07-30T12:01:19Z</updated>
-    <summary type="text">10 paper AI nổi bật nhất trên Hugging Face hôm nay: robot thời gian thực, agentic search, coding agents và học tăng cường thế hệ mới Hôm nay, top paper được upvote cao trên Hugging Face cho thấy một bức tranh rất rõ về hướng đi của AI hiện tại: AI đang rời khỏi các benchmark tĩnh để tiến vào thế giới hành động thực tế — robot phải chạy nhanh hơn, agent phải tìm tài liệu tốt hơn, coding assistant p</summary>
-    <author><name>Y Hành Nhan</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
