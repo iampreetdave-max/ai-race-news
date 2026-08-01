@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-01T19:14:39Z</updated>
+  <updated>2026-08-01T20:58:31Z</updated>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
     <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
@@ -33,6 +33,37 @@
     <author><name>Sana Hassan</name></author>
     <category term="hardware"/>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Clive — a friendly CLI for local LLMs</title>
+    <link href="https://dev.to/sedarolmez94/clive-a-friendly-cli-for-local-llms-36l9" rel="alternate"/>
+    <id>https://dev.to/sedarolmez94/clive-a-friendly-cli-for-local-llms-36l9</id>
+    <updated>2026-08-01T20:21:19Z</updated>
+    <summary type="text">Why I built Clive For the last couple of weeks, as the cost of frontier models kept climbing, I started experimenting with open-source large language models. What surprised me: for most of the tasks I'd normally hand to Claude or GPT, a local open-source model did the job just as well — and sometimes better. The problem was the ergonomics. Ollama makes running local models genuinely easy, but I wa</summary>
+    <author><name>Sedar Olmez</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Why Your Web Scrapers Keep Breaking (And How to Build Self-Healing TypeScript Agents Using LLMs and Playwright)</title>
+    <link href="https://dev.to/programmingcentral/why-your-web-scrapers-keep-breaking-and-how-to-build-self-healing-typescript-agents-using-llms-and-4of2" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/why-your-web-scrapers-keep-breaking-and-how-to-build-self-healing-typescript-agents-using-llms-and-4of2</id>
+    <updated>2026-08-01T20:00:00Z</updated>
+    <summary type="text">If you have ever maintained a production web scraping pipeline or an automated form-filling assistant, you know the sinking feeling of checking your logs on a Monday morning and seeing a wall of red. A front-end engineer changed a class attribute from btn-primary to btn-action-primary, an A/B testing framework altered the DOM tree hierarchy, or a minor React component update randomized your CSS se</summary>
+    <author><name>Programming Central</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+    <category term="data"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What it took to ship a production remote MCP server with OAuth 2.1</title>
+    <link href="https://dev.to/getminds/what-it-took-to-ship-a-production-remote-mcp-server-with-oauth-21-364c" rel="alternate"/>
+    <id>https://dev.to/getminds/what-it-took-to-ship-a-production-remote-mcp-server-with-oauth-21-364c</id>
+    <updated>2026-08-01T19:48:50Z</updated>
+    <summary type="text">Publishing an MCP endpoint is easy. Making it behave consistently across clients is where the work starts. We recently shipped a hosted MCP server for Minds, an evidence-grounded synthetic market research platform. The server now connects to ChatGPT, Claude, Cursor, Google Antigravity, and clients that support Streamable HTTP. Here are the implementation lessons that mattered. 1. The transport end</summary>
+    <author><name>Minds</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What's new in our latest Android dependency bumps — ConstraintLayout, Firebase, Intercom, Auth0</title>
@@ -427,33 +458,5 @@
     <author><name>Tony Spiro</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails</title>
-    <link href="https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/</id>
-    <updated>2026-07-29T16:46:45Z</updated>
-    <summary type="text">Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...</summary>
-    <author><name>Tanya Lenz</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Opus 5, GPT-5.6, Gemini 3.1: A Practical Guide to Picking the Right AI Model (Without Going Broke)</title>
-    <link href="https://dev.to/aplomb2/opus-5-gpt-56-gemini-31-a-practical-guide-to-picking-the-right-ai-model-without-going-broke-4hpj" rel="alternate"/>
-    <id>https://dev.to/aplomb2/opus-5-gpt-56-gemini-31-a-practical-guide-to-picking-the-right-ai-model-without-going-broke-4hpj</id>
-    <updated>2026-07-30T20:32:37Z</updated>
-    <summary type="text">July 2026 might be the most confusing month in AI model history. Anthropic shipped Opus 5. OpenAI dropped the GPT-5.6 family with three tiers (Sol, Terra, Luna). Google pushed Gemini 3.1 Pro Preview. And every one of them claims to be &quot;the best.&quot; If you're building with AI—especially using coding agents like Claude Code, Codex, or Cursor—you're probably asking the same question I was six months ag</summary>
-    <author><name>Bo Shen</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache</title>
-    <link href="https://dev.to/susheem-k/how-coding-agents-like-cursor-quietly-cut-input-costs-by-reusing-kv-states-across-turns-and-what-49fe" rel="alternate"/>
-    <id>https://dev.to/susheem-k/how-coding-agents-like-cursor-quietly-cut-input-costs-by-reusing-kv-states-across-turns-and-what-49fe</id>
-    <updated>2026-07-30T19:11:26Z</updated>
-    <summary type="text">Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and noticed a metric I'd never paid attention to before: Cache Read. Date Type Model Tokens May 2, 06:50 PM Included auto 898K → Cache Read May 2, 06:49 PM Included auto 1.4M → Cache Write May 2, 06:47 PM Included auto 346.8K → Input / Output Almost 99% of my input tokens for that session were served from cache. That </summary>
-    <author><name>Susheem Koul</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
