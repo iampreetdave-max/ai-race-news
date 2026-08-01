@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-01T06:33:27Z</updated>
+  <updated>2026-08-01T09:09:22Z</updated>
   <entry>
     <title>LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export</title>
     <link href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/" rel="alternate"/>
@@ -14,6 +14,51 @@
     <author><name>Sana Hassan</name></author>
     <category term="hardware"/>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Supercharging AI Coding Agents &amp; Custom Agent Runtimes with Persistent Memory: A Detailed Cookbook</title>
+    <link href="https://dev.to/codingsimba/supercharging-ai-coding-agents-custom-agent-runtimes-with-persistent-memory-a-detailed-cookbook-1p03" rel="alternate"/>
+    <id>https://dev.to/codingsimba/supercharging-ai-coding-agents-custom-agent-runtimes-with-persistent-memory-a-detailed-cookbook-1p03</id>
+    <updated>2026-08-01T08:55:31Z</updated>
+    <summary type="text">Whether you use pre-built AI coding tools like Claude Code, OpenAI Codex, OpenCode, and Cursor, or you are building custom autonomous agent runtimes in TypeScript, every agent environment suffers from the same limitation: Every new chat or execution trajectory starts with zero knowledge of past decisions. Switching git branches or spawning subagents confuses the agent about active dependencies. Wh</summary>
+    <author><name>Christopher S. Aondona</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Tokeness review: one API key for GPT/Claude/Gemini/Grok/DeepSeek/Kimi (with real caveats)</title>
+    <link href="https://dev.to/virtualhotbar/tokeness-review-one-api-key-for-gptclaudegeminigrokdeepseekkimi-with-real-caveats-1ao1" rel="alternate"/>
+    <id>https://dev.to/virtualhotbar/tokeness-review-one-api-key-for-gptclaudegeminigrokdeepseekkimi-with-real-caveats-1ao1</id>
+    <updated>2026-08-01T08:49:59Z</updated>
+    <summary type="text">TL;DR: Moved my multi-model API usage to Tokeness (tokeness.io), a third-party API gateway. One key covers GPT, Claude, Gemini, Grok, DeepSeek, GLM and Kimi; prepaid CNY billing (7:1) with business invoices; per-1M-token prices listed openly in the console; genuinely usable free tier. Main caveats: GPT/Claude are blocked for mainland China IPs (their own compliance decision, not a bug), it's a rel</summary>
+    <author><name>VirtualHotBar</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Docker Hub gets OIDC federation for GitHub Actions, retiring the PAT-in-a-secret pattern</title>
+    <link href="https://dev.to/leobaniak/docker-hub-gets-oidc-federation-for-github-actions-retiring-the-pat-in-a-secret-pattern-1392" rel="alternate"/>
+    <id>https://dev.to/leobaniak/docker-hub-gets-oidc-federation-for-github-actions-retiring-the-pat-in-a-secret-pattern-1392</id>
+    <updated>2026-08-01T08:24:56Z</updated>
+    <summary type="text">Docker has switched on OpenID Connect authentication between GitHub Actions and Docker Hub, letting a workflow exchange a signed per-run identity token for a short-lived Docker credential instead of reading a Personal Access Token out of a repo secret. Per the Docker blog, the feature is available to organizations on Docker Team, Docker Business and Docker Hardened Images plans. For platform teams</summary>
+    <author><name>Leo</name></author>
+  </entry>
+  <entry>
+    <title>Kubernetes Operator con Kubebuilder: best practice per evitare conflitti, retry inutili e reconciliation infinite</title>
+    <link href="https://dev.to/frontendfacile/kubernetes-operator-con-kubebuilder-best-practice-per-evitare-conflitti-retry-inutili-e-329b" rel="alternate"/>
+    <id>https://dev.to/frontendfacile/kubernetes-operator-con-kubebuilder-best-practice-per-evitare-conflitti-retry-inutili-e-329b</id>
+    <updated>2026-08-01T08:19:22Z</updated>
+    <summary type="text">Quando più controller toccano la stessa Custom Resource, la concorrenza diventa un problema reale: ecco come gestirla in modo robusto e scalabile. Il problema vero degli Operator: la concorrenza sugli aggiornamenti Nel mondo reale raramente hai un solo controller che gestisce “la sua” risorsa in modo isolato. Appena introduci: più controller nello stesso progetto (o nello stesso manager), controll</summary>
+    <author><name>frontendfacile.it</name></author>
+  </entry>
+  <entry>
+    <title>Our dev labs open-sourced a local Python middleware framework that intercepts, repairs, and stabilizes malformed AI JSON data streams within local in-memory arrays. Clocking a 0.0122ms runtime latency under 10k parallel asynchronous loads.</title>
+    <link href="https://dev.to/kylikdlabs/our-dev-labs-open-sourced-a-local-python-middleware-framework-that-intercepts-repairs-and-2fnm" rel="alternate"/>
+    <id>https://dev.to/kylikdlabs/our-dev-labs-open-sourced-a-local-python-middleware-framework-that-intercepts-repairs-and-2fnm</id>
+    <updated>2026-08-01T08:17:48Z</updated>
+    <summary type="text">Optimizing LLM Stream Ingestion: Reconstructing Truncated JSON Payloads in 0.0122ms Kylik Daniels Kylik Daniels Kylik Daniels Follow Aug 1 Optimizing LLM Stream Ingestion: Reconstructing Truncated JSON Payloads in 0.0122ms #python #langchain #architecture #performance 1 reaction Add Comment 1 min read</summary>
+    <author><name>Kylik Daniels</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
@@ -417,50 +462,5 @@
     <summary type="text">OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and Anthropic’s Claude Code in three others. Worth flagging upfront: this is a vendor publishing a survey of its own […] The post OpenAI report links coding agents to faster science so</summary>
     <author><name>Ryan Daws</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code SEO Workflow: Assessing a Reported Content Update Result</title>
-    <link href="https://dev.to/alifar/claude-code-seo-workflow-assessing-a-reported-content-update-result-2cch" rel="alternate"/>
-    <id>https://dev.to/alifar/claude-code-seo-workflow-assessing-a-reported-content-update-result-2cch</id>
-    <updated>2026-07-30T10:20:30Z</updated>
-    <summary type="text">A reported Claude Code workflow for content optimization claims that a targeted update improved a commercial page's average ranking position from 14.89 to 10.87 and increased daily clicks by 23.88%. The stated approach was not a wholesale rewrite. It focused on diagnosing content decay, retaining elements that were already working, and revising selected sections. Those figures have not been indepe</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Entry-Level Data Engineering Is Gone. Here's the Proof.</title>
-    <link href="https://dev.to/datadriven/entry-level-data-engineering-is-gone-heres-the-proof-4d3n" rel="alternate"/>
-    <id>https://dev.to/datadriven/entry-level-data-engineering-is-gone-heres-the-proof-4d3n</id>
-    <updated>2026-07-30T10:08:46Z</updated>
-    <summary type="text">I've been on both sides of the data engineering hiring table for years. Interviewed candidates, been the candidate, watched the market shift underneath both. Here's something nobody in the industry is saying plainly: if you're trying to break into data engineering as a junior in 2026, the door you're walking toward doesn't exist anymore. That's not pessimism. That's the data. The 67% Junior Data E</summary>
-    <author><name>DataDriven</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>How to Build a Profitable No-Code Tool as a Developer</title>
-    <link href="https://dev.to/qingluan/how-to-build-a-profitable-no-code-tool-as-a-developer-36ai" rel="alternate"/>
-    <id>https://dev.to/qingluan/how-to-build-a-profitable-no-code-tool-as-a-developer-36ai</id>
-    <updated>2026-07-30T10:00:51Z</updated>
-    <summary type="text">How to Build a Profitable No-Code Tool as a Developer tags: nocode, saas, money, startup You don’t need to abandon your developer skills to build a profitable no-code tool; instead, you need to leverage them to solve problems faster, validate ideas smarter, and ship products that actually sell. The most successful no-code tools aren’t built by people who know every platform—they’re built by develo</summary>
-    <author><name>qing</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>If Claude Code is expensive or hard to access for you, try OpenCode</title>
-    <link href="https://dev.to/joodi/if-claude-code-is-expensive-or-hard-to-access-for-you-try-opencode-5hfj" rel="alternate"/>
-    <id>https://dev.to/joodi/if-claude-code-is-expensive-or-hard-to-access-for-you-try-opencode-5hfj</id>
-    <updated>2026-07-30T09:56:02Z</updated>
-    <summary type="text">If Claude Code is expensive or hard to access for you, try OpenCode. It’s an open-source AI coding agent that works in the terminal, desktop, and as a VS Code extension. Free models available: DeepSeek V4 Flash Free (best option) MiMo v2.5 Free Nemotron 3 Ultra Free North Mini Code Free Big Pickle Ling-3.0-flash Free Laguna S 2.1 Free These free models work well for most daily coding tasks. Note: </summary>
-    <author><name>Joodi</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Developer-Led Content Marketing: Building a Technical Blog That Compounds to 50k Monthly Readers Without an Audience</title>
-    <link href="https://dev.to/software_mvp-factory/developer-led-content-marketing-building-a-technical-blog-that-compounds-to-50k-monthly-readers-160" rel="alternate"/>
-    <id>https://dev.to/software_mvp-factory/developer-led-content-marketing-building-a-technical-blog-that-compounds-to-50k-monthly-readers-160</id>
-    <updated>2026-07-30T07:34:35Z</updated>
-    <summary type="text">--- title: &quot;Developer-Led Content Marketing: Building a Technical Blog That Compounds to 50k Monthly Readers&quot; published: true description: &quot;Topic clustering, keyword mapping, and internal linking strategies to grow a developer blog to 50k monthly readers — no existing audience required.&quot; tags: architecture, devops, performance canonical_url: https://mvpfactory.co/blog/developer-content-marketing-5</summary>
-    <author><name>SoftwareDevs mvpfactory.io</name></author>
   </entry>
 </feed>
