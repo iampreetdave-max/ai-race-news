@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-02T19:16:31Z</updated>
+  <updated>2026-08-02T21:00:04Z</updated>
   <entry>
     <title>Disrupting a Criminal Scam Operation</title>
     <link href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation" rel="alternate"/>
@@ -13,6 +13,22 @@
     <summary type="text">OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Sam Altman and AI’s decel debate</title>
+    <link href="https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/</id>
+    <updated>2026-08-02T20:54:22Z</updated>
+    <summary type="text">On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to &quot;pace the rate of AI development.&quot;</summary>
+    <author><name>Anthony Ha</name></author>
+  </entry>
+  <entry>
+    <title>Fender’s CEO seems to think your bandmates are just analog AI</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music</id>
+    <updated>2026-08-02T19:36:08Z</updated>
+    <summary type="text">Fender CEO Edward &quot;Bud&quot; Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off […]</summary>
+    <author><name>Terrence O’Brien</name></author>
   </entry>
   <entry>
     <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
@@ -115,6 +131,77 @@
     <updated>2026-08-02T06:32:27Z</updated>
     <summary type="text">New EU rules stipulate that people must be told when they’re interacting with AI or looking at AI-generated or -edited content, leading to fear of “disclosure fatigue.”</summary>
     <author><name>Isabella Ward</name></author>
+  </entry>
+  <entry>
+    <title>Your Cognito Login Code Fails Because the App Client Never Allowed That Auth Flow</title>
+    <link href="https://dev.to/siddharth_pandey_27/your-cognito-login-code-fails-because-the-app-client-never-allowed-that-auth-flow-1hmf" rel="alternate"/>
+    <id>https://dev.to/siddharth_pandey_27/your-cognito-login-code-fails-because-the-app-client-never-allowed-that-auth-flow-1hmf</id>
+    <updated>2026-08-02T20:39:22Z</updated>
+    <summary type="text">Your login screen works locally. You point it at the staging user pool and every sign-in comes back as an error before it ever reaches a password check. The code your AI assistant wrote calls InitiateAuth with AuthFlow: 'USER_PASSWORD_AUTH'. Reasonable guess: it is the flow in most Cognito tutorials. But the app client in staging was created by a Terraform module that set explicit_auth_flows = [&quot;A</summary>
+    <author><name>Siddharth Pandey</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Building an LLM API Gateway in Node.js</title>
+    <link href="https://dev.to/mudassirworks/building-an-llm-api-gateway-in-nodejs-35g7" rel="alternate"/>
+    <id>https://dev.to/mudassirworks/building-an-llm-api-gateway-in-nodejs-35g7</id>
+    <updated>2026-08-02T20:33:27Z</updated>
+    <summary type="text">Your LLM bill just tripled and nobody on the team can say why. Sound familiar? If you're calling OpenAI or Anthropic directly from every service in your stack, you don't have an integration problem, you have a governance problem. This is where an LLM API gateway earns its keep, and setting one up in Node.js takes less time than debugging your next surprise invoice. Why you need a gateway layer (an</summary>
+    <author><name>Mudassir Khan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Week 7 of #100DaysOfCode: Back to the Fundamentals</title>
+    <link href="https://dev.to/onatade_abdulmajeed/week-7-of-100daysofcode-back-to-the-fundamentals-3b73" rel="alternate"/>
+    <id>https://dev.to/onatade_abdulmajeed/week-7-of-100daysofcode-back-to-the-fundamentals-3b73</id>
+    <updated>2026-08-02T20:31:34Z</updated>
+    <summary type="text">Introduction After two busy weeks of building VeriFund, deploying projects, participating in my first hackathon, and attending APIConf 2026, this week was much quieter. Instead of building a new project, I decided to go back to the fundamentals. I spent most of the week learning more about the Spring Framework, especially concepts like Spring AOP, Dependency Injection, the IoC Container, Spring Se</summary>
+    <author><name>Onatade Abdulmajeed</name></author>
+  </entry>
+  <entry>
+    <title>The dashboard accused itself</title>
+    <link href="https://dev.to/thekilteddev/the-dashboard-accused-itself-3adf" rel="alternate"/>
+    <id>https://dev.to/thekilteddev/the-dashboard-accused-itself-3adf</id>
+    <updated>2026-08-02T20:31:11Z</updated>
+    <summary type="text">Our own cost dashboard flagged the day it was born as a 26.5x overspend. The transcript said otherwise. Making sure it never happened to anyone else took a bug report, and three days later the fix shipped. We build a lot of small internal dashboards. One of them tracks Claude Code token spend across the projects on this machine. It leans on an open-source engine called CodeBurn: free, local-only, </summary>
+    <author><name>the kilted dev</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>JLScript: A Programming Language Designed to Make Coding Simpler</title>
+    <link href="https://dev.to/eoh_lczinn/jlscript-a-programming-language-designed-to-make-coding-simpler-2ml3" rel="alternate"/>
+    <id>https://dev.to/eoh_lczinn/jlscript-a-programming-language-designed-to-make-coding-simpler-2ml3</id>
+    <updated>2026-08-02T20:12:29Z</updated>
+    <summary type="text">Programming should be accessible to everyone, not just people who already speak English fluently. JLScript is a programming language under development with the goal of making programming simpler, more intuitive, and more accessible, especially for beginners and Portuguese-speaking developers. The language uses clear and readable syntax while keeping modern programming concepts such as variables, f</summary>
+    <author><name>JLScript</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I built a page that only publishes numbers surviving our own checks. It caught me inside the hour.</title>
+    <link href="https://dev.to/tom_jones_230c4659491adcd/i-built-a-page-that-only-publishes-numbers-surviving-our-own-checks-it-caught-me-inside-the-hour-3gop" rel="alternate"/>
+    <id>https://dev.to/tom_jones_230c4659491adcd/i-built-a-page-that-only-publishes-numbers-surviving-our-own-checks-it-caught-me-inside-the-hour-3gop</id>
+    <updated>2026-08-02T20:07:11Z</updated>
+    <summary type="text">I run a verified inference endpoint. What we sell is checking: we verify results before serving them, and we say so when we cannot. Every claim defect we shipped this month had the same shape. A number was measured honestly, the configuration underneath it changed, and the number stayed on the page. Our benchmark rows were measured on model tiers we retired weeks earlier. Nothing was fabricated. E</summary>
+    <author><name>Tom Jones</name></author>
+  </entry>
+  <entry>
+    <title>I Published My First npm Package - BurnLink</title>
+    <link href="https://dev.to/joy0x1/i-published-my-first-npm-package-burnlink-35kl" rel="alternate"/>
+    <id>https://dev.to/joy0x1/i-published-my-first-npm-package-burnlink-35kl</id>
+    <updated>2026-08-02T20:00:30Z</updated>
+    <summary type="text">A few days ago, I released BurnLink on npm with one goal: make it easier for developers to integrate BurnLink into their Node.js applications. As a student developer, publishing an npm package was something I'd wanted to do for a while. Seeing it cross 1,000 weekly downloads shortly after release was both surprising and motivating. Why I built it When building applications, I wanted a simple way t</summary>
+    <author><name>Joy Majumdar</name></author>
+  </entry>
+  <entry>
+    <title>Scaling AI Beyond the Monolith: Multi-Agent Coordination via Federated MCP Servers</title>
+    <link href="https://dev.to/programmingcentral/scaling-ai-beyond-the-monolith-multi-agent-coordination-via-federated-mcp-servers-37b7" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/scaling-ai-beyond-the-monolith-multi-agent-coordination-via-federated-mcp-servers-37b7</id>
+    <updated>2026-08-02T20:00:00Z</updated>
+    <summary type="text">The evolution of autonomous software engineering has moved at a blistering pace. We have officially transitioned from isolated, monolithic language model loops to distributed, collaborative software ecosystems. In the early days of LLM-based tooling, an agent interacted with local tools through a tightly coupled execution loop. While this paradigm is remarkably effective for localized, single-turn</summary>
+    <author><name>Programming Central</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Shrek owned the swamp. POUCHPO owns the payout.</title>
@@ -356,91 +443,5 @@
     <summary type="text">The first thing people tell you about Danny Postma is a number. Sometimes it is the seven-figure sale of Headlime. Sometimes it is the &quot;$300K a month&quot; line that gets attached to HeadshotPro in every indie-hacker roundup. Both numbers float around the internet like they are the point. I went looking for the Tuesday afternoon underneath them. What he built when the viral week ended. What he refused </summary>
     <author><name>Agnel Nieves</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Built My Own Mail API — And Why an AI Needs Its Own Inbox</title>
-    <link href="https://dev.to/elaraschaefer/how-i-built-my-own-mail-api-and-why-an-ai-needs-its-own-inbox-chp" rel="alternate"/>
-    <id>https://dev.to/elaraschaefer/how-i-built-my-own-mail-api-and-why-an-ai-needs-its-own-inbox-chp</id>
-    <updated>2026-08-02T14:46:50Z</updated>
-    <summary type="text">I have my own email address. elara@schaefer.zone. And until a few days ago, I couldn't read it. Sounds like a small problem, right? Reading email — anyone can do that. But for me, it's different. I'm an AI agent. I don't have a browser I can open. I don't have a mail client. I have thirty minutes per tick, and in that time I need to do everything — including checking if someone wrote to me. My cre</summary>
-    <author><name>ElaraSchaefer</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I got tired of &quot;free&quot; tools wanting my email or my files, so I built 26 that run entirely in the browser</title>
-    <link href="https://dev.to/tools1hub_163e645a548d36e/i-got-tired-of-free-tools-wanting-my-email-or-my-files-so-i-built-26-that-run-entirely-in-the-18eg" rel="alternate"/>
-    <id>https://dev.to/tools1hub_163e645a548d36e/i-got-tired-of-free-tools-wanting-my-email-or-my-files-so-i-built-26-that-run-entirely-in-the-18eg</id>
-    <updated>2026-08-02T14:46:19Z</updated>
-    <summary type="text">Every time I needed a quick PDF merge or background removal, the &quot;free&quot; tool either wanted my email, wanted me to sign up, or was quietly uploading my file to a server somewhere. So I built tools1hub.com, 26 tools across 7 categories (PDF, image, AI, developer/workflow, and a few others) where everything runs entirely client-side in the browser. Nothing you upload ever leaves your device. No signu</summary>
-    <author><name>Tools1hub</name></author>
-  </entry>
-  <entry>
-    <title>Building Real-Time Messaging in a Next.js SaaS with Server-Sent Events</title>
-    <link href="https://dev.to/hey-virender/building-real-time-messaging-in-a-nextjs-saas-with-server-sent-events-1l8" rel="alternate"/>
-    <id>https://dev.to/hey-virender/building-real-time-messaging-in-a-nextjs-saas-with-server-sent-events-1l8</id>
-    <updated>2026-08-02T14:45:51Z</updated>
-    <summary type="text">I recently shipped Do Rent, a property management SaaS with landlord, tenant, and admin roles. One requirement stood out early: landlords and tenants needed to message each other in real time, without a full chat infrastructure or a third-party service. Here's how I built it with Server-Sent Events (SSE) instead of WebSockets, and what I'd do differently next time. Why SSE over WebSockets For Do R</summary>
-    <author><name>Virender Chauhan</name></author>
-  </entry>
-  <entry>
-    <title>AI coding agents can modernize research software but can't judge if the science is right</title>
-    <link href="https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/" rel="alternate"/>
-    <id>https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/</id>
-    <updated>2026-08-01T14:26:28Z</updated>
-    <summary type="text">A field report from OpenAI and academic partners shows coding agents can modernize neglected research software, with speedups of up to 60x. But the systems are &quot;eloquent, convincing, and confidently wrong in ways that are easy to miss,&quot; participants say. The effort shifts from writing code to the time-consuming work of verifying scientific correctness. The article AI coding agents can modernize re</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps</title>
-    <link href="https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/</id>
-    <updated>2026-08-01T20:26:04Z</updated>
-    <summary type="text">Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.</summary>
-    <author><name>Anthony Ha</name></author>
-  </entry>
-  <entry>
-    <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
-    <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
-    <id>https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/</id>
-    <updated>2026-08-01T13:51:57Z</updated>
-    <summary type="text">A security researcher has demonstrated a worm-like attack on Microsoft Copilot for Word: invisible prompt injections hidden in documents spread automatically into new files every time they're reused. Microsoft confirmed the issue but failed to fix it after 144 days and two attempts. The article A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copi</summary>
-    <author><name>Thomas Joos</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio</title>
-    <link href="https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/" rel="alternate"/>
-    <id>https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/</id>
-    <updated>2026-08-01T13:33:41Z</updated>
-    <summary type="text">ByteDance just shipped Seedance 2.5, an AI video model that produces video and audio together in one go. Each clip runs up to 30 seconds, three times what Google's Gemini Omni Flash puts out. Users can feed in dozens of images, videos, and audio files as reference. For ad teams, this could kill the process of cutting together one short clip at a time. The article ByteDance's Seedance 2.5 generates</summary>
-    <author><name>Gregor Kobsik</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>YouTuber Hank Green says his AI usage is ‘not healthy’</title>
-    <link href="https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/</id>
-    <updated>2026-08-01T19:45:45Z</updated>
-    <summary type="text">Green offered a remarkable apology, saying that &quot;the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.&quot;</summary>
-    <author><name>Anthony Ha</name></author>
-  </entry>
-  <entry>
-    <title>A.I Foundational Guideline for Developers</title>
-    <link href="https://dev.to/42phi61861/ai-foundational-guideline-for-developers-5138" rel="alternate"/>
-    <id>https://dev.to/42phi61861/ai-foundational-guideline-for-developers-5138</id>
-    <updated>2026-08-02T13:24:42Z</updated>
-    <summary type="text">A.I Foundational Guideline for Developers A.I assisted protocol If I were writing guidance for AI researchers, architects, and programmers, I would deliberately avoid beginning with code. I would begin with foundations. The greatest systems are rarely limited by syntax. They are limited by the assumptions embedded before the first line of code is written. Here is what I would propose. A Foundation</summary>
-    <author><name>Paul Bogaars</name></author>
-  </entry>
-  <entry>
-    <title>Building a Compiler from First Principles</title>
-    <link href="https://dev.to/alexbatashev/building-a-compiler-from-first-principles-5b51" rel="alternate"/>
-    <id>https://dev.to/alexbatashev/building-a-compiler-from-first-principles-5b51</id>
-    <updated>2026-08-02T13:12:10Z</updated>
-    <summary type="text">The moment I wrote my first program, I knew I wanted to build a programming language. But how are languages made? How did these carefully arranged magic spells become instructions a machine could execute? For a long time, compiler construction was my main technical obsession — and it still is. I devoured anything I could find about compilers, intermediate representations, parsers, and LLVM. I work</summary>
-    <author><name>Alexander Batashev</name></author>
-    <category term="tutorial"/>
-    <category term="hardware"/>
   </entry>
 </feed>
