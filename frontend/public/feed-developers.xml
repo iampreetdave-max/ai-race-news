@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-02T17:04:39Z</updated>
+  <updated>2026-08-02T19:16:31Z</updated>
+  <entry>
+    <title>Offset vs Cursor Pagination: The Mistake Most Backend Engineers Make</title>
+    <link href="https://dev.to/engrmark/offset-vs-cursor-pagination-the-mistake-most-backend-engineers-make-2gme" rel="alternate"/>
+    <id>https://dev.to/engrmark/offset-vs-cursor-pagination-the-mistake-most-backend-engineers-make-2gme</id>
+    <updated>2026-08-02T18:44:46Z</updated>
+    <summary type="text">Your API works perfectly today. Then six months later, your transaction table grows from 10,000 records to 10million records. Suddenly, requests that once took 80ms now takes 4seconds. The question is: Did you choose the right pagination strategy? Most backend developers are familiar with pagination, but many don't realize that there are different pagination strategies, and choosing the wrong one </summary>
+    <author><name>Adeniyi Olanrewaju</name></author>
+  </entry>
+  <entry>
+    <title>How do you code with AI 2026?</title>
+    <link href="https://dev.to/patrik_muravski_8a09367bf/how-do-you-code-with-ai-2026-4bp0" rel="alternate"/>
+    <id>https://dev.to/patrik_muravski_8a09367bf/how-do-you-code-with-ai-2026-4bp0</id>
+    <updated>2026-08-02T18:44:30Z</updated>
+    <summary type="text">Hi, I'm an average beginner developer with about one year of experience, and I'm wondering how people actually use AI for coding. I've been trying to work in small iterations—for example, first asking AI to write function A, then in a separate prompt function B, and finally asking it to combine both into feature C. I've also tried implementing end-to-end features by first creating a plan and then </summary>
+    <author><name>patrik muravski</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title># Deploying a Production-Style Amazon EKS Cluster on Fargate with AWS Load Balancer Controller and the 2048 Sample Application</title>
     <link href="https://dev.to/goodluck_ekeoma_2c98866d0/-deploying-a-production-style-amazon-eks-cluster-on-fargate-with-aws-load-balancer-controller-and-15pa" rel="alternate"/>
@@ -434,23 +451,5 @@
     <author><name>Malik Taimoor Awan</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why Deleting a Hardcoded Secret Does Not Fix It (CWE-798)</title>
-    <link href="https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1" rel="alternate"/>
-    <id>https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1</id>
-    <updated>2026-07-31T19:38:33Z</updated>
-    <summary type="text">TL;DR AI editors paste real-looking API keys, JWT secrets, and DB passwords straight into your source code because their training data is full of tutorials that do exactly that. A hardcoded secret in a committed file is a live credential the moment it hits your git history, and rotating it later doesn't undo the exposure. The fix is to read every secret from an environment variable and run a secre</summary>
-    <author><name>Charles Kern</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Data Migration, Conversion, and ETL — What I Actually Did, Across Two Eras</title>
-    <link href="https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj" rel="alternate"/>
-    <id>https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj</id>
-    <updated>2026-07-31T19:26:58Z</updated>
-    <summary type="text">Three words that engineers use interchangeably and shouldn't: Migration is a one-time move — different system, different schema, run once, archive the scripts. Conversion is what happens inside a migration when the shape of the data has to change (types, keys, business rules). ETL is a continuous integration pattern — extract, transform, load — running forever between two systems that both stay al</summary>
-    <author><name>Sangeetha Kalia</name></author>
-    <category term="data"/>
   </entry>
 </feed>
