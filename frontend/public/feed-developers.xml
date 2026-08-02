@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-02T06:37:21Z</updated>
+  <updated>2026-08-02T09:12:17Z</updated>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
     <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
@@ -23,6 +23,34 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>A Framework-Agnostic Testing Methodology for AI Agents (61 sources, 58 test blocks, OWASP Agentic Top 10)</title>
+    <link href="https://dev.to/turgaysavaci/a-framework-agnostic-testing-methodology-for-ai-agents-61-sources-58-test-blocks-owasp-agentic-4jh7" rel="alternate"/>
+    <id>https://dev.to/turgaysavaci/a-framework-agnostic-testing-methodology-for-ai-agents-61-sources-58-test-blocks-owasp-agentic-4jh7</id>
+    <updated>2026-08-02T09:00:04Z</updated>
+    <summary type="text">How do you actually test an AI agent? Not &quot;does it respond,&quot; but: does it route to the right tool, chain calls correctly, recover from failure, resist prompt injection, and stay within cost/latency budget? I spent weeks working through this on a running agent, and open-sourced the entire methodology — framework-agnostic, so it applies regardless of your language, runtime, or toolset. What's inside</summary>
+    <author><name>Turgay Savacı</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The Most Underused Prompt in Data Engineering</title>
+    <link href="https://dev.to/raghavsharma_/the-most-underused-prompt-in-data-engineering-ejk" rel="alternate"/>
+    <id>https://dev.to/raghavsharma_/the-most-underused-prompt-in-data-engineering-ejk</id>
+    <updated>2026-08-02T09:00:00Z</updated>
+    <summary type="text">You've learned not to trust the first answer. So you read it carefully. You spot two problems. You fix them yourself, ship it, and move on. That's a reasonable way to work, and it's what separates an engineer who uses these tools well from one who copies and pastes. But there's a step you skipped. You never asked Claude to find the problems, and asking produces a different kind of output than revi</summary>
+    <author><name>raghav sharma</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>🌐 Networking Fundamentals Every DevOps Engineer Should Know (IP, DNS &amp; Ports)</title>
+    <link href="https://dev.to/themdmohiuddin/networking-fundamentals-every-devops-engineer-should-know-ip-dns-ports-407l" rel="alternate"/>
+    <id>https://dev.to/themdmohiuddin/networking-fundamentals-every-devops-engineer-should-know-ip-dns-ports-407l</id>
+    <updated>2026-08-02T08:18:44Z</updated>
+    <summary type="text">If you're learning DevOps, networking is not optional. Every SSH connection, web request, Docker container, Kubernetes service, and cloud resource relies on networking behind the scenes. When applications fail to communicate, deployments break, or services become unreachable, networking is often the first place engineers investigate. In this article, I'll cover: ✅ What IP addresses are ✅ Public vs</summary>
+    <author><name>Md Mohiuddin</name></author>
   </entry>
   <entry>
     <title>Claude Code in CI: Running Agentic Code Review, Test Generation, and Auto-Fix on Every Pull Request</title>
@@ -427,32 +455,5 @@
     <author><name>Rodrigo Diego</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Microsoft's Goldilocks AI Quarter</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-30/microsoft-s-goldilocks-ai-quarter-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-30/microsoft-s-goldilocks-ai-quarter-video</id>
-    <updated>2026-07-30T15:45:45Z</updated>
-    <summary type="text">Microsoft's blockbuster earnings sparked a major rally as TD Cowen's Derrick Wood joins Bloomberg TV to explain why this was the perfect &quot;Goldilocks&quot; quarter. From accelerating Azure growth and improving AI economics to surging Copilot adoption, here's why Wall Street believes Microsoft's AI story is getting even stronger. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>The $239,000 Manual Handoff Tax: The ROI of Deep AI-to-ERP Integration 💸</title>
-    <link href="https://dev.to/cypriantinasheaarons/the-239000-manual-handoff-tax-the-roi-of-deep-ai-to-erp-integration-313g" rel="alternate"/>
-    <id>https://dev.to/cypriantinasheaarons/the-239000-manual-handoff-tax-the-roi-of-deep-ai-to-erp-integration-313g</id>
-    <updated>2026-07-31T09:17:40Z</updated>
-    <summary type="text">A note on the numbers upfront, because I'd rather you catch this than a client does: $239,000 is illustrative. It's a composite built from published benchmarks on manual data-processing costs, applied to a mid-market company on a legacy ERP (SAP, NetSuite, or Dynamics). Not a universal constant. Recalculate it against your own client's headcount and error rates before you quote it out loud. The me</summary>
-    <author><name>CyprianTinasheAarons</name></author>
-  </entry>
-  <entry>
-    <title>We added mobile approvals to our CLI AI tool -- approve Claude's destructive commands from your phone</title>
-    <link href="https://dev.to/sumaninster/we-added-mobile-approvals-to-our-cli-ai-tool-approve-claudes-destructive-commands-from-your-19il" rel="alternate"/>
-    <id>https://dev.to/sumaninster/we-added-mobile-approvals-to-our-cli-ai-tool-approve-claudes-destructive-commands-from-your-19il</id>
-    <updated>2026-07-31T06:22:29Z</updated>
-    <summary type="text">Quick share of a feature we built into Telechat (self-hosted Claude AI bot) that's been surprisingly useful for devops workflows: Desktop Bridge with mobile approvals. The problem You're running Claude Code (or any Claude-powered agent) on your workstation. It's refactoring a module, running tests, deploying to staging. You step away for coffee, a meeting, or just to stretch. Claude hits a tool ca</summary>
-    <author><name>Subhendu Das</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
