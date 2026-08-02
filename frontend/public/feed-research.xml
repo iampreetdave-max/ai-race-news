@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-02T21:00:04Z</updated>
+  <updated>2026-08-02T22:05:11Z</updated>
   <entry>
     <title>Your Voice Assistant Can Be Social-Engineered Too, and Nobody's Watching For It</title>
     <link href="https://dev.to/coridev/your-voice-assistant-can-be-social-engineered-too-and-nobodys-watching-for-it-51jp" rel="alternate"/>
@@ -16,6 +16,17 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>[Paper] EdgeRazor: A Lightweight Framework for Large Language Models via Mixed-Precision Quantization-Aware Distillation</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdrsbg/paper_edgerazor_a_lightweight_framework_for_large/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdrsbg/paper_edgerazor_a_lightweight_framework_for_large/</id>
+    <updated>2026-08-02T19:55:03Z</updated>
+    <summary type="text">The EdgeRazor method uses an entropy-guided distillation process to better translate a teacher model's logit probability distributions into the student model's low-bit / mixed-precision hidden-layer features, without attempting to preserve the teacher model's parameter structures. This is more computationally expensive than existing quantization methods, but much less so than QAT, and yields bette</summary>
+    <author><name>/u/ttkciar</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Analyzing Financial Trends: Kalman Filtering for Gold vs Bitcoin</title>
     <link href="https://www.r-bloggers.com/2026/08/analyzing-financial-trends-kalman-filtering-for-gold-vs-bitcoin/" rel="alternate"/>
     <id>https://www.r-bloggers.com/2026/08/analyzing-financial-trends-kalman-filtering-for-gold-vs-bitcoin/</id>
@@ -23,15 +34,5 @@
     <summary type="text">In their paper “A Synchronized Multi‑IMU Wearable System for Tracking of Joint‑Angles in Sports Motion Analysis” (arXiv:2607.26027v1), Samarasekera and colleagues set out to solve a very practical problem: how to reliably measure joint angles in dynamic sports movements using wearable IMUs. Their goal was to design a ... Continue reading: Analyzing Financial Trends: Kalman Filtering for Gold vs Bi</summary>
     <author><name>Selcuk Disci</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>OpenAI’s Evaluation Playbook Puts Harness Design at the Center of Model Testing</title>
-    <link href="https://dev.to/alifar/openais-evaluation-playbook-puts-harness-design-at-the-center-of-model-testing-2hpi" rel="alternate"/>
-    <id>https://dev.to/alifar/openais-evaluation-playbook-puts-harness-design-at-the-center-of-model-testing-2hpi</id>
-    <updated>2026-07-30T21:00:31Z</updated>
-    <summary type="text">OpenAI is urging a broader view of frontier-model evaluation: benchmark results reflect not only the model being tested, but also the surrounding system used to test it. In its official playbook for trustworthy third-party evaluations, the company says API settings, prompting, tool access, state management, compute budgets, scoring, and harness design can materially affect conclusions about model </summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
