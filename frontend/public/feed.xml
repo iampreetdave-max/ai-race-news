@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-02T00:00:28Z</updated>
+  <updated>2026-08-02T03:45:26Z</updated>
   <entry>
     <title>Disrupting a Criminal Scam Operation</title>
     <link href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation" rel="alternate"/>
@@ -183,6 +183,14 @@
     <author><name>Matt Burgess, Maddy Varner, Dell Cameron, Andy Greenberg</name></author>
   </entry>
   <entry>
+    <title>Day 1: Understanding Cloud Computing — Service and Deployment Models Explained with a Biryani Analogy</title>
+    <link href="https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p" rel="alternate"/>
+    <id>https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p</id>
+    <updated>2026-08-02T03:40:04Z</updated>
+    <summary type="text">Yesterday I announced I'm blogging daily on AWS &amp; DevOps. Here's Day 1 — the fundamentals everything else builds on. ## What is Cloud Computing? Instead of setting up and maintaining infrastructure on-premises, you now access computing resources remotely over the internet — this is Cloud Computing. &quot;Cloud&quot; refers to a network that provides resources over the internet, accessible whenever needed. I</summary>
+    <author><name>Soumyaranjan Palatasingh</name></author>
+  </entry>
+  <entry>
     <title>Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference</title>
     <link href="https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/</id>
@@ -192,6 +200,32 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>I built CleanSlate, an open-source coding agent for the IDE, CLI, and SDK</title>
+    <link href="https://dev.to/maaaz7/i-built-cleanslate-an-open-source-coding-agent-for-the-ide-cli-and-sdk-5b0n" rel="alternate"/>
+    <id>https://dev.to/maaaz7/i-built-cleanslate-an-open-source-coding-agent-for-the-ide-cli-and-sdk-5b0n</id>
+    <updated>2026-08-02T03:31:51Z</updated>
+    <summary type="text">CleanSlate is an open-source platform for running coding agents across your local machine and the cloud. Today, it works through an IDE, CLI, and SDK. Agents can understand a codebase, make changes, run commands, browse the web, and verify their work. We are now building longer-running autonomous cloud agents that can continue working without keeping your machine active. CleanSlate supports multip</summary>
+    <author><name>maaaz</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Pixel Chef AI: A Memory Kitchen That Learns Your Taste</title>
+    <link href="https://dev.to/yang_dada_50b476adedc3749/pixel-chef-ai-a-memory-kitchen-that-learns-your-taste-1d0m" rel="alternate"/>
+    <id>https://dev.to/yang_dada_50b476adedc3749/pixel-chef-ai-a-memory-kitchen-that-learns-your-taste-1d0m</id>
+    <updated>2026-08-02T03:12:58Z</updated>
+    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, Perfect Landing 🍳 Pixel Chef AI — A Memory Kitchen That Learns Your Taste What I Built Pixel Chef AI is an interactive AI cooking companion built around a simple idea: Food is not only about recipes. It is about memories, habits, emotions, and personal taste. Instead of being a traditional recipe generator, Pixel Chef AI creates a</summary>
+    <author><name>Dermin</name></author>
+  </entry>
+  <entry>
+    <title>Confident Is Not Correct: Three Signs That Claude Is Guessing</title>
+    <link href="https://dev.to/raghavsharma_/confident-is-not-correct-three-signs-that-claude-is-guessing-4o4j" rel="alternate"/>
+    <id>https://dev.to/raghavsharma_/confident-is-not-correct-three-signs-that-claude-is-guessing-4o4j</id>
+    <updated>2026-08-02T03:12:55Z</updated>
+    <summary type="text">The answer arrives clean, well-formatted, and certain. You run it. The config flag doesn't exist. Nothing in the response told you the difference between the parts it was sure about and the parts it filled in. The syntax was right. The explanation was reasonable. The flag had a sensible name and a clear purpose. It just wasn't real. This is a calibration problem, not a trust problem. &quot;Don't trust </summary>
+    <author><name>raghav sharma</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Nobody Knows if OpenAI’s and Anthropic’s AI Hacking Sprees Are Illegal</title>
     <link href="https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/" rel="alternate"/>
     <id>https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/</id>
@@ -199,6 +233,48 @@
     <summary type="text">Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot?</summary>
     <author><name>Lily Hay Newman</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I told one AI to demolish the handoff prompt I wrote for another AI. It found a test that passes even when it's empty</title>
+    <link href="https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70" rel="alternate"/>
+    <id>https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70</id>
+    <updated>2026-08-02T03:06:19Z</updated>
+    <summary type="text">I'm building an app with Claude Code right now. The setup is a little unusual. One &quot;commander&quot; session writes the instructions, and separate &quot;worker&quot; sessions implement them in parallel. The commander never touches the keyboard itself. Its whole job is to turn &quot;what to do next&quot; into a handoff prompt that a worker can read and just run with. And that handoff prompt is quietly the scariest thing in </summary>
+    <author><name>Jun</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Database Views in Your ERD: Read-Only Entities, Not Fake Tables</title>
+    <link href="https://dev.to/tbson87/database-views-in-your-erd-read-only-entities-not-fake-tables-27l3" rel="alternate"/>
+    <id>https://dev.to/tbson87/database-views-in-your-erd-read-only-entities-not-fake-tables-27l3</id>
+    <updated>2026-08-02T03:02:00Z</updated>
+    <summary type="text">Disclosure: I build Schemity, a desktop ERD tool - this post is from our blog and uses it for the examples. TL;DR: Database views carry real responsibilities - reporting layers, security boundaries, API surfaces - but ERD tools either leave them out entirely (DBML has no view support despite requests since 2022) or draw them as if they were ordinary tables. Schemity displays views and materialized</summary>
+    <author><name>Son Tran</name></author>
+  </entry>
+  <entry>
+    <title>SSMS Database Diagrams: Your ERD Is Trapped Inside the Database It Documents</title>
+    <link href="https://dev.to/tbson87/ssms-database-diagrams-your-erd-is-trapped-inside-the-database-it-documents-49i1" rel="alternate"/>
+    <id>https://dev.to/tbson87/ssms-database-diagrams-your-erd-is-trapped-inside-the-database-it-documents-49i1</id>
+    <updated>2026-08-02T03:01:21Z</updated>
+    <summary type="text">Disclosure: I build Schemity, a desktop ERD tool - this post is from our blog and uses it for the examples. TL;DR: SSMS keeps every database diagram as a binary blob in the sysdiagrams system table of the database it describes, so it cannot be saved to a file, versioned in Git, or opened without a server connection - and the feature itself was removed in SSMS 18.0 and restored in 18.1 only after u</summary>
+    <author><name>Son Tran</name></author>
+  </entry>
+  <entry>
+    <title>My Favorite Constant in Retrieval Is 60. Nobody Tunes It. That's the Point.</title>
+    <link href="https://dev.to/fagundesv/my-favorite-constant-in-retrieval-is-60-nobody-tunes-it-thats-the-point-4857" rel="alternate"/>
+    <id>https://dev.to/fagundesv/my-favorite-constant-in-retrieval-is-60-nobody-tunes-it-thats-the-point-4857</id>
+    <updated>2026-08-02T03:00:00Z</updated>
+    <summary type="text">Reciprocal rank fusion merges two ranked lists — say, BM25 results and vector-search results over your chargeback cases — into one. It has exactly one parameter, k. And the answer is just... 60. Not tuned per dataset. Not learned. Sixty, from the original paper, works essentially everywhere. The entire algorithm: def rrf(rankings: list[list[str]], k: int = 60) -&gt; list[tuple[str, float]]: &quot;&quot;&quot;Each r</summary>
+    <author><name>Vinicius Fagundes</name></author>
+  </entry>
+  <entry>
+    <title>Designing a Practical MiniMax H3 Video Workflow: Text, Frames, and Omni References</title>
+    <link href="https://dev.to/agi2y/designing-a-practical-minimax-h3-video-workflow-text-frames-and-omni-references-2747" rel="alternate"/>
+    <id>https://dev.to/agi2y/designing-a-practical-minimax-h3-video-workflow-text-frames-and-omni-references-2747</id>
+    <updated>2026-08-02T02:48:07Z</updated>
+    <summary type="text">Building an AI video interface looks simple in a demo: add a prompt box, an upload button, and a Generate button. The real product work starts when those inputs mean different things. While building MiniMaxH3.app, an independent third-party studio around the MiniMax H3 open-weight video model, we found that text-to-video, first/last frame, and multi-reference generation should not be treated as co</summary>
+    <author><name>2Y</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Why My Expo Router App Froze on the Splash Screen After a Cold-Start Notification Tap</title>
@@ -363,86 +439,5 @@
     <summary type="text">Yelp has confirmed a licensing agreement with OpenAI that will extend Yelp content into AI platforms, including the OpenAI ecosystem powering ChatGPT. The deal positions Yelp’s reviews, ratings, photos and business information within a growing AI-driven local discovery experience, while opening a potential path for users to request quotes from local service providers through ChatGPT. The agreement</summary>
     <author><name>Ali Farhat</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Falco — a from-scratch browser engine in ~36k lines of Rust (v0.1.0 release)</title>
-    <link href="https://dev.to/poxk/falco-a-from-scratch-browser-engine-in-36k-lines-of-rust-v010-release-15jk" rel="alternate"/>
-    <id>https://dev.to/poxk/falco-a-from-scratch-browser-engine-in-36k-lines-of-rust-v010-release-15jk</id>
-    <updated>2026-08-01T20:44:03Z</updated>
-    <summary type="text">Hi everyone! I just released v0.1.0 of Falco — a browser engine I've been building in Rust on nights and weekends. No WebKit, no Gecko, no Chromium — every module is written from scratch in ~36,000 lines. 🔗 GitHub: https://github.com/poxk/Falco 🔗 Releases (prebuilt binaries for Linux/macOS/Windows): https://github.com/poxk/Falco/releases/tag/v0.1.0 What's inside All modules are from scratch, with </summary>
-    <author><name>poxk</name></author>
-  </entry>
-  <entry>
-    <title>NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek</title>
-    <link href="https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/</id>
-    <updated>2026-07-31T15:13:02Z</updated>
-    <summary type="text">The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Publishers Blocking AI Crawlers Are Reshaping the Economics of Training Data</title>
-    <link href="https://dev.to/alifar/publishers-blocking-ai-crawlers-are-reshaping-the-economics-of-training-data-4i33" rel="alternate"/>
-    <id>https://dev.to/alifar/publishers-blocking-ai-crawlers-are-reshaping-the-economics-of-training-data-4i33</id>
-    <updated>2026-08-01T20:30:30Z</updated>
-    <summary type="text">Major publishers are increasingly restricting AI web crawlers from accessing their journalism, changing how AI companies can obtain high-quality news content for model training and related applications. The shift is not a single coordinated policy, but a sustained pattern across established outlets that gives publishers more control over whether, and on what terms, their work is used by AI systems</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export</title>
-    <link href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/</id>
-    <updated>2026-07-31T20:27:13Z</updated>
-    <summary type="text">Discover how to implement a streaming 3D reconstruction pipeline using LingBot-Map. From GPU-aware configuration and preprocessing to GCTStream model inference and point cloud generation, this guide walks you through the steps to convert image or video sequences into consistent 3D scenes with exportable PLY and NPZ artifacts. The post LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Expor</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Your Code Doesn't Run. A Translation of Your Code Does.</title>
-    <link href="https://dev.to/juma_evans_34e389ef539266/your-code-doesnt-run-a-translation-of-your-code-does-32i5" rel="alternate"/>
-    <id>https://dev.to/juma_evans_34e389ef539266/your-code-doesnt-run-a-translation-of-your-code-does-32i5</id>
-    <updated>2026-08-01T20:24:28Z</updated>
-    <summary type="text">Every time you write a program and hit run, something extraordinary happens before a single instruction executes. Your source code,the plain text(human-readable), gets transformed through several distinct stages into something a CPU can actually understand. Most developers never look at those stages. They trust the compiler the way they trust electricity: they know it works, they just don't know h</summary>
-    <author><name>Juma Evans</name></author>
-  </entry>
-  <entry>
-    <title>Clive — a friendly CLI for local LLMs</title>
-    <link href="https://dev.to/sedarolmez94/clive-a-friendly-cli-for-local-llms-36l9" rel="alternate"/>
-    <id>https://dev.to/sedarolmez94/clive-a-friendly-cli-for-local-llms-36l9</id>
-    <updated>2026-08-01T20:21:19Z</updated>
-    <summary type="text">Why I built Clive For the last couple of weeks, as the cost of frontier models kept climbing, I started experimenting with open-source large language models. What surprised me: for most of the tasks I'd normally hand to Claude or GPT, a local open-source model did the job just as well — and sometimes better. The problem was the ergonomics. Ollama makes running local models genuinely easy, but I wa</summary>
-    <author><name>Sedar Olmez</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Advancing responsible AI across Europe</title>
-    <link href="https://openai.com/index/advancing-responsible-ai-across-europe" rel="alternate"/>
-    <id>https://openai.com/index/advancing-responsible-ai-across-europe</id>
-    <updated>2026-07-31T15:00:00Z</updated>
-    <summary type="text">OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="regulation"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building abundant intelligence</title>
-    <link href="https://openai.com/index/building-abundant-intelligence" rel="alternate"/>
-    <id>https://openai.com/index/building-abundant-intelligence</id>
-    <updated>2026-07-31T15:00:00Z</updated>
-    <summary type="text">A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>I handed AI agents almost the whole product. Except one part - and that part is the job</title>
-    <link href="https://dev.to/nerovny/i-handed-ai-agents-almost-the-whole-product-except-one-part-and-that-part-is-the-job-39b" rel="alternate"/>
-    <id>https://dev.to/nerovny/i-handed-ai-agents-almost-the-whole-product-except-one-part-and-that-part-is-the-job-39b</id>
-    <updated>2026-08-01T20:18:17Z</updated>
-    <summary type="text">Recently an agent built a working prototype of MERIDIAN in a couple of days. A live page - where I've been, where I am, where next - plus a world map the app draws itself from the EXIF in your photo library, on-device, with zero manual input. Expo, React Native, a black SVG map. What would have taken a week of dense frontend a year ago was ready to screenshot-test the same day. Here's what that sp</summary>
-    <author><name>Yan Nerovny</name></author>
-    <category term="agents"/>
   </entry>
 </feed>

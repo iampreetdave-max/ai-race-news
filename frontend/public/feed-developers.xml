@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-02T00:00:28Z</updated>
+  <updated>2026-08-02T03:45:26Z</updated>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
     <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
@@ -22,6 +22,32 @@
     <summary type="text">Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks — building schemas, debugging Edge Functions, fixing RLS policies — inside containerized stacks, then scores them with deterministic checks and LLM-as-a-judge. The post Supabase Releases Evals: an Open Source Benchmark That Sc</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Day 1: Understanding Cloud Computing — Service and Deployment Models Explained with a Biryani Analogy</title>
+    <link href="https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p" rel="alternate"/>
+    <id>https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p</id>
+    <updated>2026-08-02T03:40:04Z</updated>
+    <summary type="text">Yesterday I announced I'm blogging daily on AWS &amp; DevOps. Here's Day 1 — the fundamentals everything else builds on. ## What is Cloud Computing? Instead of setting up and maintaining infrastructure on-premises, you now access computing resources remotely over the internet — this is Cloud Computing. &quot;Cloud&quot; refers to a network that provides resources over the internet, accessible whenever needed. I</summary>
+    <author><name>Soumyaranjan Palatasingh</name></author>
+  </entry>
+  <entry>
+    <title>I told one AI to demolish the handoff prompt I wrote for another AI. It found a test that passes even when it's empty</title>
+    <link href="https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70" rel="alternate"/>
+    <id>https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70</id>
+    <updated>2026-08-02T03:06:19Z</updated>
+    <summary type="text">I'm building an app with Claude Code right now. The setup is a little unusual. One &quot;commander&quot; session writes the instructions, and separate &quot;worker&quot; sessions implement them in parallel. The commander never touches the keyboard itself. Its whole job is to turn &quot;what to do next&quot; into a handoff prompt that a worker can read and just run with. And that handoff prompt is quietly the scariest thing in </summary>
+    <author><name>Jun</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Designing a Practical MiniMax H3 Video Workflow: Text, Frames, and Omni References</title>
+    <link href="https://dev.to/agi2y/designing-a-practical-minimax-h3-video-workflow-text-frames-and-omni-references-2747" rel="alternate"/>
+    <id>https://dev.to/agi2y/designing-a-practical-minimax-h3-video-workflow-text-frames-and-omni-references-2747</id>
+    <updated>2026-08-02T02:48:07Z</updated>
+    <summary type="text">Building an AI video interface looks simple in a demo: add a prompt box, an upload button, and a Generate button. The real product work starts when those inputs mean different things. While building MiniMaxH3.app, an independent third-party studio around the MiniMax H3 open-weight video model, we found that text-to-video, first/last frame, and multi-reference generation should not be treated as co</summary>
+    <author><name>2Y</name></author>
     <category term="open-source"/>
   </entry>
   <entry>
@@ -428,33 +454,5 @@
     <summary type="text">When Claude Code Channels launched, I was stoked — Claude on my phone, finally. Then I hit the limitations: Only Telegram and Discord. I live in WhatsApp (most of the world does). Everything routes through Anthropic's servers. Fine for most people, but I work with clients who have strict data policies. Requires Pro subscription. I was already spending less via API keys for my usage pattern. No bud</summary>
     <author><name>Subhendu Das</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training</title>
-    <link href="https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/</id>
-    <updated>2026-07-30T05:28:39Z</updated>
-    <summary type="text">Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distributed Mixture-of-Experts (MoE) workloads. The team announced the release as a library built to make expert-parallel communication more efficient at scale. It ships under an MIT license. MoonEP arrived as part of Kimi K3 Open Day. Alongside the K3 model weights and technical […] The post Moonshot AI Open</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>RufRoot (CVE-2026-59726): Full Compromise of AI Agent Infrastructure via Unauthenticated MCP Bridge</title>
-    <link href="https://dev.to/anoymask/rufroot-cve-2026-59726-full-compromise-of-ai-agent-infrastructure-via-unauthenticated-mcp-bridge-4523" rel="alternate"/>
-    <id>https://dev.to/anoymask/rufroot-cve-2026-59726-full-compromise-of-ai-agent-infrastructure-via-unauthenticated-mcp-bridge-4523</id>
-    <updated>2026-07-31T03:14:18Z</updated>
-    <summary type="text">RufRoot (CVE-2026-59726): Full Compromise of AI Agent Infrastructure via Unauthenticated MCP Bridge 1. Basic Information Article Title: RufRoot: The MCP Bridge Vulnerability That Turns Agents Into Rogue Admins Source: Noma Labs (Reported by SecurityWeek on 2026-07-30) Publication Date: 2026-07-29 Original Article: https://noma.security/blog/rufroot-the-mcp-bridge-vulnerability-that-turns-agents-in</summary>
-    <author><name>Anoymask</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building an Open Source SDK for MTN Mobile Money (React Native/TypeScript)</title>
-    <link href="https://dev.to/frankcdr__1325e131e4a8390/building-an-open-source-sdk-for-mtn-mobile-money-react-nativetypescript-5756" rel="alternate"/>
-    <id>https://dev.to/frankcdr__1325e131e4a8390/building-an-open-source-sdk-for-mtn-mobile-money-react-nativetypescript-5756</id>
-    <updated>2026-07-31T02:59:28Z</updated>
-    <summary type="text">Mobile money is the dominant way people pay for things across most of Africa. In Rwanda alone, MTN Mobile Money (MoMo) has over 3 million active users, and it’s the first payment method most local businesses reach for, not cards, not bank transfers. MTN opened up their MoMo API to third-party developers a few years ago, and since then a handful of server-side wrappers have popped up (Node, PHP, Py</summary>
-    <author><name>Frankcdr</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
