@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-02T09:12:17Z</updated>
+  <updated>2026-08-02T11:21:52Z</updated>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
     <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
@@ -13,6 +13,34 @@
     <summary type="text">A security researcher has demonstrated a worm-like attack on Microsoft Copilot for Word: invisible prompt injections hidden in documents spread automatically into new files every time they're reused. Microsoft confirmed the issue but failed to fix it after 144 days and two attempts. The article A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copi</summary>
     <author><name>Thomas Joos</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Lifecycle, DevOps &amp; Multi-Agent Orchestration for Enterprise AI</title>
+    <link href="https://dev.to/gde/lifecycle-devops-multi-agent-orchestration-for-enterprise-ai-1a1m" rel="alternate"/>
+    <id>https://dev.to/gde/lifecycle-devops-multi-agent-orchestration-for-enterprise-ai-1a1m</id>
+    <updated>2026-08-02T11:08:36Z</updated>
+    <summary type="text">The Agentic DevOps Challenge As enterprise AI adoption matures, organizations are shifting from single-turn chat assistants to complex multi-agent orchestration meshes. In these architectures, specialized autonomous agents—such as planners, researchers, code executors, and API orchestrators—collaborate asynchronously to execute multi-step business workflows. However, managing the lifecycle of non-</summary>
+    <author><name>Jitendra Gupta</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>28 MCP Tools in One Connection: A Developer's Field Guide</title>
+    <link href="https://dev.to/neha_jakate_/28-mcp-tools-in-one-connection-a-developers-field-guide-3m6e" rel="alternate"/>
+    <id>https://dev.to/neha_jakate_/28-mcp-tools-in-one-connection-a-developers-field-guide-3m6e</id>
+    <updated>2026-08-02T10:55:16Z</updated>
+    <summary type="text">The Problem Model Context Protocol (MCP) lets an AI agent call structured tools instead of guessing from raw text dumped into a context window. Fine in theory — but most MCP integrations just expose &quot;read file&quot; and &quot;search,&quot; which barely improves on copy-pasting code into a chat window. The real question: what tools should an agent actually have access to, for codebase work specifically? Architect</summary>
+    <author><name>NEHA JAKATE</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Docker Engine v29: Fixing &quot;API Version Mismatch&quot; Error</title>
+    <link href="https://dev.to/romanpinchuk/docker-engine-v29-fixing-api-version-mismatch-error-15j6" rel="alternate"/>
+    <id>https://dev.to/romanpinchuk/docker-engine-v29-fixing-api-version-mismatch-error-15j6</id>
+    <updated>2026-08-02T10:53:47Z</updated>
+    <summary type="text">If you've recently upgraded to Docker Engine - Community Version 29, you might have hit a frustrating API version mismatch error. Specifically, you might see an error indicating that a minimum API version &gt;= 1.44 is required. This often happens when your tools or CI/CD agents are trying to communicate with the updated daemon using an older API protocol, and the new Docker default policies are too </summary>
+    <author><name>Roman Pinchuk</name></author>
   </entry>
   <entry>
     <title>Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks</title>
@@ -425,35 +453,5 @@
     <summary type="text">Teams keep forcing their warehouse to do integration work it was never designed for. The result is ballooning costs, opaque failures, and architectures that become harder to maintain the more they ‘succeed.’ Here’s the case for separating data movement from analytics storage. The expensive truth about modern data stacks Spend enough time around data platform teams and you hear the same story. A co</summary>
     <author><name>Andrew Tan</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>A user spent four days designing a feature for my project. The right answer was zero lines of code.</title>
-    <link href="https://dev.to/achiya-automation/a-user-spent-four-days-designing-a-feature-for-my-project-the-right-answer-was-zero-lines-of-code-bff" rel="alternate"/>
-    <id>https://dev.to/achiya-automation/a-user-spent-four-days-designing-a-feature-for-my-project-the-right-answer-was-zero-lines-of-code-bff</id>
-    <updated>2026-07-31T11:12:44Z</updated>
-    <summary type="text">Last week I got the best feature request my open-source project has ever received. It was detailed, technically literate, fail-closed by design, and came from someone who clearly runs the tool harder than I do. I'm not going to build it. And the person who asked for it agrees — because the conversation ended with him shipping the fix, in his own layer, as a package other people can now use. I want</summary>
-    <author><name>אחיה כהן</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How BrowserAct Fixed the Stale-Selector Failures Breaking My Browser Tasks</title>
-    <link href="https://dev.to/dannwaneri/how-browseract-fixed-the-stale-selector-failures-breaking-my-browser-tasks-52b5" rel="alternate"/>
-    <id>https://dev.to/dannwaneri/how-browseract-fixed-the-stale-selector-failures-breaking-my-browser-tasks-52b5</id>
-    <updated>2026-07-31T11:06:54Z</updated>
-    <summary type="text">Disclosure: BrowserAct sponsored this piece. The BrowserAct links below are affiliate-tracked — I get credit if you sign up through them. I keep hitting the same failure building agent workflows in Claude Code: the agent captures a selector once, the page re-renders with a new build hash, and the next run breaks on an element that's still right there on the screen — just under a different id. Brow</summary>
-    <author><name>Daniel Nwaneri</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your RAG copilot can't count — stop letting it try</title>
-    <link href="https://dev.to/rdiegoss/your-rag-copilot-cant-count-stop-letting-it-try-2ie3" rel="alternate"/>
-    <id>https://dev.to/rdiegoss/your-rag-copilot-cant-count-stop-letting-it-try-2ie3</id>
-    <updated>2026-07-31T11:00:29Z</updated>
-    <summary type="text">Your RAG copilot can't count — stop letting it try A user asked our document-search copilot a completely reasonable question: how many documents a specific person authored. The copilot answered with a number. Confidently. With a nice sentence around it. The real answer, computed by the database, was 84. The copilot said — because it did what every RAG system does when you ask it an aggregation que</summary>
-    <author><name>Rodrigo Diego</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
