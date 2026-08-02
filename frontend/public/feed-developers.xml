@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-02T03:45:26Z</updated>
+  <updated>2026-08-02T06:37:21Z</updated>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
     <link href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" rel="alternate"/>
@@ -23,6 +23,33 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Claude Code in CI: Running Agentic Code Review, Test Generation, and Auto-Fix on Every Pull Request</title>
+    <link href="https://dev.to/jsmanifest/claude-code-in-ci-running-agentic-code-review-test-generation-and-auto-fix-on-every-pull-request-1de3" rel="alternate"/>
+    <id>https://dev.to/jsmanifest/claude-code-in-ci-running-agentic-code-review-test-generation-and-auto-fix-on-every-pull-request-1de3</id>
+    <updated>2026-08-02T05:53:53Z</updated>
+    <summary type="text">Claude Code in CI: Running Agentic Code Review, Test Generation, and Auto-Fix on Every Pull Request This article was written with the assistance of AI, under human supervision and review. Why Agentic Code Review in CI Changes Everything Most CI failures waste hours on manual intervention because traditional bots flag problems but never fix them. Developers open a pull request, the linter fails, te</summary>
+    <author><name>jsmanifest</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Day 23/30: Expose Tools with MCP</title>
+    <link href="https://dev.to/yashwanth_kasi/day-2330-expose-tools-with-mcp-5ak5" rel="alternate"/>
+    <id>https://dev.to/yashwanth_kasi/day-2330-expose-tools-with-mcp-5ak5</id>
+    <updated>2026-08-02T05:47:08Z</updated>
+    <summary type="text">I still remember the frustration when our team's support bot, powered by LangGraph and MCP, couldn't retain context between user interactions. It was as if the bot had a case of conversational amnesia, forcing users to repeat themselves over and over. We later discovered that the issue stemmed from our lack of a centralized tooling server, making it impossible for the bot to access and leverage ex</summary>
+    <author><name>Kasi Yaswanth</name></author>
+  </entry>
+  <entry>
+    <title>Agentic DevOps Security: Old IAM Failures at New Speed</title>
+    <link href="https://dev.to/dortort/agentic-devops-security-old-iam-failures-at-new-speed-3575" rel="alternate"/>
+    <id>https://dev.to/dortort/agentic-devops-security-old-iam-failures-at-new-speed-3575</id>
+    <updated>2026-08-02T05:29:58Z</updated>
+    <summary type="text">I argued previously that agentic AI is reintroducing ClickOps, and I still think that holds. But I made a second claim in that piece I've stopped believing: that least-privilege design is harder for agents than for humans, because you can't predict at design time what actions an agent will decide to take. That's true as far as it goes. It's also not a fact about agents. It's a fact about how we gr</summary>
+    <author><name>Francis Eytan Dortort</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Day 1: Understanding Cloud Computing — Service and Deployment Models Explained with a Biryani Analogy</title>
@@ -425,33 +452,6 @@
     <id>https://dev.to/sumaninster/we-added-mobile-approvals-to-our-cli-ai-tool-approve-claudes-destructive-commands-from-your-19il</id>
     <updated>2026-07-31T06:22:29Z</updated>
     <summary type="text">Quick share of a feature we built into Telechat (self-hosted Claude AI bot) that's been surprisingly useful for devops workflows: Desktop Bridge with mobile approvals. The problem You're running Claude Code (or any Claude-powered agent) on your workstation. It's refactoring a module, running tests, deploying to staging. You step away for coffee, a meeting, or just to stretch. Claude hits a tool ca</summary>
-    <author><name>Subhendu Das</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Telechat: self-host Claude AI across Telegram/WhatsApp/Slack with one npm install</title>
-    <link href="https://dev.to/sumaninster/telechat-self-host-claude-ai-across-telegramwhatsappslack-with-one-npm-install-26pj" rel="alternate"/>
-    <id>https://dev.to/sumaninster/telechat-self-host-claude-ai-across-telegramwhatsappslack-with-one-npm-install-26pj</id>
-    <updated>2026-07-31T06:22:29Z</updated>
-    <summary type="text">Built something the r/selfhosted crowd might appreciate: Telechat — a self-hosted Claude AI bot that connects to Telegram, WhatsApp, Slack, and web chat from a single process. Why self-hosted matters here Anthropic launched Claude Code Channels recently — Claude on Telegram/Discord, managed by Anthropic. It works great, but every message goes through their cloud. Telechat takes the opposite approa</summary>
-    <author><name>Subhendu Das</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Nice post explaining the small bits about local RAG!</title>
-    <link href="https://dev.to/yaser/nice-post-explaining-the-small-bits-about-local-rag-h8b" rel="alternate"/>
-    <id>https://dev.to/yaser/nice-post-explaining-the-small-bits-about-local-rag-h8b</id>
-    <updated>2026-07-31T06:20:26Z</updated>
-    <summary type="text">Building a 100% Local RAG System on Kubernetes — No API Keys Required Ahmed Nafies Ahmed Nafies Ahmed Nafies Follow Jul 30 Building a 100% Local RAG System on Kubernetes — No API Keys Required #kubernetes #rag #llm #postgres 1 reaction Add Comment 8 min read</summary>
-    <author><name>Yaser Al-Najjar</name></author>
-  </entry>
-  <entry>
-    <title>I built a self-hosted alternative to Claude Code Channels -- here's why</title>
-    <link href="https://dev.to/sumaninster/i-built-a-self-hosted-alternative-to-claude-code-channels-heres-why-3j0g" rel="alternate"/>
-    <id>https://dev.to/sumaninster/i-built-a-self-hosted-alternative-to-claude-code-channels-heres-why-3j0g</id>
-    <updated>2026-07-31T06:14:44Z</updated>
-    <summary type="text">When Claude Code Channels launched, I was stoked — Claude on my phone, finally. Then I hit the limitations: Only Telegram and Discord. I live in WhatsApp (most of the world does). Everything routes through Anthropic's servers. Fine for most people, but I work with clients who have strict data policies. Requires Pro subscription. I was already spending less via API keys for my usage pattern. No bud</summary>
     <author><name>Subhendu Das</name></author>
     <category term="llm"/>
   </entry>
