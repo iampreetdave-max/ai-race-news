@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-02T22:05:11Z</updated>
+  <updated>2026-08-03T00:02:20Z</updated>
   <entry>
     <title>Disrupting a Criminal Scam Operation</title>
     <link href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation" rel="alternate"/>
@@ -176,6 +176,84 @@
     <updated>2026-08-02T06:32:27Z</updated>
     <summary type="text">New EU rules stipulate that people must be told when they’re interacting with AI or looking at AI-generated or -edited content, leading to fear of “disclosure fatigue.”</summary>
     <author><name>Isabella Ward</name></author>
+  </entry>
+  <entry>
+    <title>Llamar a un teléfono real desde el navegador: WebRTC, SIP y lo que nadie te cuenta de la facturación</title>
+    <link href="https://dev.to/ivanindiv/llamar-a-un-telefono-real-desde-el-navegador-webrtc-sip-y-lo-que-nadie-te-cuenta-de-la-facturacion-3nmp" rel="alternate"/>
+    <id>https://dev.to/ivanindiv/llamar-a-un-telefono-real-desde-el-navegador-webrtc-sip-y-lo-que-nadie-te-cuenta-de-la-facturacion-3nmp</id>
+    <updated>2026-08-02T23:24:42Z</updated>
+    <summary type="text">En corto Conectar WebRTC con la red telefónica de verdad es engañosamente fácil de empezar y sorprendentemente difícil de terminar. El demo sale en una tarde. Lo que se lleva las semanas es lo otro: llamadas que se establecen y no se oyen, llamadas de cero segundos que sí aparecen facturadas, y un redondeo en el CDR que no coincide con lo que tú calculaste. Este artículo es el mapa que me habría g</summary>
+    <author><name>Ivan Labasok</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your AI Agent's Chat History Is User Input</title>
+    <link href="https://dev.to/y11t0/your-ai-agents-chat-history-is-user-input-fl6" rel="alternate"/>
+    <id>https://dev.to/y11t0/your-ai-agents-chat-history-is-user-input-fl6</id>
+    <updated>2026-08-02T23:23:05Z</updated>
+    <summary type="text">There's a jailbreak that works on a surprising number of production chat assistants, needs no clever prompt engineering, and doesn't trip a single content filter. It takes about thirty seconds in devtools. You don't attack the model. You attack the transcript. The setup that has this bug Almost every chat integration starts the same way, because every SDK example starts the same way. The client ho</summary>
+    <author><name>Yiğit</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>5 New Dev Tools You Should Learn This Week</title>
+    <link href="https://dev.to/karleeov/5-new-dev-tools-you-should-learn-this-week-12in" rel="alternate"/>
+    <id>https://dev.to/karleeov/5-new-dev-tools-you-should-learn-this-week-12in</id>
+    <updated>2026-08-02T23:07:02Z</updated>
+    <summary type="text">Just released this past week, five major developer tools are making waves in the tech community. From advanced AI models to updated frameworks and CLI tools, there's plenty to explore. Here's what you need to know about each one and how to get started. GPT-5 (OpenAI) What it is: OpenAI's latest advanced language model with significantly improved capabilities for understanding and generating human-</summary>
+    <author><name>karleeov</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Understanding Pega's `pzPVStream`: Why a 20-Year-Old Design Still Makes Sense</title>
+    <link href="https://dev.to/ognivo/understanding-pegas-pzpvstream-why-a-20-year-old-design-still-makes-sense-3kh1" rel="alternate"/>
+    <id>https://dev.to/ognivo/understanding-pegas-pzpvstream-why-a-20-year-old-design-still-makes-sense-3kh1</id>
+    <updated>2026-08-02T23:03:23Z</updated>
+    <summary type="text">One of the most misunderstood parts of the Pega Platform is pzPVStream. Newcomers often describe it as a &quot;black box&quot;, while experienced architects sometimes see it as an obstacle for reporting and integration. Both opinions contain some truth, but neither tells the whole story. The more interesting question is not why Pega stores data in a binary stream, but why this design has survived for decade</summary>
+    <author><name>ognivo777</name></author>
+  </entry>
+  <entry>
+    <title>Kubernetes Migration: Seeking Guidance and Collaboration for Ingress to Gateway API Transition</title>
+    <link href="https://dev.to/alitron/kubernetes-migration-seeking-guidance-and-collaboration-for-ingress-to-gateway-api-transition-5bo4" rel="alternate"/>
+    <id>https://dev.to/alitron/kubernetes-migration-seeking-guidance-and-collaboration-for-ingress-to-gateway-api-transition-5bo4</id>
+    <updated>2026-08-02T23:01:46Z</updated>
+    <summary type="text">Introduction: Navigating the Ingress to Gateway API Migration in Kubernetes The Kubernetes ecosystem is undergoing a pivotal transformation, with networking APIs driving this evolution. Central to this shift is the migration from Ingress to the Gateway API, a transition that represents more than a technical upgrade—it signifies a fundamental change in how Kubernetes manages traffic routing, load b</summary>
+    <author><name>Alina Trofimova</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Building an embedded Shopify app in Symfony: session tokens, token exchange, and the parts nobody writes in PHP</title>
+    <link href="https://dev.to/mollenthiel/building-an-embedded-shopify-app-in-symfony-session-tokens-token-exchange-and-the-parts-nobody-438g" rel="alternate"/>
+    <id>https://dev.to/mollenthiel/building-an-embedded-shopify-app-in-symfony-session-tokens-token-exchange-and-the-parts-nobody-438g</id>
+    <updated>2026-08-02T23:01:29Z</updated>
+    <summary type="text">Shopify's app documentation has exactly one first-class path: Node, the official CLI, and a Remix template that wires authentication for you. Pick any other language and you leave the paved road at the first turn, because everything interesting happens before your framework's router sees the request: the app runs in an iframe inside the Shopify admin, the browser will not give you a cookie there, </summary>
+    <author><name>Eric Mollenthiel</name></author>
+  </entry>
+  <entry>
+    <title>Lesson 4 - Validation: A must-have cornerstone</title>
+    <link href="https://dev.to/smukker/lesson-4-validation-a-must-have-cornerstone-3bd2" rel="alternate"/>
+    <id>https://dev.to/smukker/lesson-4-validation-a-must-have-cornerstone-3bd2</id>
+    <updated>2026-08-02T22:59:53Z</updated>
+    <summary type="text">In a traditional SDLC, validation was someone else's job and it came later. QA teams checked that the software did what it was supposed to. The behavior was repeatable, so eventually you automated the checks and moved on. So when building Slooster, I did the hard parts first: Building the prompts, tuning them, defining schemas for parameters and outputs. Building a system to pick the provider, the</summary>
+    <author><name>Surat Mukker</name></author>
+  </entry>
+  <entry>
+    <title>The Blind Leading the Blind: Chasing a Production Bug</title>
+    <link href="https://dev.to/gkoos/the-blind-leading-the-blind-chasing-a-production-bug-i47" rel="alternate"/>
+    <id>https://dev.to/gkoos/the-blind-leading-the-blind-chasing-a-production-bug-i47</id>
+    <updated>2026-08-02T22:42:39Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. Around 2016, I was working as a PHP developer at Racing Post in London. The Post is best known for horse-racing news, form and results, but behind the public-facing products sat a large collection of systems for processing all kinds of racing and greyhound data. The application I worked on used that data to produce p</summary>
+    <author><name>Gabor Koos</name></author>
+  </entry>
+  <entry>
+    <title>Why I'm preselling my Obsidian AI plugin before writing a line of code</title>
+    <link href="https://dev.to/tiancaijb_3df5e4436e5a5fc/why-im-preselling-my-obsidian-ai-plugin-before-writing-a-line-of-code-1dj9" rel="alternate"/>
+    <id>https://dev.to/tiancaijb_3df5e4436e5a5fc/why-im-preselling-my-obsidian-ai-plugin-before-writing-a-line-of-code-1dj9</id>
+    <updated>2026-08-02T22:40:18Z</updated>
+    <summary type="text">Disclosure: I used an AI coding agent to collect research and draft this post. I reviewed the final copy before publishing. I started with an Obsidian plugin idea I thought was obvious. Research killed it. A different one survived, and I'm now preselling it at $19 before writing a single line of code. Here's the evidence that changed my mind, and the line I've drawn for myself. The market has a re</summary>
+    <author><name>tiancaijb</name></author>
   </entry>
   <entry>
     <title>AI Makes Developers Faster. Why Can It Make Teams Slower?</title>
@@ -357,87 +435,5 @@
     <updated>2026-08-02T18:42:24Z</updated>
     <summary type="text">Full title: [Advanced Rust] 2.3. API Design Principles of Unsurprising Pt.3 - Implementing serde Serialize and Deserialize Traits, and Why Copy Is Not Recommended 2.3.1. It Is Recommended to Implement Serialize and Deserialize in serde Serde is the core Rust library for serialization and deserialization: Serialization: converts a Rust struct or enum into a string or binary representation such as J</summary>
     <author><name>SomeB1oody</name></author>
-  </entry>
-  <entry>
-    <title>I Gave an AI Agent Nightly Merge Rights to Every Repo I Own (With a Budget and a Kill Switch)</title>
-    <link href="https://dev.to/jenatechio/i-gave-an-ai-agent-nightly-merge-rights-to-every-repo-i-own-with-a-budget-and-a-kill-switch-5b6k" rel="alternate"/>
-    <id>https://dev.to/jenatechio/i-gave-an-ai-agent-nightly-merge-rights-to-every-repo-i-own-with-a-budget-and-a-kill-switch-5b6k</id>
-    <updated>2026-08-02T18:41:21Z</updated>
-    <summary type="text">I run about twenty production and support repos by myself — a content site with a curated data feed, a couple of scheduled scrapers, some Cloudflare Workers, and the usual pile of half-dormant tooling that accumulates around all of it. There is no ops team. Maintenance debt on a solo estate doesn't announce itself; it just compounds quietly until the day you need the thing you didn't maintain. So </summary>
-    <author><name>Jennifer Smith</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Let an AI Re-Platform My CI Pipeline. Here's What Broke.</title>
-    <link href="https://dev.to/tomaszwostal/i-let-an-ai-re-platform-my-ci-pipeline-heres-what-broke-26i8" rel="alternate"/>
-    <id>https://dev.to/tomaszwostal/i-let-an-ai-re-platform-my-ci-pipeline-heres-what-broke-26i8</id>
-    <updated>2026-08-02T18:32:45Z</updated>
-    <summary type="text">Originally published at wostal.eu. TL;DR: I handed a CI re-platform — GitHub Actions → Argo Workflows, GitHub → Codeberg — to an AI agent. The rewrite looked correct and passed lint, but it didn't account for one thing: the runtime environment had changed completely. The old runner was an external VM; the new one is a pod inside the cluster, where Tailscale IPs aren't routable. Nobody ran the pipe</summary>
-    <author><name>Tomasz Wostal</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>When Your Homelab Grows Up: How SQLite Took Down My k3s Control Plane</title>
-    <link href="https://dev.to/tomaszwostal/when-your-homelab-grows-up-how-sqlite-took-down-my-k3s-control-plane-1kdp" rel="alternate"/>
-    <id>https://dev.to/tomaszwostal/when-your-homelab-grows-up-how-sqlite-took-down-my-k3s-control-plane-1kdp</id>
-    <updated>2026-08-02T18:32:01Z</updated>
-    <summary type="text">Originally published at wostal.eu. TL;DR: My Hetzner k3s lab quietly became a platform. Dozens of operators with leader-election leases hammered the default datastore — SQLite via kine — until compaction entered a death-spiral: 1.36M rows, a 13.8 GB WAL that wouldn't checkpoint, CPU pinned at 99%, load average 79 on 8 cores. I stopped the bleeding by truncating the WAL, then migrated the control p</summary>
-    <author><name>Tomasz Wostal</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Accelerating Transformer Training with NVIDIA Transformer Engine, Fused Kernels, BF16, FP8, and GPU Benchmarking</title>
-    <link href="https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/</id>
-    <updated>2026-08-01T18:31:15Z</updated>
-    <summary type="text">Discover how to optimize transformer workloads using the NVIDIA Transformer Engine. This tutorial guides you through configuring fused GPU kernels, implementing FP8 delayed scaling, and benchmarking model performance. Learn to build and train efficient GPT-style causal language models in PyTorch with practical code examples and performance analysis. The post Accelerating Transformer Training with </summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Semantic Search Embeddings vs Keyword Search for a SaaS Help Center</title>
-    <link href="https://dev.to/thomasmoore157/semantic-search-embeddings-vs-keyword-search-for-a-saas-help-center-1c9p" rel="alternate"/>
-    <id>https://dev.to/thomasmoore157/semantic-search-embeddings-vs-keyword-search-for-a-saas-help-center-1c9p</id>
-    <updated>2026-08-02T18:26:37Z</updated>
-    <summary type="text">Bottom line: for a beginner ask-your-docs feature in a SaaS help center, I would start with embeddings-based semantic retrieval over document chunks, retain keyword search as a fallback, and add reranking only after I can measure weak top results. It is the least complicated architecture that handles the natural-language questions support teams actually receive while still giving an operator clear</summary>
-    <author><name>ThomasMoore157</name></author>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>The Specification Problem: Why AI Keeps Failing at KYC</title>
-    <link href="https://hackernoon.com/the-specification-problem-why-ai-keeps-failing-at-kyc?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/the-specification-problem-why-ai-keeps-failing-at-kyc?source=rss</id>
-    <updated>2026-08-02T17:00:00Z</updated>
-    <summary type="text">Rigid, rule-following AI in KYC gets the middle-ground judgment calls wrong. Flexible, context-weighing AI gets them more right but loses the audit trail. Two separate studies confirm this is structural, not a model quality problem, because risk-based KYC was written for human judgment in the first place. The fix: keep AI on deterministic checks only, and route anything requiring judgment to a hum</summary>
-    <author><name>Duy Cao</name></author>
-  </entry>
-  <entry>
-    <title># Deploying a Production-Style Amazon EKS Cluster on Fargate with AWS Load Balancer Controller and the 2048 Sample Application</title>
-    <link href="https://dev.to/goodluck_ekeoma_2c98866d0/-deploying-a-production-style-amazon-eks-cluster-on-fargate-with-aws-load-balancer-controller-and-15pa" rel="alternate"/>
-    <id>https://dev.to/goodluck_ekeoma_2c98866d0/-deploying-a-production-style-amazon-eks-cluster-on-fargate-with-aws-load-balancer-controller-and-15pa</id>
-    <updated>2026-08-02T16:47:04Z</updated>
-    <summary type="text">Introduction This guide provides a detailed walkthrough of deploying a Kubernetes application on Amazon Elastic Kubernetes Service (EKS) using AWS Fargate, exposing the application through an Application Load Balancer (ALB) managed by the AWS Load Balancer Controller. The project demonstrates: Creating an EKS cluster using eksctl Configuring IAM permissions Enabling OIDC integration Implementing I</summary>
-    <author><name>Goodluck Ekeoma Adiole</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Further Optimizing the Vision-Only Harness: the Notes Rule</title>
-    <link href="https://dev.to/qingze_hu_c4c251c1b353ede/further-optimizing-the-vision-only-harness-the-notes-rule-3857" rel="alternate"/>
-    <id>https://dev.to/qingze_hu_c4c251c1b353ede/further-optimizing-the-vision-only-harness-the-notes-rule-3857</id>
-    <updated>2026-08-02T16:45:36Z</updated>
-    <summary type="text">A short follow-up to I replicated the vision-only Pokémon run Anthropic showcased on the Fable 5 launch page. Rereading the harness code, I found the notes rule was still doing design work on the model's behalf — so I changed it, and compared the effect across two runs, one on each side of the change. The code and every log quoted below are in the project repo. Rereading the code: the notes rule w</summary>
-    <author><name>Qingze Hu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Speech-to-Text APIs in 2026: What the Pricing Pages Don't Tell You</title>
-    <link href="https://dev.to/moksh/speech-to-text-apis-in-2026-what-the-pricing-pages-dont-tell-you-12kb" rel="alternate"/>
-    <id>https://dev.to/moksh/speech-to-text-apis-in-2026-what-the-pricing-pages-dont-tell-you-12kb</id>
-    <updated>2026-08-02T16:45:29Z</updated>
-    <summary type="text">I ran a 9-second WAV file through faster-whisper on a CPU with no GPU and no API key. It took 0.6 seconds and got one word wrong: &quot;Dev Tulab&quot; instead of &quot;DevToolLab&quot;. Adding one line of vocabulary hinting fixed it, for free. I wrote up the full comparison of hosted and open speech-to-text APIs on DevToolLab; here's the short version. One Label, Three Different Jobs &quot;Speech-to-text&quot; actually covers</summary>
-    <author><name>Moksh Gupta</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
