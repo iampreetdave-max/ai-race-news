@@ -4,7 +4,32 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-03T08:32:48Z</updated>
+  <updated>2026-08-03T12:29:04Z</updated>
+  <entry>
+    <title>Beyond the Hype: Why 'Cognitive Debt' and LSP Integration Are the Real Bottlenecks in the AI-Coding Era</title>
+    <link href="https://dev.to/tamizuddin/beyond-the-hype-why-cognitive-debt-and-lsp-integration-are-the-real-bottlenecks-in-the-ai-coding-27j0" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/beyond-the-hype-why-cognitive-debt-and-lsp-integration-are-the-real-bottlenecks-in-the-ai-coding-27j0</id>
+    <updated>2026-08-03T12:00:53Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The AI coding assistant market is currently in a frenzy of feature parity and benchmark wars. We see headlines touting 90% accuracy on LeetCode hard problems or seamless IDE integration with every major vendor. However, for senior engineers and systems architects, the day-to-day reality tells a different story. The friction isn't primarily in the generation of sy</summary>
+    <author><name>Tamiz Uddin</name></author>
+  </entry>
+  <entry>
+    <title>Bringing an External CRM's Chats into Firestore for AI Search: Vector Search, Webhooks, and a Stubborn Bundling Error</title>
+    <link href="https://dev.to/androve2k/bringing-an-external-crms-chats-into-firestore-for-ai-search-vector-search-webhooks-and-a-1898" rel="alternate"/>
+    <id>https://dev.to/androve2k/bringing-an-external-crms-chats-into-firestore-for-ai-search-vector-search-webhooks-and-a-1898</id>
+    <updated>2026-08-03T12:00:22Z</updated>
+    <summary type="text">A client wanted their management panel's AI assistant to answer questions like &quot;what did this contact write me&quot; or &quot;who replied about a certain topic&quot;, pulling from thousands of conversations held on an external CRM. Between the idea and the first correct answer there was a bundling error that came back three times, a cursor that never advanced, and a phone number that pointed to the wrong contact</summary>
+    <author><name>Andrea Roversi</name></author>
+  </entry>
+  <entry>
+    <title>Running Claude Code on AWS Bedrock: IAM, SCPs, and the Governance Model Most Teams Get Wrong</title>
+    <link href="https://dev.to/amartinawi/running-claude-code-on-aws-bedrock-iam-scps-and-the-governance-model-most-teams-get-wrong-3ojm" rel="alternate"/>
+    <id>https://dev.to/amartinawi/running-claude-code-on-aws-bedrock-iam-scps-and-the-governance-model-most-teams-get-wrong-3ojm</id>
+    <updated>2026-08-03T12:00:00Z</updated>
+    <summary type="text">Cross-posted with permission from iqraa.tech — the full guide has the complete IAM policy, SCP examples, and a 300-engineer rollout case study. Claude Code has a Bedrock mode. Most people find out about it from a single environment variable — CLAUDE_CODE_USE_BEDROCK=1 — and assume that's the whole story. It isn't. The env var is the on-switch; the IAM policy, region strategy, and governance layer </summary>
+    <author><name>Amar Tinawi</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>A Threat Actor Used DeepSeek to Orchestrate 460 Attacks via Telegram</title>
     <link href="https://dev.to/peremptory/a-threat-actor-used-deepseek-to-orchestrate-460-attacks-via-telegram-2jpi" rel="alternate"/>
@@ -429,30 +454,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Tokeness review: one API key for GPT/Claude/Gemini/Grok/DeepSeek/Kimi (with real caveats)</title>
-    <link href="https://dev.to/virtualhotbar/tokeness-review-one-api-key-for-gptclaudegeminigrokdeepseekkimi-with-real-caveats-1ao1" rel="alternate"/>
-    <id>https://dev.to/virtualhotbar/tokeness-review-one-api-key-for-gptclaudegeminigrokdeepseekkimi-with-real-caveats-1ao1</id>
-    <updated>2026-08-01T08:49:59Z</updated>
-    <summary type="text">TL;DR: Moved my multi-model API usage to Tokeness (tokeness.io), a third-party API gateway. One key covers GPT, Claude, Gemini, Grok, DeepSeek, GLM and Kimi; prepaid CNY billing (7:1) with business invoices; per-1M-token prices listed openly in the console; genuinely usable free tier. Main caveats: GPT/Claude are blocked for mainland China IPs (their own compliance decision, not a bug), it's a rel</summary>
-    <author><name>VirtualHotBar</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Docker Hub gets OIDC federation for GitHub Actions, retiring the PAT-in-a-secret pattern</title>
-    <link href="https://dev.to/leobaniak/docker-hub-gets-oidc-federation-for-github-actions-retiring-the-pat-in-a-secret-pattern-1392" rel="alternate"/>
-    <id>https://dev.to/leobaniak/docker-hub-gets-oidc-federation-for-github-actions-retiring-the-pat-in-a-secret-pattern-1392</id>
-    <updated>2026-08-01T08:24:56Z</updated>
-    <summary type="text">Docker has switched on OpenID Connect authentication between GitHub Actions and Docker Hub, letting a workflow exchange a signed per-run identity token for a short-lived Docker credential instead of reading a Personal Access Token out of a repo secret. Per the Docker blog, the feature is available to organizations on Docker Team, Docker Business and Docker Hardened Images plans. For platform teams</summary>
-    <author><name>Leo</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes Operator con Kubebuilder: best practice per evitare conflitti, retry inutili e reconciliation infinite</title>
-    <link href="https://dev.to/frontendfacile/kubernetes-operator-con-kubebuilder-best-practice-per-evitare-conflitti-retry-inutili-e-329b" rel="alternate"/>
-    <id>https://dev.to/frontendfacile/kubernetes-operator-con-kubebuilder-best-practice-per-evitare-conflitti-retry-inutili-e-329b</id>
-    <updated>2026-08-01T08:19:22Z</updated>
-    <summary type="text">Quando più controller toccano la stessa Custom Resource, la concorrenza diventa un problema reale: ecco come gestirla in modo robusto e scalabile. Il problema vero degli Operator: la concorrenza sugli aggiornamenti Nel mondo reale raramente hai un solo controller che gestisce “la sua” risorsa in modo isolato. Appena introduci: più controller nello stesso progetto (o nello stesso manager), controll</summary>
-    <author><name>frontendfacile.it</name></author>
   </entry>
 </feed>
