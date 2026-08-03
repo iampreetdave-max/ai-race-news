@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-03T04:33:41Z</updated>
+  <updated>2026-08-03T08:32:48Z</updated>
+  <entry>
+    <title>A Threat Actor Used DeepSeek to Orchestrate 460 Attacks via Telegram</title>
+    <link href="https://dev.to/peremptory/a-threat-actor-used-deepseek-to-orchestrate-460-attacks-via-telegram-2jpi" rel="alternate"/>
+    <id>https://dev.to/peremptory/a-threat-actor-used-deepseek-to-orchestrate-460-attacks-via-telegram-2jpi</id>
+    <updated>2026-08-03T08:19:55Z</updated>
+    <summary type="text">A threat actor based in Zhuhai wired DeepSeek into an open-source agent framework called Hermes, then piloted the whole setup via Telegram to attack hundreds of internet-facing systems. Palo Alto Networks' Unit 42 published the analysis on August 2. Here's what matters: it's not an edge case. The attacker wove together three off-the-shelf pieces, a frontier AI model, a published agent framework, a</summary>
+    <author><name>Peremptory</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Kafka Incident That Was Just a Certificate (And the Operator That Saved MirrorMaker)</title>
+    <link href="https://dev.to/hugolesta/the-kafka-incident-that-was-just-a-certificate-and-the-operator-that-saved-mirrormaker-p94" rel="alternate"/>
+    <id>https://dev.to/hugolesta/the-kafka-incident-that-was-just-a-certificate-and-the-operator-that-saved-mirrormaker-p94</id>
+    <updated>2026-08-03T08:15:41Z</updated>
+    <summary type="text">A Saturday afternoon alert: under-replicated partitions on the production Kafka cluster, well over the threshold. Status CRITICAL, replicas out of sync, risk of unavailability if a broker fails. The kind of page that makes you put down whatever you were holding. The cluster is self-managed Kafka running on EKS, which means there is no AWS support engineer on the other side of this — whatever is ha</summary>
+    <author><name>hugolesta</name></author>
+  </entry>
+  <entry>
+    <title>Gartner Says 40% of Apps Will Have AI Agents by December. Here's the Plumbing Nobody Puts on the Slide.</title>
+    <link href="https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196" rel="alternate"/>
+    <id>https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196</id>
+    <updated>2026-08-03T08:09:14Z</updated>
+    <summary type="text">There's a number going around dev.to this week. Gartner says 40% of enterprise apps will ship a task-specific AI agent by the end of 2026. Last year it was under 5%. Every deck quotes it. Every thread argues about it. Fine. I run engineering at a UK payments company. We're FCA-authorised, SOC2, the whole regulated stack. On the side I build an open-source agent framework called Bodhiorchard, where</summary>
+    <author><name>arun rajkumar</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>5 New Dev Tools You Should Learn This Week</title>
     <link href="https://dev.to/karleeov/5-new-dev-tools-you-should-learn-this-week-12in" rel="alternate"/>
@@ -426,32 +454,5 @@
     <updated>2026-08-01T08:19:22Z</updated>
     <summary type="text">Quando più controller toccano la stessa Custom Resource, la concorrenza diventa un problema reale: ecco come gestirla in modo robusto e scalabile. Il problema vero degli Operator: la concorrenza sugli aggiornamenti Nel mondo reale raramente hai un solo controller che gestisce “la sua” risorsa in modo isolato. Appena introduci: più controller nello stesso progetto (o nello stesso manager), controll</summary>
     <author><name>frontendfacile.it</name></author>
-  </entry>
-  <entry>
-    <title>Our dev labs open-sourced a local Python middleware framework that intercepts, repairs, and stabilizes malformed AI JSON data streams within local in-memory arrays. Clocking a 0.0122ms runtime latency under 10k parallel asynchronous loads.</title>
-    <link href="https://dev.to/kylikdlabs/our-dev-labs-open-sourced-a-local-python-middleware-framework-that-intercepts-repairs-and-2fnm" rel="alternate"/>
-    <id>https://dev.to/kylikdlabs/our-dev-labs-open-sourced-a-local-python-middleware-framework-that-intercepts-repairs-and-2fnm</id>
-    <updated>2026-08-01T08:17:48Z</updated>
-    <summary type="text">Optimizing LLM Stream Ingestion: Reconstructing Truncated JSON Payloads in 0.0122ms Kylik Daniels Kylik Daniels Kylik Daniels Follow Aug 1 Optimizing LLM Stream Ingestion: Reconstructing Truncated JSON Payloads in 0.0122ms #python #langchain #architecture #performance 1 reaction Add Comment 1 min read</summary>
-    <author><name>Kylik Daniels</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Parlor v2: best-effort fully local GPT-Live clone on an M3 Pro</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdrb0y/parlor_v2_besteffort_fully_local_gptlive_clone_on/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdrb0y/parlor_v2_besteffort_fully_local_gptlive_clone_on/</id>
-    <updated>2026-08-02T19:36:04Z</updated>
-    <summary type="text">GPT-Live is so good that I use it almost every day. I've been wanting to replicate it since it was released. My first attempt was to fine-tune Gemma 4 12B to behave like a full-duplex model. Something like grafting a decision tick + speech head to the model. It failed after multiple trials. For now, I think a classic cascade system is still better. We just need to wait until a benevolent frontier </summary>
-    <author><name>/u/ffinzy</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response</title>
-    <link href="https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/</id>
-    <updated>2026-07-31T05:06:43Z</updated>
-    <summary type="text">PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript. It fuses turn-taking, speech recognition, function calling, and response generation into a single audio-native model, keeps TTS separate so the output voice stays controllable, and runs as a request-based LLM rather than an always-on stream. PolyAI reports sub-300ms respons</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
