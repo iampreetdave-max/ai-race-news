@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-04T16:56:20Z</updated>
+  <updated>2026-08-04T18:41:31Z</updated>
+  <entry>
+    <title>Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks</title>
+    <link href="https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/</id>
+    <updated>2026-08-04T18:38:41Z</updated>
+    <summary type="text">Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than the strongest public baseline on GB300 NVL72 racks. It requires Blackwell SM100 or SM103 GPUs, which puts it out of reach for anyone without NVL72 capaci</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive</title>
     <link href="https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/" rel="alternate"/>
@@ -13,6 +23,14 @@
     <summary type="text">Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point interactive scatter at 258 KiB, and keeps exact f64 columns in Python so hover, selection, and zoom drilldown still return original rows. The library is early alph</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>New ways to learn and teach with ChatGPT Work and Codex</title>
+    <link href="https://openai.com/index/learn-teach-chatgpt-work-codex" rel="alternate"/>
+    <id>https://openai.com/index/learn-teach-chatgpt-work-codex</id>
+    <updated>2026-08-04T00:00:00Z</updated>
+    <summary type="text">Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.</summary>
+    <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
     <title>Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web</title>
@@ -32,6 +50,25 @@
     <summary type="text">Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>My Agent Orchestrator Burned 1-2M Opus Tokens Per Task. Here's the Postmortem.</title>
+    <link href="https://dev.to/akashy/my-agent-orchestrator-burned-1-2m-opus-tokens-per-task-heres-the-postmortem-2k7g" rel="alternate"/>
+    <id>https://dev.to/akashy/my-agent-orchestrator-burned-1-2m-opus-tokens-per-task-heres-the-postmortem-2k7g</id>
+    <updated>2026-08-04T18:19:42Z</updated>
+    <summary type="text">I built an orchestration skill for Claude Code that delegated everything to subagents. It worked. It also cost somewhere on the order of 1-2 million Opus tokens per task - including tasks whose final diff was a handful of lines. Nothing was broken. Every individual decision was defensible. Three modest multipliers stacked, and then the whole stack ran on every single request. This is the postmorte</summary>
+    <author><name>Avraham K</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Surviving the Shai-Hulud: Why Agent Eval Harnesses and Local LLMs Are the New Supply Chain Defense</title>
+    <link href="https://dev.to/tamizuddin/surviving-the-shai-hulud-why-agent-eval-harnesses-and-local-llms-are-the-new-supply-chain-defense-1aib" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/surviving-the-shai-hulud-why-agent-eval-harnesses-and-local-llms-are-the-new-supply-chain-defense-1aib</id>
+    <updated>2026-08-04T18:00:40Z</updated>
+    <summary type="text">Originally published on tamiz.pro. In Frank Herbert’s Dune, the Shai-Hulud (sandworms) represents an overwhelming, unpredictable force of nature that must be respected, navigated, or survived. In modern software engineering, we have a new Shai-Hulud: the chaotic, non-deterministic, and often opaque supply chain of Large Language Model (LLM) agents.\n\nFor years, &quot;supply chain security&quot; meant locki</summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Omdia's 2026 supply-chain survey puts the annual-incident rate at 77 percent</title>
@@ -418,43 +455,5 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>A Framework-Agnostic Testing Methodology for AI Agents (61 sources, 58 test blocks, OWASP Agentic Top 10)</title>
-    <link href="https://dev.to/turgaysavaci/a-framework-agnostic-testing-methodology-for-ai-agents-61-sources-58-test-blocks-owasp-agentic-4jh7" rel="alternate"/>
-    <id>https://dev.to/turgaysavaci/a-framework-agnostic-testing-methodology-for-ai-agents-61-sources-58-test-blocks-owasp-agentic-4jh7</id>
-    <updated>2026-08-02T09:00:04Z</updated>
-    <summary type="text">How do you actually test an AI agent? Not &quot;does it respond,&quot; but: does it route to the right tool, chain calls correctly, recover from failure, resist prompt injection, and stay within cost/latency budget? I spent weeks working through this on a running agent, and open-sourced the entire methodology — framework-agnostic, so it applies regardless of your language, runtime, or toolset. What's inside</summary>
-    <author><name>Turgay Savacı</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Most Underused Prompt in Data Engineering</title>
-    <link href="https://dev.to/raghavsharma_/the-most-underused-prompt-in-data-engineering-ejk" rel="alternate"/>
-    <id>https://dev.to/raghavsharma_/the-most-underused-prompt-in-data-engineering-ejk</id>
-    <updated>2026-08-02T09:00:00Z</updated>
-    <summary type="text">You've learned not to trust the first answer. So you read it carefully. You spot two problems. You fix them yourself, ship it, and move on. That's a reasonable way to work, and it's what separates an engineer who uses these tools well from one who copies and pastes. But there's a step you skipped. You never asked Claude to find the problems, and asking produces a different kind of output than revi</summary>
-    <author><name>raghav sharma</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>🌐 Networking Fundamentals Every DevOps Engineer Should Know (IP, DNS &amp; Ports)</title>
-    <link href="https://dev.to/themdmohiuddin/networking-fundamentals-every-devops-engineer-should-know-ip-dns-ports-407l" rel="alternate"/>
-    <id>https://dev.to/themdmohiuddin/networking-fundamentals-every-devops-engineer-should-know-ip-dns-ports-407l</id>
-    <updated>2026-08-02T08:18:44Z</updated>
-    <summary type="text">If you're learning DevOps, networking is not optional. Every SSH connection, web request, Docker container, Kubernetes service, and cloud resource relies on networking behind the scenes. When applications fail to communicate, deployments break, or services become unreachable, networking is often the first place engineers investigate. In this article, I'll cover: ✅ What IP addresses are ✅ Public vs</summary>
-    <author><name>Md Mohiuddin</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code in CI: Running Agentic Code Review, Test Generation, and Auto-Fix on Every Pull Request</title>
-    <link href="https://dev.to/jsmanifest/claude-code-in-ci-running-agentic-code-review-test-generation-and-auto-fix-on-every-pull-request-1de3" rel="alternate"/>
-    <id>https://dev.to/jsmanifest/claude-code-in-ci-running-agentic-code-review-test-generation-and-auto-fix-on-every-pull-request-1de3</id>
-    <updated>2026-08-02T05:53:53Z</updated>
-    <summary type="text">Claude Code in CI: Running Agentic Code Review, Test Generation, and Auto-Fix on Every Pull Request This article was written with the assistance of AI, under human supervision and review. Why Agentic Code Review in CI Changes Everything Most CI failures waste hours on manual intervention because traditional bots flag problems but never fix them. Developers open a pull request, the linter fails, te</summary>
-    <author><name>jsmanifest</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
