@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-04T11:28:10Z</updated>
+  <updated>2026-08-04T14:25:04Z</updated>
+  <entry>
+    <title>Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive</title>
+    <link href="https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/</id>
+    <updated>2026-08-04T09:45:40Z</updated>
+    <summary type="text">Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point interactive scatter at 258 KiB, and keeps exact f64 columns in Python so hover, selection, and zoom drilldown still return original rows. The library is early alph</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web</title>
     <link href="https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/" rel="alternate"/>
@@ -153,15 +162,6 @@
     <category term="tutorial"/>
   </entry>
   <entry>
-    <title>How To learn Web Development in 2026</title>
-    <link href="https://dev.to/erikch/how-to-learn-web-development-in-2026-52j5" rel="alternate"/>
-    <id>https://dev.to/erikch/how-to-learn-web-development-in-2026-52j5</id>
-    <updated>2026-08-03T17:19:26Z</updated>
-    <summary type="text">I used to learn like this. Buy the cheap Udemy course, get three hours in, realize it was recorded against a version of the framework that no longer exists. Open twelve Stack Overflow tabs. Read the official docs, get stuck on step four, ping a coworker who is also busy. Then I would keep repeating this pattern until I gave up. Learning a new framework in 2026 is easier than that. However it got e</summary>
-    <author><name>Erik Hanchett</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
     <title>Building ferctl top: Kubernetes resource usage vs requests and limits</title>
     <link href="https://dev.to/ferztyle/building-ferctl-top-kubernetes-resource-usage-vs-requests-and-limits-50a3" rel="alternate"/>
     <id>https://dev.to/ferztyle/building-ferctl-top-kubernetes-resource-usage-vs-requests-and-limits-50a3</id>
@@ -221,6 +221,14 @@
     <author><name>arun rajkumar</name></author>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Reactive Play: Achieved!! Experimenting with Atari Breakout [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1vfa9im/reactive_play_achieved_experimenting_with_atari/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1vfa9im/reactive_play_achieved_experimenting_with_atari/</id>
+    <updated>2026-08-04T13:23:38Z</updated>
+    <summary type="text">Six months ago I started experimenting with PPO and Breakout as a way to learn about Machine Learning and Reinforcement Learning. After a few experiuments just trying to get high scores, it bothered me that everything was a &quot;memorized&quot; script rather than reactive play, like a human would play. Thus began my journey to try and convince PPO to actually track the ball instead of focusing on scoring p</summary>
+    <author><name>/u/mikeysce</name></author>
   </entry>
   <entry>
     <title>5 New Dev Tools You Should Learn This Week</title>
@@ -447,14 +455,5 @@
     <updated>2026-08-02T05:47:08Z</updated>
     <summary type="text">I still remember the frustration when our team's support bot, powered by LangGraph and MCP, couldn't retain context between user interactions. It was as if the bot had a case of conversational amnesia, forcing users to repeat themselves over and over. We later discovered that the issue stemmed from our lack of a centralized tooling server, making it impossible for the bot to access and leverage ex</summary>
     <author><name>Kasi Yaswanth</name></author>
-  </entry>
-  <entry>
-    <title>Agentic DevOps Security: Old IAM Failures at New Speed</title>
-    <link href="https://dev.to/dortort/agentic-devops-security-old-iam-failures-at-new-speed-3575" rel="alternate"/>
-    <id>https://dev.to/dortort/agentic-devops-security-old-iam-failures-at-new-speed-3575</id>
-    <updated>2026-08-02T05:29:58Z</updated>
-    <summary type="text">I argued previously that agentic AI is reintroducing ClickOps, and I still think that holds. But I made a second claim in that piece I've stopped believing: that least-privilege design is harder for agents than for humans, because you can't predict at design time what actions an agent will decide to take. That's true as far as it goes. It's also not a fact about agents. It's a fact about how we gr</summary>
-    <author><name>Francis Eytan Dortort</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
