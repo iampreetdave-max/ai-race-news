@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-04T08:43:56Z</updated>
+  <updated>2026-08-04T11:28:10Z</updated>
   <entry>
     <title>Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web</title>
     <link href="https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/" rel="alternate"/>
@@ -32,6 +32,23 @@
     <summary type="text">MiniMax releases H3 video model weights, putting an open model at the top of a video ranking for the first time. The article China's MiniMax H3 is the first open model to top an AI video ranking appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How to Debug MCP Server Connection Issues in 60 Seconds</title>
+    <link href="https://dev.to/jaypee_2de6db397980219fcd/how-to-debug-mcp-server-connection-issues-in-60-seconds-18bd" rel="alternate"/>
+    <id>https://dev.to/jaypee_2de6db397980219fcd/how-to-debug-mcp-server-connection-issues-in-60-seconds-18bd</id>
+    <updated>2026-08-04T11:06:07Z</updated>
+    <summary type="text">How to Debug MCP Server Connection Issues in 60 Seconds You've spun up a shiny new MCP server, pointed your client at it, and… silence. No tools appear. No error message. Just a vague sense that something went wrong somewhere in the JSON-RPC void. Connection debugging is the most common pain point for MCP developers, and it's unnecessarily painful because most of us do it inside a chat client wher</summary>
+    <author><name>Jaypee</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>What Happens After You Log In? Understanding Sessions, Tokens &amp; Authentication</title>
+    <link href="https://dev.to/norune541/what-happens-after-you-log-in-understanding-sessions-tokens-authentication-2idi" rel="alternate"/>
+    <id>https://dev.to/norune541/what-happens-after-you-log-in-understanding-sessions-tokens-authentication-2idi</id>
+    <updated>2026-08-04T11:03:49Z</updated>
+    <summary type="text">My Github with the full code norune541 / secure-session-auth A clean and minimal initial setup for an Express, TypeScript, and PostgreSQL backend project featuring advanced session management, secure authentication flows, and token rotation. Session management A clean and minimal initial setup for an Express, TypeScript, and PostgreSQL backend project featuring advanced session management, secure </summary>
+    <author><name>Ken</name></author>
   </entry>
   <entry>
     <title>I gave a user the right answer with the wrong mechanism. They caught it within a day.</title>
@@ -439,22 +456,5 @@
     <summary type="text">I argued previously that agentic AI is reintroducing ClickOps, and I still think that holds. But I made a second claim in that piece I've stopped believing: that least-privilege design is harder for agents than for humans, because you can't predict at design time what actions an agent will decide to take. That's true as far as it goes. It's also not a fact about agents. It's a fact about how we gr</summary>
     <author><name>Francis Eytan Dortort</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Day 1: Understanding Cloud Computing — Service and Deployment Models Explained with a Biryani Analogy</title>
-    <link href="https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p" rel="alternate"/>
-    <id>https://dev.to/sr-palatasingh/day-1-understanding-cloud-computing-service-and-deployment-models-explained-with-a-biryani-3h8p</id>
-    <updated>2026-08-02T03:40:04Z</updated>
-    <summary type="text">Yesterday I announced I'm blogging daily on AWS &amp; DevOps. Here's Day 1 — the fundamentals everything else builds on. ## What is Cloud Computing? Instead of setting up and maintaining infrastructure on-premises, you now access computing resources remotely over the internet — this is Cloud Computing. &quot;Cloud&quot; refers to a network that provides resources over the internet, accessible whenever needed. I</summary>
-    <author><name>Soumyaranjan Palatasingh</name></author>
-  </entry>
-  <entry>
-    <title>I told one AI to demolish the handoff prompt I wrote for another AI. It found a test that passes even when it's empty</title>
-    <link href="https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70" rel="alternate"/>
-    <id>https://dev.to/jun_uen0/i-told-one-ai-to-demolish-the-handoff-prompt-i-wrote-for-another-ai-it-found-a-test-that-passes-3o70</id>
-    <updated>2026-08-02T03:06:19Z</updated>
-    <summary type="text">I'm building an app with Claude Code right now. The setup is a little unusual. One &quot;commander&quot; session writes the instructions, and separate &quot;worker&quot; sessions implement them in parallel. The commander never touches the keyboard itself. Its whole job is to turn &quot;what to do next&quot; into a handoff prompt that a worker can read and just run with. And that handoff prompt is quietly the scariest thing in </summary>
-    <author><name>Jun</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
