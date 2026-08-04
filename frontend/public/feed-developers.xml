@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-04T20:27:54Z</updated>
+  <updated>2026-08-04T22:16:57Z</updated>
   <entry>
     <title>Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks</title>
     <link href="https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/" rel="alternate"/>
@@ -40,6 +40,26 @@
     <summary type="text">Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox. Pi, OpenCode, Codex, and Claude Code all drive the same head</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Configure a Custom LLM Proxy in OpenOPC (and Debug LiteLLM)</title>
+    <link href="https://dev.to/fanioz/how-to-configure-a-custom-llm-proxy-in-openopc-and-debug-litellm-5m6" rel="alternate"/>
+    <id>https://dev.to/fanioz/how-to-configure-a-custom-llm-proxy-in-openopc-and-debug-litellm-5m6</id>
+    <updated>2026-08-04T22:05:50Z</updated>
+    <summary type="text">(If you missed it, check out my previous post on Getting Started with OpenOPC to see why I'm using this agent framework in the first place!) I recently started setting up OpenOPC to run my AI agents. To save on API costs, I decided to hook it up to a custom, OpenAI-compatible proxy at https://api.freetheai.xyz/v1. I expected it to be a simple drop-in replacement. In other platforms, you just set y</summary>
+    <author><name>fanioz</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code shipped a sandbox. Here's what it protects — and what it doesn't.</title>
+    <link href="https://dev.to/termaxa/claude-code-shipped-a-sandbox-heres-what-it-protects-and-what-it-doesnt-4o8h" rel="alternate"/>
+    <id>https://dev.to/termaxa/claude-code-shipped-a-sandbox-heres-what-it-protects-and-what-it-doesnt-4o8h</id>
+    <updated>2026-08-04T21:23:38Z</updated>
+    <summary type="text">Anthropic shipped OS-level sandboxing for Claude Code. If you run an agent against a repo you care about, it's worth understanding precisely what moved — because a fair amount of the commentary treats it as &quot;agents are contained now,&quot; and that's not what the documentation says. I read the docs carefully, partly because I build a tool in adjacent territory and needed to know whether I'd just been m</summary>
+    <author><name>zerodrop</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -438,25 +458,5 @@
     <updated>2026-08-02T12:53:24Z</updated>
     <summary type="text">I Deployed a Purple Team Inside My Kubernetes Cluster. The Scanners Never Saw It Coming. Le Beltagy Le Beltagy Le Beltagy Follow Jul 23 I Deployed a Purple Team Inside My Kubernetes Cluster. The Scanners Never Saw It Coming. #kubernetes #security #go #purpleteam 17 reactions 1 comment 5 min read</summary>
     <author><name>Le Beltagy</name></author>
-  </entry>
-  <entry>
-    <title>How I Learned to Stop Worrying and Love --dangerously-skip-permissions</title>
-    <link href="https://dev.to/zirkman/how-i-learned-to-stop-worrying-and-love-dangerously-skip-permissions-2c05" rel="alternate"/>
-    <id>https://dev.to/zirkman/how-i-learned-to-stop-worrying-and-love-dangerously-skip-permissions-2c05</id>
-    <updated>2026-08-02T12:45:25Z</updated>
-    <summary type="text">The flag is called --dangerously-skip-permissions. A year ago, a few weeks into learning the then-new Claude Code, I got tired of approving every shell command and turned it on — on my main machine, no container, no VM. Every command auto-approved, including any command that could have wiped the disk. It never wiped anything. My throughput jumped visibly within days. And it started a pattern I hav</summary>
-    <author><name>Zirkman</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lifecycle, DevOps &amp; Multi-Agent Orchestration for Enterprise AI</title>
-    <link href="https://dev.to/gde/lifecycle-devops-multi-agent-orchestration-for-enterprise-ai-1a1m" rel="alternate"/>
-    <id>https://dev.to/gde/lifecycle-devops-multi-agent-orchestration-for-enterprise-ai-1a1m</id>
-    <updated>2026-08-02T11:08:36Z</updated>
-    <summary type="text">The Agentic DevOps Challenge As enterprise AI adoption matures, organizations are shifting from single-turn chat assistants to complex multi-agent orchestration meshes. In these architectures, specialized autonomous agents—such as planners, researchers, code executors, and API orchestrators—collaborate asynchronously to execute multi-step business workflows. However, managing the lifecycle of non-</summary>
-    <author><name>Jitendra Gupta</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
