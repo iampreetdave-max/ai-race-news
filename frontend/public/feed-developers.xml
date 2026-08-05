@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-05T15:22:37Z</updated>
+  <updated>2026-08-05T17:43:56Z</updated>
   <entry>
     <title>Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks</title>
     <link href="https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/" rel="alternate"/>
@@ -14,6 +14,15 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Stop Your AI Coding CLI From Wasting Tokens on &quot;Hi&quot; and &quot;Thanks&quot;</title>
+    <link href="https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b" rel="alternate"/>
+    <id>https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b</id>
+    <updated>2026-08-05T17:23:35Z</updated>
+    <summary type="text">In this blog post, we will see how a small Python script called Pleasantries can stop your AI coding CLI from burning a full model call every time you type &quot;hi&quot;, &quot;ok&quot;, or &quot;thank you&quot;. I built this after noticing how often my own prompts to Claude Code and Qwen Code started with a greeting out of pure habit, and how each one quietly cost tokens and time for zero task value. Pleasantries is a lightw</summary>
+    <author><name>NaveenKumar Namachivayam ⚡</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Serving Gemma 4 2B on a Single TPU v5e Chip with MCP and Antigravity CLI</title>
@@ -345,33 +354,5 @@
     <summary type="text">Cross-posted with permission from iqraa.tech — the full guide has the complete IAM policy, SCP examples, and a 300-engineer rollout case study. Claude Code has a Bedrock mode. Most people find out about it from a single environment variable — CLAUDE_CODE_USE_BEDROCK=1 — and assume that's the whole story. It isn't. The env var is the on-switch; the IAM policy, region strategy, and governance layer </summary>
     <author><name>Amar Tinawi</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Threat Actor Used DeepSeek to Orchestrate 460 Attacks via Telegram</title>
-    <link href="https://dev.to/peremptory/a-threat-actor-used-deepseek-to-orchestrate-460-attacks-via-telegram-2jpi" rel="alternate"/>
-    <id>https://dev.to/peremptory/a-threat-actor-used-deepseek-to-orchestrate-460-attacks-via-telegram-2jpi</id>
-    <updated>2026-08-03T08:19:55Z</updated>
-    <summary type="text">A threat actor based in Zhuhai wired DeepSeek into an open-source agent framework called Hermes, then piloted the whole setup via Telegram to attack hundreds of internet-facing systems. Palo Alto Networks' Unit 42 published the analysis on August 2. Here's what matters: it's not an edge case. The attacker wove together three off-the-shelf pieces, a frontier AI model, a published agent framework, a</summary>
-    <author><name>Peremptory</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Kafka Incident That Was Just a Certificate (And the Operator That Saved MirrorMaker)</title>
-    <link href="https://dev.to/hugolesta/the-kafka-incident-that-was-just-a-certificate-and-the-operator-that-saved-mirrormaker-p94" rel="alternate"/>
-    <id>https://dev.to/hugolesta/the-kafka-incident-that-was-just-a-certificate-and-the-operator-that-saved-mirrormaker-p94</id>
-    <updated>2026-08-03T08:15:41Z</updated>
-    <summary type="text">A Saturday afternoon alert: under-replicated partitions on the production Kafka cluster, well over the threshold. Status CRITICAL, replicas out of sync, risk of unavailability if a broker fails. The kind of page that makes you put down whatever you were holding. The cluster is self-managed Kafka running on EKS, which means there is no AWS support engineer on the other side of this — whatever is ha</summary>
-    <author><name>hugolesta</name></author>
-  </entry>
-  <entry>
-    <title>Gartner Says 40% of Apps Will Have AI Agents by December. Here's the Plumbing Nobody Puts on the Slide.</title>
-    <link href="https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196" rel="alternate"/>
-    <id>https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196</id>
-    <updated>2026-08-03T08:09:14Z</updated>
-    <summary type="text">There's a number going around dev.to this week. Gartner says 40% of enterprise apps will ship a task-specific AI agent by the end of 2026. Last year it was under 5%. Every deck quotes it. Every thread argues about it. Fine. I run engineering at a UK payments company. We're FCA-authorised, SOC2, the whole regulated stack. On the side I build an open-source agent framework called Bodhiorchard, where</summary>
-    <author><name>arun rajkumar</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
 </feed>
