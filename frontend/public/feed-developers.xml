@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-06T02:51:54Z</updated>
+  <updated>2026-08-06T05:54:02Z</updated>
+  <entry>
+    <title>Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses</title>
+    <link href="https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/</id>
+    <updated>2026-08-06T00:37:42Z</updated>
+    <summary type="text">Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own skill. Retention varies sharply by task type — 102% on spreads</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Dev Log: 2026-08-03 — a toolkit ships, drivers land, and quotas get real</title>
     <link href="https://dev.to/nasrulhazim/dev-log-2026-08-03-a-toolkit-ships-drivers-land-and-quotas-get-real-2f51" rel="alternate"/>
@@ -134,6 +143,16 @@
     <updated>2026-08-05T17:23:35Z</updated>
     <summary type="text">In this blog post, we will see how a small Python script called Pleasantries can stop your AI coding CLI from burning a full model call every time you type &quot;hi&quot;, &quot;ok&quot;, or &quot;thank you&quot;. I built this after noticing how often my own prompts to Claude Code and Qwen Code started with a greeting out of pure habit, and how each one quietly cost tokens and time for zero task value. Pleasantries is a lightw</summary>
     <author><name>NaveenKumar Namachivayam ⚡</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MarsCast: Transfer Learning of AI Weather Foundation Models to Planetary Atmospheres</title>
+    <link href="https://arxiv.org/abs/2608.05054v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.05054v1</id>
+    <updated>2026-08-05T17:03:13Z</updated>
+    <summary type="text">We investigate the transferability of Earth weather foundation models to planetary atmospheres by adapting the GraphCast graph neural weather forecasting model to Mars. While GraphCast achieves state-of-the-art performance for terrestrial forecasting, its applicability to non-Earth environments remains unexplored. Using the Mars Climate Database (MCD), which provides global atmospheric fields acro</summary>
+    <author><name>M. J. Frost</name></author>
+    <category term="research"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -406,42 +425,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Docker Proves Your App Runs. Kubernetes Proves It's Operable.</title>
-    <link href="https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i" rel="alternate"/>
-    <id>https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i</id>
-    <updated>2026-08-03T22:47:22Z</updated>
-    <summary type="text">It's 2:47 AM. The pod says Running. The logs are clean, no stack trace, no red text, nothing you can grep. kubectl get pods shows 1/1. Everything about this deployment is, technically, fine. Except the service is down. You curl it from your laptop and get a timeout. You curl it from inside the cluster and get connection refused. You exec into the pod and the process is sitting right there, listeni</summary>
-    <author><name>Arbythecoder</name></author>
-  </entry>
-  <entry>
-    <title>Qwen3.8-Max Just Went GA: A Developer's Guide to Alibaba's 2.4T Model</title>
-    <link href="https://dev.to/arshtechpro/qwen38-max-just-went-ga-a-developers-guide-to-alibabas-24t-model-ff3" rel="alternate"/>
-    <id>https://dev.to/arshtechpro/qwen38-max-just-went-ga-a-developers-guide-to-alibabas-24t-model-ff3</id>
-    <updated>2026-08-03T22:40:19Z</updated>
-    <summary type="text">Alibaba made Qwen3.8-Max generally available on August 3, 2026. This is a practical rundown for developers: what the model is, what it costs, how to call it, and where the claims still need a pinch of salt. The one-line version Qwen3.8-Max is a 2.4-trillion-parameter Mixture-of-Experts model with a 1M-token context window, native text/image/video input, OpenAI-compatible API, and pricing of $2 in </summary>
-    <author><name>ArshTechPro</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>6 Ways to Get Dramatically Better Results From Claude</title>
-    <link href="https://dev.to/soverflowed/6-ways-to-get-dramatically-better-results-from-claude-4331" rel="alternate"/>
-    <id>https://dev.to/soverflowed/6-ways-to-get-dramatically-better-results-from-claude-4331</id>
-    <updated>2026-08-03T20:18:16Z</updated>
-    <summary type="text">Some developers treat Claude like autocomplete: paste some code, get some code back, iterate blindly. The gap between a mediocre response and a genuinely great one usually isn't the model — it's how you're prompting it. Here are six concrete techniques, each with a real before/after you can use in the API, Claude Code, or claude.ai. 1. Give explicit success criteria, not just a task Vague prompts </summary>
-    <author><name>stackOverflowed</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built an MCP Server So AI Assistants Can Process PDFs Directly</title>
-    <link href="https://dev.to/peter_ndumia_pdfhaul/i-built-an-mcp-server-so-ai-assistants-can-process-pdfs-directly-80k" rel="alternate"/>
-    <id>https://dev.to/peter_ndumia_pdfhaul/i-built-an-mcp-server-so-ai-assistants-can-process-pdfs-directly-80k</id>
-    <updated>2026-08-03T19:35:24Z</updated>
-    <summary type="text">I run PDFHaul, a free browser and mobile PDF toolkit, as a solo founder. A few months ago I kept running into the same friction point: every time I wanted an AI assistant to help with a PDF task, I had to manually download the file, upload it somewhere, run the tool, then feed the result back into the conversation. For anything involving more than one file, that loop got old fast. So I built an MC</summary>
-    <author><name>Peter Ndumia</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>

@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-06T02:51:54Z</updated>
+  <updated>2026-08-06T05:54:02Z</updated>
+  <entry>
+    <title>CoCo-IR: Contextual Composed Image Retrieval</title>
+    <link href="https://arxiv.org/abs/2608.05149v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.05149v1</id>
+    <updated>2026-08-05T17:59:57Z</updated>
+    <summary type="text">Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by propos</summary>
+    <author><name>Liang-Yan Gui</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Objects as Audio-Visual Modal Sound Fields</title>
+    <link href="https://arxiv.org/abs/2608.05145v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.05145v1</id>
+    <updated>2026-08-05T17:59:19Z</updated>
+    <summary type="text">While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in</summary>
+    <author><name>Ruohan Gao</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>MarsCast: Transfer Learning of AI Weather Foundation Models to Planetary Atmospheres</title>
+    <link href="https://arxiv.org/abs/2608.05054v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.05054v1</id>
+    <updated>2026-08-05T17:03:13Z</updated>
+    <summary type="text">We investigate the transferability of Earth weather foundation models to planetary atmospheres by adapting the GraphCast graph neural weather forecasting model to Mars. While GraphCast achieves state-of-the-art performance for terrestrial forecasting, its applicability to non-Earth environments remains unexplored. Using the Mars Climate Database (MCD), which provides global atmospheric fields acro</summary>
+    <author><name>M. J. Frost</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>MCP retrieval cost 4x more tokens than grep, until repo size flipped it</title>
     <link href="https://dev.to/pranav_raj_dae81effb8b57d/mcp-retrieval-cost-4x-more-tokens-than-grep-until-repo-size-flipped-it-5cfj" rel="alternate"/>
@@ -13,6 +41,26 @@
     <summary type="text">TL;DR: Swapping grep for MCP retrieval tools cost my coding agent 4.1x more tokens on a 33-file repo, and saved 86% on a 249-file one. Same model, same tasks, opposite sign. I spent a weekend replicating the agent experiment from a paper called CodeNib, on a Windows laptop with no GPU, against two repositories I wrote myself. Eight behavioral questions, four arms, 32 agent runs, every token read s</summary>
     <author><name>Pranav Raj</name></author>
     <category term="hardware"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection</title>
+    <link href="https://arxiv.org/abs/2608.04935v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.04935v1</id>
+    <updated>2026-08-05T15:03:44Z</updated>
+    <summary type="text">Recent work has shown that a simple linear probe on frozen representations from modern vision foundation models (VFMs) can achieve state-of-the-art AIGI detection performance, substantially outperforming specialized detectors in challenging in-the-wild scenarios. This finding has established DINOv3 as the dominant foundation-model baseline for subsequent improvements. However, we find that the vis</summary>
+    <author><name>Xinping Gao</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Enhancing Low Back Pain Assessment with Diffusion Models for Lumbar Spine MRI Segmentation</title>
+    <link href="https://arxiv.org/abs/2608.04906v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.04906v1</id>
+    <updated>2026-08-05T14:35:27Z</updated>
+    <summary type="text">This study introduces a diffusion-based framework for robust and accurate semantic segmentation of lumbar spine MRI scans from patients with low back pain (LBP), regardless of whether the scans are T1- or T2-weighted. We compared with advanced models for segmenting vertebrae, intervertebral discs (IVDs), and spinal canal using the SPIDER dataset. The results showed that SpineSegDiff achieved a seg</summary>
+    <author><name>Catherine R. Jutzeler</name></author>
+    <category term="product-launch"/>
     <category term="research"/>
   </entry>
   <entry>
@@ -63,13 +111,5 @@
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus…AI researchers have built a prototype computer virus which […]</summary>
     <author><name>Jack Clark</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Prior work on provenance-preserving epistemic abstention and evidence-triggered revision in neural systems? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1vg4zx7/prior_work_on_provenancepreserving_epistemic/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1vg4zx7/prior_work_on_provenancepreserving_epistemic/</id>
-    <updated>2026-08-05T11:42:53Z</updated>
-    <summary type="text">Hello everyone, Adjacent bodies of work appear to include selective prediction and abstention, uncertainty estimation and calibration, provenance-aware representations, truth-maintenance and belief-revision systems, continual learning, and localized model editing. Each seems to address part of the problem, but I have not been able to identify an end-to-end evaluation that jointly tests persistent </summary>
-    <author><name>/u/Important_Spot3977</name></author>
   </entry>
 </feed>
