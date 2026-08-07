@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-06T14:21:47Z</updated>
+  <updated>2026-08-07T00:43:11Z</updated>
+  <entry>
+    <title>Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival</title>
+    <link href="https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/</id>
+    <updated>2026-08-06T16:33:59Z</updated>
+    <summary type="text">Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool calls and output tokens. The choice of framework is mainly a question of price and speed. The article Claude Code is the fastest agent framew</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce</title>
     <link href="https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/" rel="alternate"/>
@@ -21,6 +30,24 @@
     <summary type="text">Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own skill. Retention varies sharply by task type — 102% on spreads</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GitHub pauses the Kimi K3 rollout in Copilot while it works a GitHub Actions incident</title>
+    <link href="https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l" rel="alternate"/>
+    <id>https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l</id>
+    <updated>2026-08-07T00:24:50Z</updated>
+    <summary type="text">A GitHub product launch is being held back by the CI/CD platform underneath it. On August 6 GitHub filed a Changelog entry announcing that Kimi K3, an open-weight model, is now generally available in GitHub Copilot, then added an editor's note the same day: the rollout is temporarily paused while GitHub mitigates an incident with GitHub Actions. What the entry says, and what it does not Per the no</summary>
+    <author><name>Leo</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Three Ways Your Training Data Lies to You (And None of Them Throw an Error)</title>
+    <link href="https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044" rel="alternate"/>
+    <id>https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044</id>
+    <updated>2026-08-07T00:21:27Z</updated>
+    <summary type="text">Every failure I am about to describe produced a clean run. No exception, no stack trace, no red build. Each one produced a plausible number that I believed for longer than I should have. That is the category of bug I have come to fear most. A crash tells you it crashed. A silently broken dataset tells you nothing at all, and your metrics will politely agree with it. Here are three from the last ye</summary>
+    <author><name>Rickesh T N</name></author>
   </entry>
   <entry>
     <title>How to Make Your App Look Good When You’re Not a Designer</title>
@@ -93,6 +120,15 @@
     <updated>2026-08-06T08:17:33Z</updated>
     <summary type="text">Do not run Kubernetes for a client project that fits on one server, has no autoscaling requirement, and is maintained by fewer than three people who touch infrastructure. A single Docker Compose host running behind a reverse proxy handles the majority of small agency workloads, and it costs you exactly two things: minutes of downtime during reboots, and a manual path back from hardware failure. Ku</summary>
     <author><name>Jachin Ocacio</name></author>
+  </entry>
+  <entry>
+    <title>Humans in the loop miss a third of dangerous AI coding agent requests</title>
+    <link href="https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236" rel="alternate"/>
+    <id>https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236</id>
+    <updated>2026-08-06T16:44:29Z</updated>
+    <summary type="text">You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?</summary>
+    <author><name>The Register AI</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Dev Log: 2026-08-03 — a toolkit ships, drivers land, and quotas get real</title>
@@ -413,32 +449,5 @@
     <summary type="text">MiniMax releases H3 video model weights, putting an open model at the top of a video ranking for the first time. The article China's MiniMax H3 is the first open model to top an AI video ranking appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How to Debug MCP Server Connection Issues in 60 Seconds</title>
-    <link href="https://dev.to/jaypee_2de6db397980219fcd/how-to-debug-mcp-server-connection-issues-in-60-seconds-18bd" rel="alternate"/>
-    <id>https://dev.to/jaypee_2de6db397980219fcd/how-to-debug-mcp-server-connection-issues-in-60-seconds-18bd</id>
-    <updated>2026-08-04T11:06:07Z</updated>
-    <summary type="text">How to Debug MCP Server Connection Issues in 60 Seconds You've spun up a shiny new MCP server, pointed your client at it, and… silence. No tools appear. No error message. Just a vague sense that something went wrong somewhere in the JSON-RPC void. Connection debugging is the most common pain point for MCP developers, and it's unnecessarily painful because most of us do it inside a chat client wher</summary>
-    <author><name>Jaypee</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>What Happens After You Log In? Understanding Sessions, Tokens &amp; Authentication</title>
-    <link href="https://dev.to/norune541/what-happens-after-you-log-in-understanding-sessions-tokens-authentication-2idi" rel="alternate"/>
-    <id>https://dev.to/norune541/what-happens-after-you-log-in-understanding-sessions-tokens-authentication-2idi</id>
-    <updated>2026-08-04T11:03:49Z</updated>
-    <summary type="text">My Github with the full code norune541 / secure-session-auth A clean and minimal initial setup for an Express, TypeScript, and PostgreSQL backend project featuring advanced session management, secure authentication flows, and token rotation. Session management A clean and minimal initial setup for an Express, TypeScript, and PostgreSQL backend project featuring advanced session management, secure </summary>
-    <author><name>Ken</name></author>
-  </entry>
-  <entry>
-    <title>Introducing Muse Code and Muse Spark 1.2</title>
-    <link href="https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything</id>
-    <updated>2026-08-05T23:58:35Z</updated>
-    <summary type="text">Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer wor</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="data"/>
-    <category term="agents"/>
   </entry>
 </feed>
