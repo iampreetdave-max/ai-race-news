@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-07T22:40:38Z</updated>
+  <updated>2026-08-07T23:37:19Z</updated>
+  <entry>
+    <title>DPO vs PPO vs GRPO: Preference Tuning Compared</title>
+    <link href="https://dev.to/multigrid/dpo-vs-ppo-vs-grpo-preference-tuning-compared-4jbg" rel="alternate"/>
+    <id>https://dev.to/multigrid/dpo-vs-ppo-vs-grpo-preference-tuning-compared-4jbg</id>
+    <updated>2026-08-07T23:29:49Z</updated>
+    <summary type="text">All three take preference data and produce a model that behaves more like the preferred half. They differ in how much machinery stands between the preference and the gradient, and that difference is the entire practical decision. The comparison, up front Method Description PPO Four models resident: policy (trained), reference (frozen), reward (frozen), value (trained). Requires generating samples </summary>
+    <author><name>Multigrid</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN</title>
     <link href="https://arxiv.org/abs/2608.06275v1" rel="alternate"/>
@@ -81,15 +90,5 @@
     <author><name>Xinping Gao</name></author>
     <category term="research"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Enhancing Low Back Pain Assessment with Diffusion Models for Lumbar Spine MRI Segmentation</title>
-    <link href="https://arxiv.org/abs/2608.04906v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.04906v1</id>
-    <updated>2026-08-05T14:35:27Z</updated>
-    <summary type="text">This study introduces a diffusion-based framework for robust and accurate semantic segmentation of lumbar spine MRI scans from patients with low back pain (LBP), regardless of whether the scans are T1- or T2-weighted. We compared with advanced models for segmenting vertebrae, intervertebral discs (IVDs), and spinal canal using the SPIDER dataset. The results showed that SpineSegDiff achieved a seg</summary>
-    <author><name>Catherine R. Jutzeler</name></author>
-    <category term="product-launch"/>
-    <category term="research"/>
   </entry>
 </feed>
