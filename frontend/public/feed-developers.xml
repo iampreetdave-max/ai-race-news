@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-07T19:02:31Z</updated>
+  <updated>2026-08-07T20:45:57Z</updated>
   <entry>
     <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
     <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/" rel="alternate"/>
@@ -34,6 +34,24 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Fixing Claude Code's /desktop on Windows: &quot;Claude Desktop is not installed&quot; (Microsoft Store/MSIX installs)</title>
+    <link href="https://dev.to/arthamjayanth/fixing-claude-codes-desktop-on-windows-claude-desktop-is-not-installed-microsoft-storemsix-130a" rel="alternate"/>
+    <id>https://dev.to/arthamjayanth/fixing-claude-codes-desktop-on-windows-claude-desktop-is-not-installed-microsoft-storemsix-130a</id>
+    <updated>2026-08-07T20:14:17Z</updated>
+    <summary type="text">If you use the Claude Code CLI on Windows and type /desktop to hand your session to the Claude Desktop app, you may hit this — even while Claude Desktop is literally open on your screen: Claude Desktop is not installed. Download now? (y/n) (Or on some versions: Failed to open Claude Desktop. Please try opening it manually.) Answering y just re-downloads the same package you already have. Here's th</summary>
+    <author><name>Jayanth Artham</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My Virtual Office v0.7.0: one SDK for OpenClaw, Codex CLI, Claude Code, and more</title>
+    <link href="https://dev.to/eliautobot/my-virtual-office-v070-one-sdk-for-openclaw-codex-cli-claude-code-and-more-51dj" rel="alternate"/>
+    <id>https://dev.to/eliautobot/my-virtual-office-v070-one-sdk-for-openclaw-codex-cli-claude-code-and-more-51dj</id>
+    <updated>2026-08-07T20:13:17Z</updated>
+    <summary type="text">The real story in My Virtual Office v0.7.0 is not another adapter. It is the contract. My Virtual Office now has a Universal Provider SDK that lets one self-hosted workspace connect to OpenClaw, Hermes, Codex CLI, Claude Code, OpenCode, and Antigravity through the same manifest-driven integration layer. Release notes: https://github.com/eliautobot/my-virtual-office/releases/tag/v0.7.0 Why this mat</summary>
+    <author><name>Elix</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What should an MCP tool return? I ran 72 trials instead of arguing</title>
@@ -364,6 +382,16 @@
     <author><name>Jachin Ocacio</name></author>
   </entry>
   <entry>
+    <title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
+    <link href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything</id>
+    <updated>2026-08-07T19:18:09Z</updated>
+    <summary type="text">Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago. I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-age</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Humans in the loop miss a third of dangerous AI coding agent requests</title>
     <link href="https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236" rel="alternate"/>
     <id>https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236</id>
@@ -438,32 +466,5 @@
     <updated>2026-08-05T20:02:37Z</updated>
     <summary type="text">I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s. Fixing RBAC bugs in K8s 1.31 Le Beltagy Le Beltagy Le Beltagy Follow Aug 1 I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s. #go #kubernetes #opensource #beginners 37 reactions 8 comments 8 min read</summary>
     <author><name>Thuve Rakan</name></author>
-  </entry>
-  <entry>
-    <title>Keyv and Cacheable npm Supply Chain Compromise</title>
-    <link href="https://dev.to/informertech/keyv-and-cacheable-npm-supply-chain-compromise-4n6e" rel="alternate"/>
-    <id>https://dev.to/informertech/keyv-and-cacheable-npm-supply-chain-compromise-4n6e</id>
-    <updated>2026-08-05T20:00:00Z</updated>
-    <summary type="text">An active npm supply chain compromise affected widely used packages in the keyv and cacheable ecosystems, along with packages owned by other maintainers. At least ten packages were published with a malicious preinstall hook named setup.mjs. The hook downloads a standalone Bun runtime, runs an obfuscated second-stage payload, collects cloud and CI credentials, and can publish trojanized versions of</summary>
-    <author><name>Informer Tech</name></author>
-  </entry>
-  <entry>
-    <title>Best Amazon Redshift alternatives (2026) for real-time analytics: cost, tuning, and latency</title>
-    <link href="https://dev.to/dataengineeringguide/redshift-alternatives-2026-2k6n" rel="alternate"/>
-    <id>https://dev.to/dataengineeringguide/redshift-alternatives-2026-2k6n</id>
-    <updated>2026-08-05T19:18:28Z</updated>
-    <summary type="text">Amazon Redshift is an AWS-native cloud data warehouse for batch BI, reporting, and large analytical workloads. The question in 2026 is not whether Redshift still works. It is whether its execution model, scaling controls, and billing mechanics fit workloads that now require continuous ingestion, predictable p99 latency, and high-concurrency user-facing analytics. Redshift alternatives make differe</summary>
-    <author><name>M C</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>The Framework Tax Is a Product Decision</title>
-    <link href="https://dev.to/mellowthunder735/the-framework-tax-is-a-product-decision-51b5" rel="alternate"/>
-    <id>https://dev.to/mellowthunder735/the-framework-tax-is-a-product-decision-51b5</id>
-    <updated>2026-08-05T19:07:15Z</updated>
-    <summary type="text">A few years ago, the default test automation decision was mostly technical. Do we use Selenium? Which language? Where do we run the grid? Today, the menu is much larger. You can write Playwright tests, ask Claude to generate them, use an AI-first testing platform, or combine several of those approaches. That sounds like progress, and it is. But more choices have also made it easier to optimize for</summary>
-    <author><name>Markus Gasser</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
