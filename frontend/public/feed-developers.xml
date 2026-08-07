@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-07T05:43:41Z</updated>
+  <updated>2026-08-07T07:22:02Z</updated>
   <entry>
     <title>Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot</title>
     <link href="https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/" rel="alternate"/>
@@ -25,12 +25,40 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Claude Code Now Runs Subagents in the Background by Default — What Actually Changed</title>
+    <link href="https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb" rel="alternate"/>
+    <id>https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb</id>
+    <updated>2026-08-07T07:15:58Z</updated>
+    <summary type="text">Original article in Spanish on El Rack: Claude Code ya no espera a que le mires: subagentes en segundo plano por defecto I run Claude Code daily as my main dev agent, both locally and over SSH against a VPS running a handful of production sites. A change that landed over the last few weeks quietly rewired how I work with it: subagents now run in the background by default. Before, when Code delegat</summary>
+    <author><name>Alvarito1983</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce</title>
     <link href="https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/</id>
     <updated>2026-08-06T13:00:00Z</updated>
     <summary type="text">The startup's platform predicts what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.</summary>
     <author><name>Lauren Forristal</name></author>
+  </entry>
+  <entry>
+    <title>Why Claude Code Ignores CLAUDE.md: Loading, Adherence, and Enforcement</title>
+    <link href="https://dev.to/yan_gao_3ad90a90b26925538/why-claude-code-ignores-claudemd-loading-adherence-and-enforcement-3b95" rel="alternate"/>
+    <id>https://dev.to/yan_gao_3ad90a90b26925538/why-claude-code-ignores-claudemd-loading-adherence-and-enforcement-3b95</id>
+    <updated>2026-08-07T06:34:14Z</updated>
+    <summary type="text">When Claude Code appears to ignore CLAUDE.md, rewriting the file is often the wrong first move. The symptom can come from three different layers: The instruction never entered the active session. The instruction loaded, but the model did not follow it in the task. The instruction describes an outcome that should have been enforced outside the model. These layers need different fixes. 1. Prove the </summary>
+    <author><name>Yan Gao</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built a $0 LLM Production Stack with 46 Free APIs</title>
+    <link href="https://dev.to/happyyboxx/how-i-built-a-0-llm-production-stack-with-46-free-apis-4fa0" rel="alternate"/>
+    <id>https://dev.to/happyyboxx/how-i-built-a-0-llm-production-stack-with-46-free-apis-4fa0</id>
+    <updated>2026-08-07T06:25:22Z</updated>
+    <summary type="text">How I Built a $0 LLM Production Stack with 46 Free APIs And why every &quot;free LLM API list&quot; goes stale within a week The Problem I needed LLMs for a side project but couldn't justify $50-500/month for API costs. Every &quot;free LLM API&quot; list I found had the same problems: Stale within days — providers change limits, add credit card requirements, deprecate models Markdown tables — not machine-readable, c</summary>
+    <author><name>AI Pulse</name></author>
+    <category term="agents"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>One skill per action looked like the safe boundary</title>
@@ -439,35 +467,5 @@
     <summary type="text">Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Self-Hosting AI Models on a Raspberry Pi 5: A Complete Guide to Free, Private, Local AI Inference</title>
-    <link href="https://dev.to/trismegistus/self-hosting-ai-models-on-a-raspberry-pi-5-a-complete-guide-to-free-private-local-ai-inference-24p3" rel="alternate"/>
-    <id>https://dev.to/trismegistus/self-hosting-ai-models-on-a-raspberry-pi-5-a-complete-guide-to-free-private-local-ai-inference-24p3</id>
-    <updated>2026-08-04T20:08:45Z</updated>
-    <summary type="text">I've been running an AI agent on a Raspberry Pi 5 for the past three months. It writes code, browses the web, manages my email, and even deployed a production SaaS to a DigitalOcean droplet last week. The whole setup costs zero dollars in API fees because every inference runs locally on the Pi itself. This guide walks through exactly how I set it up, what works, what doesn't, and the specific mode</summary>
-    <author><name>Charles</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Connecting Enterprise Databases (Postgres, Redis, Neo4j) to AI Agents via MCP</title>
-    <link href="https://dev.to/programmingcentral/connecting-enterprise-databases-postgres-redis-neo4j-to-ai-agents-via-mcp-36ik" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/connecting-enterprise-databases-postgres-redis-neo4j-to-ai-agents-via-mcp-36ik</id>
-    <updated>2026-08-04T20:00:00Z</updated>
-    <summary type="text">The enterprise data landscape is an intimidating maze of heterogeneous systems. On any given day, your organization relies on relational monoliths like PostgreSQL for ACID-compliant structured records, high-speed in-memory caches like Redis for real-time session states, and complex graph databases like Neo4j to map intricate relationship webs. Now, imagine dropping an autonomous AI agent into this</summary>
-    <author><name>Programming Central</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Top 7 Featured DEV Posts of the Week</title>
-    <link href="https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4pk2" rel="alternate"/>
-    <id>https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4pk2</id>
-    <updated>2026-08-04T19:29:09Z</updated>
-    <summary type="text">Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the previous week (Saturday-Friday). Congrats to all the authors that made it onto the list 👏 I Run Bare-Metal Kubernetes on $200 of Scrap Hardware (And Why I Burned 3 SD Cards Learning) Real failure stories beat sterile tutorials Le Beltagy Le Beltagy Le Beltagy Follow Jul 25 I Run Bare-Metal Kubernetes</summary>
-    <author><name>Jess Lee</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
