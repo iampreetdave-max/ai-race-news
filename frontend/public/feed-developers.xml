@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-07T17:03:26Z</updated>
+  <updated>2026-08-07T19:02:31Z</updated>
+  <entry>
+    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
+    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/" rel="alternate"/>
+    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
+    <updated>2026-08-07T18:01:32Z</updated>
+    <summary type="text">AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The article AMD acquires Taalas, a startup that bakes AI models directly into silicon app</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
     <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/" rel="alternate"/>
@@ -24,6 +34,14 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>What should an MCP tool return? I ran 72 trials instead of arguing</title>
+    <link href="https://dev.to/lopster568/what-should-an-mcp-tool-return-i-ran-72-trials-instead-of-arguing-43b4" rel="alternate"/>
+    <id>https://dev.to/lopster568/what-should-an-mcp-tool-return-i-ran-72-trials-instead-of-arguing-43b4</id>
+    <updated>2026-08-07T17:41:39Z</updated>
+    <summary type="text">There's an argument running about MCP right now. You've probably seen it: a 400-point thread called &quot;MCP is dead?&quot; with real token numbers in it, four connected servers eating 21,077 tokens of context before anyone asks a question. The argument is about what MCP costs. Almost nobody in it has measured what agents actually do with the data a tool returns. I ended up measuring that, not because I pl</summary>
+    <author><name>Roshan Singh</name></author>
   </entry>
   <entry>
     <title>Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival</title>
@@ -447,23 +465,5 @@
     <author><name>Markus Gasser</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>GPT vs Gemini vs Claude vs DeepSeek: The Complete 2026 Model Comparison for Indian Builders</title>
-    <link href="https://dev.to/shaktitiwari/gpt-vs-gemini-vs-claude-vs-deepseek-the-complete-2026-model-comparison-for-indian-builders-blg" rel="alternate"/>
-    <id>https://dev.to/shaktitiwari/gpt-vs-gemini-vs-claude-vs-deepseek-the-complete-2026-model-comparison-for-indian-builders-blg</id>
-    <updated>2026-08-05T18:59:36Z</updated>
-    <summary type="text">GPT vs Gemini vs Claude vs DeepSeek: The Complete 2026 Model Comparison for Indian Builders DOYR | Not financial/legal/tax advice. For educational purposes only. There are now too many AI models. GPT-4, GPT-4o, GPT-5, GPT-5.5 Gemini 1.5 Pro, Gemini 2.0, Gemini Flash Claude 3.5 Sonnet, Claude 3 Opus, Claude 4 DeepSeek V3, DeepSeek R1, DeepSeek Coder And every week, a new one drops. &quot;This one is bet</summary>
-    <author><name>shakti tiwari</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I measured what a single Cmd+V costs your AI agent's context window</title>
-    <link href="https://dev.to/dms2323/i-measured-what-a-single-cmdv-costs-your-ai-agents-context-window-39nj" rel="alternate"/>
-    <id>https://dev.to/dms2323/i-measured-what-a-single-cmdv-costs-your-ai-agents-context-window-39nj</id>
-    <updated>2026-08-05T18:58:23Z</updated>
-    <summary type="text">Short version: I measured what a single paste costs an AI agent. A 2,348-line source file is 40,324 tokens, one fifth of a 200,000 token window, gone in one keystroke. The path to that same file is 19 tokens. Four pastes like that and the agent starts forgetting the instructions you gave it an hour earlier. At the end I show what I did about it. The session that gets dumber You know the shape of t</summary>
-    <author><name>LJU</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
