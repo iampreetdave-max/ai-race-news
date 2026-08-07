@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-07T09:04:02Z</updated>
+  <updated>2026-08-07T10:56:39Z</updated>
   <entry>
     <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
     <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/" rel="alternate"/>
@@ -32,6 +32,34 @@
     <updated>2026-08-06T16:33:59Z</updated>
     <summary type="text">Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool calls and output tokens. The choice of framework is mainly a question of price and speed. The article Claude Code is the fastest agent framew</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building an ai agent python langchain with FastAPI</title>
+    <link href="https://dev.to/ayush_kumar_085a0f2c54e3f/building-an-ai-agent-python-langchain-with-fastapi-hb3" rel="alternate"/>
+    <id>https://dev.to/ayush_kumar_085a0f2c54e3f/building-an-ai-agent-python-langchain-with-fastapi-hb3</id>
+    <updated>2026-08-07T10:39:13Z</updated>
+    <summary type="text">What is a LangChain agent and how does its architecture work? A LangChain agent is a wrapper around a language model that lets you define a loop of thought → action → observation. In practice the agent receives a user prompt, asks the model to decide what to do next, executes the chosen tool (like a web search or a database query), feeds the result back to the model, and repeats until it produces </summary>
+    <author><name>Ayush Kumar</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>OpenAI GPT-5.6 Expands Reasoning Controls While Free and Go Default to Terra</title>
+    <link href="https://dev.to/alifar/openai-gpt-56-expands-reasoning-controls-while-free-and-go-default-to-terra-4mfa" rel="alternate"/>
+    <id>https://dev.to/alifar/openai-gpt-56-expands-reasoning-controls-while-free-and-go-default-to-terra-4mfa</id>
+    <updated>2026-08-07T10:30:30Z</updated>
+    <summary type="text">OpenAI has rolled out the GPT-5.6 model family across ChatGPT, Codex, and the OpenAI API, introducing Sol, Terra, and Luna as distinct options with different access tiers and cost-performance positions. The practical change for ChatGPT users is not simply a model upgrade. It is a more explicit system for choosing how much reasoning a model should apply, while Free and Go users receive GPT-5.6 Terr</summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code 2.1.224 Self-Hosted Environments Checklist</title>
+    <link href="https://dev.to/ahab_indieseek/claude-code-21224-self-hosted-environments-checklist-2ck9" rel="alternate"/>
+    <id>https://dev.to/ahab_indieseek/claude-code-21224-self-hosted-environments-checklist-2ck9</id>
+    <updated>2026-08-07T10:20:16Z</updated>
+    <summary type="text">Claude Code 2.1.224 self-hosted environments: verify the trust boundary before rollout Quick answer Claude Code 2.1.224, released August 7, 2026, adds self-hosted environments for Team and Enterprise organizations. A new claude self-hosted-runner process can execute Claude Code cloud sessions on machines or containers your organization operates, including sessions started from the web, mobile, des</summary>
+    <author><name>Ahab</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -113,16 +141,6 @@
     <summary type="text">Quick answer: In the Claude Code vs Cursor debate, Claude Code wins for Laravel developers who delegate large tasks — multi-file refactors, building a full module, upgrading Eloquent relationships across a codebase. Cursor wins for developers who stay hands-on — writing Blade views, tweaking Livewire components, and reviewing every diff inline. Most Laravel teams in 2026 run both. And for Laravel-</summary>
     <author><name>Avinash Vagh</name></author>
     <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building Scalable Multi-Agent Workflows &amp; RAG Pipelines with LangGraph and FastAPI</title>
-    <link href="https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0" rel="alternate"/>
-    <id>https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0</id>
-    <updated>2026-08-07T05:14:38Z</updated>
-    <summary type="text">Building fully autonomous AI systems requires moving beyond simple linear prompts to robust, stateful agentic workflows. In this article, I share my core architecture for engineering Multi-Agent Systems and Retrieval-Augmented Generation (RAG) pipelines using LangGraph, FastAPI, and Python. Why Agentic Workflows and LangGraph? Traditional LLM applications often struggle with complex, multi-step ex</summary>
-    <author><name>Mithilesh Kumar</name></author>
-    <category term="rag"/>
     <category term="agents"/>
   </entry>
   <entry>
@@ -447,23 +465,5 @@
     <category term="tutorial"/>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Keep Docker Engine as Your Kubernetes Runtime on Ubuntu with cri-dockerd</title>
-    <link href="https://dev.to/jjoyneriv/keep-docker-engine-as-your-kubernetes-runtime-on-ubuntu-with-cri-dockerd-18de" rel="alternate"/>
-    <id>https://dev.to/jjoyneriv/keep-docker-engine-as-your-kubernetes-runtime-on-ubuntu-with-cri-dockerd-18de</id>
-    <updated>2026-08-04T23:35:35Z</updated>
-    <summary type="text">Sometimes you genuinely want Docker Engine as the Kubernetes node runtime — a team standardized on the Docker CLI/API for tooling, an image-build box that doubles as a node, or a legacy playbook you can't rewrite yet. Since dockershim was removed in Kubernetes 1.24, that path now runs through cri-dockerd, an open-source CRI adapter maintained by Mirantis. Here's how to set it up on Ubuntu, and an </summary>
-    <author><name>James Joyner</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>ROI of my 100$ Claude Code Subscription</title>
-    <link href="https://dev.to/nenadmit/roi-of-my-100-claude-code-subscription-1iin" rel="alternate"/>
-    <id>https://dev.to/nenadmit/roi-of-my-100-claude-code-subscription-1iin</id>
-    <updated>2026-08-04T23:15:14Z</updated>
-    <summary type="text">We’ve all heard the stories about AI and how much faster it supposedly makes you at building software. Some people say they’ve become 10x or even 100x developers. Others say LLMs produce garbage, code nobody can maintain, and a steady stream of slop. While I’ve read plenty of those arguments, what I’ve almost never seen is a number. So I ran the test on myself. There’s an app I’d been meaning to b</summary>
-    <author><name>Nenad Mitkovic</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
