@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-07T10:56:39Z</updated>
+  <updated>2026-08-07T11:50:19Z</updated>
   <entry>
     <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
     <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/" rel="alternate"/>
@@ -35,14 +35,33 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Building an ai agent python langchain with FastAPI</title>
-    <link href="https://dev.to/ayush_kumar_085a0f2c54e3f/building-an-ai-agent-python-langchain-with-fastapi-hb3" rel="alternate"/>
-    <id>https://dev.to/ayush_kumar_085a0f2c54e3f/building-an-ai-agent-python-langchain-with-fastapi-hb3</id>
-    <updated>2026-08-07T10:39:13Z</updated>
-    <summary type="text">What is a LangChain agent and how does its architecture work? A LangChain agent is a wrapper around a language model that lets you define a loop of thought → action → observation. In practice the agent receives a user prompt, asks the model to decide what to do next, executes the chosen tool (like a web search or a database query), feeds the result back to the model, and repeats until it produces </summary>
-    <author><name>Ayush Kumar</name></author>
-    <category term="llm"/>
+    <title>What are Agent Plugins?</title>
+    <link href="https://dev.to/willvelida/what-are-agent-plugins-3bf7" rel="alternate"/>
+    <id>https://dev.to/willvelida/what-are-agent-plugins-3bf7</id>
+    <updated>2026-08-07T11:42:24Z</updated>
+    <summary type="text">Implementing Agent Skills and MCP servers as part of my development workflow has been a huge boost to my productivity. Long gone are the days where I'd actually have to leave my IDE to raise a pull request in GitHub, and then manually add that PR to a Jira ticket that's still impossible to find in 2026. Now it's just a matter of me asking GitHub Copilot to create the PR using my create-pr Agent Sk</summary>
+    <author><name>Will Velida</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build a Team AI Agent from Claude Code with Runbear MCP</title>
+    <link href="https://dev.to/runbear/runbear-mcp-vs-viktor-mcp-a-developers-decision-guide-1mc4" rel="alternate"/>
+    <id>https://dev.to/runbear/runbear-mcp-vs-viktor-mcp-a-developers-decision-guide-1mc4</id>
+    <updated>2026-08-07T11:42:15Z</updated>
+    <summary type="text">Runbear MCP lets you create and refine a shared AI teammate from Claude Code, even when the workflow is not fully specified yet. Instead of filling every model, tool, trigger, schedule, and deployment field up front, you can start with the outcome, answer the missing questions as they appear, and review the agent before it enters Slack. Disclosure: We build Runbear. This guide describes the curren</summary>
+    <author><name>Runbear Team</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code: CLAUDE.md vs Projects vs Memory — Which Persists What?</title>
+    <link href="https://dev.to/stacknotice/claude-code-claudemd-vs-projects-vs-memory-which-persists-what-23d4" rel="alternate"/>
+    <id>https://dev.to/stacknotice/claude-code-claudemd-vs-projects-vs-memory-which-persists-what-23d4</id>
+    <updated>2026-08-07T11:32:03Z</updated>
+    <summary type="text">The most common frustration with Claude Code is re-explaining the same context at the start of every session. &quot;We use Drizzle, not Prisma.&quot; &quot;Don't use any in TypeScript.&quot; &quot;The auth is in /src/lib/auth.ts.&quot; Claude has three mechanisms for remembering across sessions. They solve different problems and are appropriate in different situations. Using the wrong one means either re-explaining constantly </summary>
+    <author><name>Carlos Oliva Pascual</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>OpenAI GPT-5.6 Expands Reasoning Controls While Free and Go Default to Terra</title>
@@ -141,6 +160,16 @@
     <summary type="text">Quick answer: In the Claude Code vs Cursor debate, Claude Code wins for Laravel developers who delegate large tasks — multi-file refactors, building a full module, upgrading Eloquent relationships across a codebase. Cursor wins for developers who stay hands-on — writing Blade views, tweaking Livewire components, and reviewing every diff inline. Most Laravel teams in 2026 run both. And for Laravel-</summary>
     <author><name>Avinash Vagh</name></author>
     <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Building Scalable Multi-Agent Workflows &amp; RAG Pipelines with LangGraph and FastAPI</title>
+    <link href="https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0" rel="alternate"/>
+    <id>https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0</id>
+    <updated>2026-08-07T05:14:38Z</updated>
+    <summary type="text">Building fully autonomous AI systems requires moving beyond simple linear prompts to robust, stateful agentic workflows. In this article, I share my core architecture for engineering Multi-Agent Systems and Retrieval-Augmented Generation (RAG) pipelines using LangGraph, FastAPI, and Python. Why Agentic Workflows and LangGraph? Traditional LLM applications often struggle with complex, multi-step ex</summary>
+    <author><name>Mithilesh Kumar</name></author>
+    <category term="rag"/>
     <category term="agents"/>
   </entry>
   <entry>
@@ -436,34 +465,5 @@
     <updated>2026-08-05T12:45:59Z</updated>
     <summary type="text">TL;DR: Grafana Agent reached End-of-Life on November 1, 2025 and has been replaced by Grafana Alloy. Alloy consolidates Agent's Static mode, Flow mode, and Kubernetes Operator into a single collector built on the OpenTelemetry Collector while maintaining native support for Prometheus and Loki. If you're using Flow mode, migration is relatively straightforward. If you're using Static mode, the migr</summary>
     <author><name>Justyn Larry</name></author>
-  </entry>
-  <entry>
-    <title>Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive</title>
-    <link href="https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/</id>
-    <updated>2026-08-04T09:45:40Z</updated>
-    <summary type="text">Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point interactive scatter at 258 KiB, and keeps exact f64 columns in Python so hover, selection, and zoom drilldown still return original rows. The library is early alph</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>New ways to learn and teach with ChatGPT Work and Codex</title>
-    <link href="https://openai.com/index/learn-teach-chatgpt-work-codex" rel="alternate"/>
-    <id>https://openai.com/index/learn-teach-chatgpt-work-codex</id>
-    <updated>2026-08-04T00:00:00Z</updated>
-    <summary type="text">Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Test smarter with Snagly: 30 open-source QA skills for AI coding agents</title>
-    <link href="https://dev.to/ambytious/test-smarter-with-snagly-30-open-source-qa-skills-for-ai-coding-agents-1571" rel="alternate"/>
-    <id>https://dev.to/ambytious/test-smarter-with-snagly-30-open-source-qa-skills-for-ai-coding-agents-1571</id>
-    <updated>2026-08-05T03:54:05Z</updated>
-    <summary type="text">If you've experimented with AI-driven testing, you've probably lived this cycle: you ask an AI agent to &quot;test the checkout flow,&quot; and it does something — clicks around, declares success, and leaves you unsure what was actually verified. The next day you ask again and it does something different. The browser automation works; the testing discipline is missing. That gap is what Snagly is for. Rather</summary>
-    <author><name>Ambreen Khan</name></author>
-    <category term="open-source"/>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
