@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-08T11:33:07Z</updated>
+  <updated>2026-08-08T12:56:00Z</updated>
+  <entry>
+    <title>Claude Code sessions can now talk to each other and share context across terminals</title>
+    <link href="https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/</id>
+    <updated>2026-08-08T12:28:36Z</updated>
+    <summary type="text">Claude Code now lets sessions talk to each other. On macOS and Linux, instances running in parallel can send messages, share insights, and check on each other's status. The article Claude Code sessions can now talk to each other and share context across terminals appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>AI agents use roughly 600 times more energy than a simple chat prompt</title>
     <link href="https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/" rel="alternate"/>
@@ -44,6 +53,32 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How Git Worktrees Improve AI Coding Workflows</title>
+    <link href="https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd" rel="alternate"/>
+    <id>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</id>
+    <updated>2026-08-08T12:48:51Z</updated>
+    <summary type="text">AI coding tools become much more useful when they are given clear boundaries. One practical way to create those boundaries is with Git worktrees. A Git branch gives you separate history. A worktree gives you a separate working directory connected to that branch. Instead of making several AI agents share one workspace, you can give each agent its own isolated environment. What is a Git worktree? A </summary>
+    <author><name>Eric Vincent Bermudez</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AIOps Agents for Kubernetes Human-in-the-Loop Remediation on GCP</title>
+    <link href="https://dev.to/gde/aiops-agents-for-kubernetes-human-in-the-loop-remediation-on-gcp-4l5i" rel="alternate"/>
+    <id>https://dev.to/gde/aiops-agents-for-kubernetes-human-in-the-loop-remediation-on-gcp-4l5i</id>
+    <updated>2026-08-08T12:43:55Z</updated>
+    <summary type="text">The Problem with Fully Autonomous Remediation Every platform team eventually asks the same question: can we let something automatically fix production when it breaks? The instinct to say yes is understandable incidents at 3 a.m. are expensive, and a lot of Kubernetes failures follow recognizable patterns. But fully autonomous remediation has a bad failure mode: when the agent is wrong, it's wrong </summary>
+    <author><name>Saurabh Mishra</name></author>
+  </entry>
+  <entry>
+    <title>AWS Route 53 — DNS Fundamentals, Hosted Zones, Routing Policies &amp; Resolvers</title>
+    <link href="https://dev.to/tejas_shinkar/aws-route-53-dns-fundamentals-hosted-zones-routing-policies-resolvers-2727" rel="alternate"/>
+    <id>https://dev.to/tejas_shinkar/aws-route-53-dns-fundamentals-hosted-zones-routing-policies-resolvers-2727</id>
+    <updated>2026-08-08T12:15:57Z</updated>
+    <summary type="text">Part of my AWS learning journey — transitioning from Systems Engineer to Cloud/DevOps. Route 53 is where networking meets the internet — how domain names reach your applications, how traffic gets distributed intelligently, and how AWS and on-premises networks resolve each other's names. 📋 Topics Covered # Topic Type 1 DNS Pre-Requisites — How DNS Works Concept 2 Complete DNS Resolution Flow Concep</summary>
+    <author><name>Tejas Shinkar</name></author>
   </entry>
   <entry>
     <title>Why Vite Asked Me to Choose Between Oxlint and ESLint</title>
@@ -430,42 +465,5 @@
     <summary type="text">Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own skill. Retention varies sharply by task type — 102% on spreads</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitHub pauses the Kimi K3 rollout in Copilot while it works a GitHub Actions incident</title>
-    <link href="https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l" rel="alternate"/>
-    <id>https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l</id>
-    <updated>2026-08-07T00:24:50Z</updated>
-    <summary type="text">A GitHub product launch is being held back by the CI/CD platform underneath it. On August 6 GitHub filed a Changelog entry announcing that Kimi K3, an open-weight model, is now generally available in GitHub Copilot, then added an editor's note the same day: the rollout is temporarily paused while GitHub mitigates an incident with GitHub Actions. What the entry says, and what it does not Per the no</summary>
-    <author><name>Leo</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Three Ways Your Training Data Lies to You (And None of Them Throw an Error)</title>
-    <link href="https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044" rel="alternate"/>
-    <id>https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044</id>
-    <updated>2026-08-07T00:21:27Z</updated>
-    <summary type="text">Every failure I am about to describe produced a clean run. No exception, no stack trace, no red build. Each one produced a plausible number that I believed for longer than I should have. That is the category of bug I have come to fear most. A crash tells you it crashed. A silently broken dataset tells you nothing at all, and your metrics will politely agree with it. Here are three from the last ye</summary>
-    <author><name>Rickesh T N</name></author>
-  </entry>
-  <entry>
-    <title>How to Make Your App Look Good When You’re Not a Designer</title>
-    <link href="https://dev.to/imforja/how-to-make-your-app-look-good-when-youre-not-a-designer-4di9" rel="alternate"/>
-    <id>https://dev.to/imforja/how-to-make-your-app-look-good-when-youre-not-a-designer-4di9</id>
-    <updated>2026-08-06T14:12:41Z</updated>
-    <summary type="text">I know what my app needs to do, but I don't know what it should look like. When we build a new app, we often know exactly what it needs to do. We know what information users need and which actions they need to take. But those requirements don't tell us how to organize the interface or choose a clear visual direction. Without an existing foundation, almost every direction can seem reasonable. We ma</summary>
-    <author><name>João Forja 💭</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>PSA for anyone with multiple V620's or other gfx1030 cards having problems making llama.cpp tensor split work -- set &quot;-ub 384&quot; and -b to a multiple of that depending on number of GPUs</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vim2gt/psa_for_anyone_with_multiple_v620s_or_other/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vim2gt/psa_for_anyone_with_multiple_v620s_or_other/</id>
-    <updated>2026-08-08T04:14:02Z</updated>
-    <summary type="text">Basically what the title says. For me, it would always crash and burn trying to use tensor split. Apparently, there's some bug where GPU memory gets corrupted with the default microbatch (512) or higher. I will be opening an issue report on the llama.cpp GitHub if there isn't already one related to this. I'm using ROCm but Vulkan gave me issues too. But yeah, set -ub 384 (I haven't tried between 3</summary>
-    <author><name>/u/_TheWolfOfWalmart_</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
   </entry>
 </feed>
