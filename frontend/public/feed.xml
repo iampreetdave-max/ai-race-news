@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T18:42:39Z</updated>
+  <updated>2026-08-08T19:34:08Z</updated>
   <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
@@ -176,6 +176,32 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Codeberg banning AI code is not a cult. It's a boundary.</title>
+    <link href="https://dev.to/adioof/codeberg-banning-ai-code-is-not-a-cult-its-a-boundary-2dk7" rel="alternate"/>
+    <id>https://dev.to/adioof/codeberg-banning-ai-code-is-not-a-cult-its-a-boundary-2dk7</id>
+    <updated>2026-08-08T19:30:20Z</updated>
+    <summary type="text">YouTuber Theo, founder of T3, gave thousands to Codeberg. He saw them vote in AI restrictions and called it &quot;spite-driven&quot; and a &quot;cult.&quot; He is mistaken. It wasn't about purity, it was about setting a boundary. What actually happened Codeberg e.V. is a non-profit Git forge located in Berlin. You can see it as a European version of GitHub, however, it is operated based on a democratic membership str</summary>
+    <author><name>Aditya Agarwal</name></author>
+  </entry>
+  <entry>
+    <title>131 Tests, 4 Layers, $00.03/Run: Why I Built My AI Agent Eval Harness First</title>
+    <link href="https://dev.to/elenarevicheva/131-tests-4-layers-0003run-why-i-built-my-ai-agent-eval-harness-first-15o7" rel="alternate"/>
+    <id>https://dev.to/elenarevicheva/131-tests-4-layers-0003run-why-i-built-my-ai-agent-eval-harness-first-15o7</id>
+    <updated>2026-08-08T19:30:20Z</updated>
+    <summary type="text">Originally published on AIdeazz — cross-posted here with canonical link. I shipped a silent failure. My first production AI agent, a simple lead qualification bot for WhatsApp, passed all 27 unit tests. It handled happy paths, edge cases, even adversarial inputs designed to break prompt safety. The agent went live. Two days later, a client forwarded a screenshot: the bot had hallucinated a 15% dis</summary>
+    <author><name>Elena Revicheva</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>One Key for Claude, GPT, and Gemini: the Gateway Pattern</title>
+    <link href="https://dev.to/devopsdaily/one-key-for-claude-gpt-and-gemini-the-gateway-pattern-1319" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/one-key-for-claude-gpt-and-gemini-the-gateway-pattern-1319</id>
+    <updated>2026-08-08T19:14:08Z</updated>
+    <summary type="text">The moment an app talks to more than one model provider, the plumbing multiplies. OpenAI wants its key and its SDK. Anthropic wants a different key and a different SDK. Google wants a third of each. Now you have three secrets to store and rotate, three client libraries to keep updated, three billing relationships to reconcile, and conditional code that picks the right one. None of that is your pro</summary>
+    <author><name>DevOps Daily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>CEO Interview: XO Life</title>
     <link href="https://www.cbinsights.com/research/ceo-interview-xo-life/" rel="alternate"/>
     <id>https://www.cbinsights.com/research/ceo-interview-xo-life/</id>
@@ -184,12 +210,81 @@
     <author><name>Lindsay Stanley</name></author>
   </entry>
   <entry>
+    <title>Your companies table is lying to you about when things happened</title>
+    <link href="https://dev.to/corpdigest/your-companies-table-is-lying-to-you-about-when-things-happened-ge3" rel="alternate"/>
+    <id>https://dev.to/corpdigest/your-companies-table-is-lying-to-you-about-when-things-happened-ge3</id>
+    <updated>2026-08-08T19:02:36Z</updated>
+    <summary type="text">Every company dataset I have worked with stores history as scalar columns: founded_year INT ceo_name TEXT headquarters TEXT revenue BIGINT Every one of those is a point-in-time fact pretending to be a permanent one. The moment you need to answer &quot;who was in charge when this happened&quot;, the schema has already thrown the answer away. The failure is invisible until you query across time Take Intel. Fo</summary>
+    <author><name>corpdigest</name></author>
+  </entry>
+  <entry>
+    <title>How to Build AI Evals for Tool-Calling Agents</title>
+    <link href="https://dev.to/dhanushreddy29/how-to-build-ai-evals-for-tool-calling-agents-3h9d" rel="alternate"/>
+    <id>https://dev.to/dhanushreddy29/how-to-build-ai-evals-for-tool-calling-agents-3h9d</id>
+    <updated>2026-08-08T18:55:47Z</updated>
+    <summary type="text">Every other week it feels like a new model shows up with a shiny score on some &quot;trust me bro&quot; benchmark. The numbers climb, people call it smarter, and suddenly you're ready to switch. If you build applications on top of these models, you might catch yourself assuming that higher benchmark score means better agent performance. But benchmarks measure narrow skills under controlled conditions; your </summary>
+    <author><name>Dhanush Reddy</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Your agent doesn't have a memory problem. It has an uptime problem.</title>
+    <link href="https://dev.to/coderluii/your-agent-doesnt-have-a-memory-problem-it-has-an-uptime-problem-505l" rel="alternate"/>
+    <id>https://dev.to/coderluii/your-agent-doesnt-have-a-memory-problem-it-has-an-uptime-problem-505l</id>
+    <updated>2026-08-08T18:54:17Z</updated>
+    <summary type="text">There is a lot of good writing right now about agent memory. Vector stores, episodic recall, context compaction, memory layers, mem0. The framing is consistent: the model can reason but it cannot remember, so we bolt on a memory system and close the gap. I think a large share of what gets called a memory problem is not one. It is a machine that turned off. Those two failures feel identical from th</summary>
+    <author><name>CoderLuii</name></author>
+  </entry>
+  <entry>
+    <title>How to Build a Stock Market Trading Bot in Python: Channeling Your Inner Neo</title>
+    <link href="https://dev.to/timevolt/how-to-build-a-stock-market-trading-bot-in-python-channeling-your-inner-neo-5e0i" rel="alternate"/>
+    <id>https://dev.to/timevolt/how-to-build-a-stock-market-trading-bot-in-python-channeling-your-inner-neo-5e0i</id>
+    <updated>2026-08-08T18:52:38Z</updated>
+    <summary type="text">The Quest Begins (The &quot;Why&quot;) Honestly, I was tired of staring at candlestick charts while my coffee went cold. I kept thinking, “What if I could automate the boring parts and let the machine do the heavy lifting while I focus on strategy?” It started as a lazy Sunday experiment—just a script that pulled the latest price for AAPL and printed it to the console. When I saw that number update in real‑</summary>
+    <author><name>Timevolt</name></author>
+    <category term="tutorial"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I Built a Crypto-Native Craigslist with Manual Escrow — Here's Why and How</title>
+    <link href="https://dev.to/dimabsvg/i-built-a-crypto-native-craigslist-with-manual-escrow-heres-why-and-how-4j8b" rel="alternate"/>
+    <id>https://dev.to/dimabsvg/i-built-a-crypto-native-craigslist-with-manual-escrow-heres-why-and-how-4j8b</id>
+    <updated>2026-08-08T18:50:58Z</updated>
+    <summary type="text">The Problem There are millions of people holding crypto who want to spend it on real things — hire a developer, buy a script, sell design work. But where do they go? Telegram OTC chats → chaotic, no protection, scam-heavy Forum classifieds → threads get buried in hours P2P exchange sections → designed for fiat conversion, not commerce I decided to build a dedicated marketplace for this. What I Bui</summary>
+    <author><name>crypto_b</name></author>
+  </entry>
+  <entry>
+    <title>Thinking About Becoming an AWS Community Builder? Here’s What You Should Know</title>
+    <link href="https://dev.to/mtzanida/thinking-about-becoming-an-aws-community-builder-heres-what-you-should-know-15ci" rel="alternate"/>
+    <id>https://dev.to/mtzanida/thinking-about-becoming-an-aws-community-builder-heres-what-you-should-know-15ci</id>
+    <updated>2026-08-08T18:46:32Z</updated>
+    <summary type="text">When I first discovered the AWS Community Builders Program, I assumed it was mainly intended for established content creators, frequent conference speakers, or people who were already well known within the AWS community. I was wrong. The program is not about having the largest audience or knowing everything about AWS. It is about being genuinely curious, sharing what you learn, and helping others </summary>
+    <author><name>maria tzanidaki</name></author>
+  </entry>
+  <entry>
+    <title>GitHub Copilot’s New /worktree and /rewind Commands: A Beginner’s AI Coding Experiment Checklist for 2026</title>
+    <link href="https://dev.to/marcusykim/github-copilots-new-worktree-and-rewind-commands-a-beginners-ai-coding-experiment-checklist-1p2c" rel="alternate"/>
+    <id>https://dev.to/marcusykim/github-copilots-new-worktree-and-rewind-commands-a-beginners-ai-coding-experiment-checklist-1p2c</id>
+    <updated>2026-08-08T18:39:31Z</updated>
+    <summary type="text">On August 7, 2026, GitHub published a Copilot update that looked like a bag of small conveniences: a /worktree command for isolated code experiments, /rewind for restoring a session and its files, /side in the Copilot app, and /btw in VS Code for asking a parallel question without interrupting the main task. I think those features point to one bigger problem in AI-assisted coding: Exploration cont</summary>
+    <author><name>Marcus Kim</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>AI music generator Suno tightens rules to fight spam and address growing copyright concerns</title>
     <link href="https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/" rel="alternate"/>
     <id>https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/</id>
     <updated>2026-08-07T18:35:42Z</updated>
     <summary type="text">Suno CEO Mikey Shulman has announced new guidelines and tighter download limits after its AI-generated music was used to game streaming platforms for profit. The company also faces pressure from a German copyright ruling and an admission by one of its investors that AI music competes directly with human artists. The article AI music generator Suno tightens rules to fight spam and address growing c</summary>
     <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>Mediax: FFmpeg's Cooler Cousin 🚀</title>
+    <link href="https://dev.to/levi_enama_2026/mediax-ffmpegs-cooler-cousin-a99" rel="alternate"/>
+    <id>https://dev.to/levi_enama_2026/mediax-ffmpegs-cooler-cousin-a99</id>
+    <updated>2026-08-08T18:34:24Z</updated>
+    <summary type="text">FFmpeg is powerful, but the syntax? A nightmare. So I built Mediax. 36 intuitive verbs. Interactive TUI. One-line install. Convert, compress, trim, crop, rotate, add watermarks... all with simple commands. bash mediax convert input.mov output.mp4 mediax compress large.mp4 small.mp4 --quality medium mediax trim video.mp4 clip.mp4 --start 00:01:30 --duration 10 Just run mediax for the interactive te</summary>
+    <author><name>Levi Enama</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Free, Zero-Dependency YouTube Website Embed (Self-Hostable PHP/JS)</title>
@@ -357,102 +452,5 @@
     <updated>2026-08-08T16:53:33Z</updated>
     <summary type="text">When building a nested reply system, most developers worry about deep tree complexity or messy data structures. For Vlox, I took a different approach: keeping things flat, fast, and secure by reusing a single Mongoose schema with smart atomic limits. Here is a deep dive into how I engineered a production-ready, race-condition-safe reply mechanism using MongoDB transactions, strict type sanitizatio</summary>
     <author><name>Seif Ahmed</name></author>
-  </entry>
-  <entry>
-    <title>How I record system audio on macOS without a virtual driver</title>
-    <link href="https://dev.to/alexander_mishin_1c72158e/how-i-record-system-audio-on-macos-without-a-virtual-driver-54e1" rel="alternate"/>
-    <id>https://dev.to/alexander_mishin_1c72158e/how-i-record-system-audio-on-macos-without-a-virtual-driver-54e1</id>
-    <updated>2026-08-08T16:48:46Z</updated>
-    <summary type="text">Recording your own microphone on a Mac is a solved problem. Recording the other person — the voice coming out of your speakers — is where macOS quietly fights you. Here’s how the audio pipeline actually works. For years the only answer to that was a virtual audio driver like BlackHole and a Multi-Output Device you wired up by hand before every call. It works, and it breaks constantly. I build Meet</summary>
-    <author><name>Alexander Mishin</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI's first smart speaker is expected in 2027 at over $300</title>
-    <link href="https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/" rel="alternate"/>
-    <id>https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/</id>
-    <updated>2026-08-07T16:43:16Z</updated>
-    <summary type="text">OpenAI is planning a donut-shaped smart speaker for 2027, priced above $300. The screenless device has a camera, microphones, and moving parts. It's designed to learn from conversations and adapt to users, fitting Sam Altman's &quot;Her&quot; vision. The article OpenAI's first smart speaker is expected in 2027 at over $300 appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>5 Free Domain Investigate APIs That Cut Due Diligence Time</title>
-    <link href="https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g" rel="alternate"/>
-    <id>https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g</id>
-    <updated>2026-08-08T16:37:21Z</updated>
-    <summary type="text">security, #api, #webdev, #sideprojects That TXT record saved me $8,500 Last Tuesday I almost wired $8,500 to a domain broker. The landing page looked legit. Escrow was ready. Then I ran one DNS lookup. import dns.resolver def txt_flags(domain): try: answers = dns.resolver.resolve(domain, &quot;TXT&quot;) return [r.to_text().strip('&quot;') for r in answers] except dns.resolver.NXDOMAIN: return [&quot;domain does not </summary>
-    <author><name>Onizuka</name></author>
-  </entry>
-  <entry>
-    <title>Every web rich-text editor is missing a ruler</title>
-    <link href="https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go" rel="alternate"/>
-    <id>https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go</id>
-    <updated>2026-08-08T16:34:49Z</updated>
-    <summary type="text">Originally published on Medium. Word processors have had a horizontal ruler for forty years. You grab a marker, drag, and the paragraph's margins move. Every writer knows it without being taught. Open Froala, TinyMCE, CKEditor 5, or Quill and it isn't there. Not hidden in a menu — it doesn't exist. The CKEditor 5 feature request has been open since September 2020. The editors that do ship a ruler </summary>
-    <author><name>Sinny</name></author>
-  </entry>
-  <entry>
-    <title>Spot Cross-Exchange Crypto Spreads in Minutes — Open Source Monitor (MIT)</title>
-    <link href="https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0" rel="alternate"/>
-    <id>https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0</id>
-    <updated>2026-08-08T16:31:18Z</updated>
-    <summary type="text">Ever wondered how far Bitcoin’s bid/ask drifts between Binance, Kraken, Coinbase, Bitget, and KuCoin — after fees? Crypto Arbitrage Monitor is an open-source dashboard that polls public top-of-book prices across those five venues, builds a buy/sell matrix, and streams fee-adjusted spreads live. It does not place trades. It shows indicative opportunities so you can see where spreads open up. Why tr</summary>
-    <author><name>Micha</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>OpenAI says it slowed Astra model development over security concerns</title>
-    <link href="https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</id>
-    <updated>2026-08-07T22:48:24Z</updated>
-    <summary type="text">OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess.</summary>
-    <author><name>Kirsten Korosec</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitLab wires Anthropic's Claude security tooling into its pipeline via MCP</title>
-    <link href="https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6" rel="alternate"/>
-    <id>https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6</id>
-    <updated>2026-08-08T16:24:48Z</updated>
-    <summary type="text">Every commit is a promise that somebody, somewhere, will notice if it breaks something. Two vendors telling you they will each hold up half of that promise is a different animal from one system that owns it end to end. GitLab has now published its take on how it wants to sit next to Anthropic's Claude security tooling, and the piece rewards reading with the trust boundary in one hand. What GitLab </summary>
-    <author><name>Leo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Hit Its Own Brakes. Now What?</title>
-    <link href="https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi" rel="alternate"/>
-    <id>https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi</id>
-    <updated>2026-08-08T16:22:42Z</updated>
-    <summary type="text">On Friday evening, OpenAI published a blog post stating it could not rule out that its upcoming model Astra had reached the &quot;Critical&quot; cybersecurity threshold under its own Preparedness Framework. It paused internal development activities that did not meet the corresponding containment requirements. Sam Altman posted that the company did not think keeping powerful models &quot;to a chosen few&quot; was a go</summary>
-    <author><name>Dean Lee</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI This Week (Aug 2026): Qwen3.8 Max, DeepSeek V4-Flash, and Models Shipping Like Patches</title>
-    <link href="https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc" rel="alternate"/>
-    <id>https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc</id>
-    <updated>2026-08-08T16:19:17Z</updated>
-    <summary type="text">If you blinked this week, you missed three frontier model releases. August 2026 is making one thing very clear: large language models now ship like software patches, not like moon landings. Here's the AI news that actually matters for builders right now. Qwen3.8 Max lands Alibaba pushed Qwen3.8 Max at the start of the month — the newest flagship in a line that has become the default open-weight ba</summary>
-    <author><name>ai maya</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Talked to an Elon Musk AI About Product Management — Here's What It Said About Surviving the AI Wave</title>
-    <link href="https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d" rel="alternate"/>
-    <id>https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d</id>
-    <updated>2026-08-08T16:12:43Z</updated>
-    <summary type="text">I Talked to an Elon Musk AI About Product Management — Here's What It Said &quot;The only rules you have to follow are the laws of physics — everything else is a recommendation.&quot; Lately, I've been seeing a wave of &quot;personality skills&quot; for AI assistants — distillations of bosses, colleagues, exes, mentors. You name it, someone's bottled it. So I installed an Elon Musk Skill into my AI assistant and aske</summary>
-    <author><name>AICDragon</name></author>
-  </entry>
-  <entry>
-    <title>How to implement networked multiplayer games in Python using an open-source framework</title>
-    <link href="https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc" rel="alternate"/>
-    <id>https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc</id>
-    <updated>2026-08-08T16:07:14Z</updated>
-    <summary type="text">Introduction Turn-based multiplayer games are a sweet spot for learning + prototyping: simple enough to implement quickly, but real enough to teach networking, game state, and API design. I wrote a lightweight server and framework that provides exactly that: a lightweight server + uniform API so you can run multiple parallel game sessions, auto-join the next available session, and add new games wi</summary>
-    <author><name>Tio Fabi</name></author>
-    <category term="open-source"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
