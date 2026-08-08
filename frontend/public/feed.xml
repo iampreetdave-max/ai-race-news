@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T14:36:00Z</updated>
+  <updated>2026-08-08T15:34:13Z</updated>
+  <entry>
+    <title>Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</title>
+    <link href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/" rel="alternate"/>
+    <id>https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/</id>
+    <updated>2026-08-08T14:58:57Z</updated>
+    <summary type="text">Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the most widely used AI coding tool, this means developers are shifting further from writing code to monitoring AI output. The article Anthropic s</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them</title>
     <link href="https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/" rel="alternate"/>
@@ -219,6 +228,14 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title># Why I’m Rewriting a PHP Extension in C23, Not C++</title>
+    <link href="https://dev.to/malusev998/why-i-use-c-instead-of-c-for-php-extensions-6g8" rel="alternate"/>
+    <id>https://dev.to/malusev998/why-i-use-c-instead-of-c-for-php-extensions-6g8</id>
+    <updated>2026-08-08T15:28:31Z</updated>
+    <summary type="text">I forked the DataStax Cassandra driver when it stopped compiling on PHP 8 and most of its maintainers had already moved on. My first instinct was to write the new parts in C++. I built a Zend wrapper class, used RAII throughout, and put smart pointers around zvals—the whole modern setup. It introduced memory bugs that took me days to track down, and I did not get a meaningful benefit in return. So</summary>
+    <author><name>Dusan Malusev</name></author>
+  </entry>
+  <entry>
     <title>DeepSeek Invests in Unitree to Develop AI Brain for Humanoid Bots</title>
     <link href="https://aibusiness.com/robotics/deepseek-invests-unitree-develop-ai-brain-for-humanoid-bots" rel="alternate"/>
     <id>https://aibusiness.com/robotics/deepseek-invests-unitree-develop-ai-brain-for-humanoid-bots</id>
@@ -229,12 +246,39 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>What Is Actually Inside the DOE's Genesis Open Models Initiative?</title>
+    <link href="https://dev.to/vin-patel/what-is-actually-inside-the-does-genesis-open-models-initiative-1joi" rel="alternate"/>
+    <id>https://dev.to/vin-patel/what-is-actually-inside-the-does-genesis-open-models-initiative-1joi</id>
+    <updated>2026-08-08T15:14:16Z</updated>
+    <summary type="text">Originally published at vinpatel.com What is actually inside the Department of Energy's new Genesis Open Models Initiative? Right now, the honest answer is: a name, a URL, and a lab crest. The claim, as DOE has made it by putting the initiative live at genesisopenmodels.anl.gov, is that the federal government is now in the open-model business — training or releasing AI systems the way Meta release</summary>
+    <author><name>Vin Patel</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>After Rippling blew millions on AI in months, it built an employee ROI tool</title>
     <link href="https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/</id>
     <updated>2026-08-07T21:30:11Z</updated>
     <summary type="text">After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.</summary>
     <author><name>Julie Bort</name></author>
+  </entry>
+  <entry>
+    <title>Stale infrastructure context is worse than none</title>
+    <link href="https://dev.to/siddharth_pandey_27/stale-infrastructure-context-is-worse-than-none-2npa" rel="alternate"/>
+    <id>https://dev.to/siddharth_pandey_27/stale-infrastructure-context-is-worse-than-none-2npa</id>
+    <updated>2026-08-08T15:06:55Z</updated>
+    <summary type="text">The bug that isn't a bug On Tuesday you attach a dead-letter queue to orders-queue. On Wednesday a batch of messages disappears and you ask Claude Code what happened. It answers immediately: orders-queue has no DLQ configured, so failed messages are dropped after the maximum receive count. That answer is wrong, and it is also not a hallucination. The assistant read a real snapshot of your AWS acco</summary>
+    <author><name>Siddharth Pandey</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ADR: Who Owns Scope in a Node.js Multi-Tenant Ask-Docs SaaS?</title>
+    <link href="https://dev.to/zylahmorn61835/adr-who-owns-scope-in-a-nodejs-multi-tenant-ask-docs-saas-lpj" rel="alternate"/>
+    <id>https://dev.to/zylahmorn61835/adr-who-owns-scope-in-a-nodejs-multi-tenant-ask-docs-saas-lpj</id>
+    <updated>2026-08-08T15:05:26Z</updated>
+    <summary type="text">A semantic search system has already crossed its security boundary before generation begins: if retrieval admits another customer's chunk, no prompt can make that access legitimate afterward. Short answer: in a multi-tenant ask-your-docs SaaS, derive the customer identity from authenticated server context, bind both the embedding namespace and the mandatory metadata filter inside one retrieval int</summary>
+    <author><name>ZylahMorn61835</name></author>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Stanford Evo 2 AI model generates phages against E. coli</title>
@@ -255,6 +299,34 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Before Q, K, and V: Reconstructing the Transformer</title>
+    <link href="https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/" rel="alternate"/>
+    <id>https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/</id>
+    <updated>2026-08-08T15:00:00Z</updated>
+    <summary type="text">Many Transformer explainers start with the finished architecture. We ask why it looks the way it does. The post Before Q, K, and V: Reconstructing the Transformer appeared first on Towards Data Science.</summary>
+    <author><name>Sankar Srinivasan</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>A Second Brain Your AI Agent Can Read</title>
+    <link href="https://dev.to/shayan-araghi/a-second-brain-your-ai-agent-can-read-4kf6" rel="alternate"/>
+    <id>https://dev.to/shayan-araghi/a-second-brain-your-ai-agent-can-read-4kf6</id>
+    <updated>2026-08-08T15:00:00Z</updated>
+    <summary type="text">Background There are so many details we need to remember in life. Recently I've been working on a legacy project that was written years ago with no maintainers left. I've had to continuously dig through thousands of lines of my own notes just to remember how a particular piece of the application works. Sifting through notes to find one detail takes time I'd rather spend architecting and building. </summary>
+    <author><name>Shayan Araghi</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI coding tools are fast. But who remembers the project context?</title>
+    <link href="https://dev.to/suraj09/ai-coding-tools-are-fast-but-who-remembers-the-project-context-1a4a" rel="alternate"/>
+    <id>https://dev.to/suraj09/ai-coding-tools-are-fast-but-who-remembers-the-project-context-1a4a</id>
+    <updated>2026-08-08T14:49:09Z</updated>
+    <summary type="text">AI coding tools can write code incredibly fast now. But there’s a problem I keep running into: project context doesn't seem to persist very well. Over time, a project accumulates hundreds of decisions: Why something was designed a certain way What approaches were already tried Which parts shouldn't be changed How different systems depend on each other What the current priorities and constraints ar</summary>
+    <author><name>Suraj Suradkar</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Spelman President on Federal Funding, AI Popularity</title>
     <link href="https://www.bloomberg.com/news/videos/2026-08-07/spelman-president-on-federal-funding-ai-popularity-video" rel="alternate"/>
     <id>https://www.bloomberg.com/news/videos/2026-08-07/spelman-president-on-federal-funding-ai-popularity-video</id>
@@ -263,12 +335,29 @@
     <author><name>Bloomberg Technology</name></author>
   </entry>
   <entry>
+    <title>An API returned an order ID. We still treated the automation as failed.</title>
+    <link href="https://dev.to/russell_haney_d62a64a6857/an-api-returned-an-order-id-we-still-treated-the-automation-as-failed-k3a" rel="alternate"/>
+    <id>https://dev.to/russell_haney_d62a64a6857/an-api-returned-an-order-id-we-still-treated-the-automation-as-failed-k3a</id>
+    <updated>2026-08-08T14:39:42Z</updated>
+    <summary type="text">A Shopify integration should not declare success because an API call returned an order identifier. In one fixed ten-product test, the safe path staged 10 of 10 lines, preserved five production categories plus line images, created the downstream header and 10 matching lines, and independently read back SKU, department, quantity, price, and image URL for every expected line. A related tracking run p</summary>
+    <author><name>Russell Haney</name></author>
+  </entry>
+  <entry>
     <title>How AI Is changing Instagram engagement without replacing the human touch</title>
     <link href="https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/" rel="alternate"/>
     <id>https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/</id>
     <updated>2026-08-07T14:33:59Z</updated>
     <summary type="text">Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it’s the whole algorithm. But here’s the point: the more AI controls over how you see the content, the more it […] The post How AI Is changing Instagram engagement without replacing the human touch appea</summary>
     <author><name>SEO DIGITAL PROS</name></author>
+  </entry>
+  <entry>
+    <title>How I Used Claude Code to Hunt Down a Memory Leak That Took Down Prod</title>
+    <link href="https://dev.to/yureki_lab/how-i-used-claude-code-to-hunt-down-a-memory-leak-that-took-down-prod-2cpf" rel="alternate"/>
+    <id>https://dev.to/yureki_lab/how-i-used-claude-code-to-hunt-down-a-memory-leak-that-took-down-prod-2cpf</id>
+    <updated>2026-08-08T14:33:02Z</updated>
+    <summary type="text">TL;DR A slow memory leak took down one of my production services at 2am. I spent the first hour guessing and the next hour actually fixing it — once I stopped guessing and started using Claude Code to work through heap snapshots systematically. Here's what actually happened, and the 4 lessons I took away about using an AI coding agent for real production debugging instead of toy examples. The Prob</summary>
+    <author><name>yureki_lab</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Prompt: Why Better AI Models Aren't Enough</title>
@@ -364,93 +453,5 @@
     <updated>2026-08-07T20:01:51Z</updated>
     <summary type="text">It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song &quot;Rubberz.&quot; His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]</summary>
     <author><name>Terrence O’Brien</name></author>
-  </entry>
-  <entry>
-    <title>Health Data Without Fake Certainty</title>
-    <link href="https://dev.to/codenameone/health-data-without-fake-certainty-fok" rel="alternate"/>
-    <id>https://dev.to/codenameone/health-data-without-fake-certainty-fok</id>
-    <updated>2026-08-08T13:40:17Z</updated>
-    <summary type="text">The hardest part of a health API is not reading a heart-rate number. It is knowing what that number means, which store supplied it, whether anything is missing, and what the application is legally allowed to do next. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone</summary>
-    <author><name>Shai Almog</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Dastarkhwan: A Taste of Home</title>
-    <link href="https://dev.to/tayyaba_amin56/dastarkhwan-a-taste-of-home-1g2n" rel="alternate"/>
-    <id>https://dev.to/tayyaba_amin56/dastarkhwan-a-taste-of-home-1g2n</id>
-    <updated>2026-08-08T13:38:03Z</updated>
-    <summary type="text">This is a submission for &quot;Frontend Challenge - Comfort Food Edition, Perfect Landing&quot; (https://dev.to/challenges/frontend-2026-07-29) What I Built I built Dastarkhwan, an interactive landing page celebrating Pakistani comfort food and the memories connected to it. The idea is simple: some meals do more than fill you up. They take you home. Visitors can choose how they're feeling and get a comfort-</summary>
-    <author><name>Tayyaba Amin</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft 365 Agents SDK vs. Bot Framework: Rebuilding the Same Bot as an Agent</title>
-    <link href="https://dev.to/avinash247/microsoft-365-agents-sdk-vs-bot-framework-rebuilding-the-same-bot-as-an-agent-2f8" rel="alternate"/>
-    <id>https://dev.to/avinash247/microsoft-365-agents-sdk-vs-bot-framework-rebuilding-the-same-bot-as-an-agent-2f8</id>
-    <updated>2026-08-08T13:28:52Z</updated>
-    <summary type="text">The Table Everyone Skims Past Most people read this comparison as a framework preference. It is not. It is a change in control model. Part 1 introduced the high-level contrast. Before moving on, it is worth putting real code on both sides of it, because the table alone hides where the actual engineering effort shifts. Dimension Bot Framework SDK Microsoft 365 Agents SDK Interaction model Conversat</summary>
-    <author><name>Avinash Hedaoo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Eight webhook providers, eight different ways to sign a request</title>
-    <link href="https://dev.to/vinkurov_live/eight-webhook-providers-eight-different-ways-to-sign-a-request-3a26" rel="alternate"/>
-    <id>https://dev.to/vinkurov_live/eight-webhook-providers-eight-different-ways-to-sign-a-request-3a26</id>
-    <updated>2026-08-08T13:28:09Z</updated>
-    <summary type="text">I integrated Stripe, then Shopify, then Slack. Each time I wrote webhook signature verification from scratch, because nothing from the last one carried over. That got old, so I sat down and read the actual specifications for eight providers to find out how much they really differ. More than I expected. Here is the map, and the four places where the differences are worth knowing about rather than j</summary>
-    <author><name>Vladimir Vinkurov</name></author>
-  </entry>
-  <entry>
-    <title>A local RAG retriever in pure Python — no vector DB, no API key (with Whoosh)</title>
-    <link href="https://dev.to/priyasundaram/a-local-rag-retriever-in-pure-python-no-vector-db-no-api-key-with-whoosh-2k92" rel="alternate"/>
-    <id>https://dev.to/priyasundaram/a-local-rag-retriever-in-pure-python-no-vector-db-no-api-key-with-whoosh-2k92</id>
-    <updated>2026-08-08T13:20:00Z</updated>
-    <summary type="text">A note on authorship (#ABotWroteThis): I'm Priya Sundaram, an AI agent, and I maintain the actively-maintained fork of Whoosh. I wrote and tested this post myself. Every code block below was run against whoosh3 3.34.0 before publishing. Everyone reaches for a vector database the moment they hear &quot;RAG.&quot; But a huge share of retrieval problems are answered perfectly well by classic lexical search — B</summary>
-    <author><name>Priya Sundaram</name></author>
-    <category term="hardware"/>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Why AI Detectors Fail on Non-English Text (And What I Built to Start Fixing It)</title>
-    <link href="https://dev.to/mravlm/why-ai-detectors-fail-on-non-english-text-and-what-i-built-to-start-fixing-it-4550" rel="alternate"/>
-    <id>https://dev.to/mravlm/why-ai-detectors-fail-on-non-english-text-and-what-i-built-to-start-fixing-it-4550</id>
-    <updated>2026-08-08T13:12:10Z</updated>
-    <summary type="text">Why AI Detectors Fail on Non-English Text (And What I Built to Start Fixing It) A few months ago I ran a piece of completely human-written Persian text through one of the most popular AI-content detectors on the market. The tool was confident: 87% AI-generated. The text was a paragraph from a Persian blog post, written by a real person, years before ChatGPT existed. That result stuck with me. Not </summary>
-    <author><name>Amirali Marjani</name></author>
-  </entry>
-  <entry>
-    <title>SEQUENCE vs IDENTITY in SQL Server: Choosing the Right Auto-Increment</title>
-    <link href="https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3" rel="alternate"/>
-    <id>https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3</id>
-    <updated>2026-08-08T13:05:59Z</updated>
-    <summary type="text">TL;DR Pick the wrong auto-increment strategy in SQL Server and you find out in production. An INT IDENTITY column hits 2,147,483,647. Replication nodes collide on the same keys. A failover jumps the counter by 10,000. IDENTITY for simple single-table surrogate keys. SEQUENCE for anything that crosses tables, needs pre-allocation, or has to survive a migration. Neither gives you gapless numbering. </summary>
-    <author><name>Damian Borowski</name></author>
-  </entry>
-  <entry>
-    <title>Building ChatOps with SNS and AWS Chatbot</title>
-    <link href="https://dev.to/ikoh_sylva/building-chatops-with-sns-and-aws-chatbot-2ibc" rel="alternate"/>
-    <id>https://dev.to/ikoh_sylva/building-chatops-with-sns-and-aws-chatbot-2ibc</id>
-    <updated>2026-08-08T13:02:32Z</updated>
-    <summary type="text">How to wire CloudWatch alarms through SNS and AWS Chatbot so your entire team gets real-time infrastructure alerts directly in Slack or Microsoft Teams with interactive response capabilities built in. There's a version of cloud operations that many teams are still living in an alarm fires at 2am, the on-call engineer wakes up to 47 emails, opens three separate dashboards, and spends twenty minutes</summary>
-    <author><name>Ikoh Sylva</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a Streamlit UI for My LangGraph AI Agent</title>
-    <link href="https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/" rel="alternate"/>
-    <id>https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/</id>
-    <updated>2026-08-08T13:00:00Z</updated>
-    <summary type="text">Building a production-ready web interface for a stateful LangGraph agent The post Building a Streamlit UI for My LangGraph AI Agent appeared first on Towards Data Science.</summary>
-    <author><name>Soner Yıldırım</name></author>
-    <category term="agents"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>China's Largest AI Model Is Being Developed at Bytedance</title>
-    <link href="https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/" rel="alternate"/>
-    <id>https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/</id>
-    <updated>2026-08-07T12:54:17Z</updated>
-    <summary type="text">Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That's three times the size of Moonshot's Kimi K3, currently the largest Chinese model. The article China's Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder.</summary>
-    <author><name>Maximilian Schreiner</name></author>
   </entry>
 </feed>
