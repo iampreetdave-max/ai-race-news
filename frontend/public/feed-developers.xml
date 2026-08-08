@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-08T13:51:45Z</updated>
+  <updated>2026-08-08T14:36:00Z</updated>
   <entry>
     <title>Claude Code sessions can now talk to each other and share context across terminals</title>
     <link href="https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/" rel="alternate"/>
@@ -53,6 +53,23 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.</title>
+    <link href="https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad" rel="alternate"/>
+    <id>https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad</id>
+    <updated>2026-08-08T13:53:18Z</updated>
+    <summary type="text">I spent a while optimizing what my AI agents cost to run. Cheap models for routine work. Better models when the task actually needed them. That made it practical to run several agents without sending every request to the most expensive model available. It worked. Then I hit the next bottleneck: trusting what came back. An agent can say a task is done, show passing tests, and leave a clean-looking </summary>
+    <author><name>Devansh</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Created a NestJS Delivery Dispatch Backend with Concurrency Control &amp; Dockerized Postgres</title>
+    <link href="https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec" rel="alternate"/>
+    <id>https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec</id>
+    <updated>2026-08-08T13:51:53Z</updated>
+    <summary type="text">I built this delivery dispatch service to practice and master core backend engineering fundamentals in NestJS. Instead of just building a basic CRUD API, I wanted to understand how real-world dispatch systems manage state transitions, handle route assignments, and keep data consistent under concurrent requests. The backend is engineered with NestJS, TypeORM, and PostgreSQL running inside Docker co</summary>
+    <author><name>Peace Melodi</name></author>
   </entry>
   <entry>
     <title>Microsoft 365 Agents SDK vs. Bot Framework: Rebuilding the Same Bot as an Agent</title>
@@ -445,25 +462,5 @@
     <updated>2026-08-07T03:15:45Z</updated>
     <summary type="text">A few weeks ago I wrote about building a reproducible test harness for comparing free AI coding models before you commit. That harness answers one question: which model should I use? It does not answer the harder follow-up: once a model generates a patch for my real codebase, when is it safe to merge? This week there was a great discussion on DEV about &quot;understanding over origin&quot; — the idea that i</summary>
     <author><name>Sam Li</name></author>
-  </entry>
-  <entry>
-    <title>Inside vLLM: How the World's Fastest LLM Inference Engine Works</title>
-    <link href="https://dev.to/trismegistus/inside-vllm-how-the-worlds-fastest-llm-inference-engine-works-165j" rel="alternate"/>
-    <id>https://dev.to/trismegistus/inside-vllm-how-the-worlds-fastest-llm-inference-engine-works-165j</id>
-    <updated>2026-08-07T03:10:31Z</updated>
-    <summary type="text">vLLM hit the front page of Hacker News this week with a deep dive into its architecture. If you're running production LLM workloads, understanding how vLLM achieves its throughput is essential. Here's what makes it special. The Problem vLLM Solves Traditional LLM inference is memory-bound, not compute-bound. The GPU spends most of its time waiting for model weights to arrive from memory, not actua</summary>
-    <author><name>Charles</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>China’s AI ecosystem is not as open as it claims. Nor is any other country’s | Letters</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/07/china-ai-ecosystem-is-not-as-open-as-it-claims-nor-is-any-other-country" rel="alternate"/>
-    <id>https://www.theguardian.com/technology/2026/aug/07/china-ai-ecosystem-is-not-as-open-as-it-claims-nor-is-any-other-country</id>
-    <updated>2026-08-07T16:56:34Z</updated>
-    <summary type="text">Responding to an article by China’s ambassador to the UK, Prof Paul H Cleverley advocates shared openness standards, while Dr Claire Jenkins says British AI can offer a distinctive pathAmbassador Zheng Zeguang rightly celebrates openly released AI models, and the Chinese labs behind Qwen, DeepSeek and Kimi have led the way – competition that benefits everyone, especially where models can run on mo</summary>
-    <author><name>Guardian Staff</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
   </entry>
 </feed>
