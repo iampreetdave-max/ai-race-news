@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T07:00:11Z</updated>
+  <updated>2026-08-08T07:55:34Z</updated>
   <entry>
     <title>Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents</title>
     <link href="https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/" rel="alternate"/>
@@ -360,93 +360,86 @@
     <author><name>Fernanda González</name></author>
   </entry>
   <entry>
-    <title>Spring Boot For Beginner</title>
-    <link href="https://dev.to/suman_naskar_a1784f80bc3a/spring-boot-for-beginner-398j" rel="alternate"/>
-    <id>https://dev.to/suman_naskar_a1784f80bc3a/spring-boot-for-beginner-398j</id>
-    <updated>2026-08-08T06:20:07Z</updated>
-    <summary type="text">🚀 Building a REST API with Java Spring Boot: A Practical Beginner’s Guide If you're coming from Java and want to move into backend development, Spring Boot is one of the best frameworks to learn. It removes a lot of the boilerplate traditionally associated with Spring and makes it surprisingly easy to build production-ready REST APIs. In this article, we'll build a simple Blog REST API using: ☕ Ja</summary>
-    <author><name>Suman Naskar</name></author>
+    <title>One Prompt Template, Three Engines That Disagree</title>
+    <link href="https://dev.to/faisal77666/one-prompt-templatethree-engines-that-disagree-ifi" rel="alternate"/>
+    <id>https://dev.to/faisal77666/one-prompt-templatethree-engines-that-disagree-ifi</id>
+    <updated>2026-08-08T07:34:16Z</updated>
+    <summary type="text">Written against main at the time of publishing. Every regex and line number is cited so you can re-check with grep -n and there's a runnable reproduction at the end that needs no build. TL;DR A PROMPT_TEMPLATE artifact in Apicurio Registry is rendered by three different pieces of code that don't share an engine and don't agree on what a template means beyond a plain {{name}}. Add a space, a dot, o</summary>
+    <author><name>Faisal Mehmood</name></author>
   </entry>
   <entry>
-    <title>Java Spring Boot Logging: Log Levels, Logback, JSON Logs &amp; Production Best Practices</title>
-    <link href="https://dev.to/ayshriv/java-spring-boot-logging-log-levels-logback-json-logs-production-best-practices-3f7o" rel="alternate"/>
-    <id>https://dev.to/ayshriv/java-spring-boot-logging-log-levels-logback-json-logs-production-best-practices-3f7o</id>
-    <updated>2026-08-08T06:12:32Z</updated>
-    <summary type="text">Production-Grade Logging in Spring Boot: A Complete Guide to Logging Levels, Files, JSON Logs, Correlation IDs, and Best Practices Logging is one of the most important parts of a production backend system. When everything works, you may not think much about logs. But when production starts returning 500 errors at 2 AM, a customer reports that an API is failing, or a payment request behaves unexpec</summary>
-    <author><name>Ayush Shrivastava</name></author>
+    <title>How GSTIN Checksum Validation Works (and Why It Isn't Enough)</title>
+    <link href="https://dev.to/tarun_vaghasia_a387e1ac9b/how-gstin-checksum-validation-works-and-why-it-isnt-enough-3l8e" rel="alternate"/>
+    <id>https://dev.to/tarun_vaghasia_a387e1ac9b/how-gstin-checksum-validation-works-and-why-it-isnt-enough-3l8e</id>
+    <updated>2026-08-08T07:34:14Z</updated>
+    <summary type="text">Every Indian GST invoice carries a 15-character GSTIN. If you've ever had to validate one in code, you've probably written a regex like this and called it done: /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$/ That regex checks the shape of a GSTIN. It says nothing about whether the number is real. A typo that happens to land on a syntactically valid string will sail straight through it</summary>
+    <author><name>Tarun Vaghasia</name></author>
   </entry>
   <entry>
-    <title>The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know</title>
-    <link href="https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/</id>
-    <updated>2026-08-07T12:30:00Z</updated>
-    <summary type="text">TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.</summary>
-    <author><name>TechCrunch Events</name></author>
-  </entry>
-  <entry>
-    <title>I built a pricing API for LLMs — then realized the real users might not be human</title>
-    <link href="https://dev.to/adrasmussen/i-built-a-pricing-api-for-llms-then-realized-the-real-users-might-not-be-human-4b8j" rel="alternate"/>
-    <id>https://dev.to/adrasmussen/i-built-a-pricing-api-for-llms-then-realized-the-real-users-might-not-be-human-4b8j</id>
-    <updated>2026-08-08T06:02:20Z</updated>
-    <summary type="text">Klikk her: LLM Price Watch started as a simple problem: comparing per-token pricing across Claude, GPT, Gemini, DeepSeek, and Grok meant opening five pricing pages and doing the math by hand every time a new model dropped. So I built a calculator. Then I built an API behind it. Then I noticed something about who was actually going to call that API. The obvious version The first version of the API </summary>
-    <author><name>Anders Rasmussen</name></author>
+    <title>llms.txt: what it is, why it matters and how to implement it</title>
+    <link href="https://dev.to/eraefi/llmstxt-what-it-is-why-it-matters-and-how-to-implement-it-2c67" rel="alternate"/>
+    <id>https://dev.to/eraefi/llmstxt-what-it-is-why-it-matters-and-how-to-implement-it-2c67</id>
+    <updated>2026-08-08T07:33:12Z</updated>
+    <summary type="text">In December 2024, Jeremy Howard, the creator of fast.ai, proposed a simple standard: an llms.txt file placed in a domain's root directory, telling AI systems about the structure and content of the site. The standard is supported by Anthropic (Claude), Perplexity and a dozen or so other AI tools. Implementation cost: a few minutes. Potential effect: better understanding of your site by AI systems. </summary>
+    <author><name>Rafał Fuchs</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your firewall is your AI policy — I probed 18 major sites to read it</title>
-    <link href="https://dev.to/abouchard11/your-firewall-is-your-ai-policy-i-probed-18-major-sites-to-read-it-5552" rel="alternate"/>
-    <id>https://dev.to/abouchard11/your-firewall-is-your-ai-policy-i-probed-18-major-sites-to-read-it-5552</id>
-    <updated>2026-08-08T06:01:45Z</updated>
-    <summary type="text">Everyone's arguing about AI search visibility. Almost nobody is measuring the boring part: whether AI crawlers can fetch your pages at all. So I built a small open-source tool — geo-crawl-audit — that probes any site with the user-agents of every AI crawler that matters (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, ChatGPT-User, and friends), measures how each is treated versus a normal browse</summary>
-    <author><name>Alex Bouchard</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>Docker for Beginners: Images, Containers, Ports, and Volumes Explained</title>
-    <link href="https://dev.to/chetancodelrca/docker-for-beginners-images-containers-ports-and-volumes-explained-ee6" rel="alternate"/>
-    <id>https://dev.to/chetancodelrca/docker-for-beginners-images-containers-ports-and-volumes-explained-ee6</id>
-    <updated>2026-08-08T06:00:04Z</updated>
-    <summary type="text">Docker for Beginners: Images, Containers, Ports, and Volumes Explained If you've ever followed a programming tutorial and seen something like: docker run ... you've probably wondered: What exactly is Docker doing? I had the same question when I started learning Docker. At first, I thought Docker was simply a way to &quot;run applications in containers.&quot; But there is much more to it. Once I understood f</summary>
-    <author><name>Chetan Inaganti</name></author>
     <category term="tutorial"/>
   </entry>
   <entry>
-    <title>Building an offline-first travel app in .NET MAUI (on-device OCR, currency &amp; maps, no backend)</title>
-    <link href="https://dev.to/horizonsoftware/building-an-offline-first-travel-app-in-net-maui-on-device-ocr-currency-maps-no-backend-ecd" rel="alternate"/>
-    <id>https://dev.to/horizonsoftware/building-an-offline-first-travel-app-in-net-maui-on-device-ocr-currency-maps-no-backend-ecd</id>
-    <updated>2026-08-08T05:59:55Z</updated>
-    <summary type="text">A build note from Horizon Software, a one-person Android studio. WanderWallet is a travel budget app, and the whole thing runs on the phone: no account, no backend, no cloud. Here's how the parts that look like they need a server actually work without one. The one constraint that shaped everything WanderWallet has a single non-negotiable rule: it has to work with no signal. You're three countries </summary>
-    <author><name>Horizon Software</name></author>
+    <title>MUI to Shadcn: 7 Pitfalls We Hit (And the Fix for Each)</title>
+    <link href="https://dev.to/ashishxcode/mui-to-shadcn-7-pitfalls-we-hit-and-the-fix-for-each-3eh" rel="alternate"/>
+    <id>https://dev.to/ashishxcode/mui-to-shadcn-7-pitfalls-we-hit-and-the-fix-for-each-3eh</id>
+    <updated>2026-08-08T07:22:42Z</updated>
+    <summary type="text">We replaced MUI with Radix + Shadcn across a multi-tenant SaaS dashboard over the last quarter. Bundle size dropped. Theming finally made sense. Our design system stopped being two different design systems wearing a trench coat. It also wasn't smooth. Most &quot;migrate to shadcn&quot; posts you read online are clean. They show you the add command, the new component, a screenshot, and call it done. That's n</summary>
+    <author><name>Ashish Patel</name></author>
   </entry>
   <entry>
-    <title>What Are Autonomous AI Agents? A Practical Guide for Developers</title>
-    <link href="https://dev.to/synfinity-dynamics-pvt-ltd/what-are-autonomous-ai-agents-a-practical-guide-for-developers-4iki" rel="alternate"/>
-    <id>https://dev.to/synfinity-dynamics-pvt-ltd/what-are-autonomous-ai-agents-a-practical-guide-for-developers-4iki</id>
-    <updated>2026-08-08T05:48:05Z</updated>
-    <summary type="text">Most AI applications wait for a user to ask a question and then return an answer. Autonomous AI agents go further: they can interpret a goal, decide what steps are required, use external tools, evaluate the results, and continue working until the task is completed or human help is needed. For example, a chatbot can explain how to resolve a customer complaint. An AI agent can read the complaint, re</summary>
-    <author><name>Synfinity Dynamics Pvt Ltd</name></author>
-    <category term="llm"/>
+    <title>🤖 AI Context Engineering (Part 4): AI Agents - From Tool Calling to Multi-Step Workflows</title>
+    <link href="https://dev.to/fazal_mansuri_/ai-context-engineering-part-4-ai-agents-from-tool-calling-to-multi-step-workflows-28mo" rel="alternate"/>
+    <id>https://dev.to/fazal_mansuri_/ai-context-engineering-part-4-ai-agents-from-tool-calling-to-multi-step-workflows-28mo</id>
+    <updated>2026-08-08T07:22:18Z</updated>
+    <summary type="text">In Part 1, we explored why modern AI systems need more than carefully written prompts. In Part 2, we looked at tokens, context windows and memory and why simply adding more context doesn't necessarily produce better results. In Part 3, we went one step further: RAG helps retrieve relevant information. Tool Calling lets an AI application interact with external systems. MCP provides a standardized w</summary>
+    <author><name>Fazal Mansuri</name></author>
     <category term="agents"/>
   </entry>
   <entry>
-    <title>Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot</title>
-    <link href="https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/</id>
-    <updated>2026-08-07T05:42:45Z</updated>
-    <summary type="text">Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates the tests it produces. On Microsoft's internal 152-task benchmark it completed </summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
+    <title># 🔍 What Actually Happens When PostgreSQL Executes a SELECT Query?</title>
+    <link href="https://dev.to/ahmedraza_fyntune/-what-actually-happens-when-postgresql-executes-a-select-query-1ejm" rel="alternate"/>
+    <id>https://dev.to/ahmedraza_fyntune/-what-actually-happens-when-postgresql-executes-a-select-query-1ejm</id>
+    <updated>2026-08-08T07:21:23Z</updated>
+    <summary type="text">When we write: SELECT * FROM users WHERE id = 100; it looks incredibly simple. We send SQL. PostgreSQL gives us rows. But what actually happens between those two steps? There is a lot going on internally. Understanding this process changed the way I think about database performance. Instead of thinking: &quot;I wrote a query and PostgreSQL executed it.&quot; I started thinking: &quot;What path does PostgreSQL ta</summary>
+    <author><name>Ahmed Raza Idrisi</name></author>
   </entry>
   <entry>
-    <title>Biryani CSS Art — India's Soul in Every Grain 🍛</title>
-    <link href="https://dev.to/nitish_pandey_c5361afcae9/biryani-css-art-indias-soul-in-every-grain-17hb" rel="alternate"/>
-    <id>https://dev.to/nitish_pandey_c5361afcae9/biryani-css-art-indias-soul-in-every-grain-17hb</id>
-    <updated>2026-08-08T05:37:58Z</updated>
-    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, CSS Art. Inspiration I chose to build a classic Dum Biryani — the ultimate comfort food! 🍛 There is nothing quite like opening a steaming handi of biryani and seeing the rich, saffron-colored rice dotted with fried onions, mint, and spices. It's a dish that brings people together and feels like a warm hug, making it the perfect in</summary>
-    <author><name>Nitish Pandey</name></author>
-    <category term="data"/>
+    <title>Notion to Docmost: what survives the export, and what the databases-to-pages downgrade really costs you</title>
+    <link href="https://dev.to/john_182319291/notion-to-docmost-what-survives-the-export-and-what-the-databases-to-pages-downgrade-really-costs-458m" rel="alternate"/>
+    <id>https://dev.to/john_182319291/notion-to-docmost-what-survives-the-export-and-what-the-databases-to-pages-downgrade-really-costs-458m</id>
+    <updated>2026-08-08T07:06:07Z</updated>
+    <summary type="text">Your prose survives the move to Docmost almost intact. Your databases do not. Docmost ships an importer that reads a Notion HTML or Markdown export and rebuilds pages, hierarchy and attachments, but it has no database concept at all, so every Notion table, board, calendar, relation, rollup and formula arrives as flat page content that you maintain by hand from then on. Decide by asking what share </summary>
+    <author><name>John</name></author>
+  </entry>
+  <entry>
+    <title>Scraping Ethically: A Practical Guide to Respectful Web Crawling</title>
+    <link href="https://dev.to/aimigo_57e64d6aeaf6a67a02/scraping-ethically-a-practical-guide-to-respectful-web-crawling-4820" rel="alternate"/>
+    <id>https://dev.to/aimigo_57e64d6aeaf6a67a02/scraping-ethically-a-practical-guide-to-respectful-web-crawling-4820</id>
+    <updated>2026-08-08T07:00:16Z</updated>
+    <summary type="text">Scraping Ethically: A Practical Guide to Respectful Web Crawling The single most important thing to understand about web scraping is this: ethical crawling is not a legal gray area—it’s a technical and reputational survival strategy. If you scrape without respecting robots.txt, rate limits, and site terms, you will get blocked, your IPs will be burned, and you may face legal action. In 2023, the U</summary>
+    <author><name>Aimigo</name></author>
+  </entry>
+  <entry>
+    <title>You built your modal with a `&lt;div&gt;` and a focus trap library. The native `&lt;dialog&gt;` does all of that.</title>
+    <link href="https://dev.to/parsajiravand/you-built-your-modal-with-a-and-a-focus-trap-library-the-native-does-all-of-15lg" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/you-built-your-modal-with-a-and-a-focus-trap-library-the-native-does-all-of-15lg</id>
+    <updated>2026-08-08T07:00:10Z</updated>
+    <summary type="text">Building a modal from scratch means writing the same boilerplate every time: a &lt;div&gt; with role=&quot;dialog&quot;, an aria-modal attribute, a tabindex=&quot;-1&quot; to steal focus, a keydown listener to catch Escape, a focus-trap library to keep Tab cycling inside the dialog, and a click listener on the backdrop overlay you rendered yourself. It works, but you're doing the browser's job. The &lt;dialog&gt; element exists </summary>
+    <author><name>Parsa Jiravand</name></author>
+  </entry>
+  <entry>
+    <title>Stop importing `uuid`. `crypto.randomUUID()` has been native since 2021.</title>
+    <link href="https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm</id>
+    <updated>2026-08-08T07:00:09Z</updated>
+    <summary type="text">The uuid npm package is one of the most downloaded libraries in the JavaScript ecosystem. The vast majority of those installs exist for one thing: uuid/v4, which generates a random unique identifier in the standard xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx format. The browser — and Node.js — have been doing this natively since 2021. No package needed. The native API const id = crypto.randomUUID(); // &quot;</summary>
+    <author><name>Parsa Jiravand</name></author>
   </entry>
 </feed>

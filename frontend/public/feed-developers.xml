@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-08T07:00:11Z</updated>
+  <updated>2026-08-08T07:55:34Z</updated>
   <entry>
     <title>Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents</title>
     <link href="https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/" rel="alternate"/>
@@ -34,6 +34,14 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Stop importing `uuid`. `crypto.randomUUID()` has been native since 2021.</title>
+    <link href="https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm</id>
+    <updated>2026-08-08T07:00:09Z</updated>
+    <summary type="text">The uuid npm package is one of the most downloaded libraries in the JavaScript ecosystem. The vast majority of those installs exist for one thing: uuid/v4, which generates a random unique identifier in the standard xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx format. The browser — and Node.js — have been doing this natively since 2021. No package needed. The native API const id = crypto.randomUUID(); // &quot;</summary>
+    <author><name>Parsa Jiravand</name></author>
   </entry>
   <entry>
     <title>Docker for Beginners: Images, Containers, Ports, and Volumes Explained</title>
@@ -457,15 +465,6 @@
     <summary type="text">Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago. I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-age</summary>
     <author><name>Simon Willison</name></author>
     <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Humans in the loop miss a third of dangerous AI coding agent requests</title>
-    <link href="https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236" rel="alternate"/>
-    <id>https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236</id>
-    <updated>2026-08-06T16:44:29Z</updated>
-    <summary type="text">You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?</summary>
-    <author><name>The Register AI</name></author>
     <category term="llm"/>
   </entry>
 </feed>
