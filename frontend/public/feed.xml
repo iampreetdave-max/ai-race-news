@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T19:34:08Z</updated>
+  <updated>2026-08-08T20:34:42Z</updated>
   <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
@@ -163,6 +163,70 @@
     <updated>2026-08-07T15:20:00Z</updated>
     <summary type="text">OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>💀 The Most Dangerous Deletions Don't Break the Build. They Break the Deploy. An AI-Assisted Recovery Story 🤖</title>
+    <link href="https://dev.to/velumal09/the-most-dangerous-deletions-dont-break-the-build-they-break-the-deploy-an-ai-assisted-3bk7" rel="alternate"/>
+    <id>https://dev.to/velumal09/the-most-dangerous-deletions-dont-break-the-build-they-break-the-deploy-an-ai-assisted-3bk7</id>
+    <updated>2026-08-08T20:30:26Z</updated>
+    <summary type="text">Table of Contents The PR That Looked Harmless Five Minutes to 503 The Revert That Couldn't Land Down the SSH Rabbit Hole The Workaround The Proper Fix What We Learned The PR That Looked Harmless It started with a well-intentioned pull request. We were migrating our public developer documentation site from a legacy PHP CMS to a modern static site generator. The migration PR deleted the old PHP appl</summary>
+    <author><name>Vinothsingh Elumalai</name></author>
+  </entry>
+  <entry>
+    <title>Why Basic RAG Fails in Production and How Adaptive Query Routing Fixes It</title>
+    <link href="https://dev.to/mithxcode/why-basic-rag-fails-in-production-and-how-adaptive-query-routing-fixes-it-5c1n" rel="alternate"/>
+    <id>https://dev.to/mithxcode/why-basic-rag-fails-in-production-and-how-adaptive-query-routing-fixes-it-5c1n</id>
+    <updated>2026-08-08T20:01:15Z</updated>
+    <summary type="text">Most developers build Retrieval-Augmented Generation (RAG) pipelines assuming every user query needs a vector search. In production, this naive approach fails in three distinct scenarios: Simple Queries: &quot;Hi&quot;, &quot;Who created this bot?&quot;, or general knowledge queries don't need expensive vector database lookups. Ambiguous Queries: Vague user questions lead to noisy retrieval, diluting the LLM's contex</summary>
+    <author><name>Mithilesh Kumar</name></author>
+    <category term="tutorial"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>The Invisible Threat: Defending Against Indirect Prompt Injections in Web Content &amp; Data Feeds</title>
+    <link href="https://dev.to/programmingcentral/the-invisible-threat-defending-against-indirect-prompt-injections-in-web-content-data-feeds-3ekn" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/the-invisible-threat-defending-against-indirect-prompt-injections-in-web-content-data-feeds-3ekn</id>
+    <updated>2026-08-08T20:00:00Z</updated>
+    <summary type="text">The dawn of autonomous agentic systems—specifically those empowered by the Model Context Protocol (MCP) and vision-driven browser automation—has fundamentally transformed the architectural landscape of modern software engineering. We have shifted our design paradigms from deterministic control flow graphs to probabilistic, state-seeking orchestration loops. In this paradigm, Large Language Models </summary>
+    <author><name>Programming Central</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Data-Driven Thresholds: Picking Cutoffs You Can Defend</title>
+    <link href="https://dev.to/michaelnocito/data-driven-thresholds-picking-cutoffs-you-can-defend-lf" rel="alternate"/>
+    <id>https://dev.to/michaelnocito/data-driven-thresholds-picking-cutoffs-you-can-defend-lf</id>
+    <updated>2026-08-08T19:59:46Z</updated>
+    <summary type="text">Every real analysis runs into the same quiet decision, over and over: where do you draw the line? How many reviews before a rating is trustworthy? How many purchases before a customer counts as &quot;active&quot;? How many chart appearances before an artist counts as &quot;known&quot;? These cutoffs shape every result downstream — and the difference between an amateur and a professional is not which number they pick.</summary>
+    <author><name>Michael Nocito</name></author>
+  </entry>
+  <entry>
+    <title>How to Handle Large Datasets</title>
+    <link href="https://dev.to/michaelnocito/how-to-handle-large-datasets-4olg" rel="alternate"/>
+    <id>https://dev.to/michaelnocito/how-to-handle-large-datasets-4olg</id>
+    <updated>2026-08-08T19:59:38Z</updated>
+    <summary type="text">You double-click a data file and Excel spins, freezes, or tells you it cannot open it. Real-world datasets are often far bigger than a spreadsheet can hold, and every beginner hits this wall the first time they grab a serious dataset. This guide is what to do next. It covers how to recognize a &quot;large&quot; dataset, and why you move it into a database. It then lists the handful of real-world quirks that</summary>
+    <author><name>Michael Nocito</name></author>
+  </entry>
+  <entry>
+    <title>How to Set Up a SQL Database for Beginners</title>
+    <link href="https://dev.to/michaelnocito/how-to-set-up-a-sql-database-for-beginners-1dij" rel="alternate"/>
+    <id>https://dev.to/michaelnocito/how-to-set-up-a-sql-database-for-beginners-1dij</id>
+    <updated>2026-08-08T19:59:23Z</updated>
+    <summary type="text">Every SQL tutorial assumes your data is already &quot;in a database.&quot; Nobody explains the step in between. This guide is that step. You'll get a data file, create your first real database on your own computer, load the file into it, and run your first query. It takes two desktop tools and zero server setup. You do not need to bring your own data. Step 1 gives you a file to download, and every query in </summary>
+    <author><name>Michael Nocito</name></author>
+    <category term="tutorial"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>What Is Codebase Memory MCP? Structural Memory for Coding Agents</title>
+    <link href="https://dev.to/naserrasouli/what-is-codebase-memory-mcp-structural-memory-for-coding-agents-9j3" rel="alternate"/>
+    <id>https://dev.to/naserrasouli/what-is-codebase-memory-mcp-structural-memory-for-coding-agents-9j3</id>
+    <updated>2026-08-08T19:46:37Z</updated>
+    <summary type="text">Why Codebase Memory MCP? As frontend projects grow, understanding the relationships between components, hooks, stores, services, and APIs becomes harder for coding agents. Tools such as Claude Code, Codex, or Cursor may need to search and open several files just to answer a simple question. Codebase Memory MCP builds a knowledge graph of the project so those relationships are stored ahead of time </summary>
+    <author><name>Naser Rasouli</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -391,66 +455,5 @@
     <updated>2026-08-08T17:28:13Z</updated>
     <summary type="text">How a single folder of config spins up a VPC, two subnets, a gateway, a firewall, and a running server — and the two small things that tripped me up. The AWS console and I have a complicated relationship. Every time I build a network by hand, I click through the same fifteen screens, forget one route table, and end up with a server that can't reach the internet for reasons I can't remember an hour</summary>
     <author><name>Joseph Davis</name></author>
-  </entry>
-  <entry>
-    <title>Extending Slugs Across Templates and Entities for Deterministic API Workflows</title>
-    <link href="https://dev.to/homeless-coder/extending-slugs-across-templates-and-entities-for-deterministic-api-workflows-5fm3" rel="alternate"/>
-    <id>https://dev.to/homeless-coder/extending-slugs-across-templates-and-entities-for-deterministic-api-workflows-5fm3</id>
-    <updated>2026-08-08T17:27:03Z</updated>
-    <summary type="text">Eliminate identifier resolution queries in automated ingestion pipelines. Omnismith extends project-unique slugs across templates and entities for deterministic API workflows. The Problem with UUID-Only Ingestion Automating entity management and metric ingestion requires continuous interaction with platform schemas. Prior to platform-wide slug support, writing data to Omnismith required external s</summary>
-    <author><name>HomelessCoder</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Know the Recipe. I Miss the Winter Kitchen.</title>
-    <link href="https://dev.to/shubhradev/i-know-the-recipe-i-miss-the-winter-kitchen-39ea" rel="alternate"/>
-    <id>https://dev.to/shubhradev/i-know-the-recipe-i-miss-the-winter-kitchen-39ea</id>
-    <updated>2026-08-08T17:16:03Z</updated>
-    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, CSS Art. Inspiration When I first read Comfort Food, my mind immediately went somewhere I haven't visited in years. Not to pizza. Not to desserts. Not even to my favorite recipes. It went back to my childhood kitchen. During winter, even though we had a gas stove, my mother would often light our clay chulha. The kitchen felt warme</summary>
-    <author><name>Shubhra Pokhariya</name></author>
-  </entry>
-  <entry>
-    <title>Why Does a New Windows Process Appear Every Time I Start My PC?</title>
-    <link href="https://dev.to/darkssel/why-does-a-new-windows-process-appear-every-time-i-start-my-pc-19ml" rel="alternate"/>
-    <id>https://dev.to/darkssel/why-does-a-new-windows-process-appear-every-time-i-start-my-pc-19ml</id>
-    <updated>2026-08-08T17:12:47Z</updated>
-    <summary type="text">Why Does a New Windows Process Appear Every Time I Start My PC? Have you ever opened Windows Task Manager and noticed a process you don't remember installing? You close it. You restart your computer. And there it is again. The first thought is usually: &quot;Is my computer infected?&quot; Not necessarily. Windows, drivers, software updaters, security tools, and legitimate applications can all start processe</summary>
-    <author><name>Darkssel</name></author>
-  </entry>
-  <entry>
-    <title>Integrating AgentRouter with Tauric Research TradingAgents</title>
-    <link href="https://dev.to/arpandhara/integrating-agentrouter-with-tauric-research-tradingagents-3m6h" rel="alternate"/>
-    <id>https://dev.to/arpandhara/integrating-agentrouter-with-tauric-research-tradingagents-3m6h</id>
-    <updated>2026-08-08T17:06:56Z</updated>
-    <summary type="text">If you're using Tauric Research's TradingAgents framework and want to add AgentRouter as a fully supported LLM provider, this guide will walk you through the complete integration. The process is organized file-by-file, so you can open each file and make all of the required changes before moving to the next one. TradingAgents Repository: [https://github.com/TauricResearch/TradingAgents.git] What We</summary>
-    <author><name>Arpan Dhara</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>After Shipping 8 Chrome Extensions, These Are the 5 Rules I Always Give AI Agents</title>
-    <link href="https://dev.to/k-wada/after-shipping-8-chrome-extensions-these-are-the-5-rules-i-always-give-ai-agents-13al" rel="alternate"/>
-    <id>https://dev.to/k-wada/after-shipping-8-chrome-extensions-these-are-the-5-rules-i-always-give-ai-agents-13al</id>
-    <updated>2026-08-08T17:01:20Z</updated>
-    <summary type="text">AI agents can build Chrome extensions surprisingly fast. After shipping eight extensions, though, I found that the biggest risks usually do not come from whether the code runs. They come from what the agent quietly adds while trying to be helpful: another permission an external request a new dependency a refactor I did not ask for a change in what user data is read or stored All of those can affec</summary>
-    <author><name>k-wada</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Compressing PDFs in the browser, and the bug that shipped empty files</title>
-    <link href="https://dev.to/swifttooly/compressing-pdfs-in-the-browser-and-the-bug-that-shipped-empty-files-19h9" rel="alternate"/>
-    <id>https://dev.to/swifttooly/compressing-pdfs-in-the-browser-and-the-bug-that-shipped-empty-files-19h9</id>
-    <updated>2026-08-08T16:58:42Z</updated>
-    <summary type="text">Last time I wrote about compressing images in the browser with the Canvas API. I ended that post by saying the PDF version of the story was messier. It is, and one of the bugs sat in production longer than I'd like to admit. Same constraint as before: everything runs on the user's device. No upload, no server, no API. A PDF has no quality slider With an image you call canvas.toBlob(resolve, 'image</summary>
-    <author><name>swifttooly</name></author>
-  </entry>
-  <entry>
-    <title>Building a Bulletproof Comment Reply System in Node.js &amp; MongoDB 🚀</title>
-    <link href="https://dev.to/codemaster_121482/building-a-bulletproof-comment-reply-system-in-nodejs-mongodb-2ab8" rel="alternate"/>
-    <id>https://dev.to/codemaster_121482/building-a-bulletproof-comment-reply-system-in-nodejs-mongodb-2ab8</id>
-    <updated>2026-08-08T16:53:33Z</updated>
-    <summary type="text">When building a nested reply system, most developers worry about deep tree complexity or messy data structures. For Vlox, I took a different approach: keeping things flat, fast, and secure by reusing a single Mongoose schema with smart atomic limits. Here is a deep dive into how I engineered a production-ready, race-condition-safe reply mechanism using MongoDB transactions, strict type sanitizatio</summary>
-    <author><name>Seif Ahmed</name></author>
   </entry>
 </feed>

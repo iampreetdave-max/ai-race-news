@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-08T19:34:08Z</updated>
+  <updated>2026-08-08T20:34:42Z</updated>
   <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
@@ -62,6 +62,25 @@
     <summary type="text">Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph. It is MIT-licensed, self-hosted via Docker, and integrates with Claude Code, OpenClaw, Hermes and CodeBuddy. The differentiator is not retrieval but governance: ACL-based visibility decide</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Basic RAG Fails in Production and How Adaptive Query Routing Fixes It</title>
+    <link href="https://dev.to/mithxcode/why-basic-rag-fails-in-production-and-how-adaptive-query-routing-fixes-it-5c1n" rel="alternate"/>
+    <id>https://dev.to/mithxcode/why-basic-rag-fails-in-production-and-how-adaptive-query-routing-fixes-it-5c1n</id>
+    <updated>2026-08-08T20:01:15Z</updated>
+    <summary type="text">Most developers build Retrieval-Augmented Generation (RAG) pipelines assuming every user query needs a vector search. In production, this naive approach fails in three distinct scenarios: Simple Queries: &quot;Hi&quot;, &quot;Who created this bot?&quot;, or general knowledge queries don't need expensive vector database lookups. Ambiguous Queries: Vague user questions lead to noisy retrieval, diluting the LLM's contex</summary>
+    <author><name>Mithilesh Kumar</name></author>
+    <category term="tutorial"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>What Is Codebase Memory MCP? Structural Memory for Coding Agents</title>
+    <link href="https://dev.to/naserrasouli/what-is-codebase-memory-mcp-structural-memory-for-coding-agents-9j3" rel="alternate"/>
+    <id>https://dev.to/naserrasouli/what-is-codebase-memory-mcp-structural-memory-for-coding-agents-9j3</id>
+    <updated>2026-08-08T19:46:37Z</updated>
+    <summary type="text">Why Codebase Memory MCP? As frontend projects grow, understanding the relationships between components, hooks, stores, services, and APIs becomes harder for coding agents. Tools such as Claude Code, Codex, or Cursor may need to search and open several files just to answer a simple question. Codebase Memory MCP builds a knowledge graph of the project so those relationships are stored ahead of time </summary>
+    <author><name>Naser Rasouli</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -445,22 +464,5 @@
     <updated>2026-08-07T08:20:46Z</updated>
     <summary type="text">My First Docker Container: Installation and Essential Commands In the previous article, we learned what Docker is and why it became one of the most important tools in modern software development and DevOps. Now it’s time to do something practical. In this article, we will install Docker and run our first Docker container. By the end, you will understand the most important Docker commands that ever</summary>
     <author><name>prash 1</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code Now Runs Subagents in the Background by Default — What Actually Changed</title>
-    <link href="https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb" rel="alternate"/>
-    <id>https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb</id>
-    <updated>2026-08-07T07:15:58Z</updated>
-    <summary type="text">Original article in Spanish on El Rack: Claude Code ya no espera a que le mires: subagentes en segundo plano por defecto I run Claude Code daily as my main dev agent, both locally and over SSH against a VPS running a handful of production sites. A change that landed over the last few weeks quietly rewired how I work with it: subagents now run in the background by default. Before, when Code delegat</summary>
-    <author><name>Alvarito1983</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce</title>
-    <link href="https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/</id>
-    <updated>2026-08-06T13:00:00Z</updated>
-    <summary type="text">The startup's platform predicts what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.</summary>
-    <author><name>Lauren Forristal</name></author>
   </entry>
 </feed>
