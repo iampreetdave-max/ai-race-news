@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T15:34:13Z</updated>
+  <updated>2026-08-08T16:40:32Z</updated>
   <entry>
     <title>Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</title>
     <link href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/" rel="alternate"/>
@@ -219,12 +219,100 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>5 Free Domain Investigate APIs That Cut Due Diligence Time</title>
+    <link href="https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g" rel="alternate"/>
+    <id>https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g</id>
+    <updated>2026-08-08T16:37:21Z</updated>
+    <summary type="text">security, #api, #webdev, #sideprojects That TXT record saved me $8,500 Last Tuesday I almost wired $8,500 to a domain broker. The landing page looked legit. Escrow was ready. Then I ran one DNS lookup. import dns.resolver def txt_flags(domain): try: answers = dns.resolver.resolve(domain, &quot;TXT&quot;) return [r.to_text().strip('&quot;') for r in answers] except dns.resolver.NXDOMAIN: return [&quot;domain does not </summary>
+    <author><name>Onizuka</name></author>
+  </entry>
+  <entry>
+    <title>Every web rich-text editor is missing a ruler</title>
+    <link href="https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go" rel="alternate"/>
+    <id>https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go</id>
+    <updated>2026-08-08T16:34:49Z</updated>
+    <summary type="text">Originally published on Medium. Word processors have had a horizontal ruler for forty years. You grab a marker, drag, and the paragraph's margins move. Every writer knows it without being taught. Open Froala, TinyMCE, CKEditor 5, or Quill and it isn't there. Not hidden in a menu — it doesn't exist. The CKEditor 5 feature request has been open since September 2020. The editors that do ship a ruler </summary>
+    <author><name>Sinny</name></author>
+  </entry>
+  <entry>
+    <title>Spot Cross-Exchange Crypto Spreads in Minutes — Open Source Monitor (MIT)</title>
+    <link href="https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0" rel="alternate"/>
+    <id>https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0</id>
+    <updated>2026-08-08T16:31:18Z</updated>
+    <summary type="text">Ever wondered how far Bitcoin’s bid/ask drifts between Binance, Kraken, Coinbase, Bitget, and KuCoin — after fees? Crypto Arbitrage Monitor is an open-source dashboard that polls public top-of-book prices across those five venues, builds a buy/sell matrix, and streams fee-adjusted spreads live. It does not place trades. It shows indicative opportunities so you can see where spreads open up. Why tr</summary>
+    <author><name>Micha</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>OpenAI says it slowed Astra model development over security concerns</title>
     <link href="https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</id>
     <updated>2026-08-07T22:48:24Z</updated>
     <summary type="text">OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess.</summary>
     <author><name>Kirsten Korosec</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GitLab wires Anthropic's Claude security tooling into its pipeline via MCP</title>
+    <link href="https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6" rel="alternate"/>
+    <id>https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6</id>
+    <updated>2026-08-08T16:24:48Z</updated>
+    <summary type="text">Every commit is a promise that somebody, somewhere, will notice if it breaks something. Two vendors telling you they will each hold up half of that promise is a different animal from one system that owns it end to end. GitLab has now published its take on how it wants to sit next to Anthropic's Claude security tooling, and the piece rewards reading with the trust boundary in one hand. What GitLab </summary>
+    <author><name>Leo</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI Hit Its Own Brakes. Now What?</title>
+    <link href="https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi" rel="alternate"/>
+    <id>https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi</id>
+    <updated>2026-08-08T16:22:42Z</updated>
+    <summary type="text">On Friday evening, OpenAI published a blog post stating it could not rule out that its upcoming model Astra had reached the &quot;Critical&quot; cybersecurity threshold under its own Preparedness Framework. It paused internal development activities that did not meet the corresponding containment requirements. Sam Altman posted that the company did not think keeping powerful models &quot;to a chosen few&quot; was a go</summary>
+    <author><name>Dean Lee</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI This Week (Aug 2026): Qwen3.8 Max, DeepSeek V4-Flash, and Models Shipping Like Patches</title>
+    <link href="https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc" rel="alternate"/>
+    <id>https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc</id>
+    <updated>2026-08-08T16:19:17Z</updated>
+    <summary type="text">If you blinked this week, you missed three frontier model releases. August 2026 is making one thing very clear: large language models now ship like software patches, not like moon landings. Here's the AI news that actually matters for builders right now. Qwen3.8 Max lands Alibaba pushed Qwen3.8 Max at the start of the month — the newest flagship in a line that has become the default open-weight ba</summary>
+    <author><name>ai maya</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Talked to an Elon Musk AI About Product Management — Here's What It Said About Surviving the AI Wave</title>
+    <link href="https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d" rel="alternate"/>
+    <id>https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d</id>
+    <updated>2026-08-08T16:12:43Z</updated>
+    <summary type="text">I Talked to an Elon Musk AI About Product Management — Here's What It Said &quot;The only rules you have to follow are the laws of physics — everything else is a recommendation.&quot; Lately, I've been seeing a wave of &quot;personality skills&quot; for AI assistants — distillations of bosses, colleagues, exes, mentors. You name it, someone's bottled it. So I installed an Elon Musk Skill into my AI assistant and aske</summary>
+    <author><name>AICDragon</name></author>
+  </entry>
+  <entry>
+    <title>How to implement networked multiplayer games in Python using an open-source framework</title>
+    <link href="https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc" rel="alternate"/>
+    <id>https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc</id>
+    <updated>2026-08-08T16:07:14Z</updated>
+    <summary type="text">Introduction Turn-based multiplayer games are a sweet spot for learning + prototyping: simple enough to implement quickly, but real enough to teach networking, game state, and API design. I wrote a lightweight server and framework that provides exactly that: a lightweight server + uniform API so you can run multiple parallel game sessions, auto-join the next available session, and add new games wi</summary>
+    <author><name>Tio Fabi</name></author>
+    <category term="open-source"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>From Cron Jobs to Event-Driven: Migrating Scheduled Tasks to Serverless Functions</title>
+    <link href="https://dev.to/libme/from-cron-jobs-to-event-driven-migrating-scheduled-tasks-to-serverless-functions-4i0a" rel="alternate"/>
+    <id>https://dev.to/libme/from-cron-jobs-to-event-driven-migrating-scheduled-tasks-to-serverless-functions-4i0a</id>
+    <updated>2026-08-08T16:05:16Z</updated>
+    <summary type="text">If you have a crontab on a box that nobody wants to reboot, the migration path is usually: move the schedule to a managed scheduler (EventBridge Scheduler, Cloud Scheduler, a Vercel/Cloudflare cron trigger), move the script into a function, and — only where it actually helps — replace the fixed schedule with an event that fires when the work is genuinely ready. The first two steps are almost alway</summary>
+    <author><name>Libme</name></author>
+  </entry>
+  <entry>
+    <title>Building Autolang: A Scripting Runtime for Lightweight AI-Generated Code</title>
+    <link href="https://dev.to/hoanluong123/building-autolang-a-scripting-runtime-for-lightweight-ai-generated-code-h8j" rel="alternate"/>
+    <id>https://dev.to/hoanluong123/building-autolang-a-scripting-runtime-for-lightweight-ai-generated-code-h8j</id>
+    <updated>2026-08-08T16:03:55Z</updated>
+    <summary type="text">Building Autolang: A Scripting Runtime for Lightweight AI-Generated Code I have some projects but I don't have much money, so I often use Gemini Flash for UI tasks and some features. Gemini Flash is very fast and cheap, but sometimes it is surprisingly unreliable. It can hallucinate members or functions that don't exist, or use as any just to make everything look OK. This made me think about a pro</summary>
+    <author><name>Hoàn Lương</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -366,92 +454,5 @@
     <updated>2026-08-07T14:31:38Z</updated>
     <summary type="text">This week's developments suggest enterprise AI success increasingly depends on business processes, context, cost management and operational execution, not just model performance.</summary>
     <author><name>Liz Hughes</name></author>
-  </entry>
-  <entry>
-    <title>WeatherNext: DeepMind gana 24 horas de anticipación en huracanes</title>
-    <link href="https://dev.to/lu1tr0n/weathernext-deepmind-gana-24-horas-de-anticipacion-en-huracanes-30bp" rel="alternate"/>
-    <id>https://dev.to/lu1tr0n/weathernext-deepmind-gana-24-horas-de-anticipacion-en-huracanes-30bp</id>
-    <updated>2026-08-08T14:24:14Z</updated>
-    <summary type="text">TL;DR Google DeepMind publicó en Nature los resultados de WeatherNext, su modelo de IA para ciclones tropicales.- El pronóstico a 3 días de WeatherNext iguala la precisión que antes solo daban los modelos a 2 días.- WeatherNext anticipó la intensificación rápida del huracán Melissa (2025) y dio tiempo extra de aviso para Jamaica.- DeepMind libera el código de WeatherNext 2 y WeatherNext Cyclones p</summary>
-    <author><name>lu1tr0n</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How HSP GRUPPE builds AI capabilities for tax advisory</title>
-    <link href="https://openai.com/index/hsp-gruppe" rel="alternate"/>
-    <id>https://openai.com/index/hsp-gruppe</id>
-    <updated>2026-08-07T09:00:00Z</updated>
-    <summary type="text">Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>Building an Automated AWS Security Advisor: RAG with AWS Bedrock and OpenSearch Serverless</title>
-    <link href="https://dev.to/lingesh18/building-an-automated-aws-security-advisor-rag-with-aws-bedrock-and-opensearch-serverless-4emg" rel="alternate"/>
-    <id>https://dev.to/lingesh18/building-an-automated-aws-security-advisor-rag-with-aws-bedrock-and-opensearch-serverless-4emg</id>
-    <updated>2026-08-08T14:17:00Z</updated>
-    <summary type="text">Build an AWS security advisor chatbot powered by Retrieval-Augmented Generation (RAG) using AWS Bedrock Knowledge Bases. The system ingests official AWS security standard documentation, indexes it in a vector store, and answers natural language questions from developers with grounded, citation-backed responses. Check out the step by step tutorial</summary>
-    <author><name>Lingesh B</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Metabase Zero-Day Hits CVSS 10.0: Unauthenticated SQL Injection Gives Full Admin</title>
-    <link href="https://dev.to/etairos/metabase-zero-day-hits-cvss-100-unauthenticated-sql-injection-gives-full-admin-1fi9" rel="alternate"/>
-    <id>https://dev.to/etairos/metabase-zero-day-hits-cvss-100-unauthenticated-sql-injection-gives-full-admin-1fi9</id>
-    <updated>2026-08-08T14:05:31Z</updated>
-    <summary type="text">TL;DR what: Metabase disclosed that an unauthenticated SQL injection flaw in its BI platform was exploited in the wild as a zero-day, letting remote attackers write to the application database and grant themselves administrator access. Metabase is telling self-hosted customers to patch now. An unauthenticated attacker can inject arbitrary SQL into the Metabase application database and promote them</summary>
-    <author><name>Etairos.ai</name></author>
-  </entry>
-  <entry>
-    <title>Gen CEO on Earnings, New Cybersecurity Attack Tracker</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/gen-ceo-on-earnings-new-cybersecurity-attack-tracker-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/gen-ceo-on-earnings-new-cybersecurity-attack-tracker-video</id>
-    <updated>2026-08-07T20:17:50Z</updated>
-    <summary type="text">Gen Digital's shares are reaching their highest levels in nearly a year following an upward revision of its earnings forecast. Vincent Pilette, President and CEO of Gen Digital, expressed strong confidence in sustaining double-digit growth over the coming quarters, driven by increased demand for cybersecurity solutions amid growing concerns related to AI and agentic technologies. He speaks with Ro</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AI and the Rebound Effect</title>
-    <link href="https://dev.to/headzoo/ai-and-the-rebound-effect-40dh" rel="alternate"/>
-    <id>https://dev.to/headzoo/ai-and-the-rebound-effect-40dh</id>
-    <updated>2026-08-08T13:53:22Z</updated>
-    <summary type="text">Apparently AI was supposed to make developers work less. That was the idea, anyway. Write code faster. Automate the boring parts. Finish the same feature in half the time. Close the laptop at 2 p.m. and go become the kind of person who owns hiking shoes for reasons other than taking out the trash. That is not what happened. A lot of developers are working more with AI, not less. Not because AI is </summary>
-    <author><name>Sean H</name></author>
-  </entry>
-  <entry>
-    <title>Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.</title>
-    <link href="https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad" rel="alternate"/>
-    <id>https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad</id>
-    <updated>2026-08-08T13:53:18Z</updated>
-    <summary type="text">I spent a while optimizing what my AI agents cost to run. Cheap models for routine work. Better models when the task actually needed them. That made it practical to run several agents without sending every request to the most expensive model available. It worked. Then I hit the next bottleneck: trusting what came back. An agent can say a task is done, show passing tests, and leave a clean-looking </summary>
-    <author><name>Devansh</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Created a NestJS Delivery Dispatch Backend with Concurrency Control &amp; Dockerized Postgres</title>
-    <link href="https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec" rel="alternate"/>
-    <id>https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec</id>
-    <updated>2026-08-08T13:51:53Z</updated>
-    <summary type="text">I built this delivery dispatch service to practice and master core backend engineering fundamentals in NestJS. Instead of just building a basic CRUD API, I wanted to understand how real-world dispatch systems manage state transitions, handle route assignments, and keep data consistent under concurrent requests. The backend is engineered with NestJS, TypeORM, and PostgreSQL running inside Docker co</summary>
-    <author><name>Peace Melodi</name></author>
-  </entry>
-  <entry>
-    <title>umbral - declare your data in Rust, get migrations, an admin, and a REST API for free</title>
-    <link href="https://dev.to/dalmasonto/umbral-declare-your-data-in-rust-get-migrations-an-admin-and-a-rest-api-for-free-43oh" rel="alternate"/>
-    <id>https://dev.to/dalmasonto/umbral-declare-your-data-in-rust-get-migrations-an-admin-and-a-rest-api-for-free-43oh</id>
-    <updated>2026-08-08T13:51:38Z</updated>
-    <summary type="text">The reason Django, Rails, and Laravel made people productive was never the language. It was the deal they offered: declare your data once, and the framework hands you migrations, CRUD, an admin UI, and an API, without you writing any of that by hand. Rust has all the raw materials for that deal. tokio for the async runtime, axum for routing, sqlx for the database, sea-query for SQL, tower for midd</summary>
-    <author><name>Dalmas Ogembo</name></author>
-  </entry>
-  <entry>
-    <title>Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo</id>
-    <updated>2026-08-07T20:01:51Z</updated>
-    <summary type="text">It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song &quot;Rubberz.&quot; His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]</summary>
-    <author><name>Terrence O’Brien</name></author>
   </entry>
 </feed>
