@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-08T20:34:42Z</updated>
+  <updated>2026-08-08T21:34:30Z</updated>
+  <entry>
+    <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
+    <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
+    <updated>2026-08-08T20:54:49Z</updated>
+    <summary type="text">Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and Stanford University released Shepherd, an MIT-licensed Python runtime substrate t</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
@@ -146,6 +155,14 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Kubernetes Secrets Are Just Base64 Not Encryption. Here's What That Actually Means</title>
+    <link href="https://dev.to/pjanderson/kubernetes-secrets-are-just-base64-not-encryption-heres-what-that-actually-means-35hi" rel="alternate"/>
+    <id>https://dev.to/pjanderson/kubernetes-secrets-are-just-base64-not-encryption-heres-what-that-actually-means-35hi</id>
+    <updated>2026-08-08T20:55:31Z</updated>
+    <summary type="text">If you've run Kubernetes for more than a day, you've seen this: apiVersion: v1 kind: Secret metadata: name: db-credentials type: Opaque data: username: YWRtaW4= password: c3VwZXJzZWNyZXQ= And somewhere in the back of your mind you filed it under &quot;encrypted credentials.&quot; It isn't. Those values are Base64, and Base64 is encoding, not encryption. YWRtaW4= is just admin written in a different alphabet</summary>
+    <author><name>Peter Anderson</name></author>
+  </entry>
+  <entry>
     <title>NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class</title>
     <link href="https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/</id>
@@ -164,6 +181,24 @@
     <summary type="text">OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Claude Code Skill Never Fires — and It's Not the Skill's Fault</title>
+    <link href="https://dev.to/asfbar/your-claude-code-skill-never-fires-and-its-not-the-skills-fault-2mpg" rel="alternate"/>
+    <id>https://dev.to/asfbar/your-claude-code-skill-never-fires-and-its-not-the-skills-fault-2mpg</id>
+    <updated>2026-08-08T20:39:09Z</updated>
+    <summary type="text">I manage a dev team, and we've been running Claude Code daily for months. I built a set of custom skills for us — code review, a debugging protocol, our team conventions — and the biggest lesson I learned surprised me: The body of your skill barely matters if the description is wrong. The failure mode nobody warns you about Here's what happens to most developers who discover skills. They get excit</summary>
+    <author><name>assaf baruch</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Smashing the &quot;Blind Spot&quot; Bug: How We Integrated Sentry to Catch Regressions in Real-Time</title>
+    <link href="https://dev.to/nishikantaray/smashing-the-blind-spot-bug-how-we-integrated-sentry-to-catch-regressions-in-real-time-29m0" rel="alternate"/>
+    <id>https://dev.to/nishikantaray/smashing-the-blind-spot-bug-how-we-integrated-sentry-to-catch-regressions-in-real-time-29m0</id>
+    <updated>2026-08-08T20:38:12Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. The Challenge: Flying Blind in Production Pull Request - https://github.com/NishikantaRay/InsightTrack/commit/a70ca0a00c8cd169a93b300cfcb450b5ecbde7f8 Before this summer, our analytics platform, InsightTrack, had a fundamental flaw in how it handled observability. We were tracking standard JavaScript errors via a bas</summary>
+    <author><name>Nishikanta Ray</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>💀 The Most Dangerous Deletions Don't Break the Build. They Break the Deploy. An AI-Assisted Recovery Story 🤖</title>
@@ -419,41 +454,5 @@
     <updated>2026-08-08T18:11:31Z</updated>
     <summary type="text">This is Part 10 of my &quot;From One User to One Million&quot; series, where we'll build an understanding of System Design by following a simple application as it grows from a single user to millions. Instead of memorising technologies, we'll learn why they exist by solving real problems as they appear. In Part 9, we solved the problem of data that had grown too large for a single database. We split it acro</summary>
     <author><name>Aditya Sharma</name></author>
-  </entry>
-  <entry>
-    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
-    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/" rel="alternate"/>
-    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
-    <updated>2026-08-07T18:01:32Z</updated>
-    <summary type="text">AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The article AMD acquires Taalas, a startup that bakes AI models directly into silicon app</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology</title>
-    <link href="https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/</id>
-    <updated>2026-08-07T17:35:45Z</updated>
-    <summary type="text">Anthropic has cut false positives in its biology safety filters for Fable 5 by about 85 percent. Previously, nearly all biology-related queries got blocked and rerouted to the less capable Opus 5. The restrictions stay in place for sensitive dual-use topics like virology and toxicology. The article Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxico</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Teaching Your AI Web Design Some Actual Taste</title>
-    <link href="https://dev.to/lovestaco/teaching-your-ai-web-design-some-actual-taste-4p13" rel="alternate"/>
-    <id>https://dev.to/lovestaco/teaching-your-ai-web-design-some-actual-taste-4p13</id>
-    <updated>2026-08-08T17:30:42Z</updated>
-    <summary type="text">Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give it a try and share your feedback. Let me guess. You opened Claude Code, typed &quot;build me a modern landing page,&quot; hit enter, and got back something that technically works but somehow looks like every other s</summary>
-    <author><name>Athreya aka Maneshwar</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ninety Lines of Terraform, One Whole AWS Network</title>
-    <link href="https://dev.to/joseph_davis_ac8d4e74eced/ninety-lines-of-terraform-one-whole-aws-network-3489" rel="alternate"/>
-    <id>https://dev.to/joseph_davis_ac8d4e74eced/ninety-lines-of-terraform-one-whole-aws-network-3489</id>
-    <updated>2026-08-08T17:28:13Z</updated>
-    <summary type="text">How a single folder of config spins up a VPC, two subnets, a gateway, a firewall, and a running server — and the two small things that tripped me up. The AWS console and I have a complicated relationship. Every time I build a network by hand, I click through the same fifteen screens, forget one route table, and end up with a server that can't reach the internet for reasons I can't remember an hour</summary>
-    <author><name>Joseph Davis</name></author>
   </entry>
 </feed>
