@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T16:40:10Z</updated>
+  <updated>2026-08-09T17:35:28Z</updated>
   <entry>
     <title>Scammers are enrolling fake students at US community colleges and using AI to collect financial aid</title>
     <link href="https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/" rel="alternate"/>
@@ -145,6 +145,33 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>The Agent Stack Is Filling In. The Judgment Layer Is Still an Open Problem</title>
+    <link href="https://dev.to/kikashy/the-agent-stack-is-filling-in-the-judgment-layer-is-still-an-open-problem-40g2" rel="alternate"/>
+    <id>https://dev.to/kikashy/the-agent-stack-is-filling-in-the-judgment-layer-is-still-an-open-problem-40g2</id>
+    <updated>2026-08-09T17:29:57Z</updated>
+    <summary type="text">Over the last few days I have been looking at several developments around enterprise AI agents that initially seemed unrelated. Cloudflare open-sourced its internal agent workspace platform. Researchers published work on what happens when an agent authorizes an action using state that changes before execution. Enterprise AI leaders are starting to talk less about how many agents they can deploy an</summary>
+    <author><name>Brian Jin</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>A whiteboard that can't upload your drawing, because the browser won't let it</title>
+    <link href="https://dev.to/pop3_zxcv/a-whiteboard-that-cant-upload-your-drawing-because-the-browser-wont-let-it-302f" rel="alternate"/>
+    <id>https://dev.to/pop3_zxcv/a-whiteboard-that-cant-upload-your-drawing-because-the-browser-wont-let-it-302f</id>
+    <updated>2026-08-09T17:07:56Z</updated>
+    <summary type="text">I wanted to sketch a database schema last month and the first three whiteboards I opened asked me to sign in. So I wrote my own. While I was at it I decided the no-upload thing shouldn't be a line in a privacy policy, because you can't check a privacy policy. It's at board.jamuny.com. Below is what I hit building it. One CSP directive does most of the work The page ships with this header: Content-</summary>
+    <author><name>pop3zxcv</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Type Less, Discover More: Building Self-Contained Objects in Angular</title>
+    <link href="https://dev.to/the-modern-web/type-less-discover-more-building-self-contained-objects-in-angular-1gkf" rel="alternate"/>
+    <id>https://dev.to/the-modern-web/type-less-discover-more-building-self-contained-objects-in-angular-1gkf</id>
+    <updated>2026-08-09T17:06:09Z</updated>
+    <summary type="text">Building enterprise Angular applications often starts with the same pattern: fetching raw data objects from a REST API and storing them directly in application state. However, as applications grow, treating state as passive data containers causes business logic to bleed across components, pipes, and utility files. In this article, we’ll explore how to transform raw data into Smart Objects inside a</summary>
+    <author><name>mehdi</name></author>
+  </entry>
+  <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/</id>
@@ -153,6 +180,33 @@
     <author><name>Michal Sutter</name></author>
     <category term="hardware"/>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GTM engineering is a systems design job. Most people doing it are building the wrong system.</title>
+    <link href="https://dev.to/dovzhikova/gtm-engineering-is-a-systems-design-job-most-people-doing-it-are-building-the-wrong-system-368k" rel="alternate"/>
+    <id>https://dev.to/dovzhikova/gtm-engineering-is-a-systems-design-job-most-people-doing-it-are-building-the-wrong-system-368k</id>
+    <updated>2026-08-09T16:59:52Z</updated>
+    <summary type="text">Two years ago &quot;GTM engineer&quot; wasn't a job title. Now it's in every growth team's hiring plan. If you're a developer, you've probably seen it on your feed and wondered: real engineering job, or a marketer who learned Zapier? The honest answer: it's a systems design job. And the interesting part is what happens when the system's target is you. What the system actually is Strip the hype and a GTM eng</summary>
+    <author><name>Daria Dovzhikova</name></author>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Understanding and Solving the N+1 Problem in Spring Data JPA / Hibernate</title>
+    <link href="https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn" rel="alternate"/>
+    <id>https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn</id>
+    <updated>2026-08-09T16:52:01Z</updated>
+    <summary type="text">If you are working with ORM (Object-Relational Mapping) tools like Hibernate or Spring Data JPA, there is a high chance you will run into a common performance issue called the N+1 Problem. Whether you work with Java, Node.js (Prisma), Python (Django), or C# (.NET), this concept applies to almost every modern backend framework. 🧐 What is the N+1 Problem? The N+1 problem occurs when an ORM executes </summary>
+    <author><name>programming coyote</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>ChatGPT, Gemini and Perplexity do not recommend the same products. I measured it.</title>
+    <link href="https://dev.to/oguzhantusen/chatgpt-gemini-and-perplexity-do-not-recommend-the-same-products-i-measured-it-4g3g" rel="alternate"/>
+    <id>https://dev.to/oguzhantusen/chatgpt-gemini-and-perplexity-do-not-recommend-the-same-products-i-measured-it-4g3g</id>
+    <updated>2026-08-09T16:51:19Z</updated>
+    <summary type="text">Everyone talks about &quot;getting recommended by AI&quot; as if AI is one thing. It is not. I put the same 40 buying questions to ChatGPT, Gemini and Perplexity on the same day, read every answer, and counted which products each one named. The three do not agree, and the size of the disagreement surprised me. Here is what came back. Across the 39 questions where all three answered, they named 437 distinct </summary>
+    <author><name>Oğuzhan Tüsen</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -383,58 +437,6 @@
     <updated>2026-08-09T14:14:16Z</updated>
     <summary type="text">For the #ZeropsChallenge I built LeadPilot — an AI lead-automation CRM where every lead is scored, qualified, and given a drafted reply the instant it arrives. 🌐 Live: https://app-2d82.prg1.zerops.app 💻 Code: https://github.com/sharmachaitanya945/leadpilot 🎥 Demo: https://youtu.be/wTkfGXRmezk The idea Inbound leads pile up unqualified. LeadPilot fixes the triage: a lead hits the form → it's queued</summary>
     <author><name>Chaitanya Sharma</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Downstream started rate-limiting your Node BFF? Here's the retry layer that fixes it.</title>
-    <link href="https://dev.to/coderhu/downstream-started-rate-limiting-your-node-bff-heres-the-retry-layer-that-fixes-it-2oo6" rel="alternate"/>
-    <id>https://dev.to/coderhu/downstream-started-rate-limiting-your-node-bff-heres-the-retry-layer-that-fixes-it-2oo6</id>
-    <updated>2026-08-09T14:13:06Z</updated>
-    <summary type="text">Your Node BFF proxies to a downstream API — a payment provider, a recommendations service, a partner's data feed. One Tuesday the partner starts returning 429 and the occasional 503. Suddenly your users see errors, and the partner's status page lists you as their top traffic source. Something has to change on your side. Here's the outbound call most BFFs start with: import express from 'express'; </summary>
-    <author><name>Scott Hu</name></author>
-  </entry>
-  <entry>
-    <title>You've kept that axios instance for years — do you really need to rewrite it?</title>
-    <link href="https://dev.to/coderhu/youve-kept-that-axios-instance-for-years-do-you-really-need-to-rewrite-it-1bb0" rel="alternate"/>
-    <id>https://dev.to/coderhu/youve-kept-that-axios-instance-for-years-do-you-really-need-to-rewrite-it-1bb0</id>
-    <updated>2026-08-09T14:08:29Z</updated>
-    <summary type="text">You have an axios setup that works. Interceptors handle auth, a baseURL is set once, error handling lives in one place. Nobody wants to rewrite all of that to try a new library. Good news: you don't have to. alova can drive your existing axios instance — interceptors, baseURL, timeout, the lot — and add pagination, caching, retries, and request sharing on top. axios still sends the request. alova </summary>
-    <author><name>Scott Hu</name></author>
-  </entry>
-  <entry>
-    <title>Shrinking a materials database</title>
-    <link href="https://dev.to/silvern47/shrinking-a-materials-database-1g5i" rel="alternate"/>
-    <id>https://dev.to/silvern47/shrinking-a-materials-database-1g5i</id>
-    <updated>2026-08-09T14:08:23Z</updated>
-    <summary type="text">Shrinking datasets is quite contextual. It depends on how the dataset is going to be used. Its the same concept as optimizing databases, based on the read/write patterns. PACLEC and Traffic Patterns are the key determining factors. Hosted on fly.io : https://materials-db.fly.dev/ The need for this was not to integrate with another external API for retrieving information on different materials and </summary>
-    <author><name>Alex Day</name></author>
-  </entry>
-  <entry>
-    <title>On-Device AI and MCP on Every Port</title>
-    <link href="https://dev.to/codenameone/on-device-ai-and-mcp-on-every-port-9a2" rel="alternate"/>
-    <id>https://dev.to/codenameone/on-device-ai-and-mcp-on-every-port-9a2</id>
-    <updated>2026-08-09T13:43:42Z</updated>
-    <summary type="text">There are two very different ways to connect AI to an application. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com. One puts the model inside the feature: OCR a receipt, identify a language, segment a person, or run an application-owned model. The other lets a</summary>
-    <author><name>Shai Almog</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>What I learned building a long-lived AI agent (the boring version)</title>
-    <link href="https://dev.to/mansio/what-i-learned-building-a-long-lived-ai-agent-the-boring-version-32p8" rel="alternate"/>
-    <id>https://dev.to/mansio/what-i-learned-building-a-long-lived-ai-agent-the-boring-version-32p8</id>
-    <updated>2026-08-09T13:40:04Z</updated>
-    <summary type="text">Not a researcher. Not a professional dev. Civil engineering background. Started building an AI bot because I wanted to understand what's actually happening inside these systems — not theoretically, just practically. Wanted an assistant that could live with a conversation instead of treating every message as an isolated API call. It started as an experiment. Then the experiment grew. What it turned</summary>
-    <author><name>Mikhail</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>NEXUS AI - Claude Code Tutorial</title>
-    <link href="https://dev.to/sali_ac161a1b71406354896c/nexus-ai-claude-code-tutorial-19ml" rel="alternate"/>
-    <id>https://dev.to/sali_ac161a1b71406354896c/nexus-ai-claude-code-tutorial-19ml</id>
-    <updated>2026-08-09T13:30:56Z</updated>
-    <summary type="text">Most Claude Code tutorials stop at &quot;here's how to install it.&quot; That's like teaching someone to drive by showing them the ignition. This Claude Code tutorial goes further — you'll use it to build a real AI-powered app from scratch and deploy it to production, step by step. By the end you'll have a working document Q&amp;A API and a live deployment URL. The whole thing takes about an afternoon. What Cla</summary>
-    <author><name>Saif Ali</name></author>
-    <category term="tutorial"/>
     <category term="llm"/>
   </entry>
 </feed>
