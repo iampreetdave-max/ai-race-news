@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-08T23:33:27Z</updated>
+  <updated>2026-08-09T02:01:03Z</updated>
   <entry>
     <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
     <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/" rel="alternate"/>
@@ -62,6 +62,25 @@
     <summary type="text">Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time streaming to creating custom mark plugins and exporting publication-ready visuals. The post Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Render</summary>
     <author><name>Sana Hassan</name></author>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I measured his app with his own code. He measured my claim with his own corpus.</title>
+    <link href="https://dev.to/lizhuojunx86/i-measured-his-app-with-his-own-code-he-measured-my-claim-with-his-own-corpus-1l5m" rel="alternate"/>
+    <id>https://dev.to/lizhuojunx86/i-measured-his-app-with-his-own-code-he-measured-my-claim-with-his-own-corpus-1l5m</id>
+    <updated>2026-08-09T01:34:47Z</updated>
+    <summary type="text">This is part five of a series about pointing an append-only audit log at things that count tokens. Parts one through four found accounting defects in other people's trackers and one expensive hole in my own routing. This one is about what happens after the report lands, because this time the audit ran in both directions: the maintainer shipped the fix in three days, and his closing comment contain</summary>
+    <author><name>Li Zhuojun</name></author>
+    <category term="llm"/>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Quantified Self: Turn Your Massive Apple Health XML into a Lightning-Fast DuckDB Database</title>
+    <link href="https://dev.to/beck_moulton/quantified-self-turn-your-massive-apple-health-xml-into-a-lightning-fast-duckdb-database-o70" rel="alternate"/>
+    <id>https://dev.to/beck_moulton/quantified-self-turn-your-massive-apple-health-xml-into-a-lightning-fast-duckdb-database-o70</id>
+    <updated>2026-08-09T00:38:00Z</updated>
+    <summary type="text">If you've ever tried to export your Apple Health data, you've likely stared in horror at a massive, multi-gigabyte export.xml file. It’s a nested nightmare that crashes standard Excel sheets and makes pandas read_xml cry for mercy. As a data engineer, &quot;Learning in Public&quot; means tackling these messy real-world formats and turning them into something queryable. Today, we are building a high-performa</summary>
+    <author><name>Beck_Moulton</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents</title>
@@ -327,17 +346,6 @@
     <category term="open-source"/>
   </entry>
   <entry>
-    <title>Your AI agent's UI is mediocre—and here's how to fix it</title>
-    <link href="https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o" rel="alternate"/>
-    <id>https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o</id>
-    <updated>2026-08-08T03:20:33Z</updated>
-    <summary type="text">If you’ve been building with Claude or Cursor for the last year, you’ve noticed a pattern. The code comes out clean. The logic is sound. But the interfaces? They look like 2015-era Bootstrap clones. Everything has the same rounded corners, arbitrary shadows that don't communicate depth, and linear animations that feel robotic rather than organic. AI agents are incredible at generating functional H</summary>
-    <author><name>Renato Marinho</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
     <title>AI Code Reviewer: Never Ship Bugs Again</title>
     <link href="https://dev.to/amrendra_n_mishra/ai-code-reviewer-never-ship-bugs-again-57hc" rel="alternate"/>
     <id>https://dev.to/amrendra_n_mishra/ai-code-reviewer-never-ship-bugs-again-57hc</id>
@@ -454,15 +462,6 @@
     <summary type="text">Runbear MCP lets you create and refine a shared AI teammate from Claude Code, even when the workflow is not fully specified yet. Instead of filling every model, tool, trigger, schedule, and deployment field up front, you can start with the outcome, answer the missing questions as they appear, and review the agent before it enters Slack. Disclosure: We build Runbear. This guide describes the curren</summary>
     <author><name>Runbear Team</name></author>
     <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code: CLAUDE.md vs Projects vs Memory — Which Persists What?</title>
-    <link href="https://dev.to/stacknotice/claude-code-claudemd-vs-projects-vs-memory-which-persists-what-23d4" rel="alternate"/>
-    <id>https://dev.to/stacknotice/claude-code-claudemd-vs-projects-vs-memory-which-persists-what-23d4</id>
-    <updated>2026-08-07T11:32:03Z</updated>
-    <summary type="text">The most common frustration with Claude Code is re-explaining the same context at the start of every session. &quot;We use Drizzle, not Prisma.&quot; &quot;Don't use any in TypeScript.&quot; &quot;The auth is in /src/lib/auth.ts.&quot; Claude has three mechanisms for remembering across sessions. They solve different problems and are appropriate in different situations. Using the wrong one means either re-explaining constantly </summary>
-    <author><name>Carlos Oliva Pascual</name></author>
     <category term="llm"/>
   </entry>
 </feed>
