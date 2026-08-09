@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T20:37:18Z</updated>
+  <updated>2026-08-09T21:36:41Z</updated>
   <entry>
     <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/" rel="alternate"/>
@@ -144,6 +144,25 @@
     <author><name>Joel Khalili</name></author>
   </entry>
   <entry>
+    <title>Building a Production WhatsApp AI Agent: Architecture That Actually Works</title>
+    <link href="https://dev.to/alessandrobinda114/building-a-production-whatsapp-ai-agent-architecture-that-actually-works-2gfd" rel="alternate"/>
+    <id>https://dev.to/alessandrobinda114/building-a-production-whatsapp-ai-agent-architecture-that-actually-works-2gfd</id>
+    <updated>2026-08-09T21:09:19Z</updated>
+    <summary type="text">Everyone demos a WhatsApp chatbot. Few run one in production with real customers sending real messages 24/7. After 18 months of running SARA — an open-source WhatsApp AI agent serving businesses across 20 industries — here's what we learned about architecture that survives contact with reality. Why WhatsApp? The numbers are simple: 2B+ monthly active users 60% of SMB customers prefer messaging ove</summary>
+    <author><name>Alessandro Binda</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>We generated ~32,000 self-contained build prompts for Midnight (and learned the hard way)</title>
+    <link href="https://dev.to/socialprescribing/we-generated-32000-self-contained-build-prompts-for-midnight-and-learned-the-hard-way-2koa" rel="alternate"/>
+    <id>https://dev.to/socialprescribing/we-generated-32000-self-contained-build-prompts-for-midnight-and-learned-the-hard-way-2koa</id>
+    <updated>2026-08-09T21:01:09Z</updated>
+    <summary type="text">We generated ~32,000 self-contained build prompts for Midnight Midnight is a zero-knowledge L1: private state stays on the user's device, public state lands on chain, and the bridge between them is a circuit you write in a language called Compact. It's genuinely interesting technology. It also has one of the harshest first hours I've met in web3. Not because the concepts are hard. Because the envi</summary>
+    <author><name>Arun Nadarasa</name></author>
+  </entry>
+  <entry>
     <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
     <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
@@ -153,12 +172,45 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>How the IO-Link IODD checksum works</title>
+    <link href="https://dev.to/calumk/how-the-io-link-iodd-checksum-works-2jbp" rel="alternate"/>
+    <id>https://dev.to/calumk/how-the-io-link-iodd-checksum-works-2jbp</id>
+    <updated>2026-08-09T20:36:13Z</updated>
+    <summary type="text">Every IODD (IO Device Description) file carries a checksum near the end: &lt;Stamp crc=&quot;1462814215&quot;&gt; &lt;Checker name=&quot;IODD-Checker V1.1.1&quot; version=&quot;V1.1.1.0&quot;/&gt; &lt;/Stamp&gt; It is mandatory. Change one byte anywhere in the file and the stamp no longer matches, and the file will be rejected by engineering tools, by masters, and by the IODDfinder upload process. Despite the IO-Link ecosystem being nearly two </summary>
+    <author><name>Calum Knott</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Why Your Reusable Components Keep Breaking (And How to Fix Your API Design)</title>
+    <link href="https://dev.to/joemetry/why-your-reusable-components-keep-breaking-and-how-to-fix-your-api-design-3pld" rel="alternate"/>
+    <id>https://dev.to/joemetry/why-your-reusable-components-keep-breaking-and-how-to-fix-your-api-design-3pld</id>
+    <updated>2026-08-09T20:31:00Z</updated>
+    <summary type="text">Ever stared at a component library you built just three weeks ago, only to realize it's already suffocating under a mountain of boolean props like hasBadge, isCompact, and withIcon? I ran into this exact wall recently while refactoring a set of modular landing page cards for a mixed-media client project. What started as a clean, reusable UI module quickly devolved into a brittle spaghetti monster </summary>
+    <author><name>Joseph Salaki</name></author>
+  </entry>
+  <entry>
     <title>Async-First Doesn’t Mean Async-Only</title>
     <link href="https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm" rel="alternate"/>
     <id>https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm</id>
     <updated>2026-08-09T20:27:34Z</updated>
     <summary type="text">Key Takeaways Asynchronous discussions can lose momentum because participants are focused on different tasks. For complex or important topics, it’s often better to switch to synchronous communication. At least in my experience working in a Japanese-speaking organization, AI-generated messages are often still too verbose to send as-is. As writing becomes cheaper, it’s even more important to reduce </summary>
     <author><name>Tohru Yaginuma</name></author>
+  </entry>
+  <entry>
+    <title>Building LoanAI: AI-Powered Loan Default Prediction System using Flask &amp; Scikit-Learn</title>
+    <link href="https://dev.to/arisha_inayat_6067b93c39f/building-loanai-ai-powered-loan-default-prediction-system-using-flask-scikit-learn-3ahi" rel="alternate"/>
+    <id>https://dev.to/arisha_inayat_6067b93c39f/building-loanai-ai-powered-loan-default-prediction-system-using-flask-scikit-learn-3ahi</id>
+    <updated>2026-08-09T20:27:14Z</updated>
+    <summary type="text">Hi everyone! 👋 I recently developed LoanAI, a real-time credit risk assessment platform that predicts loan default probabilities using machine learning models. Key Features Instant Risk Scoring: Real-time credit risk assessment for loan applicants. Explainable AI: Transparent prediction logic for financial decision-making. Clean UI: Built with Flask, Bootstrap 5, and Python. Live Demo Check out th</summary>
+    <author><name>Arisha Inayat</name></author>
+  </entry>
+  <entry>
+    <title>Two free datasets that are easy to pull and easy to misread</title>
+    <link href="https://dev.to/scrapemint/two-free-datasets-that-are-easy-to-pull-and-easy-to-misread-4hpf" rel="alternate"/>
+    <id>https://dev.to/scrapemint/two-free-datasets-that-are-easy-to-pull-and-easy-to-misread-4hpf</id>
+    <updated>2026-08-09T20:24:20Z</updated>
+    <summary type="text">Some of the most useful public data needs no key, no account and no browser. You can get it with one HTTP call. The hard part was never fetching it. The hard part is knowing what the number actually means, because both of the datasets below are routinely quoted as something they are not. FINRA daily short volume FINRA publishes a plain text file every trading day listing, per symbol, how much of t</summary>
+    <author><name>Ken-Mutisya</name></author>
   </entry>
   <entry>
     <title>Swapping Across 25 Models With One Line</title>
@@ -176,6 +228,15 @@
     <updated>2026-08-09T20:10:00Z</updated>
     <summary type="text">When we hand off an LLM-powered feature to a client, they are putting it in front of their users. Some of those users will try to break it — not always maliciously, but because users probe things. Some of them will be malicious. Either way, the question we ask before every handoff is: what happens when someone sends this system something it wasn't designed to handle? This post is our pre-shipment </summary>
     <author><name>Lycore Development</name></author>
+  </entry>
+  <entry>
+    <title>The Hidden Architecture of AI: Do You Know What an LLM Harness Is?</title>
+    <link href="https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl" rel="alternate"/>
+    <id>https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl</id>
+    <updated>2026-08-09T20:07:54Z</updated>
+    <summary type="text">Yes, you heard that right! I am talking about LLM harnesses—the logical, security, and structural infrastructure that empowers a Large Language Model to deliver accurate and valuable responses to the user. Think of it as the &quot;dirty work&quot; happening behind the scenes. It involves complex prompt engineering, guardrails, retrieval-augmented generation (RAG) pipelines, output parsing, and safety filter</summary>
+    <author><name>pabli44</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Per-Branch AI Endpoints: Isolating Model Spend Across Prod, Preview, and CI</title>
@@ -377,70 +438,5 @@
     <updated>2026-08-09T18:00:14Z</updated>
     <summary type="text">Migrating from MongoDB Atlas to a self-hosted replica set bought us control and cut our bill. It also quietly removed something we had stopped thinking about: Atlas had been taking continuous backups for us the entire time. After the migration, production data for Prochesta lived in /var/db/mongo on a single VPS. No snapshots. No off-box copy. A rm -rf, a bad migration script, or a dead disk would</summary>
     <author><name>Takiuddin Ahmed</name></author>
-  </entry>
-  <entry>
-    <title>The Agent Stack Is Filling In. The Judgment Layer Is Still an Open Problem</title>
-    <link href="https://dev.to/kikashy/the-agent-stack-is-filling-in-the-judgment-layer-is-still-an-open-problem-40g2" rel="alternate"/>
-    <id>https://dev.to/kikashy/the-agent-stack-is-filling-in-the-judgment-layer-is-still-an-open-problem-40g2</id>
-    <updated>2026-08-09T17:29:57Z</updated>
-    <summary type="text">Over the last few days I have been looking at several developments around enterprise AI agents that initially seemed unrelated. Cloudflare open-sourced its internal agent workspace platform. Researchers published work on what happens when an agent authorizes an action using state that changes before execution. Enterprise AI leaders are starting to talk less about how many agents they can deploy an</summary>
-    <author><name>Brian Jin</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>A whiteboard that can't upload your drawing, because the browser won't let it</title>
-    <link href="https://dev.to/pop3_zxcv/a-whiteboard-that-cant-upload-your-drawing-because-the-browser-wont-let-it-302f" rel="alternate"/>
-    <id>https://dev.to/pop3_zxcv/a-whiteboard-that-cant-upload-your-drawing-because-the-browser-wont-let-it-302f</id>
-    <updated>2026-08-09T17:07:56Z</updated>
-    <summary type="text">I wanted to sketch a database schema last month and the first three whiteboards I opened asked me to sign in. So I wrote my own. While I was at it I decided the no-upload thing shouldn't be a line in a privacy policy, because you can't check a privacy policy. It's at board.jamuny.com. Below is what I hit building it. One CSP directive does most of the work The page ships with this header: Content-</summary>
-    <author><name>pop3zxcv</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Type Less, Discover More: Building Self-Contained Objects in Angular</title>
-    <link href="https://dev.to/the-modern-web/type-less-discover-more-building-self-contained-objects-in-angular-1gkf" rel="alternate"/>
-    <id>https://dev.to/the-modern-web/type-less-discover-more-building-self-contained-objects-in-angular-1gkf</id>
-    <updated>2026-08-09T17:06:09Z</updated>
-    <summary type="text">Building enterprise Angular applications often starts with the same pattern: fetching raw data objects from a REST API and storing them directly in application state. However, as applications grow, treating state as passive data containers causes business logic to bleed across components, pipes, and utility files. In this article, we’ll explore how to transform raw data into Smart Objects inside a</summary>
-    <author><name>mehdi</name></author>
-  </entry>
-  <entry>
-    <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
-    <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/</id>
-    <updated>2026-08-08T17:04:39Z</updated>
-    <summary type="text">Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every baseline in its comparison panel returns 0.0 beyond 2M, and leads BFCL v4 at 70.94 while placing second on Terminal-Bench 2.1. Prefill reaches 137,200 tokens/s at full context on a single B200, with decode</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="hardware"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GTM engineering is a systems design job. Most people doing it are building the wrong system.</title>
-    <link href="https://dev.to/dovzhikova/gtm-engineering-is-a-systems-design-job-most-people-doing-it-are-building-the-wrong-system-368k" rel="alternate"/>
-    <id>https://dev.to/dovzhikova/gtm-engineering-is-a-systems-design-job-most-people-doing-it-are-building-the-wrong-system-368k</id>
-    <updated>2026-08-09T16:59:52Z</updated>
-    <summary type="text">Two years ago &quot;GTM engineer&quot; wasn't a job title. Now it's in every growth team's hiring plan. If you're a developer, you've probably seen it on your feed and wondered: real engineering job, or a marketer who learned Zapier? The honest answer: it's a systems design job. And the interesting part is what happens when the system's target is you. What the system actually is Strip the hype and a GTM eng</summary>
-    <author><name>Daria Dovzhikova</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Understanding and Solving the N+1 Problem in Spring Data JPA / Hibernate</title>
-    <link href="https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn" rel="alternate"/>
-    <id>https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn</id>
-    <updated>2026-08-09T16:52:01Z</updated>
-    <summary type="text">If you are working with ORM (Object-Relational Mapping) tools like Hibernate or Spring Data JPA, there is a high chance you will run into a common performance issue called the N+1 Problem. Whether you work with Java, Node.js (Prisma), Python (Django), or C# (.NET), this concept applies to almost every modern backend framework. 🧐 What is the N+1 Problem? The N+1 problem occurs when an ORM executes </summary>
-    <author><name>programming coyote</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>ChatGPT, Gemini and Perplexity do not recommend the same products. I measured it.</title>
-    <link href="https://dev.to/oguzhantusen/chatgpt-gemini-and-perplexity-do-not-recommend-the-same-products-i-measured-it-4g3g" rel="alternate"/>
-    <id>https://dev.to/oguzhantusen/chatgpt-gemini-and-perplexity-do-not-recommend-the-same-products-i-measured-it-4g3g</id>
-    <updated>2026-08-09T16:51:19Z</updated>
-    <summary type="text">Everyone talks about &quot;getting recommended by AI&quot; as if AI is one thing. It is not. I put the same 40 buying questions to ChatGPT, Gemini and Perplexity on the same day, read every answer, and counted which products each one named. The three do not agree, and the size of the disagreement surprised me. Here is what came back. Across the 39 questions where all three answered, they named 437 distinct </summary>
-    <author><name>Oğuzhan Tüsen</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
