@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-09T12:58:22Z</updated>
+  <updated>2026-08-09T13:54:10Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -43,6 +43,32 @@
     <summary type="text">Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the most widely used AI coding tool, this means developers are shifting further from writing code to monitoring AI output. The article Anthropic s</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>NEXUS AI - Claude Code Tutorial</title>
+    <link href="https://dev.to/sali_ac161a1b71406354896c/nexus-ai-claude-code-tutorial-19ml" rel="alternate"/>
+    <id>https://dev.to/sali_ac161a1b71406354896c/nexus-ai-claude-code-tutorial-19ml</id>
+    <updated>2026-08-09T13:30:56Z</updated>
+    <summary type="text">Most Claude Code tutorials stop at &quot;here's how to install it.&quot; That's like teaching someone to drive by showing them the ignition. This Claude Code tutorial goes further — you'll use it to build a real AI-powered app from scratch and deploy it to production, step by step. By the end you'll have a working document Q&amp;A API and a live deployment URL. The whole thing takes about an afternoon. What Cla</summary>
+    <author><name>Saif Ali</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>🚀 Amazon EKS with MCP — AI-Powered Kubernetes Management on AWS</title>
+    <link href="https://dev.to/syed_kashifali_2a9fe52dd/amazon-eks-with-mcp-ai-powered-kubernetes-management-on-aws-130c" rel="alternate"/>
+    <id>https://dev.to/syed_kashifali_2a9fe52dd/amazon-eks-with-mcp-ai-powered-kubernetes-management-on-aws-130c</id>
+    <updated>2026-08-09T13:27:03Z</updated>
+    <summary type="text">🚀 Amazon EKS — Zero to Production Roadmap Architecture Core components: EKS Control Plane Managed Node Groups VPC Private/Public Subnets VPC CNI CoreDNS kube-proxy AWS Load Balancer Controller EBS CSI Driver IAM / EKS Access Entries Kubernetes RBAC Create EKS with Terraform Recommended structure: eks-project/ ├── main.tf ├── variables.tf ├── outputs.tf ├── providers.tf ├── terraform.tfvars └── mod</summary>
+    <author><name>Syed Kashif Ali</name></author>
+  </entry>
+  <entry>
+    <title>The &quot;Works on My Machine&quot; Syndrome (And How to Cure It)</title>
+    <link href="https://dev.to/mealiclay01/the-works-on-my-machine-syndrome-and-how-to-cure-it-44f7" rel="alternate"/>
+    <id>https://dev.to/mealiclay01/the-works-on-my-machine-syndrome-and-how-to-cure-it-44f7</id>
+    <updated>2026-08-09T13:20:40Z</updated>
+    <summary type="text">&quot;I don't understand, it literally works perfectly on my machine!&quot; Every developer has uttered this phrase. It usually happens right after a deployment brings down the staging environment, the QA team is angry, and you're sweating profusely trying to figure out why a TypeError is happening in the cloud when it ran flawlessly on your MacBook. The &quot;Works on My Machine&quot; syndrome is a symptom of Config</summary>
+    <author><name>Anas Rhimi</name></author>
   </entry>
   <entry>
     <title>AmaliTech Apprenticeship Program (AAP) (AAP)</title>
@@ -436,35 +462,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <summary type="text">Docker for Beginners: Images, Containers, Ports, and Volumes Explained If you've ever followed a programming tutorial and seen something like: docker run ... you've probably wondered: What exactly is Docker doing? I had the same question when I started learning Docker. At first, I thought Docker was simply a way to &quot;run applications in containers.&quot; But there is much more to it. Once I understood f</summary>
     <author><name>Chetan Inaganti</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot</title>
-    <link href="https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/</id>
-    <updated>2026-08-07T05:42:45Z</updated>
-    <summary type="text">Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates the tests it produces. On Microsoft's internal 152-task benchmark it completed </summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Your AI agent's UI is mediocre—and here's how to fix it</title>
-    <link href="https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o" rel="alternate"/>
-    <id>https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o</id>
-    <updated>2026-08-08T03:20:33Z</updated>
-    <summary type="text">If you’ve been building with Claude or Cursor for the last year, you’ve noticed a pattern. The code comes out clean. The logic is sound. But the interfaces? They look like 2015-era Bootstrap clones. Everything has the same rounded corners, arbitrary shadows that don't communicate depth, and linear animations that feel robotic rather than organic. AI agents are incredible at generating functional H</summary>
-    <author><name>Renato Marinho</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>AI Code Reviewer: Never Ship Bugs Again</title>
-    <link href="https://dev.to/amrendra_n_mishra/ai-code-reviewer-never-ship-bugs-again-57hc" rel="alternate"/>
-    <id>https://dev.to/amrendra_n_mishra/ai-code-reviewer-never-ship-bugs-again-57hc</id>
-    <updated>2026-08-08T02:52:20Z</updated>
-    <summary type="text">The Problem With Cloud AI Every token costs money. Every API call adds up. And your data goes to their servers. The Local Alternative brew install ollama ollama pull llama3.2 ollama serve Now you have a GPT-4 level model running on your MacBook. Free. Private. Fast. Real Code Example import requests def ask_local_ai(question): r = requests.post( &quot;http://localhost:11434/api/generate&quot;, json={&quot;model&quot;</summary>
-    <author><name>Amrendra N Mishra</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
