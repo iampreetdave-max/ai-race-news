@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T14:41:13Z</updated>
+  <updated>2026-08-09T15:36:03Z</updated>
   <entry>
     <title>Scammers are enrolling fake students at US community colleges and using AI to collect financial aid</title>
     <link href="https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/" rel="alternate"/>
@@ -148,12 +148,90 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I Built an AI Coat of Arms Maker for Custom Crests and Fantasy Emblems</title>
+    <link href="https://dev.to/edwardartist/i-built-an-ai-coat-of-arms-maker-for-custom-crests-and-fantasy-emblems-4i4d" rel="alternate"/>
+    <id>https://dev.to/edwardartist/i-built-an-ai-coat-of-arms-maker-for-custom-crests-and-fantasy-emblems-4i4d</id>
+    <updated>2026-08-09T15:29:06Z</updated>
+    <summary type="text">I’ve always liked the visual language of heraldry: shields, animals, symbols, colors, banners, and mottos that can tell a whole story in a single image. The problem is that creating a good coat of arms from scratch usually takes either design experience or a lot of time. So I built Coat of Arms Maker, an AI-powered tool that turns a plain-language description into an original heraldic design in se</summary>
+    <author><name>Edward Artist</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A 50-capability map for governed web crawling and AI agents</title>
+    <link href="https://dev.to/ajnasnb7717/a-50-capability-map-for-governed-web-crawling-and-ai-agents-2c6i" rel="alternate"/>
+    <id>https://dev.to/ajnasnb7717/a-50-capability-map-for-governed-web-crawling-and-ai-agents-2c6i</id>
+    <updated>2026-08-09T15:23:12Z</updated>
+    <summary type="text">Giving an agent “web access” sounds like one feature. In practice, it is a stack of separate decisions: How does the system discover URLs? Which destinations can it contact? Does it need a browser, or is static HTTP enough? What turns the response into agent-ready data? Where are request, byte, depth, and time limits enforced? What evidence comes back with the extracted content? Treating all of th</summary>
+    <author><name>Ajnas N B</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>When is it safe to open the microphone? Building a realtime voice agent on Twilio</title>
+    <link href="https://dev.to/petersoos/when-is-it-safe-to-open-the-microphone-building-a-realtime-voice-agent-on-twilio-3ddo" rel="alternate"/>
+    <id>https://dev.to/petersoos/when-is-it-safe-to-open-the-microphone-building-a-realtime-voice-agent-on-twilio-3ddo</id>
+    <updated>2026-08-09T15:15:30Z</updated>
+    <summary type="text">Wiring up a phone agent looks like a weekend project. Twilio Media Streams gives you a WebSocket with raw audio, you push it into a streaming STT, you feed the transcript to an LLM, you stream the reply into a TTS and send the bytes back. A few hundred lines. It works on the first call. Then you listen to a recording and the agent is talking to itself. Agent: &quot;Hello, how can I help you?&quot; STT: &quot;hel</summary>
+    <author><name>Péter Soós</name></author>
+  </entry>
+  <entry>
+    <title>Can a Cheap Model Beat a Frontier Model? Rebuilding Recursive Language Models with Codex</title>
+    <link href="https://dev.to/rickeshtn/can-a-cheap-model-beat-a-frontier-model-rebuilding-recursive-language-models-with-codex-2m45" rel="alternate"/>
+    <id>https://dev.to/rickeshtn/can-a-cheap-model-beat-a-frontier-model-rebuilding-recursive-language-models-with-codex-2m45</id>
+    <updated>2026-08-09T15:05:19Z</updated>
+    <summary type="text">Large language models have enormous context windows now. That does not mean they use all of that context reliably. As prompts grow, models can miss details, lose track of relationships, or produce plausible summaries instead of doing the exhaustive work a question requires. The Recursive Language Models (RLM) paper proposes a different interface: keep the large context outside the model, expose it</summary>
+    <author><name>Rickesh T N</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Thought Loading Data Was the Finish Line. It Was the Starting Point.</title>
+    <link href="https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/" rel="alternate"/>
+    <id>https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/</id>
+    <updated>2026-08-09T15:00:00Z</updated>
+    <summary type="text">Building my first dbt models and learning what “analysis-ready” data actually means The post I Thought Loading Data Was the Finish Line. It Was the Starting Point. appeared first on Towards Data Science.</summary>
+    <author><name>Ibrahim Salami</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</title>
     <link href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/" rel="alternate"/>
     <id>https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/</id>
     <updated>2026-08-08T14:58:57Z</updated>
     <summary type="text">Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the most widely used AI coding tool, this means developers are shifting further from writing code to monitoring AI output. The article Anthropic s</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From Visual Workflows to Native Code in Production: The Complete Journey of an n8n Backend That Couldn't Stop Evolving</title>
+    <link href="https://dev.to/rogeriomaciel/from-visual-workflows-to-native-code-in-production-the-complete-journey-of-an-n8n-backend-that-508j" rel="alternate"/>
+    <id>https://dev.to/rogeriomaciel/from-visual-workflows-to-native-code-in-production-the-complete-journey-of-an-n8n-backend-that-508j</id>
+    <updated>2026-08-09T14:54:01Z</updated>
+    <summary type="text">I'll tell this story in the order it happened. It doesn't start with a compiler. It starts with two n8n servers and a synchronization problem I had to solve before I could sleep peacefully. Act 1 — The problem nobody mentions when they recommend n8n CoreAutoCRM is an auto repair shop management SaaS operating entirely via WhatsApp. AI customer service, scheduling, quotes, yard management, intellig</summary>
+    <author><name>Rogério Maciel</name></author>
+  </entry>
+  <entry>
+    <title>[Boost]</title>
+    <link href="https://dev.to/minhlong2605/-2khc" rel="alternate"/>
+    <id>https://dev.to/minhlong2605/-2khc</id>
+    <updated>2026-08-09T14:51:35Z</updated>
+    <summary type="text">🏦 Vaya: an AI loan advisor that asks whether you can still afford to live Mike Mike Mike Follow Aug 9 🏦 Vaya: an AI loan advisor that asks whether you can still afford to live #showdev #webdev #ai #nextjs 7 reactions Add Comment 4 min read</summary>
+    <author><name>Mike</name></author>
+  </entry>
+  <entry>
+    <title>🏦 Vaya: an AI loan advisor that asks whether you can still afford to live</title>
+    <link href="https://dev.to/minhlong2605/vaya-an-ai-loan-advisor-that-asks-whether-you-can-still-afford-to-live-gkc" rel="alternate"/>
+    <id>https://dev.to/minhlong2605/vaya-an-ai-loan-advisor-that-asks-whether-you-can-still-afford-to-live-gkc</id>
+    <updated>2026-08-09T14:51:26Z</updated>
+    <summary type="text">Every loan comparison site asks the same question: which bank has the lowest rate? That question has almost nothing to do with whether the loan will ruin you. A 6.2% loan you can barely service is worse than a 6.8% one that leaves you room to breathe. A rate that resets after twelve promotional months is not a 6.2% loan at all. And none of the twenty banks whose products you are comparing has any </summary>
+    <author><name>Mike</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code skill allowed-tools: a one-turn grant, not a sandbox</title>
+    <link href="https://dev.to/rulestack/claude-code-skill-allowed-tools-a-one-turn-grant-not-a-sandbox-27p4" rel="alternate"/>
+    <id>https://dev.to/rulestack/claude-code-skill-allowed-tools-a-one-turn-grant-not-a-sandbox-27p4</id>
+    <updated>2026-08-09T14:49:21Z</updated>
+    <summary type="text">You add allowed-tools: Bash(git add *) Bash(git commit *) to a skill. You type /commit, and Claude stages and commits without asking. You send one more message, ask for another commit — and the permission prompt is back. Nothing broke. allowed-tools did exactly what it is specified to do. It is just narrower than the name suggests. The one-line version allowed-tools pre-approves the listed tools f</summary>
+    <author><name>Rulestack</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -359,83 +437,5 @@
     <updated>2026-08-09T12:42:12Z</updated>
     <summary type="text">I have a small script, reply_comments.py, that pulls unanswered comments off my DEV.to articles and drafts replies to a markdown file so I can paste them in by hand. The API doesn't let a normal account post comments (that's its own bug I've written about before), so this draft-then-paste loop is the whole workflow. Every reply I've ever sent has come from reading the body field this script prints</summary>
     <author><name>Enjoy Kumawat</name></author>
-  </entry>
-  <entry>
-    <title>Your AI Agent Stack Is Solving The Wrong Problem</title>
-    <link href="https://dev.to/harryfloyd/your-ai-agent-stack-is-solving-the-wrong-problem-2ni5" rel="alternate"/>
-    <id>https://dev.to/harryfloyd/your-ai-agent-stack-is-solving-the-wrong-problem-2ni5</id>
-    <updated>2026-08-09T12:42:10Z</updated>
-    <summary type="text">Your AI Agent Stack Is Solving The Wrong Problem The setup everyone is sharing Which MCP servers to install. Which skills to keep in your repo. Which agent framework to use. How to write your AGENTS.md. How to split one agent into researcher, planner, coder, and reviewer. How to wire Slack, GitHub, Notion, Postgres, Stripe, your calendar, and your file system into one increasingly capable loop. So</summary>
-    <author><name>Harry Floyd</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Three Hidden Bottlenecks the AI Buildout Has Already Moved Past GPUs</title>
-    <link href="https://dev.to/harryfloyd/three-hidden-bottlenecks-the-ai-buildout-has-already-moved-past-gpus-18c1" rel="alternate"/>
-    <id>https://dev.to/harryfloyd/three-hidden-bottlenecks-the-ai-buildout-has-already-moved-past-gpus-18c1</id>
-    <updated>2026-08-09T12:41:23Z</updated>
-    <summary type="text">Three Hidden Bottlenecks the AI Buildout Has Already Moved Past GPUs Bloom Energy reported Q1 2026 revenue of $751 million. That number was 130 percent higher than the prior year, 42 percent above consensus, and triggered a full-year guidance raise to $3.6 billion 1. Most of the post-earnings coverage read the print as a fuel cell company finally turning operationally profitable. The print is not </summary>
-    <author><name>Harry Floyd</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>The Safe Parts of Your Job Are the First to Go</title>
-    <link href="https://dev.to/harryfloyd/the-safe-parts-of-your-job-are-the-first-to-go-4l3e" rel="alternate"/>
-    <id>https://dev.to/harryfloyd/the-safe-parts-of-your-job-are-the-first-to-go-4l3e</id>
-    <updated>2026-08-09T12:40:18Z</updated>
-    <summary type="text">The Safe Parts of Your Job Are the First to Go A junior analyst spent two years getting good at building financial models. Last month she watched a colleague produce, in ninety seconds and a sentence of plain English, the kind of model that used to take her a careful afternoon. The output was not perfect. It was good enough to be frightening, and it raised the only question that matters: what part</summary>
-    <author><name>Harry Floyd</name></author>
-  </entry>
-  <entry>
-    <title>The Other Half of Compute</title>
-    <link href="https://dev.to/harryfloyd/the-other-half-of-compute-4eom" rel="alternate"/>
-    <id>https://dev.to/harryfloyd/the-other-half-of-compute-4eom</id>
-    <updated>2026-08-09T12:40:03Z</updated>
-    <summary type="text">The Other Half of Compute xAI stood up its first 100,000 GPUs in Memphis in 122 days. It doubled that in another 92. By early 2026 the site, Colossus, held around 555,000 of them, building toward two gigawatts of power, for a reported 18 billion dollars. 1 Two sophisticated people can look at that number and reach opposite conclusions. Jensen Huang’s view is that the only real risk is underspendin</summary>
-    <author><name>Harry Floyd</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Claude Code sessions can now talk to each other and share context across terminals</title>
-    <link href="https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/</id>
-    <updated>2026-08-08T12:28:36Z</updated>
-    <summary type="text">Claude Code now lets sessions talk to each other. On macOS and Linux, instances running in parallel can send messages, share insights, and check on each other's status. The article Claude Code sessions can now talk to each other and share context across terminals appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Backflip AI turns 3D scans into editable CAD models in minutes instead of hours</title>
-    <link href="https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/" rel="alternate"/>
-    <id>https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/</id>
-    <updated>2026-08-08T11:26:35Z</updated>
-    <summary type="text">Backflip AI has released an AI model that converts 3D scans into fully editable, parametric CAD models, a process that normally takes significant time and expertise. According to CEO Greg Mark, most factories have digital models for less than one percent of their parts. The startup, backed by $30 million in funding, offers its tool as an add-in for Autodesk Fusion. The article Backflip AI turns 3D</summary>
-    <author><name>Gregor Kobsik</name></author>
-  </entry>
-  <entry>
-    <title>I built a spend cap for LLM calls. It failed by 4.2x under parallel load.</title>
-    <link href="https://dev.to/burnix/i-built-a-spend-cap-for-llm-calls-it-failed-by-42x-under-parallel-load-2h0c" rel="alternate"/>
-    <id>https://dev.to/burnix/i-built-a-spend-cap-for-llm-calls-it-failed-by-42x-under-parallel-load-2h0c</id>
-    <updated>2026-08-09T11:20:51Z</updated>
-    <summary type="text">Provider spending limits don't stop anything. They're alerts wearing a brake's clothing. The documented cases from this year are ugly. A developer set a $250 cap and received a $10,138 bill overnight. An AWS customer with anomaly detection enabled was charged $30,141 for a single Bedrock inference run — no alert fired. FinOps teams reported burning an entire annual token budget four months into th</summary>
-    <author><name>pr3tik</name></author>
-  </entry>
-  <entry>
-    <title>Why Exact Transaction Matching Breaks on 1 Relationships</title>
-    <link href="https://dev.to/quickrecon/why-exact-transaction-matching-breaks-on-1-relationships-5eho" rel="alternate"/>
-    <id>https://dev.to/quickrecon/why-exact-transaction-matching-breaks-on-1-relationships-5eho</id>
-    <updated>2026-08-09T11:13:27Z</updated>
-    <summary type="text">Exact amount matching is a useful starting point for transaction reconciliation. But it makes an important assumption: One transaction on one side corresponds to one transaction on the other. That assumption breaks quickly in real-world reconciliation. Consider: Bank transaction: 14,200 Ledger: 5,000 5,200 4,000 The ledger transactions sum to the bank transaction: 5,000 + 5,200 + 4,000 = 14,200 Ye</summary>
-    <author><name>QuickRecon</name></author>
-  </entry>
-  <entry>
-    <title>Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI</title>
-    <link href="https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/" rel="alternate"/>
-    <id>https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/</id>
-    <updated>2026-08-08T11:08:48Z</updated>
-    <summary type="text">Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety research. The article Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="regulation"/>
   </entry>
 </feed>
