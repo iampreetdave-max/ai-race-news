@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T17:35:28Z</updated>
+  <updated>2026-08-09T18:46:44Z</updated>
   <entry>
     <title>Scammers are enrolling fake students at US community colleges and using AI to collect financial aid</title>
     <link href="https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/" rel="alternate"/>
@@ -143,6 +143,101 @@
     <summary type="text">Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and Stanford University released Shepherd, an MIT-licensed Python runtime substrate t</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Where Does Judgment End and Runtime Policy Begin?</title>
+    <link href="https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf" rel="alternate"/>
+    <id>https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf</id>
+    <updated>2026-08-09T18:24:35Z</updated>
+    <summary type="text">AWS introduced something this week that is close enough to the problem I have been working on that I do not think it should be casually labeled complementary. Amazon Bedrock AgentCore added temporal policies, along with an open-source policy language called Dogwood. Instead of asking only whether an individual tool invocation is allowed, the gateway can evaluate the sequence of actions that led to</summary>
+    <author><name>Brian Jin</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How I Protected My Express API from Spam and High AI Costs Using Redis</title>
+    <link href="https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c" rel="alternate"/>
+    <id>https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c</id>
+    <updated>2026-08-09T18:24:10Z</updated>
+    <summary type="text">When I was building my backend API, I realized a big problem: anyone could spam my endpoints. If a user repeatedly reloads a page or hits an endpoint calling an external AI service, it can crash the server or run up high API costs. To fix this, I added Rate Limiting. Here is why I used Redis for it and how I set it up. The Problem with Simple In-Memory Limiters At first, I thought about saving req</summary>
+    <author><name>Nikhil Singh</name></author>
+  </entry>
+  <entry>
+    <title>Cpynet a pastebin you talk to with curl, that forgets everything you send it</title>
+    <link href="https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6" rel="alternate"/>
+    <id>https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6</id>
+    <updated>2026-08-09T18:21:49Z</updated>
+    <summary type="text">A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two independent encryption layers, and a curl one-liner instead of a login form. I keep ending up in situations where I need to move a small piece of text — a log snippet, a password, a container's stdout — from one machine to another, and the clipboard just isn't there. SSH session on a remote box. A lock</summary>
+    <author><name>Emin Buyuk</name></author>
+  </entry>
+  <entry>
+    <title>Topic selected: Option A – Purely Technical: &quot;Building a Secure AI Proxy for Browser Tools</title>
+    <link href="https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc" rel="alternate"/>
+    <id>https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc</id>
+    <updated>2026-08-09T18:20:32Z</updated>
+    <summary type="text">This is the strongest choice. It teaches a tangible, highly demanded skill (API key security) with actual code, making the backlink to AfriWidget feel like a natural, neutral citation rather than a sales pitch. Here is the article, rewritten to be strictly technical, objective, and genuinely useful for dev.to readers. Stop Exposing Your AI API Keys: Build a Secure Proxy with Cloudflare Workers We </summary>
+    <author><name>Obed Avorlenu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Who Did This? Identity Across Async Boundaries</title>
+    <link href="https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n" rel="alternate"/>
+    <id>https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n</id>
+    <updated>2026-08-09T18:20:05Z</updated>
+    <summary type="text">You put a lot of work into authentication. A gateway validates the Keycloak JWT, maps realm roles to authorities, checks that the caller is allowed. By the time a request reaches your service, you know exactly who is calling. Then the request crosses into async land, and all of that evaporates. This is the story of the point where identity quietly disappears in an event-driven system, why the dead</summary>
+    <author><name>Ramesh Yara</name></author>
+  </entry>
+  <entry>
+    <title>Absorber les +50 % de l'API Claude sans couper une feature</title>
+    <link href="https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj" rel="alternate"/>
+    <id>https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj</id>
+    <updated>2026-08-09T18:13:52Z</updated>
+    <summary type="text">Le 1er septembre 2026, le tarif de lancement de Claude Sonnet 5 s'arrête. L'input passe de 2 $ à 3 $ le million de tokens, l'output de 10 $ à 15 $ : +50 % sur les deux lignes, pour tout le monde qui appelle l'API en paiement à l'usage. La panique par défaut, c'est de couper des fonctionnalités ou de rétrograder vers un modèle plus faible. Il y a mieux, et c'est déjà dans l'API. Deux mécanismes — l</summary>
+    <author><name>Olivier</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again.</title>
+    <link href="https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p" rel="alternate"/>
+    <id>https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p</id>
+    <updated>2026-08-09T18:12:48Z</updated>
+    <summary type="text">Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again. LAO Runtime Protection in action — real failures, self-repaired, permanently prevented, zero repeats. August 9, 2026 · by the ZWISERFIT engineering team AI agents fail silently. LAO makes failures visible and fixable. On August 8, 2026, our agent orchestration system — LAO — ran a full 24-hour cycle under autonomous gover</summary>
+    <author><name>Suzanne Mok</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Your Service Map Is Lying</title>
+    <link href="https://dev.to/ramesh-yara/your-service-map-is-lying-4g47" rel="alternate"/>
+    <id>https://dev.to/ramesh-yara/your-service-map-is-lying-4g47</id>
+    <updated>2026-08-09T18:10:22Z</updated>
+    <summary type="text">You attach the OpenTelemetry Java agent, point it at a collector, and within minutes Grafana is drawing a service map you never drew. A box for each service, arrows between them, latency on every edge. It feels like magic, and — more dangerously — it feels complete. &quot;The agent traces everything&quot; is the sentence repeated in every onboarding doc. This is the story of the moment that sentence stopped</summary>
+    <author><name>Ramesh Yara</name></author>
+  </entry>
+  <entry>
+    <title>Why a 24 GB GPU Does Not Give Your Local LLM 24 GB</title>
+    <link href="https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k" rel="alternate"/>
+    <id>https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k</id>
+    <updated>2026-08-09T18:07:01Z</updated>
+    <summary type="text">I keep seeing the same local LLM sizing mistake: &quot;The model file is smaller than my GPU, so it should fit.&quot; That is only the first check. A 24 GB GPU does not give your model a clean 24 GB memory budget. The display stack, runtime, temporary buffers, model weights, and KV cache all compete for the same space. Here is the worksheet I use before I download a model or rent a GPU. 1. Start with the we</summary>
+    <author><name>Deep Mehta</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Beyond the Black Box: Reclaiming Developer Agency in an Era of AI-Assisted Coding</title>
+    <link href="https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0</id>
+    <updated>2026-08-09T18:00:33Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The promise of AI-assisted coding is seductive: velocity, reduced boilerplate, and the elimination of context-switching fatigue. Tools like GitHub Copilot, Cursor, and various IDE plugins have transitioned from novelty to necessity in many modern codebases. However, a subtle but dangerous drift is occurring in our development practices. We are witnessing a shift </summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A backup you haven't restored isn't a backup</title>
+    <link href="https://dev.to/takiuddinahmed/a-backup-you-havent-restored-isnt-a-backup-4lj" rel="alternate"/>
+    <id>https://dev.to/takiuddinahmed/a-backup-you-havent-restored-isnt-a-backup-4lj</id>
+    <updated>2026-08-09T18:00:14Z</updated>
+    <summary type="text">Migrating from MongoDB Atlas to a self-hosted replica set bought us control and cut our bill. It also quietly removed something we had stopped thinking about: Atlas had been taking continuous backups for us the entire time. After the migration, production data for Prochesta lived in /var/db/mongo on a single VPS. No snapshots. No off-box copy. A rm -rf, a bad migration script, or a dead disk would</summary>
+    <author><name>Takiuddin Ahmed</name></author>
   </entry>
   <entry>
     <title>The Agent Stack Is Filling In. The Judgment Layer Is Still an Open Problem</title>
@@ -347,96 +442,5 @@
     <summary type="text">Building my first dbt models and learning what “analysis-ready” data actually means The post I Thought Loading Data Was the Finish Line. It Was the Starting Point. appeared first on Towards Data Science.</summary>
     <author><name>Ibrahim Salami</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</title>
-    <link href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/</id>
-    <updated>2026-08-08T14:58:57Z</updated>
-    <summary type="text">Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the most widely used AI coding tool, this means developers are shifting further from writing code to monitoring AI output. The article Anthropic s</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Visual Workflows to Native Code in Production: The Complete Journey of an n8n Backend That Couldn't Stop Evolving</title>
-    <link href="https://dev.to/rogeriomaciel/from-visual-workflows-to-native-code-in-production-the-complete-journey-of-an-n8n-backend-that-508j" rel="alternate"/>
-    <id>https://dev.to/rogeriomaciel/from-visual-workflows-to-native-code-in-production-the-complete-journey-of-an-n8n-backend-that-508j</id>
-    <updated>2026-08-09T14:54:01Z</updated>
-    <summary type="text">I'll tell this story in the order it happened. It doesn't start with a compiler. It starts with two n8n servers and a synchronization problem I had to solve before I could sleep peacefully. Act 1 — The problem nobody mentions when they recommend n8n CoreAutoCRM is an auto repair shop management SaaS operating entirely via WhatsApp. AI customer service, scheduling, quotes, yard management, intellig</summary>
-    <author><name>Rogério Maciel</name></author>
-  </entry>
-  <entry>
-    <title>[Boost]</title>
-    <link href="https://dev.to/minhlong2605/-2khc" rel="alternate"/>
-    <id>https://dev.to/minhlong2605/-2khc</id>
-    <updated>2026-08-09T14:51:35Z</updated>
-    <summary type="text">🏦 Vaya: an AI loan advisor that asks whether you can still afford to live Mike Mike Mike Follow Aug 9 🏦 Vaya: an AI loan advisor that asks whether you can still afford to live #showdev #webdev #ai #nextjs 7 reactions Add Comment 4 min read</summary>
-    <author><name>Mike</name></author>
-  </entry>
-  <entry>
-    <title>🏦 Vaya: an AI loan advisor that asks whether you can still afford to live</title>
-    <link href="https://dev.to/minhlong2605/vaya-an-ai-loan-advisor-that-asks-whether-you-can-still-afford-to-live-gkc" rel="alternate"/>
-    <id>https://dev.to/minhlong2605/vaya-an-ai-loan-advisor-that-asks-whether-you-can-still-afford-to-live-gkc</id>
-    <updated>2026-08-09T14:51:26Z</updated>
-    <summary type="text">Every loan comparison site asks the same question: which bank has the lowest rate? That question has almost nothing to do with whether the loan will ruin you. A 6.2% loan you can barely service is worse than a 6.8% one that leaves you room to breathe. A rate that resets after twelve promotional months is not a 6.2% loan at all. And none of the twenty banks whose products you are comparing has any </summary>
-    <author><name>Mike</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code skill allowed-tools: a one-turn grant, not a sandbox</title>
-    <link href="https://dev.to/rulestack/claude-code-skill-allowed-tools-a-one-turn-grant-not-a-sandbox-27p4" rel="alternate"/>
-    <id>https://dev.to/rulestack/claude-code-skill-allowed-tools-a-one-turn-grant-not-a-sandbox-27p4</id>
-    <updated>2026-08-09T14:49:21Z</updated>
-    <summary type="text">You add allowed-tools: Bash(git add *) Bash(git commit *) to a skill. You type /commit, and Claude stages and commits without asking. You send one more message, ask for another commit — and the permission prompt is back. Nothing broke. allowed-tools did exactly what it is specified to do. It is just narrower than the name suggests. The one-line version allowed-tools pre-approves the listed tools f</summary>
-    <author><name>Rulestack</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>5 LAN File Transfer Tools Compared: Up to 40x Faster Than Cloud, Two Don't Even Need Installation</title>
-    <link href="https://dev.to/cdragon123code/5-lan-file-transfer-tools-compared-up-to-40x-faster-than-cloud-two-dont-even-need-installation-31bh" rel="alternate"/>
-    <id>https://dev.to/cdragon123code/5-lan-file-transfer-tools-compared-up-to-40x-faster-than-cloud-two-dont-even-need-installation-31bh</id>
-    <updated>2026-08-09T14:34:08Z</updated>
-    <summary type="text">TL;DR: Transferring a 1GB file over your home Wi-Fi? Cloud-based messengers take ~3 minutes. LAN tools do it in under 5 seconds. This article synthesizes benchmarks from MakeUseOf, XDA Developers, DEV Community, and Speedyshare - plus five GitHub issue deep-dives - to give you one clear recommendation per use case. First, the Numbers Here's a fact you might not believe: on your home Wi-Fi, sending</summary>
-    <author><name>AICDragon</name></author>
-  </entry>
-  <entry>
-    <title>Where Does RAG Actually Cost You Money? (Episode 6)</title>
-    <link href="https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-6-4l4o" rel="alternate"/>
-    <id>https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-6-4l4o</id>
-    <updated>2026-08-09T14:29:18Z</updated>
-    <summary type="text">Why Fewer, Better-Chosen Chunks Beat a Bigger, More Expensive Model For a while, my retrieval setting was top_k = 10. It felt responsible. If I only pulled back 3 chunks and the right one wasn't among them, the answer would be wrong for a reason that had nothing to do with the model. Pulling back 10 felt like insurance — cast a wide net, let the LLM sort out what actually mattered. The bot's answe</summary>
-    <author><name>surajrkhonde</name></author>
-  </entry>
-  <entry>
-    <title>Three things the Lemon Squeezy API docs don't tell you about failed payments</title>
-    <link href="https://dev.to/hafid_boulaoutaq_a70aab58/three-things-the-lemon-squeezy-api-docs-dont-tell-you-about-failed-payments-40c1" rel="alternate"/>
-    <id>https://dev.to/hafid_boulaoutaq_a70aab58/three-things-the-lemon-squeezy-api-docs-dont-tell-you-about-failed-payments-40c1</id>
-    <updated>2026-08-09T14:23:25Z</updated>
-    <summary type="text">I spent two weeks building a dunning tool on top of the Lemon Squeezy API. Three of those days went to problems the documentation does not mention. Writing them down so the next person loses an afternoon instead. 1. The failed payment webhook does not carry a subscription id When subscription_payment_failed fires, the payload looks like a subscription object. It isn't. The type is subscription-inv</summary>
-    <author><name>Hafid Boulaoutaq</name></author>
-  </entry>
-  <entry>
-    <title>Why I Built a New NPM Package for Accurate Country, State, and District Data</title>
-    <link href="https://dev.to/abi_thanush_531624f2f0753/why-i-built-a-new-npm-package-for-accurate-country-state-and-district-data-41il" rel="alternate"/>
-    <id>https://dev.to/abi_thanush_531624f2f0753/why-i-built-a-new-npm-package-for-accurate-country-state-and-district-data-41il</id>
-    <updated>2026-08-09T14:19:39Z</updated>
-    <summary type="text">Geographic dropdowns (Country ➔ State ➔ District) are a standard feature in almost every web application. Most developers turn to popular libraries like country-state-city (which has over 15k stars) to get this data. However, while working on a recent project, I realized how inaccurate and bloated existing solutions are. The Problem: Sri Lanka Has 9 Provinces, Not 15+ In popular libraries, when yo</summary>
-    <author><name>Abi thanush</name></author>
-  </entry>
-  <entry>
-    <title>Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them</title>
-    <link href="https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/" rel="alternate"/>
-    <id>https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/</id>
-    <updated>2026-08-08T14:18:55Z</updated>
-    <summary type="text">People can't tell ChatGPT-generated short stories from human-written ones, according to a new study. More than 2,500 participants performed no better than chance. The AI-generated texts were actually rated higher, but scores dropped as soon as participants learned a machine wrote them. The article Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them </summary>
-    <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>I built an AI CRM where leads score themselves — 5 services on Zerops in 48h</title>
-    <link href="https://dev.to/sharmachaitanya945/i-built-an-ai-crm-where-leads-score-themselves-5-services-on-zerops-in-48h-ojd" rel="alternate"/>
-    <id>https://dev.to/sharmachaitanya945/i-built-an-ai-crm-where-leads-score-themselves-5-services-on-zerops-in-48h-ojd</id>
-    <updated>2026-08-09T14:14:16Z</updated>
-    <summary type="text">For the #ZeropsChallenge I built LeadPilot — an AI lead-automation CRM where every lead is scored, qualified, and given a drafted reply the instant it arrives. 🌐 Live: https://app-2d82.prg1.zerops.app 💻 Code: https://github.com/sharmachaitanya945/leadpilot 🎥 Demo: https://youtu.be/wTkfGXRmezk The idea Inbound leads pile up unqualified. LeadPilot fixes the triage: a lead hits the form → it's queued</summary>
-    <author><name>Chaitanya Sharma</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
