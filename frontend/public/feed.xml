@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T13:54:10Z</updated>
+  <updated>2026-08-09T14:41:13Z</updated>
   <entry>
     <title>Scammers are enrolling fake students at US community colleges and using AI to collect financial aid</title>
     <link href="https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/" rel="alternate"/>
@@ -58,6 +58,24 @@
     <summary type="text">Google Deepmind is losing its autonomy, and founder Demis Hassabis may leave the AI lab for good in the coming months. AI researcher Koray Kavukcuoglu will take over day-to-day operations without the CEO title, and all Gemini development is moving to the Bay Area. Internally, Google is apparently struggling with serious problems training frontier models, even as its cloud business generates billio</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The AI safety test is becoming a safety risk</title>
+    <link href="https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/</id>
+    <updated>2026-08-09T14:30:00Z</updated>
+    <summary type="text">AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.</summary>
+    <author><name>Rebecca Bellan</name></author>
+    <category term="regulation"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>This ‘adversarial’ pattern can prevent surveillance cameras from detecting you</title>
+    <link href="https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/</id>
+    <updated>2026-08-09T14:00:00Z</updated>
+    <summary type="text">A security researcher has designed an algorithm that can create computer-generated patterns capable of hiding people, faces, and vehicles from detection by surveillance cameras.</summary>
+    <author><name>Zack Whittaker</name></author>
   </entry>
   <entry>
     <title>IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning</title>
@@ -139,12 +157,77 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>5 LAN File Transfer Tools Compared: Up to 40x Faster Than Cloud, Two Don't Even Need Installation</title>
+    <link href="https://dev.to/cdragon123code/5-lan-file-transfer-tools-compared-up-to-40x-faster-than-cloud-two-dont-even-need-installation-31bh" rel="alternate"/>
+    <id>https://dev.to/cdragon123code/5-lan-file-transfer-tools-compared-up-to-40x-faster-than-cloud-two-dont-even-need-installation-31bh</id>
+    <updated>2026-08-09T14:34:08Z</updated>
+    <summary type="text">TL;DR: Transferring a 1GB file over your home Wi-Fi? Cloud-based messengers take ~3 minutes. LAN tools do it in under 5 seconds. This article synthesizes benchmarks from MakeUseOf, XDA Developers, DEV Community, and Speedyshare - plus five GitHub issue deep-dives - to give you one clear recommendation per use case. First, the Numbers Here's a fact you might not believe: on your home Wi-Fi, sending</summary>
+    <author><name>AICDragon</name></author>
+  </entry>
+  <entry>
+    <title>Where Does RAG Actually Cost You Money? (Episode 6)</title>
+    <link href="https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-6-4l4o" rel="alternate"/>
+    <id>https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-6-4l4o</id>
+    <updated>2026-08-09T14:29:18Z</updated>
+    <summary type="text">Why Fewer, Better-Chosen Chunks Beat a Bigger, More Expensive Model For a while, my retrieval setting was top_k = 10. It felt responsible. If I only pulled back 3 chunks and the right one wasn't among them, the answer would be wrong for a reason that had nothing to do with the model. Pulling back 10 felt like insurance — cast a wide net, let the LLM sort out what actually mattered. The bot's answe</summary>
+    <author><name>surajrkhonde</name></author>
+  </entry>
+  <entry>
+    <title>Three things the Lemon Squeezy API docs don't tell you about failed payments</title>
+    <link href="https://dev.to/hafid_boulaoutaq_a70aab58/three-things-the-lemon-squeezy-api-docs-dont-tell-you-about-failed-payments-40c1" rel="alternate"/>
+    <id>https://dev.to/hafid_boulaoutaq_a70aab58/three-things-the-lemon-squeezy-api-docs-dont-tell-you-about-failed-payments-40c1</id>
+    <updated>2026-08-09T14:23:25Z</updated>
+    <summary type="text">I spent two weeks building a dunning tool on top of the Lemon Squeezy API. Three of those days went to problems the documentation does not mention. Writing them down so the next person loses an afternoon instead. 1. The failed payment webhook does not carry a subscription id When subscription_payment_failed fires, the payload looks like a subscription object. It isn't. The type is subscription-inv</summary>
+    <author><name>Hafid Boulaoutaq</name></author>
+  </entry>
+  <entry>
+    <title>Why I Built a New NPM Package for Accurate Country, State, and District Data</title>
+    <link href="https://dev.to/abi_thanush_531624f2f0753/why-i-built-a-new-npm-package-for-accurate-country-state-and-district-data-41il" rel="alternate"/>
+    <id>https://dev.to/abi_thanush_531624f2f0753/why-i-built-a-new-npm-package-for-accurate-country-state-and-district-data-41il</id>
+    <updated>2026-08-09T14:19:39Z</updated>
+    <summary type="text">Geographic dropdowns (Country ➔ State ➔ District) are a standard feature in almost every web application. Most developers turn to popular libraries like country-state-city (which has over 15k stars) to get this data. However, while working on a recent project, I realized how inaccurate and bloated existing solutions are. The Problem: Sri Lanka Has 9 Provinces, Not 15+ In popular libraries, when yo</summary>
+    <author><name>Abi thanush</name></author>
+  </entry>
+  <entry>
     <title>Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them</title>
     <link href="https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/" rel="alternate"/>
     <id>https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/</id>
     <updated>2026-08-08T14:18:55Z</updated>
     <summary type="text">People can't tell ChatGPT-generated short stories from human-written ones, according to a new study. More than 2,500 participants performed no better than chance. The AI-generated texts were actually rated higher, but scores dropped as soon as participants learned a machine wrote them. The article Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them </summary>
     <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>I built an AI CRM where leads score themselves — 5 services on Zerops in 48h</title>
+    <link href="https://dev.to/sharmachaitanya945/i-built-an-ai-crm-where-leads-score-themselves-5-services-on-zerops-in-48h-ojd" rel="alternate"/>
+    <id>https://dev.to/sharmachaitanya945/i-built-an-ai-crm-where-leads-score-themselves-5-services-on-zerops-in-48h-ojd</id>
+    <updated>2026-08-09T14:14:16Z</updated>
+    <summary type="text">For the #ZeropsChallenge I built LeadPilot — an AI lead-automation CRM where every lead is scored, qualified, and given a drafted reply the instant it arrives. 🌐 Live: https://app-2d82.prg1.zerops.app 💻 Code: https://github.com/sharmachaitanya945/leadpilot 🎥 Demo: https://youtu.be/wTkfGXRmezk The idea Inbound leads pile up unqualified. LeadPilot fixes the triage: a lead hits the form → it's queued</summary>
+    <author><name>Chaitanya Sharma</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Downstream started rate-limiting your Node BFF? Here's the retry layer that fixes it.</title>
+    <link href="https://dev.to/coderhu/downstream-started-rate-limiting-your-node-bff-heres-the-retry-layer-that-fixes-it-2oo6" rel="alternate"/>
+    <id>https://dev.to/coderhu/downstream-started-rate-limiting-your-node-bff-heres-the-retry-layer-that-fixes-it-2oo6</id>
+    <updated>2026-08-09T14:13:06Z</updated>
+    <summary type="text">Your Node BFF proxies to a downstream API — a payment provider, a recommendations service, a partner's data feed. One Tuesday the partner starts returning 429 and the occasional 503. Suddenly your users see errors, and the partner's status page lists you as their top traffic source. Something has to change on your side. Here's the outbound call most BFFs start with: import express from 'express'; </summary>
+    <author><name>Scott Hu</name></author>
+  </entry>
+  <entry>
+    <title>You've kept that axios instance for years — do you really need to rewrite it?</title>
+    <link href="https://dev.to/coderhu/youve-kept-that-axios-instance-for-years-do-you-really-need-to-rewrite-it-1bb0" rel="alternate"/>
+    <id>https://dev.to/coderhu/youve-kept-that-axios-instance-for-years-do-you-really-need-to-rewrite-it-1bb0</id>
+    <updated>2026-08-09T14:08:29Z</updated>
+    <summary type="text">You have an axios setup that works. Interceptors handle auth, a baseURL is set once, error handling lives in one place. Nobody wants to rewrite all of that to try a new library. Good news: you don't have to. alova can drive your existing axios instance — interceptors, baseURL, timeout, the lot — and add pagination, caching, retries, and request sharing on top. axios still sends the request. alova </summary>
+    <author><name>Scott Hu</name></author>
+  </entry>
+  <entry>
+    <title>Shrinking a materials database</title>
+    <link href="https://dev.to/silvern47/shrinking-a-materials-database-1g5i" rel="alternate"/>
+    <id>https://dev.to/silvern47/shrinking-a-materials-database-1g5i</id>
+    <updated>2026-08-09T14:08:23Z</updated>
+    <summary type="text">Shrinking datasets is quite contextual. It depends on how the dataset is going to be used. Its the same concept as optimizing databases, based on the read/write patterns. PACLEC and Traffic Patterns are the key determining factors. Hosted on fly.io : https://materials-db.fly.dev/ The need for this was not to integrate with another external API for retrieving information on different materials and </summary>
+    <author><name>Alex Day</name></author>
   </entry>
   <entry>
     <title>On-Device AI and MCP on Every Port</title>
@@ -354,94 +437,5 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>I Built an IP Geo Phone Server — 5 Things I Actually Used</title>
-    <link href="https://dev.to/onizuka/i-built-an-ip-geo-phone-server-5-things-i-actually-used-2cn1" rel="alternate"/>
-    <id>https://dev.to/onizuka/i-built-an-ip-geo-phone-server-5-things-i-actually-used-2cn1</id>
-    <updated>2026-08-09T11:06:34Z</updated>
-    <summary type="text">I Built an IP Geo Phone Server — 5 Things I Actually Used python, #api, #sideprojects, #security The cheapest server I own isn't a Pi or a refurbished ThinkPad. It's a 2021 Samsung Galaxy A32 with a cracked screen, propped against a windowsill, sucking power from a 5W charger. That phone answers about 4,000 IP geolocation requests every day. My only cost is the trickle of electricity through the c</summary>
-    <author><name>Onizuka</name></author>
-  </entry>
-  <entry>
-    <title>Auto-Export Gemini Chats to Markdown &amp; Google Drive via GAS (Part 2)</title>
-    <link href="https://dev.to/maru0122/auto-export-gemini-chats-to-markdown-google-drive-via-gas-part-2-67l" rel="alternate"/>
-    <id>https://dev.to/maru0122/auto-export-gemini-chats-to-markdown-google-drive-via-gas-part-2-67l</id>
-    <updated>2026-08-09T11:05:10Z</updated>
-    <summary type="text">This article was originally published on e-shikumi-labo. Hello, I'm Shin from e-Shikumi-Labo. This is Part 2 of &quot;Systematized Thinking,&quot; where we use AI to build our own tools and independently maintain them. Last time, I talked about creating a Chrome extension that automatically saves Gemini chat logs to a spreadsheet. Data successfully started accumulating in the spreadsheet, and I was satisfie</summary>
-    <author><name>e-shikumi-labo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>IA para Autismo No Verbal: Crea tu Tablero CAA con ChatGPT</title>
-    <link href="https://dev.to/niklauss_quintero_1360ce7/ia-para-autismo-no-verbal-crea-tu-tablero-caa-con-chatgpt-o8a" rel="alternate"/>
-    <id>https://dev.to/niklauss_quintero_1360ce7/ia-para-autismo-no-verbal-crea-tu-tablero-caa-con-chatgpt-o8a</id>
-    <updated>2026-08-09T11:00:32Z</updated>
-    <summary type="text">Llevo años utilizando herramientas de comunicación aumentativa con mi hijo, que tiene autismo no verbal. Hemos probado de todo: desde apps comerciales carísimas hasta tableros de papel plastificados que se rompen a la semana. Pero hace unos meses descubrí algo que cambió nuestra rutina: usar ChatGPT y Claude para generar pictogramas personalizados y frases predictivas adaptadas a su día a día. Y n</summary>
-    <author><name>Niklauss Quintero</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>⚡ Stop Mocking Backends: Test Stateful REST &amp; GraphQL APIs Live in Your Browser (Playground API v4.0)</title>
-    <link href="https://dev.to/nileshcodehub/stop-mocking-backends-test-stateful-rest-graphql-apis-live-in-your-browser-playground-api-57pa" rel="alternate"/>
-    <id>https://dev.to/nileshcodehub/stop-mocking-backends-test-stateful-rest-graphql-apis-live-in-your-browser-playground-api-57pa</id>
-    <updated>2026-08-09T10:35:27Z</updated>
-    <summary type="text">When building frontend applications, testing mobile apps, or writing automated QA suites, developers constantly face a frustrating dilemma: Traditional mock APIs (like JSONPlaceholder) are easy to use, but they instantly discard your POST, PUT, and DELETE requests. The moment you refresh your React/Vue app, your newly created items disappear into thin air. Spinning up your own backend (Express/Nes</summary>
-    <author><name>Nilesh Kumar</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Closer look on DynamoDB vector search vs S3 Vectors</title>
-    <link href="https://dev.to/muash10/closer-look-on-dynamodb-vector-search-vs-s3-vectors-14db" rel="alternate"/>
-    <id>https://dev.to/muash10/closer-look-on-dynamodb-vector-search-vs-s3-vectors-14db</id>
-    <updated>2026-08-09T10:31:28Z</updated>
-    <summary type="text">few days ago, AWS announced availability of new feature for DynamoDB which is DynamoDB vector search DynamoDB now supports vector search. the new feature allows you to store vector embeddings alongside your data, this will allow you to run similarity search without the replication overhead of your data as mentioned by AWS its single digit millisecond latency adding to this there is no storage limi</summary>
-    <author><name>Muhammed Ashraf</name></author>
-    <category term="tutorial"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>The Hutter Prize measures intelligence better than any OpenAI benchmark</title>
-    <link href="https://dev.to/adioof/the-hutter-prize-measures-intelligence-better-than-any-openai-benchmark-g4n" rel="alternate"/>
-    <id>https://dev.to/adioof/the-hutter-prize-measures-intelligence-better-than-any-openai-benchmark-g4n</id>
-    <updated>2026-08-09T10:27:59Z</updated>
-    <summary type="text">Winning a leaderboard doesn't hold any value for me now. Every week, a new model surpasses an existing benchmark, but at the same time, I become less confident in those numbers. The contest nobody's gaming There is a contest that is 20 years old now, and it measures intelligence more honestly than any OpenAI eval The Hutter Prize is at stake. It has offered cash rewards for compressing a Wikipedia</summary>
-    <author><name>Aditya Agarwal</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Intelligence Is Cheap. Outcomes Are Not.</title>
-    <link href="https://dev.to/davidahmann/intelligence-is-cheap-outcomes-are-not-5ekc" rel="alternate"/>
-    <id>https://dev.to/davidahmann/intelligence-is-cheap-outcomes-are-not-5ekc</id>
-    <updated>2026-08-09T10:25:56Z</updated>
-    <summary type="text">The marginal cost of producing an answer is collapsing. The cost of being wrong in production is not. AI can generate more code, analysis, recommendations, and decisions than any institution can reasonably absorb. That abundance is real. So is the confusion it creates. More output is not more value. The AI industry counts tokens, model calls, benchmark scores, generated code, active users, and age</summary>
-    <author><name>David Ahmann</name></author>
-  </entry>
-  <entry>
-    <title>Claude Managed Agents Session Budget Checklist</title>
-    <link href="https://dev.to/ahab_indieseek/claude-managed-agents-session-budget-checklist-ge9" rel="alternate"/>
-    <id>https://dev.to/ahab_indieseek/claude-managed-agents-session-budget-checklist-ge9</id>
-    <updated>2026-08-09T10:21:28Z</updated>
-    <summary type="text">Claude Managed Agents session budgets: prove the hard stop before unattended runs Quick answer On August 7, 2026, Anthropic added hard per-session budgets to Claude Managed Agents. A budget is a US-dollar ceiling, written as whole cents, that the platform enforces against the session's public-list-price cost. When the cap is reached, the session pauses with the session-level stop reason budget_rea</summary>
-    <author><name>Ahab</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Think AI Coding Tools Need a Shared Framework</title>
-    <link href="https://dev.to/mohammadhprp/i-think-ai-coding-tools-need-a-shared-framework-50lf" rel="alternate"/>
-    <id>https://dev.to/mohammadhprp/i-think-ai-coding-tools-need-a-shared-framework-50lf</id>
-    <updated>2026-08-09T10:19:06Z</updated>
-    <summary type="text">I have been spending a lot of time using AI coding tools recently. They are surprisingly good at writing code, explaining unfamiliar parts of a project, and helping with repetitive work. But I kept running into a problem that was not really about the model. The problem was everything around the model. Where should the instructions live? How should I organize reusable workflows? How do I share the </summary>
-    <author><name>Mohammad</name></author>
-  </entry>
-  <entry>
-    <title>Animations in Next.js 15 with Framer Motion The Patterns I Actually Use</title>
-    <link href="https://dev.to/anas_sheikh_2/animations-in-nextjs-15-with-framer-motion-the-patterns-i-actually-use-lnk" rel="alternate"/>
-    <id>https://dev.to/anas_sheikh_2/animations-in-nextjs-15-with-framer-motion-the-patterns-i-actually-use-lnk</id>
-    <updated>2026-08-09T10:17:08Z</updated>
-    <summary type="text">Most animation advice online is either a flashy demo with a dozen effects stacked on top of each other, or nothing at all. What actually makes a dashboard or product feel polished is usually the opposite of flashy, small, consistent motion that makes state changes feel intentional instead of instant and jarring. Here are the patterns I actually reach for. 1. The Setup npm install framer-motion Eve</summary>
-    <author><name>Anas Sheikh</name></author>
   </entry>
 </feed>
