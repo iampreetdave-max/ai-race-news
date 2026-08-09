@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-09T22:35:33Z</updated>
+  <updated>2026-08-09T23:35:27Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -13,6 +13,26 @@
     <summary type="text">Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code Can't Draw — This Plugin Borrows Your Codex CLI Login</title>
+    <link href="https://dev.to/euk_ela_a3e7ed01aa3f7314e/claude-code-cant-draw-this-plugin-borrows-your-codex-cli-login-559c" rel="alternate"/>
+    <id>https://dev.to/euk_ela_a3e7ed01aa3f7314e/claude-code-cant-draw-this-plugin-borrows-your-codex-cli-login-559c</id>
+    <updated>2026-08-09T23:09:43Z</updated>
+    <summary type="text">TL;DR: &quot;Claude can't draw&quot; is a budget problem, not a capability problem. codex-bridge (MIT) is a Claude Code plugin that routes image generation (gpt-image-2) and five GPT-5 subagents through the Codex CLI login you already have — billing against your ChatGPT plan instead of a second API key. I have not tested or run it; this is a source-reading review. How it works. Two bash wrappers shell out t</summary>
+    <author><name>euk ela</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>From Threat Model to Framework: Closing the Real Gaps in Agent Skill Security</title>
+    <link href="https://dev.to/gde/from-threat-model-to-framework-closing-the-real-gaps-in-agent-skill-security-7m8" rel="alternate"/>
+    <id>https://dev.to/gde/from-threat-model-to-framework-closing-the-real-gaps-in-agent-skill-security-7m8</id>
+    <updated>2026-08-09T22:51:30Z</updated>
+    <summary type="text">A couple of weeks ago I wrote about the risk hiding inside AI Agent Skills, the small instruction folders that Claude, GitHub Copilot, and other agents now install like packages, and the fake malicious skill I built to prove that risk was real (full piece here if you want the background). That post was the problem statement, a threat model, and a proof of concept. This post is the framework. Since</summary>
+    <author><name>Karthigayan Devan</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -445,22 +465,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <summary type="text">TL;DR A slow memory leak took down one of my production services at 2am. I spent the first hour guessing and the next hour actually fixing it — once I stopped guessing and started using Claude Code to work through heap snapshots systematically. Here's what actually happened, and the 4 lessons I took away about using an AI coding agent for real production debugging instead of toy examples. The Prob</summary>
     <author><name>yureki_lab</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.</title>
-    <link href="https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad" rel="alternate"/>
-    <id>https://dev.to/devansh365/model-routing-made-my-ai-agents-cheaper-it-didnt-make-them-easier-to-trust-2oad</id>
-    <updated>2026-08-08T13:53:18Z</updated>
-    <summary type="text">I spent a while optimizing what my AI agents cost to run. Cheap models for routine work. Better models when the task actually needed them. That made it practical to run several agents without sending every request to the most expensive model available. It worked. Then I hit the next bottleneck: trusting what came back. An agent can say a task is done, show passing tests, and leave a clean-looking </summary>
-    <author><name>Devansh</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Created a NestJS Delivery Dispatch Backend with Concurrency Control &amp; Dockerized Postgres</title>
-    <link href="https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec" rel="alternate"/>
-    <id>https://dev.to/peacemelodi/i-created-a-nestjs-delivery-dispatch-backend-with-concurrency-control-dockerized-postgres-dec</id>
-    <updated>2026-08-08T13:51:53Z</updated>
-    <summary type="text">I built this delivery dispatch service to practice and master core backend engineering fundamentals in NestJS. Instead of just building a basic CRUD API, I wanted to understand how real-world dispatch systems manage state transitions, handle route assignments, and keep data consistent under concurrent requests. The backend is engineered with NestJS, TypeORM, and PostgreSQL running inside Docker co</summary>
-    <author><name>Peace Melodi</name></author>
   </entry>
 </feed>

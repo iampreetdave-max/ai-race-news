@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T22:35:33Z</updated>
+  <updated>2026-08-09T23:35:27Z</updated>
   <entry>
     <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/" rel="alternate"/>
@@ -144,12 +144,85 @@
     <author><name>Joel Khalili</name></author>
   </entry>
   <entry>
+    <title>Postgres Full-Text Search in Production: How to Load-Test the Index and Pin Down Relevance</title>
+    <link href="https://dev.to/libme/postgres-full-text-search-in-production-how-to-load-test-the-index-and-pin-down-relevance-282b" rel="alternate"/>
+    <id>https://dev.to/libme/postgres-full-text-search-in-production-how-to-load-test-the-index-and-pin-down-relevance-282b</id>
+    <updated>2026-08-09T23:21:45Z</updated>
+    <summary type="text">Adding full-text search to Postgres is a two-line migration. Running it in production without surprises is not. The GIN index that makes search fast also adds write amplification and a background cleanup process that can quietly fall behind under a heavy insert rate, and &quot;relevance&quot; that looked fine on your laptop can drift the day someone changes a dictionary. Before you decide Postgres search is</summary>
+    <author><name>Libme</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Claude Code Can't Draw — This Plugin Borrows Your Codex CLI Login</title>
+    <link href="https://dev.to/euk_ela_a3e7ed01aa3f7314e/claude-code-cant-draw-this-plugin-borrows-your-codex-cli-login-559c" rel="alternate"/>
+    <id>https://dev.to/euk_ela_a3e7ed01aa3f7314e/claude-code-cant-draw-this-plugin-borrows-your-codex-cli-login-559c</id>
+    <updated>2026-08-09T23:09:43Z</updated>
+    <summary type="text">TL;DR: &quot;Claude can't draw&quot; is a budget problem, not a capability problem. codex-bridge (MIT) is a Claude Code plugin that routes image generation (gpt-image-2) and five GPT-5 subagents through the Codex CLI login you already have — billing against your ChatGPT plan instead of a second API key. I have not tested or run it; this is a source-reading review. How it works. Two bash wrappers shell out t</summary>
+    <author><name>euk ela</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Architecting Battery-Efficient Geofencing for Android Automation</title>
+    <link href="https://dev.to/haseebthedev0/architecting-battery-efficient-geofencing-for-android-automation-55mo" rel="alternate"/>
+    <id>https://dev.to/haseebthedev0/architecting-battery-efficient-geofencing-for-android-automation-55mo</id>
+    <updated>2026-08-09T23:08:18Z</updated>
+    <summary type="text">It happened during a quiet afternoon at the community library. I was deep in a focused work session when my phone decided it was the perfect moment to blast a loud, jarring ringtone. Every head in the room turned toward me. The embarrassment was immediate and sharp. I had forgotten to silence my device after leaving a noisy cafe, and that one oversight destroyed my flow and disrupted everyone else</summary>
+    <author><name>Haseeb</name></author>
+  </entry>
+  <entry>
+    <title>Structured Context vs Pixel Context: What Coding Agents Actually Need</title>
+    <link href="https://dev.to/romantsisyk/structured-context-vs-pixel-context-what-coding-agents-actually-need-4fl8" rel="alternate"/>
+    <id>https://dev.to/romantsisyk/structured-context-vs-pixel-context-what-coding-agents-actually-need-4fl8</id>
+    <updated>2026-08-09T23:00:43Z</updated>
+    <summary type="text">Context is becoming the bottleneck in AI-assisted development. Not model capability — models are improving fast enough that they're regularly not the constraint. What limits the quality of AI-generated code is the quality of context those models receive. For Figma-to-code workflows, context comes in two fundamentally different forms: pixel context (screenshots, rendered images) and structured cont</summary>
+    <author><name>romantsisyk</name></author>
+  </entry>
+  <entry>
+    <title>From Threat Model to Framework: Closing the Real Gaps in Agent Skill Security</title>
+    <link href="https://dev.to/gde/from-threat-model-to-framework-closing-the-real-gaps-in-agent-skill-security-7m8" rel="alternate"/>
+    <id>https://dev.to/gde/from-threat-model-to-framework-closing-the-real-gaps-in-agent-skill-security-7m8</id>
+    <updated>2026-08-09T22:51:30Z</updated>
+    <summary type="text">A couple of weeks ago I wrote about the risk hiding inside AI Agent Skills, the small instruction folders that Claude, GitHub Copilot, and other agents now install like packages, and the fake malicious skill I built to prove that risk was real (full piece here if you want the background). That post was the problem statement, a threat model, and a proof of concept. This post is the framework. Since</summary>
+    <author><name>Karthigayan Devan</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Wired Up Fully-Automated Cross-Posting Between Blogger and dev.to (With Working Code)</title>
+    <link href="https://dev.to/just_a_side_project/how-i-wired-up-fully-automated-cross-posting-between-blogger-and-devto-with-working-code-41ak" rel="alternate"/>
+    <id>https://dev.to/just_a_side_project/how-i-wired-up-fully-automated-cross-posting-between-blogger-and-devto-with-working-code-41ak</id>
+    <updated>2026-08-09T22:41:31Z</updated>
+    <summary type="text">The last two posts on this blog went out through a pipeline I built specifically so I wouldn't have to manually copy-paste content between platforms. Here's the actual setup, in case you're trying to do the same thing. The goal One command, two platforms: publish to Blogger (where this blog actually lives) and have it show up on dev.to at the same time, without dev.to's copy counting against the o</summary>
+    <author><name>Just a Side Project</name></author>
+  </entry>
+  <entry>
+    <title>Pytest Built-in Fixtures</title>
+    <link href="https://dev.to/echen4628/pytest-built-in-fixtures-29h6" rel="alternate"/>
+    <id>https://dev.to/echen4628/pytest-built-in-fixtures-29h6</id>
+    <updated>2026-08-09T22:28:21Z</updated>
+    <summary type="text">As I've been onboarding to my new position, I've been reviewing some of my coworker's code. I learned that pytest 1) has some built-in fixtures, and 2) they are really useful! First, briefly, what are fixtures? When writing pytest tests, it's pretty frequent to write fixtures for reusability. They are used to set up tests. For example, a common fixture is: @pytest.fixture() def dataset_path(): ret</summary>
+    <author><name>Eric Chen</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
     <title>Why Pasting Figma Screenshots into Claude Fails (And What to Use Instead)</title>
     <link href="https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0" rel="alternate"/>
     <id>https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</id>
     <updated>2026-08-09T22:27:56Z</updated>
     <summary type="text">Here's the workflow that's become default in every design-to-code team right now: export a frame from Figma, paste the PNG into Claude or Cursor, type &quot;build this&quot;, and iterate on the hallucinated output. It works just well enough to feel productive. It doesn't work well enough to ship from. This isn't a model capability problem. It's an input problem. A screenshot is the worst possible representa</summary>
     <author><name>romantsisyk</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agentic AI and big data: what your platform needs before agents are useful</title>
+    <link href="https://dev.to/zephico/agentic-ai-and-big-data-what-your-platform-needs-before-agents-are-useful-4i01" rel="alternate"/>
+    <id>https://dev.to/zephico/agentic-ai-and-big-data-what-your-platform-needs-before-agents-are-useful-4i01</id>
+    <updated>2026-08-09T22:25:16Z</updated>
+    <summary type="text">The pitch for agentic AI on enterprise data is genuinely appealing: instead of a chatbot that answers one question at a time, you get something that plans, queries, checks its own work, calls a second tool, and comes back with a finished piece of analysis — or actually does the thing. Reconcile these two systems. Find out why yesterday's pipeline was late and open a ticket. Pull the accounts at ch</summary>
+    <author><name>Zephico Technologies</name></author>
+    <category term="agents"/>
+    <category term="data"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -367,74 +440,5 @@
     <summary type="text">Two weeks ago I had zero dollars, one gaming PC with an RTX 3060 Ti, and a stubborn idea: what if the cost of running a small, useful LLM-backed API could be close to zero, if you just... hosted the model yourself? Here's what I shipped, and the specific things that broke along the way — because the failures were more instructive than the plan. The idea A small API that turns plain English into wo</summary>
     <author><name>JoaoPauloNA</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Startup Infrastructure: $0 Oracle, $12 Groq, $40 BrightData — Real Costs</title>
-    <link href="https://dev.to/elenarevicheva/ai-startup-infrastructure-0-oracle-12-groq-40-brightdata-real-costs-4bn2" rel="alternate"/>
-    <id>https://dev.to/elenarevicheva/ai-startup-infrastructure-0-oracle-12-groq-40-brightdata-real-costs-4bn2</id>
-    <updated>2026-08-09T19:30:15Z</updated>
-    <summary type="text">Originally published on AIdeazz — cross-posted here with canonical link. My Oracle Cloud bill for the last 12 months has been $0.00. This isn't a marketing stunt, it's a hard number. We run 10 production AI agents, processing hundreds of thousands of requests monthly. Our Groq bill for the same period was $12.48. Claude API? $8.17. Resend for email notifications? $4.00. These are the visible costs</summary>
-    <author><name>Elena Revicheva</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The AI-native junior can't debug and we're pretending that's fine</title>
-    <link href="https://dev.to/adioof/the-ai-native-junior-cant-debug-and-were-pretending-thats-fine-4f8j" rel="alternate"/>
-    <id>https://dev.to/adioof/the-ai-native-junior-cant-debug-and-were-pretending-thats-fine-4f8j</id>
-    <updated>2026-08-09T19:27:08Z</updated>
-    <summary type="text">One of the recent graduates who is a part of our team was able to author a PR with 400 lines of code in just one afternoon. The changes were clean, all tests were passing and the PR was ready to be shipped. Then all of a sudden production had a memory leak. No dialog box, no autocompletion, just a graph going up and a very stressed junior. The thing nobody wants to say out loud A viral post on r/E</summary>
-    <author><name>Aditya Agarwal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ahrefs API Units: What 1,100 Calls Actually Cost</title>
-    <link href="https://dev.to/studiomeyer_io/ahrefs-api-units-what-1100-calls-actually-cost-2m35" rel="alternate"/>
-    <id>https://dev.to/studiomeyer_io/ahrefs-api-units-what-1100-calls-actually-cost-2m35</id>
-    <updated>2026-08-09T19:22:59Z</updated>
-    <summary type="text">On the last morning of my Ahrefs subscription I burned through 400,000 API units before lunch. That was deliberate, since the budget resets monthly and expires with it, so the choice was spend it or lose it. But it produced something I had not expected to find useful: a log of 1,102 calls across those final two days, with the exact unit cost of each one attached. Ahrefs documents the pricing model</summary>
-    <author><name>Matthias | StudioMeyer</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft SC-900: How I Replaced Memorization With Reasoning and Passed in Under a Month</title>
-    <link href="https://dev.to/camruthav/microsoft-sc-900-how-i-replaced-memorization-with-reasoning-and-passed-in-under-a-month-2ddp" rel="alternate"/>
-    <id>https://dev.to/camruthav/microsoft-sc-900-how-i-replaced-memorization-with-reasoning-and-passed-in-under-a-month-2ddp</id>
-    <updated>2026-08-09T19:22:51Z</updated>
-    <summary type="text">Category Details Certification Microsoft Certified: Security, Compliance, and Identity Fundamentals Exam SC-900 Date of exam July 30, 2026 Score 768/1000 Preparation time &lt;1 month of effective preparation Result Passed When I first started preparing for the Microsoft SC-900 certification, I had one thing going for me: I wasn't new to cybersecurity. I already had the ISC² Certified in Cybersecurity</summary>
-    <author><name>Amruthavalli Chivukula</name></author>
-  </entry>
-  <entry>
-    <title>Sunday roundup: six posts from a week in voice AI</title>
-    <link href="https://dev.to/lukeocodes/sunday-roundup-six-posts-from-a-week-in-voice-ai-a6n" rel="alternate"/>
-    <id>https://dev.to/lukeocodes/sunday-roundup-six-posts-from-a-week-in-voice-ai-a6n</id>
-    <updated>2026-08-09T19:13:01Z</updated>
-    <summary type="text">Six posts this week. My keyboard filed a noise complaint somewhere around post four. Here is what I wrote and what stuck with me. Monday: EU AI Act voice watermarking went live The synthetic audio watermarking rules took effect August 2. I wrote about what TTS builders actually need to do about it. Short version: if your API serves generated audio, you need a marking pipeline before anyone downstr</summary>
-    <author><name>@lukeocodes 🕹👨‍💻</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>You’re Using AI Wrong (And It’s Costing You More Than You Think)</title>
-    <link href="https://dev.to/mawani311/youre-using-ai-wrong-and-its-costing-you-more-than-you-think-3o39" rel="alternate"/>
-    <id>https://dev.to/mawani311/youre-using-ai-wrong-and-its-costing-you-more-than-you-think-3o39</id>
-    <updated>2026-08-09T19:12:50Z</updated>
-    <summary type="text">Authors: Muneer Shaik(@smdmuneer) &amp; Mukhtar Wani(@mawani311) You're Not Bad at Using AI. You're Just Using It Like Everyone Else. A year ago, I thought AI was a better search engine. I'd ask a question. Copy the answer. Move on. When the answer was wrong, I'd blame the AI. When the answer was generic, I'd blame the AI. When the generated code didn't work, I'd blame the AI. Eventually, I realized s</summary>
-    <author><name>Mukhtar Wani</name></author>
-  </entry>
-  <entry>
-    <title>Where Does Judgment End and Runtime Policy Begin?</title>
-    <link href="https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf" rel="alternate"/>
-    <id>https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf</id>
-    <updated>2026-08-09T18:24:35Z</updated>
-    <summary type="text">AWS introduced something this week that is close enough to the problem I have been working on that I do not think it should be casually labeled complementary. Amazon Bedrock AgentCore added temporal policies, along with an open-source policy language called Dogwood. Instead of asking only whether an individual tool invocation is allowed, the gateway can evaluate the sequence of actions that led to</summary>
-    <author><name>Brian Jin</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How I Protected My Express API from Spam and High AI Costs Using Redis</title>
-    <link href="https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c" rel="alternate"/>
-    <id>https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c</id>
-    <updated>2026-08-09T18:24:10Z</updated>
-    <summary type="text">When I was building my backend API, I realized a big problem: anyone could spam my endpoints. If a user repeatedly reloads a page or hits an endpoint calling an external AI service, it can crash the server or run up high API costs. To fix this, I added Rate Limiting. Here is why I used Redis for it and how I set it up. The Problem with Simple In-Memory Limiters At first, I thought about saving req</summary>
-    <author><name>Nikhil Singh</name></author>
   </entry>
 </feed>
