@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-09T15:36:03Z</updated>
+  <updated>2026-08-09T16:40:10Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -33,6 +33,41 @@
     <author><name>Michal Sutter</name></author>
     <category term="hardware"/>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The median MCP server costs 3,150 tokens before your agent calls anything</title>
+    <link href="https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3" rel="alternate"/>
+    <id>https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3</id>
+    <updated>2026-08-09T16:13:27Z</updated>
+    <summary type="text">Every MCP server you connect sends its full tool list to the model before the model does anything. You pay for that list on every single turn, whether the agent uses one of those tools or none of them. I had a rough sense this was expensive. I did not have a number. So I went and measured it. The method The MCP directory I maintain has about 10,500 servers with a remote HTTP endpoint. I took a ran</summary>
+    <author><name>Aman</name></author>
+  </entry>
+  <entry>
+    <title>I built a small one-time secret sharing app with AdonisJS 6</title>
+    <link href="https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj" rel="alternate"/>
+    <id>https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj</id>
+    <updated>2026-08-09T15:55:40Z</updated>
+    <summary type="text">Hi. I made a small open source project called OTI. It is a simple way to share a message or a small .txt file through a link that can be opened once. I started it to learn more about AdonisJS 6 and browser encryption. I also wanted to leave a small useful project for other developers. The message is encrypted in the browser. The server only stores encrypted data. The private key stays in the link.</summary>
+    <author><name>Oğuzhan KARACABAY</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Voice-to-code 100 % local : Whisper + Claude Code, zéro octet au cloud</title>
+    <link href="https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420" rel="alternate"/>
+    <id>https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420</id>
+    <updated>2026-08-09T15:55:38Z</updated>
+    <summary type="text">Coder à la voix avec ChatGPT, ça marche. Le hic tient en une ligne : chaque mot que tu dictes part chez OpenAI. Depuis le 23 juillet 2026, Codex se pilote à la voix — il ouvre une pull request, cherche l'origine d'un bug, tout ça dans une phrase. Pratique pour un side-project. Rédhibitoire quand le code appartient à un client. On voulait le même confort sans la fuite. Le résultat est un pipeline 1</summary>
+    <author><name>Olivier</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Trace Any TypeScript Agent Framework With Adapters</title>
+    <link href="https://dev.to/raju_dandigam/trace-any-typescript-agent-framework-with-adapters-3d7l" rel="alternate"/>
+    <id>https://dev.to/raju_dandigam/trace-any-typescript-agent-framework-with-adapters-3d7l</id>
+    <updated>2026-08-09T15:45:28Z</updated>
+    <summary type="text">TypeScript teams rarely standardize on one AI framework forever. One service may use Vercel AI SDK, another LangChain.js, another OpenAI Agents SDK, and a mature system may call provider clients directly. Those implementations expose different callback, telemetry, and streaming surfaces. Observability becomes expensive when every dashboard, test rule, and CI report understands each framework indep</summary>
+    <author><name>Raju Dandigam</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -424,44 +459,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <summary type="text">The posts on this site start as agent drafts that I edit. The drafts come with the awkward phrasing AI is known for. At first I fixed each case by hand, and the next post carried the same disease. I was fixing sentences, not habits. So I changed the setup. I no longer fix awkward sentences. I only flag them. The agent takes the flag, names the pattern, and stores it as a rule in a skill file. From</summary>
     <author><name>John Lee</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Asked One AI to Fact-Check Another AI's Audit of My Own Code</title>
-    <link href="https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3" rel="alternate"/>
-    <id>https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3</id>
-    <updated>2026-08-08T10:00:58Z</updated>
-    <summary type="text">I'm not a programmer. My background is construction engineering, and I got into programming almost by accident: I wanted to understand how Telegram bots worked, so I started stitching one together from pieces of code I found through Google and generated with AI. The result was a monolith I kept breaking — I didn't even know Python cared about indentation, and I genuinely didn't understand why the </summary>
-    <author><name>Mikhail</name></author>
-  </entry>
-  <entry>
-    <title>I Built an Agentic AI Stock Research Terminal with LangChain</title>
-    <link href="https://dev.to/neeraj_ciju/i-built-an-agentic-ai-stock-research-terminal-with-langchain-36p2" rel="alternate"/>
-    <id>https://dev.to/neeraj_ciju/i-built-an-agentic-ai-stock-research-terminal-with-langchain-36p2</id>
-    <updated>2026-08-08T09:01:54Z</updated>
-    <summary type="text">What if you could type a stock ticker and get more than just its current price? I wanted to build something that could combine real financial data, fundamental valuation, and recent market information into one place. So I built StockAny AI — an AI-powered equity research and valuation terminal. 👉 GitHub: https://github.com/iPrq/Stock-Market-Analyser The idea is simple: Enter a ticker → fetch finan</summary>
-    <author><name>Neeraj Ciju</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
-    <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/" rel="alternate"/>
-    <id>https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/</id>
-    <updated>2026-08-07T08:54:45Z</updated>
-    <summary type="text">Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Meta Muse Spark 1.2 Honest Review: Loses the Benchmarks, Wins as an Agent</title>
-    <link href="https://dev.to/aditi_gupta_8d81622a592aa/meta-muse-spark-12-honest-review-loses-the-benchmarks-wins-as-an-agent-1m8c" rel="alternate"/>
-    <id>https://dev.to/aditi_gupta_8d81622a592aa/meta-muse-spark-12-honest-review-loses-the-benchmarks-wins-as-an-agent-1m8c</id>
-    <updated>2026-08-08T08:49:34Z</updated>
-    <summary type="text">Meta just shipped two things at once: Muse Spark 1.2, the model, and Muse Code, an agentic harness that wraps around it. The interesting part is that they pull in opposite directions. On raw coding the model is a clear underdog. As an agent it is suddenly near the top. Here is what actually held up when I tested it. Prefer the quick version? I covered the benchmark split, the broken games, the har</summary>
-    <author><name>Aditi Gupta</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="data"/>
   </entry>
 </feed>
