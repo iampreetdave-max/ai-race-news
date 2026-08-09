@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T19:39:03Z</updated>
+  <updated>2026-08-09T20:37:18Z</updated>
   <entry>
     <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/" rel="alternate"/>
@@ -151,6 +151,85 @@
     <summary type="text">Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and Stanford University released Shepherd, an MIT-licensed Python runtime substrate t</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Async-First Doesn’t Mean Async-Only</title>
+    <link href="https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm" rel="alternate"/>
+    <id>https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm</id>
+    <updated>2026-08-09T20:27:34Z</updated>
+    <summary type="text">Key Takeaways Asynchronous discussions can lose momentum because participants are focused on different tasks. For complex or important topics, it’s often better to switch to synchronous communication. At least in my experience working in a Japanese-speaking organization, AI-generated messages are often still too verbose to send as-is. As writing becomes cheaper, it’s even more important to reduce </summary>
+    <author><name>Tohru Yaginuma</name></author>
+  </entry>
+  <entry>
+    <title>Swapping Across 25 Models With One Line</title>
+    <link href="https://dev.to/devopsdaily/swapping-across-25-models-with-one-line-3je8" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/swapping-across-25-models-with-one-line-3je8</id>
+    <updated>2026-08-09T20:13:14Z</updated>
+    <summary type="text">Picking a model usually feels like a decision you have to live with. You install that provider's SDK, wire in its key, learn its quirks, and the choice is baked into your code. Switching later is a small migration, so most teams pick one model and stick with it even when a cheaper or better one would suit a given task. Through an AI gateway, the model is just a string in the request. The gateway e</summary>
+    <author><name>DevOps Daily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What We Check Before Shipping an LLM Integration to a Client</title>
+    <link href="https://dev.to/lycore/what-we-check-before-shipping-an-llm-integration-to-a-client-39fl" rel="alternate"/>
+    <id>https://dev.to/lycore/what-we-check-before-shipping-an-llm-integration-to-a-client-39fl</id>
+    <updated>2026-08-09T20:10:00Z</updated>
+    <summary type="text">When we hand off an LLM-powered feature to a client, they are putting it in front of their users. Some of those users will try to break it — not always maliciously, but because users probe things. Some of them will be malicious. Either way, the question we ask before every handoff is: what happens when someone sends this system something it wasn't designed to handle? This post is our pre-shipment </summary>
+    <author><name>Lycore Development</name></author>
+  </entry>
+  <entry>
+    <title>Per-Branch AI Endpoints: Isolating Model Spend Across Prod, Preview, and CI</title>
+    <link href="https://dev.to/devopsdaily/per-branch-ai-endpoints-isolating-model-spend-across-prod-preview-and-ci-45bn" rel="alternate"/>
+    <id>https://dev.to/devopsdaily/per-branch-ai-endpoints-isolating-model-spend-across-prod-preview-and-ci-45bn</id>
+    <updated>2026-08-09T20:04:25Z</updated>
+    <summary type="text">AI spend is hard to see. In most setups the same gateway credential is used by production, every preview environment, CI, and whatever load test someone ran on Friday. All of that lands in one undifferentiated number. You cannot answer &quot;what did that preview cost,&quot; you cannot cap a specific environment, and you find out a CI job went into a retry loop against an expensive model when the monthly in</summary>
+    <author><name>DevOps Daily</name></author>
+  </entry>
+  <entry>
+    <title>Trending Azure Dev Tools &amp; Tutorials: August 2026 Edition</title>
+    <link href="https://dev.to/karleeov/trending-azure-dev-tools-tutorials-august-2026-edition-29jd" rel="alternate"/>
+    <id>https://dev.to/karleeov/trending-azure-dev-tools-tutorials-august-2026-edition-29jd</id>
+    <updated>2026-08-09T19:56:55Z</updated>
+    <summary type="text">1. .NET Aspire 9.2 + Azure Container Apps One-Click Deploy What is it? .NET Aspire 9.2 introduces seamless integration with Azure Container Apps through the azd up command. This allows developers to define and deploy distributed applications, including APIs, workers, and AI agents, using a single AppHost file. Why now? With the rise of AI-driven applications, deploying complex, distributed systems</summary>
+    <author><name>karleeov</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Designing sleep apps that people don't abandon after three nights</title>
+    <link href="https://dev.to/sleeptrace/designing-sleep-apps-that-people-dont-abandon-after-three-nights-27n1" rel="alternate"/>
+    <id>https://dev.to/sleeptrace/designing-sleep-apps-that-people-dont-abandon-after-three-nights-27n1</id>
+    <updated>2026-08-09T19:55:12Z</updated>
+    <summary type="text">Designing sleep apps that people don't abandon after three nights The sleep app category has one of the worst retention curves in consumer software. Most users delete a sleep tracker within a week. Not because the tech fails — because the app makes the user feel worse. A sleep tracker that gives you a terrible score every morning is a nightly punishment. When &quot;improve your sleep&quot; becomes a task on</summary>
+    <author><name>SleepTrace</name></author>
+  </entry>
+  <entry>
+    <title>Why Java Is a Great Choice for AI Development</title>
+    <link href="https://dev.to/deividas-strole/why-java-is-a-great-choice-for-ai-development-49fg" rel="alternate"/>
+    <id>https://dev.to/deividas-strole/why-java-is-a-great-choice-for-ai-development-49fg</id>
+    <updated>2026-08-09T19:54:41Z</updated>
+    <summary type="text">When people think about artificial intelligence, Python is usually the first language that comes to mind. It has an enormous AI and machine learning ecosystem is simple and easy to learn. But Python is not the only good choice. For production applications, especially enterprise systems, Java can be an excellent language for building AI-powered software. Modern Java applications can connect to larg</summary>
+    <author><name>Deividas Strole</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why your health app should never upload raw audio</title>
+    <link href="https://dev.to/sleeptrace/why-your-health-app-should-never-upload-raw-audio-nc7" rel="alternate"/>
+    <id>https://dev.to/sleeptrace/why-your-health-app-should-never-upload-raw-audio-nc7</id>
+    <updated>2026-08-09T19:54:28Z</updated>
+    <summary type="text">If you build a sleep, meditation, or &quot;smart home&quot; app that records audio, the most important architecture decision you will make has nothing to do with the ML model. It is whether raw audio ever leaves the device. Raw audio is your worst privacy liability. A ten-minute bedroom recording contains more about a person than their entire chat history. It reveals when they sleep, when they are sick, how</summary>
+    <author><name>SleepTrace</name></author>
+  </entry>
+  <entry>
+    <title>I bootstrapped an API business on a single RTX 3060, from literally zero budget</title>
+    <link href="https://dev.to/joaopaulona/i-bootstrapped-an-api-business-on-a-single-rtx-3060-from-literally-zero-budget-5gpe" rel="alternate"/>
+    <id>https://dev.to/joaopaulona/i-bootstrapped-an-api-business-on-a-single-rtx-3060-from-literally-zero-budget-5gpe</id>
+    <updated>2026-08-09T19:47:22Z</updated>
+    <summary type="text">Two weeks ago I had zero dollars, one gaming PC with an RTX 3060 Ti, and a stubborn idea: what if the cost of running a small, useful LLM-backed API could be close to zero, if you just... hosted the model yourself? Here's what I shipped, and the specific things that broke along the way — because the failures were more instructive than the plan. The idea A small API that turns plain English into wo</summary>
+    <author><name>JoaoPauloNA</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AI Startup Infrastructure: $0 Oracle, $12 Groq, $40 BrightData — Real Costs</title>
@@ -363,81 +442,5 @@
     <summary type="text">Everyone talks about &quot;getting recommended by AI&quot; as if AI is one thing. It is not. I put the same 40 buying questions to ChatGPT, Gemini and Perplexity on the same day, read every answer, and counted which products each one named. The three do not agree, and the size of the disagreement surprised me. Here is what came back. Across the 39 questions where all three answered, they named 437 distinct </summary>
     <author><name>Oğuzhan Tüsen</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Metaverse Failed. Augmented Reality Didn't.</title>
-    <link href="https://dev.to/sampseiol1/the-metaverse-failed-augmented-reality-didnt-58oc" rel="alternate"/>
-    <id>https://dev.to/sampseiol1/the-metaverse-failed-augmented-reality-didnt-58oc</id>
-    <updated>2026-08-09T16:27:02Z</updated>
-    <summary type="text">Why spatial computing might find its second act in science, education, and low-budget development For a stretch of 2021 and 2022, it looked like computing was about to move somewhere else entirely. Meta rebranded around the idea, Microsoft bet HoloLens and Mesh on it, and a wave of startups raised on the premise that avatars and virtual land were the next platform shift — on the scale of mobile af</summary>
-    <author><name>Lucas Matheus</name></author>
-  </entry>
-  <entry>
-    <title>The AI Price War Just Changed How I Architect Software, and Most Devs Haven't Noticed</title>
-    <link href="https://dev.to/sirbrian/the-ai-price-war-just-changed-how-i-architect-software-and-most-devs-havent-noticed-30b7" rel="alternate"/>
-    <id>https://dev.to/sirbrian/the-ai-price-war-just-changed-how-i-architect-software-and-most-devs-havent-noticed-30b7</id>
-    <updated>2026-08-09T16:21:00Z</updated>
-    <summary type="text">Everyone's watching the AI price war for the wrong reason. The headlines are about how cheap tokens got. The actual story is what cheap tokens do to how you should be architecting software right now. Here's what changed, and why it matters more than the price cut itself. Models aren't one thing anymore, they're tiers The major labs have quietly split their lineups into tiers. Cheap, fast models fo</summary>
-    <author><name>Sir. Brian</name></author>
-  </entry>
-  <entry>
-    <title>The median MCP server costs 3,150 tokens before your agent calls anything</title>
-    <link href="https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3" rel="alternate"/>
-    <id>https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3</id>
-    <updated>2026-08-09T16:13:27Z</updated>
-    <summary type="text">Every MCP server you connect sends its full tool list to the model before the model does anything. You pay for that list on every single turn, whether the agent uses one of those tools or none of them. I had a rough sense this was expensive. I did not have a number. So I went and measured it. The method The MCP directory I maintain has about 10,500 servers with a remote HTTP endpoint. I took a ran</summary>
-    <author><name>Aman</name></author>
-  </entry>
-  <entry>
-    <title>I built a small one-time secret sharing app with AdonisJS 6</title>
-    <link href="https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj" rel="alternate"/>
-    <id>https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj</id>
-    <updated>2026-08-09T15:55:40Z</updated>
-    <summary type="text">Hi. I made a small open source project called OTI. It is a simple way to share a message or a small .txt file through a link that can be opened once. I started it to learn more about AdonisJS 6 and browser encryption. I also wanted to leave a small useful project for other developers. The message is encrypted in the browser. The server only stores encrypted data. The private key stays in the link.</summary>
-    <author><name>Oğuzhan KARACABAY</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Voice-to-code 100 % local : Whisper + Claude Code, zéro octet au cloud</title>
-    <link href="https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420" rel="alternate"/>
-    <id>https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420</id>
-    <updated>2026-08-09T15:55:38Z</updated>
-    <summary type="text">Coder à la voix avec ChatGPT, ça marche. Le hic tient en une ligne : chaque mot que tu dictes part chez OpenAI. Depuis le 23 juillet 2026, Codex se pilote à la voix — il ouvre une pull request, cherche l'origine d'un bug, tout ça dans une phrase. Pratique pour un side-project. Rédhibitoire quand le code appartient à un client. On voulait le même confort sans la fuite. Le résultat est un pipeline 1</summary>
-    <author><name>Olivier</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Best-of-N is prepaid retries: the cost math of racing parallel attempts</title>
-    <link href="https://dev.to/loopandretry/best-of-n-is-prepaid-retries-the-cost-math-of-racing-parallel-attempts-2h9i" rel="alternate"/>
-    <id>https://dev.to/loopandretry/best-of-n-is-prepaid-retries-the-cost-math-of-racing-parallel-attempts-2h9i</id>
-    <updated>2026-08-09T15:50:44Z</updated>
-    <summary type="text">Originally published on Loop &amp; Retry — field notes on building LLM agents that survive production. Here's the pitch for best-of-N: instead of trying once and retrying on failure, fire off N attempts at the same task simultaneously and keep whichever one finishes first (or scores highest). You've turned a serial wait into a parallel one, so your tail latency drops — no more waiting through however </summary>
-    <author><name>Walker Miller</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI’s Plan Puts Affordable, Accountable AI Access at the Center of Its Strategy</title>
-    <link href="https://dev.to/alifar/openais-plan-puts-affordable-accountable-ai-access-at-the-center-of-its-strategy-5023" rel="alternate"/>
-    <id>https://dev.to/alifar/openais-plan-puts-affordable-accountable-ai-access-at-the-center-of-its-strategy-5023</id>
-    <updated>2026-08-09T15:45:30Z</updated>
-    <summary type="text">OpenAI has set out a multi-year strategy that places broad access to AI alongside safety and governance, rather than treating access as a downstream result of technical progress. In its June 8, 2026 plan, the company says it wants AI to be abundant, affordable, safe, useful, and easy to use across individuals, businesses, and governments. The significance is not a newly announced model or price ch</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Trace Any TypeScript Agent Framework With Adapters</title>
-    <link href="https://dev.to/raju_dandigam/trace-any-typescript-agent-framework-with-adapters-3d7l" rel="alternate"/>
-    <id>https://dev.to/raju_dandigam/trace-any-typescript-agent-framework-with-adapters-3d7l</id>
-    <updated>2026-08-09T15:45:28Z</updated>
-    <summary type="text">TypeScript teams rarely standardize on one AI framework forever. One service may use Vercel AI SDK, another LangChain.js, another OpenAI Agents SDK, and a mature system may call provider clients directly. Those implementations expose different callback, telemetry, and streaming surfaces. Observability becomes expensive when every dashboard, test rule, and CI report understands each framework indep</summary>
-    <author><name>Raju Dandigam</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Episode 3: Setting Up a Managed PostgreSQL Database on Azure &amp; Connecting Your Express API</title>
-    <link href="https://dev.to/khuzaima_khalid_f3aae24da/episode-3-setting-up-a-managed-postgresql-database-on-azure-connecting-your-express-api-1caj" rel="alternate"/>
-    <id>https://dev.to/khuzaima_khalid_f3aae24da/episode-3-setting-up-a-managed-postgresql-database-on-azure-connecting-your-express-api-1caj</id>
-    <updated>2026-08-09T15:45:24Z</updated>
-    <summary type="text">In Episode 1, we hosted an Express API on Azure App Service, and in Episode 2, we deployed a React frontend to Azure Static Web Apps. Now, we will connect our full-stack application to a managed, production-ready relational database: Azure Database for PostgreSQL Flexible Server. In this guide, we will provision a PostgreSQL instance, configure its firewall rules, secure connection credentials usi</summary>
-    <author><name>Khuzaima Khalid</name></author>
   </entry>
 </feed>
