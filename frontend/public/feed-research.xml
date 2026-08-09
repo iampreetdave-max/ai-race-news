@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-09T08:48:47Z</updated>
+  <updated>2026-08-09T09:44:14Z</updated>
+  <entry>
+    <title>DeepSeek's Flash outpaced its own flagship. The upgrade was post-training, not parameters.</title>
+    <link href="https://dev.to/thegatewayguy/deepseeks-flash-outpaced-its-own-flagship-the-upgrade-was-post-training-not-parameters-333o" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/deepseeks-flash-outpaced-its-own-flagship-the-upgrade-was-post-training-not-parameters-333o</id>
+    <updated>2026-08-09T09:33:59Z</updated>
+    <summary type="text">DeepSeek shipped V4-Flash-0731 last week — same 284B parameter architecture as the preview, same 13B activated parameters per token, MIT licensed, open weights on HuggingFace. No architecture changes. No bigger model. It now outperforms V4-Pro-Preview on several agent benchmarks. &quot;We've massively upgraded its Agent capabilities — benchmark scores are now far surpassing the V4-Pro-Preview.&quot; That's </summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Hardware Backdoors in x86 CPUs: The 2026 Hacker News Wake-Up Call</title>
     <link href="https://dev.to/kaixintelligence/hardware-backdoors-in-x86-cpus-the-2026-hacker-news-wake-up-call-3edj" rel="alternate"/>
@@ -21,25 +32,6 @@
     <updated>2026-08-07T23:29:49Z</updated>
     <summary type="text">All three take preference data and produce a model that behaves more like the preferred half. They differ in how much machinery stands between the preference and the gradient, and that difference is the entire practical decision. The comparison, up front Method Description PPO Four models resident: policy (trained), reference (frozen), reward (frozen), value (trained). Requires generating samples </summary>
     <author><name>Multigrid</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN</title>
-    <link href="https://arxiv.org/abs/2608.06275v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.06275v1</id>
-    <updated>2026-08-06T17:03:05Z</updated>
-    <summary type="text">Oral health issues affect billions globally, but the cost and limited access to professional dental care hinder preventive oral healthcare. Research relies on clinical-grade radiographs or intraoral camera images, unavailable for public self-screening. This study introduces a tooth localisation and numbering model for smartphone photographs. We developed a customised Mask Region-based Convolutiona</summary>
-    <author><name>Jaakko Suutala</name></author>
-    <category term="research"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>MASS: Multiplayer World Models with Authoritative Shared State</title>
-    <link href="https://arxiv.org/abs/2608.06257v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.06257v1</id>
-    <updated>2026-08-06T16:47:24Z</updated>
-    <summary type="text">Current video world models struggle in multiplayer environments because they entangle world state with view-dependent visual latents, leading to redundant compute, view inconsistencies, and poor scalability. We propose MAS (Multiplayer world models with Authoritative Shared State) to resolve this limitation. Inspired by multiplayer game architectures, MAS disentangles world dynamics and view rende</summary>
-    <author><name>Boxin Shi</name></author>
     <category term="research"/>
   </entry>
 </feed>
