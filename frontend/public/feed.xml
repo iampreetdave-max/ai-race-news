@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T21:36:41Z</updated>
+  <updated>2026-08-09T22:35:33Z</updated>
   <entry>
     <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/" rel="alternate"/>
@@ -142,6 +142,82 @@
     <updated>2026-08-09T09:30:00Z</updated>
     <summary type="text">A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?</summary>
     <author><name>Joel Khalili</name></author>
+  </entry>
+  <entry>
+    <title>Why Pasting Figma Screenshots into Claude Fails (And What to Use Instead)</title>
+    <link href="https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0" rel="alternate"/>
+    <id>https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</id>
+    <updated>2026-08-09T22:27:56Z</updated>
+    <summary type="text">Here's the workflow that's become default in every design-to-code team right now: export a frame from Figma, paste the PNG into Claude or Cursor, type &quot;build this&quot;, and iterate on the hallucinated output. It works just well enough to feel productive. It doesn't work well enough to ship from. This isn't a model capability problem. It's an input problem. A screenshot is the worst possible representa</summary>
+    <author><name>romantsisyk</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Ghidra internals: Where are my logs ?</title>
+    <link href="https://dev.to/ddupard/ghidra-internals-where-are-my-logs--p3n" rel="alternate"/>
+    <id>https://dev.to/ddupard/ghidra-internals-where-are-my-logs--p3n</id>
+    <updated>2026-08-09T22:20:47Z</updated>
+    <summary type="text">Ghidra uses the Apache Log4j logging library to store a lot of execution messages. Finding these logs can be quite tricky, especially if you launch Ghidra from a shell (using ghidraRun) because no output is displayed in the terminal. Usually, the first instinct is to look for a .ghidra directory directly in your HOME folder. In our case, that will fail. Under Linux, Ghidra follows the XDG Base Dir</summary>
+    <author><name>ddupard</name></author>
+  </entry>
+  <entry>
+    <title>Self-hosting a lite agent backend on one TPU: Gemma 4 E2B + vLLM on a v5e-1</title>
+    <link href="https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1" rel="alternate"/>
+    <id>https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1</id>
+    <updated>2026-08-09T22:14:30Z</updated>
+    <summary type="text">Self-hosting a lite agent backend on one TPU chip A single Google Cloud TPU v5e chip — 16 GB of HBM, about $0.58/hour on spot — will serve google/gemma-4-E2B-it under vLLM at 1,496 output tokens/sec aggregate, with 8.02 ms per-token latency at single stream and native tool-calling. That is enough to back a fleet of 8–16 concurrent &quot;lite&quot; agents for roughly $0.107 per million output tokens. This is</summary>
+    <author><name>xbill</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your AI Agent Changed Its Config. Can You Roll It Back Safely?</title>
+    <link href="https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk" rel="alternate"/>
+    <id>https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk</id>
+    <updated>2026-08-09T21:54:16Z</updated>
+    <summary type="text">A configuration change can be more dangerous than a code deploy when an AI agent can send messages, edit repositories, spend money, or operate a browser. The usual rollback advice is simple: keep the old file and copy it back. That is not enough for an agent. A configuration revision can change tool permissions, model routing, retry behavior, queue limits, browser profiles, or approval rules while</summary>
+    <author><name>Zira</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Four ICPC Habits That Survived Production, and Two I Had to Unlearn</title>
+    <link href="https://dev.to/nabeelbaghoor/four-icpc-habits-that-survived-production-and-two-i-had-to-unlearn-4554" rel="alternate"/>
+    <id>https://dev.to/nabeelbaghoor/four-icpc-habits-that-survived-production-and-two-i-had-to-unlearn-4554</id>
+    <updated>2026-08-09T21:51:03Z</updated>
+    <summary type="text">Every few months the same argument comes back around: does competitive programming make you a better engineer, or does it just make you good at competitive programming? People who did it defend it. People who did not point out, correctly, that nobody has ever shipped a segment tree to production. I have been on both sides of that line, so here is my honest accounting. In 2021 my team won the ACM-I</summary>
+    <author><name>Nabeel Hassan</name></author>
+  </entry>
+  <entry>
+    <title>Pattern Recognition: The Matrix Mindset for Top Coders</title>
+    <link href="https://dev.to/timevolt/pattern-recognition-the-matrix-mindset-for-top-coders-2aee" rel="alternate"/>
+    <id>https://dev.to/timevolt/pattern-recognition-the-matrix-mindset-for-top-coders-2aee</id>
+    <updated>2026-08-09T21:50:40Z</updated>
+    <summary type="text">The Quest Begins (The &quot;Why&quot;) I was staring at a pull request that felt like a boss level in a retro arcade game—except there were no extra lives. The code was a massive if/else if/else chain that decided how to handle different JSON payloads coming from a third‑party API. Each branch did almost the same thing: validate a few fields, map them to our internal model, then call a service. The only thi</summary>
+    <author><name>Timevolt</name></author>
+  </entry>
+  <entry>
+    <title>How to stop a Claude Code agent writing outside a directory</title>
+    <link href="https://dev.to/fewparts/how-to-stop-a-claude-code-agent-writing-outside-a-directory-253p" rel="alternate"/>
+    <id>https://dev.to/fewparts/how-to-stop-a-claude-code-agent-writing-outside-a-directory-253p</id>
+    <updated>2026-08-09T21:48:31Z</updated>
+    <summary type="text">When you're sitting in front of an agent, &quot;don't touch anything outside src/&quot; is enforced by you noticing. Unattended, it has to be enforced by something that runs whether or not anyone is watching. Claude Code gives you two mechanisms for that, and they are not interchangeable. One is declarative and can't express what you probably want. The other can, but is structurally blind to a whole categor</summary>
+    <author><name>Fewparts</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Automating the Workflow: My Journey from Jenkins Freestyle Jobs to Declarative Pipelines</title>
+    <link href="https://dev.to/alafiz/automating-the-workflow-my-journey-from-jenkins-freestyle-jobs-to-declarative-pipelines-4pag" rel="alternate"/>
+    <id>https://dev.to/alafiz/automating-the-workflow-my-journey-from-jenkins-freestyle-jobs-to-declarative-pipelines-4pag</id>
+    <updated>2026-08-09T21:16:05Z</updated>
+    <summary type="text">The Infrastructure: Setting Up Jenkins on AWS The foundation of this project began by provisioning an Ubuntu EC2 instance on AWS. Setting up the environment meant defining strict networking rules (opening Port 22 for SSH and Port 8080 for the Jenkins UI) and structuring the Jenkins environment with clear access controls. In Jenkins, maintaining a secure and organized environment generally falls in</summary>
+    <author><name>Zakariyau Mukhtar</name></author>
+  </entry>
+  <entry>
+    <title>From Raw Text to Cryptographic Seal: Building a Legal Document Factory in Python</title>
+    <link href="https://dev.to/sunverseai/from-raw-text-to-cryptographic-seal-building-a-legal-document-factory-in-python-4ldn" rel="alternate"/>
+    <id>https://dev.to/sunverseai/from-raw-text-to-cryptographic-seal-building-a-legal-document-factory-in-python-4ldn</id>
+    <updated>2026-08-09T21:15:08Z</updated>
+    <summary type="text">When people think of Artificial Intelligence, they usually think of chat boxes. You type a prompt, text scrolls across the screen, and you copy-paste it. In the legal world, a chat box isn't enough. A contract on a screen is just a suggestion. A contract in hand—signed, sealed, and cryptographically verified—is a binding asset. As we build Lawyie (Sunverse AI’s intelligent legal infrastructure for</summary>
+    <author><name>SunverseAI</name></author>
   </entry>
   <entry>
     <title>Building a Production WhatsApp AI Agent: Architecture That Actually Works</title>
@@ -360,83 +436,5 @@
     <updated>2026-08-09T18:24:10Z</updated>
     <summary type="text">When I was building my backend API, I realized a big problem: anyone could spam my endpoints. If a user repeatedly reloads a page or hits an endpoint calling an external AI service, it can crash the server or run up high API costs. To fix this, I added Rate Limiting. Here is why I used Redis for it and how I set it up. The Problem with Simple In-Memory Limiters At first, I thought about saving req</summary>
     <author><name>Nikhil Singh</name></author>
-  </entry>
-  <entry>
-    <title>Cpynet a pastebin you talk to with curl, that forgets everything you send it</title>
-    <link href="https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6" rel="alternate"/>
-    <id>https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6</id>
-    <updated>2026-08-09T18:21:49Z</updated>
-    <summary type="text">A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two independent encryption layers, and a curl one-liner instead of a login form. I keep ending up in situations where I need to move a small piece of text — a log snippet, a password, a container's stdout — from one machine to another, and the clipboard just isn't there. SSH session on a remote box. A lock</summary>
-    <author><name>Emin Buyuk</name></author>
-  </entry>
-  <entry>
-    <title>Topic selected: Option A – Purely Technical: &quot;Building a Secure AI Proxy for Browser Tools</title>
-    <link href="https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc" rel="alternate"/>
-    <id>https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc</id>
-    <updated>2026-08-09T18:20:32Z</updated>
-    <summary type="text">This is the strongest choice. It teaches a tangible, highly demanded skill (API key security) with actual code, making the backlink to AfriWidget feel like a natural, neutral citation rather than a sales pitch. Here is the article, rewritten to be strictly technical, objective, and genuinely useful for dev.to readers. Stop Exposing Your AI API Keys: Build a Secure Proxy with Cloudflare Workers We </summary>
-    <author><name>Obed Avorlenu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Who Did This? Identity Across Async Boundaries</title>
-    <link href="https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n" rel="alternate"/>
-    <id>https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n</id>
-    <updated>2026-08-09T18:20:05Z</updated>
-    <summary type="text">You put a lot of work into authentication. A gateway validates the Keycloak JWT, maps realm roles to authorities, checks that the caller is allowed. By the time a request reaches your service, you know exactly who is calling. Then the request crosses into async land, and all of that evaporates. This is the story of the point where identity quietly disappears in an event-driven system, why the dead</summary>
-    <author><name>Ramesh Yara</name></author>
-  </entry>
-  <entry>
-    <title>Absorber les +50 % de l'API Claude sans couper une feature</title>
-    <link href="https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj" rel="alternate"/>
-    <id>https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj</id>
-    <updated>2026-08-09T18:13:52Z</updated>
-    <summary type="text">Le 1er septembre 2026, le tarif de lancement de Claude Sonnet 5 s'arrête. L'input passe de 2 $ à 3 $ le million de tokens, l'output de 10 $ à 15 $ : +50 % sur les deux lignes, pour tout le monde qui appelle l'API en paiement à l'usage. La panique par défaut, c'est de couper des fonctionnalités ou de rétrograder vers un modèle plus faible. Il y a mieux, et c'est déjà dans l'API. Deux mécanismes — l</summary>
-    <author><name>Olivier</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again.</title>
-    <link href="https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p" rel="alternate"/>
-    <id>https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p</id>
-    <updated>2026-08-09T18:12:48Z</updated>
-    <summary type="text">Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again. LAO Runtime Protection in action — real failures, self-repaired, permanently prevented, zero repeats. August 9, 2026 · by the ZWISERFIT engineering team AI agents fail silently. LAO makes failures visible and fixable. On August 8, 2026, our agent orchestration system — LAO — ran a full 24-hour cycle under autonomous gover</summary>
-    <author><name>Suzanne Mok</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your Service Map Is Lying</title>
-    <link href="https://dev.to/ramesh-yara/your-service-map-is-lying-4g47" rel="alternate"/>
-    <id>https://dev.to/ramesh-yara/your-service-map-is-lying-4g47</id>
-    <updated>2026-08-09T18:10:22Z</updated>
-    <summary type="text">You attach the OpenTelemetry Java agent, point it at a collector, and within minutes Grafana is drawing a service map you never drew. A box for each service, arrows between them, latency on every edge. It feels like magic, and — more dangerously — it feels complete. &quot;The agent traces everything&quot; is the sentence repeated in every onboarding doc. This is the story of the moment that sentence stopped</summary>
-    <author><name>Ramesh Yara</name></author>
-  </entry>
-  <entry>
-    <title>Why a 24 GB GPU Does Not Give Your Local LLM 24 GB</title>
-    <link href="https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k" rel="alternate"/>
-    <id>https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k</id>
-    <updated>2026-08-09T18:07:01Z</updated>
-    <summary type="text">I keep seeing the same local LLM sizing mistake: &quot;The model file is smaller than my GPU, so it should fit.&quot; That is only the first check. A 24 GB GPU does not give your model a clean 24 GB memory budget. The display stack, runtime, temporary buffers, model weights, and KV cache all compete for the same space. Here is the worksheet I use before I download a model or rent a GPU. 1. Start with the we</summary>
-    <author><name>Deep Mehta</name></author>
-    <category term="hardware"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Beyond the Black Box: Reclaiming Developer Agency in an Era of AI-Assisted Coding</title>
-    <link href="https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0</id>
-    <updated>2026-08-09T18:00:33Z</updated>
-    <summary type="text">Originally published on tamiz.pro. The promise of AI-assisted coding is seductive: velocity, reduced boilerplate, and the elimination of context-switching fatigue. Tools like GitHub Copilot, Cursor, and various IDE plugins have transitioned from novelty to necessity in many modern codebases. However, a subtle but dangerous drift is occurring in our development practices. We are witnessing a shift </summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A backup you haven't restored isn't a backup</title>
-    <link href="https://dev.to/takiuddinahmed/a-backup-you-havent-restored-isnt-a-backup-4lj" rel="alternate"/>
-    <id>https://dev.to/takiuddinahmed/a-backup-you-havent-restored-isnt-a-backup-4lj</id>
-    <updated>2026-08-09T18:00:14Z</updated>
-    <summary type="text">Migrating from MongoDB Atlas to a self-hosted replica set bought us control and cut our bill. It also quietly removed something we had stopped thinking about: Atlas had been taking continuous backups for us the entire time. After the migration, production data for Prochesta lived in /var/db/mongo on a single VPS. No snapshots. No off-box copy. A rm -rf, a bad migration script, or a dead disk would</summary>
-    <author><name>Takiuddin Ahmed</name></author>
   </entry>
 </feed>

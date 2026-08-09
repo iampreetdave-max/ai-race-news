@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-09T21:36:41Z</updated>
+  <updated>2026-08-09T22:35:33Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -14,6 +14,32 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Pasting Figma Screenshots into Claude Fails (And What to Use Instead)</title>
+    <link href="https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0" rel="alternate"/>
+    <id>https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</id>
+    <updated>2026-08-09T22:27:56Z</updated>
+    <summary type="text">Here's the workflow that's become default in every design-to-code team right now: export a frame from Figma, paste the PNG into Claude or Cursor, type &quot;build this&quot;, and iterate on the hallucinated output. It works just well enough to feel productive. It doesn't work well enough to ship from. This isn't a model capability problem. It's an input problem. A screenshot is the worst possible representa</summary>
+    <author><name>romantsisyk</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to stop a Claude Code agent writing outside a directory</title>
+    <link href="https://dev.to/fewparts/how-to-stop-a-claude-code-agent-writing-outside-a-directory-253p" rel="alternate"/>
+    <id>https://dev.to/fewparts/how-to-stop-a-claude-code-agent-writing-outside-a-directory-253p</id>
+    <updated>2026-08-09T21:48:31Z</updated>
+    <summary type="text">When you're sitting in front of an agent, &quot;don't touch anything outside src/&quot; is enforced by you noticing. Unattended, it has to be enforced by something that runs whether or not anyone is watching. Claude Code gives you two mechanisms for that, and they are not interchangeable. One is declarative and can't express what you probably want. The other can, but is structurally blind to a whole categor</summary>
+    <author><name>Fewparts</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Automating the Workflow: My Journey from Jenkins Freestyle Jobs to Declarative Pipelines</title>
+    <link href="https://dev.to/alafiz/automating-the-workflow-my-journey-from-jenkins-freestyle-jobs-to-declarative-pipelines-4pag" rel="alternate"/>
+    <id>https://dev.to/alafiz/automating-the-workflow-my-journey-from-jenkins-freestyle-jobs-to-declarative-pipelines-4pag</id>
+    <updated>2026-08-09T21:16:05Z</updated>
+    <summary type="text">The Infrastructure: Setting Up Jenkins on AWS The foundation of this project began by provisioning an Ubuntu EC2 instance on AWS. Setting up the environment meant defining strict networking rules (opening Port 22 for SSH and Port 8080 for the Jenkins UI) and structuring the Jenkins environment with clear access controls. In Jenkins, maintaining a secure and organized environment generally falls in</summary>
+    <author><name>Zakariyau Mukhtar</name></author>
   </entry>
   <entry>
     <title>We generated ~32,000 self-contained build prompts for Midnight (and learned the hard way)</title>
@@ -436,32 +462,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <updated>2026-08-08T13:51:53Z</updated>
     <summary type="text">I built this delivery dispatch service to practice and master core backend engineering fundamentals in NestJS. Instead of just building a basic CRUD API, I wanted to understand how real-world dispatch systems manage state transitions, handle route assignments, and keep data consistent under concurrent requests. The backend is engineered with NestJS, TypeORM, and PostgreSQL running inside Docker co</summary>
     <author><name>Peace Melodi</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft 365 Agents SDK vs. Bot Framework: Rebuilding the Same Bot as an Agent</title>
-    <link href="https://dev.to/avinash247/microsoft-365-agents-sdk-vs-bot-framework-rebuilding-the-same-bot-as-an-agent-2f8" rel="alternate"/>
-    <id>https://dev.to/avinash247/microsoft-365-agents-sdk-vs-bot-framework-rebuilding-the-same-bot-as-an-agent-2f8</id>
-    <updated>2026-08-08T13:28:52Z</updated>
-    <summary type="text">The Table Everyone Skims Past Most people read this comparison as a framework preference. It is not. It is a change in control model. Part 1 introduced the high-level contrast. Before moving on, it is worth putting real code on both sides of it, because the table alone hides where the actual engineering effort shifts. Dimension Bot Framework SDK Microsoft 365 Agents SDK Interaction model Conversat</summary>
-    <author><name>Avinash Hedaoo</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Git Worktrees Improve AI Coding Workflows</title>
-    <link href="https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd" rel="alternate"/>
-    <id>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</id>
-    <updated>2026-08-08T12:48:51Z</updated>
-    <summary type="text">AI coding tools become much more useful when they are given clear boundaries. One practical way to create those boundaries is with Git worktrees. A Git branch gives you separate history. A worktree gives you a separate working directory connected to that branch. Instead of making several AI agents share one workspace, you can give each agent its own isolated environment. What is a Git worktree? A </summary>
-    <author><name>Eric Vincent Bermudez</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AIOps Agents for Kubernetes Human-in-the-Loop Remediation on GCP</title>
-    <link href="https://dev.to/gde/aiops-agents-for-kubernetes-human-in-the-loop-remediation-on-gcp-4l5i" rel="alternate"/>
-    <id>https://dev.to/gde/aiops-agents-for-kubernetes-human-in-the-loop-remediation-on-gcp-4l5i</id>
-    <updated>2026-08-08T12:43:55Z</updated>
-    <summary type="text">The Problem with Fully Autonomous Remediation Every platform team eventually asks the same question: can we let something automatically fix production when it breaks? The instinct to say yes is understandable incidents at 3 a.m. are expensive, and a lot of Kubernetes failures follow recognizable patterns. But fully autonomous remediation has a bad failure mode: when the agent is wrong, it's wrong </summary>
-    <author><name>Saurabh Mishra</name></author>
   </entry>
 </feed>
