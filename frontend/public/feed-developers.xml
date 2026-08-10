@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-10T13:17:11Z</updated>
+  <updated>2026-08-10T15:02:36Z</updated>
+  <entry>
+    <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
+    <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</id>
+    <updated>2026-08-10T13:27:19Z</updated>
+    <summary type="text">Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...</summary>
+    <author><name>Michelle Horton</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Meta Muse Glimmer brings local AI agents to consumer GPUs</title>
     <link href="https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/" rel="alternate"/>
@@ -14,6 +25,16 @@
     <author><name>Ryan Daws</name></author>
     <category term="hardware"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Apache Spark for Beginners #1: Why Does Spark Exist?</title>
+    <link href="https://dev.to/sanjeev_kumar_g03/apache-spark-for-beginners-1-why-does-spark-exist-1461" rel="alternate"/>
+    <id>https://dev.to/sanjeev_kumar_g03/apache-spark-for-beginners-1-why-does-spark-exist-1461</id>
+    <updated>2026-08-10T14:54:25Z</updated>
+    <summary type="text">I'm starting a new learning journey: Apache Spark. Rather than simply watching tutorials and memorizing Spark APIs, I want to understand what Spark is actually solving, how it works internally, and why it has become such an important tool in data engineering. So this series will be my attempt to learn Spark in public. I'm approaching each topic from a simple perspective: Understand the problem fir</summary>
+    <author><name>Sanjeev Kumar</name></author>
+    <category term="data"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>A CVSS 10.0 in Your AI Coding Agent Is Just TOCTOU Wearing a Hoodie</title>
@@ -416,15 +437,6 @@
     <category term="agents"/>
   </entry>
   <entry>
-    <title>What if the main coding-agent session was intentionally dumb?</title>
-    <link href="https://dev.to/justjov/what-if-the-main-coding-agent-session-was-intentionally-dumb-2n90" rel="alternate"/>
-    <id>https://dev.to/justjov/what-if-the-main-coding-agent-session-was-intentionally-dumb-2n90</id>
-    <updated>2026-08-09T04:31:21Z</updated>
-    <summary type="text">Instead of making the main session the “brain”, what if it did almost nothing except call a subagent? The subagent checks the project: What’s already done? What’s broken? What’s next? What should I work on? Then it does the work, updates the project state, and finishes. The main session doesn’t need to understand the project. It doesn’t need to maintain a huge context. It doesn’t even need to mean</summary>
-    <author><name>Justjov</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
     <title>Hey everyone! I recently wrapped up a project migrating 6 separate Go microservice repositories into a unified monorepo setup.
 
 I documented the architecture decisions, pipeline setup, and lessons learned here.</title>
@@ -453,14 +465,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <author><name>Li Zhuojun</name></author>
     <category term="llm"/>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Quantified Self: Turn Your Massive Apple Health XML into a Lightning-Fast DuckDB Database</title>
-    <link href="https://dev.to/beck_moulton/quantified-self-turn-your-massive-apple-health-xml-into-a-lightning-fast-duckdb-database-o70" rel="alternate"/>
-    <id>https://dev.to/beck_moulton/quantified-self-turn-your-massive-apple-health-xml-into-a-lightning-fast-duckdb-database-o70</id>
-    <updated>2026-08-09T00:38:00Z</updated>
-    <summary type="text">If you've ever tried to export your Apple Health data, you've likely stared in horror at a massive, multi-gigabyte export.xml file. It’s a nested nightmare that crashes standard Excel sheets and makes pandas read_xml cry for mercy. As a data engineer, &quot;Learning in Public&quot; means tackling these messy real-world formats and turning them into something queryable. Today, we are building a high-performa</summary>
-    <author><name>Beck_Moulton</name></author>
-    <category term="data"/>
   </entry>
 </feed>
