@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-10T16:57:36Z</updated>
+  <updated>2026-08-10T17:55:42Z</updated>
   <entry>
     <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
     <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/" rel="alternate"/>
@@ -15,6 +15,34 @@
     <category term="hardware"/>
     <category term="open-source"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI Security Training for Defense Industrial Base Companies</title>
+    <link href="https://dev.to/cgivre/ai-security-training-for-defense-industrial-base-companies-281a" rel="alternate"/>
+    <id>https://dev.to/cgivre/ai-security-training-for-defense-industrial-base-companies-281a</id>
+    <updated>2026-08-10T17:40:43Z</updated>
+    <summary type="text">A defense contractor's AI security problem is not a bank's, and the difference is controlled unclassified information. It shows up in the first hour of any serious training you run. Companies in the defense industrial base are deploying what everyone else is deploying: a copilot in the tenant, retrieval over the engineering share, a proposal assistant that reads past performance write-ups. Some me</summary>
+    <author><name>Charles Givre</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LangGraph vs CrewAI vs Google ADK: Choosing the Right Agent Architecture for Production AI</title>
+    <link href="https://dev.to/nikhil_ramank_152ca48266/langgraph-vs-crewai-vs-google-adk-choosing-the-right-agent-architecture-for-production-ai-2b3a" rel="alternate"/>
+    <id>https://dev.to/nikhil_ramank_152ca48266/langgraph-vs-crewai-vs-google-adk-choosing-the-right-agent-architecture-for-production-ai-2b3a</id>
+    <updated>2026-08-10T17:38:52Z</updated>
+    <summary type="text">AI agents are moving from experimental chatbots into production systems. But as soon as an agent needs tools, memory, multiple steps, validation, retries, human approval, or collaboration with other agents, a new architectural question appears: Which agent framework should we use? LangGraph. CrewAI. Google Agent Development Kit (ADK). All three can build agentic applications. But they are designed</summary>
+    <author><name>Nikhil raman K</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>EPIC Mode: A Blueprint for Stopping Agent Overthinking</title>
+    <link href="https://dev.to/p3ngu1nzz/epic-mode-a-blueprint-for-stopping-agent-overthinking-1ahc" rel="alternate"/>
+    <id>https://dev.to/p3ngu1nzz/epic-mode-a-blueprint-for-stopping-agent-overthinking-1ahc</id>
+    <updated>2026-08-10T17:37:00Z</updated>
+    <summary type="text">Most agent failures are not failures of intelligence. They are failures of stopping. We just published a deep dive on EPIC Mode — Episodic Policy and Intention Control — a proposed execution mode for archon-level agent orchestration. The full article is on the CatGame Research Frontier: https://frontier.catgameresearch.net/epic-mode.html Why agents get stuck Recent work on the reasoning-action dil</summary>
+    <author><name>p3nGu1nZz</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How to Effectively Deploy Code With Claude Code</title>
@@ -435,34 +463,5 @@
     <summary type="text">Trust foundation continues. Real numbers from Bing AI, one 10-minute email setup, and a bug I keep punting. The scoreboard Two projects continue in parallel. Convertify shipped an entity foundation over week 18: Wikidata item Q140754389 for the brand, centralized JSON-LD schema graph with @id cross-references, IndexNow integrated into the sitemap generator, and an AI-crawler-explicit robots.txt. W</summary>
     <author><name>Serhii Kalyna</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Testing an LLM Input Layer for Poker Calculators: Verified Math, Unverified Interpretation</title>
-    <link href="https://dev.to/ty215/testing-an-llm-input-layer-for-poker-calculators-verified-math-unverified-interpretation-18ib" rel="alternate"/>
-    <id>https://dev.to/ty215/testing-an-llm-input-layer-for-poker-calculators-verified-math-unverified-interpretation-18ib</id>
-    <updated>2026-08-09T06:36:10Z</updated>
-    <summary type="text">This article is about a poker-analysis framework, but the engineering problem is common to LLM tool use. The framework uses an LLM as an input and control layer. It reads a natural-language poker question, chooses a local calculator, and proposes typed fields. A Python program, not the LLM, performs the numerical calculation and returns a structured result with verification data. In this evaluatio</summary>
-    <author><name>ty215</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Cursor Rules: How to Stop Your AI Agent From Writing Slop</title>
-    <link href="https://dev.to/daymondhyper/cursor-rules-how-to-stop-your-ai-agent-from-writing-slop-2kpl" rel="alternate"/>
-    <id>https://dev.to/daymondhyper/cursor-rules-how-to-stop-your-ai-agent-from-writing-slop-2kpl</id>
-    <updated>2026-08-09T06:17:21Z</updated>
-    <summary type="text">You just installed Cursor, opened a TypeScript file, and asked the agent to fix a bug. Ten seconds later it handed you a type SomeType = any and a @ts-ignore above the line that wouldn't compile. This is the moment most developers discover that AI coding agents are powerful but undisciplined. The fix isn't a better model. It's rules. Most AI coding agent best practices boil down to a single idea: </summary>
-    <author><name>DaymondHyper</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Hey everyone! I recently wrapped up a project migrating 6 separate Go microservice repositories into a unified monorepo setup.
-
-I documented the architecture decisions, pipeline setup, and lessons learned here.</title>
-    <link href="https://dev.to/singhamandeep007/hey-everyone-i-recently-wrapped-up-a-project-migrating-6-separate-go-microservice-repositories-5d1d" rel="alternate"/>
-    <id>https://dev.to/singhamandeep007/hey-everyone-i-recently-wrapped-up-a-project-migrating-6-separate-go-microservice-repositories-5d1d</id>
-    <updated>2026-08-09T03:22:07Z</updated>
-    <summary type="text">Multi-Repo to Monorepo: How I Automated 6 Go Microservice Releases and Then Made It 15x Faster Amandeep Singh Amandeep Singh Amandeep Singh Follow Aug 7 Multi-Repo to Monorepo: How I Automated 6 Go Microservice Releases and Then Made It 15x Faster #go #devops #automation #monorepo 6 reactions 1 comment 10 min read</summary>
-    <author><name>Amandeep Singh</name></author>
   </entry>
 </feed>
