@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-10T06:13:23Z</updated>
+  <updated>2026-08-10T08:42:25Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -13,6 +13,24 @@
     <summary type="text">Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Velero Said Backups Succeeded. The Data Was Never There.</title>
+    <link href="https://dev.to/dwoitzik/velero-said-backups-succeeded-the-data-was-never-there-563n" rel="alternate"/>
+    <id>https://dev.to/dwoitzik/velero-said-backups-succeeded-the-data-was-never-there-563n</id>
+    <updated>2026-08-10T08:15:50Z</updated>
+    <summary type="text">Originally published at woitzik.dev Disclosure: This post contains Amazon affiliate links (marked with *). If you buy through them, I earn a small commission at no extra cost to you. I only link gear I actually own and use daily. Velero reported &quot;Completed&quot; on every daily backup. The schedule ran on time, the S3 uploads succeeded, the backup size looked reasonable. I never verified the contents — </summary>
+    <author><name>david</name></author>
+  </entry>
+  <entry>
+    <title>From Clicks to Documentation: Converting D365 Task Recordings into L4 Guides</title>
+    <link href="https://dev.to/balagmadhu/from-clicks-to-documentation-converting-d365-task-recordings-into-l4-guides-147m" rel="alternate"/>
+    <id>https://dev.to/balagmadhu/from-clicks-to-documentation-converting-d365-task-recordings-into-l4-guides-147m</id>
+    <updated>2026-08-10T08:15:39Z</updated>
+    <summary type="text">Intro: Documenting business processes in Dynamics 365 can be time-consuming. Functional consultants and process owners often need to turn Task Recorder recordings into step-by-step user guides, training material, and Level 4 (L4) work instructions. The challenge is that a Task Recorder file captures the system interaction, but it is not always ready to share as a polished business document. To hel</summary>
+    <author><name>Bala Madhusoodhanan</name></author>
+    <category term="tutorial"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -444,25 +462,6 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <updated>2026-08-08T18:39:31Z</updated>
     <summary type="text">On August 7, 2026, GitHub published a Copilot update that looked like a bag of small conveniences: a /worktree command for isolated code experiments, /rewind for restoring a session and its files, /side in the Copilot app, and /btw in VS Code for asking a parallel question without interrupting the main task. I think those features point to one bigger problem in AI-assisted coding: Exploration cont</summary>
     <author><name>Marcus Kim</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
-    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/" rel="alternate"/>
-    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
-    <updated>2026-08-07T18:01:32Z</updated>
-    <summary type="text">AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The article AMD acquires Taalas, a startup that bakes AI models directly into silicon app</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Teaching Your AI Web Design Some Actual Taste</title>
-    <link href="https://dev.to/lovestaco/teaching-your-ai-web-design-some-actual-taste-4p13" rel="alternate"/>
-    <id>https://dev.to/lovestaco/teaching-your-ai-web-design-some-actual-taste-4p13</id>
-    <updated>2026-08-08T17:30:42Z</updated>
-    <summary type="text">Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give it a try and share your feedback. Let me guess. You opened Claude Code, typed &quot;build me a modern landing page,&quot; hit enter, and got back something that technically works but somehow looks like every other s</summary>
-    <author><name>Athreya aka Maneshwar</name></author>
     <category term="llm"/>
   </entry>
 </feed>
