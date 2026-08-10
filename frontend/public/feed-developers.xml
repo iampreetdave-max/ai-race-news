@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-10T02:07:20Z</updated>
+  <updated>2026-08-10T04:42:11Z</updated>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
     <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" rel="alternate"/>
@@ -14,6 +14,26 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Letting Claude Code Hallucinate Your Modernization: Write OpenRewrite LST Recipes Instead</title>
+    <link href="https://dev.to/machinecodingmaster/stop-letting-claude-code-hallucinate-your-modernization-write-openrewrite-lst-recipes-instead-il6" rel="alternate"/>
+    <id>https://dev.to/machinecodingmaster/stop-letting-claude-code-hallucinate-your-modernization-write-openrewrite-lst-recipes-instead-il6</id>
+    <updated>2026-08-10T04:15:12Z</updated>
+    <summary type="text">Stop Letting Claude Code Hallucinate Your Modernization: Write OpenRewrite LST Recipes Instead Letting autonomous AI agents directly rewrite million-line Java monoliths is a dangerous game of Russian roulette with silent runtime bugs. The real way to execute large-scale JDK 26 upgrades is using Claude Code CLI to author deterministic OpenRewrite LST recipes—not blindly edit source files. Want to g</summary>
+    <author><name>Machine coding Master</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AIPairProgramming Explained Simply: How AI Assistants Actually Understand Your Code</title>
+    <link href="https://dev.to/dineshgowtham/aipairprogramming-explained-simply-how-ai-assistants-actually-understand-your-code-24h2" rel="alternate"/>
+    <id>https://dev.to/dineshgowtham/aipairprogramming-explained-simply-how-ai-assistants-actually-understand-your-code-24h2</id>
+    <updated>2026-08-10T04:14:28Z</updated>
+    <summary type="text">AI pair programming is shifting from autocomplete to full task delegation, but how do these assistants actually work? What are the benefits and gotchas of relying on AI to write your code? Introduction to AI Pair Programming AI pair programming assistants, like Cursor and Claude Code, are changing the way we develop software. But what is AI pair programming, exactly? In simple terms, AI pair progr</summary>
+    <author><name>Dinesh_gowtham</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>How AI Website Builders Actually Work: From Prompt to Production App</title>
@@ -446,23 +466,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <author><name>HomelessCoder</name></author>
     <category term="data"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Spot Cross-Exchange Crypto Spreads in Minutes — Open Source Monitor (MIT)</title>
-    <link href="https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0" rel="alternate"/>
-    <id>https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0</id>
-    <updated>2026-08-08T16:31:18Z</updated>
-    <summary type="text">Ever wondered how far Bitcoin’s bid/ask drifts between Binance, Kraken, Coinbase, Bitget, and KuCoin — after fees? Crypto Arbitrage Monitor is an open-source dashboard that polls public top-of-book prices across those five venues, builds a buy/sell matrix, and streams fee-adjusted spreads live. It does not place trades. It shows indicative opportunities so you can see where spreads open up. Why tr</summary>
-    <author><name>Micha</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Stale infrastructure context is worse than none</title>
-    <link href="https://dev.to/siddharth_pandey_27/stale-infrastructure-context-is-worse-than-none-2npa" rel="alternate"/>
-    <id>https://dev.to/siddharth_pandey_27/stale-infrastructure-context-is-worse-than-none-2npa</id>
-    <updated>2026-08-08T15:06:55Z</updated>
-    <summary type="text">The bug that isn't a bug On Tuesday you attach a dead-letter queue to orders-queue. On Wednesday a batch of messages disappears and you ask Claude Code what happened. It answers immediately: orders-queue has no DLQ configured, so failed messages are dropped after the maximum receive count. That answer is wrong, and it is also not a hallucination. The assistant read a real snapshot of your AWS acco</summary>
-    <author><name>Siddharth Pandey</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
