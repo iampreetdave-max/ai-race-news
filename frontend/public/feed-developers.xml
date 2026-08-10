@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-10T11:51:24Z</updated>
+  <updated>2026-08-10T13:17:11Z</updated>
   <entry>
     <title>Meta Muse Glimmer brings local AI agents to consumer GPUs</title>
     <link href="https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/" rel="alternate"/>
@@ -14,6 +14,15 @@
     <author><name>Ryan Daws</name></author>
     <category term="hardware"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>A CVSS 10.0 in Your AI Coding Agent Is Just TOCTOU Wearing a Hoodie</title>
+    <link href="https://dev.to/coridev/a-cvss-100-in-your-ai-coding-agent-is-just-toctou-wearing-a-hoodie-31jj" rel="alternate"/>
+    <id>https://dev.to/coridev/a-cvss-100-in-your-ai-coding-agent-is-just-toctou-wearing-a-hoodie-31jj</id>
+    <updated>2026-08-10T13:11:08Z</updated>
+    <summary type="text">A GitHub issue can now potentially exfiltrate your CI secrets, and the tool that let it happen is the same one your team is using to &quot;move faster.&quot; That's the story, and it deserves more than zero comments. Context This isn't new math, it's an old bug class wearing a new jacket. Time-of-check-to-time-of-use flaws have been around since multi-user Unix systems first had race conditions in file perm</summary>
+    <author><name>Cor E</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
@@ -453,15 +462,5 @@ I documented the architecture decisions, pipeline setup, and lessons learned her
     <summary type="text">If you've ever tried to export your Apple Health data, you've likely stared in horror at a massive, multi-gigabyte export.xml file. It’s a nested nightmare that crashes standard Excel sheets and makes pandas read_xml cry for mercy. As a data engineer, &quot;Learning in Public&quot; means tackling these messy real-world formats and turning them into something queryable. Today, we are building a high-performa</summary>
     <author><name>Beck_Moulton</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents</title>
-    <link href="https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/</id>
-    <updated>2026-08-07T21:52:48Z</updated>
-    <summary type="text">Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph. It is MIT-licensed, self-hosted via Docker, and integrates with Claude Code, OpenClaw, Hermes and CodeBuddy. The differentiator is not retrieval but governance: ACL-based visibility decide</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
   </entry>
 </feed>
