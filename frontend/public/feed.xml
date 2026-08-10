@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-09T23:35:27Z</updated>
+  <updated>2026-08-10T02:07:20Z</updated>
   <entry>
     <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
     <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/" rel="alternate"/>
@@ -142,6 +142,65 @@
     <updated>2026-08-09T09:30:00Z</updated>
     <summary type="text">A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?</summary>
     <author><name>Joel Khalili</name></author>
+  </entry>
+  <entry>
+    <title>Dev Log: 2026-08-09 — 72 classes that should have been 8 rows, and a compliance clock</title>
+    <link href="https://dev.to/nasrulhazim/dev-log-2026-08-09-72-classes-that-should-have-been-8-rows-and-a-compliance-clock-25h0" rel="alternate"/>
+    <id>https://dev.to/nasrulhazim/dev-log-2026-08-09-72-classes-that-should-have-been-8-rows-and-a-compliance-clock-25h0</id>
+    <updated>2026-08-10T02:02:26Z</updated>
+    <summary type="text">Sixteen commits, all on one private deployment platform, spread across a very long day — a batch just after midnight and then a second run in the late afternoon. The big architectural thread of the day — drivers that admit what they can't do — is written up properly in a separate post. This is everything else, which turned out to have its own through-line: most of it was about making a claim check</summary>
+    <author><name>Nasrul Hazim</name></author>
+  </entry>
+  <entry>
+    <title>A driver that quietly does nothing is worse than one that isn't there</title>
+    <link href="https://dev.to/nasrulhazim/a-driver-that-quietly-does-nothing-is-worse-than-one-that-isnt-there-61m" rel="alternate"/>
+    <id>https://dev.to/nasrulhazim/a-driver-that-quietly-does-nothing-is-worse-than-one-that-isnt-there-61m</id>
+    <updated>2026-08-10T02:02:02Z</updated>
+    <summary type="text">TL;DR A method that can't do its job has three options: do it, throw, or return &quot;I can't&quot; as a value. What it must never do is return normally having done nothing. I gave a firewall abstraction two extra methods — enforces() and unavailableReason() — so &quot;not implemented here&quot; became something a caller can act on instead of something it has to infer. The security fix that actually landed wasn't a f</summary>
+    <author><name>Nasrul Hazim</name></author>
+  </entry>
+  <entry>
+    <title>How I built an automated Twitter + Telegram whale alert bot for Polymarket</title>
+    <link href="https://dev.to/manpreet_brar_264e408885a/how-i-built-an-automated-twitter-telegram-whale-alert-bot-for-polymarket-1ahp" rel="alternate"/>
+    <id>https://dev.to/manpreet_brar_264e408885a/how-i-built-an-automated-twitter-telegram-whale-alert-bot-for-polymarket-1ahp</id>
+    <updated>2026-08-10T01:45:58Z</updated>
+    <summary type="text">Built WhaleTrack — it tracks big Polymarket traders and alerts when they place large bets. Here's the technical stack behind the automated alert system. The core loop (runs every 5 min): Polls Polymarket's API for recent trades across known whale wallets Detects new bets above $10K threshold Sends Telegram alert immediately Waits 10 min (Telegram subscribers get early access) Posts to Twitter with</summary>
+    <author><name>Manpreet Brar</name></author>
+  </entry>
+  <entry>
+    <title>I Built a Free AI Screen Recorder That Auto-Edits Your Videos</title>
+    <link href="https://dev.to/gabutskuy/i-built-a-free-ai-screen-recorder-that-auto-edits-your-videos-3gkj" rel="alternate"/>
+    <id>https://dev.to/gabutskuy/i-built-a-free-ai-screen-recorder-that-auto-edits-your-videos-3gkj</id>
+    <updated>2026-08-10T01:45:20Z</updated>
+    <summary type="text">I Built a Free AI Screen Recorder That Auto-Edits Your Videos Every content creator knows the pain: you spend 3-5 hours editing a 10-minute screen recording. Cropping dead space, adding zooms, fixing transitions... it's tedious, it's boring, and it eats your life. I built AI Screen Recorder to fix exactly that. It's a free, open-source tool that records your screen AND auto-edits the result — crop</summary>
+    <author><name>GabutSkuy</name></author>
+    <category term="open-source"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>AI Agent vs. Single Prompt: When Automation Actually Pays Off</title>
+    <link href="https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-1cbe" rel="alternate"/>
+    <id>https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-1cbe</id>
+    <updated>2026-08-10T01:44:56Z</updated>
+    <summary type="text">Everyone is talking about AI agents, but most people still use a single prompt. The honest question: when does an agent actually pay for itself? Here is my rule, learned from building an OpenClaw-driven content system. The difference in one line A prompt answers a question now. An agent runs a process on a schedule, with memory, and handles the middle steps. An agent is worth it when the task is r</summary>
+    <author><name>hakiimi</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>[Advanced Rust] 2.8. API Design Principles of Flexibility Pt.4 - Problems with Explicit Destructors and Three Solutions</title>
+    <link href="https://dev.to/someb1oody/advanced-rust-28-api-design-principles-of-flexibility-pt4-problems-with-explicit-destructors-h7k" rel="alternate"/>
+    <id>https://dev.to/someb1oody/advanced-rust-28-api-design-principles-of-flexibility-pt4-problems-with-explicit-destructors-h7k</id>
+    <updated>2026-08-10T01:43:35Z</updated>
+    <summary type="text">2.8.1. Problems with Explicit Destructors Problems arise when you add an explicit destructor: When a type implements Drop, you cannot move any of its fields out inside the destructor. That is because after the explicit destructor runs, drop() will still be called, and it takes &amp;mut self, which requires all parts of self to remain in place. Drop takes &amp;mut self rather than self, so Drop cannot simp</summary>
+    <author><name>SomeB1oody</name></author>
+  </entry>
+  <entry>
+    <title>How AI Website Builders Actually Work: From Prompt to Production App</title>
+    <link href="https://dev.to/victor_azubuike_cbe29672b/how-ai-website-builders-actually-work-from-prompt-to-production-app-47p2" rel="alternate"/>
+    <id>https://dev.to/victor_azubuike_cbe29672b/how-ai-website-builders-actually-work-from-prompt-to-production-app-47p2</id>
+    <updated>2026-08-10T01:35:18Z</updated>
+    <summary type="text">AI website builders look almost magical from the outside. You type something like: Build a modern SaaS website for an AI accounting tool. And a few moments later, you have: a hero section navigation features pricing FAQs buttons responsive layouts sometimes even working application logic It can look like the AI simply “understood the website” and created it. But there’s much more happening underne</summary>
+    <author><name>victor azubuike</name></author>
   </entry>
   <entry>
     <title>Postgres Full-Text Search in Production: How to Load-Test the Index and Pin Down Relevance</title>
@@ -377,68 +436,5 @@
     <updated>2026-08-09T20:10:00Z</updated>
     <summary type="text">When we hand off an LLM-powered feature to a client, they are putting it in front of their users. Some of those users will try to break it — not always maliciously, but because users probe things. Some of them will be malicious. Either way, the question we ask before every handoff is: what happens when someone sends this system something it wasn't designed to handle? This post is our pre-shipment </summary>
     <author><name>Lycore Development</name></author>
-  </entry>
-  <entry>
-    <title>The Hidden Architecture of AI: Do You Know What an LLM Harness Is?</title>
-    <link href="https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl" rel="alternate"/>
-    <id>https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl</id>
-    <updated>2026-08-09T20:07:54Z</updated>
-    <summary type="text">Yes, you heard that right! I am talking about LLM harnesses—the logical, security, and structural infrastructure that empowers a Large Language Model to deliver accurate and valuable responses to the user. Think of it as the &quot;dirty work&quot; happening behind the scenes. It involves complex prompt engineering, guardrails, retrieval-augmented generation (RAG) pipelines, output parsing, and safety filter</summary>
-    <author><name>pabli44</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Per-Branch AI Endpoints: Isolating Model Spend Across Prod, Preview, and CI</title>
-    <link href="https://dev.to/devopsdaily/per-branch-ai-endpoints-isolating-model-spend-across-prod-preview-and-ci-45bn" rel="alternate"/>
-    <id>https://dev.to/devopsdaily/per-branch-ai-endpoints-isolating-model-spend-across-prod-preview-and-ci-45bn</id>
-    <updated>2026-08-09T20:04:25Z</updated>
-    <summary type="text">AI spend is hard to see. In most setups the same gateway credential is used by production, every preview environment, CI, and whatever load test someone ran on Friday. All of that lands in one undifferentiated number. You cannot answer &quot;what did that preview cost,&quot; you cannot cap a specific environment, and you find out a CI job went into a retry loop against an expensive model when the monthly in</summary>
-    <author><name>DevOps Daily</name></author>
-  </entry>
-  <entry>
-    <title>Trending Azure Dev Tools &amp; Tutorials: August 2026 Edition</title>
-    <link href="https://dev.to/karleeov/trending-azure-dev-tools-tutorials-august-2026-edition-29jd" rel="alternate"/>
-    <id>https://dev.to/karleeov/trending-azure-dev-tools-tutorials-august-2026-edition-29jd</id>
-    <updated>2026-08-09T19:56:55Z</updated>
-    <summary type="text">1. .NET Aspire 9.2 + Azure Container Apps One-Click Deploy What is it? .NET Aspire 9.2 introduces seamless integration with Azure Container Apps through the azd up command. This allows developers to define and deploy distributed applications, including APIs, workers, and AI agents, using a single AppHost file. Why now? With the rise of AI-driven applications, deploying complex, distributed systems</summary>
-    <author><name>karleeov</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Designing sleep apps that people don't abandon after three nights</title>
-    <link href="https://dev.to/sleeptrace/designing-sleep-apps-that-people-dont-abandon-after-three-nights-27n1" rel="alternate"/>
-    <id>https://dev.to/sleeptrace/designing-sleep-apps-that-people-dont-abandon-after-three-nights-27n1</id>
-    <updated>2026-08-09T19:55:12Z</updated>
-    <summary type="text">Designing sleep apps that people don't abandon after three nights The sleep app category has one of the worst retention curves in consumer software. Most users delete a sleep tracker within a week. Not because the tech fails — because the app makes the user feel worse. A sleep tracker that gives you a terrible score every morning is a nightly punishment. When &quot;improve your sleep&quot; becomes a task on</summary>
-    <author><name>SleepTrace</name></author>
-  </entry>
-  <entry>
-    <title>Why Java Is a Great Choice for AI Development</title>
-    <link href="https://dev.to/deividas-strole/why-java-is-a-great-choice-for-ai-development-49fg" rel="alternate"/>
-    <id>https://dev.to/deividas-strole/why-java-is-a-great-choice-for-ai-development-49fg</id>
-    <updated>2026-08-09T19:54:41Z</updated>
-    <summary type="text">When people think about artificial intelligence, Python is usually the first language that comes to mind. It has an enormous AI and machine learning ecosystem is simple and easy to learn. But Python is not the only good choice. For production applications, especially enterprise systems, Java can be an excellent language for building AI-powered software. Modern Java applications can connect to larg</summary>
-    <author><name>Deividas Strole</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why your health app should never upload raw audio</title>
-    <link href="https://dev.to/sleeptrace/why-your-health-app-should-never-upload-raw-audio-nc7" rel="alternate"/>
-    <id>https://dev.to/sleeptrace/why-your-health-app-should-never-upload-raw-audio-nc7</id>
-    <updated>2026-08-09T19:54:28Z</updated>
-    <summary type="text">If you build a sleep, meditation, or &quot;smart home&quot; app that records audio, the most important architecture decision you will make has nothing to do with the ML model. It is whether raw audio ever leaves the device. Raw audio is your worst privacy liability. A ten-minute bedroom recording contains more about a person than their entire chat history. It reveals when they sleep, when they are sick, how</summary>
-    <author><name>SleepTrace</name></author>
-  </entry>
-  <entry>
-    <title>I bootstrapped an API business on a single RTX 3060, from literally zero budget</title>
-    <link href="https://dev.to/joaopaulona/i-bootstrapped-an-api-business-on-a-single-rtx-3060-from-literally-zero-budget-5gpe" rel="alternate"/>
-    <id>https://dev.to/joaopaulona/i-bootstrapped-an-api-business-on-a-single-rtx-3060-from-literally-zero-budget-5gpe</id>
-    <updated>2026-08-09T19:47:22Z</updated>
-    <summary type="text">Two weeks ago I had zero dollars, one gaming PC with an RTX 3060 Ti, and a stubborn idea: what if the cost of running a small, useful LLM-backed API could be close to zero, if you just... hosted the model yourself? Here's what I shipped, and the specific things that broke along the way — because the failures were more instructive than the plan. The idea A small API that turns plain English into wo</summary>
-    <author><name>JoaoPauloNA</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
