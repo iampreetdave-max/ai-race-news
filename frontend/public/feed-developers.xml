@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-11T05:13:47Z</updated>
+  <updated>2026-08-11T07:14:31Z</updated>
   <entry>
     <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
     <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/" rel="alternate"/>
@@ -25,6 +25,40 @@
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Keep logged in to Claude between container builds</title>
+    <link href="https://dev.to/sukkergris/keep-logged-in-to-claude-between-container-builds-430h" rel="alternate"/>
+    <id>https://dev.to/sukkergris/keep-logged-in-to-claude-between-container-builds-430h</id>
+    <updated>2026-08-11T07:08:14Z</updated>
+    <summary type="text">This post is targeted devcontainer users not running the containers as root! &quot;remoteUser&quot;: &quot;root&quot;, # Not for you! In the end, this is basically a post about mounting folders and ensuring the right folder permissions - when not running with root permissions or as the root user. You probably have a setup looking something like this: devcontainer.json { &quot;name&quot;: &quot;Customer-Name - Dev machine - Debian&quot;,</summary>
+    <author><name>Theodor Heiselberg</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GPT-5.6-Cyber: Daybreak Red, Exclusive Access Security</title>
+    <link href="https://dev.to/gp-ia-blog/gpt-56-cyber-daybreak-red-exclusive-access-security-4h4e" rel="alternate"/>
+    <id>https://dev.to/gp-ia-blog/gpt-56-cyber-daybreak-red-exclusive-access-security-4h4e</id>
+    <updated>2026-08-11T07:07:22Z</updated>
+    <summary type="text">The Lock and Key: My First Brush with Daybreak Red's Gatekeepers The login screen was a study in minimalism. White space, a single text field, and the OpenAI logo. But below the blinking cursor, where I expected a familiar &quot;Log in with Google&quot; button, was a stark, unfamiliar prompt: &quot;Enter Daybreak Red Access Key.&quot; There was no &quot;Forgot Key&quot; link. No option to sign up. It was a digital dead end. My</summary>
+    <author><name>Gian Paolo</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Docker Compose WAF: Add SafeLine to Any Existing Stack in 3 Steps</title>
+    <link href="https://dev.to/lialiago/docker-compose-waf-add-safeline-to-any-existing-stack-in-3-steps-np5" rel="alternate"/>
+    <id>https://dev.to/lialiago/docker-compose-waf-add-safeline-to-any-existing-stack-in-3-steps-np5</id>
+    <updated>2026-08-11T07:00:53Z</updated>
+    <summary type="text">The Situation You already have a Docker Compose stack running: Nginx + your app + PostgreSQL + Redis. It works. You don't want to rebuild it. But you want WAF protection in front. Here's how to add SafeLine to an existing Docker Compose project without disrupting anything. Step 1: Create a Shared Network # docker-compose.yml (add to your existing file) networks: webnet: driver: bridge Connect your</summary>
+    <author><name>Lia</name></author>
+  </entry>
+  <entry>
+    <title>Deploy ReplicaSet in Kubernetes Cluster</title>
+    <link href="https://dev.to/janak0ff/deploy-replicaset-in-kubernetes-cluster-2n07" rel="alternate"/>
+    <id>https://dev.to/janak0ff/deploy-replicaset-in-kubernetes-cluster-2n07</id>
+    <updated>2026-08-11T06:42:41Z</updated>
+    <summary type="text">The Nautilus DevOps team is gearing up to deploy applications on a Kubernetes cluster for migration purposes. A team member has been tasked with creating a ReplicaSet outlined below: Create a ReplicaSet using nginx image with latest tag (ensure to specify as nginx:latest) and name it nginx-replicaset. Apply labels: app as nginx_app, type as front-end. Name the container nginx-container. Ensure the</summary>
+    <author><name>janak0ff</name></author>
   </entry>
   <entry>
     <title>Parallel Coding Agents Need Handoffs, Not More Terminals</title>
@@ -436,40 +470,5 @@
     <author><name>Deep Mehta</name></author>
     <category term="hardware"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Beyond the Black Box: Reclaiming Developer Agency in an Era of AI-Assisted Coding</title>
-    <link href="https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/beyond-the-black-box-reclaiming-developer-agency-in-an-era-of-ai-assisted-coding-2mf0</id>
-    <updated>2026-08-09T18:00:33Z</updated>
-    <summary type="text">Originally published on tamiz.pro. The promise of AI-assisted coding is seductive: velocity, reduced boilerplate, and the elimination of context-switching fatigue. Tools like GitHub Copilot, Cursor, and various IDE plugins have transitioned from novelty to necessity in many modern codebases. However, a subtle but dangerous drift is occurring in our development practices. We are witnessing a shift </summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The median MCP server costs 3,150 tokens before your agent calls anything</title>
-    <link href="https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3" rel="alternate"/>
-    <id>https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3</id>
-    <updated>2026-08-09T16:13:27Z</updated>
-    <summary type="text">Every MCP server you connect sends its full tool list to the model before the model does anything. You pay for that list on every single turn, whether the agent uses one of those tools or none of them. I had a rough sense this was expensive. I did not have a number. So I went and measured it. The method The MCP directory I maintain has about 10,500 servers with a remote HTTP endpoint. I took a ran</summary>
-    <author><name>Aman</name></author>
-  </entry>
-  <entry>
-    <title>I built a small one-time secret sharing app with AdonisJS 6</title>
-    <link href="https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj" rel="alternate"/>
-    <id>https://dev.to/oguzhankrcb/i-built-a-small-one-time-secret-sharing-app-with-adonisjs-6-cmj</id>
-    <updated>2026-08-09T15:55:40Z</updated>
-    <summary type="text">Hi. I made a small open source project called OTI. It is a simple way to share a message or a small .txt file through a link that can be opened once. I started it to learn more about AdonisJS 6 and browser encryption. I also wanted to leave a small useful project for other developers. The message is encrypted in the browser. The server only stores encrypted data. The private key stays in the link.</summary>
-    <author><name>Oğuzhan KARACABAY</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Voice-to-code 100 % local : Whisper + Claude Code, zéro octet au cloud</title>
-    <link href="https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420" rel="alternate"/>
-    <id>https://dev.to/hernanz/voice-to-code-100-local-whisper-claude-code-zero-octet-au-cloud-3420</id>
-    <updated>2026-08-09T15:55:38Z</updated>
-    <summary type="text">Coder à la voix avec ChatGPT, ça marche. Le hic tient en une ligne : chaque mot que tu dictes part chez OpenAI. Depuis le 23 juillet 2026, Codex se pilote à la voix — il ouvre une pull request, cherche l'origine d'un bug, tout ça dans une phrase. Pratique pour un side-project. Rédhibitoire quand le code appartient à un client. On voulait le même confort sans la fuite. Le résultat est un pipeline 1</summary>
-    <author><name>Olivier</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
