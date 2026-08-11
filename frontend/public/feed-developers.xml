@@ -4,7 +4,47 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-11T20:04:30Z</updated>
+  <updated>2026-08-11T21:53:13Z</updated>
+  <entry>
+    <title>We shipped an MCP server for WhatsApp link generation — no API key required</title>
+    <link href="https://dev.to/inside_dc_pulse/we-shipped-an-mcp-server-for-whatsapp-link-generation-no-api-key-required-g8a" rel="alternate"/>
+    <id>https://dev.to/inside_dc_pulse/we-shipped-an-mcp-server-for-whatsapp-link-generation-no-api-key-required-g8a</id>
+    <updated>2026-08-11T21:43:38Z</updated>
+    <summary type="text">We shipped an MCP server for WhatsApp link generation — no API key required If you've ever needed an AI agent to validate a WhatsApp number, build a wa.me link, or generate a QR code on the fly, you've probably hand-rolled it: scrape a regex off Stack Overflow, write your own phone-format validator, maybe hit some undocumented endpoint. We got tired of watching that happen and shipped a small, ope</summary>
+    <author><name>Ruben</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Google Expands Gemini 3.5 With Flash, Omni and Spark Across Apps and Enterprise Tools</title>
+    <link href="https://dev.to/alifar/google-expands-gemini-35-with-flash-omni-and-spark-across-apps-and-enterprise-tools-47oc" rel="alternate"/>
+    <id>https://dev.to/alifar/google-expands-gemini-35-with-flash-omni-and-spark-across-apps-and-enterprise-tools-47oc</id>
+    <updated>2026-08-11T21:30:30Z</updated>
+    <summary type="text">Google has placed Gemini 3.5 at the center of a broad product expansion that reaches beyond a single model release. Announced during Google I/O 2026, the update introduces Gemini 3.5 Flash, Gemini Omni, the Spark personal agent, Daily Brief, and a new Neural Expressive interface direction. It also coincides with upgrades to Google's Antigravity agent framework and related developer and enterprise </summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="data"/>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Giving a fleet of AI agents one shared memory — when each agent runs a different model</title>
+    <link href="https://dev.to/dextee/giving-a-fleet-of-ai-agents-one-shared-memory-when-each-agent-runs-a-different-model-1c4k" rel="alternate"/>
+    <id>https://dev.to/dextee/giving-a-fleet-of-ai-agents-one-shared-memory-when-each-agent-runs-a-different-model-1c4k</id>
+    <updated>2026-08-11T21:05:49Z</updated>
+    <summary type="text">Most agent frameworks give each agent its own context window and call it memory. That works right up until you run more than one agent, and then it quietly becomes the most expensive design decision in the system. We run a fleet where different agents are deliberately backed by different models — one family handles long-form drafting, another handles structured extraction, a couple run on a local </summary>
+    <author><name>Dexter N</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I built a free AB-620 hands-on lab for Copilot Studio</title>
+    <link href="https://dev.to/rmssantos/i-built-a-free-ab-620-hands-on-lab-for-copilot-studio-1mmj" rel="alternate"/>
+    <id>https://dev.to/rmssantos/i-built-a-free-ab-620-hands-on-lab-for-copilot-studio-1mmj</id>
+    <updated>2026-08-11T21:05:17Z</updated>
+    <summary type="text">Certification prep often stops at notes and multiple-choice questions. Copilot Studio makes more sense once you actually build something. So I added a free AB-620 hands-on lab to Examplar. It covers creating an agent, writing clear instructions, testing in-scope and out-of-scope prompts, publishing it, and cleaning up afterwards. Each step includes something learners can check before moving on. Th</summary>
+    <author><name>Ruben Santos</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>What AI Agents Can Teach Us About NHI Governance</title>
     <link href="https://dev.to/gitguardian/what-ai-agents-can-teach-us-about-nhi-governance-1546" rel="alternate"/>
@@ -222,14 +262,6 @@
     <author><name>Anas Rhimi</name></author>
   </entry>
   <entry>
-    <title>Building a Zero-Trust Kubernetes Cluster from Scratch</title>
-    <link href="https://dev.to/mealiclay01/building-a-zero-trust-kubernetes-cluster-from-scratch-2l74" rel="alternate"/>
-    <id>https://dev.to/mealiclay01/building-a-zero-trust-kubernetes-cluster-from-scratch-2l74</id>
-    <updated>2026-08-10T23:30:26Z</updated>
-    <summary type="text">The Illusion of Internal Security Many organizations treat their Kubernetes cluster like a medieval castle: heavy defenses at the perimeter (ingress/WAF), but completely unprotected on the inside. If an attacker compromises a single container, they often have unfettered lateral access to the entire cluster network. In this post, I break down how to architect a Zero-Trust Kubernetes Cluster from th</summary>
-    <author><name>Anas Rhimi</name></author>
-  </entry>
-  <entry>
     <title>Automating Enterprise Workflows with n8n and Local LLMs (Ollama)</title>
     <link href="https://dev.to/mealiclay01/automating-enterprise-workflows-with-n8n-and-local-llms-ollama-4l11" rel="alternate"/>
     <id>https://dev.to/mealiclay01/automating-enterprise-workflows-with-n8n-and-local-llms-ollama-4l11</id>
@@ -440,31 +472,5 @@
     <summary type="text">Architecting a Solana Data Pipeline: Economics &amp; System Design If you have ever tried to track every single swap across Raydium, Orca, and Jupiter in real-time, you already know the painful truth: Solana is simply too fast for traditional Web2 architecture. Standard REST API polling will get you rate-limited instantly. If you try to blindly open a WebSocket and dump the raw payload into a standard</summary>
     <author><name>Suliman Mokhtar</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>140 Bugs Were Hiding in One Function, and My Tests Couldn't See Any of Them</title>
-    <link href="https://dev.to/dannyamah/140-bugs-were-hiding-in-one-function-and-my-tests-couldnt-see-any-of-them-a0p" rel="alternate"/>
-    <id>https://dev.to/dannyamah/140-bugs-were-hiding-in-one-function-and-my-tests-couldnt-see-any-of-them-a0p</id>
-    <updated>2026-08-10T09:57:25Z</updated>
-    <summary type="text">Anyone can port a library. Point a translator at the source, clean up the output, get it to compile, and you have something that looks like a port. The actual engineering problem is different and much harder: proving that the new code means the same thing as the old code, across thirty algorithms, hundreds of edge cases, and a test suite written by people who were not thinking about you. This is t</summary>
-    <author><name>Daniel</name></author>
-  </entry>
-  <entry>
-    <title>Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta" rel="alternate"/>
-    <id>https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta</id>
-    <updated>2026-08-10T22:57:57Z</updated>
-    <summary type="text">Meta CEO presents utopian vision of AI in 6,000-word essay amid Silicon Valley debate over government regulationMark Zuckerberg published a lengthy essay on Monday detailing his views on artificial intelligence and announced several plans for how Meta would develop the technology in the future. The CEO’s essay went online the same day as Meta released a new, open-source AI model that seeks to riva</summary>
-    <author><name>Nick Robins-Early</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Velero Said Backups Succeeded. The Data Was Never There.</title>
-    <link href="https://dev.to/dwoitzik/velero-said-backups-succeeded-the-data-was-never-there-563n" rel="alternate"/>
-    <id>https://dev.to/dwoitzik/velero-said-backups-succeeded-the-data-was-never-there-563n</id>
-    <updated>2026-08-10T08:15:50Z</updated>
-    <summary type="text">Originally published at woitzik.dev Disclosure: This post contains Amazon affiliate links (marked with *). If you buy through them, I earn a small commission at no extra cost to you. I only link gear I actually own and use daily. Velero reported &quot;Completed&quot; on every daily backup. The schedule ran on time, the S3 uploads succeeded, the backup size looked reasonable. I never verified the contents — </summary>
-    <author><name>david</name></author>
   </entry>
 </feed>
