@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-12T10:12:59Z</updated>
+  <updated>2026-08-12T11:51:10Z</updated>
+  <entry>
+    <title>Microsoft's new MAI Code 1.1 Flash gets crushed by Deepseek on both price and performance</title>
+    <link href="https://the-decoder.com/microsofts-new-mai-code-1-1-flash-gets-crushed-by-deepseek-on-both-price-and-performance/" rel="alternate"/>
+    <id>https://the-decoder.com/microsofts-new-mai-code-1-1-flash-gets-crushed-by-deepseek-on-both-price-and-performance/</id>
+    <updated>2026-08-12T10:18:46Z</updated>
+    <summary type="text">Microsoft has released MAI Code 1.1 Flash, a code model for GitHub Copilot that's said to be 25 percent more token-efficient at a quarter of the cost of its predecessor. In benchmarks, though, it gets crushed by the cheaper Deepseek V4 Flash. The move fits a pattern: Microsoft talks up open AI, then bakes worse proprietary models into its apps to protect margins. The article Microsoft's new MAI Co</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a RAG System From Scratch — Four Components, One Working Pipeline</title>
+    <link href="https://dev.to/rit_the_coder/building-a-rag-system-from-scratch-four-components-one-working-pipeline-5ad8" rel="alternate"/>
+    <id>https://dev.to/rit_the_coder/building-a-rag-system-from-scratch-four-components-one-working-pipeline-5ad8</id>
+    <updated>2026-08-12T11:40:08Z</updated>
+    <summary type="text">Most RAG tutorials explain the concept. This one shows the code — a complete working pipeline using LangChain, ChromaDB, and a local LLM via LM Studio. No OpenAI API key. No cloud costs. The business problem: A company has hundreds of pages of HR documentation. Employees ask questions. An AI answers accurately from the actual documents in seconds. Stack: Python, LangChain, ChromaDB, nomic-embed-te</summary>
+    <author><name>Ritesh Totlani</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
   <entry>
     <title>Agent-Devtools: A local toolkit for building &amp; debugging AI Agents</title>
     <link href="https://dev.to/jacopo_sardella_b7670f3f4/agent-devtools-a-local-toolkit-for-building-debugging-ai-agents-3j2a" rel="alternate"/>
@@ -394,6 +414,16 @@
     <author><name>Joanna Marrie</name></author>
   </entry>
   <entry>
+    <title>OpenAI Presence packages policies, evaluations and human escalation around enterprise AI agents</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/</id>
+    <updated>2026-08-12T09:33:43Z</updated>
+    <summary type="text">OpenAI has introduced Presence, an enterprise product for deploying voice and chat agents across workflows such as billing support, insurance claims and employee IT requests. The notable part is less the underlying model and more the operational layer. Each agent is scoped to a specific job and receives only the knowledge and system access required for it. Organizations define approved actions, po</summary>
+    <author><name>/u/Sheldon_Amy</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>OpenAI Expands GPT-5.6 Cyber Access Through Daybreak’s Trusted Defender Controls</title>
     <link href="https://dev.to/alifar/openai-expands-gpt-56-cyber-access-through-daybreaks-trusted-defender-controls-2k5e" rel="alternate"/>
     <id>https://dev.to/alifar/openai-expands-gpt-56-cyber-access-through-daybreaks-trusted-defender-controls-2k5e</id>
@@ -439,36 +469,5 @@
     <summary type="text">Most agent failures are not failures of intelligence. They are failures of stopping. We just published a deep dive on EPIC Mode — Episodic Policy and Intention Control — a proposed execution mode for archon-level agent orchestration. The full article is on the CatGame Research Frontier: https://frontier.catgameresearch.net/epic-mode.html Why agents get stuck Recent work on the reasoning-action dil</summary>
     <author><name>p3nGu1nZz</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>SHE: Trajectory-driven Safety Harness Evolution for LLM Agents</title>
-    <link href="https://arxiv.org/abs/2608.09885v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.09885v1</id>
-    <updated>2026-08-10T17:35:08Z</updated>
-    <summary type="text">The safety of large language model (LLM) agents depends not only on model weights but also on the agent harness that manages context, memory, tools, permissions, and runtime control. Existing safety mechanisms often treat the harness as a fixed deployment artifact, limiting their ability to evolve with emerging risks. Moreover, coupled functions across harness components obscure safety responsibil</summary>
-    <author><name>Dongrui Liu</name></author>
-    <category term="product-launch"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to make Claude Code a trustworthy data scientist</title>
-    <link href="https://dev.to/norman_niemer_7f327e153b9/how-to-make-claude-code-a-trustworthy-data-scientist-58of" rel="alternate"/>
-    <id>https://dev.to/norman_niemer_7f327e153b9/how-to-make-claude-code-a-trustworthy-data-scientist-58of</id>
-    <updated>2026-08-10T16:30:00Z</updated>
-    <summary type="text">AI agents like Claude Code now write real data science pipelines — feature engineering, model training, experiment sweeps. Here's the honest account of where they fail at it, and why a lightweight workflow library removes exactly those failures. Coding agents have gotten good at writing pandas and scikit-learn. Ask one to load a dataset, engineer features, train a model, and compare a few configur</summary>
-    <author><name>Norman Niemer</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>RapidFort points its hardened open-source business at what actually runs in production</title>
-    <link href="https://dev.to/leobaniak/rapidfort-points-its-hardened-open-source-business-at-what-actually-runs-in-production-1bpm" rel="alternate"/>
-    <id>https://dev.to/leobaniak/rapidfort-points-its-hardened-open-source-business-at-what-actually-runs-in-production-1bpm</id>
-    <updated>2026-08-10T16:25:42Z</updated>
-    <summary type="text">RapidFort used Black Hat USA to announce RapidFort Runtime, a companion to the curated open-source packages it already sells that watches those packages once they are executing in production. Per the release, the runtime component runs in read-only mode, continuously monitoring workloads, tracking changes and surfacing what the company calls actionable mitigations. For CI/CD and platform teams, th</summary>
-    <author><name>Leo</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
