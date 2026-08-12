@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-12T13:18:05Z</updated>
+  <updated>2026-08-12T15:01:55Z</updated>
   <entry>
     <title>From assistance to execution: How enterprises put AI to work</title>
     <link href="https://openai.com/index/how-enterprises-put-ai-to-work" rel="alternate"/>
@@ -22,6 +22,25 @@
     <updated>2026-08-12T10:18:46Z</updated>
     <summary type="text">Microsoft has released MAI Code 1.1 Flash, a code model for GitHub Copilot that's said to be 25 percent more token-efficient at a quarter of the cost of its predecessor. In benchmarks, though, it gets crushed by the cheaper Deepseek V4 Flash. The move fits a pattern: Microsoft talks up open AI, then bakes worse proprietary models into its apps to protect margins. The article Microsoft's new MAI Co</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Software Development Life Cycle in the Age of AI Agents</title>
+    <link href="https://dev.to/cpathirage/the-software-development-life-cycle-in-the-age-of-ai-agents-39m6" rel="alternate"/>
+    <id>https://dev.to/cpathirage/the-software-development-life-cycle-in-the-age-of-ai-agents-39m6</id>
+    <updated>2026-08-12T14:37:35Z</updated>
+    <summary type="text">A beginner-friendly guide to understanding how software is built with AI coding agents like Claude Code. If you're starting your career in software engineering today, there's something important you should understand: Software development is changing. For decades, we learned the Software Development Life Cycle (SDLC) as: Requirements → Design → Development → Testing → Deployment → Maintenance That</summary>
+    <author><name>Chandana Pathirage</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Used Claude Code to Cut My API's P99 Latency in Half</title>
+    <link href="https://dev.to/yureki_lab/how-i-used-claude-code-to-cut-my-apis-p99-latency-in-half-mbg" rel="alternate"/>
+    <id>https://dev.to/yureki_lab/how-i-used-claude-code-to-cut-my-apis-p99-latency-in-half-mbg</id>
+    <updated>2026-08-12T14:31:56Z</updated>
+    <summary type="text">TL;DR Our checkout API's p99 latency crept up to 2.1s and nobody could pin down why. I paired with Claude Code to profile it, found two dumb mistakes hiding behind &quot;it's probably the database,&quot; and cut p99 to under 900ms in an afternoon. This is the actual debugging session, not a cleaned-up retelling. The Problem A few weeks ago our checkout API started showing up in the &quot;slow endpoints&quot; dashboar</summary>
+    <author><name>yureki_lab</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -383,18 +402,6 @@
     <author><name>Anas Rhimi</name></author>
   </entry>
   <entry>
-    <title>Automating Enterprise Workflows with n8n and Local LLMs (Ollama)</title>
-    <link href="https://dev.to/mealiclay01/automating-enterprise-workflows-with-n8n-and-local-llms-ollama-4l11" rel="alternate"/>
-    <id>https://dev.to/mealiclay01/automating-enterprise-workflows-with-n8n-and-local-llms-ollama-4l11</id>
-    <updated>2026-08-10T23:30:17Z</updated>
-    <summary type="text">The Privacy Dilemma in AI Automation Companies want the power of AI to automate document parsing, lead scoring, and internal workflows. However, sending sensitive financial data, legal contracts, or customer PII to OpenAI's public API is often a massive compliance violation. The solution? Self-hosted, programmatic AI workflows. In this tear-down, I demonstrate how to build a fully automated, priva</summary>
-    <author><name>Anas Rhimi</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
     <title>Stop switching tabs to fix your deployments: Giving LLMs hands on Netlify</title>
     <link href="https://dev.to/renato_marinho/stop-switching-tabs-to-fix-your-deployments-giving-llms-hands-on-netlify-14ha" rel="alternate"/>
     <id>https://dev.to/renato_marinho/stop-switching-tabs-to-fix-your-deployments-giving-llms-hands-on-netlify-14ha</id>
@@ -459,14 +466,5 @@
     <author><name>Renato Marinho</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AI Security Training for Defense Industrial Base Companies</title>
-    <link href="https://dev.to/cgivre/ai-security-training-for-defense-industrial-base-companies-281a" rel="alternate"/>
-    <id>https://dev.to/cgivre/ai-security-training-for-defense-industrial-base-companies-281a</id>
-    <updated>2026-08-10T17:40:43Z</updated>
-    <summary type="text">A defense contractor's AI security problem is not a bank's, and the difference is controlled unclassified information. It shows up in the first hour of any serious training you run. Companies in the defense industrial base are deploying what everyone else is deploying: a copilot in the tenant, retrieval over the engineering share, a proposal assistant that reads past performance write-ups. Some me</summary>
-    <author><name>Charles Givre</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
