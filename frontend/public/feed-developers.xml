@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-13T06:22:35Z</updated>
+  <updated>2026-08-13T08:26:33Z</updated>
   <entry>
     <title>Microsoft, Seeking to Stay Competitive, Slashes Prices for Coding Model</title>
     <link href="https://aibusiness.com/generative-ai/microsoft-seeking-stay-competitive-slashes-prices-coding-model" rel="alternate"/>
@@ -50,6 +50,40 @@
     <summary type="text">DeepSeek has set up an official social media account and posted job listings for a new team focused on helping develop artificial intelligence agents that can take on services like Anthropic PBC’s popular Claude Code.</summary>
     <author><name>Haze Fan</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Build a Voice Agent with LangChain?</title>
+    <link href="https://dev.to/ciphernutz/how-to-build-a-voice-agent-with-langchain-1cjl" rel="alternate"/>
+    <id>https://dev.to/ciphernutz/how-to-build-a-voice-agent-with-langchain-1cjl</id>
+    <updated>2026-08-13T08:16:55Z</updated>
+    <summary type="text">How to Build a Voice Agent with LangChain: Architecture, Streaming, Tools, and Production Patterns Building a voice agent is not simply a matter of connecting speech-to-text to an LLM and adding text-to-speech. A production voice agent has to solve a harder problem: How do you make an AI system listen, reason, use tools, remember context, and respond quickly enough that the conversation still feel</summary>
+    <author><name>Ciphernutz</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Automatically scale LXC containers resources on Proxmox hosts</title>
+    <link href="https://dev.to/fabriziosalmi/automatically-scale-lxc-containers-resources-on-proxmox-hosts-3p1n" rel="alternate"/>
+    <id>https://dev.to/fabriziosalmi/automatically-scale-lxc-containers-resources-on-proxmox-hosts-3p1n</id>
+    <updated>2026-08-13T08:09:52Z</updated>
+    <summary type="text">LXC AutoScale is an async resource management daemon for Proxmox environments. Install via oneliner, as systemd service or Docker. It automatically adjusts CPU and memory allocations for LXC containers based on real-time usage metrics and predefined thresholds. It supports local execution, remote execution via SSH, or the Proxmox REST API as backend. Container cloning (horizontal scaling) is also </summary>
+    <author><name>fab</name></author>
+  </entry>
+  <entry>
+    <title>Managed Agent Infrastructure: What Changes When the Runtime Is Handled For You</title>
+    <link href="https://dev.to/basavaraj_sh_1ea7d95f0f2e/managed-agent-infrastructure-what-changes-when-the-runtime-is-handled-for-you-1n8n" rel="alternate"/>
+    <id>https://dev.to/basavaraj_sh_1ea7d95f0f2e/managed-agent-infrastructure-what-changes-when-the-runtime-is-handled-for-you-1n8n</id>
+    <updated>2026-08-13T08:06:11Z</updated>
+    <summary type="text">Managed agent frameworks address a specific infrastructure challenge: streams that don't timeout, memory that persists across sessions, and auth that prevents data leakage. Building one that handles all three in production is where most teams stall. The Shift From DIY Agent Plumbing to Managed Runtimes When you build an AI agent yourself, roughly half the engineering effort has nothing to do with </summary>
+    <author><name>Basavaraj SH</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The runner that was busy on someone else's job</title>
+    <link href="https://dev.to/captkay/the-runner-that-was-busy-on-someone-elses-job-3ag3" rel="alternate"/>
+    <id>https://dev.to/captkay/the-runner-that-was-busy-on-someone-elses-job-3ag3</id>
+    <updated>2026-08-13T08:00:00Z</updated>
+    <summary type="text">My CI pipeline sat pending for ten minutes. The runner was healthy. So was every other pipeline in the queue. The default setting was the bug. Healthy and stuck at the same time GitLab Runner ships with concurrent = 1 in /etc/gitlab-runner/config.toml. That one line quietly makes every pipeline run single-file across every project sharing that runner. Not per project. Across all of them. So a chat</summary>
+    <author><name>Kingsley Kanu</name></author>
   </entry>
   <entry>
     <title>Production-Ready AI Agents 2026: End-to-End Evaluation, Production Harnessing, and Competitive Advantage</title>
@@ -420,43 +454,6 @@
     <updated>2026-08-10T18:10:41Z</updated>
     <summary type="text">Microsoft says AI agents are already fundamentally changing how its software engineers work — and sales, finance and other knowledge workers are next. Charles Lamanna, Microsoft EVP of Copilot, Agents and Platform, joins Bloomberg to explain how employees are shifting from doing tasks themselves to overseeing AI agents, why the company sees the technology driving more productivity rather than simp</summary>
     <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Built a PreToolUse Hook to Require Confirmation for Selected Commands—even in Claude Code's Auto Mode</title>
-    <link href="https://dev.to/miura/i-built-a-pretooluse-hook-to-require-confirmation-for-selected-commands-even-in-claude-codes-auto-2bcn" rel="alternate"/>
-    <id>https://dev.to/miura/i-built-a-pretooluse-hook-to-require-confirmation-for-selected-commands-even-in-claude-codes-auto-2bcn</id>
-    <updated>2026-08-11T11:11:17Z</updated>
-    <summary type="text">I built an open-source tool called PolicyApprovalGate. It uses local rules to deny commands or require confirmation immediately before Claude Code or Codex CLI runs a Bash command. nobuo-miura / PolicyApprovalGate A rule-based PreToolUse hook for Claude Code and Codex CLI that denies dangerous Bash commands, asks for confirmation on risky ones, and audits every call — no AI/LLM required. PolicyApp</summary>
-    <author><name>Nobuo Miura</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>A path-traversal guard for MCP file tools that actually survives symlinks</title>
-    <link href="https://dev.to/mcpsecnotes/a-path-traversal-guard-for-mcp-file-tools-that-actually-survives-symlinks-2654" rel="alternate"/>
-    <id>https://dev.to/mcpsecnotes/a-path-traversal-guard-for-mcp-file-tools-that-actually-survives-symlinks-2654</id>
-    <updated>2026-08-11T11:07:34Z</updated>
-    <summary type="text">If your MCP server exposes a read_file / write_file / list_dir tool, it is one clever prompt away from serving /etc/passwd to whoever controls the model's input. The naive fixes — prefix checks, os.path.normpath, stripping .. — all fail against symlinks and absolute paths. Here is a guard that holds, plus the regression test that keeps it holding. Why the obvious fixes leak # BROKEN 1: prefix chec</summary>
-    <author><name>MCP Security Notes</name></author>
-  </entry>
-  <entry>
-    <title>A Data Pipeline Gets Expensive When Every Source Becomes Its Own Little System</title>
-    <link href="https://dev.to/ascentinnovate/a-data-pipeline-gets-expensive-when-every-source-becomes-its-own-little-system-6mo" rel="alternate"/>
-    <id>https://dev.to/ascentinnovate/a-data-pipeline-gets-expensive-when-every-source-becomes-its-own-little-system-6mo</id>
-    <updated>2026-08-11T11:00:39Z</updated>
-    <summary type="text">A multi-source data project can look surprisingly simple at the beginning. Connect one publisher. Add another. Write some source-specific logic. Keep going. Then the system reaches ten or more sources, and the work starts changing. You are no longer maintaining a scraper. You are operating a collection of external dependencies that all happen to feed the same product. That is where the cost starts</summary>
-    <author><name>Shruti Saraswat</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>7 Tips to Make Your AI Agent More Predictable</title>
-    <link href="https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4" rel="alternate"/>
-    <id>https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4</id>
-    <updated>2026-08-11T10:20:35Z</updated>
-    <summary type="text">After months of building with AI coding tools, I found the difference between generated code that works and generated code that ships comes down to how you communicate with the AI. I have been sharing these lessons in a talk called &quot;It's Dangerous to Code Alone! Take This: Developer's AI Survival Guide&quot; and people keep asking me to write them down. How big is the gap? An MIT study across 100,000+ </summary>
-    <author><name>Salih Guler</name></author>
     <category term="llm"/>
     <category term="agents"/>
   </entry>
