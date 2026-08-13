@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-13T15:01:50Z</updated>
+  <updated>2026-08-13T16:59:37Z</updated>
   <entry>
     <title>Okta targets AI agent token costs with MCP scoping</title>
     <link href="https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs. Each model call made by an AI agent can include schemas, names, descriptions and parameters for every tool exposed by a MCP server. Okta calls the resulting prompt overhead the “tool tax”: tokens consumed as a model considers tools, including […] The post Okta targets AI agent token costs with MCP sc</summary>
     <author><name>Ryan Daws</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Microsoft kills off unsuccessful AI features while merging its separate Copilot apps</title>
+    <link href="https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/</id>
+    <updated>2026-08-13T15:30:52Z</updated>
+    <summary type="text">Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.</summary>
+    <author><name>Sarah Perez</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Microsoft is combining its Copilot apps ahead of a ‘super app’</title>
@@ -40,6 +49,25 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Letting an AI ask 'what shipped in this field this week?'</title>
+    <link href="https://dev.to/rss-atlas/letting-an-ai-ask-what-shipped-in-this-field-this-week-1nk0" rel="alternate"/>
+    <id>https://dev.to/rss-atlas/letting-an-ai-ask-what-shipped-in-this-field-this-week-1nk0</id>
+    <updated>2026-08-13T16:48:03Z</updated>
+    <summary type="text">Ask an assistant about recent developments and you get one of two things: whatever was in its training data, or the top few web search results. What you cannot ask is the thing you actually want — &quot;what came out in Rust tooling in the last two weeks&quot; — scoped to a field, across the sources that cover it. Those sources exist. They are RSS feeds. They are just not reachable from an AI tool. So I bui</summary>
+    <author><name>RSS Atlas</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hybrid Retrieval v2: Qwen Embeddings, BM25, and RRF with a FastEmbed Reranker</title>
+    <link href="https://dev.to/futhgar/hybrid-retrieval-v2-qwen-embeddings-bm25-and-rrf-with-a-fastembed-reranker-1702" rel="alternate"/>
+    <id>https://dev.to/futhgar/hybrid-retrieval-v2-qwen-embeddings-bm25-and-rrf-with-a-fastembed-reranker-1702</id>
+    <updated>2026-08-13T16:15:48Z</updated>
+    <summary type="text">A query for ndots:5 against my wiki index used to return the article that exists specifically to explain ndots:5 at position seven. Ahead of it sat three general DNS articles, two Kubernetes networking posts, and something about service discovery. My embedding model understood the topic perfectly and had no idea that the literal string mattered. That is the dense retrieval failure mode in one sent</summary>
+    <author><name>Guatu</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>How to Track AI Referral Traffic from ChatGPT, Claude, Gemini and Perplexity in GA4 ?</title>
@@ -439,33 +467,5 @@
     <author><name>Ruben Santos</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What AI Agents Can Teach Us About NHI Governance</title>
-    <link href="https://dev.to/gitguardian/what-ai-agents-can-teach-us-about-nhi-governance-1546" rel="alternate"/>
-    <id>https://dev.to/gitguardian/what-ai-agents-can-teach-us-about-nhi-governance-1546</id>
-    <updated>2026-08-11T19:54:50Z</updated>
-    <summary type="text">Artificial intelligence (AI) is a broad field with many practical applications. Over the past few years, we have seen explosive growth in generative AI, driven by systems like ChatGPT, Copilot, and other interactive tools that help developers write code and users create content. More recently, we have also seen the rise of &quot;Agentic AI,&quot; in which orchestrators coordinate actions across one or more </summary>
-    <author><name>Dwayne McDaniel</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built GitX to turn messy AI-generated changes into clean Git history</title>
-    <link href="https://dev.to/musoyangrigor/i-built-gitx-to-turn-messy-ai-generated-changes-into-clean-git-history-1408" rel="alternate"/>
-    <id>https://dev.to/musoyangrigor/i-built-gitx-to-turn-messy-ai-generated-changes-into-clean-git-history-1408</id>
-    <updated>2026-08-11T19:46:10Z</updated>
-    <summary type="text">AI coding agents are great at changing code. But after a long session with Codex, Claude Code, Cursor, or another coding agent, I often end up with something like this: 17 changed files Some files belong to a feature. Some belong to a bug fix. Some are tests. Some are documentation. Putting everything into one commit works, but it usually creates messy Git history. So I built GitX. GitX is a porta</summary>
-    <author><name>Grigor Musoyan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The unofficial TPU migration guide: Cloud TPU API to Compute Engine</title>
-    <link href="https://dev.to/gde/the-unofficial-tpu-migration-guide-cloud-tpu-api-to-compute-engine-2co7" rel="alternate"/>
-    <id>https://dev.to/gde/the-unofficial-tpu-migration-guide-cloud-tpu-api-to-compute-engine-2co7</id>
-    <updated>2026-08-11T19:46:01Z</updated>
-    <summary type="text">Cloud TPU resources in Compute Engine puts it plainly: The Cloud TPU API is no longer under active development. This includes the Google Cloud CLI for the Cloud TPU API and the Cloud Client Libraries for the Cloud TPU API. The Cloud TPU API will receive bug fixes and security updates only. New hardware generations, starting with TPU7x (Ironwood), are supported only through Compute Engine or Google</summary>
-    <author><name>xbill</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
