@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-13T22:47:32Z</updated>
+  <updated>2026-08-13T23:45:58Z</updated>
+  <entry>
+    <title>Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens</title>
+    <link href="https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/</id>
+    <updated>2026-08-13T17:47:41Z</updated>
+    <summary type="text">Google has released Gemini 3.7 Flash, a refinement of Gemini 3.6 Flash with algorithmic improvements to its reasoning core. It handles text, images, audio, and video across a 1M-token context window with 64K-token output, and supports customizable thinking configurations. Coding results move notably: 43.6% on FrontierCode 1.1 Main versus 34.4%, 65.3% on DeepSWE v1.1, and 1588 Elo on WebDev Arena. </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device</title>
+    <link href="https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/</id>
+    <updated>2026-08-13T15:56:03Z</updated>
+    <summary type="text">Liquid AI released LFM2.5-VL-3B, a 3.1B-parameter vision-language model built for on-device deployment. It averages 80.7 on ScreenSpot-v2 and lifts RefCOCO grounding from 57.1 to 87.9. Function calling is new to the VL line, with ToolSandbox moving from 26.4 to 59.5. The model fits in roughly 3 GB and decodes 228 tokens/s on an Apple M5 Max. The post Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-La</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Microsoft’s Clippy-like Mico character is no longer the face of Copilot</title>
     <link href="https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired" rel="alternate"/>
@@ -40,6 +59,16 @@
     <summary type="text">Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single &quot;super app&quot; interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the &quot;Microsoft Copilot&quot; name but features an updated app icon. The single […]</summary>
     <author><name>Jess Weatherbed</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Introducing platformgen: Build Platforms with AI — Now Open Source</title>
+    <link href="https://dev.to/technovet/introducing-platformgen-build-platforms-with-ai-now-open-source-1e92" rel="alternate"/>
+    <id>https://dev.to/technovet/introducing-platformgen-build-platforms-with-ai-now-open-source-1e92</id>
+    <updated>2026-08-13T23:22:44Z</updated>
+    <summary type="text">Introducing platformgen: Build Platforms with AI We're excited to announce the open-source release of platformgen — a meta-platform builder that uses AI to generate production platforms in days instead of months. What Is platformgen? platformgen is not another SaaS platform. It's a tool that builds platforms. Give it a description, and it generates: ✅ Database schema ✅ REST/GraphQL APIs ✅ Frontend</summary>
+    <author><name>PlatformGen.ai</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Langfuse for LLM Observability: Tracing Agent Calls Instead of Guessing</title>
@@ -429,33 +458,5 @@
     <updated>2026-08-12T13:01:19Z</updated>
     <summary type="text">You didn't fail the coding round. You failed a sentence. Here's a scenario I hear constantly from senior engineers in Prague, Berlin, Warsaw, and Lisbon: strong system design round, clean code, great references. Then a rejection with vague feedback like &quot;not the right fit&quot; or &quot;we didn't feel confident in the leadership signal.&quot; Nine times out of ten, the actual moment that killed the offer wasn't </summary>
     <author><name>Jerry Kasem</name></author>
-  </entry>
-  <entry>
-    <title>Building a RAG System From Scratch — Four Components, One Working Pipeline</title>
-    <link href="https://dev.to/rit_the_coder/building-a-rag-system-from-scratch-four-components-one-working-pipeline-5ad8" rel="alternate"/>
-    <id>https://dev.to/rit_the_coder/building-a-rag-system-from-scratch-four-components-one-working-pipeline-5ad8</id>
-    <updated>2026-08-12T11:40:08Z</updated>
-    <summary type="text">Most RAG tutorials explain the concept. This one shows the code — a complete working pipeline using LangChain, ChromaDB, and a local LLM via LM Studio. No OpenAI API key. No cloud costs. The business problem: A company has hundreds of pages of HR documentation. Employees ask questions. An AI answers accurately from the actual documents in seconds. Stack: Python, LangChain, ChromaDB, nomic-embed-te</summary>
-    <author><name>Ritesh Totlani</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Agent-Devtools: A local toolkit for building &amp; debugging AI Agents</title>
-    <link href="https://dev.to/jacopo_sardella_b7670f3f4/agent-devtools-a-local-toolkit-for-building-debugging-ai-agents-3j2a" rel="alternate"/>
-    <id>https://dev.to/jacopo_sardella_b7670f3f4/agent-devtools-a-local-toolkit-for-building-debugging-ai-agents-3j2a</id>
-    <updated>2026-08-12T09:56:20Z</updated>
-    <summary type="text">Hi everyone! I built Agent-Devtools — a lightweight Python project to simplify debugging and tracking AI agents without the bloat. Causal Debugging: Track memory influence, retrieval winners, injected context, and tool calls. Behavior Diffing: Compare a &quot;good&quot; vs. &quot;bad&quot; run to pinpoint the exact root cause of divergence. Deterministic Replay: Re-play recorded events offline to verify memory &amp; retr</summary>
-    <author><name>Jacopo Sardella</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Can You Run Hybrid Search on One Database? Yes! Here's How CrateDB Does It</title>
-    <link href="https://dev.to/srmadscience/can-you-run-hybrid-search-on-one-database-yes-heres-how-cratedb-does-it-42i" rel="alternate"/>
-    <id>https://dev.to/srmadscience/can-you-run-hybrid-search-on-one-database-yes-heres-how-cratedb-does-it-42i</id>
-    <updated>2026-08-12T09:45:15Z</updated>
-    <summary type="text">Search has got more powerful, but also more complicated It used to be that database queries were simple enough. Either you had an index, or you didn't, and either way you had some kind of optimizer (cost or rule) that turned your SQL statement into a viable plan for finding and returning your data. We now live in a world where in addition to the Boolean logic of traditional RDBMS queries, we also </summary>
-    <author><name>David Rolfe</name></author>
   </entry>
 </feed>
