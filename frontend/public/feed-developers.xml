@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-13T21:53:28Z</updated>
+  <updated>2026-08-13T22:47:32Z</updated>
   <entry>
     <title>Microsoft’s Clippy-like Mico character is no longer the face of Copilot</title>
     <link href="https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired" rel="alternate"/>
@@ -40,6 +40,25 @@
     <summary type="text">Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single &quot;super app&quot; interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the &quot;Microsoft Copilot&quot; name but features an updated app icon. The single […]</summary>
     <author><name>Jess Weatherbed</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Langfuse for LLM Observability: Tracing Agent Calls Instead of Guessing</title>
+    <link href="https://dev.to/futhgar/langfuse-for-llm-observability-tracing-agent-calls-instead-of-guessing-7h3" rel="alternate"/>
+    <id>https://dev.to/futhgar/langfuse-for-llm-observability-tracing-agent-calls-instead-of-guessing-7h3</id>
+    <updated>2026-08-13T22:15:48Z</updated>
+    <summary type="text">An agent makes six tool calls, picks the wrong one on step four, and the final output is garbage. You stare at your logs. You see the input. You see the output. Everything in between is a void. That's the black box problem with agentic LLM workflows, and it's the reason I started looking at Langfuse seriously. If you're running multi-step agents (LangChain, custom loops, or any orchestration layer</summary>
+    <author><name>Guatu</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Give your coding agent project memory without paying for it every message</title>
+    <link href="https://dev.to/muhammad_anasbabar_31256/give-your-coding-agent-project-memory-without-paying-for-it-every-message-4nfj" rel="alternate"/>
+    <id>https://dev.to/muhammad_anasbabar_31256/give-your-coding-agent-project-memory-without-paying-for-it-every-message-4nfj</id>
+    <updated>2026-08-13T22:04:22Z</updated>
+    <summary type="text">If you use an agentic coding tool — Claude Code, or anything with a persistent instructions file — you've probably hit this. You start a CLAUDE.md (or .cursorrules, or AGENTS.md) with a few conventions. It's useful. So you add the architecture. Then the gotchas. Then the three things it keeps getting wrong. Six months later it's 800 lines, and you are paying for all 800 of them on every single mes</summary>
+    <author><name>Muhammad Anas Babar</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Reflecting on 7-8 Years of Career Growth: Adaptability and Continuous Learning Key to Senior Data Engineer Success</title>
@@ -438,23 +457,5 @@
     <updated>2026-08-12T09:45:15Z</updated>
     <summary type="text">Search has got more powerful, but also more complicated It used to be that database queries were simple enough. Either you had an index, or you didn't, and either way you had some kind of optimizer (cost or rule) that turned your SQL statement into a viable plan for finding and returning your data. We now live in a world where in addition to the Boolean logic of traditional RDBMS queries, we also </summary>
     <author><name>David Rolfe</name></author>
-  </entry>
-  <entry>
-    <title>How to migrate Laravel 13 + Next.js to Zero-Downtime VPS Releases</title>
-    <link href="https://dev.to/dineshstack/how-to-migrate-laravel-13-nextjs-to-zero-downtime-vps-releases-17i3" rel="alternate"/>
-    <id>https://dev.to/dineshstack/how-to-migrate-laravel-13-nextjs-to-zero-downtime-vps-releases-17i3</id>
-    <updated>2026-08-12T08:12:06Z</updated>
-    <summary type="text">Part 9 of the CI/CD for Laravel Developers series. Migrate Laravel 13 + Next.js to zero-downtime VPS releases in under 20 minutes — no downtime during the migration itself. This post is part of the DevOps series on deploying Laravel and Next.js with GitHub Actions. Most tutorials assume you're starting from scratch. This one assumes you already have a live project at /var/www/your-project and want</summary>
-    <author><name>Dinesh Wijethunga</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Developers are installing taste: 4 of today's 7 fastest-rising Claude Code skill searches are design skills</title>
-    <link href="https://dev.to/skillselion/developers-are-installing-taste-4-of-todays-7-fastest-rising-claude-code-skill-searches-are-3mjh" rel="alternate"/>
-    <id>https://dev.to/skillselion/developers-are-installing-taste-4-of-todays-7-fastest-rising-claude-code-skill-searches-are-3mjh</id>
-    <updated>2026-08-12T08:09:25Z</updated>
-    <summary type="text">Disclosure: I run Skillselion, a live catalog of agent skills refreshed daily from skills.sh, GitHub and MCP registries, ranked by real installs. Every number in this post was pulled from it on August 12, 2026. Here is the finding up front: of the seven fastest-rising skill searches on Skillselion today, four are design skills. Together those four skills have 1,659,726 installs, and the search gro</summary>
-    <author><name>Skillselion</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
