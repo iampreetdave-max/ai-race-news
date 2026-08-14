@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-14T19:05:14Z</updated>
+  <updated>2026-08-14T20:35:13Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -60,6 +60,14 @@
     <summary type="text">SpaceX has completed a $60 billion acquisition of artificial intelligence coding startup Cursor, a key part of Elon Musk’s bid to gain ground on rivals Anthropic PBC and OpenAI.</summary>
     <author><name>Carmen Arroyo and Natasha Mascarenhas</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kubernetes OOMKilled — diagnose with a plan, not a wall of kubectl</title>
+    <link href="https://dev.to/muhtalipdede/kubernetes-oomkilled-diagnose-with-a-plan-not-a-wall-of-kubectl-4997" rel="alternate"/>
+    <id>https://dev.to/muhtalipdede/kubernetes-oomkilled-diagnose-with-a-plan-not-a-wall-of-kubectl-4997</id>
+    <updated>2026-08-14T20:29:14Z</updated>
+    <summary type="text">OOMKilled is a classic day-2 rabbit hole: events, limits, restarts, then a risky scale or edit. kprompt turns the investigation prompt into a reviewable plan before apply. Originally published at https://kprompt.ai/blog/kubernetes-oomkilled. OOMKilled is one of the most common “the app is broken” signals in Kubernetes — and one of the easiest to misread. The Pod may still show Running. Restarts cl</summary>
+    <author><name>Muhtalip Dede</name></author>
   </entry>
   <entry>
     <title>Your MCP server didn't break. The protocol did.</title>
@@ -452,15 +460,5 @@
     <updated>2026-08-13T17:55:00Z</updated>
     <summary type="text">Microsoft Fabric workspaces are edited in a browser. That works until you have more than one environment and need changes to move between them with a review step and a way back. This is the smallest thing that does that: one Python script, one Azure DevOps pipeline, three branches, three workspaces. Runs as a service principal, so no human session is involved. Full code: [https://github.com/vedafo</summary>
     <author><name>Mintu Ghosh</name></author>
-  </entry>
-  <entry>
-    <title>Researchers can now reverse-engineer LLM prompts from output text with near-perfect accuracy</title>
-    <link href="https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/" rel="alternate"/>
-    <id>https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/</id>
-    <updated>2026-08-12T17:32:59Z</updated>
-    <summary type="text">Researchers at IIT Bombay and Adobe Research have built an inverse language model that reconstructs the original prompt from an LLM's output with near-perfect accuracy. Their method, called &quot;Previous-Token Prediction,&quot; doesn't need access to model weights and works across different models. For companies relying on proprietary system prompts, this could be a serious security risk. The article Resea</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
