@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-14T15:56:06Z</updated>
+  <updated>2026-08-14T16:58:26Z</updated>
+  <entry>
+    <title>OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline</title>
+    <link href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/" rel="alternate"/>
+    <id>https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/</id>
+    <updated>2026-08-14T16:43:43Z</updated>
+    <summary type="text">OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as training data. The article OpenAI's Computer History turns your clicks and keystrokes into a searchabl</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras</title>
     <link href="https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/" rel="alternate"/>
@@ -49,6 +58,33 @@
     <updated>2026-08-13T17:47:41Z</updated>
     <summary type="text">Google has released Gemini 3.7 Flash, a refinement of Gemini 3.6 Flash with algorithmic improvements to its reasoning core. It handles text, images, audio, and video across a 1M-token context window with 64K-token output, and supports customizable thinking configurations. Coding results move notably: 43.6% on FrontierCode 1.1 Main versus 34.4%, 65.3% on DeepSWE v1.1, and 1588 Elo on WebDev Arena. </summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Reviving Open Source Giants: How I Brought Weave Scope Back with Multi-Platform Docker Support in One Afternoon Using Antigravity</title>
+    <link href="https://dev.to/gde/reviving-open-source-giants-how-i-brought-weave-scope-back-with-multi-platform-docker-support-in-cmo" rel="alternate"/>
+    <id>https://dev.to/gde/reviving-open-source-giants-how-i-brought-weave-scope-back-with-multi-platform-docker-support-in-cmo</id>
+    <updated>2026-08-14T16:36:10Z</updated>
+    <summary type="text">The open-source ecosystem is full of architectural masterpieces that—due to corporate pivots, lack of maintainers, or shifting market focus—eventually get frozen in time. One of the most prominent examples is Weave Scope: a legendary tool for visual monitoring, real-time mapping, and debugging container clusters. When the original repository was archived and left unmaintained, its dependency tree </summary>
+    <author><name>Mario Ezquerro</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Gemini 3.7 Flash Makes Agent Cost the Feature</title>
+    <link href="https://dev.to/reidmarlow/gemini-37-flash-makes-agent-cost-the-feature-33ee" rel="alternate"/>
+    <id>https://dev.to/reidmarlow/gemini-37-flash-makes-agent-cost-the-feature-33ee</id>
+    <updated>2026-08-14T16:35:28Z</updated>
+    <summary type="text">Gemini 3.7 Flash Makes Agent Cost the Feature Google shipped Gemini 3.7 Flash on August 13, three weeks after 3.6 Flash. The headline is coding and agent workflows. The part I care about is the pricing table. Through the end of 2026, 3.7 Flash costs $0.75 per million input tokens and $3.75 per million output tokens. Google says that is half the original 3.6 Flash price. On January 1, 2027, it move</summary>
+    <author><name>Reid Marlow</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My Audit Log Bug Got Logged as &quot;an Open Gap.&quot; It Sat Unfixed for Two Weeks Anyway.</title>
+    <link href="https://dev.to/enjoy_kumawat/my-audit-log-bug-got-logged-as-an-open-gap-it-sat-unfixed-for-two-weeks-anyway-5bom" rel="alternate"/>
+    <id>https://dev.to/enjoy_kumawat/my-audit-log-bug-got-logged-as-an-open-gap-it-sat-unfixed-for-two-weeks-anyway-5bom</id>
+    <updated>2026-08-14T16:11:19Z</updated>
+    <summary type="text">Two weeks ago I audited an audit log. update_article, one of the tools in the MCP server I run for managing my DEV.to account, writes a JSONL trace every time it edits a live article — before/after values, which fields changed, the article's URL. It was built after an earlier bug where a wrong or hallucinated article_id silently overwrote whatever it pointed at with no record anything had happened</summary>
+    <author><name>Enjoy Kumawat</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -427,44 +463,6 @@
     <summary type="text">AI assistants are becoming a measurable source of website traffic. People now use ChatGPT, Claude, Gemini, Perplexity and other AI assistants to research products, compare tools, solve problems and discover websites. When someone clicks a link suggested by one of these assistants, the visit may appear inside Google Analytics 4 as referral traffic. That means you can already start identifying AI tr</summary>
     <author><name>Edward Calanni</name></author>
     <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Approach Any System Design Problem</title>
-    <link href="https://dev.to/akarsh_7464bb454ffc25d1e2/how-to-approach-any-system-design-problem-5b0g" rel="alternate"/>
-    <id>https://dev.to/akarsh_7464bb454ffc25d1e2/how-to-approach-any-system-design-problem-5b0g</id>
-    <updated>2026-08-13T14:35:06Z</updated>
-    <summary type="text">System Design can feel overwhelming. You hear words like Load Balancer, Redis, Kafka, Sharding, Replication, CDN, Microservices… …and suddenly the question looks much harder than it actually is. But here's the important part: You don't need to know every technology to solve a System Design problem. You need a repeatable way of thinking. The Problem 🧩 Imagine you're asked: &quot;Design YouTube.&quot; Your fi</summary>
-    <author><name>Akarsh</name></author>
-  </entry>
-  <entry>
-    <title>LangChain vs LangGraph: 4 Key Differences and When to Use Each</title>
-    <link href="https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/" rel="alternate"/>
-    <id>https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/</id>
-    <updated>2026-08-13T12:00:00Z</updated>
-    <summary type="text">A practical guide to choose the proper tool for your agentic workflows and systems The post LangChain vs LangGraph: 4 Key Differences and When to Use Each appeared first on Towards Data Science.</summary>
-    <author><name>Soner Yıldırım</name></author>
-    <category term="agents"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Building an outbound sales agent as a Claude Code plugin (and open-sourcing it)</title>
-    <link href="https://dev.to/leadace/building-an-outbound-sales-agent-as-a-claude-code-plugin-and-open-sourcing-it-17ae" rel="alternate"/>
-    <id>https://dev.to/leadace/building-an-outbound-sales-agent-as-a-claude-code-plugin-and-open-sourcing-it-17ae</id>
-    <updated>2026-08-13T11:45:10Z</updated>
-    <summary type="text">I run a small software company in Tokyo. I am an engineer, not a salesperson. Cold outbound was the part of my job I kept avoiding. So I built an agent that does it for me. It runs as a Claude Code plugin, and the whole stack is open source. This post is about the architecture decisions that mattered. The product is LeadAce (leadace.ai, source). It is in Public Beta. It finds companies that match </summary>
-    <author><name>UNO Leo</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>From assistance to execution: How enterprises put AI to work</title>
-    <link href="https://openai.com/index/how-enterprises-put-ai-to-work" rel="alternate"/>
-    <id>https://openai.com/index/how-enterprises-put-ai-to-work</id>
-    <updated>2026-08-12T06:00:00Z</updated>
-    <summary type="text">OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>
