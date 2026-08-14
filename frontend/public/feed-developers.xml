@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-14T22:27:42Z</updated>
+  <updated>2026-08-14T23:26:03Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -59,6 +59,25 @@
     <updated>2026-08-14T12:55:33Z</updated>
     <summary type="text">SpaceX has completed a $60 billion acquisition of artificial intelligence coding startup Cursor, a key part of Elon Musk’s bid to gain ground on rivals Anthropic PBC and OpenAI.</summary>
     <author><name>Carmen Arroyo and Natasha Mascarenhas</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Writing evidence-linked docs exposed two missing regression tests</title>
+    <link href="https://dev.to/shikiyusuke/writing-evidence-linked-docs-exposed-two-missing-regression-tests-3524" rel="alternate"/>
+    <id>https://dev.to/shikiyusuke/writing-evidence-linked-docs-exposed-two-missing-regression-tests-3524</id>
+    <updated>2026-08-14T23:15:18Z</updated>
+    <summary type="text">This is a crosspost of the canonical version on GitHub. 1. Problem I run agent-cost, a small open-source CLI that reads local Claude Code / Codex CLI usage logs and estimates token cost. I wanted documentation for it more trustworthy than a hand-written README: not prose claiming &quot;the reader handles the TTL cache-write breakdown correctly,&quot; but claims that each point at the exact test or source li</summary>
+    <author><name>Yusuke Shiki</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built a tool that tells me if readers actually understood my articles</title>
+    <link href="https://dev.to/autoshiftops/i-built-a-tool-that-tells-me-if-readers-actually-understood-my-articles-44d5" rel="alternate"/>
+    <id>https://dev.to/autoshiftops/i-built-a-tool-that-tells-me-if-readers-actually-understood-my-articles-44d5</id>
+    <updated>2026-08-14T23:09:44Z</updated>
+    <summary type="text">After publishing 66 technical articles on DevOps and AI infrastructure, I realised I had a blind spot. I knew how many people visited my articles. I had no idea how many people understood them. Page views, bounce rates, time on page — none of these tell you whether your explanation of Kubernetes state management actually made sense to the reader. So I built QuizOps. What it does You paste your art</summary>
+    <author><name>Sajja Sudhakararao</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -444,22 +463,5 @@
     <updated>2026-08-13T20:16:53Z</updated>
     <summary type="text">AWS RDS Blue/Green deployment is a powerful zero-downtime tool, but its Green environment is read-only by design. Here is how to layer a snapshot-based test instance on top of it to validate application compatibility before committing to the full switchover. There is a moment every DevOps engineer, DBA, and SRE dreads: a database engine reaches end-of-life, AWS begins billing you for Extended Supp</summary>
     <author><name>Samuel Ajisafe</name></author>
-  </entry>
-  <entry>
-    <title>I got tired of SSHing into 10 VMs a day, so I built a live map of my whole infrastructure</title>
-    <link href="https://dev.to/bytestrix/i-got-tired-of-sshing-into-10-vms-a-day-so-i-built-a-live-map-of-my-whole-infrastructure-2iil" rel="alternate"/>
-    <id>https://dev.to/bytestrix/i-got-tired-of-sshing-into-10-vms-a-day-so-i-built-a-live-map-of-my-whole-infrastructure-2iil</id>
-    <updated>2026-08-13T20:12:44Z</updated>
-    <summary type="text">Every day at work looked the same. Something breaks, or I need to push a new image, and I'm SSHing into three different VMs, running docker ps on one, kubectl get pods on another, piecing together in my head what's actually connected to what. The official Kubernetes dashboard never stuck for me either, and I never bothered installing Lens everywhere I needed it. At some point I just wanted one thi</summary>
-    <author><name>ByteStrix</name></author>
-  </entry>
-  <entry>
-    <title>Vim-Fu</title>
-    <link href="https://dev.to/nasr_maswood/vim-fu-3h5p" rel="alternate"/>
-    <id>https://dev.to/nasr_maswood/vim-fu-3h5p</id>
-    <updated>2026-08-13T19:39:40Z</updated>
-    <summary type="text">I used to take ferocious pride in my Vim skills. I knew all the hot keys, tricks and tips. I wrote macros, memorized register mappings and even dabbled in Vim script. My Vim-Fu was strong. Nowadays, my Vim skills have mostly atrophied. I rarely open a text editor and my .vimrc is outdated and sad. Times have changed. Nobody writes code by hand anymore. Instead we practically will it into existence</summary>
-    <author><name>Nasr Maswood</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
