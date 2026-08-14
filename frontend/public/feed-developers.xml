@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-14T06:17:48Z</updated>
+  <updated>2026-08-14T08:19:08Z</updated>
   <entry>
     <title>Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens</title>
     <link href="https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/" rel="alternate"/>
@@ -49,6 +49,34 @@
     <updated>2026-08-13T15:30:52Z</updated>
     <summary type="text">Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.</summary>
     <author><name>Sarah Perez</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I built the bug report your AI builder actually needs</title>
+    <link href="https://dev.to/douglas_masho_55acbd813d0/i-built-the-bug-report-your-ai-builder-actually-needs-1kpa" rel="alternate"/>
+    <id>https://dev.to/douglas_masho_55acbd813d0/i-built-the-bug-report-your-ai-builder-actually-needs-1kpa</id>
+    <updated>2026-08-14T07:57:49Z</updated>
+    <summary type="text">About a month ago, I caught myself doing something dumb for the fifth time in a row. Something broke in a project I was building with Claude Code. I typed &quot;it's not working&quot; into the chat. It guessed. Wrong fix. It asked me what the network tab showed. I knew exactly what it showed, I'm a full-stack dev, but by the time I'd opened DevTools, found the failed request, copied the relevant bit, and pa</summary>
+    <author><name>Douglas Masho</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The real LLMOps risk isn't the model. It's shadow AI.</title>
+    <link href="https://dev.to/thegatewayguy/the-real-llmops-risk-isnt-the-model-its-shadow-ai-4m86" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/the-real-llmops-risk-isnt-the-model-its-shadow-ai-4m86</id>
+    <updated>2026-08-14T07:56:32Z</updated>
+    <summary type="text">Large language models broke the clean &quot;train it, test it, ship it&quot; model of production ML. The thing being operated is now a system that chains prompts, queries vector databases, and produces output judged on tone and safety — not just accuracy. That's LLMOps. And it's currently landing on top of your existing DevOps and MLOps workflows without a clear owner. CNCF's Daniel Bryant has a clear take </summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>One set of AI standards, every tool: Cursor, Claude Code, and Copilot</title>
+    <link href="https://dev.to/prathakmalik/one-set-of-ai-standards-every-tool-cursor-claude-code-and-copilot-1pbi" rel="alternate"/>
+    <id>https://dev.to/prathakmalik/one-set-of-ai-standards-every-tool-cursor-claude-code-and-copilot-1pbi</id>
+    <updated>2026-08-14T07:55:32Z</updated>
+    <summary type="text">Part 2 of the agent-standards-as-code series. Part 1 made the case for versioning your AI standards as code. This post makes them work across tools and operating systems. Code pinned at v0.2. In part 1 we put our AI coding standards in one git repo and auto-synced them into Cursor. Great — until a teammate says &quot;I use Claude Code,&quot; another says &quot;we're on Copilot in VS Code,&quot; and half the team is o</summary>
+    <author><name>Prathak Malik</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -435,31 +463,5 @@
     <summary type="text">Every few weeks a new coding model launches with a price tag that makes the incumbent look embarrassing, and my feed fills up with people rewriting their configs on day one. I've been burned by this twice: once a &quot;drop-in replacement&quot; silently stopped emitting valid unified diffs, and once a cheaper model passed all my prompts but tripled the retry rate on long files, which erased the savings. So </summary>
     <author><name>Jordan Huang</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Claude Code 2.1.229: Keep Vertex and Bedrock Gateway Streams Alive</title>
-    <link href="https://dev.to/ahab_indieseek/claude-code-21229-keep-vertex-and-bedrock-gateway-streams-alive-1f9n" rel="alternate"/>
-    <id>https://dev.to/ahab_indieseek/claude-code-21229-keep-vertex-and-bedrock-gateway-streams-alive-1f9n</id>
-    <updated>2026-08-13T01:21:02Z</updated>
-    <summary type="text">Claude Code 2.1.229: keep Vertex and Bedrock gateway streams alive during long thinking Quick answer Claude Code 2.1.229 adds SSE keepalive pings to gateway streaming responses during long model-thinking pauses. Anthropic says the change prevents idle-timeout disconnects on Google Vertex AI and Amazon Bedrock upstreams. Upgrade the Claude Code client that actually opens the provider stream, then r</summary>
-    <author><name>Ahab</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Vibes Are Not a Benchmark: A 30-Minute Harness to Test Whether a Free Coding Model Can Touch Your Repo</title>
-    <link href="https://dev.to/hackrs_6393/vibes-are-not-a-benchmark-a-30-minute-harness-to-test-whether-a-free-coding-model-can-touch-your-3f94" rel="alternate"/>
-    <id>https://dev.to/hackrs_6393/vibes-are-not-a-benchmark-a-30-minute-harness-to-test-whether-a-free-coding-model-can-touch-your-3f94</id>
-    <updated>2026-08-12T23:09:08Z</updated>
-    <summary type="text">Last month I wrote about the six questions I ask every new model. Those questions are good for a first impression, but they have a blind spot: they tell me how a model talks about code, not whether it can survive contact with my code. So I built a small, ugly, reproducible harness that runs any coding model against five tasks drawn from my own git history, scores the results with my real test suit</summary>
-    <author><name>Dakota Huang</name></author>
-  </entry>
-  <entry>
-    <title>Batch vs Streaming en Data Engineering: cómo decidir en producción sin romper nada</title>
-    <link href="https://dev.to/agusmazzeo/batch-vs-streaming-en-data-engineering-como-decidir-en-produccion-sin-romper-nada-7p3" rel="alternate"/>
-    <id>https://dev.to/agusmazzeo/batch-vs-streaming-en-data-engineering-como-decidir-en-produccion-sin-romper-nada-7p3</id>
-    <updated>2026-08-12T22:25:43Z</updated>
-    <summary type="text">Batch vs Streaming en Data Engineering: cómo decidir en producción sin romper nada Introducción En Data Engineering, la pregunta no es si usar batch o streaming. La pregunta correcta es: ¿qué problema estoy resolviendo y qué trade-offs puedo aceptar? Batch vs streaming no es una diferencia conceptual. Es una decisión operativa que impacta costos, mantenimiento, confiabilidad y latencia. Elegir mal</summary>
-    <author><name>Agustín José Mazzeo</name></author>
-    <category term="data"/>
   </entry>
 </feed>
