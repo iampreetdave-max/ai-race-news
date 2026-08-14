@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-14T04:51:58Z</updated>
+  <updated>2026-08-14T06:17:48Z</updated>
   <entry>
     <title>Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens</title>
     <link href="https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/" rel="alternate"/>
@@ -58,6 +58,35 @@
     <updated>2026-08-13T13:30:00Z</updated>
     <summary type="text">Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single &quot;super app&quot; interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the &quot;Microsoft Copilot&quot; name but features an updated app icon. The single […]</summary>
     <author><name>Jess Weatherbed</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Context Windows Are Not Memory</title>
+    <link href="https://dev.to/chillpill_ak/context-windows-are-not-memory-2edn" rel="alternate"/>
+    <id>https://dev.to/chillpill_ak/context-windows-are-not-memory-2edn</id>
+    <updated>2026-08-14T05:44:10Z</updated>
+    <summary type="text">Everyone is racing to make AI smarter. Almost nobody is asking what it's allowed to remember. I'm starting a daily series on the least understood layer in AI. Day 1. Here's the confusion at the center of it: we've started calling the context window &quot;memory.&quot; It isn't. A context window is a desk. You pile things on it, you work, and at the end of the session someone clears the desk. Bigger models j</summary>
+    <author><name>Abhishek Kundagol</name></author>
+    <category term="agents"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Event-Driven Architecture on AWS: SQS vs SNS vs EventBridge vs Kinesis — Patterns, Anti-Patterns, and When to Use What</title>
+    <link href="https://dev.to/alpeshkumbhare/event-driven-architecture-on-aws-sqs-vs-sns-vs-eventbridge-vs-kinesis-patterns-anti-patterns-4l7l" rel="alternate"/>
+    <id>https://dev.to/alpeshkumbhare/event-driven-architecture-on-aws-sqs-vs-sns-vs-eventbridge-vs-kinesis-patterns-anti-patterns-4l7l</id>
+    <updated>2026-08-14T05:38:42Z</updated>
+    <summary type="text">Event-driven architecture (EDA) is how modern distributed systems communicate at scale. Instead of services calling each other directly (tight coupling), services emit events (&quot;this happened&quot;) and interested consumers react independently. On AWS, four messaging services form the EDA backbone — but they solve different problems. Choosing wrong means either over-engineering a simple notification int</summary>
+    <author><name>AlpeshKumbhare</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Fixing DeepSeek Harness Flutter coding agent: My 30% Better ListView Prompt</title>
+    <link href="https://dev.to/umair24171/fixing-deepseek-harness-flutter-coding-agent-my-30-better-listview-prompt-5hmh" rel="alternate"/>
+    <id>https://dev.to/umair24171/fixing-deepseek-harness-flutter-coding-agent-my-30-better-listview-prompt-5hmh</id>
+    <updated>2026-08-14T05:28:53Z</updated>
+    <summary type="text">This article was originally published on BuildZn. Okay, if you're like me, you've spent way too much time debugging AI-generated Flutter UI code that almost works but consistently breaks layout. Specifically, getting a DeepSeek Harness Flutter coding agent to generate idiomatic ListView.builder code without weird shrinkWrap shenanigans or RenderFlex overflows felt like pulling teeth. Everyone talk</summary>
+    <author><name>Umair Bilal</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -432,34 +461,5 @@
     <summary type="text">Batch vs Streaming en Data Engineering: cómo decidir en producción sin romper nada Introducción En Data Engineering, la pregunta no es si usar batch o streaming. La pregunta correcta es: ¿qué problema estoy resolviendo y qué trade-offs puedo aceptar? Batch vs streaming no es una diferencia conceptual. Es una decisión operativa que impacta costos, mantenimiento, confiabilidad y latencia. Elegir mal</summary>
     <author><name>Agustín José Mazzeo</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude's tool_use and tool_result Content Blocks, End to End</title>
-    <link href="https://dev.to/multigrid/claudes-tooluse-and-toolresult-content-blocks-end-to-end-3nli" rel="alternate"/>
-    <id>https://dev.to/multigrid/claudes-tooluse-and-toolresult-content-blocks-end-to-end-3nli</id>
-    <updated>2026-08-12T22:20:58Z</updated>
-    <summary type="text">Tool use on the Messages API is not a special mode. It is two content block types and a loop you write yourself, and the entire protocol fits on one page. Step one: the request with tools Tools are declared in a top-level tools array. Each entry has a name, a description, and a JSON Schema describing its input. The description is not documentation — it is the only thing the model has to decide whe</summary>
-    <author><name>Multigrid</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your AI Coding Agent Has Amnesia. Somehow You Became the Memory.</title>
-    <link href="https://dev.to/vishesh_yadav_1dd30a79ab5/your-ai-coding-agent-has-amnesia-somehow-you-became-the-memory-2n5n" rel="alternate"/>
-    <id>https://dev.to/vishesh_yadav_1dd30a79ab5/your-ai-coding-agent-has-amnesia-somehow-you-became-the-memory-2n5n</id>
-    <updated>2026-08-12T21:27:58Z</updated>
-    <summary type="text">You are fixing a bug. Not an interesting bug. An authentication bug. Which means somewhere, somebody wanted a user to remain logged in, and now six files are involved. You open Claude Code. Claude reads the repository. It checks the authentication flow. It finds the refresh-token logic. It reads some tests. It changes auth/session.py. One test fails. Claude investigates. It reads another file. It </summary>
-    <author><name>Vishesh Yadav</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Toolformer and Learned Tool Use</title>
-    <link href="https://dev.to/multigrid/toolformer-and-learned-tool-use-3i3o" rel="alternate"/>
-    <id>https://dev.to/multigrid/toolformer-and-learned-tool-use-3i3o</id>
-    <updated>2026-08-12T17:56:22Z</updated>
-    <summary type="text">Toolformer: Language Models Can Teach Themselves to Use Tools (2023) answers a question that sounds circular: how do you build a training set for tool use without anyone annotating when a tool should have been used? The answer is a filtering criterion, and it is the sort of idea worth stealing regardless of whether you care about the paper. The question it asks Language models are bad at things a </summary>
-    <author><name>Multigrid</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
