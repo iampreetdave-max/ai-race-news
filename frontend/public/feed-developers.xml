@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T08:35:52Z</updated>
+  <updated>2026-08-15T09:29:34Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -51,6 +51,15 @@
     <summary type="text">Zhipu AI has released GLM-5.3, a model that, according to its own benchmarks, is the most powerful open-weights coding model, with a 50 percent improvement over its predecessor through post-training alone. Trained for cybersecurity, GLM-5.3 helped security teams find 2,436 vulnerabilities across 269 projects. The model weights are set to go open source in two weeks. The article Zhipu AI releases G</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>How to Run Local LLMs with Open WebUI on Docker (Ditch the 0/mo AI Subscriptions)</title>
+    <link href="https://dev.to/enfernandes/how-to-run-local-llms-with-open-webui-on-docker-ditch-the-0mo-ai-subscriptions-1d4h" rel="alternate"/>
+    <id>https://dev.to/enfernandes/how-to-run-local-llms-with-open-webui-on-docker-ditch-the-0mo-ai-subscriptions-1d4h</id>
+    <updated>2026-08-15T08:45:40Z</updated>
+    <summary type="text">How to Run Local LLMs and Open WebUI on a Cloud VPS (Goodbye $20/mo ChatGPT Plus) Originally published on SelfHostStack If you pay $20/month for ChatGPT Plus or Claude Pro, you are paying $240 every single year for: Rate limits during peak working hours. Cloud providers retaining your confidential code and business prompts for model training. Zero control over when models get deprecated, re-aligne</summary>
+    <author><name>Elder Fernandes</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I Built a Multi-Agent Coding Orchestrator. It Kept Choosing Zero Workers.</title>
@@ -452,16 +461,6 @@
     <updated>2026-08-14T07:57:49Z</updated>
     <summary type="text">About a month ago, I caught myself doing something dumb for the fifth time in a row. Something broke in a project I was building with Claude Code. I typed &quot;it's not working&quot; into the chat. It guessed. Wrong fix. It asked me what the network tab showed. I knew exactly what it showed, I'm a full-stack dev, but by the time I'd opened DevTools, found the failed request, copied the relevant bit, and pa</summary>
     <author><name>Douglas Masho</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The real LLMOps risk isn't the model. It's shadow AI.</title>
-    <link href="https://dev.to/thegatewayguy/the-real-llmops-risk-isnt-the-model-its-shadow-ai-4m86" rel="alternate"/>
-    <id>https://dev.to/thegatewayguy/the-real-llmops-risk-isnt-the-model-its-shadow-ai-4m86</id>
-    <updated>2026-08-14T07:56:32Z</updated>
-    <summary type="text">Large language models broke the clean &quot;train it, test it, ship it&quot; model of production ML. The thing being operated is now a system that chains prompts, queries vector databases, and produces output judged on tone and safety — not just accuracy. That's LLMOps. And it's currently landing on top of your existing DevOps and MLOps workflows without a clear owner. CNCF's Daniel Bryant has a clear take </summary>
-    <author><name>Andrew Kew</name></author>
-    <category term="rag"/>
     <category term="llm"/>
   </entry>
 </feed>
