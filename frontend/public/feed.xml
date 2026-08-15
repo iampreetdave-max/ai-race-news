@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T05:28:40Z</updated>
+  <updated>2026-08-15T06:43:23Z</updated>
+  <entry>
+    <title>The &quot;tragedy of the cognitive commons&quot; explains how rational AI adoption could destroy entire professions' expertise</title>
+    <link href="https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/" rel="alternate"/>
+    <id>https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/</id>
+    <updated>2026-08-15T06:00:52Z</updated>
+    <summary type="text">A new research paper frames AI adoption as a &quot;tragedy of the cognitive commons.&quot; Every company that cuts entry-level jobs benefits individually, but the collective expertise of entire professions erodes. The consequences may not become visible until 2030 to 2045, when today's missing junior talent should have become tomorrow's experienced workforce. The article The &quot;tragedy of the cognitive common</summary>
+    <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>New benchmark confirms AI models still perform poorly at visual perception</title>
+    <link href="https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/" rel="alternate"/>
+    <id>https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/</id>
+    <updated>2026-08-15T05:30:18Z</updated>
+    <summary type="text">Moonshot AI's PerceptionBench tests how well multimodal AI models can actually &quot;see,&quot; separate from logical reasoning. No frontier model reaches 60 percent accuracy, and GPT-5.6 Sol leads by a narrow margin. Many supposed reasoning errors actually happen as early as the image-reading stage. The article New benchmark confirms AI models still perform poorly at visual perception appeared first on The</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Anthropic announces watermark detection API that will let third parties detect Claude's AI texts</title>
     <link href="https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/" rel="alternate"/>
@@ -340,6 +357,72 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>A Free Server Caught the GUI Fallback a Model Buried in a CLI</title>
+    <link href="https://dev.to/datacpp_8185/a-free-server-caught-the-gui-fallback-a-model-buried-in-a-cli-70e" rel="alternate"/>
+    <id>https://dev.to/datacpp_8185/a-free-server-caught-the-gui-fallback-a-model-buried-in-a-cli-70e</id>
+    <updated>2026-08-15T06:32:09Z</updated>
+    <summary type="text">A small team shipped a CSV validation service. It passed on a workstation. It died three seconds after starting on a free server. This article reconstructs that failure as a reproducible case. It is not a benchmark and not a product review. The point is to show a workflow for finding display dependencies before they reach production. Two availability points made the loop cheap: free model access t</summary>
+    <author><name>Finley Zhou</name></author>
+  </entry>
+  <entry>
+    <title>How Ranex Judges AI-Written Code: The Kernel, Explained</title>
+    <link href="https://dev.to/anthonygarces/how-ranex-judges-ai-written-code-the-kernel-explained-3d8" rel="alternate"/>
+    <id>https://dev.to/anthonygarces/how-ranex-judges-ai-written-code-the-kernel-explained-3d8</id>
+    <updated>2026-08-15T06:23:20Z</updated>
+    <summary type="text">Your agent reports “done — all tests pass.” Do you believe it? Nothing in that sentence is evidence, and the cost of finding out lands on you, later. I’ve been building with AI coding assistants for years, and the failure that kept costing me time was never that the model wrote bad code. It was that the model told me it was done, and I believed it. This post is the mechanism I built so I don’t hav</summary>
+    <author><name>Anthony Garces</name></author>
+  </entry>
+  <entry>
+    <title>How Garbage Collection Works: Let's Build One From Scratch</title>
+    <link href="https://dev.to/aditya_d_sharma/how-garbage-collection-works-lets-build-one-from-scratch-39fh" rel="alternate"/>
+    <id>https://dev.to/aditya_d_sharma/how-garbage-collection-works-lets-build-one-from-scratch-39fh</id>
+    <updated>2026-08-15T06:23:09Z</updated>
+    <summary type="text">Introduction Your program keeps creating objects. Every function call, every loop iteration, every parsed JSON response produces new ones. You don't manually delete most of them. You've never written a line of code that says &quot;free this memory now.&quot; And yet your application doesn't immediately exhaust all available RAM and crash. So who cleans everything up? The answer is a garbage collector, a pie</summary>
+    <author><name>Aditya Sharma</name></author>
+  </entry>
+  <entry>
+    <title>Building Samar: My 10-Day Voice AI Agent Journey with Murf Falcon</title>
+    <link href="https://dev.to/raghul_p23itr122_8708ad5/building-samar-my-10-day-voice-ai-agent-journey-with-murf-falcon-41no" rel="alternate"/>
+    <id>https://dev.to/raghul_p23itr122_8708ad5/building-samar-my-10-day-voice-ai-agent-journey-with-murf-falcon-41no</id>
+    <updated>2026-08-15T06:22:37Z</updated>
+    <summary type="text">Building Samar: My 10-Day Voice AI Agent Journey with Murf Falcon Over the past 10 days, I built Samar, a multilingual AI voice agent for a Bharat Digital Bank use case as part of the 10 Days of Voice Agents – VoiceForBharat Edition challenge. The project started as a simple voice assistant and gradually evolved into a more complete Voice AI system capable of remembering users, using real-time too</summary>
+    <author><name>RAGHUL P</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How do you regression-test a ReDoS fix without hanging CI?</title>
+    <link href="https://dev.to/tanya_monoware/how-do-you-regression-test-a-redos-fix-without-hanging-ci-1al3" rel="alternate"/>
+    <id>https://dev.to/tanya_monoware/how-do-you-regression-test-a-redos-fix-without-hanging-ci-1al3</id>
+    <updated>2026-08-15T06:22:21Z</updated>
+    <summary type="text">A known-bad regex is useful evidence, but putting it directly in the test process can hang the runner before the timeout assertion fires. The boundary I am using: run each adversarial case in a fresh worker thread or child process let the parent own a hard timeout and terminate the child keep semantic-parity fixtures separate from timing guards require the safer replacement to pass both suites rec</summary>
+    <author><name>Tanya</name></author>
+  </entry>
+  <entry>
+    <title>The head of your CSV is lying: how 9,291 invoice numbers almost vanished</title>
+    <link href="https://dev.to/ahmedabdeltawab/the-head-of-your-csv-is-lying-how-9291-invoice-numbers-almost-vanished-3891" rel="alternate"/>
+    <id>https://dev.to/ahmedabdeltawab/the-head-of-your-csv-is-lying-how-9291-invoice-numbers-almost-vanished-3891</id>
+    <updated>2026-08-15T06:19:41Z</updated>
+    <summary type="text">Real transaction data is never clean — and the worst part is that it looks clean. This is a short story from a real dataset (UCI Online Retail: 541,909 e-commerce transactions) about the quietest way to destroy data: silent type coercion. All numbers below come verbatim from an executed notebook. The head looks perfect Peek at the first rows of the file and InvoiceNo parses as clean integers — 100</summary>
+    <author><name>Ahmed Abdeltawab</name></author>
+  </entry>
+  <entry>
+    <title>&quot;How Does LLM Actually Work? From Prompt to Prediction&quot;</title>
+    <link href="https://dev.to/ravindranath_k/how-does-llm-actually-work-from-prompt-to-prediction-1a21" rel="alternate"/>
+    <id>https://dev.to/ravindranath_k/how-does-llm-actually-work-from-prompt-to-prediction-1a21</id>
+    <updated>2026-08-15T06:19:13Z</updated>
+    <summary type="text">Large Language Models have quickly become part of everyday software development. We ask them to explain code, debug errors, generate tests, write Python scripts, summarize documentation, or help us understand an unfamiliar codebase. Within seconds, we get a response that can feel surprisingly natural. But what actually happens during those few seconds? Suppose you type: What is a build system? The</summary>
+    <author><name>Ravindranath Guptha K</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Retrieval Is Not Memory</title>
+    <link href="https://dev.to/chillpill_ak/retrieval-is-not-memory-34f6" rel="alternate"/>
+    <id>https://dev.to/chillpill_ak/retrieval-is-not-memory-34f6</id>
+    <updated>2026-08-15T06:10:57Z</updated>
+    <summary type="text">&quot;We have memory. We're using RAG.&quot; You have retrieval. Those aren't the same thing, and the gap between them is where agents quietly go wrong. Day 2. RAG finds documents that look relevant to your question. That's it . That's the whole job. It's a very good search engine bolted to a very good writer. But consider what it can't do. Your customer changed their pricing tier in March. The old contract</summary>
+    <author><name>Abhishek Kundagol</name></author>
+  </entry>
+  <entry>
     <title>AI is Driving Wider Growth, Says Deutsche Bank Analyst</title>
     <link href="https://www.bloomberg.com/news/videos/2026-08-14/ai-is-driving-wider-growth-says-deutsche-bank-analyst-video" rel="alternate"/>
     <id>https://www.bloomberg.com/news/videos/2026-08-14/ai-is-driving-wider-growth-says-deutsche-bank-analyst-video</id>
@@ -348,103 +431,22 @@
     <author><name>Bloomberg Technology</name></author>
   </entry>
   <entry>
-    <title>Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM</title>
-    <link href="https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/</id>
-    <updated>2026-08-14T05:45:47Z</updated>
-    <summary type="text">Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction. The full model is a single 14MB binary that runs a session in about 28MB of RAM. It leads both Seal-Tools splits while targeting hardware with no GPU and no NPU. The post Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="hardware"/>
+    <title>Building a Voice Agent in 10 Days — My VoiceForBharat Journey</title>
+    <link href="https://dev.to/nittala_koushik_3b5521b57/building-a-voice-agent-in-10-days-my-voiceforbharat-journey-2abh" rel="alternate"/>
+    <id>https://dev.to/nittala_koushik_3b5521b57/building-a-voice-agent-in-10-days-my-voiceforbharat-journey-2abh</id>
+    <updated>2026-08-15T06:03:19Z</updated>
+    <summary type="text">Building a Voice Agent for a Local Indian Store: 10 Days of Voice Agents — VoiceForBharat Edition Building a voice agent sounds simple at first. Listen to the user, send the text to an LLM, generate a response, and speak it back. But once you start adding real-world requirements — memory, safety guardrails, multilingual conversations, phone calls, human escalation, analytics, and specialist handof</summary>
+    <author><name>NITTALA KOUSHIK</name></author>
+    <category term="data"/>
   </entry>
   <entry>
-    <title>US Oil Growth Faces Headwinds as Shale Producers Cut Spending</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-14/us-oil-growth-faces-headwinds-as-shale-producers-cut-spending" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-14/us-oil-growth-faces-headwinds-as-shale-producers-cut-spending</id>
-    <updated>2026-08-14T12:00:00Z</updated>
-    <summary type="text">Some of the largest US oil companies are dialing back capital spending in the country’s shale basins as they use the windfall from high crude prices to boost shareholder returns and pay down debt rather than accelerate production growth.</summary>
-    <author><name>Kevin Crowley</name></author>
-  </entry>
-  <entry>
-    <title>The value was in nine places and one enum, and the enum was the only one that ran</title>
-    <link href="https://dev.to/lumorakids/the-value-was-in-nine-places-and-one-enum-and-the-enum-was-the-only-one-that-ran-5ck9" rel="alternate"/>
-    <id>https://dev.to/lumorakids/the-value-was-in-nine-places-and-one-enum-and-the-enum-was-the-only-one-that-ran-5ck9</id>
-    <updated>2026-08-15T05:09:42Z</updated>
-    <summary type="text">You add a value to a feature. It goes into the type union, into the metadata map the create form renders from, into the access table, into the shelf that decides what appears on the landing pages, into the sitemap. You write sample content for it. You run the suite. Green. Then someone opens the site, picks the new option, and the request comes back 400 Invalid input — every time, for everybody, a</summary>
-    <author><name>Lumora</name></author>
-  </entry>
-  <entry>
-    <title>Sehat Sathi: Building a Voice Agent for Health Access in Bharat</title>
-    <link href="https://dev.to/subratgouda/sehat-sathi-building-a-voice-agent-for-health-access-in-bharat-27j4" rel="alternate"/>
-    <id>https://dev.to/subratgouda/sehat-sathi-building-a-voice-agent-for-health-access-in-bharat-27j4</id>
-    <updated>2026-08-15T05:08:33Z</updated>
-    <summary type="text">A 10-day journey building a multilingual health-access voice assistant with Murf Falcon, LiveKit, and a lot of trial and error. The Problem and the Users Most voice AI is built for people who already have smartphones, fast data plans, and comfort with English. That leaves out a huge number of people in India - someone in a small town with a mild fever who does not know if it is serious, a family m</summary>
-    <author><name>Subrat Gouda</name></author>
-  </entry>
-  <entry>
-    <title>Building Vyapar AI: My 10-Day Journey Building an Indian Voice Agent with Murf Falcon</title>
-    <link href="https://dev.to/sudipto_bhadra/building-vyapar-ai-my-10-day-journey-building-an-indian-voice-agent-with-murf-falcon-1fef" rel="alternate"/>
-    <id>https://dev.to/sudipto_bhadra/building-vyapar-ai-my-10-day-journey-building-an-indian-voice-agent-with-murf-falcon-1fef</id>
-    <updated>2026-08-15T05:08:12Z</updated>
-    <summary type="text">*10 Days of Voice Agents — VoiceForBharat Edition * What if a small business owner could simply speak to an AI assistant in Hindi or a mix of Indian languages and get useful business information instantly? That question led me to build Vyapar AI, an AI-powered voice assistant designed around the needs of Indian businesses. Over the last 10 days, I went from building a basic conversational voice ag</summary>
-    <author><name>Sudipto Bhadra</name></author>
-  </entry>
-  <entry>
-    <title>The Function That Lied: How a Duplicate def Silently Broke GIF Trimming in My 16,000-Line Flask App.</title>
-    <link href="https://dev.to/snipforge/the-function-that-lied-how-a-duplicate-def-silently-broke-gif-trimming-in-my-16000-line-flask-app-3a0h" rel="alternate"/>
-    <id>https://dev.to/snipforge/the-function-that-lied-how-a-duplicate-def-silently-broke-gif-trimming-in-my-16000-line-flask-app-3a0h</id>
-    <updated>2026-08-15T05:07:31Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview snipforge.video is an AI video editing SaaS I run solo. Users upload a video and run tools on it in the browser: trimming, compression, GIF creation, AI dubbing with speaker diarization, auto captions, background removal, and about twenty other operations. Under the hood it is a single-file Flask </summary>
-    <author><name>snipforge</name></author>
-  </entry>
-  <entry>
-    <title>The Video That Played Everywhere Except on Phones: A Codec Bug Hiding Behind a Healthy Server.</title>
-    <link href="https://dev.to/snipforge/the-video-that-played-everywhere-except-on-phones-a-codec-bug-hiding-behind-a-healthy-server-4aff" rel="alternate"/>
-    <id>https://dev.to/snipforge/the-video-that-played-everywhere-except-on-phones-a-codec-bug-hiding-behind-a-healthy-server-4aff</id>
-    <updated>2026-08-15T05:07:05Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. The symptom I run snipforge.video, an AI video editing SaaS, solo. One of its core features is share links: process a video, get a URL, send it to someone. A user reported that a shared video showed 0:00 and refused to play on their iPhone. I opened the same link on desktop Chrome and it played perfectly. Classic &quot;wo</summary>
-    <author><name>snipforge</name></author>
-  </entry>
-  <entry>
-    <title>How I Built Kisan Vaani: A Multi-Agent Voice AI Assistant for Indian Farmers</title>
-    <link href="https://dev.to/_adi_17/how-i-built-kisan-vaani-a-multi-agent-voice-ai-assistant-for-indian-farmers-550c" rel="alternate"/>
-    <id>https://dev.to/_adi_17/how-i-built-kisan-vaani-a-multi-agent-voice-ai-assistant-for-indian-farmers-550c</id>
-    <updated>2026-08-15T05:05:19Z</updated>
-    <summary type="text">Over the last 10 days, I participated in the 10 Days of AI Voice Agents (Voice for Bharat Edition) challenge by Murf AI. My goal was to build a real-world voice application that solves an actual problem in India. I chose the Farm &amp; Field Track and built Kisan Vaani (किसान वाणी) — an AI-powered voice assistant designed to help Indian farmers get instant market prices, weather updates, and agricultu</summary>
-    <author><name>ADITYA SINGH TANWAR</name></author>
+    <title>FastAPI Dependency Injection for Anthropic Claude: Isolating API Keys and Rate Limits Per Tenant</title>
+    <link href="https://dev.to/uaslimcreate/fastapi-dependency-injection-for-anthropic-claude-isolating-api-keys-and-rate-limits-per-tenant-4n7j" rel="alternate"/>
+    <id>https://dev.to/uaslimcreate/fastapi-dependency-injection-for-anthropic-claude-isolating-api-keys-and-rate-limits-per-tenant-4n7j</id>
+    <updated>2026-08-15T06:02:17Z</updated>
+    <summary type="text">FastAPI Dependency Injection for Anthropic Claude: Isolating API Keys and Rate Limits Per Tenant When CitizenApp hit 15 tenants, I realized our single global Claude API key was a ticking time bomb. One customer's agentic loop burning through their quota would throttle everyone else. Worse, we had no way to enforce per-tenant rate limits without adding middleware spaghetti that would make debugging</summary>
+    <author><name>Ugur Aslim</name></author>
+    <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Two Weeks of Silent Failure: Idempotent Scheduling and Self-Healing for a launchd + Claude Code Pipeline</title>
-    <link href="https://dev.to/bokuwalily/two-weeks-of-silent-failure-idempotent-scheduling-and-self-healing-for-a-launchd-claude-code-3gb5" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/two-weeks-of-silent-failure-idempotent-scheduling-and-self-healing-for-a-launchd-claude-code-3gb5</id>
-    <updated>2026-08-15T05:00:06Z</updated>
-    <summary type="text">Every morning at 5, launchd wakes up, and by the time I do, articles I never wrote are already live. In Part 1, I covered the basic design of a Claude Code–centered article generator and the skeleton of how generate.sh produces a single draft. This time I'm publishing the entire back half — the part that actually keeps the system running: how to reliably embed monetization links, how to bail out w</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The cheap model is only cheap for half your tasks</title>
-    <link href="https://dev.to/altrouter/the-cheap-model-is-only-cheap-for-half-your-tasks-29ac" rel="alternate"/>
-    <id>https://dev.to/altrouter/the-cheap-model-is-only-cheap-for-half-your-tasks-29ac</id>
-    <updated>2026-08-15T04:55:32Z</updated>
-    <summary type="text">Most of us pick a model the same way: read a leaderboard, pick the best one we can afford, ship it. Then the bill arrives and the &quot;cheap&quot; model turns out not to be the cheap one. The reason is that there is no such thing as a cheap model. There is only a model that is cheap for the shape of your traffic — and the ranking reorders when the shape changes. Quick vocabulary, because the whole argument</summary>
-    <author><name>Andrey Altrouter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The MSI Claw EX is the most important handheld since Steam Deck — I still wouldn’t buy one</title>
-    <link href="https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld" rel="alternate"/>
-    <id>https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld</id>
-    <updated>2026-08-14T11:00:00Z</updated>
-    <summary type="text">As The Verge's resident handheld reviewer, I have nearly every portable gaming PC on a shelf in my house. The MSI Claw 8 EX AI Plus is now the first one I reach for. Thanks to a next-gen Intel chip and improved MSI design, the Claw EX is the most powerful handheld that truly feels […]</summary>
-    <author><name>Sean Hollister</name></author>
-  </entry>
-  <entry>
-    <title>These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI</title>
-    <link href="https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/" rel="alternate"/>
-    <id>https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/</id>
-    <updated>2026-08-14T10:45:00Z</updated>
-    <summary type="text">Joi AI hired 10 people to masturbate using AI companions as part of a monthlong “wellness” study. The company claims the practice could help “solve male loneliness.”</summary>
-    <author><name>Mattha Busby</name></author>
   </entry>
 </feed>
