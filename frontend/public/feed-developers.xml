@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T07:34:43Z</updated>
+  <updated>2026-08-15T08:35:52Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -51,6 +51,25 @@
     <summary type="text">Zhipu AI has released GLM-5.3, a model that, according to its own benchmarks, is the most powerful open-weights coding model, with a 50 percent improvement over its predecessor through post-training alone. Trained for cybersecurity, GLM-5.3 helped security teams find 2,436 vulnerabilities across 269 projects. The model weights are set to go open source in two weeks. The article Zhipu AI releases G</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I Built a Multi-Agent Coding Orchestrator. It Kept Choosing Zero Workers.</title>
+    <link href="https://dev.to/mahadansar/i-built-a-multi-agent-coding-orchestrator-it-kept-choosing-zero-workers-4bc3" rel="alternate"/>
+    <id>https://dev.to/mahadansar/i-built-a-multi-agent-coding-orchestrator-it-kept-choosing-zero-workers-4bc3</id>
+    <updated>2026-08-15T07:47:40Z</updated>
+    <summary type="text">I expected more AI agents to make coding faster. They didn’t. That was not the result I was looking for, but it ended up being the most interesting result of the project. Over the past few weeks, I have been building Sol-Luna Orchestrator, an open-source orchestration layer for OpenAI Codex. The idea started with a simple question: What if one strong AI could decide when it actually needed help fr</summary>
+    <author><name>Mahad Ansar</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>100 Days of DevOps and Cloud (AWS), Day 27: Undo Isn't a Switch, and Neither Is Public</title>
+    <link href="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-27-undo-isnt-a-switch-and-neither-is-public-1b7l" rel="alternate"/>
+    <id>https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-27-undo-isnt-a-switch-and-neither-is-public-1b7l</id>
+    <updated>2026-08-15T07:46:34Z</updated>
+    <summary type="text">Two of the most common requests in this job are &quot;undo that&quot; and &quot;make it public.&quot; Both sound like a single action. Neither one is. Day 27 was the day both of those turned out to be several things wearing one word. One Git task, one AWS task. Revert a commit that has already been pushed, then configure a VPC so an EC2 instance inside it can actually reach the internet. The tasks come from the KodeK</summary>
+    <author><name>Nnamdi Felix Ibe</name></author>
   </entry>
   <entry>
     <title>Building a Minecraft Server Monitoring Library in Python 🎮</title>
@@ -443,24 +462,6 @@
     <summary type="text">Large language models broke the clean &quot;train it, test it, ship it&quot; model of production ML. The thing being operated is now a system that chains prompts, queries vector databases, and produces output judged on tone and safety — not just accuracy. That's LLMOps. And it's currently landing on top of your existing DevOps and MLOps workflows without a clear owner. CNCF's Daniel Bryant has a clear take </summary>
     <author><name>Andrew Kew</name></author>
     <category term="rag"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>One set of AI standards, every tool: Cursor, Claude Code, and Copilot</title>
-    <link href="https://dev.to/prathakmalik/one-set-of-ai-standards-every-tool-cursor-claude-code-and-copilot-1pbi" rel="alternate"/>
-    <id>https://dev.to/prathakmalik/one-set-of-ai-standards-every-tool-cursor-claude-code-and-copilot-1pbi</id>
-    <updated>2026-08-14T07:55:32Z</updated>
-    <summary type="text">Part 2 of the agent-standards-as-code series. Part 1 made the case for versioning your AI standards as code. This post makes them work across tools and operating systems. Code pinned at v0.2. In part 1 we put our AI coding standards in one git repo and auto-synced them into Cursor. Great — until a teammate says &quot;I use Claude Code,&quot; another says &quot;we're on Copilot in VS Code,&quot; and half the team is o</summary>
-    <author><name>Prathak Malik</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft is combining its Copilot apps ahead of a ‘super app’</title>
-    <link href="https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience" rel="alternate"/>
-    <id>https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience</id>
-    <updated>2026-08-13T13:30:00Z</updated>
-    <summary type="text">Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single &quot;super app&quot; interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the &quot;Microsoft Copilot&quot; name but features an updated app icon. The single […]</summary>
-    <author><name>Jess Weatherbed</name></author>
     <category term="llm"/>
   </entry>
 </feed>
