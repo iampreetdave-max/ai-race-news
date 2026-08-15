@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T15:25:39Z</updated>
+  <updated>2026-08-15T16:29:23Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -23,6 +23,25 @@
     <summary type="text">OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as training data. The article OpenAI's Computer History turns your clicks and keystrokes into a searchabl</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kubernetes for Beginners: From Local to Production – May the Pods Be With You</title>
+    <link href="https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-may-the-pods-be-with-you-4i4n" rel="alternate"/>
+    <id>https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-may-the-pods-be-with-you-4i4n</id>
+    <updated>2026-08-15T16:00:36Z</updated>
+    <summary type="text">The Quest Begins (The &quot;Why&quot;) I remember the first time I tried to take a weekend side‑project from my laptop to something that felt “real”. I had a cute Express API that talked to Postman, a PostgreSQL container spun up with docker-compose up, and a React front‑end that lived in its own dev server. Everything worked beautifully … until I hit Ctrl+C on my laptop and the whole thing vanished. I need</summary>
+    <author><name>Timevolt</name></author>
+  </entry>
+  <entry>
+    <title>I Built a RAG Pipeline in TypeScript Without LangChain — The Whole Thing in 200 Lines</title>
+    <link href="https://dev.to/apurwa/i-built-a-rag-pipeline-in-typescript-without-langchain-the-whole-thing-in-200-lines-3446" rel="alternate"/>
+    <id>https://dev.to/apurwa/i-built-a-rag-pipeline-in-typescript-without-langchain-the-whole-thing-in-200-lines-3446</id>
+    <updated>2026-08-15T15:45:39Z</updated>
+    <summary type="text">Every RAG tutorial I found looked like this: const chain = RetrievalQAChain.fromLLM(model, vectorStore.asRetriever()); const res = await chain.call({ query: &quot;what is this document about?&quot; }); Twelve lines, a Pinecone key, a screenshot of it answering one question about one PDF, and a confident closing paragraph about &quot;production readiness.&quot; I read four of them and still couldn't have told you what</summary>
+    <author><name>Apurwa-Anand</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Claude Code vs Cursor vs Windsurf in 2026: Which Agentic IDE Actually Ships Production Code</title>
@@ -440,21 +459,5 @@
     <updated>2026-08-14T20:29:14Z</updated>
     <summary type="text">OOMKilled is a classic day-2 rabbit hole: events, limits, restarts, then a risky scale or edit. kprompt turns the investigation prompt into a reviewable plan before apply. Originally published at https://kprompt.ai/blog/kubernetes-oomkilled. OOMKilled is one of the most common “the app is broken” signals in Kubernetes — and one of the easiest to misread. The Pod may still show Running. Restarts cl</summary>
     <author><name>Muhtalip Dede</name></author>
-  </entry>
-  <entry>
-    <title>Your MCP server didn't break. The protocol did.</title>
-    <link href="https://dev.to/bazzz/your-mcp-server-didnt-break-the-protocol-did-3abp" rel="alternate"/>
-    <id>https://dev.to/bazzz/your-mcp-server-didnt-break-the-protocol-did-3abp</id>
-    <updated>2026-08-14T19:01:30Z</updated>
-    <summary type="text">I updated my editor last week and three MCP servers stopped working. Same error each time: {&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;error&quot;:{&quot;code&quot;:-32601,&quot;message&quot;:&quot;Method not found: initialize&quot;}} I spent about forty minutes assuming I'd broken something. I hadn't. Neither had the server authors. The spec changed underneath all of us. If you got here from googling -32601 method not found mcp or initialize method </summary>
-    <author><name>Baz</name></author>
-  </entry>
-  <entry>
-    <title>14 Years of Enterprise ASP.NET, Part 4: Azure, Observability &amp; AI in Real Systems</title>
-    <link href="https://dev.to/kirandeepjassalcrypto/14-years-of-enterprise-aspnet-part-4-azure-observability-ai-in-real-systems-36da" rel="alternate"/>
-    <id>https://dev.to/kirandeepjassalcrypto/14-years-of-enterprise-aspnet-part-4-azure-observability-ai-in-real-systems-36da</id>
-    <updated>2026-08-14T18:40:21Z</updated>
-    <summary type="text">Originally published at prepstack.co.in Part 4 of 4 — 14 Years of Enterprise ASP.NET (finale). Where the system actually runs: choosing Azure architecture by cost and scaling profile, making the system observable, and treating AI as a real architectural component — not a demo. Running example: Mattrx — .NET 9 / ASP.NET Core, 110k MAU, Azure SQL, ~3,200 req/sec peak. Lesson 10 — Azure: match the pl</summary>
-    <author><name>kirandeepjassal-crypto</name></author>
   </entry>
 </feed>
