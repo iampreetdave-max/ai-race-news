@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T10:27:33Z</updated>
+  <updated>2026-08-15T11:23:59Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -42,6 +42,40 @@
     <summary type="text">Anthropic is testing whether Claude Code can handle daily maintenance of the company's own apps, from crash fuzzing to dead-code removal. In a few weeks, the AI created 388 pull requests, and 46 percent were merged after human review. Claude Code inventor Boris Cherny sees this as &quot;early signs of life that this might be possible.&quot; The article Claude Code now runs daily maintenance on Anthropic's s</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Serverless DevOps: When It Wins, When It Doesn't, and How to Run It</title>
+    <link href="https://dev.to/sherdilcloud/serverless-devops-when-it-wins-when-it-doesnt-and-how-to-run-it-4mck" rel="alternate"/>
+    <id>https://dev.to/sherdilcloud/serverless-devops-when-it-wins-when-it-doesnt-and-how-to-run-it-4mck</id>
+    <updated>2026-08-15T11:12:44Z</updated>
+    <summary type="text">TL;DR: Serverless DevOps = running code on services that manage the servers for you, wired into CI/CD. It shines for bursty, event-driven, unpredictable traffic (pay-per-execution, auto-scaling, single-function rollbacks) and is a bad fit for steady high-volume or long/heavy jobs (where containers cost less and don't hit runtime limits). Most real systems are hybrid. Here's the honest breakdown pl</summary>
+    <author><name>Sherdil Cloud</name></author>
+  </entry>
+  <entry>
+    <title>Stop Using AI to Write Code, Start Using It to Navigate</title>
+    <link href="https://dev.to/ntty/stop-using-ai-to-write-code-start-using-it-to-navigate-58no" rel="alternate"/>
+    <id>https://dev.to/ntty/stop-using-ai-to-write-code-start-using-it-to-navigate-58no</id>
+    <updated>2026-08-15T11:00:56Z</updated>
+    <summary type="text">The trap of the 'Generate' button When I first started using AI-powered editors like Cursor, I fell into the same trap as everyone else. I would write a prompt, hit generate, and watch a wall of code appear. It felt like a superpower. For the first hour, productivity spiked. By the end of the week, I was spending more time debugging subtle hallucinations than I would have spent writing the code fr</summary>
+    <author><name>Ntty</name></author>
+  </entry>
+  <entry>
+    <title>Zero GPU Cost and 4-Minute Daily Runs — Making Real Rain Fall on a Still Image with ffmpeg displace</title>
+    <link href="https://dev.to/bokuwalily/zero-gpu-cost-and-4-minute-daily-runs-making-real-rain-fall-on-a-still-image-with-ffmpeg-displace-b5b" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/zero-gpu-cost-and-4-minute-daily-runs-making-real-rain-fall-on-a-still-image-with-ffmpeg-displace-b5b</id>
+    <updated>2026-08-15T11:00:47Z</updated>
+    <summary type="text">A 30-minute ASMR rain video costs me nothing but electricity, and the daily job that builds it dropped from 7–8 minutes to a little over 4. No video-generation model, no GPU rental, no editing. One still image, a physics simulation of raindrops written in Python, and ffmpeg's displace filter. For context on why I built this: in my second year of university I was making ¥100k a month, stacked side </summary>
+    <author><name>Lily</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>🦌 Mrigashira AI — Making Local AI Accessible to Everyone</title>
+    <link href="https://dev.to/pranaysmokal/mrigashira-ai-making-local-ai-accessible-to-everyone-22j" rel="alternate"/>
+    <id>https://dev.to/pranaysmokal/mrigashira-ai-making-local-ai-accessible-to-everyone-22j</id>
+    <updated>2026-08-15T10:59:21Z</updated>
+    <summary type="text">🚀 Mrigashira AI — Making Local AI Accessible to Everyone AI is becoming part of everyday life, but many people still cannot afford AI subscriptions or continuous API usage. I started building Mrigashira AI with a simple idea: AI should be accessible to everyone, not just those who can afford a subscription. Mrigashira AI is a desktop AI engine designed to run LLMs locally on your own hardware, whi</summary>
+    <author><name>Pranay Mokal</name></author>
   </entry>
   <entry>
     <title>Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model</title>
@@ -423,44 +457,5 @@
     <author><name>Mikhail</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>All 26 of My MCP Tools Failed the Same Way. My Test to Rule Out the Token Proved It Was the Problem.</title>
-    <link href="https://dev.to/nomurasan/all-26-of-my-mcp-tools-failed-the-same-way-my-test-to-rule-out-the-token-proved-it-was-the-problem-4ol5" rel="alternate"/>
-    <id>https://dev.to/nomurasan/all-26-of-my-mcp-tools-failed-the-same-way-my-test-to-rule-out-the-token-proved-it-was-the-problem-4ol5</id>
-    <updated>2026-08-14T11:19:48Z</updated>
-    <summary type="text">Every tool the GitHub MCP server offered was sitting right there in the list — all 26 were recognized correctly. Call any one of them and it failed in under 1 second, every time, with one line on screen: Tool execution failed. No reason attached. Even reading a fully public repository — something that needs no permission at all — failed the exact same way. TL;DR: my AI assistant's first guess — &quot;m</summary>
-    <author><name>Sho Naka</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Okta targets AI agent token costs with MCP scoping</title>
-    <link href="https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/</id>
-    <updated>2026-08-13T09:22:06Z</updated>
-    <summary type="text">Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs. Each model call made by an AI agent can include schemas, names, descriptions and parameters for every tool exposed by a MCP server. Okta calls the resulting prompt overhead the “tool tax”: tokens consumed as a model considers tools, including […] The post Okta targets AI agent token costs with MCP sc</summary>
-    <author><name>Ryan Daws</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Gemini 3.7 Flash: Coding Speed Breakthrough</title>
-    <link href="https://dev.to/devsignal/gemini-37-flash-coding-speed-breakthrough-3ph" rel="alternate"/>
-    <id>https://dev.to/devsignal/gemini-37-flash-coding-speed-breakthrough-3ph</id>
-    <updated>2026-08-14T09:20:57Z</updated>
-    <summary type="text">This week's tooling landscape is defined by two themes: cost compression on capable models and protocol-level standardization across agent runtimes. Gemini 3.7 Flash cuts inference spend while measurably improving first-pass code accuracy, and the AI SDK's ACP harness layer is quietly making multi-agent wiring less of a bespoke nightmare. Here's what's worth your attention. Gemini 3.7 Flash launch</summary>
-    <author><name>The Dev Signal</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I made my SaaS installable by AI agents. Here's what was broken.</title>
-    <link href="https://dev.to/devin_daymore/i-made-my-saas-installable-by-ai-agents-heres-what-was-broken-3c17" rel="alternate"/>
-    <id>https://dev.to/devin_daymore/i-made-my-saas-installable-by-ai-agents-heres-what-was-broken-3c17</id>
-    <updated>2026-08-14T09:18:10Z</updated>
-    <summary type="text">Two weeks ago I watched an agent run a full product launch on Waitlister, my waitlist tool. It created the waitlist, generated and published a landing page, signed up a test address, checked the signup was real by fetching the public page unauthenticated, then unpublished and deleted everything it had made. Nobody touched the dashboard. The interesting part isn't that run. It's what I found while </summary>
-    <author><name>Devin D</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
