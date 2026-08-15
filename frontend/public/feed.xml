@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T20:27:16Z</updated>
+  <updated>2026-08-15T21:24:55Z</updated>
   <entry>
     <title>Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings</title>
     <link href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Nvidia has cut its guarantee for OpenAI's planned data center in Ohio nearly in half, from $250 billion to just under $120 billion, after investors pushed back on the risk. Meanwhile, Anthropic is complicating the AI bubble debate with revenue that jumped from $4.7 billion to $11.5 billion in a single quarter. The article Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Have a laugh at AI’s expense by roleplaying as a chatbot</title>
+    <link href="https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot" rel="alternate"/>
+    <id>https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot</id>
+    <updated>2026-08-15T20:45:00Z</updated>
+    <summary type="text">Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]</summary>
+    <author><name>Terrence O’Brien</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -132,6 +141,77 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Turning your Obsidian notes into a queryable database with Dataview</title>
+    <link href="https://dev.to/stacklinestudio/turning-your-obsidian-notes-into-a-queryable-database-with-dataview-3hn2" rel="alternate"/>
+    <id>https://dev.to/stacklinestudio/turning-your-obsidian-notes-into-a-queryable-database-with-dataview-3hn2</id>
+    <updated>2026-08-15T21:18:52Z</updated>
+    <summary type="text">If you take notes in Obsidian, you've probably hit the same wall: search finds text, but it can't answer &quot;show me every snippet I've tagged regex&quot; or &quot;what debugging notes do I still have open?&quot; That's what the Dataview plugin is for — it treats your notes' frontmatter (and inline fields) as rows in a database and lets you query them with a SQL-like syntax, right inside a note. The setup Dataview </summary>
+    <author><name>StacklineStudio</name></author>
+  </entry>
+  <entry>
+    <title>PHP FFI on Apple Silicon: your ioctl call is lying to you</title>
+    <link href="https://dev.to/croustibat44/php-ffi-on-apple-silicon-your-ioctl-call-is-lying-to-you-23kj" rel="alternate"/>
+    <id>https://dev.to/croustibat44/php-ffi-on-apple-silicon-your-ioctl-call-is-lying-to-you-23kj</id>
+    <updated>2026-08-15T21:18:27Z</updated>
+    <summary type="text">I spent an evening building pseudo-terminal support for PHP and lost an hour of it to a bug that reports success. If you use FFI and ioctl anywhere near production, and your CI only runs on Linux, this one is worth ten minutes of your time. The setup PHP can already open a pseudo-terminal. proc_open() accepts ['pty'] descriptors, and on macOS you get a real /dev/ttysNNN back. What you do not get i</summary>
+    <author><name>Baptiste Bouillot</name></author>
+  </entry>
+  <entry>
+    <title>Who's really winning open models in 2026? It's not who you think</title>
+    <link href="https://dev.to/thegatewayguy/whos-really-winning-open-models-in-2026-its-not-who-you-think-c11" rel="alternate"/>
+    <id>https://dev.to/thegatewayguy/whos-really-winning-open-models-in-2026-its-not-who-you-think-c11</id>
+    <updated>2026-08-15T21:11:04Z</updated>
+    <summary type="text">HuggingFace just published their biannual State of Open Models report covering January to August 2026. The headline numbers are big — 2.96 million public model repos, 1 million datasets, 1.44 million Spaces. But the interesting findings are in what the data reveals about how power in open AI has shifted. What actually changed Chinese labs own frontier scale. In almost every month of 2026, the larg</summary>
+    <author><name>Andrew Kew</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>🍬 Candy Logger v2.1.0 - The Correctness Release</title>
+    <link href="https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn" rel="alternate"/>
+    <id>https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn</id>
+    <updated>2026-08-15T21:06:00Z</updated>
+    <summary type="text">Candy Logger v2.1.0 is now available. This release focuses on making Candy Logger correct, secure, reliable, and production-ready. Version 2.1.0 improves serialization, security, console interception, persistence, UI behavior, accessibility, mobile support, and the underlying architecture. It also introduces a cleaner core API that allows Candy Logger to be used without rendering the UI. GitHub Re</summary>
+    <author><name>Muhammad Sheharyar Butt</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>How I Built a Multi-Agent MLOps Control Center with Google TabFM, Gemma 2B &amp; EU AI Act Cryptographic Attestations</title>
+    <link href="https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7" rel="alternate"/>
+    <id>https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7</id>
+    <updated>2026-08-15T20:51:56Z</updated>
+    <summary type="text">⚠️ This article was written as part of my submission for the Google Cloud #AllThingsAgenticHackathon. Note: The application is currently in its validation phase, running locally on Streamlit and tested end-to-end. It is designed to be fully deployable to Google Cloud Run and BigQuery. The Problem That Started Everything Picture this: a telecom company hands you a CSV file with 915 clients. You ope</summary>
+    <author><name>Gervais Marie</name></author>
+    <category term="regulation"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Framework Comparison Report: ZIM vs. PixiJS</title>
+    <link href="https://dev.to/zimlearn/framework-comparison-report-zim-vs-pixijs-a20" rel="alternate"/>
+    <id>https://dev.to/zimlearn/framework-comparison-report-zim-vs-pixijs-a20</id>
+    <updated>2026-08-15T20:45:36Z</updated>
+    <summary type="text">NOTE: Prompted by Dr Abstract who also requested article from Gemini. When building interactive 2D canvas experiences on the web—whether mini-games, educational interactives, infographics, or visual tools—developers often debate between low-level rendering speed and high-level developer velocity. In this article, we compare two popular approaches in the JavaScript ecosystem: PixiJS (the WebGL/WebG</summary>
+    <author><name>Dr Abstract</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Automate Email Verification in Playwright using Microsoft Graph API &amp; TypeScript published: true</title>
+    <link href="https://dev.to/shefali_qa/automate-email-verification-in-playwright-using-microsoft-graph-api-typescriptpublished-true-43fi" rel="alternate"/>
+    <id>https://dev.to/shefali_qa/automate-email-verification-in-playwright-using-microsoft-graph-api-typescriptpublished-true-43fi</id>
+    <updated>2026-08-15T20:43:54Z</updated>
+    <summary type="text">Automating end-to-end flows like user registration, password resets, or OTP verifications often hits a wall when dealing with emails. Automating UI login for webmail providers like Gmail or Outlook is flaky and frequently blocked by 2FA or CAPTCHAs. Using Microsoft Graph API with an Azure App Registration (Client Credentials Flow) lets you fetch target user inbox messages programmatically in your </summary>
+    <author><name>Shefali R</name></author>
+  </entry>
+  <entry>
+    <title>Your Company Has AI Tribes. Send an Engineer as Emissary</title>
+    <link href="https://dev.to/debashish_ghosal/your-company-has-ai-tribes-send-an-engineer-as-emissary-4g72" rel="alternate"/>
+    <id>https://dev.to/debashish_ghosal/your-company-has-ai-tribes-send-an-engineer-as-emissary-4g72</id>
+    <updated>2026-08-15T20:33:33Z</updated>
+    <summary type="text">This is not a how-to manual. It is also not an ROI story. This is an exploration of a narrower question: can the Forward-Deployed Engineer mindset be borrowed inside one company to help AI adoption spread across teams that do not share the same habits, tools, or instincts? An FDE, in the Palantir sense, is an engineer who leaves home, embeds in a customer's shop, and makes the product solve the cu</summary>
+    <author><name>Debashish Ghosal</name></author>
   </entry>
   <entry>
     <title>Kubernetes: alertas utiles para readiness flapping</title>
@@ -360,85 +440,5 @@
     <author><name>Gowtham M</name></author>
     <category term="data"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building RupeeGPT: A Multilingual Voice AI Financial Assistant for Bharat</title>
-    <link href="https://dev.to/mayank_sharma_814005f2650/building-rupeegpt-a-multilingual-voice-ai-financial-assistant-for-bharat-f78" rel="alternate"/>
-    <id>https://dev.to/mayank_sharma_814005f2650/building-rupeegpt-a-multilingual-voice-ai-financial-assistant-for-bharat-f78</id>
-    <updated>2026-08-15T16:51:27Z</updated>
-    <summary type="text">How I Built RupeeGPT: A Voice-First AI Financial Assistant for India in 10 Days #VoiceForBharat | Built with the fastest TTS API — Murf Falcon | 10 Days of Voice Agents Ten days ago, I started with a blank repo and a challenge: build a production-ready voice AI agent for Indian users — one that could speak naturally in English, Hindi, and Hinglish; remember returning callers; escalate to humans wh</summary>
-    <author><name>Mayank Sharma</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Built an MCP Server That Reviews Code Locally — No SaaS, No Uploads</title>
-    <link href="https://dev.to/goodjobwilliam/i-built-an-mcp-server-that-reviews-code-locally-no-saas-no-uploads-568a" rel="alternate"/>
-    <id>https://dev.to/goodjobwilliam/i-built-an-mcp-server-that-reviews-code-locally-no-saas-no-uploads-568a</id>
-    <updated>2026-08-15T16:51:10Z</updated>
-    <summary type="text">AI coding assistants ship code fast. But someone still has to review it. I wanted that &quot;senior engineer second pair of eyes&quot; to live inside my editor, run entirely on my machine, and work with whatever assistant I'm using today. So I built MCP Code Review Server — a Model Context Protocol (MCP) server that connects to Claude Code, Cursor, Cline, or any MCP client. What it does It exposes three too</summary>
-    <author><name>Will</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Killing a Feature Is a Graph Problem, Not a Product Problem</title>
-    <link href="https://dev.to/dasdorf/killing-a-feature-is-a-graph-problem-not-a-product-problem-4m2j" rel="alternate"/>
-    <id>https://dev.to/dasdorf/killing-a-feature-is-a-graph-problem-not-a-product-problem-4m2j</id>
-    <updated>2026-08-15T16:51:01Z</updated>
-    <summary type="text">Here's the claim that gets people arguing in Slack threads at 11pm: you cannot decide whether to kill a feature by looking at its usage metrics. Usage metrics tell you who touches the front door. They tell you nothing about what's load-bearing in the basement. I've watched teams sunset a feature with 2% MAU and take down three internal tools, a partner integration, and a compliance report that fin</summary>
-    <author><name>Niklas Földiak</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline</title>
-    <link href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/" rel="alternate"/>
-    <id>https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/</id>
-    <updated>2026-08-14T16:43:43Z</updated>
-    <summary type="text">OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as training data. The article OpenAI's Computer History turns your clicks and keystrokes into a searchabl</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Midnight Providers: What They Are, Where They Live, and Why We Use Them</title>
-    <link href="https://dev.to/midnight-aliit/midnight-providers-what-they-are-where-they-live-and-why-we-use-them-2nli" rel="alternate"/>
-    <id>https://dev.to/midnight-aliit/midnight-providers-what-they-are-where-they-live-and-why-we-use-them-2nli</id>
-    <updated>2026-08-15T16:09:09Z</updated>
-    <summary type="text">Midnight providers are modular, pluggable components that each handle a specific capability required for transaction construction and submission to the Midnight blockchain. The provider packages include functionality for proof generation, private state management, public data queries, and transaction balancing and submission. In plain terms, they're the toolset that powers Midnight.js's architectu</summary>
-    <author><name>Gutopro</name></author>
-  </entry>
-  <entry>
-    <title>Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach</title>
-    <link href="https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/" rel="alternate"/>
-    <id>https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/</id>
-    <updated>2026-08-14T16:06:32Z</updated>
-    <summary type="text">AI agents using Claude Opus 4.8 and GPT-5.6 Sol were given six days, $3,000 in API credits, and GPU access to independently write AI research papers. The original authors of unpublished NeurIPS papers rated the results as &quot;Reject.&quot; According to the study, conducted with Princeton and the UK AI Security Institute, frontier models can handle the full research engineering process but fall short on re</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Discord Ticket Bot</title>
-    <link href="https://dev.to/musiker15/discord-ticket-bot-4ean" rel="alternate"/>
-    <id>https://dev.to/musiker15/discord-ticket-bot-4ean</id>
-    <updated>2026-08-15T16:02:48Z</updated>
-    <summary type="text">A free, self-hosted ticket bot for Discord support teams. You run it yourself, so your ticket data never leaves your server. Up to 25 ticket types, each with its own emoji, colour, category and modal questionnaire (up to 5 questions) Claim system, priorities, staff notes, canned responses and broadcast Self-contained HTML transcripts with avatars embedded as Base64, hosted behind a public link, op</summary>
-    <author><name>Moritz Kohm</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes for Beginners: From Local to Production – May the Pods Be With You</title>
-    <link href="https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-may-the-pods-be-with-you-4i4n" rel="alternate"/>
-    <id>https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-may-the-pods-be-with-you-4i4n</id>
-    <updated>2026-08-15T16:00:36Z</updated>
-    <summary type="text">The Quest Begins (The &quot;Why&quot;) I remember the first time I tried to take a weekend side‑project from my laptop to something that felt “real”. I had a cute Express API that talked to Postman, a PostgreSQL container spun up with docker-compose up, and a React front‑end that lived in its own dev server. Everything worked beautifully … until I hit Ctrl+C on my laptop and the whole thing vanished. I need</summary>
-    <author><name>Timevolt</name></author>
-  </entry>
-  <entry>
-    <title>My evidence pipeline was saving Cloudflare block pages as evidence</title>
-    <link href="https://dev.to/renga154/my-evidence-pipeline-was-saving-cloudflare-block-pages-as-evidence-25ml" rel="alternate"/>
-    <id>https://dev.to/renga154/my-evidence-pipeline-was-saving-cloudflare-block-pages-as-evidence-25ml</id>
-    <updated>2026-08-15T15:58:57Z</updated>
-    <summary type="text">I build a web service that preserves evidence of harassment on social platforms. The core feature is a single thing: automatically capture a real screenshot of the offending post. There was no substitute for it. I built an alternative that pulled the text through an API and rendered a tidy &quot;evidence card&quot; image, and threw it away. An image you can author freely afterwards proves nothing. Here's th</summary>
-    <author><name>Renga</name></author>
   </entry>
 </feed>
