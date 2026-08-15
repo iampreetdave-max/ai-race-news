@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T16:29:23Z</updated>
+  <updated>2026-08-15T17:24:23Z</updated>
   <entry>
     <title>Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license</title>
     <link href="https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/" rel="alternate"/>
@@ -14,6 +14,25 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Exporting ANTHROPIC_BASE_URL does not reach the Claude Code panel in VSCode</title>
+    <link href="https://dev.to/vinhnguyenthanhdn/exporting-anthropicbaseurl-does-not-reach-the-claude-code-panel-in-vscode-49n9" rel="alternate"/>
+    <id>https://dev.to/vinhnguyenthanhdn/exporting-anthropicbaseurl-does-not-reach-the-claude-code-panel-in-vscode-49n9</id>
+    <updated>2026-08-15T16:56:49Z</updated>
+    <summary type="text">export ANTHROPIC_BASE_URL=http://127.0.0.1:20128 in your shell routes the claude CLI to a local endpoint. Open the Claude Code panel in VSCode in the same project and it still talks to Anthropic directly. The two live on different environment surfaces, and that is the whole problem. Why the shell variable does not carry over The CLI reads the environment of the process you started it from. The VSC</summary>
+    <author><name>Vinh Nguyen</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built an MCP Server That Reviews Code Locally — No SaaS, No Uploads</title>
+    <link href="https://dev.to/goodjobwilliam/i-built-an-mcp-server-that-reviews-code-locally-no-saas-no-uploads-568a" rel="alternate"/>
+    <id>https://dev.to/goodjobwilliam/i-built-an-mcp-server-that-reviews-code-locally-no-saas-no-uploads-568a</id>
+    <updated>2026-08-15T16:51:10Z</updated>
+    <summary type="text">AI coding assistants ship code fast. But someone still has to review it. I wanted that &quot;senior engineer second pair of eyes&quot; to live inside my editor, run entirely on my machine, and work with whatever assistant I'm using today. So I built MCP Code Review Server — a Model Context Protocol (MCP) server that connects to Claude Code, Cursor, Cline, or any MCP client. What it does It exposes three too</summary>
+    <author><name>Will</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline</title>
@@ -442,22 +461,5 @@
     <updated>2026-08-14T21:41:28Z</updated>
     <summary type="text">85 containers. 24 PostgreSQL databases. 67 domains. 232 cron jobs. One developer. 120 EUR/month in Hetzner bills. This is not a startup fantasy pitch. This is my production infrastructure for a SaaS ecosystem serving German golf clubs, a golf school management platform, a community platform, a CRM, and an auth service. Every customer gets their own database. Physical tenant isolation, not software</summary>
     <author><name>Frederik von der Heyden</name></author>
-  </entry>
-  <entry>
-    <title>Persistence of Memory, Personality, and Self in AI Agents The Someone That Persists, Session After Session, Across Months</title>
-    <link href="https://dev.to/adoloslabs/persistence-of-memory-personality-and-self-in-ai-agents-the-someone-that-persists-session-after-10kd" rel="alternate"/>
-    <id>https://dev.to/adoloslabs/persistence-of-memory-personality-and-self-in-ai-agents-the-someone-that-persists-session-after-10kd</id>
-    <updated>2026-08-14T20:45:07Z</updated>
-    <summary type="text">A research announcement from a working multi-agent operation. Full paper to follow. A word first, on spirit. I am not a scientist, and none of this was done in a laboratory. It came out of my own work, something I built to get a job done and then could not stop looking at. Nothing here is a knock on the companies whose tools I use. What they have built is remarkable, and it is getting better by th</summary>
-    <author><name>Harry Snodgrass</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Kubernetes OOMKilled — diagnose with a plan, not a wall of kubectl</title>
-    <link href="https://dev.to/muhtalipdede/kubernetes-oomkilled-diagnose-with-a-plan-not-a-wall-of-kubectl-4997" rel="alternate"/>
-    <id>https://dev.to/muhtalipdede/kubernetes-oomkilled-diagnose-with-a-plan-not-a-wall-of-kubectl-4997</id>
-    <updated>2026-08-14T20:29:14Z</updated>
-    <summary type="text">OOMKilled is a classic day-2 rabbit hole: events, limits, restarts, then a risky scale or edit. kprompt turns the investigation prompt into a reviewable plan before apply. Originally published at https://kprompt.ai/blog/kubernetes-oomkilled. OOMKilled is one of the most common “the app is broken” signals in Kubernetes — and one of the easiest to misread. The Pod may still show Running. Restarts cl</summary>
-    <author><name>Muhtalip Dede</name></author>
   </entry>
 </feed>
