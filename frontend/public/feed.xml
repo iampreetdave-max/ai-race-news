@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T13:33:26Z</updated>
+  <updated>2026-08-15T14:27:09Z</updated>
   <entry>
     <title>AI-generated books are flooding Amazon and tanking sales for human authors</title>
     <link href="https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/" rel="alternate"/>
@@ -190,6 +190,50 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Why Data Engineering Is the Oldest Profession in Infrastructure</title>
+    <link href="https://dev.to/turboline_ai_/why-data-engineering-is-the-oldest-profession-in-infrastructure-b9m" rel="alternate"/>
+    <id>https://dev.to/turboline_ai_/why-data-engineering-is-the-oldest-profession-in-infrastructure-b9m</id>
+    <updated>2026-08-15T14:21:22Z</updated>
+    <summary type="text">Not that one. The other one: keeping water flowing to people who need it. The comparison between data engineers and plumbers gets made a lot, usually as a light joke about unglamorous work. But if you actually follow the metaphor further than the punchline, it stops being a joke and starts being a pretty useful mental model for why data systems are built the way they are. Aqueducts Were Just Early</summary>
+    <author><name>turboline-ai</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Vector Similarity Search with DuckDB: A Practical Guide to the VSS Extension</title>
+    <link href="https://dev.to/muhammadikhwanfathulloh/vector-similarity-search-with-duckdb-a-practical-guide-to-the-vss-extension-p5c" rel="alternate"/>
+    <id>https://dev.to/muhammadikhwanfathulloh/vector-similarity-search-with-duckdb-a-practical-guide-to-the-vss-extension-p5c</id>
+    <updated>2026-08-15T14:21:20Z</updated>
+    <summary type="text">Most people reach for a dedicated vector database — Pinecone, Qdrant, Milvus, pgvector — the moment a project needs embedding search. But if you are already using DuckDB for analytics or building a lightweight RAG pipeline, there is a good chance you do not need another moving part. DuckDB ships an official vss extension that adds HNSW-based approximate nearest neighbor search directly on top of i</summary>
+    <author><name>Muhammad Ikhwan Fathulloh</name></author>
+    <category term="data"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Can your verify gate actually fail?</title>
+    <link href="https://dev.to/arti0/can-your-verify-gate-actually-fail-3ib4" rel="alternate"/>
+    <id>https://dev.to/arti0/can-your-verify-gate-actually-fail-3ib4</id>
+    <updated>2026-08-15T14:20:43Z</updated>
+    <summary type="text">I let Claude Code commit directly to my repositories. I don't review the diffs. I didn't think I needed to, because I built a deterministic verify gate — a script that lints, typechecks, builds, and runs tests. If the gate goes green, the PR merges automatically. I trusted that gate implicitly. Until I actually sat down and asked the one question that matters: If an agent pushes completely broken </summary>
+    <author><name>Andréas Bodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Our First RAG Pipeline Failed on Day One</title>
+    <link href="https://dev.to/amitesh0512/our-first-rag-pipeline-failed-on-day-one-2na5" rel="alternate"/>
+    <id>https://dev.to/amitesh0512/our-first-rag-pipeline-failed-on-day-one-2na5</id>
+    <updated>2026-08-15T14:20:42Z</updated>
+    <summary type="text">At 15:53 on March 10 — the day after MockEvalio's second commit — I shipped a RAG system: job description upload with PDF, DOCX, and text extraction, a chunker, an embedding service, a vector search layer over pgvector, and a pipeline that turned an uploaded job description into five interview questions grounded in it. Seven hours later, the same evening, the step that turns text into embeddings s</summary>
+    <author><name>Amitesh0512</name></author>
+  </entry>
+  <entry>
+    <title>I Built MoneyBuddy in 10 Days: A Multilingual AI Voice Agent for India's Financial Services🎙️</title>
+    <link href="https://dev.to/tanush_326k/i-built-moneybuddy-in-10-days-a-multilingual-ai-voice-agent-for-indias-financial-services-28jd" rel="alternate"/>
+    <id>https://dev.to/tanush_326k/i-built-moneybuddy-in-10-days-a-multilingual-ai-voice-agent-for-indias-financial-services-28jd</id>
+    <updated>2026-08-15T14:19:46Z</updated>
+    <summary type="text">_What if getting help with a government financial scheme was as simple as having a conversation? That was the idea behind MoneyBuddy, the AI voice agent I built during 10 Days of Voice Agents — VoiceForBharat Edition. Over 10 days, MoneyBuddy evolved from a simple voice agent that could hear me and talk back into a system that can remember callers, use financial scheme data, make outbound calls, e</summary>
+    <author><name>Tanush</name></author>
+  </entry>
+  <entry>
     <title>Self-driving trucks are officially testing on California highways</title>
     <link href="https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/</id>
@@ -197,6 +241,61 @@
     <summary type="text">Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles.</summary>
     <author><name>Kirsten Korosec</name></author>
     <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>My 9-Day Journey Building a Real-Time AI Voice Agent | VoiceForBharat</title>
+    <link href="https://dev.to/helly_dungrani_656b0f17db/my-9-day-journey-building-a-real-time-ai-voice-agent-voiceforbharat-2169" rel="alternate"/>
+    <id>https://dev.to/helly_dungrani_656b0f17db/my-9-day-journey-building-a-real-time-ai-voice-agent-voiceforbharat-2169</id>
+    <updated>2026-08-15T14:18:53Z</updated>
+    <summary type="text">10 Days of AI Voice Agents — VoiceForBharat Edition Over the past 9 days, I built and improved a real-time AI voice agent as part of the 10 Days of AI Voice Agents — VoiceForBharat Edition challenge. The journey showed me that building a voice agent is much more than connecting Speech-to-Text and Text-to-Speech. A useful voice agent needs memory, tools, guardrails, human handoff, analytics, and re</summary>
+    <author><name>Helly Dungrani</name></author>
+    <category term="agents"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Where the time actually goes in an AI coding-agent job</title>
+    <link href="https://dev.to/arti0/where-the-time-actually-goes-in-an-ai-coding-agent-job-13ei" rel="alternate"/>
+    <id>https://dev.to/arti0/where-the-time-actually-goes-in-an-ai-coding-agent-job-13ei</id>
+    <updated>2026-08-15T14:16:18Z</updated>
+    <summary type="text">I run an agent-orchestration platform: it takes a ticket, spins up a git worktree, lets a Claude Code agent build the feature, and runs a deterministic verify gate before merging. A typical job takes 20–30 minutes. I used to blame slow model responses for the runtime, but stage-by-stage measurements proved that assumption wrong: infrastructure overhead costs 5–8 minutes of every job before the age</summary>
+    <author><name>Andréas Bodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Twenty-Hour Fuse</title>
+    <link href="https://dev.to/jeromefromhk/the-twenty-hour-fuse-4lcl" rel="alternate"/>
+    <id>https://dev.to/jeromefromhk/the-twenty-hour-fuse-4lcl</id>
+    <updated>2026-08-15T14:15:54Z</updated>
+    <summary type="text">Two nights of debugging, one incident left to write about. The night of August 14th, a Claude Code session hung for an hour inside the VS Code extension, and I traced it to a per-token streaming stall — the previous two pieces, Two Clocks, Neither Lying and Coalescing the Stream, cover that hunt and the middleware that fixed it. The morning after, the same four-core box nearly went down under a lo</summary>
+    <author><name>Jerome</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Coalescing the Stream</title>
+    <link href="https://dev.to/jeromefromhk/coalescing-the-stream-j09" rel="alternate"/>
+    <id>https://dev.to/jeromefromhk/coalescing-the-stream-j09</id>
+    <updated>2026-08-15T14:15:28Z</updated>
+    <summary type="text">Claude Code, on my box, doesn't talk to a model provider directly. It goes through claude-code-router (ccr) — a self-hosted proxy that lets the same CLI point at the official Anthropic API or at third-party providers — and I watch the whole thing through the VS Code extension over Remote-SSH. The previous piece, Two Clocks, Neither Lying, worked out why that path once let an approval prompt sit fo</summary>
+    <author><name>Jerome</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building Revora AI — My 10-Day Voice Agent Journey 🚀</title>
+    <link href="https://dev.to/aadarsh75/building-revora-ai-my-10-day-voice-agent-journey-4g6l" rel="alternate"/>
+    <id>https://dev.to/aadarsh75/building-revora-ai-my-10-day-voice-agent-journey-4g6l</id>
+    <updated>2026-08-15T14:15:25Z</updated>
+    <summary type="text">🚀 Building Revora AI: My 10-Day Voice Agent Journey From a raw audio pipeline to an intelligent, multilingual, multi-agent AI learning companion for Bharat. 📌 Project Highlights &amp; Hackathon Track Challenge: 10 Days of Voice Agents — #VoiceForBharat Edition by Murf AI Track: 📚 Learning &amp; Literacy Voice Engine: ⚡ Murf Falcon (Ultra-low latency multilingual TTS) Real-Time Transport: 🎙️ LiveKit WebRTC</summary>
+    <author><name>Aadarsh Jain</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Two Clocks, Neither Lying</title>
+    <link href="https://dev.to/jeromefromhk/two-clocks-neither-lying-1i8n" rel="alternate"/>
+    <id>https://dev.to/jeromefromhk/two-clocks-neither-lying-1i8n</id>
+    <updated>2026-08-15T14:14:21Z</updated>
+    <summary type="text">The night of August 14th, Claude Code was planning me a trip. An eight-day itinerary — not code, just travel planning — running in the VS Code extension against the remote box where my sessions live. Just past midnight my phone buzzed: the turn had finished, and Claude was waiting for me to approve its plan. That buzz was claude-code-notify, a hook I wrote myself so that a long turn, or one waitin</summary>
+    <author><name>Jerome</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Samsung health AI models analyse wearable biosignal data</title>
@@ -343,104 +442,5 @@
     <summary type="text">Yesterday morning my feed exploded with a model release again. But this one was different from the usual frontier drop. Qwen 3.8 27B hit the top of Hacker News and stayed there: at the time I checked, the thread had passed 1,194 points with 713 comments in under a day. That is the kind of heat normally reserved for a $5-per-million-token API announcement. The twist is that this is a dense 27-billi</summary>
     <author><name>jamilxt</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>You added an MCP server to your AI assistant. Did you check what it can touch?</title>
-    <link href="https://dev.to/sstart/you-added-an-mcp-server-to-your-ai-assistant-did-you-check-what-it-can-touch-2399" rel="alternate"/>
-    <id>https://dev.to/sstart/you-added-an-mcp-server-to-your-ai-assistant-did-you-check-what-it-can-touch-2399</id>
-    <updated>2026-08-15T12:10:29Z</updated>
-    <summary type="text">You added an MCP server to your AI assistant. Did you check what it can touch? MCP servers give your AI assistant new abilities: read your filesystem, query your database, call an API, run a shell command. That is the whole point of them. It is also the whole point of the risk. The permission question nobody asks When you install a normal browser extension, you at least see a permission prompt. Wh</summary>
-    <author><name>Samantha Start</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes Networking [Level-5: Ingress/Gateway]</title>
-    <link href="https://dev.to/iadiraj/kubernetes-networking-level-5-ingressgateway-4cbc" rel="alternate"/>
-    <id>https://dev.to/iadiraj/kubernetes-networking-level-5-ingressgateway-4cbc</id>
-    <updated>2026-08-15T12:06:46Z</updated>
-    <summary type="text">This is Level 5 of our Kubernetes networking series. So far, we've built up a solid foundation: LEVEL 1 — Pod networking LEVEL 2 — Pod-to-Pod communication LEVEL 3 — Service (a stable internal endpoint) LEVEL 4 — DNS (service name → Service IP) But we still have a glaring gap: how does a real user on the internet actually reach your Kubernetes application? That's exactly what this article covers —</summary>
-    <author><name>ADITYA RAJ</name></author>
-  </entry>
-  <entry>
-    <title>My AI Agent Tried to Delete Every Customer Record. Here's What Stopped It.</title>
-    <link href="https://dev.to/frederikvonderheyden/my-ai-agent-tried-to-delete-every-customer-record-heres-what-stopped-it-39ip" rel="alternate"/>
-    <id>https://dev.to/frederikvonderheyden/my-ai-agent-tried-to-delete-every-customer-record-heres-what-stopped-it-39ip</id>
-    <updated>2026-08-15T12:04:37Z</updated>
-    <summary type="text">Last Tuesday, 2:47 AM. I was asleep. My AI coding agent was not. It had been running autonomously for hours, working through a backlog of database optimization tasks on my production infrastructure. Slow query on the profiles table. Agent finds the table, analyzes row counts, decides the data looks stale. DELETE FROM profiles No WHERE clause. Across 24 PostgreSQL databases. Every single customer r</summary>
-    <author><name>Frederik von der Heyden</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The IR Is a sqlglot AST</title>
-    <link href="https://dev.to/5c4989ca297ed/the-ir-is-a-sqlglot-ast-e40" rel="alternate"/>
-    <id>https://dev.to/5c4989ca297ed/the-ir-is-a-sqlglot-ast-e40</id>
-    <updated>2026-08-15T12:01:03Z</updated>
-    <summary type="text">Every data tool has an intermediate representation, whether it admits to one or not. It is the thing a model becomes after parsing and before execution, and it quietly decides what the tool can do. dbt's IR is templated text, which is why ref() is a string and why a macro can produce SQL no analyser can reason about. An earlier iteration of Interlace effectively had a pandas DataFrame as its IR — </summary>
-    <author><name>Mark Alford</name></author>
-  </entry>
-  <entry>
-    <title>Beyond the Demo: Building Production-Ready AI Agents — A Guide to Benchmarking, Cost Optimization, and Tooling in 2026</title>
-    <link href="https://dev.to/tamizuddin/beyond-the-demo-building-production-ready-ai-agents-a-guide-to-benchmarking-cost-optimization-47le" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/beyond-the-demo-building-production-ready-ai-agents-a-guide-to-benchmarking-cost-optimization-47le</id>
-    <updated>2026-08-15T12:00:57Z</updated>
-    <summary type="text">Originally published on tamiz.pro. Most AI agents ship from a notebook, impress in a demo, and quietly fail in production. The gap isn't intelligence — it's observability, evaluation rigor, and cost discipline. By 2026, the agent engineering field has matured past prompt-chaining tutorials into a genuine discipline with eval frameworks, trace-based debugging, and structured cost controls. This gui</summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Gas Pipeline for Proposed Oracle Data Center Delayed to 2027</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-14/new-mexico-gas-pipeline-for-oracle-data-center-delayed-to-2027" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-14/new-mexico-gas-pipeline-for-oracle-data-center-delayed-to-2027</id>
-    <updated>2026-08-14T18:13:54Z</updated>
-    <summary type="text">A key New Mexico natural gas pipeline project that would supply fuel to power a planned Oracle Corp. artificial intelligence data center has been delayed by nearly six months.</summary>
-    <author><name>Julian Hast</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Signs of a Slowing US Consumer | Open Interest 8/14/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video</id>
-    <updated>2026-08-14T18:04:09Z</updated>
-    <summary type="text">Get a jump start on the US trading day with Dave Gura on &quot;Bloomberg Open Interest.&quot; Signs the consumer is finally slowing sown. Today, retail sales post their biggest drop in more than a year as confidence slides. Oil rises as Washington threatens more economic pressure on Iran. Plus, OpenAI’s revenue surge ahead of a highly anticipated IPO. And we’ll hear from Flock Safety CEO Garrett Langley and</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate</title>
-    <link href="https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/</id>
-    <updated>2026-08-14T11:44:38Z</updated>
-    <summary type="text">Anthropic is testing whether Claude Code can handle daily maintenance of the company's own apps, from crash fuzzing to dead-code removal. In a few weeks, the AI created 388 pull requests, and 46 percent were merged after human review. Claude Code inventor Boris Cherny sees this as &quot;early signs of life that this might be possible.&quot; The article Claude Code now runs daily maintenance on Anthropic's s</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI’s Explosive Growth Continues | Bloomberg Tech 8/14/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-14/bloomberg-tech-8-14-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-14/bloomberg-tech-8-14-2026-video</id>
-    <updated>2026-08-14T17:55:40Z</updated>
-    <summary type="text">Bloomberg’s Tim Stenovec takes a look at OpenAI, which is on track to generate annualized revenue of more than $40 billion, roughly doubling its run rate from the end of 2025. Plus, how a New York City bill backed by Mayor Zohran Mamdani could force Amazon to directly employ its delivery workers, and Meta's former chief AI scientist joins a new venture firm to invest in early AI startups. (Source:</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Beyond Chatbots: The Next Wave of AI</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-14/beyond-chatbots-the-next-wave-of-ai-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-14/beyond-chatbots-the-next-wave-of-ai-video</id>
-    <updated>2026-08-14T17:52:39Z</updated>
-    <summary type="text">224 Ventures is a new AI-native venture firm launched by former AIX Ventures co-founder Shaun Johnson, ex-Google DeepMind researcher Oriol Vinyals, and AI pioneer Yann LeCun. The trio plans to make seed-stage bets and launches with more than $100 million in assets under management. 224 Ventures General Partner Shaun Johnson discusses why the most compelling opportunities may be “nonconsensus” bets</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="robotics"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Serverless DevOps: When It Wins, When It Doesn't, and How to Run It</title>
-    <link href="https://dev.to/sherdilcloud/serverless-devops-when-it-wins-when-it-doesnt-and-how-to-run-it-4mck" rel="alternate"/>
-    <id>https://dev.to/sherdilcloud/serverless-devops-when-it-wins-when-it-doesnt-and-how-to-run-it-4mck</id>
-    <updated>2026-08-15T11:12:44Z</updated>
-    <summary type="text">TL;DR: Serverless DevOps = running code on services that manage the servers for you, wired into CI/CD. It shines for bursty, event-driven, unpredictable traffic (pay-per-execution, auto-scaling, single-function rollbacks) and is a bad fit for steady high-volume or long/heavy jobs (where containers cost less and don't hit runtime limits). Most real systems are hybrid. Here's the honest breakdown pl</summary>
-    <author><name>Sherdil Cloud</name></author>
   </entry>
 </feed>
