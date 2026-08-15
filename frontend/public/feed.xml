@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T18:35:41Z</updated>
+  <updated>2026-08-15T19:24:46Z</updated>
   <entry>
     <title>Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings</title>
     <link href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Nvidia has cut its guarantee for OpenAI's planned data center in Ohio nearly in half, from $250 billion to just under $120 billion, after investors pushed back on the risk. Meanwhile, Anthropic is complicating the AI bubble debate with revenue that jumped from $4.7 billion to $11.5 billion in a single quarter. The article Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Anthropic shares more details about how Claude’s new watermarks will work</title>
+    <link href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</id>
+    <updated>2026-08-15T18:58:39Z</updated>
+    <summary type="text">How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?</summary>
+    <author><name>Anthony Ha</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -123,6 +132,83 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Midnight Fridge Raid — comfort food isn't a dish, it's 2am</title>
+    <link href="https://dev.to/maneesh_thakur_d16c2852fa/midnight-fridge-raid-comfort-food-isnt-a-dish-its-2am-1l04" rel="alternate"/>
+    <id>https://dev.to/maneesh_thakur_d16c2852fa/midnight-fridge-raid-comfort-food-isnt-a-dish-its-2am-1l04</id>
+    <updated>2026-08-15T19:23:20Z</updated>
+    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, CSS Art. Inspiration The brief lists a steaming bowl of ramen, a stack of pancakes, a perfectly cut slice of pie — and then, quietly, &quot;or the dish you grew up eating.&quot; That last one is the real prompt. Comfort food isn't a recipe. It's a moment, and the most honest one I could think of isn't a plate at all: it's standing barefoot </summary>
+    <author><name>Maneesh Thakur</name></author>
+  </entry>
+  <entry>
+    <title>The Repository Pattern in NestJS: a collection that happens to live in a database</title>
+    <link href="https://dev.to/chacaponquin/the-repository-pattern-in-nestjs-a-collection-that-happens-to-live-in-a-database-1i1k" rel="alternate"/>
+    <id>https://dev.to/chacaponquin/the-repository-pattern-in-nestjs-a-collection-that-happens-to-live-in-a-database-1i1k</id>
+    <updated>2026-08-15T19:12:46Z</updated>
+    <summary type="text">The canonical starting point for a NestJS module backed by TypeORM is the one the framework itself documents: the module declares TypeOrmModule.forFeature([Order]) and the service receives the repository by injection. @Injectable() export class OrderService { constructor( @InjectRepository(Order) private readonly repo: Repository&lt;Order&gt;, ) {} } From there the service has find, findOne, save and de</summary>
+    <author><name>Hector Angel Gomez Robaina</name></author>
+  </entry>
+  <entry>
+    <title>I built a WhatsApp/Telegram group directory with zero coding background — here's the whole, unfiltered story</title>
+    <link href="https://dev.to/aditya_gudapati/i-built-a-whatsapptelegram-group-directory-with-zero-coding-background-heres-the-whole-3037" rel="alternate"/>
+    <id>https://dev.to/aditya_gudapati/i-built-a-whatsapptelegram-group-directory-with-zero-coding-background-heres-the-whole-3037</id>
+    <updated>2026-08-15T18:54:44Z</updated>
+    <summary type="text">I'm not a developer. I want to say that upfront, because it matters for everything that follows. This isn't a polished &quot;here's my SaaS&quot; post. This is the real version — the version where I almost gave up twice, broke my own security without knowing it, got rejected by every directory I tried to use before I built my own, and still ended up shipping something real. If you've ever stared at a blank </summary>
+    <author><name>Aditya Gudapati</name></author>
+  </entry>
+  <entry>
+    <title>Zenoh's put is fire-and-forget, get isn't — a read-after-write race in Elixir</title>
+    <link href="https://dev.to/kikuyuta/zenohs-put-is-fire-and-forget-get-isnt-a-read-after-write-race-in-elixir-o6l" rel="alternate"/>
+    <id>https://dev.to/kikuyuta/zenohs-put-is-fire-and-forget-get-isnt-a-read-after-write-race-in-elixir-o6l</id>
+    <updated>2026-08-15T18:53:59Z</updated>
+    <summary type="text">This English version is an AI translation of my original article on Qiita (in Japanese). Background I've been experimenting with Zenoh via its Elixir bindings, Zenohex, not for its usual pub/sub use case but for its put/get storage feature. It mostly worked, except every so the state I picked back up was one step behind. Digging into why turned into a fun rabbit hole, so here's the writeup. Reprod</summary>
+    <author><name>kikuyuta</name></author>
+  </entry>
+  <entry>
+    <title>Building Shiksha: What I Learned Creating a Real-Time AI English Coach in 10 Days</title>
+    <link href="https://dev.to/sp_gamer_e8a7ce484708618f/building-shiksha-what-i-learned-creating-a-real-time-ai-english-coach-in-10-days-jn6" rel="alternate"/>
+    <id>https://dev.to/sp_gamer_e8a7ce484708618f/building-shiksha-what-i-learned-creating-a-real-time-ai-english-coach-in-10-days-jn6</id>
+    <updated>2026-08-15T18:51:07Z</updated>
+    <summary type="text">Building Shiksha: An AI English Coach for Indian Learners For many Indian learners, the biggest barrier to speaking English fluently isn't a lack of vocabulary or grammar rules learned in school—it's speaking anxiety and the fear of making mistakes in front of peers or teachers. Over the past 10 days, as part of the 10 Days of Voice Agents — Voice for Bharat Edition under the Learning &amp; Literacy t</summary>
+    <author><name>Sp Gamer</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>PawDOS 95: A browser operating system for dogs</title>
+    <link href="https://dev.to/sizzlebop/pawdos-95-a-browser-operating-system-for-dogs-167m" rel="alternate"/>
+    <id>https://dev.to/sizzlebop/pawdos-95-a-browser-operating-system-for-dogs-167m</id>
+    <updated>2026-08-15T18:49:19Z</updated>
+    <summary type="text">This is a submission for the Weekend Challenge: Dog Days Edition. My submission is PawDOS 95, a fake desktop operating system built for dogs. Built to boot like a 1995 PC, it tracks squirrels, monitors the mailman, manages treats, and tries to explain humans with a translator. The main feature is DogPrompt. It looks like a DOS terminal, but it accepts normal sentences. Gemini does more than answer</summary>
+    <author><name>Jessica Doering</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I checked what 6 AI coding tools write to disk to stop the agent forgetting its plan. Half write nothing.</title>
+    <link href="https://dev.to/mayank_b4b824331985d19b42/i-checked-what-6-ai-coding-tools-write-to-disk-to-stop-the-agent-forgetting-its-plan-half-write-5bck" rel="alternate"/>
+    <id>https://dev.to/mayank_b4b824331985d19b42/i-checked-what-6-ai-coding-tools-write-to-disk-to-stop-the-agent-forgetting-its-plan-half-write-5bck</id>
+    <updated>2026-08-15T18:48:11Z</updated>
+    <summary type="text">Every AI coding tool has the same top complaint: &quot;it forgot what we were doing.&quot; I spent weeks assuming that was a context-window problem. It mostly isn't. It's a filesystem problem — and you can predict which tools suffer from it by asking one question: where does the plan get written down? The bug that made me go looking Our own builder had it badly. You'd say &quot;build me a CRM,&quot; the agent would p</summary>
+    <author><name>Mayank</name></author>
+  </entry>
+  <entry>
+    <title>An open-source, modular CMS for developers and AI-assisted/vibe-coded websites.</title>
+    <link href="https://dev.to/cloudhim/an-open-source-modular-cms-for-developers-and-ai-assistedvibe-coded-websites-1lc3" rel="alternate"/>
+    <id>https://dev.to/cloudhim/an-open-source-modular-cms-for-developers-and-ai-assistedvibe-coded-websites-1lc3</id>
+    <updated>2026-08-15T18:42:59Z</updated>
+    <summary type="text">For years, the CMS ecosystem has largely followed the same formula. Install a CMS. Choose a theme. Install plugins. Customize some templates. Add an API when you need one. Then, eventually, try to connect everything to AI. But the way we build software has changed. Developers increasingly work alongside AI coding assistants. People are building websites by describing what they want instead of manu</summary>
+    <author><name>CloudHim</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>ChatGPT Agent Is Gone: How to Choose ChatGPT Work vs Codex</title>
+    <link href="https://dev.to/yan_gao_3ad90a90b26925538/chatgpt-agent-is-gone-how-to-choose-chatgpt-work-vs-codex-p18" rel="alternate"/>
+    <id>https://dev.to/yan_gao_3ad90a90b26925538/chatgpt-agent-is-gone-how-to-choose-chatgpt-work-vs-codex-p18</id>
+    <updated>2026-08-15T18:41:30Z</updated>
+    <summary type="text">ChatGPT agent is no longer available. Reinstalling the desktop app will not restore the old surface. OpenAI now separates longer non-code work, repository work, and browser authority across different tools. The short answer Use ChatGPT Work for research, analysis, documents, spreadsheets, presentations, reports, and Sites. Use Codex for repository edits, tests, commands, code review, and software-</summary>
+    <author><name>Yan Gao</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>astral.ai.studio</title>
@@ -354,99 +440,5 @@
     <updated>2026-08-15T15:46:42Z</updated>
     <summary type="text">When I started exploring Go, one feature immediately stood out: go doSomething() Just adding go before a function call can run it concurrently. That got me thinking: what exactly is a goroutine, and why does Go need it? So, I decided to learn the basics. Here's what I found. 👇 First, what is concurrency? Imagine you have multiple tasks: Fetching data from an API Processing a file Handling user req</summary>
     <author><name>Ashitosh Lavhate</name></author>
-  </entry>
-  <entry>
-    <title>I Built a RAG Pipeline in TypeScript Without LangChain — The Whole Thing in 200 Lines</title>
-    <link href="https://dev.to/apurwa/i-built-a-rag-pipeline-in-typescript-without-langchain-the-whole-thing-in-200-lines-3446" rel="alternate"/>
-    <id>https://dev.to/apurwa/i-built-a-rag-pipeline-in-typescript-without-langchain-the-whole-thing-in-200-lines-3446</id>
-    <updated>2026-08-15T15:45:39Z</updated>
-    <summary type="text">Every RAG tutorial I found looked like this: const chain = RetrievalQAChain.fromLLM(model, vectorStore.asRetriever()); const res = await chain.call({ query: &quot;what is this document about?&quot; }); Twelve lines, a Pinecone key, a screenshot of it answering one question about one PDF, and a confident closing paragraph about &quot;production readiness.&quot; I read four of them and still couldn't have told you what</summary>
-    <author><name>Apurwa-Anand</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>IBM, OpenAI Partner to Accelerate Enterprise AI</title>
-    <link href="https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai</id>
-    <updated>2026-08-14T15:26:02Z</updated>
-    <summary type="text">The deal comes less than a year after IBM undertook a similar initiative with Anthropic.</summary>
-    <author><name>Scarlett Evans</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building an AI Voice Agent for Bharat: My 10-Day Journey</title>
-    <link href="https://dev.to/ayushshinde13/building-an-ai-voice-agent-for-bharat-my-10-day-journey-f6d" rel="alternate"/>
-    <id>https://dev.to/ayushshinde13/building-an-ai-voice-agent-for-bharat-my-10-day-journey-f6d</id>
-    <updated>2026-08-15T15:22:31Z</updated>
-    <summary type="text">Introduction For the past 10 days, I took part in the 10 Days of AI Voice Agents — #VoiceForBharat Edition challenge. During this challenge, I built an AI voice agent named Sadie. My goal was not just to make an AI that could talk. I wanted to build a voice agent that could understand users, remember conversations, use tools, make phone calls, connect users to humans, and hand conversations to spe</summary>
-    <author><name>Ayush Shinde | Full-Stack Developer (MERN)</name></author>
-  </entry>
-  <entry>
-    <title>I Built AnswerTrace . GitHub Discussions Analytics for Your README</title>
-    <link href="https://dev.to/antonisloukis/i-built-answertrace-github-discussions-analytics-for-your-readme-4mno" rel="alternate"/>
-    <id>https://dev.to/antonisloukis/i-built-answertrace-github-discussions-analytics-for-your-readme-4mno</id>
-    <updated>2026-08-15T15:22:31Z</updated>
-    <summary type="text">I noticed GitHub profiles show a lot about code contributions, but not much about contributions through GitHub Discussions. So I built AnswerTrace. AnswerTrace analyzes public GitHub Discussions activity and turns it into a small SVG widget for your README. It currently shows: Accepted Answers Total Upvotes Top Community First Accepted Answer It can also update automatically with GitHub Actions. U</summary>
-    <author><name>Antonis Loukis</name></author>
-    <category term="open-source"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Code vs Cursor vs Windsurf in 2026: Which Agentic IDE Actually Ships Production Code</title>
-    <link href="https://dev.to/jsmanifest/claude-code-vs-cursor-vs-windsurf-in-2026-which-agentic-ide-actually-ships-production-code-3maj" rel="alternate"/>
-    <id>https://dev.to/jsmanifest/claude-code-vs-cursor-vs-windsurf-in-2026-which-agentic-ide-actually-ships-production-code-3maj</id>
-    <updated>2026-08-15T15:20:40Z</updated>
-    <summary type="text">Claude Code vs Cursor vs Windsurf in 2026: Which Agentic IDE Actually Ships Production Code This article was written with the assistance of AI, under human supervision and review. Most teams choose agentic IDEs based on demo videos and feature lists instead of production realities. The result is predictable: developers spend weeks integrating a tool that excels at autocomplete but fails at multi-f</summary>
-    <author><name>jsmanifest</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Run Claude Code for FREE on Your Machine Using OpenRouter</title>
-    <link href="https://dev.to/soham_chavan07/run-claude-code-for-free-on-your-machine-using-openrouter-5d1o" rel="alternate"/>
-    <id>https://dev.to/soham_chavan07/run-claude-code-for-free-on-your-machine-using-openrouter-5d1o</id>
-    <updated>2026-08-15T15:16:26Z</updated>
-    <summary type="text">Tired of paying for Claude Pro just to get powerful AI coding help? I recently set this up and now run top-tier models right in my terminal — completely free on the free tier. Perfect for freelance web developers who want Claude-level intelligence for building projects, debugging, and client work without extra expenses. Quick Setup (takes &lt; 5 minutes) 1. Install Claude Code bash npm install -g @an</summary>
-    <author><name>SOHAM CHAVAN</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lower Intro Price for Gemini 3.7 Flash to Attract Developers</title>
-    <link href="https://aibusiness.com/generative-ai/lower-intro-price-for-gemini-3-7-flash-attract-developers" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/lower-intro-price-for-gemini-3-7-flash-attract-developers</id>
-    <updated>2026-08-14T15:08:10Z</updated>
-    <summary type="text">The move shows Google is paying attention to the price war, while also focusing on the coding application that other frontier model providers have found success with.</summary>
-    <author><name>Esther Shittu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Used Sentry to Expose a Silent Data-Loss Bug with Zero Errors</title>
-    <link href="https://dev.to/mirshah12/i-used-sentry-to-expose-a-silent-data-loss-bug-with-zero-errors-hmi" rel="alternate"/>
-    <id>https://dev.to/mirshah12/i-used-sentry-to-expose-a-silent-data-loss-bug-with-zero-errors-hmi</id>
-    <updated>2026-08-15T15:08:13Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. 40 successful saves. 39 missing workspaces. The application did not crash. No exception was thrown. Every promise resolved. And that was exactly why this bug was dangerous. The front-page lesson: A green “success” proves that an operation finished. It does not prove that its result is still there. THE FOUR-MINUTE </summary>
-    <author><name>Mir Shah</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cloud bills kept climbing from 24/7 AI development — I moved the decisions and the implementation to my own local LLMs and cut the cost</title>
-    <link href="https://dev.to/uehara/cloud-bills-kept-climbing-from-247-ai-development-i-moved-the-decisions-and-the-implementation-4bc3" rel="alternate"/>
-    <id>https://dev.to/uehara/cloud-bills-kept-climbing-from-247-ai-development-i-moved-the-decisions-and-the-implementation-4bc3</id>
-    <updated>2026-08-15T15:05:26Z</updated>
-    <summary type="text">From late June into July 2026, I rebuilt the execution backbone of my development onto my own local large language models (LLMs). The trigger was cost. The more you hand development over to AI, the more every task-routing decision and every actual code generation gets sent to a cloud AI, each and every time. Run it 24 hours a day without stopping, and that usage-based billing piles up every month,</summary>
-    <author><name>uehara</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How to Ship a VS Code Extension That Wraps an Existing Web Tool</title>
-    <link href="https://dev.to/bonzai2carn/how-to-ship-a-vs-code-extension-that-wraps-an-existing-web-tool-3jda" rel="alternate"/>
-    <id>https://dev.to/bonzai2carn/how-to-ship-a-vs-code-extension-that-wraps-an-existing-web-tool-3jda</id>
-    <updated>2026-08-15T15:03:33Z</updated>
-    <summary type="text">TLDR Bringing existing browser-based web tools into VS Code webview panels does not require rewriting your frontend codebase. VS Code webviews run on strict Content Security Policies, lack window.parent frames, and refuse to resolve relative file paths. You can wrap any web tool cleanly by replacing your window.parent IPC bridge with acquireVsCodeApi(), using an HTML path rewriter to convert relat</summary>
-    <author><name>Bonzai2Carn</name></author>
   </entry>
 </feed>
