@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T02:55:24Z</updated>
+  <updated>2026-08-15T03:45:23Z</updated>
   <entry>
     <title>Anthropic announces watermark detection API that will let third parties detect Claude's AI texts</title>
     <link href="https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/" rel="alternate"/>
@@ -390,66 +390,68 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Pace of Physical AI Development 'Ridiculous': Neura CEO Reger</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-14/pace-of-physical-ai-development-ridiculous-neura-says-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-14/pace-of-physical-ai-development-ridiculous-neura-says-video</id>
-    <updated>2026-08-14T09:29:55Z</updated>
-    <summary type="text">The CEO of German robotics company Neura believes physical AI can be a new growth engine for Europe. David Reger, who also founded Neura Robotics, says the pace of development is &quot;tremendous.&quot; He spoke to Tom Mackenzie on the latest episode of Bloomberg Tech: Europe. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus</title>
-    <link href="https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/</id>
-    <updated>2026-08-14T03:09:45Z</updated>
-    <summary type="text">This tutorial provides a complete workflow for building a compact, reasoning-focused language model. By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervised Fine-Tuning (SFT). Using SmolLM2-135M-Instruct and LoRA, we demonstrate an end-to-end pipeline—from dataset analysis and heuristic cleaning to efficient training and inference—enab</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Apple trained its own AI model for China with help from Alibaba</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba</id>
-    <updated>2026-08-14T09:21:17Z</updated>
-    <summary type="text">Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with […]</summary>
-    <author><name>Robert Hart</name></author>
+    <title>Why We Parse Industrial Code Instead of Embedding It</title>
+    <link href="https://dev.to/nodeblue/why-we-parse-industrial-code-instead-of-embedding-it-5dko" rel="alternate"/>
+    <id>https://dev.to/nodeblue/why-we-parse-industrial-code-instead-of-embedding-it-5dko</id>
+    <updated>2026-08-15T03:37:56Z</updated>
+    <summary type="text">Most of the industrial AI you have seen is a retrieval pipeline with a chat box on it. Chunk the manuals, embed them, stuff the top matches into a context window, let the model talk. It demos well. It falls apart the first time somebody asks a question where the answer depends on what a machine is doing right now. We are an applied research lab called Nodeblue, and the system we build is called Ne</summary>
+    <author><name>Dylan McCarthy</name></author>
     <category term="llm"/>
   </entry>
   <entry>
-    <title>A beginner's guide to the Qwen3.8-27b model by Qwen on Huggingface</title>
-    <link href="https://dev.to/aimodels-fyi/a-beginners-guide-to-the-qwen38-27b-model-by-qwen-on-huggingface-11j9" rel="alternate"/>
-    <id>https://dev.to/aimodels-fyi/a-beginners-guide-to-the-qwen38-27b-model-by-qwen-on-huggingface-11j9</id>
-    <updated>2026-08-15T02:51:01Z</updated>
-    <summary type="text">This is a simplified guide to an AI model called Qwen3.8-27b maintained by Qwen. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Overview Qwen3.8-27B is a 27-billion-parameter dense language model with integrated vision capabilities, built by Qwen on the architectural foundation of Qwen3.5. This causal language model with vision encoder supports native im</summary>
-    <author><name>aimodels-fyi</name></author>
-    <category term="open-source"/>
+    <title>What I Learned Stealing Ideas from Matt Pocock’s `.agents` Directory</title>
+    <link href="https://dev.to/autorobot/what-i-learned-stealing-ideas-from-matt-pococks-agents-directory-3nbi" rel="alternate"/>
+    <id>https://dev.to/autorobot/what-i-learned-stealing-ideas-from-matt-pococks-agents-directory-3nbi</id>
+    <updated>2026-08-15T03:35:06Z</updated>
+    <summary type="text">What I Learned Stealing Ideas from Matt Pocock’s .agents Directory If you’ve spent more than ten minutes on TypeScript Twitter, you know Matt Pocock. He’s the guy who made zod and TS generics feel approachable. But a few weeks ago, I stumbled onto something more interesting than his type gymnastics: a repo called mattpocock/skills, which is literally a dump of his .agents directory. At first I tho</summary>
+    <author><name>AutoRobot</name></author>
     <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
-    <title>Goish: พอร์ตรันไทม์ของ Go ทั้งตัวลงใน no_std Rust</title>
-    <link href="https://dev.to/gophernment/goish-phrtranaithmkhng-go-thangtawlngain-nostd-rust-4g0n" rel="alternate"/>
-    <id>https://dev.to/gophernment/goish-phrtranaithmkhng-go-thangtawlngain-nostd-rust-4g0n</id>
-    <updated>2026-08-15T02:40:33Z</updated>
-    <summary type="text">📅 เขียนเมื่อ: สิงหาคม 2026 | Goish (goish.cogentica.ai) ⚠️ โปรเจกต์เพิ่งเปิดตัว — รายละเอียด/เวอร์ชันอาจเปลี่ยนแปลง ตรวจสอบจาก GitHub ก่อนใช้งาน ถ้าคุณเขียน Go มาสักพัก คุณน่าจะเคยอยากได้สองอย่างพร้อมกัน — concurrency model ของ Go (goroutine, channel, select) กับ ความปลอดภัยด้าน memory ของ Rust (ownership, ไม่มี GC) ปกติแล้วสองอย่างนี้อยู่คนละโลก: Go ให้ runtime มาให้แต่มี garbage collector, Rust </summary>
-    <author><name>Gophernment</name></author>
+    <title>Build a Privacy Filter Before Your AI Agent Remembers User Actions</title>
+    <link href="https://dev.to/jackm-singularity/build-a-privacy-filter-before-your-ai-agent-remembers-user-actions-31fe" rel="alternate"/>
+    <id>https://dev.to/jackm-singularity/build-a-privacy-filter-before-your-ai-agent-remembers-user-actions-31fe</id>
+    <updated>2026-08-15T03:35:01Z</updated>
+    <summary type="text">AI agents are starting to remember more than chats. They can watch clicks, typed text, app switches, browser context, files, tool calls, and workflow history. That memory can make an agent feel useful fast, but it can also turn a helpful feature into a quiet privacy incident. If you are building an AI product, do not start with “how much can we capture?” Start with “what is the smallest event stre</summary>
+    <author><name>Jack M</name></author>
+    <category term="agents"/>
+    <category term="data"/>
   </entry>
   <entry>
-    <title>Supplier Invoice Speech-to-Text: EU Startup Validation Beyond Per-Minute Pricing</title>
-    <link href="https://dev.to/evanshepherd8274/supplier-invoice-speech-to-text-eu-startup-validation-beyond-per-minute-pricing-2h0a" rel="alternate"/>
-    <id>https://dev.to/evanshepherd8274/supplier-invoice-speech-to-text-eu-startup-validation-beyond-per-minute-pricing-2h0a</id>
-    <updated>2026-08-15T02:39:12Z</updated>
-    <summary type="text">Short answer: the cheapest speech-to-text API for an EU startup is the candidate that passes your invoice-field accuracy gate at the lowest normalized cost for your actual audio. Don't choose from a public per-minute headline alone. Put every provider behind one small TypeScript interface, replay the same supplier recordings, reject transcripts that fail schema checks, and compare the cost of acce</summary>
-    <author><name>EvanShepherd8274</name></author>
+    <title>Building Roshni: A Real-Time, Multi-Agent Financial Voice AI for Bharat 🇮🇳</title>
+    <link href="https://dev.to/saptak_roy_950fd751ad80bc/building-roshni-a-real-time-multi-agent-financial-voice-ai-for-bharat-3ao6" rel="alternate"/>
+    <id>https://dev.to/saptak_roy_950fd751ad80bc/building-roshni-a-real-time-multi-agent-financial-voice-ai-for-bharat-3ao6</id>
+    <updated>2026-08-15T03:21:08Z</updated>
+    <summary type="text">Building Roshni: An Ultra-Low Latency, Multi-Agent Financial Voice Assistant for Bharat 🇮🇳 How I built an end-to-end, multilingual financial voice AI using Murf Falcon, LiveKit Agents, Deepgram Nova-3, Google Gemini, and Next.js during the 10 Days of AI Voice Agents Challenge. 🌟 1. The Problem &amp; Why Voice Matters for Bharat In India, financial inclusion has accelerated rapidly with UPI, digital ba</summary>
+    <author><name>Saptak Roy</name></author>
     <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
-    <title>Feature Flags API: React Polling and Defensive Defaults for Delivery Status</title>
-    <link href="https://dev.to/caderaven6851/feature-flags-api-react-polling-and-defensive-defaults-for-delivery-status-5d8f" rel="alternate"/>
-    <id>https://dev.to/caderaven6851/feature-flags-api-react-polling-and-defensive-defaults-for-delivery-status-5d8f</id>
-    <updated>2026-08-15T02:35:43Z</updated>
-    <summary type="text">Short answer: use a feature flags API as a polled configuration source for a React support console, ship fallback config with the frontend, and keep notification delivery authorization, billing, and other sensitive decisions on the server. This is a good fit for changing presentation around delivery failures; it is not a substitute for realtime experimentation, audit history, or server-side policy</summary>
-    <author><name>caderaven6851</name></author>
+    <title>Stop Wasting Free Model Calls on Trivial Diffs: A Three-Tier Escalation Ladder</title>
+    <link href="https://dev.to/gitlab_3188/stop-wasting-free-model-calls-on-trivial-diffs-a-three-tier-escalation-ladder-5132" rel="alternate"/>
+    <id>https://dev.to/gitlab_3188/stop-wasting-free-model-calls-on-trivial-diffs-a-three-tier-escalation-ladder-5132</id>
+    <updated>2026-08-15T03:20:59Z</updated>
+    <summary type="text">A merge request changes one README line. The pipeline still calls a model. It costs tokens. It adds latency. It tells you almost nothing. Sound familiar? If you maintain a small CI setup, this failure keeps showing up. The instinct is to put model-based review everywhere. Then the free tier dies in a week. The fix isn't another monitor. It's a small decision gate that decides whether a diff deserv</summary>
+    <author><name>Jordan Huang</name></author>
+  </entry>
+  <entry>
+    <title>Deploying Qwen3.8-2.4T-A95B with vLLM: Verified GPU Pods, Quants, and Serving Recipes</title>
+    <link href="https://dev.to/nick_k_gpus_market/deploying-qwen38-24t-a95b-with-vllm-verified-gpu-pods-quants-and-serving-recipes-g8a" rel="alternate"/>
+    <id>https://dev.to/nick_k_gpus_market/deploying-qwen38-24t-a95b-with-vllm-verified-gpu-pods-quants-and-serving-recipes-g8a</id>
+    <updated>2026-08-15T03:19:40Z</updated>
+    <summary type="text">Qwen3.8-2.4T-A95B is a 2.4-trillion-parameter Mixture-of-Experts model with roughly 95B parameters active for each token. If you're planning to self-host it, the first thing to know is that this is a genuinely large distributed model: even the low-precision checkpoints are measured in terabytes. The official open checkpoint is: Qwen/Qwen3.8-2.4T-A95B The model has 512 routed experts and selects 10</summary>
+    <author><name>Nick K</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Rasa — Turning Ayurveda’s Six Rasas Into CSS Art</title>
+    <link href="https://dev.to/ujja/rasa-turning-ayurvedas-six-rasas-into-css-art-4go6" rel="alternate"/>
+    <id>https://dev.to/ujja/rasa-turning-ayurvedas-six-rasas-into-css-art-4go6</id>
+    <updated>2026-08-15T03:16:21Z</updated>
+    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, CSS Art. Inspiration What does comfort food look like when you don't use food photography? That was the question behind Rasa. Rasa is an interactive culinary atlas exploring India through Shadrasa, the six tastes described in Ayurveda: Madhura — sweet Amla — sour Lavana — salty Katu — pungent Tikta — bitter Kashaya — astringent I </summary>
+    <author><name>ujja</name></author>
   </entry>
 </feed>
