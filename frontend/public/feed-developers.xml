@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T17:23:23Z</updated>
+  <updated>2026-08-16T18:34:08Z</updated>
+  <entry>
+    <title>The Ultimate Code Review Checklist for Data Validation Frameworks</title>
+    <link href="https://dev.to/shell_qa/the-ultimate-code-review-checklist-for-data-validation-frameworks-4ola" rel="alternate"/>
+    <id>https://dev.to/shell_qa/the-ultimate-code-review-checklist-for-data-validation-frameworks-4ola</id>
+    <updated>2026-08-16T18:24:04Z</updated>
+    <summary type="text">A comprehensive, production-ready checklist for reviewing data validation, ETL testing, and automated reconciliation codebases. Code reviews for data engineering tools need more rigor than standard web apps. A subtle bug in a data validation framework can cause silent pipeline failures, false positive test passes, or accidental execution of unbounded SQL queries on production warehouses. Whether y</summary>
+    <author><name>Shell QA</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Why BlocSignal Doesn't Need Provider (And Why Classic BLoC Always Did)</title>
+    <link href="https://dev.to/gde/why-blocsignal-doesnt-need-provider-and-why-classic-bloc-always-did-1j3g" rel="alternate"/>
+    <id>https://dev.to/gde/why-blocsignal-doesnt-need-provider-and-why-classic-bloc-always-did-1j3g</id>
+    <updated>2026-08-16T18:12:39Z</updated>
+    <summary type="text">How shedding package:provider eliminates dependency hell, fixes Flutter's lingering ghost rebuild bug, and delivers fine-grained synchronous reactivity in 2026. If you browse r/FlutterDev on any given week, you will find the exact same architectural debate playing out: &quot;Should I use BLoC or Riverpod for my next production app? BLoC has great structure and discipline, but the stream boilerplate is </summary>
+    <author><name>Randal L. Schwartz</name></author>
+  </entry>
   <entry>
     <title>authority-auth: Stop Rolling Your Own Auth — A Framework-Agnostic Python Library</title>
     <link href="https://dev.to/rkriad585/authority-auth-stop-rolling-your-own-auth-a-framework-agnostic-python-library-232b" rel="alternate"/>
@@ -437,24 +454,6 @@
     <updated>2026-08-15T14:20:43Z</updated>
     <summary type="text">I let Claude Code commit directly to my repositories. I don't review the diffs. I didn't think I needed to, because I built a deterministic verify gate — a script that lints, typechecks, builds, and runs tests. If the gate goes green, the PR merges automatically. I trusted that gate implicitly. Until I actually sat down and asked the one question that matters: If an agent pushes completely broken </summary>
     <author><name>Andréas Bodin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Where the time actually goes in an AI coding-agent job</title>
-    <link href="https://dev.to/arti0/where-the-time-actually-goes-in-an-ai-coding-agent-job-13ei" rel="alternate"/>
-    <id>https://dev.to/arti0/where-the-time-actually-goes-in-an-ai-coding-agent-job-13ei</id>
-    <updated>2026-08-15T14:16:18Z</updated>
-    <summary type="text">I run an agent-orchestration platform: it takes a ticket, spins up a git worktree, lets a Claude Code agent build the feature, and runs a deterministic verify gate before merging. A typical job takes 20–30 minutes. I used to blame slow model responses for the runtime, but stage-by-stage measurements proved that assumption wrong: infrastructure overhead costs 5–8 minutes of every job before the age</summary>
-    <author><name>Andréas Bodin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Twenty-Hour Fuse</title>
-    <link href="https://dev.to/jeromefromhk/the-twenty-hour-fuse-4lcl" rel="alternate"/>
-    <id>https://dev.to/jeromefromhk/the-twenty-hour-fuse-4lcl</id>
-    <updated>2026-08-15T14:15:54Z</updated>
-    <summary type="text">Two nights of debugging, one incident left to write about. The night of August 14th, a Claude Code session hung for an hour inside the VS Code extension, and I traced it to a per-token streaming stall — the previous two pieces, Two Clocks, Neither Lying and Coalescing the Stream, cover that hunt and the middleware that fixed it. The morning after, the same four-core box nearly went down under a lo</summary>
-    <author><name>Jerome</name></author>
     <category term="llm"/>
   </entry>
 </feed>
