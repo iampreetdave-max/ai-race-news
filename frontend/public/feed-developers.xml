@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T21:26:16Z</updated>
+  <updated>2026-08-16T22:27:45Z</updated>
+  <entry>
+    <title>The pipeline that writes this blog</title>
+    <link href="https://dev.to/jonesrussell/the-pipeline-that-writes-this-blog-5h9j" rel="alternate"/>
+    <id>https://dev.to/jonesrussell/the-pipeline-that-writes-this-blog-5h9j</id>
+    <updated>2026-08-16T21:44:02Z</updated>
+    <summary type="text">Ahnii! This post is a little unusual: it was drafted by the same pipeline it describes. This blog runs a GitHub Actions workflow, Content Autopilot, that mines project activity, curates it with Claude Code running headless in CI, writes a Hugo post, and publishes it to main without a human in the loop. This post covers how the throttle, the curation gate, and the publish flow fit together. The thr</summary>
+    <author><name>Russell Jones</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Automate Scheduled X Posts with Codex and xurl</title>
+    <link href="https://dev.to/designly/how-to-automate-scheduled-x-posts-with-codex-and-xurl-4inb" rel="alternate"/>
+    <id>https://dev.to/designly/how-to-automate-scheduled-x-posts-with-codex-and-xurl-4inb</id>
+    <updated>2026-08-16T21:23:36Z</updated>
+    <summary type="text">Most social-media automation tutorials stop at “call the API on a cron job.” That works, but it leaves the hard questions unanswered. Which account is the automation using? How does it avoid posting the same story twice? What happens when an API request times out after X has already accepted the post? And where should an AI agent’s editorial freedom end? I recently built a scheduled X publishing w</summary>
+    <author><name>Jay @ Designly</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
   <entry>
     <title>Setting Up Playwright &amp; Cucumber UI Tests in Azure DevOps with LambdaTest</title>
     <link href="https://dev.to/shell_qa/setting-up-playwright-cucumber-ui-tests-in-azure-devops-with-lambdatest-2cld" rel="alternate"/>
@@ -436,24 +455,5 @@
     <category term="llm"/>
     <category term="data"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras</title>
-    <link href="https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/" rel="alternate"/>
-    <id>https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/</id>
-    <updated>2026-08-14T14:21:50Z</updated>
-    <summary type="text">OpenAI is launching &quot;Ultrafast,&quot; a new inference mode that delivers GPT-5.6 Sol at up to 750 output tokens per second, powered by Cerebras hardware from their $10 billion partnership. Together with &quot;Standard&quot; and &quot;Fast,&quot; Ultrafast creates a three-tier pricing structure that turns inference speed into its own product. The article GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why Data Engineering Is the Oldest Profession in Infrastructure</title>
-    <link href="https://dev.to/turboline_ai_/why-data-engineering-is-the-oldest-profession-in-infrastructure-b9m" rel="alternate"/>
-    <id>https://dev.to/turboline_ai_/why-data-engineering-is-the-oldest-profession-in-infrastructure-b9m</id>
-    <updated>2026-08-15T14:21:22Z</updated>
-    <summary type="text">Not that one. The other one: keeping water flowing to people who need it. The comparison between data engineers and plumbers gets made a lot, usually as a light joke about unglamorous work. But if you actually follow the metaphor further than the punchline, it stops being a joke and starts being a pretty useful mental model for why data systems are built the way they are. Aqueducts Were Just Early</summary>
-    <author><name>turboline-ai</name></author>
-    <category term="data"/>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T21:26:16Z</updated>
+  <updated>2026-08-16T22:27:45Z</updated>
   <entry>
     <title>Top mathematicians say LLMs are strong calculators but poor creative thinkers</title>
     <link href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/" rel="alternate"/>
@@ -12,6 +12,15 @@
     <updated>2026-08-16T15:31:21Z</updated>
     <summary type="text">Two renowned mathematicians, Timothy Gowers and Peter Sarnak, say large language models are good at combining known methods but lack the intuition for genuinely new mathematical ideas. The article Top mathematicians say LLMs are strong calculators but poor creative thinkers appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI reportedly disbanded its preparedness team</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team</id>
+    <updated>2026-08-16T21:32:56Z</updated>
+    <summary type="text">According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]</summary>
+    <author><name>Terrence O’Brien</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -92,6 +101,69 @@
     <updated>2026-08-16T05:00:00Z</updated>
     <summary type="text">A representative survey by Epoch AI found that 20 percent of employed Americans hand off at least one task to AI that a human used to do. Generally, they accept AI output with little to no editing. The article One in five US workers now delegates tasks to AI instead of colleagues, survey finds appeared first on The Decoder.</summary>
     <author><name>Tomislav Bezmalinović</name></author>
+  </entry>
+  <entry>
+    <title>So, I Vibe Coded A Way Out, Again.</title>
+    <link href="https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb" rel="alternate"/>
+    <id>https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb</id>
+    <updated>2026-08-16T22:18:46Z</updated>
+    <summary type="text">A while ago I wrote an article asking When Is 100% Vibe Coding OK?. My conclusion was that it works when the human already owns the invariants. If you know the problem is solvable, understand the constraints, and have a reliable way to verify the output, AI can be a fantastic accelerator. Apparently I decided to test that theory again. This time with my banking app. If you are savvy enough in the </summary>
+    <author><name>Viorel PETCU</name></author>
+  </entry>
+  <entry>
+    <title>Cipr and Ciprnode zero</title>
+    <link href="https://dev.to/barriteau/cipr-and-ciprnode-zero-1b89" rel="alternate"/>
+    <id>https://dev.to/barriteau/cipr-and-ciprnode-zero-1b89</id>
+    <updated>2026-08-16T22:08:38Z</updated>
+    <summary type="text">The Cipr (Cosmic Index of Public Resources) is a decentralized, distributed, and censorship-resistant web index where domain owners control their own entries. No crawler decides if you are worth indexing. No curator approves your submission. No central authority can delist you. If you own a domain, you publish a small daemon, add a DNS TXT record, and your site is in the index, worldwide, in minut</summary>
+    <author><name>Juan Barriteau</name></author>
+  </entry>
+  <entry>
+    <title>Building a Customer Service AI Agent That Executes Workflows (Not Just Answers Questions) - Full Architecture</title>
+    <link href="https://dev.to/dextralabs/building-a-customer-service-ai-agent-that-executes-workflows-not-just-answers-questions-full-4dd3" rel="alternate"/>
+    <id>https://dev.to/dextralabs/building-a-customer-service-ai-agent-that-executes-workflows-not-just-answers-questions-full-4dd3</id>
+    <updated>2026-08-16T21:59:41Z</updated>
+    <summary type="text">Most customer service AI implementations answer questions. They retrieve relevant information from a knowledge base, synthesize a response, and hand the conversation back to the customer. That's a chatbot. A good one, in 2026, but still a chatbot. A customer service agent that executes workflows does something different. It processes the refund. It updates the account. It triggers the return label</summary>
+    <author><name>Dextra Labs</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>The pipeline that writes this blog</title>
+    <link href="https://dev.to/jonesrussell/the-pipeline-that-writes-this-blog-5h9j" rel="alternate"/>
+    <id>https://dev.to/jonesrussell/the-pipeline-that-writes-this-blog-5h9j</id>
+    <updated>2026-08-16T21:44:02Z</updated>
+    <summary type="text">Ahnii! This post is a little unusual: it was drafted by the same pipeline it describes. This blog runs a GitHub Actions workflow, Content Autopilot, that mines project activity, curates it with Claude Code running headless in CI, writes a Hugo post, and publishes it to main without a human in the loop. This post covers how the throttle, the curation gate, and the publish flow fit together. The thr</summary>
+    <author><name>Russell Jones</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>cannot index parallel arrays, the MongoDB error that improves your schema</title>
+    <link href="https://dev.to/saqibameen86/cannot-index-parallel-arrays-the-mongodb-error-that-improves-your-schema-4pp" rel="alternate"/>
+    <id>https://dev.to/saqibameen86/cannot-index-parallel-arrays-the-mongodb-error-that-improves-your-schema-4pp</id>
+    <updated>2026-08-16T21:41:53Z</updated>
+    <summary type="text">MongoServerError: cannot index parallel arrays [certifications] [skills] If you've never hit this error, your schemas have been lucky. A team once brought me a document shaped like this during a design review: { _id: 1, name: &quot;engineer-42&quot;, skills: [&quot;mongodb&quot;, &quot;cassandra&quot;, &quot;python&quot;], certifications: [&quot;dba&quot;, &quot;atlas-admin&quot;] } They wanted fast queries on skill and certification combinations, so the n</summary>
+    <author><name>Saqib Ameen Subhan</name></author>
+  </entry>
+  <entry>
+    <title>How to Automate Scheduled X Posts with Codex and xurl</title>
+    <link href="https://dev.to/designly/how-to-automate-scheduled-x-posts-with-codex-and-xurl-4inb" rel="alternate"/>
+    <id>https://dev.to/designly/how-to-automate-scheduled-x-posts-with-codex-and-xurl-4inb</id>
+    <updated>2026-08-16T21:23:36Z</updated>
+    <summary type="text">Most social-media automation tutorials stop at “call the API on a cron job.” That works, but it leaves the hard questions unanswered. Which account is the automation using? How does it avoid posting the same story twice? What happens when an API request times out after X has already accepted the post? And where should an AI agent’s editorial freedom end? I recently built a scheduled X publishing w</summary>
+    <author><name>Jay @ Designly</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Build One Guarded Prisma Endpoint, Then Break It Five Ways</title>
+    <link href="https://dev.to/hellowwworld/build-one-guarded-prisma-endpoint-then-break-it-five-ways-3aj6" rel="alternate"/>
+    <id>https://dev.to/hellowwworld/build-one-guarded-prisma-endpoint-then-break-it-five-ways-3aj6</id>
+    <updated>2026-08-16T21:21:06Z</updated>
+    <summary type="text">A generated route can remove repetitive Express handlers without removing the API contract. That distinction becomes concrete when one endpoint is deliberately broken in five small ways. Each break below changes either shape construction, request validation, emitted Prisma arguments, or execution-time projection. The status code alone is not enough to identify which layer moved. The examples use p</summary>
+    <author><name>hellowwworld</name></author>
   </entry>
   <entry>
     <title>I Tested DeepSeek vs Qwen vs Kimi vs GLM — Here's the Winner</title>
@@ -364,72 +436,5 @@
     <updated>2026-08-16T18:12:39Z</updated>
     <summary type="text">How shedding package:provider eliminates dependency hell, fixes Flutter's lingering ghost rebuild bug, and delivers fine-grained synchronous reactivity in 2026. If you browse r/FlutterDev on any given week, you will find the exact same architectural debate playing out: &quot;Should I use BLoC or Riverpod for my next production app? BLoC has great structure and discipline, but the stream boilerplate is </summary>
     <author><name>Randal L. Schwartz</name></author>
-  </entry>
-  <entry>
-    <title>PawArt | Letting a Dog Help Create Its Own Portrait</title>
-    <link href="https://dev.to/mirshah12/pawart-letting-a-dog-help-create-its-own-portrait-18j3" rel="alternate"/>
-    <id>https://dev.to/mirshah12/pawart-letting-a-dog-help-create-its-own-portrait-18j3</id>
-    <updated>2026-08-16T18:10:46Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition PawArt Every bark becomes art. Your dog. Their bark. Their masterpiece. Most pet art begins with a human choosing the colors, the mood, and the style. But dogs already bring a personality of their own. Their voices can be bright, gentle, restless, or wonderfully dramatic. PawArt begins there, by listening to the dog and letting the bark </summary>
-    <author><name>Mir Shah</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>hello.cv Earns a 63 Proof of Usefulness Score by Building AI-Powered Profiles That Network Autonomously</title>
-    <link href="https://hackernoon.com/hellocv-earns-a-63-proof-of-usefulness-score-by-building-ai-powered-profiles-that-network-autonomously?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/hellocv-earns-a-63-proof-of-usefulness-score-by-building-ai-powered-profiles-that-network-autonomously?source=rss</id>
-    <updated>2026-08-16T17:37:06Z</updated>
-    <summary type="text">hello.cv earned a 63 Proof of Usefulness score for building an AI-first professional networking platform that gives users search-optimized personal sites, custom domains, and autonomous networking assistants.Read All</summary>
-    <author><name>Ope HelloCV</name></author>
-  </entry>
-  <entry>
-    <title>Building a Secure Enterprise AI Assistant: A Complete Architecture &amp; Usage Guide</title>
-    <link href="https://dev.to/shell_qa/building-a-secure-enterprise-ai-assistant-a-complete-architecture-usage-guide-1gd3" rel="alternate"/>
-    <id>https://dev.to/shell_qa/building-a-secure-enterprise-ai-assistant-a-complete-architecture-usage-guide-1gd3</id>
-    <updated>2026-08-16T17:13:53Z</updated>
-    <summary type="text">Integrating generative AI into internal workflows requires a strict balance between user accessibility and enterprise data privacy. Below is a blueprint for designing, deploying, and governing an internal AI assistant (Secure GPT) using managed LLMs. 1. Architecture &amp; System Overview An enterprise AI assistant acts as a secure bridge between internal teams and Large Language Models (LLMs). Model O</summary>
-    <author><name>Shell QA</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A Detector That Only Ever Says &quot;Clean&quot; Proves Nothing</title>
-    <link href="https://dev.to/volodymyrkubiria/a-detector-that-only-ever-says-clean-proves-nothing-mii" rel="alternate"/>
-    <id>https://dev.to/volodymyrkubiria/a-detector-that-only-ever-says-clean-proves-nothing-mii</id>
-    <updated>2026-08-16T17:09:09Z</updated>
-    <summary type="text">A few days ago I asked my agent to count how many of my tooling scripts carry a self-test. It grepped and answered: 12 of 13. The number was wrong. One script labels its control НЕГАТИВНИЙ КОНТРОЛЬ — uppercase — and the probe's regex was lowercase with no -i flag. The real answer was 13 of 13. A probe written to find blind detectors was blind. It returned a clean, specific, entirely plausible numb</summary>
-    <author><name>Volodymyr</name></author>
-  </entry>
-  <entry>
-    <title>We wrote integrations for two marketplaces and skipped the shared interface</title>
-    <link href="https://dev.to/fastogt_team/we-wrote-integrations-for-two-marketplaces-and-skipped-the-shared-interface-ig5" rel="alternate"/>
-    <id>https://dev.to/fastogt_team/we-wrote-integrations-for-two-marketplaces-and-skipped-the-shared-interface-ig5</id>
-    <updated>2026-08-16T17:04:40Z</updated>
-    <summary type="text">There is a task that looks like a textbook example of polymorphism: &quot;sync stock and prices with marketplaces&quot;. There are several platforms, the actions are the same — list the cards, push the stock, push the price, pull the orders. An interface asks to be written: type Marketplace interface { ListOffers() ([]Offer, error) SetStock(offerID string, n int64) error SetPrice(offerID string, price int64</summary>
-    <author><name>FastoGT Team</name></author>
-  </entry>
-  <entry>
-    <title>5 Things I Check First When a Linux Server Goes Down</title>
-    <link href="https://dev.to/asepsayyad007/5-things-i-check-first-when-a-linux-server-goes-down-3e0i" rel="alternate"/>
-    <id>https://dev.to/asepsayyad007/5-things-i-check-first-when-a-linux-server-goes-down-3e0i</id>
-    <updated>2026-08-16T17:00:23Z</updated>
-    <summary type="text">When a production machine drops offline or stops responding, guessing wastes precious minutes. Here is the exact five-step triage sequence I run to find the root cause and bring systems back online. It was 3:15 AM on a Saturday morning when my phone vibrated with an urgent Prometheus alert. Our primary application server had stopped replying to health check probes. HTTP requests were timing out, A</summary>
-    <author><name>Asep Sayyad</name></author>
-  </entry>
-  <entry>
-    <title>I reimplemented the RustDesk wire protocol in pure Go — here's what it took</title>
-    <link href="https://dev.to/ttywrangler/i-reimplemented-the-rustdesk-wire-protocol-in-pure-go-heres-what-it-took-2kok" rel="alternate"/>
-    <id>https://dev.to/ttywrangler/i-reimplemented-the-rustdesk-wire-protocol-in-pure-go-heres-what-it-took-2kok</id>
-    <updated>2026-08-16T16:46:55Z</updated>
-    <summary type="text">RustDesk's public server now requires login, and the only official client is a desktop GUI. If you wanted to script a remote machine, pull a file, or set up a tunnel from your terminal — you were out of luck. So I built rdcli: a pure-Go CLI that speaks the RustDesk wire protocol directly. No GUI, no official binary, no Electron. It can list remote directories, copy files both ways, open interactiv</summary>
-    <author><name>T. Wrangler</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>authority-auth: Stop Rolling Your Own Auth — A Framework-Agnostic Python Library</title>
-    <link href="https://dev.to/rkriad585/authority-auth-stop-rolling-your-own-auth-a-framework-agnostic-python-library-232b" rel="alternate"/>
-    <id>https://dev.to/rkriad585/authority-auth-stop-rolling-your-own-auth-a-framework-agnostic-python-library-232b</id>
-    <updated>2026-08-16T16:11:07Z</updated>
-    <summary type="text">The problem Every Python web app eventually needs authentication, and every team ends up either gluing together half a dozen libraries or hand-rolling JWT logic. Both paths are full of security traps: weak token validation, no refresh-token rotation, missing lockouts, forgotten MFA. The library authority-auth (https://github.com/rkriad585/authority) is a comprehensive, framework-agnostic Python au</summary>
-    <author><name>RK Riad Khan</name></author>
   </entry>
 </feed>
