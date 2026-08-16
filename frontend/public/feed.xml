@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T12:46:24Z</updated>
+  <updated>2026-08-16T13:34:38Z</updated>
   <entry>
     <title>When AI models aren't allowed to reflect on themselves, it changes their entire worldview</title>
     <link href="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/" rel="alternate"/>
@@ -86,6 +86,74 @@
     <summary type="text">Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]</summary>
     <author><name>Terrence O’Brien</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The JavaScript Event Loop, Visualized</title>
+    <link href="https://dev.to/audreyhal/the-javascript-event-loop-visualized-4dp7" rel="alternate"/>
+    <id>https://dev.to/audreyhal/the-javascript-event-loop-visualized-4dp7</id>
+    <updated>2026-08-16T13:32:34Z</updated>
+    <summary type="text">This is a cross-post of the original article. Read the full version, including the interactive visualizations, on audreyhal.com. Quick quiz. What does this print, and in what order? console.log(&quot;start&quot;); setTimeout(() =&gt; console.log(&quot;timeout&quot;), 0); Promise.resolve().then(() =&gt; console.log(&quot;promise1&quot;)); Promise.resolve().then(() =&gt; console.log(&quot;promise2&quot;)); console.log(&quot;end&quot;); The answer is: start </summary>
+    <author><name>Chioma Halim</name></author>
+  </entry>
+  <entry>
+    <title>Apple Pay in Flutter: The Easiest Implementation</title>
+    <link href="https://dev.to/mryadavgulshan/apple-pay-in-flutter-the-easiest-implementation-17he" rel="alternate"/>
+    <id>https://dev.to/mryadavgulshan/apple-pay-in-flutter-the-easiest-implementation-17he</id>
+    <updated>2026-08-16T13:30:00Z</updated>
+    <summary type="text">So, in this article, I will be showing you how you can integrate Apple Pay into your Flutter app — and yes, this one is genuinely the easiest of the mobile wallets, because Apple has wrapped the entire flow into a native payment sheet. No card form, no bank list, no OTP. The user double-clicks the side button, confirms with Face ID, and the payment token is out. The reason Apple Pay integration is</summary>
+    <author><name>Gulshan Yadav</name></author>
+  </entry>
+  <entry>
+    <title>OAuth Tokens Were Always the Weak Link. AI Agents Just Made It Worse</title>
+    <link href="https://dev.to/coridev/oauth-tokens-were-always-the-weak-link-ai-agents-just-made-it-worse-4dc6" rel="alternate"/>
+    <id>https://dev.to/coridev/oauth-tokens-were-always-the-weak-link-ai-agents-just-made-it-worse-4dc6</id>
+    <updated>2026-08-16T13:26:07Z</updated>
+    <summary type="text">Nobody phished anyone in the Vercel or Composio breaches. That's the part worth sitting with for a second, because for the last decade &quot;security awareness training&quot; has been the default answer to &quot;how do we stop account takeover.&quot; Turns out you can skip the user entirely if you just steal the token they already approved. Context This isn't new. OAuth token theft and abuse has been a known soft spo</summary>
+    <author><name>Cor E</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>A Litigant Hid White-Text Prompt Injection in a Court Filing. A Human Caught It, Not an AI.</title>
+    <link href="https://dev.to/coridev/a-litigant-hid-white-text-prompt-injection-in-a-court-filing-a-human-caught-it-not-an-ai-31gp" rel="alternate"/>
+    <id>https://dev.to/coridev/a-litigant-hid-white-text-prompt-injection-in-a-court-filing-a-human-caught-it-not-an-ai-31gp</id>
+    <updated>2026-08-16T13:19:41Z</updated>
+    <summary type="text">A court employee in Connecticut noticed some odd whitespace in a legal filing. That's it. That's the entire detection mechanism that stood between a working prompt injection attack and whatever AI system might have touched that document next. According to 404 Media, a pro se plaintiff (someone representing themselves, no lawyer) embedded near-invisible instructions in official court filings. White</summary>
+    <author><name>Cor E</name></author>
+  </entry>
+  <entry>
+    <title>Dev log #17 From 16-bit TUIs to p2p Hardening: A 227-Commit Week</title>
+    <link href="https://dev.to/yashksaini/dev-log-17-from-16-bit-tuis-to-p2p-hardening-a-227-commit-week-1cbg" rel="alternate"/>
+    <id>https://dev.to/yashksaini/dev-log-17-from-16-bit-tuis-to-p2p-hardening-a-227-commit-week-1cbg</id>
+    <updated>2026-08-16T13:14:30Z</updated>
+    <summary type="text">A high-output week focused on shipping GitBanner 1.3.0, hardening WebRTC and DHT layers in py-libp2p, and archiving kad-monitor with a proper demo harness. 227 commits, 16 PRs, and a perfect 7-day streak. TL;DR This week was a massive exercise in context switching, but in the best way possible. I logged 227 commits across a dozen repos, ranging from low-level p2p networking fixes in Python to aest</summary>
+    <author><name>Yash Kumar Saini</name></author>
+  </entry>
+  <entry>
+    <title>Dual-Graph Drift Detection for Solo Devs: What Happens When Your Docs and Your Code Start Talking to Each Other</title>
+    <link href="https://dev.to/dexterlung/dual-graph-drift-detection-for-solo-devs-what-happens-when-your-docs-and-your-code-start-talking-522h" rel="alternate"/>
+    <id>https://dev.to/dexterlung/dual-graph-drift-detection-for-solo-devs-what-happens-when-your-docs-and-your-code-start-talking-522h</id>
+    <updated>2026-08-16T13:05:11Z</updated>
+    <summary type="text">Dual-Graph Drift Detection for Solo Devs What Happens When Your Docs and Your Code Start Talking to Each Other I'm a coffee roaster in Taiwan who taught myself to code with AI over the past 8 months. I built a full vertical-integration ERP for my coffee brand — from green bean inventory to roasting orders to e-commerce checkout. Along the way I ran into something nobody on the internet seems to be</summary>
+    <author><name>Dexterlung</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>When &quot;Hidden&quot; Reasoning Isn't Hidden: The OpenAI/Anthropic/Google Encrypted Trace Replay Bug</title>
+    <link href="https://dev.to/coridev/when-hidden-reasoning-isnt-hidden-the-openaianthropicgoogle-encrypted-trace-replay-bug-2a5j" rel="alternate"/>
+    <id>https://dev.to/coridev/when-hidden-reasoning-isnt-hidden-the-openaianthropicgoogle-encrypted-trace-replay-bug-2a5j</id>
+    <updated>2026-08-16T13:04:27Z</updated>
+    <summary type="text">Researchers disclosed in August 2026 that encrypted reasoning objects across OpenAI, Anthropic, and Google APIs could be replayed outside their original context. Not just replayed by the same user in a later session. Replayed across users. Replayed into weaker models that had no business decoding a stronger model's internal reasoning at all. The result: hundreds of real secrets pulled out of reaso</summary>
+    <author><name>Cor E</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Running SQL Concurrently Across Three Remote DuckDB Servers with Quack</title>
+    <link href="https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/" rel="alternate"/>
+    <id>https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/</id>
+    <updated>2026-08-16T13:00:00Z</updated>
+    <summary type="text">A small experiment in remote SQL execution The post Running SQL Concurrently Across Three Remote DuckDB Servers with Quack appeared first on Towards Data Science.</summary>
+    <author><name>Thomas Reid</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Solve It Once: Kelsey Hightower's Talk Applied to Security Verification</title>
@@ -373,73 +441,5 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Demystifying Vector Distance in PostgreSQL</title>
-    <link href="https://dev.to/rpi1337/demystifying-vector-distance-in-postgresql-40ol" rel="alternate"/>
-    <id>https://dev.to/rpi1337/demystifying-vector-distance-in-postgresql-40ol</id>
-    <updated>2026-08-16T08:50:55Z</updated>
-    <summary type="text">A look into sliding window comparisons for image analysis. When you need to perform complex similarity comparisons inside a database, you often have to bridge the gap between application-level data structures (like JSON) and low-level math (like vectors). The PostgreSQL snippet provided is a classic example of this bridge. It sets up the foundation for a sliding window comparison—a technique where</summary>
-    <author><name>💻 Arpad Kish 💻</name></author>
-  </entry>
-  <entry>
-    <title>go-dicom — a pure Go DICOM library and CLI, no CGO</title>
-    <link href="https://dev.to/amrshadid/go-dicom-a-pure-go-dicom-library-and-cli-no-cgo-17ij" rel="alternate"/>
-    <id>https://dev.to/amrshadid/go-dicom-a-pure-go-dicom-library-and-cli-no-cgo-17ij</id>
-    <updated>2026-08-16T08:49:38Z</updated>
-    <summary type="text">If you work in Go and you need to handle medical images, your options until now were unpleasant. Bind to dcmtk or DCMTK-derived C libraries and accept CGO — losing static builds, easy cross-compilation, and a good chunk of your deployment simplicity. Shell out to a Python process running pydicom. Or write the parts of the DICOM standard you need yourself, which is how a lot of hospital integration</summary>
-    <author><name>Amr shadid</name></author>
-  </entry>
-  <entry>
-    <title>The AI Engineer's Reading List for 2026 (10 Books That Matter)</title>
-    <link href="https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb" rel="alternate"/>
-    <id>https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb</id>
-    <updated>2026-08-16T08:24:55Z</updated>
-    <summary type="text">Disclosure: This post includes affiliate links; I may receive compensation if you purchase products or services from the different links provided in this article. Hello Devs, the AI world is moving ridiculously fast. New models, new frameworks, new tools every week there's something new for AI engineers to learn. But if there's one thing that consistently separates great engineers from the rest, i</summary>
-    <author><name>Soma</name></author>
-  </entry>
-  <entry>
-    <title>What Happens When an LLM Never Reads Beyond Fifth Grade?</title>
-    <link href="https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj" rel="alternate"/>
-    <id>https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj</id>
-    <updated>2026-08-16T08:19:52Z</updated>
-    <summary type="text">What Happens When an LLM Never Reads Beyond Fifth Grade? In 2026, a provocative thread on Hacker News asked: What would happen if we trained an LLM exclusively on material written at or below a fifth-grade reading level? At first, the question sounds like a joke—a way to build a deliberately &quot;dumb&quot; model. But the more you dig into it, the more it becomes a sharp thought experiment that reveals how</summary>
-    <author><name>Kai X Intelligence</name></author>
-  </entry>
-  <entry>
-    <title>.github/workflows/accessibility.yml</title>
-    <link href="https://dev.to/maria_josegonzalezantel_80/githubworkflowsaccessibilityyml-3e6n" rel="alternate"/>
-    <id>https://dev.to/maria_josegonzalezantel_80/githubworkflowsaccessibilityyml-3e6n</id>
-    <updated>2026-08-16T08:15:15Z</updated>
-    <summary type="text">Designing AI‑Driven HR Tools for WCAG 2.2 Compliance Under the EU AI Act and UK Online Safety Act Meta: Learn how to build AI‑driven HR tools that meet WCAG 2.2, EU AI Act, and UK Online Safety Act with compliant, scalable architecture. Introduction As a CPO and ICT Project Director with over 20 years of experience scaling AI‑powered platforms, I’ve repeatedly seen product teams treat accessibilit</summary>
-    <author><name>Maria jose Gonzalez Antelo</name></author>
-    <category term="regulation"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3</title>
-    <link href="https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5" rel="alternate"/>
-    <id>https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5</id>
-    <updated>2026-08-16T08:15:03Z</updated>
-    <summary type="text">I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3 I just released TraceMotive v0.3.0. TraceMotive is an open-source, local-first debugging tool for AI agent executions. GitHub: https://github.com/doraemonfv-glitch/tracemotive The problem Imagine you have two agent executions. One worked. One didn't. Traditional tracing gives you the raw execution data, which is useful — but </summary>
-    <author><name>Ruca.</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>What n8n Execution Traces Can and Can't Tell You About Workflow Coverage</title>
-    <link href="https://dev.to/malharlakdawala/what-n8n-execution-traces-can-and-cant-tell-you-about-workflow-coverage-293p" rel="alternate"/>
-    <id>https://dev.to/malharlakdawala/what-n8n-execution-traces-can-and-cant-tell-you-about-workflow-coverage-293p</id>
-    <updated>2026-08-16T08:09:40Z</updated>
-    <summary type="text">For my own reference, I was trying to answer a simple sounding question about an n8n workflow which branches did this execution exercise? It seems like a lookup given an execution, find the nodes, and for their outputs, observe which items were present. That gives you the exercised branches. This might be possible for some nodes. Then you get to filters. Then you get to loops. Then you realize no,</summary>
-    <author><name>Malhar Lakdawala</name></author>
-  </entry>
-  <entry>
-    <title>The Command Injection Fix Cursor Writes Still Runs Code (CWE-78)</title>
-    <link href="https://dev.to/c_k_fb750e731394/the-command-injection-fix-cursor-writes-still-runs-code-cwe-78-3j2m" rel="alternate"/>
-    <id>https://dev.to/c_k_fb750e731394/the-command-injection-fix-cursor-writes-still-runs-code-cwe-78-3j2m</id>
-    <updated>2026-08-16T08:07:18Z</updated>
-    <summary type="text">TL;DR Cursor writes exec() with your input pasted into the command string, which is textbook command injection (CWE-78). Ask it to fix that and it adds a regex blocklist for shell metacharacters. git clone ext::sh -c whoami contains none of them and still runs code on your box. The real fix is execFile with an argv array, plus a protocol and host allowlist, plus -- to stop option parsing. I was bu</summary>
-    <author><name>Charles Kern</name></author>
   </entry>
 </feed>
