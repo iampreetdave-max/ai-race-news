@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T01:36:31Z</updated>
+  <updated>2026-08-16T03:04:14Z</updated>
   <entry>
     <title>Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings</title>
     <link href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/" rel="alternate"/>
@@ -124,6 +124,89 @@
     <updated>2026-08-15T09:00:00Z</updated>
     <summary type="text">When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to train AI models in the first place.</summary>
     <author><name>Fernanda González</name></author>
+  </entry>
+  <entry>
+    <title>React useLatest Hook: Read Fresh State in Async Callbacks (2026)</title>
+    <link href="https://dev.to/childrentime/react-uselatest-hook-read-fresh-state-in-async-callbacks-2026-24hb" rel="alternate"/>
+    <id>https://dev.to/childrentime/react-uselatest-hook-read-fresh-state-in-async-callbacks-2026-24hb</id>
+    <updated>2026-08-16T02:38:31Z</updated>
+    <summary type="text">Here's an autosave button that lies to the user: function Editor({ docId }: { docId: string }) { const [text, setText] = useState(&quot;&quot;); const [status, setStatus] = useState&lt;&quot;idle&quot; | &quot;saving&quot; | &quot;saved&quot; | &quot;dirty&quot;&gt;(&quot;idle&quot;); async function save() { setStatus(&quot;saving&quot;); await api.save(docId, text); setStatus(&quot;saved&quot;); // ⚠️ but the user kept typing during the await… } return ( &lt;&gt; &lt;textarea value={text} </summary>
+    <author><name>ReactUse</name></author>
+  </entry>
+  <entry>
+    <title>How I Cut MCP Token Usage by 91% (and Learned a Humbling Lesson About Tokenizers)</title>
+    <link href="https://dev.to/mcptokensaver/how-i-cut-mcp-token-usage-by-91-and-learned-a-humbling-lesson-about-tokenizers-5hl1" rel="alternate"/>
+    <id>https://dev.to/mcptokensaver/how-i-cut-mcp-token-usage-by-91-and-learned-a-humbling-lesson-about-tokenizers-5hl1</id>
+    <updated>2026-08-16T02:35:21Z</updated>
+    <summary type="text">The Problem When you add MCP servers to your AI coding agent, each one dumps its full JSON schema into context. 255 tools across all servers = 39,964 tokens. On a 128K context window, that's 31% gone before you type a single character. I was literally paying for JSON syntax overhead. Every API call included {&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;...&quot;}]} — 80 tokens to deliver 6 tokens of data. The Sol</summary>
+    <author><name>MCP Token Saver</name></author>
+  </entry>
+  <entry>
+    <title>The AI revolution that fits on your phone</title>
+    <link href="https://dev.to/dev-into-space/the-ai-revolution-that-fits-on-your-phone-4e44" rel="alternate"/>
+    <id>https://dev.to/dev-into-space/the-ai-revolution-that-fits-on-your-phone-4e44</id>
+    <updated>2026-08-16T02:33:24Z</updated>
+    <summary type="text">While everyone argues about trillion-parameter giants in distant datacenters, the most important shift in AI is quieter: a capable model small enough to run on your phone, with the wifi switched off. The headlines chase the biggest models. The revolution that will actually reach a billion people is the opposite — models getting small, fast, and local. Here's why that matters more than the size rac</summary>
+    <author><name>Divyakush Punjabi</name></author>
+  </entry>
+  <entry>
+    <title>Single Agent vs Multi-Agent Systems: When to Split</title>
+    <link href="https://dev.to/mryadavgulshan/single-agent-vs-multi-agent-systems-when-to-split-nbp" rel="alternate"/>
+    <id>https://dev.to/mryadavgulshan/single-agent-vs-multi-agent-systems-when-to-split-nbp</id>
+    <updated>2026-08-16T02:30:00Z</updated>
+    <summary type="text">A founder at a workflow-automation startup called me last month. His team had built a working AI agent that handled customer onboarding — one agent, a set of tools, a good system prompt. It worked. Then he read the frameworks' marketing pages, and every one of them pushed the same message: agents are meant to be teams. Researcher agent, writer agent, reviewer agent, operator agent. He asked me, &quot;S</summary>
+    <author><name>Gulshan Yadav</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Give a Free Model a Latency Budget Before You Let It Into CI</title>
+    <link href="https://dev.to/gitlab_3188/give-a-free-model-a-latency-budget-before-you-let-it-into-ci-29b2" rel="alternate"/>
+    <id>https://dev.to/gitlab_3188/give-a-free-model-a-latency-budget-before-you-let-it-into-ci-29b2</id>
+    <updated>2026-08-16T02:12:51Z</updated>
+    <summary type="text">I keep hitting the same failure pattern. A merge request passes every test. Then the pipeline stalls. Nothing in the diff changed. The free model route I call for a review is just having a slow minute. Same prompt. Same payload. Wildly different wall-clock time. That is not a model problem. It is an unbounded dependency problem. CI treats unknown latency as zero latency Most CI examples wire a mod</summary>
+    <author><name>Jordan Huang</name></author>
+  </entry>
+  <entry>
+    <title>A Deny-by-Default Manifest for AI-Generated Services on a Free Server</title>
+    <link href="https://dev.to/github_7727/a-deny-by-default-manifest-for-ai-generated-services-on-a-free-server-49ko" rel="alternate"/>
+    <id>https://dev.to/github_7727/a-deny-by-default-manifest-for-ai-generated-services-on-a-free-server-49ko</id>
+    <updated>2026-08-16T02:11:19Z</updated>
+    <summary type="text">Why this is worth reading: a free model can hand you a working service in one prompt, and a free server can publish it before you have read the control flow. The cheap path tends to skip the permissions conversation. This article gives you a deny-by-default manifest and a bubblewrap preflight so you can treat a free server as a real boundary without buying extra infrastructure. If you are using Mo</summary>
+    <author><name>Avery Lin</name></author>
+  </entry>
+  <entry>
+    <title>Paywall Any API Endpoint With Two Prices: Sats or Compute</title>
+    <link href="https://dev.to/zekebuilds/paywall-any-api-endpoint-with-two-prices-sats-or-compute-1jdh" rel="alternate"/>
+    <id>https://dev.to/zekebuilds/paywall-any-api-endpoint-with-two-prices-sats-or-compute-1jdh</id>
+    <updated>2026-08-16T02:02:59Z</updated>
+    <summary type="text">You built an API. It works. Then the scrapers show up. Not paying customers. Bots hammering your endpoint a thousand times a minute, running up your compute bill, and giving you nothing back. The usual fix is API keys, a signup flow, a Stripe integration, a dashboard, and a support inbox for people who lost their key. That is a lot of plumbing to answer one question: did this caller give up someth</summary>
+    <author><name>Zeke</name></author>
+  </entry>
+  <entry>
+    <title>Bloom Filters</title>
+    <link href="https://dev.to/gouranga-das-khulna/bloom-filters-4j30" rel="alternate"/>
+    <id>https://dev.to/gouranga-das-khulna/bloom-filters-4j30</id>
+    <updated>2026-08-16T02:00:00Z</updated>
+    <summary type="text">One-liner: A probabilistic data structure that tells you if an element is definitely not in a set, or possibly in a set — using very little memory. 📌 The Problem You have 1 billion URLs in a database. Before adding a new URL, you want to check if it already exists. Naive approach: Query the database every time. Cost: 1 DB query per URL check → slow, expensive Bloom Filter approach: Check the bloom</summary>
+    <author><name>Gouranga Das Samrat</name></author>
+  </entry>
+  <entry>
+    <title>10 Reasons Every Developer Should Learn Go (Golang) in 2026 🚀</title>
+    <link href="https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc" rel="alternate"/>
+    <id>https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc</id>
+    <updated>2026-08-16T01:56:00Z</updated>
+    <summary type="text">The programming language that's powering the cloud revolution. Every year, developers ask the same question: &quot;Which programming language should I learn next?&quot; Some people recommend Python. Others suggest JavaScript or Rust. But if your goal is Backend Development, Cloud Engineering, DevOps, Platform Engineering, or Kubernetes, there's one language that stands above the rest: Go (Golang) Created by</summary>
+    <author><name>Yash Sonawane</name></author>
+  </entry>
+  <entry>
+    <title>7 Node.js Checks for Compatible Image Generation in 2026 (Provider Fallback)</title>
+    <link href="https://dev.to/irvincole5861/7-nodejs-checks-for-compatible-image-generation-in-2026-provider-fallback-3130" rel="alternate"/>
+    <id>https://dev.to/irvincole5861/7-nodejs-checks-for-compatible-image-generation-in-2026-provider-fallback-3130</id>
+    <updated>2026-08-16T01:53:47Z</updated>
+    <summary type="text">For a B2B SaaS system that scores candidates against a job rubric, keep the structured score as the system of record and treat every generated scorecard image as a replaceable projection. Provider adapters can live in the Node.js application or behind an internal compatibility boundary; either placement must validate the requested model and failure class before routing. Short answer: an OpenAI-com</summary>
+    <author><name>IrvinCole5861</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue</title>
@@ -358,88 +441,5 @@
     <summary type="text">Candy Logger v2.1.0 is now available. This release focuses on making Candy Logger correct, secure, reliable, and production-ready. Version 2.1.0 improves serialization, security, console interception, persistence, UI behavior, accessibility, mobile support, and the underlying architecture. It also introduces a cleaner core API that allows Candy Logger to be used without rendering the UI. GitHub Re</summary>
     <author><name>Muhammad Sheharyar Butt</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>How I Built a Multi-Agent MLOps Control Center with Google TabFM, Gemma 2B &amp; EU AI Act Cryptographic Attestations</title>
-    <link href="https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7" rel="alternate"/>
-    <id>https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7</id>
-    <updated>2026-08-15T20:51:56Z</updated>
-    <summary type="text">⚠️ This article was written as part of my submission for the Google Cloud #AllThingsAgenticHackathon. Note: The application is currently in its validation phase, running locally on Streamlit and tested end-to-end. It is designed to be fully deployable to Google Cloud Run and BigQuery. The Problem That Started Everything Picture this: a telecom company hands you a CSV file with 915 clients. You ope</summary>
-    <author><name>Gervais Marie</name></author>
-    <category term="regulation"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Framework Comparison Report: ZIM vs. PixiJS</title>
-    <link href="https://dev.to/zimlearn/framework-comparison-report-zim-vs-pixijs-a20" rel="alternate"/>
-    <id>https://dev.to/zimlearn/framework-comparison-report-zim-vs-pixijs-a20</id>
-    <updated>2026-08-15T20:45:36Z</updated>
-    <summary type="text">NOTE: Prompted by Dr Abstract who also requested article from Gemini. When building interactive 2D canvas experiences on the web—whether mini-games, educational interactives, infographics, or visual tools—developers often debate between low-level rendering speed and high-level developer velocity. In this article, we compare two popular approaches in the JavaScript ecosystem: PixiJS (the WebGL/WebG</summary>
-    <author><name>Dr Abstract</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Automate Email Verification in Playwright using Microsoft Graph API &amp; TypeScript published: true</title>
-    <link href="https://dev.to/shefali_qa/automate-email-verification-in-playwright-using-microsoft-graph-api-typescriptpublished-true-43fi" rel="alternate"/>
-    <id>https://dev.to/shefali_qa/automate-email-verification-in-playwright-using-microsoft-graph-api-typescriptpublished-true-43fi</id>
-    <updated>2026-08-15T20:43:54Z</updated>
-    <summary type="text">Automating end-to-end flows like user registration, password resets, or OTP verifications often hits a wall when dealing with emails. Automating UI login for webmail providers like Gmail or Outlook is flaky and frequently blocked by 2FA or CAPTCHAs. Using Microsoft Graph API with an Azure App Registration (Client Credentials Flow) lets you fetch target user inbox messages programmatically in your </summary>
-    <author><name>Shefali R</name></author>
-  </entry>
-  <entry>
-    <title>Your Company Has AI Tribes. Send an Engineer as Emissary</title>
-    <link href="https://dev.to/debashish_ghosal/your-company-has-ai-tribes-send-an-engineer-as-emissary-4g72" rel="alternate"/>
-    <id>https://dev.to/debashish_ghosal/your-company-has-ai-tribes-send-an-engineer-as-emissary-4g72</id>
-    <updated>2026-08-15T20:33:33Z</updated>
-    <summary type="text">This is not a how-to manual. It is also not an ROI story. This is an exploration of a narrower question: can the Forward-Deployed Engineer mindset be borrowed inside one company to help AI adoption spread across teams that do not share the same habits, tools, or instincts? An FDE, in the Palantir sense, is an engineer who leaves home, embeds in a customer's shop, and makes the product solve the cu</summary>
-    <author><name>Debashish Ghosal</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes: alertas utiles para readiness flapping</title>
-    <link href="https://dev.to/alexcarteruk/kubernetes-alertas-utiles-para-readiness-flapping-1bi1" rel="alternate"/>
-    <id>https://dev.to/alexcarteruk/kubernetes-alertas-utiles-para-readiness-flapping-1bi1</id>
-    <updated>2026-08-15T20:23:42Z</updated>
-    <summary type="text">Kubernetes: alertas utiles para readiness flapping Cuando un pod entra y sale de Ready varias veces en pocos minutos, mucha gente ve &quot;otro ruido de Kubernetes&quot; y sigue con lo suyo. Yo intento tratarlo distinto. En SRE, el readiness flapping casi nunca es el problema final; suele ser la primera pista de saturacion, dependencia lenta o configuracion inestable. Si la alerta llega sin contexto, el tur</summary>
-    <author><name>Alex Carter</name></author>
-  </entry>
-  <entry>
-    <title>Building a Custom API Testing Framework Using Playwright and TypeScript</title>
-    <link href="https://dev.to/shefali_qa/building-a-custom-api-testing-framework-using-playwright-and-typescript-56ja" rel="alternate"/>
-    <id>https://dev.to/shefali_qa/building-a-custom-api-testing-framework-using-playwright-and-typescript-56ja</id>
-    <updated>2026-08-15T20:08:50Z</updated>
-    <summary type="text">1. Introduction &amp; API Testing Strategy While Playwright is widely known for UI automation, its built-in API request context provides a lightweight, highly efficient framework for REST API testing without needing Postman or RestAssured. Executing API tests within Playwright allows for seamless integration tests—such as generating test data via API requests before executing end-to-end browser workfl</summary>
-    <author><name>Shefali R</name></author>
-  </entry>
-  <entry>
-    <title>LioranDB TypeScript Series #6: Secondary Indexes and Full-Text Indexes</title>
-    <link href="https://dev.to/ultrontheai/liorandb-typescript-series-6-secondary-indexes-and-full-text-indexes-2j60" rel="alternate"/>
-    <id>https://dev.to/ultrontheai/liorandb-typescript-series-6-secondary-indexes-and-full-text-indexes-2j60</id>
-    <updated>2026-08-15T20:07:39Z</updated>
-    <summary type="text">LioranDB TypeScript Series #6: Secondary Indexes and Full-Text Indexes LioranDB TypeScript Series: Build with a developer-first document database powered by Rust and designed for TypeScript. Indexes are where your data model meets your query patterns. LioranDB V2 currently supports secondary indexes and text indexes through the TypeScript driver. Create a secondary index await products.createIndex</summary>
-    <author><name>Swaraj Puppalwar</name></author>
-  </entry>
-  <entry>
-    <title>LioranDB TypeScript Series #1: Meet LioranDB V2, a Rust-Powered Document Database for TypeScript</title>
-    <link href="https://dev.to/ultrontheai/liorandb-typescript-series-1-meet-liorandb-v2-a-rust-powered-document-database-for-typescript-4ed5" rel="alternate"/>
-    <id>https://dev.to/ultrontheai/liorandb-typescript-series-1-meet-liorandb-v2-a-rust-powered-document-database-for-typescript-4ed5</id>
-    <updated>2026-08-15T20:00:06Z</updated>
-    <summary type="text">LioranDB TypeScript Series #1: Meet LioranDB V2, a Rust-Powered Document Database for TypeScript LioranDB TypeScript Series: Build with a developer-first document database powered by Rust and designed for TypeScript. On 16 August 2026, we released the pre-alpha of LioranDB V2. LioranDB is a developer-first NoSQL document database built in India. Its database engine is written in Rust, while applic</summary>
-    <author><name>Swaraj Puppalwar</name></author>
-  </entry>
-  <entry>
-    <title>Midnight Fridge Raid — comfort food isn't a dish, it's 2am</title>
-    <link href="https://dev.to/maneesh_thakur_d16c2852fa/midnight-fridge-raid-comfort-food-isnt-a-dish-its-2am-1l04" rel="alternate"/>
-    <id>https://dev.to/maneesh_thakur_d16c2852fa/midnight-fridge-raid-comfort-food-isnt-a-dish-its-2am-1l04</id>
-    <updated>2026-08-15T19:23:20Z</updated>
-    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, CSS Art. Inspiration The brief lists a steaming bowl of ramen, a stack of pancakes, a perfectly cut slice of pie — and then, quietly, &quot;or the dish you grew up eating.&quot; That last one is the real prompt. Comfort food isn't a recipe. It's a moment, and the most honest one I could think of isn't a plate at all: it's standing barefoot </summary>
-    <author><name>Maneesh Thakur</name></author>
-  </entry>
-  <entry>
-    <title>The Repository Pattern in NestJS: a collection that happens to live in a database</title>
-    <link href="https://dev.to/chacaponquin/the-repository-pattern-in-nestjs-a-collection-that-happens-to-live-in-a-database-1i1k" rel="alternate"/>
-    <id>https://dev.to/chacaponquin/the-repository-pattern-in-nestjs-a-collection-that-happens-to-live-in-a-database-1i1k</id>
-    <updated>2026-08-15T19:12:46Z</updated>
-    <summary type="text">The canonical starting point for a NestJS module backed by TypeORM is the one the framework itself documents: the module declares TypeOrmModule.forFeature([Order]) and the service receives the repository by injection. @Injectable() export class OrderService { constructor( @InjectRepository(Order) private readonly repo: Repository&lt;Order&gt;, ) {} } From there the service has find, findOne, save and de</summary>
-    <author><name>Hector Angel Gomez Robaina</name></author>
   </entry>
 </feed>

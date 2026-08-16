@@ -4,7 +4,23 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T01:36:31Z</updated>
+  <updated>2026-08-16T03:04:14Z</updated>
+  <entry>
+    <title>How I Cut MCP Token Usage by 91% (and Learned a Humbling Lesson About Tokenizers)</title>
+    <link href="https://dev.to/mcptokensaver/how-i-cut-mcp-token-usage-by-91-and-learned-a-humbling-lesson-about-tokenizers-5hl1" rel="alternate"/>
+    <id>https://dev.to/mcptokensaver/how-i-cut-mcp-token-usage-by-91-and-learned-a-humbling-lesson-about-tokenizers-5hl1</id>
+    <updated>2026-08-16T02:35:21Z</updated>
+    <summary type="text">The Problem When you add MCP servers to your AI coding agent, each one dumps its full JSON schema into context. 255 tools across all servers = 39,964 tokens. On a 128K context window, that's 31% gone before you type a single character. I was literally paying for JSON syntax overhead. Every API call included {&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;...&quot;}]} — 80 tokens to deliver 6 tokens of data. The Sol</summary>
+    <author><name>MCP Token Saver</name></author>
+  </entry>
+  <entry>
+    <title>10 Reasons Every Developer Should Learn Go (Golang) in 2026 🚀</title>
+    <link href="https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc" rel="alternate"/>
+    <id>https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc</id>
+    <updated>2026-08-16T01:56:00Z</updated>
+    <summary type="text">The programming language that's powering the cloud revolution. Every year, developers ask the same question: &quot;Which programming language should I learn next?&quot; Some people recommend Python. Others suggest JavaScript or Rust. But if your goal is Backend Development, Cloud Engineering, DevOps, Platform Engineering, or Kubernetes, there's one language that stands above the rest: Go (Golang) Created by</summary>
+    <author><name>Yash Sonawane</name></author>
+  </entry>
   <entry>
     <title>I shipped an MCP server that reported success without signing anything</title>
     <link href="https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh" rel="alternate"/>
@@ -440,23 +456,5 @@
     <summary type="text">SpaceX has completed a $60 billion acquisition of artificial intelligence coding startup Cursor, a key part of Elon Musk’s bid to gain ground on rivals Anthropic PBC and OpenAI.</summary>
     <author><name>Carmen Arroyo and Natasha Mascarenhas</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Two Weeks of Silent Failure: Idempotent Scheduling and Self-Healing for a launchd + Claude Code Pipeline</title>
-    <link href="https://dev.to/bokuwalily/two-weeks-of-silent-failure-idempotent-scheduling-and-self-healing-for-a-launchd-claude-code-3gb5" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/two-weeks-of-silent-failure-idempotent-scheduling-and-self-healing-for-a-launchd-claude-code-3gb5</id>
-    <updated>2026-08-15T05:00:06Z</updated>
-    <summary type="text">Every morning at 5, launchd wakes up, and by the time I do, articles I never wrote are already live. In Part 1, I covered the basic design of a Claude Code–centered article generator and the skeleton of how generate.sh produces a single draft. This time I'm publishing the entire back half — the part that actually keeps the system running: how to reliably embed monetization links, how to bail out w</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Day 14: AWS Compute — Managed &amp; Serverless</title>
-    <link href="https://dev.to/sr-palatasingh/day-14-aws-compute-managed-serverless-4foi" rel="alternate"/>
-    <id>https://dev.to/sr-palatasingh/day-14-aws-compute-managed-serverless-4foi</id>
-    <updated>2026-08-15T04:20:39Z</updated>
-    <summary type="text">We started the compute layer on Day 13 with EC2, ELB, and Auto Scaling — where you launch and manage everything yourself. Today we move one level up the abstraction ladder: services where AWS takes over more of the operational burden. By the end of this post you'll know what each one does, how it differs from plain EC2, and when to actually reach for it. AWS Elastic Beanstalk Elastic Beanstalk is </summary>
-    <author><name>Soumyaranjan Palatasingh</name></author>
-    <category term="product-launch"/>
   </entry>
 </feed>
