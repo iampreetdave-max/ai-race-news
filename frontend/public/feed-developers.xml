@@ -4,7 +4,23 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T09:30:55Z</updated>
+  <updated>2026-08-16T10:27:37Z</updated>
+  <entry>
+    <title>Building UniFi Reactor: state-driven network automation for my Kubernetes homelab</title>
+    <link href="https://dev.to/robbeverhelst/building-unifi-reactor-state-driven-network-automation-for-my-kubernetes-homelab-4k50" rel="alternate"/>
+    <id>https://dev.to/robbeverhelst/building-unifi-reactor-state-driven-network-automation-for-my-kubernetes-homelab-4k50</id>
+    <updated>2026-08-16T10:17:42Z</updated>
+    <summary type="text">A few weeks ago I added a UPS and backup internet to my homelab. That solved one class of problem, but it made another one more obvious. My UniFi gear knew when the WAN failed over. It knew when the UPS switched to battery. Kubernetes did not. So if the main WAN failed at 3 AM, qBittorrent could keep happily seeding over a metered backup link. If power dropped, the UPS could be counting down its r</summary>
+    <author><name>Robbe Verhelst</name></author>
+  </entry>
+  <entry>
+    <title>ENAMETOOLONG: how one dirty database field crashed our static build</title>
+    <link href="https://dev.to/numart/enametoolong-how-one-dirty-database-field-crashed-our-static-build-2312" rel="alternate"/>
+    <id>https://dev.to/numart/enametoolong-how-one-dirty-database-field-crashed-our-static-build-2312</id>
+    <updated>2026-08-16T09:52:48Z</updated>
+    <summary type="text">At podbor-minuta.ru about 600 apartment listing pages are built ahead of time into static HTML. Each page address is built from data: city, district or metro, room count, price. For example, /novostroyki/rayon/nagatino/2-komnatnye. One day the build crashed with ENAMETOOLONG, file name too long. Here is how it happened. We collect apartment data automatically from several sites. In one record the </summary>
+    <author><name>Eugene</name></author>
+  </entry>
   <entry>
     <title>One MCP Server, Three Config Schemas: Wiring PDF4me Into Cursor, VS Code, Claude Desktop, Windsurf and Continue</title>
     <link href="https://dev.to/pdf4me/one-mcp-server-three-config-schemas-wiring-pdf4me-into-cursor-vs-code-claude-desktop-windsurf-2j5c" rel="alternate"/>
@@ -438,23 +454,5 @@
     <updated>2026-08-15T11:00:56Z</updated>
     <summary type="text">The trap of the 'Generate' button When I first started using AI-powered editors like Cursor, I fell into the same trap as everyone else. I would write a prompt, hit generate, and watch a wall of code appear. It felt like a superpower. For the first hour, productivity spiked. By the end of the week, I was spending more time debugging subtle hallucinations than I would have spent writing the code fr</summary>
     <author><name>Ntty</name></author>
-  </entry>
-  <entry>
-    <title>Zero GPU Cost and 4-Minute Daily Runs — Making Real Rain Fall on a Still Image with ffmpeg displace</title>
-    <link href="https://dev.to/bokuwalily/zero-gpu-cost-and-4-minute-daily-runs-making-real-rain-fall-on-a-still-image-with-ffmpeg-displace-b5b" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/zero-gpu-cost-and-4-minute-daily-runs-making-real-rain-fall-on-a-still-image-with-ffmpeg-displace-b5b</id>
-    <updated>2026-08-15T11:00:47Z</updated>
-    <summary type="text">A 30-minute ASMR rain video costs me nothing but electricity, and the daily job that builds it dropped from 7–8 minutes to a little over 4. No video-generation model, no GPU rental, no editing. One still image, a physics simulation of raindrops written in Python, and ffmpeg's displace filter. For context on why I built this: in my second year of university I was making ¥100k a month, stacked side </summary>
-    <author><name>Lily</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>🦌 Mrigashira AI — Making Local AI Accessible to Everyone</title>
-    <link href="https://dev.to/pranaysmokal/mrigashira-ai-making-local-ai-accessible-to-everyone-22j" rel="alternate"/>
-    <id>https://dev.to/pranaysmokal/mrigashira-ai-making-local-ai-accessible-to-everyone-22j</id>
-    <updated>2026-08-15T10:59:21Z</updated>
-    <summary type="text">🚀 Mrigashira AI — Making Local AI Accessible to Everyone AI is becoming part of everyday life, but many people still cannot afford AI subscriptions or continuous API usage. I started building Mrigashira AI with a simple idea: AI should be accessible to everyone, not just those who can afford a subscription. Mrigashira AI is a desktop AI engine designed to run LLMs locally on your own hardware, whi</summary>
-    <author><name>Pranay Mokal</name></author>
   </entry>
 </feed>
