@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T13:34:38Z</updated>
+  <updated>2026-08-16T14:29:47Z</updated>
+  <entry>
+    <title>Software Engineering Fundamentals Matter More Than Ever — Even in the Age of AI Coding Tools</title>
+    <link href="https://dev.to/trismegistus/software-engineering-fundamentals-matter-more-than-ever-even-in-the-age-of-ai-coding-tools-3i9g" rel="alternate"/>
+    <id>https://dev.to/trismegistus/software-engineering-fundamentals-matter-more-than-ever-even-in-the-age-of-ai-coding-tools-3i9g</id>
+    <updated>2026-08-16T13:56:42Z</updated>
+    <summary type="text">A blog post titled &quot;Software Engineering Fundamentals Matter More [Than Ever]&quot; hit 214 points on Hacker News, and its message is one the AI coding tools industry doesn't want to hear: no matter how good AI gets at writing code, the fundamentals of software engineering aren't going anywhere. The Core Thesis The essay argues that AI coding tools — Copilot, Cursor, Claude Code, ChatGPT — have made it</summary>
+    <author><name>Charles</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Can Barely Read Rust, but I'm Building a Compiler in Rust</title>
+    <link href="https://dev.to/kentaromorishita/i-can-barely-read-rust-but-im-building-a-compiler-in-rust-1d59" rel="alternate"/>
+    <id>https://dev.to/kentaromorishita/i-can-barely-read-rust-but-im-building-a-compiler-in-rust-1d59</id>
+    <updated>2026-08-16T13:55:02Z</updated>
+    <summary type="text">The Seseragi compiler is currently written in Rust. I can barely read Rust. Written as two sentences, this project sounds deeply questionable. I don't think this would have worked before If you're building your own compiler, the obvious assumption is that you should understand the implementation language very well. That is still an advantage. A huge one. But in the Seseragi rewrite, Codex writes a</summary>
+    <author><name>KentaroMorishita</name></author>
+  </entry>
   <entry>
     <title>Dual-Graph Drift Detection for Solo Devs: What Happens When Your Docs and Your Code Start Talking to Each Other</title>
     <link href="https://dev.to/dexterlung/dual-graph-drift-detection-for-solo-devs-what-happens-when-your-docs-and-your-code-start-talking-522h" rel="alternate"/>
@@ -441,22 +458,5 @@
     <updated>2026-08-15T12:10:29Z</updated>
     <summary type="text">You added an MCP server to your AI assistant. Did you check what it can touch? MCP servers give your AI assistant new abilities: read your filesystem, query your database, call an API, run a shell command. That is the whole point of them. It is also the whole point of the risk. The permission question nobody asks When you install a normal browser extension, you at least see a permission prompt. Wh</summary>
     <author><name>Samantha Start</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes Networking [Level-5: Ingress/Gateway]</title>
-    <link href="https://dev.to/iadiraj/kubernetes-networking-level-5-ingressgateway-4cbc" rel="alternate"/>
-    <id>https://dev.to/iadiraj/kubernetes-networking-level-5-ingressgateway-4cbc</id>
-    <updated>2026-08-15T12:06:46Z</updated>
-    <summary type="text">This is Level 5 of our Kubernetes networking series. So far, we've built up a solid foundation: LEVEL 1 — Pod networking LEVEL 2 — Pod-to-Pod communication LEVEL 3 — Service (a stable internal endpoint) LEVEL 4 — DNS (service name → Service IP) But we still have a glaring gap: how does a real user on the internet actually reach your Kubernetes application? That's exactly what this article covers —</summary>
-    <author><name>ADITYA RAJ</name></author>
-  </entry>
-  <entry>
-    <title>My AI Agent Tried to Delete Every Customer Record. Here's What Stopped It.</title>
-    <link href="https://dev.to/frederikvonderheyden/my-ai-agent-tried-to-delete-every-customer-record-heres-what-stopped-it-39ip" rel="alternate"/>
-    <id>https://dev.to/frederikvonderheyden/my-ai-agent-tried-to-delete-every-customer-record-heres-what-stopped-it-39ip</id>
-    <updated>2026-08-15T12:04:37Z</updated>
-    <summary type="text">Last Tuesday, 2:47 AM. I was asleep. My AI coding agent was not. It had been running autonomously for hours, working through a backlog of database optimization tasks on my production infrastructure. Slow query on the profiles table. Agent finds the table, analyzes row counts, decides the data looks stale. DELETE FROM profiles No WHERE clause. Across 24 PostgreSQL databases. Every single customer r</summary>
-    <author><name>Frederik von der Heyden</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
