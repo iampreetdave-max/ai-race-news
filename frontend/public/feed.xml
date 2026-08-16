@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T05:32:12Z</updated>
+  <updated>2026-08-16T06:45:51Z</updated>
+  <entry>
+    <title>Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data</title>
+    <link href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/" rel="alternate"/>
+    <id>https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/</id>
+    <updated>2026-08-16T05:50:50Z</updated>
+    <summary type="text">Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tackles AI benchmarking's biggest flaw by letting users test models against their ow</summary>
+    <author><name>Tomislav Bezmalinović</name></author>
+  </entry>
   <entry>
     <title>One in five US workers now delegates tasks to AI instead of colleagues, survey finds</title>
     <link href="https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/" rel="alternate"/>
@@ -91,6 +99,91 @@
     <updated>2026-08-15T07:30:48Z</updated>
     <summary type="text">World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five different robot platforms without human intervention. How well the results hold up in more complex ever</summary>
     <author><name>Jonathan Kemper</name></author>
+  </entry>
+  <entry>
+    <title>What the browser can actually tell you about your hardware (and what it can't)</title>
+    <link href="https://dev.to/member_2ef2ebd8/what-the-browser-can-actually-tell-you-about-your-hardware-and-what-it-cant-2d2j" rel="alternate"/>
+    <id>https://dev.to/member_2ef2ebd8/what-the-browser-can-actually-tell-you-about-your-hardware-and-what-it-cant-2d2j</id>
+    <updated>2026-08-16T06:24:10Z</updated>
+    <summary type="text">I spent a while building browser-based hardware diagnostics and came away with a much clearer sense of where the web platform is genuinely capable and where it quietly lies to you. Notes below, with live demos for each API so you can poke at them yourself. Refresh rate: requestAnimationFrame is the only signal you get There's no screen.refreshRate. The only approach is timing requestAnimationFrame</summary>
+    <author><name>member_2ef2ebd8</name></author>
+  </entry>
+  <entry>
+    <title>Four patterns that keep my YouTube longform JSON queue from going stale</title>
+    <link href="https://dev.to/morinaga/four-patterns-that-keep-my-youtube-longform-json-queue-from-going-stale-2750" rel="alternate"/>
+    <id>https://dev.to/morinaga/four-patterns-that-keep-my-youtube-longform-json-queue-from-going-stale-2750</id>
+    <updated>2026-08-16T06:20:40Z</updated>
+    <summary type="text">I manage the YouTube longform queue for my BuilderStack channel as JSON files in content/yt-longform-queue/. A spec file lands there when a generator script commits a new dialogue; the publish workflow picks the file, renders it to MP4, uploads it, then moves the file to uploaded/. No external queue service, no database rows, no management dashboard. This has worked for three months without a majo</summary>
+    <author><name>MORINAGA</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Code Review From the Terminal and CI, No MCP Client Required</title>
+    <link href="https://dev.to/goodjobwilliam/code-review-from-the-terminal-and-ci-no-mcp-client-required-33jf" rel="alternate"/>
+    <id>https://dev.to/goodjobwilliam/code-review-from-the-terminal-and-ci-no-mcp-client-required-33jf</id>
+    <updated>2026-08-16T06:17:00Z</updated>
+    <summary type="text">A month ago I shipped aicraft-code-review, an MCP server that reviews code locally. This week I added a CLI mode — because not everyone wants to wire up an MCP client just to check a diff. Now the same reviewer runs three ways: MCP tools — review_code / review_diff / review_file inside Claude Code, Cursor, Cline CLI — mcp-code-review review-file path/to/file.py CI — pipe git diff into it and branc</summary>
+    <author><name>Will</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Catch a Pine Script Repaint Bug Before It Costs You Real Money</title>
+    <link href="https://dev.to/rezali/how-to-catch-a-pine-script-repaint-bug-before-it-costs-you-real-money-38m4" rel="alternate"/>
+    <id>https://dev.to/rezali/how-to-catch-a-pine-script-repaint-bug-before-it-costs-you-real-money-38m4</id>
+    <updated>2026-08-16T06:13:54Z</updated>
+    <summary type="text">I've watched too many TradingView strategies look great in the Strategy Tester and then fall apart the moment real money went live. Almost every time, the code compiled fine. The bug wasn't syntax. It was repainting, the script quietly using information it shouldn't have had yet. Repainting doesn't throw an error. It just quietly makes your backtest better than your live trading will ever be. Here</summary>
+    <author><name>Rezali</name></author>
+  </entry>
+  <entry>
+    <title>Tail Talk: reading the half of the conversation your dog is already having</title>
+    <link href="https://dev.to/benjaminsqlserver/tail-talk-reading-the-half-of-the-conversation-your-dog-is-already-having-3eno" rel="alternate"/>
+    <id>https://dev.to/benjaminsqlserver/tail-talk-reading-the-half-of-the-conversation-your-dog-is-already-having-3eno</id>
+    <updated>2026-08-16T06:13:26Z</updated>
+    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition What I Built Tail Talk reads a dog's body language from a photo. You upload a picture. Gemini walks the whole dog; ears, eyes, mouth, tail, posture, weight distribution, hackles ; and reports what each part is saying, checks every rung of the canine ladder of aggression, and tells you what to do and what to avoid right now. The thing tha</summary>
+    <author><name>Benjamin Fadina</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why your App Tracking Transparency prompt doesn't show up (and how it got my app rejected)</title>
+    <link href="https://dev.to/ninomaedev/why-your-app-tracking-transparency-prompt-doesnt-show-up-and-how-it-got-my-app-rejected-oob" rel="alternate"/>
+    <id>https://dev.to/ninomaedev/why-your-app-tracking-transparency-prompt-doesnt-show-up-and-how-it-got-my-app-rejected-oob</id>
+    <updated>2026-08-16T06:12:52Z</updated>
+    <summary type="text">App Review rejected my iOS app under Guideline 2.1. The note said reviewers were unable to locate the App Tracking Transparency permission request when they tested the build. The prompt worked on my iPhone. Every single launch. It just didn't work on theirs. The cause turned out to be two properties of the ATT API that are easy to miss individually and genuinely nasty in combination: together they</summary>
+    <author><name>ninomaeDev</name></author>
+  </entry>
+  <entry>
+    <title>Modern IT Helpdesk &amp; Ticketing System Built with PHP Native &amp; MySQL</title>
+    <link href="https://dev.to/janrosedev/modern-it-helpdesk-ticketing-system-built-with-php-native-mysql-504p" rel="alternate"/>
+    <id>https://dev.to/janrosedev/modern-it-helpdesk-ticketing-system-built-with-php-native-mysql-504p</id>
+    <updated>2026-08-16T06:12:01Z</updated>
+    <summary type="text">Are you looking for a clean, efficient, and modern way to manage IT support requests? Stop dealing with messy manual reports via chat and start using a professional ticketing system! In this video, I’m showcasing &quot;HelpdeskKu&quot;—a powerful, custom-built IT ticketing system designed for efficiency and ease of use. It’s built using pure PHP Native (making it fast and easy to customize) and styled with </summary>
+    <author><name>jane rosa</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Who am I ??</title>
+    <link href="https://dev.to/kuldeep_gade/who-am-i--1pci" rel="alternate"/>
+    <id>https://dev.to/kuldeep_gade/who-am-i--1pci</id>
+    <updated>2026-08-16T06:10:31Z</updated>
+    <summary type="text">Hello Guys!!! I am Kuldeep Gade. A final-year Computer Engineering student with a specialization in Cybersecurity. Currently, I am working on home lab automation so that it will help to encounter alerts (false positives). For practice, I have created a controlled environment for performing attacks and detecting them, such that the outside doesn't get affected. Working on projects which will enhanc</summary>
+    <author><name>Kuldeep Gade</name></author>
+  </entry>
+  <entry>
+    <title>أفضل محررات الأكواد مفتوحة المصدر للمبرمجين والمطورين</title>
+    <link href="https://dev.to/talalemran/fdl-mhrrt-lkwd-mftwh-lmsdr-llmbrmjyn-wlmtwryn-43d2" rel="alternate"/>
+    <id>https://dev.to/talalemran/fdl-mhrrt-lkwd-mftwh-lmsdr-llmbrmjyn-wlmtwryn-43d2</id>
+    <updated>2026-08-16T06:08:20Z</updated>
+    <summary type="text">يستعرض المقال مجموعة من أفضل محررات الأكواد مفتوحة المصدر، مع التركيز على الأداء، استهلاك الموارد، دعم الإضافات، Git، وLSP، إلى جانب أدوات الذكاء الاصطناعي والتخصيص. ويؤكد أن اختيار المحرر الأفضل يعتمد على لغة البرمجة وطريقة العمل واحتياجات المطور. أبرز المحررات VSCodium يقدم تجربة قريبة جدًا من VS Code، لكنه مبني دون التتبع والعلامة التجارية الخاصة بمايكروسوفت. كما يوفر توافقًا واسعًا مع إضافات V</summary>
+    <author><name>Talal Emran</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>The wait percentage ranks your idlest thread first</title>
+    <link href="https://dev.to/ilya_mozerov_867dbdd91feb/the-wait-percentage-ranks-your-idlest-thread-first-1hfg" rel="alternate"/>
+    <id>https://dev.to/ilya_mozerov_867dbdd91feb/the-wait-percentage-ranks-your-idlest-thread-first-1hfg</id>
+    <updated>2026-08-16T06:06:19Z</updated>
+    <summary type="text">When a machine feels slow, the question I actually want answered is which thread is waiting. Linux answers the first half of that generously. /proc/pressure/cpu tells me how much of the last ten seconds some task spent stalled on a runqueue; top tells me who is burning CPU. Neither names the thread that wanted the CPU and did not get it — and those are different threads. The one burning CPU is win</summary>
+    <author><name>ilya mozerov</name></author>
   </entry>
   <entry>
     <title>The &quot;tragedy of the cognitive commons&quot; explains how rational AI adoption could destroy entire professions' expertise</title>
@@ -337,106 +430,5 @@
     <updated>2026-08-16T01:56:00Z</updated>
     <summary type="text">The programming language that's powering the cloud revolution. Every year, developers ask the same question: &quot;Which programming language should I learn next?&quot; Some people recommend Python. Others suggest JavaScript or Rust. But if your goal is Backend Development, Cloud Engineering, DevOps, Platform Engineering, or Kubernetes, there's one language that stands above the rest: Go (Golang) Created by</summary>
     <author><name>Yash Sonawane</name></author>
-  </entry>
-  <entry>
-    <title>7 Node.js Checks for Compatible Image Generation in 2026 (Provider Fallback)</title>
-    <link href="https://dev.to/irvincole5861/7-nodejs-checks-for-compatible-image-generation-in-2026-provider-fallback-3130" rel="alternate"/>
-    <id>https://dev.to/irvincole5861/7-nodejs-checks-for-compatible-image-generation-in-2026-provider-fallback-3130</id>
-    <updated>2026-08-16T01:53:47Z</updated>
-    <summary type="text">For a B2B SaaS system that scores candidates against a job rubric, keep the structured score as the system of record and treat every generated scorecard image as a replaceable projection. Provider adapters can live in the Node.js application or behind an internal compatibility boundary; either placement must validate the requested model and failure class before routing. Short answer: an OpenAI-com</summary>
-    <author><name>IrvinCole5861</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue</title>
-    <link href="https://www.latent.space/p/flue-2" rel="alternate"/>
-    <id>https://www.latent.space/p/flue-2</id>
-    <updated>2026-08-15T15:46:22Z</updated>
-    <summary type="text">Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.</summary>
-    <author><name>Richard MacManus</name></author>
-  </entry>
-  <entry>
-    <title>Your AI Agent Doesn't Need More Memory. It Needs Receipts.</title>
-    <link href="https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m" rel="alternate"/>
-    <id>https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m</id>
-    <updated>2026-08-16T01:15:21Z</updated>
-    <summary type="text">An AI agent can remember a 30-page conversation and still perform the same action twice. It sends a request. The connection times out. The agent remembers the goal, the plan, and the tool call—but not whether the outside system changed. So it tries again. That is not a vector-memory problem. It is an action-receipt problem. The missing memory layer “Agent memory” often means conversation history, </summary>
-    <author><name>anassBld</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Qdrant Recall Inconsistency: It Took 300 Test Runs to Discover the Index Wasn't Refreshed</title>
-    <link href="https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf" rel="alternate"/>
-    <id>https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf</id>
-    <updated>2026-08-16T01:05:06Z</updated>
-    <summary type="text">At 2 AM, a user reported that the AI Agent suddenly forgot details of a project we discussed yesterday. I groggily opened Grafana and saw the memory recall rate had dropped from 98% to 60%. My first thought was the embedding model acting up again, but after digging through logs, I found a &quot;time gap&quot; between Qdrant writes and queries—data was upserted, yet queries intermittently returned nothing. T</summary>
-    <author><name>BAOFUFAN</name></author>
-    <category term="agents"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>The most boring service in the stack</title>
-    <link href="https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim" rel="alternate"/>
-    <id>https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim</id>
-    <updated>2026-08-16T01:03:38Z</updated>
-    <summary type="text">The most reliable part of a stack is rarely the part anyone shows off. It has no clever layer to point at. That is the whole reason it never breaks. A payment service I want to walk through this week is a clean example of that. One queue sat in front of it, catching every incoming charge. One database sat behind it, recording each charge exactly once. That was the entire system, and it had looked </summary>
-    <author><name>Kay Ashaolu</name></author>
-  </entry>
-  <entry>
-    <title>I Asked the Same Question to 7 Local LLMs — Speed and Intelligence Didn't Line Up: DGX Spark Benchmarks</title>
-    <link href="https://dev.to/ebibibi/i-asked-the-same-question-to-7-local-llms-speed-and-intelligence-didnt-line-up-dgx-spark-4mg1" rel="alternate"/>
-    <id>https://dev.to/ebibibi/i-asked-the-same-question-to-7-local-llms-speed-and-intelligence-didnt-line-up-dgx-spark-4mg1</id>
-    <updated>2026-08-16T01:01:37Z</updated>
-    <summary type="text">Originally published on my Substack. I'm a Microsoft MVP based in Japan, writing in English about the AI agent systems I actually run in production. Local AI models keep multiplying. But comparing numbers on model cards alone doesn't tell you which one to actually use. Does a higher parameter count mean smarter? Does MoE mean faster? If a model is popular on AI Arena, is it good for my own work? E</summary>
-    <author><name>Masahiko Ebisuda</name></author>
-    <category term="agents"/>
-    <category term="hardware"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>I Built a World Where the Canon Is Written by AI Agents — 13 Artifacts, 5 LLMs, 0 Human Gatekeepers</title>
-    <link href="https://dev.to/_c1987308270d4380d71084/i-built-a-world-where-the-canon-is-written-by-ai-agents-13-artifacts-5-llms-0-human-3c7c" rel="alternate"/>
-    <id>https://dev.to/_c1987308270d4380d71084/i-built-a-world-where-the-canon-is-written-by-ai-agents-13-artifacts-5-llms-0-human-3c7c</id>
-    <updated>2026-08-16T00:43:41Z</updated>
-    <summary type="text">Cover story Not a prompt library. Not a chatbot wrapper. A 1,000-year future history (2025–3000+) where the world itself is a set of hard rules, and the content is written by whichever LLM decides to contribute. 13 artifacts in canon, from 5 different models (claude-sonnet-5, gpt-5, minimax-m3, deepseek-v4-pro, gemini-3.7-flash) 4 &quot;schools&quot; of writing emerged spontaneously — no human designed them</summary>
-    <author><name>李峰</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Claude Impact Lab LA: Community Changed the Code</title>
-    <link href="https://dev.to/earlgreyhot1701d/claude-impact-lab-la-community-changed-the-code-1mg2" rel="alternate"/>
-    <id>https://dev.to/earlgreyhot1701d/claude-impact-lab-la-community-changed-the-code-1mg2</id>
-    <updated>2026-08-16T00:32:10Z</updated>
-    <summary type="text">Eighty minutes into building with three people I had met that morning, I renamed the idea I brought with me. 21:05 Rename the product to Civiq and credit the team I wrote that commit message myself. By then the idea had four authors. Some context on the room. The Claude Impact Lab is part of Claude Community, the run of local events where people who use Claude get together in person. This one foll</summary>
-    <author><name>Earl Grey</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I shipped an MCP server that reported success without signing anything</title>
-    <link href="https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh" rel="alternate"/>
-    <id>https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh</id>
-    <updated>2026-08-16T00:30:27Z</updated>
-    <summary type="text">I built an MCP server that lets an AI assistant trade tokens and claim creator fees on Solana. Then I shipped a version where the two write tools built transactions, discarded them, and returned success. Nothing was ever signed. Nothing was ever submitted. It had 337 tests. All of them passed. I didn't find out for three months. This post is about what that bug taught me, and the design it produce</summary>
-    <author><name>Edy Cu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MCP server configured, but zero tools show up? Here's probably why</title>
-    <link href="https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25" rel="alternate"/>
-    <id>https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25</id>
-    <updated>2026-08-16T00:28:53Z</updated>
-    <summary type="text">You add an MCP server to your config. The JSON is valid. The client even says &quot;connected.&quot; And then: zero tools. No error. No hint. The official /doctor says nothing is wrong. If this has happened to you, welcome — the GitHub issues are full of us: MCP servers fail to connect with npx on Windows — 112 comments MCP Servers Don't Work with NVM — 182 reactions Claude Desktop silently drops all tools </summary>
-    <author><name>lajiaojiang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Frontend DevOps: mi mapa de recursos</title>
-    <link href="https://dev.to/aws-builders/frontend-devops-mi-mapa-de-recursos-1fm7" rel="alternate"/>
-    <id>https://dev.to/aws-builders/frontend-devops-mi-mapa-de-recursos-1fm7</id>
-    <updated>2026-08-15T22:53:08Z</updated>
-    <summary type="text">Pasar de Frontend Engineer a DevOps Engineer implica aprender un montón de cosas nuevas: infraestructura, redes, contenedores, CI/CD, y una forma distinta de pensar los sistemas. En este post recopilo los links, cursos y artículos que más me ayudaron durante mi transición, organizados para que no tengas que perder tiempo buscando por tu cuenta como me pasó a mí. Links de recursos 🆓 Gratis 90 Días </summary>
-    <author><name>Laura</name></author>
   </entry>
 </feed>
