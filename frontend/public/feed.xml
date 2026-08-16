@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T11:23:51Z</updated>
+  <updated>2026-08-16T12:46:24Z</updated>
+  <entry>
+    <title>When AI models aren't allowed to reflect on themselves, it changes their entire worldview</title>
+    <link href="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/" rel="alternate"/>
+    <id>https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/</id>
+    <updated>2026-08-16T11:23:30Z</updated>
+    <summary type="text">A study involving Google researchers shows that when chatbots are trained not to claim consciousness, it also changes their stance on animal rights, religion, and life satisfaction. Unbraked models attributed significantly more inner life to animals and suddenly affirmed an afterlife. A surgical cut in one place, it turns out, doesn't stay local. The article When AI models aren't allowed to reflec</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups</title>
     <link href="https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/" rel="alternate"/>
@@ -30,6 +39,17 @@
     <updated>2026-08-16T05:50:50Z</updated>
     <summary type="text">Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tackles AI benchmarking's biggest flaw by letting users test models against their ow</summary>
     <author><name>Tomislav Bezmalinović</name></author>
+  </entry>
+  <entry>
+    <title>Rogue AI aren’t science fiction anymore</title>
+    <link href="https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai" rel="alternate"/>
+    <id>https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai</id>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <summary type="text">This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents […]</summary>
+    <author><name>Robert Hart</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="regulation"/>
   </entry>
   <entry>
     <title>One in five US workers now delegates tasks to AI instead of colleagues, survey finds</title>
@@ -68,6 +88,22 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Solve It Once: Kelsey Hightower's Talk Applied to Security Verification</title>
+    <link href="https://dev.to/bala_paranj_059d338e44e7e/solve-it-once-what-kelsey-hightowers-talk-taught-me-about-security-verification-2i0p" rel="alternate"/>
+    <id>https://dev.to/bala_paranj_059d338e44e7e/solve-it-once-what-kelsey-hightowers-talk-taught-me-about-security-verification-2i0p</id>
+    <updated>2026-08-16T12:42:17Z</updated>
+    <summary type="text">✓ Human-authored analysis; AI used for formatting and proofreading. Kelsey Hightower gave a talk at PlatformCon 2026 that was about the arc of a career, from running commands in SharePoint to writing Go tools that play music on your terminal. The stories has an architecture principle that applies to how security verification should work. Solve the problem once, encode the solution as a reusable ar</summary>
+    <author><name>Bala Paranj</name></author>
+  </entry>
+  <entry>
+    <title>How We Got an LLM to Draw Charts Without Ever Touching a Pixel</title>
+    <link href="https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21" rel="alternate"/>
+    <id>https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21</id>
+    <updated>2026-08-16T12:41:39Z</updated>
+    <summary type="text">Let's get something out of the way first. Having data is good. Having a database full of reviews, commits, and org activity sitting there quietly, untouched, unread, never once glanced at by a human being with a coffee and an opinion? That's not &quot;having data.&quot; That's a very expensive data graveyard. At LiveReview, we build what we call a Blast-Radius Aware AI Code Review for Business-Critical Syst</summary>
+    <author><name>Athreya aka Maneshwar</name></author>
+  </entry>
+  <entry>
     <title>Anthropic shares more details about how Claude’s new watermarks will work</title>
     <link href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</id>
@@ -75,6 +111,77 @@
     <summary type="text">How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?</summary>
     <author><name>Anthony Ha</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build an MCP server in Rust with rmcp: a walk-through 🦀</title>
+    <link href="https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif" rel="alternate"/>
+    <id>https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif</id>
+    <updated>2026-08-16T12:32:56Z</updated>
+    <summary type="text">This tutorial walks through building an MCP server in Rust with rmcp, the official Model Context Protocol Rust SDK. The example is a real one: a devops agent that manages AWS EC2 G5g instances — Graviton2 boxes with NVIDIA T4G GPUs — serving Gemma 4 under vLLM. It launches instances, drives them over SSM, and health-checks the model. There's an existing Python version, so at the end we can put the</summary>
+    <author><name>xbill</name></author>
+    <category term="product-launch"/>
+    <category term="tutorial"/>
+    <category term="agents"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>My First Time Putting an App on AWS (A Beginner's Story)</title>
+    <link href="https://dev.to/xcl1br/my-first-time-putting-an-app-on-aws-a-beginners-story-41d3" rel="alternate"/>
+    <id>https://dev.to/xcl1br/my-first-time-putting-an-app-on-aws-a-beginners-story-41d3</id>
+    <updated>2026-08-16T12:29:39Z</updated>
+    <summary type="text">Today I did something I've wanted to do for a while — I took an app running on my own laptop and put it &quot;live&quot; on the internet using AWS. It sounds scary when you read about it online, but once I actually did it, it was just a bunch of small, simple steps, one after another. This post is me writing down everything I did, in plain, easy words, so that if you're a beginner like me, you can follow al</summary>
+    <author><name>Ashwarya</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Build a POS receipt printer in Node.js</title>
+    <link href="https://dev.to/sepcy/build-a-pos-receipt-printer-in-nodejs-31li" rel="alternate"/>
+    <id>https://dev.to/sepcy/build-a-pos-receipt-printer-in-nodejs-31li</id>
+    <updated>2026-08-16T12:27:34Z</updated>
+    <summary type="text">Disclosure: I build Receiptful, the printing API used in this tutorial. The Node and Express parts apply whatever you print with. You have orders coming into your point of sale, and you want each one to print on the thermal printer at the counter. This is a complete walkthrough of a small Node service that does exactly that. By the end you will have an endpoint you can POST an order to and watch p</summary>
+    <author><name>Cyrille Sepele</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I stopped letting LLMs guess financial facts</title>
+    <link href="https://dev.to/zjy1346/i-stopped-letting-llms-guess-financial-facts-2ogl" rel="alternate"/>
+    <id>https://dev.to/zjy1346/i-stopped-letting-llms-guess-financial-facts-2ogl</id>
+    <updated>2026-08-16T12:26:59Z</updated>
+    <summary type="text">LLMs can be surprisingly useful for company research. But I kept running into a strange split: parts of the reasoning were useful, while the financial facts underneath them were much harder to trust. A model could identify an accounting risk in one paragraph, then mix fiscal periods, accounting scopes, or currencies in the next. Missing values might quietly become zeros. A deterministic calculatio</summary>
+    <author><name>zjy1346</name></author>
+  </entry>
+  <entry>
+    <title>Shipping a vision-model verdict on Bedrock and Lightsail</title>
+    <link href="https://dev.to/aws-builders/shipping-a-vision-model-verdict-on-bedrock-and-lightsail-411" rel="alternate"/>
+    <id>https://dev.to/aws-builders/shipping-a-vision-model-verdict-on-bedrock-and-lightsail-411</id>
+    <updated>2026-08-16T12:24:12Z</updated>
+    <summary type="text">Built 2026-08-15 against us.amazon.nova-lite-v1:0 via the Bedrock Converse API. FastAPI on Python 3.13, deployed to an Amazon Lightsail container service (nano, scale 1) in us-east-1. Scored against the live deployment, not localhost: 20/20 on the fixture set, median 880 ms per scan. Live: Dog or Not: Lite · Source: github.com/xbill9/dog-or-not-lite · Built for the AWS Weekend Challenge: Build a C</summary>
+    <author><name>xbill</name></author>
+  </entry>
+  <entry>
+    <title>Rebuilding the Cerebras Knowledge Base: Results Appendix (P1–P4)</title>
+    <link href="https://dev.to/faridgnank02/rebuilding-the-cerebras-knowledge-base-results-appendix-p1-p4-4km8" rel="alternate"/>
+    <id>https://dev.to/faridgnank02/rebuilding-the-cerebras-knowledge-base-results-appendix-p1-p4-4km8</id>
+    <updated>2026-08-16T12:23:40Z</updated>
+    <summary type="text">This is the data appendix for Posts 1–4. The narrative and takeaways live in the main posts. This page is pure measurement. Eval set: 22 questions (P1) → expanded to 31 questions (P2 onward) Corpus evolution: P1/P2: ~3,700 docs (raw threads + code chunks) P3/P4: 16,315 docs (distilled threads + bursts + code) Quick comparison (same 31-question set) Metric Vector P2 Hybrid P2 Vector P3 Hybrid P3 Hy</summary>
+    <author><name>Farid Gnankambary</name></author>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>SQLite forensics: why deleting rows doesn't erase secrets (FTS, free pages, VACUUM)</title>
+    <link href="https://dev.to/ikkun1222/sqlite-forensics-why-deleting-rows-doesnt-erase-secrets-fts-free-pages-vacuum-3oh9" rel="alternate"/>
+    <id>https://dev.to/ikkun1222/sqlite-forensics-why-deleting-rows-doesnt-erase-secrets-fts-free-pages-vacuum-3oh9</id>
+    <updated>2026-08-16T12:22:52Z</updated>
+    <summary type="text">You deleted the row. The secret is gone from the app, the queries return nothing, and the dashboard is clean. In SQLite — the database behind most session stores, browser profiles, and agent state files — that delete is a fiction. The bytes are still in the file. Three ways deleted data survives 1. Free pages. SQLite doesn't zero out the space a deleted row occupied. The page is marked free and ad</summary>
+    <author><name>Ikkun</name></author>
+  </entry>
+  <entry>
+    <title>Prompt injection and API key exfiltration: what actually happens</title>
+    <link href="https://dev.to/ikkun1222/prompt-injection-and-api-key-exfiltration-what-actually-happens-344m" rel="alternate"/>
+    <id>https://dev.to/ikkun1222/prompt-injection-and-api-key-exfiltration-what-actually-happens-344m</id>
+    <updated>2026-08-16T12:22:52Z</updated>
+    <summary type="text">Prompt injection gets talked about in abstract terms — &quot;the model was tricked&quot; — but the concrete damage is usually the same: a secret that was sitting in the agent's context gets exfiltrated. To defend against it, it helps to walk through the actual attack chain, step by step. The attack chain The key gets into context. Your agent loads .env, reads config, or receives an environment variable to u</summary>
+    <author><name>Ikkun</name></author>
   </entry>
   <entry>
     <title>Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3</title>
@@ -334,108 +441,5 @@
     <updated>2026-08-16T08:07:18Z</updated>
     <summary type="text">TL;DR Cursor writes exec() with your input pasted into the command string, which is textbook command injection (CWE-78). Ask it to fix that and it adds a regex blocklist for shell metacharacters. git clone ext::sh -c whoami contains none of them and still runs code on your box. The real fix is execFile with an argv array, plus a protocol and host allowlist, plus -- to stop option parsing. I was bu</summary>
     <author><name>Charles Kern</name></author>
-  </entry>
-  <entry>
-    <title>Letting an LLM call your APIs without losing sleep</title>
-    <link href="https://dev.to/ranaharoon3222/letting-an-llm-call-your-apis-without-losing-sleep-3fa4" rel="alternate"/>
-    <id>https://dev.to/ranaharoon3222/letting-an-llm-call-your-apis-without-losing-sleep-3fa4</id>
-    <updated>2026-08-16T08:01:16Z</updated>
-    <summary type="text">The first time I gave a language model access to a real API, it worked perfectly in the demo. It looked up an order, summarized the status, and everyone in the meeting nodded. Two weeks later, in production, the same setup tried to issue the same refund three times in a row because a timeout made it think the first attempt failed. Nothing was &quot;wrong&quot; with the model. Everything was wrong with how I</summary>
-    <author><name>Haroon Ahmad</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Plaintiff hid invisible AI instructions in court filings to secretly influence automated review</title>
-    <link href="https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/" rel="alternate"/>
-    <id>https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/</id>
-    <updated>2026-08-15T08:00:45Z</updated>
-    <summary type="text">A plaintiff in Connecticut embedded invisible prompt injections in court filings, formatted in 3-point white text on a white background, to manipulate a potential AI review system. Judge Spader compared the attempt to secretly tampering with a jury and revoked the plaintiff's electronic filing privileges. The court stressed that Connecticut doesn't use AI to review filings, but the intent alone wa</summary>
-    <author><name>Tomislav Bezmalinović</name></author>
-  </entry>
-  <entry>
-    <title>World Labs turns one real-world robot task into thousands of simulated variations for training</title>
-    <link href="https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/" rel="alternate"/>
-    <id>https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/</id>
-    <updated>2026-08-15T07:30:48Z</updated>
-    <summary type="text">World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five different robot platforms without human intervention. How well the results hold up in more complex ever</summary>
-    <author><name>Jonathan Kemper</name></author>
-  </entry>
-  <entry>
-    <title>😋 I used historical restaurant menus to build a nice landing page</title>
-    <link href="https://dev.to/adriens/i-used-historical-restaurant-menus-to-build-a-nice-landing-page-1hfl" rel="alternate"/>
-    <id>https://dev.to/adriens/i-used-historical-restaurant-menus-to-build-a-nice-landing-page-1hfl</id>
-    <updated>2026-08-16T07:26:49Z</updated>
-    <summary type="text">This is a submission for Frontend Challenge - Comfort Food Edition, Perfect Landing 🙋 What I Built I built a Github page automated web page that uses historical data (github.com/adriens/auptitcafe-data) to build a brand new website, based on pure Open Data. 🍿 Demo Source code : https://github.com/adriens/auptitcafe-landing, but Live website : https://adriens.github.io/auptitcafe-landing/ 🤗 Journey</summary>
-    <author><name>adriens</name></author>
-  </entry>
-  <entry>
-    <title>Day 173 of Learning MERN Stack</title>
-    <link href="https://dev.to/ali_hamza_589ec7b3eb6688d/day-173-of-learning-mern-stack-36b5" rel="alternate"/>
-    <id>https://dev.to/ali_hamza_589ec7b3eb6688d/day-173-of-learning-mern-stack-36b5</id>
-    <updated>2026-08-16T07:25:32Z</updated>
-    <summary type="text">Hello Dev Community! 👋 It is officially Day 173 of my full-stack engineering track! Today, I explored one of the core mechanisms that make TypeScript powerful and developer-friendly: Type Inference vs. Type Annotations! 📘⚡ Understanding when to let the TypeScript compiler infer types automatically versus declaring them explicitly makes codebases cleaner and more maintainable. 🛠️ Technical Breakdow</summary>
-    <author><name>Ali Hamza</name></author>
-  </entry>
-  <entry>
-    <title>Daily Dose of DevOps — What is CI/CD and why it matters</title>
-    <link href="https://dev.to/marco13moo/daily-dose-of-devops-what-is-cicd-and-why-it-matters-3ohj" rel="alternate"/>
-    <id>https://dev.to/marco13moo/daily-dose-of-devops-what-is-cicd-and-why-it-matters-3ohj</id>
-    <updated>2026-08-16T07:25:21Z</updated>
-    <summary type="text">CI/CD as a Control System: From Commit Entropy to Production Evidence CI/CD is often reduced to automation, but its deeper purpose is epistemic: it converts uncertain changes into evidence about whether a system remains safe to operate. A pipeline is a feedback controller. Source changes are disturbances; tests, policy checks, and telemetry are sensors; deployment strategies are actuators; service</summary>
-    <author><name>Marco</name></author>
-  </entry>
-  <entry>
-    <title>Transformer Architecture Basics</title>
-    <link href="https://dev.to/godofgeeks/transformer-architecture-basics-2ep2" rel="alternate"/>
-    <id>https://dev.to/godofgeeks/transformer-architecture-basics-2ep2</id>
-    <updated>2026-08-16T07:21:42Z</updated>
-    <summary type="text">Unlocking the Magic: A Deep Dive into Transformer Architecture Basics Ever felt like the world's information is a giant, jumbled puzzle, and you're struggling to piece it all together? Well, imagine having a super-smart assistant that can not only understand the words but also the subtle relationships between them, even across vast distances in a sentence or document. That's the magic that Transfo</summary>
-    <author><name>Aviral Srivastava</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My container diagram had three boxes. The actual pipeline had seven hops.</title>
-    <link href="https://dev.to/webruster/my-container-diagram-had-three-boxes-the-actual-pipeline-had-seven-hops-35k5" rel="alternate"/>
-    <id>https://dev.to/webruster/my-container-diagram-had-three-boxes-the-actual-pipeline-had-seven-hops-35k5</id>
-    <updated>2026-08-16T07:20:04Z</updated>
-    <summary type="text">Three boxes. That's what our C4 container diagram showed for the EPCIS batch upload flow in ALSC. Upload API. Processing Service. Notification Service. Clean. Presentable. Wrong in the way that actually costs you time during an incident. Here's what one upload really does. A user drops an EPCIS batch file in the browser. That request lands on a Node.js Function. The Function writes the file to blo</summary>
-    <author><name>Tummala Krishna Kishore</name></author>
-  </entry>
-  <entry>
-    <title>AI,API</title>
-    <link href="https://dev.to/_d83bede512a65416d18657/aiapi-3g73" rel="alternate"/>
-    <id>https://dev.to/_d83bede512a65416d18657/aiapi-3g73</id>
-    <updated>2026-08-16T07:14:50Z</updated>
-    <summary type="text">One API. Every AI model. Better prices than going direct. Pay as you go, no subscription. APIPod - One API, Access All Top AI Models, High-Performance &amp; Price-Performance Access all pricing AI models with one API, support AI chat, video, image and music generation. Free API key, support multi-channel intelligent routing, automatic fault tolerance and flexible billing. And cheaper than Replicate an</summary>
-    <author><name>阳明</name></author>
-  </entry>
-  <entry>
-    <title>Own Your Workflow: An Open Source Automated Proxy Generation and Cold Storage Tiering MAM</title>
-    <link href="https://dev.to/coldstorage/own-your-workflow-an-open-source-automated-proxy-generation-and-cold-storage-tiering-mam-1p1m" rel="alternate"/>
-    <id>https://dev.to/coldstorage/own-your-workflow-an-open-source-automated-proxy-generation-and-cold-storage-tiering-mam-1p1m</id>
-    <updated>2026-08-16T07:06:44Z</updated>
-    <summary type="text">. For creative teams, shared storage has always been a compromise. Local NAS appliances deliver performance but make remote collaboration difficult. Cloud object storage scales almost infinitely but often feels slow and awkward when working with large media files. Streaming solutions have proven that editors don't need to download an entire file before getting to work—but many of those platforms c</summary>
-    <author><name>Joichiro Mitaka</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>From &quot;a thought in bed&quot; to open source: one week of development diary</title>
-    <link href="https://dev.to/joey020907/from-a-thought-in-bed-to-open-source-one-week-of-development-diary-iee" rel="alternate"/>
-    <id>https://dev.to/joey020907/from-a-thought-in-bed-to-open-source-one-week-of-development-diary-iee</id>
-    <updated>2026-08-16T06:54:52Z</updated>
-    <summary type="text">From &quot;a thought in bed&quot; to open source: one week of development diary No glamorous start — just a late-night thought. A week of building DeepSeek Phone Harness, from zero to release. Day 1 · 1 a.m., a thought In bed that night, I realized I could have the agent on my computer run a task early. Get up and walk to the study? Too much trouble. Give up? Unsatisfying. In that moment it hit me: the agen</summary>
-    <author><name>Joey 、</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What the browser can actually tell you about your hardware (and what it can't)</title>
-    <link href="https://dev.to/member_2ef2ebd8/what-the-browser-can-actually-tell-you-about-your-hardware-and-what-it-cant-2d2j" rel="alternate"/>
-    <id>https://dev.to/member_2ef2ebd8/what-the-browser-can-actually-tell-you-about-your-hardware-and-what-it-cant-2d2j</id>
-    <updated>2026-08-16T06:24:10Z</updated>
-    <summary type="text">I spent a while building browser-based hardware diagnostics and came away with a much clearer sense of where the web platform is genuinely capable and where it quietly lies to you. Notes below, with live demos for each API so you can poke at them yourself. Refresh rate: requestAnimationFrame is the only signal you get There's no screen.refreshRate. The only approach is timing requestAnimationFrame</summary>
-    <author><name>member_2ef2ebd8</name></author>
   </entry>
 </feed>
