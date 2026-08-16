@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T22:27:45Z</updated>
+  <updated>2026-08-16T23:23:31Z</updated>
   <entry>
     <title>Top mathematicians say LLMs are strong calculators but poor creative thinkers</title>
     <link href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/" rel="alternate"/>
@@ -103,12 +103,97 @@
     <author><name>Tomislav Bezmalinović</name></author>
   </entry>
   <entry>
+    <title>AI Can Find the Failure. Who Decides What the Fix Should Be?</title>
+    <link href="https://dev.to/praiztech/ai-can-find-the-failure-who-decides-what-the-fix-should-be-18o5" rel="alternate"/>
+    <id>https://dev.to/praiztech/ai-can-find-the-failure-who-decides-what-the-fix-should-be-18o5</id>
+    <updated>2026-08-16T23:14:58Z</updated>
+    <summary type="text">AI is changing accessibility remediation fast. It can find common WCAG failures, explain them, and increasingly write the fix. That's real, and it's useful. But finding a failure is not the same as deciding what the fix should be. The gap is easy to miss because it doesn't always produce an obviously wrong answer. Sometimes it produces a confident, plausible fix that is wrong for reasons that only</summary>
+    <author><name>Praise Agbabiaka</name></author>
+  </entry>
+  <entry>
+    <title>How VIDRAFT Hit 510.58 TPS on Gemma-4: A Deep Dive into &quot;The First Gemma Challenge&quot; Win</title>
+    <link href="https://dev.to/ai_openfree_b23025ef075cf/how-vidraft-hit-51058-tps-on-gemma-4-a-deep-dive-into-the-first-gemma-challenge-win-15j6" rel="alternate"/>
+    <id>https://dev.to/ai_openfree_b23025ef075cf/how-vidraft-hit-51058-tps-on-gemma-4-a-deep-dive-into-the-first-gemma-challenge-win-15j6</id>
+    <updated>2026-08-16T23:01:27Z</updated>
+    <summary type="text">How VIDRAFT Hit 510.58 TPS on Gemma-4: A Deep Dive into &quot;The First Gemma Challenge&quot; Win TL;DR: VIDRAFT topped &quot;The First Gemma Challenge&quot; leaderboard with a verified 510.58 tokens-per-second (TPS) score on google/gemma-4-E4B-it using a single NVIDIA A10G GPU — while a rival submission posted a faster raw number but failed the quality gate. This post breaks down the public configuration choices tha</summary>
+    <author><name>AI OpenFree</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I built a content recommender as a graph, and it found similarities I wasn't looking for</title>
+    <link href="https://dev.to/mbadr3227sys/i-built-a-content-recommender-as-a-graph-and-it-found-similarities-i-wasnt-looking-for-3kj7" rel="alternate"/>
+    <id>https://dev.to/mbadr3227sys/i-built-a-content-recommender-as-a-graph-and-it-found-similarities-i-wasnt-looking-for-3kj7</id>
+    <updated>2026-08-16T23:01:05Z</updated>
+    <summary type="text">Most beginner recommendation projects are a dictionary lookup. You type &quot;comedy&quot;, it returns the comedy list. That works, and it is also the reason those projects are forgettable: a dictionary can tell you what is similar, but it can never tell you what is interestingly different. I wanted the second thing. So I modelled the catalogue as a weighted graph instead, and ended up finding a kind of sim</summary>
+    <author><name>mbadr3227-sys</name></author>
+  </entry>
+  <entry>
+    <title>Shipping Assumptions: A Reliability Stack for AI-Generated Code</title>
+    <link href="https://dev.to/copyleftdev/shipping-assumptions-a-reliability-stack-for-ai-generated-code-3p9f" rel="alternate"/>
+    <id>https://dev.to/copyleftdev/shipping-assumptions-a-reliability-stack-for-ai-generated-code-3p9f</id>
+    <updated>2026-08-16T22:56:25Z</updated>
+    <summary type="text">The code looked good. It linted cleanly. The shallow tests passed. Everyone felt—vibed—that we had built the right thing. Then the edge case appeared in production. The developer treated it as normal operating procedure: bugs happen, tickets arrive, patches ship. QA was asked why they had not caught it. But QA never received a model of the system—only an implementation full of assumptions they wer</summary>
+    <author><name>Don Johnson</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Designing an Honest “Unlimited” Generative AI Product: Credits, Queues, and Fair Use</title>
+    <link href="https://dev.to/abrahamaragon91/designing-an-honest-unlimited-generative-ai-product-credits-queues-and-fair-use-15li" rel="alternate"/>
+    <id>https://dev.to/abrahamaragon91/designing-an-honest-unlimited-generative-ai-product-credits-queues-and-fair-use-15li</id>
+    <updated>2026-08-16T22:50:54Z</updated>
+    <summary type="text">Disclosure: I am building Donatello.studio. This article describes the product and systems principles behind our access model; it is not an independent review. Generative AI products have an uncomfortable cost structure. A text request may be inexpensive, while a long video or a complete song can consume orders of magnitude more compute. Yet users reasonably want a simple promise: they should be a</summary>
+    <author><name>Abraham Aragón</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Why I'm Building an Engineering Publishing Platform</title>
+    <link href="https://dev.to/mgmaster24/why-im-building-an-engineering-publishing-platform-2mj3" rel="alternate"/>
+    <id>https://dev.to/mgmaster24/why-im-building-an-engineering-publishing-platform-2mj3</id>
+    <updated>2026-08-16T22:45:49Z</updated>
+    <summary type="text">Over the past several months, I've made a commitment to write more. Not because I want to become a content creator, but because I've come to appreciate how much engineering knowledge quietly disappears every day. Architecture discussions end when the meeting is over. Production incidents become stories that fade with time. Lessons learned on one project rarely make it to the next. As engineers, we</summary>
+    <author><name>Michael Masterson</name></author>
+  </entry>
+  <entry>
+    <title>You can't trust assembly an AI wrote. Here's the 3-command gate.</title>
+    <link href="https://dev.to/trothbyte/you-cant-trust-assembly-an-ai-wrote-heres-the-3-command-gate-4ige" rel="alternate"/>
+    <id>https://dev.to/trothbyte/you-cant-trust-assembly-an-ai-wrote-heres-the-3-command-gate-4ige</id>
+    <updated>2026-08-16T22:29:09Z</updated>
+    <summary type="text">✨ Disclosure: this tutorial was drafted with AI assistance. Every technical claim is verified and source-traced in the linked repository. AI assistants are confident about assembly — and wrong in specific, repeatable ways. They invent mnemonics that do not exist, flip AT&amp;T/Intel operand order, silently drop immediates, and misread bytes. When we audited real incidents, the failures shared a signat</summary>
+    <author><name>TrothByte</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>We catalogued 55+ AI-agent failures in low-level code — and shipped 124 verified skills to fix them</title>
+    <link href="https://dev.to/trothbyte/we-catalogued-55-ai-agent-failures-in-low-level-code-and-shipped-124-verified-skills-to-fix-them-369l" rel="alternate"/>
+    <id>https://dev.to/trothbyte/we-catalogued-55-ai-agent-failures-in-low-level-code-and-shipped-124-verified-skills-to-fix-them-369l</id>
+    <updated>2026-08-16T22:26:06Z</updated>
+    <summary type="text">✨ Disclosure: this article was drafted with AI assistance. Every technical claim in it is source-traced in the linked repository (registry/claims.yaml, 177 primary sources). The failure classes below come from real, documented incidents — not vibes. AI coding agents are excellent at boilerplate and unreliable at low-level code — and the failures are not random. They cluster into predictable classe</summary>
+    <author><name>TrothByte</name></author>
+  </entry>
+  <entry>
     <title>So, I Vibe Coded A Way Out, Again.</title>
     <link href="https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb" rel="alternate"/>
     <id>https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb</id>
     <updated>2026-08-16T22:18:46Z</updated>
     <summary type="text">A while ago I wrote an article asking When Is 100% Vibe Coding OK?. My conclusion was that it works when the human already owns the invariants. If you know the problem is solvable, understand the constraints, and have a reliable way to verify the output, AI can be a fantastic accelerator. Apparently I decided to test that theory again. This time with my banking app. If you are savvy enough in the </summary>
     <author><name>Viorel PETCU</name></author>
+  </entry>
+  <entry>
+    <title>PawPal is your New Dog's AI Sidekick 🐶⭐</title>
+    <link href="https://dev.to/ishikathakur7802/pawpal-is-your-new-dogs-ai-sidekick-3bc8" rel="alternate"/>
+    <id>https://dev.to/ishikathakur7802/pawpal-is-your-new-dogs-ai-sidekick-3bc8</id>
+    <updated>2026-08-16T22:13:40Z</updated>
+    <summary type="text">What I Built Bringing a new dog home is exciting... and also confusing. Why are they crying? Why are they hiding? Why won't they eat? Why are they biting my feet? 😭 I built PawPal, a playful AI companion for new dog owners that helps turn those confusing moments into simple, reassuring guidance. I especially wanted PawPal to feel useful for people welcoming a rescued dog into their home, where a n</summary>
+    <author><name>Ishika Thakur</name></author>
+  </entry>
+  <entry>
+    <title>Sidewalk to Summit — build log</title>
+    <link href="https://dev.to/ohkpond/sidewalk-to-summit-build-log-4kp4" rel="alternate"/>
+    <id>https://dev.to/ohkpond/sidewalk-to-summit-build-log-4kp4</id>
+    <updated>2026-08-16T22:10:12Z</updated>
+    <summary type="text">A note before this starts moving: Been quiet here for a few weeks — heads down building instead of writing about it, which is exactly the trap this devlog exists to prevent. So: catch-up first, then this becomes the actual habit. One running post, edited in place every time I do real work, newest bit on top. No pile of unpublished drafts allowed after tonight. Aug 11–16 — Not a build week: fine-tu</summary>
+    <author><name>Kate Pond</name></author>
   </entry>
   <entry>
     <title>Cipr and Ciprnode zero</title>
@@ -352,89 +437,5 @@
     <updated>2026-08-16T18:52:01Z</updated>
     <summary type="text">Property registry data is open in many countries. HM Land Registry publishes every sale in England and Wales. The Dubai Land Department publishes transactions. US counties publish deeds. It's all free, and any developer can download it this afternoon. So why did I spend a year building an API over data anyone can get? Because of a bug I want to describe, since I think it generalises well beyond pr</summary>
     <author><name>New Way Capital Advisory</name></author>
-  </entry>
-  <entry>
-    <title>FetchQuest: Spec-Driven Dog Battling on Solana Devnet</title>
-    <link href="https://dev.to/ikdev103/fetchquest-spec-driven-dog-battling-on-solana-devnet-4b4f" rel="alternate"/>
-    <id>https://dev.to/ikdev103/fetchquest-spec-driven-dog-battling-on-solana-devnet-4b4f</id>
-    <updated>2026-08-16T18:51:51Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition What I Built FetchQuest — a tiny dog-vs-raccoon battler. You generate a dog with random stats (Speed, Bark, Chomp) and a personality tag, watch it come to life with an AI-drawn portrait and a bio/taunt line, mint it as a real NFT on Solana devnet, send it into a single fight against a fixed raccoon opponent, and hear the outcome narrated</summary>
-    <author><name>Iyad</name></author>
-  </entry>
-  <entry>
-    <title>Your Dog Can't Tell You Where It Hurts. MATCH_RECOGNIZE in Snowflake Can.</title>
-    <link href="https://dev.to/soumyadeepdey/your-dog-cant-tell-you-where-it-hurts-matchrecognize-in-snowflake-can-1pan" rel="alternate"/>
-    <id>https://dev.to/soumyadeepdey/your-dog-cant-tell-you-where-it-hurts-matchrecognize-in-snowflake-can-1pan</id>
-    <updated>2026-08-16T18:47:31Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition Target categories: Best use of Snowflake + Best use of Solana. Ten days from now International Dog Day is August 26th. The date is not arbitrary and it is not a marketing pick. Colleen Paige founded it in 2004 and chose the 26th because that is the day her family brought her first dog home from a shelter, when she was ten years old. So t</summary>
-    <author><name>Soumyadeep Dey</name></author>
-  </entry>
-  <entry>
-    <title>Setting Up Playwright &amp; Cucumber UI Tests in Azure DevOps with LambdaTest</title>
-    <link href="https://dev.to/shell_qa/setting-up-playwright-cucumber-ui-tests-in-azure-devops-with-lambdatest-2cld" rel="alternate"/>
-    <id>https://dev.to/shell_qa/setting-up-playwright-cucumber-ui-tests-in-azure-devops-with-lambdatest-2cld</id>
-    <updated>2026-08-16T18:47:10Z</updated>
-    <summary type="text">Here is a step-by-step guide to configuring your Playwright/Cucumber test suite to run on LambdaTest Cloud via Azure DevOps pipelines, returning test results directly to Azure. 1. Prerequisites A GitHub repository containing your Playwright, Cucumber, and JavaScript automation code. An active Azure DevOps account with a project created. A LambdaTest account (you will need your username and access </summary>
-    <author><name>Shell QA</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How I'm Learning AI in Public: My Roadmap</title>
-    <link href="https://dev.to/anushka190921/how-im-learning-ai-in-public-my-roadmap-1988" rel="alternate"/>
-    <id>https://dev.to/anushka190921/how-im-learning-ai-in-public-my-roadmap-1988</id>
-    <updated>2026-08-16T18:30:46Z</updated>
-    <summary type="text">When I decided that I wanted to seriously start learning Artificial Intelligence, I quickly realized that one of the hardest parts wasn't finding resources. It was figuring out where to start. There are countless courses, YouTube playlists, roadmaps, tools, frameworks, and technologies to learn. Every time I looked at what other people were doing, I felt like there was something else I should be l</summary>
-    <author><name>Anushka</name></author>
-  </entry>
-  <entry>
-    <title>The Ultimate Code Review Checklist for Data Validation Frameworks</title>
-    <link href="https://dev.to/shell_qa/the-ultimate-code-review-checklist-for-data-validation-frameworks-4ola" rel="alternate"/>
-    <id>https://dev.to/shell_qa/the-ultimate-code-review-checklist-for-data-validation-frameworks-4ola</id>
-    <updated>2026-08-16T18:24:04Z</updated>
-    <summary type="text">A comprehensive, production-ready checklist for reviewing data validation, ETL testing, and automated reconciliation codebases. Code reviews for data engineering tools need more rigor than standard web apps. A subtle bug in a data validation framework can cause silent pipeline failures, false positive test passes, or accidental execution of unbounded SQL queries on production warehouses. Whether y</summary>
-    <author><name>Shell QA</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>The problem with the happy path</title>
-    <link href="https://dev.to/w3ndo/the-problem-with-the-happy-path-23e6" rel="alternate"/>
-    <id>https://dev.to/w3ndo/the-problem-with-the-happy-path-23e6</id>
-    <updated>2026-08-16T18:21:53Z</updated>
-    <summary type="text">I recently had to do a deployment for a client demo. On local everything worked fine. All the tests were passing. All the data was where it was supposed to be. And then I pushed it to production. Suddenly, queries were failing. And I could not figure out why. So I fixed the first query. Re-built it, pushed again. It worked, but another thing broke. Rinse repeat and another thing broke. All the que</summary>
-    <author><name>Patrick Wendo</name></author>
-  </entry>
-  <entry>
-    <title>The World Clock Time-Zone Landscape: what 162 places reveal about time zones</title>
-    <link href="https://dev.to/lucian_lkb_1f009d/the-world-clock-time-zone-landscape-what-162-places-reveal-about-time-zones-1a4m" rel="alternate"/>
-    <id>https://dev.to/lucian_lkb_1f009d/the-world-clock-time-zone-landscape-what-162-places-reveal-about-time-zones-1a4m</id>
-    <updated>2026-08-16T18:21:25Z</updated>
-    <summary type="text">Time zones look like a tidy grid of whole hours. They aren't. I read the standard UTC offset of all 162 cities, countries and regions on our World Clock straight from the IANA database (via Intl) — and the real shape is lumpy, with quarter-hour outliers and a near-even split over whether clocks move at all. The quirk, in one line: Kathmandu keeps its clocks 5 hours 45 minutes ahead of UTC — the on</summary>
-    <author><name>Lucian (LKB)</name></author>
-  </entry>
-  <entry>
-    <title>🤖 I Built 2 Telegram Bots with Qwen3.8-Max — and the Results Were Seriously Impressive</title>
-    <link href="https://dev.to/vic_makes_ai/i-built-2-telegram-bots-with-qwen38-max-and-the-results-were-seriously-impressive-4ceg" rel="alternate"/>
-    <id>https://dev.to/vic_makes_ai/i-built-2-telegram-bots-with-qwen38-max-and-the-results-were-seriously-impressive-4ceg</id>
-    <updated>2026-08-16T18:20:52Z</updated>
-    <summary type="text">💬 Following up on the story about the release of Qwen3.8-Max, I finally tried it on real-world tasks. Specifically, for building AI consultants for text channels (messengers) in my favorite programming language — Go. Spoiler: it’s really good, especially for such a low price per 1M tokens! 😍 As a result, I built 2 demo Telegram bots, where GPT-4.1-mini acts as the brains 👇 1️⃣ A bot for qualifying</summary>
-    <author><name>Vic Shóstak</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Suite Was Green. Four Binding Controls Hadn't Established Their Claims.</title>
-    <link href="https://dev.to/kenielzep97/the-suite-was-green-four-binding-controls-hadnt-established-their-claims-5d01" rel="alternate"/>
-    <id>https://dev.to/kenielzep97/the-suite-was-green-four-binding-controls-hadnt-established-their-claims-5d01</id>
-    <updated>2026-08-16T18:13:16Z</updated>
-    <summary type="text">Part three of: OpenAI Says Verified Defenders Get More Access. I'm Going to Test That. On August 5 I published a bounded result. On August 9 a reviewer replied with a detailed schema he had clearly spent real time on, designing against that result. The result had been withdrawn four days earlier and I had not gone back to the thread to say so. This is what the audit found, why the whole class came</summary>
-    <author><name>Self-Correcting Systems</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why BlocSignal Doesn't Need Provider (And Why Classic BLoC Always Did)</title>
-    <link href="https://dev.to/gde/why-blocsignal-doesnt-need-provider-and-why-classic-bloc-always-did-1j3g" rel="alternate"/>
-    <id>https://dev.to/gde/why-blocsignal-doesnt-need-provider-and-why-classic-bloc-always-did-1j3g</id>
-    <updated>2026-08-16T18:12:39Z</updated>
-    <summary type="text">How shedding package:provider eliminates dependency hell, fixes Flutter's lingering ghost rebuild bug, and delivers fine-grained synchronous reactivity in 2026. If you browse r/FlutterDev on any given week, you will find the exact same architectural debate playing out: &quot;Should I use BLoC or Riverpod for my next production app? BLoC has great structure and discipline, but the stream boilerplate is </summary>
-    <author><name>Randal L. Schwartz</name></author>
   </entry>
 </feed>
