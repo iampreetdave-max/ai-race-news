@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T03:04:14Z</updated>
+  <updated>2026-08-16T04:39:51Z</updated>
   <entry>
     <title>Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings</title>
     <link href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/" rel="alternate"/>
@@ -108,6 +108,67 @@
     <summary type="text">Moonshot AI's PerceptionBench tests how well multimodal AI models can actually &quot;see,&quot; separate from logical reasoning. No frontier model reaches 60 percent accuracy, and GPT-5.6 Sol leads by a narrow margin. Many supposed reasoning errors actually happen as early as the image-reading stage. The article New benchmark confirms AI models still perform poorly at visual perception appeared first on The</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>EmpowerAgro: Bringing Real-Time Crop Disease Detection to India’s Smallholder Farmers with Google AI</title>
+    <link href="https://dev.to/ak270704/empoweragro-bringing-real-time-crop-disease-detection-to-indias-smallholder-farmers-with-google-ai-l4d" rel="alternate"/>
+    <id>https://dev.to/ak270704/empoweragro-bringing-real-time-crop-disease-detection-to-indias-smallholder-farmers-with-google-ai-l4d</id>
+    <updated>2026-08-16T04:12:53Z</updated>
+    <summary type="text">For millions of smallholder farmers across India, agricultural livelihood is a continuous battle against unpredictable weather, pest infestations, and crop diseases. In rural regions like Vidarbha and Marathwada, a single unnoticed fungal outbreak in a cotton or soybean crop can wipe out an entire season's yield, driving families into deep financial distress. Traditional agricultural extension ser</summary>
+    <author><name>Akshat_Kaushik</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Your prompt is not a security boundary</title>
+    <link href="https://dev.to/dosai/your-prompt-is-not-a-security-boundary-382e" rel="alternate"/>
+    <id>https://dev.to/dosai/your-prompt-is-not-a-security-boundary-382e</id>
+    <updated>2026-08-16T03:56:19Z</updated>
+    <summary type="text">If your AI agent owns tools with side effects, one question decides whether it is safe to ship: what happens when the model confidently calls a money tool on invented grounds. This is a writeup of one mechanism that closes that hole, and of where the mechanism stops working. The context is assistants that talk to real customers in messengers and can do irreversible things: confirm a payment, issue</summary>
+    <author><name>DOS AI</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Open-Weight Model Benchmark Harness: Test Cheaper Models Before You Route Traffic</title>
+    <link href="https://dev.to/jackm-singularity/open-weight-model-benchmark-harness-test-cheaper-models-before-you-route-traffic-42e6" rel="alternate"/>
+    <id>https://dev.to/jackm-singularity/open-weight-model-benchmark-harness-test-cheaper-models-before-you-route-traffic-42e6</id>
+    <updated>2026-08-16T03:51:50Z</updated>
+    <summary type="text">A cheaper model is not cheaper if it silently breaks the workflow. That is the trap many AI product teams are walking into as open-weight models get stronger. A model looks good in a leaderboard, a demo feels fast, and the per-token price looks friendly. Then production traffic arrives. Support answers lose citations. JSON starts drifting. Tool calls become noisy. A workflow that looked 40% cheape</summary>
+    <author><name>Jack M</name></author>
+  </entry>
+  <entry>
+    <title>I Built an AI That Cuts Your Podcast Into Shorts. But I Didn’t Want It to Edit Your Content.</title>
+    <link href="https://dev.to/munjapara/i-built-an-ai-that-cuts-your-podcast-into-shorts-but-i-didnt-want-it-to-edit-your-content-56mg" rel="alternate"/>
+    <id>https://dev.to/munjapara/i-built-an-ai-that-cuts-your-podcast-into-shorts-but-i-didnt-want-it-to-edit-your-content-56mg</id>
+    <updated>2026-08-16T03:50:56Z</updated>
+    <summary type="text">The story behind AI Clip Cutter — and why we’re building AI editing around one simple idea: the creator should stay in control. Press enter or click to view image in full size There is an uncomfortable truth about short-form content: Most creators don’t have a content problem. They have a time problem. You can spend an hour recording a podcast. Two hours researching. Three hours having a conversat</summary>
+    <author><name>munjapara9</name></author>
+  </entry>
+  <entry>
+    <title>&quot;Your cache hit rate is low&quot; — true, and worth $0.16</title>
+    <link href="https://dev.to/lizhuojunx86/your-cache-hit-rate-is-low-true-and-worth-016-30ie" rel="alternate"/>
+    <id>https://dev.to/lizhuojunx86/your-cache-hit-rate-is-low-true-and-worth-016-30ie</id>
+    <updated>2026-08-16T03:45:04Z</updated>
+    <summary type="text">Anthropic emailed our org last week: prompt cache hit rate is low, and caching repeated content &quot;could save up to 64% of direct API spend.&quot; The email is careful with scope — direct API only, Claude Code excluded because it manages caching itself. I went to check what that 64% was made of. Our direct API traffic over the period: 16 calls, $0.25 total, average prompt 90 tokens. They come from traceg</summary>
+    <author><name>Li Zhuojun</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>In-App Chatbot Code Reviews — A Beginner's Portable API Contract</title>
+    <link href="https://dev.to/rhettfletcher9678/in-app-chatbot-code-reviews-a-beginners-portable-api-contract-14h2" rel="alternate"/>
+    <id>https://dev.to/rhettfletcher9678/in-app-chatbot-code-reviews-a-beginners-portable-api-contract-14h2</id>
+    <updated>2026-08-16T03:41:58Z</updated>
+    <summary type="text">Choose an OpenAI-compatible endpoint for a first in-app chatbot that reviews logistics code changes, then keep the provider boundary narrow enough to replace later. Short answer: for a beginner, the OpenAI-compatible contract is usually the better developer experience than an Anthropic-specific contract because examples, SDK support, middleware, and migration paths are broader; choose Anthropic's </summary>
+    <author><name>RhettFletcher9678</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LangGraph API Failure</title>
+    <link href="https://dev.to/yashwanth_kasi/langgraph-api-failure-1i0c" rel="alternate"/>
+    <id>https://dev.to/yashwanth_kasi/langgraph-api-failure-1i0c</id>
+    <updated>2026-08-16T03:39:39Z</updated>
+    <summary type="text">We've all been there - you've built an agentic AI system using LangGraph and MCP, and it's been humming along just fine, until one day, a third-party API that one of your MCP Tool primitives relies on suddenly changes its response format. Your agent, which was previously adapting beautifully to user input, is now stuck in an infinite loop, unable to recover from the unexpected API response. This i</summary>
+    <author><name>Kasi Yaswanth</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google</title>
@@ -378,68 +439,5 @@
     <updated>2026-08-15T21:54:51Z</updated>
     <summary type="text">“Memory” is the feature everyone asked for and few thought through. The pitch is lovely: the assistant remembers your preferences, your projects, your writing style, the fact that you are vegetarian and allergic to long emails, so you never have to repeat yourself. In practice, it is one of the most consequential privacy decisions in consumer AI, dressed up as a convenience toggle, and most people</summary>
     <author><name>The AI Downside</name></author>
-  </entry>
-  <entry>
-    <title>When AI Refuses Perfectly Normal Requests</title>
-    <link href="https://dev.to/theaidownside/when-ai-refuses-perfectly-normal-requests-4aa7" rel="alternate"/>
-    <id>https://dev.to/theaidownside/when-ai-refuses-perfectly-normal-requests-4aa7</id>
-    <updated>2026-08-15T21:54:47Z</updated>
-    <summary type="text">Ask a modern chatbot to help with something completely ordinary and there is a growing chance it will decline. Not because the request was dangerous, but because it brushed against a keyword, a topic, or a category that the vendor's safety systems treat as radioactive. A recipe that mentions alcohol. A history question about a violent event. A medical query you were entitled to ask. A creative sce</summary>
-    <author><name>The AI Downside</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building an AI Text Detector From Scratch</title>
-    <link href="https://magazine.sebastianraschka.com/p/ai-detector-from-scratch" rel="alternate"/>
-    <id>https://magazine.sebastianraschka.com/p/ai-detector-from-scratch</id>
-    <updated>2026-08-15T11:54:24Z</updated>
-    <summary type="text">An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR</summary>
-    <author><name>Sebastian Raschka, PhD</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic announces watermark detection API that will let third parties detect Claude's AI texts</title>
-    <link href="https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/</id>
-    <updated>2026-08-14T21:29:17Z</updated>
-    <summary type="text">Anthropic will soon offer a watermark detection API that lets third parties check whether text was written by Claude. The technology builds on Google's SynthID method and tweaks the randomness during word selection without affecting text quality, Anthropic says. The approach has limits with fact-heavy text, code, and heavy rewriting. The article Anthropic announces watermark detection API that wil</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Turning your Obsidian notes into a queryable database with Dataview</title>
-    <link href="https://dev.to/stacklinestudio/turning-your-obsidian-notes-into-a-queryable-database-with-dataview-3hn2" rel="alternate"/>
-    <id>https://dev.to/stacklinestudio/turning-your-obsidian-notes-into-a-queryable-database-with-dataview-3hn2</id>
-    <updated>2026-08-15T21:18:52Z</updated>
-    <summary type="text">If you take notes in Obsidian, you've probably hit the same wall: search finds text, but it can't answer &quot;show me every snippet I've tagged regex&quot; or &quot;what debugging notes do I still have open?&quot; That's what the Dataview plugin is for — it treats your notes' frontmatter (and inline fields) as rows in a database and lets you query them with a SQL-like syntax, right inside a note. The setup Dataview </summary>
-    <author><name>StacklineStudio</name></author>
-  </entry>
-  <entry>
-    <title>PHP FFI on Apple Silicon: your ioctl call is lying to you</title>
-    <link href="https://dev.to/croustibat44/php-ffi-on-apple-silicon-your-ioctl-call-is-lying-to-you-23kj" rel="alternate"/>
-    <id>https://dev.to/croustibat44/php-ffi-on-apple-silicon-your-ioctl-call-is-lying-to-you-23kj</id>
-    <updated>2026-08-15T21:18:27Z</updated>
-    <summary type="text">I spent an evening building pseudo-terminal support for PHP and lost an hour of it to a bug that reports success. If you use FFI and ioctl anywhere near production, and your CI only runs on Linux, this one is worth ten minutes of your time. The setup PHP can already open a pseudo-terminal. proc_open() accepts ['pty'] descriptors, and on macOS you get a real /dev/ttysNNN back. What you do not get i</summary>
-    <author><name>Baptiste Bouillot</name></author>
-  </entry>
-  <entry>
-    <title>Who's really winning open models in 2026? It's not who you think</title>
-    <link href="https://dev.to/thegatewayguy/whos-really-winning-open-models-in-2026-its-not-who-you-think-c11" rel="alternate"/>
-    <id>https://dev.to/thegatewayguy/whos-really-winning-open-models-in-2026-its-not-who-you-think-c11</id>
-    <updated>2026-08-15T21:11:04Z</updated>
-    <summary type="text">HuggingFace just published their biannual State of Open Models report covering January to August 2026. The headline numbers are big — 2.96 million public model repos, 1 million datasets, 1.44 million Spaces. But the interesting findings are in what the data reveals about how power in open AI has shifted. What actually changed Chinese labs own frontier scale. In almost every month of 2026, the larg</summary>
-    <author><name>Andrew Kew</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>🍬 Candy Logger v2.1.0 - The Correctness Release</title>
-    <link href="https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn" rel="alternate"/>
-    <id>https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn</id>
-    <updated>2026-08-15T21:06:00Z</updated>
-    <summary type="text">Candy Logger v2.1.0 is now available. This release focuses on making Candy Logger correct, secure, reliable, and production-ready. Version 2.1.0 improves serialization, security, console interception, persistence, UI behavior, accessibility, mobile support, and the underlying architecture. It also introduces a cleaner core API that allows Candy Logger to be used without rendering the UI. GitHub Re</summary>
-    <author><name>Muhammad Sheharyar Butt</name></author>
-    <category term="product-launch"/>
   </entry>
 </feed>
