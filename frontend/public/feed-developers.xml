@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-15T23:24:08Z</updated>
+  <updated>2026-08-16T01:36:31Z</updated>
+  <entry>
+    <title>I shipped an MCP server that reported success without signing anything</title>
+    <link href="https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh" rel="alternate"/>
+    <id>https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh</id>
+    <updated>2026-08-16T00:30:27Z</updated>
+    <summary type="text">I built an MCP server that lets an AI assistant trade tokens and claim creator fees on Solana. Then I shipped a version where the two write tools built transactions, discarded them, and returned success. Nothing was ever signed. Nothing was ever submitted. It had 337 tests. All of them passed. I didn't find out for three months. This post is about what that bug taught me, and the design it produce</summary>
+    <author><name>Edy Cu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP server configured, but zero tools show up? Here's probably why</title>
+    <link href="https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25" rel="alternate"/>
+    <id>https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25</id>
+    <updated>2026-08-16T00:28:53Z</updated>
+    <summary type="text">You add an MCP server to your config. The JSON is valid. The client even says &quot;connected.&quot; And then: zero tools. No error. No hint. The official /doctor says nothing is wrong. If this has happened to you, welcome — the GitHub issues are full of us: MCP servers fail to connect with npx on Windows — 112 comments MCP Servers Don't Work with NVM — 182 reactions Claude Desktop silently drops all tools </summary>
+    <author><name>lajiaojiang</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Frontend DevOps: mi mapa de recursos</title>
     <link href="https://dev.to/aws-builders/frontend-devops-mi-mapa-de-recursos-1fm7" rel="alternate"/>
@@ -440,23 +458,5 @@
     <summary type="text">We started the compute layer on Day 13 with EC2, ELB, and Auto Scaling — where you launch and manage everything yourself. Today we move one level up the abstraction ladder: services where AWS takes over more of the operational burden. By the end of this post you'll know what each one does, how it differs from plain EC2, and when to actually reach for it. AWS Elastic Beanstalk Elastic Beanstalk is </summary>
     <author><name>Soumyaranjan Palatasingh</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Finding, Verifying, and Adapting the Right Skills for Your Project</title>
-    <link href="https://dev.to/ndabene/finding-verifying-and-adapting-the-right-skills-for-your-project-4bgd" rel="alternate"/>
-    <id>https://dev.to/ndabene/finding-verifying-and-adapting-the-right-skills-for-your-project-4bgd</id>
-    <updated>2026-08-15T03:57:35Z</updated>
-    <summary type="text">Skills are reusable workflows, not magic knowledge pills. Before you install one, inspect its source, versions, and effects to confirm it fits your project. Start with a few focused skills and adapt them to what already exists. A skill is a set of instructions and scripts that lets an agent reproduce a specialized method. It doesn’t guarantee best practices or compatibility with your repository. T</summary>
-    <author><name>Nicolas Dabene</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why We Parse Industrial Code Instead of Embedding It</title>
-    <link href="https://dev.to/nodeblue/why-we-parse-industrial-code-instead-of-embedding-it-5dko" rel="alternate"/>
-    <id>https://dev.to/nodeblue/why-we-parse-industrial-code-instead-of-embedding-it-5dko</id>
-    <updated>2026-08-15T03:37:56Z</updated>
-    <summary type="text">Most of the industrial AI you have seen is a retrieval pipeline with a chat box on it. Chunk the manuals, embed them, stuff the top matches into a context window, let the model talk. It demos well. It falls apart the first time somebody asks a question where the answer depends on what a machine is doing right now. We are an applied research lab called Nodeblue, and the system we build is called Ne</summary>
-    <author><name>Dylan McCarthy</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

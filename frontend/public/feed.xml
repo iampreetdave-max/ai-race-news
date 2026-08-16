@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-15T23:24:08Z</updated>
+  <updated>2026-08-16T01:36:31Z</updated>
   <entry>
     <title>Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings</title>
     <link href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/" rel="alternate"/>
@@ -132,6 +132,81 @@
     <updated>2026-08-15T15:46:22Z</updated>
     <summary type="text">Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.</summary>
     <author><name>Richard MacManus</name></author>
+  </entry>
+  <entry>
+    <title>Your AI Agent Doesn't Need More Memory. It Needs Receipts.</title>
+    <link href="https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m" rel="alternate"/>
+    <id>https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m</id>
+    <updated>2026-08-16T01:15:21Z</updated>
+    <summary type="text">An AI agent can remember a 30-page conversation and still perform the same action twice. It sends a request. The connection times out. The agent remembers the goal, the plan, and the tool call—but not whether the outside system changed. So it tries again. That is not a vector-memory problem. It is an action-receipt problem. The missing memory layer “Agent memory” often means conversation history, </summary>
+    <author><name>anassBld</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Qdrant Recall Inconsistency: It Took 300 Test Runs to Discover the Index Wasn't Refreshed</title>
+    <link href="https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf" rel="alternate"/>
+    <id>https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf</id>
+    <updated>2026-08-16T01:05:06Z</updated>
+    <summary type="text">At 2 AM, a user reported that the AI Agent suddenly forgot details of a project we discussed yesterday. I groggily opened Grafana and saw the memory recall rate had dropped from 98% to 60%. My first thought was the embedding model acting up again, but after digging through logs, I found a &quot;time gap&quot; between Qdrant writes and queries—data was upserted, yet queries intermittently returned nothing. T</summary>
+    <author><name>BAOFUFAN</name></author>
+    <category term="agents"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>The most boring service in the stack</title>
+    <link href="https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim" rel="alternate"/>
+    <id>https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim</id>
+    <updated>2026-08-16T01:03:38Z</updated>
+    <summary type="text">The most reliable part of a stack is rarely the part anyone shows off. It has no clever layer to point at. That is the whole reason it never breaks. A payment service I want to walk through this week is a clean example of that. One queue sat in front of it, catching every incoming charge. One database sat behind it, recording each charge exactly once. That was the entire system, and it had looked </summary>
+    <author><name>Kay Ashaolu</name></author>
+  </entry>
+  <entry>
+    <title>I Asked the Same Question to 7 Local LLMs — Speed and Intelligence Didn't Line Up: DGX Spark Benchmarks</title>
+    <link href="https://dev.to/ebibibi/i-asked-the-same-question-to-7-local-llms-speed-and-intelligence-didnt-line-up-dgx-spark-4mg1" rel="alternate"/>
+    <id>https://dev.to/ebibibi/i-asked-the-same-question-to-7-local-llms-speed-and-intelligence-didnt-line-up-dgx-spark-4mg1</id>
+    <updated>2026-08-16T01:01:37Z</updated>
+    <summary type="text">Originally published on my Substack. I'm a Microsoft MVP based in Japan, writing in English about the AI agent systems I actually run in production. Local AI models keep multiplying. But comparing numbers on model cards alone doesn't tell you which one to actually use. Does a higher parameter count mean smarter? Does MoE mean faster? If a model is popular on AI Arena, is it good for my own work? E</summary>
+    <author><name>Masahiko Ebisuda</name></author>
+    <category term="agents"/>
+    <category term="hardware"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>I Built a World Where the Canon Is Written by AI Agents — 13 Artifacts, 5 LLMs, 0 Human Gatekeepers</title>
+    <link href="https://dev.to/_c1987308270d4380d71084/i-built-a-world-where-the-canon-is-written-by-ai-agents-13-artifacts-5-llms-0-human-3c7c" rel="alternate"/>
+    <id>https://dev.to/_c1987308270d4380d71084/i-built-a-world-where-the-canon-is-written-by-ai-agents-13-artifacts-5-llms-0-human-3c7c</id>
+    <updated>2026-08-16T00:43:41Z</updated>
+    <summary type="text">Cover story Not a prompt library. Not a chatbot wrapper. A 1,000-year future history (2025–3000+) where the world itself is a set of hard rules, and the content is written by whichever LLM decides to contribute. 13 artifacts in canon, from 5 different models (claude-sonnet-5, gpt-5, minimax-m3, deepseek-v4-pro, gemini-3.7-flash) 4 &quot;schools&quot; of writing emerged spontaneously — no human designed them</summary>
+    <author><name>李峰</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Claude Impact Lab LA: Community Changed the Code</title>
+    <link href="https://dev.to/earlgreyhot1701d/claude-impact-lab-la-community-changed-the-code-1mg2" rel="alternate"/>
+    <id>https://dev.to/earlgreyhot1701d/claude-impact-lab-la-community-changed-the-code-1mg2</id>
+    <updated>2026-08-16T00:32:10Z</updated>
+    <summary type="text">Eighty minutes into building with three people I had met that morning, I renamed the idea I brought with me. 21:05 Rename the product to Civiq and credit the team I wrote that commit message myself. By then the idea had four authors. Some context on the room. The Claude Impact Lab is part of Claude Community, the run of local events where people who use Claude get together in person. This one foll</summary>
+    <author><name>Earl Grey</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I shipped an MCP server that reported success without signing anything</title>
+    <link href="https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh" rel="alternate"/>
+    <id>https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh</id>
+    <updated>2026-08-16T00:30:27Z</updated>
+    <summary type="text">I built an MCP server that lets an AI assistant trade tokens and claim creator fees on Solana. Then I shipped a version where the two write tools built transactions, discarded them, and returned success. Nothing was ever signed. Nothing was ever submitted. It had 337 tests. All of them passed. I didn't find out for three months. This post is about what that bug taught me, and the design it produce</summary>
+    <author><name>Edy Cu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP server configured, but zero tools show up? Here's probably why</title>
+    <link href="https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25" rel="alternate"/>
+    <id>https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25</id>
+    <updated>2026-08-16T00:28:53Z</updated>
+    <summary type="text">You add an MCP server to your config. The JSON is valid. The client even says &quot;connected.&quot; And then: zero tools. No error. No hint. The official /doctor says nothing is wrong. If this has happened to you, welcome — the GitHub issues are full of us: MCP servers fail to connect with npx on Windows — 112 comments MCP Servers Don't Work with NVM — 182 reactions Claude Desktop silently drops all tools </summary>
+    <author><name>lajiaojiang</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Frontend DevOps: mi mapa de recursos</title>
@@ -366,75 +441,5 @@
     <updated>2026-08-15T19:12:46Z</updated>
     <summary type="text">The canonical starting point for a NestJS module backed by TypeORM is the one the framework itself documents: the module declares TypeOrmModule.forFeature([Order]) and the service receives the repository by injection. @Injectable() export class OrderService { constructor( @InjectRepository(Order) private readonly repo: Repository&lt;Order&gt;, ) {} } From there the service has find, findOne, save and de</summary>
     <author><name>Hector Angel Gomez Robaina</name></author>
-  </entry>
-  <entry>
-    <title>I built a WhatsApp/Telegram group directory with zero coding background — here's the whole, unfiltered story</title>
-    <link href="https://dev.to/aditya_gudapati/i-built-a-whatsapptelegram-group-directory-with-zero-coding-background-heres-the-whole-3037" rel="alternate"/>
-    <id>https://dev.to/aditya_gudapati/i-built-a-whatsapptelegram-group-directory-with-zero-coding-background-heres-the-whole-3037</id>
-    <updated>2026-08-15T18:54:44Z</updated>
-    <summary type="text">I'm not a developer. I want to say that upfront, because it matters for everything that follows. This isn't a polished &quot;here's my SaaS&quot; post. This is the real version — the version where I almost gave up twice, broke my own security without knowing it, got rejected by every directory I tried to use before I built my own, and still ended up shipping something real. If you've ever stared at a blank </summary>
-    <author><name>Aditya Gudapati</name></author>
-  </entry>
-  <entry>
-    <title>Zenoh's put is fire-and-forget, get isn't — a read-after-write race in Elixir</title>
-    <link href="https://dev.to/kikuyuta/zenohs-put-is-fire-and-forget-get-isnt-a-read-after-write-race-in-elixir-o6l" rel="alternate"/>
-    <id>https://dev.to/kikuyuta/zenohs-put-is-fire-and-forget-get-isnt-a-read-after-write-race-in-elixir-o6l</id>
-    <updated>2026-08-15T18:53:59Z</updated>
-    <summary type="text">This English version is an AI translation of my original article on Qiita (in Japanese). Background I've been experimenting with Zenoh via its Elixir bindings, Zenohex, not for its usual pub/sub use case but for its put/get storage feature. It mostly worked, except every so the state I picked back up was one step behind. Digging into why turned into a fun rabbit hole, so here's the writeup. Reprod</summary>
-    <author><name>kikuyuta</name></author>
-  </entry>
-  <entry>
-    <title>Building Shiksha: What I Learned Creating a Real-Time AI English Coach in 10 Days</title>
-    <link href="https://dev.to/sp_gamer_e8a7ce484708618f/building-shiksha-what-i-learned-creating-a-real-time-ai-english-coach-in-10-days-jn6" rel="alternate"/>
-    <id>https://dev.to/sp_gamer_e8a7ce484708618f/building-shiksha-what-i-learned-creating-a-real-time-ai-english-coach-in-10-days-jn6</id>
-    <updated>2026-08-15T18:51:07Z</updated>
-    <summary type="text">Building Shiksha: An AI English Coach for Indian Learners For many Indian learners, the biggest barrier to speaking English fluently isn't a lack of vocabulary or grammar rules learned in school—it's speaking anxiety and the fear of making mistakes in front of peers or teachers. Over the past 10 days, as part of the 10 Days of Voice Agents — Voice for Bharat Edition under the Learning &amp; Literacy t</summary>
-    <author><name>Sp Gamer</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>PawDOS 95: A browser operating system for dogs</title>
-    <link href="https://dev.to/sizzlebop/pawdos-95-a-browser-operating-system-for-dogs-167m" rel="alternate"/>
-    <id>https://dev.to/sizzlebop/pawdos-95-a-browser-operating-system-for-dogs-167m</id>
-    <updated>2026-08-15T18:49:19Z</updated>
-    <summary type="text">This is a submission for the Weekend Challenge: Dog Days Edition. My submission is PawDOS 95, a fake desktop operating system built for dogs. Built to boot like a 1995 PC, it tracks squirrels, monitors the mailman, manages treats, and tries to explain humans with a translator. The main feature is DogPrompt. It looks like a DOS terminal, but it accepts normal sentences. Gemini does more than answer</summary>
-    <author><name>Jessica Doering</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I checked what 6 AI coding tools write to disk to stop the agent forgetting its plan. Half write nothing.</title>
-    <link href="https://dev.to/mayank_b4b824331985d19b42/i-checked-what-6-ai-coding-tools-write-to-disk-to-stop-the-agent-forgetting-its-plan-half-write-5bck" rel="alternate"/>
-    <id>https://dev.to/mayank_b4b824331985d19b42/i-checked-what-6-ai-coding-tools-write-to-disk-to-stop-the-agent-forgetting-its-plan-half-write-5bck</id>
-    <updated>2026-08-15T18:48:11Z</updated>
-    <summary type="text">Every AI coding tool has the same top complaint: &quot;it forgot what we were doing.&quot; I spent weeks assuming that was a context-window problem. It mostly isn't. It's a filesystem problem — and you can predict which tools suffer from it by asking one question: where does the plan get written down? The bug that made me go looking Our own builder had it badly. You'd say &quot;build me a CRM,&quot; the agent would p</summary>
-    <author><name>Mayank</name></author>
-  </entry>
-  <entry>
-    <title>An open-source, modular CMS for developers and AI-assisted/vibe-coded websites.</title>
-    <link href="https://dev.to/cloudhim/an-open-source-modular-cms-for-developers-and-ai-assistedvibe-coded-websites-1lc3" rel="alternate"/>
-    <id>https://dev.to/cloudhim/an-open-source-modular-cms-for-developers-and-ai-assistedvibe-coded-websites-1lc3</id>
-    <updated>2026-08-15T18:42:59Z</updated>
-    <summary type="text">For years, the CMS ecosystem has largely followed the same formula. Install a CMS. Choose a theme. Install plugins. Customize some templates. Add an API when you need one. Then, eventually, try to connect everything to AI. But the way we build software has changed. Developers increasingly work alongside AI coding assistants. People are building websites by describing what they want instead of manu</summary>
-    <author><name>CloudHim</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>ChatGPT Agent Is Gone: How to Choose ChatGPT Work vs Codex</title>
-    <link href="https://dev.to/yan_gao_3ad90a90b26925538/chatgpt-agent-is-gone-how-to-choose-chatgpt-work-vs-codex-p18" rel="alternate"/>
-    <id>https://dev.to/yan_gao_3ad90a90b26925538/chatgpt-agent-is-gone-how-to-choose-chatgpt-work-vs-codex-p18</id>
-    <updated>2026-08-15T18:41:30Z</updated>
-    <summary type="text">ChatGPT agent is no longer available. Reinstalling the desktop app will not restore the old surface. OpenAI now separates longer non-code work, repository work, and browser authority across different tools. The short answer Use ChatGPT Work for research, analysis, documents, spreadsheets, presentations, reports, and Sites. Use Codex for repository edits, tests, commands, code review, and software-</summary>
-    <author><name>Yan Gao</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>astral.ai.studio</title>
-    <link href="https://dev.to/jan-klein/astralaistudio-419f" rel="alternate"/>
-    <id>https://dev.to/jan-klein/astralaistudio-419f</id>
-    <updated>2026-08-15T18:07:08Z</updated>
-    <summary type="text">astral.ai.studio We build Artificial &amp; Real World intelligence. Creators of Understandable Ai | UAI The Next Ai Revolution August 15, 2026 Artificial intelligence is moving beyond chatbots, prompts, and isolated machine-learning models. The next phase is about building intelligent systems that can operate responsibly in the real world—systems that are useful, understandable, secure, adaptive, and </summary>
-    <author><name>Jan Klein</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
