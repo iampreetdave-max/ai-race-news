@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-16T16:30:00Z</updated>
+  <updated>2026-08-16T17:23:23Z</updated>
   <entry>
     <title>Top mathematicians say LLMs are strong calculators but poor creative thinkers</title>
     <link href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/" rel="alternate"/>
@@ -21,6 +21,15 @@
     <updated>2026-08-16T11:23:30Z</updated>
     <summary type="text">A study involving Google researchers shows that when chatbots are trained not to claim consciousness, it also changes their stance on animal rights, religion, and life satisfaction. Unbraked models attributed significantly more inner life to animals and suddenly affirmed an afterlife. A surgical cut in one place, it turns out, doesn't stay local. The article When AI models aren't allowed to reflec</summary>
     <author><name>Maximilian Schreiner</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’</title>
+    <link href="https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/</id>
+    <updated>2026-08-16T16:53:51Z</updated>
+    <summary type="text">Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.</summary>
+    <author><name>Anthony Ha</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -67,6 +76,48 @@
     <updated>2026-08-16T05:00:00Z</updated>
     <summary type="text">A representative survey by Epoch AI found that 20 percent of employed Americans hand off at least one task to AI that a human used to do. Generally, they accept AI output with little to no editing. The article One in five US workers now delegates tasks to AI instead of colleagues, survey finds appeared first on The Decoder.</summary>
     <author><name>Tomislav Bezmalinović</name></author>
+  </entry>
+  <entry>
+    <title>Building a Secure Enterprise AI Assistant: A Complete Architecture &amp; Usage Guide</title>
+    <link href="https://dev.to/shell_qa/building-a-secure-enterprise-ai-assistant-a-complete-architecture-usage-guide-1gd3" rel="alternate"/>
+    <id>https://dev.to/shell_qa/building-a-secure-enterprise-ai-assistant-a-complete-architecture-usage-guide-1gd3</id>
+    <updated>2026-08-16T17:13:53Z</updated>
+    <summary type="text">Integrating generative AI into internal workflows requires a strict balance between user accessibility and enterprise data privacy. Below is a blueprint for designing, deploying, and governing an internal AI assistant (Secure GPT) using managed LLMs. 1. Architecture &amp; System Overview An enterprise AI assistant acts as a secure bridge between internal teams and Large Language Models (LLMs). Model O</summary>
+    <author><name>Shell QA</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Detector That Only Ever Says &quot;Clean&quot; Proves Nothing</title>
+    <link href="https://dev.to/volodymyrkubiria/a-detector-that-only-ever-says-clean-proves-nothing-mii" rel="alternate"/>
+    <id>https://dev.to/volodymyrkubiria/a-detector-that-only-ever-says-clean-proves-nothing-mii</id>
+    <updated>2026-08-16T17:09:09Z</updated>
+    <summary type="text">A few days ago I asked my agent to count how many of my tooling scripts carry a self-test. It grepped and answered: 12 of 13. The number was wrong. One script labels its control НЕГАТИВНИЙ КОНТРОЛЬ — uppercase — and the probe's regex was lowercase with no -i flag. The real answer was 13 of 13. A probe written to find blind detectors was blind. It returned a clean, specific, entirely plausible numb</summary>
+    <author><name>Volodymyr</name></author>
+  </entry>
+  <entry>
+    <title>We wrote integrations for two marketplaces and skipped the shared interface</title>
+    <link href="https://dev.to/fastogt_team/we-wrote-integrations-for-two-marketplaces-and-skipped-the-shared-interface-ig5" rel="alternate"/>
+    <id>https://dev.to/fastogt_team/we-wrote-integrations-for-two-marketplaces-and-skipped-the-shared-interface-ig5</id>
+    <updated>2026-08-16T17:04:40Z</updated>
+    <summary type="text">There is a task that looks like a textbook example of polymorphism: &quot;sync stock and prices with marketplaces&quot;. There are several platforms, the actions are the same — list the cards, push the stock, push the price, pull the orders. An interface asks to be written: type Marketplace interface { ListOffers() ([]Offer, error) SetStock(offerID string, n int64) error SetPrice(offerID string, price int64</summary>
+    <author><name>FastoGT Team</name></author>
+  </entry>
+  <entry>
+    <title>5 Things I Check First When a Linux Server Goes Down</title>
+    <link href="https://dev.to/asepsayyad007/5-things-i-check-first-when-a-linux-server-goes-down-3e0i" rel="alternate"/>
+    <id>https://dev.to/asepsayyad007/5-things-i-check-first-when-a-linux-server-goes-down-3e0i</id>
+    <updated>2026-08-16T17:00:23Z</updated>
+    <summary type="text">When a production machine drops offline or stops responding, guessing wastes precious minutes. Here is the exact five-step triage sequence I run to find the root cause and bring systems back online. It was 3:15 AM on a Saturday morning when my phone vibrated with an urgent Prometheus alert. Our primary application server had stopped replying to health check probes. HTTP requests were timing out, A</summary>
+    <author><name>Asep Sayyad</name></author>
+  </entry>
+  <entry>
+    <title>I reimplemented the RustDesk wire protocol in pure Go — here's what it took</title>
+    <link href="https://dev.to/ttywrangler/i-reimplemented-the-rustdesk-wire-protocol-in-pure-go-heres-what-it-took-2kok" rel="alternate"/>
+    <id>https://dev.to/ttywrangler/i-reimplemented-the-rustdesk-wire-protocol-in-pure-go-heres-what-it-took-2kok</id>
+    <updated>2026-08-16T16:46:55Z</updated>
+    <summary type="text">RustDesk's public server now requires login, and the only official client is a desktop GUI. If you wanted to script a remote machine, pull a file, or set up a tunnel from your terminal — you were out of luck. So I built rdcli: a pure-Go CLI that speaks the RustDesk wire protocol directly. No GUI, no official binary, no Electron. It can list remote directories, copy files both ways, open interactiv</summary>
+    <author><name>T. Wrangler</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>authority-auth: Stop Rolling Your Own Auth — A Framework-Agnostic Python Library</title>
@@ -387,60 +438,5 @@
     <summary type="text">Researchers disclosed in August 2026 that encrypted reasoning objects across OpenAI, Anthropic, and Google APIs could be replayed outside their original context. Not just replayed by the same user in a later session. Replayed across users. Replayed into weaker models that had no business decoding a stronger model's internal reasoning at all. The result: hundreds of real secrets pulled out of reaso</summary>
     <author><name>Cor E</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Running SQL Concurrently Across Three Remote DuckDB Servers with Quack</title>
-    <link href="https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/" rel="alternate"/>
-    <id>https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/</id>
-    <updated>2026-08-16T13:00:00Z</updated>
-    <summary type="text">A small experiment in remote SQL execution The post Running SQL Concurrently Across Three Remote DuckDB Servers with Quack appeared first on Towards Data Science.</summary>
-    <author><name>Thomas Reid</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Solve It Once: Kelsey Hightower's Talk Applied to Security Verification</title>
-    <link href="https://dev.to/bala_paranj_059d338e44e7e/solve-it-once-what-kelsey-hightowers-talk-taught-me-about-security-verification-2i0p" rel="alternate"/>
-    <id>https://dev.to/bala_paranj_059d338e44e7e/solve-it-once-what-kelsey-hightowers-talk-taught-me-about-security-verification-2i0p</id>
-    <updated>2026-08-16T12:42:17Z</updated>
-    <summary type="text">✓ Human-authored analysis; AI used for formatting and proofreading. Kelsey Hightower gave a talk at PlatformCon 2026 that was about the arc of a career, from running commands in SharePoint to writing Go tools that play music on your terminal. The stories has an architecture principle that applies to how security verification should work. Solve the problem once, encode the solution as a reusable ar</summary>
-    <author><name>Bala Paranj</name></author>
-  </entry>
-  <entry>
-    <title>How We Got an LLM to Draw Charts Without Ever Touching a Pixel</title>
-    <link href="https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21" rel="alternate"/>
-    <id>https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21</id>
-    <updated>2026-08-16T12:41:39Z</updated>
-    <summary type="text">Let's get something out of the way first. Having data is good. Having a database full of reviews, commits, and org activity sitting there quietly, untouched, unread, never once glanced at by a human being with a coffee and an opinion? That's not &quot;having data.&quot; That's a very expensive data graveyard. At LiveReview, we build what we call a Blast-Radius Aware AI Code Review for Business-Critical Syst</summary>
-    <author><name>Athreya aka Maneshwar</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic shares more details about how Claude’s new watermarks will work</title>
-    <link href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</id>
-    <updated>2026-08-15T18:58:39Z</updated>
-    <summary type="text">How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Build an MCP server in Rust with rmcp: a walk-through 🦀</title>
-    <link href="https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif" rel="alternate"/>
-    <id>https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif</id>
-    <updated>2026-08-16T12:32:56Z</updated>
-    <summary type="text">This tutorial walks through building an MCP server in Rust with rmcp, the official Model Context Protocol Rust SDK. The example is a real one: a devops agent that manages AWS EC2 G5g instances — Graviton2 boxes with NVIDIA T4G GPUs — serving Gemma 4 under vLLM. It launches instances, drives them over SSM, and health-checks the model. There's an existing Python version, so at the end we can put the</summary>
-    <author><name>xbill</name></author>
-    <category term="product-launch"/>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>My First Time Putting an App on AWS (A Beginner's Story)</title>
-    <link href="https://dev.to/xcl1br/my-first-time-putting-an-app-on-aws-a-beginners-story-41d3" rel="alternate"/>
-    <id>https://dev.to/xcl1br/my-first-time-putting-an-app-on-aws-a-beginners-story-41d3</id>
-    <updated>2026-08-16T12:29:39Z</updated>
-    <summary type="text">Today I did something I've wanted to do for a while — I took an app running on my own laptop and put it &quot;live&quot; on the internet using AWS. It sounds scary when you read about it online, but once I actually did it, it was just a bunch of small, simple steps, one after another. This post is me writing down everything I did, in plain, easy words, so that if you're a beginner like me, you can follow al</summary>
-    <author><name>Ashwarya</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
