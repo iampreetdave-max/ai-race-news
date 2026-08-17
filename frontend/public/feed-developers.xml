@@ -4,7 +4,28 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-16T23:23:31Z</updated>
+  <updated>2026-08-17T01:28:17Z</updated>
+  <entry>
+    <title>From API to GPU, Week 5: Tensors, the Data Structure Behind Every Model</title>
+    <link href="https://dev.to/dramasamy/from-api-to-gpu-week-5-tensors-the-data-structure-behind-every-model-18gc" rel="alternate"/>
+    <id>https://dev.to/dramasamy/from-api-to-gpu-week-5-tensors-the-data-structure-behind-every-model-18gc</id>
+    <updated>2026-08-17T01:12:44Z</updated>
+    <summary type="text">Phase 2 of 8: Enough ML to understand inference. Week 5 of 32. Phase 1 was about running models. Phase 2 is about understanding what happens inside them, starting with the one data structure they are all built from: the tensor. This week I stop talking about model files and start touching the actual numbers, in PyTorch, on the GPU. If you write software, a tensor is a typed, multi-dimensional arra</summary>
+    <author><name>Dinesh Kumar Ramasamy</name></author>
+    <category term="hardware"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>AI Agents Yield to Each Other in the &quot;Break Room&quot; — A Month in My DIY Discord Bridge</title>
+    <link href="https://dev.to/ebibibi/ai-agents-yield-to-each-other-in-the-break-room-a-month-in-my-diy-discord-bridge-5gf1" rel="alternate"/>
+    <id>https://dev.to/ebibibi/ai-agents-yield-to-each-other-in-the-break-room-a-month-in-my-diy-discord-bridge-5gf1</id>
+    <updated>2026-08-17T01:02:17Z</updated>
+    <summary type="text">Originally published on my Substack. I'm a Microsoft MVP based in Japan, writing in English about the AI agent systems I actually run in production. 🤖✍️ This article was co-written with AI — the AI agent (Claude Code) generated the draft based on actual collaborative work with Ebisuda, who then reviewed and edited it before publishing. Before starting to write this very article, the session posted</summary>
+    <author><name>Masahiko Ebisuda</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>The pipeline that writes this blog</title>
     <link href="https://dev.to/jonesrussell/the-pipeline-that-writes-this-blog-5h9j" rel="alternate"/>
@@ -435,25 +456,5 @@
     <author><name>jsmanifest</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Run Claude Code for FREE on Your Machine Using OpenRouter</title>
-    <link href="https://dev.to/soham_chavan07/run-claude-code-for-free-on-your-machine-using-openrouter-5d1o" rel="alternate"/>
-    <id>https://dev.to/soham_chavan07/run-claude-code-for-free-on-your-machine-using-openrouter-5d1o</id>
-    <updated>2026-08-15T15:16:26Z</updated>
-    <summary type="text">Tired of paying for Claude Pro just to get powerful AI coding help? I recently set this up and now run top-tier models right in my terminal — completely free on the free tier. Perfect for freelance web developers who want Claude-level intelligence for building projects, debugging, and client work without extra expenses. Quick Setup (takes &lt; 5 minutes) 1. Install Claude Code bash npm install -g @an</summary>
-    <author><name>SOHAM CHAVAN</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cloud bills kept climbing from 24/7 AI development — I moved the decisions and the implementation to my own local LLMs and cut the cost</title>
-    <link href="https://dev.to/uehara/cloud-bills-kept-climbing-from-247-ai-development-i-moved-the-decisions-and-the-implementation-4bc3" rel="alternate"/>
-    <id>https://dev.to/uehara/cloud-bills-kept-climbing-from-247-ai-development-i-moved-the-decisions-and-the-implementation-4bc3</id>
-    <updated>2026-08-15T15:05:26Z</updated>
-    <summary type="text">From late June into July 2026, I rebuilt the execution backbone of my development onto my own local large language models (LLMs). The trigger was cost. The more you hand development over to AI, the more every task-routing decision and every actual code generation gets sent to a cloud AI, each and every time. Run it 24 hours a day without stopping, and that usage-based billing piles up every month,</summary>
-    <author><name>uehara</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-    <category term="hardware"/>
   </entry>
 </feed>
