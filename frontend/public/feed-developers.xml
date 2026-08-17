@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-17T11:30:11Z</updated>
+  <updated>2026-08-17T12:51:40Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -12,6 +12,32 @@
     <updated>2026-08-17T09:06:32Z</updated>
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Unified Secrets Security with GitGuardian and AWS Secrets Manager</title>
+    <link href="https://dev.to/gitguardian/unified-secrets-security-with-gitguardian-and-aws-secrets-manager-416" rel="alternate"/>
+    <id>https://dev.to/gitguardian/unified-secrets-security-with-gitguardian-and-aws-secrets-manager-416</id>
+    <updated>2026-08-17T12:34:45Z</updated>
+    <summary type="text">By: Pierre Le Clezio, Lead Product Manager – GitGuardian; Nic Gumina, Senior Security Consultant – AWS; Manu Chandrasekhar, Senior DevOps Consultant – AWS; Dan Parlin, Security Consultant – AWS This article was originally published at AWS blogs. The rise of AI coding assistants and Model Context Protocol (MCP) servers has accelerated the secret management challenge as developers increasingly share</summary>
+    <author><name>Dwayne McDaniel</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>NuGet Restore Failing with 'Unable to find version' Package? Check Your NuGetToolInstaller Version!</title>
+    <link href="https://dev.to/sui23e879d/nuget-restore-failing-with-unable-to-find-version-package-check-your-nugettoolinstaller-version-2e9l" rel="alternate"/>
+    <id>https://dev.to/sui23e879d/nuget-restore-failing-with-unable-to-find-version-package-check-your-nugettoolinstaller-version-2e9l</id>
+    <updated>2026-08-17T12:34:31Z</updated>
+    <summary type="text">The Problem In one of our Azure DevOps pipelines, nuget restore suddenly started failing with an error stating, in essence, that the requested package could not be found in the referenced version. The task referencing the package hadn't changed — yet the restore stage kept failing. At first glance, this looks like an issue with the package source, some caching effect, or a broken .nuspec/lockfile.</summary>
+    <author><name>S8ui</name></author>
+  </entry>
+  <entry>
+    <title>What Is an MCP Eval? Why Your Server Passes Every Test and Still Fails</title>
+    <link href="https://dev.to/rupa_tiwari_dd308948d710f/what-is-an-mcp-eval-why-your-server-passes-every-test-and-still-fails-41gf" rel="alternate"/>
+    <id>https://dev.to/rupa_tiwari_dd308948d710f/what-is-an-mcp-eval-why-your-server-passes-every-test-and-still-fails-41gf</id>
+    <updated>2026-08-17T12:10:05Z</updated>
+    <summary type="text">📖 TL;DR An MCP eval is a realistic task a model must complete using only your server's tools — not an assertion about one call. A test asks &quot;did the call work?&quot;. An eval asks &quot;could an agent get the right answer?&quot; The signature failure is an answer that is wrong even though every call returned 200. No inspector catches it. There are four useful outcomes: pass, wrong answer, too many calls, and unt</summary>
+    <author><name>Rupa Tiwari</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -427,31 +453,5 @@
     <updated>2026-08-16T01:56:00Z</updated>
     <summary type="text">The programming language that's powering the cloud revolution. Every year, developers ask the same question: &quot;Which programming language should I learn next?&quot; Some people recommend Python. Others suggest JavaScript or Rust. But if your goal is Backend Development, Cloud Engineering, DevOps, Platform Engineering, or Kubernetes, there's one language that stands above the rest: Go (Golang) Created by</summary>
     <author><name>Yash Sonawane</name></author>
-  </entry>
-  <entry>
-    <title>I shipped an MCP server that reported success without signing anything</title>
-    <link href="https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh" rel="alternate"/>
-    <id>https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh</id>
-    <updated>2026-08-16T00:30:27Z</updated>
-    <summary type="text">I built an MCP server that lets an AI assistant trade tokens and claim creator fees on Solana. Then I shipped a version where the two write tools built transactions, discarded them, and returned success. Nothing was ever signed. Nothing was ever submitted. It had 337 tests. All of them passed. I didn't find out for three months. This post is about what that bug taught me, and the design it produce</summary>
-    <author><name>Edy Cu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MCP server configured, but zero tools show up? Here's probably why</title>
-    <link href="https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25" rel="alternate"/>
-    <id>https://dev.to/lajiaojiang/mcp-server-configured-but-zero-tools-show-up-heres-probably-why-5a25</id>
-    <updated>2026-08-16T00:28:53Z</updated>
-    <summary type="text">You add an MCP server to your config. The JSON is valid. The client even says &quot;connected.&quot; And then: zero tools. No error. No hint. The official /doctor says nothing is wrong. If this has happened to you, welcome — the GitHub issues are full of us: MCP servers fail to connect with npx on Windows — 112 comments MCP Servers Don't Work with NVM — 182 reactions Claude Desktop silently drops all tools </summary>
-    <author><name>lajiaojiang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Frontend DevOps: mi mapa de recursos</title>
-    <link href="https://dev.to/aws-builders/frontend-devops-mi-mapa-de-recursos-1fm7" rel="alternate"/>
-    <id>https://dev.to/aws-builders/frontend-devops-mi-mapa-de-recursos-1fm7</id>
-    <updated>2026-08-15T22:53:08Z</updated>
-    <summary type="text">Pasar de Frontend Engineer a DevOps Engineer implica aprender un montón de cosas nuevas: infraestructura, redes, contenedores, CI/CD, y una forma distinta de pensar los sistemas. En este post recopilo los links, cursos y artículos que más me ayudaron durante mi transición, organizados para que no tengas que perder tiempo buscando por tu cuenta como me pasó a mí. Links de recursos 🆓 Gratis 90 Días </summary>
-    <author><name>Laura</name></author>
   </entry>
 </feed>
