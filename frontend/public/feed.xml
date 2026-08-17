@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-17T09:46:42Z</updated>
+  <updated>2026-08-17T10:38:17Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -149,6 +149,83 @@
     <summary type="text">Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.</summary>
     <author><name>Anthony Ha</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Integrity Checks Are Watching the Wrong Layer</title>
+    <link href="https://dev.to/aws-builders/your-integrity-checks-are-watching-the-wrong-layer-31ii" rel="alternate"/>
+    <id>https://dev.to/aws-builders/your-integrity-checks-are-watching-the-wrong-layer-31ii</id>
+    <updated>2026-08-17T10:27:59Z</updated>
+    <summary type="text">Ciao Amici 👋 Quick story before we get into the weeds. Last week I took a patient health record sitting in Amazon S3, a file clearly stamped as regulated under HIPAA, and I changed its security label to &quot;public.&quot; Anything reading that label would now happily treat protected health information as freely shareable. Here is the part that should make you put your coffee down. I never touched the file.</summary>
+    <author><name>Mursal Furqan Kumbhar</name></author>
+  </entry>
+  <entry>
+    <title>Why I don’t want AI agents executing code in someone else’s cloud</title>
+    <link href="https://dev.to/030dev/why-i-dont-want-ai-agents-executing-code-in-someone-elses-cloud-flf" rel="alternate"/>
+    <id>https://dev.to/030dev/why-i-dont-want-ai-agents-executing-code-in-someone-elses-cloud-flf</id>
+    <updated>2026-08-17T10:19:56Z</updated>
+    <summary type="text">AI agents are getting access to increasingly powerful tools. They can execute code, query databases, call APIs, work with files, and potentially interact with production infrastructure. That’s useful, but it also creates a question I kept coming back to: Where should that execution actually happen? A common answer is a hosted sandbox. Send the task somewhere, let the agent execute it in an isolate</summary>
+    <author><name>Nick van Dort</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Virtual threads didn't scale your app. They just moved the crash to your database.</title>
+    <link href="https://dev.to/adioof/virtual-threads-didnt-scale-your-app-they-just-moved-the-crash-to-your-database-p7i" rel="alternate"/>
+    <id>https://dev.to/adioof/virtual-threads-didnt-scale-your-app-they-just-moved-the-crash-to-your-database-p7i</id>
+    <updated>2026-08-17T10:18:35Z</updated>
+    <summary type="text">When Java 21 was released with virtual threads, everyone celebrated, including myself. Then someone's app fell over at 2AM. And the crash wasn't where anyone expected. 😅 The promise everyone heard Project Loom introduced Virtual threads in Java 21, which made it possible to create a large number of threads effortlessly. You also don't need to fine-tune the thread pools on your platform. The concep</summary>
+    <author><name>Aditya Agarwal</name></author>
+  </entry>
+  <entry>
+    <title>Stripe Just Bought OpenRouter for $7B+ — and That Is the Most Important AI Story of the Week</title>
+    <link href="https://dev.to/amrree/stripe-just-bought-openrouter-for-7b-and-that-is-the-most-important-ai-story-of-the-week-4kc9" rel="alternate"/>
+    <id>https://dev.to/amrree/stripe-just-bought-openrouter-for-7b-and-that-is-the-most-important-ai-story-of-the-week-4kc9</id>
+    <updated>2026-08-17T10:18:16Z</updated>
+    <summary type="text">Stripe Just Bought OpenRouter for $7B+ — and That's the Most Important AI Story of the Week On August 16, Bloomberg reported that Stripe has finalized a deal to acquire OpenRouter, the &quot;unified interface for LLMs,&quot; for more than $7 billion. The number is large but the story isn't about the number. The story is that a payments company just bought the routing layer that a large share of AI builders </summary>
+    <author><name>Pixelwitch</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Skills Sprawl: When Too Much of a Good Thing Confuses Your AI Agent</title>
+    <link href="https://dev.to/gde/skills-sprawl-when-too-much-of-a-good-thing-confuses-your-ai-agent-4nij" rel="alternate"/>
+    <id>https://dev.to/gde/skills-sprawl-when-too-much-of-a-good-thing-confuses-your-ai-agent-4nij</id>
+    <updated>2026-08-17T10:13:26Z</updated>
+    <summary type="text">Introduction In this post, we’re going to look at the problem of Skills Sprawl. What happens if you have too many skills? We’ll understand LLM decision fatigue and tool selection accuracy, inspect the mechanics of excluded vs inactive skills in Google Antigravity, and see how pruning your setup can make your agent smarter and save hundreds of thousands of tokens per session. Skills Context (It’s a</summary>
+    <author><name>Darren &quot;Dazbo&quot; Lester</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Recent grad on an AWS backend team — how do I actually get good, fast?</title>
+    <link href="https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8" rel="alternate"/>
+    <id>https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8</id>
+    <updated>2026-08-17T10:07:43Z</updated>
+    <summary type="text">Hey folks 👋 I graduated a few months back and landed my first &quot;real&quot; SWE job, working mostly on AWS backend stuff. Stack so far: Node.js/TypeScript on Lambda, sitting behind API Gateway Postgres + Drizzle ORM Cognito for auth, plus the usual encryption fundamentals (AES-256-GCM, HMAC) Serverless Framework, some SAM/CloudFormation, Docker for local dev I can ship features and I'm not drowning, whic</summary>
+    <author><name>Kumaresan Kanthasamy</name></author>
+  </entry>
+  <entry>
+    <title>I built a system to catch unreliable AI agents. In my own evaluation, it missed the worst one.</title>
+    <link href="https://dev.to/alizahidraja/i-built-a-system-to-catch-unreliable-ai-agents-in-my-own-evaluation-it-missed-the-worst-one-k48" rel="alternate"/>
+    <id>https://dev.to/alizahidraja/i-built-a-system-to-catch-unreliable-ai-agents-in-my-own-evaluation-it-missed-the-worst-one-k48</id>
+    <updated>2026-08-17T10:04:10Z</updated>
+    <summary type="text">My framework exists to identify unreliable transmitters in a multi-agent pipeline. In my own evaluation, the grade-recovery loop missed the highest-fault narrator in the set. The single worst actor. The exact thing the system is for. I put that in the abstract of the paper rather than in an appendix, and this post is about why — plus the two other results I had to label inconclusive, and what I th</summary>
+    <author><name>Ali Zahid Raja</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Recreate the Dropped Config Field Before You Trust the AI Refactor</title>
+    <link href="https://dev.to/codepy_1473/recreate-the-dropped-config-field-before-you-trust-the-ai-refactor-5a02" rel="alternate"/>
+    <id>https://dev.to/codepy_1473/recreate-the-dropped-config-field-before-you-trust-the-ai-refactor-5a02</id>
+    <updated>2026-08-17T10:04:02Z</updated>
+    <summary type="text">Do not trust an AI-generated refactor until the observable output of the patched code matches the contract of the code it replaced. The most dangerous patch is not the one with a glaring syntax error; it is the tiny, plausible change that removes a required field from a data object and still passes your unit tests because the test mocks the only function that would have noticed. Imagine a JavaScri</summary>
+    <author><name>Taylor Wang</name></author>
+  </entry>
+  <entry>
+    <title>From 7MB to 52KB: My WebAssembly Size Optimization Journey</title>
+    <link href="https://dev.to/cdieck88/from-7mb-to-52kb-my-webassembly-size-optimization-journey-3oah" rel="alternate"/>
+    <id>https://dev.to/cdieck88/from-7mb-to-52kb-my-webassembly-size-optimization-journey-3oah</id>
+    <updated>2026-08-17T10:03:38Z</updated>
+    <summary type="text">The problem I built an HTML-to-Markdown converter that runs entirely in the browser via WebAssembly. No server, no uploads. The conversion engine ships as a .wasm binary that every visitor downloads on first load. That means binary size directly impacts time-to-interactive. Over three rewrites I went from 7MB down to 52KB. A 99.3% reduction. Here's what each step taught me. Generation 1: Standard </summary>
+    <author><name>Christoph Dieck</name></author>
   </entry>
   <entry>
     <title>What I decided about model cost before I had users.</title>
@@ -356,84 +433,5 @@
     <summary type="text">In a safety report, Anthropic reveals that its internal filtering system for biological and chemical weapons risks was inactive for nearly a year. During that time, around 50,000 external feedback contractors ran about 133 million unfiltered interactions with the models. The article Anthropic's bio-weapons filter was down for nearly a year, exposing 133 million requests appeared first on The Decod</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Supabase in Vue Made Simple</title>
-    <link href="https://dev.to/jacobandrewsky/supabase-in-vue-made-simple-akk" rel="alternate"/>
-    <id>https://dev.to/jacobandrewsky/supabase-in-vue-made-simple-akk</id>
-    <updated>2026-08-17T06:44:35Z</updated>
-    <summary type="text">Supabase has become one of the most popular choices for building modern web applications. It gives you: PostgreSQL database Authentication Realtime subscriptions Storage Edge Functions TypeScript support The official Supabase JavaScript client already makes it relatively easy to use these features from a Vue application. But integrating Supabase into a Vue application usually means creating a clie</summary>
-    <author><name>Jakub Andrzejewski</name></author>
-  </entry>
-  <entry>
-    <title>Scientists tracked kids for 8 years — the screen time result was unexpected</title>
-    <link href="https://www.sciencedaily.com/releases/2026/08/260815064803.htm" rel="alternate"/>
-    <id>https://www.sciencedaily.com/releases/2026/08/260815064803.htm</id>
-    <updated>2026-08-17T06:41:08Z</updated>
-    <summary type="text">An eight-year Finnish study found that children who spent more time on screens tended to show better cognitive processing as teenagers, challenging common assumptions about screen use. Researchers say the key may be balancing physical activity with screen activities that encourage learning, creativity, and active thinking.</summary>
-    <author><name>ScienceDaily AI</name></author>
-  </entry>
-  <entry>
-    <title>The 7 AI Repositories I Starred This Month</title>
-    <link href="https://dev.to/jaideepparashar/the-7-ai-repositories-i-starred-this-month-4gd7" rel="alternate"/>
-    <id>https://dev.to/jaideepparashar/the-7-ai-repositories-i-starred-this-month-4gd7</id>
-    <updated>2026-08-17T06:31:54Z</updated>
-    <summary type="text">I don't star GitHub repositories just because they are popular. A repository earns a star from me when I can see myself returning to it later. Maybe it solves a real engineering problem. Maybe it introduces a new architecture. Maybe the code teaches me something. Or maybe it represents where AI development is heading. I've been spending a lot of time exploring AI repositories around agents, workfl</summary>
-    <author><name>Jaideep Parashar</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Dog Whisperer</title>
-    <link href="https://dev.to/jatin_rawat_80f388e400d36/dog-whisperer-32nf" rel="alternate"/>
-    <id>https://dev.to/jatin_rawat_80f388e400d36/dog-whisperer-32nf</id>
-    <updated>2026-08-17T06:22:02Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition Dog Whisperer is an app that looks at a photo of your dog, figures out what it's probably feeling, and then actually says it out loud in a voice that matches the mood. Grumpy dog gets a grumpy voice. Dramatically offended dog gets... a dramatically offended voice. You get the idea. It also doubles as a pet log — meals, weight, and walks </summary>
-    <author><name>Jatin Rawat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My security hook silently stopped guarding. The bug was one line of encoding.</title>
-    <link href="https://dev.to/aiq_labs/my-security-hook-silently-stopped-guarding-the-bug-was-one-line-of-encoding-1le8" rel="alternate"/>
-    <id>https://dev.to/aiq_labs/my-security-hook-silently-stopped-guarding-the-bug-was-one-line-of-encoding-1le8</id>
-    <updated>2026-08-17T06:15:30Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview I run a set of local policy guards around an AI coding agent. They are ordinary PreToolUse hooks: before the agent is allowed to perform an action, the proposed tool call is handed to a small Python script as JSON on stdin. The contract is two exit codes. exit 0 → allow exit 2 → block, and send th</summary>
-    <author><name>Ai-Q Labs</name></author>
-  </entry>
-  <entry>
-    <title>Building &quot;112 for Dogs&quot;: How I Combined Gemini AI, Solana, and Voice Agents to Save Strays</title>
-    <link href="https://dev.to/dreainno/building-112-for-dogs-how-i-combined-gemini-ai-solana-and-voice-agents-to-save-strays-1c43" rel="alternate"/>
-    <id>https://dev.to/dreainno/building-112-for-dogs-how-i-combined-gemini-ai-solana-and-voice-agents-to-save-strays-1c43</id>
-    <updated>2026-08-17T06:13:02Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Dog Days Edition What I Built PawID &amp; Care is an enterprise-grade, multi-role emergency response and biometric identification platform built for community animal welfare and stray management. Operating as a &quot;112-for-dogs&quot; system, the platform bridges cutting-edge artificial intelligence, distributed ledgers, enterprise analytics, and autonomous voice age</summary>
-    <author><name>Mayuresh Pandit</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Is UI Overdraw Killing Your WebGL Performance?</title>
-    <link href="https://dev.to/alok_krishali/is-ui-overdraw-killing-your-webgl-performance-2o92" rel="alternate"/>
-    <id>https://dev.to/alok_krishali/is-ui-overdraw-killing-your-webgl-performance-2o92</id>
-    <updated>2026-08-17T06:12:05Z</updated>
-    <summary type="text">Why Is Overdraw Particularly Important in WebGL? When optimizing a Unity WebGL application, developers often focus on polygon count, draw calls, texture size, and shader complexity. But there is another performance problem that can quietly become expensive: UI overdraw. A UI may look simple to the player while the GPU is actually rendering the same pixels several times. A typical game interface mi</summary>
-    <author><name>Alok Krishali</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Building a Trading Bot Is Easy. Building a Testable Trading System Is Hard.</title>
-    <link href="https://dev.to/std0/building-a-trading-bot-is-easy-building-a-testable-trading-system-is-hard-4kf7" rel="alternate"/>
-    <id>https://dev.to/std0/building-a-trading-bot-is-easy-building-a-testable-trading-system-is-hard-4kf7</id>
-    <updated>2026-08-17T06:07:33Z</updated>
-    <summary type="text">When building a Polymarket bot, the first version can be surprisingly small: market data ↓ strategy ↓ order That's enough to demonstrate an idea. It isn't enough to prove that the idea works. Once you care about realistic execution, the architecture becomes more interesting. Market Data ↓ Data Validation ↓ Signal Engine ↓ Risk Engine ↓ Execution Engine ↓ Trade Events ↓ Analytics This separation is</summary>
-    <author><name>guskarls</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Running Android VMs on ARM: Rebuilding the Minisforum MS-R1 Kernel for Cuttlefish</title>
-    <link href="https://dev.to/biozal/running-android-vms-on-arm-rebuilding-the-minisforum-ms-r1-kernel-for-cuttlefish-52a1" rel="alternate"/>
-    <id>https://dev.to/biozal/running-android-vms-on-arm-rebuilding-the-minisforum-ms-r1-kernel-for-cuttlefish-52a1</id>
-    <updated>2026-08-17T06:06:10Z</updated>
-    <summary type="text">Part 1 of 2. This part covers getting a kernel that can actually host virtual machines. Why bother I wanted a box that could run a dozen Android instances at once — real ones, not emulated-on-x86 ones — to benchmark peer-to-peer sync behaviour at scale. Native arm64 Android on native arm64 silicon, no translation layer, enough cores and RAM to make the peer count interesting. The Minisforum MS-R1 </summary>
-    <author><name>Aaron LaBeau</name></author>
   </entry>
 </feed>

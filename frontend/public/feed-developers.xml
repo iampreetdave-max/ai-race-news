@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-17T09:46:42Z</updated>
+  <updated>2026-08-17T10:38:17Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -13,6 +13,32 @@
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Virtual threads didn't scale your app. They just moved the crash to your database.</title>
+    <link href="https://dev.to/adioof/virtual-threads-didnt-scale-your-app-they-just-moved-the-crash-to-your-database-p7i" rel="alternate"/>
+    <id>https://dev.to/adioof/virtual-threads-didnt-scale-your-app-they-just-moved-the-crash-to-your-database-p7i</id>
+    <updated>2026-08-17T10:18:35Z</updated>
+    <summary type="text">When Java 21 was released with virtual threads, everyone celebrated, including myself. Then someone's app fell over at 2AM. And the crash wasn't where anyone expected. 😅 The promise everyone heard Project Loom introduced Virtual threads in Java 21, which made it possible to create a large number of threads effortlessly. You also don't need to fine-tune the thread pools on your platform. The concep</summary>
+    <author><name>Aditya Agarwal</name></author>
+  </entry>
+  <entry>
+    <title>Stripe Just Bought OpenRouter for $7B+ — and That Is the Most Important AI Story of the Week</title>
+    <link href="https://dev.to/amrree/stripe-just-bought-openrouter-for-7b-and-that-is-the-most-important-ai-story-of-the-week-4kc9" rel="alternate"/>
+    <id>https://dev.to/amrree/stripe-just-bought-openrouter-for-7b-and-that-is-the-most-important-ai-story-of-the-week-4kc9</id>
+    <updated>2026-08-17T10:18:16Z</updated>
+    <summary type="text">Stripe Just Bought OpenRouter for $7B+ — and That's the Most Important AI Story of the Week On August 16, Bloomberg reported that Stripe has finalized a deal to acquire OpenRouter, the &quot;unified interface for LLMs,&quot; for more than $7 billion. The number is large but the story isn't about the number. The story is that a payments company just bought the routing layer that a large share of AI builders </summary>
+    <author><name>Pixelwitch</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Recent grad on an AWS backend team — how do I actually get good, fast?</title>
+    <link href="https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8" rel="alternate"/>
+    <id>https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8</id>
+    <updated>2026-08-17T10:07:43Z</updated>
+    <summary type="text">Hey folks 👋 I graduated a few months back and landed my first &quot;real&quot; SWE job, working mostly on AWS backend stuff. Stack so far: Node.js/TypeScript on Lambda, sitting behind API Gateway Postgres + Drizzle ORM Cognito for auth, plus the usual encryption fundamentals (AES-256-GCM, HMAC) Serverless Framework, some SAM/CloudFormation, Docker for local dev I can ship features and I'm not drowning, whic</summary>
+    <author><name>Kumaresan Kanthasamy</name></author>
   </entry>
   <entry>
     <title>Playwright Automation Quick-Start Runbook: Setup, Execution, and Environment Config</title>
@@ -427,35 +453,6 @@
     <updated>2026-08-15T22:46:33Z</updated>
     <summary type="text">ContextMemory v0.1.0-beta is out. Agent memory you can open like a wiki — not a vector black box, not classic RAG inject. Release notes ﻿## 0.1.0-beta (2026-08-15) Features add Cursor-style HTTP, vision, browser, PDF, and canvas agent tools. (0d322c2) derive LLM protocol capabilities from prompt profiles. (bd159ad) expand agentic guardrail catalog with enable/disable kinds (4fabaec) expose LLM gen</summary>
     <author><name>vitor castro</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Ran 50 Emails Through AI Agents. 12 SMTP Bounces Hit.</title>
-    <link href="https://dev.to/onizuka/i-ran-50-emails-through-ai-agents-12-smtp-bounces-hit-4jc" rel="alternate"/>
-    <id>https://dev.to/onizuka/i-ran-50-emails-through-ai-agents-12-smtp-bounces-hit-4jc</id>
-    <updated>2026-08-15T22:14:47Z</updated>
-    <summary type="text">ai, #api, #security, #sideprojects The 50-email experiment On August 12, I handed an AI agent a CSV of fifty email addresses and an SMTP tool. Thirty-eight minutes later, twelve of them had bounced. I wasn't trying to break anything. I was testing whether a local agent could handle a simple outreach task end-to-end: read a list, draft a short note, send it. The model I used was Muse Glimmer, Meta'</summary>
-    <author><name>Onizuka</name></author>
-    <category term="agents"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>🍬 Candy Logger v2.1.0 - The Correctness Release</title>
-    <link href="https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn" rel="alternate"/>
-    <id>https://dev.to/shehari007/candy-logger-v210-the-correctness-release-kbn</id>
-    <updated>2026-08-15T21:06:00Z</updated>
-    <summary type="text">Candy Logger v2.1.0 is now available. This release focuses on making Candy Logger correct, secure, reliable, and production-ready. Version 2.1.0 improves serialization, security, console interception, persistence, UI behavior, accessibility, mobile support, and the underlying architecture. It also introduces a cleaner core API that allows Candy Logger to be used without rendering the UI. GitHub Re</summary>
-    <author><name>Muhammad Sheharyar Butt</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>How I Built a Multi-Agent MLOps Control Center with Google TabFM, Gemma 2B &amp; EU AI Act Cryptographic Attestations</title>
-    <link href="https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7" rel="alternate"/>
-    <id>https://dev.to/gervais_marie/how-i-built-a-multi-agent-mlops-control-center-with-google-tabfm-gemma-2b-eu-ai-act-38c7</id>
-    <updated>2026-08-15T20:51:56Z</updated>
-    <summary type="text">⚠️ This article was written as part of my submission for the Google Cloud #AllThingsAgenticHackathon. Note: The application is currently in its validation phase, running locally on Streamlit and tested end-to-end. It is designed to be fully deployable to Google Cloud Run and BigQuery. The Problem That Started Everything Picture this: a telecom company hands you a CSV file with 915 clients. You ope</summary>
-    <author><name>Gervais Marie</name></author>
-    <category term="regulation"/>
     <category term="agents"/>
   </entry>
 </feed>
