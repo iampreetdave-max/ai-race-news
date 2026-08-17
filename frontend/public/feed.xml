@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-17T04:47:28Z</updated>
+  <updated>2026-08-17T05:38:11Z</updated>
   <entry>
     <title>Alibaba to Sell Gaming Arm for $1.5 Billion in Boost to AI Pivot</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot" rel="alternate"/>
@@ -103,12 +103,75 @@
     <category term="regulation"/>
   </entry>
   <entry>
+    <title>Why Walk When You Can SKI: Ditching the Type-Wait-Check Loop for Voice Coding</title>
+    <link href="https://dev.to/julie_elis_01325f/why-walk-when-you-can-ski-ditching-the-type-wait-check-loop-for-voice-coding-31b3" rel="alternate"/>
+    <id>https://dev.to/julie_elis_01325f/why-walk-when-you-can-ski-ditching-the-type-wait-check-loop-for-voice-coding-31b3</id>
+    <updated>2026-08-17T05:25:20Z</updated>
+    <summary type="text">Typing a prompt to an AI coding agent is a lot like walking: controlled, deliberate, one careful step at a time. You form the whole thought in your head, then convert it into keystrokes one clause at a time, checking yourself along the way. It works. It gets you there. It's also not how the thought showed up in your head in the first place, you already had the sentence, whole, before your fingers </summary>
+    <author><name>Julie Elis</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Bad Prompt Will Waste Your Free Model Calls. Lint the Contract First.</title>
+    <link href="https://dev.to/gitlab_3188/a-bad-prompt-will-waste-your-free-model-calls-lint-the-contract-first-16ln" rel="alternate"/>
+    <id>https://dev.to/gitlab_3188/a-bad-prompt-will-waste-your-free-model-calls-lint-the-contract-first-16ln</id>
+    <updated>2026-08-17T05:10:36Z</updated>
+    <summary type="text">Last Tuesday, my pipeline called a free model three times on the same commit. The output looked confident every time. It was wrong every time. The model did not fail. My prompt did. I almost blamed the model. Then I looked at the job log. The same ambiguous instruction went out again and again. Every retry was a fresh token budget hit on the same mistake. That made me ask a simple question: why wa</summary>
+    <author><name>Jordan Huang</name></author>
+  </entry>
+  <entry>
+    <title>Spring proxies: JDK dynamic vs CGLIB</title>
+    <link href="https://dev.to/ankit_verma_e2fa7fb2aa95d/spring-proxies-jdk-dynamic-vs-cglib-1fg1" rel="alternate"/>
+    <id>https://dev.to/ankit_verma_e2fa7fb2aa95d/spring-proxies-jdk-dynamic-vs-cglib-1fg1</id>
+    <updated>2026-08-17T05:08:46Z</updated>
+    <summary type="text">You put @Transactional on a method and a database transaction opens before it runs and commits when it returns — yet you never wrote a line to start or end one. You add @Cacheable, and the second call with the same arguments skips your method body entirely. You didn't touch the code inside those methods. So where does the extra behaviour actually run? It runs inside a proxy: a stand-in object that</summary>
+    <author><name>Ankit Verma</name></author>
+  </entry>
+  <entry>
+    <title>Using PixelRAG with Claude Code (August 2026) — Visual RAG for Documents with Tables and Diagrams</title>
+    <link href="https://dev.to/_02121fbe984480fd65fc/using-pixelrag-with-claude-code-august-2026-visual-rag-for-documents-with-tables-and-diagrams-82c" rel="alternate"/>
+    <id>https://dev.to/_02121fbe984480fd65fc/using-pixelrag-with-claude-code-august-2026-visual-rag-for-documents-with-tables-and-diagrams-82c</id>
+    <updated>2026-08-17T05:01:56Z</updated>
+    <summary type="text">PixelRAG is a visual RAG tool that treats web pages, PDFs, and images as screenshots rather than text — preserving the layout of tables and charts so you can search and reference them as-is. This post covers installing it as a plugin, actual usage, how it differs from traditional text-based RAG, and the gotchas you're likely to hit — all from a Claude Code user's perspective. What you'll get out o</summary>
+    <author><name>GridPort</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Model-Generated GitHub Actions Need a Permission Gate</title>
+    <link href="https://dev.to/hackrs_6393/model-generated-github-actions-need-a-permission-gate-5570" rel="alternate"/>
+    <id>https://dev.to/hackrs_6393/model-generated-github-actions-need-a-permission-gate-5570</id>
+    <updated>2026-08-17T05:00:47Z</updated>
+    <summary type="text">A model can write a valid GitHub Actions workflow that still leaks a secret. Lint the syntax, then gate the permissions. The failure mode Most checks on model-generated YAML stop at syntax. A workflow can parse cleanly, pass actionlint, and still: request id-token: write or contents: write read repository secrets in an unexpected step add a job that pushes to the default branch run on pull_request</summary>
+    <author><name>Dakota Huang</name></author>
+  </entry>
+  <entry>
     <title>One in five US workers now delegates tasks to AI instead of colleagues, survey finds</title>
     <link href="https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/" rel="alternate"/>
     <id>https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/</id>
     <updated>2026-08-16T05:00:00Z</updated>
     <summary type="text">A representative survey by Epoch AI found that 20 percent of employed Americans hand off at least one task to AI that a human used to do. Generally, they accept AI output with little to no editing. The article One in five US workers now delegates tasks to AI instead of colleagues, survey finds appeared first on The Decoder.</summary>
     <author><name>Tomislav Bezmalinović</name></author>
+  </entry>
+  <entry>
+    <title>Your Cron Job Exits 0 and Does Nothing: Reading Chrome's Cookie SQLite to Know If a Session Is Actually Alive</title>
+    <link href="https://dev.to/bokuwalily/your-cron-job-exits-0-and-does-nothing-reading-chromes-cookie-sqlite-to-know-if-a-session-is-3c55" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/your-cron-job-exits-0-and-does-nothing-reading-chromes-cookie-sqlite-to-know-if-a-session-is-3c55</id>
+    <updated>2026-08-17T05:00:06Z</updated>
+    <summary type="text">An automation job can fail for days without making a single sound. Mine did: one Instagram lane ran twelve times a day, logged &quot;done&quot; every time, raised zero errors — and liked exactly nothing. This post is about that failure mode and how I fixed the detection, in a series where I share the holes I've actually fallen into while mass-producing personal projects. I went from ¥100k/month as a univers</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>This week in AI + Indian markets: a safety pause, a price war, and a pullback that isn't what it looks like</title>
+    <link href="https://dev.to/abhishek_sharma_a9792aee8/this-week-in-ai-indian-markets-a-safety-pause-a-price-war-and-a-pullback-that-isnt-what-it-3p57" rel="alternate"/>
+    <id>https://dev.to/abhishek_sharma_a9792aee8/this-week-in-ai-indian-markets-a-safety-pause-a-price-war-and-a-pullback-that-isnt-what-it-3p57</id>
+    <updated>2026-08-17T05:00:06Z</updated>
+    <summary type="text">Three stories from the past week worth more than a scroll-past — one about how close AI safety came to a real test, one about what's happening to the economics of building with AI, and one about what's actually driving the Nifty right now. 1. OpenAI paused a model — not for what it said, but for what it could do OpenAI halted internal work on its unreleased &quot;Astra&quot; model after internal testing fou</summary>
+    <author><name>Abhishek Sharma</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="regulation"/>
   </entry>
   <entry>
     <title>PawSpective: See the World Closer to How Your Dog Sees It</title>
@@ -386,64 +449,5 @@
     <updated>2026-08-16T23:01:05Z</updated>
     <summary type="text">Most beginner recommendation projects are a dictionary lookup. You type &quot;comedy&quot;, it returns the comedy list. That works, and it is also the reason those projects are forgettable: a dictionary can tell you what is similar, but it can never tell you what is interestingly different. I wanted the second thing. So I modelled the catalogue as a weighted graph instead, and ended up finding a kind of sim</summary>
     <author><name>mbadr3227-sys</name></author>
-  </entry>
-  <entry>
-    <title>Shipping Assumptions: A Reliability Stack for AI-Generated Code</title>
-    <link href="https://dev.to/copyleftdev/shipping-assumptions-a-reliability-stack-for-ai-generated-code-3p9f" rel="alternate"/>
-    <id>https://dev.to/copyleftdev/shipping-assumptions-a-reliability-stack-for-ai-generated-code-3p9f</id>
-    <updated>2026-08-16T22:56:25Z</updated>
-    <summary type="text">The code looked good. It linted cleanly. The shallow tests passed. Everyone felt—vibed—that we had built the right thing. Then the edge case appeared in production. The developer treated it as normal operating procedure: bugs happen, tickets arrive, patches ship. QA was asked why they had not caught it. But QA never received a model of the system—only an implementation full of assumptions they wer</summary>
-    <author><name>Don Johnson</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Designing an Honest “Unlimited” Generative AI Product: Credits, Queues, and Fair Use</title>
-    <link href="https://dev.to/abrahamaragon91/designing-an-honest-unlimited-generative-ai-product-credits-queues-and-fair-use-15li" rel="alternate"/>
-    <id>https://dev.to/abrahamaragon91/designing-an-honest-unlimited-generative-ai-product-credits-queues-and-fair-use-15li</id>
-    <updated>2026-08-16T22:50:54Z</updated>
-    <summary type="text">Disclosure: I am building Donatello.studio. This article describes the product and systems principles behind our access model; it is not an independent review. Generative AI products have an uncomfortable cost structure. A text request may be inexpensive, while a long video or a complete song can consume orders of magnitude more compute. Yet users reasonably want a simple promise: they should be a</summary>
-    <author><name>Abraham Aragón</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Why I'm Building an Engineering Publishing Platform</title>
-    <link href="https://dev.to/mgmaster24/why-im-building-an-engineering-publishing-platform-2mj3" rel="alternate"/>
-    <id>https://dev.to/mgmaster24/why-im-building-an-engineering-publishing-platform-2mj3</id>
-    <updated>2026-08-16T22:45:49Z</updated>
-    <summary type="text">Over the past several months, I've made a commitment to write more. Not because I want to become a content creator, but because I've come to appreciate how much engineering knowledge quietly disappears every day. Architecture discussions end when the meeting is over. Production incidents become stories that fade with time. Lessons learned on one project rarely make it to the next. As engineers, we</summary>
-    <author><name>Michael Masterson</name></author>
-  </entry>
-  <entry>
-    <title>You can't trust assembly an AI wrote. Here's the 3-command gate.</title>
-    <link href="https://dev.to/trothbyte/you-cant-trust-assembly-an-ai-wrote-heres-the-3-command-gate-4ige" rel="alternate"/>
-    <id>https://dev.to/trothbyte/you-cant-trust-assembly-an-ai-wrote-heres-the-3-command-gate-4ige</id>
-    <updated>2026-08-16T22:29:09Z</updated>
-    <summary type="text">✨ Disclosure: this tutorial was drafted with AI assistance. Every technical claim is verified and source-traced in the linked repository. AI assistants are confident about assembly — and wrong in specific, repeatable ways. They invent mnemonics that do not exist, flip AT&amp;T/Intel operand order, silently drop immediates, and misread bytes. When we audited real incidents, the failures shared a signat</summary>
-    <author><name>TrothByte</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>We catalogued 55+ AI-agent failures in low-level code — and shipped 124 verified skills to fix them</title>
-    <link href="https://dev.to/trothbyte/we-catalogued-55-ai-agent-failures-in-low-level-code-and-shipped-124-verified-skills-to-fix-them-369l" rel="alternate"/>
-    <id>https://dev.to/trothbyte/we-catalogued-55-ai-agent-failures-in-low-level-code-and-shipped-124-verified-skills-to-fix-them-369l</id>
-    <updated>2026-08-16T22:26:06Z</updated>
-    <summary type="text">✨ Disclosure: this article was drafted with AI assistance. Every technical claim in it is source-traced in the linked repository (registry/claims.yaml, 177 primary sources). The failure classes below come from real, documented incidents — not vibes. AI coding agents are excellent at boilerplate and unreliable at low-level code — and the failures are not random. They cluster into predictable classe</summary>
-    <author><name>TrothByte</name></author>
-  </entry>
-  <entry>
-    <title>So, I Vibe Coded A Way Out, Again.</title>
-    <link href="https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb" rel="alternate"/>
-    <id>https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb</id>
-    <updated>2026-08-16T22:18:46Z</updated>
-    <summary type="text">A while ago I wrote an article asking When Is 100% Vibe Coding OK?. My conclusion was that it works when the human already owns the invariants. If you know the problem is solvable, understand the constraints, and have a reliable way to verify the output, AI can be a fantastic accelerator. Apparently I decided to test that theory again. This time with my banking app. If you are savvy enough in the </summary>
-    <author><name>Viorel PETCU</name></author>
-  </entry>
-  <entry>
-    <title>PawPal is your New Dog's AI Sidekick 🐶⭐</title>
-    <link href="https://dev.to/ishikathakur7802/pawpal-is-your-new-dogs-ai-sidekick-3bc8" rel="alternate"/>
-    <id>https://dev.to/ishikathakur7802/pawpal-is-your-new-dogs-ai-sidekick-3bc8</id>
-    <updated>2026-08-16T22:13:40Z</updated>
-    <summary type="text">What I Built Bringing a new dog home is exciting... and also confusing. Why are they crying? Why are they hiding? Why won't they eat? Why are they biting my feet? 😭 I built PawPal, a playful AI companion for new dog owners that helps turn those confusing moments into simple, reassuring guidance. I especially wanted PawPal to feel useful for people welcoming a rescued dog into their home, where a n</summary>
-    <author><name>Ishika Thakur</name></author>
   </entry>
 </feed>
