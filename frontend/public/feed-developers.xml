@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-17T12:51:40Z</updated>
+  <updated>2026-08-17T13:42:11Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -12,6 +12,15 @@
     <updated>2026-08-17T09:06:32Z</updated>
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code Silently Deleted a User's Entire Agent-Config Directory — Twice</title>
+    <link href="https://dev.to/ramdai_bista/claude-code-silently-deleted-a-users-entire-agent-config-directory-twice-2fni" rel="alternate"/>
+    <id>https://dev.to/ramdai_bista/claude-code-silently-deleted-a-users-entire-agent-config-directory-twice-2fni</id>
+    <updated>2026-08-17T13:26:58Z</updated>
+    <summary type="text">No delete command. No confirmation prompt. No user action of any kind in between. A Claude Code user's ~/.claude/agents/ directory was silently emptied by the tool's own background process — and it happened twice. What happened Filed as GitHub issue #41415, the report comes from a user who kept ~/.claude/agents/ as a symlink into a version-controlled dotfiles repository — a common pattern for anyo</summary>
+    <author><name>Ramdai Bista</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -445,13 +454,5 @@
     <updated>2026-08-16T02:35:21Z</updated>
     <summary type="text">The Problem When you add MCP servers to your AI coding agent, each one dumps its full JSON schema into context. 255 tools across all servers = 39,964 tokens. On a 128K context window, that's 31% gone before you type a single character. I was literally paying for JSON syntax overhead. Every API call included {&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;...&quot;}]} — 80 tokens to deliver 6 tokens of data. The Sol</summary>
     <author><name>MCP Token Saver</name></author>
-  </entry>
-  <entry>
-    <title>10 Reasons Every Developer Should Learn Go (Golang) in 2026 🚀</title>
-    <link href="https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc" rel="alternate"/>
-    <id>https://dev.to/yash_sonawane25/10-reasons-every-developer-should-learn-go-golang-in-2026-1gpc</id>
-    <updated>2026-08-16T01:56:00Z</updated>
-    <summary type="text">The programming language that's powering the cloud revolution. Every year, developers ask the same question: &quot;Which programming language should I learn next?&quot; Some people recommend Python. Others suggest JavaScript or Rust. But if your goal is Backend Development, Cloud Engineering, DevOps, Platform Engineering, or Kubernetes, there's one language that stands above the rest: Go (Golang) Created by</summary>
-    <author><name>Yash Sonawane</name></author>
   </entry>
 </feed>
