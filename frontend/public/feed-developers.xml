@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-18T12:53:19Z</updated>
+  <updated>2026-08-18T13:48:18Z</updated>
   <entry>
     <title>Claude Code gets a /design command that lets developers create UI mockups right in the terminal</title>
     <link href="https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/" rel="alternate"/>
@@ -12,6 +12,70 @@
     <updated>2026-08-18T10:06:16Z</updated>
     <summary type="text">With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design command that lets developers create UI mockups right in the terminal appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Microsoft Copilot reveals secret input that allowed it to be hacked</title>
+    <link href="https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/" rel="alternate"/>
+    <id>https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/</id>
+    <updated>2026-08-18T13:00:04Z</updated>
+    <summary type="text">Secret parameter allowed hackers to steal passwords when a target clicked on a link.</summary>
+    <author><name>Dan Goodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Read-Only Kubernetes Access for AI Agents: Why &quot;Please Don't Delete Anything&quot; Isn't a Security Boundary</title>
+    <link href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem" rel="alternate"/>
+    <id>https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem</id>
+    <updated>2026-08-18T13:36:09Z</updated>
+    <summary type="text">I keep seeing the same pattern: take an LLM, give it access to kubectl or the k8s API, write something like &quot;you can only read, don't delete or modify anything&quot; in the system prompt or an attached skill, and consider the problem solved. I went through this myself and at some point realized that this isn't a security boundary — it's a polite request. This isn't a hypothetical risk: you probably rem</summary>
+    <author><name>Alex Gorshkov</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>My Uptime Monitor Was Set to Every 5 Minutes. In July It Ran 15 Times a Day.</title>
+    <link href="https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8" rel="alternate"/>
+    <id>https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8</id>
+    <updated>2026-08-18T13:30:20Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. 🔨 #bugsmash, week by week: a 390% CPU hour nobody noticed, a state machine with no exit, a backup that leaked 156 GB, a monitor that caught its own lies. Week five: the monitor that was quietly not running at all. I had not opened the TextStack repo properly in a while. I have been working through Claude Code for wee</summary>
+    <author><name>Vasyl</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kimi K2 API Integration: A No-Fluff Getting Started</title>
+    <link href="https://dev.to/zhangjj1988/kimi-k2-api-integration-a-no-fluff-getting-started-5361" rel="alternate"/>
+    <id>https://dev.to/zhangjj1988/kimi-k2-api-integration-a-no-fluff-getting-started-5361</id>
+    <updated>2026-08-18T13:30:00Z</updated>
+    <summary type="text">Kimi K2 API Integration: A No-Fluff Getting Started Kimi K2 is Moonshot AI's flagship Mixture-of-Experts model, and the first thing developers notice is what it can see. Unlike text-only models, K2 takes images natively through the same chat-completions interface you already know — an image_url array inside the message content is all it takes. If your workload involves long-document QA, screenshot</summary>
+    <author><name>zhangjj1988</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>One MCP server, eight AI clients: Apple Health setup that works everywhere</title>
+    <link href="https://dev.to/philipad/one-mcp-server-eight-ai-clients-apple-health-setup-that-works-everywhere-4lcp" rel="alternate"/>
+    <id>https://dev.to/philipad/one-mcp-server-eight-ai-clients-apple-health-setup-that-works-everywhere-4lcp</id>
+    <updated>2026-08-18T13:25:01Z</updated>
+    <summary type="text">Most Apple Health MCP guides are per-client. Claude today, Cursor tomorrow, ChatGPT next week. That's the wrong abstraction. MCP is a protocol. The server command is identical across every client. Only the config file path and JSON shape change. What the server exposes Eight read-only tools, all local: Tool What it returns get_mcp_status Health check: data source, metric count, most recent data da</summary>
+    <author><name>Philip D'Souza</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cursor skills: what they are and how to use them</title>
+    <link href="https://dev.to/skillsboard/cursor-skills-what-they-are-and-how-to-use-them-2d4i" rel="alternate"/>
+    <id>https://dev.to/skillsboard/cursor-skills-what-they-are-and-how-to-use-them-2d4i</id>
+    <updated>2026-08-18T13:19:35Z</updated>
+    <summary type="text">Publisher: Skills Board. Published August 15, 2026. Last checked August 15, 2026. Cursor skills are folders of instructions that Cursor's agent loads when a task matches what the folder is for. Each holds a SKILL.md file and, optionally, the scripts, references, and assets the task needs. Cursor's own documentation opens by calling Agent Skills an open standard for extending AI agents, not a Curso</summary>
+    <author><name>Tommaso</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>公司內部自架 Claude Code Marketplace，讓團隊共用 skill</title>
+    <link href="https://dev.to/letswrite/gong-si-nei-bu-zi-jia-claude-code-marketplacerang-tuan-dui-gong-yong-skill-2fg3" rel="alternate"/>
+    <id>https://dev.to/letswrite/gong-si-nei-bu-zi-jia-claude-code-marketplacerang-tuan-dui-gong-yong-skill-2fg3</id>
+    <updated>2026-08-18T13:18:47Z</updated>
+    <summary type="text">本篇要解決的問題 有些 skill 只適合在公司內部使用，而這個 skill 又想讓其他同事能一起使用的話，就需要一個可以讓大家方便安裝、更新的平台。 本篇主要筆記，用自架的 Gitea 建立一個內部專用的 Claude Code plugin marketplace，讓團隊裡每個人寫的 skill 不再各自散落在自己電腦裡，而是能集中在一個地方統一發布、安裝、更新版本。 其他同事只要裝一次就能共用、之後改版也能一起同步拿到最新版。 這篇整理實作過程中每一個能正確跑通的步驟，讓大家避免在這過程中踩到的坑。 可用 GitHub、GitLab、Gitea，主要是專案可以有版控就行。 本篇示範的是在自架的 Gitea 上實作。 建立 marketplace 專案結構 Gitea 上新建一個 repo（例如 claude-plugins），本機目錄結構： claude-plugins/ ├── .</summary>
+    <author><name>Let's Write</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -384,66 +448,5 @@
     <author><name>Pixelwitch</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Recent grad on an AWS backend team — how do I actually get good, fast?</title>
-    <link href="https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8" rel="alternate"/>
-    <id>https://dev.to/kumaresan02/recent-grad-on-an-aws-backend-team-how-do-i-actually-get-good-fast-3ak8</id>
-    <updated>2026-08-17T10:07:43Z</updated>
-    <summary type="text">Hey folks 👋 I graduated a few months back and landed my first &quot;real&quot; SWE job, working mostly on AWS backend stuff. Stack so far: Node.js/TypeScript on Lambda, sitting behind API Gateway Postgres + Drizzle ORM Cognito for auth, plus the usual encryption fundamentals (AES-256-GCM, HMAC) Serverless Framework, some SAM/CloudFormation, Docker for local dev I can ship features and I'm not drowning, whic</summary>
-    <author><name>Kumaresan Kanthasamy</name></author>
-  </entry>
-  <entry>
-    <title>Playwright Automation Quick-Start Runbook: Setup, Execution, and Environment Config</title>
-    <link href="https://dev.to/shell_qa/playwright-automation-quick-start-runbook-setup-execution-and-environment-config-3ndm" rel="alternate"/>
-    <id>https://dev.to/shell_qa/playwright-automation-quick-start-runbook-setup-execution-and-environment-config-3ndm</id>
-    <updated>2026-08-17T09:34:53Z</updated>
-    <summary type="text">Having a clear runbook speeds up onboarding for new team members and provides a standardized execution reference for CI/CD environments. Here is a quick-start automation runbook covering prerequisites, environment variables, execution commands, and output artifacts for a Playwright test suite. Prerequisites Node.js: 24.x (configured via package.json engines) Package Manager: npm Optional: Docker (</summary>
-    <author><name>Shell QA</name></author>
-  </entry>
-  <entry>
-    <title>Qwen 3.8 27B: Why This Powerful Model Can't Stop Overthinking (and How to Fix It)</title>
-    <link href="https://dev.to/kaixintelligence/qwen-38-27b-why-this-powerful-model-cant-stop-overthinking-and-how-to-fix-it-5dh6" rel="alternate"/>
-    <id>https://dev.to/kaixintelligence/qwen-38-27b-why-this-powerful-model-cant-stop-overthinking-and-how-to-fix-it-5dh6</id>
-    <updated>2026-08-17T08:34:13Z</updated>
-    <summary type="text">Qwen 3.8 27B: Why This Powerful Model Can't Stop Overthinking (and How to Fix It) If you've spent any time on Hacker News in late 2026, you've probably seen the meme: someone asks Qwen 3.8 27B for the capital of France, and the model responds with a 1,500-token dissertation on European geography before reluctantly getting to Paris. The trend is real, and it has become one of the most talked-about </summary>
-    <author><name>Kai X Intelligence</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>GitHub Copilot Agent Plugins 1.0 Goes GA — A Real Plugin System, Not Just a Roadmap Promise</title>
-    <link href="https://dev.to/alvarito1983/github-copilot-agent-plugins-10-goes-ga-a-real-plugin-system-not-just-a-roadmap-promise-4hck" rel="alternate"/>
-    <id>https://dev.to/alvarito1983/github-copilot-agent-plugins-10-goes-ga-a-real-plugin-system-not-just-a-roadmap-promise-4hck</id>
-    <updated>2026-08-17T08:27:25Z</updated>
-    <summary type="text">On August 12, GitHub confirmed general availability for Agent Plugins 1.0, an extensibility system for Copilot's agent mode that had been in preview for a few weeks (the first note dates back to August 6). This isn't a single-client feature: the same plugin system works across VS Code, the Copilot CLI, the SDK, and the Copilot app itself, and it's available from day one on every paid subscription </summary>
-    <author><name>Alvarito1983</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The pipeline was green. The product was underspecified</title>
-    <link href="https://dev.to/michaeltruong/the-pipeline-was-green-the-product-was-underspecified-1fnj" rel="alternate"/>
-    <id>https://dev.to/michaeltruong/the-pipeline-was-green-the-product-was-underspecified-1fnj</id>
-    <updated>2026-08-17T08:23:00Z</updated>
-    <summary type="text">The checks all passed. I still would not have sent the resume. I had been using a Cursor agent to implement a private facts → prose resume generator. Structured career claims in, recruiter-facing PDFs out. Generation, rendering, and ATS checks all stayed green. The PDFs looked plausible. I treated that as enough. Several product requirements were still wrong. What implementation QA was checking Th</summary>
-    <author><name>Michael Truong</name></author>
-  </entry>
-  <entry>
-    <title>A Free 16-Week Cloud and DevOps Syllabus for Karachi (2026)</title>
-    <link href="https://dev.to/usman_sherdil_582e626a7db/a-free-16-week-cloud-and-devops-syllabus-for-karachi-2026-342n" rel="alternate"/>
-    <id>https://dev.to/usman_sherdil_582e626a7db/a-free-16-week-cloud-and-devops-syllabus-for-karachi-2026-342n</id>
-    <updated>2026-08-17T08:21:08Z</updated>
-    <summary type="text">Every free resource you need to go from zero to a genuinely hireable cloud or DevOps skill set already exists, and most of it is free. The problem was never access. The problem is that nobody hands you an order, so people bounce between AWS Skill Builder, random YouTube tutorials, and a Udemy course they never finish, and eight months later they still could not tell you what job they are qualified</summary>
-    <author><name>Sherdil IT Academy</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Why Walk When You Can SKI: Ditching the Type-Wait-Check Loop for Voice Coding</title>
-    <link href="https://dev.to/julie_elis_01325f/why-walk-when-you-can-ski-ditching-the-type-wait-check-loop-for-voice-coding-31b3" rel="alternate"/>
-    <id>https://dev.to/julie_elis_01325f/why-walk-when-you-can-ski-ditching-the-type-wait-check-loop-for-voice-coding-31b3</id>
-    <updated>2026-08-17T05:25:20Z</updated>
-    <summary type="text">Typing a prompt to an AI coding agent is a lot like walking: controlled, deliberate, one careful step at a time. You form the whole thought in your head, then convert it into keystrokes one clause at a time, checking yourself along the way. It works. It gets you there. It's also not how the thought showed up in your head in the first place, you already had the sentence, whole, before your fingers </summary>
-    <author><name>Julie Elis</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
