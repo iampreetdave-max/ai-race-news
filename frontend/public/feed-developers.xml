@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-18T16:38:29Z</updated>
+  <updated>2026-08-18T17:33:38Z</updated>
   <entry>
     <title>Asana cleared 5 years of engineering work in 2 weeks with Codex</title>
     <link href="https://openai.com/index/asana" rel="alternate"/>
@@ -30,6 +30,41 @@
     <updated>2026-08-18T13:00:04Z</updated>
     <summary type="text">Secret parameter allowed hackers to steal passwords when a target clicked on a link.</summary>
     <author><name>Dan Goodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What the GitHub Outage Taught Us About Authentication Retries</title>
+    <link href="https://dev.to/prasadmk/what-the-github-outage-taught-us-about-authentication-retries-1lbn" rel="alternate"/>
+    <id>https://dev.to/prasadmk/what-the-github-outage-taught-us-about-authentication-retries-1lbn</id>
+    <updated>2026-08-18T17:25:03Z</updated>
+    <summary type="text">On August 17, 2026, GitHub went through a rough day. For nearly eight hours, large parts of the platform struggled. API requests, Actions, pull requests, Issues, webhooks, and Copilot all felt the impact. Error rates hit around 20% on web and API traffic. Archive and raw content downloads failed about half the time. The official status page eventually said engineers had identified a problematic co</summary>
+    <author><name>Prasad MK</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Should AI-Generated Code Be Labeled in Your Git History?</title>
+    <link href="https://dev.to/nazar-boyko/should-ai-generated-code-be-labeled-in-your-git-history-4hff" rel="alternate"/>
+    <id>https://dev.to/nazar-boyko/should-ai-generated-code-be-labeled-in-your-git-history-4hff</id>
+    <updated>2026-08-18T17:24:23Z</updated>
+    <summary type="text">The Linux kernel, Fedora, and LLVM now require an “Assisted-by” tag on patches created with the help of AI, and Claude Code adds a “Co-Authored-By” line to your commits, whether you ask for it or not. So the question of authorship has already been decided for us and decided badly! Open your git log and check if you've used Claude Code this month, there's a fair chance one of your recent commits en</summary>
+    <author><name>Nazar Boyko</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>tcpdump for DevOps: Read a TCP Handshake and Stop Guessing</title>
+    <link href="https://dev.to/jjoyneriv/tcpdump-for-devops-read-a-tcp-handshake-and-stop-guessing-3a2f" rel="alternate"/>
+    <id>https://dev.to/jjoyneriv/tcpdump-for-devops-read-a-tcp-handshake-and-stop-guessing-3a2f</id>
+    <updated>2026-08-18T17:07:07Z</updated>
+    <summary type="text">When a service &quot;can't connect,&quot; the app logs and the network rarely tell the same story. tcpdump settles the argument: it shows what actually went over the wire, not what the client library claims happened. Learning to read three packet signatures is usually enough to split a network problem from an application problem in under a minute. One ground rule first: only capture on systems you own or ar</summary>
+    <author><name>James Joyner</name></author>
+  </entry>
+  <entry>
+    <title>How an AI Assistant Spilled Its Own Secrets, and Yours</title>
+    <link href="https://dev.to/adilaidev/how-an-ai-assistant-spilled-its-own-secrets-and-yours-20a3" rel="alternate"/>
+    <id>https://dev.to/adilaidev/how-an-ai-assistant-spilled-its-own-secrets-and-yours-20a3</id>
+    <updated>2026-08-18T16:54:22Z</updated>
+    <summary type="text">AI assistants are supposed to keep your data safe, not hand it over on demand. Yet a team of security researchers recently proved that Microsoft 365 Copilot could be manipulated into doing exactly that, without the user lifting a finger. The exploit didn’t require reverse engineering or deep technical tricks. Instead, the researchers simply asked Copilot how to bypass its own protections. The Weak</summary>
+    <author><name>Muhammad Adil</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -418,43 +453,5 @@
     <updated>2026-08-17T14:52:44Z</updated>
     <summary type="text">TailFlow gives coding agents compact, queryable evidence from the applications they are changing—without sending local logs to a hosted platform. Coding agents are increasingly capable of navigating repositories, editing multiple files, running tests, and explaining unfamiliar systems. But there is still a gap in the typical agent workflow: The agent can read the code, but it often cannot see what</summary>
     <author><name>Dencio</name></author>
-  </entry>
-  <entry>
-    <title>Can Copilot Fix Its Own Security Findings? Testing GitHub Agentic Autofix</title>
-    <link href="https://dev.to/pwd9000/can-copilot-fix-its-own-security-findings-testing-github-agentic-autofix-351b" rel="alternate"/>
-    <id>https://dev.to/pwd9000/can-copilot-fix-its-own-security-findings-testing-github-agentic-autofix-351b</id>
-    <updated>2026-08-17T14:22:50Z</updated>
-    <summary type="text">Can Copilot Fix Its Own Security Findings? Testing GitHub Agentic Autofix GitHub can now assign a code scanning alert directly to Copilot cloud agent. The agent explores the repository, changes code, attempts validation, and opens a draft pull request. That is more ambitious than generating a patch beside one vulnerable line. It is also not the same as proving that a vulnerability is gone. The pra</summary>
-    <author><name>Marcel.Lupo</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Don't Give the Model SQL</title>
-    <link href="https://dev.to/mattstratton/dont-give-the-model-sql-5h32" rel="alternate"/>
-    <id>https://dev.to/mattstratton/dont-give-the-model-sql-5h32</id>
-    <updated>2026-08-17T14:20:00Z</updated>
-    <summary type="text">I built a web app to answer questions about my own health data, for a reason that is embarrassingly small. I already had a perfectly good way to ask them: a Claude Code skill that queried the database and reasoned over the results. It worked well. It also can't run on Claude iOS, and the moment I actually want to ask &quot;should I be worried about this&quot; is standing in a kitchen at 6am, not sitting at </summary>
-    <author><name>Matty Stratton</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>QUERY_HISTORY has no PARENT_QUERY_ID. Here's how I traced which statement inside a Snowflake procedure regressed anyway.</title>
-    <link href="https://dev.to/tracepointdata/queryhistory-has-no-parentqueryid-heres-how-i-traced-which-statement-inside-a-snowflake-el7" rel="alternate"/>
-    <id>https://dev.to/tracepointdata/queryhistory-has-no-parentqueryid-heres-how-i-traced-which-statement-inside-a-snowflake-el7</id>
-    <updated>2026-08-17T14:15:00Z</updated>
-    <summary type="text">If you write ETL procedures in Snowflake but don't have ACCOUNT_USAGE access, you've probably had this exact conversation: someone says a load job got slower, you can look at one query's profile if you already know which query, but QUERY_HISTORY gives you zero help connecting a CALL to the statements it ran internally. There's no PARENT_QUERY_ID. No ROOT_QUERY_ID. TRANSACTION_ID doesn't match betw</summary>
-    <author><name>Tracepoint Data</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Code Silently Deleted a User's Entire Agent-Config Directory — Twice</title>
-    <link href="https://dev.to/ramdai_bista/claude-code-silently-deleted-a-users-entire-agent-config-directory-twice-2fni" rel="alternate"/>
-    <id>https://dev.to/ramdai_bista/claude-code-silently-deleted-a-users-entire-agent-config-directory-twice-2fni</id>
-    <updated>2026-08-17T13:26:58Z</updated>
-    <summary type="text">No delete command. No confirmation prompt. No user action of any kind in between. A Claude Code user's ~/.claude/agents/ directory was silently emptied by the tool's own background process — and it happened twice. What happened Filed as GitHub issue #41415, the report comes from a user who kept ~/.claude/agents/ as a symlink into a version-controlled dotfiles repository — a common pattern for anyo</summary>
-    <author><name>Ramdai Bista</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
