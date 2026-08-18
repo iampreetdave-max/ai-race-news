@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-17T23:27:10Z</updated>
+  <updated>2026-08-18T01:24:31Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -12,6 +12,16 @@
     <updated>2026-08-17T09:06:32Z</updated>
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>RAG Hallucination Diagnosis: Evidence Gating Beats Embeddings for Ask-Your-Docs Chatbot Answers</title>
+    <link href="https://dev.to/brockfletcher1438/rag-hallucination-diagnosis-evidence-gating-beats-embeddings-for-ask-your-docs-chatbot-answers-18a7" rel="alternate"/>
+    <id>https://dev.to/brockfletcher1438/rag-hallucination-diagnosis-evidence-gating-beats-embeddings-for-ask-your-docs-chatbot-answers-18a7</id>
+    <updated>2026-08-18T01:05:25Z</updated>
+    <summary type="text">Short answer: A docs chatbot should abstain whenever it cannot assemble enough directly relevant evidence for a moderation report. For classifying gaming reports before human review, choose evidence gating over a larger context window: retrieval may propose evidence, but a separate policy must decide whether the system may answer. This favors quality over shaving a little latency from the happy pa</summary>
+    <author><name>BrockFletcher1438</name></author>
+    <category term="rag"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -445,17 +455,5 @@
     <summary type="text">Dual-Graph Drift Detection for Solo Devs What Happens When Your Docs and Your Code Start Talking to Each Other I'm a coffee roaster in Taiwan who taught myself to code with AI over the past 8 months. I built a full vertical-integration ERP for my coffee brand — from green bean inventory to roasting orders to e-commerce checkout. Along the way I ran into something nobody on the internet seems to be</summary>
     <author><name>Dexterlung</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Build an MCP server in Rust with rmcp: a walk-through 🦀</title>
-    <link href="https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif" rel="alternate"/>
-    <id>https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif</id>
-    <updated>2026-08-16T12:32:56Z</updated>
-    <summary type="text">This tutorial walks through building an MCP server in Rust with rmcp, the official Model Context Protocol Rust SDK. The example is a real one: a devops agent that manages AWS EC2 G5g instances — Graviton2 boxes with NVIDIA T4G GPUs — serving Gemma 4 under vLLM. It launches instances, drives them over SSM, and health-checks the model. There's an existing Python version, so at the end we can put the</summary>
-    <author><name>xbill</name></author>
-    <category term="product-launch"/>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="hardware"/>
   </entry>
 </feed>
