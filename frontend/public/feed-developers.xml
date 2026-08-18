@@ -4,7 +4,49 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-18T09:40:00Z</updated>
+  <updated>2026-08-18T10:32:38Z</updated>
+  <entry>
+    <title>Claude Code gets a /design command that lets developers create UI mockups right in the terminal</title>
+    <link href="https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/" rel="alternate"/>
+    <id>https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/</id>
+    <updated>2026-08-18T10:06:16Z</updated>
+    <summary type="text">With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design command that lets developers create UI mockups right in the terminal appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a Kubernetes Security Audit Tool with Go</title>
+    <link href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm" rel="alternate"/>
+    <id>https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm</id>
+    <updated>2026-08-18T10:05:28Z</updated>
+    <summary type="text">Most Kubernetes clusters ship with insecure defaults that nobody touches until something goes wrong. A misconfigured Pod security context, a container running as root, missing resource limits — these are the first things an attacker looks for after gaining access. Writing a Go tool that connects directly to the Kubernetes API lets you catch these issues automatically, before your next audit or inc</summary>
+    <author><name>Ayi NEDJIMI</name></author>
+  </entry>
+  <entry>
+    <title>WebSocket Real-Time Apps: Building Chat Like It's the Matrix</title>
+    <link href="https://dev.to/timevolt/websocket-real-time-apps-building-chat-like-its-the-matrix-5ha0" rel="alternate"/>
+    <id>https://dev.to/timevolt/websocket-real-time-apps-building-chat-like-its-the-matrix-5ha0</id>
+    <updated>2026-08-18T10:04:05Z</updated>
+    <summary type="text">The Quest Begins (The &quot;Why&quot;) Ever felt like you’re stuck in a refresh‑loop hell, hammering F5 just to see if someone replied to your message? I’ve been there. A few months ago I was building a simple internal tool for my team—a place where devs could drop quick status updates and get instant feedback. The first version used plain AJAX polling: every 2 seconds the client begged the server, “Anythin</summary>
+    <author><name>Timevolt</name></author>
+  </entry>
+  <entry>
+    <title>Observability for AI Infrastructure: What to Monitor Beyond CPU and Memory</title>
+    <link href="https://dev.to/sushyam_nagallapati/observability-for-ai-infrastructure-what-to-monitor-beyond-cpu-and-memory-2o4j" rel="alternate"/>
+    <id>https://dev.to/sushyam_nagallapati/observability-for-ai-infrastructure-what-to-monitor-beyond-cpu-and-memory-2o4j</id>
+    <updated>2026-08-18T10:00:00Z</updated>
+    <summary type="text">Thanks for taking the time to read. If you’ve worked with AI infrastructure or observability, I’d love to hear your experience in the comments. In Part 2 of AI Infrastructure for Cloud Engineers, we looked at how GPUs, scheduling, autoscaling, and model serving change the way AI workloads run on Kubernetes. Read Part 2: Running AI Workloads on Kubernetes: GPUs, Scheduling, Scaling, and Model Servi</summary>
+    <author><name>Sushyam Nagallapati</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>We Locked Ourselves Out of Production</title>
+    <link href="https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22" rel="alternate"/>
+    <id>https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22</id>
+    <updated>2026-08-18T09:56:47Z</updated>
+    <summary type="text">A few months back an engineer was setting up a build pipeline with an AI coding agent. The agent held production AWS credentials. It created a CloudFormation stack in production, then &quot;cleaned up&quot; by deleting it. Straight in prod, outside CI/CD. Our monitoring caught it immediately. An alert fired the moment the change happened: deployment in the production account by a role that is not part of th</summary>
+    <author><name>Viljami Kuosmanen</name></author>
+  </entry>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -408,54 +450,5 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>I Ran the Numbers on Open-Source AI APIs vs GPUs — Here's the Verdict</title>
-    <link href="https://dev.to/eagerspark/i-ran-the-numbers-on-open-source-ai-apis-vs-gpus-heres-the-verdict-58dp" rel="alternate"/>
-    <id>https://dev.to/eagerspark/i-ran-the-numbers-on-open-source-ai-apis-vs-gpus-heres-the-verdict-58dp</id>
-    <updated>2026-08-17T04:43:10Z</updated>
-    <summary type="text">I've been running an experiment in my home lab for the past four months. My question was simple: with so many solid open-source models dropping every week, does self-hosting still make sense, or has API access quietly won the economics game? After crunching the numbers, the correlation is clearer than I expected — and the sample size of usage scenarios I tested (3 distinct traffic tiers, 10 model </summary>
-    <author><name>eagerspark</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Evooo1Bot: A Multi-Functional Linux Botnet That Turns Compromised Gateways into SOCKS5 Relays, SSH Spreaders, and DDoS Tools</title>
-    <link href="https://dev.to/anoymask/evooo1bot-a-multi-functional-linux-botnet-that-turns-compromised-gateways-into-socks5-relays-ssh-27kg" rel="alternate"/>
-    <id>https://dev.to/anoymask/evooo1bot-a-multi-functional-linux-botnet-that-turns-compromised-gateways-into-socks5-relays-ssh-27kg</id>
-    <updated>2026-08-17T02:42:51Z</updated>
-    <summary type="text">Evooo1Bot: A Multi-Functional Linux Botnet That Turns Compromised Gateways into SOCKS5 Relays, SSH Spreaders, and DDoS Tools 1. Basic Information Severity: High Title: Multi-Functional Linux Botnet “Evooo1Bot” Publisher: FortiGuard Labs Release Date: 2026-08-13 Update Date: None Original Source: FortiGuard Labs Related Sources: BleepingComputer, The Record Malware: Evooo1Bot, Mirai variant Groups:</summary>
-    <author><name>Anoymask</name></author>
-  </entry>
-  <entry>
-    <title>That amazing skill you shared only runs on your machine. I built a linter for it — then found I was 85% wrong</title>
-    <link href="https://dev.to/hyuga611/that-amazing-skill-you-shared-only-runs-on-your-machine-i-built-a-linter-for-it-then-found-i-was-2dc2" rel="alternate"/>
-    <id>https://dev.to/hyuga611/that-amazing-skill-you-shared-only-runs-on-your-machine-i-built-a-linter-for-it-then-found-i-was-2dc2</id>
-    <updated>2026-08-17T02:09:29Z</updated>
-    <summary type="text">I mass-produced skills by saying &quot;turn this into a skill.&quot; Then I shared them With Claude Code or Codex, any procedure that worked can become a reusable SKILL.md just by asking &quot;turn what we just did into a skill.&quot; I did this for image generation, deploy steps, everything. It was great. Where it fell apart was handing those skills to teammates. They ran on my machine and silently died on theirs. E</summary>
-    <author><name>hyuga</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From API to GPU, Week 5: Tensors, the Data Structure Behind Every Model</title>
-    <link href="https://dev.to/dramasamy/from-api-to-gpu-week-5-tensors-the-data-structure-behind-every-model-18gc" rel="alternate"/>
-    <id>https://dev.to/dramasamy/from-api-to-gpu-week-5-tensors-the-data-structure-behind-every-model-18gc</id>
-    <updated>2026-08-17T01:12:44Z</updated>
-    <summary type="text">Phase 2 of 8: Enough ML to understand inference. Week 5 of 32. Phase 1 was about running models. Phase 2 is about understanding what happens inside them, starting with the one data structure they are all built from: the tensor. This week I stop talking about model files and start touching the actual numbers, in PyTorch, on the GPU. If you write software, a tensor is a typed, multi-dimensional arra</summary>
-    <author><name>Dinesh Kumar Ramasamy</name></author>
-    <category term="hardware"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>AI Agents Yield to Each Other in the &quot;Break Room&quot; — A Month in My DIY Discord Bridge</title>
-    <link href="https://dev.to/ebibibi/ai-agents-yield-to-each-other-in-the-break-room-a-month-in-my-diy-discord-bridge-5gf1" rel="alternate"/>
-    <id>https://dev.to/ebibibi/ai-agents-yield-to-each-other-in-the-break-room-a-month-in-my-diy-discord-bridge-5gf1</id>
-    <updated>2026-08-17T01:02:17Z</updated>
-    <summary type="text">Originally published on my Substack. I'm a Microsoft MVP based in Japan, writing in English about the AI agent systems I actually run in production. 🤖✍️ This article was co-written with AI — the AI agent (Claude Code) generated the draft based on actual collaborative work with Ebisuda, who then reviewed and edited it before publishing. Before starting to write this very article, the session posted</summary>
-    <author><name>Masahiko Ebisuda</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-    <category term="agents"/>
   </entry>
 </feed>
