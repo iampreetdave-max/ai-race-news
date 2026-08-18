@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-18T04:39:41Z</updated>
+  <updated>2026-08-18T05:35:57Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -13,6 +13,25 @@
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Database Development Without ORM: A Pragmatic Approach to SQL-First Workflows</title>
+    <link href="https://dev.to/raiyanu/database-development-without-orm-a-pragmatic-approach-to-sql-first-workflows-578j" rel="alternate"/>
+    <id>https://dev.to/raiyanu/database-development-without-orm-a-pragmatic-approach-to-sql-first-workflows-578j</id>
+    <updated>2026-08-18T04:52:35Z</updated>
+    <summary type="text">The Problem with ORM Abstraction Many developers express frustration with ORM tooling, particularly around SQL migrations. The desire to work directly with SQL is common, yet existing solutions often fall short when handling testing, seeding, staging environments, and team onboarding. A SQL-First Alternative A new approach addresses these pain points without introducing additional abstractions. Th</summary>
+    <author><name>Raiyan C</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Readme</title>
+    <link href="https://dev.to/iamry02/readme-1j7b" rel="alternate"/>
+    <id>https://dev.to/iamry02/readme-1j7b</id>
+    <updated>2026-08-18T04:51:45Z</updated>
+    <summary type="text">PLSQL Insight React PLSQL Insight is a private, evidence-grounded application for understanding Oracle PL/SQL. This repository is the React edition: a modern React 19 interface over the existing FastAPI, LangGraph, Ollama, Oracle, Chroma, parser, retrieval, and auditing implementation. It accepts pasted source, uploaded .sql/.pkb/.pks/.txt files, approved lower-environment Oracle objects, optional</summary>
+    <author><name>Rahul</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Docker Compose Isn't What I Thought It Was</title>
@@ -436,23 +455,5 @@
     <summary type="text">I originally put PolyForge together as a ChatGPT skill, just for OpenSCAD, so I could describe a bracket or an enclosure and get back something I could actually print on my modified Ender 3 V2 or my QALAM Pro 400, instead of hand modeling every mount and shelf myself. It worked fine, but it only worked in ChatGPT, and it needed an agent and an API bill in the loop even for a plain shelf bracket. T</summary>
     <author><name>Asad Waseem</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>DeepSeek Code: A TUI for working in your terminal with DeepSeek!</title>
-    <link href="https://dev.to/marcelo_maia/deepseek-code-a-tui-for-working-in-your-terminal-with-deepseek-2o4k" rel="alternate"/>
-    <id>https://dev.to/marcelo_maia/deepseek-code-a-tui-for-working-in-your-terminal-with-deepseek-2o4k</id>
-    <updated>2026-08-16T15:15:59Z</updated>
-    <summary type="text">DeepSeek Code is an open-source CLI built specifically for DeepSeek — one of the most cost-effective AI models on the market! It was heavily inspired by tools like Claude Code and OpenAI's Codex for most of its feature set. Since it is fully open-source, you are more than welcome to open Pull Requests, report bugs, or submit issue suggestions! Installation You can install it globally via npm or bu</summary>
-    <author><name>Marcelo Maia</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Why Your Docker Build Takes 11 Minutes in CI When It Takes 20 Seconds Locally</title>
-    <link href="https://dev.to/libme/why-your-docker-build-takes-11-minutes-in-ci-when-it-takes-20-seconds-locally-3foe" rel="alternate"/>
-    <id>https://dev.to/libme/why-your-docker-build-takes-11-minutes-in-ci-when-it-takes-20-seconds-locally-3foe</id>
-    <updated>2026-08-16T15:04:48Z</updated>
-    <summary type="text">If your Docker build is fast locally and slow in CI, the base image is almost never the problem. CI runners are ephemeral, so they start with an empty layer cache unless you explicitly wire one up, and a COPY . . placed above your dependency install throws away whatever cache you did manage to restore. Fix the layer ordering first, then attach a cache backend, and measure with --progress=plain so </summary>
-    <author><name>Libme</name></author>
   </entry>
 </feed>
