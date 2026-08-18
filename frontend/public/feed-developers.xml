@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-18T05:35:57Z</updated>
+  <updated>2026-08-18T06:50:27Z</updated>
   <entry>
     <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
     <link href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" rel="alternate"/>
@@ -13,6 +13,23 @@
     <summary type="text">DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Five AI coding tools, five completely different ways to break</title>
+    <link href="https://dev.to/xiaodong_zhang_bd8dc835b3/five-ai-coding-tools-five-completely-different-ways-to-break-bc7" rel="alternate"/>
+    <id>https://dev.to/xiaodong_zhang_bd8dc835b3/five-ai-coding-tools-five-completely-different-ways-to-break-bc7</id>
+    <updated>2026-08-18T06:15:53Z</updated>
+    <summary type="text">I've now routed five different AI coding tools through a proxy layer. Each one broke differently. None of them told me why. Writing this partly as a reference for myself, partly because the failure modes turn out to be genuinely interesting — they say a lot about how these tools are built. Claude Code: reads config once, then never again The simplest of the five. Config lives in ~/.claude/settings</summary>
+    <author><name>xiaodong Zhang</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I wrote a scraper for a government agency's announcements — and learned why boring tools win</title>
+    <link href="https://dev.to/primesieve/i-wrote-a-scraper-for-a-government-agencys-announcements-and-learned-why-boring-tools-win-2blk" rel="alternate"/>
+    <id>https://dev.to/primesieve/i-wrote-a-scraper-for-a-government-agencys-announcements-and-learned-why-boring-tools-win-2blk</id>
+    <updated>2026-08-18T06:02:08Z</updated>
+    <summary type="text">I wrote a scraper for a government agency's announcements — and learned why boring tools win Every morning at 6 AM, a small Python script on one VPS checks the Indonesian food agency's announcement page. If there's something new, it saves the record to a JSON file. That's the whole job. I built it because I wanted to track food-policy announcements without refreshing a website by hand. It runs on:</summary>
+    <author><name>Prime Sieve</name></author>
   </entry>
   <entry>
     <title>Database Development Without ORM: A Pragmatic Approach to SQL-First Workflows</title>
@@ -40,14 +57,6 @@
     <updated>2026-08-18T03:21:36Z</updated>
     <summary type="text">post 7: A practical guide to understanding Docker Compose—what it is, how it works, and the misconceptions that catch most beginners. You've mastered single containers. Now it's time to build a real application. A frontend. A backend. A database. A Redis cache. Suddenly you're juggling multiple docker run commands. Ports. Networks. Volumes. Environment variables. Chaos. Then someone says: &quot;Just us</summary>
     <author><name>Sreekanth Kuruba</name></author>
-  </entry>
-  <entry>
-    <title>OSI Model Explained — Understanding How Network Communication Works</title>
-    <link href="https://dev.to/tejas_shinkar/osi-model-explained-understanding-how-network-communication-works-kn5" rel="alternate"/>
-    <id>https://dev.to/tejas_shinkar/osi-model-explained-understanding-how-network-communication-works-kn5</id>
-    <updated>2026-08-18T02:38:23Z</updated>
-    <summary type="text">🌐 OSI Model Explained Understanding How Network Communication Works Series: Networking Fundamentals for Cloud &amp; DevOps — Part 2 of 6 The OSI Model is one of those topics where you should understand the purpose of the layers rather than memorize definitions. Once you understand what each layer is responsible for, concepts like MAC addresses, IP addresses, ports, TCP/UDP, and encapsulation start fit</summary>
-    <author><name>Tejas Shinkar</name></author>
   </entry>
   <entry>
     <title>RAG Hallucination Diagnosis: Evidence Gating Beats Embeddings for Ask-Your-Docs Chatbot Answers</title>
@@ -446,14 +455,5 @@
     <updated>2026-08-16T16:11:07Z</updated>
     <summary type="text">The problem Every Python web app eventually needs authentication, and every team ends up either gluing together half a dozen libraries or hand-rolling JWT logic. Both paths are full of security traps: weak token validation, no refresh-token rotation, missing lockouts, forgotten MFA. The library authority-auth (https://github.com/rkriad585/authority) is a comprehensive, framework-agnostic Python au</summary>
     <author><name>RK Riad Khan</name></author>
-  </entry>
-  <entry>
-    <title>Building an offline CAD tool that can also turn photos into 3D meshes</title>
-    <link href="https://dev.to/rx290/building-an-offline-cad-tool-that-can-also-turn-photos-into-3d-meshes-181p" rel="alternate"/>
-    <id>https://dev.to/rx290/building-an-offline-cad-tool-that-can-also-turn-photos-into-3d-meshes-181p</id>
-    <updated>2026-08-16T16:02:12Z</updated>
-    <summary type="text">I originally put PolyForge together as a ChatGPT skill, just for OpenSCAD, so I could describe a bracket or an enclosure and get back something I could actually print on my modified Ender 3 V2 or my QALAM Pro 400, instead of hand modeling every mount and shelf myself. It worked fine, but it only worked in ChatGPT, and it needed an agent and an API bill in the loop even for a plain shelf bracket. T</summary>
-    <author><name>Asad Waseem</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
