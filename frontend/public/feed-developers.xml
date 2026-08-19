@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T14:40:16Z</updated>
+  <updated>2026-08-19T15:36:19Z</updated>
   <entry>
     <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
     <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
@@ -13,6 +13,32 @@
     <summary type="text">Cursor, known for its AI Code Editor, is launching a new code hosting platform to rival developers' long preferred favorite, Github.</summary>
     <author><name>Lucas Ropek</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Sandboxed Code Evaluation for AI-Generated Outputs — How I Built SafeCode Arena</title>
+    <link href="https://dev.to/flipslidersand/sandboxed-code-evaluation-for-ai-generated-outputs-how-i-built-safecode-arena-1468" rel="alternate"/>
+    <id>https://dev.to/flipslidersand/sandboxed-code-evaluation-for-ai-generated-outputs-how-i-built-safecode-arena-1468</id>
+    <updated>2026-08-19T15:31:13Z</updated>
+    <summary type="text">The Problem: Candidate Code Without Trust You're using Cursor, Claude Code, or GitHub Copilot. The AI gives you three implementation options for the same feature. AI: &quot;Here are three approaches: A) Quick but uses unsafe B) Slower but memory-safe C) Balanced tradeoffs&quot; You: &quot;Which one should I ship?&quot; AI: &quot;It depends...&quot; That &quot;it depends&quot; is where responsibility falls through the cracks. Tests tell </summary>
+    <author><name>flipslidersand</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Privacy Layer for AI Coding Tools — CodeMask UI and CodeMask Proxy</title>
+    <link href="https://dev.to/shubhamdevops/i-built-a-privacy-layer-for-ai-coding-tools-codemask-ui-and-codemask-proxy-3ne6" rel="alternate"/>
+    <id>https://dev.to/shubhamdevops/i-built-a-privacy-layer-for-ai-coding-tools-codemask-ui-and-codemask-proxy-3ne6</id>
+    <updated>2026-08-19T15:19:59Z</updated>
+    <summary type="text">I was debugging a config file of my personal project and pasted it straight into Claude to get help. A few seconds later I looked at what I had actually sent: internal IP addresses, a database password, and an API key. All of it. To a cloud API. Without thinking. I don't think I am the only one who has done this. Most developers use AI assistants daily, and most of the time the code going in conta</summary>
+    <author><name>Shubham Singh</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Build a Niche Newsletter Empire With AI: How I Automated $2,400/Month in Recurring Revenue</title>
+    <link href="https://dev.to/sinan_koak_4a6dea677278a/build-a-niche-newsletter-empire-with-ai-how-i-automated-2400month-in-recurring-revenue-55n4" rel="alternate"/>
+    <id>https://dev.to/sinan_koak_4a6dea677278a/build-a-niche-newsletter-empire-with-ai-how-i-automated-2400month-in-recurring-revenue-55n4</id>
+    <updated>2026-08-19T15:00:32Z</updated>
+    <summary type="text">The Unsexy Truth About Passive Income Most passive income content is either vague or outright misleading. So let me be direct: this took 3 weeks to set up, about 4 hours per week to maintain, and generates roughly $2,400/month through newsletter sponsorships and affiliate commissions. The secret? I automated 80% of the content curation and writing pipeline using a combination of AI tools and no-co</summary>
+    <author><name>Sinan Koçak</name></author>
   </entry>
   <entry>
     <title>Hyperia 0.17.5 is Released</title>
@@ -436,32 +462,5 @@
     <summary type="text">Most Apple Health MCP guides are per-client. Claude today, Cursor tomorrow, ChatGPT next week. That's the wrong abstraction. MCP is a protocol. The server command is identical across every client. Only the config file path and JSON shape change. What the server exposes Eight read-only tools, all local: Tool What it returns get_mcp_status Health check: data source, metric count, most recent data da</summary>
     <author><name>Philip D'Souza</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cursor skills: what they are and how to use them</title>
-    <link href="https://dev.to/skillsboard/cursor-skills-what-they-are-and-how-to-use-them-2d4i" rel="alternate"/>
-    <id>https://dev.to/skillsboard/cursor-skills-what-they-are-and-how-to-use-them-2d4i</id>
-    <updated>2026-08-18T13:19:35Z</updated>
-    <summary type="text">Publisher: Skills Board. Published August 15, 2026. Last checked August 15, 2026. Cursor skills are folders of instructions that Cursor's agent loads when a task matches what the folder is for. Each holds a SKILL.md file and, optionally, the scripts, references, and assets the task needs. Cursor's own documentation opens by calling Agent Skills an open standard for extending AI agents, not a Curso</summary>
-    <author><name>Tommaso</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>公司內部自架 Claude Code Marketplace，讓團隊共用 skill</title>
-    <link href="https://dev.to/letswrite/gong-si-nei-bu-zi-jia-claude-code-marketplacerang-tuan-dui-gong-yong-skill-2fg3" rel="alternate"/>
-    <id>https://dev.to/letswrite/gong-si-nei-bu-zi-jia-claude-code-marketplacerang-tuan-dui-gong-yong-skill-2fg3</id>
-    <updated>2026-08-18T13:18:47Z</updated>
-    <summary type="text">本篇要解決的問題 有些 skill 只適合在公司內部使用，而這個 skill 又想讓其他同事能一起使用的話，就需要一個可以讓大家方便安裝、更新的平台。 本篇主要筆記，用自架的 Gitea 建立一個內部專用的 Claude Code plugin marketplace，讓團隊裡每個人寫的 skill 不再各自散落在自己電腦裡，而是能集中在一個地方統一發布、安裝、更新版本。 其他同事只要裝一次就能共用、之後改版也能一起同步拿到最新版。 這篇整理實作過程中每一個能正確跑通的步驟，讓大家避免在這過程中踩到的坑。 可用 GitHub、GitLab、Gitea，主要是專案可以有版控就行。 本篇示範的是在自架的 Gitea 上實作。 建立 marketplace 專案結構 Gitea 上新建一個 repo（例如 claude-plugins），本機目錄結構： claude-plugins/ ├── .</summary>
-    <author><name>Let's Write</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Wish I Knew AI Coding Models Sooner — Here's the Full Breakdown</title>
-    <link href="https://dev.to/rileykim/i-wish-i-knew-ai-coding-models-sooner-heres-the-full-breakdown-11j5" rel="alternate"/>
-    <id>https://dev.to/rileykim/i-wish-i-knew-ai-coding-models-sooner-heres-the-full-breakdown-11j5</id>
-    <updated>2026-08-18T12:32:25Z</updated>
-    <summary type="text">I Wish I Knew AI Coding Models Sooner — Here's the Full Breakdown Last quarter my burn rate went sideways. Not because we hired anyone new, not because we shipped a big feature — because I'd been running every PR review and every refactor through whatever premium model my IDE defaulted to. When I finally pulled the invoice, I wanted to throw my laptop into the bay. That's the day I started taking </summary>
-    <author><name>RileyKim</name></author>
   </entry>
 </feed>
