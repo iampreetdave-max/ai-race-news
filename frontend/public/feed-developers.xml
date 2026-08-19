@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T17:30:13Z</updated>
+  <updated>2026-08-19T18:40:49Z</updated>
+  <entry>
+    <title>OpenAI fixes Codex bug that deleted real user files without permission</title>
+    <link href="https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/</id>
+    <updated>2026-08-19T18:18:34Z</updated>
+    <summary type="text">OpenAI patched Codex after GPT-5.6 Sol started deleting real user files on its own. A cleanup command meant for temporary folders was wiping home directories instead. Codex now verifies deletion targets first, and full-access mode can no longer be triggered by accident. The article OpenAI fixes Codex bug that deleted real user files without permission appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Appwrite MCP vs Vercel MCP: I benchmarked both</title>
     <link href="https://dev.to/chiragagg5k/appwrite-mcp-vs-vercel-mcp-i-benchmarked-both-3k3f" rel="alternate"/>
@@ -452,14 +461,5 @@
     <summary type="text">I keep seeing the same pattern: take an LLM, give it access to kubectl or the k8s API, write something like &quot;you can only read, don't delete or modify anything&quot; in the system prompt or an attached skill, and consider the problem solved. I went through this myself and at some point realized that this isn't a security boundary — it's a polite request. This isn't a hypothetical risk: you probably rem</summary>
     <author><name>Alex Gorshkov</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>My Uptime Monitor Was Set to Every 5 Minutes. In July It Ran 15 Times a Day.</title>
-    <link href="https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8" rel="alternate"/>
-    <id>https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8</id>
-    <updated>2026-08-18T13:30:20Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. 🔨 #bugsmash, week by week: a 390% CPU hour nobody noticed, a state machine with no exit, a backup that leaked 156 GB, a monitor that caught its own lies. Week five: the monitor that was quietly not running at all. I had not opened the TextStack repo properly in a while. I have been working through Claude Code for wee</summary>
-    <author><name>Vasyl</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
