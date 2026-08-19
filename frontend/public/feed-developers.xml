@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T12:54:24Z</updated>
+  <updated>2026-08-19T13:48:29Z</updated>
   <entry>
     <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
     <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
@@ -13,6 +13,33 @@
     <summary type="text">Cursor, known for its AI Code Editor, is launching a new code hosting platform to rival developers' long preferred favorite, Github.</summary>
     <author><name>Lucas Ropek</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Mastering Unattended Remote Desktop on Wayland: A Modern DevOps Guide</title>
+    <link href="https://dev.to/lightningdev123/mastering-unattended-remote-desktop-on-wayland-a-modern-devops-guide-22p7" rel="alternate"/>
+    <id>https://dev.to/lightningdev123/mastering-unattended-remote-desktop-on-wayland-a-modern-devops-guide-22p7</id>
+    <updated>2026-08-19T13:44:54Z</updated>
+    <summary type="text">Introduction to the Wayland Remote Access Dilemma For developers and system administrators, accessing a remote Linux workstation or home server has historically been a straightforward affair. Whether it was X11 forwarding, VNC, or specialized RDP setups, the ability to jump into a machine that was left unattended was a fundamental capability. However, the transition to Wayland has significantly co</summary>
+    <author><name>Lightning Developer</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Cockpit for Claude Code agents in Rust – a new UI for AI workflow con…</title>
+    <link href="https://dev.to/felipejac/cockpit-for-claude-code-agents-in-rust-a-new-ui-for-ai-workflow-con-4ehp" rel="alternate"/>
+    <id>https://dev.to/felipejac/cockpit-for-claude-code-agents-in-rust-a-new-ui-for-ai-workflow-con-4ehp</id>
+    <updated>2026-08-19T13:42:58Z</updated>
+    <summary type="text">What Happened A developer posted a new project on Show HN titled Cockpit for you Claude Code agents in Rust. The release is a lightweight UI written in Rust that lets users monitor, control, and debug Claude Code agents in real time. The cockpit shows the agent’s internal state, logs, and prompts, and lets developers inject new prompts or stop execution on the fly. The project is open‑source and p</summary>
+    <author><name>Felipe L</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Yorishiro: macOS Terminal Hosting AI Agents</title>
+    <link href="https://dev.to/felipejac/yorishiro-macos-terminal-hosting-ai-agents-4g25" rel="alternate"/>
+    <id>https://dev.to/felipejac/yorishiro-macos-terminal-hosting-ai-agents-4g25</id>
+    <updated>2026-08-19T13:38:33Z</updated>
+    <summary type="text">What Happened Yorishiro, released on GitHub by user sktkkoo, is a macOS terminal app that runs AI agents locally. Developers can create, launch, and talk to agents inside a terminal session, using command‑line tools and local resources. The project is open‑source and lightweight, avoiding container orchestration or cloud services. The idea is to spin up agents on a local machine, test them in real</summary>
+    <author><name>Felipe L</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>DNS Troubleshooting with dig: The Commands DevOps Engineers Actually Need</title>
@@ -435,30 +462,5 @@
     <updated>2026-08-18T10:05:28Z</updated>
     <summary type="text">Most Kubernetes clusters ship with insecure defaults that nobody touches until something goes wrong. A misconfigured Pod security context, a container running as root, missing resource limits — these are the first things an attacker looks for after gaining access. Writing a Go tool that connects directly to the Kubernetes API lets you catch these issues automatically, before your next audit or inc</summary>
     <author><name>Ayi NEDJIMI</name></author>
-  </entry>
-  <entry>
-    <title>WebSocket Real-Time Apps: Building Chat Like It's the Matrix</title>
-    <link href="https://dev.to/timevolt/websocket-real-time-apps-building-chat-like-its-the-matrix-5ha0" rel="alternate"/>
-    <id>https://dev.to/timevolt/websocket-real-time-apps-building-chat-like-its-the-matrix-5ha0</id>
-    <updated>2026-08-18T10:04:05Z</updated>
-    <summary type="text">The Quest Begins (The &quot;Why&quot;) Ever felt like you’re stuck in a refresh‑loop hell, hammering F5 just to see if someone replied to your message? I’ve been there. A few months ago I was building a simple internal tool for my team—a place where devs could drop quick status updates and get instant feedback. The first version used plain AJAX polling: every 2 seconds the client begged the server, “Anythin</summary>
-    <author><name>Timevolt</name></author>
-  </entry>
-  <entry>
-    <title>Observability for AI Infrastructure: What to Monitor Beyond CPU and Memory</title>
-    <link href="https://dev.to/sushyam_nagallapati/observability-for-ai-infrastructure-what-to-monitor-beyond-cpu-and-memory-2o4j" rel="alternate"/>
-    <id>https://dev.to/sushyam_nagallapati/observability-for-ai-infrastructure-what-to-monitor-beyond-cpu-and-memory-2o4j</id>
-    <updated>2026-08-18T10:00:00Z</updated>
-    <summary type="text">Thanks for taking the time to read. If you’ve worked with AI infrastructure or observability, I’d love to hear your experience in the comments. In Part 2 of AI Infrastructure for Cloud Engineers, we looked at how GPUs, scheduling, autoscaling, and model serving change the way AI workloads run on Kubernetes. Read Part 2: Running AI Workloads on Kubernetes: GPUs, Scheduling, Scaling, and Model Servi</summary>
-    <author><name>Sushyam Nagallapati</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>We Locked Ourselves Out of Production</title>
-    <link href="https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22" rel="alternate"/>
-    <id>https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22</id>
-    <updated>2026-08-18T09:56:47Z</updated>
-    <summary type="text">A few months back an engineer was setting up a build pipeline with an AI coding agent. The agent held production AWS credentials. It created a CloudFormation stack in production, then &quot;cleaned up&quot; by deleting it. Straight in prod, outside CI/CD. Our monitoring caught it immediately. An alert fired the moment the change happened: deployment in the production account by a role that is not part of th</summary>
-    <author><name>Viljami Kuosmanen</name></author>
   </entry>
 </feed>
