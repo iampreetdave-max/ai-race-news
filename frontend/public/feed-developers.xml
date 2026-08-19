@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T15:36:19Z</updated>
+  <updated>2026-08-19T16:36:17Z</updated>
+  <entry>
+    <title>Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality</title>
+    <link href="https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/" rel="alternate"/>
+    <id>https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/</id>
+    <updated>2026-08-19T16:30:00Z</updated>
+    <summary type="text">A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding. The post Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality appeared first on Towards Data Science.</summary>
+    <author><name>Sarah Schürch</name></author>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
     <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
@@ -453,14 +462,5 @@
     <summary type="text">Kimi K2 API Integration: A No-Fluff Getting Started Kimi K2 is Moonshot AI's flagship Mixture-of-Experts model, and the first thing developers notice is what it can see. Unlike text-only models, K2 takes images natively through the same chat-completions interface you already know — an image_url array inside the message content is all it takes. If your workload involves long-document QA, screenshot</summary>
     <author><name>zhangjj1988</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>One MCP server, eight AI clients: Apple Health setup that works everywhere</title>
-    <link href="https://dev.to/philipad/one-mcp-server-eight-ai-clients-apple-health-setup-that-works-everywhere-4lcp" rel="alternate"/>
-    <id>https://dev.to/philipad/one-mcp-server-eight-ai-clients-apple-health-setup-that-works-everywhere-4lcp</id>
-    <updated>2026-08-18T13:25:01Z</updated>
-    <summary type="text">Most Apple Health MCP guides are per-client. Claude today, Cursor tomorrow, ChatGPT next week. That's the wrong abstraction. MCP is a protocol. The server command is identical across every client. Only the config file path and JSON shape change. What the server exposes Eight read-only tools, all local: Tool What it returns get_mcp_status Health check: data source, metric count, most recent data da</summary>
-    <author><name>Philip D'Souza</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
