@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T22:28:38Z</updated>
+  <updated>2026-08-19T23:26:33Z</updated>
   <entry>
     <title>OpenAI fixes Codex bug that deleted real user files without permission</title>
     <link href="https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/" rel="alternate"/>
@@ -22,6 +22,24 @@
     <summary type="text">SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.</summary>
     <author><name>Rebecca Bellan</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How we expose a full project tracker over MCP (so agents can file and close issues)</title>
+    <link href="https://dev.to/omarharis/how-we-expose-a-full-project-tracker-over-mcp-so-agents-can-file-and-close-issues-3dn5" rel="alternate"/>
+    <id>https://dev.to/omarharis/how-we-expose-a-full-project-tracker-over-mcp-so-agents-can-file-and-close-issues-3dn5</id>
+    <updated>2026-08-19T22:41:42Z</updated>
+    <summary type="text">Most &quot;AI project tools&quot; wrap a chatbot around a board. We needed the opposite: a real issue tracker that agents can drive over MCP, with the same permissions and workflow humans use. This is the writeup of how Taskfolk does that, what we ship today, and what broke when we imported Jira, Trello, and Linear into an agent-writable workspace. The constraint If an agent cannot create, assign, comment, </summary>
+    <author><name>Omar Haris</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Is Drupal Still a CMS? Its New Role in the Agentic Stack</title>
+    <link href="https://dev.to/yielab/is-drupal-still-a-cms-its-new-role-in-the-agentic-stack-4mfa" rel="alternate"/>
+    <id>https://dev.to/yielab/is-drupal-still-a-cms-its-new-role-in-the-agentic-stack-4mfa</id>
+    <updated>2026-08-19T22:15:40Z</updated>
+    <summary type="text">For most of its history, Drupal has been easy to describe: a CMS, or for developers, a content management framework. That is still true. But in 2026, it is becoming incomplete. Through projects such as AI Search, AI Agents, Tool API, and MCP Server, Drupal can now participate in RAG pipelines, expose application capabilities as tools, and allow external AI agents to interact with a site. What make</summary>
+    <author><name>Santiago yie</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>The Mark and the Meter: A Fortnight of AI Gripes</title>
@@ -440,26 +458,5 @@
     <summary type="text">-- title: &quot;I Tried Every Dark Theme in Codex Skin Studio. Here Is What Actually Works.&quot; description: &quot;Dark themes are not just 'black background'. A tour of the built-in dark presets, how to build a dark palette that stays readable, and the three spots everyone forgets to check.&quot; tags: [&quot;codex&quot;, &quot;themes&quot;, &quot;darkmode&quot;, &quot;frontend&quot;] canonical_url: https://codex-skin-studio.shop/en/blog/codex-dark-them</summary>
     <author><name>ahmed isam</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Why AI Coding Agents Silently Break Full-Stack Apps (And How We Solved It in 0.75ms)</title>
-    <link href="https://dev.to/zainulabideen02/why-ai-coding-agents-silently-break-full-stack-apps-and-how-we-solved-it-in-075ms-2haa" rel="alternate"/>
-    <id>https://dev.to/zainulabideen02/why-ai-coding-agents-silently-break-full-stack-apps-and-how-we-solved-it-in-075ms-2haa</id>
-    <updated>2026-08-18T16:01:16Z</updated>
-    <summary type="text">When AI coding agents (Cursor, Claude Code, Windsurf) edit backend models or API routes in full-stack codebases, backend unit tests frequently pass while the frontend silently breaks in production: An agent modifies an API parameter or Pydantic/SQLAlchemy field in backend/routes.py. Backend tests pass in isolation. Nothing warns the agent. The React/Next.js client calling that endpoint across the </summary>
-    <author><name>Muhammad Zain Ul Abideen</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Not Every LLM Needs vLLM: A Kubernetes Engineer's Guide to Serving Engines</title>
-    <link href="https://dev.to/the-persistent-engineer/not-every-llm-needs-vllm-a-kubernetes-engineers-guide-to-serving-engines-15h0" rel="alternate"/>
-    <id>https://dev.to/the-persistent-engineer/not-every-llm-needs-vllm-a-kubernetes-engineers-guide-to-serving-engines-15h0</id>
-    <updated>2026-08-18T15:51:03Z</updated>
-    <summary type="text">Series links Part 1: Everything You Know About Scaling Web Apps Breaks When You Serve an LLM Part 2: The Request Is the Wrong Unit of Scale for LLMs on Kubernetes Part 3: How Do You Fit a Trillion-Parameter Model Into a Kubernetes Cluster? Part 4: Before the Pod Starts: GPU Node Setup for LLMs on Kubernetes Part 5: OpenAI Already Told Us the Kubernetes Scaling Story, Most People Just Did Not Read </summary>
-    <author><name>Pawan Kumar</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
   </entry>
 </feed>
