@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T04:41:27Z</updated>
+  <updated>2026-08-19T05:34:29Z</updated>
   <entry>
     <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
     <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
@@ -39,6 +39,25 @@
     <updated>2026-08-18T13:00:04Z</updated>
     <summary type="text">Secret parameter allowed hackers to steal passwords when a target clicked on a link.</summary>
     <author><name>Dan Goodin</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Self-Healing AI Layer for Odoo — Here's What Actually Broke</title>
+    <link href="https://dev.to/nida_shafiq_f241afc467f5a/i-built-a-self-healing-ai-layer-for-odoo-heres-what-actually-broke-3m03" rel="alternate"/>
+    <id>https://dev.to/nida_shafiq_f241afc467f5a/i-built-a-self-healing-ai-layer-for-odoo-heres-what-actually-broke-3m03</id>
+    <updated>2026-08-19T05:20:36Z</updated>
+    <summary type="text">Enterprise ERP platforms like Odoo get customized constantly — every business adds its own fields (x_studio_client_tax_id, x_vendor_code_v2, whatever they need). The problem: hardcoded integrations break the instant a database schema diverges from what they expect. A missing field, an invalid selection value, a type mismatch — and the whole transaction crashes. So I built a middleware layer that d</summary>
+    <author><name>nida shafiq</name></author>
+    <category term="rag"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>3 Weeks of Silent Backup Failure: Why launchd Can't Write to ~/Documents on macOS</title>
+    <link href="https://dev.to/bokuwalily/3-weeks-of-silent-backup-failure-why-launchd-cant-write-to-documents-on-macos-4ecm" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/3-weeks-of-silent-backup-failure-why-launchd-cant-write-to-documents-on-macos-4ecm</id>
+    <updated>2026-08-19T05:00:06Z</updated>
+    <summary type="text">Every Sunday at 6:00 AM, my backup job ran, logged no changes, and exited 0. For three weeks straight it never copied a single file. macOS was blocking it, and nothing in the system told me. Why this setup works The first problem you hit when you automate personal development work is &quot;I can't roll back when my config breaks.&quot; Once you build out a Claude Code environment, hundreds of lines of confi</summary>
+    <author><name>Lily</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -442,23 +461,5 @@
     <author><name>Rahul</name></author>
     <category term="llm"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Docker Compose Isn't What I Thought It Was</title>
-    <link href="https://dev.to/sreekanth_kuruba_91721e5d/docker-compose-isnt-what-i-thought-it-was-1pjg" rel="alternate"/>
-    <id>https://dev.to/sreekanth_kuruba_91721e5d/docker-compose-isnt-what-i-thought-it-was-1pjg</id>
-    <updated>2026-08-18T03:21:36Z</updated>
-    <summary type="text">post 7: A practical guide to understanding Docker Compose—what it is, how it works, and the misconceptions that catch most beginners. You've mastered single containers. Now it's time to build a real application. A frontend. A backend. A database. A Redis cache. Suddenly you're juggling multiple docker run commands. Ports. Networks. Volumes. Environment variables. Chaos. Then someone says: &quot;Just us</summary>
-    <author><name>Sreekanth Kuruba</name></author>
-  </entry>
-  <entry>
-    <title>RAG Hallucination Diagnosis: Evidence Gating Beats Embeddings for Ask-Your-Docs Chatbot Answers</title>
-    <link href="https://dev.to/brockfletcher1438/rag-hallucination-diagnosis-evidence-gating-beats-embeddings-for-ask-your-docs-chatbot-answers-18a7" rel="alternate"/>
-    <id>https://dev.to/brockfletcher1438/rag-hallucination-diagnosis-evidence-gating-beats-embeddings-for-ask-your-docs-chatbot-answers-18a7</id>
-    <updated>2026-08-18T01:05:25Z</updated>
-    <summary type="text">Short answer: A docs chatbot should abstain whenever it cannot assemble enough directly relevant evidence for a moderation report. For classifying gaming reports before human review, choose evidence gating over a larger context window: retrieval may propose evidence, but a separate policy must decide whether the system may answer. This favors quality over shaving a little latency from the happy pa</summary>
-    <author><name>BrockFletcher1438</name></author>
-    <category term="rag"/>
-    <category term="llm"/>
   </entry>
 </feed>
