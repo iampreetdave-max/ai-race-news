@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-19T07:41:55Z</updated>
+  <updated>2026-08-19T08:41:57Z</updated>
   <entry>
     <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
     <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
@@ -30,6 +30,16 @@
     <updated>2026-08-18T10:06:16Z</updated>
     <summary type="text">With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design command that lets developers create UI mockups right in the terminal appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP, Subagents, and Hooks in Claude Code: The Guide I Wish I'd Had</title>
+    <link href="https://dev.to/alvarito1983/mcp-subagents-and-hooks-in-claude-code-the-guide-i-wish-id-had-4gg" rel="alternate"/>
+    <id>https://dev.to/alvarito1983/mcp-subagents-and-hooks-in-claude-code-the-guide-i-wish-id-had-4gg</id>
+    <updated>2026-08-19T08:36:15Z</updated>
+    <summary type="text">Originally published on El Rack — Spanish tech reviews from a sysadmin/homelab perspective. Claude Code is capable right out of the box, but it starts to feel thin the moment your project needs to touch external systems: a ticket tracker, a database, your own VPS. This guide covers the four pieces that turn it into a real production tool: MCP (/mcp): connecting external services as tools Subagents</summary>
+    <author><name>Alvarito1983</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -451,13 +461,5 @@
     <summary type="text">I've now routed five different AI coding tools through a proxy layer. Each one broke differently. None of them told me why. Writing this partly as a reference for myself, partly because the failure modes turn out to be genuinely interesting — they say a lot about how these tools are built. Claude Code: reads config once, then never again The simplest of the five. Config lives in ~/.claude/settings</summary>
     <author><name>xiaodong Zhang</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I wrote a scraper for a government agency's announcements — and learned why boring tools win</title>
-    <link href="https://dev.to/primesieve/i-wrote-a-scraper-for-a-government-agencys-announcements-and-learned-why-boring-tools-win-2blk" rel="alternate"/>
-    <id>https://dev.to/primesieve/i-wrote-a-scraper-for-a-government-agencys-announcements-and-learned-why-boring-tools-win-2blk</id>
-    <updated>2026-08-18T06:02:08Z</updated>
-    <summary type="text">I wrote a scraper for a government agency's announcements — and learned why boring tools win Every morning at 6 AM, a small Python script on one VPS checks the Indonesian food agency's announcement page. If there's something new, it saves the record to a JSON file. That's the whole job. I built it because I wanted to track food-policy announcements without refreshing a website by hand. It runs on:</summary>
-    <author><name>Prime Sieve</name></author>
   </entry>
 </feed>
