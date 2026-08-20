@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-20T07:44:02Z</updated>
+  <updated>2026-08-20T08:45:10Z</updated>
   <entry>
     <title>OpenAI fixes Codex bug that deleted real user files without permission</title>
     <link href="https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/" rel="alternate"/>
@@ -21,6 +21,34 @@
     <updated>2026-08-19T21:51:23Z</updated>
     <summary type="text">SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.</summary>
     <author><name>Rebecca Bellan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I shipped a plugin with one branch I hadn't tested — so I built a fallback</title>
+    <link href="https://dev.to/eugeniya_ivanova_4a58eadc/i-shipped-a-plugin-with-one-branch-i-hadnt-tested-so-i-built-a-fallback-lc8" rel="alternate"/>
+    <id>https://dev.to/eugeniya_ivanova_4a58eadc/i-shipped-a-plugin-with-one-branch-i-hadnt-tested-so-i-built-a-fallback-lc8</id>
+    <updated>2026-08-20T08:30:58Z</updated>
+    <summary type="text">I wrote the Obsidian plugin with Claude Code: it typed the code; the rules, reviews, and decisions were mine. I led, argued with it, redid things, and submitted the plugin for review myself. I'm not an engineer. My job is getting people to actually use our product. The plugin itself is simple: one main.js, 557 lines, zero dependencies, Obsidian API only. It takes the note you have open and sends i</summary>
+    <author><name>Eugeniya Ivanova</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Stuffing Your Context Window: 6 Architectural Shifts to Cut Token Costs and Latency</title>
+    <link href="https://dev.to/bhavin_gandha_38051596191/stop-stuffing-your-context-window-6-architectural-shifts-to-cut-token-costs-and-latency-3kkd" rel="alternate"/>
+    <id>https://dev.to/bhavin_gandha_38051596191/stop-stuffing-your-context-window-6-architectural-shifts-to-cut-token-costs-and-latency-3kkd</id>
+    <updated>2026-08-20T08:23:03Z</updated>
+    <summary type="text">Over the last year, large language models shifted from experimental prototypes to core backend infrastructure. As feature sets expand, an anti-pattern emerges across engineering teams: solving every product requirement by shoving more raw context into the prompt. While building real-time, data-intensive features for Fanziz spanning personalized news feeds, semantic search, and dynamic live comment</summary>
+    <author><name>Bhavin Gandha</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Claude Code Context Usage: Diagnose Unnecessary Tokens</title>
+    <link href="https://dev.to/bettertoken_ai/claude-code-context-usage-diagnose-unnecessary-tokens-476e" rel="alternate"/>
+    <id>https://dev.to/bettertoken_ai/claude-code-context-usage-diagnose-unnecessary-tokens-476e</id>
+    <updated>2026-08-20T08:18:24Z</updated>
+    <summary type="text">Claude Code Context Usage: Diagnose Unnecessary Tokens In the Claude Code community, a user reported that a fresh session started at roughly 35,000 tokens and later dropped to about 13,000 after cleaning up repository instructions. That is a useful reminder to inspect your own project setup, but not a universal benchmark: codebase size, instruction length, MCP tools, and measurement methods differ</summary>
+    <author><name>Adela</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -430,34 +458,5 @@
     <summary type="text">La Parte 1 construyó una caja siempre encendida para una sesión de remote-control de Claude Code y terminó con una alarma que convierte seis días de silencio en quince minutos. Esa alarma atrapa una caja muerta. Esta es la secuela, y la caja de aquí nunca estuvo muerta. Estaba active, su token estaba fresco, y en cada reinicio imprimía: Take this session with you and pick up right where you left o</summary>
     <author><name>Franchesco Romero</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agent Frameworks in 2025: A Deep Dive into LangChain, CrewAI, MAF, and the Ecosystem</title>
-    <link href="https://dev.to/sanyaduan/ai-agent-frameworks-in-2025-a-deep-dive-into-langchain-crewai-maf-and-the-ecosystem-1m7e" rel="alternate"/>
-    <id>https://dev.to/sanyaduan/ai-agent-frameworks-in-2025-a-deep-dive-into-langchain-crewai-maf-and-the-ecosystem-1m7e</id>
-    <updated>2026-08-19T00:44:58Z</updated>
-    <summary type="text">AI Agent Frameworks in 2025: A Deep Dive into LangChain, CrewAI, MAF, and the Ecosystem An honest comparison to help you choose the right foundation for your next agentic application The AI agent space is exploding. Every week there is a new framework, a new paradigm, a new &quot;revolutionary&quot; way to make language models do things. If you have spent any time building with LLMs recently, you have proba</summary>
-    <author><name>Sanya</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Where Did My 512GB Go? How Developers Lose 50GB+ to Node, Docker &amp; macOS Build Artifacts</title>
-    <link href="https://dev.to/sarmad_hussain_771d6c87fa/where-did-my-512gb-go-how-developers-lose-50gb-to-node-docker-macos-build-artifacts-6m5" rel="alternate"/>
-    <id>https://dev.to/sarmad_hussain_771d6c87fa/where-did-my-512gb-go-how-developers-lose-50gb-to-node-docker-macos-build-artifacts-6m5</id>
-    <updated>2026-08-19T00:37:22Z</updated>
-    <summary type="text">If you develop on a MacBook (especially a 256GB or 512GB model), you've probably seen the dreaded &quot;Disk Almost Full&quot; notification. When you check macOS Storage Settings, Apple simply labels 100GB+ under the ambiguous &quot;System Data&quot; banner. Here is an honest breakdown of where that disk space actually disappears—and how to reclaim it safely without breaking active projects. The 4 Biggest Storage Hog</summary>
-    <author><name>Sarmad Hussain</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Build a Tiny Native Coding Agent in Under 100 Lines</title>
-    <link href="https://dev.to/adilaidev/build-a-tiny-native-coding-agent-in-under-100-lines-1o0k" rel="alternate"/>
-    <id>https://dev.to/adilaidev/build-a-tiny-native-coding-agent-in-under-100-lines-1o0k</id>
-    <updated>2026-08-19T00:36:47Z</updated>
-    <summary type="text">Most coding agents feel like over-engineered black boxes. They rely on cloud APIs, eat RAM like candy, and hide their internals behind layers of abstraction. What if you could build one that fits in a single file, runs on your laptop, and does exactly what you need without the bloat? Why tiny and native matters A tiny agent means no unnecessary dependencies. No Docker containers, no Python virtual</summary>
-    <author><name>Muhammad Adil</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
