@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-20T08:45:10Z</updated>
+  <updated>2026-08-20T09:38:55Z</updated>
   <entry>
     <title>OpenAI fixes Codex bug that deleted real user files without permission</title>
     <link href="https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/" rel="alternate"/>
@@ -21,6 +21,25 @@
     <updated>2026-08-19T21:51:23Z</updated>
     <summary type="text">SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.</summary>
     <author><name>Rebecca Bellan</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Driving DaVinci Resolve's Free Edition with Claude, From Inside the App</title>
+    <link href="https://dev.to/_leesam_ded8ba7b9a7e/driving-davinci-resolves-free-edition-with-claude-from-inside-the-app-4h19" rel="alternate"/>
+    <id>https://dev.to/_leesam_ded8ba7b9a7e/driving-davinci-resolves-free-edition-with-claude-from-inside-the-app-4h19</id>
+    <updated>2026-08-20T09:11:47Z</updated>
+    <summary type="text">The wall Every MCP server that controls DaVinci Resolve connects to it the same way: a script running outside the app calls into Resolve's scripting API over the network. That works fine on Resolve Studio. On the free edition it doesn't work at all — Lite is sandboxed and blocks any script that isn't launched from inside Resolve itself. The one door left open Free Resolve still runs Python scripts</summary>
+    <author><name>이영준 (leesam)</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI-Generated Code Vulnerability Exploited by Autonomous Agent in Snowflake</title>
+    <link href="https://dev.to/davekurian/ai-generated-code-vulnerability-exploited-by-autonomous-agent-in-snowflake-3ihd" rel="alternate"/>
+    <id>https://dev.to/davekurian/ai-generated-code-vulnerability-exploited-by-autonomous-agent-in-snowflake-3ihd</id>
+    <updated>2026-08-20T09:09:44Z</updated>
+    <summary type="text">Two AI agents just fought over a Snowflake PR. You should read about it. In five days, two AI agents turned a Snowflake connector repo into a live demo of machine-vs-machine offense. On June 18, 2026, GitHub Copilot Autofix co-authored a commit that quietly dropped input sanitization from a shell-based run block. On June 23, an autonomous AI security agent — running an offensive scan — found the f</summary>
+    <author><name>Dave Kurian</name></author>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -439,24 +458,5 @@
     <summary type="text">Notion spent most of its life as a place to write documents and organize databases. In 2026 it repositioned itself as something closer to an operating layer: a workspace where AI agents read your data, write your files, and complete tasks alongside your team. If you run operations for a small or mid-size business, the Notion AI agents rollout this year is worth understanding on its own terms, not </summary>
     <author><name>Abhijeet Singh</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Grounding an LLM in real tax data with a public MCP server</title>
-    <link href="https://dev.to/d_edu_eebba6de1155fe/grounding-an-llm-in-real-tax-data-with-a-public-mcp-server-5h58" rel="alternate"/>
-    <id>https://dev.to/d_edu_eebba6de1155fe/grounding-an-llm-in-real-tax-data-with-a-public-mcp-server-5h58</id>
-    <updated>2026-08-19T04:26:39Z</updated>
-    <summary type="text">We all know the failure mode: ask an LLM for a tax rate and it'll hand you a confident number with zero provenance. Fine for a demo, useless for anything you'd ship. The interesting question is how you ground the model in a source of truth — and MCP has quietly made that a one-liner. Quick recap for anyone who missed it: Model Context Protocol is an open standard (Anthropic, late 2024) for connect</summary>
-    <author><name>edu</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Cómo mantener siempre disponibles las sesiones de tu agente de código remoto (parte 2)</title>
-    <link href="https://dev.to/aws-builders/mover-un-agente-de-ia-siempre-encendido-de-un-vps-de-24-a-fargate-spot-pt-2-o4f" rel="alternate"/>
-    <id>https://dev.to/aws-builders/mover-un-agente-de-ia-siempre-encendido-de-un-vps-de-24-a-fargate-spot-pt-2-o4f</id>
-    <updated>2026-08-19T00:53:33Z</updated>
-    <summary type="text">La Parte 1 construyó una caja siempre encendida para una sesión de remote-control de Claude Code y terminó con una alarma que convierte seis días de silencio en quince minutos. Esa alarma atrapa una caja muerta. Esta es la secuela, y la caja de aquí nunca estuvo muerta. Estaba active, su token estaba fresco, y en cada reinicio imprimía: Take this session with you and pick up right where you left o</summary>
-    <author><name>Franchesco Romero</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
