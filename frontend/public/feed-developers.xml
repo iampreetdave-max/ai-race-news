@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T09:40:49Z</updated>
+  <updated>2026-08-21T10:34:49Z</updated>
+  <entry>
+    <title>Improve AI Output with a News Feed: Ground LLM Answers in Live Coverage</title>
+    <link href="https://dev.to/alexperigon/improve-ai-output-with-a-news-feed-ground-llm-answers-in-live-coverage-81i" rel="alternate"/>
+    <id>https://dev.to/alexperigon/improve-ai-output-with-a-news-feed-ground-llm-answers-in-live-coverage-81i</id>
+    <updated>2026-08-21T10:25:48Z</updated>
+    <summary type="text">Why LLM answers drift without a live news feed Teams ship chatbots, research agents, and support copilots that sound confident on last week’s events - then invent partnerships, mix up CEOs, or cite outlets that never ran the story. Model weights are stale. A generic web scrape is noisy. What fixes AI output for current events is a news feed for AI: structured, filterable coverage you retrieve firs</summary>
+    <author><name>Oleksyj Mokrousov</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Debugging a 401 From a Remote MCP Server</title>
+    <link href="https://dev.to/merlonix/debugging-a-401-from-a-remote-mcp-server-1e8p" rel="alternate"/>
+    <id>https://dev.to/merlonix/debugging-a-401-from-a-remote-mcp-server-1e8p</id>
+    <updated>2026-08-21T10:16:24Z</updated>
+    <summary type="text">An agent points at a remote MCP server, the connection fails, and the log says 401 Unauthorized — or 403 Forbidden. The reflex is to treat it like any other 401: something is broken, a token is wrong, fix the credential. Sometimes that is exactly right. Just as often, the 401 is the server working correctly — it is supposed to challenge for a credential, and the real problem is somewhere upstream </summary>
+    <author><name>Merlonix</name></author>
+  </entry>
   <entry>
     <title>Why 75% of Developers Prefer Claude Code Over Codex</title>
     <link href="https://dev.to/10x/why-75-of-developers-prefer-claude-code-over-codex-5dp1" rel="alternate"/>
@@ -439,25 +457,5 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Zero Dependencies, 250KB, 486 Tests: What I Learned Building an MCP Client</title>
-    <link href="https://dev.to/mcptokensaver/zero-dependencies-250kb-486-tests-what-i-learned-building-an-mcp-client-439i" rel="alternate"/>
-    <id>https://dev.to/mcptokensaver/zero-dependencies-250kb-486-tests-what-i-learned-building-an-mcp-client-439i</id>
-    <updated>2026-08-20T02:34:23Z</updated>
-    <summary type="text">Zero Dependencies, 250KB, 486 Tests: What I Learned Building an MCP Client This is not a product pitch. It's an engineering diary. If you want the pitch, the README is here. This is about the cost of zero. The setup Six weeks ago I started building mcptoon — a CLI tool that sits between AI agents (Claude Code, Cursor, Codex) and MCP servers. The problem it solves: MCP tool schemas get injected int</summary>
-    <author><name>MCP Token Saver</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The alarm wasn't silent. It was lying.</title>
-    <link href="https://dev.to/mk023/the-alarm-wasnt-silent-it-was-lying-iam" rel="alternate"/>
-    <id>https://dev.to/mk023/the-alarm-wasnt-silent-it-was-lying-iam</id>
-    <updated>2026-08-20T02:12:27Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview agentic-os is a small self-hosted observability stack I run on Railway: Prometheus, Grafana, an OpenTelemetry Collector, a cloudflared tunnel, and a public status API that publishes three numbers about my Claude Code usage — requests, tokens, cost. It is a personal project, but it is a real deploy</summary>
-    <author><name>Marco</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
