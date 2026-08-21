@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T12:55:11Z</updated>
+  <updated>2026-08-21T13:50:01Z</updated>
+  <entry>
+    <title>DeepSeek Harness Puts Its Breaking-Changes Warning Before the Install Steps</title>
+    <link href="https://dev.to/renolu/deepseek-harness-puts-its-breaking-changes-warning-before-the-install-steps-1gai" rel="alternate"/>
+    <id>https://dev.to/renolu/deepseek-harness-puts-its-breaking-changes-warning-before-the-install-steps-1gai</id>
+    <updated>2026-08-21T13:37:43Z</updated>
+    <summary type="text">The loudest sentence in the DeepSeek Harness README is set in all caps: &quot;THERE WILL BE COMPATIBILITY-BREAKING CHANGES.&quot; That is not a footnote buried in a changelog. It sits in its own section, second from the top, ahead of the install instructions. Read the rest of the file with that framing and the document stops looking like a user manual and starts looking like a recruiting pitch aimed at plug</summary>
+    <author><name>Reno Lu</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Pi Agent vs OpenCode after 100+ Hours of Real Use ✌️</title>
+    <link href="https://dev.to/composiodev/pi-agent-vs-opencode-after-100-hours-of-real-use-1mh7" rel="alternate"/>
+    <id>https://dev.to/composiodev/pi-agent-vs-opencode-after-100-hours-of-real-use-1mh7</id>
+    <updated>2026-08-21T13:31:28Z</updated>
+    <summary type="text">Open-source coding agents had a weird start to 2026. In January, Anthropic suddenly blocked third-party tools from using Claude subscriptions. Overnight, with no warning. OpenCode got hit the hardest. The team had to remove Claude login support after legal pressure. The commit message was literally just: “anthropic legal requests.” PI never really cared. It was never built around one provider anyw</summary>
+    <author><name>Shrijal Acharya</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>I Built a Chrome Extension to Track AI Token Usage — Here's How It Works</title>
     <link href="https://dev.to/anoop_kumar_63925e275ea06/i-built-a-chrome-extension-to-track-ai-token-usage-heres-how-it-works-1701" rel="alternate"/>
@@ -438,21 +458,5 @@
     <summary type="text">Claude Code Context Usage: Diagnose Unnecessary Tokens In the Claude Code community, a user reported that a fresh session started at roughly 35,000 tokens and later dropped to about 13,000 after cleaning up repository instructions. That is a useful reminder to inspect your own project setup, but not a universal benchmark: codebase size, instruction length, MCP tools, and measurement methods differ</summary>
     <author><name>Adela</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My AI-Written Test Suite Hit 94% Coverage. Then I Mutated the Code.</title>
-    <link href="https://dev.to/magickong/my-ai-written-test-suite-hit-94-coverage-then-i-mutated-the-code-3k1a" rel="alternate"/>
-    <id>https://dev.to/magickong/my-ai-written-test-suite-hit-94-coverage-then-i-mutated-the-code-3k1a</id>
-    <updated>2026-08-20T07:21:30Z</updated>
-    <summary type="text">I have a small Python library that parses CSV files and extracts course schedules. It has no tests. I know, I know. So last week, I decided to see if a free model could write them for me. I used MonkeyCode's free model access and free server. Disclosure: This article was prepared as part of MonkeyCode's product outreach. The goal was simple: generate a test suite for my library, run it, and measur</summary>
-    <author><name>Alex Chen</name></author>
-  </entry>
-  <entry>
-    <title>Self-Hosted Chatwoot: 5 Failures the Docs Don't Warn You About</title>
-    <link href="https://dev.to/achiya-automation/self-hosted-chatwoot-5-failures-the-docs-dont-warn-you-about-47c3" rel="alternate"/>
-    <id>https://dev.to/achiya-automation/self-hosted-chatwoot-5-failures-the-docs-dont-warn-you-about-47c3</id>
-    <updated>2026-08-20T06:10:34Z</updated>
-    <summary type="text">I run self-hosted Chatwoot as the WhatsApp inbox for a dozen or so small Israeli businesses. Two servers, a few thousand conversations a week, a drip-sequence engine bolted on the side. Chatwoot is good software. The self-hosting docs will get you to a running container. What they will not tell you is which failures actually happen at month six, when you have real customers and real volume. These </summary>
-    <author><name>אחיה כהן</name></author>
   </entry>
 </feed>
