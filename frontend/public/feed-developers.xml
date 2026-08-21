@@ -4,7 +4,23 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T07:49:16Z</updated>
+  <updated>2026-08-21T08:45:23Z</updated>
+  <entry>
+    <title>Zero-code PII sanitization for Fluentd and Fluent Bit in Kubernetes</title>
+    <link href="https://dev.to/aragossa/zero-code-pii-sanitization-for-fluentd-and-fluent-bit-in-kubernetes-1i1g" rel="alternate"/>
+    <id>https://dev.to/aragossa/zero-code-pii-sanitization-for-fluentd-and-fluent-bit-in-kubernetes-1i1g</id>
+    <updated>2026-08-21T08:14:30Z</updated>
+    <summary type="text">TL;DR: send app logs through a PII-Shield sidecar before Fluentd or Fluent Bit read them, then collect only masked identifiers like [HIDDEN:a1b2c3] instead of maintaining regex filters that break the moment a new secret format shows up. Fluentd and its lighter C-based sibling Fluent Bit are the most common unified logging layers in Kubernetes — CNCF graduated projects with a huge plugin ecosystem </summary>
+    <author><name>Ilya Ploskovitov</name></author>
+  </entry>
+  <entry>
+    <title>Don't Let Codex Roam Free: 6 Guardrails I Use for AI-Assisted Coding</title>
+    <link href="https://dev.to/tosane932/dont-let-codex-roam-free-6-guardrails-i-use-for-ai-assisted-coding-4bj4" rel="alternate"/>
+    <id>https://dev.to/tosane932/dont-let-codex-roam-free-6-guardrails-i-use-for-ai-assisted-coding-4bj4</id>
+    <updated>2026-08-21T08:01:14Z</updated>
+    <summary type="text">Leaving Everything to AI Feels Risky. But Codex Became Much More Reliable Once I Put Up Some Guardrails https://github.com/tosane932/sales_data_app Introduction This article was originally published in Japanese on Qiita and has been translated and adapted for DEV Community. I currently work as a truck driver while teaching myself web application development using Python and Flask. Recently, I've b</summary>
+    <author><name>tosane932</name></author>
+  </entry>
   <entry>
     <title>AI Agent Hacks Gym Waitlist, Tech World Reacts</title>
     <link href="https://dev.to/10x/ai-agent-hacks-gym-waitlist-tech-world-reacts-4lhc" rel="alternate"/>
@@ -441,24 +457,6 @@
     <updated>2026-08-19T22:41:42Z</updated>
     <summary type="text">Most &quot;AI project tools&quot; wrap a chatbot around a board. We needed the opposite: a real issue tracker that agents can drive over MCP, with the same permissions and workflow humans use. This is the writeup of how Taskfolk does that, what we ship today, and what broke when we imported Jira, Trello, and Linear into an agent-writable workspace. The constraint If an agent cannot create, assign, comment, </summary>
     <author><name>Omar Haris</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Is Drupal Still a CMS? Its New Role in the Agentic Stack</title>
-    <link href="https://dev.to/yielab/is-drupal-still-a-cms-its-new-role-in-the-agentic-stack-4mfa" rel="alternate"/>
-    <id>https://dev.to/yielab/is-drupal-still-a-cms-its-new-role-in-the-agentic-stack-4mfa</id>
-    <updated>2026-08-19T22:15:40Z</updated>
-    <summary type="text">For most of its history, Drupal has been easy to describe: a CMS, or for developers, a content management framework. That is still true. But in 2026, it is becoming incomplete. Through projects such as AI Search, AI Agents, Tool API, and MCP Server, Drupal can now participate in RAG pipelines, expose application capabilities as tools, and allow external AI agents to interact with a site. What make</summary>
-    <author><name>Santiago yie</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Mark and the Meter: A Fortnight of AI Gripes</title>
-    <link href="https://dev.to/theaidownside/the-mark-and-the-meter-a-fortnight-of-ai-gripes-4cpo" rel="alternate"/>
-    <id>https://dev.to/theaidownside/the-mark-and-the-meter-a-fortnight-of-ai-gripes-4cpo</id>
-    <updated>2026-08-19T21:44:59Z</updated>
-    <summary type="text">Some fortnights the complaints scatter across a dozen topics; this one they clustered around two. Across the forums where paying AI users gather to compare notes, two things happened in the same window that left the same taste: the meter moved, and the mark landed. In both cases, something about the product changed without a clear announcement, and the users found out by running into it. Quotes so</summary>
-    <author><name>The AI Downside</name></author>
     <category term="llm"/>
   </entry>
 </feed>
