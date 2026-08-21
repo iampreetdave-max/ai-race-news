@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T21:28:56Z</updated>
+  <updated>2026-08-21T22:29:10Z</updated>
+  <entry>
+    <title>n8n vs Python for Automation: When No-Code Wins vs When You Need Code</title>
+    <link href="https://dev.to/samchenreviews/n8n-vs-python-for-automation-when-no-code-wins-vs-when-you-need-code-22c5" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/n8n-vs-python-for-automation-when-no-code-wins-vs-when-you-need-code-22c5</id>
+    <updated>2026-08-21T22:21:31Z</updated>
+    <summary type="text">Use n8n for business workflows that connect APIs and services without complex logic, Python when you need custom algorithms or data processing that no-code can't handle. The real answer isn't choosing one - it's knowing when each tool shines and how to combine them for maximum automation power. Most automation builders hit this crossroads: stick with visual no-code tools like n8n, or bite the bull</summary>
+    <author><name>Sam Chen</name></author>
+  </entry>
+  <entry>
+    <title>what is rag ai: a no-PhD guide to retrieval-augmented generation</title>
+    <link href="https://dev.to/samchenreviews/what-is-rag-ai-a-no-phd-guide-to-retrieval-augmented-generation-a2g" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/what-is-rag-ai-a-no-phd-guide-to-retrieval-augmented-generation-a2g</id>
+    <updated>2026-08-21T22:21:25Z</updated>
+    <summary type="text">RAG is a technique that combines a large language model (LLM) with a vector store of embedded text chunks to retrieve relevant context at query time. In practice you feed a user prompt to the LLM, first pull the most relevant passages from an external knowledge base, then let the model generate a response that is grounded in those passages. This matters because it dramatically reduces hallucinatio</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to automate meeting notes with AI - from transcript to assigned tasks</title>
+    <link href="https://dev.to/samchenreviews/how-to-automate-meeting-notes-with-ai-from-transcript-to-assigned-tasks-53b0" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/how-to-automate-meeting-notes-with-ai-from-transcript-to-assigned-tasks-53b0</id>
+    <updated>2026-08-21T22:21:19Z</updated>
+    <summary type="text">You can automate meeting notes with AI by feeding an audio recording into a transcription service, passing the raw text to a Large Language Model (LLM) that extracts a concise summary and a list of action items, then routing those items into Notion for reference and Asana for execution - all orchestrated in n8n. The result is a hands-free workflow that turns every meeting into a searchable knowled</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to automate customer support with AI: Build a RAG-powered chatbot that knows when to escalate</title>
+    <link href="https://dev.to/samchenreviews/how-to-automate-customer-support-with-ai-build-a-rag-powered-chatbot-that-knows-when-to-escalate-2789" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/how-to-automate-customer-support-with-ai-build-a-rag-powered-chatbot-that-knows-when-to-escalate-2789</id>
+    <updated>2026-08-21T22:21:12Z</updated>
+    <summary type="text">Result: By the end of this guide you'll have an n8n-driven workflow that pulls answers from your documentation via Retrieval-Augmented Generation (RAG), delivers them through a chat widget, and automatically creates a ticket when confidence is low. The system runs 24/7, reduces repetitive human effort, and ensures every ambiguous request lands in your ticketing tool for a human agent. What is AI c</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="open-source"/>
+    <category term="rag"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI Rolls Out Flexible Codex Pricing for Business and Enterprise Teams</title>
     <link href="https://dev.to/alifar/openai-rolls-out-flexible-codex-pricing-for-business-and-enterprise-teams-1p3f" rel="alternate"/>
@@ -420,41 +459,5 @@
     <author><name>Felix</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Introducing Concilium: A Multi-Model Method for Hard Problems</title>
-    <link href="https://dev.to/raicho_minev_f7f6baf70d35/introducing-concilium-a-multi-model-method-for-hard-problems-jem" rel="alternate"/>
-    <id>https://dev.to/raicho_minev_f7f6baf70d35/introducing-concilium-a-multi-model-method-for-hard-problems-jem</id>
-    <updated>2026-08-20T16:21:22Z</updated>
-    <summary type="text">One question, several models Concilium is a method for bringing several AI model families to one difficult question. Instead of asking one assistant for a confident answer, it gives models different roles and lets them explore, challenge and extend one another's work. The human remains responsible for the question, the evidence and the final judgment. The model families The council can include Cla</summary>
-    <author><name>Raicho Minev</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cognition CEO denies report that SpaceX tried to acquire the startup</title>
-    <link href="https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/</id>
-    <updated>2026-08-19T21:51:23Z</updated>
-    <summary type="text">SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.</summary>
-    <author><name>Rebecca Bellan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Create Your Own Claude Code Skill With SKILL.md</title>
-    <link href="https://dev.to/arthur_luca/how-to-create-your-own-claude-code-skill-with-skillmd-3555" rel="alternate"/>
-    <id>https://dev.to/arthur_luca/how-to-create-your-own-claude-code-skill-with-skillmd-3555</id>
-    <updated>2026-08-20T15:30:25Z</updated>
-    <summary type="text">If you use Claude Code for frontend development, you may have noticed something. Claude can write code very fast. But sometimes the UI it creates looks too similar to other AI-generated websites. You get the same rounded cards, large headings, soft shadows, gradients, and simple layouts. The code works. But the design does not always feel like your own. Hi everyone, I am Henry. In this article, I </summary>
-    <author><name>Arthur</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>acc vs acc_norm: Why Length Bias Skews LLM Eval Scores</title>
-    <link href="https://dev.to/ji_ai/acc-vs-accnorm-why-length-bias-skews-llm-eval-scores-p6e" rel="alternate"/>
-    <id>https://dev.to/ji_ai/acc-vs-accnorm-why-length-bias-skews-llm-eval-scores-p6e</id>
-    <updated>2026-08-20T15:20:49Z</updated>
-    <summary type="text">Your fine-tune gains three points of acc_norm on HellaSwag and loses two points of acc. Same checkpoint, same harness, same seed. Nothing about the model's commonsense reasoning moved in two directions at once — you changed its average per-token entropy, and one of those two metrics is partly measuring how long the answer string is. This is the acc vs acc_norm problem, and it decides which number </summary>
-    <author><name>jidonglab</name></author>
   </entry>
 </feed>
