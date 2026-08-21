@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T10:34:49Z</updated>
+  <updated>2026-08-21T11:30:45Z</updated>
+  <entry>
+    <title>After 15 Years of Coding, AI Made Me Start More Projects in 6 Months Than My Entire Career Combined</title>
+    <link href="https://dev.to/devworkdir/after-15-years-of-coding-ai-made-me-start-more-projects-in-6-months-than-my-entire-career-combined-1b49" rel="alternate"/>
+    <id>https://dev.to/devworkdir/after-15-years-of-coding-ai-made-me-start-more-projects-in-6-months-than-my-entire-career-combined-1b49</id>
+    <updated>2026-08-21T11:27:43Z</updated>
+    <summary type="text">TL;DR: I'm a full-stack developer with 15 years of experience, mostly building mobile apps, then web, backend, and desktop. After I started using Cursor and Claude Code, my productivity exploded — one idea quickly becomes a full-stack project with frontend, backend, and infrastructure. My project count grew 10x, but my memory didn't. So I built Dev WorkDir, a macOS menu bar app that organizes all </summary>
+    <author><name>Dev WorkDir</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Shipping 12 iOS Apps to the App Store Unattended, Part 2 — Every Review Trap (Beta Builds Rejected, Pricing, Name Collisions)</title>
+    <link href="https://dev.to/bokuwalily/shipping-12-ios-apps-to-the-app-store-unattended-part-2-every-review-trap-beta-builds-rejected-2jim" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/shipping-12-ios-apps-to-the-app-store-unattended-part-2-every-review-trap-beta-builds-rejected-2jim</id>
+    <updated>2026-08-21T11:00:07Z</updated>
+    <summary type="text">I got laid off with ¥0 in the bank. Six months later, rebuilt around Claude Code running as an autonomous environment, I'm clearing ¥1.2M a month — and one of the load-bearing pieces is a pipeline that submits apps to the App Store without me touching it. Part 1 covered how to wire up JWT authentication and the skeleton of asc.py. This time I'm collecting the three &quot;review rejection traps&quot; that on</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Improve AI Output with a News Feed: Ground LLM Answers in Live Coverage</title>
     <link href="https://dev.to/alexperigon/improve-ai-output-with-a-news-feed-ground-llm-answers-in-live-coverage-81i" rel="alternate"/>
@@ -436,26 +454,5 @@
     <updated>2026-08-20T03:46:23Z</updated>
     <summary type="text">Imagine you have a complex microservice. For local development, you need it connected to a message queue, a telemetry collector, and a database. But for your E2E testing, you need a slightly modified version (different env vars, an extra mock dependency, maybe a different port). Most engineers solve this by maintaining two massive, almost-identical YAML files. It is a nightmare to sync changes. Or</summary>
     <author><name>Mohammad Jawad (Kasir) Barati</name></author>
-  </entry>
-  <entry>
-    <title>Local vs remote MCP servers: which one you actually want</title>
-    <link href="https://dev.to/sam_novak_574b07811e18495/local-vs-remote-mcp-servers-which-one-you-actually-want-3cic" rel="alternate"/>
-    <id>https://dev.to/sam_novak_574b07811e18495/local-vs-remote-mcp-servers-which-one-you-actually-want-3cic</id>
-    <updated>2026-08-20T03:16:36Z</updated>
-    <summary type="text">There are two kinds of MCP server, they solve different problems, and almost nothing tells you which one you are building until you are deep enough in to have already made the wrong choice. I worked this out from a submission form. More on that below, because it turns out to be the clearest signal in the whole ecosystem and it is buried in a footnote. The two shapes Local (stdio). The server runs </summary>
-    <author><name>Sam Novak</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Build Your First AI Agent Tool in 15 Minutes (20+ Open Issues for Beginners!)</title>
-    <link href="https://dev.to/tarunjandra/how-to-build-your-first-ai-agent-tool-in-15-minutes-20-open-issues-for-beginners-5334" rel="alternate"/>
-    <id>https://dev.to/tarunjandra/how-to-build-your-first-ai-agent-tool-in-15-minutes-20-open-issues-for-beginners-5334</id>
-    <updated>2026-08-20T03:12:37Z</updated>
-    <summary type="text">If you’ve been using ChatGPT, Claude, or LangChain, you know that Large Language Models (LLMs) are completely isolated from the real world. They can't check the weather, read your emails, query your database, or send Slack messages. That is, unless you give them Tools. Connecting AI agents to external APIs is one of the most in-demand skills in AI engineering right now. To make this easier for eve</summary>
-    <author><name>Tarun Kumar</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
