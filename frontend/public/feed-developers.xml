@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T04:44:49Z</updated>
+  <updated>2026-08-21T05:36:31Z</updated>
+  <entry>
+    <title>&quot;V cache quantization requires flash_attn&quot; — the llama.cpp error that quietly halves your context window</title>
+    <link href="https://dev.to/dreamdeck/v-cache-quantization-requires-flashattn-the-llamacpp-error-that-quietly-halves-your-context-1kdb" rel="alternate"/>
+    <id>https://dev.to/dreamdeck/v-cache-quantization-requires-flashattn-the-llamacpp-error-that-quietly-halves-your-context-1kdb</id>
+    <updated>2026-08-21T05:23:22Z</updated>
+    <summary type="text">I did not meet this error while debugging a crash. I met it while writing a calculator. llama_context: quantized V cache requires flash_attn to be enabled There is a second wording, thrown as an exception a little later in startup and surfacing as failed to initialize the context: quantized V cache was requested, but this requires Flash Attention and a third, older one — V cache quantization requi</summary>
+    <author><name>Jasur Yuldoshev</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Most Developers Test Their Code. Why Don't They Test Their AI?</title>
+    <link href="https://dev.to/jaideepparashar/most-developers-test-their-code-why-dont-they-test-their-ai-1kp3" rel="alternate"/>
+    <id>https://dev.to/jaideepparashar/most-developers-test-their-code-why-dont-they-test-their-ai-1kp3</id>
+    <updated>2026-08-21T05:21:43Z</updated>
+    <summary type="text">Here's something I've been thinking about while building AI systems: Developers are obsessed with testing code. We write unit tests. Integration tests. End-to-end tests. CI pipelines. Code reviews. Linting. Type checking. But then we build an AI feature and suddenly the testing strategy becomes: &quot;I tried it three times and it seems pretty good.&quot; That's not testing. That's optimism. And I think thi</summary>
+    <author><name>Jaideep Parashar</name></author>
+  </entry>
   <entry>
     <title>How ChatGPT Work helps Stampli move ideas to market</title>
     <link href="https://openai.com/index/stampli" rel="alternate"/>
@@ -12,6 +29,23 @@
     <updated>2026-08-20T00:00:00Z</updated>
     <summary type="text">With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Two Hours Lost to a Silent 401: Submitting 12 iOS Apps to the App Store With No Human in the Loop (Part 1)</title>
+    <link href="https://dev.to/bokuwalily/two-hours-lost-to-a-silent-401-submitting-12-ios-apps-to-the-app-store-with-no-human-in-the-loop-1op5" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/two-hours-lost-to-a-silent-401-submitting-12-ios-apps-to-the-app-store-with-no-human-in-the-loop-1op5</id>
+    <updated>2026-08-21T05:00:09Z</updated>
+    <summary type="text">I went from earning about ¥100,000 a month as a university student to ¥600,000 by stacking side gigs — then got laid off and dropped straight back to zero. Six months later, after rebuilding everything around an autonomous Claude Code environment, monthly revenue is past ¥1.2M. The piece of that environment I want to open up here is the one that lets apps go into App Store review without a human e</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>This week in AI + Indian markets: a zero-click exploit, an open-weight frontier, and a losing streak that snapped</title>
+    <link href="https://dev.to/abhishek_sharma_a9792aee8/this-week-in-ai-indian-markets-a-zero-click-exploit-an-open-weight-frontier-and-a-losing-400h" rel="alternate"/>
+    <id>https://dev.to/abhishek_sharma_a9792aee8/this-week-in-ai-indian-markets-a-zero-click-exploit-an-open-weight-frontier-and-a-losing-400h</id>
+    <updated>2026-08-21T04:52:07Z</updated>
+    <summary type="text">Three stories this week span cybersecurity, model economics, and market structure — and they're more connected than they look. An AI coding agent turned a routine git clone into a full remote code execution. An open-weight model closed the gap with the world's best proprietary systems. And India's stock market found out that a seven-day losing streak looks very different when the people buying the</summary>
+    <author><name>Abhishek Sharma</name></author>
   </entry>
   <entry>
     <title>Show DEV: Strata – Inspect your coding agent sessions</title>
@@ -422,41 +456,5 @@
     <summary type="text">A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding. The post Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality appeared first on Towards Data Science.</summary>
     <author><name>Sarah Schürch</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Cursor capitalizes on Github frustration, launches rival hosting platform</title>
-    <link href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/</id>
-    <updated>2026-08-18T22:14:25Z</updated>
-    <summary type="text">Cursor, known for its AI Code Editor, is launching a new code hosting platform to rival developers' long preferred favorite, Github.</summary>
-    <author><name>Lucas Ropek</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Sandboxed Code Evaluation for AI-Generated Outputs — How I Built SafeCode Arena</title>
-    <link href="https://dev.to/flipslidersand/sandboxed-code-evaluation-for-ai-generated-outputs-how-i-built-safecode-arena-1468" rel="alternate"/>
-    <id>https://dev.to/flipslidersand/sandboxed-code-evaluation-for-ai-generated-outputs-how-i-built-safecode-arena-1468</id>
-    <updated>2026-08-19T15:31:13Z</updated>
-    <summary type="text">The Problem: Candidate Code Without Trust You're using Cursor, Claude Code, or GitHub Copilot. The AI gives you three implementation options for the same feature. AI: &quot;Here are three approaches: A) Quick but uses unsafe B) Slower but memory-safe C) Balanced tradeoffs&quot; You: &quot;Which one should I ship?&quot; AI: &quot;It depends...&quot; That &quot;it depends&quot; is where responsibility falls through the cracks. Tests tell </summary>
-    <author><name>flipslidersand</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built a Privacy Layer for AI Coding Tools — CodeMask UI and CodeMask Proxy</title>
-    <link href="https://dev.to/shubhamdevops/i-built-a-privacy-layer-for-ai-coding-tools-codemask-ui-and-codemask-proxy-3ne6" rel="alternate"/>
-    <id>https://dev.to/shubhamdevops/i-built-a-privacy-layer-for-ai-coding-tools-codemask-ui-and-codemask-proxy-3ne6</id>
-    <updated>2026-08-19T15:19:59Z</updated>
-    <summary type="text">I was debugging a config file of my personal project and pasted it straight into Claude to get help. A few seconds later I looked at what I had actually sent: internal IP addresses, a database password, and an API key. All of it. To a cloud API. Without thinking. I don't think I am the only one who has done this. Most developers use AI assistants daily, and most of the time the code going in conta</summary>
-    <author><name>Shubham Singh</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Hyperia 0.17.5 is Released</title>
-    <link href="https://dev.to/kordless/hyperia-0175-is-released-4kk9" rel="alternate"/>
-    <id>https://dev.to/kordless/hyperia-0175-is-released-4kk9</id>
-    <updated>2026-08-19T14:22:48Z</updated>
-    <summary type="text">Your terminal is now a stream I just shipped Hyperia v0.17 — the release where the terminal stops being a window glued to your desktop and becomes something you can render anywhere: a dashboard, a wall display, a game engine. Hyperia is a terminal built for the agent era — an Electron front end with a Rust sidecar that exposes the whole terminal as an MCP server. AI agents get first-class citizens</summary>
-    <author><name>Kord Campbell (kordless)</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
