@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T14:39:35Z</updated>
+  <updated>2026-08-21T15:39:57Z</updated>
+  <entry>
+    <title>MCP moves context. It doesn't create it.</title>
+    <link href="https://dev.to/sentraai/mcp-moves-context-it-doesnt-create-it-36of" rel="alternate"/>
+    <id>https://dev.to/sentraai/mcp-moves-context-it-doesnt-create-it-36of</id>
+    <updated>2026-08-21T15:05:29Z</updated>
+    <summary type="text">The first time you wire Claude to a real tool and watch it work, it feels like the future showed up early. It reads a file, inspects a database, searches a repo, opens a ticket, and stitches an answer out of systems that used to need ten browser tabs. Two hours later you ask it something that spans two of those tools, and it confidently tells you something that stopped being true in March. That ga</summary>
+    <author><name>Taran Singhania</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Minecraft Server - Part 3: Running on Kubernetes</title>
     <link href="https://dev.to/celsonery/minecraft-server-part-3-running-on-kubernetes-4fkf" rel="alternate"/>
@@ -447,15 +457,5 @@
     <summary type="text">I wrote the Obsidian plugin with Claude Code: it typed the code; the rules, reviews, and decisions were mine. I led, argued with it, redid things, and submitted the plugin for review myself. I'm not an engineer. My job is getting people to actually use our product. The plugin itself is simple: one main.js, 557 lines, zero dependencies, Obsidian API only. It takes the note you have open and sends i</summary>
     <author><name>Eugeniya Ivanova</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Stuffing Your Context Window: 6 Architectural Shifts to Cut Token Costs and Latency</title>
-    <link href="https://dev.to/bhavin_gandha_38051596191/stop-stuffing-your-context-window-6-architectural-shifts-to-cut-token-costs-and-latency-3kkd" rel="alternate"/>
-    <id>https://dev.to/bhavin_gandha_38051596191/stop-stuffing-your-context-window-6-architectural-shifts-to-cut-token-costs-and-latency-3kkd</id>
-    <updated>2026-08-20T08:23:03Z</updated>
-    <summary type="text">Over the last year, large language models shifted from experimental prototypes to core backend infrastructure. As feature sets expand, an anti-pattern emerges across engineering teams: solving every product requirement by shoving more raw context into the prompt. While building real-time, data-intensive features for Fanziz spanning personalized news feeds, semantic search, and dynamic live comment</summary>
-    <author><name>Bhavin Gandha</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
   </entry>
 </feed>
