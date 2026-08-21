@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-21T13:50:01Z</updated>
+  <updated>2026-08-21T14:39:35Z</updated>
+  <entry>
+    <title>Minecraft Server - Part 3: Running on Kubernetes</title>
+    <link href="https://dev.to/celsonery/minecraft-server-part-3-running-on-kubernetes-4fkf" rel="alternate"/>
+    <id>https://dev.to/celsonery/minecraft-server-part-3-running-on-kubernetes-4fkf</id>
+    <updated>2026-08-21T14:20:55Z</updated>
+    <summary type="text">🇧🇷 Versão em português Minecraft Server - Part 3: Running on Kubernetes In Part 2 of this series, we got the Minecraft server running in Docker containers, with persistence via volumes and automatic restart. In this article, will bringing the same server into a Kubernetes cluster, gaining managed storage via PersistentVolumeClaim, isolation via Namespace, and the flexibility to run on any availabl</summary>
+    <author><name>Celso Nery</name></author>
+  </entry>
   <entry>
     <title>DeepSeek Harness Puts Its Breaking-Changes Warning Before the Install Steps</title>
     <link href="https://dev.to/renolu/deepseek-harness-puts-its-breaking-changes-warning-before-the-install-steps-1gai" rel="alternate"/>
@@ -449,14 +457,5 @@
     <author><name>Bhavin Gandha</name></author>
     <category term="llm"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Claude Code Context Usage: Diagnose Unnecessary Tokens</title>
-    <link href="https://dev.to/bettertoken_ai/claude-code-context-usage-diagnose-unnecessary-tokens-476e" rel="alternate"/>
-    <id>https://dev.to/bettertoken_ai/claude-code-context-usage-diagnose-unnecessary-tokens-476e</id>
-    <updated>2026-08-20T08:18:24Z</updated>
-    <summary type="text">Claude Code Context Usage: Diagnose Unnecessary Tokens In the Claude Code community, a user reported that a fresh session started at roughly 35,000 tokens and later dropped to about 13,000 after cleaning up repository instructions. That is a useful reminder to inspect your own project setup, but not a universal benchmark: codebase size, instruction length, MCP tools, and measurement methods differ</summary>
-    <author><name>Adela</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
