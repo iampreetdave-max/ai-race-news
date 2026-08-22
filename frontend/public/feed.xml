@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-22T19:25:50Z</updated>
+  <updated>2026-08-22T20:27:28Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -185,6 +185,86 @@
     <summary type="text">AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Understanding the Git Workflow: Working Directory, Staging, Commit and Push.</title>
+    <link href="https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i" rel="alternate"/>
+    <id>https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i</id>
+    <updated>2026-08-22T20:20:07Z</updated>
+    <summary type="text">Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was independently navigating the Git Workflow to successfully upload a test project as part of the data portfolio to a GitHub repository. Git is a version control system that runs locally on a personal computer and allows us to keep track of changes made to our projects. Git creates saved checkpoints kn</summary>
+    <author><name>Njuguna Gichia</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Everyone is hyping Claude Code. I used Google Jules to build and ship a phone tracking app—entirely from my phone on the beach.</title>
+    <link href="https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e" rel="alternate"/>
+    <id>https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e</id>
+    <updated>2026-08-22T20:14:57Z</updated>
+    <summary type="text">Don't get me wrong: I love Claude Code. I use it every single day. I’ve used its various models to build several apps, utilities, reports, presentations, and tools, and I rely on it heavily for bug fixing and surgical refactoring. In fact, one of my favorite things about Claude Code is that you don't even need an IDE—I use it almost exclusively in my terminal. But there is a catch with local AI ag</summary>
+    <author><name>Mauro Gentile</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Oh-My-Pi's Hash-Anchored Edits: How a Terminal Agent Avoids the \\\\\\\&quot;Replace Entire File\\\\\\\&quot; Trap</title>
+    <link href="https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089</id>
+    <updated>2026-08-22T20:05:41Z</updated>
+    <summary type="text">Most coding agents fail at scale because they replace entire files when making small edits. One misaligned line number or stale context window and the agent clobbers unrelated code. Oh-My-Pi solves this with hash-anchored edits: the agent specifies a hash of the exact lines it wants to replace, and the edit only applies if those lines still match. If the file changed underneath, the edit fails cle</summary>
+    <author><name>mech.app</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Unleashing WebGPU: Why Your Browser is About to Become a Massive Parallel Computing Beast</title>
+    <link href="https://dev.to/programmingcentral/unleashing-webgpu-why-your-browser-is-about-to-become-a-massive-parallel-computing-beast-5d65" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/unleashing-webgpu-why-your-browser-is-about-to-become-a-massive-parallel-computing-beast-5d65</id>
+    <updated>2026-08-22T20:00:00Z</updated>
+    <summary type="text">For decades, web developers have lived under a strict tyranny: the supremacy of the CPU. We’ve built magnificent architectures, optimized complex single-threaded event loops, and wrangled asynchronous JavaScript promises to deliver rich, interactive web applications. But when it came to heavy generative media, real-time computer vision, or running on-device AI inference, the browser hit a brick wa</summary>
+    <author><name>Programming Central</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Coding Is Getting Easier. But System Design Still Matters.</title>
+    <link href="https://dev.to/raiyan_memon/coding-is-getting-easier-but-system-design-still-matters-97j" rel="alternate"/>
+    <id>https://dev.to/raiyan_memon/coding-is-getting-easier-but-system-design-still-matters-97j</id>
+    <updated>2026-08-22T19:55:06Z</updated>
+    <summary type="text">Writing code is becoming easier. With AI tools, you can generate APIs, database queries, UI components and even complete features much faster than before. But building software isn't only about writing code. The bigger challenge is often how the entire system should work. Coding a Feature vs Designing a System Take a URL shortener. Writing the basic version isn't very difficult: Client ↓ API ↓ Dat</summary>
+    <author><name>Raiyan Memon</name></author>
+  </entry>
+  <entry>
+    <title>Node.js Healthtech Text Summarization SaaS — 4 Chat Completions API Trade-offs</title>
+    <link href="https://dev.to/mortimernilsson7694/nodejs-healthtech-text-summarization-saas-4-chat-completions-api-trade-offs-2j92" rel="alternate"/>
+    <id>https://dev.to/mortimernilsson7694/nodejs-healthtech-text-summarization-saas-4-chat-completions-api-trade-offs-2j92</id>
+    <updated>2026-08-22T19:52:06Z</updated>
+    <summary type="text">Short answer: start a Node.js ticket-summarization SaaS with chat completions, put the provider behind one tiny adapter, and choose the vendor only after checking model availability, context limits, US/EU requirements, and batch support. Embeddings don't improve the first version of this job. They become relevant later if the product adds search or an ask-your-docs flow. For short-to-medium ticket</summary>
+    <author><name>MortimerNilsson7694</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>May the Source Be With You: Why Your AI Agent Is Only as Good as Its Knowledge</title>
+    <link href="https://dev.to/cityjs_conference_5c08941/may-the-source-be-with-you-why-your-ai-agent-is-only-as-good-as-its-knowledge-1hhm" rel="alternate"/>
+    <id>https://dev.to/cityjs_conference_5c08941/may-the-source-be-with-you-why-your-ai-agent-is-only-as-good-as-its-knowledge-1hhm</id>
+    <updated>2026-08-22T19:48:18Z</updated>
+    <summary type="text">Everyone seems to be building AI agents. Give a model some instructions, connect a few tools, add a system prompt, and suddenly we have an &quot;agent.&quot; Except there's a problem. A lot of them aren't particularly useful. When an agent produces a poor answer, the immediate assumption is often that the model isn't capable enough. But sometimes the model isn't the problem at all. The agent simply doesn't </summary>
+    <author><name>CITYJS CONFERENCE</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Your AI Agent Doesn't Need a Bigger Context Window. It Needs an Eviction Policy.</title>
+    <link href="https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5" rel="alternate"/>
+    <id>https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5</id>
+    <updated>2026-08-22T19:45:59Z</updated>
+    <summary type="text">Every few weeks another framework ships a bigger context window and someone declares agent memory solved. It isn't. I've watched three separate production agents degrade in the exact same way — not because they forgot something important, but because they remembered too much and couldn't tell what mattered anymore. The fix wasn't more storage. It was an eviction policy. The thesis Here's the hot t</summary>
+    <author><name>Mukesh</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I analysed the 162 most popular Dart packages. 59% of what a scanner would flag never runs in your app.</title>
+    <link href="https://dev.to/tisankan/i-analysed-the-162-most-popular-dart-packages-59-of-what-a-scanner-would-flag-never-runs-in-your-1a5g" rel="alternate"/>
+    <id>https://dev.to/tisankan/i-analysed-the-162-most-popular-dart-packages-59-of-what-a-scanner-would-flag-never-runs-in-your-1a5g</id>
+    <updated>2026-08-22T19:43:13Z</updated>
+    <summary type="text">I maintain capdrift, a tool that reads a Dart package and reports what it is able to do. I ran it across the 162 most-downloaded packages on pub.dev and kept the raw output. Here is what is actually in there. Method: capdrift inspect &lt;pkg&gt; --format json against each package's latest version, resolved AST rather than regex, no code executed. 162 packages, 1,805 findings, zero analysis failures. Fou</summary>
+    <author><name>Tisankan</name></author>
   </entry>
   <entry>
     <title>Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense</title>
@@ -376,86 +456,5 @@ What actually got your first interview? 👀</title>
     <updated>2026-08-22T07:30:52Z</updated>
     <summary type="text">Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.</summary>
     <author><name>Dan McAteer</name></author>
-  </entry>
-  <entry>
-    <title>From Atari to EVE Online: Building on 15 Years of AI Research in Games</title>
-    <link href="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/" rel="alternate"/>
-    <id>https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/</id>
-    <updated>2026-08-21T11:59:48Z</updated>
-    <summary type="text">Google DeepMind partners with game studios to prototype breakthrough AI gameplay.</summary>
-    <author><name>DeepMind Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ITG CFO: We're the Picks &amp; Shovels of the AI Boom</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/itg-cfo-we-re-the-picks-shovels-of-the-ai-boom-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/itg-cfo-we-re-the-picks-shovels-of-the-ai-boom-video</id>
-    <updated>2026-08-21T23:35:55Z</updated>
-    <summary type="text">Chris Mecray, CFO at ITG, joins Bloomberg Businessweek Daily to discuss the company's performance since its July 1 IPO, and its role in the AI buildout as a fiber and communications company. Mecray says ITG is &quot;the picks and shovels of the AI boom... with a long runway of opportunity associated with creating the connectivity that data centers require once the actual site itself is built.&quot; Mecray s</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Why a 99% Cache Hit Rate Is 10x Faster Than 90% (Not 9%)</title>
-    <link href="https://dev.to/dilip_v_p/why-a-99-cache-hit-rate-is-10x-faster-than-90-not-9-32bh" rel="alternate"/>
-    <id>https://dev.to/dilip_v_p/why-a-99-cache-hit-rate-is-10x-faster-than-90-not-9-32bh</id>
-    <updated>2026-08-22T17:11:26Z</updated>
-    <summary type="text">I ran the same query 10,000 times: almost 2 seconds of database work for an answer that never changed. The database did not fail. I just kept asking it the same question. Before fixing it, I wrote down a prediction: a cache should make this about 100 times faster. Keep that number. It is wrong in a way that teaches something. The whole pattern is a map Cache-aside is the oldest trick in the book: </summary>
-    <author><name>Dilip V P</name></author>
-  </entry>
-  <entry>
-    <title>The Unlikely Place at the Center of China’s AI Boom</title>
-    <link href="https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/" rel="alternate"/>
-    <id>https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/</id>
-    <updated>2026-08-21T23:25:32Z</updated>
-    <summary type="text">Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.</summary>
-    <author><name>Zeyi Yang</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Building a Proper Backend for My LangGraph AI Agent</title>
-    <link href="https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agent/" rel="alternate"/>
-    <id>https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agent/</id>
-    <updated>2026-08-22T17:00:00Z</updated>
-    <summary type="text">Turning a demo agent into something that can keep real booking data The post Building a Proper Backend for My LangGraph AI Agent appeared first on Towards Data Science.</summary>
-    <author><name>Soner Yıldırım</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Anthropic’s Opus 4.6 is a smut-machine</title>
-    <link href="https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/</id>
-    <updated>2026-08-21T23:07:25Z</updated>
-    <summary type="text">Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.</summary>
-    <author><name>Rebecca Bellan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>3 Tier Application On EKS</title>
-    <link href="https://dev.to/mayankthakur001/3-tier-application-on-eks-oc7" rel="alternate"/>
-    <id>https://dev.to/mayankthakur001/3-tier-application-on-eks-oc7</id>
-    <updated>2026-08-22T16:45:45Z</updated>
-    <summary type="text">I built a 3-tier application running on Amazon EKS, deployed by a GitHub Actions pipeline that runs on every merge to main. The first version of that pipeline had two secrets sitting in the repo settings: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY. Github- https://github.com/itzmayank01/3-tier-user-platform-devops They worked. They were also a bad idea, and getting rid of them taught me more abou</summary>
-    <author><name>Mayank Thakur</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>'u' Replaced By 'U' Is A Big Error,Insight From My On Going Spring Boot Project</title>
-    <link href="https://dev.to/tanisha_suyal_8efb4a5b201/u-replaced-by-u-is-a-big-errorinsight-from-my-on-going-spring-boot-project-eo" rel="alternate"/>
-    <id>https://dev.to/tanisha_suyal_8efb4a5b201/u-replaced-by-u-is-a-big-errorinsight-from-my-on-going-spring-boot-project-eo</id>
-    <updated>2026-08-22T16:42:25Z</updated>
-    <summary type="text">For Three days I was struck on running my Cart endpoints.Everything seems correct. But the Error on running the endpoint was : { &quot;success&quot;: false, &quot;message&quot;: &quot;The given id must not be null&quot;, &quot;data&quot;: null } Somewhere the ID was becoming null before it reaches the repository even when i was passing the Id. Project Explanation Let me first clear the endpoints and scenario to you. I am Building an Ful</summary>
-    <author><name>Tanisha Suyal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Is Changing What 'Correct Software' Means</title>
-    <link href="https://dev.to/majdizlitni/ai-is-changing-what-correct-software-means-14hf" rel="alternate"/>
-    <id>https://dev.to/majdizlitni/ai-is-changing-what-correct-software-means-14hf</id>
-    <updated>2026-08-22T16:41:58Z</updated>
-    <summary type="text">Software engineers used to define a &quot;Correct software&quot; via a simple deterministic binary an Expected Output. All Test are passed, but this is collapsing, a green CI pipeline no longer guarantees correct software, with AI-generated code that's look syntactically perfect and test-compliant yet they are semantically wrong in a ways that appears in productions. The bottleneck in software engineering i</summary>
-    <author><name>Majdi Zlitni</name></author>
   </entry>
 </feed>

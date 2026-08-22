@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T19:25:50Z</updated>
+  <updated>2026-08-22T20:27:28Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -13,6 +13,34 @@
     <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Everyone is hyping Claude Code. I used Google Jules to build and ship a phone tracking app—entirely from my phone on the beach.</title>
+    <link href="https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e" rel="alternate"/>
+    <id>https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e</id>
+    <updated>2026-08-22T20:14:57Z</updated>
+    <summary type="text">Don't get me wrong: I love Claude Code. I use it every single day. I’ve used its various models to build several apps, utilities, reports, presentations, and tools, and I rely on it heavily for bug fixing and surgical refactoring. In fact, one of my favorite things about Claude Code is that you don't even need an IDE—I use it almost exclusively in my terminal. But there is a catch with local AI ag</summary>
+    <author><name>Mauro Gentile</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Oh-My-Pi's Hash-Anchored Edits: How a Terminal Agent Avoids the \\\\\\\&quot;Replace Entire File\\\\\\\&quot; Trap</title>
+    <link href="https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089</id>
+    <updated>2026-08-22T20:05:41Z</updated>
+    <summary type="text">Most coding agents fail at scale because they replace entire files when making small edits. One misaligned line number or stale context window and the agent clobbers unrelated code. Oh-My-Pi solves this with hash-anchored edits: the agent specifies a hash of the exact lines it wants to replace, and the edit only applies if those lines still match. If the file changed underneath, the edit fails cle</summary>
+    <author><name>mech.app</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your AI Agent Doesn't Need a Bigger Context Window. It Needs an Eviction Policy.</title>
+    <link href="https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5" rel="alternate"/>
+    <id>https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5</id>
+    <updated>2026-08-22T19:45:59Z</updated>
+    <summary type="text">Every few weeks another framework ships a bigger context window and someone declares agent memory solved. It isn't. I've watched three separate production agents degrade in the exact same way — not because they forgot something important, but because they remembered too much and couldn't tell what mattered anymore. The fix wasn't more storage. It was an eviction policy. The thesis Here's the hot t</summary>
+    <author><name>Mukesh</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Stop chasing fads. Operate Claude like a startup founder.</title>
@@ -428,30 +456,5 @@
     <author><name>Shrijal Acharya</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built a Chrome Extension to Track AI Token Usage — Here's How It Works</title>
-    <link href="https://dev.to/anoop_kumar_63925e275ea06/i-built-a-chrome-extension-to-track-ai-token-usage-heres-how-it-works-1701" rel="alternate"/>
-    <id>https://dev.to/anoop_kumar_63925e275ea06/i-built-a-chrome-extension-to-track-ai-token-usage-heres-how-it-works-1701</id>
-    <updated>2026-08-21T12:49:04Z</updated>
-    <summary type="text">Six weeks ago I got cut off mid-debugging session by Claude's rate limit with no warning. Two hours of context gone. I started looking for a tool that would show me how close I was before it happened. Nothing existed that worked across more than one platform without requiring an API key. So I built one. TokenPulse is a Chrome extension (MV3) that injects a live token bar above the input box on Cla</summary>
-    <author><name>Anoop Kumar</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Iran Doesn't Need to Mine Hormuz — Your requirements.txt Is Already Rigged</title>
-    <link href="https://dev.to/le_beltagy/iran-doesnt-need-to-mine-hormuz-your-requirementstxt-is-already-rigged-1c55" rel="alternate"/>
-    <id>https://dev.to/le_beltagy/iran-doesnt-need-to-mine-hormuz-your-requirementstxt-is-already-rigged-1c55</id>
-    <updated>2026-08-21T12:46:40Z</updated>
-    <summary type="text">Iran Doesn't Need to Mine Hormuz — Your requirements.txt Is Already Rigged Every headline you've read this week is a diversion. The Strait of Hormuz is not the target. You are. And you have been for months, possibly years, while you retweeted tanker tracking maps and debated whether Brent crude would touch $150. Iranian state-sponsored groups — OilRig, APT33, MuddyWater, Agrius — did not spend the</summary>
-    <author><name>Le Beltagy</name></author>
-  </entry>
-  <entry>
-    <title>n8n One-Line Setup Brings Its Self-Hosted AI Assistant Closer to Production Workflows</title>
-    <link href="https://dev.to/alifar/n8n-one-line-setup-brings-its-self-hosted-ai-assistant-closer-to-production-workflows-fih" rel="alternate"/>
-    <id>https://dev.to/alifar/n8n-one-line-setup-brings-its-self-hosted-ai-assistant-closer-to-production-workflows-fih</id>
-    <updated>2026-08-21T12:30:30Z</updated>
-    <summary type="text">n8n has documented a one-command route for deploying a self-hosted instance with its AI Assistant support services included. The setup lowers the initial barrier to running n8n in a Docker-based environment, while keeping a crucial distinction clear: the AI Assistant is not active by default and requires a model provider API key before it can be enabled. The development matters for teams evaluatin</summary>
-    <author><name>Ali Farhat</name></author>
   </entry>
 </feed>
