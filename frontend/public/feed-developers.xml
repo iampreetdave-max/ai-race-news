@@ -4,7 +4,34 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T10:28:28Z</updated>
+  <updated>2026-08-22T11:24:14Z</updated>
+  <entry>
+    <title>The 4,000-Token Tax: Auto-Disabling Claude Code Plugins You Haven't Touched in 30 Days</title>
+    <link href="https://dev.to/bokuwalily/the-4000-token-tax-auto-disabling-claude-code-plugins-you-havent-touched-in-30-days-ac5" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/the-4000-token-tax-auto-disabling-claude-code-plugins-you-havent-touched-in-30-days-ac5</id>
+    <updated>2026-08-22T11:00:06Z</updated>
+    <summary type="text">Hitting ¥1.2M/month taught me something I didn't expect: keeping the environment healthy has to come before doing the work. Why this system pays off Adding a plugin to Claude Code takes a second. &quot;Let's add context7.&quot; &quot;Let's add playwright.&quot; &quot;Might as well try expose too.&quot; Before I noticed, I had more than 50 plugins enabled. That's where the problem starts. Every time Claude Code starts, a deferr</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Building a Production AI Platform: Kubernetes, GitOps, IaC, Security, and Observability</title>
+    <link href="https://dev.to/sushyam_nagallapati/building-a-production-ai-platform-kubernetes-gitops-iac-security-and-observability-3732" rel="alternate"/>
+    <id>https://dev.to/sushyam_nagallapati/building-a-production-ai-platform-kubernetes-gitops-iac-security-and-observability-3732</id>
+    <updated>2026-08-22T11:00:00Z</updated>
+    <summary type="text">Thanks for taking the time to read. If you’ve worked on AI platforms, cloud infrastructure, or platform engineering, I’d love to hear how your architecture differs in the comments. In Part 4 of AI Infrastructure for Cloud Engineers, we looked at FinOps for AI and how GPU utilization, token consumption, model choice, and inference volume affect cost. Read Part 4: FinOps for AI: Understanding GPU, T</summary>
+    <author><name>Sushyam Nagallapati</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How do you stop Claude Code from writing files?</title>
+    <link href="https://dev.to/hassekf/how-do-you-stop-claude-code-from-writing-files-2n29" rel="alternate"/>
+    <id>https://dev.to/hassekf/how-do-you-stop-claude-code-from-writing-files-2n29</id>
+    <updated>2026-08-22T10:52:48Z</updated>
+    <summary type="text">I spent a week trying to keep a coding agent out of one directory, and I lost that argument at every layer that lives inside the agent. The markdown rule folded when I claimed the repo owner was making an exception. The deny rule covered git commit and not git -C. The flag that turns off the write tool turned into a one line python3 call. What held was not the agent's at all: a sandbox profile fro</summary>
+    <author><name>Charles Hasse</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>My AI visibility score was 78%. Then I fixed how I measured it and it was 25%</title>
     <link href="https://dev.to/reidify/my-ai-visibility-score-was-78-then-i-fixed-how-i-measured-it-and-it-was-25-4h5b" rel="alternate"/>
@@ -431,35 +458,6 @@
     <category term="llm"/>
     <category term="funding"/>
     <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Thought I Could Build It in 9 Days I Was Wrong</title>
-    <link href="https://dev.to/gowtham_jayavarapu/i-thought-i-could-build-it-in-9-days-i-was-wrong-1j0g" rel="alternate"/>
-    <id>https://dev.to/gowtham_jayavarapu/i-thought-i-could-build-it-in-9-days-i-was-wrong-1j0g</id>
-    <updated>2026-08-21T07:12:09Z</updated>
-    <summary type="text">9 days. 7 Codex accounts. Multiple free credits exhausted. Replit credits gone. API limits. An old laptop with 8GB RAM and basically no storage left. Barely any sleep. And somehow… I still kept building. I started Hack Hydra, a 9-day HydraDB hackathon, thinking I had enough time and resources to build something ambitious. Spoiler: I absolutely did not. 😅 I started with Codex and burned through the</summary>
-    <author><name>Gowtham Jayavarapu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code Multi-Agent Review Workflow: Roles, Worktrees, and Manual Sign-off</title>
-    <link href="https://dev.to/bettertoken_ai/claude-code-multi-agent-review-workflow-roles-worktrees-and-manual-sign-off-5aei" rel="alternate"/>
-    <id>https://dev.to/bettertoken_ai/claude-code-multi-agent-review-workflow-roles-worktrees-and-manual-sign-off-5aei</id>
-    <updated>2026-08-21T06:18:10Z</updated>
-    <summary type="text">Building fully autonomous &quot;AI agent teams&quot; with automated code merging often introduces subtle architectural defects, circular refactoring loops, and codebase degradation. Two agents running in parallel do not constitute independent ground truth: if the author agent makes a logical error, a reviewer agent operating on similar prompt foundations may easily overlook it. A reliable multi-agent workfl</summary>
-    <author><name>Adela</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Beyond LLMs: Creating Real-World AI Agents with Lang Chain Deep Agents</title>
-    <link href="https://hackernoon.com/beyond-llms-creating-real-world-ai-agents-with-lang-chain-deep-agents?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/beyond-llms-creating-real-world-ai-agents-with-lang-chain-deep-agents?source=rss</id>
-    <updated>2026-08-21T06:13:55Z</updated>
-    <summary type="text">Discover how LangChain DeepAgents transform LLMs into production-ready AI systems with memory, skills, sub-agents, context management, and human oversight.Read All</summary>
-    <author><name>Padmanabham Venkiteela</name></author>
     <category term="agents"/>
   </entry>
 </feed>
