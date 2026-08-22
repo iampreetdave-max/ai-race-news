@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T05:33:56Z</updated>
+  <updated>2026-08-22T06:45:54Z</updated>
+  <entry>
+    <title>DevOps Questions After We Broke The Release Handshake</title>
+    <link href="https://dev.to/devops_oasis/devops-questions-after-we-broke-the-release-handshake-46j2" rel="alternate"/>
+    <id>https://dev.to/devops_oasis/devops-questions-after-we-broke-the-release-handshake-46j2</id>
+    <updated>2026-08-22T06:07:26Z</updated>
+    <summary type="text">Answers from the incident where every dashboard looked politely wrong. The release-api deployment had already been marked complete when the invoice page began returning 503s. The new container was serving traffic, the PostgreSQL migration had committed, and the feature flag was on. A NetworkPolicy added in another repository prevented the new pod from reaching tax-rate-cache. The application team </summary>
+    <author><name>DevOps Oasis</name></author>
+  </entry>
   <entry>
     <title>My Cost Monitor Said $234 When the Real Bill Was $48. Then set -e Made It Go Silent for a Week.</title>
     <link href="https://dev.to/bokuwalily/my-cost-monitor-said-234-when-the-real-bill-was-48-then-set-e-made-it-go-silent-for-a-week-475j" rel="alternate"/>
@@ -450,15 +458,5 @@
     <updated>2026-08-21T04:52:07Z</updated>
     <summary type="text">Three stories this week span cybersecurity, model economics, and market structure — and they're more connected than they look. An AI coding agent turned a routine git clone into a full remote code execution. An open-weight model closed the gap with the world's best proprietary systems. And India's stock market found out that a seven-day losing streak looks very different when the people buying the</summary>
     <author><name>Abhishek Sharma</name></author>
-  </entry>
-  <entry>
-    <title>Show DEV: Strata – Inspect your coding agent sessions</title>
-    <link href="https://dev.to/stele/show-dev-strata-inspect-your-coding-agent-sessions-278b" rel="alternate"/>
-    <id>https://dev.to/stele/show-dev-strata-inspect-your-coding-agent-sessions-278b</id>
-    <updated>2026-08-20T21:43:54Z</updated>
-    <summary type="text">Today we're open sourcing Strata, the session infrastructure that powers Stele. https://github.com/Stele-Dev/strata Coding agents already leave surprisingly rich trails on your computer: prompts, responses, reasoning, tool calls, results, timing, token usage, cost, injected context, subagents, and more. The problem is that every agent stores this differently. Strata turns those trajectories into o</summary>
-    <author><name>Serkan Yerşen</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
