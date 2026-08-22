@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T02:57:55Z</updated>
+  <updated>2026-08-22T03:49:19Z</updated>
+  <entry>
+    <title>Kubernetes Basics for DevOps Engineers</title>
+    <link href="https://dev.to/tejas_kp/kubernetes-basics-for-devops-engineers-3ml9" rel="alternate"/>
+    <id>https://dev.to/tejas_kp/kubernetes-basics-for-devops-engineers-3ml9</id>
+    <updated>2026-08-22T03:34:13Z</updated>
+    <summary type="text">Introduction: Kubernetes can feel overwhelming when you first hear terms like Pods, Services, and Deployments thrown around. In this first post of my Kubernetes series, I’ll break down the fundamentals — what Kubernetes actually solves, and the core building blocks you need to understand before going further. What is Kubernetes? Kubernetes is an open-source container orchestration tool, originally</summary>
+    <author><name>Tejas KP</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>I pentested my own AI hub and shipped the method, not the map</title>
+    <link href="https://dev.to/mk023/i-pentested-my-own-ai-hub-and-shipped-the-method-not-the-map-4k3n" rel="alternate"/>
+    <id>https://dev.to/mk023/i-pentested-my-own-ai-hub-and-shipped-the-method-not-the-map-4k3n</id>
+    <updated>2026-08-22T03:32:31Z</updated>
+    <summary type="text">I ran a penetration test on my own infrastructure last week. No Burp Suite, no exploit fired at production, no CVE popped. The whole engagement came down to one habit: refusing to believe a control was working until I had watched it work. The target is a small observability hub I built for my own AI-assisted coding. Six services in one compose file: a tunnel, an OpenTelemetry Collector taking metr</summary>
+    <author><name>Marco</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Mojo vs Python: What Qualcomm's Open Source Release Actually Changes for Developers</title>
+    <link href="https://dev.to/jamilxt/mojo-vs-python-what-qualcomms-open-source-release-actually-changes-for-developers-51eg" rel="alternate"/>
+    <id>https://dev.to/jamilxt/mojo-vs-python-what-qualcomms-open-source-release-actually-changes-for-developers-51eg</id>
+    <updated>2026-08-22T03:03:45Z</updated>
+    <summary type="text">For three years, the biggest complaint about Mojo was not the syntax, the performance claims, or the missing ecosystem. It was that the compiler was closed. You could read the standard library, you could file issues, but the thing that turned your code into GPU machine instructions was a binary you had to download on faith. For a language whose creator, Chris Lattner, built his reputation on LLVM </summary>
+    <author><name>jamilxt</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>What is RAG? How Retrieval-Augmented Generation Works</title>
     <link href="https://dev.to/mryadavgulshan/what-is-rag-how-retrieval-augmented-generation-works-5ebp" rel="alternate"/>
@@ -433,32 +461,6 @@
     <updated>2026-08-20T18:30:30Z</updated>
     <summary type="text">OpenAI's Computer History feature is not currently available in the European Economic Area, the United Kingdom, or Switzerland, according to the company's Enterprise and Edu documentation. That documented regional status contradicts claims that the macOS ChatGPT capability has expanded to Pro, Business, and Enterprise users across those markets. Computer History is described as an optional feature</summary>
     <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your agent isn't reckless. It just can't see the blast radius.</title>
-    <link href="https://dev.to/rabih_jabr_29/your-agent-isnt-reckless-it-just-cant-see-the-blast-radius-1lkj" rel="alternate"/>
-    <id>https://dev.to/rabih_jabr_29/your-agent-isnt-reckless-it-just-cant-see-the-blast-radius-1lkj</id>
-    <updated>2026-08-20T18:29:21Z</updated>
-    <summary type="text">I've been running Claude Code as a daily driver for about three months now. It writes Ansible I'd have taken a week to write. It reads a codebase faster than I do. It is, genuinely, very good. It also once wanted to force-push to main, and it wanted to for an extremely good reason. Sit with that for a second, because it's the whole post. The rebase was stuck. Force-pushing would have unstuck it. E</summary>
-    <author><name>Rabih Jabr</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We listed gex.live on ~15 directories in a week. Here is what that did and did not do</title>
-    <link href="https://dev.to/gexlive/we-listed-gexlive-on-15-directories-in-a-week-here-is-what-that-did-and-did-not-do-1l8h" rel="alternate"/>
-    <id>https://dev.to/gexlive/we-listed-gexlive-on-15-directories-in-a-week-here-is-what-that-did-and-did-not-do-1l8h</id>
-    <updated>2026-08-20T18:21:15Z</updated>
-    <summary type="text">Build-in-public note, no fireworks. Why bother Search Console in mid-August was blunt: 6 of 1,098 pages indexed, the rest stuck at &quot;Discovered – currently not indexed&quot;, and the Links report empty. Zero external backlinks. The site has a thousand free session pages that nobody can find because nothing points at them. Directories are the cheapest way to get the first handful of pointers, and they ar</summary>
-    <author><name>GEX.live</name></author>
-  </entry>
-  <entry>
-    <title>Backtest SPX dealer-gamma rules from your AI assistant</title>
-    <link href="https://dev.to/gexlive/backtest-spx-dealer-gamma-rules-from-your-ai-assistant-2ffn" rel="alternate"/>
-    <id>https://dev.to/gexlive/backtest-spx-dealer-gamma-rules-from-your-ai-assistant-2ffn</id>
-    <updated>2026-08-20T18:21:11Z</updated>
-    <summary type="text">gex.live has an MCP server. Add it to Claude, Cursor, ChatGPT or any MCP client and the assistant can read the dealer-positioning archive and drive the backtesting Lab on your behalf. The one-line version is the title. Here is the rest. Two tiers, one rule: free data stays free Free, no key — the same finished-session data that is free on the website: list_sessions — finished SPX sessions in the a</summary>
-    <author><name>GEX.live</name></author>
     <category term="llm"/>
   </entry>
 </feed>
