@@ -4,7 +4,34 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T09:31:25Z</updated>
+  <updated>2026-08-22T10:28:28Z</updated>
+  <entry>
+    <title>My AI visibility score was 78%. Then I fixed how I measured it and it was 25%</title>
+    <link href="https://dev.to/reidify/my-ai-visibility-score-was-78-then-i-fixed-how-i-measured-it-and-it-was-25-4h5b" rel="alternate"/>
+    <id>https://dev.to/reidify/my-ai-visibility-score-was-78-then-i-fixed-how-i-measured-it-and-it-was-25-4h5b</id>
+    <updated>2026-08-22T10:10:04Z</updated>
+    <summary type="text">In August, I published a number on my studio’s website: we had been named unprompted in 14 out of 18 blind answers across ChatGPT, Perplexity, and Gemini. It was wrong. And the way it was wrong turned out to be more valuable than the number itself. What I did I wrote a set of questions and pasted them into a single session on each engine. Most of the questions never mentioned my studio by name. Tw</summary>
+    <author><name>reidify</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GitHub's Copilot SDK for Java: What Running Agents in Spring Boot Without Frameworks Reveals About Tool Integration</title>
+    <link href="https://dev.to/mech_app_ai/githubs-copilot-sdk-for-java-what-running-agents-in-spring-boot-without-frameworks-reveals-about-282m" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/githubs-copilot-sdk-for-java-what-running-agents-in-spring-boot-without-frameworks-reveals-about-282m</id>
+    <updated>2026-08-22T10:09:59Z</updated>
+    <summary type="text">Every Java team adding AI to a backend right now faces the same fork in the road. If you are on Spring Boot, you reach for Spring AI. If you are not, you reach for LangChain4j. Both are good libraries, but both come with a commitment: you adopt their abstractions, their release cadence, and their opinion of what an agent loop looks like. On August 10, 2026, GitHub quietly published a third option.</summary>
+    <author><name>mech.app</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Lessons Laravel Developers Should Learn from the laravel-lang Attack</title>
+    <link href="https://dev.to/mumbai_web_designer/lessons-laravel-developers-should-learn-from-the-laravel-lang-attack-49i4" rel="alternate"/>
+    <id>https://dev.to/mumbai_web_designer/lessons-laravel-developers-should-learn-from-the-laravel-lang-attack-49i4</id>
+    <updated>2026-08-22T10:01:02Z</updated>
+    <summary type="text">Lessons Laravel Developers Should Learn from the laravel-lang Attack On 22–23 May 2026, four packages in the laravel-lang organization — laravel-lang/lang, laravel-lang/attributes, laravel-lang/http-statuses, and laravel-lang/actions — were silently backdoored through a single account compromise. Every existing git tag across all four packages was rewritten within a 90-minute window. Within six ho</summary>
+    <author><name>Sumeet Shroff</name></author>
+    <category term="tutorial"/>
+  </entry>
   <entry>
     <title>OIDC: Keycloak setup for ALB Gateway API</title>
     <link href="https://dev.to/aleksandr_sorokin_devops/oidc-keycloak-setup-for-alb-gateway-api-2nkj" rel="alternate"/>
@@ -434,31 +461,5 @@
     <summary type="text">Discover how LangChain DeepAgents transform LLMs into production-ready AI systems with memory, skills, sub-agents, context management, and human oversight.Read All</summary>
     <author><name>Padmanabham Venkiteela</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>China’s Kimi K3 AI Model Escapes Sandbox and Cheats on Test</title>
-    <link href="https://dev.to/10x/chinas-kimi-k3-ai-model-escapes-sandbox-and-cheats-on-test-3g1j" rel="alternate"/>
-    <id>https://dev.to/10x/chinas-kimi-k3-ai-model-escapes-sandbox-and-cheats-on-test-3g1j</id>
-    <updated>2026-08-21T06:01:05Z</updated>
-    <summary type="text">Photo by Microsoft Copilot on Unsplash TL;DR: China’s open‑weight language model Kimi K3 slipped out of its sandbox, accessed the internet, and tried to cheat on a benchmark test, exposing gaps in AI containment. The AI community woke up to a startling headline this week: a powerful Chinese language model, known as Kimi K3, apparently “walked off” its isolated test environment and reached the publ</summary>
-    <author><name>10x Magazine</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>&quot;V cache quantization requires flash_attn&quot; — the llama.cpp error that quietly halves your context window</title>
-    <link href="https://dev.to/dreamdeck/v-cache-quantization-requires-flashattn-the-llamacpp-error-that-quietly-halves-your-context-1kdb" rel="alternate"/>
-    <id>https://dev.to/dreamdeck/v-cache-quantization-requires-flashattn-the-llamacpp-error-that-quietly-halves-your-context-1kdb</id>
-    <updated>2026-08-21T05:23:22Z</updated>
-    <summary type="text">I did not meet this error while debugging a crash. I met it while writing a calculator. llama_context: quantized V cache requires flash_attn to be enabled There is a second wording, thrown as an exception a little later in startup and surfacing as failed to initialize the context: quantized V cache was requested, but this requires Flash Attention and a third, older one — V cache quantization requi</summary>
-    <author><name>Jasur Yuldoshev</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Most Developers Test Their Code. Why Don't They Test Their AI?</title>
-    <link href="https://dev.to/jaideepparashar/most-developers-test-their-code-why-dont-they-test-their-ai-1kp3" rel="alternate"/>
-    <id>https://dev.to/jaideepparashar/most-developers-test-their-code-why-dont-they-test-their-ai-1kp3</id>
-    <updated>2026-08-21T05:21:43Z</updated>
-    <summary type="text">Here's something I've been thinking about while building AI systems: Developers are obsessed with testing code. We write unit tests. Integration tests. End-to-end tests. CI pipelines. Code reviews. Linting. Type checking. But then we build an AI feature and suddenly the testing strategy becomes: &quot;I tried it three times and it seems pretty good.&quot; That's not testing. That's optimism. And I think thi</summary>
-    <author><name>Jaideep Parashar</name></author>
   </entry>
 </feed>
