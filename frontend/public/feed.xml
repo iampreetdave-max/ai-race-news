@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-22T13:34:56Z</updated>
+  <updated>2026-08-22T14:26:02Z</updated>
+  <entry>
+    <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
+    <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/</id>
+    <updated>2026-08-22T13:43:13Z</updated>
+    <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Study explains why AI agents benefit from &quot;skills&quot; and when they fail</title>
     <link href="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/" rel="alternate"/>
@@ -31,6 +40,14 @@
     <updated>2026-08-22T08:00:14Z</updated>
     <summary type="text">RayNeo is launching a new headset without a camera or speakers. The article RayNeo's new AI glasses skip the camera, focus on text overlays appeared first on The Decoder.</summary>
     <author><name>Maximilian Schreiner</name></author>
+  </entry>
+  <entry>
+    <title>Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade</title>
+    <link href="https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/</id>
+    <updated>2026-08-22T14:00:00Z</updated>
+    <summary type="text">Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.</summary>
+    <author><name>Ivan Mehta</name></author>
   </entry>
   <entry>
     <title>Netflix tests language model as alternative to hand-built recommendation logic</title>
@@ -310,6 +327,22 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>Make Retry Idempotency an Invariant Before You Move a Batch Job to a Free Model Endpoint</title>
+    <link href="https://dev.to/robinzzz/make-retry-idempotency-an-invariant-before-you-move-a-batch-job-to-a-free-model-endpoint-ad0" rel="alternate"/>
+    <id>https://dev.to/robinzzz/make-retry-idempotency-an-invariant-before-you-move-a-batch-job-to-a-free-model-endpoint-ad0</id>
+    <updated>2026-08-22T14:05:50Z</updated>
+    <summary type="text">Job 4817 was submitted exactly once, and it produced three emails, two database rows, and one very confused customer. The log said timeout after 30000ms, the database said duplicate key, and for three hours those looked like two unrelated incidents. They were the same bug, and it appeared the night we moved a nightly summarization batch to a free model endpoint to push the inference bill to zero. </summary>
+    <author><name>Robin</name></author>
+  </entry>
+  <entry>
+    <title>When did you last check who is actually calling your API?</title>
+    <link href="https://dev.to/layercall/when-did-you-last-check-who-is-actually-calling-your-api-im1" rel="alternate"/>
+    <id>https://dev.to/layercall/when-did-you-last-check-who-is-actually-calling-your-api-im1</id>
+    <updated>2026-08-22T14:00:00Z</updated>
+    <summary type="text">Here is a question worth being uncomfortable about: if one of your API keys leaked right now, how would you find out? Not &quot;how would you rotate it&quot; — that part is easy. How would you notice? A stolen key does not look stolen. It authenticates correctly, because it is a valid key. It hits the same endpoints, because whoever took it wants the same functionality you built. It bills to the same accoun</summary>
+    <author><name>Hira</name></author>
+  </entry>
+  <entry>
     <title>Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says</title>
     <link href="https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/" rel="alternate"/>
     <id>https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/</id>
@@ -326,6 +359,23 @@
     <author><name>Dina Bass</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Polymarket Slippage: How to Control It in Trading Bots</title>
+    <link href="https://dev.to/nagi777/polymarket-slippage-how-to-control-it-in-trading-bots-o1k" rel="alternate"/>
+    <id>https://dev.to/nagi777/polymarket-slippage-how-to-control-it-in-trading-bots-o1k</id>
+    <updated>2026-08-22T13:26:49Z</updated>
+    <summary type="text">Slippage can quietly destroy a profitable Polymarket trading strategy. Your signal may correctly identify a YES token as undervalued, but that does not mean you can actually buy the required position at the price used by your model. If the order book has limited liquidity, a large order may consume multiple ask levels. The deeper your order walks through the book, the worse your average execution </summary>
+    <author><name>Nagi</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Compressing an image to an exact file size, in the browser</title>
+    <link href="https://dev.to/textmachine/compressing-an-image-to-an-exact-file-size-in-the-browser-12ha" rel="alternate"/>
+    <id>https://dev.to/textmachine/compressing-an-image-to-an-exact-file-size-in-the-browser-12ha</id>
+    <updated>2026-08-22T13:26:47Z</updated>
+    <summary type="text">&quot;Make this photo under 100 KB&quot; is one of the most common things people need from an image tool, and one of the few things almost no image editor exposes directly. Photoshop gives you a quality slider. cwebp gives you -q. The canvas API gives you a float between 0 and 1. None of them takes bytes. The reason is that the mapping you want does not exist in the encoder. You ask for a file size; the enc</summary>
+    <author><name>이준김</name></author>
   </entry>
   <entry>
     <title>Nvidia just showed that the harness, not the AI model, is now the real hero</title>
@@ -396,60 +446,5 @@
     <summary type="text">Broadcom is lining up another massive bet on AI. Bloomberg has learned the chipmaker is in talks to raise more than $60 billion in debt to help Anthropic and others secure chips and computing power. The deal highlights a bigger concern hanging over the AI trade: the cost of funding it all. Erica Klauer, Science and Technology Partners founder and CIO, discusses concerns around circular financing a</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic Preps for Blockbuster Public Listing | Bloomberg Tech 8/21/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/bloomberg-tech-8-21-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/bloomberg-tech-8-21-2026-video</id>
-    <updated>2026-08-21T19:12:51Z</updated>
-    <summary type="text">Bloomberg’s Ed Ludlow takes a look at Anthropic as the AI company expects to match or top the size of SpaceX's record-setting IPO. Plus, sources say Broadcom is in talks to raise more than $60 billion in debt to help Anthropic and others secure chips and computing power, and all eyes are on Nvidia as the chipmaker reports earnings next week. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="funding"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Anthropic Aims to Match or Top SpaceX IPO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/anthropic-aims-to-match-or-top-spacex-ipo-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/anthropic-aims-to-match-or-top-spacex-ipo-video</id>
-    <updated>2026-08-21T19:12:11Z</updated>
-    <summary type="text">Anthropic is aiming for an IPO that could make history, expecting to match or even top SpaceX's record-setting debut, according to sources. The maker of Claude could file publicly by the end of this month. The company raised $65 billion in May at a $965 billion valuation. Bloomberg's Shirin Ghaffary, who leads coverage of Anthropic, and Bloomberg's Liana Baker, who leads the deals team, join Ed Lu</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Why AI Output Feels Wrong Even When It Is Correct</title>
-    <link href="https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc" rel="alternate"/>
-    <id>https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc</id>
-    <updated>2026-08-22T12:47:38Z</updated>
-    <summary type="text">AI can produce an answer in seconds. The answer may be clear, plausible, and even correct. Yet something about it can still feel wrong. I do not think this discomfort comes only from hallucinations or poor model accuracy. Sometimes the real problem is simpler: The AI returned an output, but it did not return the work in a form that another person can safely continue. This is not a new problem crea</summary>
-    <author><name>synthaicode</name></author>
-  </entry>
-  <entry>
-    <title>Robinhood's Guild on AI, Markets &amp; Risks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/robinhood-s-guild-on-ai-markets-risks-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/robinhood-s-guild-on-ai-markets-risks-video</id>
-    <updated>2026-08-21T19:00:29Z</updated>
-    <summary type="text">Robinhood's Stephanie Guild discusses the impact of major AI IPOs, market concentration risks, opportunities in healthcare and compute infrastructure, and why investors should balance AI exposure with cash flow-focused, defensive assets. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>3 Cases Where Fully Automated Trading Still Needed a Human</title>
-    <link href="https://dev.to/finaltype/3-cases-where-fully-automated-trading-still-needed-a-human-5d0d" rel="alternate"/>
-    <id>https://dev.to/finaltype/3-cases-where-fully-automated-trading-still-needed-a-human-5d0d</id>
-    <updated>2026-08-22T12:33:46Z</updated>
-    <summary type="text">Making something run automatically and having it actually get handled to completion turned out to be two different sentences This is the English version of a post originally written in Korean for my algorithmic trading system devlog(new tab). I designed this system to judge and trade on its own, without needing human approval for each decision. The order execution and safety-guard layer(new tab) w</summary>
-    <author><name>finaltype</name></author>
-    <category term="finance-ai"/>
-  </entry>
-  <entry>
-    <title>개발일지 자동화가 한 달 가까이 멈춰 있었던 이유</title>
-    <link href="https://dev.to/finaltype/gaebalilji-jadonghwaga-han-dal-gaggai-meomcweo-isseossdeon-iyu-e57" rel="alternate"/>
-    <id>https://dev.to/finaltype/gaebalilji-jadonghwaga-han-dal-gaggai-meomcweo-isseossdeon-iyu-e57</id>
-    <updated>2026-08-22T12:28:40Z</updated>
-    <summary type="text">로그조차 안 쌓이니, 돌고 있는지 죽어 있는지 구분할 방법이 없었습니다 이 블로그의 개발일지는 매일 밤 자동으로 마무리됩니다. 그날 대화로 초안을 썼으면 변환해서 로그에 남기고, 없으면 스킵했다는 한 줄만 남깁니다. 최근 이 파이프라인을 들여다볼 일이 있었는데, 7월 24일 이후로 로그가 통째로 비어 있었습니다. 무슨 일이 있었나 자동화 로그(.automation.log) 마지막 줄이 2026-07-24였습니다. 그 뒤로 8월 22일까지, 거의 한 달 가까이 스킵 기록조차 한 줄도 없었습니다. 자동화가 아예 안 돌았나 싶어서 실행 로그(cron_output.log)를 열어봤습니다. 그런데 거기엔 매일 밤 실행된 흔적이 빼곡했습니다. 날짜 확인하고, 초안 있으면 내용 정리하고, 크로스링크까지 챙긴 요약이 매일</summary>
-    <author><name>finaltype</name></author>
   </entry>
 </feed>
