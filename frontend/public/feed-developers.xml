@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-22T18:36:03Z</updated>
+  <updated>2026-08-22T19:25:50Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -13,6 +13,24 @@
     <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Stop chasing fads. Operate Claude like a startup founder.</title>
+    <link href="https://dev.to/triberoi/stop-chasing-fads-operate-claude-like-a-startup-founder-2l1b" rel="alternate"/>
+    <id>https://dev.to/triberoi/stop-chasing-fads-operate-claude-like-a-startup-founder-2l1b</id>
+    <updated>2026-08-22T19:07:41Z</updated>
+    <summary type="text">I am running an AI-native startup. Early on though, I would spend so much time staying ahead of every new AI hot take that I lost focus on what I needed to do to move the company forward. I didn't need a hundred skills, fifty MCP servers, or Ralph Wiggum loops sending my API bill to the moon. I needed answers to plain questions. What is this model costing me? Is it writing code I keep? Is that tip</summary>
+    <author><name>Mark Birch</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A pre-flight checklist for shipping a Claude connector</title>
+    <link href="https://dev.to/akashdas/a-pre-flight-checklist-for-shipping-a-claude-connector-56oc" rel="alternate"/>
+    <id>https://dev.to/akashdas/a-pre-flight-checklist-for-shipping-a-claude-connector-56oc</id>
+    <updated>2026-08-22T18:46:58Z</updated>
+    <summary type="text">Writing an MCP server is the easy part. Shipping one as a Claude connector means passing four gates that have nothing to do with your business logic: Anthropic's network can reach you, Claude can get an OAuth client identity, a human reviewer approves your tool design, and your server does not waste the user's context window. Here is the checklist I wish I had had, in the order the failures actual</summary>
+    <author><name>Akash Das</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AWS EC2 Deployment — Q&amp;A Reference</title>
@@ -435,23 +453,5 @@
     <updated>2026-08-21T12:30:30Z</updated>
     <summary type="text">n8n has documented a one-command route for deploying a self-hosted instance with its AI Assistant support services included. The setup lowers the initial barrier to running n8n in a Docker-based environment, while keeping a crucial distinction clear: the AI Assistant is not active by default and requires a model provider API key before it can be enabled. The development matters for teams evaluatin</summary>
     <author><name>Ali Farhat</name></author>
-  </entry>
-  <entry>
-    <title>After 15 Years of Coding, AI Made Me Start More Projects in 6 Months Than My Entire Career Combined</title>
-    <link href="https://dev.to/devworkdir/after-15-years-of-coding-ai-made-me-start-more-projects-in-6-months-than-my-entire-career-combined-1b49" rel="alternate"/>
-    <id>https://dev.to/devworkdir/after-15-years-of-coding-ai-made-me-start-more-projects-in-6-months-than-my-entire-career-combined-1b49</id>
-    <updated>2026-08-21T11:27:43Z</updated>
-    <summary type="text">TL;DR: I'm a full-stack developer with 15 years of experience, mostly building mobile apps, then web, backend, and desktop. After I started using Cursor and Claude Code, my productivity exploded — one idea quickly becomes a full-stack project with frontend, backend, and infrastructure. My project count grew 10x, but my memory didn't. So I built Dev WorkDir, a macOS menu bar app that organizes all </summary>
-    <author><name>Dev WorkDir</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Shipping 12 iOS Apps to the App Store Unattended, Part 2 — Every Review Trap (Beta Builds Rejected, Pricing, Name Collisions)</title>
-    <link href="https://dev.to/bokuwalily/shipping-12-ios-apps-to-the-app-store-unattended-part-2-every-review-trap-beta-builds-rejected-2jim" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/shipping-12-ios-apps-to-the-app-store-unattended-part-2-every-review-trap-beta-builds-rejected-2jim</id>
-    <updated>2026-08-21T11:00:07Z</updated>
-    <summary type="text">I got laid off with ¥0 in the bank. Six months later, rebuilt around Claude Code running as an autonomous environment, I'm clearing ¥1.2M a month — and one of the load-bearing pieces is a pipeline that submits apps to the App Store without me touching it. Part 1 covered how to wire up JWT authentication and the skeleton of asc.py. This time I'm collecting the three &quot;review rejection traps&quot; that on</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
