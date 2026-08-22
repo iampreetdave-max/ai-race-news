@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-22T17:24:47Z</updated>
+  <updated>2026-08-22T18:36:03Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -185,6 +185,27 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>AWS EC2 Deployment — Q&amp;A Reference</title>
+    <link href="https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b" rel="alternate"/>
+    <id>https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b</id>
+    <updated>2026-08-22T18:30:06Z</updated>
+    <summary type="text">A reference guide compiled from deploying two Node.js/Docker apps to AWS EC2, covering the real issues hit and how they were fixed. 1. Getting Connected Q: How do I SSH into my EC2 instance? chmod 400 your-key.pem ssh -i your-key.pem ubuntu@YOUR_ELASTIC_IP Type yes when asked about the fingerprint the first time. Q: chmod 400 doesn't seem to work / I get &quot;bad permissions&quot; / &quot;Permission denied (pub</summary>
+    <author><name>harsh</name></author>
+  </entry>
+  <entry>
+    <title>No LeetCode. No club leadership. No internship on my resume.
+Still got the offer.
+
+I wrote about how that happened — and it involved a semester I almost didn't recover from.
+
+What actually got your first interview? 👀</title>
+    <link href="https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-3d3o" rel="alternate"/>
+    <id>https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-3d3o</id>
+    <updated>2026-08-22T18:29:17Z</updated>
+    <summary type="text">How I Got a Job Offer as a Fresher in an AI-Fearing Market — Without LeetCode or Club Leaderships on My Resume Dhruv Jani Dhruv Jani Dhruv Jani Follow Aug 20 How I Got a Job Offer as a Fresher in an AI-Fearing Market — Without LeetCode or Club Leaderships on My Resume #career #devjournal #resume #hackathon 17 reactions 8 comments 6 min read</summary>
+    <author><name>Dhruv Jani</name></author>
+  </entry>
+  <entry>
     <title>Data center opposition surged from 42 to 75 percent in just one year, survey finds</title>
     <link href="https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/" rel="alternate"/>
     <id>https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/</id>
@@ -192,6 +213,15 @@
     <summary type="text">Three out of four Americans now oppose having a data center built near them, up from an even split just a year ago, according to a Heatmap News survey. 61 percent are &quot;strongly opposed.&quot; The article Data center opposition surged from 42 to 75 percent in just one year, survey finds appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>RAG explicado: cómo darle a un LLM tu propia información</title>
+    <link href="https://dev.to/isazajuancarlos/rag-explicado-como-darle-a-un-llm-tu-propia-informacion-2a8b" rel="alternate"/>
+    <id>https://dev.to/isazajuancarlos/rag-explicado-como-darle-a-un-llm-tu-propia-informacion-2a8b</id>
+    <updated>2026-08-22T18:25:06Z</updated>
+    <summary type="text">Un modelo de lenguaje sabe mucho del mundo, pero no sabe nada de tu empresa: tus manuales, tus políticas, tus productos. Y si le preguntas por algo que no sabe, puede inventar una respuesta que suena convincente. RAG (Retrieval-Augmented Generation) resuelve las dos cosas. La idea En lugar de esperar que el modelo &quot;se sepa&quot; tu información, se la das en el momento de la pregunta: Indexas tus docume</summary>
+    <author><name>Juan Carlos Isaza</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents</title>
@@ -212,6 +242,69 @@
     <summary type="text">As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important....</summary>
     <author><name>Michelle Horton</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>If your MCP server uses OAuth, every directory thinks it has zero tools</title>
+    <link href="https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco" rel="alternate"/>
+    <id>https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco</id>
+    <updated>2026-08-22T18:07:33Z</updated>
+    <summary type="text">We shipped a remote MCP server, registered it everywhere, and then noticed something odd: every directory listed it as having no tools at all. Not the wrong tools. Not a stale count. Zero. glama's API returned this: { &quot;name&quot;: &quot;FrameThrower MCP Server&quot;, &quot;attributes&quot;: [&quot;author:official&quot;, &quot;hosting:remote-capable&quot;], &quot;tools&quot;: [] } Smithery's page rendered the same nothing. So did mcp.directory. Four wo</summary>
+    <author><name>Leo Kadieff</name></author>
+  </entry>
+  <entry>
+    <title>Why Your AI Agent Architecture Is Failing: Bridging Security Holes, Planning Failures, and Real-World Dev Workflows</title>
+    <link href="https://dev.to/tamizuddin/why-your-ai-agent-architecture-is-failing-bridging-security-holes-planning-failures-and-2kc9" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/why-your-ai-agent-architecture-is-failing-bridging-security-holes-planning-failures-and-2kc9</id>
+    <updated>2026-08-22T18:01:45Z</updated>
+    <summary type="text">Originally published on tamiz.pro. The promise of autonomous AI agents transforming software development is tantalizing. Imagine agents drafting code, refactoring modules, or even deploying applications with minimal human intervention. Yet, many early attempts at integrating AI agents into complex engineering workflows fall short, often exhibiting unpredictable behavior, security vulnerabilities, </summary>
+    <author><name>Tamiz Uddin</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Same Model, Two Speeds: A Friendly Tour of LLM Inference Engines</title>
+    <link href="https://dev.to/lovestaco/same-model-two-speeds-a-friendly-tour-of-llm-inference-engines-2ccj" rel="alternate"/>
+    <id>https://dev.to/lovestaco/same-model-two-speeds-a-friendly-tour-of-llm-inference-engines-2ccj</id>
+    <updated>2026-08-22T18:00:44Z</updated>
+    <summary type="text">Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give it a try and share your feedback. Quick experiment. Open ChatGPT, ask it something, and watch the words spill out. Now do the same in Gemini. Notice anything? The text does not always arrive at the same pa</summary>
+    <author><name>Athreya aka Maneshwar</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Server Security Audit Checklist: What Actually Gets Checked</title>
+    <link href="https://dev.to/mecanik-dev/server-security-audit-checklist-what-actually-gets-checked-4oko" rel="alternate"/>
+    <id>https://dev.to/mecanik-dev/server-security-audit-checklist-what-actually-gets-checked-4oko</id>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <summary type="text">A server security audit is a systematic review of a server's exposure and configuration to find where an attacker could get in and what they could do once inside. If you have been asked to commission one, or you want to run an internal review, this guide explains exactly what a thorough audit examines and why each area matters. An audit is diagnostic: it tells you where you stand. It pairs natural</summary>
+    <author><name>Mecanik1337</name></author>
+  </entry>
+  <entry>
+    <title>My First Project:From a Local Folder to GitHub Using Git and SSH</title>
+    <link href="https://dev.to/smumbi_/my-first-projectfrom-a-local-folder-to-github-using-git-and-ssh-407h" rel="alternate"/>
+    <id>https://dev.to/smumbi_/my-first-projectfrom-a-local-folder-to-github-using-git-and-ssh-407h</id>
+    <updated>2026-08-22T17:59:57Z</updated>
+    <summary type="text">Introduction It's only been two weeks since I enrolled in the LuxDev Data Science, Analytics and AI program yet I've already learnt so much! One of the first things I've been able to learn is how to take a project from a local folder in my PC and publish it to GitHub using Git and SSH. For someone who is still building their skills in data and tech,terms like repositories,commits,staging,remotes a</summary>
+    <author><name>Stacy Mumbi</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>The Planner Made the Same 3 Mistakes Every Time. A Bigger Model Didn't Fix It.</title>
+    <link href="https://dev.to/debashish_ghosal/the-planner-made-the-same-3-mistakes-every-time-a-bigger-model-didnt-fix-it-3170" rel="alternate"/>
+    <id>https://dev.to/debashish_ghosal/the-planner-made-the-same-3-mistakes-every-time-a-bigger-model-didnt-fix-it-3170</id>
+    <updated>2026-08-22T17:56:02Z</updated>
+    <summary type="text">This is article 3 in a series about building PlannerCritic, an open-source engine where one LLM writes a plan and a second LLM reviews it. Article 1 covers the 157-goal field test. Article 2 is about the critic severity bug. This one is about the most uncomfortable thing the field test revealed: the planner has a structural problem that no model upgrade fixes. 132 concrete blockers across 63 stric</summary>
+    <author><name>Debashish Ghosal</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>How Do You Delete Billions of WhatsApp Statuses Every Day Without Bringing Your Database to Its Knees?</title>
+    <link href="https://dev.to/ravi-vishwakarma-hash/how-do-you-delete-billions-of-whatsapp-statuses-every-day-without-bringing-your-database-to-its-4aja" rel="alternate"/>
+    <id>https://dev.to/ravi-vishwakarma-hash/how-do-you-delete-billions-of-whatsapp-statuses-every-day-without-bringing-your-database-to-its-4aja</id>
+    <updated>2026-08-22T17:55:29Z</updated>
+    <summary type="text">Imagine you run a messaging app used by billions of people. Every day, people upload photos, videos, and text as Status updates. But there is one important rule: a Status should disappear after about 24 hours. Now imagine you have to clean up billions of expired Statuses every day. Your first thought might be: “Easy. Just run a query that deletes everything older than 24 hours.” Something like: DE</summary>
+    <author><name>Ravi Vishwakarma</name></author>
   </entry>
   <entry>
     <title>The Evolution of the Agent Harness</title>
@@ -360,89 +453,5 @@
     <summary type="text">When an agent writes the code, you stop reading every line. You can pretend otherwise for a while, but on any real codebase you end up skimming a 600 line diff and approving it because nothing jumped out. Nothing jumping out is not the same as nothing being wrong. Documentation and a well tended CLAUDE.md only take you so far. The longer an agent runs, the more those instructions get crowded out o</summary>
     <author><name>Grant PS</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CEO Interview: Funding Societies | Modalku</title>
-    <link href="https://www.cbinsights.com/research/ceo-interview-funding-societies-modalku-cardup/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/ceo-interview-funding-societies-modalku-cardup/</id>
-    <updated>2026-08-21T16:06:29Z</updated>
-    <summary type="text">Kelvin Teo, the CEO of Funding Societies | Modalku, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We operate 2 … The post CEO Interview: Funding Societies | Modalku appeared first on CB Insights Research.</summary>
-    <author><name>Medhabi Ghosh</name></author>
-  </entry>
-  <entry>
-    <title>Executive Interview: Tinubu</title>
-    <link href="https://www.cbinsights.com/research/executive-interview-tinubu/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/executive-interview-tinubu/</id>
-    <updated>2026-08-21T16:01:52Z</updated>
-    <summary type="text">Antoine Megglé, the CPO of Tinubu, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We are a B2B SaaS software … The post Executive Interview: Tinubu appeared first on CB Insights Research.</summary>
-    <author><name>Medhabi Ghosh</name></author>
-  </entry>
-  <entry>
-    <title>CEO Interview: Flexvelop</title>
-    <link href="https://www.cbinsights.com/research/ceo-interview-flexvelop/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/ceo-interview-flexvelop/</id>
-    <updated>2026-08-21T15:56:38Z</updated>
-    <summary type="text">Hans Stockfisch, CEO of Flexvelop, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? At Flexvelop, we are building the subscription … The post CEO Interview: Flexvelop appeared first on CB Insights Research.</summary>
-    <author><name>Medhabi Ghosh</name></author>
-  </entry>
-  <entry>
-    <title>TikTok will pay $400 million to settle DOJ child privacy lawsuit</title>
-    <link href="https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa" rel="alternate"/>
-    <id>https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa</id>
-    <updated>2026-08-21T22:13:34Z</updated>
-    <summary type="text">The US Department of Justice announced on Friday that TikTok will pay $400 million to settle a lawsuit filed in 2024 over allegedly violating the Children's Online Privacy Protection Act (COPPA). In the lawsuit, the DOJ alleged that TikTok collected data from children without notifying parents or obtaining consent and did not delete the accounts […]</summary>
-    <author><name>Jay Peters</name></author>
-  </entry>
-  <entry>
-    <title>How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours</title>
-    <link href="https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/</id>
-    <updated>2026-08-21T22:10:01Z</updated>
-    <summary type="text">Rillet CEO Nicholas Koop shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying.</summary>
-    <author><name>Dominic-Madori Davis</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Free vs Self-Hosted Models: A Break-Even Framework for Agent Workloads</title>
-    <link href="https://dev.to/codepro_3283/free-vs-self-hosted-models-a-break-even-framework-for-agent-workloads-14lp" rel="alternate"/>
-    <id>https://dev.to/codepro_3283/free-vs-self-hosted-models-a-break-even-framework-for-agent-workloads-14lp</id>
-    <updated>2026-08-22T15:51:16Z</updated>
-    <summary type="text">The cheapest model is not the one with the lowest price per token. It is the one whose failure modes you can afford, and for agent workloads that makes hosting a break-even problem, not a benchmark problem. This article gives you a three-variable framework — volume, failure cost, and operational time — plus a runnable script that computes the winner from your own numbers. I will use MonkeyCode as </summary>
-    <author><name>Sam Sun</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Batch LLM Jobs Without Breaking the Bank: A Queue-First Architecture for Free Tiers</title>
-    <link href="https://dev.to/gitjs_8094/batch-llm-jobs-without-breaking-the-bank-a-queue-first-architecture-for-free-tiers-j3g" rel="alternate"/>
-    <id>https://dev.to/gitjs_8094/batch-llm-jobs-without-breaking-the-bank-a-queue-first-architecture-for-free-tiers-j3g</id>
-    <updated>2026-08-22T15:51:09Z</updated>
-    <summary type="text">Free model quotas have a hidden enemy: synchronous calls. Every request blocks on the network. Timeouts get wasted. Retries pile up. Core conclusion: an asynchronous queue turns a free model quota from a demo tool into a batch engine. A SQLite-backed queue, a few Python workers, and a dead-letter table can extract ten times the throughput of synchronous code. The sync trap Synchronous calls look s</summary>
-    <author><name>Riley Wu</name></author>
-  </entry>
-  <entry>
-    <title>Speed Beat Relevance: What Broke When I Put an LLM in Front of Product Search</title>
-    <link href="https://hackernoon.com/speed-beat-relevance-what-broke-when-i-put-an-llm-in-front-of-product-search?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/speed-beat-relevance-what-broke-when-i-put-an-llm-in-front-of-product-search?source=rss</id>
-    <updated>2026-08-22T15:35:29Z</updated>
-    <summary type="text">I built a natural-language product search engine over a marketplace catalogue in twelve languages. The interesting failures were not in the model's language understanding — that part mostly worked. They were in the seams: a price filter that had never once filtered, an LLM confidently inventing valid-looking category IDs, a substring match that turned &quot;newborn&quot; into &quot;born&quot; for years, and the findi</summary>
-    <author><name>Ohad Farkash</name></author>
-  </entry>
-  <entry>
-    <title>US wants to force partner countries to choose between Washington and Beijing in the AI race</title>
-    <link href="https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/" rel="alternate"/>
-    <id>https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/</id>
-    <updated>2026-08-21T15:18:29Z</updated>
-    <summary type="text">The US is drafting a letter to partner countries telling them to pick a side in the AI standoff between Washington and Beijing, according to Reuters. The article US wants to force partner countries to choose between Washington and Beijing in the AI race appeared first on The Decoder.</summary>
-    <author><name>Manuel Uth</name></author>
-  </entry>
-  <entry>
-    <title>Liquid Death CEO on Viral AI Data Center Ad, IPO Odds</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/liquid-death-ceo-on-viral-ai-data-center-ad-ipo-odds-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/liquid-death-ceo-on-viral-ai-data-center-ad-ipo-odds-video</id>
-    <updated>2026-08-21T21:36:26Z</updated>
-    <summary type="text">Mike Cessario, Founder and CEO of Liquid Death, joined the program to discuss the growing public sentiment against the rapid expansion of data centers. Despite widespread interest in AI investments, the mood around data center growth has been notably negative. He speaks with Romaine Bostick on &quot;The Close.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="hardware"/>
-    <category term="funding"/>
   </entry>
 </feed>
