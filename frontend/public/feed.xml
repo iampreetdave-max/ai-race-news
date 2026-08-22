@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-22T22:26:34Z</updated>
+  <updated>2026-08-22T23:24:53Z</updated>
   <entry>
     <title>Harvard’s $699 startup bootcamp offers AI avatars of its instructors</title>
     <link href="https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/" rel="alternate"/>
@@ -146,6 +146,56 @@
     <author><name>Asif Razzaq</name></author>
     <category term="funding"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Indexing Like a Jedi: How I Tamed My Database</title>
+    <link href="https://dev.to/timevolt/indexing-like-a-jedi-how-i-tamed-my-database-16p0" rel="alternate"/>
+    <id>https://dev.to/timevolt/indexing-like-a-jedi-how-i-tamed-my-database-16p0</id>
+    <updated>2026-08-22T23:20:14Z</updated>
+    <summary type="text">The Quest Begins (The &quot;Why&quot;) I was building a tiny rate‑limiter for a side‑project API. The idea was simple: every request writes a row with user_id and requested_at (a timestamp) into a rate_limit_log table, and before allowing the request we count how many rows exist for that user in the last minute. If the count exceeds the limit we reject the request. At first it felt like a breeze. I threw to</summary>
+    <author><name>Timevolt</name></author>
+  </entry>
+  <entry>
+    <title>I built an open API for Nigeria's 752 universities, polytechnics, and colleges of education</title>
+    <link href="https://dev.to/devfarouqk/i-built-an-open-api-for-nigerias-752-universities-polytechnics-and-colleges-of-education-2a2p" rel="alternate"/>
+    <id>https://dev.to/devfarouqk/i-built-an-open-api-for-nigerias-752-universities-polytechnics-and-colleges-of-education-2a2p</id>
+    <updated>2026-08-22T23:12:35Z</updated>
+    <summary type="text">If you've ever tried to find a clean, structured, up-to-date list of Nigerian tertiary institutions, you've probably run into the same wall I did: every result is a static blog post or a PDF from a few years ago, half of them contradict each other, and none of them are usable as data — just prose to be re-typed by hand. There wasn't an open API for this. So I built one. What it is nigeria-tertiary</summary>
+    <author><name>Umar Sulaiman Mailafiya</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Smashing the MCP + Skill Tradeoff: More Guidance, Better Agents?</title>
+    <link href="https://dev.to/neithergalax/smashing-the-mcp-skill-tradeoff-more-guidance-better-agents-2g21" rel="alternate"/>
+    <id>https://dev.to/neithergalax/smashing-the-mcp-skill-tradeoff-more-guidance-better-agents-2g21</id>
+    <updated>2026-08-22T22:41:43Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview I've been working on a Tokyo public transit MCP server for a while (see the previous posts in the series). Recently, I started experimenting with adding a SKILL.md to see whether giving the agent more structured guidance would improve its behavior and output. Instead of treating this as simply ano</summary>
+    <author><name>neitherGalax</name></author>
+  </entry>
+  <entry>
+    <title>A Storm Didn't Decide This Battle — A Sergeant Did</title>
+    <link href="https://dev.to/joseph_magombe_1b430cabe3/a-storm-didnt-decide-this-battle-a-sergeant-did-39m2" rel="alternate"/>
+    <id>https://dev.to/joseph_magombe_1b430cabe3/a-storm-didnt-decide-this-battle-a-sergeant-did-39m2</id>
+    <updated>2026-08-22T22:38:39Z</updated>
+    <summary type="text">Building a deterministic tactics engine in Python, inspired by Kingdom. Same seed. Same orders. Same pincer maneuver through a mountain pass. Two different outcomes: Baseline (no luck): WEI wins by attrition (Qin ground down to 20%) With luck enabled: QIN wins by decapitation What changed? On turn 4, Wei's guard formation was at 57% strength and Qin's cavalry at 54% — both inside a &quot;close call&quot; ba</summary>
+    <author><name>Joseph Magombe</name></author>
+  </entry>
+  <entry>
+    <title>Why Your ML Model Should Sometimes Say 'I Don't Know': Building Uncertainty-Aware Clinical AI</title>
+    <link href="https://dev.to/hossein_ahmadi/why-your-ml-model-should-sometimes-say-i-dont-know-building-uncertainty-aware-clinical-ai-36g8" rel="alternate"/>
+    <id>https://dev.to/hossein_ahmadi/why-your-ml-model-should-sometimes-say-i-dont-know-building-uncertainty-aware-clinical-ai-36g8</id>
+    <updated>2026-08-22T22:29:30Z</updated>
+    <summary type="text">🚨 Predictive models tell us what will happen. 🧠 Causal models tell us what happens IF we intervene. ❓ But neither tells us what we should DO. In healthcare, this gap is dangerous. I just finished building CausalSepsis-DI v2, an end-to-end Healthcare Decision Intelligence system that bridges the gap between causal estimation and safe clinical action. 🏥 The Clinical Question: Should we administer ea</summary>
+    <author><name>hossein ahmadi</name></author>
+  </entry>
+  <entry>
+    <title>Real Token Cost of MCP: 91K Tokens of JSON</title>
+    <link href="https://dev.to/mcptokensaver/real-token-cost-of-mcp-91k-tokens-of-json-4goe" rel="alternate"/>
+    <id>https://dev.to/mcptokensaver/real-token-cost-of-mcp-91k-tokens-of-json-4goe</id>
+    <updated>2026-08-22T22:19:33Z</updated>
+    <summary type="text">255 MCP tools. 91,000 tokens of JSON schemas. Before you ask a single question. Here's what I found and how I fixed it. The experiment I connected Claude Code to 5 MCP servers. File system, GitHub, Postgres, Puppeteer, and a custom search tool. Then I counted every token that flowed through the system. The numbers: Phase Token Count What it is Tool discovery (initial) 91,247 JSON schemas for 255 t</summary>
+    <author><name>MCP Token Saver</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>My First GitHub Project: From a Local Folder to GitHub Using Git and SSH</title>
@@ -390,58 +440,6 @@
     <updated>2026-08-22T19:52:06Z</updated>
     <summary type="text">Short answer: start a Node.js ticket-summarization SaaS with chat completions, put the provider behind one tiny adapter, and choose the vendor only after checking model availability, context limits, US/EU requirements, and batch support. Embeddings don't improve the first version of this job. They become relevant later if the product adds search or an ask-your-docs flow. For short-to-medium ticket</summary>
     <author><name>MortimerNilsson7694</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>May the Source Be With You: Why Your AI Agent Is Only as Good as Its Knowledge</title>
-    <link href="https://dev.to/cityjs_conference_5c08941/may-the-source-be-with-you-why-your-ai-agent-is-only-as-good-as-its-knowledge-1hhm" rel="alternate"/>
-    <id>https://dev.to/cityjs_conference_5c08941/may-the-source-be-with-you-why-your-ai-agent-is-only-as-good-as-its-knowledge-1hhm</id>
-    <updated>2026-08-22T19:48:18Z</updated>
-    <summary type="text">Everyone seems to be building AI agents. Give a model some instructions, connect a few tools, add a system prompt, and suddenly we have an &quot;agent.&quot; Except there's a problem. A lot of them aren't particularly useful. When an agent produces a poor answer, the immediate assumption is often that the model isn't capable enough. But sometimes the model isn't the problem at all. The agent simply doesn't </summary>
-    <author><name>CITYJS CONFERENCE</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Your AI Agent Doesn't Need a Bigger Context Window. It Needs an Eviction Policy.</title>
-    <link href="https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5" rel="alternate"/>
-    <id>https://dev.to/mukesh_13/your-ai-agent-doesnt-need-a-bigger-context-window-it-needs-an-eviction-policy-25g5</id>
-    <updated>2026-08-22T19:45:59Z</updated>
-    <summary type="text">Every few weeks another framework ships a bigger context window and someone declares agent memory solved. It isn't. I've watched three separate production agents degrade in the exact same way — not because they forgot something important, but because they remembered too much and couldn't tell what mattered anymore. The fix wasn't more storage. It was an eviction policy. The thesis Here's the hot t</summary>
-    <author><name>Mukesh</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I analysed the 162 most popular Dart packages. 59% of what a scanner would flag never runs in your app.</title>
-    <link href="https://dev.to/tisankan/i-analysed-the-162-most-popular-dart-packages-59-of-what-a-scanner-would-flag-never-runs-in-your-1a5g" rel="alternate"/>
-    <id>https://dev.to/tisankan/i-analysed-the-162-most-popular-dart-packages-59-of-what-a-scanner-would-flag-never-runs-in-your-1a5g</id>
-    <updated>2026-08-22T19:43:13Z</updated>
-    <summary type="text">I maintain capdrift, a tool that reads a Dart package and reports what it is able to do. I ran it across the 162 most-downloaded packages on pub.dev and kept the raw output. Here is what is actually in there. Method: capdrift inspect &lt;pkg&gt; --format json against each package's latest version, resolved AST rather than regex, no code executed. 162 packages, 1,805 findings, zero analysis failures. Fou</summary>
-    <author><name>Tisankan</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense</title>
-    <link href="https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/</id>
-    <updated>2026-08-21T19:35:37Z</updated>
-    <summary type="text">Anthropic is now running its security scanner Claude Security on Claude Mythos 5. The tool scans codebases for vulnerabilities, provides severity ratings with CWE classifications, and suggests patches. Anthropic is also plugging Mythos 5 into partner security products protecting critical infrastructure. The article Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense ap</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Michael Polansky is training an AI model on skin that’s still alive</title>
-    <link href="https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/</id>
-    <updated>2026-08-22T01:31:04Z</updated>
-    <summary type="text">Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now going public about it.</summary>
-    <author><name>Connie Loizos</name></author>
-  </entry>
-  <entry>
-    <title>Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks</title>
-    <link href="https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/" rel="alternate"/>
-    <id>https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/</id>
-    <updated>2026-08-21T19:08:27Z</updated>
-    <summary type="text">Deepseek has released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to V4-Flash's text capabilities. On the company's own multimodal agent benchmarks, it approaches Opus 4.8 and sometimes beats it. The article Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
   </entry>
 </feed>
