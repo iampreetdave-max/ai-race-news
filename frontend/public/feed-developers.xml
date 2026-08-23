@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-23T04:41:11Z</updated>
+  <updated>2026-08-23T05:32:57Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -13,6 +13,54 @@
     <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Rate Limits Cost Me a Whole Night of Work — Here's the 46-Line Script That Fixed It</title>
+    <link href="https://dev.to/bokuwalily/rate-limits-cost-me-a-whole-night-of-work-heres-the-46-line-script-that-fixed-it-7o3" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/rate-limits-cost-me-a-whole-night-of-work-heres-the-46-line-script-that-fixed-it-7o3</id>
+    <updated>2026-08-23T05:00:06Z</updated>
+    <summary type="text">Every heavy Claude Code user eventually hits the wall: the 5-hour rate limit block. I'm Lily. I lost my income overnight to a company-initiated layoff, rebuilt my setup starting that same month, and got back to ¥1.2M/month in revenue within six months. Why This Setup Works To most users, a rate limit block looks like a simple &quot;pause.&quot; Grab a coffee, wait it out. The reality is far more destructive</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I recorded my first product demo in 54 seconds (OBS, ffmpeg, openai.fm)</title>
+    <link href="https://dev.to/serhii_kalyna_730b636889c/how-i-recorded-my-first-product-demo-in-54-seconds-obs-ffmpeg-openaifm-50eg" rel="alternate"/>
+    <id>https://dev.to/serhii_kalyna_730b636889c/how-i-recorded-my-first-product-demo-in-54-seconds-obs-ffmpeg-openaifm-50eg</id>
+    <updated>2026-08-23T04:59:37Z</updated>
+    <summary type="text">I shipped my first product demo video this week for Convertify (my free image converter). 54 seconds, no team, no budget. Here is the exact toolchain and what I would change next time. The stack OBS Studio for screen recording at 1920x1080, 60fps, CRF 20. The 60fps is not vanity. Product demos live and die on smooth scroll and cursor motion. 30fps for a converter tool with drag-and-drop looks lagg</summary>
+    <author><name>Serhii Kalyna</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kubernetes Explained: Why Every Cloud &amp; DevOps Engineer Should Learn It 🚀</title>
+    <link href="https://dev.to/yash_sonawane25/kubernetes-explained-why-every-cloud-devops-engineer-should-learn-it-3kgg" rel="alternate"/>
+    <id>https://dev.to/yash_sonawane25/kubernetes-explained-why-every-cloud-devops-engineer-should-learn-it-3kgg</id>
+    <updated>2026-08-23T04:47:43Z</updated>
+    <summary type="text">Imagine you have one application running on a single server. Everything is fine. Then your users increase from 1,000 → 10,000 → 100,000. Suddenly, one server isn't enough. You need more servers. You need automatic scaling. You need load balancing. You need application recovery when something crashes. You need controlled deployments. And you need all of this without manually managing hundreds of co</summary>
+    <author><name>Yash Sonawane</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>A local-first memory daemon for AI agents: SQLite + ONNX, zero API calls</title>
+    <link href="https://dev.to/everest_an/a-local-first-memory-daemon-for-ai-agents-sqlite-onnx-zero-api-calls-2ahk" rel="alternate"/>
+    <id>https://dev.to/everest_an/a-local-first-memory-daemon-for-ai-agents-sqlite-onnx-zero-api-calls-2ahk</id>
+    <updated>2026-08-23T04:47:13Z</updated>
+    <summary type="text">Cloud memory tiers have a fundamental problem: your agent context - the most sensitive data you have - leaves your machine. I wanted memory that never does. So Awareness runs a local-first daemon: npx @awareness.market/local start No account. No API key. No cloud. SQLite + ONNX embeddings on your machine, served to Claude Code, Cursor, or any MCP client on localhost. What the daemon gives you Stor</summary>
+    <author><name>Everest An</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI Agents Are Changing Software Development: What Developers Need to Know in 2026 🤖🚀</title>
+    <link href="https://dev.to/yash_sonawane25/ai-agents-are-changing-software-development-what-developers-need-to-know-in-2026-2a37" rel="alternate"/>
+    <id>https://dev.to/yash_sonawane25/ai-agents-are-changing-software-development-what-developers-need-to-know-in-2026-2a37</id>
+    <updated>2026-08-23T04:44:53Z</updated>
+    <summary type="text">For years, we've interacted with AI like this: Ask → Get Answer → Ask Again → Get Answer But something has changed. AI is moving from simply answering questions to taking action. Instead of asking an AI: &quot;How do I deploy this application?&quot; We're moving toward: &quot;Deploy this application, check the logs, fix the problem, run the tests, and tell me when it's ready.&quot; That's the rise of Agentic AI. And </summary>
+    <author><name>Yash Sonawane</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Level 100: Claude foundations</title>
@@ -271,15 +319,6 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Kubernetes Basics for DevOps Engineers</title>
-    <link href="https://dev.to/tejas_kp/kubernetes-basics-for-devops-engineers-3ml9" rel="alternate"/>
-    <id>https://dev.to/tejas_kp/kubernetes-basics-for-devops-engineers-3ml9</id>
-    <updated>2026-08-22T03:34:13Z</updated>
-    <summary type="text">Introduction: Kubernetes can feel overwhelming when you first hear terms like Pods, Services, and Deployments thrown around. In this first post of my Kubernetes series, I’ll break down the fundamentals — what Kubernetes actually solves, and the core building blocks you need to understand before going further. What is Kubernetes? Kubernetes is an open-source container orchestration tool, originally</summary>
-    <author><name>Tejas KP</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
     <title>I pentested my own AI hub and shipped the method, not the map</title>
     <link href="https://dev.to/mk023/i-pentested-my-own-ai-hub-and-shipped-the-method-not-the-map-4k3n" rel="alternate"/>
     <id>https://dev.to/mk023/i-pentested-my-own-ai-hub-and-shipped-the-method-not-the-map-4k3n</id>
@@ -418,41 +457,5 @@
     <summary type="text">Sublime Text remains one of the fastest and most lightweight code editors available, but for years AI tooling has been much stronger in editors such as VS Code, Cursor, and JetBrains IDEs. That is starting to change. Sublime Text's AI ecosystem is still relatively small, but in 2026 there are several interesting options representing very different ways of coding with AI: autocomplete, LLM chat, pa</summary>
     <author><name>Jawuil Pineda</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Managed Kubernetes Across AWS, Azure, and GCP Simultaneously — Here's What Nobody Tells You</title>
-    <link href="https://dev.to/prateek_srivastava_6a5661/i-managed-kubernetes-across-aws-azure-and-gcp-simultaneously-heres-what-nobody-tells-you-2g69" rel="alternate"/>
-    <id>https://dev.to/prateek_srivastava_6a5661/i-managed-kubernetes-across-aws-azure-and-gcp-simultaneously-heres-what-nobody-tells-you-2g69</id>
-    <updated>2026-08-21T19:11:46Z</updated>
-    <summary type="text">The day the same Helm chart behaved differently on three clouds in the same hour was the day I stopped trusting &quot;cloud-agnostic&quot; as a real thing. Nobody plans to manage Kubernetes on three clouds at the same time. It happens gradually — an acquisition brings an Azure footprint, a new business unit commits to GCP, and you already run EKS. Then one morning a page fires and you're staring at three te</summary>
-    <author><name>Prateek Srivastava</name></author>
-  </entry>
-  <entry>
-    <title>Give your AI sub-agent a budget, not your keys</title>
-    <link href="https://dev.to/grantor/give-your-ai-sub-agent-a-budget-not-your-keys-2e7h" rel="alternate"/>
-    <id>https://dev.to/grantor/give-your-ai-sub-agent-a-budget-not-your-keys-2e7h</id>
-    <updated>2026-08-21T19:06:18Z</updated>
-    <summary type="text">Spawn a sub-agent in CrewAI, LangGraph, AutoGen, or a Claude sub-agent setup and check what it actually holds: your credentials. The parent's keys, at full scope, forever. The throwaway agent you created to summarize three PDFs can call every tool your orchestrator can, and the only &quot;revocation&quot; is rotating keys everywhere at once. We accept this because handing a child less than everything has be</summary>
-    <author><name>Grantor</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Running Codex as a Headless Agent</title>
-    <link href="https://towardsdatascience.com/running-codex-as-a-headless-agent/" rel="alternate"/>
-    <id>https://towardsdatascience.com/running-codex-as-a-headless-agent/</id>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <summary type="text">Turning Codex from an interactive assistant into a programmable automation component The post Running Codex as a Headless Agent appeared first on Towards Data Science.</summary>
-    <author><name>Shuai Guo</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>MCP servers won't start on Windows: the 'C:\Program' space-in-path fix</title>
-    <link href="https://dev.to/milkyway008/mcp-servers-wont-start-on-windows-the-cprogram-space-in-path-fix-2daa" rel="alternate"/>
-    <id>https://dev.to/milkyway008/mcp-servers-wont-start-on-windows-the-cprogram-space-in-path-fix-2daa</id>
-    <updated>2026-08-21T17:22:15Z</updated>
-    <summary type="text">You follow all the setup steps. Node is installed the normal way, on the default path. You drop an MCP server into your Claude Desktop config, pointing command at npx. You save, restart, and wait. Nothing starts. The server row just sits there. In some clients you get the real error, and it's a weird one: 'C:\Program' is not recognized as an internal or external command, operable program or batch </summary>
-    <author><name>MilkyWay008</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
