@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T01:39:14Z</updated>
+  <updated>2026-08-23T03:06:25Z</updated>
   <entry>
     <title>The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety</title>
     <link href="https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/" rel="alternate"/>
@@ -146,6 +146,106 @@
     <updated>2026-08-22T12:00:00Z</updated>
     <summary type="text">Torsten Slok found something surprising when Apollo Global Management Inc. looked at how the adoption of artificial intelligence was playing out in the labor market.</summary>
     <author><name>David Westin</name></author>
+  </entry>
+  <entry>
+    <title>Node.js Product Analytics-Style API: 3 Metrics Dashboard Rollback Drills</title>
+    <link href="https://dev.to/wyattsterling5738/nodejs-product-analytics-style-api-3-metrics-dashboard-rollback-drills-54l7" rel="alternate"/>
+    <id>https://dev.to/wyattsterling5738/nodejs-product-analytics-style-api-3-metrics-dashboard-rollback-drills-54l7</id>
+    <updated>2026-08-23T02:45:31Z</updated>
+    <summary type="text">A product analytics style metrics dashboard page says a nightly media pipeline produced 18,420 searchable articles when 18,487 were eligible. The Node.js server-side custom events API drew a tidy chart, but the on-call still needs to know which 67 records vanished, whether the counter changed with the latest build, and whether reverting that build will also restore the old alert definition. Short </summary>
+    <author><name>WyattSterling5738</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Azure Integration Services Interview Prep Part 3: Managed Identity, Key Vault, VNet , Private Endpoints, NSGs, RBAC and Token Validation</title>
+    <link href="https://dev.to/manoharij/azure-integration-services-interview-prep-part-3-managed-identity-key-vault-vnet-private-5646" rel="alternate"/>
+    <id>https://dev.to/manoharij/azure-integration-services-interview-prep-part-3-managed-identity-key-vault-vnet-private-5646</id>
+    <updated>2026-08-23T02:42:47Z</updated>
+    <summary type="text">Part 1 covered the messaging services - Service Bus, Storage Queues, Event Hub, Event Grid. Part 2 covered the orchestration layer that processes what those services move - Logic Apps, Function Apps, Durable Functions. Neither part addressed a question every panel interview eventually asks: how does any of this actually get secured. This part covers exactly that, and deliberately ties every concep</summary>
+    <author><name>Manohari Jayachandran</name></author>
+  </entry>
+  <entry>
+    <title>Level 100: Claude foundations</title>
+    <link href="https://dev.to/kobester_nz/level-100-claude-foundations-16ln" rel="alternate"/>
+    <id>https://dev.to/kobester_nz/level-100-claude-foundations-16ln</id>
+    <updated>2026-08-23T02:37:52Z</updated>
+    <summary type="text">There are four basic components: Claude Code Agent SDK Claude API MCP Claude Code Claude Code is Anthropic's agentic command-line tool for code generation, refactoring, and debugging. It runs where your code lives, and you configure its behavior through a CLAUDE.md file, custom skills, and MCP integrations. The distinction that matters: this isn't a chat window you paste code into. It's an agent t</summary>
+    <author><name>Kobester</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Self-Hosted RAG: A Production Pipeline on Your Own Hardware</title>
+    <link href="https://dev.to/mryadavgulshan/self-hosted-rag-a-production-pipeline-on-your-own-hardware-2a5i" rel="alternate"/>
+    <id>https://dev.to/mryadavgulshan/self-hosted-rag-a-production-pipeline-on-your-own-hardware-2a5i</id>
+    <updated>2026-08-23T02:30:00Z</updated>
+    <summary type="text">A bank in the Gulf gave me a constraint I did not expect. The conversation was going normally — documents, embeddings, vector search — until their CTO leaned forward and said, &quot;None of this can touch a public cloud.&quot; Not the customer documents. Not the queries. Not even the embedding calls. Their compliance policy classified the loan-approval corpus as data that could not leave the building, and t</summary>
+    <author><name>Gulshan Yadav</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Note: Common Claude Architecture Challenges and Solutions</title>
+    <link href="https://dev.to/kobester_nz/claude-architecture-common-challenges-and-solutions-1293" rel="alternate"/>
+    <id>https://dev.to/kobester_nz/claude-architecture-common-challenges-and-solutions-1293</id>
+    <updated>2026-08-23T02:26:13Z</updated>
+    <summary type="text">Claude Architecture Common Challenges and solutions: Lossy Summarization vs. Immutable State Ledgers Prompt Instructions vs. Code-Level Enforcement Lossy Summarization vs. Immutable State Ledgers The Scenario As long-running agentic sessions accumulate chat history, developers often introduce context-window optimization techniques—such as rolling sliding windows or recursive LLM-based summarizatio</summary>
+    <author><name>Kobester</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Postgres as your message queue is a SPOF you'll regret at 3am</title>
+    <link href="https://dev.to/adioof/postgres-as-your-message-queue-is-a-spof-youll-regret-at-3am-22ha" rel="alternate"/>
+    <id>https://dev.to/adioof/postgres-as-your-message-queue-is-a-spof-youll-regret-at-3am-22ha</id>
+    <updated>2026-08-23T02:17:03Z</updated>
+    <summary type="text">At 3 am the pager is activated. Your queue is backed up, your database is on fire, and those two facts are the same fact. This is the trap nobody warns you about when they advise you to simply utilize Postgres for all your needs. The hype has a new victim The simple advice, &quot;Just use Postgres&quot; was very effective in the beginning. You didn't need a complex architecture involving six different servi</summary>
+    <author><name>Aditya Agarwal</name></author>
+  </entry>
+  <entry>
+    <title>Proyecto STEM: construye un monitor de aeronaves con una API y datos abiertos</title>
+    <link href="https://dev.to/jeremy_salsburg_00d273f85/proyecto-stem-construye-un-monitor-de-aeronaves-con-una-api-y-datos-abiertos-25e8" rel="alternate"/>
+    <id>https://dev.to/jeremy_salsburg_00d273f85/proyecto-stem-construye-un-monitor-de-aeronaves-con-una-api-y-datos-abiertos-25e8</id>
+    <updated>2026-08-23T02:16:26Z</updated>
+    <summary type="text">Proyecto STEM: construye un monitor de aeronaves con una API y datos abiertos ¿Buscas un proyecto que combine programación, sistemas en tiempo real, GIS, ciencia de datos, radio y experimentación? Los datos de aeronaves ofrecen un caso práctico que puede crecer desde una consulta API de diez líneas hasta un laboratorio completo con Raspberry Pi y radio definida por software. Transparencia: estoy a</summary>
+    <author><name>Jeremy Salsburg</name></author>
+  </entry>
+  <entry>
+    <title>The COBOL Problem</title>
+    <link href="https://dev.to/adammonago/the-cobol-problem-4l02" rel="alternate"/>
+    <id>https://dev.to/adammonago/the-cobol-problem-4l02</id>
+    <updated>2026-08-23T02:16:12Z</updated>
+    <summary type="text">Originally published on adammonago.com. The COBOL Problem names a knowledge pattern. The language is a metaphor. The store still runs. The interpreters leave. Databases hold information. They do not pass it on. The institution still has a working store. The people who could explain what the records mean are leaving, or already gone. What sits in the database is inventory: a list of what someone on</summary>
+    <author><name>Adam Monago</name></author>
+  </entry>
+  <entry>
+    <title>My scheduled task reported &quot;success&quot; every 5 minutes for 3 weeks. The process inside it had been crashing the whole time.</title>
+    <link href="https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5" rel="alternate"/>
+    <id>https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5</id>
+    <updated>2026-08-23T02:15:33Z</updated>
+    <summary type="text">I run a one-person AI company: Claude Code writes and maintains the code, and most of what it builds runs unattended — several trading bots on Windows Task Scheduler, each polling a broker API every 5 minutes, 24/7, with nobody watching in real time. I wrote before about the agent breaking things it had write access to (I let an AI agent run my trading bots unattended). This one's different: nothi</summary>
+    <author><name>WWP</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Query 100,000 Caribbean Aircraft State Changes with DuckDB</title>
+    <link href="https://dev.to/jeremy_salsburg_00d273f85/query-100000-caribbean-aircraft-state-changes-with-duckdb-2fl0" rel="alternate"/>
+    <id>https://dev.to/jeremy_salsburg_00d273f85/query-100000-caribbean-aircraft-state-changes-with-duckdb-2fl0</id>
+    <updated>2026-08-23T02:01:21Z</updated>
+    <summary type="text">Query 100,000 Caribbean Aircraft State Changes with DuckDB Real-world streaming data rarely arrives as perfectly reconstructed rows. To save bandwidth and storage, ADS-B archives can record a complete aircraft state followed by sparse rows containing only fields that changed. This tutorial uses a free, bounded Caribbean aircraft-data sample to explore that model directly with DuckDB. The file cont</summary>
+    <author><name>Jeremy Salsburg</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Building a Reliable Multi-Agent Pipeline with the Claude API: Orchestration Patterns That Hold Up in Production</title>
+    <link href="https://dev.to/theaishop/building-a-reliable-multi-agent-pipeline-with-the-claude-api-orchestration-patterns-that-hold-up-29pl" rel="alternate"/>
+    <id>https://dev.to/theaishop/building-a-reliable-multi-agent-pipeline-with-the-claude-api-orchestration-patterns-that-hold-up-29pl</id>
+    <updated>2026-08-23T01:58:47Z</updated>
+    <summary type="text">Most &quot;multi-agent&quot; demos fall apart the moment you put them in front of real data. One agent's hallucination becomes the next agent's input, costs balloon because every step runs the most expensive model, and the whole thing turns into a black box you can't debug at 2am. I run a production system that operates my own company on a tiered agent pipeline, and the patterns that keep it reliable are bo</summary>
+    <author><name>Brant Hindman</name></author>
+    <category term="agents"/>
+    <category term="tutorial"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Your Agent Loop Is Lying About Being Done: Writing Verifiable Stop Conditions</title>
@@ -344,102 +444,5 @@
     <summary type="text">Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor...</summary>
     <author><name>Elizabeth Goodman</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access</title>
-    <link href="https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/</id>
-    <updated>2026-08-21T21:15:53Z</updated>
-    <summary type="text">Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separate model add-on. The scan connects to a GitHub repository, traces data flows across files, and returns findings with a CWE category, confidence and severity ratings, and a suggested pa</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Claude Watermarks AI-Generated Text</title>
-    <link href="https://magazine.sebastianraschka.com/p/claude-watermarking" rel="alternate"/>
-    <id>https://magazine.sebastianraschka.com/p/claude-watermarking</id>
-    <updated>2026-08-22T11:11:39Z</updated>
-    <summary type="text">A 48-minute video walkthrough of token sampling, watermark detection, and removal</summary>
-    <author><name>Sebastian Raschka, PhD</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>The Rate Floor Doesn't Exist: Tech Contracting Has Become a Race the Market Never Agreed to Run</title>
-    <link href="https://dev.to/javiercastromdq/the-rate-floor-doesnt-exist-tech-contracting-has-become-a-race-the-market-never-agreed-to-run-480p" rel="alternate"/>
-    <id>https://dev.to/javiercastromdq/the-rate-floor-doesnt-exist-tech-contracting-has-become-a-race-the-market-never-agreed-to-run-480p</id>
-    <updated>2026-08-22T21:08:02Z</updated>
-    <summary type="text">Contractor rates are falling, contract durations are shrinking, and the freelance labor market is flooding with senior talent — and the problem isn't the market, it's that contractors keep letting companies define the terms. A senior backend engineer — eight years of production experience, solid Go and Kubernetes chops, three reference clients — recently told a recruiter she was looking for £650 a</summary>
-    <author><name>Javier Castro</name></author>
-  </entry>
-  <entry>
-    <title>The Meeting You Skipped Was the One That Actually Mattered</title>
-    <link href="https://dev.to/javiercastromdq/the-meeting-you-skipped-was-the-one-that-actually-mattered-3i44" rel="alternate"/>
-    <id>https://dev.to/javiercastromdq/the-meeting-you-skipped-was-the-one-that-actually-mattered-3i44</id>
-    <updated>2026-08-22T21:07:32Z</updated>
-    <summary type="text">Async-first culture is making teams faster and lonelier — but the real damage isn't loneliness. It's that people stopped owning decisions they were never in the room to make. Picture a mid-sized software company, somewhere between Series B and exhaustion, that has gone fully async. No standups. No sprint reviews that anyone actually attends. A bot joins every Zoom, spits out a bulleted summary, dr</summary>
-    <author><name>Javier Castro</name></author>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Hybrid Delivery Is Winning. That Doesn't Mean You're Doing It Right.</title>
-    <link href="https://dev.to/javiercastromdq/hybrid-delivery-is-winning-that-doesnt-mean-youre-doing-it-right-476p" rel="alternate"/>
-    <id>https://dev.to/javiercastromdq/hybrid-delivery-is-winning-that-doesnt-mean-youre-doing-it-right-476p</id>
-    <updated>2026-08-22T21:07:15Z</updated>
-    <summary type="text">The organizations embracing hybrid agile models aren't making a principled methodological choice — most of them are just formalizing the mess they were already living in. Picture a delivery team at a mid-sized European bank. They run two-week Scrum sprints — daily standups, sprint reviews, the whole ceremony. They use Jira boards. They call themselves agile. And then, every quarter, a Release Appr</summary>
-    <author><name>Javier Castro</name></author>
-  </entry>
-  <entry>
-    <title>I Built a Capability-Based Security Layer for AI Agents — Here's Why It Matters</title>
-    <link href="https://dev.to/shubhbhangoo/i-built-a-capability-based-security-layer-for-ai-agents-heres-why-it-matters-4kfc" rel="alternate"/>
-    <id>https://dev.to/shubhbhangoo/i-built-a-capability-based-security-layer-for-ai-agents-heres-why-it-matters-4kfc</id>
-    <updated>2026-08-22T20:48:47Z</updated>
-    <summary type="text">I Built a Capability-Based Security Layer for AI Agents — Here's Why It Matters The Problem Nobody's Talking About AI agents are everywhere now. They book flights, send emails, process payments, and access your codebase. But here's the question nobody asks: Who authorizes which agent can do what? Most people use API keys. An API key is binary — you have it or you don't. If your finance agent's key</summary>
-    <author><name>Shubhbhangoo</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>4 months ago I couldn't code. Then I started treating my AI like a partner instead of a tool.</title>
-    <link href="https://dev.to/bryanw/4-months-ago-i-couldnt-code-then-i-started-treating-my-ai-like-a-partner-instead-of-a-tool-p46" rel="alternate"/>
-    <id>https://dev.to/bryanw/4-months-ago-i-couldnt-code-then-i-started-treating-my-ai-like-a-partner-instead-of-a-tool-p46</id>
-    <updated>2026-08-22T20:40:16Z</updated>
-    <summary type="text">I work a regular day job. I live with my brother, I've got pets, and I build in whatever hours are left. No CS degree, no bootcamp, no network. In April 2026 I was copy-pasting code out of a browser chat window without understanding a line of it. Four months later, me and my AI run a live business that answers phones while I sleep, and we built something stranger underneath it that I want to start</summary>
-    <author><name>Bryan Williams</name></author>
-  </entry>
-  <entry>
-    <title>I Built an AI That Auto-Replies to Your Instagram DMs (No Login Required)</title>
-    <link href="https://dev.to/nandan_das_369/i-built-an-ai-that-auto-replies-to-your-instagram-dms-no-login-required-1b07" rel="alternate"/>
-    <id>https://dev.to/nandan_das_369/i-built-an-ai-that-auto-replies-to-your-instagram-dms-no-login-required-1b07</id>
-    <updated>2026-08-22T20:40:11Z</updated>
-    <summary type="text">I Built an AI That Auto-Replies to Your Instagram DMs (No Login Required) Managing Instagram DMs is a full-time job. Whether you are a small business owner, a content creator, or just someone who gets too many messages, you have probably missed important replies because you could not keep up. So I built InstaReply Bot: an open-source Android app that watches your Instagram notifications and replie</summary>
-    <author><name>Nandan Das</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Engrava 0.5.0: a first-class MCP server</title>
-    <link href="https://dev.to/sovantica/engrava-050-a-first-class-mcp-server-2djc" rel="alternate"/>
-    <id>https://dev.to/sovantica/engrava-050-a-first-class-mcp-server-2djc</id>
-    <updated>2026-08-22T20:36:42Z</updated>
-    <summary type="text">Engrava 0.5.0 pulls the MCP server out of the library. Install engrava now and you get the memory library and nothing else. The server ships separately, as engrava-mcp. The two were never really the same kind of thing — one is a dependency you import, the other is a process your MCP client spawns — and keeping them in one package meant everyone who installed the library also pulled in the server's</summary>
-    <author><name>Przemek Marzec</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS</title>
-    <link href="https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/</id>
-    <updated>2026-08-21T15:00:00Z</updated>
-    <summary type="text">AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...</summary>
-    <author><name>Tanya Lenz</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Understanding the Git Workflow: Working Directory, Staging, Commit and Push.</title>
-    <link href="https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i" rel="alternate"/>
-    <id>https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i</id>
-    <updated>2026-08-22T20:20:07Z</updated>
-    <summary type="text">Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was independently navigating the Git Workflow to successfully upload a test project as part of the data portfolio to a GitHub repository. Git is a version control system that runs locally on a personal computer and allows us to keep track of changes made to our projects. Git creates saved checkpoints kn</summary>
-    <author><name>Njuguna Gichia</name></author>
-    <category term="data"/>
   </entry>
 </feed>

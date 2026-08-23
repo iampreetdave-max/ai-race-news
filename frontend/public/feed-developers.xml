@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-23T01:39:14Z</updated>
+  <updated>2026-08-23T03:06:25Z</updated>
   <entry>
     <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
     <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
@@ -13,6 +13,26 @@
     <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Level 100: Claude foundations</title>
+    <link href="https://dev.to/kobester_nz/level-100-claude-foundations-16ln" rel="alternate"/>
+    <id>https://dev.to/kobester_nz/level-100-claude-foundations-16ln</id>
+    <updated>2026-08-23T02:37:52Z</updated>
+    <summary type="text">There are four basic components: Claude Code Agent SDK Claude API MCP Claude Code Claude Code is Anthropic's agentic command-line tool for code generation, refactoring, and debugging. It runs where your code lives, and you configure its behavior through a CLAUDE.md file, custom skills, and MCP integrations. The distinction that matters: this isn't a chat window you paste code into. It's an agent t</summary>
+    <author><name>Kobester</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My scheduled task reported &quot;success&quot; every 5 minutes for 3 weeks. The process inside it had been crashing the whole time.</title>
+    <link href="https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5" rel="alternate"/>
+    <id>https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5</id>
+    <updated>2026-08-23T02:15:33Z</updated>
+    <summary type="text">I run a one-person AI company: Claude Code writes and maintains the code, and most of what it builds runs unattended — several trading bots on Windows Task Scheduler, each polling a broker API every 5 minutes, 24/7, with nobody watching in real time. I wrote before about the agent breaking things it had write access to (I let an AI agent run my trading bots unattended). This one's different: nothi</summary>
+    <author><name>WWP</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Building a 24/7 Home Security NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge</title>
@@ -434,22 +454,5 @@
     <author><name>MilkyWay008</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Smart MCP Proxy — Hot-Swap MCP Aggregation + AI Concierge</title>
-    <link href="https://dev.to/milkyway008/smart-mcp-proxy-hot-swap-mcp-aggregation-ai-concierge-59fj" rel="alternate"/>
-    <id>https://dev.to/milkyway008/smart-mcp-proxy-hot-swap-mcp-aggregation-ai-concierge-59fj</id>
-    <updated>2026-08-21T17:08:55Z</updated>
-    <summary type="text">Smart MCP Proxy — Hot-Swap MCP Aggregation + AI Concierge I got tired of restarting my agent every time I added an MCP server. Edit a config, restart the gateway, hope the desktop app picks it up... away from your desk, that's a dealbreaker. So I built a proxy that hot-swaps MCP servers live and shares their subprocess pools across every agent you run. It's one endpoint for all your MCP servers. A</summary>
-    <author><name>MilkyWay008</name></author>
-  </entry>
-  <entry>
-    <title>Kubernetes for Beginners: From Local to Production – A Quest Worth the Ring (Lord of the Rings)</title>
-    <link href="https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-a-quest-worth-the-ring-lord-of-the-rings-18hi" rel="alternate"/>
-    <id>https://dev.to/timevolt/kubernetes-for-beginners-from-local-to-production-a-quest-worth-the-ring-lord-of-the-rings-18hi</id>
-    <updated>2026-08-21T17:08:28Z</updated>
-    <summary type="text">The Quest Begins (The &quot;Why&quot;) Honestly, I still remember the first time I tried to ship a tiny Node.js API to a cloud VM and ended up wrestling with SSH keys, manual service restarts, and a config file that seemed to have a mind of its own. It felt like trying to bake a soufflé while someone kept opening the oven door—everything would rise just enough, then collapse. I kept asking myself: There has</summary>
-    <author><name>Timevolt</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
