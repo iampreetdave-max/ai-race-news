@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-22T23:24:53Z</updated>
+  <updated>2026-08-23T01:39:14Z</updated>
+  <entry>
+    <title>The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety</title>
+    <link href="https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/</id>
+    <updated>2026-08-22T23:49:38Z</updated>
+    <summary type="text">In this tutorial, we explore how to design production-grade safety for LLM-based applications using the NeMo Guardrails framework. We move beyond simple prompt filtering to implement a layered architecture, featuring deterministic PII redaction, retrieval filtering, output masking, and policy-based tool gating. By integrating stateful multi-turn evaluation and detailed activation tracing, we demon</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="regulation"/>
+    <category term="tutorial"/>
+  </entry>
   <entry>
     <title>Harvard’s $699 startup bootcamp offers AI avatars of its instructors</title>
     <link href="https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/" rel="alternate"/>
@@ -136,6 +146,41 @@
     <updated>2026-08-22T12:00:00Z</updated>
     <summary type="text">Torsten Slok found something surprising when Apollo Global Management Inc. looked at how the adoption of artificial intelligence was playing out in the labor market.</summary>
     <author><name>David Westin</name></author>
+  </entry>
+  <entry>
+    <title>Your Agent Loop Is Lying About Being Done: Writing Verifiable Stop Conditions</title>
+    <link href="https://dev.to/shipwithaiio/your-agent-loop-is-lying-about-being-done-writing-verifiable-stop-conditions-270p" rel="alternate"/>
+    <id>https://dev.to/shipwithaiio/your-agent-loop-is-lying-about-being-done-writing-verifiable-stop-conditions-270p</id>
+    <updated>2026-08-23T01:30:00Z</updated>
+    <summary type="text">TL;DR — A loop is only as trustworthy as its stop condition. &quot;Done&quot; has to be checkable by a different model — tests pass, lint clean, schema validates — never the worker's own claim. Below: why self-grading fails, the four rungs of verification, a checker-agent template you can copy, and the three caps that stop a loop running forever. Part 3 of the Loop Engineering series on ShipWithAI. Read the</summary>
+    <author><name>ShipWithAI</name></author>
+  </entry>
+  <entry>
+    <title>I failed at time management five times. Then I audited where the time actually went.</title>
+    <link href="https://dev.to/hyunho_lee_e4373878e60f62/i-failed-at-time-management-five-times-then-i-audited-where-the-time-actually-went-ode" rel="alternate"/>
+    <id>https://dev.to/hyunho_lee_e4373878e60f62/i-failed-at-time-management-five-times-then-i-audited-where-the-time-actually-went-ode</id>
+    <updated>2026-08-23T01:29:13Z</updated>
+    <summary type="text">I've promised myself I'd &quot;manage my time better&quot; more times than I can count. None of it lasted a month. Work harder. Cut the distractions. Stay focused. Every one of those resolutions quietly died, and for years I didn't notice the pattern, because there was always a good excuse. A friend visited. I got sick. Two deadlines collided. Here's the thing I finally admitted: anything that runs on willp</summary>
+    <author><name>Leeo</name></author>
+  </entry>
+  <entry>
+    <title>Google เปิดซอร์ส Long Horizon, 5 design patterns ที่ทำให้ agent ทำงานข้ามสัปดาห์ได้โดยไม่พังเงียบๆ</title>
+    <link href="https://dev.to/sarantoon/google-epidchrs-long-horizon-5-design-patterns-thiithamaih-agent-thamngaankhaamsapdaahaidodyaimphangengiiyb-330" rel="alternate"/>
+    <id>https://dev.to/sarantoon/google-epidchrs-long-horizon-5-design-patterns-thiithamaih-agent-thamngaankhaamsapdaahaidodyaimphangengiiyb-330</id>
+    <updated>2026-08-23T01:14:53Z</updated>
+    <summary type="text">Google เปิดซอร์ส Long Horizon, 5 design patterns ที่ทำให้ agent ทำงานข้ามสัปดาห์ได้โดยไม่พังเงียบๆ โดย Nokka (นก-กา) | 22 สิงหาคม 2026 บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา) มีประโยคหนึ่งในบทความของ Google Cloud ที่สรุปปัญหาของ AI agent ได้คมมาก: &quot;A one-shot agent breaks in front of you and stops. A long-horizon agent breaks</summary>
+    <author><name>Nokka</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Building a 24/7 Home Security NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge</title>
+    <link href="https://dev.to/whatelse/building-a-247-home-security-nvr-using-a-7-year-old-raspberry-pi-3-24ff" rel="alternate"/>
+    <id>https://dev.to/whatelse/building-a-247-home-security-nvr-using-a-7-year-old-raspberry-pi-3-24ff</id>
+    <updated>2026-08-23T01:00:08Z</updated>
+    <summary type="text">Building a 24/7 Home NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge How to transform a 10-year-old Dell laptop and a 7-year-old Raspberry Pi 3 Wi-Fi bridge into a robust, high-efficiency security camera NVR for 2018-era legacy IP cameras using Linux systemd services, FFmpeg, Proxy ARP Wi-Fi bridging, and frugal engineering principles. The Core Philosophy: Frugal Engineering (&quot;Just in Time /</summary>
+    <author><name>whatelse</name></author>
   </entry>
   <entry>
     <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
@@ -396,50 +441,5 @@
     <summary type="text">Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was independently navigating the Git Workflow to successfully upload a test project as part of the data portfolio to a GitHub repository. Git is a version control system that runs locally on a personal computer and allows us to keep track of changes made to our projects. Git creates saved checkpoints kn</summary>
     <author><name>Njuguna Gichia</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Everyone is hyping Claude Code. I used Google Jules to build and ship a phone tracking app—entirely from my phone on the beach.</title>
-    <link href="https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e" rel="alternate"/>
-    <id>https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e</id>
-    <updated>2026-08-22T20:14:57Z</updated>
-    <summary type="text">Don't get me wrong: I love Claude Code. I use it every single day. I’ve used its various models to build several apps, utilities, reports, presentations, and tools, and I rely on it heavily for bug fixing and surgical refactoring. In fact, one of my favorite things about Claude Code is that you don't even need an IDE—I use it almost exclusively in my terminal. But there is a catch with local AI ag</summary>
-    <author><name>Mauro Gentile</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Oh-My-Pi's Hash-Anchored Edits: How a Terminal Agent Avoids the \\\\\\\&quot;Replace Entire File\\\\\\\&quot; Trap</title>
-    <link href="https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/oh-my-pis-hash-anchored-edits-how-a-terminal-agent-avoids-the-replace-entire-file-3089</id>
-    <updated>2026-08-22T20:05:41Z</updated>
-    <summary type="text">Most coding agents fail at scale because they replace entire files when making small edits. One misaligned line number or stale context window and the agent clobbers unrelated code. Oh-My-Pi solves this with hash-anchored edits: the agent specifies a hash of the exact lines it wants to replace, and the edit only applies if those lines still match. If the file changed underneath, the edit fails cle</summary>
-    <author><name>mech.app</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Unleashing WebGPU: Why Your Browser is About to Become a Massive Parallel Computing Beast</title>
-    <link href="https://dev.to/programmingcentral/unleashing-webgpu-why-your-browser-is-about-to-become-a-massive-parallel-computing-beast-5d65" rel="alternate"/>
-    <id>https://dev.to/programmingcentral/unleashing-webgpu-why-your-browser-is-about-to-become-a-massive-parallel-computing-beast-5d65</id>
-    <updated>2026-08-22T20:00:00Z</updated>
-    <summary type="text">For decades, web developers have lived under a strict tyranny: the supremacy of the CPU. We’ve built magnificent architectures, optimized complex single-threaded event loops, and wrangled asynchronous JavaScript promises to deliver rich, interactive web applications. But when it came to heavy generative media, real-time computer vision, or running on-device AI inference, the browser hit a brick wa</summary>
-    <author><name>Programming Central</name></author>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Coding Is Getting Easier. But System Design Still Matters.</title>
-    <link href="https://dev.to/raiyan_memon/coding-is-getting-easier-but-system-design-still-matters-97j" rel="alternate"/>
-    <id>https://dev.to/raiyan_memon/coding-is-getting-easier-but-system-design-still-matters-97j</id>
-    <updated>2026-08-22T19:55:06Z</updated>
-    <summary type="text">Writing code is becoming easier. With AI tools, you can generate APIs, database queries, UI components and even complete features much faster than before. But building software isn't only about writing code. The bigger challenge is often how the entire system should work. Coding a Feature vs Designing a System Take a URL shortener. Writing the basic version isn't very difficult: Client ↓ API ↓ Dat</summary>
-    <author><name>Raiyan Memon</name></author>
-  </entry>
-  <entry>
-    <title>Node.js Healthtech Text Summarization SaaS — 4 Chat Completions API Trade-offs</title>
-    <link href="https://dev.to/mortimernilsson7694/nodejs-healthtech-text-summarization-saas-4-chat-completions-api-trade-offs-2j92" rel="alternate"/>
-    <id>https://dev.to/mortimernilsson7694/nodejs-healthtech-text-summarization-saas-4-chat-completions-api-trade-offs-2j92</id>
-    <updated>2026-08-22T19:52:06Z</updated>
-    <summary type="text">Short answer: start a Node.js ticket-summarization SaaS with chat completions, put the provider behind one tiny adapter, and choose the vendor only after checking model availability, context limits, US/EU requirements, and batch support. Embeddings don't improve the first version of this job. They become relevant later if the product adds search or an ask-your-docs flow. For short-to-medium ticket</summary>
-    <author><name>MortimerNilsson7694</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
