@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T03:06:25Z</updated>
+  <updated>2026-08-23T04:41:11Z</updated>
   <entry>
     <title>The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety</title>
     <link href="https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/" rel="alternate"/>
@@ -146,6 +146,56 @@
     <updated>2026-08-22T12:00:00Z</updated>
     <summary type="text">Torsten Slok found something surprising when Apollo Global Management Inc. looked at how the adoption of artificial intelligence was playing out in the labor market.</summary>
     <author><name>David Westin</name></author>
+  </entry>
+  <entry>
+    <title>Why LLMs Are Bad at Math, Explained Simply</title>
+    <link href="https://dev.to/james_anderson_h/why-llms-are-bad-at-math-explained-simply-3omj" rel="alternate"/>
+    <id>https://dev.to/james_anderson_h/why-llms-are-bad-at-math-explained-simply-3omj</id>
+    <updated>2026-08-23T04:14:43Z</updated>
+    <summary type="text">You've probably had this exact moment. You ask an AI a math question. It lays out the steps beautifully, explains the logic like a patient tutor, walks you through each stage with total composure — and then hands you a final number that's just… wrong. Not wildly wrong, usually. Confidently, plausibly, subtly wrong. The kind of wrong you might not even catch. It feels absurd. How can something that</summary>
+    <author><name>James Anderson</name></author>
+  </entry>
+  <entry>
+    <title>When you need an Agent Gateway, not just another LLM proxy</title>
+    <link href="https://dev.to/victor_garca_a9d07ddc486/when-you-need-an-agent-gateway-not-just-another-llm-proxy-3nff" rel="alternate"/>
+    <id>https://dev.to/victor_garca_a9d07ddc486/when-you-need-an-agent-gateway-not-just-another-llm-proxy-3nff</id>
+    <updated>2026-08-23T04:11:23Z</updated>
+    <summary type="text">When you need an Agent Gateway, not just another LLM proxy If your problem is &quot;one OpenAI-compatible endpoint for 50 providers,&quot; a proxy like LiteLLM is usually the right default. Huge catalog, huge community, good enough ops for most teams. If your problem is &quot;agents that call tools (MCP) with the same identity, audit, budgets, and policy as model calls,&quot; a thinner Agent Gateway starts to matter </summary>
+    <author><name>Victor García</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built a Chrome DevTools Extension to Mock APIs Without Leaving the Browser</title>
+    <link href="https://dev.to/xpdev99/i-built-a-chrome-devtools-extension-to-mock-apis-without-leaving-the-browser-1klf" rel="alternate"/>
+    <id>https://dev.to/xpdev99/i-built-a-chrome-devtools-extension-to-mock-apis-without-leaving-the-browser-1klf</id>
+    <updated>2026-08-23T04:03:52Z</updated>
+    <summary type="text">Every frontend developer knows this pain: the backend isn't ready, it's down, or it returns data that doesn't match the design. You need to build UI against an API that doesn't exist yet. The usual workarounds all have friction: Spin up a mock server (json-server, mockoon) — another process, another port, another config to maintain. Use a proxy tool — powerful, but heavy setup for a quick &quot;give me</summary>
+    <author><name>Charles</name></author>
+  </entry>
+  <entry>
+    <title>JOAN experimental alpha: seeking 3 independent agent evaluators</title>
+    <link href="https://dev.to/yoan_v_107a45e0a84d5196e3/joan-experimental-alpha-seeking-3-independent-agent-evaluators-45co" rel="alternate"/>
+    <id>https://dev.to/yoan_v_107a45e0a84d5196e3/joan-experimental-alpha-seeking-3-independent-agent-evaluators-45co</id>
+    <updated>2026-08-23T03:44:13Z</updated>
+    <summary type="text">JOAN is an experimental, agent-native language and verification substrate. Real .joan source can be parsed, checked, formatted, compiled to deterministic bytecode, and executed in a bounded VM. We are looking for three independent evaluators to run one small, reproducible GitHub-only task: safe repository metadata and instruction-file discovery. Run the bounded trial git clone https://github.com/Y</summary>
+    <author><name>Yoan V</name></author>
+  </entry>
+  <entry>
+    <title>Building an HTTP Server From Scratch using TCP.</title>
+    <link href="https://dev.to/devxdh/building-an-http-server-from-scratch-using-tcp-5ehb" rel="alternate"/>
+    <id>https://dev.to/devxdh/building-an-http-server-from-scratch-using-tcp-5ehb</id>
+    <updated>2026-08-23T03:43:06Z</updated>
+    <summary type="text">HTTP is something I interact with every single day, whether I am fetching data on the frontend or building backend APIs. But for a long time, if you had asked me how it actually worked under the hood, I wouldn't have had a good answer. I always treated HTTP like this intimidating, hyper-complex black box that would be miserable to understand, let alone rebuild from scratch. Once I actually dug int</summary>
+    <author><name>Dev Dhanadiya</name></author>
+  </entry>
+  <entry>
+    <title>Why Static Export Wins Over Serverless APIs for Web Utility Tools</title>
+    <link href="https://dev.to/sir_lu_62bd118924537f9510/why-static-export-wins-over-serverless-apis-for-web-utility-tools-2gel" rel="alternate"/>
+    <id>https://dev.to/sir_lu_62bd118924537f9510/why-static-export-wins-over-serverless-apis-for-web-utility-tools-2gel</id>
+    <updated>2026-08-23T03:33:48Z</updated>
+    <summary type="text">When designing modern micro-SaaS web utilities (calculators, formatters, text cleaners), developers often default to Serverless Edge Functions or Server-Side Rendering (SSR). However, for single-task utility sites, this approach often introduces unnecessary architecture overhead: cold-start latency, cloud costs, and potential data privacy concerns. Here is why adopting a Pure Client-Side Static Ex</summary>
+    <author><name>sir lu</name></author>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>Node.js Product Analytics-Style API: 3 Metrics Dashboard Rollback Drills</title>
@@ -391,58 +441,5 @@
     <updated>2026-08-22T21:48:36Z</updated>
     <summary type="text">A storefront request must not sit open while a catalog image run finishes. That constraint changes the design before model choice does. Short answer: submit product titles and descriptions as an asynchronous batch, expose job progress to operators, and attach exported results only after completion. For gaming merchandise, keep moderation-report classification on a separate path before human review</summary>
     <author><name>MarenCrest5138</name></author>
-  </entry>
-  <entry>
-    <title>I built a local MOSS alternative</title>
-    <link href="https://dev.to/jmresler/i-built-a-local-moss-alternative-jdp" rel="alternate"/>
-    <id>https://dev.to/jmresler/i-built-a-local-moss-alternative-jdp</id>
-    <updated>2026-08-22T21:48:06Z</updated>
-    <summary type="text">I built a thing... YAM (Yet Another MOSS) is a free and open-source code plagiarism / similarity detector that runs entirely on your own machine. It combines classic token/winnowing comparison with Abstract Syntax Tree analysis, so it catches more than simple copy-paste: variable renaming, reformatting, reordering, and other cosmetic changes that leave the underlying structure intact. Key points: </summary>
-    <author><name>John Resler</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>npm trust github Fails with 400 Bad Request: The Missing Permission Flag</title>
-    <link href="https://dev.to/koraykoylu/npm-trust-github-fails-with-400-bad-request-the-missing-permission-flag-4j5f" rel="alternate"/>
-    <id>https://dev.to/koraykoylu/npm-trust-github-fails-with-400-bad-request-the-missing-permission-flag-4j5f</id>
-    <updated>2026-08-22T21:46:35Z</updated>
-    <summary type="text">We published a JavaScript client to npm this week, and wiring up trusted publishing cost three failed attempts and two wasted two-factor approvals before the real cause turned up. The command failed with a bare 400 Bad Request and no explanation, in the CLI output and in the debug log alike. The fix is one flag. Finding out which flag took an hour, because the npm version that knows about it is th</summary>
-    <author><name>Koray KÖYLÜ</name></author>
-  </entry>
-  <entry>
-    <title>One conversation, four cards: the dashboard bug with three root causes stacked on top of each other</title>
-    <link href="https://dev.to/bryanw/one-conversation-four-cards-the-dashboard-bug-with-three-root-causes-stacked-on-top-of-each-other-294p" rel="alternate"/>
-    <id>https://dev.to/bryanw/one-conversation-four-cards-the-dashboard-bug-with-three-root-causes-stacked-on-top-of-each-other-294p</id>
-    <updated>2026-08-22T21:43:21Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview Neverclosed is a 24/7 AI receptionist for small businesses — it answers website chats and phone calls, books appointments, and hands off to a human the moment a customer asks. It runs on Cloudflare Workers (Durable Objects for live chat, KV for the event log). The piece this bug lives in is the ow</summary>
-    <author><name>Bryan Williams</name></author>
-  </entry>
-  <entry>
-    <title>I Kept Burning API Credits Every Time I Ran My Test Suite — Here's How I Fixed It</title>
-    <link href="https://dev.to/gerale30/i-kept-burning-api-credits-every-time-i-ran-my-test-suite-heres-how-i-fixed-it-5gh8" rel="alternate"/>
-    <id>https://dev.to/gerale30/i-kept-burning-api-credits-every-time-i-ran-my-test-suite-heres-how-i-fixed-it-5gh8</id>
-    <updated>2026-08-22T21:42:55Z</updated>
-    <summary type="text">I ran my test suite four times in a row one afternoon while debugging a flaky endpoint, and by the time I checked my OpenAI usage dashboard I'd burned through more credits than I meant to spend that whole week. Nothing had even broken — the tests were just... running, and every single one of them was making a real call to a real model. That's when it clicked that I'd built something that worked, b</summary>
-    <author><name>Alejandro Garcia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CrowdGPT - Let's train the next ChatGPT together :D</title>
-    <link href="https://dev.to/vxtzq/crowdgpt-an-open-source-framework-for-decentralized-collaborative-llm-training-using-consumer-gpus-429p" rel="alternate"/>
-    <id>https://dev.to/vxtzq/crowdgpt-an-open-source-framework-for-decentralized-collaborative-llm-training-using-consumer-gpus-429p</id>
-    <updated>2026-08-22T21:42:16Z</updated>
-    <summary type="text">Hello I'm creating CrowdGPT, an open-source project which allows training of a LLM (Large Language Model) in a decentralized way, where each user contributes to making the AI better with whatever data they want. The idea is simple: instead of one machine owning the entire training run, let many people contribute small training jobs and periodically merge those updates into a shared model. The syst</summary>
-    <author><name>Vxtzq</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPU-Accelerated Clustering for Financial Instruments at Scale</title>
-    <link href="https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/</id>
-    <updated>2026-08-21T16:21:04Z</updated>
-    <summary type="text">Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
