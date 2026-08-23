@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T15:26:58Z</updated>
+  <updated>2026-08-23T16:31:10Z</updated>
   <entry>
     <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
     <link href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/" rel="alternate"/>
@@ -137,6 +137,96 @@
     <updated>2026-08-23T05:55:21Z</updated>
     <summary type="text">A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.</summary>
     <author><name>Sohee Kim</name></author>
+  </entry>
+  <entry>
+    <title>I spent one day smashing three real open source bugs</title>
+    <link href="https://dev.to/aniruddhaadak/i-spent-one-day-smashing-three-real-open-source-bugs-4b74" rel="alternate"/>
+    <id>https://dev.to/aniruddhaadak/i-spent-one-day-smashing-three-real-open-source-bugs-4b74</id>
+    <updated>2026-08-23T15:54:30Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. When the Summer Bug Smash challenge started, I gave myself one rule. Every fix has to be real, and every fix has to carry its own test that fails before the change and passes after it. I gave myself one day to see how far that rule could take me. It took me through three open source projects, three pull requests, </summary>
+    <author><name>ANIRUDDHA  ADAK</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Ryker: In-Browser Visual Editor for HTML and Markdown with agent-ready change exports</title>
+    <link href="https://dev.to/gbti/ryker-turn-html-and-markdown-edits-into-agent-ready-change-requests-3o6c" rel="alternate"/>
+    <id>https://dev.to/gbti/ryker-turn-html-and-markdown-edits-into-agent-ready-change-requests-3o6c</id>
+    <updated>2026-08-23T15:53:39Z</updated>
+    <summary type="text">HTML has become an increasingly useful format for working with large language models. Models can generate complete HTML documents very quickly, but editing those documents manually can still be awkward. HTML is normally edited through source code. That works well for development, but it is not always the best way to proofread a document, move content around, or make small editorial changes. We bui</summary>
+    <author><name>GBTI Network</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Built Blason to Learn Full-Stack Architecture</title>
+    <link href="https://dev.to/monsieur_fotso_2a50cd3d46/i-built-blason-to-learn-full-stack-architecture-fn5" rel="alternate"/>
+    <id>https://dev.to/monsieur_fotso_2a50cd3d46/i-built-blason-to-learn-full-stack-architecture-fn5</id>
+    <updated>2026-08-23T15:53:04Z</updated>
+    <summary type="text">Why I built Blason Blason is an open-source personal project I built to improve my full-stack development and software architecture skills. What I wanted to learn I wanted to build a complete application rather than another isolated frontend project. The project covers: React and TypeScript Express backend SQLite Authentication REST APIs Business workflows File handling User profiles Quests and su</summary>
+    <author><name>Monsieur Orel</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>&quot;The write was acknowledged&quot; means less than you think</title>
+    <link href="https://dev.to/saqibameen86/the-write-was-acknowledged-means-less-than-you-think-4nm8" rel="alternate"/>
+    <id>https://dev.to/saqibameen86/the-write-was-acknowledged-means-less-than-you-think-4nm8</id>
+    <updated>2026-08-23T15:49:20Z</updated>
+    <summary type="text">I spent years operating databases for payment platforms, where a lost write isn't a bug, it's a regulatory conversation. That environment teaches you to read the phrase &quot;the write was acknowledged&quot; the way a lawyer reads a contract. Acknowledged by whom? Durable against what? In MongoDB, that one sentence has at least four different meanings, controlled by two settings most applications leave at d</summary>
+    <author><name>Saqib Ameen Subhan</name></author>
+  </entry>
+  <entry>
+    <title>Your agent's p99 is a different animal</title>
+    <link href="https://dev.to/loopandretry/your-agents-p99-is-a-different-animal-28mi" rel="alternate"/>
+    <id>https://dev.to/loopandretry/your-agents-p99-is-a-different-animal-28mi</id>
+    <updated>2026-08-23T15:44:34Z</updated>
+    <summary type="text">Originally published on Loop &amp; Retry — field notes on building LLM agents that survive production. The demo felt instant. The agent answered in about four seconds, every time you ran it on stage. Then you shipped it, and the support queue filled with &quot;it hangs.&quot; Nothing was broken. Your average latency really was four seconds. The problem is that nobody experiences the average — they experience on</summary>
+    <author><name>Walker Miller</name></author>
+  </entry>
+  <entry>
+    <title>从 Demo 到生产：那些真正让 AI Agent 敢上线的护栏</title>
+    <link href="https://dev.to/sunny_1024k/cong-demo-dao-sheng-chan-na-xie-zhen-zheng-rang-ai-agent-gan-shang-xian-de-hu-lan-3p6e" rel="alternate"/>
+    <id>https://dev.to/sunny_1024k/cong-demo-dao-sheng-chan-na-xie-zhen-zheng-rang-ai-agent-gan-shang-xian-de-hu-lan-3p6e</id>
+    <updated>2026-08-23T15:41:42Z</updated>
+    <summary type="text">从 Demo 到生产：那些真正让 AI Agent 敢上线的护栏 开场钩子： 你在网上看到的多数「AI Agent」都是 demo。它们之所以上不了生产，原因往往 只有一个 —— 而下面这个开源的小脚手架，专门解决它。 我们已经过了「能调通大模型」就算赢的阶段。现在真正难的是那没人讲的 10%：是什么阻止 Agent 做出伤害性的事？ 我在微软跑过一套约 25 个 Agent 的生产平台，现在也帮团队把 Agent 从笔记本推进到真实用户面前。两边的体会是一致的。 一个不太舒服的真相：能调 5 个工具的聊天机器人，不是产品。周末项目和你敢放到客户面前的 系统之间，差的只有三件事 —— 而且全都是不酷、不性感的工程： 你怎么给输出质量打分（质量门）。 你怎么决定什么时候必须人签字（审批门）。 你如何让整套东西模型无关，不被某个厂商锁死。 所以我写了一个很小的 harness，把这三件事摆在最</summary>
+    <author><name>sunny 1024k</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>From Demo to Production: The Guardrails That Make an AI Agent Safe to Ship</title>
+    <link href="https://dev.to/sunny_1024k/from-demo-to-production-the-guardrails-that-make-an-ai-agent-safe-to-ship-d2o" rel="alternate"/>
+    <id>https://dev.to/sunny_1024k/from-demo-to-production-the-guardrails-that-make-an-ai-agent-safe-to-ship-d2o</id>
+    <updated>2026-08-23T15:41:29Z</updated>
+    <summary type="text">From Demo to Production: The Guardrails That Make an AI Agent Safe to Ship Hook: Most &quot;AI agents&quot; you see on the internet are demos. Here's the single most common reason they never reach production — and a small, open-source harness that gets past it. We are past the phase where the hard part of building an AI agent was calling the model. The hard part now is the 10% nobody talks about: what stops</summary>
+    <author><name>sunny 1024k</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>3 Cloud Myths I Believed Before Passing AZ-900</title>
+    <link href="https://dev.to/mahmoud_ced0dfeebbc55e671/3-cloud-myths-i-believed-before-passing-az-900-1o6p" rel="alternate"/>
+    <id>https://dev.to/mahmoud_ced0dfeebbc55e671/3-cloud-myths-i-believed-before-passing-az-900-1o6p</id>
+    <updated>2026-08-23T15:41:22Z</updated>
+    <summary type="text">Cloud computing can sound like magic—until you ask three practical questions: Who owns the hardware? Who manages it? And who pays when resources sit idle? While preparing for AZ-900, I realized that several assumptions I had about the cloud were incomplete. Myth 1: The cloud is always cheaper The cloud can reduce upfront infrastructure costs, but savings are not automatic. Idle resources, incorrec</summary>
+    <author><name>Mahmoud</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>App-like UX in Next.js 16.3</title>
+    <link href="https://dev.to/erfanebrahimnia/app-like-ux-in-nextjs-163-4onh" rel="alternate"/>
+    <id>https://dev.to/erfanebrahimnia/app-like-ux-in-nextjs-163-4onh</id>
+    <updated>2026-08-23T15:38:17Z</updated>
+    <summary type="text">Building App-like Experiences with Next.js 16.3 A hands-on look at how Next.js 16.3 helps apps feel fast and smooth, more like a single-page app, without losing the benefits of server rendering. Using four demo apps, it shows how features like Instant Navigations, Cache Components, Partial Prefetching, optimistic updates, Suspense streaming, offline retry, and View Transitions work together in rea</summary>
+    <author><name>Erfan Ebrahimnia</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>The Bone Cracks, the Model Reads: Audited Divination for AI Agents</title>
+    <link href="https://dev.to/sabla_nur_49e01ed3abb41cd/the-bone-cracks-the-model-reads-audited-divination-for-ai-agents-355h" rel="alternate"/>
+    <id>https://dev.to/sabla_nur_49e01ed3abb41cd/the-bone-cracks-the-model-reads-audited-divination-for-ai-agents-355h</id>
+    <updated>2026-08-23T15:33:52Z</updated>
+    <summary type="text">Three thousand years ago, Shang kings carved their divinations into bone — the first auditable record of an oracle at work. Oraclebone brings the same discipline to AI agents: audited scripts produce the draw, the hexagram, the pillars; the model only interprets what it is given. It never invents the result. The problem: AI divination is hallucination with extra steps Ask almost any chatbot for a </summary>
+    <author><name>Sabla Nur</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Harvard’s $699 startup bootcamp offers AI avatars of its instructors</title>
@@ -354,95 +444,5 @@ What actually got your first interview? 👀</title>
     <summary type="text">28 debugging experiments reveal that AI struggles less with complexity than with missing information. The post Bug Detection Blind Spots in AI Coding Harnesses (GStack and Beyond) appeared first on Towards Data Science.</summary>
     <author><name>Nhu Hoang</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Scenes From the 2026 Beijing World Humanoid Robot Games</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/scenes-from-the-2026-beijing-world-humanoid-robot-games-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/scenes-from-the-2026-beijing-world-humanoid-robot-games-video</id>
-    <updated>2026-08-22T19:12:16Z</updated>
-    <summary type="text">The 2026 World Humanoid Robot Games have begun. 666 teams from around the world are competing with more than 2,000 humanoid robots. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research</title>
-    <link href="https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/</id>
-    <updated>2026-08-22T19:00:00Z</updated>
-    <summary type="text">Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.</summary>
-    <author><name>Anna Heim</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Making webpack's Docs Update Themselves | GSoC 2026, wrapped</title>
-    <link href="https://dev.to/ryzrr/making-webpacks-docs-update-themselves-gsoc-2026-wrapped-2jmn" rel="alternate"/>
-    <id>https://dev.to/ryzrr/making-webpacks-docs-update-themselves-gsoc-2026-wrapped-2jmn</id>
-    <updated>2026-08-23T12:36:05Z</updated>
-    <summary type="text">Contributor: Nikhil Kumar Rajak (@ryzrr) Organization: webpack · Project: webpack-doc-kit Mentors: Aviv Keller (@avivkeller), Claudio Wunder (@ovflowd), Sebastian Beltran (@bjohansebas) Teammates: Mohamed Shams El-Deen (@moshams272), Tushar Thakur (@TusharThakur04) Period: 25 May to 17 August 2026 The problem webpack's docs lived at webpack.js.org and every API change meant somebody updating them </summary>
-    <author><name>Nikhil Kumar Rajak</name></author>
-  </entry>
-  <entry>
-    <title>RPA vs BPA vs Intelligent Automation: A Practical Map for Ops Leaders</title>
-    <link href="https://dev.to/snehasishkonger/rpa-vs-bpa-vs-intelligent-automation-a-practical-map-for-ops-leaders-3459" rel="alternate"/>
-    <id>https://dev.to/snehasishkonger/rpa-vs-bpa-vs-intelligent-automation-a-practical-map-for-ops-leaders-3459</id>
-    <updated>2026-08-23T12:34:46Z</updated>
-    <summary type="text">Most automation purchases in ops organizations go wrong at the category level, before a single vendor demo happens. A team buys RPA because &quot;automation&quot; was the ask, then discovers six months in that the actual problem needed process orchestration across systems, not a bot clicking through a legacy UI. Or they buy an intelligent automation platform for a workflow that was always going to be simple</summary>
-    <author><name>Snehasish Konger</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>How to Become an AWS Community Builder: Complete Guide for 2027 Applications</title>
-    <link href="https://dev.to/durrello/how-to-become-an-aws-community-builder-complete-guide-for-2027-applications-2911" rel="alternate"/>
-    <id>https://dev.to/durrello/how-to-become-an-aws-community-builder-complete-guide-for-2027-applications-2911</id>
-    <updated>2026-08-23T12:31:52Z</updated>
-    <summary type="text">The AWS Community Builders program opens applications once a year, typically in early January, and closes within about two weeks. That's a narrow window. If you're serious about the 2027 cycle, you have roughly four months from now to build the contribution track record that gets you selected. I wrote my personal story about getting into the program from Cameroon. This post is different. It's a pr</summary>
-    <author><name>Durrell  Gemuh</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Building a Personal Blog with Laravel: A Real World Project</title>
-    <link href="https://dev.to/arafatweb/building-a-personal-blog-with-laravel-a-real-world-project-4mhp" rel="alternate"/>
-    <id>https://dev.to/arafatweb/building-a-personal-blog-with-laravel-a-real-world-project-4mhp</id>
-    <updated>2026-08-23T12:26:47Z</updated>
-    <summary type="text">A personal blog sounds like a simple Laravel project. Create posts, show them on the homepage, and you are done. But once you start adding search, categories, tags, comments, SEO, authentication, analytics, and an admin panel, things become much more interesting. I built this Laravel Personal Blog as a real world project to explore those problems instead of building another basic CRUD application.</summary>
-    <author><name>Arafat Hossain Ar</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Nvidia Customers Notified About AI-Related Price Hikes Above 15%</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15</id>
-    <updated>2026-08-22T18:42:34Z</updated>
-    <summary type="text">Some of Nvidia Corp.’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15% in many cases with memory chip costs soaring.</summary>
-    <author><name>Brody Ford and Ian King</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>About Me: Afee Muhammod Wafy</title>
-    <link href="https://dev.to/afeemuhammodwafy/about-me-afee-muhammod-wafy-ebi" rel="alternate"/>
-    <id>https://dev.to/afeemuhammodwafy/about-me-afee-muhammod-wafy-ebi</id>
-    <updated>2026-08-23T12:23:13Z</updated>
-    <summary type="text">Hello world! 👋 I'm Afee Muhammod Wafy, though most people know me simply as Wafy. I am a science student and self-taught web developer from Rangpur, Bangladesh. If you asked me what truly drives my journey, the answer wouldn't just be lines of code or complex syntax—it is pure, relentless curiosity. The Spark of Building Things From a very young age, I was always fascinated by how things work behi</summary>
-    <author><name>Afee Muhammod Wafy</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Why Fixed-Window Rate Limiters Fail (And How to Fix Them with Math)</title>
-    <link href="https://dev.to/doaaa_04/why-fixed-window-rate-limiters-fail-and-how-to-fix-them-with-math-1272" rel="alternate"/>
-    <id>https://dev.to/doaaa_04/why-fixed-window-rate-limiters-fail-and-how-to-fix-them-with-math-1272</id>
-    <updated>2026-08-23T12:21:02Z</updated>
-    <summary type="text">If you’ve ever built an Express API, you’ve probably reached for standard rate-limiting middleware to protect your login or payment endpoints from DDoS and brute-force attacks. Under the hood, most simple limiters use a Fixed-Window Counter. It’s easy to write: count incoming requests, and once the minute rolls over, reset the counter to zero. However, from a security and algorithmic standpoint, F</summary>
-    <author><name>Doaa H Alshawwa</name></author>
-  </entry>
-  <entry>
-    <title>I Got 28 TPS Out of Free Kaggle GPUs. Here's What It Took.</title>
-    <link href="https://dev.to/rautaditya2606/i-got-28-tps-out-of-free-kaggle-gpus-heres-what-it-took-5dpl" rel="alternate"/>
-    <id>https://dev.to/rautaditya2606/i-got-28-tps-out-of-free-kaggle-gpus-heres-what-it-took-5dpl</id>
-    <updated>2026-08-23T12:20:19Z</updated>
-    <summary type="text">I want to be upfront about something: this whole project runs on free Kaggle T4 notebooks, an AWS EC2 t3.micro relay that costs almost nothing, and public internet. No A100s. No private datacenter network. No budget. And yet, ShardFlow v2.1 hits 28.10 TPS peak on Qwen2.5-7B across two separate cloud regions over WAN. This is the story of how that happened, and specifically the one fix in v2.1 that</summary>
-    <author><name>Aditya Raut</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
   </entry>
 </feed>
