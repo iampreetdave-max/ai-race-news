@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T18:34:57Z</updated>
+  <updated>2026-08-23T19:25:08Z</updated>
   <entry>
     <title>Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work</title>
     <link href="https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/" rel="alternate"/>
@@ -146,6 +146,67 @@
     <updated>2026-08-23T05:55:21Z</updated>
     <summary type="text">A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.</summary>
     <author><name>Sohee Kim</name></author>
+  </entry>
+  <entry>
+    <title>GSoC 2026 Final Report: Automated Webpack Documentation Pipeline 💫</title>
+    <link href="https://dev.to/moshams272/gsoc-2026-final-report-automated-webpack-documentation-pipeline-472b" rel="alternate"/>
+    <id>https://dev.to/moshams272/gsoc-2026-final-report-automated-webpack-documentation-pipeline-472b</id>
+    <updated>2026-08-23T19:11:53Z</updated>
+    <summary type="text">Name: Mohamed Shams El-Deen (@moshams272) Organization: Webpack Mentors: Aviv Keller (@avivkeller), Claudio Wunder (@ovflowd), Sebastian Beltran (@bjohansebas) GSoC Teammates: Nikhil Kumar Rajak (@ryzrr), Tushar Thakur (@TusharThakur04) Introduction As part of Google Summer of Code 2026, I worked on redesigning Webpack's documentation. Historically in webpack.js.org, every time an API changed in W</summary>
+    <author><name>Mohamed Shams El-Deen</name></author>
+  </entry>
+  <entry>
+    <title>🧐 ECS Express Mode vs Traditional ECS: A Hands-on Comparison with Terraform</title>
+    <link href="https://dev.to/aws-builders/ecs-express-mode-vs-traditional-ecs-a-hands-on-comparison-with-terraform-cnp" rel="alternate"/>
+    <id>https://dev.to/aws-builders/ecs-express-mode-vs-traditional-ecs-a-hands-on-comparison-with-terraform-cnp</id>
+    <updated>2026-08-23T19:05:08Z</updated>
+    <summary type="text">Hola Amigos 👋 Welcome to the world of Cloud and Automation! AWS launched ECS Express Mode in late 2025, and in today’s blog, we will understand how it compares to traditional AWS ECS. We will use a basic Flask portfolio website with three versions to illustrate how both approaches handle infrastructure operations with Terraform. Prerequisites Before we start, make sure you have the following requi</summary>
+    <author><name>Pravesh Sudha</name></author>
+  </entry>
+  <entry>
+    <title>As I said, Alea AIcta est.</title>
+    <link href="https://dev.to/dveb/as-i-said-alea-aicta-est-17i1" rel="alternate"/>
+    <id>https://dev.to/dveb/as-i-said-alea-aicta-est-17i1</id>
+    <updated>2026-08-23T18:58:44Z</updated>
+    <summary type="text">An argument against the intensive use of AI in development is appearing more and more often, and it could be paraphrased like this: &quot;the more code agents generate, the further developers move away from the codebase they are supposed to understand and maintain.&quot; And the argument is not without merit. If an AI agent generates thousands of lines of code and the developer only enters the process at th</summary>
+    <author><name>Dejan S. Višekruna</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Optimizing Disk I/O in NumPy: Implementing a Fast LZ4 Compression Algorithm via C-Extensions</title>
+    <link href="https://dev.to/__f57a448/optimizing-disk-io-in-numpy-implementing-a-fast-lz4-compression-algorithm-via-c-extensions-ilm" rel="alternate"/>
+    <id>https://dev.to/__f57a448/optimizing-disk-io-in-numpy-implementing-a-fast-lz4-compression-algorithm-via-c-extensions-ilm</id>
+    <updated>2026-08-23T18:56:41Z</updated>
+    <summary type="text">pypi.org macht1212 / numpy-cache High-performance LZ4 cache for NumPy arrays NumPy Cache – Fast LZ4-Based Caching for NumPy Arrays High‑performance, lightweight disk cache for NumPy arrays with LZ4 compression – now with configurable compression speed. 📌 The Problem When dealing with large NumPy arrays, developers face a classic trade‑off: Method Speed (100 MB) Issue np.save() / np.savez() ~45 ms </summary>
+    <author><name>Alex Nazimov</name></author>
+  </entry>
+  <entry>
+    <title>Stop Killing Your Database with @Transactional in Spring Boot</title>
+    <link href="https://dev.to/sayuri_kotikawaththa_/stop-killing-your-database-with-transactional-in-spring-boot-38pk" rel="alternate"/>
+    <id>https://dev.to/sayuri_kotikawaththa_/stop-killing-your-database-with-transactional-in-spring-boot-38pk</id>
+    <updated>2026-08-23T18:54:38Z</updated>
+    <summary type="text">The 1-minute fix that slashed my API response time by 40%. We all know @Transactional makes database work easy. But are you using it correctly? Here is a mistake I see in 8 out of 10 code reviews: ❌ The Anti-Pattern: @Service public class OrderService { @Transactional public Order placeOrder(OrderDto dto) { Order order = new Order(); // 1. Save the parent orderRepository.save(order); // 2. Loop an</summary>
+    <author><name>Sayuri Kotikawaththa</name></author>
+  </entry>
+  <entry>
+    <title>Bring Your Own Key: Building an AI Portal That Never Touches the Billing</title>
+    <link href="https://dev.to/findnix/bring-your-own-key-building-an-ai-portal-that-never-touches-the-billing-2noh" rel="alternate"/>
+    <id>https://dev.to/findnix/bring-your-own-key-building-an-ai-portal-that-never-touches-the-billing-2noh</id>
+    <updated>2026-08-23T18:47:18Z</updated>
+    <summary type="text">Bring-your-own-key, not another subscription Every few months another &quot;all AI models in one place&quot; product shows up, and almost all of them work the same way: you pay them a subscription, and they resell access to Claude, GPT-4, Gemini and friends at a markup. That's a reasonable business, but it's not the only way to build this, and it's not the way ai.findnix.eu works. AI Hub is a bring-your-own</summary>
+    <author><name>Mirko Stahnke</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>One Knowledge Base, Four Surfaces: Pages, Graph, Search Index, and MCP</title>
+    <link href="https://dev.to/makaminski1337/one-knowledge-base-four-surfaces-pages-graph-search-index-and-mcp-5a5p" rel="alternate"/>
+    <id>https://dev.to/makaminski1337/one-knowledge-base-four-surfaces-pages-graph-search-index-and-mcp-5a5p</id>
+    <updated>2026-08-23T18:37:28Z</updated>
+    <summary type="text">Originally published on michael-kaminski.io. The Genome of Games publishes the same 1,180 records four different ways, and one command writes all four: node build.js, 0.39 seconds, zero npm dependencies. Out come 1,245 static HTML pages for crawlers, an interactive canvas graph for humans, a 129,037-byte search index for the site's own search box, and a Model Context Protocol server exposing 8 too</summary>
+    <author><name>Michael Kaminski</name></author>
+    <category term="rag"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>How I Built Smart Scraper M2M: A Fast ~30ms Scraper API for AI Agents</title>
@@ -386,62 +447,5 @@
     <author><name>Sabla Nur</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Harvard’s $699 startup bootcamp offers AI avatars of its instructors</title>
-    <link href="https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/</id>
-    <updated>2026-08-22T21:46:56Z</updated>
-    <summary type="text">In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.</summary>
-    <author><name>Anthony Ha</name></author>
-  </entry>
-  <entry>
-    <title>Domux: a compact open model for smart-home command understanding at the edge</title>
-    <link href="https://dev.to/sparkllm/domux-a-compact-open-model-for-smart-home-command-understanding-at-the-edge-f8l" rel="alternate"/>
-    <id>https://dev.to/sparkllm/domux-a-compact-open-model-for-smart-home-command-understanding-at-the-edge-f8l</id>
-    <updated>2026-08-23T15:21:49Z</updated>
-    <summary type="text">Voice and chat assistants for the home share a deceptively hard job: turning messy natural language into precise, structured commands. “Make it cozy in here” has to become a concrete intent plus the right slots — which device, which room, which value. Domux is an open model from iFlytek that focuses on exactly this problem: command understanding for smart-home assistants, framed as intent parsing </summary>
-    <author><name>SparkLLM</name></author>
-  </entry>
-  <entry>
-    <title>BrunnerCTF : WordPressed to Root Writeup</title>
-    <link href="https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62" rel="alternate"/>
-    <id>https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62</id>
-    <updated>2026-08-23T15:20:37Z</updated>
-    <summary type="text">Overview The box ships a mostly-stock WordPress 7.0.0 install on PHP 8.2 / Apache, running on a Debian Trixie base image, packaged as a Docker/Kubernetes challenge deployment. Initial access comes through a deliberately vulnerable plugin (wp2shell) that hands over a www-data shell. Privilege escalation is the real puzzle: the box is hardened against the usual container-escape and SUID tricks, and </summary>
-    <author><name>Yogeshwar Peela</name></author>
-  </entry>
-  <entry>
-    <title>What if you don't have to build a login page again?</title>
-    <link href="https://dev.to/muhammadkholidb/what-if-you-dont-have-to-build-a-login-page-again-36ag" rel="alternate"/>
-    <id>https://dev.to/muhammadkholidb/what-if-you-dont-have-to-build-a-login-page-again-36ag</id>
-    <updated>2026-08-23T15:18:15Z</updated>
-    <summary type="text">How do you usually build a login page in an application? The first project Imagine you are working on a project that needs a login page. Let's call it Aurora (Project A). The login page is the entry point to the application. Users who have access can log in to the application with the permissions they have. We are not going to talk about the details of the login method yet, such as email + passwor</summary>
-    <author><name>Muhammad Kholid B</name></author>
-  </entry>
-  <entry>
-    <title>3 Candidate Content Policy Checks Before Review — Why LLM Moderation False Positives Happen</title>
-    <link href="https://dev.to/daxharrington5274/3-candidate-content-policy-checks-before-review-why-llm-moderation-false-positives-happen-14jf" rel="alternate"/>
-    <id>https://dev.to/daxharrington5274/3-candidate-content-policy-checks-before-review-why-llm-moderation-false-positives-happen-14jf</id>
-    <updated>2026-08-23T15:05:54Z</updated>
-    <summary type="text">Short answer: LLM moderation false positives happen when model signals are treated as policy verdicts; for user-generated candidate content, allow clear cases, send uncertainty to a review queue, and block only narrow high-confidence matches. Route Use it when Candidate impact Operator cost Allow No policy signal crosses the review threshold Application continues Lowest Review A signal is material</summary>
-    <author><name>daxharrington5274</name></author>
-  </entry>
-  <entry>
-    <title>Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File</title>
-    <link href="https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/" rel="alternate"/>
-    <id>https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/</id>
-    <updated>2026-08-23T15:00:00Z</updated>
-    <summary type="text">Enterprise Document Intelligence [Vol.1 #14D] - The index lists what the case type demands before any folder is opened, and the two questions worth building for are not retrieval questions at all The post Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File appeared first on Towards Data Science.</summary>
-    <author><name>angela shi</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>&quot;[260817~0823] 발행 인프라를 새로 짜고, 조용히 사라지는 신호들을 잡았다&quot;</title>
-    <link href="https://dev.to/finaltype/2608170823-balhaeng-inpeurareul-saero-jjago-joyonghi-sarajineun-sinhodeuleul-jabassda-5e7n" rel="alternate"/>
-    <id>https://dev.to/finaltype/2608170823-balhaeng-inpeurareul-saero-jjago-joyonghi-sarajineun-sinhodeuleul-jabassda-5e7n</id>
-    <updated>2026-08-23T14:47:11Z</updated>
-    <summary type="text">블로그 발행 방식을 바꾼 김에, 표본에 속지 않는 판단과 소리 없이 죽는 파이프라인을 잡아내는 계측을 함께 정비했습니다 이번 주는 토요일과 일요일, 이틀 동안 작업이 몰렸습니다. 그 전 며칠은 개발일지가 조용했는데, 알고 보니 원인 자체가 이번 주의 첫 번째 주제였습니다. 발행 인프라부터 다시 짰다 토요일에 열흘 넘게 개발일지가 끊겼던 원인을 찾았습니다. 매일 밤 자동으로 돌아가고는 있었는데, 마지막 저장 단계가 권한 승인 대기에 막혀 아무도 모르게 조용히 끝나고 있었습니다. 원인을 고치는 김에 발행 구조 자체를 바꾸기로 했습니다. 티스토리 글쓰기 API가 오래전에 끊겨서 발행만은 늘 수동이었는데, 신규 발행처를 GitHub Pages와 Dev.to 두 곳으로 옮기고 티스토리는 과거 글 아카이브로만 남겼습니</summary>
-    <author><name>finaltype</name></author>
   </entry>
 </feed>
