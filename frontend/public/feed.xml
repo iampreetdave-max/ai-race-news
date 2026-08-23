@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T06:49:46Z</updated>
+  <updated>2026-08-23T07:37:01Z</updated>
+  <entry>
+    <title>Humanoid Robot Beats Usain Bolt’s 100m World Record in Beijing</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing</id>
+    <updated>2026-08-23T07:07:21Z</updated>
+    <summary type="text">A humanoid robot ran 100 meters in 9.39 seconds at the opening ceremony of the second World Humanoid Robot Games in Beijing, beating Usain Bolt’s world record of 9.58 seconds, Xinhua News Agency reported.</summary>
+    <author><name>Bloomberg News</name></author>
+    <category term="robotics"/>
+  </entry>
   <entry>
     <title>Alibaba to Raise $10 Billion by Selling Shares for AI Expansion</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion" rel="alternate"/>
@@ -156,6 +165,14 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>What 166K Clicks Taught Me About Using AI for SEO</title>
+    <link href="https://dev.to/iammofidul/what-166k-clicks-taught-me-about-using-ai-for-seo-1pe6" rel="alternate"/>
+    <id>https://dev.to/iammofidul/what-166k-clicks-taught-me-about-using-ai-for-seo-1pe6</id>
+    <updated>2026-08-23T07:11:12Z</updated>
+    <summary type="text">Over three months, my static website generated 166K Google clicks from 1.39M impressions, with an 11.9% CTR and 7.5 average position. The graph also shows traffic declining after its peak. That is important: AI did not create automatic, permanent growth. What helped was using AI inside a measurable SEO workflow—and reverting ideas when the data disagreed. Here is the loop I now use. 1. Use Keyword</summary>
+    <author><name>Mofidul Islam</name></author>
+  </entry>
+  <entry>
     <title>Psychological methods reveal major weaknesses in AI security testing</title>
     <link href="https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/" rel="alternate"/>
     <id>https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/</id>
@@ -163,6 +180,39 @@
     <summary type="text">Researchers at the UK AI Security Institute used psychometric methods to show that popular safety benchmarks for language models don't measure one consistent trait. Blanket blocking of requests can artificially inflate a safety score even as the model gets less useful day to day. The study also offers a method for catching models that act more cautious during tests than they do in normal use. The </summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP Security: Threat Model &amp; Hardening Guide (2026)</title>
+    <link href="https://dev.to/prabhu_kalyansamal_f743d/-mcp-security-threat-model-hardening-guide-2026--3enn" rel="alternate"/>
+    <id>https://dev.to/prabhu_kalyansamal_f743d/-mcp-security-threat-model-hardening-guide-2026--3enn</id>
+    <updated>2026-08-23T07:00:06Z</updated>
+    <summary type="text">Educational &amp; Ethical Use Only — This article is provided for educational and ethical cybersecurity research purposes only. The techniques described should only be used on systems you own or have explicit permission to test. The Model Context Protocol has become the default way AI applications connect to tools and data — and, in most deployments, the least-audited trust boundary in the stack. This</summary>
+    <author><name>Prabhu Kalyan Samal</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Seedance 2.5 Prompting: A Practical Guide to Better AI Videos</title>
+    <link href="https://dev.to/jeanine_huang_1030/seedance-25-prompting-a-practical-guide-to-better-ai-videos-2p0c" rel="alternate"/>
+    <id>https://dev.to/jeanine_huang_1030/seedance-25-prompting-a-practical-guide-to-better-ai-videos-2p0c</id>
+    <updated>2026-08-23T06:49:34Z</updated>
+    <summary type="text">Writing a good Seedance 2.5 prompt is less about adding more adjectives and more about giving the model a clear sequence of instructions. For example: A woman drinking coffee in Paris, cinematic. It sounds fine, but a video model still has to decide what happens next. Does she pick up the cup? Does she look at the camera? Does the camera move? Does she speak? How long does each action take? For sh</summary>
+    <author><name>jeanine huang</name></author>
+  </entry>
+  <entry>
+    <title>PostgreSQL psql: Schema Navigation Quick Reference</title>
+    <link href="https://dev.to/amelye_chatila_717552aace/postgresql-psql-schema-navigation-quick-reference-113b" rel="alternate"/>
+    <id>https://dev.to/amelye_chatila_717552aace/postgresql-psql-schema-navigation-quick-reference-113b</id>
+    <updated>2026-08-23T06:43:36Z</updated>
+    <summary type="text">A short refresher for navigating PostgreSQL databases, schemas, and objects from the psql command line. Schemas List all schemas: \dn List schemas with additional information: \dn+ Check the current schema search path: SHOW search_path; Set the schema search path for the current session: SET search_path TO schema_name; Databases List databases: \l Connect to another database: \c database_name Show</summary>
+    <author><name>Amelye Chatila</name></author>
+  </entry>
+  <entry>
+    <title>Deploying My First Web Server with Nginx</title>
+    <link href="https://dev.to/beny_2005/deploying-my-first-web-server-with-nginx-3phf" rel="alternate"/>
+    <id>https://dev.to/beny_2005/deploying-my-first-web-server-with-nginx-3phf</id>
+    <updated>2026-08-23T06:37:16Z</updated>
+    <summary type="text">Today I worked on a simple but important DevOps task: deploying a web server using Nginx on Ubuntu. Instead of only learning the theory, I wanted to understand the practical flow of how a web server receives a request and serves a webpage. What I Did Installed and verified Nginx Started the Nginx service Checked the server status Tested the server using curl Created a custom HTML webpage Served th</summary>
+    <author><name>Beny</name></author>
   </entry>
   <entry>
     <title>Shipping Stock CLIs as Subprocess Instead of Static-Linking SDKs</title>
@@ -393,59 +443,5 @@
     <updated>2026-08-23T02:17:03Z</updated>
     <summary type="text">At 3 am the pager is activated. Your queue is backed up, your database is on fire, and those two facts are the same fact. This is the trap nobody warns you about when they advise you to simply utilize Postgres for all your needs. The hype has a new victim The simple advice, &quot;Just use Postgres&quot; was very effective in the beginning. You didn't need a complex architecture involving six different servi</summary>
     <author><name>Aditya Agarwal</name></author>
-  </entry>
-  <entry>
-    <title>Proyecto STEM: construye un monitor de aeronaves con una API y datos abiertos</title>
-    <link href="https://dev.to/jeremy_salsburg_00d273f85/proyecto-stem-construye-un-monitor-de-aeronaves-con-una-api-y-datos-abiertos-25e8" rel="alternate"/>
-    <id>https://dev.to/jeremy_salsburg_00d273f85/proyecto-stem-construye-un-monitor-de-aeronaves-con-una-api-y-datos-abiertos-25e8</id>
-    <updated>2026-08-23T02:16:26Z</updated>
-    <summary type="text">Proyecto STEM: construye un monitor de aeronaves con una API y datos abiertos ¿Buscas un proyecto que combine programación, sistemas en tiempo real, GIS, ciencia de datos, radio y experimentación? Los datos de aeronaves ofrecen un caso práctico que puede crecer desde una consulta API de diez líneas hasta un laboratorio completo con Raspberry Pi y radio definida por software. Transparencia: estoy a</summary>
-    <author><name>Jeremy Salsburg</name></author>
-  </entry>
-  <entry>
-    <title>The COBOL Problem</title>
-    <link href="https://dev.to/adammonago/the-cobol-problem-4l02" rel="alternate"/>
-    <id>https://dev.to/adammonago/the-cobol-problem-4l02</id>
-    <updated>2026-08-23T02:16:12Z</updated>
-    <summary type="text">Originally published on adammonago.com. The COBOL Problem names a knowledge pattern. The language is a metaphor. The store still runs. The interpreters leave. Databases hold information. They do not pass it on. The institution still has a working store. The people who could explain what the records mean are leaving, or already gone. What sits in the database is inventory: a list of what someone on</summary>
-    <author><name>Adam Monago</name></author>
-  </entry>
-  <entry>
-    <title>My scheduled task reported &quot;success&quot; every 5 minutes for 3 weeks. The process inside it had been crashing the whole time.</title>
-    <link href="https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5" rel="alternate"/>
-    <id>https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5</id>
-    <updated>2026-08-23T02:15:33Z</updated>
-    <summary type="text">I run a one-person AI company: Claude Code writes and maintains the code, and most of what it builds runs unattended — several trading bots on Windows Task Scheduler, each polling a broker API every 5 minutes, 24/7, with nobody watching in real time. I wrote before about the agent breaking things it had write access to (I let an AI agent run my trading bots unattended). This one's different: nothi</summary>
-    <author><name>WWP</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Query 100,000 Caribbean Aircraft State Changes with DuckDB</title>
-    <link href="https://dev.to/jeremy_salsburg_00d273f85/query-100000-caribbean-aircraft-state-changes-with-duckdb-2fl0" rel="alternate"/>
-    <id>https://dev.to/jeremy_salsburg_00d273f85/query-100000-caribbean-aircraft-state-changes-with-duckdb-2fl0</id>
-    <updated>2026-08-23T02:01:21Z</updated>
-    <summary type="text">Query 100,000 Caribbean Aircraft State Changes with DuckDB Real-world streaming data rarely arrives as perfectly reconstructed rows. To save bandwidth and storage, ADS-B archives can record a complete aircraft state followed by sparse rows containing only fields that changed. This tutorial uses a free, bounded Caribbean aircraft-data sample to explore that model directly with DuckDB. The file cont</summary>
-    <author><name>Jeremy Salsburg</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Building a Reliable Multi-Agent Pipeline with the Claude API: Orchestration Patterns That Hold Up in Production</title>
-    <link href="https://dev.to/theaishop/building-a-reliable-multi-agent-pipeline-with-the-claude-api-orchestration-patterns-that-hold-up-29pl" rel="alternate"/>
-    <id>https://dev.to/theaishop/building-a-reliable-multi-agent-pipeline-with-the-claude-api-orchestration-patterns-that-hold-up-29pl</id>
-    <updated>2026-08-23T01:58:47Z</updated>
-    <summary type="text">Most &quot;multi-agent&quot; demos fall apart the moment you put them in front of real data. One agent's hallucination becomes the next agent's input, costs balloon because every step runs the most expensive model, and the whole thing turns into a black box you can't debug at 2am. I run a production system that operates my own company on a tiered agent pipeline, and the patterns that keep it reliable are bo</summary>
-    <author><name>Brant Hindman</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Agent Loop Is Lying About Being Done: Writing Verifiable Stop Conditions</title>
-    <link href="https://dev.to/shipwithaiio/your-agent-loop-is-lying-about-being-done-writing-verifiable-stop-conditions-270p" rel="alternate"/>
-    <id>https://dev.to/shipwithaiio/your-agent-loop-is-lying-about-being-done-writing-verifiable-stop-conditions-270p</id>
-    <updated>2026-08-23T01:30:00Z</updated>
-    <summary type="text">TL;DR — A loop is only as trustworthy as its stop condition. &quot;Done&quot; has to be checkable by a different model — tests pass, lint clean, schema validates — never the worker's own claim. Below: why self-grading fails, the four rungs of verification, a checker-agent template you can copy, and the three caps that stop a loop running forever. Part 3 of the Loop Engineering series on ShipWithAI. Read the</summary>
-    <author><name>ShipWithAI</name></author>
   </entry>
 </feed>
