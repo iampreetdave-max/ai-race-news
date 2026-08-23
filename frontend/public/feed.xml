@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T07:37:01Z</updated>
+  <updated>2026-08-23T08:34:56Z</updated>
+  <entry>
+    <title>Memory shortage reportedly drives Nvidia AI server prices up about 15 percent</title>
+    <link href="https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/" rel="alternate"/>
+    <id>https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/</id>
+    <updated>2026-08-23T08:15:28Z</updated>
+    <summary type="text">Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the market power of the very supplier they're trying to break free from. The articl</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How China's gray market sells Claude tokens at a fraction of the price</title>
+    <link href="https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/" rel="alternate"/>
+    <id>https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/</id>
+    <updated>2026-08-23T07:48:33Z</updated>
+    <summary type="text">Anthropic's strict access controls against China, from geoblocking to selfie verification, are being systematically bypassed through a thriving network of so-called &quot;transfer stations.&quot; Chinese developers can buy Claude tokens for as little as ten percent of the list price. Analyst Zilan Qian warns that the circumvention infrastructure weakens export controls and Anthropic's own safety systems. Th</summary>
+    <author><name>Tomislav Bezmalinović</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Humanoid Robot Beats Usain Bolt’s 100m World Record in Beijing</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing" rel="alternate"/>
@@ -148,12 +166,71 @@
     <author><name>Maximilian Schreiner</name></author>
   </entry>
   <entry>
+    <title>Stop writing the same custom HTTP wrapper in every project</title>
+    <link href="https://dev.to/sovan_kandar_cfc10d231218/stop-writing-the-same-custom-http-wrapper-in-every-project-1gka" rel="alternate"/>
+    <id>https://dev.to/sovan_kandar_cfc10d231218/stop-writing-the-same-custom-http-wrapper-in-every-project-1gka</id>
+    <updated>2026-08-23T07:54:28Z</updated>
+    <summary type="text">Every time I start a new frontend or full-stack project, the same ritual happens. We install axios or grab native fetch, and within a few weeks, we find ourselves building a massive layer of custom wrappers, interceptors, and helpers around it. Why? Because out-of-the-box HTTP clients handle basic data fetching fine, but they completely ignore real-world app constraints like rapid user actions, st</summary>
+    <author><name>Sovan Kandar</name></author>
+  </entry>
+  <entry>
+    <title>When a Safety Reviewer Rejected Everything and Still Passed Its Test</title>
+    <link href="https://dev.to/jblaz6335/when-a-safety-reviewer-rejected-everything-and-still-passed-its-test-1795" rel="alternate"/>
+    <id>https://dev.to/jblaz6335/when-a-safety-reviewer-rejected-everything-and-still-passed-its-test-1795</id>
+    <updated>2026-08-23T07:50:12Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. ARGUS is a data-catalog governance swarm. Specialist agents find missing descriptions, untagged sensitive columns, broken lineage assumptions, and other metadata defects. An Arbiter reviews each proposed repair before anything can be written. That last reviewer is supposed to be the safety boundary. It must reject un</summary>
+    <author><name>Joshua Hernandez</name></author>
+  </entry>
+  <entry>
+    <title># Stopping S3 Data Exfiltration in Real Time: A Step-by-Step Incident Response</title>
+    <link href="https://dev.to/nghidanh2005/-stopping-s3-data-exfiltration-in-real-time-a-step-by-step-incident-response-2jp" rel="alternate"/>
+    <id>https://dev.to/nghidanh2005/-stopping-s3-data-exfiltration-in-real-time-a-step-by-step-incident-response-2jp</id>
+    <updated>2026-08-23T07:45:16Z</updated>
+    <summary type="text">The Scenario An EC2 instance with an attached IAM role has s3:GetObject on a bucket containing sensitive data. An attacker compromises the instance, extracts temporary credentials from the metadata service, and begins bulk-downloading objects. GuardDuty fires Exfiltration:S3/AnomalousBehavior. The development team needs 4 hours to patch. You need to cut off access now. This post walks through exac</summary>
+    <author><name>Danh Hoang Hieu Nghi</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How to Add a Human Review Gate to an n8n Lead Intake Workflow</title>
+    <link href="https://dev.to/jblaz6335/how-to-add-a-human-review-gate-to-an-n8n-lead-intake-workflow-2f8o" rel="alternate"/>
+    <id>https://dev.to/jblaz6335/how-to-add-a-human-review-gate-to-an-n8n-lead-intake-workflow-2f8o</id>
+    <updated>2026-08-23T07:43:42Z</updated>
+    <summary type="text">Most lead intake automations work on the happy path. A form arrives, the workflow sends an email, and the lead appears in a CRM. The expensive failures happen at the edges: the same webhook is delivered twice a required field is missing a high-risk message is routed automatically an API accepts the request but drops a field a downstream system fails after the workflow has already sent a confirmati</summary>
+    <author><name>Joshua Hernandez</name></author>
+  </entry>
+  <entry>
     <title>Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade</title>
     <link href="https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/</id>
     <updated>2026-08-22T14:00:00Z</updated>
     <summary type="text">Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.</summary>
     <author><name>Ivan Mehta</name></author>
+  </entry>
+  <entry>
+    <title>My First week in data Engineering:Setting Up My tools</title>
+    <link href="https://dev.to/calvince_okoth_16b57a5ea9/my-first-week-in-data-engineeringsetting-up-my-tools-219" rel="alternate"/>
+    <id>https://dev.to/calvince_okoth_16b57a5ea9/my-first-week-in-data-engineeringsetting-up-my-tools-219</id>
+    <updated>2026-08-23T07:40:34Z</updated>
+    <summary type="text">This marked the beginning on an exiting journy .I started exploring Data Engineering. My firt focus was tool getting familiar with the required tools.I started setting up and exploring Dev.t,DBEaver,Aiven,git hub and git bash,Visual sudio. One of the most exiting part is that i even successfully uploaded my first project on git hub I also spent sometime learning how o connect DBeaver with database</summary>
+    <author><name>calvince okoth</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Same Zone, Same Projection, 427 Metres Apart</title>
+    <link href="https://dev.to/srdjan_poppovic/same-zone-same-projection-427-metres-apart-1k9a" rel="alternate"/>
+    <id>https://dev.to/srdjan_poppovic/same-zone-same-projection-427-metres-apart-1k9a</id>
+    <updated>2026-08-23T07:36:47Z</updated>
+    <summary type="text">I was writing a blog post about the architecture of a system I built when I found a bug in it. This is that bug, and the much more interesting thing standing behind it. The system ingests mobile mapping surveys — LiDAR trajectories with spherical photos along them, driven along roads. The files arrive in whatever coordinate system the surveyor was working in, which in this part of the world is not</summary>
+    <author><name>Srdjan Popovic</name></author>
+  </entry>
+  <entry>
+    <title># My First Week Learning Git</title>
+    <link href="https://dev.to/zena_muhoro_/-my-first-week-learning-git-3n1c" rel="alternate"/>
+    <id>https://dev.to/zena_muhoro_/-my-first-week-learning-git-3n1c</id>
+    <updated>2026-08-23T07:35:00Z</updated>
+    <summary type="text">This week, I was introduced to Git and GitHub as part of my Data Science learning journey. At first, I found Git a little confusing. There were several commands to learn, and I wasn't sure how they all fitted together. After practising, I started to understand that Git is mainly about keeping track of changes to my work. The basic process I learned was: Working Directory → Staging → Commit → Push </summary>
+    <author><name>Zena Muhoro</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Netflix tests language model as alternative to hand-built recommendation logic</title>
@@ -364,84 +441,5 @@
     <updated>2026-08-23T04:03:52Z</updated>
     <summary type="text">Every frontend developer knows this pain: the backend isn't ready, it's down, or it returns data that doesn't match the design. You need to build UI against an API that doesn't exist yet. The usual workarounds all have friction: Spin up a mock server (json-server, mockoon) — another process, another port, another config to maintain. Use a proxy tool — powerful, but heavy setup for a quick &quot;give me</summary>
     <author><name>Charles</name></author>
-  </entry>
-  <entry>
-    <title>JOAN experimental alpha: seeking 3 independent agent evaluators</title>
-    <link href="https://dev.to/yoan_v_107a45e0a84d5196e3/joan-experimental-alpha-seeking-3-independent-agent-evaluators-45co" rel="alternate"/>
-    <id>https://dev.to/yoan_v_107a45e0a84d5196e3/joan-experimental-alpha-seeking-3-independent-agent-evaluators-45co</id>
-    <updated>2026-08-23T03:44:13Z</updated>
-    <summary type="text">JOAN is an experimental, agent-native language and verification substrate. Real .joan source can be parsed, checked, formatted, compiled to deterministic bytecode, and executed in a bounded VM. We are looking for three independent evaluators to run one small, reproducible GitHub-only task: safe repository metadata and instruction-file discovery. Run the bounded trial git clone https://github.com/Y</summary>
-    <author><name>Yoan V</name></author>
-  </entry>
-  <entry>
-    <title>Building an HTTP Server From Scratch using TCP.</title>
-    <link href="https://dev.to/devxdh/building-an-http-server-from-scratch-using-tcp-5ehb" rel="alternate"/>
-    <id>https://dev.to/devxdh/building-an-http-server-from-scratch-using-tcp-5ehb</id>
-    <updated>2026-08-23T03:43:06Z</updated>
-    <summary type="text">HTTP is something I interact with every single day, whether I am fetching data on the frontend or building backend APIs. But for a long time, if you had asked me how it actually worked under the hood, I wouldn't have had a good answer. I always treated HTTP like this intimidating, hyper-complex black box that would be miserable to understand, let alone rebuild from scratch. Once I actually dug int</summary>
-    <author><name>Dev Dhanadiya</name></author>
-  </entry>
-  <entry>
-    <title>Why Static Export Wins Over Serverless APIs for Web Utility Tools</title>
-    <link href="https://dev.to/sir_lu_62bd118924537f9510/why-static-export-wins-over-serverless-apis-for-web-utility-tools-2gel" rel="alternate"/>
-    <id>https://dev.to/sir_lu_62bd118924537f9510/why-static-export-wins-over-serverless-apis-for-web-utility-tools-2gel</id>
-    <updated>2026-08-23T03:33:48Z</updated>
-    <summary type="text">When designing modern micro-SaaS web utilities (calculators, formatters, text cleaners), developers often default to Serverless Edge Functions or Server-Side Rendering (SSR). However, for single-task utility sites, this approach often introduces unnecessary architecture overhead: cold-start latency, cloud costs, and potential data privacy concerns. Here is why adopting a Pure Client-Side Static Ex</summary>
-    <author><name>sir lu</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Node.js Product Analytics-Style API: 3 Metrics Dashboard Rollback Drills</title>
-    <link href="https://dev.to/wyattsterling5738/nodejs-product-analytics-style-api-3-metrics-dashboard-rollback-drills-54l7" rel="alternate"/>
-    <id>https://dev.to/wyattsterling5738/nodejs-product-analytics-style-api-3-metrics-dashboard-rollback-drills-54l7</id>
-    <updated>2026-08-23T02:45:31Z</updated>
-    <summary type="text">A product analytics style metrics dashboard page says a nightly media pipeline produced 18,420 searchable articles when 18,487 were eligible. The Node.js server-side custom events API drew a tidy chart, but the on-call still needs to know which 67 records vanished, whether the counter changed with the latest build, and whether reverting that build will also restore the old alert definition. Short </summary>
-    <author><name>WyattSterling5738</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Azure Integration Services Interview Prep Part 3: Managed Identity, Key Vault, VNet , Private Endpoints, NSGs, RBAC and Token Validation</title>
-    <link href="https://dev.to/manoharij/azure-integration-services-interview-prep-part-3-managed-identity-key-vault-vnet-private-5646" rel="alternate"/>
-    <id>https://dev.to/manoharij/azure-integration-services-interview-prep-part-3-managed-identity-key-vault-vnet-private-5646</id>
-    <updated>2026-08-23T02:42:47Z</updated>
-    <summary type="text">Part 1 covered the messaging services - Service Bus, Storage Queues, Event Hub, Event Grid. Part 2 covered the orchestration layer that processes what those services move - Logic Apps, Function Apps, Durable Functions. Neither part addressed a question every panel interview eventually asks: how does any of this actually get secured. This part covers exactly that, and deliberately ties every concep</summary>
-    <author><name>Manohari Jayachandran</name></author>
-  </entry>
-  <entry>
-    <title>Level 100: Claude foundations</title>
-    <link href="https://dev.to/kobester_nz/level-100-claude-foundations-16ln" rel="alternate"/>
-    <id>https://dev.to/kobester_nz/level-100-claude-foundations-16ln</id>
-    <updated>2026-08-23T02:37:52Z</updated>
-    <summary type="text">There are four basic components: Claude Code Agent SDK Claude API MCP Claude Code Claude Code is Anthropic's agentic command-line tool for code generation, refactoring, and debugging. It runs where your code lives, and you configure its behavior through a CLAUDE.md file, custom skills, and MCP integrations. The distinction that matters: this isn't a chat window you paste code into. It's an agent t</summary>
-    <author><name>Kobester</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Self-Hosted RAG: A Production Pipeline on Your Own Hardware</title>
-    <link href="https://dev.to/mryadavgulshan/self-hosted-rag-a-production-pipeline-on-your-own-hardware-2a5i" rel="alternate"/>
-    <id>https://dev.to/mryadavgulshan/self-hosted-rag-a-production-pipeline-on-your-own-hardware-2a5i</id>
-    <updated>2026-08-23T02:30:00Z</updated>
-    <summary type="text">A bank in the Gulf gave me a constraint I did not expect. The conversation was going normally — documents, embeddings, vector search — until their CTO leaned forward and said, &quot;None of this can touch a public cloud.&quot; Not the customer documents. Not the queries. Not even the embedding calls. Their compliance policy classified the loan-approval corpus as data that could not leave the building, and t</summary>
-    <author><name>Gulshan Yadav</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Note: Common Claude Architecture Challenges and Solutions</title>
-    <link href="https://dev.to/kobester_nz/claude-architecture-common-challenges-and-solutions-1293" rel="alternate"/>
-    <id>https://dev.to/kobester_nz/claude-architecture-common-challenges-and-solutions-1293</id>
-    <updated>2026-08-23T02:26:13Z</updated>
-    <summary type="text">Claude Architecture Common Challenges and solutions: Lossy Summarization vs. Immutable State Ledgers Prompt Instructions vs. Code-Level Enforcement Lossy Summarization vs. Immutable State Ledgers The Scenario As long-running agentic sessions accumulate chat history, developers often introduce context-window optimization techniques—such as rolling sliding windows or recursive LLM-based summarizatio</summary>
-    <author><name>Kobester</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Postgres as your message queue is a SPOF you'll regret at 3am</title>
-    <link href="https://dev.to/adioof/postgres-as-your-message-queue-is-a-spof-youll-regret-at-3am-22ha" rel="alternate"/>
-    <id>https://dev.to/adioof/postgres-as-your-message-queue-is-a-spof-youll-regret-at-3am-22ha</id>
-    <updated>2026-08-23T02:17:03Z</updated>
-    <summary type="text">At 3 am the pager is activated. Your queue is backed up, your database is on fire, and those two facts are the same fact. This is the trap nobody warns you about when they advise you to simply utilize Postgres for all your needs. The hype has a new victim The simple advice, &quot;Just use Postgres&quot; was very effective in the beginning. You didn't need a complex architecture involving six different servi</summary>
-    <author><name>Aditya Agarwal</name></author>
   </entry>
 </feed>
