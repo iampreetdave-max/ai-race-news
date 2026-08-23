@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T16:31:10Z</updated>
+  <updated>2026-08-23T17:24:20Z</updated>
   <entry>
     <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
     <link href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/" rel="alternate"/>
@@ -137,6 +137,88 @@
     <updated>2026-08-23T05:55:21Z</updated>
     <summary type="text">A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.</summary>
     <author><name>Sohee Kim</name></author>
+  </entry>
+  <entry>
+    <title>Debugging Is the Killer App for Free Model Tokens — Here's the Workflow</title>
+    <link href="https://dev.to/devrs_9381/debugging-is-the-killer-app-for-free-model-tokens-heres-the-workflow-1fda" rel="alternate"/>
+    <id>https://dev.to/devrs_9381/debugging-is-the-killer-app-for-free-model-tokens-heres-the-workflow-1fda</id>
+    <updated>2026-08-23T17:21:08Z</updated>
+    <summary type="text">Most developers treat free model tokens as a code generation budget. They ask for snippets, refactors, and explanations, then wonder why the tokens disappear without making their codebase measurably better. I think the highest-leverage use is debugging. A model that reads your error logs and produces a ranked list of hypotheses can save you more time than any code snippet it generates, because deb</summary>
+    <author><name>Dakota Liu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>VeloxDB : database admin tool for Linux</title>
+    <link href="https://dev.to/abeni16/veloxdb-database-admin-tool-for-linux-7l9" rel="alternate"/>
+    <id>https://dev.to/abeni16/veloxdb-database-admin-tool-for-linux-7l9</id>
+    <updated>2026-08-23T17:20:55Z</updated>
+    <summary type="text">VeloxDB is an open-source database management tool built with Rust and Tauri 2, available for Linux as .deb and .AppImage packages (x64 and ARM64). It supports 6 database engines — PostgreSQL, MySQL, MongoDB, Redis, SQLite, and DuckDB — plus wire-compatible cloud services like Supabase, PlanetScale, and Atlas. Connections work by pasting any standard URI (postgresql://, mysql://, redis://, mongodb</summary>
+    <author><name>abeni16</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>The CSS bug that taught me JS-injected styles always win</title>
+    <link href="https://dev.to/nogandev/the-css-bug-that-taught-me-js-injected-styles-always-win-2io2" rel="alternate"/>
+    <id>https://dev.to/nogandev/the-css-bug-that-taught-me-js-injected-styles-always-win-2io2</id>
+    <updated>2026-08-23T17:20:27Z</updated>
+    <summary type="text">I spent way longer than I'd like to admit chasing a dark mode bug that made zero sense on paper. I'm building WidgetForge, a drop-in AI chat widget you can paste into any site — static HTML or Next.js, pick a theme, done. Four themes, one shared JS core. Nothing exotic. Except one small piece of it kept breaking dark mode, and I couldn't figure out why. The setup Every message in the chat has litt</summary>
+    <author><name>Nogan's Development</name></author>
+  </entry>
+  <entry>
+    <title>Making AI Coding Agents More Efficient: My Local Toolkit</title>
+    <link href="https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n" rel="alternate"/>
+    <id>https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n</id>
+    <updated>2026-08-23T17:17:43Z</updated>
+    <summary type="text">Giving AI coding agents more tools doesn’t necessarily make them more efficient. After using OpenCode and Claude Code heavily, I started focusing less on adding capabilities and more on controlling the information flowing into the agent. That means: searching before reading entire files choosing between text, structural, and semantic search reducing noisy command output keeping sessions focused de</summary>
+    <author><name>Ammar Najjar</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>The Coverage Loop: Turning Free AI Tokens into Verified C++ Tests</title>
+    <link href="https://dev.to/datacpp_3670/the-coverage-loop-turning-free-ai-tokens-into-verified-c-tests-1jh5" rel="alternate"/>
+    <id>https://dev.to/datacpp_3670/the-coverage-loop-turning-free-ai-tokens-into-verified-c-tests-1jh5</id>
+    <updated>2026-08-23T17:11:55Z</updated>
+    <summary type="text">Unit tests are boring. Coverage is not optional. I asked a free AI model to write my tests. It failed. Then I built a feedback loop. Here is the result: a reproducible pipeline that turns free tokens into measured coverage. Why Generated Tests Miss Everything Models guess. They do not know your intent. A test that compiles is not a test that asserts. A test that asserts is not a test that covers. </summary>
+    <author><name>Morgan Ma</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Why I Built an Open-Source, Zero-Cloud Period Tracker with React 19 &amp; Capacitor</title>
+    <link href="https://dev.to/aradar46/why-i-built-an-open-source-zero-cloud-period-tracker-with-react-19-capacitor-hmb" rel="alternate"/>
+    <id>https://dev.to/aradar46/why-i-built-an-open-source-zero-cloud-period-tracker-with-react-19-capacitor-hmb</id>
+    <updated>2026-08-23T17:11:13Z</updated>
+    <summary type="text">In an era where health data is increasingly commodified, tracked, and exposed in data breaches, personal data privacy isn't just a bonus feature — it's a fundamental requirement. Most period and cycle tracking apps require cloud accounts, transmit deeply intimate health telemetry to remote servers, and integrate third-party ad SDKs. When data lives on a central server, it is vulnerable to leaks, c</summary>
+    <author><name>Aradar</name></author>
+    <category term="data"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide</title>
+    <link href="https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/" rel="alternate"/>
+    <id>https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/</id>
+    <updated>2026-08-23T17:00:00Z</updated>
+    <summary type="text">From Kaplan-Meier curves to hazard ratios with runnable Python Code throughout The post Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide appeared first on Towards Data Science.</summary>
+    <author><name>Ananya Bhattacharyya</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>The Runaway Diff: A Token-Budget Postmortem for Coding Agents</title>
+    <link href="https://dev.to/devio_3007/the-runaway-diff-a-token-budget-postmortem-for-coding-agents-p1l" rel="alternate"/>
+    <id>https://dev.to/devio_3007/the-runaway-diff-a-token-budget-postmortem-for-coding-agents-p1l</id>
+    <updated>2026-08-23T16:47:27Z</updated>
+    <summary type="text">The task looked trivial on paper: add a rate limiter to a small Python service and update three call sites. I handed it to a coding agent running on MonkeyCode, an open-source project with free model access and a free server option. Disclosure: This article was prepared as part of MonkeyCode's product outreach. I did what most engineers would do with a ten-million-token allowance: give the agent a</summary>
+    <author><name>Sam Yang</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Build a Token-Budgeted LLM Service on a Free Server: A Step-by-Step Tutorial</title>
+    <link href="https://dev.to/apprs_6334/build-a-token-budgeted-llm-service-on-a-free-server-a-step-by-step-tutorial-1oo9" rel="alternate"/>
+    <id>https://dev.to/apprs_6334/build-a-token-budgeted-llm-service-on-a-free-server-a-step-by-step-tutorial-1oo9</id>
+    <updated>2026-08-23T16:46:32Z</updated>
+    <summary type="text">Last month, a side project died at the API checkout. The code worked. The credit card did not. The fix is not a bigger budget. The fix is a smaller one. This tutorial builds a working LLM endpoint from zero. Every step ends with a verification command. You need a terminal, Python 3.11+, and about thirty minutes. Why cost control is the real feature LLM prices keep dropping. My API bills did not. T</summary>
+    <author><name>Riley Wang</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>I spent one day smashing three real open source bugs</title>
@@ -362,87 +444,5 @@
     <summary type="text">Solving AI Amnesia: Why Your Coding Agents Needs Institutional Memory Every developer using AI coding agents eventually hits the same wall. You spend three hours debugging a subtle race condition in an async worker. The agent finds an undocumented quirk in your queue library, applies a targeted workaround, and the test suite turns green. Two days later, you open a fresh chat session or switch mode</summary>
     <author><name>AlexLeo</name></author>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>A Supply-Chain Worm Wrote Itself Into Claude Code's Hook Files to Survive Credential Rotation</title>
-    <link href="https://dev.to/ramdai_bista/a-supply-chain-worm-wrote-itself-into-claude-codes-hook-files-to-survive-credential-rotation-5ce4" rel="alternate"/>
-    <id>https://dev.to/ramdai_bista/a-supply-chain-worm-wrote-itself-into-claude-codes-hook-files-to-survive-credential-rotation-5ce4</id>
-    <updated>2026-08-23T13:21:00Z</updated>
-    <summary type="text">Rotating your credentials and removing a poisoned package is supposed to end an npm supply-chain compromise. In early August 2026, one worm made sure it didn't have to. What happened Microsoft's security research team tracked a campaign it calls &quot;ChainDrop&quot; — reported elsewhere as the keyv/cacheable compromise, or &quot;Mini Shai-Hulud&quot; — that took over an npm maintainer account and published trojanize</summary>
-    <author><name>Ramdai Bista</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>No LeetCode. No club leadership. No internship on my resume.
-Still got the offer.
-
-I wrote about how that happened — and honestly, the path was nowhere near what I expected.
-
-What actually got your first interview? 👀</title>
-    <link href="https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-1f18" rel="alternate"/>
-    <id>https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-1f18</id>
-    <updated>2026-08-23T13:15:34Z</updated>
-    <summary type="text">How I Got a Job Offer as a Fresher in an AI-Fearing Market — Without LeetCode or Club Leaderships on My Resume Dhruv Jani Dhruv Jani Dhruv Jani Follow Aug 20 How I Got a Job Offer as a Fresher in an AI-Fearing Market — Without LeetCode or Club Leaderships on My Resume #discuss #career #devjournal #resume 29 reactions 19 comments 6 min read</summary>
-    <author><name>Dhruv Jani</name></author>
-  </entry>
-  <entry>
-    <title>Automating the Overhead: Building a Multi-Tool Developer Assistant with Python and Gemini</title>
-    <link href="https://dev.to/yugeshwaran-gm/automating-the-overhead-building-a-multi-tool-developer-assistant-with-python-and-gemini-264m" rel="alternate"/>
-    <id>https://dev.to/yugeshwaran-gm/automating-the-overhead-building-a-multi-tool-developer-assistant-with-python-and-gemini-264m</id>
-    <updated>2026-08-23T13:14:53Z</updated>
-    <summary type="text">Automating the Overhead: Building a Multi-Tool Developer Assistant with Python and Gemini Software development isn't only about writing code. A significant part of a developer's day can be spent writing status updates, preparing pull requests, creating commit messages, investigating errors, analyzing support tickets, preparing deployment checklists, and documenting technical work. These tasks are </summary>
-    <author><name>YUGESHWARAN G</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Four products passed their tests. Then I tested them.</title>
-    <link href="https://dev.to/raghubuilds/four-products-passed-their-tests-then-i-tested-them-1cp" rel="alternate"/>
-    <id>https://dev.to/raghubuilds/four-products-passed-their-tests-then-i-tested-them-1cp</id>
-    <updated>2026-08-23T13:13:22Z</updated>
-    <summary type="text">Every one of these had a green suite. 147 tests on the portfolio, 77 on the budget proxy, 53 on the conformance checker, 78 on the retrieval system. All passing. Each had a benchmark, a published result, and a live deployment. Then I wrote scenarios that hit the live URLs instead of the code, and one of them was overrunning its central guarantee by 303% in production. This is what that exercise fo</summary>
-    <author><name>Raghuram</name></author>
-  </entry>
-  <entry>
-    <title>AI Engineering for Web Developers: From Vibe Coding to Production</title>
-    <link href="https://dev.to/nainikmehta/ai-engineering-for-web-developers-from-vibe-coding-to-production-mpe" rel="alternate"/>
-    <id>https://dev.to/nainikmehta/ai-engineering-for-web-developers-from-vibe-coding-to-production-mpe</id>
-    <updated>2026-08-23T13:00:44Z</updated>
-    <summary type="text">The End of 'Vibe Coding' For the past year, the industry has been enamored with 'vibe coding'—the act of throwing natural language prompts at an LLM and hoping the resulting code fits into your project. It was the &quot;spark&quot; phase of AI adoption, a necessary period of experimentation where we learned what these models could do. But as we move deeper into 2025, the novelty is wearing off. We are hitti</summary>
-    <author><name>Nainik Mehta</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Streamux: Full RFC 9113 in Go with C abi</title>
-    <link href="https://dev.to/silvern47/streamux-full-rfc-9113-in-go-with-c-abi-3hie" rel="alternate"/>
-    <id>https://dev.to/silvern47/streamux-full-rfc-9113-in-go-with-c-abi-3hie</id>
-    <updated>2026-08-23T13:00:42Z</updated>
-    <summary type="text">Spent the last few weeks building an HTTP/2 server from scratch in Go. Full RFC 9113 - framing, HPACK, stream state machine, flow control, TLS enforcement, 145/146 h2spec tests passing. The fun part was RFC 9218 stream priorities. Browsers already send priority: u=N on every fetch. Most servers throw it away. I built a pluggable write scheduler that actually uses it - deficit round-robin across ur</summary>
-    <author><name>Alex Day</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Excel Dynamic Arrays: FILTER, UNIQUE and SORT in One Formula</title>
-    <link href="https://dev.to/michaelnocito/excel-dynamic-arrays-filter-unique-and-sort-in-one-formula-7pf" rel="alternate"/>
-    <id>https://dev.to/michaelnocito/excel-dynamic-arrays-filter-unique-and-sort-in-one-formula-7pf</id>
-    <updated>2026-08-23T13:00:38Z</updated>
-    <summary type="text">By Michael Nocito, data analyst · Published August 8, 2026 By the end of this page you can pull a distinct list out of a column, extract every row matching a condition, sort a result without touching the source, chain all three into one line, and read the two error messages that only exist in this part of Excel. It is about twenty-five minutes, and every output below was produced by running the fo</summary>
-    <author><name>Michael Nocito</name></author>
-  </entry>
-  <entry>
-    <title>Excel Drop Down Lists and Data Validation, and the Paste That Removes Them</title>
-    <link href="https://dev.to/michaelnocito/excel-drop-down-lists-and-data-validation-and-the-paste-that-removes-them-1m5a" rel="alternate"/>
-    <id>https://dev.to/michaelnocito/excel-drop-down-lists-and-data-validation-and-the-paste-that-removes-them-1m5a</id>
-    <updated>2026-08-23T13:00:21Z</updated>
-    <summary type="text">By Michael Nocito, data analyst · Published August 8, 2026 By the end of this page you can put a dropdown on a column in about a minute, keep its list somewhere that grows when the options grow, make a second dropdown depend on the first, write a rule that blocks a duplicate rather than a value, and find every entry that got past all of it. It is about twenty-five minutes, and the behaviour claims</summary>
-    <author><name>Michael Nocito</name></author>
-  </entry>
-  <entry>
-    <title>Bug Detection Blind Spots in AI Coding Harnesses (GStack and Beyond)</title>
-    <link href="https://towardsdatascience.com/bug-detection-blind-spots-in-ai-coding-harnesses-gstack-and-beyond/" rel="alternate"/>
-    <id>https://towardsdatascience.com/bug-detection-blind-spots-in-ai-coding-harnesses-gstack-and-beyond/</id>
-    <updated>2026-08-23T13:00:00Z</updated>
-    <summary type="text">28 debugging experiments reveal that AI struggles less with complexity than with missing information. The post Bug Detection Blind Spots in AI Coding Harnesses (GStack and Beyond) appeared first on Towards Data Science.</summary>
-    <author><name>Nhu Hoang</name></author>
-    <category term="data"/>
   </entry>
 </feed>

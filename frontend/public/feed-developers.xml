@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-23T16:31:10Z</updated>
+  <updated>2026-08-23T17:24:20Z</updated>
+  <entry>
+    <title>Debugging Is the Killer App for Free Model Tokens — Here's the Workflow</title>
+    <link href="https://dev.to/devrs_9381/debugging-is-the-killer-app-for-free-model-tokens-heres-the-workflow-1fda" rel="alternate"/>
+    <id>https://dev.to/devrs_9381/debugging-is-the-killer-app-for-free-model-tokens-heres-the-workflow-1fda</id>
+    <updated>2026-08-23T17:21:08Z</updated>
+    <summary type="text">Most developers treat free model tokens as a code generation budget. They ask for snippets, refactors, and explanations, then wonder why the tokens disappear without making their codebase measurably better. I think the highest-leverage use is debugging. A model that reads your error logs and produces a ranked list of hypotheses can save you more time than any code snippet it generates, because deb</summary>
+    <author><name>Dakota Liu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Making AI Coding Agents More Efficient: My Local Toolkit</title>
+    <link href="https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n" rel="alternate"/>
+    <id>https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n</id>
+    <updated>2026-08-23T17:17:43Z</updated>
+    <summary type="text">Giving AI coding agents more tools doesn’t necessarily make them more efficient. After using OpenCode and Claude Code heavily, I started focusing less on adding capabilities and more on controlling the information flowing into the agent. That means: searching before reading entire files choosing between text, structural, and semantic search reducing noisy command output keeping sessions focused de</summary>
+    <author><name>Ammar Najjar</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
   <entry>
     <title>BrunnerCTF : WordPressed to Root Writeup</title>
     <link href="https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62" rel="alternate"/>
@@ -431,26 +450,6 @@
     <summary type="text">You'll build a repeatable service that lets plumbers, dentists, and other service-business owners answer calls with a natural-sounding, AI-driven voice that schedules appointments, qualifies leads, and captures payments. The result is a hands-free phone front-desk that you can sell as a monthly subscription and use to acquire new clients for your agency. What you'll get: a working n8n workflow tha</summary>
     <author><name>Sam Chen</name></author>
     <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ai agents vs automations: When to build an autonomous agent and when a simple workflow suffices</title>
-    <link href="https://dev.to/samchenreviews/ai-agents-vs-automations-when-to-build-an-autonomous-agent-and-when-a-simple-workflow-suffices-2akj" rel="alternate"/>
-    <id>https://dev.to/samchenreviews/ai-agents-vs-automations-when-to-build-an-autonomous-agent-and-when-a-simple-workflow-suffices-2akj</id>
-    <updated>2026-08-22T00:29:16Z</updated>
-    <summary type="text">What's the difference? An AI agent is a loop-driven system that can decide which tool to call next, keep state across interactions, and adapt its behaviour. An automation is a fixed sequence of steps that runs the same way every time. In this guide you'll build both a plain n8n workflow that sends a prompt to OpenAI and stores the answer, and a full RAG-enabled AI agent that decides when to fetch </summary>
-    <author><name>Sam Chen</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The best argument against my MCP server came from Anthropic</title>
-    <link href="https://dev.to/heinrichneb/the-best-argument-against-my-mcp-server-came-from-anthropic-p1m" rel="alternate"/>
-    <id>https://dev.to/heinrichneb/the-best-argument-against-my-mcp-server-came-from-anthropic-p1m</id>
-    <updated>2026-08-22T00:27:32Z</updated>
-    <summary type="text">Building in public You know the risk before you start. Everyone tells you: do not build something the platform could ship. You build it anyway, because you need it and nobody has it. Then one Tuesday the release notes arrive. What the months actually looked like I want to be precise about the cost, because the cost is the reason the release notes hit the way they did. Two hours of sleep on a norma</summary>
-    <author><name>Heinrich Neb</name></author>
     <category term="llm"/>
   </entry>
 </feed>
