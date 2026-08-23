@@ -4,7 +4,33 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-23T22:26:27Z</updated>
+  <updated>2026-08-23T23:25:01Z</updated>
+  <entry>
+    <title>How we run five coding agents side by side in one window</title>
+    <link href="https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf" rel="alternate"/>
+    <id>https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf</id>
+    <updated>2026-08-23T23:12:04Z</updated>
+    <summary type="text">I build NestMux, a desktop app that runs Claude Code, Codex, Gemini CLI, Copilot and OpenCode in a grid of real terminals, each with its own account and its own git worktree. This is how it works inside, including the parts that are heuristics wearing a confident UI and the parts that do not survive a restart. If you are building something similar, most of this transfers. If you are deciding wheth</summary>
+    <author><name>Eliseo Fernandez Suarez</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Installing Minikube on Debian</title>
+    <link href="https://dev.to/spmahapatra/installing-minikube-on-debian-1aj4" rel="alternate"/>
+    <id>https://dev.to/spmahapatra/installing-minikube-on-debian-1aj4</id>
+    <updated>2026-08-23T22:59:01Z</updated>
+    <summary type="text">Installing Minikube on Debian Minikube is a practical way to run a small Kubernetes cluster on a Debian workstation or development instance. This guide installs Minikube with the Docker driver, starts a named profile, runs a temporary deployment, and removes the test resources afterward. This is a local development setup, not a production Kubernetes distribution. The commands target Debian 12 (Boo</summary>
+    <author><name>spmahapatra</name></author>
+  </entry>
+  <entry>
+    <title>Isolation, file ownership and cleanup: the boring half of running coding agents in parallel on Windows</title>
+    <link href="https://dev.to/eliseomdq/isolation-file-ownership-and-cleanup-the-boring-half-of-running-coding-agents-in-parallel-on-1n0f" rel="alternate"/>
+    <id>https://dev.to/eliseomdq/isolation-file-ownership-and-cleanup-the-boring-half-of-running-coding-agents-in-parallel-on-1n0f</id>
+    <updated>2026-08-23T22:50:34Z</updated>
+    <summary type="text">Someone left a comment on my last post that was a better outline than the post was: Parallel agents are only practical when the workspace boundaries are boring and explicit. On Windows especially, I would care less about the launch trick and more about isolation, logs, file ownership, and cleanup after failed runs. That is Alex Shev, and he is right. Four agents in a pane grid is the screenshot. T</summary>
+    <author><name>Eliseo Fernandez Suarez</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Scan Your MCP Server for Tool Poisoning: A Practical Walkthrough</title>
     <link href="https://dev.to/ventrova/scan-your-mcp-server-for-tool-poisoning-a-practical-walkthrough-29e1" rel="alternate"/>
@@ -156,6 +182,15 @@
     <updated>2026-08-23T08:41:25Z</updated>
     <summary type="text">Hey devs! 👋 I recently built and open-sourced FastMedia Downloader, a full-stack platform designed to inspect and extract multimedia content from over 1,000 supported platforms (YouTube, TikTok, Instagram Reels, X/Twitter, SoundCloud, and more). I wanted to share how I structured the project, the tech stack I selected, and how the microservices communicate with each other. 🏗️ Architecture &amp; Tech S</summary>
     <author><name>Camilo Llamas</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Nobody knows who built AI coding model Ox Alpha or where the code goes</title>
+    <link href="https://siliconangle.com/2026/08/23/nobody-knows-who-built-ai-coding-model-ox-alpha-or-where-the-code-goes/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/08/23/nobody-knows-who-built-ai-coding-model-ox-alpha-or-where-the-code-goes/</id>
+    <updated>2026-08-23T22:37:37Z</updated>
+    <summary type="text">An anonymous provider has been handing out free access to a frontier-class coding model on OpenRouter Inc. since Aug. 20, and no company has admitted to building it. The model is listed as “Ox Alpha” and costs nothing for input or output tokens. OpenCode, an open-source terminal agent, debuted the model on the same day […] The post Nobody knows who built AI coding model Ox Alpha or where the code </summary>
+    <author><name>Duncan Riley</name></author>
     <category term="open-source"/>
   </entry>
   <entry>
@@ -414,42 +449,6 @@
     <updated>2026-08-22T10:10:04Z</updated>
     <summary type="text">In August, I published a number on my studio’s website: we had been named unprompted in 14 out of 18 blind answers across ChatGPT, Perplexity, and Gemini. It was wrong. And the way it was wrong turned out to be more valuable than the number itself. What I did I wrote a set of questions and pasted them into a single session on each engine. Most of the questions never mentioned my studio by name. Tw</summary>
     <author><name>reidify</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitHub's Copilot SDK for Java: What Running Agents in Spring Boot Without Frameworks Reveals About Tool Integration</title>
-    <link href="https://dev.to/mech_app_ai/githubs-copilot-sdk-for-java-what-running-agents-in-spring-boot-without-frameworks-reveals-about-282m" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/githubs-copilot-sdk-for-java-what-running-agents-in-spring-boot-without-frameworks-reveals-about-282m</id>
-    <updated>2026-08-22T10:09:59Z</updated>
-    <summary type="text">Every Java team adding AI to a backend right now faces the same fork in the road. If you are on Spring Boot, you reach for Spring AI. If you are not, you reach for LangChain4j. Both are good libraries, but both come with a commitment: you adopt their abstractions, their release cadence, and their opinion of what an agent loop looks like. On August 10, 2026, GitHub quietly published a third option.</summary>
-    <author><name>mech.app</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lessons Laravel Developers Should Learn from the laravel-lang Attack</title>
-    <link href="https://dev.to/mumbai_web_designer/lessons-laravel-developers-should-learn-from-the-laravel-lang-attack-49i4" rel="alternate"/>
-    <id>https://dev.to/mumbai_web_designer/lessons-laravel-developers-should-learn-from-the-laravel-lang-attack-49i4</id>
-    <updated>2026-08-22T10:01:02Z</updated>
-    <summary type="text">Lessons Laravel Developers Should Learn from the laravel-lang Attack On 22–23 May 2026, four packages in the laravel-lang organization — laravel-lang/lang, laravel-lang/attributes, laravel-lang/http-statuses, and laravel-lang/actions — were silently backdoored through a single account compromise. Every existing git tag across all four packages was rewritten within a 90-minute window. Within six ho</summary>
-    <author><name>Sumeet Shroff</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>OIDC: Keycloak setup for ALB Gateway API</title>
-    <link href="https://dev.to/aleksandr_sorokin_devops/oidc-keycloak-setup-for-alb-gateway-api-2nkj" rel="alternate"/>
-    <id>https://dev.to/aleksandr_sorokin_devops/oidc-keycloak-setup-for-alb-gateway-api-2nkj</id>
-    <updated>2026-08-22T09:18:56Z</updated>
-    <summary type="text">Introduction In my previous article, I tested using ALB CRDs to offload JWT validation for OIDC-based authentication to the Amazon EKS Kubernetes API. In this article, I will share the Terraform/OpenTofu stack required to set up Keycloak as the OIDC provider and explain how it works. I am using the official Keycloak Terraform provider. The provider documentation clearly explains how to connect Ter</summary>
-    <author><name>Aleksandr Sorokin</name></author>
-  </entry>
-  <entry>
-    <title>You can now clip video from inside your AI agent: the state of MCP for video in 2026</title>
-    <link href="https://dev.to/anthony_builds/you-can-now-clip-video-from-inside-your-ai-agent-the-state-of-mcp-for-video-in-2026-2jek" rel="alternate"/>
-    <id>https://dev.to/anthony_builds/you-can-now-clip-video-from-inside-your-ai-agent-the-state-of-mcp-for-video-in-2026-2jek</id>
-    <updated>2026-08-22T07:03:41Z</updated>
-    <summary type="text">Six months ago, &quot;AI video editing&quot; meant opening a web app, pasting a link, and clicking around. Today you can stay in the tool you already talk to (Claude, Cursor, ChatGPT) and just say: &quot;clip the best moments from this podcast and reframe them for TikTok.&quot; The clips come back. No tab-switching, no dashboard. The thing that made this possible is the Model Context Protocol (MCP). If you have heard</summary>
-    <author><name>anthony papoti</name></author>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>
