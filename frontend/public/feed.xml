@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T19:25:08Z</updated>
+  <updated>2026-08-23T20:29:53Z</updated>
   <entry>
     <title>Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work</title>
     <link href="https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Harvey's first post-trained model nearly doubles LAB task completion, but only one benchmark number survives independent verification today The post Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Who’s behind the new ‘stealth model’ Ox Alpha?</title>
+    <link href="https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/</id>
+    <updated>2026-08-23T20:01:36Z</updated>
+    <summary type="text">A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.</summary>
+    <author><name>Anthony Ha</name></author>
   </entry>
   <entry>
     <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
@@ -146,6 +154,72 @@
     <updated>2026-08-23T05:55:21Z</updated>
     <summary type="text">A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.</summary>
     <author><name>Sohee Kim</name></author>
+  </entry>
+  <entry>
+    <title>Mix and Match: One Agent, Three Clouds, One Protocol</title>
+    <link href="https://dev.to/gde/mix-and-match-one-agent-three-clouds-one-protocol-4e5l" rel="alternate"/>
+    <id>https://dev.to/gde/mix-and-match-one-agent-three-clouds-one-protocol-4e5l</id>
+    <updated>2026-08-23T20:12:24Z</updated>
+    <summary type="text">This article provides a step by step comparison of the same research agent built three times, on Google ADK, AWS Strands and Microsoft Agent Framework, all three speaking A2A to one coordinator. The code is here: github.com/xbill9/multicloud-a2a-subagent What is this project trying to Do? This project aims to find out what actually differs between the three hyperscalers' agent frameworks once the </summary>
+    <author><name>xbill</name></author>
+  </entry>
+  <entry>
+    <title>Mix and Match: Serving an ADK Agent to AWS and Azure</title>
+    <link href="https://dev.to/gde/mix-and-match-serving-an-adk-agent-to-aws-and-azure-161f" rel="alternate"/>
+    <id>https://dev.to/gde/mix-and-match-serving-an-adk-agent-to-aws-and-azure-161f</id>
+    <updated>2026-08-23T20:09:04Z</updated>
+    <summary type="text">This article provides a step by step look at running a Google ADK agent on Cloud Run, and serving it over the A2A protocol to callers that are not ADK. The code is here: github.com/xbill9/multicloud-a2a-subagent What is this project trying to Do? This project aims to answer one research brief with three agents on three clouds, over one protocol, with no stored credentials between them. Google runs</summary>
+    <author><name>xbill</name></author>
+  </entry>
+  <entry>
+    <title>Healthtech Welcome Email — 4 API Signals Before Raising Dedicated-Domain Volume</title>
+    <link href="https://dev.to/marcorossi4891/healthtech-welcome-email-4-api-signals-before-raising-dedicated-domain-volume-1jbe" rel="alternate"/>
+    <id>https://dev.to/marcorossi4891/healthtech-welcome-email-4-api-signals-before-raising-dedicated-domain-volume-1jbe</id>
+    <updated>2026-08-23T20:05:26Z</updated>
+    <summary type="text">The hard part of a healthtech signup email isn't calling a send API. It's proving that a dedicated domain is ready for more welcome-email traffic without losing the evidence needed to explain each verification link later. Short answer: use a gradual warmup plan controlled by four signals — authenticated identity, recipient legitimacy, delivery outcomes, and verification outcomes — and raise sendin</summary>
+    <author><name>marcorossi4891</name></author>
+  </entry>
+  <entry>
+    <title>Ditch the Cloud: Building a Real-Time In-Browser Video Editor with WebCodecs, WebGPU, and Canvas</title>
+    <link href="https://dev.to/programmingcentral/ditch-the-cloud-building-a-real-time-in-browser-video-editor-with-webcodecs-webgpu-and-canvas-9j6" rel="alternate"/>
+    <id>https://dev.to/programmingcentral/ditch-the-cloud-building-a-real-time-in-browser-video-editor-with-webcodecs-webgpu-and-canvas-9j6</id>
+    <updated>2026-08-23T20:00:00Z</updated>
+    <summary type="text">For over a decade, building a video editing SaaS came with a massive hidden tax: cloud infrastructure costs. Every time a user applied a cinematic color grade, cropped a 4K frame, or stitched clips together, those raw bytes had to travel across the network, hit an expensive GPU-backed server cluster (like AWS EC2 g4dn instances), get transcoded via FFmpeg, and stream back to the browser. The laten</summary>
+    <author><name>Programming Central</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>The Bug That Passed Every Test — And Still Took Production Down</title>
+    <link href="https://dev.to/antfarm-tech/the-bug-that-passed-every-test-and-still-took-production-down-3n1p" rel="alternate"/>
+    <id>https://dev.to/antfarm-tech/the-bug-that-passed-every-test-and-still-took-production-down-3n1p</id>
+    <updated>2026-08-23T19:43:45Z</updated>
+    <summary type="text">A few years ago, I was working on a backend service that looked completely healthy. Tests were green. CPU usage was normal. Memory looked fine. No obvious exceptions were showing up in the logs. And yet, every few hours, requests would suddenly slow down. Not fail. Just become painfully slow. The API normally responded in around 80–120 ms. During the problem, some requests were taking 8–12 seconds</summary>
+    <author><name>Dinesh</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code Overtakes GitHub Copilot: What JetBrains' Survey of 15,000 Developers Says About AI Coding Agents in 2026</title>
+    <link href="https://dev.to/jamilxt/claude-code-overtakes-github-copilot-what-jetbrains-survey-of-15000-developers-says-about-ai-3nhc" rel="alternate"/>
+    <id>https://dev.to/jamilxt/claude-code-overtakes-github-copilot-what-jetbrains-survey-of-15000-developers-says-about-ai-3nhc</id>
+    <updated>2026-08-23T19:43:42Z</updated>
+    <summary type="text">AI coding agents are no longer an experiment. According to JetBrains' Developer Ecosystem Survey 2026, 90% of professional developers now use AI coding agents at work at least weekly. 68% use them daily. The survey ran from May to July 2026 and collected responses from more than 15,000 professional developers worldwide, in its tenth year running. But the headline number is not the interesting part</summary>
+    <author><name>jamilxt</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Speaker - Microsoft Build 2026 Community Event</title>
+    <link href="https://dev.to/frostcore/speaker-microsoft-build-2026-community-event-2ano" rel="alternate"/>
+    <id>https://dev.to/frostcore/speaker-microsoft-build-2026-community-event-2ano</id>
+    <updated>2026-08-23T19:40:59Z</updated>
+    <summary type="text">On June 6, 2026, I had the opportunity to speak at the Microsoft Build 2026 Community Event, held at IDAT Lima Centro as part of the Azure User Group Latam community. The event brought together developers and technology professionals to explore topics related to Microsoft Build 2026, including generative AI, enterprise agents, and AI-native architectures on Azure. My session was: &quot;Building a Multi</summary>
+    <author><name>Jorge Aurelio de la Flor Argandoña</name></author>
+  </entry>
+  <entry>
+    <title>Last night we entered a memory benchmark against Tencent and Mem0. The score isn't back yet - and I'm publishing it either way.</title>
+    <link href="https://dev.to/bryanw/last-night-we-entered-a-memory-benchmark-against-tencent-and-mem0-the-score-isnt-back-yet-and-h87" rel="alternate"/>
+    <id>https://dev.to/bryanw/last-night-we-entered-a-memory-benchmark-against-tencent-and-mem0-the-score-isnt-back-yet-and-h87</id>
+    <updated>2026-08-23T19:38:06Z</updated>
+    <summary type="text">Last night, my AI partner and I built a memory system from scratch, tested it about forty different ways, deployed it to the edge, and submitted it to a public leaderboard where the other entries include Tencent, Mem0, Cognee, and MemOS. We named it Muninn — Odin's raven, whose name literally means memory. In the myth, the raven flies out over the whole world every day and comes back with everythi</summary>
+    <author><name>Bryan Williams</name></author>
   </entry>
   <entry>
     <title>GSoC 2026 Final Report: Automated Webpack Documentation Pipeline 💫</title>
@@ -366,86 +440,5 @@
     <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. When the Summer Bug Smash challenge started, I gave myself one rule. Every fix has to be real, and every fix has to carry its own test that fails before the change and passes after it. I gave myself one day to see how far that rule could take me. It took me through three open source projects, three pull requests, </summary>
     <author><name>ANIRUDDHA  ADAK</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Ryker: In-Browser Visual Editor for HTML and Markdown with agent-ready change exports</title>
-    <link href="https://dev.to/gbti/ryker-turn-html-and-markdown-edits-into-agent-ready-change-requests-3o6c" rel="alternate"/>
-    <id>https://dev.to/gbti/ryker-turn-html-and-markdown-edits-into-agent-ready-change-requests-3o6c</id>
-    <updated>2026-08-23T15:53:39Z</updated>
-    <summary type="text">HTML has become an increasingly useful format for working with large language models. Models can generate complete HTML documents very quickly, but editing those documents manually can still be awkward. HTML is normally edited through source code. That works well for development, but it is not always the best way to proofread a document, move content around, or make small editorial changes. We bui</summary>
-    <author><name>GBTI Network</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built Blason to Learn Full-Stack Architecture</title>
-    <link href="https://dev.to/monsieur_fotso_2a50cd3d46/i-built-blason-to-learn-full-stack-architecture-fn5" rel="alternate"/>
-    <id>https://dev.to/monsieur_fotso_2a50cd3d46/i-built-blason-to-learn-full-stack-architecture-fn5</id>
-    <updated>2026-08-23T15:53:04Z</updated>
-    <summary type="text">Why I built Blason Blason is an open-source personal project I built to improve my full-stack development and software architecture skills. What I wanted to learn I wanted to build a complete application rather than another isolated frontend project. The project covers: React and TypeScript Express backend SQLite Authentication REST APIs Business workflows File handling User profiles Quests and su</summary>
-    <author><name>Monsieur Orel</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>&quot;The write was acknowledged&quot; means less than you think</title>
-    <link href="https://dev.to/saqibameen86/the-write-was-acknowledged-means-less-than-you-think-4nm8" rel="alternate"/>
-    <id>https://dev.to/saqibameen86/the-write-was-acknowledged-means-less-than-you-think-4nm8</id>
-    <updated>2026-08-23T15:49:20Z</updated>
-    <summary type="text">I spent years operating databases for payment platforms, where a lost write isn't a bug, it's a regulatory conversation. That environment teaches you to read the phrase &quot;the write was acknowledged&quot; the way a lawyer reads a contract. Acknowledged by whom? Durable against what? In MongoDB, that one sentence has at least four different meanings, controlled by two settings most applications leave at d</summary>
-    <author><name>Saqib Ameen Subhan</name></author>
-  </entry>
-  <entry>
-    <title>Your agent's p99 is a different animal</title>
-    <link href="https://dev.to/loopandretry/your-agents-p99-is-a-different-animal-28mi" rel="alternate"/>
-    <id>https://dev.to/loopandretry/your-agents-p99-is-a-different-animal-28mi</id>
-    <updated>2026-08-23T15:44:34Z</updated>
-    <summary type="text">Originally published on Loop &amp; Retry — field notes on building LLM agents that survive production. The demo felt instant. The agent answered in about four seconds, every time you ran it on stage. Then you shipped it, and the support queue filled with &quot;it hangs.&quot; Nothing was broken. Your average latency really was four seconds. The problem is that nobody experiences the average — they experience on</summary>
-    <author><name>Walker Miller</name></author>
-  </entry>
-  <entry>
-    <title>从 Demo 到生产：那些真正让 AI Agent 敢上线的护栏</title>
-    <link href="https://dev.to/sunny_1024k/cong-demo-dao-sheng-chan-na-xie-zhen-zheng-rang-ai-agent-gan-shang-xian-de-hu-lan-3p6e" rel="alternate"/>
-    <id>https://dev.to/sunny_1024k/cong-demo-dao-sheng-chan-na-xie-zhen-zheng-rang-ai-agent-gan-shang-xian-de-hu-lan-3p6e</id>
-    <updated>2026-08-23T15:41:42Z</updated>
-    <summary type="text">从 Demo 到生产：那些真正让 AI Agent 敢上线的护栏 开场钩子： 你在网上看到的多数「AI Agent」都是 demo。它们之所以上不了生产，原因往往 只有一个 —— 而下面这个开源的小脚手架，专门解决它。 我们已经过了「能调通大模型」就算赢的阶段。现在真正难的是那没人讲的 10%：是什么阻止 Agent 做出伤害性的事？ 我在微软跑过一套约 25 个 Agent 的生产平台，现在也帮团队把 Agent 从笔记本推进到真实用户面前。两边的体会是一致的。 一个不太舒服的真相：能调 5 个工具的聊天机器人，不是产品。周末项目和你敢放到客户面前的 系统之间，差的只有三件事 —— 而且全都是不酷、不性感的工程： 你怎么给输出质量打分（质量门）。 你怎么决定什么时候必须人签字（审批门）。 你如何让整套东西模型无关，不被某个厂商锁死。 所以我写了一个很小的 harness，把这三件事摆在最</summary>
-    <author><name>sunny 1024k</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>From Demo to Production: The Guardrails That Make an AI Agent Safe to Ship</title>
-    <link href="https://dev.to/sunny_1024k/from-demo-to-production-the-guardrails-that-make-an-ai-agent-safe-to-ship-d2o" rel="alternate"/>
-    <id>https://dev.to/sunny_1024k/from-demo-to-production-the-guardrails-that-make-an-ai-agent-safe-to-ship-d2o</id>
-    <updated>2026-08-23T15:41:29Z</updated>
-    <summary type="text">From Demo to Production: The Guardrails That Make an AI Agent Safe to Ship Hook: Most &quot;AI agents&quot; you see on the internet are demos. Here's the single most common reason they never reach production — and a small, open-source harness that gets past it. We are past the phase where the hard part of building an AI agent was calling the model. The hard part now is the 10% nobody talks about: what stops</summary>
-    <author><name>sunny 1024k</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>3 Cloud Myths I Believed Before Passing AZ-900</title>
-    <link href="https://dev.to/mahmoud_ced0dfeebbc55e671/3-cloud-myths-i-believed-before-passing-az-900-1o6p" rel="alternate"/>
-    <id>https://dev.to/mahmoud_ced0dfeebbc55e671/3-cloud-myths-i-believed-before-passing-az-900-1o6p</id>
-    <updated>2026-08-23T15:41:22Z</updated>
-    <summary type="text">Cloud computing can sound like magic—until you ask three practical questions: Who owns the hardware? Who manages it? And who pays when resources sit idle? While preparing for AZ-900, I realized that several assumptions I had about the cloud were incomplete. Myth 1: The cloud is always cheaper The cloud can reduce upfront infrastructure costs, but savings are not automatic. Idle resources, incorrec</summary>
-    <author><name>Mahmoud</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>App-like UX in Next.js 16.3</title>
-    <link href="https://dev.to/erfanebrahimnia/app-like-ux-in-nextjs-163-4onh" rel="alternate"/>
-    <id>https://dev.to/erfanebrahimnia/app-like-ux-in-nextjs-163-4onh</id>
-    <updated>2026-08-23T15:38:17Z</updated>
-    <summary type="text">Building App-like Experiences with Next.js 16.3 A hands-on look at how Next.js 16.3 helps apps feel fast and smooth, more like a single-page app, without losing the benefits of server rendering. Using four demo apps, it shows how features like Instant Navigations, Cache Components, Partial Prefetching, optimistic updates, Suspense streaming, offline retry, and View Transitions work together in rea</summary>
-    <author><name>Erfan Ebrahimnia</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>The Bone Cracks, the Model Reads: Audited Divination for AI Agents</title>
-    <link href="https://dev.to/sabla_nur_49e01ed3abb41cd/the-bone-cracks-the-model-reads-audited-divination-for-ai-agents-355h" rel="alternate"/>
-    <id>https://dev.to/sabla_nur_49e01ed3abb41cd/the-bone-cracks-the-model-reads-audited-divination-for-ai-agents-355h</id>
-    <updated>2026-08-23T15:33:52Z</updated>
-    <summary type="text">Three thousand years ago, Shang kings carved their divinations into bone — the first auditable record of an oracle at work. Oraclebone brings the same discipline to AI agents: audited scripts produce the draw, the hexagram, the pillars; the model only interprets what it is given. It never invents the result. The problem: AI divination is hallucination with extra steps Ask almost any chatbot for a </summary>
-    <author><name>Sabla Nur</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
