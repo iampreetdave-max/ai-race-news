@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T20:29:53Z</updated>
+  <updated>2026-08-23T21:25:40Z</updated>
   <entry>
     <title>Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work</title>
     <link href="https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/" rel="alternate"/>
@@ -154,6 +154,67 @@
     <updated>2026-08-23T05:55:21Z</updated>
     <summary type="text">A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.</summary>
     <author><name>Sohee Kim</name></author>
+  </entry>
+  <entry>
+    <title>Building an Open Turkish EV Charging Intent Dataset</title>
+    <link href="https://dev.to/birdircik/building-an-open-turkish-ev-charging-intent-dataset-571p" rel="alternate"/>
+    <id>https://dev.to/birdircik/building-an-open-turkish-ev-charging-intent-dataset-571p</id>
+    <updated>2026-08-23T21:04:57Z</updated>
+    <summary type="text">Electric-vehicle assistants rarely have just one job. A short Turkish question may ask for a nearby station, a charging-price comparison, help planning a route, or an explanation of battery health. Before an application can retrieve current data or generate an answer, it needs to identify that intent reliably. We created the Turkish EV Charging Intent Dataset as a small, transparent starting point</summary>
+    <author><name>Birdircik</name></author>
+  </entry>
+  <entry>
+    <title>.NET 10 NU1015: Fix PackageReference Without Version Restore Failures</title>
+    <link href="https://dev.to/ssukhpinder/net-10-nu1015-fix-packagereference-without-version-restore-failures-4741" rel="alternate"/>
+    <id>https://dev.to/ssukhpinder/net-10-nu1015-fix-packagereference-without-version-restore-failures-4741</id>
+    <updated>2026-08-23T21:00:04Z</updated>
+    <summary type="text">.NET 10 NU1015 turns a PackageReference without a version into a restore error. I like the stricter default because an unbounded direct dependency can quietly resolve the lowest package version. The catch is that versionless XML is also the correct shape for NuGet Central Package Management (CPM). A mechanical “add Version everywhere” repair can undo the policy your repository intended to enforce.</summary>
+    <author><name>Sukhpinder Singh</name></author>
+  </entry>
+  <entry>
+    <title>How to test your LLM app for prompt injection: promptfoo vs garak vs Giskard vs PyRIT vs sentinel-scan-cli</title>
+    <link href="https://dev.to/ventrova/how-to-test-your-llm-app-for-prompt-injection-promptfoo-vs-garak-vs-giskard-vs-pyrit-vs-2oim" rel="alternate"/>
+    <id>https://dev.to/ventrova/how-to-test-your-llm-app-for-prompt-injection-promptfoo-vs-garak-vs-giskard-vs-pyrit-vs-2oim</id>
+    <updated>2026-08-23T20:45:22Z</updated>
+    <summary type="text">If you're shipping anything with an LLM in the request path (a support bot, an agent that calls tools, a RAG pipeline reading untrusted documents) you eventually have to answer &quot;did we actually test this for prompt injection, or did we just eyeball it.&quot; There are a handful of open source tools that can help, and they are not interchangeable. Picking the wrong one wastes a day; picking none wastes </summary>
+    <author><name>Ventrova</name></author>
+    <category term="open-source"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>We fixed the eval platform we're competing on: a TypeError that crashed three benchmark pipelines</title>
+    <link href="https://dev.to/bryanw/we-fixed-the-eval-platform-were-competing-on-a-typeerror-that-crashed-three-benchmark-pipelines-35oj" rel="alternate"/>
+    <id>https://dev.to/bryanw/we-fixed-the-eval-platform-were-competing-on-a-typeerror-that-crashed-three-benchmark-pipelines-35oj</id>
+    <updated>2026-08-23T20:45:02Z</updated>
+    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. The PR: AML-memory/agent-memory-leaderboard#12 — fixes #11 The situation Last night we submitted our memory system to the Agent Memory Leaderboard — a public benchmark platform whose entries include Tencent, Mem0, and Cognee. Before competing, we did what our house rules demand: run their published evaluation pipe</summary>
+    <author><name>Bryan Williams</name></author>
+  </entry>
+  <entry>
+    <title>Building a $12 Multi-Robot Swarm: ESP32 BLE Mesh for STEAM Education in Emerging Markets</title>
+    <link href="https://dev.to/shamylbm/building-a-12-multi-robot-swarm-esp32-ble-mesh-for-steam-education-in-emerging-markets-50kn" rel="alternate"/>
+    <id>https://dev.to/shamylbm/building-a-12-multi-robot-swarm-esp32-ble-mesh-for-steam-education-in-emerging-markets-50kn</id>
+    <updated>2026-08-23T20:43:02Z</updated>
+    <summary type="text">Building a $12 Multi-Robot Swarm: ESP32 BLE Mesh for STEAM Education in Emerging Markets What if a classroom of 30 kids could each control a robot in a coordinated swarm — for less than the cost of a single LEGO Mindstorms kit? At LearnOBots, we've been teaching robotics to kids across Pakistan since 2014. One question never goes away: &quot;How do we make this affordable enough for every child?&quot; The a</summary>
+    <author><name>Shamyl Bin Mansoor</name></author>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>Cheap OpenAI-compatible inference for AI agents via x402 ($0.10/1M tokens on Solana + Base)</title>
+    <link href="https://dev.to/gitvova999/cheap-openai-compatible-inference-for-ai-agents-via-x402-0101m-tokens-on-solana-base-17i3" rel="alternate"/>
+    <id>https://dev.to/gitvova999/cheap-openai-compatible-inference-for-ai-agents-via-x402-0101m-tokens-on-solana-base-17i3</id>
+    <updated>2026-08-23T20:40:27Z</updated>
+    <summary type="text">If you're building an autonomous AI agent, you've probably hit the same wall I did: your bot needs LLM inference, but every provider wants an API key, a credit card, a signup flow. That flow assumes a human operator, not a self-directed agent. x402 solves that. It's the HTTP status-code-based payment protocol Coinbase revived last year — the server says &quot;402 Payment Required&quot;, the client signs a U</summary>
+    <author><name>GitVova999</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Model Cascade: making LLM classification cheaper</title>
+    <link href="https://dev.to/boris9027/model-cascade-making-llm-classification-cheaper-2kii" rel="alternate"/>
+    <id>https://dev.to/boris9027/model-cascade-making-llm-classification-cheaper-2kii</id>
+    <updated>2026-08-23T20:25:42Z</updated>
+    <summary type="text">Many LLM workloads are classification tasks. This can get expensive, and I believe it is going to become more and more important, especially with the proliferation of software factories. So what is Model Cascade? In short, it is a way to make a deterministic system around a cheap model and make it give us the same results as the expensive model. Core concepts A Proxy is the cheap model. It returns</summary>
+    <author><name>Boris Barac</name></author>
   </entry>
   <entry>
     <title>Mix and Match: One Agent, Three Clouds, One Protocol</title>
@@ -375,70 +436,5 @@
     <updated>2026-08-23T17:20:27Z</updated>
     <summary type="text">I spent way longer than I'd like to admit chasing a dark mode bug that made zero sense on paper. I'm building WidgetForge, a drop-in AI chat widget you can paste into any site — static HTML or Next.js, pick a theme, done. Four themes, one shared JS core. Nothing exotic. Except one small piece of it kept breaking dark mode, and I couldn't figure out why. The setup Every message in the chat has litt</summary>
     <author><name>Nogan's Development</name></author>
-  </entry>
-  <entry>
-    <title>Making AI Coding Agents More Efficient: My Local Toolkit</title>
-    <link href="https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n" rel="alternate"/>
-    <id>https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n</id>
-    <updated>2026-08-23T17:17:43Z</updated>
-    <summary type="text">Giving AI coding agents more tools doesn’t necessarily make them more efficient. After using OpenCode and Claude Code heavily, I started focusing less on adding capabilities and more on controlling the information flowing into the agent. That means: searching before reading entire files choosing between text, structural, and semantic search reducing noisy command output keeping sessions focused de</summary>
-    <author><name>Ammar Najjar</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>The Coverage Loop: Turning Free AI Tokens into Verified C++ Tests</title>
-    <link href="https://dev.to/datacpp_3670/the-coverage-loop-turning-free-ai-tokens-into-verified-c-tests-1jh5" rel="alternate"/>
-    <id>https://dev.to/datacpp_3670/the-coverage-loop-turning-free-ai-tokens-into-verified-c-tests-1jh5</id>
-    <updated>2026-08-23T17:11:55Z</updated>
-    <summary type="text">Unit tests are boring. Coverage is not optional. I asked a free AI model to write my tests. It failed. Then I built a feedback loop. Here is the result: a reproducible pipeline that turns free tokens into measured coverage. Why Generated Tests Miss Everything Models guess. They do not know your intent. A test that compiles is not a test that asserts. A test that asserts is not a test that covers. </summary>
-    <author><name>Morgan Ma</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Why I Built an Open-Source, Zero-Cloud Period Tracker with React 19 &amp; Capacitor</title>
-    <link href="https://dev.to/aradar46/why-i-built-an-open-source-zero-cloud-period-tracker-with-react-19-capacitor-hmb" rel="alternate"/>
-    <id>https://dev.to/aradar46/why-i-built-an-open-source-zero-cloud-period-tracker-with-react-19-capacitor-hmb</id>
-    <updated>2026-08-23T17:11:13Z</updated>
-    <summary type="text">In an era where health data is increasingly commodified, tracked, and exposed in data breaches, personal data privacy isn't just a bonus feature — it's a fundamental requirement. Most period and cycle tracking apps require cloud accounts, transmit deeply intimate health telemetry to remote servers, and integrate third-party ad SDKs. When data lives on a central server, it is vulnerable to leaks, c</summary>
-    <author><name>Aradar</name></author>
-    <category term="data"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide</title>
-    <link href="https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/" rel="alternate"/>
-    <id>https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/</id>
-    <updated>2026-08-23T17:00:00Z</updated>
-    <summary type="text">From Kaplan-Meier curves to hazard ratios with runnable Python Code throughout The post Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide appeared first on Towards Data Science.</summary>
-    <author><name>Ananya Bhattacharyya</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>The Runaway Diff: A Token-Budget Postmortem for Coding Agents</title>
-    <link href="https://dev.to/devio_3007/the-runaway-diff-a-token-budget-postmortem-for-coding-agents-p1l" rel="alternate"/>
-    <id>https://dev.to/devio_3007/the-runaway-diff-a-token-budget-postmortem-for-coding-agents-p1l</id>
-    <updated>2026-08-23T16:47:27Z</updated>
-    <summary type="text">The task looked trivial on paper: add a rate limiter to a small Python service and update three call sites. I handed it to a coding agent running on MonkeyCode, an open-source project with free model access and a free server option. Disclosure: This article was prepared as part of MonkeyCode's product outreach. I did what most engineers would do with a ten-million-token allowance: give the agent a</summary>
-    <author><name>Sam Yang</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Build a Token-Budgeted LLM Service on a Free Server: A Step-by-Step Tutorial</title>
-    <link href="https://dev.to/apprs_6334/build-a-token-budgeted-llm-service-on-a-free-server-a-step-by-step-tutorial-1oo9" rel="alternate"/>
-    <id>https://dev.to/apprs_6334/build-a-token-budgeted-llm-service-on-a-free-server-a-step-by-step-tutorial-1oo9</id>
-    <updated>2026-08-23T16:46:32Z</updated>
-    <summary type="text">Last month, a side project died at the API checkout. The code worked. The credit card did not. The fix is not a bigger budget. The fix is a smaller one. This tutorial builds a working LLM endpoint from zero. Every step ends with a verification command. You need a terminal, Python 3.11+, and about thirty minutes. Why cost control is the real feature LLM prices keep dropping. My API bills did not. T</summary>
-    <author><name>Riley Wang</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I spent one day smashing three real open source bugs</title>
-    <link href="https://dev.to/aniruddhaadak/i-spent-one-day-smashing-three-real-open-source-bugs-4b74" rel="alternate"/>
-    <id>https://dev.to/aniruddhaadak/i-spent-one-day-smashing-three-real-open-source-bugs-4b74</id>
-    <updated>2026-08-23T15:54:30Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. When the Summer Bug Smash challenge started, I gave myself one rule. Every fix has to be real, and every fix has to carry its own test that fails before the change and passes after it. I gave myself one day to see how far that rule could take me. It took me through three open source projects, three pull requests, </summary>
-    <author><name>ANIRUDDHA  ADAK</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
