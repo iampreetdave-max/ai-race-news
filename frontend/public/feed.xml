@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-23T14:27:27Z</updated>
+  <updated>2026-08-23T15:26:58Z</updated>
   <entry>
     <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
     <link href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/" rel="alternate"/>
@@ -40,6 +40,14 @@
     <summary type="text">Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers' remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three modeled scenarios, the quality of individual publications drops. The article AI could make scientists do </summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Is it legal to train AI models on copyrighted books? It’s complicated</title>
+    <link href="https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/</id>
+    <updated>2026-08-23T15:00:00Z</updated>
+    <summary type="text">Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?</summary>
+    <author><name>Amanda Silberling</name></author>
   </entry>
   <entry>
     <title>Memory shortage reportedly drives Nvidia AI server prices up about 15 percent</title>
@@ -137,6 +145,64 @@
     <updated>2026-08-22T21:46:56Z</updated>
     <summary type="text">In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.</summary>
     <author><name>Anthony Ha</name></author>
+  </entry>
+  <entry>
+    <title>Domux: a compact open model for smart-home command understanding at the edge</title>
+    <link href="https://dev.to/sparkllm/domux-a-compact-open-model-for-smart-home-command-understanding-at-the-edge-f8l" rel="alternate"/>
+    <id>https://dev.to/sparkllm/domux-a-compact-open-model-for-smart-home-command-understanding-at-the-edge-f8l</id>
+    <updated>2026-08-23T15:21:49Z</updated>
+    <summary type="text">Voice and chat assistants for the home share a deceptively hard job: turning messy natural language into precise, structured commands. “Make it cozy in here” has to become a concrete intent plus the right slots — which device, which room, which value. Domux is an open model from iFlytek that focuses on exactly this problem: command understanding for smart-home assistants, framed as intent parsing </summary>
+    <author><name>SparkLLM</name></author>
+  </entry>
+  <entry>
+    <title>BrunnerCTF : WordPressed to Root Writeup</title>
+    <link href="https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62" rel="alternate"/>
+    <id>https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62</id>
+    <updated>2026-08-23T15:20:37Z</updated>
+    <summary type="text">Overview The box ships a mostly-stock WordPress 7.0.0 install on PHP 8.2 / Apache, running on a Debian Trixie base image, packaged as a Docker/Kubernetes challenge deployment. Initial access comes through a deliberately vulnerable plugin (wp2shell) that hands over a www-data shell. Privilege escalation is the real puzzle: the box is hardened against the usual container-escape and SUID tricks, and </summary>
+    <author><name>Yogeshwar Peela</name></author>
+  </entry>
+  <entry>
+    <title>What if you don't have to build a login page again?</title>
+    <link href="https://dev.to/muhammadkholidb/what-if-you-dont-have-to-build-a-login-page-again-36ag" rel="alternate"/>
+    <id>https://dev.to/muhammadkholidb/what-if-you-dont-have-to-build-a-login-page-again-36ag</id>
+    <updated>2026-08-23T15:18:15Z</updated>
+    <summary type="text">How do you usually build a login page in an application? The first project Imagine you are working on a project that needs a login page. Let's call it Aurora (Project A). The login page is the entry point to the application. Users who have access can log in to the application with the permissions they have. We are not going to talk about the details of the login method yet, such as email + passwor</summary>
+    <author><name>Muhammad Kholid B</name></author>
+  </entry>
+  <entry>
+    <title>3 Candidate Content Policy Checks Before Review — Why LLM Moderation False Positives Happen</title>
+    <link href="https://dev.to/daxharrington5274/3-candidate-content-policy-checks-before-review-why-llm-moderation-false-positives-happen-14jf" rel="alternate"/>
+    <id>https://dev.to/daxharrington5274/3-candidate-content-policy-checks-before-review-why-llm-moderation-false-positives-happen-14jf</id>
+    <updated>2026-08-23T15:05:54Z</updated>
+    <summary type="text">Short answer: LLM moderation false positives happen when model signals are treated as policy verdicts; for user-generated candidate content, allow clear cases, send uncertainty to a review queue, and block only narrow high-confidence matches. Route Use it when Candidate impact Operator cost Allow No policy signal crosses the review threshold Application continues Lowest Review A signal is material</summary>
+    <author><name>daxharrington5274</name></author>
+  </entry>
+  <entry>
+    <title>Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File</title>
+    <link href="https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/" rel="alternate"/>
+    <id>https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/</id>
+    <updated>2026-08-23T15:00:00Z</updated>
+    <summary type="text">Enterprise Document Intelligence [Vol.1 #14D] - The index lists what the case type demands before any folder is opened, and the two questions worth building for are not retrieval questions at all The post Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File appeared first on Towards Data Science.</summary>
+    <author><name>angela shi</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>&quot;[260817~0823] 발행 인프라를 새로 짜고, 조용히 사라지는 신호들을 잡았다&quot;</title>
+    <link href="https://dev.to/finaltype/2608170823-balhaeng-inpeurareul-saero-jjago-joyonghi-sarajineun-sinhodeuleul-jabassda-5e7n" rel="alternate"/>
+    <id>https://dev.to/finaltype/2608170823-balhaeng-inpeurareul-saero-jjago-joyonghi-sarajineun-sinhodeuleul-jabassda-5e7n</id>
+    <updated>2026-08-23T14:47:11Z</updated>
+    <summary type="text">블로그 발행 방식을 바꾼 김에, 표본에 속지 않는 판단과 소리 없이 죽는 파이프라인을 잡아내는 계측을 함께 정비했습니다 이번 주는 토요일과 일요일, 이틀 동안 작업이 몰렸습니다. 그 전 며칠은 개발일지가 조용했는데, 알고 보니 원인 자체가 이번 주의 첫 번째 주제였습니다. 발행 인프라부터 다시 짰다 토요일에 열흘 넘게 개발일지가 끊겼던 원인을 찾았습니다. 매일 밤 자동으로 돌아가고는 있었는데, 마지막 저장 단계가 권한 승인 대기에 막혀 아무도 모르게 조용히 끝나고 있었습니다. 원인을 고치는 김에 발행 구조 자체를 바꾸기로 했습니다. 티스토리 글쓰기 API가 오래전에 끊겨서 발행만은 늘 수동이었는데, 신규 발행처를 GitHub Pages와 Dev.to 두 곳으로 옮기고 티스토리는 과거 글 아카이브로만 남겼습니</summary>
+    <author><name>finaltype</name></author>
+  </entry>
+  <entry>
+    <title>&quot;[Aug 17-23] Rebuilding the Publishing Pipeline, Then Catching Signals That Fail Silently&quot;</title>
+    <link href="https://dev.to/finaltype/aug-17-23-rebuilding-the-publishing-pipeline-then-catching-signals-that-fail-silently-338e" rel="alternate"/>
+    <id>https://dev.to/finaltype/aug-17-23-rebuilding-the-publishing-pipeline-then-catching-signals-that-fail-silently-338e</id>
+    <updated>2026-08-23T14:47:09Z</updated>
+    <summary type="text">While I was at it changing how this blog gets published, I also worked on judgment that resists misleading samples and instrumentation that catches pipelines dying without a sound This is the English version of a post originally written in Korean for my algorithmic trading system devlog(new tab). Most of this week's work landed on Saturday and Sunday. The days before had been quiet on the devlog f</summary>
+    <author><name>finaltype</name></author>
+    <category term="finance-ai"/>
   </entry>
   <entry>
     <title>How a Dedup Pass Deleted My Training Curriculum</title>
@@ -378,73 +444,5 @@ What actually got your first interview? 👀</title>
     <author><name>Aditya Raut</name></author>
     <category term="llm"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI Agent Standards Experiment: Test Rules Before Teams Trust Them</title>
-    <link href="https://dev.to/jackm-singularity/ai-agent-standards-experiment-test-rules-before-teams-trust-them-2eil" rel="alternate"/>
-    <id>https://dev.to/jackm-singularity/ai-agent-standards-experiment-test-rules-before-teams-trust-them-2eil</id>
-    <updated>2026-08-23T12:18:56Z</updated>
-    <summary type="text">AI agents can look reliable after one impressive demo and still fail the moment real users, messy repositories, and conflicting instructions enter the room. The dangerous part is not that an agent makes mistakes. The dangerous part is that teams often change agent rules based on vibes, not evidence. If you are building an AI feature, internal coding agent, support assistant, research workflow, or </summary>
-    <author><name>Jack M</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Generate endless Roblox quests with AI (and cache them so it's cheap)</title>
-    <link href="https://dev.to/korvus228/generate-endless-roblox-quests-with-ai-and-cache-them-so-its-cheap-3cj6" rel="alternate"/>
-    <id>https://dev.to/korvus228/generate-endless-roblox-quests-with-ai-and-cache-them-so-its-cheap-3cj6</id>
-    <updated>2026-08-23T12:17:03Z</updated>
-    <summary type="text">Hand-written quests run out. Players finish your content faster than you can write it, and the tenth &quot;collect 10 wolf pelts&quot; quest feels like filler. You can generate quests on the fly instead — tuned to the player and the place. One request local Cortex = require(game.ServerStorage.Cortex) local ai = Cortex.new(&quot;YOUR_KEY&quot;) local quest = ai:ask( &quot;Give one short side-quest for a forest zone, player</summary>
-    <author><name>Korvus</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>AI chat moderation in Roblox — by meaning, not a word list</title>
-    <link href="https://dev.to/korvus228/ai-chat-moderation-in-roblox-by-meaning-not-a-word-list-5pk" rel="alternate"/>
-    <id>https://dev.to/korvus228/ai-chat-moderation-in-roblox-by-meaning-not-a-word-list-5pk</id>
-    <updated>2026-08-23T12:16:33Z</updated>
-    <summary type="text">Word-list chat filters break the moment someone types a s s a s s i n with spaces, or a slur spelled with a 0, or a perfectly innocent word that happens to contain a banned substring. You end up in an endless arms race patching your blocklist. An AI model reads the meaning of a message, so it catches obfuscated toxicity and stops false-flagging harmless phrases. One server-side call local Cortex =</summary>
-    <author><name>Korvus</name></author>
-  </entry>
-  <entry>
-    <title>Study explains why AI agents benefit from &quot;skills&quot; and when they fail</title>
-    <link href="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/" rel="alternate"/>
-    <id>https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/</id>
-    <updated>2026-08-22T12:15:10Z</updated>
-    <summary type="text">A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The article Study explains why AI agents benefit from &quot;skills&quot; and when they fail appeared first on The Decode</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I built a daily JavaScript puzzle game where a wrong answer physically can't ship</title>
-    <link href="https://dev.to/ashhwani/i-built-a-daily-javascript-puzzle-game-where-a-wrong-answer-physically-cant-ship-4pih" rel="alternate"/>
-    <id>https://dev.to/ashhwani/i-built-a-daily-javascript-puzzle-game-where-a-wrong-answer-physically-cant-ship-4pih</id>
-    <updated>2026-08-23T11:15:57Z</updated>
-    <summary type="text">[] + {} — do you know what that prints, or do you think you know? That gap is the whole idea behind What's the Output? — a daily Wordle-style game: one JS snippet per day, three tries to type exactly what it prints, hints when you miss, an explanation of the trap when you're done. The rule that shaped the build: on a site whose brand is &quot;predict the output,&quot; publishing a wrong answer even once is </summary>
-    <author><name>Ashwani Sharma</name></author>
-  </entry>
-  <entry>
-    <title>I Built Format-on-Save for Everything That Isn't an Editor</title>
-    <link href="https://dev.to/amartyadev/i-built-format-on-save-for-everything-that-isnt-an-editor-3dpm" rel="alternate"/>
-    <id>https://dev.to/amartyadev/i-built-format-on-save-for-everything-that-isnt-an-editor-3dpm</id>
-    <updated>2026-08-23T11:15:57Z</updated>
-    <summary type="text">Editors have had format-on-save for years. The rest of the development environment has not. When a generator, shell command or coding agent writes a file, the bytes usually land exactly as produced. The repository may already have Prettier, Ruff or gofmt, but nothing asks it to run. The mistake is found later by a pre-commit hook, CI, or the agent itself after it has moved on. I built onwrite to r</summary>
-    <author><name>Amartya Gaur</name></author>
-  </entry>
-  <entry>
-    <title>Your Automation Dies Quietly: A Weekly Revenue Gate That Caught One Line Dropping From 14 Files to 0</title>
-    <link href="https://dev.to/bokuwalily/your-automation-dies-quietly-a-weekly-revenue-gate-that-caught-one-line-dropping-from-14-files-to-0-ma4" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/your-automation-dies-quietly-a-weekly-revenue-gate-that-caught-one-line-dropping-from-14-files-to-0-ma4</id>
-    <updated>2026-08-23T11:00:06Z</updated>
-    <summary type="text">A layoff notice doesn't stop the Claude API invoice — that still lands next month, right on schedule. I run 14 content-production lines at the same time and hold ¥1.2M/month in revenue, and the reason isn't that I track how much I earned. It's that I built something first that shows me, automatically every Monday, which line has gone into the red. In the first report (2026-07-03) my ASMR line was </summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>State-Funded Loneliness</title>
-    <link href="https://dev.to/rawveg/state-funded-loneliness-eif" rel="alternate"/>
-    <id>https://dev.to/rawveg/state-funded-loneliness-eif</id>
-    <updated>2026-08-23T11:00:00Z</updated>
-    <summary type="text">The house sits at the end of a dirt road on the Olympic Peninsula, half a mile from the nearest neighbour, screened by Sitka spruce and the kind of rain that does not so much fall as inhabit the air. Inside, on a small table beside an upholstered chair worn thin at the arms, a white plastic device about the size of a desk lamp swivels its rounded head toward the front door whenever it hears moveme</summary>
-    <author><name>Tim Green</name></author>
   </entry>
 </feed>
