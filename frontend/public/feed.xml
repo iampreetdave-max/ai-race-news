@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-24T07:05:26Z</updated>
+  <updated>2026-08-24T08:52:48Z</updated>
+  <entry>
+    <title>Nvidia in talks to invest in Perplexity at $30 billion-plus valuation</title>
+    <link href="https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/" rel="alternate"/>
+    <id>https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/</id>
+    <updated>2026-08-24T08:44:48Z</updated>
+    <summary type="text">Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment money tends to flow back as revenue when portfolio companies buy its chips. The article Nvidia in talks to invest in Perplexity at $30 billi</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="funding"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation</title>
     <link href="https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/" rel="alternate"/>
@@ -126,12 +137,82 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Codex PR Review: Automatic Reviews, Triggers, Review Rules</title>
+    <link href="https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59" rel="alternate"/>
+    <id>https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59</id>
+    <updated>2026-08-24T08:43:54Z</updated>
+    <summary type="text">Codex's GitHub PR review works better than I expected. Before opening a PR I already review the code several ways, in Claude and in Codex both. I've had the main agent review it, attached a different model as a subagent reviewer, run it in two stages. Code that survives all of that still gets caught by Codex, always one or two things. This guide covers turning it on. What happens after that is a b</summary>
+    <author><name>John Lee</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Managing ChatGPT Memory: Review, Edit, Delete</title>
+    <link href="https://dev.to/johnonlee/managing-chatgpt-memory-review-edit-delete-1j30" rel="alternate"/>
+    <id>https://dev.to/johnonlee/managing-chatgpt-memory-review-edit-delete-1j30</id>
+    <updated>2026-08-24T08:43:47Z</updated>
+    <summary type="text">ChatGPT remembers you whether or not you asked it to. If its answers start matching your tone one day, or it explains something on the assumption you do a job you never mentioned, that's memory. It isn't only ChatGPT. Claude has memory, and so do most of the coding tools shipping now. The model consults it to give you the answer you're more likely to want. Use it without knowing about it and you h</summary>
+    <author><name>John Lee</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I turned a 30-second security check into an app you can connect to Claude or ChatGPT</title>
+    <link href="https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f" rel="alternate"/>
+    <id>https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f</id>
+    <updated>2026-08-24T08:43:33Z</updated>
+    <summary type="text">Last week I checked the email security of eight automation agencies and seven of them could be spoofed. The check itself is two DNS lookups and takes about thirty seconds, which raises an obvious question: if it's that cheap, why does almost nobody run it? Because it's thirty seconds you have to remember to spend, on a thing that produces no visible symptom when it's broken. Nobody wakes up thinki</summary>
+    <author><name>Kacper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Is it legal to train AI models on copyrighted books? It’s complicated</title>
     <link href="https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/" rel="alternate"/>
     <id>https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/</id>
     <updated>2026-08-23T15:00:00Z</updated>
     <summary type="text">Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?</summary>
     <author><name>Amanda Silberling</name></author>
+  </entry>
+  <entry>
+    <title>How I Built a Free Watermark-Free Xiaohongshu (RedNote) Downloader — and What I Learned About Anti-Scraping</title>
+    <link href="https://dev.to/wangxiaolou/how-i-built-a-free-watermark-free-xiaohongshu-rednote-downloader-and-what-i-learned-about-47oa" rel="alternate"/>
+    <id>https://dev.to/wangxiaolou/how-i-built-a-free-watermark-free-xiaohongshu-rednote-downloader-and-what-i-learned-about-47oa</id>
+    <updated>2026-08-24T08:38:10Z</updated>
+    <summary type="text">The Problem Xiaohongshu (also known as RED or RedNote) is China's fastest-growing lifestyle platform — 300M+ monthly active users sharing beauty tutorials, product reviews, and travel content. But if you've ever tried to save a video from it, you know the pain: Screen recording = terrible quality + watermark visible Third-party APKs = security nightmare Most &quot;downloaders&quot; online = sketchy ads, no </summary>
+    <author><name>wangxiaolou</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>When AI Agents Meet Zero Trust: Building NEXUS on Istio Service Mesh</title>
+    <link href="https://dev.to/deadki001/when-ai-agents-meet-zero-trust-building-nexus-on-istio-service-mesh-1hh2" rel="alternate"/>
+    <id>https://dev.to/deadki001/when-ai-agents-meet-zero-trust-building-nexus-on-istio-service-mesh-1hh2</id>
+    <updated>2026-08-24T08:35:58Z</updated>
+    <summary type="text">Everyone is building AI agents. Most of them have far more permissions than they should. One of the biggest questions facing platform engineering teams today is not whether AI can help operate production systems. The real question is: how do you prevent an AI agent from becoming the next privileged insider threat? I wanted to explore that problem in a practical way. The result was NEXUS - Mesh Int</summary>
+    <author><name>DevonPatrick Adkins</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Verifying Medical Device OEM Documents Programmatically: FDA, EUDAMED, and NANDO Data Sources</title>
+    <link href="https://dev.to/tbphp_tech/verifying-medical-device-oem-documents-programmatically-fda-eudamed-and-nando-data-sources-3d5b" rel="alternate"/>
+    <id>https://dev.to/tbphp_tech/verifying-medical-device-oem-documents-programmatically-fda-eudamed-and-nando-data-sources-3d5b</id>
+    <updated>2026-08-24T08:35:27Z</updated>
+    <summary type="text">When you are building tooling for private label medical devices — especially a category like microneedling pens, which sits at the border of cosmetics and regulated medical devices — the hardest part is not manufacturing. It is verifying the paperwork. Certificates arrive as PDFs, scans, and screenshots, and the questions are always the same: is the registration number real, does the notified body</summary>
+    <author><name>tbphp Precision Tech</name></author>
+  </entry>
+  <entry>
+    <title>I Added Cryptographic Receipts to MCP Tool Calls in 20 Lines of Code</title>
+    <link href="https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o" rel="alternate"/>
+    <id>https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o</id>
+    <updated>2026-08-24T08:32:22Z</updated>
+    <summary type="text">If you've built an MCP server, you know the drill: define a tool, write a handler, return a result. The SDK handles the protocol, the transport, the schema validation. It feels clean. It also means you have zero verifiable evidence that what your handler returned is what the agent actually received — or that the arguments the agent passed are what your handler expected. I'm not here to scare you w</summary>
+    <author><name>correctover</name></author>
+  </entry>
+  <entry>
+    <title>Claude Skills API GA'ya Çıktı: Yenilikler ve Nasıl Kullanılır</title>
+    <link href="https://dev.to/tobiass_hoffmann/claude-skills-api-gaya-cikti-yenilikler-ve-nasil-kullanilir-4jll" rel="alternate"/>
+    <id>https://dev.to/tobiass_hoffmann/claude-skills-api-gaya-cikti-yenilikler-ve-nasil-kullanilir-4jll</id>
+    <updated>2026-08-24T08:31:49Z</updated>
+    <summary type="text">Claude Beceriler API'si: Özel becerileri yükleme, sürümleme ve çalıştırma Claude Beceriler API'si 20 Ağustos 2026 itibarıyla genel kullanıma sunuldu. Artık beta başlığı kullanmadan https://api.anthropic.com/v1/skills üzerinden özel beceriler oluşturabilir, sürümleyebilir ve yönetebilirsiniz. Bu beceriler, kendi altyapınızı barındırmanıza gerek kalmadan Claude'un kod sanal alanında çalışır. Anthrop</summary>
+    <author><name>Tobias Hoffmann</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Memory shortage reportedly drives Nvidia AI server prices up about 15 percent</title>
@@ -361,83 +442,5 @@
     <author><name>Bobby Hall Jr</name></author>
     <category term="rag"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>The Software Craftsman’s Day One: Why My First Week of Startup Life Had No Business Logic</title>
-    <link href="https://dev.to/brettryan/the-software-craftsmans-day-one-why-my-first-week-of-startup-life-had-no-business-logic-d2g" rel="alternate"/>
-    <id>https://dev.to/brettryan/the-software-craftsmans-day-one-why-my-first-week-of-startup-life-had-no-business-logic-d2g</id>
-    <updated>2026-08-24T04:22:26Z</updated>
-    <summary type="text">Being made redundant from a position where I defined patterns and practices for a high-performance team, I decided to take the leap to create my own startup. As I write now, this has felt like a violent acceleration of the clock. One day you feel the safety of an established enterprise; the next, there I am, standing on a clean slate. When I finally received my new laptop last week, I felt the sud</summary>
-    <author><name>Brett Ryan</name></author>
-  </entry>
-  <entry>
-    <title>How to Build Bulletproof AI Agents with Autonomous Multi-Model Fallbacks</title>
-    <link href="https://dev.to/osamatech786/how-to-build-bulletproof-ai-agents-with-autonomous-multi-model-fallbacks-1d7l" rel="alternate"/>
-    <id>https://dev.to/osamatech786/how-to-build-bulletproof-ai-agents-with-autonomous-multi-model-fallbacks-1d7l</id>
-    <updated>2026-08-24T04:21:15Z</updated>
-    <summary type="text">Single-model agent pipelines are fragile. When your LLM provider encounters latency spikes or schema drift, your entire business workflow stalls. Here is how to design an enterprise-grade agent with automated failover in Python. The Problem with Naive Agent Loops Most LangChain or basic Python agent implementations look like this: User input -&gt; LLM -&gt; Tool Call -&gt; Response. If the LLM returns inva</summary>
-    <author><name>Osama</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What will happen if Cloud database becomes too expensive ???</title>
-    <link href="https://dev.to/kingusd/what-will-happen-if-cloud-database-becomes-too-expensive--jia" rel="alternate"/>
-    <id>https://dev.to/kingusd/what-will-happen-if-cloud-database-becomes-too-expensive--jia</id>
-    <updated>2026-08-24T04:20:50Z</updated>
-    <summary type="text">For most of the last fifteen years, &quot;move it to the cloud&quot; was the answer to almost every data infrastructure question. Storage was cheap, compute was elastic, and nobody had to rack a server again. But for the past 18 months, a lot has happened to the data world — and the bills caught up with them. Walk into almost any engineering org running a modern data stack today and you'll hear some version</summary>
-    <author><name>KingUSD</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>From MP4 to Searchable Text: A Practical Video Transcription Workflow</title>
-    <link href="https://dev.to/kukmp7g72jn9/from-mp4-to-searchable-text-a-practical-video-transcription-workflow-3f3j" rel="alternate"/>
-    <id>https://dev.to/kukmp7g72jn9/from-mp4-to-searchable-text-a-practical-video-transcription-workflow-3f3j</id>
-    <updated>2026-08-24T04:14:17Z</updated>
-    <summary type="text">Video has become one of the most common ways to share information, but video is still surprisingly difficult to search, process, and reuse. If you have ever needed to find one sentence in a two-hour recording, extract notes from a meeting, generate subtitles, or analyze a collection of video files, you quickly run into the same problem: The information is there, but it is trapped inside the video.</summary>
-    <author><name>kukmp7g72jn9@163.com</name></author>
-  </entry>
-  <entry>
-    <title>I built a full image editor that never uploads your photo — here's how the on-device AI parts actually work</title>
-    <link href="https://dev.to/akhourianmolkumar/i-built-a-full-image-editor-that-never-uploads-your-photo-heres-how-the-on-device-ai-parts-1i03" rel="alternate"/>
-    <id>https://dev.to/akhourianmolkumar/i-built-a-full-image-editor-that-never-uploads-your-photo-heres-how-the-on-device-ai-parts-1i03</id>
-    <updated>2026-08-24T04:14:07Z</updated>
-    <summary type="text">Most background-removal and object-removal tools online work the same way: you upload an image, a server runs a model on it, you download the result. Convenient, but your photo left your device and you have no idea what happened to that copy afterward. I wanted to see how far I could push the &quot;everything stays client-side&quot; constraint for a full image editor — background removal, object removal, fi</summary>
-    <author><name>Akhouri Anmol Kumar</name></author>
-  </entry>
-  <entry>
-    <title>A beginner's guide to the Vggt-1b-Depth model by Vufinder on Replicate</title>
-    <link href="https://dev.to/aimodels-fyi/a-beginners-guide-to-the-vggt-1b-depth-model-by-vufinder-on-replicate-2fai" rel="alternate"/>
-    <id>https://dev.to/aimodels-fyi/a-beginners-guide-to-the-vggt-1b-depth-model-by-vufinder-on-replicate-2fai</id>
-    <updated>2026-08-24T03:02:47Z</updated>
-    <summary type="text">This is a simplified guide to an AI model called Vggt-1b-Depth maintained by Vufinder. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Overview vggt-1b-depth is a feed-forward neural network that infers 3D scene attributes from single, multiple, or hundreds of image views, reconstructing scenes in under one second. Built by vufinder and based on research </summary>
-    <author><name>aimodels-fyi</name></author>
-    <category term="robotics"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Humanoid Robot Beats Usain Bolt’s 100m World Record in Beijing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing</id>
-    <updated>2026-08-23T07:07:21Z</updated>
-    <summary type="text">A humanoid robot ran 100 meters in 9.39 seconds at the opening ceremony of the second World Humanoid Robot Games in Beijing, beating Usain Bolt’s world record of 9.58 seconds, Xinhua News Agency reported.</summary>
-    <author><name>Bloomberg News</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>It Passed Every Test. That's Why It Can't Ship Yet.</title>
-    <link href="https://dev.to/ramses203/it-passed-every-test-thats-why-it-cant-ship-yet-3dnm" rel="alternate"/>
-    <id>https://dev.to/ramses203/it-passed-every-test-thats-why-it-cant-ship-yet-3dnm</id>
-    <updated>2026-08-24T00:32:20Z</updated>
-    <summary type="text">My order-reading LLM passed the 29-question exam. Zero fatal errors. The model is chosen. So — ship it? No. And the reason is the most important thing in this series. The exam has holes. I am the holes. The questions, the answer key, the product catalog — I made all of it. Which means &quot;passed 29 questions&quot; translates precisely to: &quot;It made no mistakes in the 29 situations I was able to imagine.&quot; N</summary>
-    <author><name>John Green</name></author>
-  </entry>
-  <entry>
-    <title>Our AI reviewer invented a request. Our producer retried 245 times.</title>
-    <link href="https://dev.to/gxcafellc/our-ai-reviewer-invented-a-request-our-producer-retried-245-times-465f" rel="alternate"/>
-    <id>https://dev.to/gxcafellc/our-ai-reviewer-invented-a-request-our-producer-retried-245-times-465f</id>
-    <updated>2026-08-24T00:31:03Z</updated>
-    <summary type="text">We run ~100 LLM agents unattended on local models. Last week we found one document that had been rewritten 245 times in 5 days — every attempt rejected. A sibling document: 225 times. Combined, about 470 wasted generations, all burned on the same two files. Here is the autopsy, with the actual numbers. The loop Our pipeline is simple: a producer agent writes a document, a reviewer agent checks it </summary>
-    <author><name>GX Cafe LLC</name></author>
   </entry>
 </feed>

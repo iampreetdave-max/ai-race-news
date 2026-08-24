@@ -4,7 +4,33 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-24T07:05:26Z</updated>
+  <updated>2026-08-24T08:52:48Z</updated>
+  <entry>
+    <title>Codex PR Review: Automatic Reviews, Triggers, Review Rules</title>
+    <link href="https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59" rel="alternate"/>
+    <id>https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59</id>
+    <updated>2026-08-24T08:43:54Z</updated>
+    <summary type="text">Codex's GitHub PR review works better than I expected. Before opening a PR I already review the code several ways, in Claude and in Codex both. I've had the main agent review it, attached a different model as a subagent reviewer, run it in two stages. Code that survives all of that still gets caught by Codex, always one or two things. This guide covers turning it on. What happens after that is a b</summary>
+    <author><name>John Lee</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I turned a 30-second security check into an app you can connect to Claude or ChatGPT</title>
+    <link href="https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f" rel="alternate"/>
+    <id>https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f</id>
+    <updated>2026-08-24T08:43:33Z</updated>
+    <summary type="text">Last week I checked the email security of eight automation agencies and seven of them could be spoofed. The check itself is two DNS lookups and takes about thirty seconds, which raises an obvious question: if it's that cheap, why does almost nobody run it? Because it's thirty seconds you have to remember to spend, on a thing that produces no visible symptom when it's broken. Nobody wakes up thinki</summary>
+    <author><name>Kacper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Added Cryptographic Receipts to MCP Tool Calls in 20 Lines of Code</title>
+    <link href="https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o" rel="alternate"/>
+    <id>https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o</id>
+    <updated>2026-08-24T08:32:22Z</updated>
+    <summary type="text">If you've built an MCP server, you know the drill: define a tool, write a handler, return a result. The SDK handles the protocol, the transport, the schema validation. It feels clean. It also means you have zero verifiable evidence that what your handler returned is what the agent actually received — or that the arguments the agent passed are what your handler expected. I'm not here to scare you w</summary>
+    <author><name>correctover</name></author>
+  </entry>
   <entry>
     <title>SSE in Go: Your Timeouts Do Not Apply Where You Think</title>
     <link href="https://dev.to/julesrobineau/sse-in-go-your-timeouts-do-not-apply-where-you-think-3gp8" rel="alternate"/>
@@ -429,30 +455,5 @@
     <summary type="text">I am running an AI-native startup. Early on though, I would spend so much time staying ahead of every new AI hot take that I lost focus on what I needed to do to move the company forward. I didn't need a hundred skills, fifty MCP servers, or Ralph Wiggum loops sending my API bill to the moon. I needed answers to plain questions. What is this model costing me? Is it writing code I keep? Is that tip</summary>
     <author><name>Mark Birch</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A pre-flight checklist for shipping a Claude connector</title>
-    <link href="https://dev.to/akashdas/a-pre-flight-checklist-for-shipping-a-claude-connector-56oc" rel="alternate"/>
-    <id>https://dev.to/akashdas/a-pre-flight-checklist-for-shipping-a-claude-connector-56oc</id>
-    <updated>2026-08-22T18:46:58Z</updated>
-    <summary type="text">Writing an MCP server is the easy part. Shipping one as a Claude connector means passing four gates that have nothing to do with your business logic: Anthropic's network can reach you, Claude can get an OAuth client identity, a human reviewer approves your tool design, and your server does not waste the user's context window. Here is the checklist I wish I had had, in the order the failures actual</summary>
-    <author><name>Akash Das</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AWS EC2 Deployment — Q&amp;A Reference</title>
-    <link href="https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b" rel="alternate"/>
-    <id>https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b</id>
-    <updated>2026-08-22T18:30:06Z</updated>
-    <summary type="text">A reference guide compiled from deploying two Node.js/Docker apps to AWS EC2, covering the real issues hit and how they were fixed. 1. Getting Connected Q: How do I SSH into my EC2 instance? chmod 400 your-key.pem ssh -i your-key.pem ubuntu@YOUR_ELASTIC_IP Type yes when asked about the fingerprint the first time. Q: chmod 400 doesn't seem to work / I get &quot;bad permissions&quot; / &quot;Permission denied (pub</summary>
-    <author><name>harsh</name></author>
-  </entry>
-  <entry>
-    <title>If your MCP server uses OAuth, every directory thinks it has zero tools</title>
-    <link href="https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco" rel="alternate"/>
-    <id>https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco</id>
-    <updated>2026-08-22T18:07:33Z</updated>
-    <summary type="text">We shipped a remote MCP server, registered it everywhere, and then noticed something odd: every directory listed it as having no tools at all. Not the wrong tools. Not a stale count. Zero. glama's API returned this: { &quot;name&quot;: &quot;FrameThrower MCP Server&quot;, &quot;attributes&quot;: [&quot;author:official&quot;, &quot;hosting:remote-capable&quot;], &quot;tools&quot;: [] } Smithery's page rendered the same nothing. So did mcp.directory. Four wo</summary>
-    <author><name>Leo Kadieff</name></author>
   </entry>
 </feed>
