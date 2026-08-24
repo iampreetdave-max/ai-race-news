@@ -4,7 +4,36 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-24T13:56:51Z</updated>
+  <updated>2026-08-24T14:46:58Z</updated>
+  <entry>
+    <title>How I Cut a 2.1 MB JavaScript Bundle to 890 KB With Claude Code</title>
+    <link href="https://dev.to/yureki_lab/how-i-cut-a-21-mb-javascript-bundle-to-890-kb-with-claude-code-2a0p" rel="alternate"/>
+    <id>https://dev.to/yureki_lab/how-i-cut-a-21-mb-javascript-bundle-to-890-kb-with-claude-code-2a0p</id>
+    <updated>2026-08-24T14:32:36Z</updated>
+    <summary type="text">TL;DR I had a 2.1 MB initial JavaScript bundle and a Lighthouse performance score of 41 on mid-range Android. I used Claude Code as a measurement-driven &quot;perf detective&quot; instead of asking it to &quot;make the app faster,&quot; and got the bundle down to 890 KB in about four working sessions. The trick was giving the agent real build artifacts to read, forcing one change per measurement, and then locking the</summary>
+    <author><name>yureki_lab</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your AI Coding Agent Forgets Everything — Fix It With a Free Obsidian Vault</title>
+    <link href="https://dev.to/secondbrainstarter/your-ai-coding-agent-forgets-everything-fix-it-with-a-free-obsidian-vault-1p0i" rel="alternate"/>
+    <id>https://dev.to/secondbrainstarter/your-ai-coding-agent-forgets-everything-fix-it-with-a-free-obsidian-vault-1p0i</id>
+    <updated>2026-08-24T14:31:34Z</updated>
+    <summary type="text">Every AI coding agent starts every session with amnesia. The repository is there, the instructions are there — but the knowledge from yesterday's session is gone: the workaround for that build error, your preference about naming, the decision you made last week. So you explain it again. And again. The fix is almost embarrassingly simple: give the agent a place to write things down — and a way to c</summary>
+    <author><name>Second Brain Starter</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How Kafka Saved a Failing System -The Story of Arjun &amp; Meera</title>
+    <link href="https://dev.to/nitinmalviy/how-kafka-saved-a-failing-system-the-story-of-arjun-meera-4ogd" rel="alternate"/>
+    <id>https://dev.to/nitinmalviy/how-kafka-saved-a-failing-system-the-story-of-arjun-meera-4ogd</id>
+    <updated>2026-08-24T14:04:56Z</updated>
+    <summary type="text">Modern systems run on data in the form of fast, real-time, continuous streams. But what happens when your system grows faster than your architecture can handle? This is the story of Arjun, a backend engineer from Indore, and Meera, a DevOps engineer — and how Kafka rescued their collapsing system while teaching them how real-time streaming actually works. It's a story, but it's also a complete wal</summary>
+    <author><name>Nitin Malviya</name></author>
+    <category term="data"/>
+    <category term="tutorial"/>
+  </entry>
   <entry>
     <title>Give Your AI Agent a Scientist's Library. a Science MCP Server</title>
     <link href="https://dev.to/valyuai/give-your-ai-agent-a-scientists-library-a-science-mcp-server-4pdb" rel="alternate"/>
@@ -431,31 +460,6 @@
     <summary type="text">I run a one-person AI company: Claude Code writes and maintains the code, and most of what it builds runs unattended — several trading bots on Windows Task Scheduler, each polling a broker API every 5 minutes, 24/7, with nobody watching in real time. I wrote before about the agent breaking things it had write access to (I let an AI agent run my trading bots unattended). This one's different: nothi</summary>
     <author><name>WWP</name></author>
     <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a 24/7 Home Security NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge</title>
-    <link href="https://dev.to/whatelse/building-a-247-home-security-nvr-using-a-7-year-old-raspberry-pi-3-24ff" rel="alternate"/>
-    <id>https://dev.to/whatelse/building-a-247-home-security-nvr-using-a-7-year-old-raspberry-pi-3-24ff</id>
-    <updated>2026-08-23T01:00:08Z</updated>
-    <summary type="text">Building a 24/7 Home NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge How to transform a 10-year-old Dell laptop and a 7-year-old Raspberry Pi 3 Wi-Fi bridge into a robust, high-efficiency security camera NVR for 2018-era legacy IP cameras using Linux systemd services, FFmpeg, Proxy ARP Wi-Fi bridging, and frugal engineering principles. The Core Philosophy: Frugal Engineering (&quot;Just in Time /</summary>
-    <author><name>whatelse</name></author>
-  </entry>
-  <entry>
-    <title>Smashing the MCP + Skill Tradeoff: More Guidance, Better Agents?</title>
-    <link href="https://dev.to/neithergalax/smashing-the-mcp-skill-tradeoff-more-guidance-better-agents-2g21" rel="alternate"/>
-    <id>https://dev.to/neithergalax/smashing-the-mcp-skill-tradeoff-more-guidance-better-agents-2g21</id>
-    <updated>2026-08-22T22:41:43Z</updated>
-    <summary type="text">This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry. Project Overview I've been working on a Tokyo public transit MCP server for a while (see the previous posts in the series). Recently, I started experimenting with adding a SKILL.md to see whether giving the agent more structured guidance would improve its behavior and output. Instead of treating this as simply ano</summary>
-    <author><name>neitherGalax</name></author>
-  </entry>
-  <entry>
-    <title>Real Token Cost of MCP: 91K Tokens of JSON</title>
-    <link href="https://dev.to/mcptokensaver/real-token-cost-of-mcp-91k-tokens-of-json-4goe" rel="alternate"/>
-    <id>https://dev.to/mcptokensaver/real-token-cost-of-mcp-91k-tokens-of-json-4goe</id>
-    <updated>2026-08-22T22:19:33Z</updated>
-    <summary type="text">255 MCP tools. 91,000 tokens of JSON schemas. Before you ask a single question. Here's what I found and how I fixed it. The experiment I connected Claude Code to 5 MCP servers. File system, GitHub, Postgres, Puppeteer, and a custom search tool. Then I counted every token that flowed through the system. The numbers: Phase Token Count What it is Tool discovery (initial) 91,247 JSON schemas for 255 t</summary>
-    <author><name>MCP Token Saver</name></author>
     <category term="llm"/>
   </entry>
 </feed>
