@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-23T23:25:01Z</updated>
+  <updated>2026-08-24T01:36:58Z</updated>
+  <entry>
+    <title>OzBrain's Shared Memory Architecture: How Multi-Agent Teams Avoid Re-Explaining Context Across Sessions</title>
+    <link href="https://dev.to/mech_app_ai/ozbrains-shared-memory-architecture-how-multi-agent-teams-avoid-re-explaining-context-across-1c19" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/ozbrains-shared-memory-architecture-how-multi-agent-teams-avoid-re-explaining-context-across-1c19</id>
+    <updated>2026-08-24T00:07:24Z</updated>
+    <summary type="text">When you run multiple agents across Claude, ChatGPT, and Cursor, each one starts from scratch unless you manually paste context into every session. OzBrain solves this by exposing a shared knowledge substrate that agents read and write through the Model Context Protocol (MCP). The system routes context so agents see only what they need, and teams avoid explaining the same facts to every new agent </summary>
+    <author><name>mech.app</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>How we run five coding agents side by side in one window</title>
     <link href="https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf" rel="alternate"/>
@@ -440,15 +450,6 @@
     <updated>2026-08-22T10:52:48Z</updated>
     <summary type="text">I spent a week trying to keep a coding agent out of one directory, and I lost that argument at every layer that lives inside the agent. The markdown rule folded when I claimed the repo owner was making an exception. The deny rule covered git commit and not git -C. The flag that turns off the write tool turned into a one line python3 call. What held was not the agent's at all: a sandbox profile fro</summary>
     <author><name>Charles Hasse</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My AI visibility score was 78%. Then I fixed how I measured it and it was 25%</title>
-    <link href="https://dev.to/reidify/my-ai-visibility-score-was-78-then-i-fixed-how-i-measured-it-and-it-was-25-4h5b" rel="alternate"/>
-    <id>https://dev.to/reidify/my-ai-visibility-score-was-78-then-i-fixed-how-i-measured-it-and-it-was-25-4h5b</id>
-    <updated>2026-08-22T10:10:04Z</updated>
-    <summary type="text">In August, I published a number on my studio’s website: we had been named unprompted in 14 out of 18 blind answers across ChatGPT, Perplexity, and Gemini. It was wrong. And the way it was wrong turned out to be more valuable than the number itself. What I did I wrote a set of questions and pasted them into a single session on each engine. Most of the questions never mentioned my studio by name. Tw</summary>
-    <author><name>reidify</name></author>
     <category term="llm"/>
   </entry>
 </feed>
