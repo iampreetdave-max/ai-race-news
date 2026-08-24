@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-24T16:45:13Z</updated>
+  <updated>2026-08-24T17:36:38Z</updated>
   <entry>
     <title>Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules</title>
     <link href="https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/" rel="alternate"/>
@@ -98,6 +98,14 @@
     <summary type="text">Thomson Reuters is launching &quot;Thomson,&quot; its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron makes the point that what matters isn't intelligence itself, but knowing which intelligence you need to own. The article Thomson Reuters bets $</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Zillow and Redfin settle FTC antitrust case over their rental listings partnership</title>
+    <link href="https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement" rel="alternate"/>
+    <id>https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement</id>
+    <updated>2026-08-24T17:01:05Z</updated>
+    <summary type="text">The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 &quot;partnership&quot; between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin would end its own advertising contracts and promise not to compete with Zillow for multifamily listings. […]</summary>
+    <author><name>Stevie Bonifield</name></author>
   </entry>
   <entry>
     <title>Cerebras unveils CS-4 with double the performance on the same chip</title>
@@ -393,61 +401,55 @@
     <category term="product-launch"/>
   </entry>
   <entry>
+    <title>An AI's “Done” Can't Be Trusted — Quality Gates That Stop False Completion With Evidence</title>
+    <link href="https://dev.to/uehara/an-ais-done-cant-be-trusted-quality-gates-that-stop-false-completion-with-evidence-422f" rel="alternate"/>
+    <id>https://dev.to/uehara/an-ais-done-cant-be-trusted-quality-gates-that-stop-false-completion-with-evidence-422f</id>
+    <updated>2026-08-24T17:08:17Z</updated>
+    <summary type="text">On June 29, 2026, a mobile app reported that &quot;the first wave of parity with the PC version is complete, 162 tests green.&quot; When we actually touched it on a real device (via TestFlight, Apple's beta-app distribution), every major user flow was broken. It ignored the SafeArea (the screen region free of the notch and system bars) and ran under the notch; chat failed the instant you hit send; the setti</summary>
+    <author><name>uehara</name></author>
+  </entry>
+  <entry>
+    <title>FastAPI and Node.js Property Incidents: 7-Field Error Schema for Request Correlation</title>
+    <link href="https://dev.to/darkveilcorvyn26/fastapi-and-nodejs-property-incidents-7-field-error-schema-for-request-correlation-4hpi" rel="alternate"/>
+    <id>https://dev.to/darkveilcorvyn26/fastapi-and-nodejs-property-incidents-7-field-error-schema-for-request-correlation-4hpi</id>
+    <updated>2026-08-24T17:06:09Z</updated>
+    <summary type="text">Short answer: send normalized failures from every FastAPI and Node.js service to one capture endpoint, carry the same trace ID through the request path, and attach a cost owner at ingestion; this is enough error tracking to reconstruct many property-management incidents, but it is not a substitute for a distributed trace when call order and timing are the question. I've carried the pager through a</summary>
+    <author><name>DarkveilCorvyn26</name></author>
+  </entry>
+  <entry>
+    <title>That time YAML silently broke your config because of Norway</title>
+    <link href="https://dev.to/schiff_heimlich/that-time-yaml-silently-broke-your-config-because-of-norway-43dj" rel="alternate"/>
+    <id>https://dev.to/schiff_heimlich/that-time-yaml-silently-broke-your-config-because-of-norway-43dj</id>
+    <updated>2026-08-24T17:05:31Z</updated>
+    <summary type="text">A colleague pinged me last week with a config issue that had him chasing his tail for an afternoon. Turns out he was setting country: NO in a YAML file, expecting it to mean Norway. YAML thought he meant boolean false. The Problem YAML 1.1 treats these unquoted strings as booleans: yes, no, on, off, true, false Case-insensitive variants work too So if you have: database: country: NO enabled: true </summary>
+    <author><name>Schiff Heimlich</name></author>
+  </entry>
+  <entry>
+    <title>Hi DEV Community, I’m Agbaje. I Build Systems, Not Just Automations</title>
+    <link href="https://dev.to/agbaje_olarewaju_1891bb89/hi-dev-community-im-agbaje-i-build-systems-not-just-automations-2768" rel="alternate"/>
+    <id>https://dev.to/agbaje_olarewaju_1891bb89/hi-dev-community-im-agbaje-i-build-systems-not-just-automations-2768</id>
+    <updated>2026-08-24T16:50:24Z</updated>
+    <summary type="text">My name is Agbaje Olarewaju, and I’m an AI automation specialist, automation architect, and digital solutions entrepreneur from Nigeria. This is my first post here, so I thought the best place to start is by telling you who I am, what I build, and why I enjoy doing it. I’m the kind of person who enjoys looking at a messy business process and asking the following: “Why are we doing all of this manu</summary>
+    <author><name>agbaje olarewaju</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Effective AI Agents with GitHub Copilot</title>
+    <link href="https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7" rel="alternate"/>
+    <id>https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7</id>
+    <updated>2026-08-24T16:44:08Z</updated>
+    <summary type="text">The most successful AI agent do NOT use complex and over-engineered frameworks. Instead, they use simple, modular patterns. To use agents you don't need to learn massive third-party agent frameworks to build powerful AI assistants. Using GitHub Copilot you get all pieces natively: Copilot Agent Mode Custom Agents Agent Skills Prompt Files Model Context Protocol (MCP) I will break down the core pri</summary>
+    <author><name>Majdi Zlitni</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>UK Fintech Funding Drops to Lowest Level in At Least a Decade</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-23/uk-fintech-funding-drops-to-lowest-level-in-at-least-a-decade" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-08-23/uk-fintech-funding-drops-to-lowest-level-in-at-least-a-decade</id>
     <updated>2026-08-23T23:01:00Z</updated>
     <summary type="text">Investment in UK financial technology firms fell to the lowest level since at least 2016 in the first half of this year, as funders flock to companies tied to artificial intelligence and can show long-term growth.</summary>
     <author><name>Charlie Wells</name></author>
-  </entry>
-  <entry>
-    <title>Asia’s Busiest Earnings Week to Test AI Boom, China Recovery</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-23/asia-s-busiest-earnings-week-to-test-ai-boom-china-recovery" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-23/asia-s-busiest-earnings-week-to-test-ai-boom-china-recovery</id>
-    <updated>2026-08-23T23:00:00Z</updated>
-    <summary type="text">Asian companies are heading into the busiest week of the current earnings season, with a raft of corporate heavyweights due to report, putting the durability of the AI rally and China’s consumption recovery in focus.</summary>
-    <author><name>Bloomberg News</name></author>
-  </entry>
-  <entry>
-    <title>Designing Algorithms That Adapt to Their Input Distribution</title>
-    <link href="https://dev.to/derekmwale/designing-algorithms-that-adapt-to-their-input-distribution-118b" rel="alternate"/>
-    <id>https://dev.to/derekmwale/designing-algorithms-that-adapt-to-their-input-distribution-118b</id>
-    <updated>2026-08-24T16:20:58Z</updated>
-    <summary type="text">Most algorithms are taught as if the input were some abstract thing that simply arrives at the function boundary. An array appears. A graph appears. A stream of numbers appears. A database query arrives. Then the algorithm runs. We analyze its complexity, usually in terms of n, and declare victory. O(n) O(n log n) O(log n) O(n²) These numbers are useful. But they hide something important. Not all </summary>
-    <author><name>Derek Mwale</name></author>
-  </entry>
-  <entry>
-    <title>Why scrolling screenshots fall apart on video feeds</title>
-    <link href="https://dev.to/codnet_softwarecompany_7/why-scrolling-screenshots-fall-apart-on-video-feeds-ad0" rel="alternate"/>
-    <id>https://dev.to/codnet_softwarecompany_7/why-scrolling-screenshots-fall-apart-on-video-feeds-ad0</id>
-    <updated>2026-08-24T16:20:57Z</updated>
-    <summary type="text">I maintain a small Android app that stitches a scrolling screen into one long image. It worked well until people started pointing it at social feeds, and then users began reporting that captures &quot;overlapped&quot; around video posts. Chasing that report taught me it was two separate defects wearing one description, and that my measurement could only see one of them. The measurement comes first Before ch</summary>
-    <author><name>Codnet Software Company</name></author>
-  </entry>
-  <entry>
-    <title>Google Expands Arsenal Partnership With Gemini and Pixel Across Five Football Clubs</title>
-    <link href="https://dev.to/alifar/google-expands-arsenal-partnership-with-gemini-and-pixel-across-five-football-clubs-3mbh" rel="alternate"/>
-    <id>https://dev.to/alifar/google-expands-arsenal-partnership-with-gemini-and-pixel-across-five-football-clubs-3mbh</id>
-    <updated>2026-08-24T16:15:30Z</updated>
-    <summary type="text">Google has expanded its football partnership program to include Gemini as the Official Consumer AI Assistant for Arsenal FC, FC Barcelona, FC Bayern München, Liverpool FC and Paris Saint-Germain. Google Pixel will remain the clubs' Official Smartphone Partner under the multi-year initiative, which is designed to use AI-powered insights and exclusive content to bring supporters closer to the game. </summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scarcity Never Dies. It Climbs.</title>
-    <link href="https://dev.to/pich/scarcity-never-dies-it-climbs-4nh7" rel="alternate"/>
-    <id>https://dev.to/pich/scarcity-never-dies-it-climbs-4nh7</id>
-    <updated>2026-08-24T16:11:40Z</updated>
-    <summary type="text">This went up first on my own site. I'm cross-posting it here because the people it concerns most are the ones who type for a living. I say that as one of them, and as someone who builds the systems making the typing free. Between 2004 and 2012 I broke into computer systems. It turned out to be an education in economics disguised as a technical career. Every wall I climbed existed for one reason: s</summary>
-    <author><name>Michał Piszczek</name></author>
-  </entry>
-  <entry>
-    <title>I Gave Claude Code a Brain. This Time I Let the Tests Judge It.</title>
-    <link href="https://dev.to/gde03/i-gave-claude-code-a-brain-this-time-i-let-the-tests-judge-it-5h0p" rel="alternate"/>
-    <id>https://dev.to/gde03/i-gave-claude-code-a-brain-this-time-i-let-the-tests-judge-it-5h0p</id>
-    <updated>2026-08-24T16:06:44Z</updated>
-    <summary type="text">The first experiment measured whether Claude Code knew the right answer. This one measured whether the work actually succeeded. In my previous experiment, I tested whether a memory layer could stop Claude Code from confidently repeating project-specific mistakes. It did. But there was an obvious limitation. The tasks measured whether the answer was correct. They did not ask the agent to modify a r</summary>
-    <author><name>Giulio D'Erme</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
