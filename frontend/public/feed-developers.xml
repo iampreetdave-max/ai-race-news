@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-24T03:08:34Z</updated>
+  <updated>2026-08-24T04:51:37Z</updated>
+  <entry>
+    <title>Build a Mini Engineering Graph With TypeScript and GitHub</title>
+    <link href="https://dev.to/bobbyhalljr/build-a-mini-engineering-graph-with-typescript-and-github-4haj" rel="alternate"/>
+    <id>https://dev.to/bobbyhalljr/build-a-mini-engineering-graph-with-typescript-and-github-4haj</id>
+    <updated>2026-08-24T04:37:07Z</updated>
+    <summary type="text">You inherit a codebase. A file called checkout.ts is causing problems. You ask three questions: Why was this code changed? Who actually understands it? What other files usually change alongside it? The answers probably exist somewhere in GitHub. But they are scattered across pull requests, reviews, file histories, and people’s memories. In this tutorial, we are going to connect those dots. We will</summary>
+    <author><name>Bobby Hall Jr</name></author>
+    <category term="rag"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How to Build Bulletproof AI Agents with Autonomous Multi-Model Fallbacks</title>
+    <link href="https://dev.to/osamatech786/how-to-build-bulletproof-ai-agents-with-autonomous-multi-model-fallbacks-1d7l" rel="alternate"/>
+    <id>https://dev.to/osamatech786/how-to-build-bulletproof-ai-agents-with-autonomous-multi-model-fallbacks-1d7l</id>
+    <updated>2026-08-24T04:21:15Z</updated>
+    <summary type="text">Single-model agent pipelines are fragile. When your LLM provider encounters latency spikes or schema drift, your entire business workflow stalls. Here is how to design an enterprise-grade agent with automated failover in Python. The Problem with Naive Agent Loops Most LangChain or basic Python agent implementations look like this: User input -&gt; LLM -&gt; Tool Call -&gt; Response. If the LLM returns inva</summary>
+    <author><name>Osama</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>OzBrain's Shared Memory Architecture: How Multi-Agent Teams Avoid Re-Explaining Context Across Sessions</title>
     <link href="https://dev.to/mech_app_ai/ozbrains-shared-memory-architecture-how-multi-agent-teams-avoid-re-explaining-context-across-1c19" rel="alternate"/>
@@ -432,24 +452,6 @@
     <updated>2026-08-22T11:00:06Z</updated>
     <summary type="text">Hitting ¥1.2M/month taught me something I didn't expect: keeping the environment healthy has to come before doing the work. Why this system pays off Adding a plugin to Claude Code takes a second. &quot;Let's add context7.&quot; &quot;Let's add playwright.&quot; &quot;Might as well try expose too.&quot; Before I noticed, I had more than 50 plugins enabled. That's where the problem starts. Every time Claude Code starts, a deferr</summary>
     <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Building a Production AI Platform: Kubernetes, GitOps, IaC, Security, and Observability</title>
-    <link href="https://dev.to/sushyam_nagallapati/building-a-production-ai-platform-kubernetes-gitops-iac-security-and-observability-3732" rel="alternate"/>
-    <id>https://dev.to/sushyam_nagallapati/building-a-production-ai-platform-kubernetes-gitops-iac-security-and-observability-3732</id>
-    <updated>2026-08-22T11:00:00Z</updated>
-    <summary type="text">Thanks for taking the time to read. If you’ve worked on AI platforms, cloud infrastructure, or platform engineering, I’d love to hear how your architecture differs in the comments. In Part 4 of AI Infrastructure for Cloud Engineers, we looked at FinOps for AI and how GPU utilization, token consumption, model choice, and inference volume affect cost. Read Part 4: FinOps for AI: Understanding GPU, T</summary>
-    <author><name>Sushyam Nagallapati</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How do you stop Claude Code from writing files?</title>
-    <link href="https://dev.to/hassekf/how-do-you-stop-claude-code-from-writing-files-2n29" rel="alternate"/>
-    <id>https://dev.to/hassekf/how-do-you-stop-claude-code-from-writing-files-2n29</id>
-    <updated>2026-08-22T10:52:48Z</updated>
-    <summary type="text">I spent a week trying to keep a coding agent out of one directory, and I lost that argument at every layer that lives inside the agent. The markdown rule folded when I claimed the repo owner was making an exception. The deny rule covered git commit and not git -C. The flag that turns off the write tool turned into a one line python3 call. What held was not the agent's at all: a sandbox profile fro</summary>
-    <author><name>Charles Hasse</name></author>
     <category term="llm"/>
   </entry>
 </feed>
