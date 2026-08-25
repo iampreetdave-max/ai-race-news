@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T04:42:43Z</updated>
+  <updated>2026-08-25T05:35:39Z</updated>
   <entry>
     <title>Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo</title>
     <link href="https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/" rel="alternate"/>
@@ -12,6 +12,23 @@
     <updated>2026-08-24T14:17:01Z</updated>
     <summary type="text">Generalist AI has released GEN-1.5, a robot foundation model that learns a new physical task from a single demonstration. Drop 3–12 seconds of sensorimotor data into its 30-second context window, and the robot performs the task. No gradient updates, no fine-tuning, no task-specific programming. Across 10 diverse manipulation tasks, this one-shot in-context prompting averaged 59% […] The post Gener</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Audit the Server, Not the Model: A Free-Tier Test for AI Coding Tools</title>
+    <link href="https://dev.to/codejs_1959/audit-the-server-not-the-model-a-free-tier-test-for-ai-coding-tools-37pe" rel="alternate"/>
+    <id>https://dev.to/codejs_1959/audit-the-server-not-the-model-a-free-tier-test-for-ai-coding-tools-37pe</id>
+    <updated>2026-08-25T05:01:34Z</updated>
+    <summary type="text">The model decides what the tool says, but the server decides what the tool does, and most developers audit the first and ignore the second. When you evaluate an AI coding assistant you ask which model it wraps, how many tokens the free tier includes, and whether the completions feel smart, yet the moment the tool has to actually run your code the whole calculation changes. My position is simple: t</summary>
+    <author><name>Quinn Wang</name></author>
+  </entry>
+  <entry>
+    <title>Claude Code's ELI5 Skill Explained: How It Works, Setup, and When to Use It</title>
+    <link href="https://dev.to/gridport/claude-codes-eli5-skill-explained-how-it-works-setup-and-when-to-use-it-c6" rel="alternate"/>
+    <id>https://dev.to/gridport/claude-codes-eli5-skill-explained-how-it-works-setup-and-when-to-use-it-c6</id>
+    <updated>2026-08-25T04:50:28Z</updated>
+    <summary type="text">This article reflects Claude Code's spec as of August 2026. Since Claude Code updates frequently, check the official docs for the latest behavior. Type /eli5 &lt;topic&gt; into Claude Code, and the ELI5 skill generates a jargon-free, diagram-heavy HTML explainer on the spot. It went viral in August 2026 after Anthropic's own dev team mentioned they use it internally. This post covers how ELI5 works, how</summary>
+    <author><name>GridPort</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -443,23 +460,5 @@
     <summary type="text">Building AI Agents with frameworks like CrewAI or LangChain often hits a bottleneck: heavy, slow web scraping that bloats context windows and increases LLM token costs. To solve this, I built Smart Scraper M2M — a lightweight, high-performance web scraper API designed specifically for machine-to-machine (M2M) communication. 🌟 Key Features ⚡ Ultra-fast: Returns clean structured JSON in ~30ms. 🧠 Con</summary>
     <author><name>hasna dev</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The AI Agent Reality Check: Why MCP Backdoors Fail in Production</title>
-    <link href="https://dev.to/tamizuddin/the-ai-agent-reality-check-why-mcp-backdoors-fail-in-production-2d9b" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/the-ai-agent-reality-check-why-mcp-backdoors-fail-in-production-2d9b</id>
-    <updated>2026-08-23T18:00:36Z</updated>
-    <summary type="text">Originally published on tamiz.pro. You built a prototype. The model connected to the server, fetched a tool, and the loop closed perfectly. But when you pushed to production, the agents started hallucinating context, timing out on I/O, or ignoring constraints entirely. If this sounds familiar, the problem isn't your model—it's your architecture. The current wave of AI agent development is obsessed</summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I gave my AI a supervisor. It built a bureaucracy.</title>
-    <link href="https://dev.to/martinschenk/i-gave-my-ai-a-supervisor-it-built-a-bureaucracy-56go" rel="alternate"/>
-    <id>https://dev.to/martinschenk/i-gave-my-ai-a-supervisor-it-built-a-bureaucracy-56go</id>
-    <updated>2026-08-23T17:59:12Z</updated>
-    <summary type="text">For about three months I have been running two AIs against each other on purpose. The setup first, because nothing below makes sense without it. I am one person with around a dozen software products. Almost all of the code is written by Claude Code, one session per project, each project a folder on a Mac Studio. Three months ago I added a second AI: a project in the Claude desktop app whose only j</summary>
-    <author><name>Martin Schenk</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
