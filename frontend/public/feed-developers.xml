@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T14:50:59Z</updated>
+  <updated>2026-08-25T15:47:12Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -13,6 +13,24 @@
     <summary type="text">Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic's Claude Code. A UK study shows the cyber capabilities of open models are catching up fast. The article Taiwanese cybersecurity firm warns that AI tools</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From &quot;Merge is Deploy&quot; to Release Engineering with GitHub Actions</title>
+    <link href="https://dev.to/victorlisbronzo/from-merge-is-deploy-to-release-engineering-with-github-actions-3h19" rel="alternate"/>
+    <id>https://dev.to/victorlisbronzo/from-merge-is-deploy-to-release-engineering-with-github-actions-3h19</id>
+    <updated>2026-08-25T15:30:31Z</updated>
+    <summary type="text">Have you ever stopped to think about the risk of having a pipeline where any merge into the main branch deploys straight to production without a single safety gate? For a long time, our workflow here was that classic setup almost every developer has used at some point: merge on main triggering an SSH script with git pull and pm2 restart It worked for day-to-day tasks, but it gave a false sense of </summary>
+    <author><name>Victor Lis Bronzo</name></author>
+  </entry>
+  <entry>
+    <title>Stop asking your AI agent to follow rules. Enforce them.</title>
+    <link href="https://dev.to/toffy/stop-asking-your-ai-agent-to-follow-rules-enforce-them-4mlo" rel="alternate"/>
+    <id>https://dev.to/toffy/stop-asking-your-ai-agent-to-follow-rules-enforce-them-4mlo</id>
+    <updated>2026-08-25T15:25:37Z</updated>
+    <summary type="text">You've written it a hundred times. In your CLAUDE.md, in your system prompt, in ALL CAPS: NEVER put &quot;use client&quot; at the page level. NEVER commit @ts-ignore without a reason. And your agent does it anyway. Not always — that would almost be easier to deal with. It follows the rule for the first 50k tokens, then quietly stops. Or Sonnet follows it and Haiku doesn't. Or it follows nine rules and forge</summary>
+    <author><name>Yuiko Koyanagi</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Kubernetes Demystified: Kubectl &amp; YAML Configuration</title>
@@ -442,24 +460,6 @@
     <updated>2026-08-24T10:08:28Z</updated>
     <summary type="text">A developer posted a 270-point HN thread claiming 20-50x productivity gains by moving AI out of the editor and into a two-agent browser workflow. The claim is bold, but the architecture is simple: one agent builds, one agent reviews, and both operate on full file context instead of cursor snippets. The interesting part is not the speed number. It is the orchestration shape and what it reveals abou</summary>
     <author><name>mech.app</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Codex PR Review: Automatic Reviews, Triggers, Review Rules</title>
-    <link href="https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59" rel="alternate"/>
-    <id>https://dev.to/johnonlee/codex-pr-review-automatic-reviews-triggers-review-rules-2j59</id>
-    <updated>2026-08-24T08:43:54Z</updated>
-    <summary type="text">Codex's GitHub PR review works better than I expected. Before opening a PR I already review the code several ways, in Claude and in Codex both. I've had the main agent review it, attached a different model as a subagent reviewer, run it in two stages. Code that survives all of that still gets caught by Codex, always one or two things. This guide covers turning it on. What happens after that is a b</summary>
-    <author><name>John Lee</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I turned a 30-second security check into an app you can connect to Claude or ChatGPT</title>
-    <link href="https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f" rel="alternate"/>
-    <id>https://dev.to/kacper_35e1f61a8f41c3886b/i-turned-a-30-second-security-check-into-an-app-you-can-connect-to-claude-or-chatgpt-3c4f</id>
-    <updated>2026-08-24T08:43:33Z</updated>
-    <summary type="text">Last week I checked the email security of eight automation agencies and seven of them could be spoofed. The check itself is two DNS lookups and takes about thirty seconds, which raises an obvious question: if it's that cheap, why does almost nobody run it? Because it's thirty seconds you have to remember to spend, on a thing that produces no visible symptom when it's broken. Nobody wakes up thinki</summary>
-    <author><name>Kacper</name></author>
     <category term="llm"/>
   </entry>
 </feed>
