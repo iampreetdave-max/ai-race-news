@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T13:56:20Z</updated>
+  <updated>2026-08-25T14:50:59Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic's Claude Code. A UK study shows the cyber capabilities of open models are catching up fast. The article Taiwanese cybersecurity firm warns that AI tools</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kubernetes Demystified: Kubectl &amp; YAML Configuration</title>
+    <link href="https://dev.to/tejas_kp/kubernetes-demystified-kubectl-yaml-configuration-427k" rel="alternate"/>
+    <id>https://dev.to/tejas_kp/kubernetes-demystified-kubectl-yaml-configuration-427k</id>
+    <updated>2026-08-25T14:35:39Z</updated>
+    <summary type="text">Part 2, we covered the architecture - Control Plane and Worker Nodes. Now let's look at how you actually manage Kubernetes components: through kubectl **and **YAML configuration files. How to Manage K8s Components: There are two ways to interact with your cluster's components. kubectl — the Kubernetes CLI(Imperative): A very powerful tool that enables direct interaction with the cluster. kubectl c</summary>
+    <author><name>Tejas KP</name></author>
   </entry>
   <entry>
     <title>Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo</title>
@@ -79,6 +87,15 @@
     <summary type="text">A side hustle I started in college went from ¥100k a month to ¥600k once I was running several at the same time. A layoff took it to zero. Then I spent six months building an autonomous setup around Claude Code, and today it runs at ¥1.2M a month in revenue. The core of that setup isn't &quot;writing code&quot; — it's stacking up mechanisms that let me notice things before they fall apart. This post opens u</summary>
     <author><name>Lily</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke.</title>
+    <link href="https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/" rel="alternate"/>
+    <id>https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/</id>
+    <updated>2026-08-25T10:30:01Z</updated>
+    <summary type="text">What moving a Dockerized pipeline off my laptop taught me about containers, networking, and hidden assumptions. The post I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke. appeared first on Towards Data Science.</summary>
+    <author><name>Ibrahim Salami</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>I Ran a Week of Real Open Source Work on Ox Alpha, the Internet's Mystery Free Coding Model</title>
@@ -444,21 +461,5 @@
     <summary type="text">Last week I checked the email security of eight automation agencies and seven of them could be spoofed. The check itself is two DNS lookups and takes about thirty seconds, which raises an obvious question: if it's that cheap, why does almost nobody run it? Because it's thirty seconds you have to remember to spend, on a thing that produces no visible symptom when it's broken. Nobody wakes up thinki</summary>
     <author><name>Kacper</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Added Cryptographic Receipts to MCP Tool Calls in 20 Lines of Code</title>
-    <link href="https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o" rel="alternate"/>
-    <id>https://dev.to/correctover/i-added-cryptographic-receipts-to-mcp-tool-calls-in-20-lines-of-code-4h7o</id>
-    <updated>2026-08-24T08:32:22Z</updated>
-    <summary type="text">If you've built an MCP server, you know the drill: define a tool, write a handler, return a result. The SDK handles the protocol, the transport, the schema validation. It feels clean. It also means you have zero verifiable evidence that what your handler returned is what the agent actually received — or that the arguments the agent passed are what your handler expected. I'm not here to scare you w</summary>
-    <author><name>correctover</name></author>
-  </entry>
-  <entry>
-    <title>SSE in Go: Your Timeouts Do Not Apply Where You Think</title>
-    <link href="https://dev.to/julesrobineau/sse-in-go-your-timeouts-do-not-apply-where-you-think-3gp8" rel="alternate"/>
-    <id>https://dev.to/julesrobineau/sse-in-go-your-timeouts-do-not-apply-where-you-think-3gp8</id>
-    <updated>2026-08-24T07:00:00Z</updated>
-    <summary type="text">An SSE stream is an HTTP request that never ends. Every default you did not touch is working against it. TL;DR: your SSE endpoint breaks twice before it reaches your logic. Once because the Connection header is illegal in HTTP/2. Once because your Go server's default timeouts cut the stream at 30 seconds. And if you stay on HTTP/1.1, a permanent stream freezes the rest of your page. In August 2026</summary>
-    <author><name>Jules Robineau</name></author>
   </entry>
 </feed>
