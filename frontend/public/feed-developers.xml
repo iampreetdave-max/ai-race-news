@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T19:35:28Z</updated>
+  <updated>2026-08-25T20:33:49Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -21,6 +21,34 @@
     <updated>2026-08-25T00:00:00Z</updated>
     <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Supercharging Your Daily Dev Workflow with GitHub Copilot: From Jira to JUnit</title>
+    <link href="https://dev.to/shubhamp23/supercharging-your-daily-dev-workflow-with-github-copilot-from-jira-to-junit-fc7" rel="alternate"/>
+    <id>https://dev.to/shubhamp23/supercharging-your-daily-dev-workflow-with-github-copilot-from-jira-to-junit-fc7</id>
+    <updated>2026-08-25T20:20:08Z</updated>
+    <summary type="text">As developers, we’ve largely moved past the novelty of AI as just an &quot;autocomplete on steroids.&quot; Today, the real productivity gains come from integrating AI deeply into the entire software development lifecycle (SDLC). In this article, I’ll walk you through my daily workflow using GitHub Copilot—from analyzing Jira tickets via Model Context Protocol (MCP) integrations, to finalizing architectural </summary>
+    <author><name>Shubham</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>using Codex to build unity_access. Whats worked, what hasn't and tips for building your own accessible applications with AI.</title>
+    <link href="https://dev.to/retro-coder64/using-codex-to-build-unityaccess-whats-worked-what-hasnt-and-tips-for-building-your-own-2hkc" rel="alternate"/>
+    <id>https://dev.to/retro-coder64/using-codex-to-build-unityaccess-whats-worked-what-hasnt-and-tips-for-building-your-own-2hkc</id>
+    <updated>2026-08-25T20:15:06Z</updated>
+    <summary type="text">Over the past week, I have been vibe coding Unity Access, a plugin for the Unity Editor that makes the previously difficult-to-access editor more screen-reader compatible. Unity Access uses the NVDA API alongside the Unity Editor API to create a bridge between Unity and the NVDA screen reader. I have been using Codex for the programming, and it is for this reason that I wanted to write this post. </summary>
+    <author><name>Daniel Longmore</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Say Goodbye to YAML Hell: Introducing Infra Lang v0.5.1</title>
+    <link href="https://dev.to/tuvidev/say-goodbye-to-yaml-hell-introducing-infra-lang-v051-1ge2" rel="alternate"/>
+    <id>https://dev.to/tuvidev/say-goodbye-to-yaml-hell-introducing-infra-lang-v051-1ge2</id>
+    <updated>2026-08-25T19:56:11Z</updated>
+    <summary type="text">If you've ever spent 3 hours debugging a missing 2-space indentation in a 1,000-line Kubernetes YAML file or copy-pasting the same service definition between docker-compose.yml, Helm templates, and Terraform HCL — you're not alone. Today, I’m excited to share Infra Lang v0.5.1, an open-source, human-friendly Infrastructure-as-Code (IaC) compiler that lets you define your architecture once in a cle</summary>
+    <author><name>TuviDev</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>I'm using GPT Sol and Claude Opus for free — pi-coding-agent + OmniRoute</title>
@@ -428,34 +456,6 @@
     <updated>2026-08-24T16:06:44Z</updated>
     <summary type="text">The first experiment measured whether Claude Code knew the right answer. This one measured whether the work actually succeeded. In my previous experiment, I tested whether a memory layer could stop Claude Code from confidently repeating project-specific mistakes. It did. But there was an obvious limitation. The tasks measured whether the answer was correct. They did not ask the agent to modify a r</summary>
     <author><name>Giulio D'Erme</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your codex exec is wasting ~900 ms per turn. I measured where.</title>
-    <link href="https://dev.to/praveenvijayan/your-codex-exec-is-wasting-900-ms-per-turn-i-measured-where-1iip" rel="alternate"/>
-    <id>https://dev.to/praveenvijayan/your-codex-exec-is-wasting-900-ms-per-turn-i-measured-where-1iip</id>
-    <updated>2026-08-24T16:04:51Z</updated>
-    <summary type="text">I spent a weekend rebuilding the JavaScript harness of OpenAI's Codex CLI on Bun. I expected a runtime story. I got an architecture story — and one config line you can use today without touching my fork. The 30-second version Codex is a Rust engine with a thin JavaScript layer on top: an npm launcher, a TypeScript SDK, and a pnpm/jest/tsup toolchain. I swapped that layer to Bun, added a client tha</summary>
-    <author><name>praveen vijayan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Can Coding Agents Build Robust Baselines? A Skill-Based Approach for Automating the Medical Imaging Model-Development Pipeline</title>
-    <link href="https://arxiv.org/abs/2608.23336v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.23336v1</id>
-    <updated>2026-08-24T14:47:36Z</updated>
-    <summary type="text">Developing competitive deep learning baselines for medical imaging remains a highly iterative process requiring literature review, implementation, experimentation, and expert refinement. Existing automation approaches typically optimize isolated components, such as architecture search or hyperparameter tuning, rather than the complete baseline development process. We present an agentic AI Scientis</summary>
-    <author><name>José Ignacio Orlando</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I Cut a 2.1 MB JavaScript Bundle to 890 KB With Claude Code</title>
-    <link href="https://dev.to/yureki_lab/how-i-cut-a-21-mb-javascript-bundle-to-890-kb-with-claude-code-2a0p" rel="alternate"/>
-    <id>https://dev.to/yureki_lab/how-i-cut-a-21-mb-javascript-bundle-to-890-kb-with-claude-code-2a0p</id>
-    <updated>2026-08-24T14:32:36Z</updated>
-    <summary type="text">TL;DR I had a 2.1 MB initial JavaScript bundle and a Lighthouse performance score of 41 on mid-range Android. I used Claude Code as a measurement-driven &quot;perf detective&quot; instead of asking it to &quot;make the app faster,&quot; and got the bundle down to 890 KB in about four working sessions. The trick was giving the agent real build artifacts to read, forcing one change per measurement, and then locking the</summary>
-    <author><name>yureki_lab</name></author>
-    <category term="data"/>
     <category term="llm"/>
   </entry>
 </feed>
