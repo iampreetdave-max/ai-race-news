@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-25T10:36:58Z</updated>
+  <updated>2026-08-25T11:32:17Z</updated>
   <entry>
     <title>Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems</title>
     <link href="https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack/" rel="alternate"/>
@@ -397,6 +397,33 @@
     <author><name>Sarah Perez</name></author>
   </entry>
   <entry>
+    <title>Qwen 27B na Q3 kvantizaci napsal WebGL hlavu od nuly</title>
+    <link href="https://dev.to/petr_baloun/qwen-27b-na-q3-kvantizaci-napsal-webgl-hlavu-od-nuly-126k" rel="alternate"/>
+    <id>https://dev.to/petr_baloun/qwen-27b-na-q3-kvantizaci-napsal-webgl-hlavu-od-nuly-126k</id>
+    <updated>2026-08-25T11:25:04Z</updated>
+    <summary type="text">Lokální model Qwen 27B na kvantizaci Q3 napsal z ničeho WebGL render lidské hlavy — bez knihoven, na dvou RTX 3060 Ti. Výsledek je vtipně děsivý, ale ukazuje, jak daleko malé lokální modely v kreativním kódování došly. Co se stalo Uživatel položil svému lokálnímu modelu jednoduchý úkol: „vyrob mi lidskou hlavu ve WebGL od nuly, bez knihoven&quot;. Model Qwen 27B na kvantizaci Q3 (konkrétně Q3_K_M K6V4)</summary>
+    <author><name>Petr Baloun</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Authorize Can't See Your Data</title>
+    <link href="https://dev.to/kazemmdev/authorize-cant-see-your-data-47pc" rel="alternate"/>
+    <id>https://dev.to/kazemmdev/authorize-cant-see-your-data-47pc</id>
+    <updated>2026-08-25T11:18:48Z</updated>
+    <summary type="text">The first authorization bug I ever shipped wasn't a missing [Authorize] attribute. It was the opposite — everything had [Authorize], the tests were green, and it still let one user edit another user's stuff. The attribute was doing exactly what it promised. I just wanted it to promise something else. That's the gap that trips people up: [Authorize] answers &quot;is this user allowed to hit this endpoin</summary>
+    <author><name>Kazem</name></author>
+  </entry>
+  <entry>
+    <title>Why Your OpenAPI Spec Isn't Enough for AI Agents</title>
+    <link href="https://dev.to/spread2009/why-your-openapi-spec-isnt-enough-for-ai-agents-3cpe" rel="alternate"/>
+    <id>https://dev.to/spread2009/why-your-openapi-spec-isnt-enough-for-ai-agents-3cpe</id>
+    <updated>2026-08-25T11:18:43Z</updated>
+    <summary type="text">OpenAPI describes an API. Agent Readiness describes whether an agent can actually use it. Your API has a complete OpenAPI spec. Every endpoint, schema, and response code is documented. Yet when an AI agent tries to use it, the agent fails — not because the spec is wrong, but because the spec describes an interface, not an agent's experience. This isn't about OpenAPI being bad. OpenAPI is a necessa</summary>
+    <author><name>Paul Spread</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Markets Eye Bessent, Warsh, Nvidia | Open Interest 8/24/2026</title>
     <link href="https://www.bloomberg.com/news/videos/2026-08-24/open-interest-8-24-2026-video" rel="alternate"/>
     <id>https://www.bloomberg.com/news/videos/2026-08-24/open-interest-8-24-2026-video</id>
@@ -406,49 +433,22 @@
     <category term="hardware"/>
   </entry>
   <entry>
-    <title>Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/chinese-hackers-use-deepseek-to-boost-attacks-researchers-say" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/chinese-hackers-use-deepseek-to-boost-attacks-researchers-say</id>
-    <updated>2026-08-24T17:13:49Z</updated>
-    <summary type="text">Chinese hackers are ramping up attacks after integrating DeepSeek and other open-source artificial intelligence models into their operations, highlighting attackers’ ability to leverage basic AI tools to hit targets abroad.</summary>
-    <author><name>Mark Anderson</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
+    <title>Building a Modern Data Lakehouse on AWS: S3, Iceberg, Glue, Athena, and Lake Formation</title>
+    <link href="https://dev.to/alpeshkumbhare/building-a-modern-data-lakehouse-on-aws-s3-iceberg-glue-athena-and-lake-formation-1lel" rel="alternate"/>
+    <id>https://dev.to/alpeshkumbhare/building-a-modern-data-lakehouse-on-aws-s3-iceberg-glue-athena-and-lake-formation-1lel</id>
+    <updated>2026-08-25T11:15:51Z</updated>
+    <summary type="text">The data lakehouse has become the default architecture for analytics on AWS in 2026. It combines the best of both worlds: the low-cost, schema-flexible storage of a data lake (S3) with the performance, ACID transactions, and governance of a data warehouse — without actually running a warehouse for most workloads. The enabling technology: Apache Iceberg — an open table format that brings SQL-like c</summary>
+    <author><name>AlpeshKumbhare</name></author>
+    <category term="data"/>
   </entry>
   <entry>
-    <title>Zillow and Redfin settle FTC antitrust case over their rental listings partnership</title>
-    <link href="https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement" rel="alternate"/>
-    <id>https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement</id>
-    <updated>2026-08-24T17:01:05Z</updated>
-    <summary type="text">The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 &quot;partnership&quot; between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin would end its own advertising contracts and promise not to compete with Zillow for multifamily listings. […]</summary>
-    <author><name>Stevie Bonifield</name></author>
-  </entry>
-  <entry>
-    <title>Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China</title>
-    <link href="https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/" rel="alternate"/>
-    <id>https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/</id>
-    <updated>2026-08-24T16:41:45Z</updated>
-    <summary type="text">Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.</summary>
-    <author><name>Ashley Belanger</name></author>
+    <title>Jak rozjet lokální LLM napojený na Home Assistant</title>
+    <link href="https://dev.to/petr_baloun/jak-rozjet-lokalni-llm-napojeny-na-home-assistant-pribeh-z-rlocalllama-5gd3" rel="alternate"/>
+    <id>https://dev.to/petr_baloun/jak-rozjet-lokalni-llm-napojeny-na-home-assistant-pribeh-z-rlocalllama-5gd3</id>
+    <updated>2026-08-25T11:15:25Z</updated>
+    <summary type="text">Když se nedaří rozjet lokální model, bývá to většinou o jedné špatné komponentě. Uživatel se o tom přesvědčil na vlastní kůži: po roce vzdávání stačila hodina práce s llama.cpp a Qwen 3.8 27B se změnil z frustrace ve fungujícího agenta napojeného na Home Assistant. Příběh: rok frustrace, hodina práce OP si v roce 2023 pořídil několik GPU pro Folding@Home a vždy chtěl vlastního lokálního agenta na </summary>
+    <author><name>Petr Baloun</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>I Ran a Week of Real Open Source Work on Ox Alpha, the Internet's Mystery Free Coding Model</title>
-    <link href="https://dev.to/aniruddhaadak/i-ran-a-week-of-real-open-source-work-on-ox-alpha-the-internets-mystery-free-coding-model-1lbo" rel="alternate"/>
-    <id>https://dev.to/aniruddhaadak/i-ran-a-week-of-real-open-source-work-on-ox-alpha-the-internets-mystery-free-coding-model-1lbo</id>
-    <updated>2026-08-25T10:22:03Z</updated>
-    <summary type="text">Last week my coding agent started answering me from a model that officially does not exist. No company name, no launch blog, no system card. Just a slug on a router and a bill of exactly zero dollars. This is the story of how I ended up running a full week of real open source work on that mystery model, what it handled well, where it fell flat, and why the strangest part was not the model at all. </summary>
-    <author><name>ANIRUDDHA  ADAK</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>5 AI Infrastructure Layers That Decide Whether Your Shopify Store Gets Cited in 2026</title>
-    <link href="https://dev.to/pramendray/5-ai-infrastructure-layers-that-decide-whether-your-shopify-store-gets-cited-in-2026-2229" rel="alternate"/>
-    <id>https://dev.to/pramendray/5-ai-infrastructure-layers-that-decide-whether-your-shopify-store-gets-cited-in-2026-2229</id>
-    <updated>2026-08-25T10:19:35Z</updated>
-    <summary type="text">&quot;AI infrastructure&quot; usually gets framed as a compute-and-model conversation which provider, which model, how much it costs to run. For a Shopify store, the infrastructure question that actually matters is different: which layers of your stack determine whether an AI agent can find, parse, and cite your product data at all. Here are the five that decide it. Key benefit: Diagnose AEO failures at the</summary>
-    <author><name>Pramendra Yadav</name></author>
-    <category term="agents"/>
+    <category term="llm"/>
   </entry>
 </feed>
