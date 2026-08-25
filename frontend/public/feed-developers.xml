@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T06:54:54Z</updated>
+  <updated>2026-08-25T07:48:17Z</updated>
   <entry>
     <title>Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo</title>
     <link href="https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/" rel="alternate"/>
@@ -13,6 +13,23 @@
     <summary type="text">Generalist AI has released GEN-1.5, a robot foundation model that learns a new physical task from a single demonstration. Drop 3–12 seconds of sensorimotor data into its 30-second context window, and the robot performs the task. No gradient updates, no fine-tuning, no task-specific programming. Across 10 diverse manipulation tasks, this one-shot in-context prompting averaged 59% […] The post Gener</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Daily Dose of DevOps — Kubernetes readiness vs liveness probes</title>
+    <link href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-readiness-vs-liveness-probes-17ij" rel="alternate"/>
+    <id>https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-readiness-vs-liveness-probes-17ij</id>
+    <updated>2026-08-25T07:38:51Z</updated>
+    <summary type="text">Kubernetes Probes as Failure Detectors: Semantics, Timing, and Cascading Risk Kubernetes probes are distributed-systems failure detectors with different control effects. A readiness failure removes a Pod from Service endpoints; a liveness failure asks the kubelet to restart the container. The distinction matters because detection is necessarily imperfect: aggressive thresholds reduce detection lat</summary>
+    <author><name>Marco</name></author>
+  </entry>
+  <entry>
+    <title>Deep Dive: Testing Radar UI for Kubernetes using MCP, a Go GUI, and an Autonomous Agent</title>
+    <link href="https://dev.to/aairom/deep-dive-testing-radar-ui-for-kubernetes-using-mcp-a-go-gui-and-an-autonomous-agent-4ioi" rel="alternate"/>
+    <id>https://dev.to/aairom/deep-dive-testing-radar-ui-for-kubernetes-using-mcp-a-go-gui-and-an-autonomous-agent-4ioi</id>
+    <updated>2026-08-25T07:31:59Z</updated>
+    <summary type="text">Hand-on test of radarhq.io K8S UI and dashboard on a macOS with Minikube and Podman Introduction Kubernetes dashboards are often either overloaded with unnecessary complexity or too minimalist to provide deep operational context during an outage. Radar (radarhq.io) takes a refreshingly modern approach. It not only delivers a clean visual cluster dashboard but also natively integrates a Model Conte</summary>
+    <author><name>Alain Airom (Ayrom)</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>My bot logged a fresh decision every 5 minutes for over an hour. The price it was deciding on never moved once.</title>
@@ -442,23 +459,5 @@
     <summary type="text">AI coding agents are no longer an experiment. According to JetBrains' Developer Ecosystem Survey 2026, 90% of professional developers now use AI coding agents at work at least weekly. 68% use them daily. The survey ran from May to July 2026 and collected responses from more than 15,000 professional developers worldwide, in its tenth year running. But the headline number is not the interesting part</summary>
     <author><name>jamilxt</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>🧐 ECS Express Mode vs Traditional ECS: A Hands-on Comparison with Terraform</title>
-    <link href="https://dev.to/aws-builders/ecs-express-mode-vs-traditional-ecs-a-hands-on-comparison-with-terraform-cnp" rel="alternate"/>
-    <id>https://dev.to/aws-builders/ecs-express-mode-vs-traditional-ecs-a-hands-on-comparison-with-terraform-cnp</id>
-    <updated>2026-08-23T19:05:08Z</updated>
-    <summary type="text">Hola Amigos 👋 Welcome to the world of Cloud and Automation! AWS launched ECS Express Mode in late 2025, and in today’s blog, we will understand how it compares to traditional AWS ECS. We will use a basic Flask portfolio website with three versions to illustrate how both approaches handle infrastructure operations with Terraform. Prerequisites Before we start, make sure you have the following requi</summary>
-    <author><name>Pravesh Sudha</name></author>
-  </entry>
-  <entry>
-    <title>One Knowledge Base, Four Surfaces: Pages, Graph, Search Index, and MCP</title>
-    <link href="https://dev.to/makaminski1337/one-knowledge-base-four-surfaces-pages-graph-search-index-and-mcp-5a5p" rel="alternate"/>
-    <id>https://dev.to/makaminski1337/one-knowledge-base-four-surfaces-pages-graph-search-index-and-mcp-5a5p</id>
-    <updated>2026-08-23T18:37:28Z</updated>
-    <summary type="text">Originally published on michael-kaminski.io. The Genome of Games publishes the same 1,180 records four different ways, and one command writes all four: node build.js, 0.39 seconds, zero npm dependencies. Out come 1,245 static HTML pages for crawlers, an interactive canvas graph for humans, a 129,037-byte search index for the site's own search box, and a Model Context Protocol server exposing 8 too</summary>
-    <author><name>Michael Kaminski</name></author>
-    <category term="rag"/>
-    <category term="agents"/>
   </entry>
 </feed>
