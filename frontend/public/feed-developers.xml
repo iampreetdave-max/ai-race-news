@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T01:26:26Z</updated>
+  <updated>2026-08-25T03:03:08Z</updated>
   <entry>
     <title>Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo</title>
     <link href="https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/" rel="alternate"/>
@@ -13,6 +13,42 @@
     <summary type="text">Generalist AI has released GEN-1.5, a robot foundation model that learns a new physical task from a single demonstration. Drop 3–12 seconds of sensorimotor data into its 30-second context window, and the robot performs the task. No gradient updates, no fine-tuning, no task-specific programming. Across 10 diverse manipulation tasks, this one-shot in-context prompting averaged 59% […] The post Gener</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DevOps Lab: CI/CD Deployment to AWS ECS</title>
+    <link href="https://dev.to/jumptotech/devops-lab-cicd-deployment-to-aws-ecs-166p" rel="alternate"/>
+    <id>https://dev.to/jumptotech/devops-lab-cicd-deployment-to-aws-ecs-166p</id>
+    <updated>2026-08-25T02:55:34Z</updated>
+    <summary type="text">Scenario You are the DevOps Engineer. Jules is your Software Developer. Ask Jules to create a professional website for a product of your choice. Jules is responsible for application development. You are responsible for the entire DevOps lifecycle. The final result must be: https://yourdomain.com The browser must display the name of your product. Part 1 — Application Development Jules acts as the d</summary>
+    <author><name>Aisalkyn Aidarova</name></author>
+  </entry>
+  <entry>
+    <title>LLM Memory vs Context Window: The Gap Nobody Explains</title>
+    <link href="https://dev.to/mryadavgulshan/llm-memory-vs-context-window-the-gap-nobody-explains-1mk6" rel="alternate"/>
+    <id>https://dev.to/mryadavgulshan/llm-memory-vs-context-window-the-gap-nobody-explains-1mk6</id>
+    <updated>2026-08-25T02:30:00Z</updated>
+    <summary type="text">The context window is a container. Memory is what you decide to put in it. Almost every &quot;memory&quot; conversation conflates the two — here is how they actually work, and how to build a memory layer that does not bankrupt you. Two months ago I was debugging a customer-support agent for a retail client, and the numbers on the dashboard made no sense. Conversations that should have cost a few cents were </summary>
+    <author><name>Gulshan Yadav</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How Scraping AI Extracts Structured Data from Any Webpage Without CSS Selectors</title>
+    <link href="https://dev.to/amandeep-sms/how-scraping-ai-extracts-structured-data-from-any-webpage-without-css-selectors-5gfk" rel="alternate"/>
+    <id>https://dev.to/amandeep-sms/how-scraping-ai-extracts-structured-data-from-any-webpage-without-css-selectors-5gfk</id>
+    <updated>2026-08-25T02:25:09Z</updated>
+    <summary type="text">How Scraping AI Extracts Structured Data from Any Webpage Without CSS Selectors Stop maintaining fragile CSS selectors. Turn any webpage into validated JSON with the Python SDK. [!NOTE] TL;DR The problem: Traditional scrapers break when a site changes its CSS classes, such as .price becoming ._3xP9z. That means more maintenance and broken data pipelines. The solution: The scraping-ai Python SDK us</summary>
+    <author><name>Aman Deep Singh</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Kubernetes: senales utiles para CronJobs fragiles</title>
+    <link href="https://dev.to/alexcarteruk/kubernetes-senales-utiles-para-cronjobs-fragiles-59n" rel="alternate"/>
+    <id>https://dev.to/alexcarteruk/kubernetes-senales-utiles-para-cronjobs-fragiles-59n</id>
+    <updated>2026-08-25T02:24:44Z</updated>
+    <summary type="text">Los CronJobs en Kubernetes suelen parecer simples hasta que fallan de forma intermitente. El contenedor termina, vuelve a correr mas tarde, y el equipo solo ve una alerta floja de &quot;job failed&quot;. En guardias SRE eso desgasta bastante porqe cada intento deja pistas distintas: a veces falta CPU, a veces una dependencia externa tarda demasiado, y a veces el problema es un dato raro que solo aparece una</summary>
+    <author><name>Alex Carter</name></author>
   </entry>
   <entry>
     <title>I Built NameSnap With Codex: Five Lessons About AI-Generated App Design</title>
@@ -87,6 +123,15 @@
     <author><name>Schiff Heimlich</name></author>
   </entry>
   <entry>
+    <title>Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search</title>
+    <link href="https://arxiv.org/abs/2608.23503v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.23503v1</id>
+    <updated>2026-08-24T17:04:34Z</updated>
+    <summary type="text">Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details during reformulation, or utilizing absolute pointwise scoring for multimodal verification. To addres</summary>
+    <author><name>Minh-Triet Tran</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Effective AI Agents with GitHub Copilot</title>
     <link href="https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7" rel="alternate"/>
     <id>https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7</id>
@@ -114,6 +159,15 @@
     <summary type="text">I spent a weekend rebuilding the JavaScript harness of OpenAI's Codex CLI on Bun. I expected a runtime story. I got an architecture story — and one config line you can use today without touching my fork. The 30-second version Codex is a Rust engine with a thin JavaScript layer on top: an npm launcher, a TypeScript SDK, and a pnpm/jest/tsup toolchain. I swapped that layer to Bun, added a client tha</summary>
     <author><name>praveen vijayan</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Can Coding Agents Build Robust Baselines? A Skill-Based Approach for Automating the Medical Imaging Model-Development Pipeline</title>
+    <link href="https://arxiv.org/abs/2608.23336v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.23336v1</id>
+    <updated>2026-08-24T14:47:36Z</updated>
+    <summary type="text">Developing competitive deep learning baselines for medical imaging remains a highly iterative process requiring literature review, implementation, experimentation, and expert refinement. Existing automation approaches typically optimize isolated components, such as architecture search or hyperparameter tuning, rather than the complete baseline development process. We present an agentic AI Scientis</summary>
+    <author><name>José Ignacio Orlando</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>How I Cut a 2.1 MB JavaScript Bundle to 890 KB With Claude Code</title>
@@ -405,60 +459,6 @@
     <updated>2026-08-23T17:21:08Z</updated>
     <summary type="text">Most developers treat free model tokens as a code generation budget. They ask for snippets, refactors, and explanations, then wonder why the tokens disappear without making their codebase measurably better. I think the highest-leverage use is debugging. A model that reads your error logs and produces a ranked list of hypotheses can save you more time than any code snippet it generates, because deb</summary>
     <author><name>Dakota Liu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Making AI Coding Agents More Efficient: My Local Toolkit</title>
-    <link href="https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n" rel="alternate"/>
-    <id>https://dev.to/ammarnajjar/making-ai-coding-agents-more-efficient-my-local-toolkit-86n</id>
-    <updated>2026-08-23T17:17:43Z</updated>
-    <summary type="text">Giving AI coding agents more tools doesn’t necessarily make them more efficient. After using OpenCode and Claude Code heavily, I started focusing less on adding capabilities and more on controlling the information flowing into the agent. That means: searching before reading entire files choosing between text, structural, and semantic search reducing noisy command output keeping sessions focused de</summary>
-    <author><name>Ammar Najjar</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>BrunnerCTF : WordPressed to Root Writeup</title>
-    <link href="https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62" rel="alternate"/>
-    <id>https://dev.to/exploitnotes/brunnerctf-wordpressed-to-root-writeup-3o62</id>
-    <updated>2026-08-23T15:20:37Z</updated>
-    <summary type="text">Overview The box ships a mostly-stock WordPress 7.0.0 install on PHP 8.2 / Apache, running on a Debian Trixie base image, packaged as a Docker/Kubernetes challenge deployment. Initial access comes through a deliberately vulnerable plugin (wp2shell) that hands over a www-data shell. Privilege escalation is the real puzzle: the box is hardened against the usual container-escape and SUID tricks, and </summary>
-    <author><name>Yogeshwar Peela</name></author>
-  </entry>
-  <entry>
-    <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
-    <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/</id>
-    <updated>2026-08-22T13:43:13Z</updated>
-    <summary type="text">Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the harness decides quality, then how you run the loop becomes […] The post Decoding AI</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Solving AI Amnesia: Why Your Coding Agents Needs Institutional Memory</title>
-    <link href="https://dev.to/alexleotz23086493/solving-ai-amnesia-why-your-coding-agents-needs-institutional-memory-5c46" rel="alternate"/>
-    <id>https://dev.to/alexleotz23086493/solving-ai-amnesia-why-your-coding-agents-needs-institutional-memory-5c46</id>
-    <updated>2026-08-23T13:43:14Z</updated>
-    <summary type="text">Solving AI Amnesia: Why Your Coding Agents Needs Institutional Memory Every developer using AI coding agents eventually hits the same wall. You spend three hours debugging a subtle race condition in an async worker. The agent finds an undocumented quirk in your queue library, applies a targeted workaround, and the test suite turns green. Two days later, you open a fresh chat session or switch mode</summary>
-    <author><name>AlexLeo</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>A Supply-Chain Worm Wrote Itself Into Claude Code's Hook Files to Survive Credential Rotation</title>
-    <link href="https://dev.to/ramdai_bista/a-supply-chain-worm-wrote-itself-into-claude-codes-hook-files-to-survive-credential-rotation-5ce4" rel="alternate"/>
-    <id>https://dev.to/ramdai_bista/a-supply-chain-worm-wrote-itself-into-claude-codes-hook-files-to-survive-credential-rotation-5ce4</id>
-    <updated>2026-08-23T13:21:00Z</updated>
-    <summary type="text">Rotating your credentials and removing a poisoned package is supposed to end an npm supply-chain compromise. In early August 2026, one worm made sure it didn't have to. What happened Microsoft's security research team tracked a campaign it calls &quot;ChainDrop&quot; — reported elsewhere as the keyv/cacheable compromise, or &quot;Mini Shai-Hulud&quot; — that took over an npm maintainer account and published trojanize</summary>
-    <author><name>Ramdai Bista</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Automating the Overhead: Building a Multi-Tool Developer Assistant with Python and Gemini</title>
-    <link href="https://dev.to/yugeshwaran-gm/automating-the-overhead-building-a-multi-tool-developer-assistant-with-python-and-gemini-264m" rel="alternate"/>
-    <id>https://dev.to/yugeshwaran-gm/automating-the-overhead-building-a-multi-tool-developer-assistant-with-python-and-gemini-264m</id>
-    <updated>2026-08-23T13:14:53Z</updated>
-    <summary type="text">Automating the Overhead: Building a Multi-Tool Developer Assistant with Python and Gemini Software development isn't only about writing code. A significant part of a developer's day can be spent writing status updates, preparing pull requests, creating commit messages, investigating errors, analyzing support tickets, preparing deployment checklists, and documenting technical work. These tasks are </summary>
-    <author><name>YUGESHWARAN G</name></author>
     <category term="llm"/>
   </entry>
 </feed>
