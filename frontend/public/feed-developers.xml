@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T21:34:38Z</updated>
+  <updated>2026-08-25T22:33:58Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -21,6 +21,24 @@
     <updated>2026-08-25T00:00:00Z</updated>
     <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>GitHub Copilot Premium Requests: Allowances, Multipliers, Billing, and What Replaced Them</title>
+    <link href="https://dev.to/rebeca_vb/github-copilot-premium-requests-allowances-multipliers-billing-and-what-replaced-them-d3p" rel="alternate"/>
+    <id>https://dev.to/rebeca_vb/github-copilot-premium-requests-allowances-multipliers-billing-and-what-replaced-them-d3p</id>
+    <updated>2026-08-25T21:48:38Z</updated>
+    <summary type="text">GitHub Copilot premium requests are the metered unit that determined how much advanced Copilot usage your plan covered, and if you are searching for how they work in mid-2026, you need two answers, not one. First, the mechanics: a premium request is consumed each time you use an advanced Copilot feature, scaled by a per-model multiplier, against a fixed monthly allowance that came with your plan. </summary>
+    <author><name>Rebeca</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Upgrade That Wasn’t: When ‘Newer’ AI Feels Like a Downgrade</title>
+    <link href="https://dev.to/theaidownside/the-upgrade-that-wasnt-when-newer-ai-feels-like-a-downgrade-4ngo" rel="alternate"/>
+    <id>https://dev.to/theaidownside/the-upgrade-that-wasnt-when-newer-ai-feels-like-a-downgrade-4ngo</id>
+    <updated>2026-08-25T21:48:07Z</updated>
+    <summary type="text">Some fortnights the complaint is the bill. This one it was the product itself. Across the forums where paying customers of the big AI tools compare notes, the same grievance surfaced against three different companies in the same window, and it wasn’t about price at all. It was about direction: the new model feels worse than the old one, the app quietly took away the thing I used, and I can’t even </summary>
+    <author><name>The AI Downside</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets</title>
@@ -437,25 +455,5 @@
     <updated>2026-08-24T17:05:31Z</updated>
     <summary type="text">A colleague pinged me last week with a config issue that had him chasing his tail for an afternoon. Turns out he was setting country: NO in a YAML file, expecting it to mean Norway. YAML thought he meant boolean false. The Problem YAML 1.1 treats these unquoted strings as booleans: yes, no, on, off, true, false Case-insensitive variants work too So if you have: database: country: NO enabled: true </summary>
     <author><name>Schiff Heimlich</name></author>
-  </entry>
-  <entry>
-    <title>Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search</title>
-    <link href="https://arxiv.org/abs/2608.23503v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.23503v1</id>
-    <updated>2026-08-24T17:04:34Z</updated>
-    <summary type="text">Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details during reformulation, or utilizing absolute pointwise scoring for multimodal verification. To addres</summary>
-    <author><name>Minh-Triet Tran</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Effective AI Agents with GitHub Copilot</title>
-    <link href="https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7" rel="alternate"/>
-    <id>https://dev.to/majdizlitni/effective-ai-agents-with-github-copilot-4ck7</id>
-    <updated>2026-08-24T16:44:08Z</updated>
-    <summary type="text">The most successful AI agent do NOT use complex and over-engineered frameworks. Instead, they use simple, modular patterns. To use agents you don't need to learn massive third-party agent frameworks to build powerful AI assistants. Using GitHub Copilot you get all pieces natively: Copilot Agent Mode Custom Agents Agent Skills Prompt Files Model Context Protocol (MCP) I will break down the core pri</summary>
-    <author><name>Majdi Zlitni</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
