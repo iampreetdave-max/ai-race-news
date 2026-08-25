@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-25T20:33:49Z</updated>
+  <updated>2026-08-25T21:34:38Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -21,6 +21,15 @@
     <updated>2026-08-25T00:00:00Z</updated>
     <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets</title>
+    <link href="https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5" rel="alternate"/>
+    <id>https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5</id>
+    <updated>2026-08-25T21:08:06Z</updated>
+    <summary type="text">mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets A sanitizer that strips Unicode concealment codepoints (TAG block, zero-width, bidi) from MCP tool metadata — and a second layer that checks the human approval-view equals the bytes delivered to the model. Zero runtime dependencies. The problem When an LLM agent consumes tools from an external MCP server, the to</summary>
+    <author><name>Fenix</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Supercharging Your Daily Dev Workflow with GitHub Copilot: From Jira to JUnit</title>
@@ -448,14 +457,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I Gave Claude Code a Brain. This Time I Let the Tests Judge It.</title>
-    <link href="https://dev.to/gde03/i-gave-claude-code-a-brain-this-time-i-let-the-tests-judge-it-5h0p" rel="alternate"/>
-    <id>https://dev.to/gde03/i-gave-claude-code-a-brain-this-time-i-let-the-tests-judge-it-5h0p</id>
-    <updated>2026-08-24T16:06:44Z</updated>
-    <summary type="text">The first experiment measured whether Claude Code knew the right answer. This one measured whether the work actually succeeded. In my previous experiment, I tested whether a memory layer could stop Claude Code from confidently repeating project-specific mistakes. It did. But there was an obvious limitation. The tasks measured whether the answer was correct. They did not ask the agent to modify a r</summary>
-    <author><name>Giulio D'Erme</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

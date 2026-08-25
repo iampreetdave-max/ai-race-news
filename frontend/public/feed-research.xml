@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-25T20:33:49Z</updated>
+  <updated>2026-08-25T21:34:38Z</updated>
+  <entry>
+    <title>mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets</title>
+    <link href="https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5" rel="alternate"/>
+    <id>https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5</id>
+    <updated>2026-08-25T21:08:06Z</updated>
+    <summary type="text">mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets A sanitizer that strips Unicode concealment codepoints (TAG block, zero-width, bidi) from MCP tool metadata — and a second layer that checks the human approval-view equals the bytes delivered to the model. Zero runtime dependencies. The problem When an LLM agent consumes tools from an external MCP server, the to</summary>
+    <author><name>Fenix</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>RAG Knowledge Bases: Precision vs Breadth</title>
     <link href="https://dev.to/gateofai/rag-knowledge-bases-precision-vs-breadth-1k2h" rel="alternate"/>
