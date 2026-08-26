@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-26T03:11:40Z</updated>
+  <updated>2026-08-26T04:46:14Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -21,6 +21,23 @@
     <updated>2026-08-25T00:00:00Z</updated>
     <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>CI/CD for Azure Logic Apps Standard on a Private (ILB) ASE — Without a VNet Agent</title>
+    <link href="https://dev.to/vicky_acedia/cicd-for-azure-logic-apps-standard-on-a-private-ilb-ase-without-a-vnet-agent-1j2e" rel="alternate"/>
+    <id>https://dev.to/vicky_acedia/cicd-for-azure-logic-apps-standard-on-a-private-ilb-ase-without-a-vnet-agent-1j2e</id>
+    <updated>2026-08-26T04:19:58Z</updated>
+    <summary type="text">How we wired an Azure DevOps pipeline to a Logic App Standard running on an internal App Service Environment, hit six real-world failures on the way, and ended with a deployment that needs no SAS tokens, no SCM access, and no VNet-connected build agent. The problem Logic Apps Standard on an ILB App Service Environment (ASE v3) has no public SCM (Kudu) endpoint. That kills the two &quot;normal&quot; deployme</summary>
+    <author><name>Vignesh Athiappan</name></author>
+  </entry>
+  <entry>
+    <title>How to Automate Failed Test Triage With Allure TestOps and AI</title>
+    <link href="https://hackernoon.com/how-to-automate-failed-test-triage-with-allure-testops-and-ai?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/how-to-automate-failed-test-triage-with-allure-testops-and-ai?source=rss</id>
+    <updated>2026-08-26T04:07:06Z</updated>
+    <summary type="text">When a run goes red, the fact of failure tells you almost nothing: it can be a product bug, a broken test, stale data, a dead environment, a contract change, or a known issue that already has a ticket. Our rule is one defect per cause in Allure TestOps, a matcher rule on every defect so recurring failures link themselves in later runs, and a tracker issue created through the integration when the c</summary>
+    <author><name>Oleg</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How to Automate Invoicing and Stop Chasing Payments</title>
@@ -437,24 +454,5 @@
     <summary type="text">The context window is a container. Memory is what you decide to put in it. Almost every &quot;memory&quot; conversation conflates the two — here is how they actually work, and how to build a memory layer that does not bankrupt you. Two months ago I was debugging a customer-support agent for a retail client, and the numbers on the dashboard made no sense. Conversations that should have cost a few cents were </summary>
     <author><name>Gulshan Yadav</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How Scraping AI Extracts Structured Data from Any Webpage Without CSS Selectors</title>
-    <link href="https://dev.to/amandeep-sms/how-scraping-ai-extracts-structured-data-from-any-webpage-without-css-selectors-5gfk" rel="alternate"/>
-    <id>https://dev.to/amandeep-sms/how-scraping-ai-extracts-structured-data-from-any-webpage-without-css-selectors-5gfk</id>
-    <updated>2026-08-25T02:25:09Z</updated>
-    <summary type="text">How Scraping AI Extracts Structured Data from Any Webpage Without CSS Selectors Stop maintaining fragile CSS selectors. Turn any webpage into validated JSON with the Python SDK. [!NOTE] TL;DR The problem: Traditional scrapers break when a site changes its CSS classes, such as .price becoming ._3xP9z. That means more maintenance and broken data pipelines. The solution: The scraping-ai Python SDK us</summary>
-    <author><name>Aman Deep Singh</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Kubernetes: senales utiles para CronJobs fragiles</title>
-    <link href="https://dev.to/alexcarteruk/kubernetes-senales-utiles-para-cronjobs-fragiles-59n" rel="alternate"/>
-    <id>https://dev.to/alexcarteruk/kubernetes-senales-utiles-para-cronjobs-fragiles-59n</id>
-    <updated>2026-08-25T02:24:44Z</updated>
-    <summary type="text">Los CronJobs en Kubernetes suelen parecer simples hasta que fallan de forma intermitente. El contenedor termina, vuelve a correr mas tarde, y el equipo solo ve una alerta floja de &quot;job failed&quot;. En guardias SRE eso desgasta bastante porqe cada intento deja pistas distintas: a veces falta CPU, a veces una dependencia externa tarda demasiado, y a veces el problema es un dato raro que solo aparece una</summary>
-    <author><name>Alex Carter</name></author>
   </entry>
 </feed>
