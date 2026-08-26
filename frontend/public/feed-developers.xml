@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-26T01:39:16Z</updated>
+  <updated>2026-08-26T03:11:40Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -21,6 +21,32 @@
     <updated>2026-08-25T00:00:00Z</updated>
     <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>How to Automate Invoicing and Stop Chasing Payments</title>
+    <link href="https://dev.to/samchenreviews/how-to-automate-invoicing-and-stop-chasing-payments-2dka" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/how-to-automate-invoicing-and-stop-chasing-payments-2dka</id>
+    <updated>2026-08-26T02:26:27Z</updated>
+    <summary type="text">You can build a fully hands-off invoice → payment pipeline that creates a Stripe invoice, records it in QuickBooks, and sends escalating email reminders - all without writing a line of custom code. The result is a reliable accounts-receivable workflow that reduces manual effort and improves cash flow. Key insight: Automation removes the human &quot;forget-to-follow-up&quot; error, so you get paid on schedul</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>PromptClip-Skill: a prompt-driven filter for throwaway family videos</title>
+    <link href="https://dev.to/irving_leung_cf46890d1070/promptclip-skill-a-prompt-driven-filter-for-throwaway-family-videos-g2k" rel="alternate"/>
+    <id>https://dev.to/irving_leung_cf46890d1070/promptclip-skill-a-prompt-driven-filter-for-throwaway-family-videos-g2k</id>
+    <updated>2026-08-26T02:20:17Z</updated>
+    <summary type="text">I built PromptClip-Skill, an open-source Codex Skill for finding the meaningful moments inside a folder of casual videos. This started with a very ordinary problem: recording family life is easy, but reviewing it is not. A few minutes of a baby playing, a beach walk, or a weekend outing can produce dozens of clips. Many contain camera shake, accidental recordings, repeated actions, empty frames, o</summary>
+    <author><name>irving leung</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>What Bedrock AgentCore Actually Puts on Your A2A Agent Card</title>
+    <link href="https://dev.to/aws-builders/what-bedrock-agentcore-actually-puts-on-your-a2a-agent-card-1h34" rel="alternate"/>
+    <id>https://dev.to/aws-builders/what-bedrock-agentcore-actually-puts-on-your-a2a-agent-card-1h34</id>
+    <updated>2026-08-26T02:17:11Z</updated>
+    <summary type="text">This article provides a step by step look at the A2A agent card a Strands agent publishes on Amazon Bedrock AgentCore Runtime, and how it compares field by field against the same agent on Google Cloud Run and Azure Container Apps. The code is here: github.com/xbill9/multicloud-agentcard Same Protocol - Different Cards! Why do I care what is in the Agent Card? Can't I just invoke the Agent? What is</summary>
+    <author><name>xbill</name></author>
   </entry>
   <entry>
     <title>Copilot's Code Review Cannot Block Your Merge. It Says So in the Docs.</title>
@@ -430,33 +456,5 @@
     <updated>2026-08-25T02:24:44Z</updated>
     <summary type="text">Los CronJobs en Kubernetes suelen parecer simples hasta que fallan de forma intermitente. El contenedor termina, vuelve a correr mas tarde, y el equipo solo ve una alerta floja de &quot;job failed&quot;. En guardias SRE eso desgasta bastante porqe cada intento deja pistas distintas: a veces falta CPU, a veces una dependencia externa tarda demasiado, y a veces el problema es un dato raro que solo aparece una</summary>
     <author><name>Alex Carter</name></author>
-  </entry>
-  <entry>
-    <title>I Built NameSnap With Codex: Five Lessons About AI-Generated App Design</title>
-    <link href="https://dev.to/marcusykim/i-built-namesnap-with-codex-five-lessons-about-ai-generated-app-design-491a" rel="alternate"/>
-    <id>https://dev.to/marcusykim/i-built-namesnap-with-codex-five-lessons-about-ai-generated-app-design-491a</id>
-    <updated>2026-08-24T23:13:04Z</updated>
-    <summary type="text">I built an app as an experiment with Codex's design capabilities. The app is called NameSnap Picker. It helps teachers, streamers, coaches, parties, and other groups choose a name fairly without turning the process into a miniature administrative hearing. You can paste a list of names, use a fast Quick Pick, spin a wheel, avoid repeats, and keep a visible history of winners. The current native bui</summary>
-    <author><name>Marcus Kim</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Agent Memory Rots Silently — Audit Yours in One Command</title>
-    <link href="https://dev.to/secondbrainstarter/ai-agent-memory-rots-silently-audit-yours-in-one-command-5amd" rel="alternate"/>
-    <id>https://dev.to/secondbrainstarter/ai-agent-memory-rots-silently-audit-yours-in-one-command-5amd</id>
-    <updated>2026-08-24T22:55:19Z</updated>
-    <summary type="text">Last week I published Verified Memory Vault — a free Obsidian vault that gives Claude Code, Codex or Gemini CLI persistent memory through a plain CLAUDE.md boot file and an append-only MEMORY.md. It works. But after running it for a few weeks, something became obvious: Memory systems don't fail loudly. They rot silently. Nobody deletes your agent's brain in one dramatic afternoon. Instead: A note </summary>
-    <author><name>Second Brain Starter</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Tried the Mysterious Ox Alpha Model. Then I Fell Down the Rabbit Hole of Who Actually Made It.</title>
-    <link href="https://dev.to/sizzlebop/i-tried-the-mysterious-ox-alpha-model-then-i-fell-down-the-rabbit-hole-of-who-actually-made-it-a4j" rel="alternate"/>
-    <id>https://dev.to/sizzlebop/i-tried-the-mysterious-ox-alpha-model-then-i-fell-down-the-rabbit-hole-of-who-actually-made-it-a4j</id>
-    <updated>2026-08-24T20:01:56Z</updated>
-    <summary type="text">A few days ago, a new AI model quietly appeared on OpenRouter. Its name is Ox Alpha. Nobody officially knows who made it. It is listed as stealth/ox-alpha, described as a reasoning model built for coding and sustained agentic work, and it comes with some pretty wild specs, including a 1,048,576-token context window and up to 131,072 output tokens. The developer is simply listed as an anonymous thi</summary>
-    <author><name>Jessica Doering</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
