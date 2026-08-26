@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-26T04:46:14Z</updated>
+  <updated>2026-08-26T05:40:34Z</updated>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
     <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/" rel="alternate"/>
@@ -12,6 +12,25 @@
     <updated>2026-08-25T08:40:14Z</updated>
     <summary type="text">Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic's Claude Code. A UK study shows the cyber capabilities of open models are catching up fast. The article Taiwanese cybersecurity firm warns that AI tools</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>两家实验室的算力垄断之路：Dylan Patel 详解 AI 经济学</title>
+    <link href="https://dev.to/cognitalk/two-labs-will-control-most-of-the-worlds-compute-dylan-patel-on-ai-economics-28i" rel="alternate"/>
+    <id>https://dev.to/cognitalk/two-labs-will-control-most-of-the-worlds-compute-dylan-patel-on-ai-economics-28i</id>
+    <updated>2026-08-26T05:33:53Z</updated>
+    <summary type="text">https://www.youtube.com/watch?v=aV26V1UvkJw Two Labs Will Control Most of the World's Compute: Dylan Patel on AI Economics 两家实验室的算力垄断之路：Dylan Patel 详解 AI 经济学与 2028 年的世界重构 第一部分 开场与全球算力/营收现状盘点 （0% - 9%） 播客背景与本期主题：主持人 Dwarkesh Patel 与 SemiAnalysis 创始人 Dylan Patel 以&quot;年度家庭感恩节&quot;形式再次对谈，核心议题是世界经济走向正越来越多地成为 AI 实验室经济学与算力市场的函数，目标是理解未来几年&quot;疯狂未来&quot;的落点。 当前算力分配格局：2025 年美国大部分 GDP 增长实际上就是 AI 基础设施；2026 年全球新上线算力中约三分之一最终服务</summary>
+    <author><name>cognitalk</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Debugging MCP Connection Timeouts and Tool Calling Failures in Claude, Cursor, and SadaSend</title>
+    <link href="https://dev.to/woda_toki/debugging-mcp-connection-timeouts-and-tool-calling-failures-in-claude-cursor-and-sadasend-432p" rel="alternate"/>
+    <id>https://dev.to/woda_toki/debugging-mcp-connection-timeouts-and-tool-calling-failures-in-claude-cursor-and-sadasend-432p</id>
+    <updated>2026-08-26T05:31:58Z</updated>
+    <summary type="text">When your MCP server fails with “Connection closed” or tools silently fail to execute in Claude Desktop, use this systematic diagnostic guide to fix the underlying issue. The top 4 reasons MCP servers fail in Claude Desktop Stdio Pollution (Console Logging): In stdio transport, stdout is reserved strictly for JSON-RPC messages. If your code calls console.log(&quot;Starting server...&quot;), the text corrupt</summary>
+    <author><name>Woda Toki</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -437,22 +456,5 @@
     <author><name>Real Paul</name></author>
     <category term="tutorial"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>DevOps Lab: CI/CD Deployment to AWS ECS</title>
-    <link href="https://dev.to/jumptotech/devops-lab-cicd-deployment-to-aws-ecs-166p" rel="alternate"/>
-    <id>https://dev.to/jumptotech/devops-lab-cicd-deployment-to-aws-ecs-166p</id>
-    <updated>2026-08-25T02:55:34Z</updated>
-    <summary type="text">Scenario You are the DevOps Engineer. Jules is your Software Developer. Ask Jules to create a professional website for a product of your choice. Jules is responsible for application development. You are responsible for the entire DevOps lifecycle. The final result must be: https://yourdomain.com The browser must display the name of your product. Part 1 — Application Development Jules acts as the d</summary>
-    <author><name>Aisalkyn Aidarova</name></author>
-  </entry>
-  <entry>
-    <title>LLM Memory vs Context Window: The Gap Nobody Explains</title>
-    <link href="https://dev.to/mryadavgulshan/llm-memory-vs-context-window-the-gap-nobody-explains-1mk6" rel="alternate"/>
-    <id>https://dev.to/mryadavgulshan/llm-memory-vs-context-window-the-gap-nobody-explains-1mk6</id>
-    <updated>2026-08-25T02:30:00Z</updated>
-    <summary type="text">The context window is a container. Memory is what you decide to put in it. Almost every &quot;memory&quot; conversation conflates the two — here is how they actually work, and how to build a memory layer that does not bankrupt you. Two months ago I was debugging a customer-support agent for a retail client, and the numbers on the dashboard made no sense. Conversations that should have cost a few cents were </summary>
-    <author><name>Gulshan Yadav</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
