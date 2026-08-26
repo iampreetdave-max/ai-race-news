@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-26T08:52:32Z</updated>
+  <updated>2026-08-26T09:49:12Z</updated>
   <entry>
     <title>IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models</title>
     <link href="https://www.marktechpost.com/2026/08/25/ibm-releases-granite-4-2-bringing-native-reasoning-and-agentic-rl-to-open-enterprise-models/" rel="alternate"/>
@@ -14,6 +14,25 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I Treated Agent Sessions as Portable Cache and Moved Control to a Policy Plane: Vendor Lock-In Became Manageable</title>
+    <link href="https://dev.to/jangwook_kim_e31e7291ad98/i-treated-agent-sessions-as-portable-cache-and-moved-control-to-a-policy-plane-vendor-lock-in-15j4" rel="alternate"/>
+    <id>https://dev.to/jangwook_kim_e31e7291ad98/i-treated-agent-sessions-as-portable-cache-and-moved-control-to-a-policy-plane-vendor-lock-in-15j4</id>
+    <updated>2026-08-26T09:05:21Z</updated>
+    <summary type="text">I wanted to know whether portable coding-agent sessions materially reduce vendor lock-in, or merely make a future migration look easier than it is. I froze one real Claude Code session, inspected it, and transferred it into seven target formats with session-migrate 0.8.0. The useful conversation and tool context traveled surprisingly well, but the controls that make agent work safe in an organizat</summary>
+    <author><name>Jangwook Kim</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Effectively Solve 100+ Tasks with Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-effectively-solve-100-tasks-with-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-effectively-solve-100-tasks-with-claude-code/</id>
+    <updated>2026-08-26T09:00:02Z</updated>
+    <summary type="text">Work more effectively with your coding agents The post How to Effectively Solve 100+ Tasks with Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
@@ -440,21 +459,5 @@
     <updated>2026-08-25T08:35:05Z</updated>
     <summary type="text">Eight containers behind one nginx. One of them was stopped. nginx would not start. Not &quot;returned 502 for that service&quot; — would not start, at all, with every other service running fine: host not found in upstream &quot;importer&quot; That is one dead background service taking down the entire public entry point: the frontend, the API, the tile server, all of it. This is a short post about why, the three-line </summary>
     <author><name>Srdjan Popovic</name></author>
-  </entry>
-  <entry>
-    <title>How I Automated a 3-Tier Application CI/CD Pipeline with Docker, Azure &amp; GitHub Actions</title>
-    <link href="https://dev.to/henryigwe/how-i-automated-a-3-tier-application-cicd-pipeline-with-docker-azure-github-actions-1cmg" rel="alternate"/>
-    <id>https://dev.to/henryigwe/how-i-automated-a-3-tier-application-cicd-pipeline-with-docker-azure-github-actions-1cmg</id>
-    <updated>2026-08-25T08:20:32Z</updated>
-    <summary type="text">How I Automated a 3-Tier Application CI/CD Pipeline with Docker, Azure &amp; GitHub Actions I recently completed a hands-on DevOps project where I took FocusFlow, a 3-tier application built with React, Node.js/Express, and PostgreSQL, from raw source code to a live deployment on an Azure Linux VM. I started by understanding and testing the application locally before touching any infrastructure. I test</summary>
-    <author><name>Henry Igwe A.</name></author>
-  </entry>
-  <entry>
-    <title>Daily Dose of DevOps — Kubernetes readiness vs liveness probes</title>
-    <link href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-readiness-vs-liveness-probes-17ij" rel="alternate"/>
-    <id>https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-readiness-vs-liveness-probes-17ij</id>
-    <updated>2026-08-25T07:38:51Z</updated>
-    <summary type="text">Kubernetes Probes as Failure Detectors: Semantics, Timing, and Cascading Risk Kubernetes probes are distributed-systems failure detectors with different control effects. A readiness failure removes a Pod from Service endpoints; a liveness failure asks the kubelet to restart the container. The distinction matters because detection is necessarily imperfect: aggressive thresholds reduce detection lat</summary>
-    <author><name>Marco</name></author>
   </entry>
 </feed>
