@@ -4,7 +4,38 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-27T04:28:12Z</updated>
+  <updated>2026-08-27T16:18:27Z</updated>
+  <entry>
+    <title>OpenAI researcher warns ultrafast AI could leave security teams in the dust</title>
+    <link href="https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/</id>
+    <updated>2026-08-27T15:04:20Z</updated>
+    <summary type="text">An OpenAI researcher warns that state-of-the-art AI models running 50 times faster could infiltrate systems before human teams can react. Simple monitoring won't cut it anymore, he says. What's needed are autonomous shutdown systems. The warning comes as OpenAI unveils a new AI chip that significantly outperforms current hardware in inference speed. The article OpenAI researcher warns ultrafast AI</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="product-launch"/>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Google's Gemini 3.5 Transcribe turns speech to text in 85 languages while auto-correcting your verbal stumbles</title>
+    <link href="https://the-decoder.com/googles-gemini-3-5-transcribe-turns-speech-to-text-in-85-languages-while-auto-correcting-your-verbal-stumbles/" rel="alternate"/>
+    <id>https://the-decoder.com/googles-gemini-3-5-transcribe-turns-speech-to-text-in-85-languages-while-auto-correcting-your-verbal-stumbles/</id>
+    <updated>2026-08-27T10:40:08Z</updated>
+    <summary type="text">Google's new Gemini 3.5 Transcribe recognizes over 85 languages, strips filler words, and corrects slips of the tongue in real time. It hits a 4.0 percent word error rate in streaming mode, with 70 percent lower latency than its predecessor, Chirp 3. Through function calling, the model can hand off tasks to other Gemini models. The article Google's Gemini 3.5 Transcribe turns speech to text in 85 </summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GLM-5.3-Flash matches top models at a fraction of the cost, and runs without Nvidia</title>
+    <link href="https://the-decoder.com/the-chinese-ai-model-glm-5-3-flash-runs-without-nvidia-and-costs-a-fraction-of-what-the-competition-does/" rel="alternate"/>
+    <id>https://the-decoder.com/the-chinese-ai-model-glm-5-3-flash-runs-without-nvidia-and-costs-a-fraction-of-what-the-competition-does/</id>
+    <updated>2026-08-27T10:24:49Z</updated>
+    <summary type="text">Z.ai releases GLM-5.3-Flash, an open-source model with 320 billion parameters that lands just three points behind the larger GLM-5.3 on Artificial Analysis's Intelligence Index, at a seventh of the cost. What's notable is that all of the inference traffic ran on Chinese AI chips instead of Nvidia hardware. The article GLM-5.3-Flash matches top models at a fraction of the cost, and runs without Nvi</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding</title>
     <link href="https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/" rel="alternate"/>
@@ -24,6 +55,25 @@
     <updated>2026-08-26T21:33:23Z</updated>
     <summary type="text">Z.ai has released GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series — a 320B-total / 18B-active MoE with a 1,048,576-token context window, MIT-licensed weights on Hugging Face, and API pricing at $0.15/M input and $0.50/M output. It scores 84.3 on Terminal-Bench 2.1 and 63.4 on DeepSWE v1.1, using hybrid KDA linear plus NoPE sparse MLA attention to cut attention compute ~3× an</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>How I Set Up Claude to Actually Work Like My Pair Programmer</title>
+    <link href="https://dev.to/rahuls24/how-i-set-up-claude-to-actually-work-like-my-pair-programmer-42f8" rel="alternate"/>
+    <id>https://dev.to/rahuls24/how-i-set-up-claude-to-actually-work-like-my-pair-programmer-42f8</id>
+    <updated>2026-08-27T16:00:56Z</updated>
+    <summary type="text">For the first few weeks with Claude Code, I used it like an overqualified search engine paste an error, grab the snippet, fix whatever it broke, and repeat. It got the job done, but it felt like pairing with a brilliant junior dev who suffered total amnesia every time I cleared the terminal. After getting fed up with constantly correcting the same package manager slip-ups and component styles, I s</summary>
+    <author><name>Rahul Kumar</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Despite AI agents, why is StackOverflow still relevant?</title>
+    <link href="https://dev.to/a0m0rajab/despite-ai-agents-why-is-stackoverflow-still-relevant-1ekd" rel="alternate"/>
+    <id>https://dev.to/a0m0rajab/despite-ai-agents-why-is-stackoverflow-still-relevant-1ekd</id>
+    <updated>2026-08-27T15:50:32Z</updated>
+    <summary type="text">Recently, I built a mobile app with Expo; everything worked well with the development build on a simulator and a real device. Yet when I published the app to test the production build on a real device, it crashed without any explanation. With the crash, I had to get the crash report from Apple and download it to read it and try to understand the issue, yet even with that, I did not find any detail</summary>
+    <author><name>Abdurrahman Rajab</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0</title>
@@ -305,6 +355,17 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>MCA final year — need a real-world-scale AI project idea, not a toy/tutorial-level one[D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1vzw4fg/mca_final_year_need_a_realworldscale_ai_project/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1vzw4fg/mca_final_year_need_a_realworldscale_ai_project/</id>
+    <updated>2026-08-27T14:50:12Z</updated>
+    <summary type="text">I'm an MCA student with hands-on experience in Python, LangChain, Chroma, HuggingFace, and FastAPI (built a RAG document-QA system already). My project guide specifically wants a real-world problem — something an actual company would need solved — not a generic &quot;sentiment analysis on tweets&quot; or &quot;spam classifier&quot; type project that's been done a thousand times. Looking for: - A problem real companie</summary>
+    <author><name>/u/Waste-Influence506</name></author>
+    <category term="tutorial"/>
+    <category term="rag"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>I built free, no-code Bluesky feeds for dev topics (Postgres, Redis, Docker) — no login, no LLM</title>
     <link href="https://dev.to/snaplink/i-built-free-no-code-bluesky-feeds-for-dev-topics-postgres-redis-docker-no-login-no-llm-5b1a" rel="alternate"/>
     <id>https://dev.to/snaplink/i-built-free-no-code-bluesky-feeds-for-dev-topics-postgres-redis-docker-no-login-no-llm-5b1a</id>
@@ -404,61 +465,6 @@
     <updated>2026-08-25T18:11:56Z</updated>
     <summary type="text">I'm using GPT Sol and Claude Opus for free. No credit card, no per-token bill, no &quot;you've hit your monthly limit&quot; email. Two pieces of software make it happen: Pi — the coding agent that reads, writes, and runs commands in my terminal. OmniRoute — a local gateway that sits in front of hundreds of AI providers, dozens of them free, and routes every request to the cheapest one that works. Here's the</summary>
     <author><name>Ahmed Nafies</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Phonebook: a Storybook-style preview gallery for SwiftUI and Compose, built for agents</title>
-    <link href="https://dev.to/orelzion/phonebook-a-storybook-style-preview-gallery-for-swiftui-and-compose-built-for-agents-6g9" rel="alternate"/>
-    <id>https://dev.to/orelzion/phonebook-a-storybook-style-preview-gallery-for-swiftui-and-compose-built-for-agents-6g9</id>
-    <updated>2026-08-25T17:26:17Z</updated>
-    <summary type="text">TL;DR I built Phonebook, an open-source CLI and MCP server that turns existing Jetpack Compose @Previews and SwiftUI #Previews into a static, self-hosted HTML gallery. Think Storybook-style component catalog, but for native mobile previews you already have in your codebase. No SaaS account. No extra Storybook files to maintain. No asking designers to install Xcode, Android Studio, or your debug ap</summary>
-    <author><name>orelzion</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>OpenAI’s Jalapeño Inference Chip Could Reshape the Economics of Serving AI</title>
-    <link href="https://dev.to/alifar/openais-jalapeno-inference-chip-could-reshape-the-economics-of-serving-ai-n6k" rel="alternate"/>
-    <id>https://dev.to/alifar/openais-jalapeno-inference-chip-could-reshape-the-economics-of-serving-ai-n6k</id>
-    <updated>2026-08-25T17:15:30Z</updated>
-    <summary type="text">OpenAI has introduced Jalapeño, its OpenAI’s first Intelligence Processor, as a purpose-built accelerator for large language model inference. Developed with Broadcom and Celestica, the chip is intended for OpenAI’s own production infrastructure rather than as a general-purpose processor sold directly to businesses. Its importance lies in what it targets: serving AI models with more throughput, low</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Pro Usage Limits Explained and How to Work Around Them</title>
-    <link href="https://dev.to/swapnoneel123/claude-pro-usage-limits-explained-and-how-to-work-around-them-2lki" rel="alternate"/>
-    <id>https://dev.to/swapnoneel123/claude-pro-usage-limits-explained-and-how-to-work-around-them-2lki</id>
-    <updated>2026-08-25T17:05:36Z</updated>
-    <summary type="text">In March 2026, Claude Max subscribers started watching a 5-hour window drain in 90 minutes. One person reported going from 21% used to 100% used on a single prompt, and everybody assumed it was a bug. It wasn't. Anthropic's Thariq Shihipar posted on X and said that they're adjusting the 5 hour session limits during peak hours to manage growing demand, affecting roughly 7% of users. Claude Pro mete</summary>
-    <author><name>Swapnoneel Saha</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Feedback wanted</title>
-    <link href="https://dev.to/statpace/feedback-wanted-4p20" rel="alternate"/>
-    <id>https://dev.to/statpace/feedback-wanted-4p20</id>
-    <updated>2026-08-25T16:59:18Z</updated>
-    <summary type="text">I've spent the last month building a fully automated video pipeline: Claude Code + Remotion + ElevenLabs v3 + WhisperX, going from a script idea → rendered, captioned, multi-format video (long-form + shorts) in under 30 min, zero manual editing. Running it across 3 different faceless channels right now. If I documented the exact system (schema, prompts, pipeline scripts) — would that be useful to </summary>
-    <author><name>Stat Pace</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Getting Agentic Harnesses Out of the Terminal</title>
-    <link href="https://dev.to/elvean/getting-agentic-harnesses-out-of-the-terminal-5d3b" rel="alternate"/>
-    <id>https://dev.to/elvean/getting-agentic-harnesses-out-of-the-terminal-5d3b</id>
-    <updated>2026-08-25T16:58:20Z</updated>
-    <summary type="text">I love agentic coding harnesses, but they shouldn’t be primarily terminal-based. The terminal is great for quick and precise commands, but information density is extremely low and UI affordances are minimal. Maybe provision of TUIs is worthwhile for occasional use (when establishing a tunnel is too annoying, or something), but it feels very strange for this to be the default modality. It took a lo</summary>
-    <author><name>Nathan</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Portability Trap: When 'It Loads' Doesn't Mean 'It Works'</title>
-    <link href="https://dev.to/buildloops/the-portability-trap-when-it-loads-doesnt-mean-it-works-3a21" rel="alternate"/>
-    <id>https://dev.to/buildloops/the-portability-trap-when-it-loads-doesnt-mean-it-works-3a21</id>
-    <updated>2026-08-25T16:12:06Z</updated>
-    <summary type="text">I ran a skill migration and nothing broke. Or so I thought. Break 3 in my migration diary noted that skills degraded silently. This is the deep dive. I copied six Claude Code skills to OpenCode. Every file loaded. Every name appeared in the available skills list. Every description matched. No errors, no warnings, no friction. Weeks later, I noticed things were off — skills behaving differently tha</summary>
-    <author><name>Build Loops</name></author>
     <category term="llm"/>
   </entry>
 </feed>
