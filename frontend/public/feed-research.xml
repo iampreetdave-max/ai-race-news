@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-26T22:57:44Z</updated>
+  <updated>2026-08-27T04:28:12Z</updated>
   <entry>
     <title>Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture</title>
     <link href="https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/" rel="alternate"/>
@@ -12,6 +12,34 @@
     <updated>2026-08-26T15:20:00Z</updated>
     <summary type="text">We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an early preview of the Qwen4 architecture. We break down where the 180B parameters actually sit: a 125B backbone, a 51B N-gram embedding table, and a 4B multi-token prediction module, with only 6B active per token. We walk through the four architectural changes — the Gated DeltaNet and Qwen Sparse Attenti</summary>
     <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</title>
+    <link href="https://arxiv.org/abs/2608.26067v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.26067v1</id>
+    <updated>2026-08-26T17:33:19Z</updated>
+    <summary type="text">Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under a single-frame paradigm, limiting their ability to retain past observations and develop precise spatial perception. In this paper, we propose StreamPI, a streaming multimodal temporal modeling framework that equips single-frame VLA with temporal reasoni</summary>
+    <author><name>Hengshuang Zhao</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>When Composition Doesn't Add Up: Humans Identifying Defects in AI-Generated Images</title>
+    <link href="https://arxiv.org/abs/2608.25933v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.25933v1</id>
+    <updated>2026-08-26T15:47:47Z</updated>
+    <summary type="text">*Chulin Zhao and Ruoqi Hu contributed equally to this work. State-of-the-art text-to-image (T2I) models exhibit pronounced and systematic defects when prompts involve intricate compositional factors such as multiple entities and multiple attributes. In this paper, we investigate how humans identify such defects. Specifically, we manually select 651 reference images from the four categories of peop</summary>
+    <author><name>Hanhe Lin</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Do Vision-Language Models Agree on the Affective Qualities of Shape? A Cross-Model Audit for Generative Design Interfaces</title>
+    <link href="https://arxiv.org/abs/2608.25876v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.25876v1</id>
+    <updated>2026-08-26T14:49:37Z</updated>
+    <summary type="text">Generative design interfaces increasingly expose semantic controls that let users steer output with concepts such as &quot;more elegant&quot; or &quot;more minimalist,&quot; typically encoded by a vision-language model (VLM). A practical question is whether state-of-the-art VLMs represent objects consistently in terms of the same concept. We audit 6 VLMs by ranking untextured 3D objects along Kansei adjective pairs, </summary>
+    <author><name>Stefan Menzel</name></author>
+    <category term="research"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -60,27 +88,5 @@
     <summary type="text">Understanding social interactions from non-verbal visual data is important for behavior analysis and activity monitoring. We propose an interpretable computational model of social engagement inspired by psychological theories of mutual visual attention. Rather than learning interaction patterns end-to-end, our framework explicitly models dyadic visual attention and aggregates these cues into inter</summary>
     <author><name>Nicoletta Noceti</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Passing Once Isn't Reliable — This Week's Agent Engineering Puts the Harness Before the Model</title>
-    <link href="https://dev.to/felipe0liveira/passing-once-isnt-reliable-this-weeks-agent-engineering-puts-the-harness-before-the-model-3maj" rel="alternate"/>
-    <id>https://dev.to/felipe0liveira/passing-once-isnt-reliable-this-weeks-agent-engineering-puts-the-harness-before-the-model-3maj</id>
-    <updated>2026-08-25T11:14:24Z</updated>
-    <summary type="text">This digest covers AI agent developments from 2026-08-18 to 2026-08-25: orchestration patterns, tool/function calling, memory, planning loops, multi-agent coordination, and agent evaluation. 🔥 Highlights AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models — cuts tool exposure 70%, latency 51%. One Success Isn't Reliability: Thinkingbox, a Sandbox and Be</summary>
-    <author><name>Felipe 0liveira</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Claude Code Surpasses GitHub Copilot: 90% of Developers Adopt AI Coding</title>
-    <link href="https://dev.to/tidiane_stano_c6b88f8b685/claude-code-surpasses-github-copilot-90-of-developers-adopt-ai-coding-4ck2" rel="alternate"/>
-    <id>https://dev.to/tidiane_stano_c6b88f8b685/claude-code-surpasses-github-copilot-90-of-developers-adopt-ai-coding-4ck2</id>
-    <updated>2026-08-25T10:06:13Z</updated>
-    <summary type="text">Agents — Analysis of JetBrains 2026 Developer Ecosystem Survey The landscape of AI‑assisted software development is undergoing a critical paradigm shift. For years, AI coding tools were mostly known for inline code completion and short snippet generation embedded within Integrated Development Environments (IDEs). Today, AI coding agents are reshaping developer workflows. Instead of merely generati</summary>
-    <author><name>Tidiane Stano</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
