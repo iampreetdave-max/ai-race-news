@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-28T01:25:18Z</updated>
+  <updated>2026-08-28T14:12:00Z</updated>
+  <entry>
+    <title>Tencent Touts New AI Model It Claims Outperforms Z.AI, Moonshot</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-28/tencent-touts-new-ai-model-it-claims-outperforms-z-ai-moonshot" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-28/tencent-touts-new-ai-model-it-claims-outperforms-z-ai-moonshot</id>
+    <updated>2026-08-28T07:58:57Z</updated>
+    <summary type="text">Tencent Holdings Ltd. released a foundation model it says outperforms rivals Z.AI Co. and Moonshot AI in internal tests, claiming a place among China’s top artificial intelligence players.</summary>
+    <author><name>Bloomberg News</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>OpenAI researcher warns ultrafast AI could leave security teams in the dust</title>
     <link href="https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/" rel="alternate"/>
@@ -17,6 +27,18 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators</title>
+    <link href="https://arxiv.org/abs/2608.27406v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.27406v1</id>
+    <updated>2026-08-27T17:35:10Z</updated>
+    <summary type="text">State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-sca</summary>
+    <author><name>Ola Shorinwa</name></author>
+    <category term="product-launch"/>
+    <category term="research"/>
+    <category term="computer-vision"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
     <title>Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture</title>
     <link href="https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/</id>
@@ -24,6 +46,16 @@
     <summary type="text">We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an early preview of the Qwen4 architecture. We break down where the 180B parameters actually sit: a 125B backbone, a 51B N-gram embedding table, and a 4B multi-token prediction module, with only 6B active per token. We walk through the four architectural changes — the Gated DeltaNet and Qwen Sparse Attenti</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DINOcular: Self-Supervised Visuospatial Representations</title>
+    <link href="https://arxiv.org/abs/2608.27226v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.27226v1</id>
+    <updated>2026-08-27T15:09:32Z</updated>
+    <summary type="text">We introduce a self-supervised framework for learning joint visuospatial representations from RGB-D observations. While modern vision foundation models are trained almost exclusively on RGB images, many embodied systems have access to explicit depth sensing, which provides geometric information that monocular inputs cannot recover. Our method integrates depth-derived geometric priors with a visual</summary>
+    <author><name>Hermann Blum</name></author>
+    <category term="llm"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</title>
@@ -61,14 +93,5 @@
     <summary type="text">A few weeks back I repriced three months of my own Claude Code usage. Real traffic, not a demo: 39.5 billion tokens across 139,835 requests. At API rates that's about $30,000, and 91% of it went to Opus because that's what the default reaches for. Route the fraction a smaller model handles as well, and the bill drops by roughly 50 to 58%. Five or six grand a month, on work that was already done an</summary>
     <author><name>Developer at Fortitude Omnis Group</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets</title>
-    <link href="https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5" rel="alternate"/>
-    <id>https://dev.to/magopredator/mcp-tool-sanitizer-v010-making-the-mcp-approval-view-match-the-bytes-the-model-gets-17i5</id>
-    <updated>2026-08-25T21:08:06Z</updated>
-    <summary type="text">mcp-tool-sanitizer v0.1.0: Making the MCP approval-view match the bytes the model gets A sanitizer that strips Unicode concealment codepoints (TAG block, zero-width, bidi) from MCP tool metadata — and a second layer that checks the human approval-view equals the bytes delivered to the model. Zero runtime dependencies. The problem When an LLM agent consumes tools from an external MCP server, the to</summary>
-    <author><name>Fenix</name></author>
-    <category term="research"/>
   </entry>
 </feed>

@@ -4,7 +4,28 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-28T01:25:18Z</updated>
+  <updated>2026-08-28T14:12:00Z</updated>
+  <entry>
+    <title>AI benchmarks have a trust problem and Google wants to fix it</title>
+    <link href="https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/" rel="alternate"/>
+    <id>https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/</id>
+    <updated>2026-08-28T13:15:10Z</updated>
+    <summary type="text">Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluators from seeing the model weights. The pilot project with the Singapore AI Safety Institute uses a Gemini Flash Lite and could set a new standard for tamper-proof AI benchmarks. The</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="llm"/>
+    <category term="regulation"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Always-on and self-starting AI agents might be OpenAI's next big play</title>
+    <link href="https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/" rel="alternate"/>
+    <id>https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/</id>
+    <updated>2026-08-28T08:03:22Z</updated>
+    <summary type="text">OpenAI is building a &quot;Persistent Mode&quot; for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actions, like deleting user data. The article Always-on and self-starting AI agents might be OpenAI's nex</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>OpenAI researcher warns ultrafast AI could leave security teams in the dust</title>
     <link href="https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/" rel="alternate"/>
@@ -17,14 +38,22 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Google's Gemini 3.5 Transcribe turns speech to text in 85 languages while auto-correcting your verbal stumbles</title>
-    <link href="https://the-decoder.com/googles-gemini-3-5-transcribe-turns-speech-to-text-in-85-languages-while-auto-correcting-your-verbal-stumbles/" rel="alternate"/>
-    <id>https://the-decoder.com/googles-gemini-3-5-transcribe-turns-speech-to-text-in-85-languages-while-auto-correcting-your-verbal-stumbles/</id>
-    <updated>2026-08-27T10:40:08Z</updated>
-    <summary type="text">Google's new Gemini 3.5 Transcribe recognizes over 85 languages, strips filler words, and corrects slips of the tongue in real time. It hits a 4.0 percent word error rate in streaming mode, with 70 percent lower latency than its predecessor, Chirp 3. Through function calling, the model can hand off tasks to other Gemini models. The article Google's Gemini 3.5 Transcribe turns speech to text in 85 </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
+    <title>NoWreck v0.12.0 — Provider Consolidation + Scan Caching</title>
+    <link href="https://dev.to/astralxvoid/nowreck-v0120-provider-consolidation-scan-caching-49ne" rel="alternate"/>
+    <id>https://dev.to/astralxvoid/nowreck-v0120-provider-consolidation-scan-caching-49ne</id>
+    <updated>2026-08-28T14:00:34Z</updated>
+    <summary type="text">NoWreck v0.12.0 — Provider Consolidation + Scan Caching AstralXVoid / NoWreck A CLI tool that verifies AI coding assistant claims against actual structural changes — catching hallucinated functions, fake calls, and missed modifications before they ship. NoWreck Deterministic AI Verifier — v0.12.0 NoWreck is a deterministic structural verifier for AI-generated code-change claims. When an AI describ</summary>
+    <author><name>AstralXVoid</name></author>
+  </entry>
+  <entry>
+    <title>Why Claude Code Time Estimates Are Poor</title>
+    <link href="https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/" rel="alternate"/>
+    <id>https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/</id>
+    <updated>2026-08-28T14:00:01Z</updated>
+    <summary type="text">Be a better communicator with LLM programming The post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
     <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI Is Developing a ‘Persistent’ AI Agent</title>
@@ -365,108 +394,6 @@
     <updated>2026-08-26T04:07:06Z</updated>
     <summary type="text">When a run goes red, the fact of failure tells you almost nothing: it can be a product bug, a broken test, stale data, a dead environment, a contract change, or a known issue that already has a ticket. Our rule is one defect per cause in Allure TestOps, a matcher rule on every defect so recurring failures link themselves in later runs, and a tracker issue created through the integration when the c</summary>
     <author><name>Oleg</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Automate Invoicing and Stop Chasing Payments</title>
-    <link href="https://dev.to/samchenreviews/how-to-automate-invoicing-and-stop-chasing-payments-2dka" rel="alternate"/>
-    <id>https://dev.to/samchenreviews/how-to-automate-invoicing-and-stop-chasing-payments-2dka</id>
-    <updated>2026-08-26T02:26:27Z</updated>
-    <summary type="text">You can build a fully hands-off invoice → payment pipeline that creates a Stripe invoice, records it in QuickBooks, and sends escalating email reminders - all without writing a line of custom code. The result is a reliable accounts-receivable workflow that reduces manual effort and improves cash flow. Key insight: Automation removes the human &quot;forget-to-follow-up&quot; error, so you get paid on schedul</summary>
-    <author><name>Sam Chen</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>PromptClip-Skill: a prompt-driven filter for throwaway family videos</title>
-    <link href="https://dev.to/irving_leung_cf46890d1070/promptclip-skill-a-prompt-driven-filter-for-throwaway-family-videos-g2k" rel="alternate"/>
-    <id>https://dev.to/irving_leung_cf46890d1070/promptclip-skill-a-prompt-driven-filter-for-throwaway-family-videos-g2k</id>
-    <updated>2026-08-26T02:20:17Z</updated>
-    <summary type="text">I built PromptClip-Skill, an open-source Codex Skill for finding the meaningful moments inside a folder of casual videos. This started with a very ordinary problem: recording family life is easy, but reviewing it is not. A few minutes of a baby playing, a beach walk, or a weekend outing can produce dozens of clips. Many contain camera shake, accidental recordings, repeated actions, empty frames, o</summary>
-    <author><name>irving leung</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>What Bedrock AgentCore Actually Puts on Your A2A Agent Card</title>
-    <link href="https://dev.to/aws-builders/what-bedrock-agentcore-actually-puts-on-your-a2a-agent-card-1h34" rel="alternate"/>
-    <id>https://dev.to/aws-builders/what-bedrock-agentcore-actually-puts-on-your-a2a-agent-card-1h34</id>
-    <updated>2026-08-26T02:17:11Z</updated>
-    <summary type="text">This article provides a step by step look at the A2A agent card a Strands agent publishes on Amazon Bedrock AgentCore Runtime, and how it compares field by field against the same agent on Google Cloud Run and Azure Container Apps. The code is here: github.com/xbill9/multicloud-agentcard Same Protocol - Different Cards! Why do I care what is in the Agent Card? Can't I just invoke the Agent? What is</summary>
-    <author><name>xbill</name></author>
-  </entry>
-  <entry>
-    <title>Copilot's Code Review Cannot Block Your Merge. It Says So in the Docs.</title>
-    <link href="https://dev.to/ugliai/copilots-code-review-cannot-block-your-merge-it-says-so-in-the-docs-hfm" rel="alternate"/>
-    <id>https://dev.to/ugliai/copilots-code-review-cannot-block-your-merge-it-says-so-in-the-docs-hfm</id>
-    <updated>2026-08-26T01:26:55Z</updated>
-    <summary type="text">GitHub's own documentation is unambiguous about this: Copilot always submits a Comment review — never Approve, never Request changes. It does not count toward required approvals. It does not block a merge. That is a sensible safety boundary. It is also the single most misread fact in AI code review procurement, because the pitch deck says &quot;automated code review&quot; and your brain fills in &quot;quality ga</summary>
-    <author><name>ugliai</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MCA final year — need a real-world-scale AI project idea, not a toy/tutorial-level one[D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1vzw4fg/mca_final_year_need_a_realworldscale_ai_project/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1vzw4fg/mca_final_year_need_a_realworldscale_ai_project/</id>
-    <updated>2026-08-27T14:50:12Z</updated>
-    <summary type="text">I'm an MCA student with hands-on experience in Python, LangChain, Chroma, HuggingFace, and FastAPI (built a RAG document-QA system already). My project guide specifically wants a real-world problem — something an actual company would need solved — not a generic &quot;sentiment analysis on tweets&quot; or &quot;spam classifier&quot; type project that's been done a thousand times. Looking for: - A problem real companie</summary>
-    <author><name>/u/Waste-Influence506</name></author>
-    <category term="tutorial"/>
-    <category term="rag"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I built free, no-code Bluesky feeds for dev topics (Postgres, Redis, Docker) — no login, no LLM</title>
-    <link href="https://dev.to/snaplink/i-built-free-no-code-bluesky-feeds-for-dev-topics-postgres-redis-docker-no-login-no-llm-5b1a" rel="alternate"/>
-    <id>https://dev.to/snaplink/i-built-free-no-code-bluesky-feeds-for-dev-topics-postgres-redis-docker-no-login-no-llm-5b1a</id>
-    <updated>2026-08-26T00:44:44Z</updated>
-    <summary type="text">Bluesky lets anyone publish a custom feed — a little server that decides which posts show up when someone opens it. The catch: building one normally means running a firehose consumer, a database, and a hosting bill, then hand-registering an app.bsky.feed.generator record. That's a lot of yak-shaving for &quot;I just want a feed of Postgres posts.&quot; So I built feedbuilder: you type a few keywords, it pub</summary>
-    <author><name>Rowan Adeyemi</name></author>
-  </entry>
-  <entry>
-    <title>Which Skill Is Quietly Burning Your Tokens? Find Out From transcript.jsonl</title>
-    <link href="https://dev.to/bokuwalily/which-skill-is-quietly-burning-your-tokens-find-out-from-transcriptjsonl-n65" rel="alternate"/>
-    <id>https://dev.to/bokuwalily/which-skill-is-quietly-burning-your-tokens-find-out-from-transcriptjsonl-n65</id>
-    <updated>2026-08-26T00:42:35Z</updated>
-    <summary type="text">Your monthly Claude Code bill went up 20%. You know that much. What you don't know is which Skill did it — and nothing in the tooling will tell you. Run /usage in Claude Code and you get claude-sonnet-4-6: ¥3,240 — a per-model total and nothing else. &quot;More expensive than last week&quot; is visible. &quot;Which Skill caused it&quot; is not. usage-breakdown.sh closes that gap. It's a 106-line shell script that par</summary>
-    <author><name>Lily</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Pixels to Prescriptions: Building an AI Pharmacist with YOLOv10 and RAG</title>
-    <link href="https://dev.to/beck_moulton/from-pixels-to-prescriptions-building-an-ai-pharmacist-with-yolov10-and-rag-5ck9" rel="alternate"/>
-    <id>https://dev.to/beck_moulton/from-pixels-to-prescriptions-building-an-ai-pharmacist-with-yolov10-and-rag-5ck9</id>
-    <updated>2026-08-26T00:31:00Z</updated>
-    <summary type="text">We’ve all been there: staring at a cluttered medicine cabinet, holding two different blister packs, and wondering, &quot;Can I take these together?&quot; In the age of AI, &quot;googling it&quot; isn't just slow—it's potentially dangerous. Today, we are building a Smart Home Medicine Assistant. By combining computer vision for healthcare with YOLOv10, and leveraging Retrieval-Augmented Generation (RAG) through Functi</summary>
-    <author><name>Beck_Moulton</name></author>
-    <category term="computer-vision"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Let AI Write the Mac OS App Without Learning Swift</title>
-    <link href="https://dev.to/bgsan6009/let-ai-write-the-mac-os-app-without-learning-swift-463c" rel="alternate"/>
-    <id>https://dev.to/bgsan6009/let-ai-write-the-mac-os-app-without-learning-swift-463c</id>
-    <updated>2026-08-25T23:26:56Z</updated>
-    <summary type="text">AI keeps accelerating through the tech industry. Just like many other laid-off tech workers, I feel little miserable how far has AI really affected companies to minimize or eliminate junior to mid level software engineers. Starting last year I've been using the basics of premium GitHub plan with various versions of Claude Code, Gemini, and GPT, to generate bare bones of applications and components</summary>
-    <author><name>Brian Gan</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>GitHub Copilot Premium Requests: Allowances, Multipliers, Billing, and What Replaced Them</title>
-    <link href="https://dev.to/rebeca_vb/github-copilot-premium-requests-allowances-multipliers-billing-and-what-replaced-them-d3p" rel="alternate"/>
-    <id>https://dev.to/rebeca_vb/github-copilot-premium-requests-allowances-multipliers-billing-and-what-replaced-them-d3p</id>
-    <updated>2026-08-25T21:48:38Z</updated>
-    <summary type="text">GitHub Copilot premium requests are the metered unit that determined how much advanced Copilot usage your plan covered, and if you are searching for how they work in mid-2026, you need two answers, not one. First, the mechanics: a premium request is consumed each time you use an advanced Copilot feature, scaled by a per-model multiplier, against a fixed monthly allowance that came with your plan. </summary>
-    <author><name>Rebeca</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Upgrade That Wasn’t: When ‘Newer’ AI Feels Like a Downgrade</title>
-    <link href="https://dev.to/theaidownside/the-upgrade-that-wasnt-when-newer-ai-feels-like-a-downgrade-4ngo" rel="alternate"/>
-    <id>https://dev.to/theaidownside/the-upgrade-that-wasnt-when-newer-ai-feels-like-a-downgrade-4ngo</id>
-    <updated>2026-08-25T21:48:07Z</updated>
-    <summary type="text">Some fortnights the complaint is the bill. This one it was the product itself. Across the forums where paying customers of the big AI tools compare notes, the same grievance surfaced against three different companies in the same window, and it wasn’t about price at all. It was about direction: the new model feels worse than the old one, the app quietly took away the thing I used, and I can’t even </summary>
-    <author><name>The AI Downside</name></author>
     <category term="llm"/>
   </entry>
 </feed>
