@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-28T14:12:00Z</updated>
+  <updated>2026-08-28T23:59:19Z</updated>
+  <entry>
+    <title>Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect</title>
+    <link href="https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/</id>
+    <updated>2026-08-28T17:06:28Z</updated>
+    <summary type="text">Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...</summary>
+    <author><name>Tanya Lenz</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>AI benchmarks have a trust problem and Google wants to fix it</title>
     <link href="https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/" rel="alternate"/>
@@ -25,6 +34,26 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From One Agent to a Team: Understanding Codex Subagents</title>
+    <link href="https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/" rel="alternate"/>
+    <id>https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/</id>
+    <updated>2026-08-28T17:00:01Z</updated>
+    <summary type="text">A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI The post From One Agent to a Team: Understanding Codex Subagents appeared first on Towards Data Science.</summary>
+    <author><name>Shuai Guo</name></author>
+    <category term="data"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Connecting My LangGraph AI Agent to Postgres</title>
+    <link href="https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/" rel="alternate"/>
+    <id>https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/</id>
+    <updated>2026-08-28T15:30:02Z</updated>
+    <summary type="text">How to run the backend locally with Docker or in the cloud The post Connecting My LangGraph AI Agent to Postgres appeared first on Towards Data Science.</summary>
+    <author><name>Soner Yıldırım</name></author>
+    <category term="data"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>OpenAI researcher warns ultrafast AI could leave security teams in the dust</title>
@@ -342,58 +371,5 @@
     <summary type="text">Hey everyone! I’m excited to announce the release of py-evoFE (v0.3.0) — an open-source Python library that uses genetic algorithms to automatically discover, combine, and optimize feature transformations for tabular datasets. GitHub: https://github.com/tanopereira/py-evoFE PyPI: pip install py-evoFE License: MIT The Problem It Solves Feature engineering is still where most tabular ML competitions</summary>
     <author><name>/u/tanopereira</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>两家实验室的算力垄断之路：Dylan Patel 详解 AI 经济学</title>
-    <link href="https://dev.to/cognitalk/two-labs-will-control-most-of-the-worlds-compute-dylan-patel-on-ai-economics-28i" rel="alternate"/>
-    <id>https://dev.to/cognitalk/two-labs-will-control-most-of-the-worlds-compute-dylan-patel-on-ai-economics-28i</id>
-    <updated>2026-08-26T05:33:53Z</updated>
-    <summary type="text">https://www.youtube.com/watch?v=aV26V1UvkJw Two Labs Will Control Most of the World's Compute: Dylan Patel on AI Economics 两家实验室的算力垄断之路：Dylan Patel 详解 AI 经济学与 2028 年的世界重构 第一部分 开场与全球算力/营收现状盘点 （0% - 9%） 播客背景与本期主题：主持人 Dwarkesh Patel 与 SemiAnalysis 创始人 Dylan Patel 以&quot;年度家庭感恩节&quot;形式再次对谈，核心议题是世界经济走向正越来越多地成为 AI 实验室经济学与算力市场的函数，目标是理解未来几年&quot;疯狂未来&quot;的落点。 当前算力分配格局：2025 年美国大部分 GDP 增长实际上就是 AI 基础设施；2026 年全球新上线算力中约三分之一最终服务</summary>
-    <author><name>cognitalk</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Debugging MCP Connection Timeouts and Tool Calling Failures in Claude, Cursor, and SadaSend</title>
-    <link href="https://dev.to/woda_toki/debugging-mcp-connection-timeouts-and-tool-calling-failures-in-claude-cursor-and-sadasend-432p" rel="alternate"/>
-    <id>https://dev.to/woda_toki/debugging-mcp-connection-timeouts-and-tool-calling-failures-in-claude-cursor-and-sadasend-432p</id>
-    <updated>2026-08-26T05:31:58Z</updated>
-    <summary type="text">When your MCP server fails with “Connection closed” or tools silently fail to execute in Claude Desktop, use this systematic diagnostic guide to fix the underlying issue. The top 4 reasons MCP servers fail in Claude Desktop Stdio Pollution (Console Logging): In stdio transport, stdout is reserved strictly for JSON-RPC messages. If your code calls console.log(&quot;Starting server...&quot;), the text corrupt</summary>
-    <author><name>Woda Toki</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Introducing the Admin plugin for ChatGPT Work and Codex</title>
-    <link href="https://openai.com/index/introducing-admin-plugin" rel="alternate"/>
-    <id>https://openai.com/index/introducing-admin-plugin</id>
-    <updated>2026-08-25T00:00:00Z</updated>
-    <summary type="text">Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>CI/CD for Azure Logic Apps Standard on a Private (ILB) ASE — Without a VNet Agent</title>
-    <link href="https://dev.to/vicky_acedia/cicd-for-azure-logic-apps-standard-on-a-private-ilb-ase-without-a-vnet-agent-1j2e" rel="alternate"/>
-    <id>https://dev.to/vicky_acedia/cicd-for-azure-logic-apps-standard-on-a-private-ilb-ase-without-a-vnet-agent-1j2e</id>
-    <updated>2026-08-26T04:19:58Z</updated>
-    <summary type="text">How we wired an Azure DevOps pipeline to a Logic App Standard running on an internal App Service Environment, hit six real-world failures on the way, and ended with a deployment that needs no SAS tokens, no SCM access, and no VNet-connected build agent. The problem Logic Apps Standard on an ILB App Service Environment (ASE v3) has no public SCM (Kudu) endpoint. That kills the two &quot;normal&quot; deployme</summary>
-    <author><name>Vignesh Athiappan</name></author>
-  </entry>
-  <entry>
-    <title>AMD, Supermicro and MinIO target the enterprise data pipeline bottleneck</title>
-    <link href="https://siliconangle.com/2026/08/26/data-pipeline-amd-supermicro-minio-lakehouse-supermicroopenstoragesummit/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/08/26/data-pipeline-amd-supermicro-minio-lakehouse-supermicroopenstoragesummit/</id>
-    <updated>2026-08-26T18:15:51Z</updated>
-    <summary type="text">Despite rapid advances in artificial intelligence, the enterprise world is still dealing with a data pipeline problem. More than 80% of enterprise data is unstructured, and 99% of this data is dark to AI because there is no easy solution to query it, according to industry experts. Yet organizations are still trying to build AI […] The post AMD, Supermicro and MinIO target the enterprise data pipel</summary>
-    <author><name>Mark Albertson</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>How to Automate Failed Test Triage With Allure TestOps and AI</title>
-    <link href="https://hackernoon.com/how-to-automate-failed-test-triage-with-allure-testops-and-ai?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/how-to-automate-failed-test-triage-with-allure-testops-and-ai?source=rss</id>
-    <updated>2026-08-26T04:07:06Z</updated>
-    <summary type="text">When a run goes red, the fact of failure tells you almost nothing: it can be a product bug, a broken test, stale data, a dead environment, a contract change, or a known issue that already has a ticket. Our rule is one defect per cause in Allure TestOps, a matcher rule on every defect so recurring failures link themselves in later runs, and a tracker issue created through the integration when the c</summary>
-    <author><name>Oleg</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
