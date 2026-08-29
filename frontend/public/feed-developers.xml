@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-28T23:59:19Z</updated>
+  <updated>2026-08-29T06:43:48Z</updated>
   <entry>
     <title>Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect</title>
     <link href="https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...</summary>
     <author><name>Tanya Lenz</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>OpenAI to End Partnership With Cursor After SpaceX Acquisition</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition</id>
+    <updated>2026-08-29T02:16:53Z</updated>
+    <summary type="text">OpenAI said it will end its partnership with Cursor after the AI-coding agent’s acquisition by SpaceX, according to a post on X.</summary>
+    <author><name>Yi Wei Wong</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AI benchmarks have a trust problem and Google wants to fix it</title>
@@ -26,6 +35,15 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Our decision on Cursor following its acquisition by SpaceX</title>
+    <link href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex" rel="alternate"/>
+    <id>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</id>
+    <updated>2026-08-28T06:00:00Z</updated>
+    <summary type="text">Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Always-on and self-starting AI agents might be OpenAI's next big play</title>
     <link href="https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/" rel="alternate"/>
     <id>https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/</id>
@@ -34,6 +52,24 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>okf-guard: A Security Layer for Open Knowledge Format (OKF) Pipelines</title>
+    <link href="https://dev.to/darshan_buddhdev/catching-prompt-injection-before-it-enters-a-trusted-knowledge-base-5hf4" rel="alternate"/>
+    <id>https://dev.to/darshan_buddhdev/catching-prompt-injection-before-it-enters-a-trusted-knowledge-base-5hf4</id>
+    <updated>2026-08-29T06:25:31Z</updated>
+    <summary type="text">Catching Prompt Injection Before It Enters a Trusted Knowledge Base AI agents increasingly consume knowledge from sources they did not author and cannot independently verify: a PDF policy document, a scraped web page, a spreadsheet exported from another team's system. The prevailing approach — extract the text, write it into a knowledge base or context window, let the agent treat it as fact — has </summary>
+    <author><name>Darshan Buddhdev</name></author>
+    <category term="rag"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>&quot;My Agent Refused 96 Times&quot;: Building Self-Editing Agents with Hard Failure Modes</title>
+    <link href="https://dev.to/tamizuddin/my-agent-refused-96-times-building-self-editing-agents-with-hard-failure-modes-jii" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/my-agent-refused-96-times-building-self-editing-agents-with-hard-failure-modes-jii</id>
+    <updated>2026-08-29T06:00:50Z</updated>
+    <summary type="text">Originally published on tamiz.pro. In the early days of shipping LLM-based agents, we optimized for output volume. If the model could not find the answer, it often generated a plausible one anyway. This is the &quot;yes-man&quot; problem. In critical systems—financial auditing, code generation, or compliance checks—this creates a dangerous class of errors: confident hallucinations. Recently, a senior ML eng</summary>
+    <author><name>Tamiz Uddin</name></author>
   </entry>
   <entry>
     <title>From One Agent to a Team: Understanding Codex Subagents</title>
@@ -354,22 +390,5 @@
     <summary type="text">A practical framework for evaluating trajectories, tool use, and process, not just the final answer. Originally published on Medium. 1. Introduction I am sure almost everyone reading this has tried to build an AI agent by now. For the POC, after some trial and error, it works, and you can demo it, everyone is impressed. You have tested it manually and it works, mostly. But thinking in terms of sof</summary>
     <author><name>Raj Kundalia</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Kubernetes Cost Optimization: The Phase 1 Cleanup Most Teams Skip (30–50% Savings)</title>
-    <link href="https://dev.to/rituraj_borah_7d2880b57c2/kubernetes-cost-optimization-the-phase-1-cleanup-most-teams-skip-30-50-savings-4h8i" rel="alternate"/>
-    <id>https://dev.to/rituraj_borah_7d2880b57c2/kubernetes-cost-optimization-the-phase-1-cleanup-most-teams-skip-30-50-savings-4h8i</id>
-    <updated>2026-08-26T07:32:10Z</updated>
-    <summary type="text">49% of organizations running Kubernetes in production report rising infrastructure costs since adoption — 17% say the increase has been significant. If you've felt that creep on your own cluster's bill and immediately started reading about spot instances, Karpenter, and multi-year commitment discounts, you're not wrong to look there eventually. But you're skipping a step. Before any of that, there</summary>
-    <author><name>Rituraj Borah</name></author>
-  </entry>
-  <entry>
-    <title>py-evoFE: Automated Evolutionary Feature Engineering for Tabular ML in Python (Genetic Algorithms + Scikit-Learn + Polars) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/</id>
-    <updated>2026-08-27T21:33:09Z</updated>
-    <summary type="text">Hey everyone! I’m excited to announce the release of py-evoFE (v0.3.0) — an open-source Python library that uses genetic algorithms to automatically discover, combine, and optimize feature transformations for tabular datasets. GitHub: https://github.com/tanopereira/py-evoFE PyPI: pip install py-evoFE License: MIT The Problem It Solves Feature engineering is still where most tabular ML competitions</summary>
-    <author><name>/u/tanopereira</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
