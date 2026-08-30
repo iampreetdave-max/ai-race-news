@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-30T10:25:25Z</updated>
+  <updated>2026-08-30T15:17:53Z</updated>
+  <entry>
+    <title>AI agents have no sense of time and are not aware of it</title>
+    <link href="https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/" rel="alternate"/>
+    <id>https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/</id>
+    <updated>2026-08-30T10:41:36Z</updated>
+    <summary type="text">AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomous tasks, that creates a real problem with oversight. The article AI agents have no sense of time and</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Anthropic's Claude Code limit change is a raise on paper but a cut in practice</title>
     <link href="https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/" rel="alternate"/>
@@ -12,6 +22,34 @@
     <updated>2026-08-30T09:05:19Z</updated>
     <summary type="text">Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic's Claude Code limit change is a raise on paper but a cut in practice appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The isolation tech behind managed AI sandboxes (gVisor, Firecracker) — worth it locally?</title>
+    <link href="https://dev.to/yujisuzuki/the-isolation-tech-behind-managed-ai-sandboxes-gvisor-firecracker-worth-it-locally-4nh0" rel="alternate"/>
+    <id>https://dev.to/yujisuzuki/the-isolation-tech-behind-managed-ai-sandboxes-gvisor-firecracker-worth-it-locally-4nh0</id>
+    <updated>2026-08-30T15:00:00Z</updated>
+    <summary type="text">In Part 1, I laid out three options for where to draw the isolation boundary around an AI coding agent: Claude Code Sandbox, Docker AI Sandboxes, and AI Sandbox + HostMCP (this project). All three run on a normal dev machine with nothing more exotic than Docker or OS-level primitives. But if you look at how managed cloud AI agent services isolate their sandboxes, a different pair of names comes up</summary>
+    <author><name>Yuji Suzuki</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>This week in Cursor + .NET — 7 rules (week ending August 30, 2026)</title>
+    <link href="https://dev.to/agentic_architect/this-week-in-cursor-net-7-rules-week-ending-august-30-2026-3ono" rel="alternate"/>
+    <id>https://dev.to/agentic_architect/this-week-in-cursor-net-7-rules-week-ending-august-30-2026-3ono</id>
+    <updated>2026-08-30T14:52:16Z</updated>
+    <summary type="text">Every weekday a single, opinionated rule for senior C#/.NET engineers using Cursor. Here's the full week in one read — canonical posts live on the Agentic Architect blog. 7 daily senior rules Rule 9: Scoped Capture in Singleton Sun 30 Aug The single most expensive .NET runtime bug: a Singleton holding a Scoped service. Cursor cheerfully writes this without warning. Audit constructor parameters of </summary>
+    <author><name>Agentic Architect</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How I Let Claude Code Resolve 312 Merge Conflicts in One Rebase: 5 Lessons</title>
+    <link href="https://dev.to/yureki_lab/how-i-let-claude-code-resolve-312-merge-conflicts-in-one-rebase-5-lessons-26f1" rel="alternate"/>
+    <id>https://dev.to/yureki_lab/how-i-let-claude-code-resolve-312-merge-conflicts-in-one-rebase-5-lessons-26f1</id>
+    <updated>2026-08-30T14:32:29Z</updated>
+    <summary type="text">TL;DR I had a feature branch that drifted five months behind main, and rebasing it produced 312 merge conflicts across 137 files. Instead of grinding through them by hand, I built a small triage harness that classified each conflict, handed the hard ones to Claude Code with the right context, and gated every batch behind a compile-and-test check. It took 11 hours instead of the two weeks I'd budge</summary>
+    <author><name>yureki_lab</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -403,23 +441,5 @@
     <author><name>jamilxt</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>One Runtime, Two Programs That Have Nothing in Common</title>
-    <link href="https://dev.to/mbelhadi/one-runtime-two-programs-that-have-nothing-in-common-4l8l" rel="alternate"/>
-    <id>https://dev.to/mbelhadi/one-runtime-two-programs-that-have-nothing-in-common-4l8l</id>
-    <updated>2026-08-26T14:39:39Z</updated>
-    <summary type="text">A C++20 actor framework where a REST API and a market-data pipeline run on the same execution rules. Here are two functions from the same codebase. The first is an HTTP handler. Reads a cache, falls back to Postgres, refreshes the cache, writes JSON: qb::io::async::task&lt;void&gt; TaskManager::handle_list_tasks(ctx_t ctx) { auto cached = co_await _redis.get(&quot;tasks:list&quot;); if (cached.ok() &amp;&amp; cached.resu</summary>
-    <author><name>ISNDEV</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Stop Copying Your CLAUDE.md Between Projects</title>
-    <link href="https://dev.to/elleryfamilia/stop-copying-your-claudemd-between-projects-4ji7" rel="alternate"/>
-    <id>https://dev.to/elleryfamilia/stop-copying-your-claudemd-between-projects-4ji7</id>
-    <updated>2026-08-26T14:35:41Z</updated>
-    <summary type="text">I kept running into the same dumb problem with AI coding agents. Every project needs context. How I like code structured. Which tools I prefer. How I want the agent to communicate. What commands it should run. How I want it to plan before touching anything. So you put that stuff in CLAUDE.md. Or AGENTS.md. Or Cursor rules. Or Copilot instructions. Then you open another repo and do it again. Then y</summary>
-    <author><name>Ellery Familia</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
