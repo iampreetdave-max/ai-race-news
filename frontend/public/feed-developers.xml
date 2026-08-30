@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-30T15:17:53Z</updated>
+  <updated>2026-08-30T19:13:50Z</updated>
   <entry>
     <title>AI agents have no sense of time and are not aware of it</title>
     <link href="https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/" rel="alternate"/>
@@ -23,6 +23,14 @@
     <summary type="text">Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic's Claude Code limit change is a raise on paper but a cut in practice appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Native CORS support on GKE Gateway: Offloading cross-origin policy management to infrastructure</title>
+    <link href="https://dev.to/googlecloud/native-cors-support-on-gke-gateway-offloading-cross-origin-policy-management-to-infrastructure-3c0m" rel="alternate"/>
+    <id>https://dev.to/googlecloud/native-cors-support-on-gke-gateway-offloading-cross-origin-policy-management-to-infrastructure-3c0m</id>
+    <updated>2026-08-30T19:09:03Z</updated>
+    <summary type="text">Web browsers enforce the Same-Origin Policy by default to protect users from malicious scripts trying to read data across distinct origins. However, modern application architectures almost always require cross-origin communication. Single-page applications, mobile clients, and embedded web components regularly fetch data and stream AI model inferences across separate domains, subdomains, and ports</summary>
+    <author><name>Olivier Bourgeois</name></author>
   </entry>
   <entry>
     <title>The isolation tech behind managed AI sandboxes (gVisor, Firecracker) — worth it locally?</title>
@@ -423,23 +431,5 @@
     <summary type="text">Claude Code is amazing. It feels like cheating in the best way until it doesn't. The first time I dropped a vague comment and it gave me a fully working component, I was hooked. But somewhere along the way, I realized something weird was happening: I was coding less... and thinking less. Let’s talk about that. The Tools Got Better, But We Got Lazier In 2022, you still had to know stuff. Now? You j</summary>
     <author><name>Leon Martin</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My Journey from Full-Stack Engineering to AI-First FDE</title>
-    <link href="https://dev.to/prakashtank/my-journey-from-full-stack-engineering-to-ai-first-fde-25j0" rel="alternate"/>
-    <id>https://dev.to/prakashtank/my-journey-from-full-stack-engineering-to-ai-first-fde-25j0</id>
-    <updated>2026-08-26T16:12:46Z</updated>
-    <summary type="text">My Journey from Full-Stack Engineering to AI-First FDE Hi everyone! 👋 I’m Prakash Tank, a Full-Stack Architect and AI Tech Lead with 10+ years of experience building production software. Over the years, my role has changed quite a bit. I started with a strong focus on backend and full-stack development. Then I moved into architecture, started leading teams, and became more involved in solving busi</summary>
-    <author><name>Prakash Tank</name></author>
-  </entry>
-  <entry>
-    <title>GLM-5.3-Flash: Z.ai Reveals Ox Alpha Was Its Open Multimodal Model</title>
-    <link href="https://dev.to/jamilxt/glm-53-flash-zai-reveals-ox-alpha-was-its-open-multimodal-model-51b7" rel="alternate"/>
-    <id>https://dev.to/jamilxt/glm-53-flash-zai-reveals-ox-alpha-was-its-open-multimodal-model-51b7</id>
-    <updated>2026-08-26T15:51:53Z</updated>
-    <summary type="text">For the past week, developers have been puzzling over a model called Ox Alpha. It appeared on OpenCode and OpenRouter on August 20 with no owner attached, free to use, with a 1M-token context window and support for image and video input. Independent researchers fingerprinted its tokenizer, ran compression analyses, and traced it to Z.ai's GLM family with high confidence. On August 26, Z.ai confirm</summary>
-    <author><name>jamilxt</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
