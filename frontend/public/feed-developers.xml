@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-29T23:09:45Z</updated>
+  <updated>2026-08-30T04:37:02Z</updated>
   <entry>
     <title>OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts</title>
     <link href="https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/" rel="alternate"/>
@@ -12,6 +12,16 @@
     <updated>2026-08-29T08:15:35Z</updated>
     <summary type="text">OpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk's track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just five percent of the tool's AI traffic. The article OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts appeared first on The Decod</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>rulereceipt</title>
+    <link href="https://dev.to/outreach-rule/rulereceipt-29he" rel="alternate"/>
+    <id>https://dev.to/outreach-rule/rulereceipt-29he</id>
+    <updated>2026-08-30T03:38:19Z</updated>
+    <summary type="text">I'm building RuleReceipt, a tool that helps manage rules/configs across AI coding assistants (Claude, Copilot, Cursor, etc.) so you don't have to duplicate setup per tool. It's in early stages. I'd love for you to try it and tell me what's broken or confusing. No obligation, just honest feedback. Let me know if you want a 5-min walkthrough or just want to poke at it. https://rulereceipt.dev</summary>
+    <author><name>outreach-rule</name></author>
+    <category term="tutorial"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -217,6 +227,14 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>Introducing Hy4 Preview</title>
+    <link href="https://simonwillison.net/2026/Aug/29/hy4/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Aug/29/hy4/</id>
+    <updated>2026-08-29T23:53:13Z</updated>
+    <summary type="text">Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face. This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. He</summary>
+    <author><name>Simon Willison</name></author>
+  </entry>
+  <entry>
     <title>An ERD MCP Server: AI Agents That Follow Your Naming Standard</title>
     <link href="https://dev.to/sqemo/an-erd-mcp-server-ai-agents-that-follow-your-naming-standard-5dee" rel="alternate"/>
     <id>https://dev.to/sqemo/an-erd-mcp-server-ai-agents-that-follow-your-naming-standard-5dee</id>
@@ -382,15 +400,6 @@
     <updated>2026-08-26T14:35:41Z</updated>
     <summary type="text">I kept running into the same dumb problem with AI coding agents. Every project needs context. How I like code structured. Which tools I prefer. How I want the agent to communicate. What commands it should run. How I want it to plan before touching anything. So you put that stuff in CLAUDE.md. Or AGENTS.md. Or Cursor rules. Or Copilot instructions. Then you open another repo and do it again. Then y</summary>
     <author><name>Ellery Familia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I put my cost router on a neutral benchmark. It ranked near the bottom, and that's the interesting part</title>
-    <link href="https://dev.to/fortitudeomnis/i-put-my-cost-router-on-a-neutral-benchmark-it-ranked-near-the-bottom-and-thats-the-interesting-6bc" rel="alternate"/>
-    <id>https://dev.to/fortitudeomnis/i-put-my-cost-router-on-a-neutral-benchmark-it-ranked-near-the-bottom-and-thats-the-interesting-6bc</id>
-    <updated>2026-08-26T13:37:36Z</updated>
-    <summary type="text">A few weeks back I repriced three months of my own Claude Code usage. Real traffic, not a demo: 39.5 billion tokens across 139,835 requests. At API rates that's about $30,000, and 91% of it went to Opus because that's what the default reaches for. Route the fraction a smaller model handles as well, and the bill drops by roughly 50 to 58%. Five or six grand a month, on work that was already done an</summary>
-    <author><name>Developer at Fortitude Omnis Group</name></author>
     <category term="llm"/>
   </entry>
 </feed>

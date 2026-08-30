@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-29T23:09:45Z</updated>
+  <updated>2026-08-30T04:37:02Z</updated>
+  <entry>
+    <title>Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs</title>
+    <link href="https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/</id>
+    <updated>2026-08-30T01:35:02Z</updated>
+    <summary type="text">Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning. The post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs appeared first on MarkTechPost.</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio</title>
     <link href="https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/" rel="alternate"/>
@@ -134,12 +143,44 @@
     <category term="robotics"/>
   </entry>
   <entry>
+    <title>Oracle Manipulation Risk Report: Bybit</title>
+    <link href="https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-bybit-4j8e" rel="alternate"/>
+    <id>https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-bybit-4j8e</id>
+    <updated>2026-08-30T04:21:11Z</updated>
+    <summary type="text">Oracle Manipulation Risk Report: Bybit Target Protocol: Bybit (TVL: $16064.2M) Oracle Manipulation Risk Report – Bybit Protocol: Bybit (DeFi &amp; derivatives ecosystem on Ethereum &amp; L2 roll‑ups) TVL: ≈ $16.06 B (Ethereum + L2) Date: 30 August 2026 Prepared by: Senior DeFi Security Researcher – [Your Name] 1. Executive Summary Bybit has rapidly expanded from a centralized derivatives exchange into a m</summary>
+    <author><name>DannyDoes</name></author>
+  </entry>
+  <entry>
+    <title>Best Object Storage for Private Image Thumbnails and Signed Links in Node.js</title>
+    <link href="https://dev.to/zanesterling7589/best-object-storage-for-private-image-thumbnails-and-signed-links-in-nodejs-465c" rel="alternate"/>
+    <id>https://dev.to/zanesterling7589/best-object-storage-for-private-image-thumbnails-and-signed-links-in-nodejs-465c</id>
+    <updated>2026-08-30T04:20:34Z</updated>
+    <summary type="text">The resizing boundary decides this architecture before the storage vendor does. Short answer: keep private originals and generated thumbnails in object storage, resize in an application worker or a dedicated image service, record every variant in the application database, and give clients short-lived signed GET links. Don't treat the bucket as an image processor or a catalog. A Node.js SaaS can ow</summary>
+    <author><name>zanesterling7589</name></author>
+  </entry>
+  <entry>
     <title>The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn</title>
     <link href="https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/" rel="alternate"/>
     <id>https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/</id>
     <updated>2026-08-29T10:30:00Z</updated>
     <summary type="text">Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for.</summary>
     <author><name>Maddy Varner</name></author>
+  </entry>
+  <entry>
+    <title>Your models agreed with each other. They were agreeing with themselves.</title>
+    <link href="https://dev.to/ilya_mozerov_867dbdd91feb/your-models-agreed-with-each-other-they-were-agreeing-with-themselves-3jb0" rel="alternate"/>
+    <id>https://dev.to/ilya_mozerov_867dbdd91feb/your-models-agreed-with-each-other-they-were-agreeing-with-themselves-3jb0</id>
+    <updated>2026-08-30T03:54:32Z</updated>
+    <summary type="text">There is a small art project in our house that encodes a sentence as nothing but its word lengths. Each word becomes a run of some symbol, repeated once per letter; the symbol itself is chosen at random and carries nothing. &quot;The night is long&quot; becomes four clusters of length 3, 5, 2, That is the entire channel. A reader — human or model — gets the lengths and nothing else. The project's README mak</summary>
+    <author><name>ilya mozerov</name></author>
+  </entry>
+  <entry>
+    <title>API rate limiting: patterns, algorithms, and how to do it right</title>
+    <link href="https://dev.to/weston_carnes_d580b505e0c/api-rate-limiting-patterns-algorithms-and-how-to-do-it-right-4l35" rel="alternate"/>
+    <id>https://dev.to/weston_carnes_d580b505e0c/api-rate-limiting-patterns-algorithms-and-how-to-do-it-right-4l35</id>
+    <updated>2026-08-30T03:44:04Z</updated>
+    <summary type="text">Cross-post. Original: stellarbytecapital.com/blog/api-rate-limiting Rate limiting looks trivial — &quot;just count requests and block over N&quot; — and quietly turns into a distributed-systems problem the moment you have more than one server, bursty traffic, or clients you actually care about. Done well, it protects your API from abuse and absorbs spikes without punishing legitimate callers. Done naively, </summary>
+    <author><name>Weston Carnes</name></author>
   </entry>
   <entry>
     <title>How to Run a Chatbot on Your Own Computer</title>
@@ -149,6 +190,41 @@
     <summary type="text">Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy.</summary>
     <author><name>David Nield</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your LLM cannot compute a birth chart (and it won't tell you)</title>
+    <link href="https://dev.to/beachcombers/your-llm-cannot-compute-a-birth-chart-and-it-wont-tell-you-5gma" rel="alternate"/>
+    <id>https://dev.to/beachcombers/your-llm-cannot-compute-a-birth-chart-and-it-wont-tell-you-5gma</id>
+    <updated>2026-08-30T03:40:10Z</updated>
+    <summary type="text">There is a genre of prompt going around: paste your birth date and time into a chatbot and ask for your Korean saju (or Chinese BaZi) chart — the four pillars, the day master, the whole thing. The answers read beautifully. They are also, structurally, guesses. I run a saju reading service, so I care about this for selfish reasons. But the failure mode is interesting on its own, because it is the q</summary>
+    <author><name>Hyunbin Kim</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>rulereceipt</title>
+    <link href="https://dev.to/outreach-rule/rulereceipt-29he" rel="alternate"/>
+    <id>https://dev.to/outreach-rule/rulereceipt-29he</id>
+    <updated>2026-08-30T03:38:19Z</updated>
+    <summary type="text">I'm building RuleReceipt, a tool that helps manage rules/configs across AI coding assistants (Claude, Copilot, Cursor, etc.) so you don't have to duplicate setup per tool. It's in early stages. I'd love for you to try it and tell me what's broken or confusing. No obligation, just honest feedback. Let me know if you want a 5-min walkthrough or just want to poke at it. https://rulereceipt.dev</summary>
+    <author><name>outreach-rule</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Architecture Behind CoxOutage.us</title>
+    <link href="https://dev.to/coxoutageus/the-architecture-behind-coxoutageus-2ije" rel="alternate"/>
+    <id>https://dev.to/coxoutageus/the-architecture-behind-coxoutageus-2ije</id>
+    <updated>2026-08-30T03:14:28Z</updated>
+    <summary type="text">When an internet outage hits, users immediately turn to their phones to find out if it's just them or a widespread network issue. Because they are often relying on spotty cellular data, any tracking site needs to load instantly and deliver highly localized information. I recently launched CoxOutage.us to map and track Cox Communications disruptions. Here is a breakdown of the technical and SEO str</summary>
+    <author><name>Cox Outage</name></author>
+  </entry>
+  <entry>
+    <title>Building a Sub-Second Resume Parser and ATS Diff Engine</title>
+    <link href="https://dev.to/rasip/building-a-sub-second-resume-parser-and-ats-diff-engine-4g45" rel="alternate"/>
+    <id>https://dev.to/rasip/building-a-sub-second-resume-parser-and-ats-diff-engine-4g45</id>
+    <updated>2026-08-30T03:11:30Z</updated>
+    <summary type="text">When applying for engineering roles, automated applicant tracking systems (ATS) often silently reject candidates due to parsing blockers like multi-column layouts, missing quantitative metrics, or non-standard font embeddings. To fix this latency bottleneck, I built MyRizzume (https://myrizzume.me) — designed to parse and score resumes end-to-end in under 1,000ms. What it checks: Layout Integrity:</summary>
+    <author><name>Victor Birkle</name></author>
   </entry>
   <entry>
     <title>Human-Aligned Decision Transformers for satellite anomaly response operations for extreme data sparsity scenarios</title>
@@ -364,88 +440,5 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>CEO Interview : CompliantChatGpt</title>
-    <link href="https://www.cbinsights.com/research/ceo-interview-compliantchatgpt/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/ceo-interview-compliantchatgpt/</id>
-    <updated>2026-08-28T17:44:12Z</updated>
-    <summary type="text">Clemente Lopez, Chief Executive Officer (CEO) at CompliantChatGpt, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We define our market … The post CEO Interview : CompliantChatGpt appeared first on CB Insights Research.</summary>
-    <author><name>Lindsay Stanley</name></author>
-  </entry>
-  <entry>
-    <title>Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders</title>
-    <link href="https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/</id>
-    <updated>2026-08-28T17:28:47Z</updated>
-    <summary type="text">Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI mock, and ships a fullscreen effect in 25 KB gzipped. The post Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders appeared first on</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>A Beloved Classic Gets a Second Life: Why I Forked Uniform Server</title>
-    <link href="https://dev.to/rob_de_roy/a-beloved-classic-gets-a-second-life-why-i-forked-uniform-server-18hc" rel="alternate"/>
-    <id>https://dev.to/rob_de_roy/a-beloved-classic-gets-a-second-life-why-i-forked-uniform-server-18hc</id>
-    <updated>2026-08-29T17:21:05Z</updated>
-    <summary type="text">Some software refuses to die — because people genuinely love it. Uniform Server is one of those quiet classics: a tiny, portable WAMP stack for Windows Apache, MySQL, PHP and phpMyAdmin in a single folder. No installer, no registry entries, no services you didn’t ask for. Unzip it, click Start, and you have a full local web server. For almost two decades it has been the tool of choice for develope</summary>
-    <author><name>Rob de Roy</name></author>
-  </entry>
-  <entry>
-    <title>I built an autonomous treasury agent, then let a code review bot find every way it could lose money</title>
-    <link href="https://dev.to/codedpool/i-built-an-autonomous-treasury-agent-then-let-a-code-review-bot-find-every-way-it-could-lose-money-4ocf" rel="alternate"/>
-    <id>https://dev.to/codedpool/i-built-an-autonomous-treasury-agent-then-let-a-code-review-bot-find-every-way-it-could-lose-money-4ocf</id>
-    <updated>2026-08-29T17:18:30Z</updated>
-    <summary type="text">I just submitted TreasuryForge to the WeMakeDevs × TrueFoundry Agent Harness Hackathon, an autonomous agent that manages a simulated treasury across cash, crypto, and NSE equities, built entirely on TrueForge, TrueFoundry's agent harness. This isn't a writeup about the idea. It's about what actually broke, what a code review bot caught before it shipped, and what I learned wiring a real approval g</summary>
-    <author><name>Romanch Roshan Singh</name></author>
-  </entry>
-  <entry>
-    <title>Watch Apps: One Codebase, Two Real Applications</title>
-    <link href="https://dev.to/codenameone/watch-apps-one-codebase-two-real-applications-215f" rel="alternate"/>
-    <id>https://dev.to/codenameone/watch-apps-one-codebase-two-real-applications-215f</id>
-    <updated>2026-08-29T17:06:28Z</updated>
-    <summary type="text">A watch app is not a second form in the phone process. It is another application on another device, with its own storage, startup sequence, and periods when the other side is unreachable. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com. PR #5487 now builds an </summary>
-    <author><name>Shai Almog</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Chinese automakers are following Tesla’s bet that robots are the next big profit machine</title>
-    <link href="https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/</id>
-    <updated>2026-08-28T23:24:27Z</updated>
-    <summary type="text">Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.</summary>
-    <author><name>Kirsten Korosec</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Design Patterns of Agentic AI</title>
-    <link href="https://dev.to/zeeshanhshaheen/design-patterns-of-agentic-ai-334c" rel="alternate"/>
-    <id>https://dev.to/zeeshanhshaheen/design-patterns-of-agentic-ai-334c</id>
-    <updated>2026-08-29T17:01:32Z</updated>
-    <summary type="text">The Design Patterns Nobody Told You About Agentic AI Here's a confession: the first &quot;agent&quot; I built was basically a while loop with a prompt stapled to it. It called a function, read the result, and called another function. I thought I'd invented something. Turns out I'd just rediscovered ReAct, badly, three years after everyone else. That's the funny thing about agentic AI right now. Underneath a</summary>
-    <author><name>Zeeshan Haider Shaheen</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Agent Skills and how to use them</title>
-    <link href="https://dev.to/majdizlitni/agent-skills-and-how-to-use-them-46hb" rel="alternate"/>
-    <id>https://dev.to/majdizlitni/agent-skills-and-how-to-use-them-46hb</id>
-    <updated>2026-08-29T17:00:46Z</updated>
-    <summary type="text">If your AI assistant keeps giving generic, unreliable answers, the problem is not the model. It is the missing structure around it. That is exactly what Agent Skills solve. Modern LLMs are strong enough to handle complex tasks. The real issue is that they are working without stable context, rules, or domain-specific instructions that guide how they should behave in your environment. This is where </summary>
-    <author><name>Majdi Zlitni</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>4 Claude Skills Every Data Scientist Needs in 2026</title>
-    <link href="https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/" rel="alternate"/>
-    <id>https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/</id>
-    <updated>2026-08-29T17:00:02Z</updated>
-    <summary type="text">Four skills worth adding to your workflow today if you don't want to be left behind The post 4 Claude Skills Every Data Scientist Needs in 2026 appeared first on Towards Data Science.</summary>
-    <author><name>Haden Pelletier</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>
