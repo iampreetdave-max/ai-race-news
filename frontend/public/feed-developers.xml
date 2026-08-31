@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-08-30T22:34:53Z</updated>
+  <updated>2026-08-31T01:16:02Z</updated>
   <entry>
     <title>AI agents have no sense of time and are not aware of it</title>
     <link href="https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/" rel="alternate"/>
@@ -23,6 +23,35 @@
     <summary type="text">Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic's Claude Code limit change is a raise on paper but a cut in practice appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Getting Started with Excel for Data Analytics: From Basics to Data Cleaning</title>
+    <link href="https://dev.to/felix_omayo_95e7e6dafed3b/getting-started-with-excel-for-data-analytics-from-basics-to-data-cleaning-15pj" rel="alternate"/>
+    <id>https://dev.to/felix_omayo_95e7e6dafed3b/getting-started-with-excel-for-data-analytics-from-basics-to-data-cleaning-15pj</id>
+    <updated>2026-08-31T00:55:30Z</updated>
+    <summary type="text">As a novice getting into data, I started off bundling data science, data analytics, and data engineering into one bucket called data science. I often heard terms such as analysis, Moving Annual Turnover, Year to Date, dashboards, and pivot tables in boardrooms during team meetings discussing annual and quarterly strategies. At that time, I would have never thought there would come a time when I wo</summary>
+    <author><name>Felix Nyabwonda</name></author>
+    <category term="tutorial"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Waspes: An AI Website Builder</title>
+    <link href="https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm" rel="alternate"/>
+    <id>https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm</id>
+    <updated>2026-08-31T00:43:23Z</updated>
+    <summary type="text">Building a website still involves a lot of repetitive work: planning the layout, writing content, generating code, connecting forms, and finally deploying everything. I built Waspes to automate as much of this workflow as possible. A user describes the website they want, and the platform generates the structure, content, visual elements, and functional components. The interesting part is that Wasp</summary>
+    <author><name>Franek Mytych</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Taming the Beast: Building a High-Performance ETL Pipeline for Apple Health’s Massive XML Exports</title>
+    <link href="https://dev.to/beck_moulton/taming-the-beast-building-a-high-performance-etl-pipeline-for-apple-healths-massive-xml-exports-3f3e" rel="alternate"/>
+    <id>https://dev.to/beck_moulton/taming-the-beast-building-a-high-performance-etl-pipeline-for-apple-healths-massive-xml-exports-3f3e</id>
+    <updated>2026-08-31T00:42:00Z</updated>
+    <summary type="text">If you’ve ever tried to open an Apple Health export.xml file in VS Code, you’ve probably watched your RAM melt into a puddle of sadness. 🫠 Apple’s HealthKit data is a treasure trove of biological insights, but at the scale of 5GB+ of &quot;dirty&quot; XML, it’s a Data Engineering nightmare. In this tutorial, we are building a high-concurrency Apple Health ETL Engine. We’ll be leveraging Rust for blazing-fas</summary>
+    <author><name>Beck_Moulton</name></author>
+    <category term="tutorial"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Macula - An Ecosystem for Mesh-native Computing</title>
@@ -227,6 +256,15 @@
     <updated>2026-08-28T06:00:00Z</updated>
     <summary type="text">Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code for Research Papers [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/</id>
+    <updated>2026-08-30T23:24:07Z</updated>
+    <summary type="text">Third-year PhD student, NLP / interpretability. I want a reality check from people doing similar work. I started using Claude Code for the boring parts: argparse boilerplate, plotting, config wrangling. Over the last few months the scope has crept. It now writes most of my experiment scaffolding, refactors my dataloaders, does first-pass debugging on training runs, and drafts the analysis scripts.</summary>
+    <author><name>/u/NeatFox5866</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -440,30 +478,5 @@
     <summary type="text">Someone in your Slack asks, &quot;How many people signed up last week?&quot; You open a SQL client, write a query you've written a dozen times before, run it, copy the number, and paste it back. A week later, the same question lands in a different channel. Same query, same copy-paste, same five minutes gone. Multiply that by every &quot;quick number&quot; your team asks for — signups, active users, MRR, refunds, top </summary>
     <author><name>Vivek Kumar</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What GLM-5.3-Flash Changes for AI Engineering Teams</title>
-    <link href="https://dev.to/cloudsway/what-glm-53-flash-changes-for-ai-engineering-teams-7pi" rel="alternate"/>
-    <id>https://dev.to/cloudsway/what-glm-53-flash-changes-for-ai-engineering-teams-7pi</id>
-    <updated>2026-08-27T03:44:07Z</updated>
-    <summary type="text">GLM-5.3-Flash arrived through an unusual launch sequence. Before Z.ai announced the model, it appeared anonymously on OpenRouter under the name Ox Alpha. Developers could test it without knowing which company had trained it. According to OpenRouter, the model processed more than 20 trillion tokens during its first six days. When Z.ai revealed its identity, GLM-5.3-Flash already had a meaningful re</summary>
-    <author><name>Marcus ma</name></author>
-  </entry>
-  <entry>
-    <title>Benchmarking 5 Graph Database Platforms on the Same 352k-Edge Graph: What Free Tiers Hide</title>
-    <link href="https://dev.to/kalbashi09/benchmarking-5-graph-database-platforms-on-the-same-352k-edge-graph-what-free-tiers-hide-39jm" rel="alternate"/>
-    <id>https://dev.to/kalbashi09/benchmarking-5-graph-database-platforms-on-the-same-352k-edge-graph-what-free-tiers-hide-39jm</id>
-    <updated>2026-08-27T03:38:43Z</updated>
-    <summary type="text">Graph database benchmarks are easy to get wrong. Most public benchmarks compare expensive production instances, use different datasets, ignore network latency, hide free-tier throttling, or quietly optimize one database more than the others. For a recent engineering assignment from Wexa AI, I decided to do the opposite. I built a small benchmark harness that compared CognoDB Cloud against four oth</summary>
-    <author><name>John David Paul</name></author>
-  </entry>
-  <entry>
-    <title>Why I Decided to Stop Using Claude Code</title>
-    <link href="https://dev.to/holasoymalva/why-i-decided-to-stop-using-claude-code-4mm0" rel="alternate"/>
-    <id>https://dev.to/holasoymalva/why-i-decided-to-stop-using-claude-code-4mm0</id>
-    <updated>2026-08-26T18:37:12Z</updated>
-    <summary type="text">Claude Code is amazing. It feels like cheating in the best way until it doesn't. The first time I dropped a vague comment and it gave me a fully working component, I was hooked. But somewhere along the way, I realized something weird was happening: I was coding less... and thinking less. Let’s talk about that. The Tools Got Better, But We Got Lazier In 2022, you still had to know stuff. Now? You j</summary>
-    <author><name>Leon Martin</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
