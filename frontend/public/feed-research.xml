@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-08-31T16:56:10Z</updated>
+  <updated>2026-08-31T21:51:34Z</updated>
   <entry>
     <title>Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI</title>
     <link href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/" rel="alternate"/>
@@ -12,6 +12,15 @@
     <updated>2026-08-31T13:31:06Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting with my chum Robin Sloan on the evening of Monday September […]</summary>
     <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Sliding-window attention beats linear on long-context reasoning [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/</id>
+    <updated>2026-08-31T16:35:42Z</updated>
+    <summary type="text">Sliding Window Attention with sinks, one of the simplest existing fixes for the quadratic-cost problem in LLMs, holds up as well or better than the linear-attention variants labs have been spending post-training compute to produce. That is the claim of a [new arXiv preprint](https://arxiv.org/abs/2608.28444) by Alexia Jolicoeur-Martineau, Rhea Sanjay Sukthanker, Pashmina Cameron and Emy Gervais. O</summary>
+    <author><name>/u/Justgototheeffinmoon</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -91,24 +100,5 @@
     <category term="research"/>
     <category term="computer-vision"/>
     <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture</title>
-    <link href="https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/</id>
-    <updated>2026-08-26T15:20:00Z</updated>
-    <summary type="text">We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an early preview of the Qwen4 architecture. We break down where the 180B parameters actually sit: a 125B backbone, a 51B N-gram embedding table, and a 4B multi-token prediction module, with only 6B active per token. We walk through the four architectural changes — the Gated DeltaNet and Qwen Sparse Attenti</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>DINOcular: Self-Supervised Visuospatial Representations</title>
-    <link href="https://arxiv.org/abs/2608.27226v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.27226v1</id>
-    <updated>2026-08-27T15:09:32Z</updated>
-    <summary type="text">We introduce a self-supervised framework for learning joint visuospatial representations from RGB-D observations. While modern vision foundation models are trained almost exclusively on RGB images, many embodied systems have access to explicit depth sensing, which provides geometric information that monocular inputs cannot recover. Our method integrates depth-derived geometric priors with a visual</summary>
-    <author><name>Hermann Blum</name></author>
-    <category term="llm"/>
-    <category term="research"/>
   </entry>
 </feed>
