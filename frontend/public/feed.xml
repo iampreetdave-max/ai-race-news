@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-08-31T01:16:02Z</updated>
+  <updated>2026-08-31T08:25:29Z</updated>
   <entry>
     <title>Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark</title>
     <link href="https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/" rel="alternate"/>
@@ -21,6 +21,24 @@
     <summary type="text">Google Cloud AI Research, with Washington University in St. Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2.0 layer that turns a static agent benchmark into one that adapts to the policy training on it. It wraps a frozen environment through the standard reset()/step() interface, so tasks and human-built verifiers stay untouched — and an LLM designer, EnvRigger, writes those wrapper</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>SK Hynix Weighs Japan Plant Deal to Supply AI Boom</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-31/sk-hynix-weighs-japan-memory-fab-partnership-to-supply-ai-boom" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-31/sk-hynix-weighs-japan-memory-fab-partnership-to-supply-ai-boom</id>
+    <updated>2026-08-31T01:24:59Z</updated>
+    <summary type="text">SK Hynix Inc. is studying the feasibility of potential sites for memory chip manufacturing expansion in Japan, adding to efforts to meet surging AI demand while controlling production costs.</summary>
+    <author><name>Mayumi Negishi and Mari Kiyohara</name></author>
+  </entry>
+  <entry>
+    <title>LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones</title>
+    <link href="https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno" rel="alternate"/>
+    <id>https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno</id>
+    <updated>2026-08-31T08:20:04Z</updated>
+    <summary type="text">Google announces Gemini 3.7 Flash, Jalapeño’s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.</summary>
+    <author><name>Last Week in AI</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce</title>
@@ -108,6 +126,81 @@
     <author><name>Bloomberg Technology</name></author>
   </entry>
   <entry>
+    <title>Delta E is a distance, not a score</title>
+    <link href="https://dev.to/deland/delta-e-is-a-distance-not-a-score-68b" rel="alternate"/>
+    <id>https://dev.to/deland/delta-e-is-a-distance-not-a-score-68b</id>
+    <updated>2026-08-31T08:10:24Z</updated>
+    <summary type="text">I run a game where you get a brand name — Spotify, IKEA, Home Depot — and rebuild its primary color from memory with three sliders: hue, saturation, lightness. On submit, the guess and the target both go to CIE Lab and the score comes from the distance between them. The scoring line was this: const score = Math.max(0, 100 - deltaE * 2); It looks defensible. ΔE around 2 is the classic just-noticeab</summary>
+    <author><name>Deland</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>My LLM Critic Flip-Flops on Every Run. That's Fine — Because a Frozenset Decides What's Fatal.</title>
+    <link href="https://dev.to/debashish_ghosal/my-llm-critic-flip-flops-on-every-run-thats-fine-because-a-frozenset-decides-whats-fatal-4ep9" rel="alternate"/>
+    <id>https://dev.to/debashish_ghosal/my-llm-critic-flip-flops-on-every-run-thats-fine-because-a-frozenset-decides-whats-fatal-4ep9</id>
+    <updated>2026-08-31T08:09:45Z</updated>
+    <summary type="text">This is a companion to the PlannerCritic series. Article 2 was about a specific critic bug. This one is about the design principle I extracted from fixing it — and the measurement that proved it holds. I measured my LLM critic on identical input across five trials. It returned a different verdict every single time. label_flip_rate = 1.0. It also never let a defective plan through. underclaim_appro</summary>
+    <author><name>Debashish Ghosal</name></author>
+  </entry>
+  <entry>
+    <title>How I Built a Production-Ready Design System With Claude Code, Mobbin, and Penpot</title>
+    <link href="https://dev.to/joxiahdev/how-i-built-a-production-ready-design-system-with-claude-code-mobbin-and-penpot-40il" rel="alternate"/>
+    <id>https://dev.to/joxiahdev/how-i-built-a-production-ready-design-system-with-claude-code-mobbin-and-penpot-40il</id>
+    <updated>2026-08-31T08:00:00Z</updated>
+    <summary type="text">I started a new series on my channel on Claude Code to help you understand and use it confidently, and in this video, I show you how to build a production-ready design system. The workflow uses Mobbin, a platform with a huge library of real application screenshots, to research how real, shipped products solve the same design problems. Claude Code takes those references and connects to Penpot — a f</summary>
+    <author><name>Blessed Josiah</name></author>
+    <category term="tutorial"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Best Resources to Learn AI (For Developers)</title>
+    <link href="https://dev.to/devshefali/best-resources-to-learn-ai-for-developers-1p9m" rel="alternate"/>
+    <id>https://dev.to/devshefali/best-resources-to-learn-ai-for-developers-1p9m</id>
+    <updated>2026-08-31T08:00:00Z</updated>
+    <summary type="text">Everyone is talking about AI. But if you're a developer who actually wants to understand it, not just use ChatGPT, but genuinely learn how the models work, how to build with them, and where the field is going, it can be hard to figure out where to start. The problem is that there are so many resources. Courses, YouTube videos, roadmaps, newsletters, books, papers... it can quickly become overwhelm</summary>
+    <author><name>Shefali</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>The difference between &quot;mentioned&quot; and &quot;answered&quot;</title>
+    <link href="https://dev.to/junwei_lai_71641e0a742b33/the-difference-between-mentioned-and-answered-3ekp" rel="alternate"/>
+    <id>https://dev.to/junwei_lai_71641e0a742b33/the-difference-between-mentioned-and-answered-3ekp</id>
+    <updated>2026-08-31T07:58:08Z</updated>
+    <summary type="text">I built this for the All Things Agentic Hackathon (August 2026). Code: github.com/jwlai-cloud/intake. Set published: true in the front matter when you post it. A community nurse has ninety minutes and a form she is legally required to complete. She asks about falls in the last twelve months. The answer is: &quot;Oh, I've had a couple of wobbles.&quot; Every AI scribe on the market ticks that item. It was me</summary>
+    <author><name>JWL AI</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Stop Building Chatbots: Why Enterprise Engineering is Shifting to Agentic Workflows</title>
+    <link href="https://dev.to/szglabs/stop-building-chatbots-why-enterprise-engineering-is-shifting-to-agentic-workflows-3o2f" rel="alternate"/>
+    <id>https://dev.to/szglabs/stop-building-chatbots-why-enterprise-engineering-is-shifting-to-agentic-workflows-3o2f</id>
+    <updated>2026-08-31T07:57:58Z</updated>
+    <summary type="text">Most enterprise AI initiatives fail. Companies spend hundreds of thousands of USD bolting a chat interface onto a proprietary database and call it innovation. But here is the hard truth: business users do not want to chat with their data. They want the data to execute the work. We have reached the peak of the &quot;ChatGPT wrapper&quot; era. The next evolution of enterprise software is not generative. It is</summary>
+    <author><name>SZG Labs (Technical Founder)</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Machine-Speed Attacks, Human-Paced Defense: The Credential Gap Behind Thirteen 2025/2026 Breaches</title>
+    <link href="https://dev.to/ndegwaduncan/machine-speed-attacks-human-paced-defense-the-credential-gap-behind-thirteen-20252026-breaches-454p" rel="alternate"/>
+    <id>https://dev.to/ndegwaduncan/machine-speed-attacks-human-paced-defense-the-credential-gap-behind-thirteen-20252026-breaches-454p</id>
+    <updated>2026-08-31T07:54:10Z</updated>
+    <summary type="text">A 40-minute window on PyPI. A session cookie sitting in memory on a server that had done nothing wrong. A phone call that lasted a few minutes. None of these needed a sophisticated attacker. All of them needed exactly one thing: a credential that was real, valid, and reachable, at the moment someone or something went looking for it. Thirteen incidents, late 2025 through August 2026. Different entr</summary>
+    <author><name>duncan ndegwa</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Looking for advice on AI-driven development</title>
+    <link href="https://dev.to/rfromc/looking-for-advice-on-ai-driven-development-5hb7" rel="alternate"/>
+    <id>https://dev.to/rfromc/looking-for-advice-on-ai-driven-development-5hb7</id>
+    <updated>2026-08-31T07:47:58Z</updated>
+    <summary type="text">Greetings! Hope you're all having a marvellous day! I'm looking for some guidance, as I feel like I'm hitting a soft roadblock. I'm not technical, but my work experience comes from working in software development companies for many years. As such, I'm familiar with many development processes, which seems to be helpful. I've spent the last six months learning and slowly building my own app, moving </summary>
+    <author><name>rfromc</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>G20 Faces Divide Over Debt, AI and Global Growth</title>
     <link href="https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video" rel="alternate"/>
     <id>https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video</id>
@@ -116,6 +209,14 @@
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>What Browserslist Actually Does in Next.js</title>
+    <link href="https://dev.to/alessandro-grosselle/what-browserslist-actually-does-in-nextjs-2hlm" rel="alternate"/>
+    <id>https://dev.to/alessandro-grosselle/what-browserslist-actually-does-in-nextjs-2hlm</id>
+    <updated>2026-08-31T07:18:28Z</updated>
+    <summary type="text">We set up three near-identical Next.js 16 projects to answer a simple question: if you set a browserslist target in package.json, does the build change to match it? We tested three targets (ie 11, chrome 116, about 3 years old, and chrome 139, about 1 year old) and compared the compiled output byte by byte. The code for all three projects is on GitHub: ale-grosselle/nextjs-browserlist-test. The se</summary>
+    <author><name>Alessandro Grosselle</name></author>
   </entry>
   <entry>
     <title>Chess.com launched a poker site and is planning even more classic games</title>
@@ -344,100 +445,5 @@
     <updated>2026-08-30T19:09:03Z</updated>
     <summary type="text">Web browsers enforce the Same-Origin Policy by default to protect users from malicious scripts trying to read data across distinct origins. However, modern application architectures almost always require cross-origin communication. Single-page applications, mobile clients, and embedded web components regularly fetch data and stream AI model inferences across separate domains, subdomains, and ports</summary>
     <author><name>Olivier Bourgeois</name></author>
-  </entry>
-  <entry>
-    <title>Decoding an Amortization Schedule: How to Audit a Mortgage Calculator's Output Row by Row</title>
-    <link href="https://dev.to/lizely/decoding-an-amortization-schedule-how-to-audit-a-mortgage-calculators-output-row-by-row-41c1" rel="alternate"/>
-    <id>https://dev.to/lizely/decoding-an-amortization-schedule-how-to-audit-a-mortgage-calculators-output-row-by-row-41c1</id>
-    <updated>2026-08-30T19:02:56Z</updated>
-    <summary type="text">Most engineers and analysts treat a mortgage calculator as a black box: enter three numbers, get a monthly payment back, walk away. When something looks wrong on a loan estimate, the instinct is to suspect the bank, the broker, or the tool itself — without a way to verify which one. This article takes the opposite approach. It treats the calculator's full amortization schedule as a dataset you can</summary>
-    <author><name>Tea-sip</name></author>
-  </entry>
-  <entry>
-    <title>The guardrails that matter are code, not prompts</title>
-    <link href="https://dev.to/blockintel/the-guardrails-that-matter-are-code-not-prompts-1ii8" rel="alternate"/>
-    <id>https://dev.to/blockintel/the-guardrails-that-matter-are-code-not-prompts-1ii8</id>
-    <updated>2026-08-30T19:01:08Z</updated>
-    <summary type="text">I built an agent that coordinates eldercare for my mother in India, and the interesting part was not the agents. It was the four times I stopped and decided what the system was not allowed to do, and then put those decisions somewhere no prompt can reach. I created this post for the purposes of entering the All Things Agentic Hackathon (Google Cloud / Devpost). It's live, and you can check its wor</summary>
-    <author><name>Heartlin Machado</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio</title>
-    <link href="https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/</id>
-    <updated>2026-08-29T18:57:26Z</updated>
-    <summary type="text">In this tutorial, we build an ensemble weather forecasting workflow with NVIDIA Earth2Studio. We install the required Earth2Studio components while preserving Colab’s existing CUDA-enabled PyTorch environment, load the FCN prognostic model, and retrieve atmospheric initial conditions from GFS. We then implement a custom wind-power diagnostic that converts 10-meter wind components into turbine capa</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>I Added a Fourth Model Mid-Run. It Changed What My Field Test Could Prove.</title>
-    <link href="https://dev.to/debashish_ghosal/i-added-a-fourth-model-mid-run-it-changed-what-my-field-test-could-prove-418g" rel="alternate"/>
-    <id>https://dev.to/debashish_ghosal/i-added-a-fourth-model-mid-run-it-changed-what-my-field-test-could-prove-418g</id>
-    <updated>2026-08-30T18:52:24Z</updated>
-    <summary type="text">Latest release: v0.2.2 — Aug 29, 2026 I did something I usually try hard not to do in a field test. I changed the design after it had already started. Halfway through validating AdversarialDebate, I realized the model set was too narrow to answer the most important question in the project. So I added a fourth model in the middle of the run. That was messy. It wasted work. It made the corpus incons</summary>
-    <author><name>Debashish Ghosal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Building Chatbots: Why We Switched to Prompt-Oriented Programming (POP)</title>
-    <link href="https://dev.to/ozuzair/stop-building-chatbots-why-we-switched-to-prompt-oriented-programming-pop-op3" rel="alternate"/>
-    <id>https://dev.to/ozuzair/stop-building-chatbots-why-we-switched-to-prompt-oriented-programming-pop-op3</id>
-    <updated>2026-08-30T18:36:46Z</updated>
-    <summary type="text">If you are just bolting a conversational AI widget onto your SaaS and calling it a day, you are building a toy, not a tool. When we initially tried to use standard LLM integrations to map user intents directly to backend database operations, the hallucinated JSON and inconsistent data structures constantly broke our application state. We quickly realized that conversational, ad-hoc prompting is fu</summary>
-    <author><name>Oz Uzair</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Got Tired of Spam Calls, So I Built an AI Honeypot on Google Cloud</title>
-    <link href="https://dev.to/adamm285/i-got-tired-of-spam-calls-so-i-built-an-ai-honeypot-on-google-cloud-556i" rel="alternate"/>
-    <id>https://dev.to/adamm285/i-got-tired-of-spam-calls-so-i-built-an-ai-honeypot-on-google-cloud-556i</id>
-    <updated>2026-08-30T18:31:51Z</updated>
-    <summary type="text">If you run a small service business or trade outfit, your phone is basically your cash register. The problem is, it’s also an open door for everyone trying to sell you SEO, commercial loans, or health insurance. Even worse, these telemarketers use predictive auto-dialers that hit your phone 4 to 6 times in rapid succession. They spoof local prefixes so it looks like a neighbor or client is calling</summary>
-    <author><name>Adam M</name></author>
-  </entry>
-  <entry>
-    <title>8 Tips for Writing Effective Agent Instructions</title>
-    <link href="https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/" rel="alternate"/>
-    <id>https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/</id>
-    <updated>2026-08-30T17:00:02Z</updated>
-    <summary type="text">Quick and simple tips to help you write better agent instructions The post 8 Tips for Writing Effective Agent Instructions appeared first on Towards Data Science.</summary>
-    <author><name>Payal Patel</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>A Delivery Label Is Not a Fulfillment Model</title>
-    <link href="https://dev.to/xiuai-lab/a-delivery-label-is-not-a-fulfillment-model-5b8" rel="alternate"/>
-    <id>https://dev.to/xiuai-lab/a-delivery-label-is-not-a-fulfillment-model-5b8</id>
-    <updated>2026-08-30T15:07:39Z</updated>
-    <summary type="text">Digital products are often sold with one short promise: instant delivery. That label is convenient until the product behind it changes. A subscription may require activation on the buyer's existing account. Another listing may deliver a separate account. A one-time service may require manual processing. If all three are represented by a free-form string, an old order can show instructions that no </summary>
-    <author><name>Dashu</name></author>
-  </entry>
-  <entry>
-    <title>Scanned Claims PDF Intake in 2026 (Privacy, Retention, and Signing Evidence)</title>
-    <link href="https://dev.to/ephraimpierce7934/scanned-claims-pdf-intake-in-2026-privacy-retention-and-signing-evidence-15jg" rel="alternate"/>
-    <id>https://dev.to/ephraimpierce7934/scanned-claims-pdf-intake-in-2026-privacy-retention-and-signing-evidence-15jg</id>
-    <updated>2026-08-30T15:05:48Z</updated>
-    <summary type="text">Short answer: a US/EU SaaS should use three asynchronous PDF endpoints for scanned claims intake: acceptance, state inspection, and authorized derivative retrieval, with immutable original bytes and links from every review decision and generated invoice to hashes, policy versions, and signature evidence. At 09:17, the page says INVOICE_EVIDENCE_GAP: an approved marketplace claim has reached invoic</summary>
-    <author><name>EphraimPierce7934</name></author>
-  </entry>
-  <entry>
-    <title>Oracle Manipulation Risk Report: Centrifuge Protocol</title>
-    <link href="https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-centrifuge-protocol-3gdf" rel="alternate"/>
-    <id>https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-centrifuge-protocol-3gdf</id>
-    <updated>2026-08-30T15:00:47Z</updated>
-    <summary type="text">Oracle Manipulation Risk Report: Centrifuge Protocol Target Protocol: Centrifuge Protocol (TVL: $1642.3M) Oracle Manipulation Risk Report: Centrifuge Protocol Date: October 26, 2023 Protocol: Centrifuge Protocol Networks: Ethereum Mainnet, Polygon, Base, Arbitrum, Optimism Total Value Locked (TVL): ~$1.64B Report Type: Specialized Oracle Security Assessment 1. Executive Summary Centrifuge Protocol</summary>
-    <author><name>DannyDoes</name></author>
-  </entry>
-  <entry>
-    <title>Context Engineering Is Changing. Here’s What It Means for Data Scientists</title>
-    <link href="https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/" rel="alternate"/>
-    <id>https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/</id>
-    <updated>2026-08-30T15:00:02Z</updated>
-    <summary type="text">How to apply the latest context engineering guidelines to your day-to-day data science work The post Context Engineering Is Changing. Here’s What It Means for Data Scientists appeared first on Towards Data Science.</summary>
-    <author><name>Piero Paialunga</name></author>
-    <category term="data"/>
   </entry>
 </feed>
