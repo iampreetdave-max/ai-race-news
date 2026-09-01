@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-01T01:08:53Z</updated>
+  <updated>2026-09-01T07:33:31Z</updated>
   <entry>
     <title>Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI</title>
     <link href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/" rel="alternate"/>
@@ -13,6 +13,36 @@
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting with my chum Robin Sloan on the evening of Monday September […]</summary>
     <author><name>Jack Clark</name></author>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting</title>
+    <link href="https://arxiv.org/abs/2608.31023v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.31023v1</id>
+    <updated>2026-08-31T16:06:18Z</updated>
+    <summary type="text">We study dynamic Gaussian Splatting from monocular videos. While recent advancements in dynamic Gaussian splatting offer a promising foundation for modeling dynamic scenes, they often overfit to the training views and fail under occlusion or complex scene motion due to the lack of reliable regularization signals in under-constrained regions. We propose Semantic Motion Graph (SMG), a novel approach</summary>
+    <author><name>Bharath Hariharan</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MR-JEPA: A General Purpose Video Foundation Model for Cardiac MRI</title>
+    <link href="https://arxiv.org/abs/2608.30975v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.30975v1</id>
+    <updated>2026-08-31T15:36:24Z</updated>
+    <summary type="text">Cardiac magnetic resonance imaging (CMR) produces rich sequential data such as temporal cine videos and spatial LGE/mapping stacks, yet most deep learning approaches process individual 2D slices, discarding this context. We present MR-JEPA, a self-supervised video foundation model for CMR that extends LeJEPA to 3D spatiotemporal inputs through tubelet tokenization, spatiotemporal masking augmentat</summary>
+    <author><name>Daniel Rueckert</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LOCI: A Locator-Critic with Refinement Loop</title>
+    <link href="https://arxiv.org/abs/2608.30959v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2608.30959v1</id>
+    <updated>2026-08-31T15:26:00Z</updated>
+    <summary type="text">Vision-Language Models (VLMs) still struggle on tasks requiring complex visual understanding. We argue that the core issue is not high-level reasoning, but instead failing to locate critical details in the image. Due to this shortcoming, VLMs generate often plausible but incorrect reasoning based on flawed perceptual grounding. To address this, we propose Locator-Critic (LOCI), a training-free fra</summary>
+    <author><name>Cordelia Schmid</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Sliding-window attention beats linear on long-context reasoning [R]</title>
@@ -88,17 +118,5 @@
     <summary type="text">You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm Time Series Anomaly Detection (TSAD) seems to be one of the hottest topics in NeurIPS, SIGKDD, VLDB etc. Many (perhaps most) papers evaluate on Paparrizos’ TSB-AD-M benchmark… However, I tested these benchmark datasets and found that in most cases I could beat the SOTA TSAD methods with a 100-year-old algorithm, </summary>
     <author><name>/u/eamonnkeogh</name></author>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators</title>
-    <link href="https://arxiv.org/abs/2608.27406v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.27406v1</id>
-    <updated>2026-08-27T17:35:10Z</updated>
-    <summary type="text">State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-sca</summary>
-    <author><name>Ola Shorinwa</name></author>
-    <category term="product-launch"/>
-    <category term="research"/>
-    <category term="computer-vision"/>
-    <category term="robotics"/>
   </entry>
 </feed>
