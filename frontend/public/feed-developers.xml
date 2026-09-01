@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-01T20:50:26Z</updated>
+  <updated>2026-09-01T23:11:57Z</updated>
   <entry>
     <title>Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads</title>
     <link href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/" rel="alternate"/>
@@ -15,6 +15,25 @@
     <category term="agents"/>
     <category term="product-launch"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>10 MCP Servers Worth Adding to Your AI Coding Workflow in 2026</title>
+    <link href="https://dev.to/erikch/10-mcp-servers-worth-adding-to-your-ai-coding-workflow-in-2026-1j1m" rel="alternate"/>
+    <id>https://dev.to/erikch/10-mcp-servers-worth-adding-to-your-ai-coding-workflow-in-2026-1j1m</id>
+    <updated>2026-09-01T22:23:37Z</updated>
+    <summary type="text">Introduction I am a big fan of the Model Context Protocol. MCP keeps getting better, and I really think it's the future. This list is my favorite MCP servers that I use every day. I picked them based on how useful they are, and how much I've been able to get out of them. I also picked them based on these four signals: Public adoption Active maintenance Official backing Whether the server solves a </summary>
+    <author><name>Erik Hanchett</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From Software Engineer to AI Engineer - Part 5: Scaling your tool belt</title>
+    <link href="https://dev.to/bjornvdlaan/from-software-engineer-to-ai-engineer-part-5-scaling-your-tool-belt-2ejn" rel="alternate"/>
+    <id>https://dev.to/bjornvdlaan/from-software-engineer-to-ai-engineer-part-5-scaling-your-tool-belt-2ejn</id>
+    <updated>2026-09-01T22:04:00Z</updated>
+    <summary type="text">We learned about tools and wrote them ourselves. This is cute, but an application writing all of its own tools is not scalable. In software development, we put functionality in libraries and frameworks and reuse it across projects. MCP (the Model Context Protocol) is all about exposing tool catalogs to models. An MCP server is maintained either by a SaaS provider or a company's internal AI platfor</summary>
+    <author><name>BjornvdLaan</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Codex with ChatGPT Splits Planning From Execution</title>
@@ -453,23 +472,5 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>okf-guard: A Security Layer for Open Knowledge Format (OKF) Pipelines</title>
-    <link href="https://dev.to/darshan_buddhdev/catching-prompt-injection-before-it-enters-a-trusted-knowledge-base-5hf4" rel="alternate"/>
-    <id>https://dev.to/darshan_buddhdev/catching-prompt-injection-before-it-enters-a-trusted-knowledge-base-5hf4</id>
-    <updated>2026-08-29T06:25:31Z</updated>
-    <summary type="text">Catching Prompt Injection Before It Enters a Trusted Knowledge Base AI agents increasingly consume knowledge from sources they did not author and cannot independently verify: a PDF policy document, a scraped web page, a spreadsheet exported from another team's system. The prevailing approach — extract the text, write it into a knowledge base or context window, let the agent treat it as fact — has </summary>
-    <author><name>Darshan Buddhdev</name></author>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>&quot;My Agent Refused 96 Times&quot;: Building Self-Editing Agents with Hard Failure Modes</title>
-    <link href="https://dev.to/tamizuddin/my-agent-refused-96-times-building-self-editing-agents-with-hard-failure-modes-jii" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/my-agent-refused-96-times-building-self-editing-agents-with-hard-failure-modes-jii</id>
-    <updated>2026-08-29T06:00:50Z</updated>
-    <summary type="text">Originally published on tamiz.pro. In the early days of shipping LLM-based agents, we optimized for output volume. If the model could not find the answer, it often generated a plausible one anyway. This is the &quot;yes-man&quot; problem. In critical systems—financial auditing, code generation, or compliance checks—this creates a dangerous class of errors: confident hallucinations. Recently, a senior ML eng</summary>
-    <author><name>Tamiz Uddin</name></author>
   </entry>
 </feed>
