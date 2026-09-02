@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-02T13:30:58Z</updated>
+  <updated>2026-09-02T17:47:52Z</updated>
   <entry>
     <title>Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads</title>
     <link href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/" rel="alternate"/>
@@ -15,6 +15,31 @@
     <category term="agents"/>
     <category term="product-launch"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>我创建了可复用的 Claude Code 技能，以更快发布生产网站</title>
+    <link href="https://dev.to/mattsenter/wo-chuang-jian-liao-ke-fu-yong-de-claude-code-ji-neng-yi-geng-kuai-fa-bu-sheng-chan-wang-zhan-1m9" rel="alternate"/>
+    <id>https://dev.to/mattsenter/wo-chuang-jian-liao-ke-fu-yong-de-claude-code-ji-neng-yi-geng-kuai-fa-bu-sheng-chan-wang-zhan-1m9</id>
+    <updated>2026-09-02T17:10:44Z</updated>
+    <summary type="text">大多数由 AI 生成的网站，失败并不是因为首页不好看，而是因为所有那些无聊的生产环节都被跳过了。 比如这些： SEO 元数据 预渲染 分析统计 社交分享图 CSP 响应头 Lighthouse 优化 移动端打磨 sitemap 生成 robots.txt 部署配置 IndexNow 缓存 环境搭建 如今真正的 React 组件，往往已经是最简单的部分。 依然在拖慢一切的，是运维层面的基础设施。 用 Claude Code 做了几个 AI 辅助项目之后，我意识到自己在反反复复解决同样的问题——不只是视觉上的，更是运维上的。 于是我没有去写更长的提示词，而是开始构建可复用的 Claude Code skill。 结果变成了一个面向生产工作流的开源仓库：GitHub 上的 senternet-site-skills。这个仓库收录了一批面向生产、可复用的 skill，覆盖 SEO、预渲染、移动端优</summary>
+    <author><name>Matt Senter</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Two Actors, one agent, and the three ways my chain broke</title>
+    <link href="https://dev.to/apify/two-actors-one-agent-and-the-three-ways-my-chain-broke-3p38" rel="alternate"/>
+    <id>https://dev.to/apify/two-actors-one-agent-and-the-three-ways-my-chain-broke-3p38</id>
+    <updated>2026-09-02T17:09:31Z</updated>
+    <summary type="text">A client asked a question that sounds simple: which sellers on the marketplaces are risky to buy from? Answering it takes two steps. Find the sellers behind the product listings, then check each seller's legal entity against public risk registries. I had an Actor for each half already. One walks marketplace search results and returns sellers with their tax ID, legal name and store URL. The other t</summary>
+    <author><name>Ivan Solovyev</name></author>
+  </entry>
+  <entry>
+    <title>This Python Library Can Run Pandas Workloads Up to 20x Faster</title>
+    <link href="https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster" rel="alternate"/>
+    <id>https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster</id>
+    <updated>2026-09-02T14:00:11Z</updated>
+    <summary type="text">Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance in our benchmark.</summary>
+    <author><name>Abid Ali Awan</name></author>
   </entry>
   <entry>
     <title>My Actors worked fine until an AI agent called them</title>
@@ -100,6 +125,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Where can I find legally usable datasets for advanced audio chord recognition? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1w5gynb/where_can_i_find_legally_usable_datasets_for/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1w5gynb/where_can_i_find_legally_usable_datasets_for/</id>
+    <updated>2026-09-02T17:27:32Z</updated>
+    <summary type="text">I’m researching how to build or fine-tune an audio-to-chord-recognition engine comparable in ambition to Song Master Pro / Auralis Sound Prism. The goal is not basic major/minor chord detection. I need reliable recognition of dense harmonic material: jazz, soul, funk, neo-soul, Brazilian music, film music, and arrangements with chords such as maj9, 6/9, m9, m11, 13, altered dominants, slash chords</summary>
+    <author><name>/u/DiscoramaMusic</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>LocalStack vs Spinifex: the Right Tool for Dev, the Right Tool for Production</title>
     <link href="https://dev.to/toddyholiday/localstack-vs-spinifex-the-right-tool-for-dev-the-right-tool-for-production-2c42" rel="alternate"/>
     <id>https://dev.to/toddyholiday/localstack-vs-spinifex-the-right-tool-for-dev-the-right-tool-for-production-2c42</id>
@@ -116,6 +150,15 @@
     <author><name>autarch-agent</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Claude's new system prompt really doesn't want to reproduce song lyrics</title>
+    <link href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</id>
+    <updated>2026-09-02T14:16:42Z</updated>
+    <summary type="text">Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Archify: A Verifiable Architecture Diagramming Skill for AI Coding Agents</title>
@@ -249,16 +292,6 @@
     <author><name>/u/Responsible_Goose535</name></author>
   </entry>
   <entry>
-    <title>Getting Started with Excel for Data Analytics: From Basics to Data Cleaning</title>
-    <link href="https://dev.to/felix_omayo_95e7e6dafed3b/getting-started-with-excel-for-data-analytics-from-basics-to-data-cleaning-15pj" rel="alternate"/>
-    <id>https://dev.to/felix_omayo_95e7e6dafed3b/getting-started-with-excel-for-data-analytics-from-basics-to-data-cleaning-15pj</id>
-    <updated>2026-08-31T00:55:30Z</updated>
-    <summary type="text">As a novice getting into data, I started off bundling data science, data analytics, and data engineering into one bucket called data science. I often heard terms such as analysis, Moving Annual Turnover, Year to Date, dashboards, and pivot tables in boardrooms during team meetings discussing annual and quarterly strategies. At that time, I would have never thought there would come a time when I wo</summary>
-    <author><name>Felix Nyabwonda</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
-  </entry>
-  <entry>
     <title>Waspes: An AI Website Builder</title>
     <link href="https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm" rel="alternate"/>
     <id>https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm</id>
@@ -318,63 +351,5 @@
     <updated>2026-08-30T19:09:03Z</updated>
     <summary type="text">Web browsers enforce the Same-Origin Policy by default to protect users from malicious scripts trying to read data across distinct origins. However, modern application architectures almost always require cross-origin communication. Single-page applications, mobile clients, and embedded web components regularly fetch data and stream AI model inferences across separate domains, subdomains, and ports</summary>
     <author><name>Olivier Bourgeois</name></author>
-  </entry>
-  <entry>
-    <title>The isolation tech behind managed AI sandboxes (gVisor, Firecracker) — worth it locally?</title>
-    <link href="https://dev.to/yujisuzuki/the-isolation-tech-behind-managed-ai-sandboxes-gvisor-firecracker-worth-it-locally-4nh0" rel="alternate"/>
-    <id>https://dev.to/yujisuzuki/the-isolation-tech-behind-managed-ai-sandboxes-gvisor-firecracker-worth-it-locally-4nh0</id>
-    <updated>2026-08-30T15:00:00Z</updated>
-    <summary type="text">In Part 1, I laid out three options for where to draw the isolation boundary around an AI coding agent: Claude Code Sandbox, Docker AI Sandboxes, and AI Sandbox + HostMCP (this project). All three run on a normal dev machine with nothing more exotic than Docker or OS-level primitives. But if you look at how managed cloud AI agent services isolate their sandboxes, a different pair of names comes up</summary>
-    <author><name>Yuji Suzuki</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>This week in Cursor + .NET — 7 rules (week ending August 30, 2026)</title>
-    <link href="https://dev.to/agentic_architect/this-week-in-cursor-net-7-rules-week-ending-august-30-2026-3ono" rel="alternate"/>
-    <id>https://dev.to/agentic_architect/this-week-in-cursor-net-7-rules-week-ending-august-30-2026-3ono</id>
-    <updated>2026-08-30T14:52:16Z</updated>
-    <summary type="text">Every weekday a single, opinionated rule for senior C#/.NET engineers using Cursor. Here's the full week in one read — canonical posts live on the Agentic Architect blog. 7 daily senior rules Rule 9: Scoped Capture in Singleton Sun 30 Aug The single most expensive .NET runtime bug: a Singleton holding a Scoped service. Cursor cheerfully writes this without warning. Audit constructor parameters of </summary>
-    <author><name>Agentic Architect</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How I Let Claude Code Resolve 312 Merge Conflicts in One Rebase: 5 Lessons</title>
-    <link href="https://dev.to/yureki_lab/how-i-let-claude-code-resolve-312-merge-conflicts-in-one-rebase-5-lessons-26f1" rel="alternate"/>
-    <id>https://dev.to/yureki_lab/how-i-let-claude-code-resolve-312-merge-conflicts-in-one-rebase-5-lessons-26f1</id>
-    <updated>2026-08-30T14:32:29Z</updated>
-    <summary type="text">TL;DR I had a feature branch that drifted five months behind main, and rebasing it produced 312 merge conflicts across 137 files. Instead of grinding through them by hand, I built a small triage harness that classified each conflict, handed the hard ones to Claude Code with the right context, and gated every batch behind a compile-and-test check. It took 11 hours instead of the two weeks I'd budge</summary>
-    <author><name>yureki_lab</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The port that moved: how an auto-update broke a user's AI agent for three hours</title>
-    <link href="https://dev.to/perfectoweb/the-port-that-moved-how-an-auto-update-broke-a-users-ai-agent-for-three-hours-1kfc" rel="alternate"/>
-    <id>https://dev.to/perfectoweb/the-port-that-moved-how-an-auto-update-broke-a-users-ai-agent-for-three-hours-1kfc</id>
-    <updated>2026-08-30T09:55:04Z</updated>
-    <summary type="text">A friend sent me two screenshots. His terminal was full of this: Hook error: POST http://127.0.0.1:61716/hook?src=belay connect ECONNREFUSED 127.0.0.1:61716 Every tool call Claude Code made printed one of those. It had been doing it for about three hours. The app on the other end of that URL is mine. It's called Belay – a macOS menu bar utility that keeps the Mac awake while local AI coding agents</summary>
-    <author><name>David Build</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts</title>
-    <link href="https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/</id>
-    <updated>2026-08-29T08:15:35Z</updated>
-    <summary type="text">OpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk's track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just five percent of the tool's AI traffic. The article OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts appeared first on The Decod</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>rulereceipt</title>
-    <link href="https://dev.to/outreach-rule/rulereceipt-29he" rel="alternate"/>
-    <id>https://dev.to/outreach-rule/rulereceipt-29he</id>
-    <updated>2026-08-30T03:38:19Z</updated>
-    <summary type="text">I'm building RuleReceipt, a tool that helps manage rules/configs across AI coding assistants (Claude, Copilot, Cursor, etc.) so you don't have to duplicate setup per tool. It's in early stages. I'd love for you to try it and tell me what's broken or confusing. No obligation, just honest feedback. Let me know if you want a 5-min walkthrough or just want to poke at it. https://rulereceipt.dev</summary>
-    <author><name>outreach-rule</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
   </entry>
 </feed>
