@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-01T23:11:57Z</updated>
+  <updated>2026-09-02T03:46:05Z</updated>
   <entry>
     <title>Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads</title>
     <link href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/" rel="alternate"/>
@@ -14,6 +14,15 @@
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
     <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How law firm Gilbert + Tobin governs and scales AI with OpenAI</title>
+    <link href="https://openai.com/index/gilbert-tobin" rel="alternate"/>
+    <id>https://openai.com/index/gilbert-tobin</id>
+    <updated>2026-09-01T01:00:00Z</updated>
+    <summary type="text">See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.</summary>
+    <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -202,6 +211,15 @@
     <author><name>Simon Willison</name></author>
     <category term="llm"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>GeoJSON Map Viewer</title>
+    <link href="https://simonwillison.net/2026/Sep/1/geojson/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/1/geojson/</id>
+    <updated>2026-09-01T18:05:45Z</updated>
+    <summary type="text">Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I audited 112 real RL post-training environments for reward-hacking vulnerabilities — 54 flagged, 0 false positives [OC, tool] [P]</title>
@@ -433,43 +451,6 @@
     <updated>2026-08-29T12:57:11Z</updated>
     <summary type="text">Give three autonomous agents overlapping resource access and zero awareness of each other, and you don't get emergent malice. You get a race condition wearing a trench coat. Context The setup here is almost embarrassingly familiar to anyone who's debugged a multi-process system: three Claude Code agents, each migrating the same backend to a different language, none aware the others existed. They s</summary>
     <author><name>Cor E</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Our decision on Cursor following its acquisition by SpaceX</title>
-    <link href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex" rel="alternate"/>
-    <id>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</id>
-    <updated>2026-08-28T06:00:00Z</updated>
-    <summary type="text">Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Skip the R/Python runtime: fast tabular dashboards with Observable Framework</title>
-    <link href="https://www.r-bloggers.com/2026/08/skip-the-r-python-runtime-fast-tabular-dashboards-with-observable-framework/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/08/skip-the-r-python-runtime-fast-tabular-dashboards-with-observable-framework/</id>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <summary type="text">Shiny and Streamlit dashboards depend on a live R or Python process, which makes vanilla deployments slow to load. Observable Framework compiles your data pipeline at build time and ships a static, JavaScript-only site — here's how it works, with a small restaurant-tips dashboard as an example. Continue reading: Skip the R/Python runtime: fast tabular dashboards with Observable Framework</summary>
-    <author><name>T. Moudiki</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Claude Code for Research Papers [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/</id>
-    <updated>2026-08-30T23:24:07Z</updated>
-    <summary type="text">Third-year PhD student, NLP / interpretability. I want a reality check from people doing similar work. I started using Claude Code for the boring parts: argparse boilerplate, plotting, config wrangling. Over the last few months the scope has crept. It now writes most of my experiment scaffolding, refactors my dataloaders, does first-pass debugging on training runs, and drafts the analysis scripts.</summary>
-    <author><name>/u/NeatFox5866</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Always-on and self-starting AI agents might be OpenAI's next big play</title>
-    <link href="https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/" rel="alternate"/>
-    <id>https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/</id>
-    <updated>2026-08-28T08:03:22Z</updated>
-    <summary type="text">OpenAI is building a &quot;Persistent Mode&quot; for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actions, like deleting user data. The article Always-on and self-starting AI agents might be OpenAI's nex</summary>
-    <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
   </entry>
