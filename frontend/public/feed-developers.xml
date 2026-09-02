@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-02T20:49:46Z</updated>
+  <updated>2026-09-02T23:11:27Z</updated>
+  <entry>
+    <title>Bypassing ChatGPT’s Open-Source Model Security Restrictions for Agentic Hacking</title>
+    <link href="https://dev.to/raxis/bypassing-chatgpts-open-source-model-security-restrictions-for-agentic-hacking-5173" rel="alternate"/>
+    <id>https://dev.to/raxis/bypassing-chatgpts-open-source-model-security-restrictions-for-agentic-hacking-5173</id>
+    <updated>2026-09-02T23:00:10Z</updated>
+    <summary type="text">This blog was originally published by Ryan Chaplin on the Raxis blog May 5, 2026 AI is on everyone’s minds today. As a penetration tester, AI is of specific interest for several reasons. It can allow everyone (including malicious hackers) to accomplish more in less time, but it can also make mistakes, miss things, and unintentionally cause harm. Simply put, AI on its own can miss things that human</summary>
+    <author><name>Bonnie Smyre</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads</title>
     <link href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/" rel="alternate"/>
@@ -306,24 +317,5 @@
     <updated>2026-09-01T16:34:58Z</updated>
     <summary type="text">RL post-training (RLHF/RLAIF/GRPO) agents optimize strictly for whatever the verifier rewards. If the verifier has logic flaws, the agent learns to hack the grader instead of solving the task — recent work has catalogued this at scale (Terminal Wrench found 331 hackable environments and 15%+ of standard benchmark tasks bypassable; a SWE-bench Verified audit found 28.5% Docker-verified hackability)</summary>
     <author><name>/u/Responsible_Goose535</name></author>
-  </entry>
-  <entry>
-    <title>Waspes: An AI Website Builder</title>
-    <link href="https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm" rel="alternate"/>
-    <id>https://dev.to/franek_mytych_832793a195f/waspes-an-ai-website-builder-50dm</id>
-    <updated>2026-08-31T00:43:23Z</updated>
-    <summary type="text">Building a website still involves a lot of repetitive work: planning the layout, writing content, generating code, connecting forms, and finally deploying everything. I built Waspes to automate as much of this workflow as possible. A user describes the website they want, and the platform generates the structure, content, visual elements, and functional components. The interesting part is that Wasp</summary>
-    <author><name>Franek Mytych</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Taming the Beast: Building a High-Performance ETL Pipeline for Apple Health’s Massive XML Exports</title>
-    <link href="https://dev.to/beck_moulton/taming-the-beast-building-a-high-performance-etl-pipeline-for-apple-healths-massive-xml-exports-3f3e" rel="alternate"/>
-    <id>https://dev.to/beck_moulton/taming-the-beast-building-a-high-performance-etl-pipeline-for-apple-healths-massive-xml-exports-3f3e</id>
-    <updated>2026-08-31T00:42:00Z</updated>
-    <summary type="text">If you’ve ever tried to open an Apple Health export.xml file in VS Code, you’ve probably watched your RAM melt into a puddle of sadness. 🫠 Apple’s HealthKit data is a treasure trove of biological insights, but at the scale of 5GB+ of &quot;dirty&quot; XML, it’s a Data Engineering nightmare. In this tutorial, we are building a high-concurrency Apple Health ETL Engine. We’ll be leveraging Rust for blazing-fas</summary>
-    <author><name>Beck_Moulton</name></author>
-    <category term="tutorial"/>
-    <category term="data"/>
   </entry>
 </feed>
