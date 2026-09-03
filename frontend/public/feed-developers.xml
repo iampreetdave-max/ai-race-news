@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-02T23:11:27Z</updated>
+  <updated>2026-09-03T03:44:23Z</updated>
+  <entry>
+    <title>Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs</title>
+    <link href="https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/</id>
+    <updated>2026-09-02T18:05:52Z</updated>
+    <summary type="text">NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back into the client's format, so Claude Code or Codex CLI can run against vLLM, NIM, or Ollama unchanged. The project is pre-alpha and not for production. Th</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Bypassing ChatGPT’s Open-Source Model Security Restrictions for Agentic Hacking</title>
     <link href="https://dev.to/raxis/bypassing-chatgpts-open-source-model-security-restrictions-for-agentic-hacking-5173" rel="alternate"/>
@@ -290,32 +300,5 @@
     <summary type="text">Greetings! Hope you're all having a marvellous day! I'm looking for some guidance, as I feel like I'm hitting a soft roadblock. I'm not technical, but my work experience comes from working in software development companies for many years. As such, I'm familiar with many development processes, which seems to be helpful. I've spent the last six months learning and slowly building my own app, moving </summary>
     <author><name>rfromc</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Codex bundles LibreOffice</title>
-    <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
-    <updated>2026-09-01T19:03:01Z</updated>
-    <summary type="text">I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime, including a full Python installation, a full Node.js installation, and native binaries for Poppler, git, and the LibreOffice open source office suite (which forked </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>GeoJSON Map Viewer</title>
-    <link href="https://simonwillison.net/2026/Sep/1/geojson/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/1/geojson/</id>
-    <updated>2026-09-01T18:05:45Z</updated>
-    <summary type="text">Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I audited 112 real RL post-training environments for reward-hacking vulnerabilities — 54 flagged, 0 false positives [OC, tool] [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1w4h6c1/i_audited_112_real_rl_posttraining_environments/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1w4h6c1/i_audited_112_real_rl_posttraining_environments/</id>
-    <updated>2026-09-01T16:34:58Z</updated>
-    <summary type="text">RL post-training (RLHF/RLAIF/GRPO) agents optimize strictly for whatever the verifier rewards. If the verifier has logic flaws, the agent learns to hack the grader instead of solving the task — recent work has catalogued this at scale (Terminal Wrench found 331 hackable environments and 15%+ of standard benchmark tasks bypassable; a SWE-bench Verified audit found 28.5% Docker-verified hackability)</summary>
-    <author><name>/u/Responsible_Goose535</name></author>
   </entry>
 </feed>
