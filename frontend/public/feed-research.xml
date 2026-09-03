@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-03T03:44:23Z</updated>
+  <updated>2026-09-03T08:47:15Z</updated>
   <entry>
     <title>OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder</title>
     <link href="https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/" rel="alternate"/>
@@ -13,6 +13,43 @@
     <summary type="text">OpenAI is officially rating its upcoming Astra model as the first system with &quot;critical&quot; cyber capabilities. The company plans to keep it in check by monitoring the chain of thought. Problem is, that monitoring already counts as an unreliable mirror of a model's real decisions, and according to a report, Astra's new architecture pushes even more of its thinking into the unreadable. So the safety n</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation</title>
+    <link href="https://arxiv.org/abs/2609.02864v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.02864v1</id>
+    <updated>2026-09-02T17:48:02Z</updated>
+    <summary type="text">Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual generative intelligence demands &quot;Reasoning-to-Generation&quot;, an ability to infer latent rules from vis</summary>
+    <author><name>James M. Rehg</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Benchmarking RAW and RGB Restoration in Image Signal Processors</title>
+    <link href="https://arxiv.org/abs/2609.02831v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.02831v1</id>
+    <updated>2026-09-02T17:15:44Z</updated>
+    <summary type="text">Modern cameras transform RAW sensor measurements into sRGB images through an image signal processor (ISP). We benchmark two placements for blind restoration around a fixed ISP: (A) pre-ISP restoration in the RAW domain and (B) post-ISP restoration in the sRGB domain. The benchmark covers four smartphone device groups, two learned ISPs, three degradation regimes--noise, blur, and joint noise and bl</summary>
+    <author><name>Marcos V. Conde</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels</title>
+    <link href="https://arxiv.org/abs/2609.02798v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.02798v1</id>
+    <updated>2026-09-02T16:31:50Z</updated>
+    <summary type="text">Neural map matchers estimate an image's 3-DoF pose relative to a 2D map. These models are trained on large-scale datasets of geo-referenced images, whose position and heading labels often contain noise that affects the trained models. To address this, we present AutoCompass, a supervision approach for training neural map matchers from inaccurate absolute pose labels. First, we show that heading la</summary>
+    <author><name>Eric Brachmann</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images</title>
+    <link href="https://arxiv.org/abs/2609.02640v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.02640v1</id>
+    <updated>2026-09-02T14:16:44Z</updated>
+    <summary type="text">The rapid advancement of generative models has significantly worsened the problem of manipulated image detection, as these methods are capable of producing highly realistic forgeries, reinforcing the importance of multimedia forensics. Conventional approaches typically frame image manipulation detection as a binary classification task (real vs. generated), which limits the capability to distinguis</summary>
+    <author><name>Lamberto Ballan</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Revisiting Cross-View Completion: Self-Supervised Pre-Training via Reconstruction Error Comparison</title>
@@ -51,35 +88,5 @@
     <summary type="text">Hi all, I recently read this paper: Julien Guinot, Alain Riou, Elio Quinton, Gyorgy Fazekas. Steering dense music retrieval with open-vocabulary concept discovery.https://arxiv.org/abs/2608.08757 There is multiple model where you can get embedding from Song and Text so that you can search song by text. The challenges is when you get a result that don’t really respect your query, for example you se</summary>
     <author><name>/u/Old_Rock_9457</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting</title>
-    <link href="https://arxiv.org/abs/2608.31023v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.31023v1</id>
-    <updated>2026-08-31T16:06:18Z</updated>
-    <summary type="text">We study dynamic Gaussian Splatting from monocular videos. While recent advancements in dynamic Gaussian splatting offer a promising foundation for modeling dynamic scenes, they often overfit to the training views and fail under occlusion or complex scene motion due to the lack of reliable regularization signals in under-constrained regions. We propose Semantic Motion Graph (SMG), a novel approach</summary>
-    <author><name>Bharath Hariharan</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MR-JEPA: A General Purpose Video Foundation Model for Cardiac MRI</title>
-    <link href="https://arxiv.org/abs/2608.30975v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.30975v1</id>
-    <updated>2026-08-31T15:36:24Z</updated>
-    <summary type="text">Cardiac magnetic resonance imaging (CMR) produces rich sequential data such as temporal cine videos and spatial LGE/mapping stacks, yet most deep learning approaches process individual 2D slices, discarding this context. We present MR-JEPA, a self-supervised video foundation model for CMR that extends LeJEPA to 3D spatiotemporal inputs through tubelet tokenization, spatiotemporal masking augmentat</summary>
-    <author><name>Daniel Rueckert</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LOCI: A Locator-Critic with Refinement Loop</title>
-    <link href="https://arxiv.org/abs/2608.30959v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2608.30959v1</id>
-    <updated>2026-08-31T15:26:00Z</updated>
-    <summary type="text">Vision-Language Models (VLMs) still struggle on tasks requiring complex visual understanding. We argue that the core issue is not high-level reasoning, but instead failing to locate critical details in the image. Due to this shortcoming, VLMs generate often plausible but incorrect reasoning based on flawed perceptual grounding. To address this, we propose Locator-Critic (LOCI), a training-free fra</summary>
-    <author><name>Cordelia Schmid</name></author>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>
