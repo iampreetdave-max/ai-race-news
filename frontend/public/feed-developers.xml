@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-03T20:47:26Z</updated>
+  <updated>2026-09-03T23:08:29Z</updated>
+  <entry>
+    <title>How to Carry User Identity Across Federated Kubernetes and AI Platforms</title>
+    <link href="https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/</id>
+    <updated>2026-09-03T22:36:02Z</updated>
+    <summary type="text">Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook...</summary>
+    <author><name>Elizabeth Goodman</name></author>
+  </entry>
+  <entry>
+    <title>OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold</title>
+    <link href="https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/</id>
+    <updated>2026-09-03T21:16:11Z</updated>
+    <summary type="text">OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at $10/$50 per million tokens. It is also the first OpenAI model to cross the Critical cybersecurity threshold, which shapes who can use it and for what. The pos</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2</title>
     <link href="https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/" rel="alternate"/>
@@ -44,6 +61,35 @@
     <summary type="text">On this episode of Stock Movers: - Nvidia (NDVA) shares are a tick higher this morning as it has agreed to acquire artificial intelligence startup Hugging Face in a transaction valued at about $13 billion. - Snowflake (SNOW) jumped this morning after it raised its outlook for annual sales, topping analysts' estimates, and reported rapid adoption of its AI-assisted coding tool. The company said mor</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>500+ коммитов за пять месяцев: как я в одиночку запустил RetroPoint</title>
+    <link href="https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4" rel="alternate"/>
+    <id>https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4</id>
+    <updated>2026-09-03T22:46:43Z</updated>
+    <summary type="text">Пятого апреля 2026 года я начал проверять гипотезу: можно ли собрать работающий MVP SaaS за месяц на подписке Cursor за $20, работая по три-четыре часа четыре вечера в неделю. Через месяц MVP был. Второго сентября я выкатил релиз 2026.09.2, а между этими датами уместились больше 500 коммитов, 61 фаза разработки и семь модулей в проде. По порядку: почему пришлось собирать свой инструмент, как устро</summary>
+    <author><name>WildTuna</name></author>
+  </entry>
+  <entry>
+    <title>MLOps for Developers: Deploying, Monitoring, and Optimizing Machine Learning Models</title>
+    <link href="https://dev.to/apeder/mlops-for-developers-deploying-monitoring-and-optimizing-machine-learning-models-2hli" rel="alternate"/>
+    <id>https://dev.to/apeder/mlops-for-developers-deploying-monitoring-and-optimizing-machine-learning-models-2hli</id>
+    <updated>2026-09-03T22:44:26Z</updated>
+    <summary type="text">How to deploy, monitor, and optimize ML models in production: GPU selection, VRAM requirements, cloud vs local cost, model drift, and CI/CD pipelines for ML The Model That Worked in Jupyter and Failed in Production In 2020, a team at a financial services company trained a fraud detection model that achieved 99.2% accuracy in their Jupyter notebooks. They deployed it to production. Within a week, f</summary>
+    <author><name>Adolfo Pedernera</name></author>
+    <category term="finance-ai"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>MCP for auth in 5 minutes: phone verification through your AI agent</title>
+    <link href="https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om" rel="alternate"/>
+    <id>https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om</id>
+    <updated>2026-09-03T22:14:48Z</updated>
+    <summary type="text">Most AI coding tutorials stop at &quot;ask the agent to write code&quot;. This one is about giving the agent a tool it can call, an MCP server, so it can send and verify one-time codes while you're still building. I work at MyOTP.App and this uses our server, so read it with that in mind. If you're on Claude Code, Claude Desktop, Cursor, Codex or anything else that speaks MCP, this takes about five minutes.</summary>
+    <author><name>Raya</name></author>
+    <category term="tutorial"/>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>I set up my first Docker SBX kit, and here's how I did it</title>
@@ -265,14 +311,5 @@
     <updated>2026-09-01T17:21:54Z</updated>
     <summary type="text">On July 28, 2026, AWS announced that EKS Provisioned Control Plane increases HPA sync concurrency to up to 40 times the Kubernetes default — with no configuration changes required from the operator. For those running clusters with hundreds or thousands of HPA objects, this is not a cosmetic adjustment: it is the removal of a structural bottleneck that, until now, made metric-driven autoscaling fun</summary>
     <author><name>Fernando Azevedo</name></author>
-  </entry>
-  <entry>
-    <title>Polimill builds Japan's next-generation public AI infrastructure</title>
-    <link href="https://openai.com/index/polimill" rel="alternate"/>
-    <id>https://openai.com/index/polimill</id>
-    <updated>2026-08-31T07:00:00Z</updated>
-    <summary type="text">Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
