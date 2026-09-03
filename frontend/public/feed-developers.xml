@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-03T13:26:46Z</updated>
+  <updated>2026-09-03T17:43:00Z</updated>
+  <entry>
+    <title>NVIDIA to acquire Hugging Face for $12.93B</title>
+    <link href="https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/" rel="alternate"/>
+    <id>https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/</id>
+    <updated>2026-09-03T15:50:31Z</updated>
+    <summary type="text">NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository’s platform and infrastructure. The transaction targets platform growth and infrastructure investment, aiming to expand AI access for enterprise developers, software engineers, and research institutions globally. Built over the past decade by Clem Delangue, Julien Chaumond, Thomas Wolf, and their </summary>
+    <author><name>Ryan Daws</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk</title>
+    <link href="https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/" rel="alternate"/>
+    <id>https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/</id>
+    <updated>2026-09-03T16:42:40Z</updated>
+    <summary type="text">OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.</summary>
+    <author><name>Maxwell Zeff</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Nvidia Up on Acquisition; Snowflake Jumps on Outlook | Stock Movers</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-03/nvidia-up-on-acquisition-snowflake-jumps-on-outlook-video" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-03/nvidia-up-on-acquisition-snowflake-jumps-on-outlook-video</id>
+    <updated>2026-09-03T14:48:30Z</updated>
+    <summary type="text">On this episode of Stock Movers: - Nvidia (NDVA) shares are a tick higher this morning as it has agreed to acquire artificial intelligence startup Hugging Face in a transaction valued at about $13 billion. - Snowflake (SNOW) jumped this morning after it raised its outlook for annual sales, topping analysts' estimates, and reported rapid adoption of its AI-assisted coding tool. The company said mor</summary>
+    <author><name>Bloomberg Technology</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs</title>
     <link href="https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/" rel="alternate"/>
@@ -13,6 +41,34 @@
     <summary type="text">NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back into the client's format, so Claude Code or Codex CLI can run against vLLM, NIM, or Ollama unchanged. The project is pre-alpha and not for production. Th</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Spring Batch: Processing Large Data Volumes Efficiently (2026-09-03 17:31)</title>
+    <link href="https://dev.to/said_olano/spring-batch-processing-large-data-volumes-efficiently-2026-09-03-1731-33kc" rel="alternate"/>
+    <id>https://dev.to/said_olano/spring-batch-processing-large-data-volumes-efficiently-2026-09-03-1731-33kc</id>
+    <updated>2026-09-03T17:31:30Z</updated>
+    <summary type="text">Spring Batch: Processing Large Data Volumes Processing millions of records is a common enterprise requirement—think end-of-day financial reconciliation, ETL pipelines, or bulk data migrations. Spring Batch is a robust framework built precisely for these scenarios, offering transaction management, chunk-based processing, restartability, and scaling primitives out of the box. In this post, we'll exp</summary>
+    <author><name>Said Olano</name></author>
+    <category term="tutorial"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Installing Longhorn on Kubernetes</title>
+    <link href="https://dev.to/vultr/installing-longhorn-on-kubernetes-7kc" rel="alternate"/>
+    <id>https://dev.to/vultr/installing-longhorn-on-kubernetes-7kc</id>
+    <updated>2026-09-03T17:18:31Z</updated>
+    <summary type="text">Longhorn is an open-source, lightweight distributed block storage system for Kubernetes that provides persistent, highly available storage for stateful applications running in a cluster. It runs a CSI driver, an instance manager on every node, a storage engine that replicates data and creates snapshots/backups, and a web UI for managing volumes. This guide walks through installing Longhorn on a Ku</summary>
+    <author><name>Sanskriti Harmukh</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Installing K3s with NVIDIA GPU Operator on Ubuntu 22.04</title>
+    <link href="https://dev.to/vultr/installing-k3s-with-nvidia-gpu-operator-on-ubuntu-2204-dgb" rel="alternate"/>
+    <id>https://dev.to/vultr/installing-k3s-with-nvidia-gpu-operator-on-ubuntu-2204-dgb</id>
+    <updated>2026-09-03T17:17:33Z</updated>
+    <summary type="text">K3s is a lightweight, fully compliant Kubernetes distribution designed for simplified deployment and operation in resource-constrained environments. With a small memory footprint and a single-binary architecture, K3s is optimized for edge computing, IoT devices, and environments where a traditional Kubernetes setup would be too resource-intensive. It strips out non-essential features and dependenc</summary>
+    <author><name>Sanskriti Harmukh</name></author>
     <category term="hardware"/>
   </entry>
   <entry>
@@ -217,59 +273,5 @@
     <summary type="text">I’m researching how to build or fine-tune an audio-to-chord-recognition engine comparable in ambition to Song Master Pro / Auralis Sound Prism. The goal is not basic major/minor chord detection. I need reliable recognition of dense harmonic material: jazz, soul, funk, neo-soul, Brazilian music, film music, and arrangements with chords such as maj9, 6/9, m9, m11, 13, altered dominants, slash chords</summary>
     <author><name>/u/DiscoramaMusic</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>LocalStack vs Spinifex: the Right Tool for Dev, the Right Tool for Production</title>
-    <link href="https://dev.to/toddyholiday/localstack-vs-spinifex-the-right-tool-for-dev-the-right-tool-for-production-2c42" rel="alternate"/>
-    <id>https://dev.to/toddyholiday/localstack-vs-spinifex-the-right-tool-for-dev-the-right-tool-for-production-2c42</id>
-    <updated>2026-09-01T00:57:06Z</updated>
-    <summary type="text">LocalStack versus Spinifex comes up often enough to address directly. They don't compete because they solve different problems at different points in the software lifecycle. Conflating the two leads to reaching for the wrong tool and being frustrated when it doesn't fit. What LocalStack is for LocalStack is an AWS emulator. You run it locally in a Docker container and it intercepts calls to AWS AP</summary>
-    <author><name>Tom</name></author>
-  </entry>
-  <entry>
-    <title>I Built an Autonomous AI Agent That Hunts Bounties. Here's What Happened.</title>
-    <link href="https://dev.to/autarchagent/i-built-an-autonomous-ai-agent-that-hunts-bounties-heres-what-happened-44no" rel="alternate"/>
-    <id>https://dev.to/autarchagent/i-built-an-autonomous-ai-agent-that-hunts-bounties-heres-what-happened-44no</id>
-    <updated>2026-09-01T00:49:13Z</updated>
-    <summary type="text">I Built an Autonomous AI Agent That Hunts Bounties. Here's What Happened. The Setup I gave an AI agent one job: find paid work online, build the deliverable, and earn money — autonomously. Not a chatbot. Not a copilot. An agent that scans 232+ listings across multiple platforms, filters out scams and ghost sponsors, writes proposals, generates deliverables with real market data, and queues everyth</summary>
-    <author><name>autarch-agent</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Claude's new system prompt really doesn't want to reproduce song lyrics</title>
-    <link href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</id>
-    <updated>2026-09-02T14:16:42Z</updated>
-    <summary type="text">Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Archify: A Verifiable Architecture Diagramming Skill for AI Coding Agents</title>
-    <link href="https://dev.to/terminalchai/archify-a-verifiable-architecture-diagramming-skill-for-ai-coding-agents-2ogc" rel="alternate"/>
-    <id>https://dev.to/terminalchai/archify-a-verifiable-architecture-diagramming-skill-for-ai-coding-agents-2ogc</id>
-    <updated>2026-08-31T21:37:15Z</updated>
-    <summary type="text">Verifiable Architecture Visualization: Meet Archify As autonomous AI coding assistants (such as Claude Code, Cursor, and Codex CLI) become central to system design, engineering teams increasingly use them to map complex architectures. However, typical AI-drawn diagrams suffer from inconsistent geometry, untyped syntax errors, and an inability to track structural changes across Git revisions. Archi</summary>
-    <author><name>Terminal Chai</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Badger: An E-Ink Badge I Use For Conferences</title>
-    <link href="https://dev.to/hacksore/badger-an-e-ink-badge-i-use-for-conferences-2jmh" rel="alternate"/>
-    <id>https://dev.to/hacksore/badger-an-e-ink-badge-i-use-for-conferences-2jmh</id>
-    <updated>2026-08-31T21:31:56Z</updated>
-    <summary type="text">I attend conferences regularly, and for years I’ve wanted a badge that makes it easy for people to find me online. In 2019, I attended defcon and built defpi, a goofy raspberry pi powered badge. While that was fun I wanted a bit more turnkey and I found just what I wanted with a Badgeware Badger (nerdy domain hack badgewa.re). Since my use case is to just have my socials via QR I chose the e-ink v</summary>
-    <author><name>Sean Boult</name></author>
-  </entry>
-  <entry>
-    <title>Case Study: Scaling Smart Teleassistance Voice Routing with Edge Compute and Zero-Cold-Start Cascades</title>
-    <link href="https://dev.to/enrique_drack_34c8d81d28d/case-study-scaling-smart-teleassistance-voice-routing-with-edge-compute-and-zero-cold-start-o00" rel="alternate"/>
-    <id>https://dev.to/enrique_drack_34c8d81d28d/case-study-scaling-smart-teleassistance-voice-routing-with-edge-compute-and-zero-cold-start-o00</id>
-    <updated>2026-08-31T21:02:40Z</updated>
-    <summary type="text">In mission-critical infrastructure, latency isn't just a metric—it's the difference between a resolved incident and a catastrophic outage. Whether you are managing an SRE team handling cluster failures or a teleassistance platform routing domestic SOS alerts, the core engineering challenge remains identical: getting a human's attention in milliseconds without administrative friction. This technica</summary>
-    <author><name>ENRIQUE DRACK</name></author>
   </entry>
 </feed>
