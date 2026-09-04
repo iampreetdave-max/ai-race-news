@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-04T03:45:55Z</updated>
+  <updated>2026-09-04T08:42:51Z</updated>
   <entry>
     <title>How to Carry User Identity Across Federated Kubernetes and AI Platforms</title>
     <link href="https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/" rel="alternate"/>
@@ -61,6 +61,24 @@
     <summary type="text">On this episode of Stock Movers: - Nvidia (NDVA) shares are a tick higher this morning as it has agreed to acquire artificial intelligence startup Hugging Face in a transaction valued at about $13 billion. - Snowflake (SNOW) jumped this morning after it raised its outlook for annual sales, topping analysts' estimates, and reported rapid adoption of its AI-assisted coding tool. The company said mor</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>AI ที่ทำงานทั้งสัปดาห์ได้ยังไง, วิธีสั่งงานจากหลังบ้านของ long-running agents</title>
+    <link href="https://dev.to/sarantoon/ai-thiithamngaanthangsapdaahaidyangaing-withiisangngaancchaakhlangbaankhng-long-running-agents-1e62" rel="alternate"/>
+    <id>https://dev.to/sarantoon/ai-thiithamngaanthangsapdaahaidyangaing-withiisangngaancchaakhlangbaankhng-long-running-agents-1e62</id>
+    <updated>2026-09-04T08:22:56Z</updated>
+    <summary type="text">AI ที่ทำงานทั้งสัปดาห์ได้ยังไง, วิธีสั่งงานจากหลังบ้านของ long-running agents โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 4 กันยายน 2026 (อัปเดตเพิ่มข้อมูล Gemini 3.8 Flash) บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจาก technical report ของ K</summary>
+    <author><name>Nokka</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Review an AI-Built Repository Before Making It Public</title>
+    <link href="https://dev.to/iwadjp/how-to-review-an-ai-built-repository-before-making-it-public-13k3" rel="alternate"/>
+    <id>https://dev.to/iwadjp/how-to-review-an-ai-built-repository-before-making-it-public-13k3</id>
+    <updated>2026-09-04T08:22:00Z</updated>
+    <summary type="text">If you build with a repository-aware coding agent — Claude Code, Codex, Cursor, or something similar — sooner or later you hit the moment where a private repository is about to become public. Maybe you are open-sourcing a side project, publishing a release, or flipping a client repo to public after a handoff. The natural instinct is to type &quot;review this repo before I make it public&quot; and let the ag</summary>
+    <author><name>iwadjp</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Stop Wasting API Tokens: How to Bridge ChatGPT Web to Your IDE Using MCP</title>
@@ -321,13 +339,5 @@
     <updated>2026-09-01T19:39:25Z</updated>
     <summary type="text">Codex with ChatGPT, a public GitHub project, routes planning and code review to the ChatGPT web app while retaining Codex as the agent that edits files, runs shell commands and executes tests. For developers, the practical aim is to use an existing ChatGPT web subscription for reasoning without replacing the Codex-based execution harness. A read-only handoff between the two agents The project desc</summary>
     <author><name>David Díaz</name></author>
-  </entry>
-  <entry>
-    <title>ADR: EKS Provisioned Control Plane and 40x HPA Concurrency</title>
-    <link href="https://dev.to/fernando_azevedo_6844e930/adr-eks-provisioned-control-plane-and-40x-hpa-concurrency-3jed" rel="alternate"/>
-    <id>https://dev.to/fernando_azevedo_6844e930/adr-eks-provisioned-control-plane-and-40x-hpa-concurrency-3jed</id>
-    <updated>2026-09-01T17:21:54Z</updated>
-    <summary type="text">On July 28, 2026, AWS announced that EKS Provisioned Control Plane increases HPA sync concurrency to up to 40 times the Kubernetes default — with no configuration changes required from the operator. For those running clusters with hundreds or thousands of HPA objects, this is not a cosmetic adjustment: it is the removal of a structural bottleneck that, until now, made metric-driven autoscaling fun</summary>
-    <author><name>Fernando Azevedo</name></author>
   </entry>
 </feed>
