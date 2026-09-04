@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-03T23:08:29Z</updated>
+  <updated>2026-09-04T03:45:55Z</updated>
   <entry>
     <title>Benchmarking Serverless GPUs: Modal vs RunPod vs Replicate Cold Starts (2026)</title>
     <link href="https://dev.to/mrzitoun/benchmarking-serverless-gpus-modal-vs-runpod-vs-replicate-cold-starts-2026-a5c" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning</title>
+    <link href="https://arxiv.org/abs/2609.04183v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.04183v1</id>
+    <updated>2026-09-03T17:58:02Z</updated>
+    <summary type="text">Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliary transition captions via LLM to provide additional vision-language alignment, but these captions lack visual grounding and are rigidly assigned to every inter-event gap at a fixed location and durati</summary>
+    <author><name>Dong-Jin Kim</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder</title>
@@ -70,25 +79,5 @@
     <summary type="text">The rapid advancement of generative models has significantly worsened the problem of manipulated image detection, as these methods are capable of producing highly realistic forgeries, reinforcing the importance of multimedia forensics. Conventional approaches typically frame image manipulation detection as a binary classification task (real vs. generated), which limits the capability to distinguis</summary>
     <author><name>Lamberto Ballan</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Revisiting Cross-View Completion: Self-Supervised Pre-Training via Reconstruction Error Comparison</title>
-    <link href="https://arxiv.org/abs/2609.01530v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.01530v1</id>
-    <updated>2026-09-01T16:57:46Z</updated>
-    <summary type="text">Self-supervised pre-training via cross-view completion learns strong features for 3D vision from co-visible regions of image pairs. However, the reference view provides little information for reconstructing non-co-visible patches, implicitly yielding a monocular training signal in these regions. We introduce Gekko, which turns this limitation into a useful signal. The relative improvement of the c</summary>
-    <author><name>Vincent Lepetit</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>EdiTikZ: Scientific Figure Editing from Revision Trajectories</title>
-    <link href="https://arxiv.org/abs/2609.01409v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.01409v1</id>
-    <updated>2026-09-01T15:29:52Z</updated>
-    <summary type="text">Vision-language models (VLMs) have shown strong performance in generating scientific figures from text or images. However, producing publication-ready figures requires iterative refinement, making scientific figure editing an important yet largely unexplored task. Existing approaches rely on costly proprietary agentic systems, focus primarily on evaluation, or construct training supervision from s</summary>
-    <author><name>Steffen Eger</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>
