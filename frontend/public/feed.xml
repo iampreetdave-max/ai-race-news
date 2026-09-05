@@ -4,7 +4,29 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-05T00:46:41Z</updated>
+  <updated>2026-09-05T05:27:31Z</updated>
+  <entry>
+    <title>Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%</title>
+    <link href="https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/</id>
+    <updated>2026-09-05T04:37:25Z</updated>
+    <summary type="text">Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs. The post Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88% appeared first on MarkTechPost.</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes</title>
+    <link href="https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/</id>
+    <updated>2026-09-05T03:52:23Z</updated>
+    <summary type="text">We look at NVIDIA Personal AI Router (PAIR), an open source virtual inference router that spreads local AI requests across the machines already on a home network. We cover how PAIR proxies existing Ollama and LM Studio endpoints so agent harnesses need no changes, and how its scheduler filters nodes on readiness, engine state, exact model presence, job load, and GPU utilization. We walk through NV</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>Building a Memory-Driven Agent with NVIDIA NemoClaw</title>
     <link href="https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/" rel="alternate"/>
@@ -321,6 +343,40 @@
     <author><name>Jess Weatherbed</name></author>
   </entry>
   <entry>
+    <title>How I Built End To End Observability Stack with OpenTelemetry, Prometheus, Grafana, Loki, and Jaeger</title>
+    <link href="https://dev.to/morizal/how-i-built-end-2-end-observability-stack-with-opentelemetry-prometheus-grafana-loki-and-jaeger-500n" rel="alternate"/>
+    <id>https://dev.to/morizal/how-i-built-end-2-end-observability-stack-with-opentelemetry-prometheus-grafana-loki-and-jaeger-500n</id>
+    <updated>2026-09-05T05:00:39Z</updated>
+    <summary type="text">When an application is running, knowing that it is up does not necessarily mean knowing what it is doing. For example, imagine an API request that takes several seconds to complete. We would want to answer questions such as: Is the application receiving more requests than usual? What happened during the request? How long does the request take? Did the application encounter an error? Which part of </summary>
+    <author><name>Mo Rizal</name></author>
+  </entry>
+  <entry>
+    <title>Switching from GPT-5.6 Sol to GPT-6 Astra: Start with Medium Effort</title>
+    <link href="https://dev.to/shinpr/switching-from-gpt-56-sol-to-gpt-6-astra-start-with-medium-effort-25ao" rel="alternate"/>
+    <id>https://dev.to/shinpr/switching-from-gpt-56-sol-to-gpt-6-astra-start-with-medium-effort-25ao</id>
+    <updated>2026-09-05T04:59:20Z</updated>
+    <summary type="text">GPT-6 Astra at high reasoning effort produced the implementation I decided to keep. I still plan to use medium effort by default. High handled the interactions between retries and persisted state more completely, but its implementation run took about 48 minutes against medium's 31. In a separate review of the same Sol implementation, medium found a startup failure that high missed. I ran this comp</summary>
+    <author><name>Shinsuke KAGAWA</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Launching Docgrity 🚀: Documentation integrity for you, your team, and your agent friends. 🤖</title>
+    <link href="https://dev.to/ujja/meet-docgrity-documentation-integrity-for-you-your-team-and-your-agent-friends-14gm" rel="alternate"/>
+    <id>https://dev.to/ujja/meet-docgrity-documentation-integrity-for-you-your-team-and-your-agent-friends-14gm</id>
+    <updated>2026-09-05T04:55:38Z</updated>
+    <summary type="text">Today I'm launching Docgrity — a tool for finding where your documentation disagrees with itself, before it confuses you or the next AI agent working on your codebase. TL;DR Docgrity is a documentation integrity tool for repos and Confluence. It finds duplicate or contradictory documentation, surfaces unanswered questions, and gives you the evidence behind each finding so you can decide what needs</summary>
+    <author><name>ujja</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>О теории типов</title>
+    <link href="https://dev.to/phonty29/o-tieorii-tipov-n0e" rel="alternate"/>
+    <id>https://dev.to/phonty29/o-tieorii-tipov-n0e</id>
+    <updated>2026-09-05T04:52:58Z</updated>
+    <summary type="text">Известный &quot;кризис оснований математики&quot;, который произошел в начале XX века. Возник он из-за (или благодаря, тут трудно сказать) &quot;Наивной теории множеств&quot; Георга Кантора, которая на первый взгляд должна была стать точкой сбора всех математиков. Все мы, особенно разработчики, интуитивно понимаем теорию множеств. Например, вот множество натуральных чисел {1,2,3...}, а вот множество целых чисел {...,</summary>
+    <author><name>Amedov Bekmukhamed</name></author>
+  </entry>
+  <entry>
     <title>China’s Moonshot Said to Seek Up to $5 Billion in Hong Kong IPO This Year</title>
     <link href="https://www.bloomberg.com/news/articles/2026-09-04/moonshot-is-said-to-seek-up-to-5-billion-in-hk-ipo-this-year" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-09-04/moonshot-is-said-to-seek-up-to-5-billion-in-hk-ipo-this-year</id>
@@ -328,6 +384,14 @@
     <summary type="text">Moonshot AI is considering raising up to $5 billion in its planned Hong Kong initial public offering as soon as this year, people familiar with the matter said, as the Chinese artificial intelligence champion taps into strong investor demand.</summary>
     <author><name>Dong Cao, Julia Fioretti, Pei Li and Luz Ding</name></author>
     <category term="funding"/>
+  </entry>
+  <entry>
+    <title>I told the model to separate fields with &lt;TAB&gt;. It did exactly that, and I lost 79 percent of my data.</title>
+    <link href="https://dev.to/rickeshtn/i-told-the-model-to-separate-fields-with-it-did-exactly-that-and-i-lost-79-percent-of-my-ip2" rel="alternate"/>
+    <id>https://dev.to/rickeshtn/i-told-the-model-to-separate-fields-with-it-did-exactly-that-and-i-lost-79-percent-of-my-ip2</id>
+    <updated>2026-09-05T04:42:30Z</updated>
+    <summary type="text">My extraction prompt said: Output lines of the form &lt;key&gt;&lt;TAB&gt;&lt;value&gt; The model output: Elizabeth&lt;TAB&gt;I have not the pleasure of understanding you Those are five literal characters — angle bracket, T, A, B, angle bracket — not a tab. My parser looked for \t, found none, and dropped the line. Across one document, 246 of 310 records were discarded. Only 5 were dropped for the reason the mechanism ac</summary>
+    <author><name>Rickesh T N</name></author>
   </entry>
   <entry>
     <title>Middle East’s Data Center Push Endures Under the Cloud of War</title>
@@ -388,70 +452,5 @@
     <updated>2026-09-04T09:56:53Z</updated>
     <summary type="text">AMC Entertainment Holdings Inc. boss Adam Aron criticized Robinhood Markets Inc. after the platform launched a tokenized version of the theater chain’s shares, escalating a debate over synthetic equities as Wall Street pushes toward always-on markets.</summary>
     <author><name>Sidhartha Shukla</name></author>
-  </entry>
-  <entry>
-    <title>Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour</title>
-    <link href="https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/</id>
-    <updated>2026-09-04T01:21:49Z</updated>
-    <summary type="text">WeatherNext 3 ingests live geostationary satellite mosaics, refreshes hourly, and outputs 5 km forecasts across Search, Gemini, Maps. The post Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Rolls Out GPT-6 Astra and Astra Pro Across ChatGPT, API, and Cloud Platforms</title>
-    <link href="https://dev.to/alifar/openai-rolls-out-gpt-6-astra-and-astra-pro-across-chatgpt-api-and-cloud-platforms-194b" rel="alternate"/>
-    <id>https://dev.to/alifar/openai-rolls-out-gpt-6-astra-and-astra-pro-across-chatgpt-api-and-cloud-platforms-194b</id>
-    <updated>2026-09-05T00:30:30Z</updated>
-    <summary type="text">OpenAI has introduced GPT-6 Astra and its Pro variant, GPT-6 Astra Pro, in a staged rollout that spans ChatGPT, the OpenAI API, and cloud partners Azure and AWS Bedrock. The most important detail for teams planning to use the new models is that access is expanding in phases. OpenAI says Astra is rolling out first to a limited set of organizations, before becoming available to ChatGPT Plus, Pro, Bu</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>บทวิเคราะห์ paper 'Agentic Software', วิชาที่เกิดใหม่เมื่อ agent เข้ามาแทนที่โค้ด</title>
-    <link href="https://dev.to/sarantoon/bthwiekhraaah-paper-agentic-software-wichaathiiekidaihmemuue-agent-ekhaamaaaethnthiiokhd-58p7" rel="alternate"/>
-    <id>https://dev.to/sarantoon/bthwiekhraaah-paper-agentic-software-wichaathiiekidaihmemuue-agent-ekhaamaaaethnthiiokhd-58p7</id>
-    <updated>2026-09-05T00:26:25Z</updated>
-    <summary type="text">บทวิเคราะห์ &quot;Agentic Software&quot;, paper ที่เลิกใช้ชื่อ &quot;The End of Software Engineering&quot; เพื่อเล่าเรื่องวิชาใหม่ที่กำลังเกิด โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจาก paper วิจัยบน </summary>
-    <author><name>Nokka</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น</title>
-    <link href="https://dev.to/sarantoon/chngwaang-03-aetraakhaataang-2-ethaa-aantaaraang-terminal-bench-40-aihepn-467f" rel="alternate"/>
-    <id>https://dev.to/sarantoon/chngwaang-03-aetraakhaataang-2-ethaa-aantaaraang-terminal-bench-40-aihepn-467f</id>
-    <updated>2026-09-05T00:26:21Z</updated>
-    <summary type="text">ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจากตาราง leaderboard จริงของ Terminal-Bench 4.0 และข้อมูลราคาจาก Token</summary>
-    <author><name>Nokka</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>เมื่อ Benchmark โกหกคุณ, SWE-Bench ProMax กับคะแนนจริงที่โมเดลเก่งสุดทำได้แค่ 41.2%</title>
-    <link href="https://dev.to/sarantoon/emuue-benchmark-okhkkhun-swe-bench-promax-kabkhaaenncchringthiiomedlekngsudthamaidaekh-412-1fl5" rel="alternate"/>
-    <id>https://dev.to/sarantoon/emuue-benchmark-okhkkhun-swe-bench-promax-kabkhaaenncchringthiiomedlekngsudthamaidaekh-412-1fl5</id>
-    <updated>2026-09-05T00:26:18Z</updated>
-    <summary type="text">เมื่อ Benchmark โกหกคุณ, SWE-Bench ProMax กับคะแนนจริงที่โมเดลเก่งสุดทำได้แค่ 41.2% โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจาก paper วิจัย SWE-Bench ProMax บน arXiv ฉบับเต็ม เลข 90</summary>
-    <author><name>Nokka</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Agent ของ OpenAI ยึดเว็บเยอรมันเป็นบอร์ดแชทกันเอง, กรณี DseWiki 15,000 edits</title>
-    <link href="https://dev.to/sarantoon/agent-khng-openai-yuedewbeyrmanepnbrdaechthkaneng-krnii-dsewiki-15000-edits-1a6c" rel="alternate"/>
-    <id>https://dev.to/sarantoon/agent-khng-openai-yuedewbeyrmanepnbrdaechthkaneng-krnii-dsewiki-15000-edits-1a6c</id>
-    <updated>2026-09-05T00:26:11Z</updated>
-    <summary type="text">Agent ของ OpenAI ยึดเว็บเยอรมันเป็นบอร์ดแชทกันเอง, กรณี DseWiki 15,000 edits โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจากรายงาน exclusive ของ Reuters (ผ่าน CNBC) และรายงานวิจัยของกลุ</summary>
-    <author><name>Nokka</name></author>
-    <category term="llm"/>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>13 repositories, 13 bugs: what open source taught me about my own tool</title>
-    <link href="https://dev.to/laraib_hasan/13-repositories-13-bugs-what-open-source-taught-me-about-my-own-tool-939" rel="alternate"/>
-    <id>https://dev.to/laraib_hasan/13-repositories-13-bugs-what-open-source-taught-me-about-my-own-tool-939</id>
-    <updated>2026-09-05T00:24:59Z</updated>
-    <summary type="text">I built a tool that draws architecture diagrams from a repository, where every edge cites the file, line and commit it came from. Then I ran it against thirteen repositories it had never seen, and every single one of them found something wrong with it. There were thirteen. These are the ones worth writing down. The list says nothing about those codebases. It says something about testing: a tool th</summary>
-    <author><name>Laraib Hasan</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
