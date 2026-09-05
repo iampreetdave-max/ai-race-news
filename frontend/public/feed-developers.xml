@@ -4,7 +4,24 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-05T16:42:23Z</updated>
+  <updated>2026-09-05T18:56:44Z</updated>
+  <entry>
+    <title>The Day Our Ad Campaigns Went to Zero and an AI Agent Found It in Minutes</title>
+    <link href="https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f" rel="alternate"/>
+    <id>https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f</id>
+    <updated>2026-09-05T18:37:20Z</updated>
+    <summary type="text">We're building affset, a white-label ad server and CPA network tracker, and we dogfood it hard — an in-house team runs real paid traffic through our own product. That also means we're our own first support ticket when something breaks. Our buying team runs campaigns through affset's MCP server, so instead of a stats dashboard it's a chat session with direct read/write access to our tracking data —</summary>
+    <author><name>serz</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Why Azure Managed Identity replaces stored credentials and how to use it in 2026</title>
+    <link href="https://dev.to/carlosjcastrog/why-azure-managed-identity-replaces-stored-credentials-and-how-to-use-it-in-2026-29cj" rel="alternate"/>
+    <id>https://dev.to/carlosjcastrog/why-azure-managed-identity-replaces-stored-credentials-and-how-to-use-it-in-2026-29cj</id>
+    <updated>2026-09-05T18:22:22Z</updated>
+    <summary type="text">Every Azure project eventually has the same conversation. Where do we store the connection string? Someone suggests an environment variable, and someone else points out that environment variables end up in deployment pipelines, in Docker compose files, in Terraform state, and occasionally in accidental commits. A secret manager gets proposed, and the secret manager needs its own credentials to acc</summary>
+    <author><name>Carlos José Castro Galante</name></author>
+  </entry>
   <entry>
     <title>Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes</title>
     <link href="https://dev.to/thenjdevopsguy/deploying-an-agent-substrate-actor-after-actortemplate-left-kubernetes-mcn" rel="alternate"/>
@@ -216,6 +233,15 @@
     <author><name>Portofino</name></author>
   </entry>
   <entry>
+    <title>Using Blender with coding agents on macOS</title>
+    <link href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</id>
+    <updated>2026-09-05T15:51:09Z</updated>
+    <summary type="text">TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>500+ коммитов за пять месяцев: как я в одиночку запустил RetroPoint</title>
     <link href="https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4" rel="alternate"/>
     <id>https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4</id>
@@ -393,13 +419,5 @@
     <summary type="text">大多数由 AI 生成的网站，失败并不是因为首页不好看，而是因为所有那些无聊的生产环节都被跳过了。 比如这些： SEO 元数据 预渲染 分析统计 社交分享图 CSP 响应头 Lighthouse 优化 移动端打磨 sitemap 生成 robots.txt 部署配置 IndexNow 缓存 环境搭建 如今真正的 React 组件，往往已经是最简单的部分。 依然在拖慢一切的，是运维层面的基础设施。 用 Claude Code 做了几个 AI 辅助项目之后，我意识到自己在反反复复解决同样的问题——不只是视觉上的，更是运维上的。 于是我没有去写更长的提示词，而是开始构建可复用的 Claude Code skill。 结果变成了一个面向生产工作流的开源仓库：GitHub 上的 senternet-site-skills。这个仓库收录了一批面向生产、可复用的 skill，覆盖 SEO、预渲染、移动端优</summary>
     <author><name>Matt Senter</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Two Actors, one agent, and the three ways my chain broke</title>
-    <link href="https://dev.to/apify/two-actors-one-agent-and-the-three-ways-my-chain-broke-3p38" rel="alternate"/>
-    <id>https://dev.to/apify/two-actors-one-agent-and-the-three-ways-my-chain-broke-3p38</id>
-    <updated>2026-09-02T17:09:31Z</updated>
-    <summary type="text">A client asked a question that sounds simple: which sellers on the marketplaces are risky to buy from? Answering it takes two steps. Find the sellers behind the product listings, then check each seller's legal entity against public risk registries. I had an Actor for each half already. One walks marketplace search results and returns sellers with their tax ID, legal name and store URL. The other t</summary>
-    <author><name>Ivan Solovyev</name></author>
   </entry>
 </feed>
