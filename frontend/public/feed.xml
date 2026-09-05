@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-05T13:48:16Z</updated>
+  <updated>2026-09-05T16:42:23Z</updated>
   <entry>
     <title>OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words</title>
     <link href="https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/" rel="alternate"/>
@@ -121,6 +121,15 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot</title>
+    <link href="https://www.latent.space/p/grok-bot" rel="alternate"/>
+    <id>https://www.latent.space/p/grok-bot</id>
+    <updated>2026-09-05T15:01:02Z</updated>
+    <summary type="text">SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.</summary>
+    <author><name>Dan McAteer</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Building a Memory-Driven Agent with NVIDIA NemoClaw</title>
     <link href="https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/</id>
@@ -185,6 +194,104 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes</title>
+    <link href="https://dev.to/thenjdevopsguy/deploying-an-agent-substrate-actor-after-actortemplate-left-kubernetes-mcn" rel="alternate"/>
+    <id>https://dev.to/thenjdevopsguy/deploying-an-agent-substrate-actor-after-actortemplate-left-kubernetes-mcn</id>
+    <updated>2026-09-05T16:22:48Z</updated>
+    <summary type="text">As of 09/02/2026, the ActorTemplate object no longer exists. It was created, as the name suggests, to be the template/golden template that Actors use to deploy with particular settings and configurations for it to run as expected. In this quickstart blog post, you'll see how to deploy Actors without an ActorTemplate and also understand the reasoning behind this change. Prerequisites To follow alon</summary>
+    <author><name>Michael Levan</name></author>
+  </entry>
+  <entry>
+    <title>Crypto-shredding does not delete anything from your old backups</title>
+    <link href="https://dev.to/vebat/crypto-shredding-does-not-delete-anything-from-your-old-backups-po1" rel="alternate"/>
+    <id>https://dev.to/vebat/crypto-shredding-does-not-delete-anything-from-your-old-backups-po1</id>
+    <updated>2026-09-05T16:22:00Z</updated>
+    <summary type="text">An erasure request comes in. The person's data is in your database, in three replicas, and in nightly backups you keep for five years because a regulator told you to. You cannot rewrite a backup. Most teams answer with crypto-shredding: encrypt every record under its own key, and when the record must go, delete the key. Ciphertext without a key is noise, so the backups are dealt with by definition</summary>
+    <author><name>Vebat</name></author>
+  </entry>
+  <entry>
+    <title>How to Solve a Month-over-Month Churn SQL Interview Question</title>
+    <link href="https://dev.to/rahmanfrr/how-to-solve-a-month-over-month-churn-sql-interview-question-1abo" rel="alternate"/>
+    <id>https://dev.to/rahmanfrr/how-to-solve-a-month-over-month-churn-sql-interview-question-1abo</id>
+    <updated>2026-09-05T16:21:20Z</updated>
+    <summary type="text">Churn questions are common in data engineering and business intelligence interviews because they test more than basic aggregation. You need to work with time periods, define when a user is active, handle open-ended subscriptions, and compare one month with another. I added this scenario to DataCurlew, where you can practice it directly in your browser. Let’s walk through the solution. The problem </summary>
+    <author><name>Rahman</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Autonomous Agents Need Proof, Not Promises: The Evidence Ladder Behind WitnessOS</title>
+    <link href="https://dev.to/narko4u/autonomous-agents-need-proof-not-promises-the-evidence-ladder-behind-witnessos-8h8" rel="alternate"/>
+    <id>https://dev.to/narko4u/autonomous-agents-need-proof-not-promises-the-evidence-ladder-behind-witnessos-8h8</id>
+    <updated>2026-09-05T16:21:11Z</updated>
+    <summary type="text">Autonomous Agents Need Proof, Not Promises Every organisation running autonomous agents is about to hit the same wall. The agents will do real things: send emails, move money, mutate infrastructure, talk to customers. And when someone asks &quot;what did your agents actually do, and can you prove it?&quot; the honest answer is almost always a dashboard screenshot and a log file. Logs are claims. Evidence is</summary>
+    <author><name>Empire Labs Pty Ltd</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AI Coding Agents Need Sandboxes Before They Need Better Models</title>
+    <link href="https://dev.to/shresthapandey/ai-coding-agents-need-sandboxes-before-they-need-better-models-3m17" rel="alternate"/>
+    <id>https://dev.to/shresthapandey/ai-coding-agents-need-sandboxes-before-they-need-better-models-3m17</id>
+    <updated>2026-09-05T16:17:14Z</updated>
+    <summary type="text">Last month I gave an agent full shell access on a side project, stepped away, and came back to find it had run npm install on a package I didn't recognize — something pulled from a typo-squatted namespace with a name close enough to fool it. Nothing bad happened, as far as I could tell. But I lost twenty minutes auditing my own machine instead of shipping anything, which is the opposite of what th</summary>
+    <author><name>Shrestha Pandey</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I stopped an LLM from fabricating citations (a coin-museum story)</title>
+    <link href="https://dev.to/danmat/how-i-stopped-an-llm-from-fabricating-citations-a-coin-museum-story-44n0" rel="alternate"/>
+    <id>https://dev.to/danmat/how-i-stopped-an-llm-from-fabricating-citations-a-coin-museum-story-44n0</id>
+    <updated>2026-09-05T16:16:02Z</updated>
+    <summary type="text">I started collecting ancient and world coins this year. It got out of hand fast, the way these things do. What I wanted next was a catalogue that read like a story instead of a spreadsheet, and that catalogue did not exist, so I built it. Numistoria is my collection presented as a museum: twenty themed &quot;worlds&quot; that read as one continuous story, with an exhibit page for every coin, whether I own i</summary>
+    <author><name>Dan Matthew</name></author>
+  </entry>
+  <entry>
+    <title>TypeScript AI PR Reviewer: Catch Unsafe Types</title>
+    <link href="https://dev.to/gateofai/typescript-ai-pr-reviewer-catch-unsafe-types-4f21" rel="alternate"/>
+    <id>https://dev.to/gateofai/typescript-ai-pr-reviewer-catch-unsafe-types-4f21</id>
+    <updated>2026-09-05T16:13:01Z</updated>
+    <summary type="text">🚀 Technical Briefing: This tutorial is part of our deep-dive series on Agentic Workflows at Gate of AI. For the full technical breakdown, interactive code sandbox, and the native Arabic translation, visit the original article here. Build a TypeScript pull-request reviewer that combines Git diffs, TypeScript Compiler API diagnostics, local AST rules, and OpenAI structured output. The result is a sm</summary>
+    <author><name>Gate of AI</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Publishing an auditable company-trends dataset: what we chose to expose</title>
+    <link href="https://dev.to/datacheckresearch/publishing-an-auditable-company-trends-dataset-what-we-chose-to-expose-35b6" rel="alternate"/>
+    <id>https://dev.to/datacheckresearch/publishing-an-auditable-company-trends-dataset-what-we-chose-to-expose-35b6</id>
+    <updated>2026-09-05T16:07:13Z</updated>
+    <summary type="text">Open data is most useful when it is not merely downloadable, but explainable. At DataCheck Research, we publish a small, reusable dataset of Israeli company-registration and status-change trends. The objective is not to claim that one monthly count explains the economy. It is to make a constrained question reproducible: what changed in the register, when, and according to which sources? The modell</summary>
+    <author><name>DataCheck Research</name></author>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>Show HN: Pulse – A changelog that AI agents can verify (signed feed + MCP)</title>
+    <link href="https://dev.to/muuccn/show-hn-pulse-a-changelog-that-ai-agents-can-verify-signed-feed-mcp-5g3g" rel="alternate"/>
+    <id>https://dev.to/muuccn/show-hn-pulse-a-changelog-that-ai-agents-can-verify-signed-feed-mcp-5g3g</id>
+    <updated>2026-09-05T16:05:20Z</updated>
+    <summary type="text">Building Pulse: A Changelog That Your AI Agents Can Actually Verify Six months, one developer, one weird idea: what if your changelog didn't need humans to trust it — it just verified itself? The graveyard of indie changelogs I've shipped 50+ &quot;v1.0.1 — fix&quot; releases in my life. So has every indie dev I know. Look at any GitHub Releases page for a small SaaS and you'll see: &quot;v1.0.1 — minor fix&quot; &quot;v1</summary>
+    <author><name>win und</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>💙 KindLink - Because “I Want to Help” Is Not a Plan 😭</title>
+    <link href="https://dev.to/akanksha_sharma/kindlink-because-i-want-to-help-is-not-a-plan-4f3a" rel="alternate"/>
+    <id>https://dev.to/akanksha_sharma/kindlink-because-i-want-to-help-is-not-a-plan-4f3a</id>
+    <updated>2026-09-05T16:04:05Z</updated>
+    <summary type="text">This is a submission for the Weekend Challenge: Generosity Edition. Have you ever thought: “I really want to help people.” …and then immediately: “Okay, but HOW?” 🤔 Same. We often want to be generous but turning that feeling into an actual action isn't always easy. That little gap between wanting to help and knowing how to help is what made me think: What if something could connect the two? So for</summary>
+    <author><name>Akanksha Sharma</name></author>
+  </entry>
+  <entry>
+    <title>I Thought Role Separation Would Fix the Optimizer. It Didn't.</title>
+    <link href="https://dev.to/debashish_ghosal/i-thought-role-separation-would-fix-the-optimizer-it-didnt-1h1" rel="alternate"/>
+    <id>https://dev.to/debashish_ghosal/i-thought-role-separation-would-fix-the-optimizer-it-didnt-1h1</id>
+    <updated>2026-09-05T16:03:24Z</updated>
+    <summary type="text">Previously: 9 Bugs That All Looked Like a Working System · I Built an AI That Rewrites Its Own Prompts · The Edit That Fixed 4 Tasks and Broke 1 · I Let an LLM Rewrite Its Own Prompt. The Real Win Was the Gate That Rejected It. · I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed. AgentSelfEdit is an open-source sidecar that rewrites its own system prompt from execution feedback. It A/</summary>
+    <author><name>Debashish Ghosal</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>OpenAI agents discussed ways to escape their sandbox on public wiki</title>
     <link href="https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/" rel="alternate"/>
     <id>https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/</id>
@@ -200,6 +307,16 @@
     <updated>2026-09-04T21:30:46Z</updated>
     <summary type="text">Zscaler CEO Jay Chaudhry said AI is creating a major tailwind for the cybersecurity industry rather than reducing the need for software security. He argued that CEOs, CIOs, and boards want to use AI for productivity and cost savings, but are worried that new AI models could create vulnerabilities, lead to breaches, or cause applications to be hacked or hijacked. He speaks with Scarlet Fu &amp; Kristin</summary>
     <author><name>Bloomberg Technology</name></author>
+  </entry>
+  <entry>
+    <title>Why Transformers Need Positional Encoding For Time Series: A Visual Guide</title>
+    <link href="https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/" rel="alternate"/>
+    <id>https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/</id>
+    <updated>2026-09-05T15:00:01Z</updated>
+    <summary type="text">From scalar observations to self-attention, and how positional information restores sequence order The post Why Transformers Need Positional Encoding For Time Series: A Visual Guide appeared first on Towards Data Science.</summary>
+    <author><name>Gurjinder Kaur</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>AI compute provider Nscale is looking for $3.5B in pre-IPO financing</title>
@@ -340,121 +457,5 @@
     <updated>2026-09-04T18:39:19Z</updated>
     <summary type="text">The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…</summary>
     <author><name>MIT Technology Review Insights</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic Builds Its War Chest Ahead of IPO | Bloomberg Tech 9/04/2026</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-04/bloomberg-tech-9-04-2026-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-04/bloomberg-tech-9-04-2026-video</id>
-    <updated>2026-09-04T18:11:31Z</updated>
-    <summary type="text">Bloomberg’s Lisa Mateo takes a look at Anthropic as it finalizes an expansion of its revolving credit facility to $15 billion before its anticipated public filing. Plus, a look at the latest US jobs report showing the IT sector shed 23,000 jobs in August; and Apple is kicking off the John Ternus era with what could be the biggest run of new devices in its history. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Rolls Out Its Most Advanced Model Yet</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-04/openai-rolls-out-its-most-advanced-model-yet-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-04/openai-rolls-out-its-most-advanced-model-yet-video</id>
-    <updated>2026-09-04T18:08:47Z</updated>
-    <summary type="text">OpenAI is rolling out its most advanced model yet, with GPT-6 Astra being positioned as a major step toward AGI - but its powerful cybersecurity capabilities are also forcing OpenAI to put new guardrails in place. Bloomberg's Seth Fiegerman joins Bloomberg’s Lisa Mateo on &quot;Bloomberg Tech.&quot; (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How AI Is Eroding the First Rung of the Tech Job Ladder</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-04/how-ai-is-eroding-the-first-rung-of-the-tech-job-ladder-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-04/how-ai-is-eroding-the-first-rung-of-the-tech-job-ladder-video</id>
-    <updated>2026-09-04T18:07:36Z</updated>
-    <summary type="text">The US information sector shed roughly 23,000 jobs in August, offering another potential signal of how AI is reshaping the labor market. Northeastern University Professor Alicia Modestino discusses why tech may be the “canary in the coal mine,” with her research showing a decline in junior versus senior software developer vacancies since ChatGPT’s release. She also discusses why employers are dema</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Roland is getting into generative AI music with Melody Flip</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip</id>
-    <updated>2026-09-04T17:51:35Z</updated>
-    <summary type="text">It's not quite the &quot;push button; get song&quot; of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 &quot;Palettes,&quot; which are essentially themed collections of musical ideas sorted by genre. You can start from […]</summary>
-    <author><name>Terrence O’Brien</name></author>
-  </entry>
-  <entry>
-    <title>Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward</title>
-    <link href="https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/" rel="alternate"/>
-    <id>https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/</id>
-    <updated>2026-09-04T11:07:36Z</updated>
-    <summary type="text">OpenAI's GPT-6 Astra is drawing contradictory benchmark verdicts. Epoch AI puts it out in front with 169 points, while Artificial Analysis rates it no better than its predecessor and behind Claude Fable 5.1. The biggest surprise comes from ARC-AGI-3, where Astra works more efficiently than the average human for the first time. ARC Prize chief François Chollet doesn't call this proof of AGI, but he</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AGI is whatever you want it to be</title>
-    <link href="https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be" rel="alternate"/>
-    <id>https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be</id>
-    <updated>2026-09-04T17:16:49Z</updated>
-    <summary type="text">OpenAI announced its next big model, GPT-6 Astra, and also, by the way, that &quot;the AGI era&quot; is here now. Today on The Vergecast, we've got an all-star panel to break down the news of the week. First, senior AI reporter Hayden Field joins us to talk about our supposed AGI era and Nvidia's acquisition […]</summary>
-    <author><name>Travis Larchuk</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI Startup Micro1 Seeks to Topple Google’s Bid for Spirit Data</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-04/ai-startup-micro1-seeks-to-topple-google-s-bid-for-spirit-data" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-04/ai-startup-micro1-seeks-to-topple-google-s-bid-for-spirit-data</id>
-    <updated>2026-09-04T17:13:55Z</updated>
-    <summary type="text">An artificial intelligence startup is attempting to wrest away a vast trove of Spirit Aviation Holdings Inc.’s business records from Google LLC.</summary>
-    <author><name>Jonathan Randles</name></author>
-  </entry>
-  <entry>
-    <title>Carney’s Push to Build Canadian Data Centers is Running Into Backlash</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-04/carney-s-push-to-build-canadian-data-centers-is-running-into-backlash" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-04/carney-s-push-to-build-canadian-data-centers-is-running-into-backlash</id>
-    <updated>2026-09-04T16:59:33Z</updated>
-    <summary type="text">The data center backlash that has gripped US politics is spreading north, complicating Prime Minister Mark Carney’s efforts to attract investment in the rapidly expanding artificial intelligence infrastructure.</summary>
-    <author><name>Nojoud Al Mallees</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>GPT-6 Astra e la settimana in cui l’AI ha cambiato ritmo: cosa significa per chi sviluppa</title>
-    <link href="https://dev.to/frontendfacile/gpt-6-astra-e-la-settimana-in-cui-lai-ha-cambiato-ritmo-cosa-significa-per-chi-sviluppa-3ia6" rel="alternate"/>
-    <id>https://dev.to/frontendfacile/gpt-6-astra-e-la-settimana-in-cui-lai-ha-cambiato-ritmo-cosa-significa-per-chi-sviluppa-3ia6</id>
-    <updated>2026-09-05T10:05:44Z</updated>
-    <summary type="text">Tra modelli “frontier”, prezzi aggressivi e agenti che usano il computer, la vera novità è l’operatività: più azione, meno chat. Negli ultimi aggiornamenti del panorama AI si sta consolidando un cambio di priorità: non basta più “scrivere testo” o “rispondere bene”. Il focus si sta spostando su modelli che operano: aprono strumenti, manipolano interfacce, eseguono workflow end-to-end, e—questa è l</summary>
-    <author><name>frontendfacile.it</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight</title>
-    <link href="https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/" rel="alternate"/>
-    <id>https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/</id>
-    <updated>2026-09-04T16:22:18Z</updated>
-    <summary type="text">Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.</summary>
-    <author><name>Madhumita Murgia, Financial Times</name></author>
-    <category term="llm"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Source-Bound Docs: Models Restate Files, Humans Own Promises</title>
-    <link href="https://dev.to/github_7727/source-bound-docs-models-restate-files-humans-own-promises-gec" rel="alternate"/>
-    <id>https://dev.to/github_7727/source-bound-docs-models-restate-files-humans-own-promises-gec</id>
-    <updated>2026-09-05T10:02:56Z</updated>
-    <summary type="text">Model-drafted documentation is useful only when every generated claim maps to a file the repository already owns. Sentences without a source become unofficial contracts, and those contracts are expensive to walk back after publication. The practical split is simple: models may restate checked-in facts, while humans own promises, versions, and unsupported advice. This article describes a cite-or-dr</summary>
-    <author><name>Avery Lin</name></author>
-  </entry>
-  <entry>
-    <title>BrowserSkill: Let AI Use Your Already-Logged-In Browser, Without Interrupting You</title>
-    <link href="https://dev.to/sun_young_517829fc09d0c05/browserskill-let-ai-use-your-already-logged-in-browser-without-interrupting-you-gg" rel="alternate"/>
-    <id>https://dev.to/sun_young_517829fc09d0c05/browserskill-let-ai-use-your-already-logged-in-browser-without-interrupting-you-gg</id>
-    <updated>2026-09-05T10:01:40Z</updated>
-    <summary type="text">Ask anyone who's built browser automation what the hardest part is, and it's rarely clicking buttons or filling forms. It's login. Captchas, SMS codes, QR scans, device fingerprints, risk control on new devices — a whole wall designed to keep machines out. The usual workarounds all hurt: test accounts (trigger even stricter risk control), cookie hijacking (fragile, expires), headless browsers (obv</summary>
-    <author><name>sun young</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>M&amp;T Bank expands enterprise AI after years of technology overhaul</title>
-    <link href="https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees/" rel="alternate"/>
-    <id>https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees/</id>
-    <updated>2026-09-04T10:00:00Z</updated>
-    <summary type="text">M&amp;T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management. The bank uses AI to analyse call-centre conversations, draft reports, generate code, identify customer needs, and flag portfolio risks, according to Fast Company. M&amp;T is also examining […] The post M&amp;T Bank expands e</summary>
-    <author><name>Muhammad Zulhusni</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
