@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-05T18:56:44Z</updated>
+  <updated>2026-09-05T21:03:44Z</updated>
+  <entry>
+    <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
+    <link href="https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/</id>
+    <updated>2026-09-05T19:40:11Z</updated>
+    <summary type="text">We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer. The post GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflo</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Nous Research Adds One-Click Local Model Setup to Hermes Desktop</title>
+    <link href="https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/</id>
+    <updated>2026-09-05T19:12:02Z</updated>
+    <summary type="text">Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a hard 4-bit floor and a 64K minimum context window. The post Nous Research Adds One-Click Local Model Setup to Hermes Desktop appeared first on MarkTechPos</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Demystifying LLM Context Windows: How AI Memory Works (and Why It Fails)</title>
+    <link href="https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd" rel="alternate"/>
+    <id>https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd</id>
+    <updated>2026-09-05T20:09:05Z</updated>
+    <summary type="text">Imagine asking an AI coding assistant to help refactor a complex application. At first, it gives sharp, accurate responses. But 20 messages into the session, it suddenly forgets the architecture rules you set at the beginning, re-introduces previously fixed bugs, or hallucinates functions that don't exist. What went wrong? You just ran into the boundaries of the Context Window. Whether you are a d</summary>
+    <author><name>Abdullah Rafi</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>SWE-Gate: Why Passing Tests Isn't Enough for Agent-Generated Code</title>
+    <link href="https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf</id>
+    <updated>2026-09-05T20:06:48Z</updated>
+    <summary type="text">Coding agents pass tests but fail code review. Repository-level benchmarks measure test passage but ignore review acceptance criteria. This is the blind spot in every benchmark from SWE-bench onward. SWE-Gate is a new benchmark that measures both. It derives review constraints from real pull request comments, synthesizes repair tasks around those constraints, and scores agents on two gates: does t</summary>
+    <author><name>mech.app</name></author>
+  </entry>
   <entry>
     <title>The Day Our Ad Campaigns Went to Zero and an AI Agent Found It in Minutes</title>
     <link href="https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f" rel="alternate"/>
@@ -410,14 +449,5 @@
     <updated>2026-09-02T20:20:29Z</updated>
     <summary type="text">Kubernetes часто продають як щось, що саме зробить систему стійкою. Мовляв, поставив кластер — і воно саме перезапустить, саме розкладе, саме витримає навантаження. Це небезпечна ілюзія. Kubernetes не робить систему стійкою. Він лише дуже чесно показує, наскільки стійким ти зробив свій застосунок. Простий приклад. Оркестратор може будь-коли вбити твій под — під час деплою, при перерозподілі навант</summary>
     <author><name>Sergey Shinder</name></author>
-  </entry>
-  <entry>
-    <title>我创建了可复用的 Claude Code 技能，以更快发布生产网站</title>
-    <link href="https://dev.to/mattsenter/wo-chuang-jian-liao-ke-fu-yong-de-claude-code-ji-neng-yi-geng-kuai-fa-bu-sheng-chan-wang-zhan-1m9" rel="alternate"/>
-    <id>https://dev.to/mattsenter/wo-chuang-jian-liao-ke-fu-yong-de-claude-code-ji-neng-yi-geng-kuai-fa-bu-sheng-chan-wang-zhan-1m9</id>
-    <updated>2026-09-02T17:10:44Z</updated>
-    <summary type="text">大多数由 AI 生成的网站，失败并不是因为首页不好看，而是因为所有那些无聊的生产环节都被跳过了。 比如这些： SEO 元数据 预渲染 分析统计 社交分享图 CSP 响应头 Lighthouse 优化 移动端打磨 sitemap 生成 robots.txt 部署配置 IndexNow 缓存 环境搭建 如今真正的 React 组件，往往已经是最简单的部分。 依然在拖慢一切的，是运维层面的基础设施。 用 Claude Code 做了几个 AI 辅助项目之后，我意识到自己在反反复复解决同样的问题——不只是视觉上的，更是运维上的。 于是我没有去写更长的提示词，而是开始构建可复用的 Claude Code skill。 结果变成了一个面向生产工作流的开源仓库：GitHub 上的 senternet-site-skills。这个仓库收录了一批面向生产、可复用的 skill，覆盖 SEO、预渲染、移动端优</summary>
-    <author><name>Matt Senter</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

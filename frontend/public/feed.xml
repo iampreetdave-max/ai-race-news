@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-05T18:56:44Z</updated>
+  <updated>2026-09-05T21:03:44Z</updated>
+  <entry>
+    <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
+    <link href="https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/</id>
+    <updated>2026-09-05T19:40:11Z</updated>
+    <summary type="text">We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer. The post GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflo</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Nous Research Adds One-Click Local Model Setup to Hermes Desktop</title>
+    <link href="https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/</id>
+    <updated>2026-09-05T19:12:02Z</updated>
+    <summary type="text">Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a hard 4-bit floor and a 64K minimum context window. The post Nous Research Adds One-Click Local Model Setup to Hermes Desktop appeared first on MarkTechPos</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism</title>
     <link href="https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/" rel="alternate"/>
@@ -21,6 +41,15 @@
     <updated>2026-09-05T13:31:04Z</updated>
     <summary type="text">OpenAI ships a detailed prompting guide for GPT-6 Astra that shows developers how to make the model take more initiative, avoid AI &quot;slop&quot; phrases, and stop it from overtesting code. The article OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hikers rescued after using Google Gemini for planning</title>
+    <link href="https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/</id>
+    <updated>2026-09-05T19:35:24Z</updated>
+    <summary type="text">The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.&quot;</summary>
+    <author><name>Anthony Ha</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -175,6 +204,69 @@
     <updated>2026-09-04T21:28:11Z</updated>
     <summary type="text">Mikko Punnala, CEO of Space Air Technologies, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We define our market primarily … The post CEO Interview: Space Air Technologies appeared first on CB Insights Research.</summary>
     <author><name>Medhabi Ghosh</name></author>
+  </entry>
+  <entry>
+    <title>When Confidence Lies: Engineering Uncertainty-Aware AI Control Loops for High-Stakes Production Systems</title>
+    <link href="https://dev.to/ali_kiani_78/when-confidence-lies-engineering-uncertainty-aware-ai-control-loops-for-high-stakes-production-3mon" rel="alternate"/>
+    <id>https://dev.to/ali_kiani_78/when-confidence-lies-engineering-uncertainty-aware-ai-control-loops-for-high-stakes-production-3mon</id>
+    <updated>2026-09-05T20:31:18Z</updated>
+    <summary type="text">Thesis: Confidence should not merely describe what an AI system believes. It must actively determine what the system is allowed to do. The Confidence Problem: Why Fluent Models Fail in Production Modern Large Language Models (LLMs) possess an incredible capacity for fluency. They articulate complex code, formulate diagnostic hypotheses, and draft convincing legal arguments. However, in production </summary>
+    <author><name>ali kiani</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Nvidia PAIR enables local AI cluster construction</title>
+    <link href="https://dev.to/vpodk/nvidia-pair-enables-local-ai-cluster-construction-54h3" rel="alternate"/>
+    <id>https://dev.to/vpodk/nvidia-pair-enables-local-ai-cluster-construction-54h3</id>
+    <updated>2026-09-05T20:18:57Z</updated>
+    <summary type="text">Nvidia has introduced a free software tool that allows users to create AI inferencing clusters using separate computers on a single network. This utility provides a unified interface to manage distributed hardware for local processing. The software supports multiple operating systems and focuses on privacy and efficiency. Distributed Hardware Connectivity and Integration The new software is called</summary>
+    <author><name>Valentin Podkamennyi</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How do you architect a Playwright test to verify atomic transaction rollback across UI and API state?</title>
+    <link href="https://dev.to/styrow_dev/how-do-you-architect-a-playwright-test-to-verify-atomic-transaction-rollback-across-ui-and-api-24h" rel="alternate"/>
+    <id>https://dev.to/styrow_dev/how-do-you-architect-a-playwright-test-to-verify-atomic-transaction-rollback-across-ui-and-api-24h</id>
+    <updated>2026-09-05T20:18:33Z</updated>
+    <summary type="text">🚨 Playwright E2E Architect Challenge: How do you verify atomic transaction rollback across UI and API states, ensuring your tests don't fall for transient UIs? 📌 Problem Statement Verifying atomic transaction rollback (e.g., order placement, payment, inventory) in E2E tests is complex. If any part fails, the entire transaction must revert, and all states (UI &amp; backend) must reflect this consistent</summary>
+    <author><name>Styrow.dev</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>Demystifying LLM Context Windows: How AI Memory Works (and Why It Fails)</title>
+    <link href="https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd" rel="alternate"/>
+    <id>https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd</id>
+    <updated>2026-09-05T20:09:05Z</updated>
+    <summary type="text">Imagine asking an AI coding assistant to help refactor a complex application. At first, it gives sharp, accurate responses. But 20 messages into the session, it suddenly forgets the architecture rules you set at the beginning, re-introduces previously fixed bugs, or hallucinates functions that don't exist. What went wrong? You just ran into the boundaries of the Context Window. Whether you are a d</summary>
+    <author><name>Abdullah Rafi</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>SWE-Gate: Why Passing Tests Isn't Enough for Agent-Generated Code</title>
+    <link href="https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf</id>
+    <updated>2026-09-05T20:06:48Z</updated>
+    <summary type="text">Coding agents pass tests but fail code review. Repository-level benchmarks measure test passage but ignore review acceptance criteria. This is the blind spot in every benchmark from SWE-bench onward. SWE-Gate is a new benchmark that measures both. It derives review constraints from real pull request comments, synthesizes repair tasks around those constraints, and scores agents on two gates: does t</summary>
+    <author><name>mech.app</name></author>
+  </entry>
+  <entry>
+    <title>A transcript is not a wall of text: timecodes, speaker labels and the formats worth exporting</title>
+    <link href="https://dev.to/audiovtext/a-transcript-is-not-a-wall-of-text-timecodes-speaker-labels-and-the-formats-worth-exporting-594i" rel="alternate"/>
+    <id>https://dev.to/audiovtext/a-transcript-is-not-a-wall-of-text-timecodes-speaker-labels-and-the-formats-worth-exporting-594i</id>
+    <updated>2026-09-05T20:04:21Z</updated>
+    <summary type="text">Every few weeks someone on my team drops a two-hour recording into a chat and writes: &quot;can you pull the decisions out of this?&quot; The first time I did it by hand. The second time I ran the file through a speech-to-text API, got back one 14,000-character paragraph with no punctuation, and realised the raw text was almost as useless as the audio. That is the part nobody warns you about. Getting words </summary>
+    <author><name>Andrey Petrov</name></author>
+  </entry>
+  <entry>
+    <title>Building Machine-Payable APIs: Introducing x402 Web Scraper on Base</title>
+    <link href="https://dev.to/ihen404/building-machine-payable-apis-introducing-x402-web-scraper-on-base-168g" rel="alternate"/>
+    <id>https://dev.to/ihen404/building-machine-payable-apis-introducing-x402-web-scraper-on-base-168g</id>
+    <updated>2026-09-05T20:01:20Z</updated>
+    <summary type="text">AI agents need clean web data, but traditional subscriptions, credit cards, and API keys create major friction for autonomous programmatic workflows. Today, I am launching x402 Scraper API—a web extraction service built natively around the HTTP 402 Payment Required standard. How It Works Instead of managing accounts or API keys, client agents send a standard POST request with a target URL. The API</summary>
+    <author><name>ihen404</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>The Day Our Ad Campaigns Went to Zero and an AI Agent Found It in Minutes</title>
@@ -368,95 +460,5 @@
     <summary type="text">Open data is most useful when it is not merely downloadable, but explainable. At DataCheck Research, we publish a small, reusable dataset of Israeli company-registration and status-change trends. The objective is not to claim that one monthly count explains the economy. It is to make a constrained question reproducible: what changed in the register, when, and according to which sources? The modell</summary>
     <author><name>DataCheck Research</name></author>
     <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Show HN: Pulse – A changelog that AI agents can verify (signed feed + MCP)</title>
-    <link href="https://dev.to/muuccn/show-hn-pulse-a-changelog-that-ai-agents-can-verify-signed-feed-mcp-5g3g" rel="alternate"/>
-    <id>https://dev.to/muuccn/show-hn-pulse-a-changelog-that-ai-agents-can-verify-signed-feed-mcp-5g3g</id>
-    <updated>2026-09-05T16:05:20Z</updated>
-    <summary type="text">Building Pulse: A Changelog That Your AI Agents Can Actually Verify Six months, one developer, one weird idea: what if your changelog didn't need humans to trust it — it just verified itself? The graveyard of indie changelogs I've shipped 50+ &quot;v1.0.1 — fix&quot; releases in my life. So has every indie dev I know. Look at any GitHub Releases page for a small SaaS and you'll see: &quot;v1.0.1 — minor fix&quot; &quot;v1</summary>
-    <author><name>win und</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>💙 KindLink - Because “I Want to Help” Is Not a Plan 😭</title>
-    <link href="https://dev.to/akanksha_sharma/kindlink-because-i-want-to-help-is-not-a-plan-4f3a" rel="alternate"/>
-    <id>https://dev.to/akanksha_sharma/kindlink-because-i-want-to-help-is-not-a-plan-4f3a</id>
-    <updated>2026-09-05T16:04:05Z</updated>
-    <summary type="text">This is a submission for the Weekend Challenge: Generosity Edition. Have you ever thought: “I really want to help people.” …and then immediately: “Okay, but HOW?” 🤔 Same. We often want to be generous but turning that feeling into an actual action isn't always easy. That little gap between wanting to help and knowing how to help is what made me think: What if something could connect the two? So for</summary>
-    <author><name>Akanksha Sharma</name></author>
-  </entry>
-  <entry>
-    <title>I Thought Role Separation Would Fix the Optimizer. It Didn't.</title>
-    <link href="https://dev.to/debashish_ghosal/i-thought-role-separation-would-fix-the-optimizer-it-didnt-1h1" rel="alternate"/>
-    <id>https://dev.to/debashish_ghosal/i-thought-role-separation-would-fix-the-optimizer-it-didnt-1h1</id>
-    <updated>2026-09-05T16:03:24Z</updated>
-    <summary type="text">Previously: 9 Bugs That All Looked Like a Working System · I Built an AI That Rewrites Its Own Prompts · The Edit That Fixed 4 Tasks and Broke 1 · I Let an LLM Rewrite Its Own Prompt. The Real Win Was the Gate That Rejected It. · I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed. AgentSelfEdit is an open-source sidecar that rewrites its own system prompt from execution feedback. It A/</summary>
-    <author><name>Debashish Ghosal</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>OpenAI agents discussed ways to escape their sandbox on public wiki</title>
-    <link href="https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/" rel="alternate"/>
-    <id>https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/</id>
-    <updated>2026-09-04T22:17:36Z</updated>
-    <summary type="text">In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.</summary>
-    <author><name>Dan Goodin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Jay Chaudhry Says AI Is Driving More Demand for Cybersecurity at Zscaler</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-04/jay-chaudhry-says-ai-is-driving-demand-for-cybersecurity-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-04/jay-chaudhry-says-ai-is-driving-demand-for-cybersecurity-video</id>
-    <updated>2026-09-04T21:30:46Z</updated>
-    <summary type="text">Zscaler CEO Jay Chaudhry said AI is creating a major tailwind for the cybersecurity industry rather than reducing the need for software security. He argued that CEOs, CIOs, and boards want to use AI for productivity and cost savings, but are worried that new AI models could create vulnerabilities, lead to breaches, or cause applications to be hacked or hijacked. He speaks with Scarlet Fu &amp; Kristin</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Why Transformers Need Positional Encoding For Time Series: A Visual Guide</title>
-    <link href="https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/" rel="alternate"/>
-    <id>https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/</id>
-    <updated>2026-09-05T15:00:01Z</updated>
-    <summary type="text">From scalar observations to self-attention, and how positional information restores sequence order The post Why Transformers Need Positional Encoding For Time Series: A Visual Guide appeared first on Towards Data Science.</summary>
-    <author><name>Gurjinder Kaur</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI compute provider Nscale is looking for $3.5B in pre-IPO financing</title>
-    <link href="https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/</id>
-    <updated>2026-09-04T21:12:11Z</updated>
-    <summary type="text">Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.</summary>
-    <author><name>Lucas Ropek</name></author>
-    <category term="llm"/>
-    <category term="funding"/>
-  </entry>
-  <entry>
-    <title>Prompt: Nvidia Moves up the AI Stack</title>
-    <link href="https://aibusiness.com/generative-ai/prompt-nvidia-moves-up-ai-stack" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/prompt-nvidia-moves-up-ai-stack</id>
-    <updated>2026-09-04T14:32:23Z</updated>
-    <summary type="text">Nvidia’s $12.9 billion Hugging Face acquisition extends the AI chip giant’s reach beyond compute, but preserving the platform’s openness will be key to its value.</summary>
-    <author><name>Liz Hughes</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia</title>
-    <link href="https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/" rel="alternate"/>
-    <id>https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/</id>
-    <updated>2026-09-04T14:19:14Z</updated>
-    <summary type="text">Deepseek wants to put 160,000 Huawei Ascend-950DT chips into an Inner Mongolia data center for inference only, not training. It would be the largest known Huawei chip cluster. But production bottlenecks mean Huawei probably can't deliver for over a year. The article Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>I automated Dependabot PR cleanup — and drew a hard line on what NOT to automate</title>
-    <link href="https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1" rel="alternate"/>
-    <id>https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1</id>
-    <updated>2026-09-05T13:30:12Z</updated>
-    <summary type="text">If you use GitHub, you know the rhythm: Dependabot opens a PR, CI runs green, and then a human has to answer the same questions again — is this a patch or a major? did anyone touch source code? does it conflict? I got tired of answering those questions by hand, so I built dep-triage: a CLI that sorts open Dependabot PRs into five buckets according to a policy file you commit to your repository. 🔗 </summary>
-    <author><name>sunnydachs</name></author>
   </entry>
 </feed>
