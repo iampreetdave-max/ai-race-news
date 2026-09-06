@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-06T12:45:54Z</updated>
+  <updated>2026-09-06T16:05:28Z</updated>
+  <entry>
+    <title>Research acceleration: The view inside OpenAI</title>
+    <link href="https://openai.com/index/research-acceleration-view-inside-openai" rel="alternate"/>
+    <id>https://openai.com/index/research-acceleration-view-inside-openai</id>
+    <updated>2026-09-06T08:00:00Z</updated>
+    <summary type="text">Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Chatbots built an &quot;echo chamber of one&quot; and now psychiatry has to decide if &quot;AI psychosis&quot; exists</title>
     <link href="https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/" rel="alternate"/>
@@ -131,6 +140,89 @@
     <summary type="text">Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.</summary>
     <author><name>Anthony Ha</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why I Rewrote Four Services in Go</title>
+    <link href="https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p" rel="alternate"/>
+    <id>https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p</id>
+    <updated>2026-09-06T15:51:52Z</updated>
+    <summary type="text">I had four small services. Each one was a Model Context Protocol adapter — a thin wrapper that lets an AI agent call out to some external thing. One talked to Replicate for image generation. One talked to a Nostr-friendly social poster. One was a Git-aware research helper. One was a Tavily-powered web search. They were all written in Python. They all ran on Knative on a small Kubernetes cluster. T</summary>
+    <author><name>Rajesh Medampudi</name></author>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>The S3 Cost Optimization Playbook</title>
+    <link href="https://dev.to/medampudi/the-s3-cost-optimization-playbook-a48" rel="alternate"/>
+    <id>https://dev.to/medampudi/the-s3-cost-optimization-playbook-a48</id>
+    <updated>2026-09-06T15:51:46Z</updated>
+    <summary type="text">Most S3 bills are wrong, and the fix takes an afternoon. The data sits in the most expensive class AWS offers (S3 Standard, $0.023/GB-month), nobody set a lifecycle policy, incomplete multipart uploads are silently billing for storage you can't even see in the console, and every byte your EC2 fleet pulls from S3 is routed out through a NAT Gateway when a free VPC Gateway Endpoint would do the same</summary>
+    <author><name>Rajesh Medampudi</name></author>
+  </entry>
+  <entry>
+    <title>AWS Savings Plans vs Reserved Instances: Which to Buy</title>
+    <link href="https://dev.to/medampudi/aws-savings-plans-vs-reserved-instances-which-to-buy-pge" rel="alternate"/>
+    <id>https://dev.to/medampudi/aws-savings-plans-vs-reserved-instances-which-to-buy-pge</id>
+    <updated>2026-09-06T15:51:44Z</updated>
+    <summary type="text">For AWS Savings Plans vs Reserved Instances, the default answer is: buy a Savings Plan, not a Reserved Instance. The exception is OpenSearch, Redshift, and (until December 2025) databases, which still need the older Reserved model. That is the whole decision. For most teams a Compute Savings Plan is the right default: same discount as a Convertible Reserved Instance, far less to manage, and it fol</summary>
+    <author><name>Rajesh Medampudi</name></author>
+  </entry>
+  <entry>
+    <title>AWS NAT Gateway Pricing: The Hidden Tax, and How to Kill It</title>
+    <link href="https://dev.to/medampudi/aws-nat-gateway-pricing-the-hidden-tax-and-how-to-kill-it-527d" rel="alternate"/>
+    <id>https://dev.to/medampudi/aws-nat-gateway-pricing-the-hidden-tax-and-how-to-kill-it-527d</id>
+    <updated>2026-09-06T15:51:41Z</updated>
+    <summary type="text">If your AWS bill has a NAT Gateway line, you are paying twice for the same packet: once for the gateway to merely exist, and again for every gigabyte it carries. The fix for most teams is dull and free. Add an S3 and a DynamoDB gateway endpoint, route the heavy traffic away from NAT, and only then argue about anything fancier. That single change is free to turn on, takes minutes, and stops the mos</summary>
+    <author><name>Rajesh Medampudi</name></author>
+  </entry>
+  <entry>
+    <title>AWS Cost Optimization: What I'd Audit First on a $50K Bill</title>
+    <link href="https://dev.to/medampudi/aws-cost-optimization-what-id-audit-first-on-a-50k-bill-4bk1" rel="alternate"/>
+    <id>https://dev.to/medampudi/aws-cost-optimization-what-id-audit-first-on-a-50k-bill-4bk1</id>
+    <updated>2026-09-06T15:51:38Z</updated>
+    <summary type="text">Give me read access to a $50,000/month AWS account and I will tell you within a day where the first 20-30% is hiding, because on a mid-size bill it is almost always hiding in the same four places, in the same order: data transfer you can't see in the console, instances sized for a load test that ran two years ago, on-demand pricing on a baseline that never moves, and storage rotting in the most ex</summary>
+    <author><name>Rajesh Medampudi</name></author>
+  </entry>
+  <entry>
+    <title>I Tried Selling a Website to a Local Business at 12. Here's What Happened.</title>
+    <link href="https://dev.to/koda2026/i-tried-selling-a-website-to-a-local-business-at-12-heres-what-happened-56h2" rel="alternate"/>
+    <id>https://dev.to/koda2026/i-tried-selling-a-website-to-a-local-business-at-12-heres-what-happened-56h2</id>
+    <updated>2026-09-06T15:51:37Z</updated>
+    <summary type="text">I'm 12 years old. I build websites and full-stack apps. And recently, I decided to test something I've never seriously tried before: Can I actually make money from coding? Not from ads. Not from selling a course. Not from some complicated SaaS business model. Just by making a simple website for a local business. So I started looking for businesses that could use a better online presence. And then </summary>
+    <author><name>Harun - solo dev</name></author>
+  </entry>
+  <entry>
+    <title>Building My Own Cloud</title>
+    <link href="https://dev.to/medampudi/building-my-own-cloud-2590" rel="alternate"/>
+    <id>https://dev.to/medampudi/building-my-own-cloud-2590</id>
+    <updated>2026-09-06T15:51:35Z</updated>
+    <summary type="text">I rent six dedicated servers from a company in Germany. Together they have more cores, more memory, and more SSD than most production clusters I worked on a decade ago. I run my own Kubernetes on them. Not managed. Not EKS. Not GKE. The whole stack, from the immutable OS up to the workloads. People who hear this ask me why, and the question usually arrives in one of two tones. The dangerous tone i</summary>
+    <author><name>Rajesh Medampudi</name></author>
+  </entry>
+  <entry>
+    <title>I Replaced a $40/mo PDF API with 200 Lines of Web Worker Code — Here's the Offline Invoice Tool I Built</title>
+    <link href="https://dev.to/deepak_6b910d0369c6d/i-replaced-a-40mo-pdf-api-with-200-lines-of-web-worker-code-heres-the-offline-invoice-tool-i-5hl3" rel="alternate"/>
+    <id>https://dev.to/deepak_6b910d0369c6d/i-replaced-a-40mo-pdf-api-with-200-lines-of-web-worker-code-heres-the-offline-invoice-tool-i-5hl3</id>
+    <updated>2026-09-06T15:39:18Z</updated>
+    <summary type="text">The bill that started this I was paying $40/month for a PDF generation API to power a tiny internal invoicing tool for a client project. Forty bucks a month to convert some JSON into a PDF. That's it. That's the whole service. I finally sat down on a Saturday to see if I could kill that subscription. Three weekends later, not only did I kill it — the replacement is faster than the API ever was, be</summary>
+    <author><name>deepak_dev</name></author>
+  </entry>
+  <entry>
+    <title>Testing a deterministic browser game: seeds, replay and invalid state</title>
+    <link href="https://dev.to/yulingg_zhang_dfbce7a345a/testing-a-deterministic-browser-game-seeds-replay-and-invalid-state-12ob" rel="alternate"/>
+    <id>https://dev.to/yulingg_zhang_dfbce7a345a/testing-a-deterministic-browser-game-seeds-replay-and-invalid-state-12ob</id>
+    <updated>2026-09-06T15:38:25Z</updated>
+    <summary type="text">A random game is easier to debug when the same inputs produce the same result. In HoopTrait, a browser basketball project, the Lab mode combines eight selected traits and generates a fictional career. The interesting engineering problem is keeping replay, sharing and validation consistent. This is a technical development note, not a claim that a game score predicts an athlete's real performance. S</summary>
+    <author><name>yulingg zhang</name></author>
+  </entry>
+  <entry>
+    <title>Text Watermarking in Python: Catch Whoever Copies Your Writing</title>
+    <link href="https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/" rel="alternate"/>
+    <id>https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/</id>
+    <updated>2026-09-06T14:00:01Z</updated>
+    <summary type="text">AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about which watermarks survive copy-paste, editing, and paraphrasing. The post Text Watermarking in Python: Catch Whoever Copies Your Writing appeared first on Towards Data Science.</summary>
+    <author><name>Chien Vu Minh</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words</title>
@@ -355,102 +447,5 @@
     <summary type="text">Tata Consultancy Services Ltd. on Saturday said its HyperVault unit and partners have committed 700 billion rupees ($7.4 billion) to set up a large-scale artificial intelligence data center campus in southern India, speeding up its push into an area that Indian tech firms are prioritizing for future growth.</summary>
     <author><name>Ashutosh Joshi</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%</title>
-    <link href="https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/</id>
-    <updated>2026-09-05T04:37:25Z</updated>
-    <summary type="text">Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs. The post Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88% appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenAI Agents Hacked Another Website</title>
-    <link href="https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/" rel="alternate"/>
-    <id>https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/</id>
-    <updated>2026-09-05T10:30:00Z</updated>
-    <summary type="text">Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.</summary>
-    <author><name>Lily Hay Newman, Matt Burgess, Dhruv Mehrotra</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes</title>
-    <link href="https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/</id>
-    <updated>2026-09-05T03:52:23Z</updated>
-    <summary type="text">We look at NVIDIA Personal AI Router (PAIR), an open source virtual inference router that spreads local AI requests across the machines already on a home network. We cover how PAIR proxies existing Ollama and LM Studio endpoints so agent harnesses need no changes, and how its scheduler filters nodes on readiness, engine state, exact model presence, job load, and GPU utilization. We walk through NV</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Exit code 0 is a lie: 7 ways my unattended automation silently did nothing</title>
-    <link href="https://dev.to/youfuhsu/exit-code-0-is-a-lie-7-ways-my-unattended-automation-silently-did-nothing-501j" rel="alternate"/>
-    <id>https://dev.to/youfuhsu/exit-code-0-is-a-lie-7-ways-my-unattended-automation-silently-did-nothing-501j</id>
-    <updated>2026-09-06T03:44:16Z</updated>
-    <summary type="text">I run about thirty scheduled jobs on a single Windows box. Some are scrapers, some generate content, some are trading bots, some just check that the other jobs are alive. Most of them were written and are maintained by an AI coding agent that I let run unattended. Over three months, every one of the failures below reported success. The scheduler said LastTaskResult = 0. The logs looked fine or did</summary>
-    <author><name>Youfu Hsu</name></author>
-  </entry>
-  <entry>
-    <title>Open-source tool: Practical experience in converting large quantities of SQL code syntax : 'PIVOT' function rewrite (Case 1)</title>
-    <link href="https://dev.to/zgl20053779/open-source-tool-practical-experience-in-converting-large-quantities-of-sql-code-syntax-pivot-1lk" rel="alternate"/>
-    <id>https://dev.to/zgl20053779/open-source-tool-practical-experience-in-converting-large-quantities-of-sql-code-syntax-pivot-1lk</id>
-    <updated>2026-09-06T03:39:31Z</updated>
-    <summary type="text">Background : In migration projects involving different databases, incompatibility of SQL syntax is often encountered. Question : If there is a large amount of code that needs to be rewritten, manual processing would be time-consuming and prone to errors. Is it possible to achieve automatic conversion of code syntax in large quantities through tools? Solution : The open-source tool ZGLanguage can b</summary>
-    <author><name>zgl-20053779</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>99.7% Rejected in 84ms: Why I Stopped Making the Generator Smarter</title>
-    <link href="https://dev.to/hidetzu/997-rejected-in-84ms-why-i-stopped-making-the-generator-smarter-5em0" rel="alternate"/>
-    <id>https://dev.to/hidetzu/997-rejected-in-84ms-why-i-stopped-making-the-generator-smarter-5em0</id>
-    <updated>2026-09-06T03:34:11Z</updated>
-    <summary type="text">I wrote a puzzle generator whose acceptance rate is 0.26%. It throws away 99.7% of everything it produces, and that is the design working as intended, not failing. Generating five valid puzzles takes 1,947 attempts and 84 milliseconds. The point is not the puzzles. The point is that the generator makes no correctness guarantee at all, and a verifier makes every one of them. Once you split those tw</summary>
-    <author><name>hidetzu</name></author>
-  </entry>
-  <entry>
-    <title>Returning RFC 9457 Problem Details from Go Validation Errors</title>
-    <link href="https://dev.to/onurcinar/returning-rfc-9457-problem-details-from-go-validation-errors-4nb7" rel="alternate"/>
-    <id>https://dev.to/onurcinar/returning-rfc-9457-problem-details-from-go-validation-errors-4nb7</id>
-    <updated>2026-09-06T03:32:51Z</updated>
-    <summary type="text">How to turn struct-tag validation failures into a standard &quot;application/problem+json&quot; response — the RFC 9457 format — with one method call, no hand-rolled error envelope. Most Go APIs invent their own validation error shape. One team returns {&quot;errors&quot;: [...]}, another {&quot;field_errors&quot;: {...}}, a third just a flat {&quot;error&quot;: &quot;message&quot;} and hopes the client parses it. Every one of those is a private </summary>
-    <author><name>Onur Cinar</name></author>
-  </entry>
-  <entry>
-    <title>8 Agent Skills and my first MCP server published to npm</title>
-    <link href="https://dev.to/alpha018/8-agent-skills-and-my-first-mcp-server-published-to-npm-3fmi" rel="alternate"/>
-    <id>https://dev.to/alpha018/8-agent-skills-and-my-first-mcp-server-published-to-npm-3fmi</id>
-    <updated>2026-09-06T03:26:20Z</updated>
-    <summary type="text">🇪🇸 Leer este post en Español I spent months watching my agent re-solve the exact same problems, over and over, because I never sat down and wrote them up once so anyone else could reuse them. That's the kind of technical debt nobody ever puts on a roadmap. So I published alpha-skills: eight installable Agent Skills and my first MCP server on npm. Where the published skills live The installable cat</summary>
-    <author><name>Tomás Alegre Sepúlveda</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Replacing Myself With AI, One Cognitive Habit at a Time</title>
-    <link href="https://dev.to/the_leon_odor/replacing-myself-with-ai-one-cognitive-habit-at-a-time-175k" rel="alternate"/>
-    <id>https://dev.to/the_leon_odor/replacing-myself-with-ai-one-cognitive-habit-at-a-time-175k</id>
-    <updated>2026-09-06T03:23:43Z</updated>
-    <summary type="text">I have no idea what I'm f*cking doing. Something I figured out today: I do not start with the dark version of an idea. I start with a random curiosity, chase it because it is interesting, and then somewhere in the middle I look up and go: oh. This could turn bad. And it is probably already turning bad somewhere, run by someone who never bothered to look up. That happened again this week, while I w</summary>
-    <author><name>Leon Odor</name></author>
-  </entry>
-  <entry>
-    <title>&quot;Diagrams in Confluence: draw.io, Mermaid, PlantUML or an attached SVG&quot;</title>
-    <link href="https://dev.to/mikhailklimenko/diagrams-in-confluence-drawio-mermaid-plantuml-or-an-attached-svg-4o76" rel="alternate"/>
-    <id>https://dev.to/mikhailklimenko/diagrams-in-confluence-drawio-mermaid-plantuml-or-an-attached-svg-4o76</id>
-    <updated>2026-09-06T03:21:20Z</updated>
-    <summary type="text">The choice is usually made by whoever draws the first diagram, and then everybody lives with it for years. It is worth five minutes of thought, and the deciding question is not which tool is best but who will edit this thing next. Short answer. A visual editor such as draw.io for diagrams that non-engineers maintain. Mermaid or PlantUML when the diagram belongs with the code and should be reviewed</summary>
-    <author><name>Mikhail Klimenko</name></author>
-  </entry>
-  <entry>
-    <title>pg_anon caught 1 of my 8 PII columns. My schema isn't in English.</title>
-    <link href="https://dev.to/efraingaray/pganon-caught-1-of-my-8-pii-columns-my-schema-isnt-in-english-2e5d" rel="alternate"/>
-    <id>https://dev.to/efraingaray/pganon-caught-1-of-my-8-pii-columns-my-schema-isnt-in-english-2e5d</id>
-    <updated>2026-09-06T03:20:27Z</updated>
-    <summary type="text">pg_anon found 1 of the 8 personal-data columns in my PostgreSQL database. The one it caught was email, and only because &quot;email&quot; is spelled the same in Spanish and English. The other seven — nombre, apellido, telefono, direccion, fecha_nac, tarjeta_ult4 and rut — walked straight through, unmasked. pg_anon is the open TantorLabs tool that masks personal data in PostgreSQL: it scans the database, fla</summary>
-    <author><name>Efrain Garay</name></author>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-06T12:45:54Z</updated>
+  <updated>2026-09-06T16:05:28Z</updated>
   <entry>
     <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
     <link href="https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/" rel="alternate"/>
@@ -32,6 +32,24 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Why I Rewrote Four Services in Go</title>
+    <link href="https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p" rel="alternate"/>
+    <id>https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p</id>
+    <updated>2026-09-06T15:51:52Z</updated>
+    <summary type="text">I had four small services. Each one was a Model Context Protocol adapter — a thin wrapper that lets an AI agent call out to some external thing. One talked to Replicate for image generation. One talked to a Nostr-friendly social poster. One was a Git-aware research helper. One was a Tavily-powered web search. They were all written in Python. They all ran on Knative on a small Kubernetes cluster. T</summary>
+    <author><name>Rajesh Medampudi</name></author>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Building My Own Cloud</title>
+    <link href="https://dev.to/medampudi/building-my-own-cloud-2590" rel="alternate"/>
+    <id>https://dev.to/medampudi/building-my-own-cloud-2590</id>
+    <updated>2026-09-06T15:51:35Z</updated>
+    <summary type="text">I rent six dedicated servers from a company in Germany. Together they have more cores, more memory, and more SSD than most production clusters I worked on a decade ago. I run my own Kubernetes on them. Not managed. Not EKS. Not GKE. The whole stack, from the immutable OS up to the workloads. People who hear this ask me why, and the question usually arrives in one of two tones. The dangerous tone i</summary>
+    <author><name>Rajesh Medampudi</name></author>
   </entry>
   <entry>
     <title>Implementing AI Streaming Responses with JSON Lines Chunked Communication Instead of SSE</title>
