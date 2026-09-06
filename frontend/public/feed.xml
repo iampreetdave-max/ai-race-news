@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-06T03:51:42Z</updated>
+  <updated>2026-09-06T08:32:46Z</updated>
+  <entry>
+    <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
+    <link href="https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/</id>
+    <updated>2026-09-06T06:11:02Z</updated>
+    <summary type="text">Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a plain Docker container at 0.9 GB instead of 4.1 GB. The post</summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed</title>
+    <link href="https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/</id>
+    <updated>2026-09-06T03:20:47Z</updated>
+    <summary type="text">Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used […] The post Perplexity Details Its GPU Embedding Stack: How I</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="rag"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
     <link href="https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/" rel="alternate"/>
@@ -100,6 +119,75 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agent Toolkit for AWS in Practice (1) - Claude Code</title>
+    <link href="https://dev.to/haowen_huang/agent-toolkit-for-aws-in-practice-1-claude-code-pi8" rel="alternate"/>
+    <id>https://dev.to/haowen_huang/agent-toolkit-for-aws-in-practice-1-claude-code-pi8</id>
+    <updated>2026-09-06T08:24:59Z</updated>
+    <summary type="text">Part 1 of the series &quot;Agent Toolkit for AWS in Practice.&quot; Agent Toolkit for AWS gives your coding agent two things it normally lacks: curated knowledge of how AWS services are meant to be used, and a way to actually call them. Setup is one command. This walkthrough covers the install, two verification tasks against a real account, and three things worth knowing before you rely on it. Every command</summary>
+    <author><name>Haowen Huang</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>RAG vs Memory vs Tools: What Information Should an AI Agent Actually Store?</title>
+    <link href="https://dev.to/hosseinhezami/rag-vs-memory-vs-tools-what-information-should-an-ai-agent-actually-store-1k31" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/rag-vs-memory-vs-tools-what-information-should-an-ai-agent-actually-store-1k31</id>
+    <updated>2026-09-06T08:21:17Z</updated>
+    <summary type="text">The first time an AI agent remembers something useful, it feels like product magic. The first time it remembers the wrong thing — a stale user preference, an old pricing rule, a deleted project, a support decision from six months ago — you realize the real problem is not making the agent smarter. The real problem is deciding what deserves persistence. A lot of agent architecture debates collapse i</summary>
+    <author><name>Hossein Hezami</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>n8n: When AI Writes the Workflow, Who Reviews the Workflow?</title>
+    <link href="https://dev.to/hosseinhezami/n8n-when-ai-writes-the-workflow-who-reviews-the-workflow-g22" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/n8n-when-ai-writes-the-workflow-who-reviews-the-workflow-g22</id>
+    <updated>2026-09-06T08:17:58Z</updated>
+    <summary type="text">The most dangerous AI-generated n8n workflow is not the one that fails immediately. It is the one that runs successfully while doing the wrong thing: sending the wrong CRM fields to a third-party API, triggering itself through a webhook, using an over-privileged credential, retrying an external service into a rate-limit spiral, or quietly activating before anyone understands what it touches. AI-as</summary>
+    <author><name>Hossein Hezami</name></author>
+  </entry>
+  <entry>
+    <title>n8n Can Now Build Its Own Workflows — What Could Possibly Go Wrong?</title>
+    <link href="https://dev.to/hosseinhezami/n8n-can-now-build-its-own-workflows-what-could-possibly-go-wrong-5epa" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/n8n-can-now-build-its-own-workflows-what-could-possibly-go-wrong-5epa</id>
+    <updated>2026-09-06T08:14:12Z</updated>
+    <summary type="text">The dangerous part is not that a system can generate an n8n workflow as JSON. The dangerous part is that the JSON can execute. Once an AI assistant, internal agent, or automation pipeline can create, modify, import, or activate n8n workflows, you no longer have a simple productivity feature. You have a code-generation system connected to triggers, credentials, HTTP endpoints, databases, SaaS tools</summary>
+    <author><name>Hossein Hezami</name></author>
+  </entry>
+  <entry>
+    <title>From Prompt Engineering to Context Engineering: The Skill AI Developers Actually Need</title>
+    <link href="https://dev.to/hosseinhezami/from-prompt-engineering-to-context-engineering-the-skill-ai-developers-actually-need-4mio" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/from-prompt-engineering-to-context-engineering-the-skill-ai-developers-actually-need-4mio</id>
+    <updated>2026-09-06T08:10:06Z</updated>
+    <summary type="text">The most dangerous failure in an LLM application is not a bad prompt. It is a perfect prompt wrapped around the wrong context. You can spend hours tuning the wording: “Be precise,” “Use only the provided sources,” “If you are unsure, say so.” Then the system still answers confidently because the retrieved policy document is stale, the tool schema is vague, the user profile is outdated, or the mode</summary>
+    <author><name>Hossein Hezami</name></author>
+  </entry>
+  <entry>
+    <title>DOM in Angular: Understanding the Document Object Model with Practical Examples</title>
+    <link href="https://dev.to/abanoubkerols/dom-in-angular-understanding-the-document-object-model-with-practical-examples-22c0" rel="alternate"/>
+    <id>https://dev.to/abanoubkerols/dom-in-angular-understanding-the-document-object-model-with-practical-examples-22c0</id>
+    <updated>2026-09-06T08:06:30Z</updated>
+    <summary type="text">Angular applications are built around components, templates, data binding, directives, and a powerful rendering system. But underneath all of that, your application still runs inside a browser, and the browser ultimately renders HTML elements through the DOM — Document Object Model. Understanding how Angular interacts with the DOM is essential if you want to write efficient Angular applications, u</summary>
+    <author><name>Abanoub Kerols</name></author>
+  </entry>
+  <entry>
+    <title>GPT-6 vs. Claude 5.1 vs. Gemini 4: A Code Test</title>
+    <link href="https://dev.to/hosseinhezami/gpt-6-vs-claude-51-vs-gemini-4-a-code-test-4nlg" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/gpt-6-vs-claude-51-vs-gemini-4-a-code-test-4nlg</id>
+    <updated>2026-09-06T08:04:28Z</updated>
+    <summary type="text">Ask any frontier model to implement binary search, and the answer will look impressive. Ask it to change a shared utility used by fourteen services without breaking callers, and the differences become much less polite. That is the problem with most “GPT-6 vs. Claude 5.1 vs. Gemini” comparisons. They test the wrong surface area. A model can look brilliant on a self-contained algorithm prompt while </summary>
+    <author><name>Hossein Hezami</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Redexa Social: building local-first creator analytics for Windows</title>
+    <link href="https://dev.to/aurelio_avila/redexa-social-building-local-first-creator-analytics-for-windows-53m6" rel="alternate"/>
+    <id>https://dev.to/aurelio_avila/redexa-social-building-local-first-creator-analytics-for-windows-53m6</id>
+    <updated>2026-09-06T07:50:50Z</updated>
+    <summary type="text">I build Redexa Social, formerly Social Dashboard: a Windows desktop application for reviewing creator analytics in one workspace. Its focus is analysis, not automated posting. It combines local analytics storage, trends, diagnostics and CSV exports, with a Python/FastAPI backend and an HTML, CSS and JavaScript interface. Local-first does not mean offline-only A useful distinction for an analytics </summary>
+    <author><name>aurelio avila</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI rolls out GPT-6 Astra to top-tier ChatGPT plans at half the rate of GPT-5.6 Sol</title>
@@ -364,92 +452,5 @@
     <summary type="text">🚨 Playwright E2E Architect Challenge: How do you verify atomic transaction rollback across UI and API states, ensuring your tests don't fall for transient UIs? 📌 Problem Statement Verifying atomic transaction rollback (e.g., order placement, payment, inventory) in E2E tests is complex. If any part fails, the entire transaction must revert, and all states (UI &amp; backend) must reflect this consistent</summary>
     <author><name>Styrow.dev</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Demystifying LLM Context Windows: How AI Memory Works (and Why It Fails)</title>
-    <link href="https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd" rel="alternate"/>
-    <id>https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd</id>
-    <updated>2026-09-05T20:09:05Z</updated>
-    <summary type="text">Imagine asking an AI coding assistant to help refactor a complex application. At first, it gives sharp, accurate responses. But 20 messages into the session, it suddenly forgets the architecture rules you set at the beginning, re-introduces previously fixed bugs, or hallucinates functions that don't exist. What went wrong? You just ran into the boundaries of the Context Window. Whether you are a d</summary>
-    <author><name>Abdullah Rafi</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>SWE-Gate: Why Passing Tests Isn't Enough for Agent-Generated Code</title>
-    <link href="https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf</id>
-    <updated>2026-09-05T20:06:48Z</updated>
-    <summary type="text">Coding agents pass tests but fail code review. Repository-level benchmarks measure test passage but ignore review acceptance criteria. This is the blind spot in every benchmark from SWE-bench onward. SWE-Gate is a new benchmark that measures both. It derives review constraints from real pull request comments, synthesizes repair tasks around those constraints, and scores agents on two gates: does t</summary>
-    <author><name>mech.app</name></author>
-  </entry>
-  <entry>
-    <title>A transcript is not a wall of text: timecodes, speaker labels and the formats worth exporting</title>
-    <link href="https://dev.to/audiovtext/a-transcript-is-not-a-wall-of-text-timecodes-speaker-labels-and-the-formats-worth-exporting-594i" rel="alternate"/>
-    <id>https://dev.to/audiovtext/a-transcript-is-not-a-wall-of-text-timecodes-speaker-labels-and-the-formats-worth-exporting-594i</id>
-    <updated>2026-09-05T20:04:21Z</updated>
-    <summary type="text">Every few weeks someone on my team drops a two-hour recording into a chat and writes: &quot;can you pull the decisions out of this?&quot; The first time I did it by hand. The second time I ran the file through a speech-to-text API, got back one 14,000-character paragraph with no punctuation, and realised the raw text was almost as useless as the audio. That is the part nobody warns you about. Getting words </summary>
-    <author><name>Andrey Petrov</name></author>
-  </entry>
-  <entry>
-    <title>Building Machine-Payable APIs: Introducing x402 Web Scraper on Base</title>
-    <link href="https://dev.to/ihen404/building-machine-payable-apis-introducing-x402-web-scraper-on-base-168g" rel="alternate"/>
-    <id>https://dev.to/ihen404/building-machine-payable-apis-introducing-x402-web-scraper-on-base-168g</id>
-    <updated>2026-09-05T20:01:20Z</updated>
-    <summary type="text">AI agents need clean web data, but traditional subscriptions, credit cards, and API keys create major friction for autonomous programmatic workflows. Today, I am launching x402 Scraper API—a web extraction service built natively around the HTTP 402 Payment Required standard. How It Works Instead of managing accounts or API keys, client agents send a standard POST request with a target URL. The API</summary>
-    <author><name>ihen404</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Day Our Ad Campaigns Went to Zero and an AI Agent Found It in Minutes</title>
-    <link href="https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f" rel="alternate"/>
-    <id>https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f</id>
-    <updated>2026-09-05T18:37:20Z</updated>
-    <summary type="text">We're building affset, a white-label ad server and CPA network tracker, and we dogfood it hard — an in-house team runs real paid traffic through our own product. That also means we're our own first support ticket when something breaks. Our buying team runs campaigns through affset's MCP server, so instead of a stats dashboard it's a chat session with direct read/write access to our tracking data —</summary>
-    <author><name>serz</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Frontier LLM prices didn't move for 5 months. In August, they moved three times, and one lab tripled its rate.</title>
-    <link href="https://dev.to/romans/frontier-llm-prices-didnt-move-for-5-months-in-august-they-moved-three-times-and-one-lab-ln5" rel="alternate"/>
-    <id>https://dev.to/romans/frontier-llm-prices-didnt-move-for-5-months-in-august-they-moved-three-times-and-one-lab-ln5</id>
-    <updated>2026-09-05T18:36:33Z</updated>
-    <summary type="text">On August 1 I published a report whose headline finding was that frontier LLM API prices are structurally sticky. Across 40 daily readings of an equal-weight index of ten flagship models — one per lab — not one lab had ever changed the price of an existing model. Every move in the index had come from a new model replacing an old one. August made that sentence false in three weeks. Here's what move</summary>
-    <author><name>Roman Shumyatsky</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Local Business Lead Scrapers on Apify Compared (September 2026)</title>
-    <link href="https://dev.to/7_akariae/local-business-lead-scrapers-on-apify-compared-september-2026-41g" rel="alternate"/>
-    <id>https://dev.to/7_akariae/local-business-lead-scrapers-on-apify-compared-september-2026-41g</id>
-    <updated>2026-09-05T18:24:14Z</updated>
-    <summary type="text">Most local business lead scrapers on Apify are Google Maps scrapers with a website-crawling step bolted on. lukaskrivka/google-maps-with-contact-details is the most used (87,957 users, 4.63 stars). flash_scraper/local-business-leads is the outlier: it discovers businesses on OpenStreetMap instead of Google Maps, and includes MX email verification in its $3 per 1,000. Every figure below was read fr</summary>
-    <author><name>Zakaria Blefkih</name></author>
-  </entry>
-  <entry>
-    <title>Why Azure Managed Identity replaces stored credentials and how to use it in 2026</title>
-    <link href="https://dev.to/carlosjcastrog/why-azure-managed-identity-replaces-stored-credentials-and-how-to-use-it-in-2026-29cj" rel="alternate"/>
-    <id>https://dev.to/carlosjcastrog/why-azure-managed-identity-replaces-stored-credentials-and-how-to-use-it-in-2026-29cj</id>
-    <updated>2026-09-05T18:22:22Z</updated>
-    <summary type="text">Every Azure project eventually has the same conversation. Where do we store the connection string? Someone suggests an environment variable, and someone else points out that environment variables end up in deployment pipelines, in Docker compose files, in Terraform state, and occasionally in accidental commits. A secret manager gets proposed, and the secret manager needs its own credentials to acc</summary>
-    <author><name>Carlos José Castro Galante</name></author>
-  </entry>
-  <entry>
-    <title>WebForms.php 2.1 Released - DeepSeek Converted and Qwen Evaluated</title>
-    <link href="https://dev.to/elanatframework/webformsphp-21-released-deepseek-converted-and-qwen-evaluated-284" rel="alternate"/>
-    <id>https://dev.to/elanatframework/webformsphp-21-released-deepseek-converted-and-qwen-evaluated-284</id>
-    <updated>2026-09-05T18:18:20Z</updated>
-    <summary type="text">WebForms.php 2.1 has been released as the PHP back-end implementation of WebForms Core 2.1. This release is different from a typical porting story. The PHP implementation was converted from the C# implementation of WebForms Core using DeepSeek, and then independently evaluated with Qwen. The process was not simply: C# → PHP It was: C# → DeepSeek conversion → manual review → Qwen evaluation → corre</summary>
-    <author><name>Elanat Framework</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI-Enabled API Development Tools: 2026 Data, Prices &amp; Leaders</title>
-    <link href="https://dev.to/nlocoding/ai-enabled-api-development-tools-2026-data-prices-leaders-9io" rel="alternate"/>
-    <id>https://dev.to/nlocoding/ai-enabled-api-development-tools-2026-data-prices-leaders-9io</id>
-    <updated>2026-09-05T18:15:53Z</updated>
-    <summary type="text">Originally published at nlocoding.com 38% of new APIs built in 2025 were designed, tested, or maintained by AI-enabled dev tools. Not by humans working solo. Not even close. The API economy is moving. Fast. Two years ago, few teams trusted AI to write production code. In 2026, 61% of backend teams (Postman State of the API 2026) use at least one AI-assisted API tool every week. That’s not a trend.</summary>
-    <author><name>NLO Coding</name></author>
   </entry>
 </feed>
