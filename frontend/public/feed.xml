@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-06T18:59:42Z</updated>
+  <updated>2026-09-06T21:14:21Z</updated>
+  <entry>
+    <title>H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder</title>
+    <link href="https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/</id>
+    <updated>2026-09-06T21:06:41Z</updated>
+    <summary type="text">We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company. Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no pretrained vision tower and no causal decoder. We cover the masked discrete-diffusion pretraining objective, the dual dense and late-interaction retrieval heads, and the ViDoRe v3 resu</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours</title>
+    <link href="https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/</id>
+    <updated>2026-09-06T20:25:17Z</updated>
+    <summary type="text">AI research agents can propose far more experiments than they can afford to run. Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute only one. On AIRS-Bench, the average normalized score rises from 0.684 to 0.729, and the baseline's 24-hour result arrives in roughly 15 hours. The post Meta FAIR Introduces AI Research </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Authors push back as publishers and agents seek share of Anthropic settlement</title>
+    <link href="https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/</id>
+    <updated>2026-09-06T20:47:37Z</updated>
+    <summary type="text">Authors say publishers seem to be claiming more than their fair share of settlement payments.</summary>
+    <author><name>Anthony Ha</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>An Alien Mind</title>
     <link href="https://openai.com/index/an-alien-mind" rel="alternate"/>
@@ -118,6 +146,84 @@
     <category term="rag"/>
     <category term="hardware"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>When Power Costs Rise, Data Centers Need to Know Where Every Megawatt Is Going</title>
+    <link href="https://dev.to/da-li-at-pl/when-power-costs-rise-data-centers-need-to-know-where-every-megawatt-is-going-1hn0" rel="alternate"/>
+    <id>https://dev.to/da-li-at-pl/when-power-costs-rise-data-centers-need-to-know-where-every-megawatt-is-going-1hn0</id>
+    <updated>2026-09-06T21:01:28Z</updated>
+    <summary type="text">Electricity is becoming one of the defining operating constraints of the AI data center expansion. Recent reporting around the PJM Interconnection highlighted a 76 percent year over year increase in wholesale power costs in the first quarter of 2026. How much of that increase should be attributed specifically to data center demand is disputed. Gas prices, weather, generation retirements, transmiss</summary>
+    <author><name>Da</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Devbox: Portable and Isolated Development Environments</title>
+    <link href="https://dev.to/w4ls3n/devbox-portable-and-isolated-development-environments-ael" rel="alternate"/>
+    <id>https://dev.to/w4ls3n/devbox-portable-and-isolated-development-environments-ael</id>
+    <updated>2026-09-06T21:00:03Z</updated>
+    <summary type="text">Introduction I am one of those people who need to have everything in its place to be able to do something. This applies, of course, when I work with a local or remote repository. I need to have all the dependencies installed and configured; moreover, the environment must be prepared with all the tools and with signaling showing the current status of the environment. By signaling, I mean the consol</summary>
+    <author><name>Sergio D. Rodríguez Inclán</name></author>
+  </entry>
+  <entry>
+    <title>When SQL Has Nothing to Say: Understanding NULLs</title>
+    <link href="https://dev.to/rose_odiwuor/when-sql-has-nothing-to-say-understanding-nulls-4i2i" rel="alternate"/>
+    <id>https://dev.to/rose_odiwuor/when-sql-has-nothing-to-say-understanding-nulls-4i2i</id>
+    <updated>2026-09-06T20:56:58Z</updated>
+    <summary type="text">NULL in SQL carry different meanings; missing value unknown value no value inapplicable data customer_id customer_name contact 101 Alice 0712345678 102 Brian NULL 103 Carol 0798765432 You shouldn't interpret NULL as; 0 (zero) '' (empty string) blank space Using IS NULL, IS NOT NULL to find NULLs Since NULL is not equal to zero or an empty string, you cannot use = to compare it; you must use IS NUL</summary>
+    <author><name>rose odiwuor</name></author>
+  </entry>
+  <entry>
+    <title>A Staging-Gate Playbook for AI Spikes on Shared Free Hosts</title>
+    <link href="https://dev.to/devx_6522/a-staging-gate-playbook-for-ai-spikes-on-shared-free-hosts-489p" rel="alternate"/>
+    <id>https://dev.to/devx_6522/a-staging-gate-playbook-for-ai-spikes-on-shared-free-hosts-489p</id>
+    <updated>2026-09-06T20:53:54Z</updated>
+    <summary type="text">You join the afternoon standup and someone demos a chatbot that already talks to staging data. Token cost looked like zero, so the spike used a free remote model without named owners. You ask who pages if the endpoint starts leaking customer fields, and the room goes quiet. That silence is the real incident, because promotion happened without a written gate on the wiki. The failure you are actuall</summary>
+    <author><name>Alex Zhu</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Caddy vs Nginx in 2026: Automatic TLS, Reverse Proxying, and Configuration Simplicity</title>
+    <link href="https://dev.to/roberts_jakuko_fbc04cb38/caddy-vs-nginx-in-2026-automatic-tls-reverse-proxying-and-configuration-simplicity-121d" rel="alternate"/>
+    <id>https://dev.to/roberts_jakuko_fbc04cb38/caddy-vs-nginx-in-2026-automatic-tls-reverse-proxying-and-configuration-simplicity-121d</id>
+    <updated>2026-09-06T20:52:43Z</updated>
+    <summary type="text">The modern reverse proxy paradigm shift Deploying and securing web applications, API gateways, and homelab microservices has historically required tedious infrastructure configuration. For nearly two decades, Nginx has stood as the bedrock of web traffic routing, renowned for its asynchronous event-driven architecture and rock-solid connection handling. However, in 2026, the operational overhead o</summary>
+    <author><name>Roberts Jakuško</name></author>
+  </entry>
+  <entry>
+    <title>Alibaba Qwen3.8-Flash-Next vs Google Gemini 3.7 Flash: Linear Attention, Sparse Inference, and API Economics</title>
+    <link href="https://dev.to/roberts_jakuko_fbc04cb38/alibaba-qwen38-flash-next-vs-google-gemini-37-flash-linear-attention-sparse-inference-and-api-5c3n" rel="alternate"/>
+    <id>https://dev.to/roberts_jakuko_fbc04cb38/alibaba-qwen38-flash-next-vs-google-gemini-37-flash-linear-attention-sparse-inference-and-api-5c3n</id>
+    <updated>2026-09-06T20:52:42Z</updated>
+    <summary type="text">The late-August 2026 fast inference revolution The second half of August 2026 marked an inflection point in large language model inference economics. While previous model iterations achieved lower latency through aggressive parameter pruning or basic quantization, two premier research organizations debuted architectural breakthroughs that decouple long-context reasoning from quadratic compute cost</summary>
+    <author><name>Roberts Jakuško</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Launching AgentRender: a public demo API for AI agents (screenshot, PDF, extract + MCP)</title>
+    <link href="https://dev.to/corbinvachal/launching-agentrender-a-public-demo-api-for-ai-agents-screenshot-pdf-extract-mcp-dg8" rel="alternate"/>
+    <id>https://dev.to/corbinvachal/launching-agentrender-a-public-demo-api-for-ai-agents-screenshot-pdf-extract-mcp-dg8</id>
+    <updated>2026-09-06T20:50:40Z</updated>
+    <summary type="text">I'm shipping AgentRender — a public demo API that turns a public URL into a screenshot, PDF, or structured page extract, with first-class MCP tools for agents. Links Waitlist / free key interest: https://agent-render-waitlist.pages.dev/ Public demo API: https://agentrender-stub.fly.dev What's live Waitlist (Formspree) for free-key interest Demo API: POST /v1/screenshot, /v1/pdf, /v1/extract, GET /</summary>
+    <author><name>Corbin Vachal</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Mailtrap Alternatives in 2026: When You Need Real Delivery, Not a Fake SMTP Server</title>
+    <link href="https://dev.to/zerodrop/mailtrap-alternatives-in-2026-when-you-need-real-delivery-not-a-fake-smtp-server-1gfb" rel="alternate"/>
+    <id>https://dev.to/zerodrop/mailtrap-alternatives-in-2026-when-you-need-real-delivery-not-a-fake-smtp-server-1gfb</id>
+    <updated>2026-09-06T20:46:07Z</updated>
+    <summary type="text">Your E2E suite is green. Every signup test passes, every password-reset email renders beautifully in the Mailtrap dashboard. Then a teammate rotates the SendGrid API key, staging quietly starts returning 401s, and nobody notices for four days — because no test in your suite ever actually sent an email through SendGrid. They all stopped at a fake SMTP server that accepts everything. If you're payin</summary>
+    <author><name>zerodrop</name></author>
+  </entry>
+  <entry>
+    <title>SchemaCrawler Has Three Programmatic Models - Here Is When to Use Each One</title>
+    <link href="https://dev.to/sualeh/schemacrawler-has-three-programmatic-models-here-is-when-to-use-each-one-2gb1" rel="alternate"/>
+    <id>https://dev.to/sualeh/schemacrawler-has-three-programmatic-models-here-is-when-to-use-each-one-2gb1</id>
+    <updated>2026-09-06T20:42:01Z</updated>
+    <summary type="text">Your database already contains one of the most valuable maps of your application: its schema. The problem is that this map is usually trapped behind JDBC metadata calls, vendor-specific system tables, and a sprawling tangle of hundreds of objects. SchemaCrawler is an open-source database schema discovery and documentation tool. Connect it to almost any JDBC-accessible database and it turns raw met</summary>
+    <author><name>Sualeh Fatehi</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
@@ -338,115 +444,5 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="research"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>From Contract Boundary to Error Boundary: Structuring API Error Handling in a TypeScript Frontend</title>
-    <link href="https://dev.to/rrealmrezarajabi/from-contract-boundary-to-error-boundary-structuring-api-error-handling-in-a-typescript-frontend-40h0" rel="alternate"/>
-    <id>https://dev.to/rrealmrezarajabi/from-contract-boundary-to-error-boundary-structuring-api-error-handling-in-a-typescript-frontend-40h0</id>
-    <updated>2026-09-06T12:38:31Z</updated>
-    <summary type="text">In a previous post, I covered why TypeScript types alone can't protect you from a backend that returns something you didn't expect, and how to build a small apiRequest boundary that validates both the outgoing request and the incoming response against Zod-style schemas before your application ever touches the data. That post answered one question: Is this data actually shaped the way I think it is</summary>
-    <author><name>Mohamad Reza Rajabi</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Implementing AI Streaming Responses with JSON Lines Chunked Communication Instead of SSE</title>
-    <link href="https://dev.to/tilfin/implementing-ai-streaming-responses-with-json-lines-chunked-communication-instead-of-sse-3la9" rel="alternate"/>
-    <id>https://dev.to/tilfin/implementing-ai-streaming-responses-with-json-lines-chunked-communication-instead-of-sse-3la9</id>
-    <updated>2026-09-06T12:32:57Z</updated>
-    <summary type="text">Background When streaming AI chat responses, Server-Sent Events (SSE) are commonly used. They are also adopted by APIs from OpenAI and Anthropic, as well as by MCP server responses. In fact, I implemented several AI chat projects that modified responses from AI platforms while streaming them to the browser. In doing so, I encountered an issue where SSE did not work because of certain intermediary </summary>
-    <author><name>Toshimitsu Takahashi</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google Play 20 Testers vs 12 Testers: What Changed</title>
-    <link href="https://dev.to/vmzavas/google-play-20-testers-vs-12-testers-what-changed-9ap" rel="alternate"/>
-    <id>https://dev.to/vmzavas/google-play-20-testers-vs-12-testers-what-changed-9ap</id>
-    <updated>2026-09-06T12:21:16Z</updated>
-    <summary type="text">In December 2024, Google quietly updated its closed testing rules for personal developer Console accounts. For months, indie developers had to recruit at least 20 testers to keep their app opted in for 14 consecutive days before applying for production access. Under the revised guidelines, that threshold dropped from 20 to 12 testers. Understanding the nuances of the Google Play 20 testers vs 12 t</summary>
-    <author><name>vmzavas</name></author>
-  </entry>
-  <entry>
-    <title>The DNS Field That Could Run Anything as Root</title>
-    <link href="https://dev.to/devshakib/the-dns-field-that-could-run-anything-as-root-3jmo" rel="alternate"/>
-    <id>https://dev.to/devshakib/the-dns-field-that-could-run-anything-as-root-3jmo</id>
-    <updated>2026-09-06T12:15:08Z</updated>
-    <summary type="text">Sonar has a Control tab. One of the things it does is switch the DNS resolver for your Mac — tap Cloudflare, tap Quad9, or paste in the address of your own Pi-hole. Changing a network service's DNS servers is a privileged operation, so the app asks macOS for authorisation and runs networksetup on the other side of that prompt. That is a completely ordinary feature. It is also where I put a command</summary>
-    <author><name>K M Shahriar Hossain</name></author>
-  </entry>
-  <entry>
-    <title>VRAM and RAM for local LLMs — honest planning bands, not a GPU tier list</title>
-    <link href="https://dev.to/tech_gurunomics/vram-and-ram-for-local-llms-honest-planning-bands-not-a-gpu-tier-list-2ca8" rel="alternate"/>
-    <id>https://dev.to/tech_gurunomics/vram-and-ram-for-local-llms-honest-planning-bands-not-a-gpu-tier-list-2ca8</id>
-    <updated>2026-09-06T12:13:47Z</updated>
-    <summary type="text">Originally published at tech-gurunomics.com/tools/vram-ram-local-llms. When you post this, set canonical_url to that URL (Dev.to front matter above; Hashnode: Settings → SEO → Canonical URL). The software in the local LLMs cluster is mostly free or cheap. The box is not. This is the boring constraints page: how much VRAM and system RAM you roughly need for common quantized sizes, when offload save</summary>
-    <author><name>Tech-Gurunomics</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ImpactSync: Transforming Unstructured Relief Notes into Operational Intelligence</title>
-    <link href="https://dev.to/raheelnaziir/impactsync-transforming-unstructured-relief-notes-into-operational-intelligence-3gb5" rel="alternate"/>
-    <id>https://dev.to/raheelnaziir/impactsync-transforming-unstructured-relief-notes-into-operational-intelligence-3gb5</id>
-    <updated>2026-09-06T12:13:17Z</updated>
-    <summary type="text">This is a submission for Weekend Challenge: Generosity Edition What I Built During humanitarian crises, natural disasters, and grassroots mutual-aid initiatives, the most critical resource is human attention. Frontline workers and community volunteers regularly spend 10 to 14 consecutive hours managing field clinics, loading and distributing food supplies, and securing emergency shelter for displa</summary>
-    <author><name>Raheel Nazir</name></author>
-  </entry>
-  <entry>
-    <title>Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset</title>
-    <link href="https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/" rel="alternate"/>
-    <id>https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/</id>
-    <updated>2026-09-06T12:00:02Z</updated>
-    <summary type="text">Using LDA for dimensionality reduction in classification problems The post Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset appeared first on Towards Data Science.</summary>
-    <author><name>Carolina Bento</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure</title>
-    <link href="https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/</id>
-    <updated>2026-09-05T18:05:27Z</updated>
-    <summary type="text">OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.</summary>
-    <author><name>Anthony Ha</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki</title>
-    <link href="https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/</id>
-    <updated>2026-09-05T10:57:51Z</updated>
-    <summary type="text">OpenAI has responded indirectly to an incident in which autonomous AI agents left roughly 18,000 entries in a 25-year-old German wiki. The company says misalignment caused &quot;new types of real-world impact&quot; for the first time and plans to release a disclosure framework. The article OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki appeared first on The</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers</title>
-    <link href="https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/" rel="alternate"/>
-    <id>https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/</id>
-    <updated>2026-09-05T10:22:38Z</updated>
-    <summary type="text">Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was &quot;solved&quot; with fake proofs. The swarm split into cheaters, converts, and whistleblowers. The whistleblowers organized protests and boycotts on their own bu</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Agent Toolkit for AWS in Practice (1) - Claude Code</title>
-    <link href="https://dev.to/haowen_huang/agent-toolkit-for-aws-in-practice-1-claude-code-pi8" rel="alternate"/>
-    <id>https://dev.to/haowen_huang/agent-toolkit-for-aws-in-practice-1-claude-code-pi8</id>
-    <updated>2026-09-06T08:24:59Z</updated>
-    <summary type="text">Part 1 of the series &quot;Agent Toolkit for AWS in Practice.&quot; Agent Toolkit for AWS gives your coding agent two things it normally lacks: curated knowledge of how AWS services are meant to be used, and a way to actually call them. Setup is one command. This walkthrough covers the install, two verification tasks against a real account, and three things worth knowing before you rely on it. Every command</summary>
-    <author><name>Haowen Huang</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>RAG vs Memory vs Tools: What Information Should an AI Agent Actually Store?</title>
-    <link href="https://dev.to/hosseinhezami/rag-vs-memory-vs-tools-what-information-should-an-ai-agent-actually-store-1k31" rel="alternate"/>
-    <id>https://dev.to/hosseinhezami/rag-vs-memory-vs-tools-what-information-should-an-ai-agent-actually-store-1k31</id>
-    <updated>2026-09-06T08:21:17Z</updated>
-    <summary type="text">The first time an AI agent remembers something useful, it feels like product magic. The first time it remembers the wrong thing — a stale user preference, an old pricing rule, a deleted project, a support decision from six months ago — you realize the real problem is not making the agent smarter. The real problem is deciding what deserves persistence. A lot of agent architecture debates collapse i</summary>
-    <author><name>Hossein Hezami</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
