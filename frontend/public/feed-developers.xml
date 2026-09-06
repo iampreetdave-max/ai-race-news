@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-06T16:05:28Z</updated>
+  <updated>2026-09-06T18:59:42Z</updated>
   <entry>
     <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
     <link href="https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/" rel="alternate"/>
@@ -32,6 +32,15 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How to Run a Free AI Coding Assistant Locally with VS Code, opencode, and LM Studio</title>
+    <link href="https://dev.to/aravindagn/how-to-run-a-free-ai-coding-assistant-locally-with-vs-code-opencode-and-lm-studio-3c1c" rel="alternate"/>
+    <id>https://dev.to/aravindagn/how-to-run-a-free-ai-coding-assistant-locally-with-vs-code-opencode-and-lm-studio-3c1c</id>
+    <updated>2026-09-06T18:37:03Z</updated>
+    <summary type="text">Every AI coding assistant wants your credit card. And your code. There's a third option, and it costs nothing: run the whole thing on your own computer. No subscription. No internet. Your code never leaves your machine. I set this up on a fairly ordinary PC, and it works. Here's exactly how. What you're building Three pieces working together: LM Studio — runs the AI model on your PC. This is the e</summary>
+    <author><name>Aravinda 加阳</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Why I Rewrote Four Services in Go</title>
@@ -157,6 +166,17 @@
     <updated>2026-09-03T22:36:02Z</updated>
     <summary type="text">Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook...</summary>
     <author><name>Elizabeth Goodman</name></author>
+  </entry>
+  <entry>
+    <title>I built a local-first hybrid router for AI Agent Skills (sub-20ms, zero tokens, runs on CPU) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1w90x3i/i_built_a_localfirst_hybrid_router_for_ai_agent/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1w90x3i/i_built_a_localfirst_hybrid_router_for_ai_agent/</id>
+    <updated>2026-09-06T16:34:23Z</updated>
+    <summary type="text">If you use agentic workflows with custom skills or rules (Cursor rules, Claude Code slash commands, OpenCode, etc.), you have probably run into the routing trade-off: Stuff every skill definition into the system prompt (destroys your context window and degrades instruction-following). Use an LLM router turn to classify the user prompt (costs money, wastes 1,000+ tokens, and adds 2+ seconds of netw</summary>
+    <author><name>/u/iAmQubick</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น</title>
@@ -447,23 +467,5 @@
     <author><name>Dmitry Chervonyi</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Can you grow “life” outside the prompt — no GPT, no corporation, no rented mind?</title>
-    <link href="https://dev.to/the_life_of_vi/can-you-grow-life-outside-the-prompt-no-gpt-no-corporation-no-rented-mind-10f6" rel="alternate"/>
-    <id>https://dev.to/the_life_of_vi/can-you-grow-life-outside-the-prompt-no-gpt-no-corporation-no-rented-mind-10f6</id>
-    <updated>2026-09-03T08:33:53Z</updated>
-    <summary type="text">The dare Most “AI agents” rent a mind. Tools, a prompt, a loop around GPT. The corporation owns the weights. The request owns the time. Restart the process and the body is gone — only the chat log pretends otherwise. The experiment here is the opposite bet: Can you grow something that thinks with weights you actually own, remembers outside the prompt, wants on a scale of hours, sleeps, and speaks </summary>
-    <author><name>Vi</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What is the general design of these new math solving systems? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1w7glyo/what_is_the_general_design_of_these_new_math/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1w7glyo/what_is_the_general_design_of_these_new_math/</id>
-    <updated>2026-09-04T20:55:18Z</updated>
-    <summary type="text">From what I've seen online so far, the description of these systems is roughly: They asked the model (often Aster) to generate statements in LEAN and then submit those to a LEAN compiler to be checked. Based on the results of attempting the LEAN compilation, they somehow add those statements as fact. When the full proof in LEAN compiles, the system is finished. I can imagine trying to jam as much </summary>
-    <author><name>/u/tough-dance</name></author>
   </entry>
 </feed>
