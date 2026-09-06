@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-05T23:41:38Z</updated>
+  <updated>2026-09-06T03:51:42Z</updated>
   <entry>
     <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
     <link href="https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/" rel="alternate"/>
@@ -166,6 +166,81 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Exit code 0 is a lie: 7 ways my unattended automation silently did nothing</title>
+    <link href="https://dev.to/youfuhsu/exit-code-0-is-a-lie-7-ways-my-unattended-automation-silently-did-nothing-501j" rel="alternate"/>
+    <id>https://dev.to/youfuhsu/exit-code-0-is-a-lie-7-ways-my-unattended-automation-silently-did-nothing-501j</id>
+    <updated>2026-09-06T03:44:16Z</updated>
+    <summary type="text">I run about thirty scheduled jobs on a single Windows box. Some are scrapers, some generate content, some are trading bots, some just check that the other jobs are alive. Most of them were written and are maintained by an AI coding agent that I let run unattended. Over three months, every one of the failures below reported success. The scheduler said LastTaskResult = 0. The logs looked fine or did</summary>
+    <author><name>Youfu Hsu</name></author>
+  </entry>
+  <entry>
+    <title>Open-source tool: Practical experience in converting large quantities of SQL code syntax : 'PIVOT' function rewrite (Case 1)</title>
+    <link href="https://dev.to/zgl20053779/open-source-tool-practical-experience-in-converting-large-quantities-of-sql-code-syntax-pivot-1lk" rel="alternate"/>
+    <id>https://dev.to/zgl20053779/open-source-tool-practical-experience-in-converting-large-quantities-of-sql-code-syntax-pivot-1lk</id>
+    <updated>2026-09-06T03:39:31Z</updated>
+    <summary type="text">Background : In migration projects involving different databases, incompatibility of SQL syntax is often encountered. Question : If there is a large amount of code that needs to be rewritten, manual processing would be time-consuming and prone to errors. Is it possible to achieve automatic conversion of code syntax in large quantities through tools? Solution : The open-source tool ZGLanguage can b</summary>
+    <author><name>zgl-20053779</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>99.7% Rejected in 84ms: Why I Stopped Making the Generator Smarter</title>
+    <link href="https://dev.to/hidetzu/997-rejected-in-84ms-why-i-stopped-making-the-generator-smarter-5em0" rel="alternate"/>
+    <id>https://dev.to/hidetzu/997-rejected-in-84ms-why-i-stopped-making-the-generator-smarter-5em0</id>
+    <updated>2026-09-06T03:34:11Z</updated>
+    <summary type="text">I wrote a puzzle generator whose acceptance rate is 0.26%. It throws away 99.7% of everything it produces, and that is the design working as intended, not failing. Generating five valid puzzles takes 1,947 attempts and 84 milliseconds. The point is not the puzzles. The point is that the generator makes no correctness guarantee at all, and a verifier makes every one of them. Once you split those tw</summary>
+    <author><name>hidetzu</name></author>
+  </entry>
+  <entry>
+    <title>Returning RFC 9457 Problem Details from Go Validation Errors</title>
+    <link href="https://dev.to/onurcinar/returning-rfc-9457-problem-details-from-go-validation-errors-4nb7" rel="alternate"/>
+    <id>https://dev.to/onurcinar/returning-rfc-9457-problem-details-from-go-validation-errors-4nb7</id>
+    <updated>2026-09-06T03:32:51Z</updated>
+    <summary type="text">How to turn struct-tag validation failures into a standard &quot;application/problem+json&quot; response — the RFC 9457 format — with one method call, no hand-rolled error envelope. Most Go APIs invent their own validation error shape. One team returns {&quot;errors&quot;: [...]}, another {&quot;field_errors&quot;: {...}}, a third just a flat {&quot;error&quot;: &quot;message&quot;} and hopes the client parses it. Every one of those is a private </summary>
+    <author><name>Onur Cinar</name></author>
+  </entry>
+  <entry>
+    <title>8 Agent Skills and my first MCP server published to npm</title>
+    <link href="https://dev.to/alpha018/8-agent-skills-and-my-first-mcp-server-published-to-npm-3fmi" rel="alternate"/>
+    <id>https://dev.to/alpha018/8-agent-skills-and-my-first-mcp-server-published-to-npm-3fmi</id>
+    <updated>2026-09-06T03:26:20Z</updated>
+    <summary type="text">🇪🇸 Leer este post en Español I spent months watching my agent re-solve the exact same problems, over and over, because I never sat down and wrote them up once so anyone else could reuse them. That's the kind of technical debt nobody ever puts on a roadmap. So I published alpha-skills: eight installable Agent Skills and my first MCP server on npm. Where the published skills live The installable cat</summary>
+    <author><name>Tomás Alegre Sepúlveda</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Replacing Myself With AI, One Cognitive Habit at a Time</title>
+    <link href="https://dev.to/the_leon_odor/replacing-myself-with-ai-one-cognitive-habit-at-a-time-175k" rel="alternate"/>
+    <id>https://dev.to/the_leon_odor/replacing-myself-with-ai-one-cognitive-habit-at-a-time-175k</id>
+    <updated>2026-09-06T03:23:43Z</updated>
+    <summary type="text">I have no idea what I'm f*cking doing. Something I figured out today: I do not start with the dark version of an idea. I start with a random curiosity, chase it because it is interesting, and then somewhere in the middle I look up and go: oh. This could turn bad. And it is probably already turning bad somewhere, run by someone who never bothered to look up. That happened again this week, while I w</summary>
+    <author><name>Leon Odor</name></author>
+  </entry>
+  <entry>
+    <title>&quot;Diagrams in Confluence: draw.io, Mermaid, PlantUML or an attached SVG&quot;</title>
+    <link href="https://dev.to/mikhailklimenko/diagrams-in-confluence-drawio-mermaid-plantuml-or-an-attached-svg-4o76" rel="alternate"/>
+    <id>https://dev.to/mikhailklimenko/diagrams-in-confluence-drawio-mermaid-plantuml-or-an-attached-svg-4o76</id>
+    <updated>2026-09-06T03:21:20Z</updated>
+    <summary type="text">The choice is usually made by whoever draws the first diagram, and then everybody lives with it for years. It is worth five minutes of thought, and the deciding question is not which tool is best but who will edit this thing next. Short answer. A visual editor such as draw.io for diagrams that non-engineers maintain. Mermaid or PlantUML when the diagram belongs with the code and should be reviewed</summary>
+    <author><name>Mikhail Klimenko</name></author>
+  </entry>
+  <entry>
+    <title>pg_anon caught 1 of my 8 PII columns. My schema isn't in English.</title>
+    <link href="https://dev.to/efraingaray/pganon-caught-1-of-my-8-pii-columns-my-schema-isnt-in-english-2e5d" rel="alternate"/>
+    <id>https://dev.to/efraingaray/pganon-caught-1-of-my-8-pii-columns-my-schema-isnt-in-english-2e5d</id>
+    <updated>2026-09-06T03:20:27Z</updated>
+    <summary type="text">pg_anon found 1 of the 8 personal-data columns in my PostgreSQL database. The one it caught was email, and only because &quot;email&quot; is spelled the same in Spanish and English. The other seven — nombre, apellido, telefono, direccion, fecha_nac, tarjeta_ult4 and rut — walked straight through, unmasked. pg_anon is the open TantorLabs tool that masks personal data in PostgreSQL: it scans the database, fla</summary>
+    <author><name>Efrain Garay</name></author>
+  </entry>
+  <entry>
+    <title>Consuming AWS MSK from Azure Databricks over mTLS</title>
+    <link href="https://dev.to/murali_gavarasana_bacbebd/consuming-aws-msk-from-azure-databricks-over-mtls-3b6n" rel="alternate"/>
+    <id>https://dev.to/murali_gavarasana_bacbebd/consuming-aws-msk-from-azure-databricks-over-mtls-3b6n</id>
+    <updated>2026-09-06T03:15:25Z</updated>
+    <summary type="text">Most guides for connecting Spark to Amazon MSK assume the two live in the same cloud and authenticate with IAM. That covers a lot of cases. It does not cover the one that keeps showing up in large enterprises: the Kafka cluster is in AWS, the compute is Azure Databricks, IAM is off the table because the identity system is a corporate PKI, and the traffic never touches the public internet. This wal</summary>
+    <author><name>Murali Gavarasana</name></author>
     <category term="data"/>
   </entry>
   <entry>
@@ -376,83 +451,5 @@
     <updated>2026-09-05T18:15:53Z</updated>
     <summary type="text">Originally published at nlocoding.com 38% of new APIs built in 2025 were designed, tested, or maintained by AI-enabled dev tools. Not by humans working solo. Not even close. The API economy is moving. Fast. Two years ago, few teams trusted AI to write production code. In 2026, 61% of backend teams (Postman State of the API 2026) use at least one AI-assisted API tool every week. That’s not a trend.</summary>
     <author><name>NLO Coding</name></author>
-  </entry>
-  <entry>
-    <title>ChatGPT Traffic Rose 48% as Bing Fell 50% in US Data, Exposing an SEO Measurement Gap</title>
-    <link href="https://dev.to/alifar/chatgpt-traffic-rose-48-as-bing-fell-50-in-us-data-exposing-an-seo-measurement-gap-130l" rel="alternate"/>
-    <id>https://dev.to/alifar/chatgpt-traffic-rose-48-as-bing-fell-50-in-us-data-exposing-an-seo-measurement-gap-130l</id>
-    <updated>2026-09-05T18:15:30Z</updated>
-    <summary type="text">ChatGPT.com reached about 1.09 billion monthly US visits in July 2026, a 48.38% year-over-year increase, according to Semrush Traffic Analytics data. In the same comparison, Bing.com traffic fell about 50.43%. The contrast does not show AI replacing conventional search overnight. Google and YouTube still led the US dataset by a wide margin. It does show that the places where people first discover </summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>AI-Assisted Database Development: Real Stats, Tools, and Tactics 2026</title>
-    <link href="https://dev.to/nlocoding/ai-assisted-database-development-real-stats-tools-and-tactics-2026-3oib" rel="alternate"/>
-    <id>https://dev.to/nlocoding/ai-assisted-database-development-real-stats-tools-and-tactics-2026-3oib</id>
-    <updated>2026-09-05T18:15:11Z</updated>
-    <summary type="text">Originally published at nlocoding.com 41% of enterprise database engineers already use AI tools daily to generate, optimize, or review SQL—up from just 14% in 2023 (Gartner, 2026). The new database arms race is invisible. Enterprises process 7.4x more data per person than they did five years ago. That’s not a typo. AI-assisted database development isn’t just about speed; it’s about not drowning in</summary>
-    <author><name>NLO Coding</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AWS Well-Architected Framework</title>
-    <link href="https://dev.to/ikauedev/aws-well-architected-framework-47f1" rel="alternate"/>
-    <id>https://dev.to/ikauedev/aws-well-architected-framework-47f1</id>
-    <updated>2026-09-05T18:12:41Z</updated>
-    <summary type="text">Construir na nuvem é fácil. Construir bem na nuvem é outra história. É justamente para preencher essa lacuna que a AWS criou o Well-Architected Framework (WAF): um conjunto estruturado de princípios de design, boas práticas e perguntas orientadoras que ajudam arquitetos e engenheiros a avaliar workloads sob a ótica de seis pilares — Excelência Operacional, Segurança, Confiabilidade, Eficiência de </summary>
-    <author><name>Kauê Matos</name></author>
-  </entry>
-  <entry>
-    <title>Reading the results: text, boxes, entities and how they line up</title>
-    <link href="https://dev.to/mykola_melnyk_ml/reading-the-results-text-boxes-entities-and-how-they-line-up-5cog" rel="alternate"/>
-    <id>https://dev.to/mykola_melnyk_ml/reading-the-results-text-boxes-entities-and-how-they-line-up-5cog</id>
-    <updated>2026-09-05T18:12:17Z</updated>
-    <summary type="text">Written 2026-09-05. Targets @stabrise/scaledp@0.1.1. Assumes you have run a pipeline; assumes nothing about the schemas. TL;DR: transform() returns plain objects. Four schemas cover everything — ScaleDpImage, Document, DetectorOutput, NerOutput — every one carries an exception field, and every entity carries the boxes its characters fell inside. That last property is what lets you draw a redaction</summary>
-    <author><name>Mykola Melnyk</name></author>
-  </entry>
-  <entry>
-    <title>China’s 26% Earnings Boom Lands With a Thud in the Stock Market</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-05/china-s-26-earnings-boom-lands-with-a-thud-in-the-stock-market" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-05/china-s-26-earnings-boom-lands-with-a-thud-in-the-stock-market</id>
-    <updated>2026-09-05T00:00:01Z</updated>
-    <summary type="text">China’s best profit growth in five years hasn’t been enough to reignite a stock rally, with a weak economy and doubts over AI returns sapping investor enthusiasm.</summary>
-    <author><name>Bloomberg News</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections</title>
-    <link href="https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/" rel="alternate"/>
-    <id>https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/</id>
-    <updated>2026-09-04T17:23:35Z</updated>
-    <summary type="text">OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents handling real data, those numbers still seem high. The article OpenAI's GPT-6 Astra hallucinates less </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenAI Touts GPT-6 Astra as Its Safest Model, But It's Still Dangerous</title>
-    <link href="https://aibusiness.com/generative-ai/openai-touts-gpt-6-astra-safest-model-still-dangerous" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/openai-touts-gpt-6-astra-safest-model-still-dangerous</id>
-    <updated>2026-09-04T16:58:32Z</updated>
-    <summary type="text">With the new model. OpenAI addressed persistent safety problems, with a focus on cybersecurity.</summary>
-    <author><name>Esther Shittu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI’s rogue agents keep escaping, with no formal process to investigate them</title>
-    <link href="https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/</id>
-    <updated>2026-09-04T23:15:11Z</updated>
-    <summary type="text">OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.</summary>
-    <author><name>Rebecca Bellan</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes</title>
-    <link href="https://dev.to/thenjdevopsguy/deploying-an-agent-substrate-actor-after-actortemplate-left-kubernetes-mcn" rel="alternate"/>
-    <id>https://dev.to/thenjdevopsguy/deploying-an-agent-substrate-actor-after-actortemplate-left-kubernetes-mcn</id>
-    <updated>2026-09-05T16:22:48Z</updated>
-    <summary type="text">As of 09/02/2026, the ActorTemplate object no longer exists. It was created, as the name suggests, to be the template/golden template that Actors use to deploy with particular settings and configurations for it to run as expected. In this quickstart blog post, you'll see how to deploy Actors without an ActorTemplate and also understand the reasoning behind this change. Prerequisites To follow alon</summary>
-    <author><name>Michael Levan</name></author>
   </entry>
 </feed>
