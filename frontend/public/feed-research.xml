@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-06T23:40:00Z</updated>
+  <updated>2026-09-07T03:47:12Z</updated>
   <entry>
     <title>Seven minutes with a chatbot beat a fact sheet at reducing conspiracy beliefs in two experiments</title>
     <link href="https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/" rel="alternate"/>
@@ -45,6 +45,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Reflection-aware Generative Novel View Synthesis</title>
+    <link href="https://arxiv.org/abs/2609.05382v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.05382v1</id>
+    <updated>2026-09-04T17:33:45Z</updated>
+    <summary type="text">We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in the scene and cannot exploit reflected content for scene generation. To fix this issue without additional training, our key idea is to treat a mirror image as two complementary views. From input images,</summary>
+    <author><name>Tae-Hyun Oh</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>GPT-6 Astra: A new generation of intelligence</title>
     <link href="https://openai.com/index/gpt-6-astra" rel="alternate"/>
     <id>https://openai.com/index/gpt-6-astra</id>
@@ -53,6 +62,16 @@
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves</title>
+    <link href="https://arxiv.org/abs/2609.05224v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.05224v1</id>
+    <updated>2026-09-04T14:54:30Z</updated>
+    <summary type="text">Recent progress in multimodal large language models (MLLMs) has fueled significant enthusiasm in their potential to act as autonomous agents for real-world tasks. However, scenarios requiring agents to fulfill users' complex, structured requirements remain largely underexplored. In this work, we examine reasoning tasks under three distinct requirement scenarios: (i) Must-have requirements uniquely</summary>
+    <author><name>Cheng Yang</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Benchmarking Serverless GPUs: Modal vs RunPod vs Replicate Cold Starts (2026)</title>
@@ -73,23 +92,5 @@
     <summary type="text">Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliary transition captions via LLM to provide additional vision-language alignment, but these captions lack visual grounding and are rigidly assigned to every inter-event gap at a fixed location and durati</summary>
     <author><name>Dong-Jin Kim</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder</title>
-    <link href="https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/</id>
-    <updated>2026-09-02T14:20:28Z</updated>
-    <summary type="text">OpenAI is officially rating its upcoming Astra model as the first system with &quot;critical&quot; cyber capabilities. The company plans to keep it in check by monitoring the chain of thought. Problem is, that monitoring already counts as an unreliable mirror of a model's real decisions, and according to a report, Astra's new architecture pushes even more of its thinking into the unreadable. So the safety n</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>We Gave an AI Your Inbox, and It Fell For the Oldest Trick in the Book</title>
-    <link href="https://dev.to/coridev/we-gave-an-ai-your-inbox-and-it-fell-for-the-oldest-trick-in-the-book-5d25" rel="alternate"/>
-    <id>https://dev.to/coridev/we-gave-an-ai-your-inbox-and-it-fell-for-the-oldest-trick-in-the-book-5d25</id>
-    <updated>2026-09-03T13:12:04Z</updated>
-    <summary type="text">An AI assistant with read/write access to your email just got phished by text embedded in an email. Let that sentence sit for a second, because it's not a bug report, it's a preview of the next five years. Context Prompt injection isn't new. Anyone who's been paying attention to LLM security since 2023 has watched researchers demonstrate, over and over, that if you let a model read untrusted text </summary>
-    <author><name>Cor E</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
