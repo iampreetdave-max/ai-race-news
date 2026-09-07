@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-07T19:45:19Z</updated>
+  <updated>2026-09-07T22:41:34Z</updated>
   <entry>
     <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
     <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/" rel="alternate"/>
@@ -14,6 +14,24 @@
     <author><name>Sana Hassan</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Data Flow Control in Secure AI Architectures</title>
+    <link href="https://dev.to/josemariaosuorah/data-flow-control-in-secure-ai-architectures-1k2k" rel="alternate"/>
+    <id>https://dev.to/josemariaosuorah/data-flow-control-in-secure-ai-architectures-1k2k</id>
+    <updated>2026-09-07T22:23:03Z</updated>
+    <summary type="text">Originally published on WordPress on September 17, 2025. AI systems are often described in terms of models, architectures, or algorithms, but those descriptions hide the thing that actually defines how an AI system behaves in the real world: data flow. Models do not act on their own. They ingest data, transform it, move it between components, and emit outputs that are consumed by other systems or </summary>
+    <author><name>Josemaria</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>When AI Code Suggestions Break Your Project's Style</title>
+    <link href="https://dev.to/xiaobei/when-ai-code-suggestions-break-your-projects-style-2pik" rel="alternate"/>
+    <id>https://dev.to/xiaobei/when-ai-code-suggestions-break-your-projects-style-2pik</id>
+    <updated>2026-09-07T22:13:00Z</updated>
+    <summary type="text">PRACTICAL AI GUIDE How to help an AI coding assistant match the names, formatting, and organization your project already uses. Long-form article | U.S. English | Practical guidance A practical guide to keeping AI-assisted code consistent. You ask your AI coding assistant to add a new feature. It writes the code in seconds. The function works perfectly - but it looks nothing like the rest of your p</summary>
+    <author><name>xiaobei</name></author>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>What Happens When AI Agents Stop Working Alone?</title>
@@ -115,6 +133,15 @@
     <summary type="text">Part 1 of the series &quot;Agent Toolkit for AWS in Practice.&quot; Agent Toolkit for AWS gives your coding agent two things it normally lacks: curated knowledge of how AWS services are meant to be used, and a way to actually call them. Setup is one command. This walkthrough covers the install, two verification tasks against a real account, and three things worth knowing before you rely on it. Every command</summary>
     <author><name>Haowen Huang</name></author>
     <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Video compressor</title>
+    <link href="https://simonwillison.net/2026/Sep/7/video-compressor/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/7/video-compressor/</id>
+    <updated>2026-09-07T18:29:07Z</updated>
+    <summary type="text">Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg, video, webassembly, claude, claude-code, claude-mythos-fable</summary>
+    <author><name>Simon Willison</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -410,23 +437,5 @@
     <summary type="text">TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: </summary>
     <author><name>Simon Willison</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>500+ коммитов за пять месяцев: как я в одиночку запустил RetroPoint</title>
-    <link href="https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4" rel="alternate"/>
-    <id>https://dev.to/wildtuna/500-kommitov-za-piat-miesiatsiev-kak-ia-v-odinochku-zapustil-retropoint-43m4</id>
-    <updated>2026-09-03T22:46:43Z</updated>
-    <summary type="text">Пятого апреля 2026 года я начал проверять гипотезу: можно ли собрать работающий MVP SaaS за месяц на подписке Cursor за $20, работая по три-четыре часа четыре вечера в неделю. Через месяц MVP был. Второго сентября я выкатил релиз 2026.09.2, а между этими датами уместились больше 500 коммитов, 61 фаза разработки и семь модулей в проде. По порядку: почему пришлось собирать свой инструмент, как устро</summary>
-    <author><name>WildTuna</name></author>
-  </entry>
-  <entry>
-    <title>MLOps for Developers: Deploying, Monitoring, and Optimizing Machine Learning Models</title>
-    <link href="https://dev.to/apeder/mlops-for-developers-deploying-monitoring-and-optimizing-machine-learning-models-2hli" rel="alternate"/>
-    <id>https://dev.to/apeder/mlops-for-developers-deploying-monitoring-and-optimizing-machine-learning-models-2hli</id>
-    <updated>2026-09-03T22:44:26Z</updated>
-    <summary type="text">How to deploy, monitor, and optimize ML models in production: GPU selection, VRAM requirements, cloud vs local cost, model drift, and CI/CD pipelines for ML The Model That Worked in Jupyter and Failed in Production In 2020, a team at a financial services company trained a fraud detection model that achieved 99.2% accuracy in their Jupyter notebooks. They deployed it to production. Within a week, f</summary>
-    <author><name>Adolfo Pedernera</name></author>
-    <category term="finance-ai"/>
-    <category term="hardware"/>
   </entry>
 </feed>
