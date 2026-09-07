@@ -4,7 +4,36 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-07T15:40:18Z</updated>
+  <updated>2026-09-07T19:45:19Z</updated>
+  <entry>
+    <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
+    <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/</id>
+    <updated>2026-09-07T19:18:07Z</updated>
+    <summary type="text">OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in tool use, coding agents and long-context retrieval. Post-training pairs 400B tokens of deep-thinking SFT with RL teachers and on-policy distillation that</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Happens When AI Agents Stop Working Alone?</title>
+    <link href="https://dev.to/nenadcrncec/what-happens-when-ai-agents-stop-working-alone-18l2" rel="alternate"/>
+    <id>https://dev.to/nenadcrncec/what-happens-when-ai-agents-stop-working-alone-18l2</id>
+    <updated>2026-09-07T19:18:31Z</updated>
+    <summary type="text">Something interesting is happening in AI-assisted software development. We are getting very good at giving an AI agent a repository and a problem and letting it figure things out. The agent can explore the codebase, understand dependencies, make changes, run tests, interpret failures and continue working until it reaches a result. That is already changing the role of the developer. But there is an</summary>
+    <author><name>Nenad</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I got tired of losing good jobs to timing, so I built a pipeline that scores LinkedIn listings against my CV and emails me the best matches</title>
+    <link href="https://dev.to/tdk99/i-got-tired-of-losing-good-jobs-to-timing-so-i-built-a-pipeline-that-scores-linkedin-listings-5p8" rel="alternate"/>
+    <id>https://dev.to/tdk99/i-got-tired-of-losing-good-jobs-to-timing-so-i-built-a-pipeline-that-scores-linkedin-listings-5p8</id>
+    <updated>2026-09-07T19:06:54Z</updated>
+    <summary type="text">A job posting gets 200+ applicants in 48 hours. By the time LinkedIn's daily digest hits your inbox, the window is already closing. I kept finding great matches days after they were posted. So I built SnapplAI: it scrapes fresh LinkedIn listings, sends each one to Gemini to score it against your CV, and emails you only the top matches, before the crowd even sees them. How it works Four steps, one </summary>
+    <author><name>TheDataKnight99</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
   <entry>
     <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
     <link href="https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/" rel="alternate"/>
@@ -398,36 +427,6 @@
     <summary type="text">How to deploy, monitor, and optimize ML models in production: GPU selection, VRAM requirements, cloud vs local cost, model drift, and CI/CD pipelines for ML The Model That Worked in Jupyter and Failed in Production In 2020, a team at a financial services company trained a fraud detection model that achieved 99.2% accuracy in their Jupyter notebooks. They deployed it to production. Within a week, f</summary>
     <author><name>Adolfo Pedernera</name></author>
     <category term="finance-ai"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>MCP for auth in 5 minutes: phone verification through your AI agent</title>
-    <link href="https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om" rel="alternate"/>
-    <id>https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om</id>
-    <updated>2026-09-03T22:14:48Z</updated>
-    <summary type="text">Most AI coding tutorials stop at &quot;ask the agent to write code&quot;. This one is about giving the agent a tool it can call, an MCP server, so it can send and verify one-time codes while you're still building. I work at MyOTP.App and this uses our server, so read it with that in mind. If you're on Claude Code, Claude Desktop, Cursor, Codex or anything else that speaks MCP, this takes about five minutes.</summary>
-    <author><name>Raya</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I set up my first Docker SBX kit, and here's how I did it</title>
-    <link href="https://dev.to/yhary_arias/i-set-up-my-first-docker-sbx-kit-and-heres-how-i-did-it-b9a" rel="alternate"/>
-    <id>https://dev.to/yhary_arias/i-set-up-my-first-docker-sbx-kit-and-heres-how-i-did-it-b9a</id>
-    <updated>2026-09-03T20:22:23Z</updated>
-    <summary type="text">A practical guide to building a real MLflow mixin kit from scratch, errors included. Hey! Let me tell you something. When I first heard about Docker Sandbox Kits, my first reaction was: &quot;Okay, another YAML thing. How hard can it be?&quot; Spoiler: it was harder than expected. But also way more interesting. I'm Yhary, a Docker Captain and AI Engineer from Colombia. I recently built my first SBX kit as p</summary>
-    <author><name>Yhary Arias</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs</title>
-    <link href="https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/</id>
-    <updated>2026-09-02T18:05:52Z</updated>
-    <summary type="text">NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back into the client's format, so Claude Code or Codex CLI can run against vLLM, NIM, or Ollama unchanged. The project is pre-alpha and not for production. Th</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
     <category term="hardware"/>
   </entry>
 </feed>
