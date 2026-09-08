@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-07T22:41:34Z</updated>
+  <updated>2026-09-08T01:06:08Z</updated>
   <entry>
     <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
     <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/" rel="alternate"/>
@@ -51,6 +51,14 @@
     <summary type="text">ChatGPT has pushed its share of AI chatbot website traffic back up to 55.5 percent, according to Similarweb. Year-over-year, though, its lead shrank sharply from 73.3 percent as Gemini doubled its share and Claude grew nearly fivefold. Mobile apps and desktop clients aren't included. The article ChatGPT claws back web traffic share to 55.5 percent as Gemini's brief comeback fades appeared first on</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Longsys Set to Debut in Hong Kong After $903 Million Listing</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-07/longsys-set-to-debut-in-hong-kong-after-903-million-listing" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-07/longsys-set-to-debut-in-hong-kong-after-903-million-listing</id>
+    <updated>2026-09-07T23:00:00Z</updated>
+    <summary type="text">Shenzhen Longsys Electronics Co. is set to begin trading in Hong Kong on Tuesday after raising HK$7.08 billion ($903 million) in an upsized share sale, testing the resilience of investor enthusiasm after a flurry of artificial intelligence supply chain offerings in the city.</summary>
+    <author><name>Sangmi Cha</name></author>
   </entry>
   <entry>
     <title>AI-designed drug appears to turn back the body's biological clock in early trial</title>
@@ -242,12 +250,89 @@
     <author><name>Amber Tong</name></author>
   </entry>
   <entry>
+    <title>Full-Stack Architecture Patterns That Actually Survive Production</title>
+    <link href="https://dev.to/webmatrixlabnz/full-stack-architecture-patterns-that-actually-survive-production-30en" rel="alternate"/>
+    <id>https://dev.to/webmatrixlabnz/full-stack-architecture-patterns-that-actually-survive-production-30en</id>
+    <updated>2026-09-08T00:53:50Z</updated>
+    <summary type="text">Every full-stack tutorial ends the same way: a working app, a happy demo, and zero mention of what happens six months later when your &quot;simple&quot; CRUD app has 40 endpoints, three types of caching, and a frontend team that's afraid to touch the API layer. This post isn't about picking a framework. It's about the architectural decisions that quietly determine whether your app is pleasant to work on in </summary>
+    <author><name>WEB MATRIX LAB</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>A Small, Checkable Test for AI Memory Systems</title>
+    <link href="https://dev.to/yadu989/a-small-checkable-test-for-ai-memory-systems-e1h" rel="alternate"/>
+    <id>https://dev.to/yadu989/a-small-checkable-test-for-ai-memory-systems-e1h</id>
+    <updated>2026-09-08T00:44:25Z</updated>
+    <summary type="text">AI disclosure: This draft was generated autonomously by AI. The author should review every technical claim before publication. AI memory demos often optimize for a strong first impression. A long archive goes in, a fluent answer comes out, and the result feels convincing. That is not yet evidence that the memory system will be useful in ordinary work. A better evaluation starts small enough that y</summary>
+    <author><name>Neeraj Yadav</name></author>
+  </entry>
+  <entry>
     <title>Malaysia Eyes Huawei Chips for AI Project Despite US Warning</title>
     <link href="https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning</id>
     <updated>2026-09-07T07:01:38Z</updated>
     <summary type="text">Malaysia is leaning toward relying on Huawei Technologies Co.’s artificial intelligence chips to power its sovereign AI efforts, in what would be a major victory for Chinese AI technology in the face of strong opposition from President Donald Trump’s administration.</summary>
     <author><name>Faris Mokhtar, Mackenzie Hawkins and Niluksi Koswanage</name></author>
+  </entry>
+  <entry>
+    <title>I'm 15 and I got on the front page of Hacker News with my side project</title>
+    <link href="https://dev.to/spran/im-15-and-i-got-on-the-front-page-of-hacker-news-with-my-side-project-5504" rel="alternate"/>
+    <id>https://dev.to/spran/im-15-and-i-got-on-the-front-page-of-hacker-news-with-my-side-project-5504</id>
+    <updated>2026-09-08T00:32:16Z</updated>
+    <summary type="text">People keep asking how I did it. The honest answer: I didn't &quot;do&quot; anything special. I just shipped something weird and somebody on Hacker News happened to see it. The beginning One year ago I was 14 and bored. I had built maybe 5 &quot;projects&quot; that died on my hard drive. So I spent a Saturday scraping startup names from Product Hunt, pasting them into a JSON file, and throwing together a single HTML </summary>
+    <author><name>spran</name></author>
+  </entry>
+  <entry>
+    <title>Atomic writes — how tempfile + os.replace prevent corrupted JSON</title>
+    <link href="https://dev.to/susumun/atomic-writes-how-tempfile-osreplace-prevent-corrupted-json-2lo8" rel="alternate"/>
+    <id>https://dev.to/susumun/atomic-writes-how-tempfile-osreplace-prevent-corrupted-json-2lo8</id>
+    <updated>2026-09-08T00:19:18Z</updated>
+    <summary type="text">What happens if the power cuts out while a process is writing to a config file? Or if antivirus software on Windows briefly locks a file mid-write? If you naively overwrite a file with open(path, 'w'), whatever partial content existed at the moment of interruption is what remains on disk. For JSON, that usually means broken syntax — json.load() throws on the next startup, and the entire configurat</summary>
+    <author><name>Susumu Takahashi</name></author>
+  </entry>
+  <entry>
+    <title>x402 Explained: HTTP-Native Micropayments for AI Agents (With Real Code)</title>
+    <link href="https://dev.to/nikhilranka23/x402-explained-http-native-micropayments-for-ai-agents-with-real-code-2d8h" rel="alternate"/>
+    <id>https://dev.to/nikhilranka23/x402-explained-http-native-micropayments-for-ai-agents-with-real-code-2d8h</id>
+    <updated>2026-09-08T00:17:22Z</updated>
+    <summary type="text">x402 Explained: HTTP‑Native Micropayments for AI Agents (With Real Code) Target audience: developers who are building autonomous AI agents and need a lightweight way to charge for individual API calls without introducing a separate billing system. Why look at x402? Autonomous agents often expose fine‑grained services—think “summarize this paragraph”, “classify this image”, or “fetch the latest pri</summary>
+    <author><name>Nikhil Ranka</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Send Email from Cloudflare Workers</title>
+    <link href="https://dev.to/sohom_47/how-to-send-email-from-cloudflare-workers-1e9p" rel="alternate"/>
+    <id>https://dev.to/sohom_47/how-to-send-email-from-cloudflare-workers-1e9p</id>
+    <updated>2026-09-08T00:16:20Z</updated>
+    <summary type="text">There are two real ways to do this: Cloudflare's own native Email Service binding, or calling an external email API like Notify over fetch(). I'll walk through both, but I want to flag something about the native option up front that's easy to miss until you're actually setting it up: it currently requires the Workers Paid plan, not just a Cloudflare account. If you're on the free Workers tier and </summary>
+    <author><name>sohom das</name></author>
+  </entry>
+  <entry>
+    <title>Your team's coding rules aren't in the prompt, they're in the ingest</title>
+    <link href="https://dev.to/cole_halton_42f71d71b809b/your-teams-coding-rules-arent-in-the-prompt-theyre-in-the-ingest-3jp0" rel="alternate"/>
+    <id>https://dev.to/cole_halton_42f71d71b809b/your-teams-coding-rules-arent-in-the-prompt-theyre-in-the-ingest-3jp0</id>
+    <updated>2026-09-08T00:15:04Z</updated>
+    <summary type="text">Every AI code reviewer claims it respects your team's standards. Very few can tell you what those standards actually are. The test is mechanical. Ask the tool, or the vendor, one question: where do my rules live? If the honest answer is &quot;we loaded a generic style guide plus whatever your PR description happened to say&quot;, then your standards aren't in the model at all. The reviewer is running on vib</summary>
+    <author><name>Cole Halton</name></author>
+  </entry>
+  <entry>
+    <title>The GNU strip backdoor is the case AI code review can't see</title>
+    <link href="https://dev.to/cole_halton_42f71d71b809b/the-gnu-strip-backdoor-is-the-case-ai-code-review-cant-see-2j1f" rel="alternate"/>
+    <id>https://dev.to/cole_halton_42f71d71b809b/the-gnu-strip-backdoor-is-the-case-ai-code-review-cant-see-2j1f</id>
+    <updated>2026-09-08T00:15:03Z</updated>
+    <summary type="text">This paper (arxiv 2607.24888) is worth a stop if you evaluate AI code review. It shows Ken Thompson's trusting-trust attack is not compiler-specific: the authors pull it off with GNU strip, a build utility that neither reads nor generates source, using only tampered finished ELF binaries. In the NixOS bootstrap, one malicious strip in the binary seed implants a payload that propagates to the next </summary>
+    <author><name>Cole Halton</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>I Want More Coding Agents to Work Like This</title>
+    <link href="https://dev.to/khasky/i-want-more-coding-agents-to-work-like-this-544d" rel="alternate"/>
+    <id>https://dev.to/khasky/i-want-more-coding-agents-to-work-like-this-544d</id>
+    <updated>2026-09-08T00:11:31Z</updated>
+    <summary type="text">💻 One thing I dislike about coding-agent setups is how quickly they become part of one specific machine. Provider config goes in one place, session state somewhere else, local models live in another directory, and suddenly moving to a second machine means rebuilding the environment. OpenClaude-Portable takes a much cleaner approach. It packages the coding agent, runtime and persistent data into a </summary>
+    <author><name>Ian Khasky</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>US Tech Firms Eye Australia for AI Centers, Local Operator Says</title>
@@ -357,95 +442,5 @@
     <updated>2026-09-07T22:07:18Z</updated>
     <summary type="text">You scan the QR code like you've done a hundred times before, npx expo start is running, the terminal looks fine, but the app on your phone just sits there with an error instead of loading your project. Here's what changed: Expo Go on iOS has been updated in the App Store to support Expo SDK 57, and along with that update comes a new requirement. To run an SDK 57 project in development mode, you n</summary>
     <author><name>Dan</name></author>
-  </entry>
-  <entry>
-    <title>Query-Aware Code Compression for LLMs: 1.3M LOC to 1,500 Lines in 2.8s</title>
-    <link href="https://dev.to/tim860/query-aware-code-compression-for-llms-13m-loc-to-1500-lines-in-28s-1oad" rel="alternate"/>
-    <id>https://dev.to/tim860/query-aware-code-compression-for-llms-13m-loc-to-1500-lines-in-28s-1oad</id>
-    <updated>2026-09-07T22:05:14Z</updated>
-    <summary type="text">Query-Aware Code Compression for LLMs: 1.3M LOC to 1,500 Lines in 2.8s The Problem You want to ask an LLM a question about your codebase. You have three options: Paste everything — Repomix dumps your entire repo. For Next.js (1.29M LOC), that's 80k+ tokens. Expensive, slow, and the model loses the answer somewhere in the middle. Truncate — Cut at 20k tokens. Hope the relevant code is in the first </summary>
-    <author><name>Tim</name></author>
-  </entry>
-  <entry>
-    <title>H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder</title>
-    <link href="https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/</id>
-    <updated>2026-09-06T21:06:41Z</updated>
-    <summary type="text">We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company. Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no pretrained vision tower and no causal decoder. We cover the masked discrete-diffusion pretraining objective, the dual dense and late-interaction retrieval heads, and the ViDoRe v3 resu</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours</title>
-    <link href="https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/</id>
-    <updated>2026-09-06T20:25:17Z</updated>
-    <summary type="text">AI research agents can propose far more experiments than they can afford to run. Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute only one. On AIRS-Bench, the average normalized score rises from 0.684 to 0.729, and the baseline's 24-hour result arrives in roughly 15 hours. The post Meta FAIR Introduces AI Research </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="hardware"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Ten questions to answer before you route production traffic through someone else's LLM endpoint</title>
-    <link href="https://dev.to/seven7763/ten-questions-to-answer-before-you-route-production-traffic-through-someone-elses-llm-endpoint-oml" rel="alternate"/>
-    <id>https://dev.to/seven7763/ten-questions-to-answer-before-you-route-production-traffic-through-someone-elses-llm-endpoint-oml</id>
-    <updated>2026-09-07T19:36:11Z</updated>
-    <summary type="text">Every LLM endpoint's landing page says fast, reliable, compatible, secure. Those words are free. This is the list of questions that aren't free — the ones where the answer takes a vendor real work to be able to give, and where you can verify the answer yourself in an afternoon. Disclosure up front: I work on daoxe, a multi-model gateway. At the end I run this checklist against it, and two rows don</summary>
-    <author><name>Seven</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How I Made My React Website Load Faster by Fixing Images</title>
-    <link href="https://dev.to/jaimin_patel/how-i-made-my-react-website-load-faster-by-fixing-images-2n1d" rel="alternate"/>
-    <id>https://dev.to/jaimin_patel/how-i-made-my-react-website-load-faster-by-fixing-images-2n1d</id>
-    <updated>2026-09-07T19:28:55Z</updated>
-    <summary type="text">The easiest performance win in React isn't always your JavaScript. Sometimes it's your images. I used to think performance optimization meant splitting bundles, memoizing components, and chasing Lighthouse scores. Then I opened Chrome DevTools on one of my own React projects. The result? Images were quietly eating most of the page weight — way more than my JS bundle, my fonts, everything else comb</summary>
-    <author><name>Jaimin Patel</name></author>
-  </entry>
-  <entry>
-    <title>What Happens When AI Agents Stop Working Alone?</title>
-    <link href="https://dev.to/nenadcrncec/what-happens-when-ai-agents-stop-working-alone-18l2" rel="alternate"/>
-    <id>https://dev.to/nenadcrncec/what-happens-when-ai-agents-stop-working-alone-18l2</id>
-    <updated>2026-09-07T19:18:31Z</updated>
-    <summary type="text">Something interesting is happening in AI-assisted software development. We are getting very good at giving an AI agent a repository and a problem and letting it figure things out. The agent can explore the codebase, understand dependencies, make changes, run tests, interpret failures and continue working until it reaches a result. That is already changing the role of the developer. But there is an</summary>
-    <author><name>Nenad</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Why Is Rendering Office Documents So Hard? I Built Docxion to Find Out</title>
-    <link href="https://dev.to/gabrielmjr/why-is-rendering-office-documents-so-hard-i-built-docxion-to-find-out-4k89" rel="alternate"/>
-    <id>https://dev.to/gabrielmjr/why-is-rendering-office-documents-so-hard-i-built-docxion-to-find-out-4k89</id>
-    <updated>2026-09-07T19:17:59Z</updated>
-    <summary type="text">Building Docxion: An Open-Source Office Document Viewer for Android and the Web Viewing a PDF inside an application is relatively straightforward. Viewing Microsoft Office documents is a different story. DOC, DOCX, XLS, XLSX, PPT, and PPTX all come with their own rendering challenges. If you want users to open these documents directly inside your application, you quickly end up choosing between co</summary>
-    <author><name>Gabriel M Júnior</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Two Kinds of Memory</title>
-    <link href="https://dev.to/sergemso/two-kinds-of-memory-4gin" rel="alternate"/>
-    <id>https://dev.to/sergemso/two-kinds-of-memory-4gin</id>
-    <updated>2026-09-07T19:16:59Z</updated>
-    <summary type="text">I asked my AI agent where the retry logic lived. Four seconds later: three files, one shared helper, a comment linking to a Slack thread that doesn't exist anymore. Found it cleanly. Then I asked why the retry count was capped at three instead of five. Silence, then a guess. It could find the code. It had no idea why the code said what it said. Two failures wearing the same complaint — &quot;the AI doe</summary>
-    <author><name>Sergei Strebulaev</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I got tired of losing good jobs to timing, so I built a pipeline that scores LinkedIn listings against my CV and emails me the best matches</title>
-    <link href="https://dev.to/tdk99/i-got-tired-of-losing-good-jobs-to-timing-so-i-built-a-pipeline-that-scores-linkedin-listings-5p8" rel="alternate"/>
-    <id>https://dev.to/tdk99/i-got-tired-of-losing-good-jobs-to-timing-so-i-built-a-pipeline-that-scores-linkedin-listings-5p8</id>
-    <updated>2026-09-07T19:06:54Z</updated>
-    <summary type="text">A job posting gets 200+ applicants in 48 hours. By the time LinkedIn's daily digest hits your inbox, the window is already closing. I kept finding great matches days after they were posted. So I built SnapplAI: it scrapes fresh LinkedIn listings, sends each one to Gemini to score it against your CV, and emails you only the top matches, before the crowd even sees them. How it works Four steps, one </summary>
-    <author><name>TheDataKnight99</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Australia’s AI Boom Risks Demand Surge and Higher Rates, BE Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-07/australia-s-ai-boom-risks-demand-surge-and-higher-rates-be-says" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-07/australia-s-ai-boom-risks-demand-surge-and-higher-rates-be-says</id>
-    <updated>2026-09-07T01:23:56Z</updated>
-    <summary type="text">Australia’s data center boom risks pushing demand beyond the economy’s supply capacity, fueling inflation and requiring the Reserve Bank to run higher interest rates, according to James McIntyre at Bloomberg Economics.</summary>
-    <author><name>Nasteho Said</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
