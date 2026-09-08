@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-08T01:06:08Z</updated>
+  <updated>2026-09-08T07:06:41Z</updated>
   <entry>
     <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
     <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/" rel="alternate"/>
@@ -14,6 +14,24 @@
     <author><name>Sana Hassan</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I stopped fearing the 3 AM pager by forcing idempotency everywhere</title>
+    <link href="https://dev.to/aniketsoni/how-i-stopped-fearing-the-3-am-pager-by-forcing-idempotency-everywhere-4jf1" rel="alternate"/>
+    <id>https://dev.to/aniketsoni/how-i-stopped-fearing-the-3-am-pager-by-forcing-idempotency-everywhere-4jf1</id>
+    <updated>2026-09-08T06:48:56Z</updated>
+    <summary type="text">If your pipeline isn't idempotent, it isn't production-ready; it’s just a fragile script waiting to ruin your weekend. Most engineers treat &quot;idempotency&quot; as an academic concept for distributed systems papers, but in the trenches of fintech and healthcare, it’s the difference between a minor blip and a regulatory filing. If you can’t run your job five times in a row with the exact same input and ge</summary>
+    <author><name>Aniket Abhishek Soni</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Bidirectional Writeback for Apache Iceberg via Google Sheets: Serverless Lakehouse Console</title>
+    <link href="https://dev.to/gde/bidirectional-writeback-for-apache-iceberg-via-google-sheets-serverless-lakehouse-console-14ic" rel="alternate"/>
+    <id>https://dev.to/gde/bidirectional-writeback-for-apache-iceberg-via-google-sheets-serverless-lakehouse-console-14ic</id>
+    <updated>2026-09-08T06:41:28Z</updated>
+    <summary type="text">Turn Google Sheets into a Fully Interactive, Differential ACID Mutation Console for Apache Iceberg without Reverse ETL SaaS or Cloud Servers. Hero Infographic: Interactive Bidirectional Lakehouse Writeback via Google Sheets &amp; Apache Iceberg. Enables business operators to query filtered records from an open Apache Iceberg table on Google Cloud Storage, visually edit values, add new rows, or purge o</summary>
+    <author><name>Tanaike</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Data Flow Control in Secure AI Architectures</title>
@@ -420,33 +438,6 @@
     <updated>2026-09-03T16:42:40Z</updated>
     <summary type="text">OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.</summary>
     <author><name>Maxwell Zeff</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Nvidia Up on Acquisition; Snowflake Jumps on Outlook | Stock Movers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-03/nvidia-up-on-acquisition-snowflake-jumps-on-outlook-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-03/nvidia-up-on-acquisition-snowflake-jumps-on-outlook-video</id>
-    <updated>2026-09-03T14:48:30Z</updated>
-    <summary type="text">On this episode of Stock Movers: - Nvidia (NDVA) shares are a tick higher this morning as it has agreed to acquire artificial intelligence startup Hugging Face in a transaction valued at about $13 billion. - Snowflake (SNOW) jumped this morning after it raised its outlook for annual sales, topping analysts' estimates, and reported rapid adoption of its AI-assisted coding tool. The company said mor</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI ที่ทำงานทั้งสัปดาห์ได้ยังไง, วิธีสั่งงานจากหลังบ้านของ long-running agents</title>
-    <link href="https://dev.to/sarantoon/ai-thiithamngaanthangsapdaahaidyangaing-withiisangngaancchaakhlangbaankhng-long-running-agents-1e62" rel="alternate"/>
-    <id>https://dev.to/sarantoon/ai-thiithamngaanthangsapdaahaidyangaing-withiisangngaancchaakhlangbaankhng-long-running-agents-1e62</id>
-    <updated>2026-09-04T08:22:56Z</updated>
-    <summary type="text">AI ที่ทำงานทั้งสัปดาห์ได้ยังไง, วิธีสั่งงานจากหลังบ้านของ long-running agents โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 4 กันยายน 2026 (อัปเดตเพิ่มข้อมูล Gemini 3.8 Flash) บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจาก technical report ของ K</summary>
-    <author><name>Nokka</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Review an AI-Built Repository Before Making It Public</title>
-    <link href="https://dev.to/iwadjp/how-to-review-an-ai-built-repository-before-making-it-public-13k3" rel="alternate"/>
-    <id>https://dev.to/iwadjp/how-to-review-an-ai-built-repository-before-making-it-public-13k3</id>
-    <updated>2026-09-04T08:22:00Z</updated>
-    <summary type="text">If you build with a repository-aware coding agent — Claude Code, Codex, Cursor, or something similar — sooner or later you hit the moment where a private repository is about to become public. Maybe you are open-sourcing a side project, publishing a release, or flipping a client repo to public after a handoff. The natural instinct is to type &quot;review this repo before I make it public&quot; and let the ag</summary>
-    <author><name>iwadjp</name></author>
     <category term="llm"/>
   </entry>
 </feed>
