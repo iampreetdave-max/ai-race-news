@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-09T13:37:41Z</updated>
+  <updated>2026-09-09T17:44:37Z</updated>
   <entry>
     <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
     <link href="https://openai.com/index/codex-quantum-computing-experiments" rel="alternate"/>
@@ -22,6 +22,15 @@
     <summary type="text">Mathematician Tristan Buckmaster says an OpenAI researcher pressured him after information about his AI-assisted progress on the Navier-Stokes equations allegedly reached the company. The researcher tried to remove his co-author because he works at Anthropic and threatened Buckmaster when he refused, according to Buckmaster's account. OpenAI then claimed its own breakthrough using the same unusual</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Retrieval Stack Nobody Shows You: Chunking, Reranking, Filtering, and Context</title>
+    <link href="https://dev.to/hosseinhezami/the-retrieval-stack-nobody-shows-you-chunking-reranking-filtering-and-context-45hk" rel="alternate"/>
+    <id>https://dev.to/hosseinhezami/the-retrieval-stack-nobody-shows-you-chunking-reranking-filtering-and-context-45hk</id>
+    <updated>2026-09-09T17:31:24Z</updated>
+    <summary type="text">Most RAG failures are not model failures. The model did not forget how to read. The prompt is not necessarily bad. The embedding model is not always the culprit. The answer was often lost earlier, in the part of the system nobody demos: how documents were parsed, how chunks were created, which chunks were allowed by filters, how candidates were ranked, and how the final context was assembled. The </summary>
+    <author><name>Hossein Hezami</name></author>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market</title>
@@ -388,33 +397,5 @@
     <summary type="text">🇪🇸 Leer este post en Español I spent months watching my agent re-solve the exact same problems, over and over, because I never sat down and wrote them up once so anyone else could reuse them. That's the kind of technical debt nobody ever puts on a roadmap. So I published alpha-skills: eight installable Agent Skills and my first MCP server on npm. Where the published skills live The installable cat</summary>
     <author><name>Tomás Alegre Sepúlveda</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Demystifying LLM Context Windows: How AI Memory Works (and Why It Fails)</title>
-    <link href="https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd" rel="alternate"/>
-    <id>https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd</id>
-    <updated>2026-09-05T20:09:05Z</updated>
-    <summary type="text">Imagine asking an AI coding assistant to help refactor a complex application. At first, it gives sharp, accurate responses. But 20 messages into the session, it suddenly forgets the architecture rules you set at the beginning, re-introduces previously fixed bugs, or hallucinates functions that don't exist. What went wrong? You just ran into the boundaries of the Context Window. Whether you are a d</summary>
-    <author><name>Abdullah Rafi</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>SWE-Gate: Why Passing Tests Isn't Enough for Agent-Generated Code</title>
-    <link href="https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf</id>
-    <updated>2026-09-05T20:06:48Z</updated>
-    <summary type="text">Coding agents pass tests but fail code review. Repository-level benchmarks measure test passage but ignore review acceptance criteria. This is the blind spot in every benchmark from SWE-bench onward. SWE-Gate is a new benchmark that measures both. It derives review constraints from real pull request comments, synthesizes repair tasks around those constraints, and scores agents on two gates: does t</summary>
-    <author><name>mech.app</name></author>
-  </entry>
-  <entry>
-    <title>The Day Our Ad Campaigns Went to Zero and an AI Agent Found It in Minutes</title>
-    <link href="https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f" rel="alternate"/>
-    <id>https://dev.to/serz/the-day-our-ad-campaigns-went-to-zero-and-an-ai-agent-found-it-in-minutes-473f</id>
-    <updated>2026-09-05T18:37:20Z</updated>
-    <summary type="text">We're building affset, a white-label ad server and CPA network tracker, and we dogfood it hard — an in-house team runs real paid traffic through our own product. That also means we're our own first support ticket when something breaks. Our buying team runs campaigns through affset's MCP server, so instead of a stats dashboard it's a chat session with direct read/write access to our tracking data —</summary>
-    <author><name>serz</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
