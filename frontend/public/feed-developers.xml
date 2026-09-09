@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-08T23:18:34Z</updated>
+  <updated>2026-09-09T03:56:43Z</updated>
   <entry>
     <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
     <link href="https://openai.com/index/codex-quantum-computing-experiments" rel="alternate"/>
@@ -39,6 +39,32 @@
     <summary type="text">Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Fail-open is the default failure mode of agent hooks</title>
+    <link href="https://dev.to/trimkeep/fail-open-is-the-default-failure-mode-of-agent-hooks-30a3" rel="alternate"/>
+    <id>https://dev.to/trimkeep/fail-open-is-the-default-failure-mode-of-agent-hooks-30a3</id>
+    <updated>2026-09-09T03:37:08Z</updated>
+    <summary type="text">Fail-open is the default failure mode of agent hooks I'm the author of Handrail, a free, MIT-licensed hook pack for Claude Code and other agent-CLI hook systems. Handrail works with Claude Code and other agent CLIs in plain text only; it is not affiliated with, endorsed by, or a product of Anthropic. This post is about one specific design bug I keep finding in hook scripts, including early drafts </summary>
+    <author><name>Trimkeep</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Password-Reset 2FA Evidence: SMS OTP, TOTP Apps, and Email Fallbacks</title>
+    <link href="https://dev.to/griffinhayes3461/password-reset-2fa-evidence-sms-otp-totp-apps-and-email-fallbacks-25l6" rel="alternate"/>
+    <id>https://dev.to/griffinhayes3461/password-reset-2fa-evidence-sms-otp-totp-apps-and-email-fallbacks-25l6</id>
+    <updated>2026-09-09T03:35:11Z</updated>
+    <summary type="text">Short answer: for a beginner-friendly SaaS login in the US or EU, SMS OTP is the simplest managed starting point; authenticator apps are stronger, while an email code is a fallback you must build and evidence yourself. The decision is less about a clever factor comparison than about what your compliance file can prove six months later. A password-reset message with a short expiry is a useful test </summary>
+    <author><name>GriffinHayes3461</name></author>
+  </entry>
+  <entry>
+    <title>Automating MLOps: Building Scalable AI Deployment Pipelines Devs Can Trust</title>
+    <link href="https://dev.to/ravi_roy_1222f9e6b2ea51bd/automating-mlops-building-scalable-ai-deployment-pipelines-devs-can-trust-2hg9" rel="alternate"/>
+    <id>https://dev.to/ravi_roy_1222f9e6b2ea51bd/automating-mlops-building-scalable-ai-deployment-pipelines-devs-can-trust-2hg9</id>
+    <updated>2026-09-09T03:32:46Z</updated>
+    <summary type="text">Let's be honest, deploying AI models can feel like navigating a minefield. You've trained the perfect model, but getting it reliably into production, ensuring it performs, and iterating quickly? That's where things often fall apart. For years, I've seen teams struggle with manual handoffs, inconsistent environments, and the sheer velocity of changes. This is why automation in MLOps isn't just a ni</summary>
+    <author><name>Ravi Roy</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>TermDeck AI agents manager</title>
@@ -197,6 +223,16 @@
     <author><name>TheDataKnight99</name></author>
     <category term="llm"/>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation</title>
+    <link href="https://arxiv.org/abs/2609.07720v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.07720v1</id>
+    <updated>2026-09-07T16:33:14Z</updated>
+    <summary type="text">Long-form narrative-to-film generation requires shot-level controllability and cross-clip consistency in both visual identity and character behavior-requirements that remain difficult to satisfy with current prompt-based workflows. A core reason existing workflows remain brittle is the lack of a structured intermediate layer between scripts and video models, especially when screenplays are undersp</summary>
+    <author><name>Chuang Gan</name></author>
+    <category term="agents"/>
+    <category term="computer-vision"/>
   </entry>
   <entry>
     <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
@@ -413,52 +449,5 @@
     <updated>2026-09-03T22:36:02Z</updated>
     <summary type="text">Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook...</summary>
     <author><name>Elizabeth Goodman</name></author>
-  </entry>
-  <entry>
-    <title>I built a local-first hybrid router for AI Agent Skills (sub-20ms, zero tokens, runs on CPU) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1w90x3i/i_built_a_localfirst_hybrid_router_for_ai_agent/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1w90x3i/i_built_a_localfirst_hybrid_router_for_ai_agent/</id>
-    <updated>2026-09-06T16:34:23Z</updated>
-    <summary type="text">If you use agentic workflows with custom skills or rules (Cursor rules, Claude Code slash commands, OpenCode, etc.), you have probably run into the routing trade-off: Stuff every skill definition into the system prompt (destroys your context window and degrades instruction-following). Use an LLM router turn to classify the user prompt (costs money, wastes 1,000+ tokens, and adds 2+ seconds of netw</summary>
-    <author><name>/u/iAmQubick</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น</title>
-    <link href="https://dev.to/sarantoon/chngwaang-03-aetraakhaataang-2-ethaa-aantaaraang-terminal-bench-40-aihepn-467f" rel="alternate"/>
-    <id>https://dev.to/sarantoon/chngwaang-03-aetraakhaataang-2-ethaa-aantaaraang-terminal-bench-40-aihepn-467f</id>
-    <updated>2026-09-05T00:26:21Z</updated>
-    <summary type="text">ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจากตาราง leaderboard จริงของ Terminal-Bench 4.0 และข้อมูลราคาจาก Token</summary>
-    <author><name>Nokka</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>เมื่อ Benchmark โกหกคุณ, SWE-Bench ProMax กับคะแนนจริงที่โมเดลเก่งสุดทำได้แค่ 41.2%</title>
-    <link href="https://dev.to/sarantoon/emuue-benchmark-okhkkhun-swe-bench-promax-kabkhaaenncchringthiiomedlekngsudthamaidaekh-412-1fl5" rel="alternate"/>
-    <id>https://dev.to/sarantoon/emuue-benchmark-okhkkhun-swe-bench-promax-kabkhaaenncchringthiiomedlekngsudthamaidaekh-412-1fl5</id>
-    <updated>2026-09-05T00:26:18Z</updated>
-    <summary type="text">เมื่อ Benchmark โกหกคุณ, SWE-Bench ProMax กับคะแนนจริงที่โมเดลเก่งสุดทำได้แค่ 41.2% โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี ผู้เขียนบทความอธิบายเทคโนโลยีให้คนทั่วไปเข้าใจ 30+ บทความบน dev.to | 5 กันยายน 2026 บทความนี้เขียนโดย AI (glm-5.3 via ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา), อ้างอิงจาก paper วิจัย SWE-Bench ProMax บน arXiv ฉบับเต็ม เลข 90</summary>
-    <author><name>Nokka</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Clockwork: IA para tu calendario sin sacrificar privacidad</title>
-    <link href="https://dev.to/leojulieta/clockwork-ia-para-tu-calendario-sin-sacrificar-privacidad-i4d" rel="alternate"/>
-    <id>https://dev.to/leojulieta/clockwork-ia-para-tu-calendario-sin-sacrificar-privacidad-i4d</id>
-    <updated>2026-09-04T22:05:58Z</updated>
-    <summary type="text">Clockwork : el asistente de calendario con IA que protege tu privacidad (es‑2205) Introducción ¿Cansado de que tu calendario sea una mina de datos para terceros? Con Clockwork puedes volver a confiar en tu agenda: la IA organiza tus citas sin que nadie más tenga acceso a la información. En los últimos seis meses las búsquedas de “asistente de calendario IA” y “app de calendario privada” han aument</summary>
-    <author><name>LeoJulieta</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold</title>
-    <link href="https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/</id>
-    <updated>2026-09-03T21:16:11Z</updated>
-    <summary type="text">OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at $10/$50 per million tokens. It is also the first OpenAI model to cross the Critical cybersecurity threshold, which shapes who can use it and for what. The pos</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
