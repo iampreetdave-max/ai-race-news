@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-10T08:51:47Z</updated>
+  <updated>2026-09-10T13:29:12Z</updated>
+  <entry>
+    <title>New Deepseek model V4.1-Flash cuts memory needs for AI agents</title>
+    <link href="https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/" rel="alternate"/>
+    <id>https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/</id>
+    <updated>2026-09-10T12:40:51Z</updated>
+    <summary type="text">Deepseek releases V4.1-Flash, a multimodal model with 552 billion parameters that cuts KV cache memory to a quarter of its predecessor. On the DeepSWE coding benchmark, it narrowly beats Opus 5 and GPT-5.6 Sol, even though only 16 billion parameters are active per token. The model ships under the MIT license and targets much cheaper AI agents. The article New Deepseek model V4.1-Flash cuts memory </summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse</title>
+    <link href="https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/</id>
+    <updated>2026-09-10T07:31:01Z</updated>
+    <summary type="text">Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact bottleneck. DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts model with 552B backbone parameters, 196B additional Engram parameters, and a 1M-token context wi</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>n8n Assistant Launches as a Preview AI Workflow Builder for Cloud and Docker Users</title>
+    <link href="https://dev.to/alifar/n8n-assistant-launches-as-a-preview-ai-workflow-builder-for-cloud-and-docker-users-4071" rel="alternate"/>
+    <id>https://dev.to/alifar/n8n-assistant-launches-as-a-preview-ai-workflow-builder-for-cloud-and-docker-users-4071</id>
+    <updated>2026-09-10T13:15:30Z</updated>
+    <summary type="text">n8n has launched n8n Assistant, a preview AI-assisted workflow builder designed to turn a plain-language automation request into a workflow that teams can inspect, edit and debug in the n8n canvas. The release is available for new n8n Cloud instances by default and for eligible self-hosted Docker deployments running n8n 2.36 or later. The central proposition is not simply generating a workflow tem</summary>
+    <author><name>Ali Farhat</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Agentic AI Credential Harvesting: An Attack Built in Under Six Hours and the Separate Recon Case</title>
+    <link href="https://dev.to/anoymask/agentic-ai-credential-harvesting-an-attack-built-in-under-six-hours-and-the-separate-recon-case-3dfg" rel="alternate"/>
+    <id>https://dev.to/anoymask/agentic-ai-credential-harvesting-an-attack-built-in-under-six-hours-and-the-separate-recon-case-3dfg</id>
+    <updated>2026-09-10T13:08:02Z</updated>
+    <summary type="text">1. Basic Information Article Title: GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI Publisher: Google Threat Intelligence Group Publication Date: 2026-09-08 Original Source: Google Threat Intelligence Group Related Sources: BleepingComputer: Hackers build AI frameworks for credential theft Related Malware, Groups, CVEs, and Products: Recon framework, OpenClaw a</summary>
+    <author><name>Anoymask</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>I Let an AI Agent Hack All My Gadgets—and I’d Do It Again</title>
     <link href="https://www.wired.com/story/i-used-ai-to-hack-my-home-network/" rel="alternate"/>
@@ -326,13 +365,5 @@
     <author><name>Chuang Gan</name></author>
     <category term="agents"/>
     <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents</title>
-    <link href="https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/</id>
-    <updated>2026-09-06T06:11:02Z</updated>
-    <summary type="text">Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a plain Docker container at 0.9 GB instead of 4.1 GB. The post</summary>
-    <author><name>Asif Razzaq</name></author>
   </entry>
 </feed>
