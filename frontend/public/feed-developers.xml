@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-09T23:06:35Z</updated>
+  <updated>2026-09-10T03:55:46Z</updated>
   <entry>
     <title>I Let an AI Agent Hack All My Gadgets—and I’d Do It Again</title>
     <link href="https://www.wired.com/story/i-used-ai-to-hack-my-home-network/" rel="alternate"/>
@@ -14,6 +14,26 @@
     <author><name>Will Knight</name></author>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>When You Don’t Need MCP: A Practical Guide for AI Developers</title>
+    <link href="https://hackernoon.com/when-you-dont-need-mcp-a-practical-guide-for-ai-developers?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/when-you-dont-need-mcp-a-practical-guide-for-ai-developers?source=rss</id>
+    <updated>2026-09-10T03:52:01Z</updated>
+    <summary type="text">MCP (Model Context Protocol) gives AI agents a unified way to discover and call external tools, but the model itself can't tell the difference between an MCP tool and a plain function-calling tool — the JSON schema it sees is identical either way. MCP's real trade-off is that it front-loads every connected server's full tool schema into the context window and adds ongoing operational overhead, in </summary>
+    <author><name>Xi Yang</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Introducing GitTrends AI v5.0: Real-Time GitHub Velocity &amp; 1-Click MCP Discovery for Coding Agents</title>
+    <link href="https://dev.to/aman_social/introducing-gittrends-ai-v50-real-time-github-velocity-1-click-mcp-discovery-for-coding-agents-405e" rel="alternate"/>
+    <id>https://dev.to/aman_social/introducing-gittrends-ai-v50-real-time-github-velocity-1-click-mcp-discovery-for-coding-agents-405e</id>
+    <updated>2026-09-10T03:32:28Z</updated>
+    <summary type="text">🚀 Why Traditional GitHub Trending Falls Short for AI Engineers If you build with AI coding agents (Claude Code, Cursor, Codex, Antigravity), you’ve probably noticed a major blind spot in developer tooling: discovery. GitHub's native trending feed is useful, but: It ignores velocity dynamics: A repo with 50 stars gaining 40/day is moving faster than a 100k repo gaining 5, but gets buried. No taxono</summary>
+    <author><name>Aman</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Jenkins: Core Concepts and Declarative Pipelines for Modern Developers</title>
@@ -234,6 +254,15 @@
     <category term="data"/>
   </entry>
   <entry>
+    <title>.blend URL Viewer</title>
+    <link href="https://simonwillison.net/2026/Sep/9/blender-viewer/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/9/blender-viewer/</id>
+    <updated>2026-09-09T23:58:32Z</updated>
+    <summary type="text">Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL). As a big fan of the Imperial Fabergé Easter eggs, I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt: Generate a photo of a faberge egg that's themed after the TV show Pluribus </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How I stopped fearing the 3 AM pager by forcing idempotency everywhere</title>
     <link href="https://dev.to/aniketsoni/how-i-stopped-fearing-the-3-am-pager-by-forcing-idempotency-everywhere-4jf1" rel="alternate"/>
     <id>https://dev.to/aniketsoni/how-i-stopped-fearing-the-3-am-pager-by-forcing-idempotency-everywhere-4jf1</id>
@@ -313,62 +342,6 @@
     <updated>2026-09-07T03:21:45Z</updated>
     <summary type="text">From February to April 2026, I launched four web apps, each starting from a code bundle that Figma Make (Figma's AI feature that generates a working front-end code bundle from a design) had spat out: a beauty-curation site, a gift-record app, a plush-toy album, and a UI mock for an AI development tool. Every one of them starts its repository in a state where &quot;the look is already finished.&quot; In this</summary>
     <author><name>uehara</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI</title>
-    <link href="https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/</id>
-    <updated>2026-09-05T19:40:11Z</updated>
-    <summary type="text">We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer. The post GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflo</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Nous Research Adds One-Click Local Model Setup to Hermes Desktop</title>
-    <link href="https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/</id>
-    <updated>2026-09-05T19:12:02Z</updated>
-    <summary type="text">Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a hard 4-bit floor and a 64K minimum context window. The post Nous Research Adds One-Click Local Model Setup to Hermes Desktop appeared first on MarkTechPos</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>How to Run a Free AI Coding Assistant Locally with VS Code, opencode, and LM Studio</title>
-    <link href="https://dev.to/aravindagn/how-to-run-a-free-ai-coding-assistant-locally-with-vs-code-opencode-and-lm-studio-3c1c" rel="alternate"/>
-    <id>https://dev.to/aravindagn/how-to-run-a-free-ai-coding-assistant-locally-with-vs-code-opencode-and-lm-studio-3c1c</id>
-    <updated>2026-09-06T18:37:03Z</updated>
-    <summary type="text">Every AI coding assistant wants your credit card. And your code. There's a third option, and it costs nothing: run the whole thing on your own computer. No subscription. No internet. Your code never leaves your machine. I set this up on a fairly ordinary PC, and it works. Here's exactly how. What you're building Three pieces working together: LM Studio — runs the AI model on your PC. This is the e</summary>
-    <author><name>Aravinda 加阳</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Why I Rewrote Four Services in Go</title>
-    <link href="https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p" rel="alternate"/>
-    <id>https://dev.to/medampudi/why-i-rewrote-four-services-in-go-2i0p</id>
-    <updated>2026-09-06T15:51:52Z</updated>
-    <summary type="text">I had four small services. Each one was a Model Context Protocol adapter — a thin wrapper that lets an AI agent call out to some external thing. One talked to Replicate for image generation. One talked to a Nostr-friendly social poster. One was a Git-aware research helper. One was a Tavily-powered web search. They were all written in Python. They all ran on Knative on a small Kubernetes cluster. T</summary>
-    <author><name>Rajesh Medampudi</name></author>
-    <category term="computer-vision"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Building My Own Cloud</title>
-    <link href="https://dev.to/medampudi/building-my-own-cloud-2590" rel="alternate"/>
-    <id>https://dev.to/medampudi/building-my-own-cloud-2590</id>
-    <updated>2026-09-06T15:51:35Z</updated>
-    <summary type="text">I rent six dedicated servers from a company in Germany. Together they have more cores, more memory, and more SSD than most production clusters I worked on a decade ago. I run my own Kubernetes on them. Not managed. Not EKS. Not GKE. The whole stack, from the immutable OS up to the workloads. People who hear this ask me why, and the question usually arrives in one of two tones. The dangerous tone i</summary>
-    <author><name>Rajesh Medampudi</name></author>
-  </entry>
-  <entry>
-    <title>Implementing AI Streaming Responses with JSON Lines Chunked Communication Instead of SSE</title>
-    <link href="https://dev.to/tilfin/implementing-ai-streaming-responses-with-json-lines-chunked-communication-instead-of-sse-3la9" rel="alternate"/>
-    <id>https://dev.to/tilfin/implementing-ai-streaming-responses-with-json-lines-chunked-communication-instead-of-sse-3la9</id>
-    <updated>2026-09-06T12:32:57Z</updated>
-    <summary type="text">Background When streaming AI chat responses, Server-Sent Events (SSE) are commonly used. They are also adopted by APIs from OpenAI and Anthropic, as well as by MCP server responses. In fact, I implemented several AI chat projects that modified responses from AI platforms while streaming them to the browser. In doing so, I encountered an issue where SSE did not work because of certain intermediary </summary>
-    <author><name>Toshimitsu Takahashi</name></author>
     <category term="llm"/>
   </entry>
 </feed>
