@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-10T17:37:42Z</updated>
+  <updated>2026-09-10T20:40:16Z</updated>
   <entry>
     <title>DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation</title>
     <link href="https://arxiv.org/abs/2609.10506v1" rel="alternate"/>
@@ -86,14 +86,5 @@
     <summary type="text">Alibaba's research arm has released Qwen-Drive 1.0, an AI model that handles environmental perception, traffic Q&amp;A, and route planning in one system. The researchers show that text-image models don't automatically understand three-dimensional space. Spatial awareness has to be trained on purpose. The goal is a single model that runs both the cockpit and the driving system. The article Qwen-Drive 1</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The GNU strip backdoor is the case AI code review can't see</title>
-    <link href="https://dev.to/cole_halton_42f71d71b809b/the-gnu-strip-backdoor-is-the-case-ai-code-review-cant-see-2j1f" rel="alternate"/>
-    <id>https://dev.to/cole_halton_42f71d71b809b/the-gnu-strip-backdoor-is-the-case-ai-code-review-cant-see-2j1f</id>
-    <updated>2026-09-08T00:15:03Z</updated>
-    <summary type="text">This paper (arxiv 2607.24888) is worth a stop if you evaluate AI code review. It shows Ken Thompson's trusting-trust attack is not compiler-specific: the authors pull it off with GNU strip, a build utility that neither reads nor generates source, using only tampered finished ELF binaries. In the NixOS bootstrap, one malicious strip in the binary seed implants a payload that propagates to the next </summary>
-    <author><name>Cole Halton</name></author>
-    <category term="research"/>
   </entry>
 </feed>
