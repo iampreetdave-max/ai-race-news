@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-11T05:52:52Z</updated>
+  <updated>2026-09-11T10:57:17Z</updated>
+  <entry>
+    <title>OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT</title>
+    <link href="https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/" rel="alternate"/>
+    <id>https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/</id>
+    <updated>2026-09-11T08:11:46Z</updated>
+    <summary type="text">OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT appeared first on</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100</title>
     <link href="https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/" rel="alternate"/>
@@ -43,6 +52,23 @@
     <category term="agents"/>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Second AI Can Review Code the First AI Wrote</title>
+    <link href="https://dev.to/xiaobei/a-second-ai-can-review-code-the-first-ai-wrote-5e87" rel="alternate"/>
+    <id>https://dev.to/xiaobei/a-second-ai-can-review-code-the-first-ai-wrote-5e87</id>
+    <updated>2026-09-11T10:38:19Z</updated>
+    <summary type="text">A different model or clean session can catch problems the first assistant missed or accepted without question. A second opinion from a fresh model or clean session can catch problems the first AI missed or accepted without question. An AI coding assistant returns a polished-looking change, complete with a confident explanation of what it did and why. You still have to decide whether to accept it. </summary>
+    <author><name>xiaobei</name></author>
+  </entry>
+  <entry>
+    <title>Building Durable, AI-Powered Workflows in Django</title>
+    <link href="https://dev.to/maaddae/building-durable-ai-powered-workflows-in-django-2dga" rel="alternate"/>
+    <id>https://dev.to/maaddae/building-durable-ai-powered-workflows-in-django-2dga</id>
+    <updated>2026-09-11T10:31:13Z</updated>
+    <summary type="text">This tutorial walks through a complete local development path for this project: Start the Django application and its dependencies with Docker Compose. Install Git pre-commit hooks so quality checks run before each commit. Create a product through the workflow API. Follow the product as Temporal calculates a price, waits for approval, updates the price, and publishes the product. The intended reade</summary>
+    <author><name>Anthony Addae</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse</title>
@@ -299,44 +325,6 @@
     <summary type="text">I know it may sound self promoting but it has made my life so much easier and would want to share it with other in case it does the same for them. Out of frustrations with how to handle multiple agents and keep track of the work I've been doing after restarts I created this open source tool that handles those and simplifies cross agent communications too. Check it out and any feedback or bug repor</summary>
     <author><name>Danial Farid</name></author>
     <category term="open-source"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI can't rule out that it stole its most recent breakthrough</title>
-    <link href="https://dev.to/jon_at_backboardio/openai-cant-rule-out-that-it-stole-its-most-recent-breakthrough-12d2" rel="alternate"/>
-    <id>https://dev.to/jon_at_backboardio/openai-cant-rule-out-that-it-stole-its-most-recent-breakthrough-12d2</id>
-    <updated>2026-09-08T20:51:56Z</updated>
-    <summary type="text">A mathematician spent a year on one of the hardest open problems in math. He asked OpenAI a simple question. Did you train on my sessions? Today they answered. Sort of. Here is what happened. The setup Tristan Buckmaster is a math professor at NYU. He and Levent Alpöge spent most of the past year attacking finite-time blowup for fluid equations, the family of problems that includes the Navier-Stok</summary>
-    <author><name>Jonathan Murray</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Track AI Token Spend in Grafana: Claude, Codex, and Ollama</title>
-    <link href="https://dev.to/josh_hall_b54941047f33661/track-ai-token-spend-in-grafana-claude-codex-and-ollama-5alm" rel="alternate"/>
-    <id>https://dev.to/josh_hall_b54941047f33661/track-ai-token-spend-in-grafana-claude-codex-and-ollama-5alm</id>
-    <updated>2026-09-08T20:35:30Z</updated>
-    <summary type="text">I let three different AIs work in my homelab every day — a coding assistant, a second CLI for pair-work, and a small agent that triages alerts overnight. One evening I realized I couldn't answer a basic question: what is all of this actually costing me? Two burn subscription quota I've already paid for, one spends real API dollars, and none showed up on the Grafana dashboards I'd built for everyth</summary>
-    <author><name>Josh Hall</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Would You Choose a Library Because AI Writes It Better?</title>
-    <link href="https://dev.to/erikch/would-you-choose-a-library-because-ai-writes-it-better-9i4" rel="alternate"/>
-    <id>https://dev.to/erikch/would-you-choose-a-library-because-ai-writes-it-better-9i4</id>
-    <updated>2026-09-08T20:27:23Z</updated>
-    <summary type="text">I was at a conference recently and watched Joel Hooks talk about Effect. Effect homepage h1 advertises that it's the &quot;Reliable TypeScript for the AI era&quot;. Joel explained that AI agents (Kiro, Claude Code, etc) can write way better TypeScript with Effect then he could ever do by himself. It made me start thinking, is this the future? That raised a question I had not seriously considered before. Are</summary>
-    <author><name>Erik Hanchett</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
-    <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/</id>
-    <updated>2026-09-07T19:18:07Z</updated>
-    <summary type="text">OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in tool use, coding agents and long-context retrieval. Post-training pairs 400B tokens of deep-thinking SFT with RL teachers and on-policy distillation that</summary>
-    <author><name>Sana Hassan</name></author>
     <category term="agents"/>
     <category term="llm"/>
   </entry>
