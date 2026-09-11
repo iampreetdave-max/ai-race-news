@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-11T01:01:42Z</updated>
+  <updated>2026-09-11T05:52:52Z</updated>
   <entry>
     <title>NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100</title>
     <link href="https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/" rel="alternate"/>
@@ -61,6 +61,26 @@
     <summary type="text">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>prefill and default look the same in Console. Only one of them lets an agent skip your required field.</title>
+    <link href="https://dev.to/apify/prefill-and-default-look-the-same-in-console-only-one-of-them-lets-an-agent-skip-your-required-4bc" rel="alternate"/>
+    <id>https://dev.to/apify/prefill-and-default-look-the-same-in-console-only-one-of-them-lets-an-agent-skip-your-required-4bc</id>
+    <updated>2026-09-11T05:18:13Z</updated>
+    <summary type="text">I have 23 audit Actors on the Apify Store. They all do a version of the same thing: take a public record, check whether what it still claims is true, and write the verdict into a dataset. Last week I set out to prove they were unsafe for AI agents to chain together. I had a specific accusation in mind, I built the experiment to demonstrate it, and the experiment refused. What I found instead was a</summary>
+    <author><name>Ai-Q Labs</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Can Qwen 3.8 running on your laptop really replace Claude Opus for Agentic coding?</title>
+    <link href="https://dev.to/deepu105/can-qwen-38-running-on-your-laptop-really-replace-claude-opus-for-agentic-coding-51gk" rel="alternate"/>
+    <id>https://dev.to/deepu105/can-qwen-38-running-on-your-laptop-really-replace-claude-opus-for-agentic-coding-51gk</id>
+    <updated>2026-09-11T05:16:11Z</updated>
+    <summary type="text">Originally published at deepu.tech. When the whole AI coding frenzy started, I was still skeptical. Like most tech enthusiasts, I tried it but wasn't that impressed by the models' coding capabilities back then. I still used them, but mostly as an autocomplete tool in VS Code. This all changed for me with Opus 4.6 on Claude Code. That was the first time I felt like the model was actually more effic</summary>
+    <author><name>Deepu K Sasidharan</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How to Move OpenAI Codex to a New Mac Without Cloning Its Identity</title>
@@ -192,6 +212,14 @@
     <author><name>Marina Temkin</name></author>
   </entry>
   <entry>
+    <title>Any tools to turn a codebase into a fine tuning dataset? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wd5zkk/any_tools_to_turn_a_codebase_into_a_fine_tuning/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wd5zkk/any_tools_to_turn_a_codebase_into_a_fine_tuning/</id>
+    <updated>2026-09-11T04:27:12Z</updated>
+    <summary type="text">I have a few web projects with pretty good UI/UX and I’m wondering if there’s any tool or workflow that can turn an existing codebase into a dataset for fine tuning. For example, given a React/Next.js project with components, pages, styling, etc. or a static html site, I’d like to turn it into something like: instruction/prompt -&gt; code or whatever format actually makes sense for training an instru</summary>
+    <author><name>/u/ImBadGuyInEveryStory</name></author>
+  </entry>
+  <entry>
     <title>Claude Code on a React Native Codebase: Guardrails That Actually Change the Output</title>
     <link href="https://dev.to/sophie_fa_6ed935b0601d76/claude-code-on-a-react-native-codebase-guardrails-that-actually-change-the-output-3pd2" rel="alternate"/>
     <id>https://dev.to/sophie_fa_6ed935b0601d76/claude-code-on-a-react-native-codebase-guardrails-that-actually-change-the-output-3pd2</id>
@@ -311,41 +339,5 @@
     <author><name>Sana Hassan</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lightsage Raises $4M Led by Nexus to Build the Growth Stack for AI Agents</title>
-    <link href="https://hackernoon.com/lightsage-raises-$4m-led-by-nexus-to-build-the-growth-stack-for-ai-agents?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/lightsage-raises-$4m-led-by-nexus-to-build-the-growth-stack-for-ai-agents?source=rss</id>
-    <updated>2026-09-08T17:03:48Z</updated>
-    <summary type="text">Lightsage has raised a $4 million seed round led by Nexus Venture Partners, with operator angels from Salesforce, Postman, Apollo, DocuSign, GitLab, Resend, Firecrawl, Daytona and Tinyfish, to build what it calls Agent-Led Growth. The company simulates how coding agents such as Claude Code, Codex and Cursor discover and integrate software, isolates why they fail and reports on real agent traffic t</summary>
-    <author><name>Ishan Pandey</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Prompt engineering vs fine-tuning: which one do you need?</title>
-    <link href="https://dev.to/tyler007/prompt-engineering-vs-fine-tuning-which-one-do-you-need-9n" rel="alternate"/>
-    <id>https://dev.to/tyler007/prompt-engineering-vs-fine-tuning-which-one-do-you-need-9n</id>
-    <updated>2026-09-08T17:01:47Z</updated>
-    <summary type="text">Every LLM team hits the same fork eventually, either keep steering the prompt or start training the model. Here's how to read the signals before you burn a sprint finding out the hard way. Originally published at overmindlab.ai. A perspective on when to tinker with the prompt, and when to train your own model. Most teams building LLM applications start the same way. They write a system prompt, tes</summary>
-    <author><name>Tyler Edwards</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>FlatBB: multilingual out of the box, with a full forum feature set</title>
-    <link href="https://dev.to/hongsheng_yang_0b463d934e/flatbb-multilingual-out-of-the-box-with-a-full-forum-feature-set-2241" rel="alternate"/>
-    <id>https://dev.to/hongsheng_yang_0b463d934e/flatbb-multilingual-out-of-the-box-with-a-full-forum-feature-set-2241</id>
-    <updated>2026-09-08T12:20:41Z</updated>
-    <summary type="text">Most “lightweight” forums cut corners. FlatBB is different: plain PHP 8.1+, no Composer/Docker/build step — but the feature list is what small communities actually need. Built-in languages Interface packs ship in the box: English, German, French, Spanish, Portuguese, Italian, Dutch Persian (فارسی) with full RTL layout mirroring Also: Header globe language switcher (remembered for visitors; members</summary>
-    <author><name>hongsheng yang</name></author>
-  </entry>
-  <entry>
-    <title>What Silently Breaks When You Migrate from Ingress NGINX to HAProxy</title>
-    <link href="https://dev.to/onurbolatogluu/what-silently-breaks-when-you-migrate-from-ingress-nginx-to-haproxy-8b4" rel="alternate"/>
-    <id>https://dev.to/onurbolatogluu/what-silently-breaks-when-you-migrate-from-ingress-nginx-to-haproxy-8b4</id>
-    <updated>2026-09-08T12:20:37Z</updated>
-    <summary type="text">Introduction ingress-nginx was retired in March 2026. There are no more releases and no more security patches. It routes traffic into roughly half of all Kubernetes clusters, which makes this a problem for a lot of teams. Installing a retired project is still completely silent. I tried it last week and got no warning at any step. Most migration guides treat this as an annotation mapping exercise. </summary>
-    <author><name>Onur Bolatoğlu</name></author>
   </entry>
 </feed>
