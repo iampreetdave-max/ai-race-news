@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-10T23:03:18Z</updated>
+  <updated>2026-09-11T01:01:42Z</updated>
   <entry>
     <title>NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100</title>
     <link href="https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/" rel="alternate"/>
@@ -61,6 +61,15 @@
     <summary type="text">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Move OpenAI Codex to a New Mac Without Cloning Its Identity</title>
+    <link href="https://dev.to/jsegeren/how-to-move-openai-codex-to-a-new-mac-without-cloning-its-identity-35h9" rel="alternate"/>
+    <id>https://dev.to/jsegeren/how-to-move-openai-codex-to-a-new-mac-without-cloning-its-identity-35h9</id>
+    <updated>2026-09-11T00:02:59Z</updated>
+    <summary type="text">Changing Macs is normally straightforward. The surprising part is that signing into the same ChatGPT account does not necessarily recreate the local Codex working environment you had on the old machine. Your repositories are only part of that environment. Local Codex conversations and state, project organization, custom skills, settings, Git worktrees, stashes, branches, and unfinished files can s</summary>
+    <author><name>Joshua Segeren</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>J'ai procastiné Docker pendant un mois... Voici ce qui m'a débloquée</title>
@@ -338,32 +347,5 @@
     <updated>2026-09-08T12:20:37Z</updated>
     <summary type="text">Introduction ingress-nginx was retired in March 2026. There are no more releases and no more security patches. It routes traffic into roughly half of all Kubernetes clusters, which makes this a problem for a lot of teams. Installing a retired project is still completely silent. I tried it last week and got no warning at any step. Most migration guides treat this as an annotation mapping exercise. </summary>
     <author><name>Onur Bolatoğlu</name></author>
-  </entry>
-  <entry>
-    <title>CVE-2026-85620: When Your MCP Server's Allowlist Parser Isn't the One Actually Parsing SQL</title>
-    <link href="https://dev.to/coridev/cve-2026-85620-when-your-mcp-servers-allowlist-parser-isnt-the-one-actually-parsing-sql-13de" rel="alternate"/>
-    <id>https://dev.to/coridev/cve-2026-85620-when-your-mcp-servers-allowlist-parser-isnt-the-one-actually-parsing-sql-13de</id>
-    <updated>2026-09-08T12:14:00Z</updated>
-    <summary type="text">Postgres MCP Pro ships a feature called Safe Mode. The pitch is simple: let an AI agent talk to your database, but only let it run read-only queries. No DROP, no DELETE, no ALTER, no writes of any kind. It does this by parsing every incoming SQL statement and checking it against an allowlist before the statement ever touches Postgres. CVE-2026-85620 says the parser has a flaw that lets crafted SQL</summary>
-    <author><name>Cor E</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Context Windows Don’t Know What’s Still True — I Built a Validity Layer That Does</title>
-    <link href="https://towardsdatascience.com/context-windows-dont-know-whats-still-true-i-built-a-validity-layer-that-does/" rel="alternate"/>
-    <id>https://towardsdatascience.com/context-windows-dont-know-whats-still-true-i-built-a-validity-layer-that-does/</id>
-    <updated>2026-09-08T11:00:01Z</updated>
-    <summary type="text">A context window can be technically complete and still describe a world that no longer exists. I built a deterministic benchmark to measure the cost of acting on stale context. The post Context Windows Don’t Know What’s Still True — I Built a Validity Layer That Does appeared first on Towards Data Science.</summary>
-    <author><name>Emmimal P Alexander</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>.blend URL Viewer</title>
-    <link href="https://simonwillison.net/2026/Sep/9/blender-viewer/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/9/blender-viewer/</id>
-    <updated>2026-09-09T23:58:32Z</updated>
-    <summary type="text">Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL). As a big fan of the Imperial Fabergé Easter eggs, I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt: Generate a photo of a faberge egg that's themed after the TV show Pluribus </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
