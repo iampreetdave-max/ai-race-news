@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-12T09:09:38Z</updated>
+  <updated>2026-09-12T13:29:56Z</updated>
   <entry>
     <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
     <link href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" rel="alternate"/>
@@ -22,6 +22,41 @@
     <summary type="text">Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GitHub Billing Incident: A Wake-Up Call for Software Engineering Productivity</title>
+    <link href="https://dev.to/devactivity/github-billing-incident-a-wake-up-call-for-software-engineering-productivity-423" rel="alternate"/>
+    <id>https://dev.to/devactivity/github-billing-incident-a-wake-up-call-for-software-engineering-productivity-423</id>
+    <updated>2026-09-12T13:00:31Z</updated>
+    <summary type="text">Even the most robust platforms experience disruptions. A recent incident on GitHub, specifically concerning its billing services, offers a critical lens into not just technical recovery but also the profound impact on developer workflows and the crucial role of customer support during outages. For devactivity.com, this discussion provides valuable insights into maintaining software engineering pro</summary>
+    <author><name>Oleg</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I wanted a system-design lab that could prove me wrong</title>
+    <link href="https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540" rel="alternate"/>
+    <id>https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540</id>
+    <updated>2026-09-12T12:57:23Z</updated>
+    <summary type="text">When I practice system design, the part that has always felt a little unsatisfying is that the diagram usually gets the final say. You can draw a load balancer, put PostgreSQL behind your application servers, add a private subnet, and end up with something that looks perfectly reasonable. But the diagram itself never proves that PostgreSQL is actually private. That is the idea I kept coming back t</summary>
+    <author><name>Othmane</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Claude Code Changed How I Work — An Honest Developer Review</title>
+    <link href="https://dev.to/automate-archit/claude-code-changed-how-i-work-an-honest-developer-review-1dlj" rel="alternate"/>
+    <id>https://dev.to/automate-archit/claude-code-changed-how-i-work-an-honest-developer-review-1dlj</id>
+    <updated>2026-09-12T12:45:02Z</updated>
+    <summary type="text">TL;DR: Claude Code is a CLI tool that reads your entire codebase and makes coordinated multi-file changes. It cut my feature development time from 4-6 hours to 1-2 hours. Not perfect for large codebases or visual design, but transformative for real development work. My Background With AI Coding Tools I have tried everything. GitHub Copilot for a year. Cursor for six months. ChatGPT for code genera</summary>
+    <author><name>Archit Mittal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Login Tests Are Green. What Did cursor.execute Actually Receive?</title>
+    <link href="https://dev.to/yuan_ming_3549dae7e400994/your-login-tests-are-green-what-did-cursorexecute-actually-receive-5a92" rel="alternate"/>
+    <id>https://dev.to/yuan_ming_3549dae7e400994/your-login-tests-are-green-what-did-cursorexecute-actually-receive-5a92</id>
+    <updated>2026-09-12T12:42:32Z</updated>
+    <summary type="text">A reader on my earlier Dev.to post made the useful point directly: Assert that the query is parameterized before it reaches cursor.execute. That sounds simple. It also exposes a blind spot in many test suites. A response assertion can prove that login behaves correctly. It cannot prove what SQL and parameters reached the database executor. So I built a small experiment with two login implementatio</summary>
+    <author><name>yuan ming</name></author>
   </entry>
   <entry>
     <title>How I Built a Fast, Offline-First Gluten Detection PWA Using Web OCR &amp; Open Food Facts</title>
