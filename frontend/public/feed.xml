@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-12T19:06:01Z</updated>
+  <updated>2026-09-12T22:05:05Z</updated>
   <entry>
     <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
     <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra" rel="alternate"/>
@@ -21,6 +21,16 @@
     <updated>2026-09-12T15:03:21Z</updated>
     <summary type="text">Anthropic CEO Dario Amodei is calling for a controlled slowdown in AI development. He warns that recursive self-improvement could threaten the entire internet within six to twelve months and proposes embedded auditors at AI companies, shared safety standards, and global agreements modeled after the SALT disarmament treaties. His warning comes just ahead of what could be the largest initial public </summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised</id>
+    <updated>2026-09-12T21:16:28Z</updated>
+    <summary type="text">OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he […]</summary>
+    <author><name>Terrence O’Brien</name></author>
+    <category term="funding"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -52,6 +62,16 @@
     <summary type="text">Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their visible chain of thought reveals. The article AI models' written reasoning steps correspond to distinct internal patterns, a new study finds appeared first on The Decoder.</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="regulation"/>
+  </entry>
+  <entry>
+    <title>OpenAI’s Altman Says No IPO in 2026, Firm to Prioritize Safety</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune</id>
+    <updated>2026-09-12T19:36:39Z</updated>
+    <summary type="text">OpenAI won’t go public in this year as the artificial intelligence company focuses on addressing safety-related concerns around the technology, Chief Executive Officer Sam Altman told Fortune in an interview.</summary>
+    <author><name>María Paula Mijares Torres and Se Young Lee</name></author>
+    <category term="funding"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends</title>
@@ -168,6 +188,76 @@
     <author><name>Asif Razzaq</name></author>
   </entry>
   <entry>
+    <title>I ran my scanner against 5 real CVEs. It missed 4. Then I reverted my own fix.</title>
+    <link href="https://dev.to/balbaks/i-ran-my-scanner-against-5-real-cves-it-missed-4-then-i-reverted-my-own-fix-4dhk" rel="alternate"/>
+    <id>https://dev.to/balbaks/i-ran-my-scanner-against-5-real-cves-it-missed-4-then-i-reverted-my-own-fix-4dhk</id>
+    <updated>2026-09-12T21:51:23Z</updated>
+    <summary type="text">Why this post is different from the last one The last write-up in this series announced four tools. This one is about what happened when I stopped writing tests for my own tools and started checking one of them against reality — and about the fix I built, tested, shipped, and then took back out, because it was wrong in a way that only showed up once I looked past the headline number. The setup: in</summary>
+    <author><name>Hassan Balbakie</name></author>
+    <category term="funding"/>
+  </entry>
+  <entry>
+    <title>AI Won’t Fix a Broken Business Process</title>
+    <link href="https://dev.to/ikilic/ai-wont-fix-a-broken-business-process-3ma0" rel="alternate"/>
+    <id>https://dev.to/ikilic/ai-wont-fix-a-broken-business-process-3ma0</id>
+    <updated>2026-09-12T21:41:33Z</updated>
+    <summary type="text">Why enterprise AI projects should start with workflow design, not model selection An enterprise AI project often starts with the same question: Which model should we use? Should it be GPT, Claude, Gemini, an open-source model, or a smaller model running privately? That question matters, but it is rarely the best starting point. A more useful question is: Which business process are we trying to imp</summary>
+    <author><name>ibrahim Kılıç</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Running a nested Proxmox homelab and Docker development on the same Windows machine</title>
+    <link href="https://dev.to/yahavtz/running-a-nested-proxmox-homelab-and-docker-development-on-the-same-windows-machine-44c8" rel="alternate"/>
+    <id>https://dev.to/yahavtz/running-a-nested-proxmox-homelab-and-docker-development-on-the-same-windows-machine-44c8</id>
+    <updated>2026-09-12T21:35:44Z</updated>
+    <summary type="text">Tags: docker, proxmox, homelab, windows I sat down to start a new project and Docker Desktop wouldn't run. I knew why immediately, because I'd already paid this bill once — in the opposite direction. When I first set up Proxmox nested in VMware, VMware wouldn't run either. I fixed it by turning the Windows hypervisor off so the nested VM could reach VT-x/EPT directly. It worked. What I didn't thin</summary>
+    <author><name>yahav tzukerman</name></author>
+  </entry>
+  <entry>
+    <title>Droid ASC: A High-Performance Tool for Android Reverse Engineering and Vulnerability Discovery</title>
+    <link href="https://dev.to/excalibra/droid-asc-a-high-performance-tool-for-android-reverse-engineering-and-vulnerability-discovery-1ci9" rel="alternate"/>
+    <id>https://dev.to/excalibra/droid-asc-a-high-performance-tool-for-android-reverse-engineering-and-vulnerability-discovery-1ci9</id>
+    <updated>2026-09-12T21:29:16Z</updated>
+    <summary type="text">Article Summary: Droid ASC is a high-performance tool for Android reverse engineering and mobile security testing. It reduces memory usage by two orders of magnitude and eliminates disk caching compared to the traditional jadx decompiler, achieving second-level decompilation and millisecond search. Its core advantages lie in zero indexing, on-demand decompression, and leveraging R8 optimisation, s</summary>
+    <author><name>Excalibra</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>&quot;Keeping a record: working across many sessions&quot;</title>
+    <link href="https://dev.to/lisandro_reinoso_d12ac7b9/keeping-a-record-working-across-many-sessions-1g2k" rel="alternate"/>
+    <id>https://dev.to/lisandro_reinoso_d12ac7b9/keeping-a-record-working-across-many-sessions-1g2k</id>
+    <updated>2026-09-12T21:29:04Z</updated>
+    <summary type="text">Day one closed in the small hours and day two started half an hour later, with a short session that didn't touch the product: it defined how sessions would be named, where they would be recorded, and which script would close them on its own. The problem it solved wasn't one of order but of continuity. Every conversation with Claude Code ends, and I wanted to be able to work across many of them —op</summary>
+    <author><name>Lisandro Reinoso</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>3 Ways I Use AI to Auto-Generate Playwright Locators</title>
+    <link href="https://dev.to/abhishek_jain_cd78ebe598d/-3-ways-i-use-ai-to-auto-generate-playwright-locators-278c" rel="alternate"/>
+    <id>https://dev.to/abhishek_jain_cd78ebe598d/-3-ways-i-use-ai-to-auto-generate-playwright-locators-278c</id>
+    <updated>2026-09-12T21:27:42Z</updated>
+    <summary type="text">If you've maintained a Playwright suite for more than a few months, you know the real cost isn't writing tests — it's the constant locator rot. A designer tweaks a class name, a component gets refactored, and suddenly a dozen tests are red for reasons that have nothing to do with actual bugs. After 18 years in test automation — including building enterprise-scale frameworks — I've found that AI-as</summary>
+    <author><name>Abhishek Jain</name></author>
+  </entry>
+  <entry>
+    <title>I wrote a linter for AI-writing tells. It gave one of my own READMEs a C.</title>
+    <link href="https://dev.to/efe_genc/i-wrote-a-linter-for-ai-writing-tells-it-gave-one-of-my-own-readmes-a-c-1mmf" rel="alternate"/>
+    <id>https://dev.to/efe_genc/i-wrote-a-linter-for-ai-writing-tells-it-gave-one-of-my-own-readmes-a-c-1mmf</id>
+    <updated>2026-09-12T21:27:15Z</updated>
+    <summary type="text">A pull request description came back from my coding agent and I read it the way the reviewer would. An em dash in the first sentence. A bold label on every bullet. Let me know if you need anything else at the bottom. I deleted all of it by hand, the same pass as the day before. Readers have learned these tells. Once they see one, they stop reading, whoever typed it. So I wrote the pass down as a l</summary>
+    <author><name>Efe Genç</name></author>
+  </entry>
+  <entry>
+    <title>Two kinds of junior devs right now, and only one of them is actually learning</title>
+    <link href="https://dev.to/sergey_boiko/two-kinds-of-junior-devs-right-now-and-only-one-of-them-is-actually-learning-2gd2" rel="alternate"/>
+    <id>https://dev.to/sergey_boiko/two-kinds-of-junior-devs-right-now-and-only-one-of-them-is-actually-learning-2gd2</id>
+    <updated>2026-09-12T21:26:01Z</updated>
+    <summary type="text">I've been watching a lot of beginners lately, and I keep seeing the same thing. Someone asks ChatGPT/Claude a question and gets an answer, after sees it works - and that's it... they move on :( Then a new problem comes up, and they do the same thing again. And I get it, I really do. It's fast, it's easy, and I use AI every day too. But after a while, you start to see a difference, there's a BIG ga</summary>
+    <author><name>Sergey Boiko</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Cognition helps Devin test its own work with GPT‑6 Astra</title>
     <link href="https://openai.com/index/cognition-devin-testing-with-astra" rel="alternate"/>
     <id>https://openai.com/index/cognition-devin-testing-with-astra</id>
@@ -175,6 +265,14 @@
     <summary type="text">GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Stop Wasting LLM Tokens! I Built a Rust CLI to Prune JS/TS Codebases by 80% 🦀🚀</title>
+    <link href="https://dev.to/sanjaiyan_dev/stop-wasting-llm-tokens-i-built-a-rust-cli-to-prune-jsts-codebases-by-80-3i2e" rel="alternate"/>
+    <id>https://dev.to/sanjaiyan_dev/stop-wasting-llm-tokens-i-built-a-rust-cli-to-prune-jsts-codebases-by-80-3i2e</id>
+    <updated>2026-09-12T21:16:05Z</updated>
+    <summary type="text">┌─────────────────────────────────────────────────────────────────────────────┐ │ THE &quot;INFINITE CONTEXT&quot; TRAP │ ├──────────────────────────────┬──────────────────────────────────────────────┤ │ 1. Attention Degradation │ Lost-in-the-Middle: critical interfaces get │ │ │ buried under repetitive DOM noise and loops. │ ├──────────────────────────────┼──────────────────────────────────────────────┤ │ </summary>
+    <author><name>Sanjaiyan Parthipan</name></author>
   </entry>
   <entry>
     <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
@@ -358,101 +456,5 @@
     <updated>2026-09-12T16:22:01Z</updated>
     <summary type="text">ChatGPT can write better code than most junior developers. It can explain concepts, debug errors, and generate entire functions in seconds. For experienced developers, it is a superpower. For beginners trying to learn how to code, it is a trap. The problem: copying code you do not understand When a beginner asks ChatGPT &quot;write me a function to sort a list in Python,&quot; they get perfect code instantl</summary>
     <author><name>Ahamad Mamun Nishar Miya</name></author>
-  </entry>
-  <entry>
-    <title>I Finally Published My First NPM Package! 🎉</title>
-    <link href="https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om" rel="alternate"/>
-    <id>https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om</id>
-    <updated>2026-09-12T16:20:34Z</updated>
-    <summary type="text">Hello everyone 👋 I’m really happy to finally share my first NPM package: taglite 🚀 This package started from a simple need in one of my projects. I needed a Tag Input component, so I tried several different libraries. Each one had its own limitations. Some were missing features I needed, while others weren’t flexible enough to customize the way I wanted. So I decided to build my own. As I kept usi</summary>
-    <author><name>Hossein Najafi</name></author>
-  </entry>
-  <entry>
-    <title>Prompt: AI Governance Enters Its Verification Phase</title>
-    <link href="https://aibusiness.com/ai-policy/prompt-ai-governance-enters-verification-phase" rel="alternate"/>
-    <id>https://aibusiness.com/ai-policy/prompt-ai-governance-enters-verification-phase</id>
-    <updated>2026-09-11T16:13:14Z</updated>
-    <summary type="text">California's new AI auditing laws point to a shift from companies making their own safety claims to proving those claims in independent review.</summary>
-    <author><name>Liz Hughes</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
-    <link href="https://openai.com/index/scaling-storage-one-billion-users-part-one" rel="alternate"/>
-    <id>https://openai.com/index/scaling-storage-one-billion-users-part-one</id>
-    <updated>2026-09-11T10:00:00Z</updated>
-    <summary type="text">Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Mistral Bets Enterprise AI Will Be About Control, Not Just Intelligence</title>
-    <link href="https://aibusiness.com/generative-ai/mistral-bets-enterprise-ai-about-control-not-just-intelligence" rel="alternate"/>
-    <id>https://aibusiness.com/generative-ai/mistral-bets-enterprise-ai-about-control-not-just-intelligence</id>
-    <updated>2026-09-11T15:03:06Z</updated>
-    <summary type="text">The French AI lab is using a $3B fundraise to sell control over AI infrastructure, not just model power -- a shift in direction that could matter to U.S. firms in Europe too.</summary>
-    <author><name>AI Business</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Larry Ellison Steps Back From Oracle Limelight in AI Era</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/larry-ellison-steps-back-from-oracle-limelight-in-ai-era" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/larry-ellison-steps-back-from-oracle-limelight-in-ai-era</id>
-    <updated>2026-09-11T21:20:23Z</updated>
-    <summary type="text">Oracle Corp. earnings calls this year have been missing a familiar voice: Larry Ellison’s.</summary>
-    <author><name>Brody Ford and Edwina Otira</name></author>
-  </entry>
-  <entry>
-    <title>Oracle Boosts Layoffs Plan by $700 Million</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million</id>
-    <updated>2026-09-11T21:13:29Z</updated>
-    <summary type="text">Oracle Corp. increased the scale of its planned job cuts while the company grapples with a cash crunch tied to development of large-scale data centers for artificial intelligence work.</summary>
-    <author><name>Brody Ford</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too</title>
-    <link href="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</id>
-    <updated>2026-09-11T20:59:47Z</updated>
-    <summary type="text">Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be &quot;a form of public good.&quot;</summary>
-    <author><name>Julie Bort</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI’s feud with mathematicians is only escalating</title>
-    <link href="https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/</id>
-    <updated>2026-09-11T20:57:36Z</updated>
-    <summary type="text">Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.</summary>
-    <author><name>Tim Fernholz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Lawyer fined $5K over AI-hallucinated witnesses in a murder case</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal</id>
-    <updated>2026-09-11T20:44:02Z</updated>
-    <summary type="text">New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing to &quot;verify the factual claims and legal […]</summary>
-    <author><name>Emma Roth</name></author>
-  </entry>
-  <entry>
-    <title>One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't in the New Model</title>
-    <link href="https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/" rel="alternate"/>
-    <id>https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/</id>
-    <updated>2026-09-12T14:00:02Z</updated>
-    <summary type="text">A real Weave project that regression-tests three OpenAI models against the exact reply format your app depends on. The post One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't in the New Model appeared first on Towards Data Science.</summary>
-    <author><name>Abdullahi Dattijo</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data</title>
-    <link href="https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/" rel="alternate"/>
-    <id>https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/</id>
-    <updated>2026-09-11T13:50:28Z</updated>
-    <summary type="text">Anthropic's new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba's Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for missile software, autonomous kamikaze drones, and nationwide surveillance systems. The article How hack</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
