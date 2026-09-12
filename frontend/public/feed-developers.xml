@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-12T13:29:56Z</updated>
+  <updated>2026-09-12T16:54:14Z</updated>
   <entry>
     <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
     <link href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" rel="alternate"/>
@@ -13,6 +13,56 @@
     <summary type="text">Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously measure: does the skill trigger, does it […] The post Anthropic Adds Plugin Evals to Claude Code: 6 G</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Copilot Writes Your GitHub Actions Workflow. Here Are the 4 Things It Gets Wrong.</title>
+    <link href="https://dev.to/jjoyneriv/copilot-writes-your-github-actions-workflow-here-are-the-4-things-it-gets-wrong-5l3" rel="alternate"/>
+    <id>https://dev.to/jjoyneriv/copilot-writes-your-github-actions-workflow-here-are-the-4-things-it-gets-wrong-5l3</id>
+    <updated>2026-09-12T16:38:33Z</updated>
+    <summary type="text">Copilot is genuinely good at GitHub Actions YAML. It knows the schema, it remembers the syntax you always look up, and it will produce a working workflow faster than you will. It is also fluent in every insecure pattern on GitHub, because those patterns are all over its training data. The workflow it hands you will usually run. That is a different property from being safe. Here are the four things</summary>
+    <author><name>James Joyner</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why AI Coding Agents Break Git (And How edio Fixes It in Under 5 Milliseconds)</title>
+    <link href="https://dev.to/devxdh/why-ai-coding-agents-break-git-and-how-edio-fixes-it-in-under-5-milliseconds-2loi" rel="alternate"/>
+    <id>https://dev.to/devxdh/why-ai-coding-agents-break-git-and-how-edio-fixes-it-in-under-5-milliseconds-2loi</id>
+    <updated>2026-09-12T16:38:07Z</updated>
+    <summary type="text">Here is a scenario every developer using Claude Code, Cursor, or Aider knows too well: You prompt your AI agent across 7 iterations. Turns 1 to 6 are solid—models are written, database queries work, and tests pass. On Turn 7, you ask for a minor optimization. The agent goes rogue, touches 12 files, breaks imports, and introduces a nasty regression. Now you're stuck: git restore . fixes the bug, bu</summary>
+    <author><name>Dev Dhanadiya</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How to Build RAG Chatbot with Pinecone - A Full-Stack Walkthrough</title>
+    <link href="https://dev.to/samchenreviews/how-to-build-rag-chatbot-with-pinecone-a-full-stack-walkthrough-emb" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/how-to-build-rag-chatbot-with-pinecone-a-full-stack-walkthrough-emb</id>
+    <updated>2026-09-12T16:30:57Z</updated>
+    <summary type="text">Result: By the end of this guide you will have a production-ready chatbot that pulls the most relevant passages from your internal SOP (Standard Operating Procedure) documents, runs them through OpenAI's GPT-4, and returns precise, citation-ready answers. The whole pipeline lives in a Docker-compose stack, uses LangChain for orchestration, and stores embeddings in Pinecone's vector database. RAG c</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Build a rag legal research assistant that drafts briefs in under 10 minutes</title>
+    <link href="https://dev.to/samchenreviews/build-a-rag-legal-research-assistant-that-drafts-briefs-in-under-10-minutes-1ja4" rel="alternate"/>
+    <id>https://dev.to/samchenreviews/build-a-rag-legal-research-assistant-that-drafts-briefs-in-under-10-minutes-1ja4</id>
+    <updated>2026-09-12T16:30:31Z</updated>
+    <summary type="text">You can spin up a Retrieval-Augmented Generation (RAG) legal research assistant in a few hours, hook it up to public case-law APIs, and have it return a concise brief in roughly ten minutes of work. The system combines a vector store of recent opinions, LangChain orchestration, and OpenAI's text-creation model so you retrieve the most relevant cases, summarize them, and let the LLM draft a brief -</summary>
+    <author><name>Sam Chen</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>I Finally Published My First NPM Package! 🎉</title>
+    <link href="https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om" rel="alternate"/>
+    <id>https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om</id>
+    <updated>2026-09-12T16:20:34Z</updated>
+    <summary type="text">Hello everyone 👋 I’m really happy to finally share my first NPM package: taglite 🚀 This package started from a simple need in one of my projects. I needed a Tag Input component, so I tried several different libraries. Each one had its own limitations. Some were missing features I needed, while others weren’t flexible enough to customize the way I wanted. So I decided to build my own. As I kept usi</summary>
+    <author><name>Hossein Najafi</name></author>
   </entry>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
@@ -393,14 +443,5 @@
     <summary type="text">Mathematician Tristan Buckmaster says an OpenAI researcher pressured him after information about his AI-assisted progress on the Navier-Stokes equations allegedly reached the company. The researcher tried to remove his co-author because he works at Anthropic and threatened Buckmaster when he refused, according to Buckmaster's account. OpenAI then claimed its own breakthrough using the same unusual</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Retrieval Stack Nobody Shows You: Chunking, Reranking, Filtering, and Context</title>
-    <link href="https://dev.to/hosseinhezami/the-retrieval-stack-nobody-shows-you-chunking-reranking-filtering-and-context-45hk" rel="alternate"/>
-    <id>https://dev.to/hosseinhezami/the-retrieval-stack-nobody-shows-you-chunking-reranking-filtering-and-context-45hk</id>
-    <updated>2026-09-09T17:31:24Z</updated>
-    <summary type="text">Most RAG failures are not model failures. The model did not forget how to read. The prompt is not necessarily bad. The embedding model is not always the culprit. The answer was often lost earlier, in the part of the system nobody demos: how documents were parsed, how chunks were created, which chunks were allowed by filters, how candidates were ranked, and how the final context was assembled. The </summary>
-    <author><name>Hossein Hezami</name></author>
-    <category term="rag"/>
   </entry>
 </feed>
