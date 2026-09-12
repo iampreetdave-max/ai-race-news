@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-11T21:39:22Z</updated>
+  <updated>2026-09-12T00:02:01Z</updated>
   <entry>
     <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
     <link href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" rel="alternate"/>
@@ -30,6 +30,54 @@
     <updated>2026-09-11T08:11:46Z</updated>
     <summary type="text">OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT appeared first on</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Two Rust Clients for Gemma 4: Calling the Endpoint vs. Calling the MCP Server 🦀</title>
+    <link href="https://dev.to/gde/two-rust-clients-for-gemma-4-calling-the-endpoint-vs-calling-the-mcp-server-3kj4" rel="alternate"/>
+    <id>https://dev.to/gde/two-rust-clients-for-gemma-4-calling-the-endpoint-vs-calling-the-mcp-server-3kj4</id>
+    <updated>2026-09-11T23:28:43Z</updated>
+    <summary type="text">This article provides a step by step guide to two small Rust CLIs that ask a self-hosted Gemma 4 E2B the same question. The first calls the model's OpenAI-compatible HTTP endpoint directly. The second is an MCP client: it launches the rig's own MCP server and asks through its tools. https://github.com/xbill9/gemma-rust https://github.com/xbill9/gemma-rust-mcp What is this project trying to Do? Bot</summary>
+    <author><name>xbill</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Everyone Measures AI Usage. 70% Can't Measure What It Returned.</title>
+    <link href="https://dev.to/unlocked-consulting/everyone-measures-ai-usage-70-cant-measure-what-it-returned-5a6l" rel="alternate"/>
+    <id>https://dev.to/unlocked-consulting/everyone-measures-ai-usage-70-cant-measure-what-it-returned-5a6l</id>
+    <updated>2026-09-11T23:15:07Z</updated>
+    <summary type="text">Anthropic surveyed 132 of its own engineers about Claude Code. Merged pull requests per day rose 67 percent. Daily use of the tool climbed from 28 to 59 percent. Self-reported productivity gains ran between 20 and 50 percent. But then someone checked the organization's delivery dashboard and saw that the delivery metrics had not moved. That gap is the whole subject of this piece. A tool can be use</summary>
+    <author><name>Helkyn Coello</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code deletes clean worktrees on exit without asking. git worktree lock stops it.</title>
+    <link href="https://dev.to/day_b3fa2204948ded3059f6f/claude-code-deletes-clean-worktrees-on-exit-without-asking-git-worktree-lock-stops-it-ej" rel="alternate"/>
+    <id>https://dev.to/day_b3fa2204948ded3059f6f/claude-code-deletes-clean-worktrees-on-exit-without-asking-git-worktree-lock-stops-it-ej</id>
+    <updated>2026-09-11T23:12:29Z</updated>
+    <summary type="text">TL;DR If you /exit a claude --worktree &lt;name&gt; session with no uncommitted changes and no new commits, Claude Code removes the worktree and its branch without showing the Keep/Remove dialog. This is documented behavior, not a bug. There is no setting to turn it off. Claude Code holds its own git worktree lock on the worktree and only ever releases locks whose reason matches its own format. Re-lock </summary>
+    <author><name>day</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agentic development needs a famous 5 minute install</title>
+    <link href="https://dev.to/cory_marsh/agentic-development-needs-a-famous-5-minute-install-9m7" rel="alternate"/>
+    <id>https://dev.to/cory_marsh/agentic-development-needs-a-famous-5-minute-install-9m7</id>
+    <updated>2026-09-11T23:08:20Z</updated>
+    <summary type="text">WordPress became 40% of the Internet because it allowed anyone who could follow along a guide on a Linux terminal could install the Web Server and have the blog up and running in 5 minutes. That famous 5 minute install is what made WordPress the dominant web technology on the web. Agents like Claude and Codex have taken over not just app and web development in the last 6-12 months - they have also</summary>
+    <author><name>cory marsh</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Started Using /clear After Testing with Playwright MCP</title>
+    <link href="https://dev.to/tohru_yaginuma_4f041533c6/i-started-using-clear-after-testing-with-playwright-mcp-5ggk" rel="alternate"/>
+    <id>https://dev.to/tohru_yaginuma_4f041533c6/i-started-using-clear-after-testing-with-playwright-mcp-5ggk</id>
+    <updated>2026-09-11T23:07:45Z</updated>
+    <summary type="text">Long Story Short After using tools like Playwright MCP that can return large tool results, continuing to work with that context still in the session can make subsequent processing heavier. Since then, when I finish testing with Playwright MCP and do not need that context for the next task, I use /clear. My rule is simple: “Will I need this context for the next task?” Context Recently, I hit the us</summary>
+    <author><name>Tohru Yaginuma</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -318,34 +366,5 @@
     <updated>2026-09-11T04:27:12Z</updated>
     <summary type="text">I have a few web projects with pretty good UI/UX and I’m wondering if there’s any tool or workflow that can turn an existing codebase into a dataset for fine tuning. For example, given a React/Next.js project with components, pages, styling, etc. or a static html site, I’d like to turn it into something like: instruction/prompt -&gt; code or whatever format actually makes sense for training an instru</summary>
     <author><name>/u/ImBadGuyInEveryStory</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code on a React Native Codebase: Guardrails That Actually Change the Output</title>
-    <link href="https://dev.to/sophie_fa_6ed935b0601d76/claude-code-on-a-react-native-codebase-guardrails-that-actually-change-the-output-3pd2" rel="alternate"/>
-    <id>https://dev.to/sophie_fa_6ed935b0601d76/claude-code-on-a-react-native-codebase-guardrails-that-actually-change-the-output-3pd2</id>
-    <updated>2026-09-09T13:19:12Z</updated>
-    <summary type="text">Every React Native developer has run the same experiment by now: point an AI agent at the codebase, ask for a feature, watch it produce something that compiles, and then quietly rewrite half of it before merging. The demo works. The diff does not. The gap is not model quality. It is that an agent with no constraints makes the statistically average choice at every fork, and the statistically averag</summary>
-    <author><name>Sophie F A</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What a forked Claude Code skill can see: a codeword, a passphrase, and a 5x bill</title>
-    <link href="https://dev.to/rulestack/what-a-forked-claude-code-skill-can-see-a-codeword-a-passphrase-and-a-5x-bill-3g8e" rel="alternate"/>
-    <id>https://dev.to/rulestack/what-a-forked-claude-code-skill-can-see-a-codeword-a-passphrase-and-a-5x-bill-3g8e</id>
-    <updated>2026-09-09T13:17:00Z</updated>
-    <summary type="text">A skill with context: fork could not see a codeword we had planted two messages earlier, but it could see the passphrase in CLAUDE.md. Switch the fork to agent: Explore and CLAUDE.md is gone too, except that the agent went and ran cat CLAUDE.md on its own. And each forked invocation cost about five times what the same skill cost inline. This is a measurement post about one frontmatter line. Claude</summary>
-    <author><name>Rulestack</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Run LLMs Locally: Ollama Setup &amp; Hardware Requirements</title>
-    <link href="https://dev.to/doogal/run-llms-locally-ollama-setup-hardware-requirements-4deh" rel="alternate"/>
-    <id>https://dev.to/doogal/run-llms-locally-ollama-setup-hardware-requirements-4deh</id>
-    <updated>2026-09-09T13:14:04Z</updated>
-    <summary type="text">If you want to run LLMs locally, I recommend using Ollama to manage model weights and serve a local API. While you will need substantial hardware—typically a minimum of 16GB of VRAM or an Apple Silicon Mac with unified memory—this setup lets you run private, free agentic workflows on your own machine. Let's be honest: if you want to run an LLM locally, your first major hurdle isn't writing code—it</summary>
-    <author><name>Doogal Simpson</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
 </feed>
