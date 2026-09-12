@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-12T04:27:21Z</updated>
+  <updated>2026-09-12T09:09:38Z</updated>
   <entry>
     <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
     <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next</title>
+    <link href="https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/" rel="alternate"/>
+    <id>https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/</id>
+    <updated>2026-09-12T08:28:53Z</updated>
+    <summary type="text">In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are &quot;severely misaligned.&quot; They argue that mass-producing solved problems with AI undermines the discipline's true goal: understanding. The mathematicians see this as a symptom of a broader threat to intellectual work. The article Leading mathematicians fear AI is making their field dumber, and war</summary>
+    <author><name>Matthias Bastian</name></author>
   </entry>
   <entry>
     <title>Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize</title>
@@ -322,6 +330,16 @@
     <category term="regulation"/>
   </entry>
   <entry>
+    <title>History of the Model Context Protocol (MCP)</title>
+    <link href="https://dev.to/mohamed_fysil_9ba38502093/history-of-the-model-context-protocol-mcp-3n1g" rel="alternate"/>
+    <id>https://dev.to/mohamed_fysil_9ba38502093/history-of-the-model-context-protocol-mcp-3n1g</id>
+    <updated>2026-09-12T09:03:36Z</updated>
+    <summary type="text">History of the Model Context Protocol (MCP) Origins (mid-2024) MCP started as an internal fix for an annoyance. In July 2024, Anthropic engineer David Soria Parra got tired of manually copying answers from Claude into his code editor because the model had no way to reach outside tools. He and colleague Justin Spahr-Summers sketched out a protocol to solve that, along with Mahesh Murag. Public Laun</summary>
+    <author><name>Mohamed Fysil</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>When AI Goes Rogue, Who’s Legally Responsible?</title>
     <link href="https://www.bloomberg.com/news/videos/2026-09-11/when-ai-goes-rogue-who-s-legally-responsible" rel="alternate"/>
     <id>https://www.bloomberg.com/news/videos/2026-09-11/when-ai-goes-rogue-who-s-legally-responsible</id>
@@ -342,6 +360,31 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>The 94% Decision: One Architecture Call That Made IntegrateX Feel Instant</title>
+    <link href="https://dev.to/yaseenyk04/the-94-decision-one-architecture-call-that-made-integratex-feel-instant-675" rel="alternate"/>
+    <id>https://dev.to/yaseenyk04/the-94-decision-one-architecture-call-that-made-integratex-feel-instant-675</id>
+    <updated>2026-09-12T08:46:16Z</updated>
+    <summary type="text">[ EXECUTIVE TEARDOWN // TL;DR ] The near-fatal trap: JSON.stringify-ing React Flow nodes persists the view — 90%+ renderer state the client can reconstruct for free. A lossless, schema-aware Serialization Adapter maps UI objects to compact domain structs, cutting payloads 94% round-trip. The win compounds: instant saves, a stable domain schema for versioning and execution, and UI redesigns that ne</summary>
+    <author><name>Yaseen Khatib</name></author>
+  </entry>
+  <entry>
+    <title>I Built an AI Money Agent That's Structurally Incapable of Touching the Money</title>
+    <link href="https://dev.to/yaseenyk04/i-built-an-ai-money-agent-thats-structurally-incapable-of-touching-the-money-5h0j" rel="alternate"/>
+    <id>https://dev.to/yaseenyk04/i-built-an-ai-money-agent-thats-structurally-incapable-of-touching-the-money-5h0j</id>
+    <updated>2026-09-12T08:46:14Z</updated>
+    <summary type="text">[ EXECUTIVE TEARDOWN // TL;DR ] Sable has no cloud backend: every financial record lives in on-device SQLite, so privacy is a topology, not a policy. Every model function call is a dry run rendered as a Review &amp; Confirm card — the human commits, so a hallucination's blast radius is one dismissible card. Serialized writes, a daily local RAG Morning Briefing, and offline-first design make the trust </summary>
+    <author><name>Yaseen Khatib</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MongoDB Aggregation Pipelines: Stage Order Is the Win</title>
+    <link href="https://dev.to/yaseenyk04/mongodb-aggregation-pipelines-stage-order-is-the-win-3cfk" rel="alternate"/>
+    <id>https://dev.to/yaseenyk04/mongodb-aggregation-pipelines-stage-order-is-the-win-3cfk</id>
+    <updated>2026-09-12T08:45:45Z</updated>
+    <summary type="text">[ EXECUTIVE TEARDOWN // TL;DR ] Put $match first and on indexed fields — every document eliminated early is one the rest of the pipeline never touches. $lookup is a join: run it late (after match/limit) and index the foreign field, or it degrades to repeated scans. Profile with explain('executionStats') and reorder by the real numbers, not intuition. Design pipelines bottom-up: find the smallest s</summary>
+    <author><name>Yaseen Khatib</name></author>
+  </entry>
+  <entry>
     <title>One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’</title>
     <link href="https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/" rel="alternate"/>
     <id>https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/</id>
@@ -357,6 +400,24 @@
     <summary type="text">Authors and publishers fight over how to split Anthropic's $1.5 billion settlement, the largest copyright deal in US history. The article Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid appeared first on The Decoder.</summary>
     <author><name>Manuel Uth</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Privacy Paradox: AI Personalization Without Surveillance in Web3</title>
+    <link href="https://dev.to/kalpick_sharma_d32ace423a/the-privacy-paradox-ai-personalization-without-surveillance-in-web3-16a" rel="alternate"/>
+    <id>https://dev.to/kalpick_sharma_d32ace423a/the-privacy-paradox-ai-personalization-without-surveillance-in-web3-16a</id>
+    <updated>2026-09-12T08:39:31Z</updated>
+    <summary type="text">AI personalization usually follows a simple assumption: More data = better personalization. The system collects your behavior, preferences, identity, history, and interactions. Then the AI uses that context to make the experience feel more personal. But there is another question worth asking: Does AI really need all that data? What if we could give an AI system the information it needs without giv</summary>
+    <author><name>Kalpick Sharma</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>How I Built a Fast, Offline-First Gluten Detection PWA Using Web OCR &amp; Open Food Facts</title>
+    <link href="https://dev.to/particual_fa18b6a17d860df/how-i-built-a-fast-offline-first-gluten-detection-pwa-using-web-ocr-open-food-facts-26og" rel="alternate"/>
+    <id>https://dev.to/particual_fa18b6a17d860df/how-i-built-a-fast-offline-first-gluten-detection-pwa-using-web-ocr-open-food-facts-26og</id>
+    <updated>2026-09-12T08:38:40Z</updated>
+    <summary type="text">Navigating dietary restrictions like Celiac disease or gluten sensitivity requires quick, reliable information right at the grocery store. Traditional apps can be slow or bloated. To solve this, I built Glutensa—an open, lightweight Progressive Web App (PWA) designed to analyze food ingredients in real time using barcode scanning and OCR (Optical Character Recognition). Here is a breakdown of the </summary>
+    <author><name>particual</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT</title>
@@ -383,68 +444,5 @@
     <updated>2026-09-11T14:08:41Z</updated>
     <summary type="text">Meta Platforms Inc. has been speaking to bond investors in Europe as part of a non-deal roadshow for at least a week as hyperscalers look to tap different global debt markets to fund the AI boom.</summary>
     <author><name>Ronan Martin</name></author>
-  </entry>
-  <entry>
-    <title>Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages</title>
-    <link href="https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/</id>
-    <updated>2026-09-11T06:57:22Z</updated>
-    <summary type="text">Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere's WMT26 evaluation. Weights are free for non-commercial use, with commercial access through Cohere Model Vault or RWS Language Weaver. The post Cohere Releases North Small Translate: A 218B MoE T</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude users found ways around safeguards for bioweapons research</title>
-    <link href="https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/" rel="alternate"/>
-    <id>https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/</id>
-    <updated>2026-09-11T13:02:35Z</updated>
-    <summary type="text">Some dangerous biology looks much like legitimate research, complicating AI safeguards.</summary>
-    <author><name>Zehra Munir, Financial Times</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>NYC, LA, Montessori Schools Limit AI As Families Flock to Low-Tech Classrooms</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/nyc-la-montessori-schools-limit-ai-as-families-flock-to-low-tech-classrooms" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/nyc-la-montessori-schools-limit-ai-as-families-flock-to-low-tech-classrooms</id>
-    <updated>2026-09-11T13:00:46Z</updated>
-    <summary type="text">US schools across the nation are curbing their use of technology amid mounting parental concerns. This is happening as districts look to boost enrollment and cut costs while grappling with a dwindling pool of students.</summary>
-    <author><name>Erin Hudson</name></author>
-  </entry>
-  <entry>
-    <title>Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration</title>
-    <link href="https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/</id>
-    <updated>2026-09-11T06:34:39Z</updated>
-    <summary type="text">Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M tokens. Fugu Ultra v2 targets peak capability, scoring 48.3 on Chartography and 74.3 on DeepSWE. The post Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agen</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="product-launch"/>
-    <category term="agents"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation</title>
-    <link href="https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/</id>
-    <updated>2026-09-11T06:01:25Z</updated>
-    <summary type="text">Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query. Guided by textual &quot;gradients&quot; from a 4-module propose-execute-select-update loop, ToolGrad reaches a 99.8% pass rate on ToolBench versus 63.8% for DFS search. Gemma-3-12B fine-tuned on only 500 samples scores 83.1</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Download: biotech’s future and cheaper, cleaner steel</title>
-    <link href="https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/" rel="alternate"/>
-    <id>https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</id>
-    <updated>2026-09-11T12:10:00Z</updated>
-    <summary type="text">This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds…</summary>
-    <author><name>Thomas Macaulay</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic Says Iran, Russia Used Claude for Weapons Research</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-us-adversaries-aimed-claude-at-weapons-research" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-us-adversaries-aimed-claude-at-weapons-research</id>
-    <updated>2026-09-11T12:04:27Z</updated>
-    <summary type="text">Anthropic PBC says its artificial intelligence model Claude has been misused in attempts to develop a wide range of potential military applications, including kamikaze drone swarms, missile navigation systems and biological weapons.</summary>
-    <author><name>Olivia Solon, Jordan Robertson and Ryan Gallagher</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
