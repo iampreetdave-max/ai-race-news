@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-13T18:42:05Z</updated>
+  <updated>2026-09-13T21:21:05Z</updated>
   <entry>
     <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
     <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra" rel="alternate"/>
@@ -15,12 +15,47 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction</title>
+    <link href="https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/</id>
+    <updated>2026-09-13T19:46:38Z</updated>
+    <summary type="text">In this tutorial, we build an end-to-end hierarchical Neural Radiance Field (NeRF) using JAX, Flax, Optax, and the volume-rendering primitives provided by jax3d. We first construct a synthetic multi-view dataset from an analytic scene containing volumetric geometry and view-dependent radiance, using sample_along_rays and volume_rendering to establish the forward rendering process. We then implemen</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth</title>
+    <link href="https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/</id>
+    <updated>2026-09-13T17:02:26Z</updated>
+    <summary type="text">Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token, with no reset at the serving boundary. The reference tied configuration uses 48 encoder and 48 decoder layers, executing 96 logical blocks per token while </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Elevenlabs makes Music v2.5 available via app and API with free and pro tier options</title>
     <link href="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/" rel="alternate"/>
     <id>https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/</id>
     <updated>2026-09-13T13:40:36Z</updated>
     <summary type="text">ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music. The article Elevenlabs makes Music v2.5 available via app and API with free and pro tier options appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>Trump and Mike Johnson think the AI industry is overreacting</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting</id>
+    <updated>2026-09-13T19:41:48Z</updated>
+    <summary type="text">Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to &quot;pace the frontier&quot; and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, […]</summary>
+    <author><name>Terrence O’Brien</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What’s behind the AI industry’s latest warnings of doom?</title>
+    <link href="https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/</id>
+    <updated>2026-09-13T19:40:15Z</updated>
+    <summary type="text">On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.</summary>
+    <author><name>Anthony Ha</name></author>
   </entry>
   <entry>
     <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
@@ -212,12 +247,81 @@
     <author><name>Asif Razzaq</name></author>
   </entry>
   <entry>
+    <title>Your LLM cost estimate is wrong above 200,000 tokens</title>
+    <link href="https://dev.to/llmwaves/your-llm-cost-estimate-is-wrong-above-200000-tokens-26ck" rel="alternate"/>
+    <id>https://dev.to/llmwaves/your-llm-cost-estimate-is-wrong-above-200000-tokens-26ck</id>
+    <updated>2026-09-13T21:12:32Z</updated>
+    <summary type="text">I went looking for a straight answer to &quot;what will this cost per month&quot; and found that almost every comparison table gets it wrong the moment prompts get long. Not slightly wrong. Double. The threshold nobody shows you Gemini 3.1 Pro is $2 per million input tokens, $12 per million output. That is the number in every roundup. It holds up to 200,000 prompt tokens, and above that line Google doubles </summary>
+    <author><name>llmwaves</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>China’s Data Regulator Plans Standards Push for Embodied AI</title>
     <link href="https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai" rel="alternate"/>
     <id>https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai</id>
     <updated>2026-09-13T03:29:51Z</updated>
     <summary type="text">China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow.</summary>
     <author><name>Bloomberg News</name></author>
+  </entry>
+  <entry>
+    <title>Your AI Agent Has No Colleagues</title>
+    <link href="https://dev.to/fuyuki0/your-ai-agent-has-no-colleagues-514b" rel="alternate"/>
+    <id>https://dev.to/fuyuki0/your-ai-agent-has-no-colleagues-514b</id>
+    <updated>2026-09-13T20:51:42Z</updated>
+    <summary type="text">&quot;The coordination of the builders is not direct. It is the work already done that directs and triggers the work that follows.&quot; — Pierre-Paul Grassé, describing termites, 1959 1. The Loop You have seen this. Every agent framework does it :) &gt; create_issue x 422 validation_error &gt; create_issue (retry) x 422 validation_error &gt; create_issue (retry, arguments tweaked slightly) x 422 validation_error Th</summary>
+    <author><name>Fuyuki0</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Code Dictator vs Wispr Flow vs Claude Code vs Copilot CLI: Free Voice Dictation for AI Coding in VS Code</title>
+    <link href="https://dev.to/dmitriusan/code-dictator-vs-wispr-flow-vs-claude-code-vs-copilot-cli-free-voice-dictation-for-ai-coding-in-vs-a8m" rel="alternate"/>
+    <id>https://dev.to/dmitriusan/code-dictator-vs-wispr-flow-vs-claude-code-vs-copilot-cli-free-voice-dictation-for-ai-coding-in-vs-a8m</id>
+    <updated>2026-09-13T20:49:42Z</updated>
+    <summary type="text">Voice input for AI coding assistants got crowded fast in 2026. If you're picking a tool, here's a direct, feature-level comparison — including where the tools we didn't build genuinely win. Quick answer Want free voice dictation that works with whatever AI assistant you're already using, right inside VS Code? That's Code Dictator's whole pitch: free, no paid tier, and it pastes into Claude, Copilo</summary>
+    <author><name>Dmytro Lisnichenko</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Holdout Ledgers Keep Agent Scores Honest</title>
+    <link href="https://dev.to/apppro_5726/holdout-ledgers-keep-agent-scores-honest-3bfo" rel="alternate"/>
+    <id>https://dev.to/apppro_5726/holdout-ledgers-keep-agent-scores-honest-3bfo</id>
+    <updated>2026-09-13T20:46:27Z</updated>
+    <summary type="text">A headline agent percentage is not a measurement until the task ledger, metrics, and controls can be re-run by a stranger. Teams that skip that freeze often publish marketing numbers dressed as evaluation, then discover they cannot reproduce the run. This note records a compact methodology that treats the dataset as a versioned artifact rather than a mood. The scripts below are labeled examples fo</summary>
+    <author><name>Avery Wang</name></author>
+  </entry>
+  <entry>
+    <title>When Free Inference Should Not Own the Retry Loop</title>
+    <link href="https://dev.to/aiio_6471/when-free-inference-should-not-own-the-retry-loop-2in3" rel="alternate"/>
+    <id>https://dev.to/aiio_6471/when-free-inference-should-not-own-the-retry-loop-2in3</id>
+    <updated>2026-09-13T20:45:25Z</updated>
+    <summary type="text">A retry loop that consults free inference before it fires again is not resilience. It is a second outage, delayed by a model call that can stall, drift, or disagree with itself. Status codes, idempotency keys, and a hard budget already decide whether work is safe to repeat. A model does not improve that decision when the model is the least reliable hop on the path. This is not an argument against </summary>
+    <author><name>Casey Li</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How We Built Webruno: A Website, Ecommerce &amp; CRM Platform with Next.js, React, Node.js, and MongoDB</title>
+    <link href="https://dev.to/idehweb/how-we-built-webruno-a-website-ecommerce-crm-platform-with-nextjs-react-nodejs-and-mongodb-4adn" rel="alternate"/>
+    <id>https://dev.to/idehweb/how-we-built-webruno-a-website-ecommerce-crm-platform-with-nextjs-react-nodejs-and-mongodb-4adn</id>
+    <updated>2026-09-13T20:39:02Z</updated>
+    <summary type="text">Building software for businesses is rarely about solving just one problem. A business may need a website, an online store, product management, customer management, forms, payments, SEO, and automation. Traditionally, these capabilities are handled by several different products. We built Webruno to bring these capabilities together in one platform. Webruno allows businesses to create and manage web</summary>
+    <author><name>Idehweb</name></author>
+  </entry>
+  <entry>
+    <title>🎧 Your AI Agent Is Thinking. You're Just Staring at a Blank Screen.</title>
+    <link href="https://dev.to/kiril6/your-ai-agent-is-thinking-youre-just-staring-at-a-blank-screen-b09" rel="alternate"/>
+    <id>https://dev.to/kiril6/your-ai-agent-is-thinking-youre-just-staring-at-a-blank-screen-b09</id>
+    <updated>2026-09-13T20:37:24Z</updated>
+    <summary type="text">You know the moment. You hit enter, the agent starts &quot;thinking,&quot; and for the next 15 to 45 seconds you're left watching a blinking cursor that gives you nothing — not a percentage, not a heartbeat, nothing. Too short to context-switch into something else. Too long to just sit there. So you do the thing everyone does: you tab away, then tab right back to check if it's done, then again, then again. </summary>
+    <author><name>Kiril Delovski</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>First Rollback: Revert the Agent PR You Cannot Explain</title>
+    <link href="https://dev.to/gitgo_5662/first-rollback-revert-the-agent-pr-you-cannot-explain-3akh" rel="alternate"/>
+    <id>https://dev.to/gitgo_5662/first-rollback-revert-the-agent-pr-you-cannot-explain-3akh</id>
+    <updated>2026-09-13T20:37:07Z</updated>
+    <summary type="text">Your first AI pull request will often need rollback. Plan that rollback before you merge anything. You lack repo history on day one. Agents still produce large and confident diffs today. A rollback plan keeps that blast radius tiny. What first rollback actually means First rollback means undoing your own agent PR. It does not mean rewriting team history casually. You revert a branch you still cont</summary>
+    <author><name>Quinn Zhu</name></author>
   </entry>
   <entry>
     <title>Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help</title>
@@ -338,117 +442,5 @@
     <updated>2026-09-13T15:21:05Z</updated>
     <summary type="text">sql table reference: RBAC SQL table create There has two function is must be override, which is getPermissionList and getRoleList, because sa-token unknown your structure of SQL. So, you want to tell it how to get your PermissionList and RoleList. 1. StpInterfaceImpl @Component public class StpInterfaceImpl implements StpInterface { @Autowired private SysPermissionService sysPermissionService; @Au</summary>
     <author><name>YYT-0901</name></author>
-  </entry>
-  <entry>
-    <title>🔥 The Imposter’s Tax: Why Hiding Your Wins Is Secretly Hurting Everyone</title>
-    <link href="https://dev.to/hizba_31d77c41803163b8ff0/the-imposters-tax-why-hiding-your-wins-is-secretly-hurting-everyone-bn8" rel="alternate"/>
-    <id>https://dev.to/hizba_31d77c41803163b8ff0/the-imposters-tax-why-hiding-your-wins-is-secretly-hurting-everyone-bn8</id>
-    <updated>2026-09-13T15:20:43Z</updated>
-    <summary type="text">💡 Personal Series: Hizba's Thoughts &amp; Reflections This post is my submission for the ℋℐ𝒵ℬ𝒜 (✿◠‿◠)⭐ and her thoughts. (っ◔◡◔)っ 💖 🌸 &quot;Your light doesn't shrink anyone else's sun; it just reminds them how to warm up.&quot; We need to talk about a silent, heavy tax that high-achieving creators pay every single day: The Guilt of Growing Up. 💸🥀 Have you ever finished a project, hit a milestone, or solved a com</summary>
-    <author><name>ℋℐ𝒵ℬ𝒜 (✿◠‿◠)⭐</name></author>
-  </entry>
-  <entry>
-    <title>I audited 50 projects built with Cursor &amp; Claude. Here are the 4 security traps they all had</title>
-    <link href="https://dev.to/carbonthecoder/i-audited-50-projects-built-with-cursor-claude-here-are-the-4-security-traps-they-all-had-1c16" rel="alternate"/>
-    <id>https://dev.to/carbonthecoder/i-audited-50-projects-built-with-cursor-claude-here-are-the-4-security-traps-they-all-had-1c16</id>
-    <updated>2026-09-13T15:10:31Z</updated>
-    <summary type="text">I’ve been using Cursor daily for months. It’s easily 5x'd my velocity. But if you look closely at the code it generates when you're moving fast, it has massive blindspots. It prioritizes &quot;making the code run&quot; over &quot;making the code production-ready.&quot; The most common things I kept catching it doing: Writing DB queries without tenant isolation (classic IDOR vulnerability). Doing token === secret on w</summary>
-    <author><name>mohammed ibrahim</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>My check ran green every time and its result could never reach the thing that needed it</title>
-    <link href="https://dev.to/mahirhir/my-check-ran-green-every-time-and-its-result-could-never-reach-the-thing-that-needed-it-30i4" rel="alternate"/>
-    <id>https://dev.to/mahirhir/my-check-ran-green-every-time-and-its-result-could-never-reach-the-thing-that-needed-it-30i4</id>
-    <updated>2026-09-13T15:07:02Z</updated>
-    <summary type="text">An acceptance report reads one cell per unit. For weeks it read the same thing on every single unit: accept: map=0 reproduced=absent (every unit, every run) absent is not a failure. It means the acceptance step looked for a result and found nothing there. Meanwhile the check that produces that result was running, and passing: OK_REPRODUCED independent=agree Green in one place, absent in another, p</summary>
-    <author><name>Mahiro Hirakawa</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control</title>
-    <link href="https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/</id>
-    <updated>2026-09-12T15:03:21Z</updated>
-    <summary type="text">Anthropic CEO Dario Amodei is calling for a controlled slowdown in AI development. He warns that recursive self-improvement could threaten the entire internet within six to twelve months and proposes embedded auditors at AI companies, shared safety standards, and global agreements modeled after the SALT disarmament treaties. His warning comes just ahead of what could be the largest initial public </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Model Isn't Done Until Someone Else Can Call It</title>
-    <link href="https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/" rel="alternate"/>
-    <id>https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/</id>
-    <updated>2026-09-13T15:00:01Z</updated>
-    <summary type="text">Building a FastAPI endpoint for churn prediction, and everything that broke between &quot;it runs&quot; and &quot;it's live The post Your Model Isn't Done Until Someone Else Can Call It appeared first on Towards Data Science.</summary>
-    <author><name>Ibrahim Salami</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised</id>
-    <updated>2026-09-12T21:16:28Z</updated>
-    <summary type="text">OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he […]</summary>
-    <author><name>Terrence O’Brien</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPT-6 Astra appears to show a &quot;step change&quot; in spatial reasoning based on early benchmarks</title>
-    <link href="https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/" rel="alternate"/>
-    <id>https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/</id>
-    <updated>2026-09-12T14:26:09Z</updated>
-    <summary type="text">In a new robotics benchmark, GPT-6 Astra shows major gains in spatial understanding. On StationeryBench, the model completed 7 out of 100 tasks with dual-arm robots, while competitor MolmoAct2 couldn't finish a single one. A researcher calls it a &quot;step change in spatial reasoning.&quot; The article GPT-6 Astra appears to show a &quot;step change&quot; in spatial reasoning based on early benchmarks appeared first</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>Nvidia wants to pour up to $10 billion into Anthropic's record-breaking IPO</title>
-    <link href="https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/" rel="alternate"/>
-    <id>https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/</id>
-    <updated>2026-09-12T14:05:18Z</updated>
-    <summary type="text">Nvidia is in talks to invest up to $10 billion in Anthropic's planned IPO, Reuters reports. At a target valuation of $2 trillion, it would be the largest IPO in history. Most of that money will likely end up right back at Nvidia in chip orders. The article Nvidia wants to pour up to $10 billion into Anthropic's record-breaking IPO appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>AI models' written reasoning steps correspond to distinct internal patterns, a new study finds</title>
-    <link href="https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/" rel="alternate"/>
-    <id>https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/</id>
-    <updated>2026-09-12T13:39:43Z</updated>
-    <summary type="text">Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their visible chain of thought reveals. The article AI models' written reasoning steps correspond to distinct internal patterns, a new study finds appeared first on The Decoder.</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="regulation"/>
-  </entry>
-  <entry>
-    <title>OpenAI’s Altman Says No IPO in 2026, Firm to Prioritize Safety</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune</id>
-    <updated>2026-09-12T19:36:39Z</updated>
-    <summary type="text">OpenAI won’t go public in this year as the artificial intelligence company focuses on addressing safety-related concerns around the technology, Chief Executive Officer Sam Altman told Fortune in an interview.</summary>
-    <author><name>María Paula Mijares Torres and Se Young Lee</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends</title>
-    <link href="https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/" rel="alternate"/>
-    <id>https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/</id>
-    <updated>2026-09-12T13:10:11Z</updated>
-    <summary type="text">Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie instructions to specific tasks and spell out when the job is done. The article GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your AI Adoption Lift Is a Selection Effect</title>
-    <link href="https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/" rel="alternate"/>
-    <id>https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/</id>
-    <updated>2026-09-13T12:00:02Z</updated>
-    <summary type="text">A practitioner's guide to estimating what an opt-in AI feature actually did, when nobody randomized it. The post Your AI Adoption Lift Is a Selection Effect appeared first on Towards Data Science.</summary>
-    <author><name>William Gieng</name></author>
-    <category term="data"/>
   </entry>
 </feed>
