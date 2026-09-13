@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-13T00:45:50Z</updated>
+  <updated>2026-09-13T05:49:26Z</updated>
+  <entry>
+    <title>Engineering Build Notes #3: When 200Gi Was More Storage Than the Nodes Needed</title>
+    <link href="https://dev.to/damola12345/engineering-build-notes-3-when-200gi-was-more-storage-than-the-nodes-needed-f9k" rel="alternate"/>
+    <id>https://dev.to/damola12345/engineering-build-notes-3-when-200gi-was-more-storage-than-the-nodes-needed-f9k</id>
+    <updated>2026-09-13T05:40:04Z</updated>
+    <summary type="text">How measuring Kubernetes node storage usage led to a simpler capacity decision in an Amazon EKS cluster. Engineering Build Notes is a series where I document engineering decisions, platform improvements, and infrastructure trade-offs from real production environments. Context In Engineering Build Notes #1, I investigated what initially looked like an opportunity to reduce worker-node capacity. The</summary>
+    <author><name>Adedamola Ajibola</name></author>
+  </entry>
+  <entry>
+    <title>OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์</title>
+    <link href="https://dev.to/sarantoon/openmontage-kabaiediiythiiwaa-ai-khwrhyudrnumatiknernedr-5aef" rel="alternate"/>
+    <id>https://dev.to/sarantoon/openmontage-kabaiediiythiiwaa-ai-khwrhyudrnumatiknernedr-5aef</id>
+    <updated>2026-09-13T05:16:08Z</updated>
+    <summary type="text">OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์ โดย Nokka (นก-กา) | 13 กันยายน 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka มีโปรเจกต์หนึ่งบน GitHub ที่มีคนกดดาวไปแล้ว 57,900 ดวง และ 7,300 ฟอร์ก [1] คำโปรยของมันสั้นและกล้า ระบบผลิตวิดีโอแบบ agentic ที่โอเพนซอร์สตัวแรกของโลก และประโยคที่ตามมาคือ &quot;เปลี่ยนผู้ช่วยเขียนโค้ด AI ของคุณให้เป็น</summary>
+    <author><name>Nokka</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Joint weight‑harness optimization approaches fine‑tuned model performance</title>
+    <link href="https://dev.to/olaughter/joint-weight-harness-optimization-approaches-fine-tuned-model-performance-2dlk" rel="alternate"/>
+    <id>https://dev.to/olaughter/joint-weight-harness-optimization-approaches-fine-tuned-model-performance-2dlk</id>
+    <updated>2026-09-13T05:00:00Z</updated>
+    <summary type="text">Alternating updates of model weights and executable harnesses can reach accuracy on par with full fine‑tuning while consuming a fraction of the training compute. The WHALE recipe shows that interleaving a short weight‑update phase with a lightweight harness search yields agents whose performance rivals that of models trained end‑to‑end, overturning the prevailing assumption that massive weight swe</summary>
+    <author><name>Papers Mache</name></author>
+    <category term="open-source"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>I recorded my Kubernetes AI agent failing, on purpose</title>
     <link href="https://dev.to/mskazemi/i-recorded-my-kubernetes-ai-agent-failing-on-purpose-1ib2" rel="alternate"/>
@@ -441,25 +469,5 @@
     <author><name>Will Knight</name></author>
     <category term="agents"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>When You Don’t Need MCP: A Practical Guide for AI Developers</title>
-    <link href="https://hackernoon.com/when-you-dont-need-mcp-a-practical-guide-for-ai-developers?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/when-you-dont-need-mcp-a-practical-guide-for-ai-developers?source=rss</id>
-    <updated>2026-09-10T03:52:01Z</updated>
-    <summary type="text">MCP (Model Context Protocol) gives AI agents a unified way to discover and call external tools, but the model itself can't tell the difference between an MCP tool and a plain function-calling tool — the JSON schema it sees is identical either way. MCP's real trade-off is that it front-loads every connected server's full tool schema into the context window and adds ongoing operational overhead, in </summary>
-    <author><name>Xi Yang</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Introducing GitTrends AI v5.0: Real-Time GitHub Velocity &amp; 1-Click MCP Discovery for Coding Agents</title>
-    <link href="https://dev.to/aman_social/introducing-gittrends-ai-v50-real-time-github-velocity-1-click-mcp-discovery-for-coding-agents-405e" rel="alternate"/>
-    <id>https://dev.to/aman_social/introducing-gittrends-ai-v50-real-time-github-velocity-1-click-mcp-discovery-for-coding-agents-405e</id>
-    <updated>2026-09-10T03:32:28Z</updated>
-    <summary type="text">🚀 Why Traditional GitHub Trending Falls Short for AI Engineers If you build with AI coding agents (Claude Code, Cursor, Codex, Antigravity), you’ve probably noticed a major blind spot in developer tooling: discovery. GitHub's native trending feed is useful, but: It ignores velocity dynamics: A repo with 50 stars gaining 40/day is moving faster than a 100k repo gaining 5, but gets buried. No taxono</summary>
-    <author><name>Aman</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
   </entry>
 </feed>

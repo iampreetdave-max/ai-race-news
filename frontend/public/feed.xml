@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-13T00:45:50Z</updated>
+  <updated>2026-09-13T05:49:26Z</updated>
   <entry>
     <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
     <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>China’s Data Regulator Plans Standards Push for Embodied AI</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai</id>
+    <updated>2026-09-13T03:29:51Z</updated>
+    <summary type="text">China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow.</summary>
+    <author><name>Bloomberg News</name></author>
   </entry>
   <entry>
     <title>OpenAI’s rogue AI tried to hack another company in May</title>
@@ -151,6 +159,96 @@
     <summary type="text">The iPhone 18 Pro and 18 Pro Max are almost here. Announced at Apple's September 2026 &quot;Sunrise and shine&quot; event alongside the iPhone Duo and other new gear, the two upgraded phones feature the faster A20 Pro processor with more GPU power as well as more neural cores for AI-related tasks, plus some welcome improvements […]</summary>
     <author><name>Brad Bourque</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Engineering Build Notes #3: When 200Gi Was More Storage Than the Nodes Needed</title>
+    <link href="https://dev.to/damola12345/engineering-build-notes-3-when-200gi-was-more-storage-than-the-nodes-needed-f9k" rel="alternate"/>
+    <id>https://dev.to/damola12345/engineering-build-notes-3-when-200gi-was-more-storage-than-the-nodes-needed-f9k</id>
+    <updated>2026-09-13T05:40:04Z</updated>
+    <summary type="text">How measuring Kubernetes node storage usage led to a simpler capacity decision in an Amazon EKS cluster. Engineering Build Notes is a series where I document engineering decisions, platform improvements, and infrastructure trade-offs from real production environments. Context In Engineering Build Notes #1, I investigated what initially looked like an opportunity to reduce worker-node capacity. The</summary>
+    <author><name>Adedamola Ajibola</name></author>
+  </entry>
+  <entry>
+    <title>The Physical Limits of AI: GPU Exhaustion, The 151M Token Heist, and The 38GW Power Wall</title>
+    <link href="https://dev.to/hksoldev/the-physical-limits-of-ai-gpu-exhaustion-the-151m-token-heist-and-the-38gw-power-wall-1id1" rel="alternate"/>
+    <id>https://dev.to/hksoldev/the-physical-limits-of-ai-gpu-exhaustion-the-151m-token-heist-and-the-38gw-power-wall-1id1</id>
+    <updated>2026-09-13T05:33:28Z</updated>
+    <summary type="text">For the last three years, the AI narrative has been simple: scale compute, add parameters, collect breakthroughs. But this week, that narrative slammed into the real world. In a matter of days, three separate events showed that the hardest bottlenecks facing modern artificial intelligence are no longer algorithmic—they are hardware limits, cyber-espionage, and municipal electrical grids. If you pr</summary>
+    <author><name>HkSolDev</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>React `startTransition` Without `useTransition`: The Standalone API Teams Keep Overlooking in Concurrent Mode</title>
+    <link href="https://dev.to/jsmanifest/react-starttransition-without-usetransition-the-standalone-api-teams-keep-overlooking-in-1lgp" rel="alternate"/>
+    <id>https://dev.to/jsmanifest/react-starttransition-without-usetransition-the-standalone-api-teams-keep-overlooking-in-1lgp</id>
+    <updated>2026-09-13T05:27:56Z</updated>
+    <summary type="text">React startTransition Without useTransition: The Standalone API Teams Keep Overlooking in Concurrent Mode This article was written with the assistance of AI, under human supervision and review. Most React concurrent-mode problems stem from teams treating useTransition as the only entry point. The pattern developers overlook is React's standalone startTransition export, a function that schedules lo</summary>
+    <author><name>jsmanifest</name></author>
+  </entry>
+  <entry>
+    <title>Scaling Event-Driven APIs: Real-Time WebSockets and Redis Pub/Sub for High-Concurrency Apps</title>
+    <link href="https://dev.to/mtahir27/scaling-event-driven-apis-real-time-websockets-and-redis-pubsub-for-high-concurrency-apps-90b" rel="alternate"/>
+    <id>https://dev.to/mtahir27/scaling-event-driven-apis-real-time-websockets-and-redis-pubsub-for-high-concurrency-apps-90b</id>
+    <updated>2026-09-13T05:23:10Z</updated>
+    <summary type="text">1. Introduction &amp; Industry Context In the landscape of modern application development, real-time interactivity has transitioned from a premium feature to a fundamental expectation. Whether architecting financial trading desks, collaborative multi-player whiteboards, live location trackers, or immediate notification engines, developers must deliver data-driven updates instantly. Historically, syste</summary>
+    <author><name>Muhammad Tahir</name></author>
+  </entry>
+  <entry>
+    <title>Agentic Synthetic Data Generation</title>
+    <link href="https://dev.to/isocyanideisgood/agentic-synthetic-data-generation-4k69" rel="alternate"/>
+    <id>https://dev.to/isocyanideisgood/agentic-synthetic-data-generation-4k69</id>
+    <updated>2026-09-13T05:21:54Z</updated>
+    <summary type="text">The next bottleneck in AI isn't compute. It's high-quality data. 💡 As public web data hits saturation, the most interesting shift in LLM and Agent development is the rise of Agentic Synthetic Data Generation. Instead of relying solely on messy, real-world scrape data: 1️⃣ Autonomous agents run in simulated environments to generate behavioural datasets. 2️⃣ Reasoning models perform self-correction </summary>
+    <author><name>Abhijeet Bhale</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Agentic AI in 2026: From Chatbot to Autonomous Coworker</title>
+    <link href="https://dev.to/botsailor/agentic-ai-in-2026-from-chatbot-to-autonomous-coworker-3j0e" rel="alternate"/>
+    <id>https://dev.to/botsailor/agentic-ai-in-2026-from-chatbot-to-autonomous-coworker-3j0e</id>
+    <updated>2026-09-13T05:19:11Z</updated>
+    <summary type="text">Two years ago, &quot;AI&quot; in most products meant a chat window that answered questions. In 2026, it means something that finishes tasks, books the meeting, refunds the order, opens the pull request without a human clicking &quot;send&quot; at every step. This is the shift from chatbot to autonomous coworker, and it's already reshaping how support, sales, and dev teams operate. Table of Contents What &quot;Agentic&quot; Act</summary>
+    <author><name>BotSailor</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์</title>
+    <link href="https://dev.to/sarantoon/openmontage-kabaiediiythiiwaa-ai-khwrhyudrnumatiknernedr-5aef" rel="alternate"/>
+    <id>https://dev.to/sarantoon/openmontage-kabaiediiythiiwaa-ai-khwrhyudrnumatiknernedr-5aef</id>
+    <updated>2026-09-13T05:16:08Z</updated>
+    <summary type="text">OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์ โดย Nokka (นก-กา) | 13 กันยายน 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka มีโปรเจกต์หนึ่งบน GitHub ที่มีคนกดดาวไปแล้ว 57,900 ดวง และ 7,300 ฟอร์ก [1] คำโปรยของมันสั้นและกล้า ระบบผลิตวิดีโอแบบ agentic ที่โอเพนซอร์สตัวแรกของโลก และประโยคที่ตามมาคือ &quot;เปลี่ยนผู้ช่วยเขียนโค้ด AI ของคุณให้เป็น</summary>
+    <author><name>Nokka</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Sell Memory APIs. I'm Also Building the Benchmark. Here's How I'm Trying Not to Rig It.</title>
+    <link href="https://dev.to/woochan/i-sell-memory-apis-im-also-building-the-benchmark-heres-how-im-trying-not-to-rig-it-481e" rel="alternate"/>
+    <id>https://dev.to/woochan/i-sell-memory-apis-im-also-building-the-benchmark-heres-how-im-trying-not-to-rig-it-481e</id>
+    <updated>2026-09-13T05:09:24Z</updated>
+    <summary type="text">Hey everyone. This time I'll go through what got me started on this benchmark, and the core of how it's actually built. It started from reading complaints, not from an idea. The same ones kept coming up: numbers a vendor publishes don't match numbers someone else measures, swapping the model that does the grading moves the results more than the gap between the systems being compared, and because o</summary>
+    <author><name>woochan</name></author>
+  </entry>
+  <entry>
+    <title>Your crypto product is invisible to AI search, and your docs are the reason</title>
+    <link href="https://dev.to/remotestackin/your-crypto-product-is-invisible-to-ai-search-and-your-docs-are-the-reason-3b5n" rel="alternate"/>
+    <id>https://dev.to/remotestackin/your-crypto-product-is-invisible-to-ai-search-and-your-docs-are-the-reason-3b5n</id>
+    <updated>2026-09-13T05:09:00Z</updated>
+    <summary type="text">I run Kunzum, a one-person studio doing AI search visibility for crypto companies. Before that I spent six years writing crypto content and running marketing for protocols. This post is the argument for why the studio exists, plus the two research findings behind it. Both studies are published with the raw data, so you can disagree with me using my own numbers. The problem, stated plainly Your buy</summary>
+    <author><name>RemoteStack Team</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Joint weight‑harness optimization approaches fine‑tuned model performance</title>
+    <link href="https://dev.to/olaughter/joint-weight-harness-optimization-approaches-fine-tuned-model-performance-2dlk" rel="alternate"/>
+    <id>https://dev.to/olaughter/joint-weight-harness-optimization-approaches-fine-tuned-model-performance-2dlk</id>
+    <updated>2026-09-13T05:00:00Z</updated>
+    <summary type="text">Alternating updates of model weights and executable harnesses can reach accuracy on par with full fine‑tuning while consuming a fraction of the training compute. The WHALE recipe shows that interleaving a short weight‑update phase with a lightweight harness search yields agents whose performance rivals that of models trained end‑to‑end, overturning the prevailing assumption that massive weight swe</summary>
+    <author><name>Papers Mache</name></author>
+    <category term="open-source"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>OpenAI just wants to win</title>
@@ -351,101 +449,5 @@
     <summary type="text">I've been watching a lot of beginners lately, and I keep seeing the same thing. Someone asks ChatGPT/Claude a question and gets an answer, after sees it works - and that's it... they move on :( Then a new problem comes up, and they do the same thing again. And I get it, I really do. It's fast, it's easy, and I use AI every day too. But after a while, you start to see a difference, there's a BIG ga</summary>
     <author><name>Sergey Boiko</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cognition helps Devin test its own work with GPT‑6 Astra</title>
-    <link href="https://openai.com/index/cognition-devin-testing-with-astra" rel="alternate"/>
-    <id>https://openai.com/index/cognition-devin-testing-with-astra</id>
-    <updated>2026-09-11T16:00:00Z</updated>
-    <summary type="text">GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop Wasting LLM Tokens! I Built a Rust CLI to Prune JS/TS Codebases by 80% 🦀🚀</title>
-    <link href="https://dev.to/sanjaiyan_dev/stop-wasting-llm-tokens-i-built-a-rust-cli-to-prune-jsts-codebases-by-80-3i2e" rel="alternate"/>
-    <id>https://dev.to/sanjaiyan_dev/stop-wasting-llm-tokens-i-built-a-rust-cli-to-prune-jsts-codebases-by-80-3i2e</id>
-    <updated>2026-09-12T21:16:05Z</updated>
-    <summary type="text">┌─────────────────────────────────────────────────────────────────────────────┐ │ THE &quot;INFINITE CONTEXT&quot; TRAP │ ├──────────────────────────────┬──────────────────────────────────────────────┤ │ 1. Attention Degradation │ Lost-in-the-Middle: critical interfaces get │ │ │ buried under repetitive DOM noise and loops. │ ├──────────────────────────────┼──────────────────────────────────────────────┤ │ </summary>
-    <author><name>Sanjaiyan Parthipan</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
-    <link href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/</id>
-    <updated>2026-09-11T21:05:55Z</updated>
-    <summary type="text">Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously measure: does the skill trigger, does it […] The post Anthropic Adds Plugin Evals to Claude Code: 6 G</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CEO Interview: Odynn</title>
-    <link href="https://www.cbinsights.com/research/ceo-interview-odynn/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/ceo-interview-odynn/</id>
-    <updated>2026-09-11T20:54:32Z</updated>
-    <summary type="text">John Taylor Garner, Chief Executive Officer (CEO) at Odynn, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? I define … The post CEO Interview: Odynn appeared first on CB Insights Research.</summary>
-    <author><name>Casey Porter</name></author>
-  </entry>
-  <entry>
-    <title>The Serverless Supercomputer: Generating 1 Million AI Briefings for $48</title>
-    <link href="https://dev.to/dhananjay_lakkawar/the-serverless-supercomputer-generating-1-million-ai-briefings-for-48-4mmn" rel="alternate"/>
-    <id>https://dev.to/dhananjay_lakkawar/the-serverless-supercomputer-generating-1-million-ai-briefings-for-48-4mmn</id>
-    <updated>2026-09-12T18:57:49Z</updated>
-    <summary type="text">Here is a math problem that is currently destroying the margins of B2C AI startups. You have a successful B2C app. You want to generate a highly personalized, daily AI briefing for your 1,000,000 free-tier users, and deliver it to their inboxes every morning at 8:00 AM. If you attempt to send 1,000,000 concurrent requests to a managed API like OpenAI, Anthropic, or Amazon Bedrock, two things will </summary>
-    <author><name>Dhananjay Lakkawar</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Built an AI Tool That Extracts Tech Stacks from YouTube Videos</title>
-    <link href="https://dev.to/wgeorgeassistantia/i-built-an-ai-tool-that-extracts-tech-stacks-from-youtube-videos-1520" rel="alternate"/>
-    <id>https://dev.to/wgeorgeassistantia/i-built-an-ai-tool-that-extracts-tech-stacks-from-youtube-videos-1520</id>
-    <updated>2026-09-12T18:57:29Z</updated>
-    <summary type="text">Every developer has done this: you open a 45-minute &quot;Build a SaaS in a weekend&quot; video, and by minute 12 you're already pausing every 30 seconds to screenshot a terminal command or squint at a VS Code sidebar to figure out which ORM the creator just installed. You rewind three times because you missed the name of the vector database. By the time the video ends, you've spent an hour to extract maybe</summary>
-    <author><name>WgeorgeAssistantIA</name></author>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Hold Shared Sandbox Work Behind a Promotion Lane</title>
-    <link href="https://dev.to/techlab_7968/hold-shared-sandbox-work-behind-a-promotion-lane-21m2" rel="alternate"/>
-    <id>https://dev.to/techlab_7968/hold-shared-sandbox-work-behind-a-promotion-lane-21m2</id>
-    <updated>2026-09-12T18:48:21Z</updated>
-    <summary type="text">Shared free compute is not a merge queue. Agent output on a borrowed server still needs a named owner. A sealed replay kit must exist before anyone ships. A human stamp still sits between sandbox and repo. Teams skip that gate when a sandbox feels disposable. Disposable hardware is the point of the machine. Disposable patches are not the point of shipping. The next person inherits a dirty shared d</summary>
-    <author><name>Morgan Xu</name></author>
-  </entry>
-  <entry>
-    <title>Day 0 of a Linux Challenge and the Prompt I Almost Got Wrong</title>
-    <link href="https://dev.to/jas_dev/day-0-of-a-linux-challenge-and-the-prompt-i-almost-got-wrong-2m36" rel="alternate"/>
-    <id>https://dev.to/jas_dev/day-0-of-a-linux-challenge-and-the-prompt-i-almost-got-wrong-2m36</id>
-    <updated>2026-09-12T18:45:07Z</updated>
-    <summary type="text">I signed up for the Black IT Academy Linux Upskill Challenge. Twenty lessons, one server, a cohort in Slack, and a rule that you keep a public journal of what you did every day. Day 0 was today. The only goal was to have a server I could log into and to post a screenshot proving it. That took about ten minutes. Then a purple box showed up in my terminal and I sat there for a while. The setup I wen</summary>
-    <author><name>Jas</name></author>
-  </entry>
-  <entry>
-    <title>BeeEngine JS</title>
-    <link href="https://dev.to/antonioprosperi2svg/beeengine-js-l2" rel="alternate"/>
-    <id>https://dev.to/antonioprosperi2svg/beeengine-js-l2</id>
-    <updated>2026-09-12T18:39:10Z</updated>
-    <summary type="text">Building a Pure CSS 3D Interactive Tower (Zero WebGL Dependencies) I wanted to display the modular architecture of my open-source 2D game framework, BeeEngine JS, directly on its landing page—without the massive overhead of heavy 3D WebGL libraries. Instead of loading bulky 3D engines just for a visual widget (which adds unnecessary JavaScript payload and destroys the Total Blocking Time on mobile</summary>
-    <author><name>Antonio</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Having Fun with claude tokens.</title>
-    <link href="https://dev.to/pyjamagirl/having-fun-with-claude-tokens-570i" rel="alternate"/>
-    <id>https://dev.to/pyjamagirl/having-fun-with-claude-tokens-570i</id>
-    <updated>2026-09-12T18:35:48Z</updated>
-    <summary type="text">I’ve been building TapWhenBored, a small collection of quick browser games for when you need a break or just need to pretend to be busy ;) 🔵 Marble Nostalgia Remember those marble solitaire boards? Jump one marble over another, remove the one you jumped, and try to leave just one behind. Simple rules. Plenty of opportunities to realise that the move you made three moves ago was a terrible idea. 😅 </summary>
-    <author><name>pyjamagirl pg</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your first ASP.NET App: Introduction</title>
-    <link href="https://dev.to/__f5cd865bec2/your-first-aspnet-app-introduction-3oo6" rel="alternate"/>
-    <id>https://dev.to/__f5cd865bec2/your-first-aspnet-app-introduction-3oo6</id>
-    <updated>2026-09-12T18:32:11Z</updated>
-    <summary type="text">Hello! In this tutorial we will build your own ASP.NET Service! Requirements IDE like Visual Studio/JetBrains Rider .NET &gt;= 10 Base C# skill Creating project New Solution -&gt; Web Write your project name, as example - ExampleProject Select Web API Create and open Program.cs First codes When you created project and opened Program.cs, the image will like this var builder = WebApplication.CreateBuilder</summary>
-    <author><name>Сабака Чабака</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
