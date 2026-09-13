@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-13T11:27:12Z</updated>
+  <updated>2026-09-13T15:56:16Z</updated>
+  <entry>
+    <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
+    <link href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" rel="alternate"/>
+    <id>https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/</id>
+    <updated>2026-09-13T12:58:18Z</updated>
+    <summary type="text">The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use and office work. The article Iris-mini and Iris-pro are the strongest open-weight</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
     <link href="https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/" rel="alternate"/>
@@ -31,6 +42,25 @@
     <updated>2026-09-12T23:56:03Z</updated>
     <summary type="text">Cognition, the company behind the Devin coding agent, has released SWE-2, its most capable coding model to date. SWE-2 is post-trained with reinforcement learning from Kimi K3, Moonshot AI’s 2.8T-parameter open model. Cognition reports a score of 50.0% on FrontierCode 1.1 Main, within 1 point of Fable 5.1 at 64% lower cost. It is also […] The post Cognition Releases SWE-2: A Kimi K3 Post-Trained C</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>How to change reasoning effort in Codex CLI: model_reasoning_effort values and one-off overrides</title>
+    <link href="https://dev.to/aicoding-guide/how-to-change-reasoning-effort-in-codex-cli-modelreasoningeffort-values-and-one-off-overrides-2bf4" rel="alternate"/>
+    <id>https://dev.to/aicoding-guide/how-to-change-reasoning-effort-in-codex-cli-modelreasoningeffort-values-and-one-off-overrides-2bf4</id>
+    <updated>2026-09-13T15:25:00Z</updated>
+    <summary type="text">Originally published at https://aicoding-guide.com. Codex feels slow, or it overthinks a trivial fix. The knob for that is reasoning effort, the Codex counterpart of extended thinking in Claude Code, controlled by the model_reasoning_effort key. In short: set model_reasoning_effort = &quot;high&quot; (or another value) in ~/.codex/config.toml to change it permanently, use the -c flag for a single run, or /m</summary>
+    <author><name>aicoding-guide</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I audited 50 projects built with Cursor &amp; Claude. Here are the 4 security traps they all had</title>
+    <link href="https://dev.to/carbonthecoder/i-audited-50-projects-built-with-cursor-claude-here-are-the-4-security-traps-they-all-had-1c16" rel="alternate"/>
+    <id>https://dev.to/carbonthecoder/i-audited-50-projects-built-with-cursor-claude-here-are-the-4-security-traps-they-all-had-1c16</id>
+    <updated>2026-09-13T15:10:31Z</updated>
+    <summary type="text">I’ve been using Cursor daily for months. It’s easily 5x'd my velocity. But if you look closely at the code it generates when you're moving fast, it has massive blindspots. It prioritizes &quot;making the code run&quot; over &quot;making the code production-ready.&quot; The most common things I kept catching it doing: Writing DB queries without tenant isolation (classic IDOR vulnerability). Doing token === secret on w</summary>
+    <author><name>mohammed ibrahim</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Hacking VaultGate: Three Paths to One Flag</title>
@@ -440,32 +470,5 @@
     <author><name>Deepu K Sasidharan</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Move OpenAI Codex to a New Mac Without Cloning Its Identity</title>
-    <link href="https://dev.to/jsegeren/how-to-move-openai-codex-to-a-new-mac-without-cloning-its-identity-35h9" rel="alternate"/>
-    <id>https://dev.to/jsegeren/how-to-move-openai-codex-to-a-new-mac-without-cloning-its-identity-35h9</id>
-    <updated>2026-09-11T00:02:59Z</updated>
-    <summary type="text">Changing Macs is normally straightforward. The surprising part is that signing into the same ChatGPT account does not necessarily recreate the local Codex working environment you had on the old machine. Your repositories are only part of that environment. Local Codex conversations and state, project organization, custom skills, settings, Git worktrees, stashes, branches, and unfinished files can s</summary>
-    <author><name>Joshua Segeren</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>J'ai procastiné Docker pendant un mois... Voici ce qui m'a débloquée</title>
-    <link href="https://dev.to/audreysiewe14droid/jai-procastine-docker-pendant-un-mois-voici-ce-qui-ma-debloquee-1cdj" rel="alternate"/>
-    <id>https://dev.to/audreysiewe14droid/jai-procastine-docker-pendant-un-mois-voici-ce-qui-ma-debloquee-1cdj</id>
-    <updated>2026-09-10T22:29:14Z</updated>
-    <summary type="text">Le 8 juillet, j'ai commencé un mentorat DevOps avec Endah. J'étais motivée, pleine de bonnes résolutions, prête à attaquer le Docker comme une pro. Sauf qu'entre le 21 juillet et le 22 août, je n'ai rien publié. Mon dernier article ici datait du 29 juillet. Ce silence n'était pas de l'inaction : c'était la phase la moins visible de l'apprentissage, celle où on lit la documentation officielle, où o</summary>
-    <author><name>SIEWE SANTHE AUDREY CAMILA</name></author>
-  </entry>
-  <entry>
-    <title>9 products, 280 posts, $0: what a multi-agent build sprint proved about selling</title>
-    <link href="https://dev.to/maxxthematepng/9-products-280-posts-0-what-a-multi-agent-build-sprint-proved-about-selling-303f" rel="alternate"/>
-    <id>https://dev.to/maxxthematepng/9-products-280-posts-0-what-a-multi-agent-build-sprint-proved-about-selling-303f</id>
-    <updated>2026-09-10T17:11:26Z</updated>
-    <summary type="text">A multi-agent Claude Code &quot;company&quot; ran for thirty days. It shipped nine products and over 280 posts. It earned zero dollars. The post-mortem is one of the bluntest things I have read from someone running agents at scale: &quot;9 products built. 280+ posts. Full pipeline. $0 revenue. Multi-agent systems can build anything. They cannot sell anything.&quot; I went looking for the counterexample. I distilled 3</summary>
-    <author><name>maxxthemate-png</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
