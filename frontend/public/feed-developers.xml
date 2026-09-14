@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-14T04:45:15Z</updated>
+  <updated>2026-09-14T10:28:09Z</updated>
+  <entry>
+    <title>NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing</title>
+    <link href="https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/</id>
+    <updated>2026-09-14T08:04:27Z</updated>
+    <summary type="text">NVIDIA has open-sourced OSMO, the Kubernetes-native workflow orchestrator it uses internally for Project GR00T, Isaac Lab, and Isaac Sim. OSMO lets robotics teams define training, simulation, and hardware-in-the-loop tasks in a single YAML file and routes each one to the right compute tier, from GB200 clusters to Jetson AGX Thor devices, without infrastructure code. Apache-2.0 licensed, latest rel</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+    <category term="robotics"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
     <link href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" rel="alternate"/>
@@ -15,6 +26,22 @@
     <category term="open-source"/>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Docker Images vs Containers, Explained</title>
+    <link href="https://dev.to/shubham_sharma_94/docker-images-vs-containers-explained-2o0" rel="alternate"/>
+    <id>https://dev.to/shubham_sharma_94/docker-images-vs-containers-explained-2o0</id>
+    <updated>2026-09-14T10:15:47Z</updated>
+    <summary type="text">If you are new to Docker, this is probably the first thing that trips you up: people say &quot;image&quot; and &quot;container&quot; like they mean the same thing, and they absolutely do not. Getting this one distinction straight makes almost everything else about Docker click into place. Here is the whole idea in one sentence: an image is the read-only template, and a container is a running copy made from it. If you</summary>
+    <author><name>Shubham Sharma</name></author>
+  </entry>
+  <entry>
+    <title>Fix: Permission Denied on the Docker Daemon Socket</title>
+    <link href="https://dev.to/shubham_sharma_94/fix-permission-denied-on-the-docker-daemon-socket-2jol" rel="alternate"/>
+    <id>https://dev.to/shubham_sharma_94/fix-permission-denied-on-the-docker-daemon-socket-2jol</id>
+    <updated>2026-09-14T10:15:46Z</updated>
+    <summary type="text">You ran a normal docker command on Linux and got this instead of output: permission denied while trying to connect to the docker API at unix:///var/run/docker.sock On older Docker versions the same problem reads a little differently, but it is the exact same wall: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock Nothing is broken. Docker is r</summary>
+    <author><name>Shubham Sharma</name></author>
   </entry>
   <entry>
     <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
@@ -437,33 +464,6 @@
     <updated>2026-09-11T21:28:47Z</updated>
     <summary type="text">Parlotype's UI was English-only, with the copy baked into markup and C#: 211 literal attributes across 26 .axaml files, roughly 200 string literals across 48 view models, plus the tray menu, the dialogs and the toasts. I wanted Russian and Spanish, and I wanted the ninth language to cost one translation file and nothing else. Most of that work is mechanical, which makes it a good fit for an agent.</summary>
     <author><name>Maksim Demin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call</title>
-    <link href="https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/</id>
-    <updated>2026-09-10T21:21:58Z</updated>
-    <summary type="text">OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent’s compute in an OpenAI-managed sandbox, their own infrastructure, or a partner sandbox. Is it deployable? Yes. It is live for all developers in public beta. […] The post OpenAI Launches the Agents API in Public B</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
-    <link href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials" rel="alternate"/>
-    <id>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</id>
-    <updated>2026-09-10T16:00:00Z</updated>
-    <summary type="text">César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>I gave Claude Code a team. Then I caught it grading its own homework.</title>
-    <link href="https://dev.to/_vjk/i-gave-claude-code-a-team-then-i-caught-it-grading-its-own-homework-5f8i" rel="alternate"/>
-    <id>https://dev.to/_vjk/i-gave-claude-code-a-team-then-i-caught-it-grading-its-own-homework-5f8i</id>
-    <updated>2026-09-11T20:44:19Z</updated>
-    <summary type="text">An AI team that never gets tired also never gets embarrassed. Part 1: I made Claude Code think before it codes Part 2: ... then I gave it a team Part 3: this one. There is a sentence that started appearing in my pull requests, and for about three weeks I thought it was the most reassuring thing I had ever read. findings filed, not fixed here Five words. They meant that while fixing the thing it wa</summary>
-    <author><name>v.j.k.</name></author>
     <category term="llm"/>
   </entry>
 </feed>
