@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-15T18:49:45Z</updated>
+  <updated>2026-09-15T22:02:02Z</updated>
   <entry>
     <title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE</title>
     <link href="https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/" rel="alternate"/>
@@ -15,12 +15,39 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Meta now lets AI agents handle the boring parts of WhatsApp Business setup</title>
+    <link href="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/</id>
+    <updated>2026-09-15T20:12:53Z</updated>
+    <summary type="text">A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.</summary>
+    <author><name>Sarah Perez</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Protect Kubernetes Services with OAuth2 Proxy, Gateway API, Traefik, and Pocket ID</title>
+    <link href="https://dev.to/alikhil/protect-kubernetes-services-with-oauth2-proxy-gateway-api-traefik-and-pocket-id-35mo" rel="alternate"/>
+    <id>https://dev.to/alikhil/protect-kubernetes-services-with-oauth2-proxy-gateway-api-traefik-and-pocket-id-35mo</id>
+    <updated>2026-09-15T21:55:11Z</updated>
+    <summary type="text">My previous guide used ingress-nginx annotations to put internal Kubernetes services behind OAuth2 Proxy. It was written for an ingress-nginx setup. That controller is being retired, and Gateway API is the direction Kubernetes recommends for new traffic management work. This post rebuilds the same authentication flow with Gateway API, Traefik, OAuth2 Proxy, and Pocket ID. Why Traefik? Gateway API </summary>
+    <author><name>Alik Khilazhev</name></author>
+  </entry>
+  <entry>
     <title>Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery</title>
     <link href="https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/</id>
     <updated>2026-09-14T21:54:22Z</updated>
     <summary type="text">A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis. The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>myc : une mémoire locale pour les agents de code (Claude Code, Codex) qui survit à la compaction du contexte, sans clé d'API</title>
+    <link href="https://dev.to/vitaly_ivasenko_cd7932e08/myc-une-memoire-locale-pour-les-agents-de-code-claude-code-codex-qui-survit-a-la-compaction-du-363o" rel="alternate"/>
+    <id>https://dev.to/vitaly_ivasenko_cd7932e08/myc-une-memoire-locale-pour-les-agents-de-code-claude-code-codex-qui-survit-a-la-compaction-du-363o</id>
+    <updated>2026-09-15T21:03:16Z</updated>
+    <summary type="text">Quiconque a utilisé Claude Code ou Codex plus d'une heure connaît la scène : on convient avec l'agent « on part sur A, pas sur B, à cause de C », une heure plus tard le contexte est compacté et l'agent repropose B le plus naturellement du monde. La raison n'existe tout simplement plus dans son contexte. J'ai croisé sur GitHub un projet libre (MIT) qui ne fait que ça : myc (de mycelium). Pas une én</summary>
+    <author><name>Vitaly Ivasenko</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Snapyo — free TikTok, Reels &amp; YouTube Shorts downloader (video + MP3), built in 2 days</title>
@@ -437,32 +464,6 @@
     <summary type="text">Why enterprise AI projects should start with workflow design, not model selection An enterprise AI project often starts with the same question: Which model should we use? Should it be GPT, Claude, Gemini, an open-source model, or a smaller model running privately? That question matters, but it is rarely the best starting point. A more useful question is: Which business process are we trying to imp</summary>
     <author><name>ibrahim Kılıç</name></author>
     <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Running a nested Proxmox homelab and Docker development on the same Windows machine</title>
-    <link href="https://dev.to/yahavtz/running-a-nested-proxmox-homelab-and-docker-development-on-the-same-windows-machine-44c8" rel="alternate"/>
-    <id>https://dev.to/yahavtz/running-a-nested-proxmox-homelab-and-docker-development-on-the-same-windows-machine-44c8</id>
-    <updated>2026-09-12T21:35:44Z</updated>
-    <summary type="text">Tags: docker, proxmox, homelab, windows I sat down to start a new project and Docker Desktop wouldn't run. I knew why immediately, because I'd already paid this bill once — in the opposite direction. When I first set up Proxmox nested in VMware, VMware wouldn't run either. I fixed it by turning the Windows hypervisor off so the nested VM could reach VT-x/EPT directly. It worked. What I didn't thin</summary>
-    <author><name>yahav tzukerman</name></author>
-  </entry>
-  <entry>
-    <title>&quot;Keeping a record: working across many sessions&quot;</title>
-    <link href="https://dev.to/lisandro_reinoso_d12ac7b9/keeping-a-record-working-across-many-sessions-1g2k" rel="alternate"/>
-    <id>https://dev.to/lisandro_reinoso_d12ac7b9/keeping-a-record-working-across-many-sessions-1g2k</id>
-    <updated>2026-09-12T21:29:04Z</updated>
-    <summary type="text">Day one closed in the small hours and day two started half an hour later, with a short session that didn't touch the product: it defined how sessions would be named, where they would be recorded, and which script would close them on its own. The problem it solved wasn't one of order but of continuity. Every conversation with Claude Code ends, and I wanted to be able to work across many of them —op</summary>
-    <author><name>Lisandro Reinoso</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills</title>
-    <link href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/</id>
-    <updated>2026-09-11T21:05:55Z</updated>
-    <summary type="text">Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously measure: does the skill trigger, does it […] The post Anthropic Adds Plugin Evals to Claude Code: 6 G</summary>
-    <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
   </entry>
 </feed>
