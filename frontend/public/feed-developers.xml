@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-15T14:47:24Z</updated>
+  <updated>2026-09-15T18:49:45Z</updated>
+  <entry>
+    <title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE</title>
+    <link href="https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/</id>
+    <updated>2026-09-15T15:00:00Z</updated>
+    <summary type="text">Federated learning (FL) projects often begin with a straightforward setup: one server, a few clients, and one dataset at each site. As those projects grow, the...</summary>
+    <author><name>Elizabeth Goodman</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery</title>
     <link href="https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/" rel="alternate"/>
@@ -12,6 +21,15 @@
     <updated>2026-09-14T21:54:22Z</updated>
     <summary type="text">A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis. The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>Snapyo — free TikTok, Reels &amp; YouTube Shorts downloader (video + MP3), built in 2 days</title>
+    <link href="https://dev.to/utopiahq/snapyo-free-tiktok-reels-youtube-shorts-downloader-video-mp3-built-in-2-days-5030" rel="alternate"/>
+    <id>https://dev.to/utopiahq/snapyo-free-tiktok-reels-youtube-shorts-downloader-video-mp3-built-in-2-days-5030</id>
+    <updated>2026-09-15T18:29:02Z</updated>
+    <summary type="text">Every TikTok downloader is either covered in ads, forces sketchy apps, or bait-and-switches with &quot;premium.&quot; So I built my own. Snapyo — paste a link, get the file. That's it. What's inside: TikTok, Instagram Reels, YouTube Shorts Video (MP4) or audio (MP3) iOS with native download banner Android and desktop No sign-up, no app, no ads Built solo in a couple of days with Claude Code + Cursor, then s</summary>
+    <author><name>UtopiaHq</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Introducing GraphOps: A Easy-to-Use Graph Engineering Plugin for Claude Code</title>
@@ -165,6 +183,15 @@
     <updated>2026-09-14T16:20:55Z</updated>
     <summary type="text">Every &quot;how many MCP servers exist&quot; number I could find counts registry entries. The official Model Context Protocol registry keeps every historical version of every server, so the entry count and the server count are different things. I pulled all of it and did the arithmetic. Method Source: the public registry API, every record by cursor pagination, on 14 September 2026. Deduplication: one record</summary>
     <author><name>Leroy Jenkins</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands</title>
+    <link href="https://arxiv.org/abs/2609.15726v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.15726v1</id>
+    <updated>2026-09-14T15:22:59Z</updated>
+    <summary type="text">Tactile sensing provides contact information that can be difficult to infer from vision alone, but tactile hardware for dexterous hands has not converged to a common design. Dexterous hands differ in finger structure, contact surfaces, and sensor layouts, while simulated tactile signals still differ from measurements produced by physical sensors. These factors make it difficult to study visuo-tact</summary>
+    <author><name>Junchi Yan</name></author>
     <category term="agents"/>
   </entry>
   <entry>
@@ -437,36 +464,5 @@
     <summary type="text">Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously measure: does the skill trigger, does it […] The post Anthropic Adds Plugin Evals to Claude Code: 6 G</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Copilot Writes Your GitHub Actions Workflow. Here Are the 4 Things It Gets Wrong.</title>
-    <link href="https://dev.to/jjoyneriv/copilot-writes-your-github-actions-workflow-here-are-the-4-things-it-gets-wrong-5l3" rel="alternate"/>
-    <id>https://dev.to/jjoyneriv/copilot-writes-your-github-actions-workflow-here-are-the-4-things-it-gets-wrong-5l3</id>
-    <updated>2026-09-12T16:38:33Z</updated>
-    <summary type="text">Copilot is genuinely good at GitHub Actions YAML. It knows the schema, it remembers the syntax you always look up, and it will produce a working workflow faster than you will. It is also fluent in every insecure pattern on GitHub, because those patterns are all over its training data. The workflow it hands you will usually run. That is a different property from being safe. Here are the four things</summary>
-    <author><name>James Joyner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why AI Coding Agents Break Git (And How edio Fixes It in Under 5 Milliseconds)</title>
-    <link href="https://dev.to/devxdh/why-ai-coding-agents-break-git-and-how-edio-fixes-it-in-under-5-milliseconds-2loi" rel="alternate"/>
-    <id>https://dev.to/devxdh/why-ai-coding-agents-break-git-and-how-edio-fixes-it-in-under-5-milliseconds-2loi</id>
-    <updated>2026-09-12T16:38:07Z</updated>
-    <summary type="text">Here is a scenario every developer using Claude Code, Cursor, or Aider knows too well: You prompt your AI agent across 7 iterations. Turns 1 to 6 are solid—models are written, database queries work, and tests pass. On Turn 7, you ask for a minor optimization. The agent goes rogue, touches 12 files, breaks imports, and introduces a nasty regression. Now you're stuck: git restore . fixes the bug, bu</summary>
-    <author><name>Dev Dhanadiya</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>How to Build RAG Chatbot with Pinecone - A Full-Stack Walkthrough</title>
-    <link href="https://dev.to/samchenreviews/how-to-build-rag-chatbot-with-pinecone-a-full-stack-walkthrough-emb" rel="alternate"/>
-    <id>https://dev.to/samchenreviews/how-to-build-rag-chatbot-with-pinecone-a-full-stack-walkthrough-emb</id>
-    <updated>2026-09-12T16:30:57Z</updated>
-    <summary type="text">Result: By the end of this guide you will have a production-ready chatbot that pulls the most relevant passages from your internal SOP (Standard Operating Procedure) documents, runs them through OpenAI's GPT-4, and returns precise, citation-ready answers. The whole pipeline lives in a Docker-compose stack, uses LangChain for orchestration, and stores embeddings in Pinecone's vector database. RAG c</summary>
-    <author><name>Sam Chen</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-    <category term="rag"/>
   </entry>
 </feed>
