@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-15T09:53:55Z</updated>
+  <updated>2026-09-15T14:47:24Z</updated>
   <entry>
     <title>Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery</title>
     <link href="https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/" rel="alternate"/>
@@ -12,6 +12,35 @@
     <updated>2026-09-14T21:54:22Z</updated>
     <summary type="text">A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis. The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
+  </entry>
+  <entry>
+    <title>Introducing GraphOps: A Easy-to-Use Graph Engineering Plugin for Claude Code</title>
+    <link href="https://dev.to/erin-the-black/introducing-graphops-a-easy-to-use-graph-engineering-plugin-for-claude-code-2f1a" rel="alternate"/>
+    <id>https://dev.to/erin-the-black/introducing-graphops-a-easy-to-use-graph-engineering-plugin-for-claude-code-2f1a</id>
+    <updated>2026-09-15T14:38:01Z</updated>
+    <summary type="text">In my day-to-day engineering work, I've been driving development by combining ticket-driven development (using Jira) with Graph Engineering (AI-driven development powered by execution graphs). While introducing graph engineering has significantly elevated the quality of our AI outputs, Jira itself can feel a bit heavy and over-engineered for solo developers or small, agile teams. I wished there we</summary>
+    <author><name>erin</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Your Agent's LLM Key Survives Every Kubernetes Secret Control</title>
+    <link href="https://dev.to/webofmike/your-agents-llm-key-survives-every-kubernetes-secret-control-36b6" rel="alternate"/>
+    <id>https://dev.to/webofmike/your-agents-llm-key-survives-every-kubernetes-secret-control-36b6</id>
+    <updated>2026-09-15T14:36:20Z</updated>
+    <summary type="text">Originally published at webofmike.com on 2026-09-13. The demo repo and every command in it were run before publishing. I gave an agent pod an LLM API key the normal way, as a Secret projected into its environment. Then I turned on every Kubernetes control that sounds like it protects secrets: the restricted Pod Security Standard enforcing at admission, RBAC granting the agent's service account not</summary>
+    <author><name>Mike Moore</name></author>
+  </entry>
+  <entry>
+    <title>How to Build Consistent Designs with Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/" rel="alternate"/>
+    <id>https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/</id>
+    <updated>2026-09-15T14:00:01Z</updated>
+    <summary type="text">Keep your apps looking professional with Claude Code design skills The post How to Build Consistent Designs with Claude Code appeared first on Towards Data Science.</summary>
+    <author><name>Eivind Kjosbakken</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Stop AI Coding Assistants from Drifting Off Your Architecture</title>
@@ -439,33 +468,5 @@
     <category term="llm"/>
     <category term="tutorial"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Build a rag legal research assistant that drafts briefs in under 10 minutes</title>
-    <link href="https://dev.to/samchenreviews/build-a-rag-legal-research-assistant-that-drafts-briefs-in-under-10-minutes-1ja4" rel="alternate"/>
-    <id>https://dev.to/samchenreviews/build-a-rag-legal-research-assistant-that-drafts-briefs-in-under-10-minutes-1ja4</id>
-    <updated>2026-09-12T16:30:31Z</updated>
-    <summary type="text">You can spin up a Retrieval-Augmented Generation (RAG) legal research assistant in a few hours, hook it up to public case-law APIs, and have it return a concise brief in roughly ten minutes of work. The system combines a vector store of recent opinions, LangChain orchestration, and OpenAI's text-creation model so you retrieve the most relevant cases, summarize them, and let the LLM draft a brief -</summary>
-    <author><name>Sam Chen</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>I Finally Published My First NPM Package! 🎉</title>
-    <link href="https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om" rel="alternate"/>
-    <id>https://dev.to/hossein_najafi81/i-finally-published-my-first-npm-package-30om</id>
-    <updated>2026-09-12T16:20:34Z</updated>
-    <summary type="text">Hello everyone 👋 I’m really happy to finally share my first NPM package: taglite 🚀 This package started from a simple need in one of my projects. I needed a Tag Input component, so I tried several different libraries. Each one had its own limitations. Some were missing features I needed, while others weren’t flexible enough to customize the way I wanted. So I decided to build my own. As I kept usi</summary>
-    <author><name>Hossein Najafi</name></author>
-  </entry>
-  <entry>
-    <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
-    <link href="https://openai.com/index/scaling-storage-one-billion-users-part-one" rel="alternate"/>
-    <id>https://openai.com/index/scaling-storage-one-billion-users-part-one</id>
-    <updated>2026-09-11T10:00:00Z</updated>
-    <summary type="text">Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
