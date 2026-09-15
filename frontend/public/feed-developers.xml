@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-14T23:47:42Z</updated>
+  <updated>2026-09-15T04:13:59Z</updated>
+  <entry>
+    <title>Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery</title>
+    <link href="https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/</id>
+    <updated>2026-09-14T21:54:22Z</updated>
+    <summary type="text">A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis. The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery appeared first on MarkTechPost.</summary>
+    <author><name>Michal Sutter</name></author>
+  </entry>
   <entry>
     <title>NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing</title>
     <link href="https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/" rel="alternate"/>
@@ -15,6 +23,37 @@
     <category term="hardware"/>
     <category term="robotics"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>What Is Cursor Origin? The Git Host Built for AI Agents (2026)</title>
+    <link href="https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j" rel="alternate"/>
+    <id>https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j</id>
+    <updated>2026-09-15T03:44:51Z</updated>
+    <summary type="text">Cursor, the AI code editor, is no longer just a place where code gets written. As of August 17, 2026 it is also a place where code gets hosted. The company launched Origin in early beta: a Git-compatible code-hosting service with repositories, pull requests, code browsing, and two-way GitHub sync, built directly into the Cursor app, with Cursor's coding agents embedded next to every repo. Origin i</summary>
+    <author><name>Shaam</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Context Engineering for AI Agents: Why the Build Is Easy and the Context Is Not (2026)</title>
+    <link href="https://dev.to/shaam_ai/context-engineering-for-ai-agents-why-the-build-is-easy-and-the-context-is-not-2026-m4o" rel="alternate"/>
+    <id>https://dev.to/shaam_ai/context-engineering-for-ai-agents-why-the-build-is-easy-and-the-context-is-not-2026-m4o</id>
+    <updated>2026-09-15T03:44:10Z</updated>
+    <summary type="text">Verdict: In 2026, building a working AI agent is close to a solved problem. Durable state, sandboxed execution, and observability are now platform primitives, not quarter-long engineering projects. What still breaks agents in production is not the model and not the scaffolding. It is missing context: the decisions, discussions, and tribal knowledge that live outside the code and the ticket the age</summary>
+    <author><name>Shaam</name></author>
+    <category term="research"/>
+    <category term="agents"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How I Cut 45,000 Next.js Error Tokens to 118 in &lt;0.2ms Using a Rust MCP Server</title>
+    <link href="https://dev.to/daffa2555/how-i-cut-45000-nextjs-error-tokens-to-118-in-02msusing-a-rust-mcp-server-1c7j" rel="alternate"/>
+    <id>https://dev.to/daffa2555/how-i-cut-45000-nextjs-error-tokens-to-118-in-02msusing-a-rust-mcp-server-1c7j</id>
+    <updated>2026-09-15T03:19:09Z</updated>
+    <summary type="text">If you use Cursor, Claude Desktop, or Cline daily, you have probably watched your rate limits evaporate because of a single runtime crash. A Next.js build fails or a Python script panics, and your terminal vomits 500 lines of stack traces. The LLM eagerly ingests all 45,000 tokens of internal node_modules machinery, webpack bundles, and event loop frames. You just paid $0.15 for an AI model to rea</summary>
+    <author><name>Vidyax</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>42 commits em uma sessão e eu não revisei nenhum</title>
@@ -428,42 +467,5 @@
     <summary type="text">Even the most robust platforms experience disruptions. A recent incident on GitHub, specifically concerning its billing services, offers a critical lens into not just technical recovery but also the profound impact on developer workflows and the crucial role of customer support during outages. For devactivity.com, this discussion provides valuable insights into maintaining software engineering pro</summary>
     <author><name>Oleg</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I wanted a system-design lab that could prove me wrong</title>
-    <link href="https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540" rel="alternate"/>
-    <id>https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540</id>
-    <updated>2026-09-12T12:57:23Z</updated>
-    <summary type="text">When I practice system design, the part that has always felt a little unsatisfying is that the diagram usually gets the final say. You can draw a load balancer, put PostgreSQL behind your application servers, add a private subnet, and end up with something that looks perfectly reasonable. But the diagram itself never proves that PostgreSQL is actually private. That is the idea I kept coming back t</summary>
-    <author><name>Othmane</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Claude Code Changed How I Work — An Honest Developer Review</title>
-    <link href="https://dev.to/automate-archit/claude-code-changed-how-i-work-an-honest-developer-review-1dlj" rel="alternate"/>
-    <id>https://dev.to/automate-archit/claude-code-changed-how-i-work-an-honest-developer-review-1dlj</id>
-    <updated>2026-09-12T12:45:02Z</updated>
-    <summary type="text">TL;DR: Claude Code is a CLI tool that reads your entire codebase and makes coordinated multi-file changes. It cut my feature development time from 4-6 hours to 1-2 hours. Not perfect for large codebases or visual design, but transformative for real development work. My Background With AI Coding Tools I have tried everything. GitHub Copilot for a year. Cursor for six months. ChatGPT for code genera</summary>
-    <author><name>Archit Mittal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Your Login Tests Are Green. What Did cursor.execute Actually Receive?</title>
-    <link href="https://dev.to/yuan_ming_3549dae7e400994/your-login-tests-are-green-what-did-cursorexecute-actually-receive-5a92" rel="alternate"/>
-    <id>https://dev.to/yuan_ming_3549dae7e400994/your-login-tests-are-green-what-did-cursorexecute-actually-receive-5a92</id>
-    <updated>2026-09-12T12:42:32Z</updated>
-    <summary type="text">A reader on my earlier Dev.to post made the useful point directly: Assert that the query is parameterized before it reaches cursor.execute. That sounds simple. It also exposes a blind spot in many test suites. A response assertion can prove that login behaves correctly. It cannot prove what SQL and parameters reached the database executor. So I built a small experiment with two login implementatio</summary>
-    <author><name>yuan ming</name></author>
-  </entry>
-  <entry>
-    <title>Pacing the Frontier – Tahuna: AI Training Infrastructure, Now Open Source [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wfnbap/pacing_the_frontier_tahuna_ai_training/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wfnbap/pacing_the_frontier_tahuna_ai_training/</id>
-    <updated>2026-09-13T23:38:28Z</updated>
-    <summary type="text">Dario says we need to pace the frontier. Good news: we’ve been pacing Tahuna for months. Today, Tahuna is open source—as promised back in April. We built it so small teams could train models, run inference, orchestrate GPUs, and experiment with autonomous research without first becoming a small cloud provider. The basic workflow: init → sync → train → artifacts → serve Under the hood: content-addr</summary>
-    <author><name>/u/Monaim101</name></author>
-    <category term="agents"/>
-    <category term="hardware"/>
-    <category term="open-source"/>
   </entry>
 </feed>
