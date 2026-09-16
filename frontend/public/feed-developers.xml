@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-16T16:31:38Z</updated>
+  <updated>2026-09-16T19:57:07Z</updated>
+  <entry>
+    <title>How to connect AI usage to business value</title>
+    <link href="https://openai.com/index/how-to-connect-ai-usage-to-business-value" rel="alternate"/>
+    <id>https://openai.com/index/how-to-connect-ai-usage-to-business-value</id>
+    <updated>2026-09-16T12:00:00Z</updated>
+    <summary type="text">Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Your AI agents can now control your Google Home devices</title>
+    <link href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/</id>
+    <updated>2026-09-16T17:00:00Z</updated>
+    <summary type="text">Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</summary>
+    <author><name>Sarah Perez</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE</title>
     <link href="https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/" rel="alternate"/>
@@ -13,6 +32,33 @@
     <summary type="text">Federated learning (FL) projects often begin with a straightforward setup: one server, a few clients, and one dataset at each site. As those projects grow, the...</summary>
     <author><name>Elizabeth Goodman</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>How to use libvmaf_cuda on Windows: an easy-to-follow guide (WSL2 + Docker + NVIDIA)</title>
+    <link href="https://dev.to/rtagl/-how-to-use-libvmafcuda-on-windows-an-easy-to-follow-guide-wsl2-docker-nvidia-59mc" rel="alternate"/>
+    <id>https://dev.to/rtagl/-how-to-use-libvmafcuda-on-windows-an-easy-to-follow-guide-wsl2-docker-nvidia-59mc</id>
+    <updated>2026-09-16T19:21:17Z</updated>
+    <summary type="text">TL;DR: Running GPU-accelerated VMAF on Windows is surprisingly painful. After spending hours fighting broken builds and undocumented errors, the only reliable path I found is WSL2 + Docker Desktop + NVIDIA Container Toolkit + a CUDA-enabled FFmpeg. This guide walks you through the whole setup using the easyVmaf project, so you can skip the trial-and-error I went through. This guide uses easyVmaf, </summary>
+    <author><name>Robert</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your Data Engineering Roadmap Is Probably Too Long</title>
+    <link href="https://dev.to/sudeephazra/your-data-engineering-roadmap-is-probably-too-long-2eam" rel="alternate"/>
+    <id>https://dev.to/sudeephazra/your-data-engineering-roadmap-is-probably-too-long-2eam</id>
+    <updated>2026-09-16T19:19:04Z</updated>
+    <summary type="text">A data engineering roadmap crossed my feed recently. It is thoughtful, detailed, and 571 lines long. The associated Reddit discussion had a predictable reaction: useful reference, terrifying learning plan. That distinction matters. A map can show every road in a country. It does not mean you need to drive every road before you are allowed to leave home. The Data Engineering Roadmap 2026 covers sof</summary>
+    <author><name>Sudeep Hazra</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>AWS S3: A Practical Beginner’s Guide to Amazon Simple Storage Service</title>
+    <link href="https://dev.to/muhammad_rizwan_52cf1d16c/aws-s3-a-practical-beginners-guide-to-amazon-simple-storage-service-4c4e" rel="alternate"/>
+    <id>https://dev.to/muhammad_rizwan_52cf1d16c/aws-s3-a-practical-beginners-guide-to-amazon-simple-storage-service-4c4e</id>
+    <updated>2026-09-16T19:15:54Z</updated>
+    <summary type="text">1. Introduction If you're starting your journey into AWS, Cloud Computing, or DevOps, there's a very good chance the first service you'll touch i s Amazon S3 (Simple Storage Service). It's one of the oldest, most widely used, and most beginner-friendly services AWS offers — and understanding it well will make almost everything else in AWS easier to learn. In this guide, we'll break down S3 from th</summary>
+    <author><name>Muhammad Rizwan</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Open Source vs Proprietary LLMs: A Pragmatic Comparison for 2024</title>
@@ -171,6 +217,24 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>GoBench: Evaluating LLMs on the game of Go [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/</id>
+    <updated>2026-09-16T18:54:35Z</updated>
+    <summary type="text">GoBench evaluates LLMs on 9x9 Go games against a ladder of KataGo opponents, from random to superhuman. It measures general reasoning ability, strongly correlates with ARC-AGI 2 (r=0.83 correlation), and remains highly unsaturated. GPT-6 Astra max achieves 2500 Elo, much lower than the best KataGo, which achieves 4400 Elo. With coding tools and two hours of preparation before evaluation, Codex wit</summary>
+    <author><name>/u/Roland31415</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Cowork and chat are now one Claude</title>
+    <link href="https://simonwillison.net/2026/Sep/16/one-claude/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/16/one-claude/</id>
+    <updated>2026-09-16T18:09:49Z</updated>
+    <summary type="text">Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>What Is Cursor Origin? The Git Host Built for AI Agents (2026)</title>
     <link href="https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j" rel="alternate"/>
     <id>https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j</id>
@@ -310,61 +374,5 @@
     <updated>2026-09-14T10:15:46Z</updated>
     <summary type="text">You ran a normal docker command on Linux and got this instead of output: permission denied while trying to connect to the docker API at unix:///var/run/docker.sock On older Docker versions the same problem reads a little differently, but it is the exact same wall: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock Nothing is broken. Docker is r</summary>
     <author><name>Shubham Sharma</name></author>
-  </entry>
-  <entry>
-    <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
-    <link href="https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/</id>
-    <updated>2026-09-13T05:56:03Z</updated>
-    <summary type="text">A shallow agent is an LLM calling tools in a loop, and on long tasks it fails in 2 ways: context overflow and goal loss. This article opens the harness layer that fixes both, with the actual thresholds shipped by LangChain Deep Agents, Claude Code, Manus, OpenAI Codex and Amazon Bedrock AgentCore, plus an interactive simulator that shows a 200K window filling up. The post Context Engineering Insid</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>RAG pipeline tutorial: Common pitfalls (and how to fix them)</title>
-    <link href="https://wandb.ai/ai-team-articles/llm-evaluation/reports/RAG-pipeline-tutorial-Common-pitfalls-and-how-to-fix-them---VmlldzoxNzE2MTA0OA" rel="alternate"/>
-    <id>https://wandb.ai/ai-team-articles/llm-evaluation/reports/RAG-pipeline-tutorial-Common-pitfalls-and-how-to-fix-them---VmlldzoxNzE2MTA0OA</id>
-    <updated>2026-09-14T04:19:58Z</updated>
-    <summary type="text">RAG tutorial: build a LangChain Q&amp;A pipeline over your docs—chunking, embeddings, retrieval, citations, and Weave evaluation, pitfalls fixed.</summary>
-    <author><name>Josep Ferrer</name></author>
-    <category term="rag"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>When Someone Else's System Rejects You Without a Reason — Fixing a Diagnostic Order in Advance</title>
-    <link href="https://dev.to/dbsoul/when-someone-elses-system-rejects-you-without-a-reason-fixing-a-diagnostic-order-in-advance-4n5b" rel="alternate"/>
-    <id>https://dev.to/dbsoul/when-someone-elses-system-rejects-you-without-a-reason-fixing-a-diagnostic-order-in-advance-4n5b</id>
-    <updated>2026-09-14T04:10:06Z</updated>
-    <summary type="text">This is chapter 11 of my book **Building Autonomous AI Agents with Claude Code* — a field guide to turning Claude Code from a coding assistant into an agent that remembers, verifies its own work, and knows when to stop. Everything below is from a system I actually run every day on one Windows PC.* 1. The Story of Losing Two Days I built an automation that uploads a submission file to an external s</summary>
-    <author><name>Sungsoo Youn</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Nobody Warns You the Data Engineering Interview Isn't About Data Engineering</title>
-    <link href="https://dev.to/rahmanfrr/nobody-warns-you-the-data-engineering-interview-isnt-about-data-engineering-16md" rel="alternate"/>
-    <id>https://dev.to/rahmanfrr/nobody-warns-you-the-data-engineering-interview-isnt-about-data-engineering-16md</id>
-    <updated>2026-09-14T03:59:31Z</updated>
-    <summary type="text">I've sat on both sides of the interview table more times than I can count. Here's the thing nobody tells you going in: the interview almost never tests what it claims to. You think it's testing SQL. It's testing whether you panic. The whiteboard SQL problem Somewhere along the way, &quot;write a window function while a stranger watches&quot; became a proxy for &quot;will you be good at this job.&quot; It isn't. I've </summary>
-    <author><name>Rahman</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>🚀 Kubernetes: From YAML to Running Pods</title>
-    <link href="https://dev.to/zareen/kubernetes-from-yaml-to-running-pods-2pk6" rel="alternate"/>
-    <id>https://dev.to/zareen/kubernetes-from-yaml-to-running-pods-2pk6</id>
-    <updated>2026-09-14T03:51:53Z</updated>
-    <summary type="text">Kubernetes may look complicated at first, but the basic process becomes much easier to understand when we break it into five stages: 1️⃣ Define the desired state We start by writing YAML manifests that describe what we want Kubernetes to create. Deployment — Defines the container image, replica count, update strategy, and Pod configuration. Service — Gives Pods a stable network address and distrib</summary>
-    <author><name>Zareen Khan</name></author>
-  </entry>
-  <entry>
-    <title>Implementation of Machine Learning Workflows with NVIDIA cuML, RAPIDS, GPU Benchmarking, Explainability, Clustering, and Model Inference</title>
-    <link href="https://www.marktechpost.com/2026/09/12/implementation-of-machine-learning-workflows-with-nvidia-cuml-rapids-gpu-benchmarking-explainability-clustering-and-model-inference/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/12/implementation-of-machine-learning-workflows-with-nvidia-cuml-rapids-gpu-benchmarking-explainability-clustering-and-model-inference/</id>
-    <updated>2026-09-13T01:42:58Z</updated>
-    <summary type="text">This practical tutorial demonstrates how to build and accelerate machine learning workflows using NVIDIA cuML and RAPIDS. It covers GPU environment setup, zero-code scikit-learn acceleration with cuml.accel, performance benchmarking across key ML algorithms, manifold learning with UMAP and HDBSCAN, tree-model inference with FIL, and model explainability using GPU-accelerated SHAP The post Implemen</summary>
-    <author><name>Sana Hassan</name></author>
-    <category term="hardware"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
