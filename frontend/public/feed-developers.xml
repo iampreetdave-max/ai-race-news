@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-15T22:02:02Z</updated>
+  <updated>2026-09-16T00:12:45Z</updated>
   <entry>
     <title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE</title>
     <link href="https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/" rel="alternate"/>
@@ -23,6 +23,14 @@
     <author><name>Sarah Perez</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Four Iceberg Tools, Three Agent Frameworks: What Ports, and What Doesn't</title>
+    <link href="https://dev.to/gde/four-iceberg-tools-three-agent-frameworks-what-ports-and-what-doesnt-2i9m" rel="alternate"/>
+    <id>https://dev.to/gde/four-iceberg-tools-three-agent-frameworks-what-ports-and-what-doesnt-2i9m</id>
+    <updated>2026-09-15T23:52:23Z</updated>
+    <summary type="text">This article provides a step by step build of one small Apache Iceberg data agent, written three times -- in Google ADK, in AWS Strands and in Microsoft Agent Framework -- and run against five Iceberg catalogs. Every answer is checked against the catalog itself, so the differences between the three agents can be measured rather than described. https://github.com/xbill9/lakehouse-iceberg-2026 What </summary>
+    <author><name>xbill</name></author>
   </entry>
   <entry>
     <title>Protect Kubernetes Services with OAuth2 Proxy, Gateway API, Traefik, and Pocket ID</title>
@@ -258,6 +266,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>RAG pipeline tutorial: Common pitfalls (and how to fix them)</title>
+    <link href="https://wandb.ai/ai-team-articles/llm-evaluation/reports/RAG-pipeline-tutorial-Common-pitfalls-and-how-to-fix-them---VmlldzoxNzE2MTA0OA" rel="alternate"/>
+    <id>https://wandb.ai/ai-team-articles/llm-evaluation/reports/RAG-pipeline-tutorial-Common-pitfalls-and-how-to-fix-them---VmlldzoxNzE2MTA0OA</id>
+    <updated>2026-09-14T04:19:58Z</updated>
+    <summary type="text">RAG tutorial: build a LangChain Q&amp;A pipeline over your docs—chunking, embeddings, retrieval, citations, and Weave evaluation, pitfalls fixed.</summary>
+    <author><name>Josep Ferrer</name></author>
+    <category term="rag"/>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
     <title>When Someone Else's System Rejects You Without a Reason — Fixing a Diagnostic Order in Advance</title>
     <link href="https://dev.to/dbsoul/when-someone-elses-system-rejects-you-without-a-reason-fixing-a-diagnostic-order-in-advance-4n5b" rel="alternate"/>
     <id>https://dev.to/dbsoul/when-someone-elses-system-rejects-you-without-a-reason-fixing-a-diagnostic-order-in-advance-4n5b</id>
@@ -447,23 +465,5 @@
     <summary type="text">Most demos of AI-for-infrastructure tools show a clean run. I think that is exactly backwards, and I want to explain why by walking through the thirty seconds of my own demo that a normal product video would have cut. The scene A deployment is crash-looping. The agent has already diagnosed it. I ask it to restart the deployment. It stops and asks for approval. I approve. The restart runs, and the </summary>
     <author><name>mohsen</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Moving Off PaaS: Deploying Production Laravel Stacks with Kamal 2</title>
-    <link href="https://dev.to/klytron/moving-off-paas-deploying-production-laravel-stacks-with-kamal-2-2h0j" rel="alternate"/>
-    <id>https://dev.to/klytron/moving-off-paas-deploying-production-laravel-stacks-with-kamal-2-2h0j</id>
-    <updated>2026-09-13T00:00:54Z</updated>
-    <summary type="text">Platform-as-a-Service (PaaS) providers make launching a web application simple. You push code, and they handle the infrastructure. However, as your application grows, the cost scales aggressively. What starts as a $20/month hobby server can scale to hundreds or thousands of dollars for simple database upgrades, extra RAM, or custom background workers. In the past, moving off a PaaS meant adopting </summary>
-    <author><name>Michael Laweh</name></author>
-  </entry>
-  <entry>
-    <title>AI Won’t Fix a Broken Business Process</title>
-    <link href="https://dev.to/ikilic/ai-wont-fix-a-broken-business-process-3ma0" rel="alternate"/>
-    <id>https://dev.to/ikilic/ai-wont-fix-a-broken-business-process-3ma0</id>
-    <updated>2026-09-12T21:41:33Z</updated>
-    <summary type="text">Why enterprise AI projects should start with workflow design, not model selection An enterprise AI project often starts with the same question: Which model should we use? Should it be GPT, Claude, Gemini, an open-source model, or a smaller model running privately? That question matters, but it is rarely the best starting point. A more useful question is: Which business process are we trying to imp</summary>
-    <author><name>ibrahim Kılıç</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
   </entry>
 </feed>
