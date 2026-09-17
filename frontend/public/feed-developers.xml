@@ -4,7 +4,46 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-17T18:04:42Z</updated>
+  <updated>2026-09-17T22:01:44Z</updated>
+  <entry>
+    <title>Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads</title>
+    <link href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/</id>
+    <updated>2026-09-17T21:21:08Z</updated>
+    <summary type="text">Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node health monitoring and observability into one Helm install. It is MIT licensed and deployable now on any Kubernetes 1.30+ cluster with GPU nodes, kubectl and Helm 3.0 or later. The post Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI W</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop</title>
+    <link href="https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/</id>
+    <updated>2026-09-17T20:45:04Z</updated>
+    <summary type="text">Anthropic redesigned Projects in Claude Code. The old project was a folder: some files plus one chat. The new one is a single ongoing conversation where Claude acts as coordinator. You describe work, and Claude decides what becomes a thread. Each thread is a full Claude Code cloud session running on its own branch and […] The post Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Ses</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows</title>
+    <link href="https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/" rel="alternate"/>
+    <id>https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/</id>
+    <updated>2026-09-17T18:35:01Z</updated>
+    <summary type="text">Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max subscribers. The article Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows appeared first on The Decoder.</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Claude Code relaunches Projects to manage multiple AI agents in the cloud</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects</id>
+    <updated>2026-09-17T18:58:05Z</updated>
+    <summary type="text">The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has &quot;threads&quot; running different tasks in parallel, with a &quot;coordinator&quot; directing everything: […]</summary>
+    <author><name>Stevie Bonifield</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer</title>
     <link href="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/" rel="alternate"/>
@@ -34,6 +73,25 @@
     <category term="llm"/>
     <category term="product-launch"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Attaching a Runner: The DevOps Term Nobody Explains Until It Costs You</title>
+    <link href="https://dev.to/bathonspidey/attaching-a-runner-the-devops-term-nobody-explains-until-it-costs-you-1h5c" rel="alternate"/>
+    <id>https://dev.to/bathonspidey/attaching-a-runner-the-devops-term-nobody-explains-until-it-costs-you-1h5c</id>
+    <updated>2026-09-17T21:40:37Z</updated>
+    <summary type="text">When I started my DevOps journey back in 2020, I was curious about the term &quot;Octopus Deploy.&quot; I figured: okay, it's software that helps release and distribute our code? Then I used Jenkins to deploy my own code from GitHub for the first time — Jenkins has a UI you can work with directly, so I assumed it was the same kind of thing: a tool you just point at your code to deploy it. It was in 2022, wo</summary>
+    <author><name>Abir Bhattacharyya</name></author>
+  </entry>
+  <entry>
+    <title>BrowserSkill: AI Agents in Your Real Browser</title>
+    <link href="https://dev.to/diflowrin/browserskill-ai-agents-in-your-real-browser-3pla" rel="alternate"/>
+    <id>https://dev.to/diflowrin/browserskill-ai-agents-in-your-real-browser-3pla</id>
+    <updated>2026-09-17T21:20:53Z</updated>
+    <summary type="text">Here is the thing nobody tells you about AI agents and browsers. The agent is smart. The browser is yours. And the two do not meet, because your browser holds your logins, your sessions, your accounts, and the agent holds none of that. So every browser automation tool before now made you choose: either hand the agent a sterile, logged-out browser it can barely do anything with, or let it loose in </summary>
+    <author><name>DiFlowrin</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>🚀 bro.js v2.4.5 – Next.js Adapter &amp; AI‑First DX</title>
@@ -69,15 +127,6 @@
     <summary type="text">OpenAI shared several undisclosed incidents of its artificial intelligence models misbehaving, and unveiled a new framework for how it plans to track and disclose such occurrences going forward.</summary>
     <author><name>Shirin Ghaffary</name></author>
     <category term="regulation"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Creates a New Framework to Disclose Bad AI Behavior</title>
-    <link href="https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/" rel="alternate"/>
-    <id>https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/</id>
-    <updated>2026-09-16T22:07:24Z</updated>
-    <summary type="text">The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.</summary>
-    <author><name>Maxwell Zeff</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -268,6 +317,16 @@
     <category term="product-launch"/>
   </entry>
   <entry>
+    <title>Self-generated prompt injections in compaction summaries</title>
+    <link href="https://simonwillison.net/2026/Sep/17/compaction-summaries/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/17/compaction-summaries/</id>
+    <updated>2026-09-17T20:57:55Z</updated>
+    <summary type="text">Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide &quot;six reports on unexpected or concerning model behavior we’ve observed in the last six months&quot;. This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts. Compaction is the process agent systems use</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="product-launch"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>You Can Now Run Claude Code for $0. Here's the Exact Setup That Actually Works.</title>
     <link href="https://hackernoon.com/you-can-now-run-claude-code-for-$0-heres-the-exact-setup-that-actually-works?source=rss" rel="alternate"/>
     <id>https://hackernoon.com/you-can-now-run-claude-code-for-$0-heres-the-exact-setup-that-actually-works?source=rss</id>
@@ -371,16 +430,5 @@
     <updated>2026-09-15T14:36:20Z</updated>
     <summary type="text">Originally published at webofmike.com on 2026-09-13. The demo repo and every command in it were run before publishing. I gave an agent pod an LLM API key the normal way, as a Secret projected into its environment. Then I turned on every Kubernetes control that sounds like it protects secrets: the restricted Pod Security Standard enforcing at admission, RBAC granting the agent's service account not</summary>
     <author><name>Mike Moore</name></author>
-  </entry>
-  <entry>
-    <title>How to Build Consistent Designs with Claude Code</title>
-    <link href="https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/</id>
-    <updated>2026-09-15T14:00:01Z</updated>
-    <summary type="text">Keep your apps looking professional with Claude Code design skills The post How to Build Consistent Designs with Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-    <category term="tutorial"/>
   </entry>
 </feed>
