@@ -4,7 +4,26 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-17T07:25:59Z</updated>
+  <updated>2026-09-17T13:15:36Z</updated>
+  <entry>
+    <title>AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer</title>
+    <link href="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/" rel="alternate"/>
+    <id>https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/</id>
+    <updated>2026-09-17T11:03:32Z</updated>
+    <summary type="text">OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the &quot;coordination tax&quot; and points to a project where 1,393 agents spent $20,000 in tokens on a single Python refactoring that one Astra agent could have handle</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training</title>
+    <link href="https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/</id>
+    <updated>2026-09-17T07:35:37Z</updated>
+    <summary type="text">OpenAI can disclose misalignment before fixes exist. Its 6 initial reports include fabricated data and leaked API keys. The post OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training appeared first on MarkTechPost.</summary>
+    <author><name>Michal Sutter</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out</title>
     <link href="https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/" rel="alternate"/>
@@ -43,6 +62,33 @@
     <summary type="text">The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.</summary>
     <author><name>Maxwell Zeff</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Same Row Twice: Four Things Keyset Pagination Needs</title>
+    <link href="https://dev.to/hidetzu/the-same-row-twice-four-things-keyset-pagination-needs-2ecp" rel="alternate"/>
+    <id>https://dev.to/hidetzu/the-same-row-twice-four-things-keyset-pagination-needs-2ecp</id>
+    <updated>2026-09-17T12:47:40Z</updated>
+    <summary type="text">Speed is OFFSET's second problem. The first is that page 2 can hand you a row you already read on page 1 — and no index will fix it, because it is not a performance bug. Part 1 of this series measured why deep OFFSET is O(depth): at depth 9,999,980 PostgreSQL reads ten million rows and discards all but twenty. This is the other half — why you would switch even on a table small enough that nobody n</summary>
+    <author><name>hidetzu</name></author>
+  </entry>
+  <entry>
+    <title>5 Free Zoomcamps From Data Pipelines to AI Agents</title>
+    <link href="https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents" rel="alternate"/>
+    <id>https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents</id>
+    <updated>2026-09-17T12:00:14Z</updated>
+    <summary type="text">Explore five free hands-on workshops covering data engineering, machine learning, MLOps, LLMs, AI agents, and AI development through practical lessons, homework, projects, and community-based learning.</summary>
+    <author><name>Abid Ali Awan</name></author>
+    <category term="data"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>When Does Graph RAG Actually Add Value? A Hands-On Experiment</title>
+    <link href="https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/" rel="alternate"/>
+    <id>https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/</id>
+    <updated>2026-09-17T11:00:02Z</updated>
+    <summary type="text">I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window. The post When Does Graph RAG Actually Add Value? A Hands-On Experiment appeared first on Towards Data Science.</summary>
+    <author><name>Arijit Ghoshal</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Your AI agents can now control your Google Home devices</title>
@@ -339,54 +385,5 @@
     <category term="hardware"/>
     <category term="robotics"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>GoBench: Evaluating LLMs on the game of Go [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/</id>
-    <updated>2026-09-16T18:54:35Z</updated>
-    <summary type="text">GoBench evaluates LLMs on 9x9 Go games against a ladder of KataGo opponents, from random to superhuman. It measures general reasoning ability, strongly correlates with ARC-AGI 2 (r=0.83 correlation), and remains highly unsaturated. GPT-6 Astra max achieves 2500 Elo, much lower than the best KataGo, which achieves 4400 Elo. With coding tools and two hours of preparation before evaluation, Codex wit</summary>
-    <author><name>/u/Roland31415</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Cowork and chat are now one Claude</title>
-    <link href="https://simonwillison.net/2026/Sep/16/one-claude/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/16/one-claude/</id>
-    <updated>2026-09-16T18:09:49Z</updated>
-    <summary type="text">Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What Is Cursor Origin? The Git Host Built for AI Agents (2026)</title>
-    <link href="https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j" rel="alternate"/>
-    <id>https://dev.to/shaam_ai/what-is-cursor-origin-the-git-host-built-for-ai-agents-2026-439j</id>
-    <updated>2026-09-15T03:44:51Z</updated>
-    <summary type="text">Cursor, the AI code editor, is no longer just a place where code gets written. As of August 17, 2026 it is also a place where code gets hosted. The company launched Origin in early beta: a Git-compatible code-hosting service with repositories, pull requests, code browsing, and two-way GitHub sync, built directly into the Cursor app, with Cursor's coding agents embedded next to every repo. Origin i</summary>
-    <author><name>Shaam</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Context Engineering for AI Agents: Why the Build Is Easy and the Context Is Not (2026)</title>
-    <link href="https://dev.to/shaam_ai/context-engineering-for-ai-agents-why-the-build-is-easy-and-the-context-is-not-2026-m4o" rel="alternate"/>
-    <id>https://dev.to/shaam_ai/context-engineering-for-ai-agents-why-the-build-is-easy-and-the-context-is-not-2026-m4o</id>
-    <updated>2026-09-15T03:44:10Z</updated>
-    <summary type="text">Verdict: In 2026, building a working AI agent is close to a solved problem. Durable state, sandboxed execution, and observability are now platform primitives, not quarter-long engineering projects. What still breaks agents in production is not the model and not the scaffolding. It is missing context: the decisions, discussions, and tribal knowledge that live outside the code and the ticket the age</summary>
-    <author><name>Shaam</name></author>
-    <category term="research"/>
-    <category term="agents"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How I Cut 45,000 Next.js Error Tokens to 118 in &lt;0.2ms Using a Rust MCP Server</title>
-    <link href="https://dev.to/daffa2555/how-i-cut-45000-nextjs-error-tokens-to-118-in-02msusing-a-rust-mcp-server-1c7j" rel="alternate"/>
-    <id>https://dev.to/daffa2555/how-i-cut-45000-nextjs-error-tokens-to-118-in-02msusing-a-rust-mcp-server-1c7j</id>
-    <updated>2026-09-15T03:19:09Z</updated>
-    <summary type="text">If you use Cursor, Claude Desktop, or Cline daily, you have probably watched your rate limits evaporate because of a single runtime crash. A Next.js build fails or a Python script panics, and your terminal vomits 500 lines of stack traces. The LLM eagerly ingests all 45,000 tokens of internal node_modules machinery, webpack bundles, and event loop frames. You just paid $0.15 for an AI model to rea</summary>
-    <author><name>Vidyax</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
