@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-17T01:14:46Z</updated>
+  <updated>2026-09-17T07:25:59Z</updated>
+  <entry>
+    <title>Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out</title>
+    <link href="https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/</id>
+    <updated>2026-09-17T06:19:38Z</updated>
+    <summary type="text">Google Research has introduced Retrieve-for-Train (R4T), a framework for search that returns coherent, diverse result sets. It trains a fan-out language model with RL once, using groundedness, diversity, and alignment rewards. That model then synthesizes training data for a 53.9M-parameter diffusion retriever. The retriever generates all retrieval directions in a single pass, running 12× to 20× fa</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>How to connect AI usage to business value</title>
     <link href="https://openai.com/index/how-to-connect-ai-usage-to-business-value" rel="alternate"/>
@@ -42,6 +53,14 @@
     <author><name>Sarah Perez</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>What Does a Million-Token Context Window Actually Look Like?</title>
+    <link href="https://hackernoon.com/what-does-a-million-token-context-window-actually-look-like?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/what-does-a-million-token-context-window-actually-look-like?source=rss</id>
+    <updated>2026-09-17T02:40:10Z</updated>
+    <summary type="text">See what a million-token AI context window really means, from 3,000 pages of text to 75,000 lines of code and 83 hours of conversation.Read All</summary>
+    <author><name>Khasky</name></author>
   </entry>
   <entry>
     <title>Cloudflare Separates AI Training Controls From Search Indexing for Website Owners</title>
@@ -136,6 +155,17 @@
     <category term="tutorial"/>
   </entry>
   <entry>
+    <title>In-Context Robot Learning with VLM Agents</title>
+    <link href="https://arxiv.org/abs/2609.19138v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.19138v1</id>
+    <updated>2026-09-16T17:58:35Z</updated>
+    <summary type="text">Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely beyond the reach of existing robotic policies. </summary>
+    <author><name>Tong Wu</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
     <title>Open Source vs Proprietary LLMs: A Pragmatic Comparison for 2024</title>
     <link href="https://dev.to/rohit_vijay_adapa/open-source-vs-proprietary-llms-a-pragmatic-comparison-for-2024-217m" rel="alternate"/>
     <id>https://dev.to/rohit_vijay_adapa/open-source-vs-proprietary-llms-a-pragmatic-comparison-for-2024-217m</id>
@@ -146,6 +176,15 @@
     <category term="open-source"/>
   </entry>
   <entry>
+    <title>ReFigBench: Benchmarking Scientific Figure Reconstruction as Editable PowerPoint Artifacts</title>
+    <link href="https://arxiv.org/abs/2609.18844v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.18844v1</id>
+    <updated>2026-09-16T15:51:51Z</updated>
+    <summary type="text">Multimodal coding agents are expected to turn visual inputs into usable artifacts, and they act through a harness, the layer of tools, context management, and execution environment around the model. Existing evaluations often isolate short tool calls, API traces, or screenshot resemblance, and a low score under these proxies cannot say whether the model saw poorly, planned poorly, or was failed by</summary>
+    <author><name>Bo Li</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Meta now lets AI agents handle the boring parts of WhatsApp Business setup</title>
     <link href="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/" rel="alternate"/>
     <id>https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/</id>
@@ -154,6 +193,16 @@
     <author><name>Sarah Perez</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI unveils new framework for reporting ‘AI misalignment’ as it reveals six more worrying incidents</title>
+    <link href="https://siliconangle.com/2026/09/16/openai-unveils-new-framework-for-reporting-ai-misalignment-as-it-reveals-six-more-worrying-incidents/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/09/16/openai-unveils-new-framework-for-reporting-ai-misalignment-as-it-reveals-six-more-worrying-incidents/</id>
+    <updated>2026-09-17T01:39:26Z</updated>
+    <summary type="text">OpenAI Group PBC today disclosed six new “concerning” incidents involving artificial intelligence agents behaving badly again. The agents made up data, moved files onto the public internet without permission and hid their mistakes from their human controllers, the company said. The revelations came as OpenAI unveiled a new framework for users to report “misalignment” in AI […] The post OpenAI unve</summary>
+    <author><name>Mike Wheatley</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
   </entry>
   <entry>
     <title>You Can Now Run Claude Code for $0. Here's the Exact Setup That Actually Works.</title>
@@ -339,70 +388,5 @@
     <category term="open-source"/>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>42 commits em uma sessão e eu não revisei nenhum</title>
-    <link href="https://dev.to/asouza/42-commits-em-uma-sessao-e-eu-nao-revisei-nenhum-3984" rel="alternate"/>
-    <id>https://dev.to/asouza/42-commits-em-uma-sessao-e-eu-nao-revisei-nenhum-3984</id>
-    <updated>2026-09-14T23:24:05Z</updated>
-    <summary type="text">Disclaimer Este texto foi inicialmente concebido pela IA Generativa em função da transcrição de um vídeo do canal Dev Eficiente, apresentado por Alberto Souza. Se preferir acompanhar por vídeo, é só dar o play. Introdução Nos últimos meses codei um sistema de ponta a ponta, em parceria com uma empresa que queria colocar um produto no ar. Fiz tudo com Claude Code, em sessões longas de trabalho, que</summary>
-    <author><name>Alberto Luiz Souza</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why the ATS says you’re “missing” keywords your resume clearly has</title>
-    <link href="https://dev.to/rebel_studios/why-the-ats-says-youre-missing-keywords-your-resume-clearly-has-5c10" rel="alternate"/>
-    <id>https://dev.to/rebel_studios/why-the-ats-says-youre-missing-keywords-your-resume-clearly-has-5c10</id>
-    <updated>2026-09-14T20:40:35Z</updated>
-    <summary type="text">Every &quot;ATS keyword&quot; checker tells you the same demoralizing thing: you're missing skills you know are on your resume. You wrote &quot;managed a team of six&quot; and it says you're missing management. You wrote &quot;analyzed sales data&quot; and it flags data analysis as absent. So you start stuffing exact phrases into your resume to satisfy a robot — and the result reads like it was written by one. Here's the thing</summary>
-    <author><name>Rebel Studios</name></author>
-  </entry>
-  <entry>
-    <title>When to Use One Model and When to Use a Team of Agents</title>
-    <link href="https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/" rel="alternate"/>
-    <id>https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/</id>
-    <updated>2026-09-14T17:52:20Z</updated>
-    <summary type="text">When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work. The post When to Use One Model and When to Use a Team of Agents appeared first on Towards Data Science.</summary>
-    <author><name>Naveen Goel</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Five Requests in Fifteen Seconds From One Status Bar Item</title>
-    <link href="https://dev.to/devshakib/five-requests-in-fifteen-seconds-from-one-status-bar-item-4kgh" rel="alternate"/>
-    <id>https://dev.to/devshakib/five-requests-in-fifteen-seconds-from-one-status-bar-item-4kgh</id>
-    <updated>2026-09-14T16:40:57Z</updated>
-    <summary type="text">Claude Code knows how much of your usage limits you have left, but it shows you in a panel you have to go and open. The number belongs where you are already looking, so it went into the VS Code status bar: Claude 5h 12% · 7d 39% Hover for every limit and when each one resets; the item turns amber at 75% and red at 90%. The first version worked. The second, released the same evening, had the usage </summary>
-    <author><name>K M Shahriar Hossain</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Build an AI Customer Support Chatbot (and Make It Upsell)</title>
-    <link href="https://dev.to/samchenreviews/how-to-build-an-ai-customer-support-chatbot-and-make-it-upsell-48ea" rel="alternate"/>
-    <id>https://dev.to/samchenreviews/how-to-build-an-ai-customer-support-chatbot-and-make-it-upsell-48ea</id>
-    <updated>2026-09-14T16:30:30Z</updated>
-    <summary type="text">You can spin up a fully-featured chatbot that fields common support tickets and nudges customers toward higher-margin products in under a day. The bot will sit behind a webhook, use OpenAI's GPT-4o for natural-language understanding, pull product data from a vector store for retrieval-augmented generation (RAG), and respond over Twilio SMS/WhatsApp or a Bubble web widget. The result is a self-serv</summary>
-    <author><name>Sam Chen</name></author>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Building an AI Document Intelligence System: Architecture, LangChain, and Production Lessons</title>
-    <link href="https://dev.to/ramesh_s_a8f0867d239e927c/building-an-ai-document-intelligence-system-architecture-langchain-and-production-lessons-563f" rel="alternate"/>
-    <id>https://dev.to/ramesh_s_a8f0867d239e927c/building-an-ai-document-intelligence-system-architecture-langchain-and-production-lessons-563f</id>
-    <updated>2026-09-14T16:29:01Z</updated>
-    <summary type="text">How I built a provider-agnostic RAG platform for document Q&amp;A - and what years of delivering document-heavy digital services taught me about doing it properly. The problem: documents don't answer their own questions Every organisation I've worked with - public sector, regulated enterprise, or otherwise - has the same quiet bottleneck: information locked inside PDFs, DOCX files, and scanned reports</summary>
-    <author><name>Ramesh S</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I'm creating opensource AWS DevOps Agent for SRE on-call engineers LLM root-cause hypothesis).</title>
-    <link href="https://dev.to/maxuver/im-creating-opensource-aws-devops-agent-for-sre-on-call-engineers-llm-root-cause-hypothesis-2gk9" rel="alternate"/>
-    <id>https://dev.to/maxuver/im-creating-opensource-aws-devops-agent-for-sre-on-call-engineers-llm-root-cause-hypothesis-2gk9</id>
-    <updated>2026-09-14T16:22:22Z</updated>
-    <summary type="text">Day 1/100. For the past two months, I’ve been building an open-source tool for on-call engineers in my spare time. When a Kubernetes alert fires, it automatically gathers context and sends a hypothesis about the &quot;why&quot; to Telegram, complete with evidence and a way to verify if the hypothesis is incorrect. By design, it doesn't touch anything in the cluster. Yesterday, I ran it on a real EKS cluster</summary>
-    <author><name>Maxim Patsyuk</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
