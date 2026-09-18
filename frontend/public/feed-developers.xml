@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-18T10:51:49Z</updated>
+  <updated>2026-09-18T14:51:32Z</updated>
   <entry>
     <title>Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use</title>
     <link href="https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" rel="alternate"/>
@@ -42,6 +42,15 @@
     <updated>2026-09-17T18:35:01Z</updated>
     <summary type="text">Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max subscribers. The article Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Automating End-to-End PR Workflows with Claude Task Master</title>
+    <link href="https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3akj" rel="alternate"/>
+    <id>https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3akj</id>
+    <updated>2026-09-18T14:40:07Z</updated>
+    <summary type="text">Automating End-to-End PR Workflows with Claude Task Master Claude Task Master (CLI claudetm) is an autonomous task orchestration system built on the Claude Agent SDK. It is designed for teams that already use Claude Code and want the entire pull-request lifecycle to run without human intervention. This article explains the core concepts, shows how to set up the tool, and demonstrates a typical wor</summary>
+    <author><name>developerz.ai</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -435,31 +444,5 @@
     <summary type="text">In July I wrote a 56-line shell script called mcp-optional whose entire job was to remove two MCP servers from my config. Not fix them. Remove them. Both were stdio servers, so each one spawns its own Node process per session. With around 13 Claude Code sessions open on a 16GB M4, that was roughly 1.4GB of duplicated RAM, which meant swap thrash, which meant a hot laptop. Disabling them by default</summary>
     <author><name>אחיה כהן</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Setup DeepSeek as the Default Model on ChatGPT Codex</title>
-    <link href="https://hackernoon.com/how-to-setup-deepseek-as-the-default-model-on-chatgpt-codex?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/how-to-setup-deepseek-as-the-default-model-on-chatgpt-codex?source=rss</id>
-    <updated>2026-09-16T01:40:31Z</updated>
-    <summary type="text">In this article, I will explain how you can set DeepSeek as the default model for your Codex coding agent. By doing this, you no longer need to pay a flat monthly subscription. You only need to top up your DeepSeek API balance and pay for exactly what you use.Read All</summary>
-    <author><name>Ekky Armandi</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Four Iceberg Tools, Three Agent Frameworks: What Ports, and What Doesn't</title>
-    <link href="https://dev.to/gde/four-iceberg-tools-three-agent-frameworks-what-ports-and-what-doesnt-2i9m" rel="alternate"/>
-    <id>https://dev.to/gde/four-iceberg-tools-three-agent-frameworks-what-ports-and-what-doesnt-2i9m</id>
-    <updated>2026-09-15T23:52:23Z</updated>
-    <summary type="text">This article provides a step by step build of one small Apache Iceberg data agent, written three times -- in Google ADK, in AWS Strands and in Microsoft Agent Framework -- and run against five Iceberg catalogs. Every answer is checked against the catalog itself, so the differences between the three agents can be measured rather than described. https://github.com/xbill9/lakehouse-iceberg-2026 What </summary>
-    <author><name>xbill</name></author>
-  </entry>
-  <entry>
-    <title>Building Answer Lineage for Enterprise Data Agents</title>
-    <link href="https://dev.to/arisyn/building-answer-lineage-for-enterprise-data-agents-5cai" rel="alternate"/>
-    <id>https://dev.to/arisyn/building-answer-lineage-for-enterprise-data-agents-5cai</id>
-    <updated>2026-09-15T23:45:00Z</updated>
-    <summary type="text">If a data agent returns €18.6M, production observability should tell you exactly how that answer was constructed. Most Text-to-SQL pipelines log prompts, generated SQL, latency, tokens, and execution status. Those signals matter, but when a business user says, “This number is wrong,” they are not enough. The failure may have happened before SQL generation: &quot;Revenue&quot; → wrong metric &quot;Germany&quot; → wron</summary>
-    <author><name>Arisyn</name></author>
-    <category term="data"/>
   </entry>
 </feed>
