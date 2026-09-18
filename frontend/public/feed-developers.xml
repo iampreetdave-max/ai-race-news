@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-18T05:40:14Z</updated>
+  <updated>2026-09-18T10:51:49Z</updated>
+  <entry>
+    <title>Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use</title>
+    <link href="https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/</id>
+    <updated>2026-09-18T08:40:37Z</updated>
+    <summary type="text">Alibaba's Qwen3.8-Omni-Flash understands audio and video, plans tasks, calls tools, and reports about 45.7% fewer tokens on OmniVideoBench. The post Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads</title>
     <link href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/" rel="alternate"/>
@@ -53,6 +63,14 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What if your Python database code didn't care which database you used?</title>
+    <link href="https://dev.to/joshtom/what-if-your-python-database-code-didnt-care-which-database-you-used-4001" rel="alternate"/>
+    <id>https://dev.to/joshtom/what-if-your-python-database-code-didnt-care-which-database-you-used-4001</id>
+    <updated>2026-09-18T10:42:34Z</updated>
+    <summary type="text">Introduction Writing raw SQL queries across PostgreSQL, SQLite, MySQL, SQL Server, and Oracle usually means wrangling five different drivers and endless setup boilerplate. Object-Relational Mappers (ORMs) like SQLAlchemy solve driver fragmentation, but they introduce heavy performance overhead, complex abstractions, and a steep learning curve when all you want to do is execute straightforward quer</summary>
+    <author><name>Joshua Olajide</name></author>
   </entry>
   <entry>
     <title>OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training</title>
@@ -120,6 +138,15 @@
     <category term="open-source"/>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Andrew Hastie says AI advised him to reply ‘congratulations!’ to man who planned to end life with assisted dying</title>
+    <link href="https://www.theguardian.com/technology/2026/sep/18/andrew-hastie-says-ai-advised-him-to-reply-congratulations-to-man-who-planned-to-end-life-with-assisted-dying" rel="alternate"/>
+    <id>https://www.theguardian.com/technology/2026/sep/18/andrew-hastie-says-ai-advised-him-to-reply-congratulations-to-man-who-planned-to-end-life-with-assisted-dying</id>
+    <updated>2026-09-18T09:05:43Z</updated>
+    <summary type="text">Liberal MP speaks of AI’s shortcomings as cyber chief tells inquiry the tech is needed to fend off ‘highly capable malicious cyber actors’Get our new political email, free app or daily news podcastWhen a man with a terminal illness wrote to his local MP Andrew Hastie, telling him he planned on ending his own life with voluntary assisted dying, Microsoft Copilot suggested Hastie reply with “congrat</summary>
+    <author><name>Luca Ittimani</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Paint-Anything: Unified Any-Color Control for Image Generation and Editing</title>
@@ -434,30 +461,5 @@
     <summary type="text">If a data agent returns €18.6M, production observability should tell you exactly how that answer was constructed. Most Text-to-SQL pipelines log prompts, generated SQL, latency, tokens, and execution status. Those signals matter, but when a business user says, “This number is wrong,” they are not enough. The failure may have happened before SQL generation: &quot;Revenue&quot; → wrong metric &quot;Germany&quot; → wron</summary>
     <author><name>Arisyn</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Protect Kubernetes Services with OAuth2 Proxy, Gateway API, Traefik, and Pocket ID</title>
-    <link href="https://dev.to/alikhil/protect-kubernetes-services-with-oauth2-proxy-gateway-api-traefik-and-pocket-id-35mo" rel="alternate"/>
-    <id>https://dev.to/alikhil/protect-kubernetes-services-with-oauth2-proxy-gateway-api-traefik-and-pocket-id-35mo</id>
-    <updated>2026-09-15T21:55:11Z</updated>
-    <summary type="text">My previous guide used ingress-nginx annotations to put internal Kubernetes services behind OAuth2 Proxy. It was written for an ingress-nginx setup. That controller is being retired, and Gateway API is the direction Kubernetes recommends for new traffic management work. This post rebuilds the same authentication flow with Gateway API, Traefik, OAuth2 Proxy, and Pocket ID. Why Traefik? Gateway API </summary>
-    <author><name>Alik Khilazhev</name></author>
-  </entry>
-  <entry>
-    <title>Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery</title>
-    <link href="https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/</id>
-    <updated>2026-09-14T21:54:22Z</updated>
-    <summary type="text">A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis. The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-  </entry>
-  <entry>
-    <title>myc : une mémoire locale pour les agents de code (Claude Code, Codex) qui survit à la compaction du contexte, sans clé d'API</title>
-    <link href="https://dev.to/vitaly_ivasenko_cd7932e08/myc-une-memoire-locale-pour-les-agents-de-code-claude-code-codex-qui-survit-a-la-compaction-du-363o" rel="alternate"/>
-    <id>https://dev.to/vitaly_ivasenko_cd7932e08/myc-une-memoire-locale-pour-les-agents-de-code-claude-code-codex-qui-survit-a-la-compaction-du-363o</id>
-    <updated>2026-09-15T21:03:16Z</updated>
-    <summary type="text">Quiconque a utilisé Claude Code ou Codex plus d'une heure connaît la scène : on convient avec l'agent « on part sur A, pas sur B, à cause de C », une heure plus tard le contexte est compacté et l'agent repropose B le plus naturellement du monde. La raison n'existe tout simplement plus dans son contexte. J'ai croisé sur GitHub un projet libre (MIT) qui ne fait que ça : myc (de mycelium). Pas une én</summary>
-    <author><name>Vitaly Ivasenko</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
