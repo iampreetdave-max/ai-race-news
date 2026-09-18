@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-17T22:01:44Z</updated>
+  <updated>2026-09-18T00:06:13Z</updated>
   <entry>
     <title>Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads</title>
     <link href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/" rel="alternate"/>
@@ -73,6 +73,15 @@
     <category term="llm"/>
     <category term="product-launch"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Cursor, Kiro, ChatGPT: três harness, uma arquitetura</title>
+    <link href="https://dev.to/tiagovilasboas/cursor-kiro-chatgpt-tres-harness-uma-arquitetura-7li" rel="alternate"/>
+    <id>https://dev.to/tiagovilasboas/cursor-kiro-chatgpt-tres-harness-uma-arquitetura-7li</id>
+    <updated>2026-09-17T23:35:14Z</updated>
+    <summary type="text">Toda semana alguém me pergunta: &quot;qual IDE com IA você usa?&quot;. A resposta curta é &quot;Cursor&quot;. A resposta real é que Cursor é só a interface. O que faz funcionar é um vault Logseq que serve de memória, skills compartilhadas entre IDEs, e um orquestrador que decide o que vai pra onde. Esse orquestrador é o Grok Bot — uma feature do Cursor Pro+ que permite criar agentes especializados com instruções pers</summary>
+    <author><name>Tiago Vilas Boas (Montanha)</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Attaching a Runner: The DevOps Term Nobody Explains Until It Costs You</title>
@@ -412,23 +421,5 @@
     <summary type="text">Every TikTok downloader is either covered in ads, forces sketchy apps, or bait-and-switches with &quot;premium.&quot; So I built my own. Snapyo — paste a link, get the file. That's it. What's inside: TikTok, Instagram Reels, YouTube Shorts Video (MP4) or audio (MP3) iOS with native download banner Android and desktop No sign-up, no app, no ads Built solo in a couple of days with Claude Code + Cursor, then s</summary>
     <author><name>UtopiaHq</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Introducing GraphOps: A Easy-to-Use Graph Engineering Plugin for Claude Code</title>
-    <link href="https://dev.to/erin-the-black/introducing-graphops-a-easy-to-use-graph-engineering-plugin-for-claude-code-2f1a" rel="alternate"/>
-    <id>https://dev.to/erin-the-black/introducing-graphops-a-easy-to-use-graph-engineering-plugin-for-claude-code-2f1a</id>
-    <updated>2026-09-15T14:38:01Z</updated>
-    <summary type="text">In my day-to-day engineering work, I've been driving development by combining ticket-driven development (using Jira) with Graph Engineering (AI-driven development powered by execution graphs). While introducing graph engineering has significantly elevated the quality of our AI outputs, Jira itself can feel a bit heavy and over-engineered for solo developers or small, agile teams. I wished there we</summary>
-    <author><name>erin</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Your Agent's LLM Key Survives Every Kubernetes Secret Control</title>
-    <link href="https://dev.to/webofmike/your-agents-llm-key-survives-every-kubernetes-secret-control-36b6" rel="alternate"/>
-    <id>https://dev.to/webofmike/your-agents-llm-key-survives-every-kubernetes-secret-control-36b6</id>
-    <updated>2026-09-15T14:36:20Z</updated>
-    <summary type="text">Originally published at webofmike.com on 2026-09-13. The demo repo and every command in it were run before publishing. I gave an agent pod an LLM API key the normal way, as a Secret projected into its environment. Then I turned on every Kubernetes control that sounds like it protects secrets: the restricted Pod Security Standard enforcing at admission, RBAC granting the agent's service account not</summary>
-    <author><name>Mike Moore</name></author>
   </entry>
 </feed>
