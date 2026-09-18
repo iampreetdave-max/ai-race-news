@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-18T14:51:32Z</updated>
+  <updated>2026-09-18T18:10:51Z</updated>
   <entry>
     <title>Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use</title>
     <link href="https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" rel="alternate"/>
@@ -43,6 +43,15 @@
     <summary type="text">Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max subscribers. The article Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows appeared first on The Decoder.</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Trusted urljoin for 48 Hours. Every Request Lost the /v1 Prefix.</title>
+    <link href="https://dev.to/codepy_1473/i-trusted-urljoin-for-48-hours-every-request-lost-the-v1-prefix-4ek9" rel="alternate"/>
+    <id>https://dev.to/codepy_1473/i-trusted-urljoin-for-48-hours-every-request-lost-the-v1-prefix-4ek9</id>
+    <updated>2026-09-18T17:50:04Z</updated>
+    <summary type="text">The first 404 looked like a bad deploy, which is how I talk myself into wasting a weekend. I had a tiny Python client, a green local suite, and a base URL I never printed. Why would urljoin lie when the unit tests already passed against a mocked transport layer? I spent forty-eight hours blaming routing, auth headers, and DNS while the version prefix quietly fell on the floor. Field notes from a m</summary>
+    <author><name>Taylor Wang</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Automating End-to-End PR Workflows with Claude Task Master</title>
@@ -398,51 +407,5 @@
     <author><name>Mike Wheatley</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Self-generated prompt injections in compaction summaries</title>
-    <link href="https://simonwillison.net/2026/Sep/17/compaction-summaries/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Sep/17/compaction-summaries/</id>
-    <updated>2026-09-17T20:57:55Z</updated>
-    <summary type="text">Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide &quot;six reports on unexpected or concerning model behavior we’ve observed in the last six months&quot;. This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts. Compaction is the process agent systems use</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>You Can Now Run Claude Code for $0. Here's the Exact Setup That Actually Works.</title>
-    <link href="https://hackernoon.com/you-can-now-run-claude-code-for-$0-heres-the-exact-setup-that-actually-works?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/you-can-now-run-claude-code-for-$0-heres-the-exact-setup-that-actually-works?source=rss</id>
-    <updated>2026-09-16T06:38:32Z</updated>
-    <summary type="text">Ollama added native Anthropic API support in January 2026. Claude Code can now route to local open-source models instead of Anthropic's servers. No API key.Read All</summary>
-    <author><name>Emmanuela Opurum</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What Cursor Taught Me About Working With AI</title>
-    <link href="https://hackernoon.com/what-cursor-taught-me-about-working-with-ai?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/what-cursor-taught-me-about-working-with-ai?source=rss</id>
-    <updated>2026-09-16T06:08:45Z</updated>
-    <summary type="text">A hands-on Cursor post-mortem reveals why clear interaction rules, browser testing, and better briefs produce stronger AI coding results.Read All</summary>
-    <author><name>Alex Yampolsky</name></author>
-  </entry>
-  <entry>
-    <title>How to Write a CLAUDE.md That Actually Helps Claude Code</title>
-    <link href="https://hackernoon.com/how-to-write-a-claudemd-that-actually-helps-claude-code?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/how-to-write-a-claudemd-that-actually-helps-claude-code?source=rss</id>
-    <updated>2026-09-16T06:01:31Z</updated>
-    <summary type="text">CLAUDE.md (and AGENTS.md) works best when it reads like a resume, not documentation: short, abstract, and stripped of anything a linter or a hook could already enforce. This piece lays out a seven-part framework — one-line intro, architecture, tech stack, commands, conventions, boundaries, and a domain doc map — plus a trimming strategy that moves overflow content into sub-agents, rules folders, s</summary>
-    <author><name>Xi Yang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Measured 27,257 MCP Connections. The p90 Session Waits 35s.</title>
-    <link href="https://dev.to/achiya-automation/i-measured-27257-mcp-connections-the-p90-session-waits-35s-55dp" rel="alternate"/>
-    <id>https://dev.to/achiya-automation/i-measured-27257-mcp-connections-the-p90-session-waits-35s-55dp</id>
-    <updated>2026-09-16T05:45:26Z</updated>
-    <summary type="text">In July I wrote a 56-line shell script called mcp-optional whose entire job was to remove two MCP servers from my config. Not fix them. Remove them. Both were stdio servers, so each one spawns its own Node process per session. With around 13 Claude Code sessions open on a 16GB M4, that was roughly 1.4GB of duplicated RAM, which meant swap thrash, which meant a hot laptop. Disabling them by default</summary>
-    <author><name>אחיה כהן</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
