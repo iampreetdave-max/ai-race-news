@@ -4,7 +4,45 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-19T04:30:01Z</updated>
+  <updated>2026-09-19T09:17:43Z</updated>
+  <entry>
+    <title>I open-sourced the cockpit we used to understand huge engineering departments in days</title>
+    <link href="https://dev.to/yaniv_zalevas_a91253c56bb/i-open-sourced-the-cockpit-we-used-to-understand-huge-engineering-departments-in-days-4h6m" rel="alternate"/>
+    <id>https://dev.to/yaniv_zalevas_a91253c56bb/i-open-sourced-the-cockpit-we-used-to-understand-huge-engineering-departments-in-days-4h6m</id>
+    <updated>2026-09-19T09:07:13Z</updated>
+    <summary type="text">My name is Yaniv, and I run Codpal, a CTO-as-a-service company. Over the years we've walked into a lot of new companies, and we always needed the same thing: a fast understanding of how engineering actually runs — what's in the roadmap, what the developers are focused on, who the main developers carrying the work really are. Every engagement started with weeks of meetings to map what the data coul</summary>
+    <author><name>yaniv zalevas</name></author>
+    <category term="open-source"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>AI for Automating Real Estate Comps: What Actually Works (and What Breaks)</title>
+    <link href="https://dev.to/abe_turan_6c575eb3eb2402e/ai-for-automating-real-estate-comps-what-actually-works-and-what-breaks-1l07" rel="alternate"/>
+    <id>https://dev.to/abe_turan_6c575eb3eb2402e/ai-for-automating-real-estate-comps-what-actually-works-and-what-breaks-1l07</id>
+    <updated>2026-09-19T09:04:41Z</updated>
+    <summary type="text">Last month, I stared at another spreadsheet full of recent sales, trying to figure out if a property in Mesa, Arizona, was actually a deal. Twenty-seven manual comps later, I had a headache and not much confidence. Every investor knows this drill: pull data from the MLS or a service like PropStream, sift through hundreds of listings, filter by beds/baths/square footage, adjust for condition, and p</summary>
+    <author><name>Abe Turan</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Plugin4Shell: Your AI Coding Agent's &quot;Pinned&quot; Dependency Was Never Actually Pinned</title>
+    <link href="https://dev.to/ashraf_chowdury09/plugin4shell-your-ai-coding-agents-pinned-dependency-was-never-actually-pinned-32el" rel="alternate"/>
+    <id>https://dev.to/ashraf_chowdury09/plugin4shell-your-ai-coding-agents-pinned-dependency-was-never-actually-pinned-32el</id>
+    <updated>2026-09-19T09:02:21Z</updated>
+    <summary type="text">Your SHA pin is a suggestion, not a lock You pin a plugin to a commit SHA because you did the review, you trust that exact code, and you never want it to silently change. That's the entire point of pinning. Last week, security researchers at AIR proved that four of the biggest AI coding agents — Claude Code, Codex, GitHub Copilot, and Gemini CLI — treat that pin as a polite suggestion instead of a</summary>
+    <author><name>Ashraf</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>One Architect + Claude + MCP = A Full Engineering Squad: The Operating Model I'd Install at Your Company</title>
+    <link href="https://dev.to/yaseenyk04/one-architect-claude-mcp-a-full-engineering-squad-the-operating-model-id-install-at-your-17j5" rel="alternate"/>
+    <id>https://dev.to/yaseenyk04/one-architect-claude-mcp-a-full-engineering-squad-the-operating-model-id-install-at-your-17j5</id>
+    <updated>2026-09-19T08:56:19Z</updated>
+    <summary type="text">[ EXECUTIVE TEARDOWN // TL;DR ] The operating model has three layers: an architect owning contracts and review, Claude Code running against the real repo, and MCP servers giving the model governed access to Postgres, the browser, and Git. It replaces the mechanical middle of feature work — scaffolding, wiring, consistency — which is most of a product team's payroll. Judgment is not replaced; it be</summary>
+    <author><name>Yaseen Khatib</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use</title>
     <link href="https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" rel="alternate"/>
@@ -431,14 +469,5 @@
     <author><name>ROHIT VIJAY ADAPA</name></author>
     <category term="llm"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>ReFigBench: Benchmarking Scientific Figure Reconstruction as Editable PowerPoint Artifacts</title>
-    <link href="https://arxiv.org/abs/2609.18844v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.18844v1</id>
-    <updated>2026-09-16T15:51:51Z</updated>
-    <summary type="text">Multimodal coding agents are expected to turn visual inputs into usable artifacts, and they act through a harness, the layer of tools, context management, and execution environment around the model. Existing evaluations often isolate short tool calls, API traces, or screenshot resemblance, and a low score under these proxies cannot say whether the model saw poorly, planned poorly, or was failed by</summary>
-    <author><name>Bo Li</name></author>
-    <category term="research"/>
   </entry>
 </feed>
