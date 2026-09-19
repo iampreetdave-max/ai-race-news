@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-19T17:05:46Z</updated>
+  <updated>2026-09-19T20:18:54Z</updated>
   <entry>
     <title>Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials</title>
     <link href="https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/" rel="alternate"/>
@@ -16,6 +16,24 @@
     <category term="agents"/>
     <category term="product-launch"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Scry: Congestion Pricing as Agent Rate-Limiting Infrastructure</title>
+    <link href="https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo</id>
+    <updated>2026-09-19T20:05:55Z</updated>
+    <summary type="text">Scry is a programmable search API for agents that replaces hard rate limits with congestion pricing. Instead of getting a 429 when you hit a quota, you get a price signal. The agent (or its orchestrator) decides whether to pay more or back off. This shifts rate-limiting from a binary wall into an economic feedback loop. The infrastructure question is not whether congestion pricing works in theory.</summary>
+    <author><name>mech.app</name></author>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Types of Context Rot in Harness Engineering</title>
+    <link href="https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc" rel="alternate"/>
+    <id>https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc</id>
+    <updated>2026-09-19T19:51:15Z</updated>
+    <summary type="text">If you've ever worked with an LLM-powered agent long enough for a session to grow, you've probably felt it. Instructions that worked perfectly in a fresh conversation get quietly ignored 15 turns in. The agent starts referencing things it shouldn't. Retrieved snippets that were relevant three queries ago somehow bleed into an answer to a completely different question. Everything looks fine — no er</summary>
+    <author><name>Fikayo Adepoju</name></author>
   </entry>
   <entry>
     <title>Brilliant 11 years old</title>
@@ -430,23 +448,5 @@
     <summary type="text">Someone on tintotint.eu went through every app in the September 12, 2026 F-Droid update batch, 102 apps, and classified each one by how likely it is that an LLM wrote it. Mostly AI, hard to say, no signs of AI. One student, one batch, a few tiers, done. The results are less interesting than the method, because the method is the honest part. Here's how they classified: no slop detector, no code ana</summary>
     <author><name>Cole Halton</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Lead DevRel in the AI Era: Stop Playing It Safe</title>
-    <link href="https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo" rel="alternate"/>
-    <id>https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo</id>
-    <updated>2026-09-16T22:00:19Z</updated>
-    <summary type="text">I’m awake typing this at 5 AM on a Sunday morning, plagued by two issues: the modern operating model for Developer Relations is broken, and I cannot find a comfortable position to sleep in at 36 weeks and 5 days. (The latter is slightly less relevant to this post, but equally present.) Right now, DevRel feels stuck in an existential struggle for impact. Every company has pivoted towards AI, and mo</summary>
-    <author><name>Rizèl Scarlett</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Databricks Architecture Explained: Control Plane, Compute Plane, Delta Lake and Unity Catalog</title>
-    <link href="https://dev.to/dino_david_c5d8f55f119b7f/databricks-architecture-explained-control-plane-compute-plane-delta-lake-and-unity-catalog-1167" rel="alternate"/>
-    <id>https://dev.to/dino_david_c5d8f55f119b7f/databricks-architecture-explained-control-plane-compute-plane-delta-lake-and-unity-catalog-1167</id>
-    <updated>2026-09-16T21:52:00Z</updated>
-    <summary type="text">&quot;Explain the Databricks architecture&quot; is one of the most common data engineering questions. Here is the answer as a picture, built up layer by layer. 1. It starts with your cloud account Databricks runs on Azure, AWS or Google Cloud, and your cloud account is the foundation everything else sits on. 2. The control plane Databricks runs as two halves. The control plane is hosted and managed by Datab</summary>
-    <author><name>dino david</name></author>
-    <category term="data"/>
   </entry>
 </feed>
