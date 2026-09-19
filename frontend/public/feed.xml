@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-19T20:18:54Z</updated>
+  <updated>2026-09-19T22:46:41Z</updated>
   <entry>
     <title>TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text</title>
     <link href="https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/" rel="alternate"/>
@@ -22,6 +22,14 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Meta’s Muse is creepy, but maybe not for the reasons you think</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy</id>
+    <updated>2026-09-19T20:44:40Z</updated>
+    <summary type="text">Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads […]</summary>
+    <author><name>Terrence O’Brien</name></author>
   </entry>
   <entry>
     <title>Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials</title>
@@ -255,6 +263,75 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>I'm an architect. I built an AI agent that draws - and outputs IFC models</title>
+    <link href="https://dev.to/axidesk/im-an-architect-i-built-an-ai-agent-that-draws-and-outputs-ifc-models-1j08" rel="alternate"/>
+    <id>https://dev.to/axidesk/im-an-architect-i-built-an-ai-agent-that-draws-and-outputs-ifc-models-1j08</id>
+    <updated>2026-09-19T22:41:29Z</updated>
+    <summary type="text">Every coding agent I tried could write files. None of them could use the computer. I'm an architect. I don't write code for a living - I design buildings. But I got tired of repeating the same drawings, the same spreadsheets, the same model exports by hand. So I built one: Axio Coder, an open-source (AGPL-3.0) agent that works inside your project, next to you. Here is the part that turned out to b</summary>
+    <author><name>Axidesk</name></author>
+    <category term="agents"/>
+    <category term="product-launch"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>From KEV to Exposure: Mapping the September 2026 Batch to Measurable Services</title>
+    <link href="https://dev.to/kozhevniko/from-kev-to-exposure-mapping-the-september-2026-batch-to-measurable-services-4nco" rel="alternate"/>
+    <id>https://dev.to/kozhevniko/from-kev-to-exposure-mapping-the-september-2026-batch-to-measurable-services-4nco</id>
+    <updated>2026-09-19T22:40:13Z</updated>
+    <summary type="text">From KEV to Exposure: Mapping the September 2026 Batch to Measurable Services The CISA Known Exploited Vulnerabilities catalog is a list of flaws that have been exploited in the wild. It is not a list of what is exposed in a given environment. Bridging those two things is the useful step, and internet measurement is one of the inputs that makes the bridge concrete. The September 2026 KEV additions</summary>
+    <author><name>kozhevniko</name></author>
+  </entry>
+  <entry>
+    <title>I’m building a tool to discover who holds your personal data (and delete it) 🛠️</title>
+    <link href="https://dev.to/wmd_dev/show-dev-im-building-a-tool-to-discover-who-holds-your-personal-data-and-delete-it-10i3" rel="alternate"/>
+    <id>https://dev.to/wmd_dev/show-dev-im-building-a-tool-to-discover-who-holds-your-personal-data-and-delete-it-10i3</id>
+    <updated>2026-09-19T22:21:33Z</updated>
+    <summary type="text">Hi everyone! 👋 The core idea is simple: finding out which companies hold your personal data shouldn't take hours of research, and asking them to delete it shouldn't require hours of manual work either. To address this, I’m working on a tool that combines a local browser extension with a companion website. 🔍 How it works (2-step process) Local detection: The browser extension uses various methods t</summary>
+    <author><name>Jodev</name></author>
+  </entry>
+  <entry>
+    <title>AI Didn’t Build My Backend for Me. I Used It as My Copilot.</title>
+    <link href="https://dev.to/suad_macaulay_acb3b90def7/ai-didnt-build-my-backend-for-me-i-used-it-as-my-copilot-2hf0" rel="alternate"/>
+    <id>https://dev.to/suad_macaulay_acb3b90def7/ai-didnt-build-my-backend-for-me-i-used-it-as-my-copilot-2hf0</id>
+    <updated>2026-09-19T22:17:18Z</updated>
+    <summary type="text">When we were given our project, CourierIQ, I knew I wanted to use it as an opportunity to learn something outside what I was already comfortable with. I was already more familiar with frontend development, so when backend development came into the picture, I was actually excited. I thought, okay, this is going to be interesting. I don't want to be someone who only knows one side of development. If</summary>
+    <author><name>Suad Macaulay</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>MCP Is an Adapter Layer, So Version the API First</title>
+    <link href="https://dev.to/infracore/mcp-is-an-adapter-layer-so-version-the-api-first-1m5j" rel="alternate"/>
+    <id>https://dev.to/infracore/mcp-is-an-adapter-layer-so-version-the-api-first-1m5j</id>
+    <updated>2026-09-19T22:11:01Z</updated>
+    <summary type="text">If an MCP server is usually a thin layer over an API, the practical takeaway is simple: treat the API contract as the thing that can actually break you. A useful method is to review changes in this order: API surface: endpoints, required params, response fields, enums, auth shape MCP mapping: which API fields become tool inputs/outputs Agent behavior: prompts, tool choice, retry logic, and error h</summary>
+    <author><name>infracore</name></author>
+  </entry>
+  <entry>
+    <title>Your DMARC record might contain something that no longer exists</title>
+    <link href="https://dev.to/steven_browning_70ac8fbfa/your-dmarc-record-might-contain-something-that-no-longer-exists-nii" rel="alternate"/>
+    <id>https://dev.to/steven_browning_70ac8fbfa/your-dmarc-record-might-contain-something-that-no-longer-exists-nii</id>
+    <updated>2026-09-19T22:07:42Z</updated>
+    <summary type="text">Most of us set up SPF, DKIM and DMARC once, watch the reports for a week or two, and then leave them alone. That's usually the right call. They aren't systems that need constant attention. This year is worth an exception, though — and not quite for the reason you'd expect. The spec changed in May, and one of those changes means that tidying up your DMARC record can quietly make it stricter than yo</summary>
+    <author><name>Steven Browning</name></author>
+  </entry>
+  <entry>
+    <title>CVE-2026-76460: Maximum-Severity Cisco ISE Authentication Bypass Under Active Exploitation</title>
+    <link href="https://dev.to/stark_zhuang_df5076f35c68/cve-2026-76460-maximum-severity-cisco-ise-authentication-bypass-under-active-exploitation-3877" rel="alternate"/>
+    <id>https://dev.to/stark_zhuang_df5076f35c68/cve-2026-76460-maximum-severity-cisco-ise-authentication-bypass-under-active-exploitation-3877</id>
+    <updated>2026-09-19T22:00:12Z</updated>
+    <summary type="text">CVE-2026-76460: Maximum-Severity Cisco ISE Authentication Bypass Under Active Exploitation Cisco's Identity Services Engine (ISE) sits at the center of network access control for many enterprises. On September 16, 2026, Cisco disclosed that a maximum-severity flaw in that platform is being exploited in the wild. The bug, tracked as CVE-2026-76460, carries a CVSS score of 10.0 and lets an unauthent</summary>
+    <author><name>StarkMan</name></author>
+  </entry>
+  <entry>
+    <title>Software Engineering Still Matters</title>
+    <link href="https://dev.to/jeffswhite/software-engineering-still-matters-17ni" rel="alternate"/>
+    <id>https://dev.to/jeffswhite/software-engineering-still-matters-17ni</id>
+    <updated>2026-09-19T21:57:16Z</updated>
+    <summary type="text">Since software was first invented, many tech executives have relentlessly attempted to reduce the practice of software engineering to the mere act of computer programming. &quot;It's just software&quot; or &quot;All you have to do is write some code&quot; have been common refrains from managers over the course of my career. This perspective feeds the narrative that LLMs are going to replace software engineers across </summary>
+    <author><name>Jeff White</name></author>
+  </entry>
+  <entry>
     <title>Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs</title>
     <link href="https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/</id>
@@ -365,84 +442,5 @@
     <updated>2026-09-18T17:45:17Z</updated>
     <summary type="text">California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a &quot;kill switch&quot; for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal law requires AI companies to report dangerous incidents. The article California Governor Newsom signs executive order demanding &quot;kill switch&quot; for AI models appeared first on The De</summary>
     <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours</title>
-    <link href="https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/" rel="alternate"/>
-    <id>https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/</id>
-    <updated>2026-09-18T17:20:30Z</updated>
-    <summary type="text">Three security researchers used Anthropic's Claude models to break into OpenAI's internal systems through its community forum in less than 72 hours. According to the team, Opus 5 succeeded where its predecessor couldn't bypass a common security measure. The attack shows how newer AI models can cut the time and expertise needed to exploit security flaws. The article Security researchers used Anthro</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Introducing the Australian Youth Safety Blueprint</title>
-    <link href="https://openai.com/index/australian-youth-safety-blueprint" rel="alternate"/>
-    <id>https://openai.com/index/australian-youth-safety-blueprint</id>
-    <updated>2026-09-18T12:00:00Z</updated>
-    <summary type="text">OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Nvidia CEO Says There’s ‘0% Chance’ That World Will End in 2030</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030</id>
-    <updated>2026-09-18T23:31:19Z</updated>
-    <summary type="text">Nvidia Corp. Chief Executive Officer Jensen Huang renewed his pushback against AI doomsday scenarios, saying that the technology doesn’t pose an extinction risk to humanity.</summary>
-    <author><name>Ian King</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>A startup that builds other startups raised $100M, and is all-in on physical AI</title>
-    <link href="https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/</id>
-    <updated>2026-09-18T23:25:01Z</updated>
-    <summary type="text">UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.</summary>
-    <author><name>Kirsten Korosec</name></author>
-  </entry>
-  <entry>
-    <title>If AI Can Do Almost Anything, What Will Be Left for Humans to Learn?</title>
-    <link href="https://hackernoon.com/if-ai-can-do-almost-anything-what-will-be-left-for-humans-to-learn?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/if-ai-can-do-almost-anything-what-will-be-left-for-humans-to-learn?source=rss</id>
-    <updated>2026-09-19T16:59:59Z</updated>
-    <summary type="text">It is not enough for education simply to prepare people to fulfill a given role. The ability to set one’s own goals and understand what really matters is becoming even more significant. Technology is excellent at answering the question &quot;how?&quot;, but if a person does not have an answer to the question &quot;why?&quot;, they will simply move in whatever direction someone else has chosen for them.Read All</summary>
-    <author><name>Dmytro Korchevskyi</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic is operating a lab that conducts biology experiments</title>
-    <link href="https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/</id>
-    <updated>2026-09-18T23:13:31Z</updated>
-    <summary type="text">AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.</summary>
-    <author><name>Julie Bort</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI hallucination nearly triggers US military operation</title>
-    <link href="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/</id>
-    <updated>2026-09-18T23:12:32Z</updated>
-    <summary type="text">“It’s important for service members to understand the uncertainty inherent to LLMs,&quot; a GovAI research scholar warns.</summary>
-    <author><name>Aditya Mehta</name></author>
-  </entry>
-  <entry>
-    <title>OpenAI Sees Burning Through $278 Billion by 2030: FT</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-18/openai-projects-burning-through-278-billion-by-2030-ft-says" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-18/openai-projects-burning-through-278-billion-by-2030-ft-says</id>
-    <updated>2026-09-18T23:02:13Z</updated>
-    <summary type="text">OpenAI expects that its negative free cash flow will reach $278 billion from 2026 to the end of 2030, the Financial Times reported, citing a company presentation.</summary>
-    <author><name>Samantha Oltman</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Build a Full-Stack AI Tools Directory App: The Complete Developer’s Guide (Next.js + Supabase)</title>
-    <link href="https://dev.to/thefluxread/how-to-build-a-full-stack-ai-tools-directory-app-the-complete-developers-guide-nextjs--cg2" rel="alternate"/>
-    <id>https://dev.to/thefluxread/how-to-build-a-full-stack-ai-tools-directory-app-the-complete-developers-guide-nextjs--cg2</id>
-    <updated>2026-09-19T16:41:38Z</updated>
-    <summary type="text">Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\}\}/</summary>
-    <author><name>The Flux Read</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
