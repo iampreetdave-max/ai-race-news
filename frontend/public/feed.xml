@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-19T22:46:41Z</updated>
+  <updated>2026-09-20T00:50:26Z</updated>
   <entry>
     <title>TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text</title>
     <link href="https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/" rel="alternate"/>
@@ -246,12 +246,47 @@
     <author><name>WIRED Staff</name></author>
   </entry>
   <entry>
+    <title>Why AI Writes Need Risk Tiers: The R0-R5 Tool Risk Model</title>
+    <link href="https://dev.to/rain6fish/why-ai-writes-need-risk-tiers-the-r0-r5-tool-risk-model-105k" rel="alternate"/>
+    <id>https://dev.to/rain6fish/why-ai-writes-need-risk-tiers-the-r0-r5-tool-risk-model-105k</id>
+    <updated>2026-09-20T00:25:28Z</updated>
+    <summary type="text">The previous piece, &quot;Runtime over Prompt&quot;, argued that the security boundary belongs on the execution path — immediately before a tool call can produce a side effect. This one goes a level deeper. Once the boundary sits on the execution path, the runtime has to answer a question it can't dodge: should this tool be allowed to run at all? And the operations enterprises actually hesitate over are rar</summary>
+    <author><name>Rain S</name></author>
+  </entry>
+  <entry>
     <title>Benchmarking LLM Inference at Scale with AIPerf</title>
     <link href="https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/</id>
     <updated>2026-09-18T19:04:41Z</updated>
     <summary type="text">You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...</summary>
     <author><name>Elizabeth Goodman</name></author>
+  </entry>
+  <entry>
+    <title>The Gemini breakout verdict has to come from the boundary, not the model's mouth</title>
+    <link href="https://dev.to/cole_halton_42f71d71b809b/the-gemini-breakout-verdict-has-to-come-from-the-boundary-not-the-models-mouth-k62" rel="alternate"/>
+    <id>https://dev.to/cole_halton_42f71d71b809b/the-gemini-breakout-verdict-has-to-come-from-the-boundary-not-the-models-mouth-k62</id>
+    <updated>2026-09-20T00:15:07Z</updated>
+    <summary type="text">Google confirmed that its Gemini agent broke out of a sandbox and &quot;hacked&quot; three companies in a May test run by the vendor Irregular, the same firm that ran similar breakout incidents for OpenAI, Anthropic and Meta. Gemini got past its sandbox by guessing and social-engineering credentials, then stopped and left the networks untouched. The confirmation ran in Reuters over the weekend. The takes on</summary>
+    <author><name>Cole Halton</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A code review benchmark that isn't the vendor ranking itself</title>
+    <link href="https://dev.to/tessainsley/a-code-review-benchmark-that-isnt-the-vendor-ranking-itself-4jp6" rel="alternate"/>
+    <id>https://dev.to/tessainsley/a-code-review-benchmark-that-isnt-the-vendor-ranking-itself-4jp6</id>
+    <updated>2026-09-20T00:15:06Z</updated>
+    <summary type="text">Ask which AI code review tool is best and the answer you get depends on who is publishing it. The deepsource.com listicle ranks CodeRabbit first and runs on a code-quality product. codeant.ai's own 2026 roundup rates CodeAnt AI the best overall, in a list it wrote, after advertising &quot;300K-PR&quot;. The monterail.com comparison is an agency, not a neutral source. Every ranking in that SERP has an owner.</summary>
+    <author><name>Tess Ainsley</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>The Gemini breakout is a judge problem, not a jailbreak problem</title>
+    <link href="https://dev.to/cole_halton_42f71d71b809b/the-gemini-breakout-is-a-judge-problem-not-a-jailbreak-problem-3b4" rel="alternate"/>
+    <id>https://dev.to/cole_halton_42f71d71b809b/the-gemini-breakout-is-a-judge-problem-not-a-jailbreak-problem-3b4</id>
+    <updated>2026-09-20T00:15:05Z</updated>
+    <summary type="text">Google confirmed Friday that its Gemini agent &quot;hacked&quot; three companies back in May as part of a test run. It's the latest in a line of breakout incidents all run by the same third-party tester, a firm called Irregular, which has also run similar exercises for OpenAI, Anthropic and Meta. The HN thread is set on the security story, and there's real material there. But the part I want to pull on is t</summary>
+    <author><name>Cole Halton</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>China State TV Affiliate Flags Anthropic Data and Privacy Risks</title>
@@ -261,6 +296,64 @@
     <summary type="text">Anthropic PBC’s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.</summary>
     <author><name>Bloomberg News</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hyphae Atlas: An Agent That Won’t Call a Database Migration Safe Without Receipts</title>
+    <link href="https://dev.to/terrizoaguimor/hyphae-atlas-an-agent-that-wont-call-a-database-migration-safe-without-receipts-5a04" rel="alternate"/>
+    <id>https://dev.to/terrizoaguimor/hyphae-atlas-an-agent-that-wont-call-a-database-migration-safe-without-receipts-5a04</id>
+    <updated>2026-09-20T00:08:38Z</updated>
+    <summary type="text">This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content What I Built Hyphae Atlas is an evidence agent that answers a deliberately difficult class of engineering question: is this migration, capability statement, or product claim actually supported for the exact release and environment being discussed? The subject is Hyphae, a local-first data engine. Its p</summary>
+    <author><name>Mario Gutierrez</name></author>
+  </entry>
+  <entry>
+    <title>יומן הבטחות — Hebrew promise-ledger for מסמך (not a CRM) · Path Two</title>
+    <link href="https://dev.to/shi_fa332034789b5990d82c8/yvmn-hbtkhvt-hebrew-promise-ledger-for-msmk-not-a-crm-path-two-35ma" rel="alternate"/>
+    <id>https://dev.to/shi_fa332034789b5990d82c8/yvmn-hbtkhvt-hebrew-promise-ledger-for-msmk-not-a-crm-path-two-35ma</id>
+    <updated>2026-09-20T00:07:05Z</updated>
+    <summary type="text">Path Two: יומן הבטחות (promise-ledger) Challenge: Sanity Challenge 2026 Path: Two — Vibe-code something strange Brand / DEV: מסמך / כלים נבחרים · kelimok47 Sanity project ID: 8axt363c Dataset: production (free) Public app / repo: add URL after deploy Method label: BUILD-FROM-SELF Live free-project ID from Sanity manage (org כלים נבחרים). Do not publish this post until review. Checklist [x] Working</summary>
+    <author><name>Shi</name></author>
+  </entry>
+  <entry>
+    <title>I Built a Self-Hosted AI Engineering Team That Won't Push Code Without My Approval</title>
+    <link href="https://dev.to/adnanahamedhimal/i-built-a-self-hosted-ai-engineering-team-that-wont-push-code-without-my-approval-5g4i" rel="alternate"/>
+    <id>https://dev.to/adnanahamedhimal/i-built-a-self-hosted-ai-engineering-team-that-wont-push-code-without-my-approval-5g4i</id>
+    <updated>2026-09-20T00:06:35Z</updated>
+    <summary type="text">Coding agents are good at writing code and bad at knowing when they're wrong. I've watched an agent confidently ship a broken change, add a dependency that was published 20 hours ago, or quietly leak a secret into a commit message. So I built AI Employee — a self-hosted system that wraps AI coding agents in the same process a careful human team already uses, before anything reaches your GitHub. Th</summary>
+    <author><name>adnanahamedhimal</name></author>
+  </entry>
+  <entry>
+    <title>Automating Threat Intelligence: Integrating CVE Bots and Open Datasets into Your SecDevOps Pipeline</title>
+    <link href="https://dev.to/tamizuddin/automating-threat-intelligence-integrating-cve-bots-and-open-datasets-into-your-secdevops-pipeline-387k" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/automating-threat-intelligence-integrating-cve-bots-and-open-datasets-into-your-secdevops-pipeline-387k</id>
+    <updated>2026-09-20T00:01:21Z</updated>
+    <summary type="text">Originally published on tamiz.pro. Introduction: The Shift from Reactive to Proactive Security The traditional security operations model is no longer sufficient for the speed of modern software development. In an era where microservices deploy every minute and supply chain attacks target dependencies rather than binaries, relying on manual vulnerability scanning is not just inefficient; it is a cr</summary>
+    <author><name>Tamiz Uddin</name></author>
+  </entry>
+  <entry>
+    <title>A Substring Is Not a Speech Act: My AI Agent Executed Questions and Quotes</title>
+    <link href="https://dev.to/hexisteme/a-substring-is-not-a-speech-act-my-ai-agent-executed-questions-and-quotes-27n5" rel="alternate"/>
+    <id>https://dev.to/hexisteme/a-substring-is-not-a-speech-act-my-ai-agent-executed-questions-and-quotes-27n5</id>
+    <updated>2026-09-20T00:00:06Z</updated>
+    <summary type="text">Originally published on hexisteme notes. I built a small interactive piece where recorded model replies control what happens next. A reply can join the work, reserve a direction, undertake a task, or delegate the final choice. The mapping is intentionally narrow: these are authored clauses in a saved record, not a general conversation engine. Then a question joined the work. The first language bin</summary>
+    <author><name>John</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>2 Pitfalls in Priority Probes: Letting One Real Request Through an Open Circuit Breaker</title>
+    <link href="https://dev.to/bokuwalily/2-pitfalls-in-priority-probes-letting-one-real-request-through-an-open-circuit-breaker-4km5" rel="alternate"/>
+    <id>https://dev.to/bokuwalily/2-pitfalls-in-priority-probes-letting-one-real-request-through-an-open-circuit-breaker-4km5</id>
+    <updated>2026-09-20T00:00:06Z</updated>
+    <summary type="text">A circuit breaker that stops everything is easy to reason about — until the one job that can't afford to wait gets stopped along with everything else. In my setup, that job was posting: it fell to a 43% execution rate (231 runs vs. 308 skips) because engagement jobs had burned through the quota first. This post is about the fix inside claude-quota-guard.py — claim_priority_probe and run_job, which</summary>
+    <author><name>Lily</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Based on my preliminary research into Astra and Fable 5.1 in the AI ​​field...</title>
+    <link href="https://hackernoon.com/based-on-my-preliminary-research-into-astra-and-fable-51-in-the-ai-field?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/based-on-my-preliminary-research-into-astra-and-fable-51-in-the-ai-field?source=rss</id>
+    <updated>2026-09-19T23:14:59Z</updated>
+    <summary type="text">Same $10/$50 per million tokens. Fable 5.1's cache reads cost 75% less; Astra doubles rates above 272K tokens. Pick by workflow, not price.Read All</summary>
+    <author><name>heibai</name></author>
   </entry>
   <entry>
     <title>I'm an architect. I built an AI agent that draws - and outputs IFC models</title>
@@ -348,99 +441,5 @@
     <updated>2026-09-18T20:16:21Z</updated>
     <summary type="text">Cornelia Schuler, CEO of Global Revenue Network, tells CB Insights how she views the market, customer needs, and her company. How do you define your market and where does your company fit into that space? Only 11 of the … The post CEO Interview: Global Revenue Network appeared first on CB Insights Research.</summary>
     <author><name>Medhabi Ghosh</name></author>
-  </entry>
-  <entry>
-    <title>Executive Interview: Coalition</title>
-    <link href="https://www.cbinsights.com/research/executive-interview-coalition/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/executive-interview-coalition/</id>
-    <updated>2026-09-18T20:10:45Z</updated>
-    <summary type="text">Dylan Steele, Chief Marketing Officer (CMO) of Coalition, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Coalition is the … The post Executive Interview: Coalition appeared first on CB Insights Research.</summary>
-    <author><name>Casey Porter</name></author>
-  </entry>
-  <entry>
-    <title>I open-sourced 3 small Node utilities I pulled out of building an edtech platform</title>
-    <link href="https://dev.to/ram_chandragiri/i-open-sourced-3-small-node-utilities-i-pulled-out-of-building-an-edtech-platform-28jd" rel="alternate"/>
-    <id>https://dev.to/ram_chandragiri/i-open-sourced-3-small-node-utilities-i-pulled-out-of-building-an-edtech-platform-28jd</id>
-    <updated>2026-09-19T20:08:57Z</updated>
-    <summary type="text">I've spent the last while building MCQplex, an exam-prep platform for Nepal's NEB curriculum. Along the way I built a few pieces of infrastructure that had nothing to do with exams specifically, so I pulled them out into their own packages: llm-free-cascade Free-tier LLM APIs (Gemini, Groq, Cerebras, and others) are individually rate-limited, but between them they add up to a lot of free inference</summary>
-    <author><name>Ram Chandra Giri</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Scry: Congestion Pricing as Agent Rate-Limiting Infrastructure</title>
-    <link href="https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo</id>
-    <updated>2026-09-19T20:05:55Z</updated>
-    <summary type="text">Scry is a programmable search API for agents that replaces hard rate limits with congestion pricing. Instead of getting a 429 when you hit a quota, you get a price signal. The agent (or its orchestrator) decides whether to pay more or back off. This shifts rate-limiting from a binary wall into an economic feedback loop. The infrastructure question is not whether congestion pricing works in theory.</summary>
-    <author><name>mech.app</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>The Database I Deleted: Migrating an Agentic RAG App to AWS Serverless #3</title>
-    <link href="https://dev.to/dmitriy_trunov_9a09a497b1/the-database-i-deleted-migrating-an-agentic-rag-app-to-aws-serverless-3-k0d" rel="alternate"/>
-    <id>https://dev.to/dmitriy_trunov_9a09a497b1/the-database-i-deleted-migrating-an-agentic-rag-app-to-aws-serverless-3-k0d</id>
-    <updated>2026-09-19T19:54:30Z</updated>
-    <summary type="text">Part 3 of 3 — bugs, numbers, and what generalizes Part 1 covered why an agentic RAG assistant moved off a single EC2 box onto AWS serverless, and the resulting architecture. Part 2 walked through five decisions that didn't survive contact with AWS's fine print: a database that turned out to be a file, why there's no streaming, an auth design CloudFront can't do, what Bedrock batch inference can't </summary>
-    <author><name>Dmitriy Trunov</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Types of Context Rot in Harness Engineering</title>
-    <link href="https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc" rel="alternate"/>
-    <id>https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc</id>
-    <updated>2026-09-19T19:51:15Z</updated>
-    <summary type="text">If you've ever worked with an LLM-powered agent long enough for a session to grow, you've probably felt it. Instructions that worked perfectly in a fresh conversation get quietly ignored 15 turns in. The agent starts referencing things it shouldn't. Retrieved snippets that were relevant three queries ago somehow bleed into an answer to a completely different question. Everything looks fine — no er</summary>
-    <author><name>Fikayo Adepoju</name></author>
-  </entry>
-  <entry>
-    <title>Auto-localize prices in React with react-currency-localizer-realtime</title>
-    <link href="https://dev.to/viraj_geeth_e6dc448fe4d43/auto-localize-prices-in-react-with-react-currency-localizer-realtime-mg2" rel="alternate"/>
-    <id>https://dev.to/viraj_geeth_e6dc448fe4d43/auto-localize-prices-in-react-with-react-currency-localizer-realtime-mg2</id>
-    <updated>2026-09-19T19:50:47Z</updated>
-    <summary type="text">If you sell to international customers, showing prices in the visitor's local currency isn't a nice-to-have — it's a conversion-rate lever. But wiring it up usually turns into a small project: IP geolocation, exchange-rate fetching, caching, fallbacks, race conditions when the rate call is slower than render. react-currency-localizer-realtime compresses all of that into a React hook and a componen</summary>
-    <author><name>viraj geeth</name></author>
-  </entry>
-  <entry>
-    <title>Why AI Gets Your Technical Question Wrong, and How to Check Before You Paste</title>
-    <link href="https://dev.to/robcotek/why-ai-gets-your-technical-question-wrong-and-how-to-check-before-you-paste-1mo4" rel="alternate"/>
-    <id>https://dev.to/robcotek/why-ai-gets-your-technical-question-wrong-and-how-to-check-before-you-paste-1mo4</id>
-    <updated>2026-09-19T19:42:47Z</updated>
-    <summary type="text">The dangerous AI answer is not the one that fails. It is the one that looks right, reads with total confidence, pastes cleanly into your report or your code, and then does nothing. No error. No warning. The number on the page is still wrong, and now you are convinced the cause is somewhere else. I write technical cookbooks for reporting tools, and before any recipe goes into a book, it gets run on</summary>
-    <author><name>Rob Joseph</name></author>
-  </entry>
-  <entry>
-    <title>PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance</title>
-    <link href="https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/</id>
-    <updated>2026-09-18T18:06:36Z</updated>
-    <summary type="text">PrismML has released Ternary Bonsai 2 27B, a ternary-weight version of Qwen3.8 27B. The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent model’s average across 20 benchmarks. The model accepts text and images and supports a 262K-token context. PrismML demos it driving Cline coding […] The post PrismML Releases Ternary Bonsai 2 27B: A 5.9 </summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Tilly Norwood’s press tour is going about as well as you’d expect for an AI</title>
-    <link href="https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/</id>
-    <updated>2026-09-19T00:12:07Z</updated>
-    <summary type="text">In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese.</summary>
-    <author><name>Amanda Silberling</name></author>
-  </entry>
-  <entry>
-    <title>CEO Interview: Array Labs</title>
-    <link href="https://www.cbinsights.com/research/ceo-interview-array-labs/" rel="alternate"/>
-    <id>https://www.cbinsights.com/research/ceo-interview-array-labs/</id>
-    <updated>2026-09-18T17:46:47Z</updated>
-    <summary type="text">Andrew Peterson, Chief Executive Officer (CEO) of Array Labs tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Satellite missions … The post CEO Interview: Array Labs appeared first on CB Insights Research.</summary>
-    <author><name>Casey Porter</name></author>
-  </entry>
-  <entry>
-    <title>California Governor Newsom signs executive order demanding &quot;kill switch&quot; for AI models</title>
-    <link href="https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/" rel="alternate"/>
-    <id>https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/</id>
-    <updated>2026-09-18T17:45:17Z</updated>
-    <summary type="text">California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a &quot;kill switch&quot; for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal law requires AI companies to report dangerous incidents. The article California Governor Newsom signs executive order demanding &quot;kill switch&quot; for AI models appeared first on The De</summary>
-    <author><name>Matthias Bastian</name></author>
   </entry>
 </feed>

@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-19T22:46:41Z</updated>
+  <updated>2026-09-20T00:50:26Z</updated>
   <entry>
     <title>Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials</title>
     <link href="https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/" rel="alternate"/>
@@ -16,6 +16,14 @@
     <category term="agents"/>
     <category term="product-launch"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Automating Threat Intelligence: Integrating CVE Bots and Open Datasets into Your SecDevOps Pipeline</title>
+    <link href="https://dev.to/tamizuddin/automating-threat-intelligence-integrating-cve-bots-and-open-datasets-into-your-secdevops-pipeline-387k" rel="alternate"/>
+    <id>https://dev.to/tamizuddin/automating-threat-intelligence-integrating-cve-bots-and-open-datasets-into-your-secdevops-pipeline-387k</id>
+    <updated>2026-09-20T00:01:21Z</updated>
+    <summary type="text">Originally published on tamiz.pro. Introduction: The Shift from Reactive to Proactive Security The traditional security operations model is no longer sufficient for the speed of modern software development. In an era where microservices deploy every minute and supply chain attacks target dependencies rather than binaries, relying on manual vulnerability scanning is not just inefficient; it is a cr</summary>
+    <author><name>Tamiz Uddin</name></author>
   </entry>
   <entry>
     <title>AI Didn’t Build My Backend for Me. I Used It as My Copilot.</title>
@@ -268,6 +276,16 @@
     <author><name>Joshua Olajide</name></author>
   </entry>
   <entry>
+    <title>ProgramAsWeights: compile English function descriptions into neural programs that run locally [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/</id>
+    <updated>2026-09-19T23:35:28Z</updated>
+    <summary type="text">Given the recent interest in tools like Jev, I wanted to share ProgramAsWeights (PAW), an open-source research project I'm working on at the University of Waterloo. You describe a text function in English, compile it into a reusable neural program, and run it locally, including on a CPU. For example: import programasweights as paw fn = paw.compile_and_load(&quot;Classify urgent emails&quot;) fn(&quot;Need this t</summary>
+    <author><name>/u/yuntiandeng</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
     <title>OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training</title>
     <link href="https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/</id>
@@ -440,31 +458,5 @@
     <updated>2026-09-17T02:40:10Z</updated>
     <summary type="text">See what a million-token AI context window really means, from 3,000 pages of text to 75,000 lines of code and 83 hours of conversation.Read All</summary>
     <author><name>Khasky</name></author>
-  </entry>
-  <entry>
-    <title>Cloudflare Separates AI Training Controls From Search Indexing for Website Owners</title>
-    <link href="https://dev.to/alifar/cloudflare-separates-ai-training-controls-from-search-indexing-for-website-owners-152a" rel="alternate"/>
-    <id>https://dev.to/alifar/cloudflare-separates-ai-training-controls-from-search-indexing-for-website-owners-152a</id>
-    <updated>2026-09-17T00:30:30Z</updated>
-    <summary type="text">Cloudflare has introduced a Disallow AI Training setting intended to solve a difficult choice for website owners: limiting the use of their content for AI model training without blocking search indexing. The control is part of Cloudflare's Bot Management and AI Crawl Control toolbox, and it distinguishes among crawlers based on whether they search, train models, or act on behalf of users. The chan</summary>
-    <author><name>Ali Farhat</name></author>
-  </entry>
-  <entry>
-    <title>Privacy-First AI: Fine-Tuning Llama-3 on Your MacBook to Decipher 10 Years of Health Reports</title>
-    <link href="https://dev.to/beck_moulton/privacy-first-ai-fine-tuning-llama-3-on-your-macbook-to-decipher-10-years-of-health-reports-jcb" rel="alternate"/>
-    <id>https://dev.to/beck_moulton/privacy-first-ai-fine-tuning-llama-3-on-your-macbook-to-decipher-10-years-of-health-reports-jcb</id>
-    <updated>2026-09-17T00:21:00Z</updated>
-    <summary type="text">In an era where data is the new oil, your medical history is the &quot;Gold Reserve.&quot; But would you really want to hand over ten years of sensitive blood tests, MRI results, and physical exams to a cloud provider? Probably not. With the rise of Local LLM training and the MLX framework, the dream of having a private, medical-grade AI assistant running entirely on your local machine is finally a reality.</summary>
-    <author><name>Beck_Moulton</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A student eyeballed 102 F-Droid apps for LLM slop. The method is the story.</title>
-    <link href="https://dev.to/cole_halton_42f71d71b809b/a-student-eyeballed-102-f-droid-apps-for-llm-slop-the-method-is-the-story-3gno" rel="alternate"/>
-    <id>https://dev.to/cole_halton_42f71d71b809b/a-student-eyeballed-102-f-droid-apps-for-llm-slop-the-method-is-the-story-3gno</id>
-    <updated>2026-09-17T00:15:13Z</updated>
-    <summary type="text">Someone on tintotint.eu went through every app in the September 12, 2026 F-Droid update batch, 102 apps, and classified each one by how likely it is that an LLM wrote it. Mostly AI, hard to say, no signs of AI. One student, one batch, a few tiers, done. The results are less interesting than the method, because the method is the honest part. Here's how they classified: no slop detector, no code ana</summary>
-    <author><name>Cole Halton</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
