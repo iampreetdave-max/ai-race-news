@@ -4,7 +4,34 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-20T14:39:52Z</updated>
+  <updated>2026-09-20T18:07:57Z</updated>
+  <entry>
+    <title>Keeping your whole Docker stack safely up to date</title>
+    <link href="https://dev.to/serverkueche/keeping-your-whole-docker-stack-safely-up-to-date-4i8m" rel="alternate"/>
+    <id>https://dev.to/serverkueche/keeping-your-whole-docker-stack-safely-up-to-date-4i8m</id>
+    <updated>2026-09-20T17:53:14Z</updated>
+    <summary type="text">A self-hosted stack is never &quot;done&quot;. Container images get security updates, apps get new features – and whoever doesn't keep up eventually runs vulnerable software. This recipe turns &quot;I should update sometime&quot; into a reliable routine: informed, controlled and with a safety net. What are we building? Not a tool, but update discipline for your entire Docker stack. By the end you have: pinned version</summary>
+    <author><name>serverkueche.de</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Docker volumes vs. bind mounts: where your data really lives</title>
+    <link href="https://dev.to/serverkueche/docker-volumes-vs-bind-mounts-where-your-data-really-lives-58h7" rel="alternate"/>
+    <id>https://dev.to/serverkueche/docker-volumes-vs-bind-mounts-where-your-data-really-lives-58h7</id>
+    <updated>2026-09-20T17:52:43Z</updated>
+    <summary type="text">A container is ephemeral: delete it, and its data is gone. For your database, your Nextcloud files or your configuration to survive a docker compose down, you need volumes. This guide clears up the often confusing difference between named volumes and bind mounts. What are we building? No new service this time, but a solid foundation: by the end you understand why container data normally disappears</summary>
+    <author><name>serverkueche.de</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>What I learned counting AI co-authored commits across 26,000 of my own</title>
+    <link href="https://dev.to/yosh1/what-i-learned-counting-ai-co-authored-commits-across-26000-of-my-own-1h9m" rel="alternate"/>
+    <id>https://dev.to/yosh1/what-i-learned-counting-ai-co-authored-commits-across-26000-of-my-own-1h9m</id>
+    <updated>2026-09-20T17:40:26Z</updated>
+    <summary type="text">I use Claude Code every day, but if you asked me how much of my code I actually write with it, all I had was a feeling. The data was sitting right there in git the whole time: $ git log --format='%b' | grep -c 'Co-Authored-By: Claude' 960 960 out of 1,107 commits in that repo. Across everything I've touched: 10,261 of 26,251 commits — 39%. I built a small tool to render that as an SVG card for a G</summary>
+    <author><name>Yoshihisa Kaino</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Kubernetes - Day - 02 - PID/Signals/Mount</title>
     <link href="https://dev.to/technonotes/kubernetes-day-02-pidsignalsmount-3345" rel="alternate"/>
@@ -170,6 +197,16 @@
     <updated>2026-09-19T03:49:03Z</updated>
     <summary type="text">Over the past few months, I worked on building a full-stack e-commerce platform designed to provide a smooth shopping experience while keeping the backend scalable and maintainable. The goal was to create more than just a product listing website — I wanted to build a complete shopping system that handles product management, user accounts, payments, orders, and real-time inventory. 💡 Project Overvi</summary>
     <author><name>Victory Maya</name></author>
+  </entry>
+  <entry>
+    <title>Why decontamination reports can't fix benchmark contamination, and what an evaluator has to do instead [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wlimaj/why_decontamination_reports_cant_fix_benchmark/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wlimaj/why_decontamination_reports_cant_fix_benchmark/</id>
+    <updated>2026-09-20T14:31:49Z</updated>
+    <summary type="text">In February OpenAI stopped reporting SWE-bench Verified and recommended other labs stop too. Every frontier model they tested could reproduce the human-written reference fix, or verbatim details of the problem statement, for some tasks. Progress had slowed to six points in six months and it wasn't clear how much of the remaining score was capability at all. The lab that built the benchmark, and ha</summary>
+    <author><name>/u/NoahPersaud</name></author>
+    <category term="llm"/>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>‘Brought to You in 5-Hour Increments’: A Week of Moving AI Usage Limits</title>
@@ -343,6 +380,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Reproduce it, or it doesn't count: why training-side decontamination can't be verified, and what an evaluation-side rule looks like [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wks8db/reproduce_it_or_it_doesnt_count_why_trainingside/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wks8db/reproduce_it_or_it_doesnt_count_why_trainingside/</id>
+    <updated>2026-09-19T17:32:20Z</updated>
+    <summary type="text">Since OpenAI retired SWE-bench Verified in February (every frontier model tested could reproduce reference fixes for some tasks; underspecified tests rewarded knowing the intended fix), I've been trying to write down precisely what a decontamination report can and can't establish. The claim: training-side decontamination has a hard floor. A report is a claim by the party whose score depends on it,</summary>
+    <author><name>/u/NoahPersaud</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Cursor, Kiro, ChatGPT: três harness, uma arquitetura</title>
     <link href="https://dev.to/tiagovilasboas/cursor-kiro-chatgpt-tres-harness-uma-arquitetura-7li" rel="alternate"/>
     <id>https://dev.to/tiagovilasboas/cursor-kiro-chatgpt-tres-harness-uma-arquitetura-7li</id>
@@ -422,32 +468,5 @@
     <author><name>Shirin Ghaffary</name></author>
     <category term="regulation"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Same Row Twice: Four Things Keyset Pagination Needs</title>
-    <link href="https://dev.to/hidetzu/the-same-row-twice-four-things-keyset-pagination-needs-2ecp" rel="alternate"/>
-    <id>https://dev.to/hidetzu/the-same-row-twice-four-things-keyset-pagination-needs-2ecp</id>
-    <updated>2026-09-17T12:47:40Z</updated>
-    <summary type="text">Speed is OFFSET's second problem. The first is that page 2 can hand you a row you already read on page 1 — and no index will fix it, because it is not a performance bug. Part 1 of this series measured why deep OFFSET is O(depth): at depth 9,999,980 PostgreSQL reads ten million rows and discards all but twenty. This is the other half — why you would switch even on a table small enough that nobody n</summary>
-    <author><name>hidetzu</name></author>
-  </entry>
-  <entry>
-    <title>5 Free Zoomcamps From Data Pipelines to AI Agents</title>
-    <link href="https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents" rel="alternate"/>
-    <id>https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents</id>
-    <updated>2026-09-17T12:00:14Z</updated>
-    <summary type="text">Explore five free hands-on workshops covering data engineering, machine learning, MLOps, LLMs, AI agents, and AI development through practical lessons, homework, projects, and community-based learning.</summary>
-    <author><name>Abid Ali Awan</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>When Does Graph RAG Actually Add Value? A Hands-On Experiment</title>
-    <link href="https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/" rel="alternate"/>
-    <id>https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/</id>
-    <updated>2026-09-17T11:00:02Z</updated>
-    <summary type="text">I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window. The post When Does Graph RAG Actually Add Value? A Hands-On Experiment appeared first on Towards Data Science.</summary>
-    <author><name>Arijit Ghoshal</name></author>
-    <category term="data"/>
   </entry>
 </feed>
