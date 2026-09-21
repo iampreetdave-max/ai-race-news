@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-20T21:18:30Z</updated>
+  <updated>2026-09-20T23:59:11Z</updated>
+  <entry>
+    <title>Automating Deployment with Github Actions</title>
+    <link href="https://dev.to/israeltheory/automating-deployment-with-github-actions-24i1" rel="alternate"/>
+    <id>https://dev.to/israeltheory/automating-deployment-with-github-actions-24i1</id>
+    <updated>2026-09-20T22:49:56Z</updated>
+    <summary type="text">Deploying to a Server You Can't Reach: Building a CI/CD Pipeline with AWS SSM and OIDC From pushing code manually to building, testing, containerizing, and deploying every change automatically. In the previous article, we learned how to spin up a functioning network and compute resources on AWS, and deploy our application on them. Let's remember a key architectural decision: our EC2 instance is in</summary>
+    <author><name>Israel</name></author>
+  </entry>
   <entry>
     <title>How I Built a Linktree, Beacons &amp; Bio Email Scraper with Apify</title>
     <link href="https://dev.to/apify/how-i-built-a-linktree-beacons-bio-email-scraper-with-apify-oo0" rel="alternate"/>
@@ -205,6 +213,24 @@
     <summary type="text">Alibaba's Qwen3.8-Omni-Flash understands audio and video, plans tasks, calls tools, and reports about 45.7% fewer tokens on OmniVideoBench. The post Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Quoting voxium</title>
+    <link href="https://simonwillison.net/2026/Sep/20/voxium/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/20/voxium/</id>
+    <updated>2026-09-20T21:06:43Z</updated>
+    <summary type="text">It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>llm-keys-ui 0.1</title>
+    <link href="https://simonwillison.net/2026/Sep/20/llm-keys-ui/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/20/llm-keys-ui/</id>
+    <updated>2026-09-20T19:22:19Z</updated>
+    <summary type="text">Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine wi</summary>
+    <author><name>Simon Willison</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -441,30 +467,5 @@
     <category term="data"/>
     <category term="computer-vision"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>🚀 bro.js v2.4.5 – Next.js Adapter &amp; AI‑First DX</title>
-    <link href="https://dev.to/yass1n/brojs-v245-nextjs-adapter-ai-first-dx-5fl2" rel="alternate"/>
-    <id>https://dev.to/yass1n/brojs-v245-nextjs-adapter-ai-first-dx-5fl2</id>
-    <updated>2026-09-17T17:58:29Z</updated>
-    <summary type="text">Hey devs! 🎉 I’m super excited to share bro.js v2.4.5 – the biggest leap we’ve made yet. Imagine dropping zero‑boilerplate Express magic straight into a Next.js serverless route. No more fighting Turbopack or juggling busboy for file uploads. 🚀 What’s fresh? Next.js App Router Adapter – use defineRoute and createBro right inside app/api. Multipart/form‑data is parsed for you, rate‑limiting works ou</summary>
-    <author><name>Yass1n</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Junior Developers Are Learning to Build in Public Before They've Built Anything Private</title>
-    <link href="https://dev.to/web_dev-usman/junior-developers-are-learning-to-build-in-public-before-theyve-built-anything-private-10fh" rel="alternate"/>
-    <id>https://dev.to/web_dev-usman/junior-developers-are-learning-to-build-in-public-before-theyve-built-anything-private-10fh</id>
-    <updated>2026-09-17T17:42:31Z</updated>
-    <summary type="text">I used to think the problem with junior developers was that they didn't know enough yet. Now I think the problem is they never get to be bad at something without someone finding out. Learning to code is mostly a long list of embarrassing guesses. You think the bug is in the database, it's in the loop. You think you understand recursion, you don't, not until the third time it breaks you. That ugly,</summary>
-    <author><name>Muhammad Usman</name></author>
-  </entry>
-  <entry>
-    <title>OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher</title>
-    <link href="https://arxiv.org/abs/2609.20756v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.20756v1</id>
-    <updated>2026-09-17T17:41:51Z</updated>
-    <summary type="text">As scaling pre-training data alone yields diminishing returns, post-training is becoming increasingly important across physical AI domains such as autonomous driving. End-to-end driving policies are pre-trained in open loop with behavior cloning on human demonstrations. However, compounding errors during closed-loop deployment can take the vehicle outside the training data distribution, increasing</summary>
-    <author><name>Christos Sakaridis</name></author>
   </entry>
 </feed>
