@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-21T16:53:31Z</updated>
+  <updated>2026-09-21T20:53:45Z</updated>
   <entry>
     <title>Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini</title>
     <link href="https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/" rel="alternate"/>
@@ -23,6 +23,34 @@
     <author><name>Michal Sutter</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Infostealers Are Selling Your Claude and ChatGPT Sessions for $5 on Telegram</title>
+    <link href="https://dev.to/numbpill3d/infostealers-are-selling-your-claude-and-chatgpt-sessions-for-5-on-telegram-fp0" rel="alternate"/>
+    <id>https://dev.to/numbpill3d/infostealers-are-selling-your-claude-and-chatgpt-sessions-for-5-on-telegram-fp0</id>
+    <updated>2026-09-21T20:29:29Z</updated>
+    <summary type="text">Researchers at FlashPoint analyzed 44,791 stolen JWTs from a single infostealer log dump last month. 555 of those tokens belonged to AI services. Claude, ChatGPT, Gemini, Copilot. Twenty-four of the API keys were still valid at the time of analysis. The going rate on Telegram for a working Claude Pro session? Five dollars. This is not a hypothetical attack vector. It is a live commodity market. Wh</summary>
+    <author><name>v. Splicer</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Google's AX: A Real Kubernetes Bet or Another Gemini CLI?</title>
+    <link href="https://dev.to/barry_norman_acw/googles-ax-a-real-kubernetes-bet-or-another-gemini-cli-2ilj" rel="alternate"/>
+    <id>https://dev.to/barry_norman_acw/googles-ax-a-real-kubernetes-bet-or-another-gemini-cli-2ilj</id>
+    <updated>2026-09-21T20:24:07Z</updated>
+    <summary type="text">Google's &quot;Open Agentic Orchestrator&quot; — internally AX, publicly branded Agent Executor — sat at #1 on Hacker News this week: 179 points, 74 comments, under a title that reads more like a mission statement than a product name. The repo lives at github.com/google/ax, under the official Google GitHub org, Apache 2.0 licensed, with none of the &quot;unofficial, not supported&quot; disclaimers Google usually slap</summary>
+    <author><name>Barry Norman</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Why Claude Code keeps writing shell commands that fail on your Mac</title>
+    <link href="https://dev.to/baunegaard/why-claude-code-keeps-writing-shell-commands-that-fail-on-your-mac-3bea" rel="alternate"/>
+    <id>https://dev.to/baunegaard/why-claude-code-keeps-writing-shell-commands-that-fail-on-your-mac-3bea</id>
+    <updated>2026-09-21T20:14:48Z</updated>
+    <summary type="text">Claude wrote this, mid-task, while refactoring something unrelated: sed -i -e 's/old/new/' config.yml It's correct. It's the form you'll find in half the StackOverflow answers, blog posts and Dockerfiles out there. It exited 0. And it left a file called config.yml-e sitting in my repo, because on macOS that command means something else entirely. That's the good case, the one that leaves evidence. </summary>
+    <author><name>Morten Larsen</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Put the Arithmetic in the Tool: an MCP Server for an AWS Waste Scanner</title>
@@ -142,6 +170,15 @@
     <author><name>Rajan Panwar</name></author>
     <category term="rag"/>
     <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>I built a framework-free prototype learner that lets local LLMs learn and correct facts instantly (1.6x–4x faster than backprop)[R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/</id>
+    <updated>2026-09-21T19:44:28Z</updated>
+    <summary type="text">Hey everyone, I wanted to share a project I’ve been working on called Jayce. The whole thing started because I was watching a toddler named learn the names of stuff He didn't need to completely rewire his brain or look at ten thousand examples to figure a word out—he just needed a few specific examples and quick corrections from his parents. It got me thinking about local LLMs. Right now, dealing </summary>
+    <author><name>/u/kavanutz</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Automating Threat Intelligence: Integrating CVE Bots and Open Datasets into Your SecDevOps Pipeline</title>
@@ -298,6 +335,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>MCP was always a bad idea?</title>
+    <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
+    <updated>2026-09-20T20:24:41Z</updated>
+    <summary type="text">My comment on MCP was always a bad idea? — Hacker News.This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly. If you want to operate something that's less YOLO than that, you'll find yourself</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>llm-keys-ui 0.1</title>
     <link href="https://simonwillison.net/2026/Sep/20/llm-keys-ui/" rel="alternate"/>
     <id>https://simonwillison.net/2026/Sep/20/llm-keys-ui/</id>
@@ -419,52 +465,5 @@
     <summary type="text">The first 404 looked like a bad deploy, which is how I talk myself into wasting a weekend. I had a tiny Python client, a green local suite, and a base URL I never printed. Why would urljoin lie when the unit tests already passed against a mocked transport layer? I spent forty-eight hours blaming routing, auth headers, and DNS while the version prefix quietly fell on the floor. Field notes from a m</summary>
     <author><name>Taylor Wang</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Automating End-to-End PR Workflows with Claude Task Master</title>
-    <link href="https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3akj" rel="alternate"/>
-    <id>https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3akj</id>
-    <updated>2026-09-18T14:40:07Z</updated>
-    <summary type="text">Automating End-to-End PR Workflows with Claude Task Master Claude Task Master (CLI claudetm) is an autonomous task orchestration system built on the Claude Agent SDK. It is designed for teams that already use Claude Code and want the entire pull-request lifecycle to run without human intervention. This article explains the core concepts, shows how to set up the tool, and demonstrates a typical wor</summary>
-    <author><name>developerz.ai</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code relaunches Projects to manage multiple AI agents in the cloud</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects</id>
-    <updated>2026-09-17T18:58:05Z</updated>
-    <summary type="text">The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has &quot;threads&quot; running different tasks in parallel, with a &quot;coordinator&quot; directing everything: […]</summary>
-    <author><name>Stevie Bonifield</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer</title>
-    <link href="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/" rel="alternate"/>
-    <id>https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/</id>
-    <updated>2026-09-17T11:03:32Z</updated>
-    <summary type="text">OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the &quot;coordination tax&quot; and points to a project where 1,393 agents spent $20,000 in tokens on a single Python refactoring that one Astra agent could have handle</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What if your Python database code didn't care which database you used?</title>
-    <link href="https://dev.to/joshtom/what-if-your-python-database-code-didnt-care-which-database-you-used-4001" rel="alternate"/>
-    <id>https://dev.to/joshtom/what-if-your-python-database-code-didnt-care-which-database-you-used-4001</id>
-    <updated>2026-09-18T10:42:34Z</updated>
-    <summary type="text">Introduction Writing raw SQL queries across PostgreSQL, SQLite, MySQL, SQL Server, and Oracle usually means wrangling five different drivers and endless setup boilerplate. Object-Relational Mappers (ORMs) like SQLAlchemy solve driver fragmentation, but they introduce heavy performance overhead, complex abstractions, and a steep learning curve when all you want to do is execute straightforward quer</summary>
-    <author><name>Joshua Olajide</name></author>
-  </entry>
-  <entry>
-    <title>ProgramAsWeights: compile English function descriptions into neural programs that run locally [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/</id>
-    <updated>2026-09-19T23:35:28Z</updated>
-    <summary type="text">Given the recent interest in tools like Jev, I wanted to share ProgramAsWeights (PAW), an open-source research project I'm working on at the University of Waterloo. You describe a text function in English, compile it into a reusable neural program, and run it locally, including on a CPU. For example: import programasweights as paw fn = paw.compile_and_load(&quot;Classify urgent emails&quot;) fn(&quot;Need this t</summary>
-    <author><name>/u/yuntiandeng</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
   </entry>
 </feed>
