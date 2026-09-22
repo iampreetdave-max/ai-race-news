@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-22T04:15:12Z</updated>
+  <updated>2026-09-22T09:43:00Z</updated>
   <entry>
     <title>Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics</title>
     <link href="https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/" rel="alternate"/>
@@ -12,6 +12,35 @@
     <updated>2026-09-21T12:31:04Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend […]</summary>
     <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Revisiting Multi-View Stereo: A Sequence-to-Sequence Formulation</title>
+    <link href="https://arxiv.org/abs/2609.24850v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24850v1</id>
+    <updated>2026-09-21T16:28:26Z</updated>
+    <summary type="text">Computing accurate geometry from multi-view images is a fundamental problem in computer vision. Recent feed-forward (FF) models jointly estimate 3D geometry and camera parameters, but they typically suffer from geometry distortion caused by reconstruction ambiguity, even when ground-truth camera parameters are supplied. In this paper, we study the multi-view stereo (MVS) problem with known camera </summary>
+    <author><name>Pascal Fua</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Mobile Imaging Solutions for Medical Diagnosis: Trends and Applications</title>
+    <link href="https://arxiv.org/abs/2609.24814v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24814v1</id>
+    <updated>2026-09-21T16:04:42Z</updated>
+    <summary type="text">Advances in processing power, camera technologies, and mobile image analysis have made smartphones and other mobile devices, such as laptops, increasingly suitable for medical diagnosis and healthcare applications. Researchers have developed low-cost solutions for the early detection and monitoring of various health conditions, including eye and ENT diseases, malnutrition, heart rate variability, </summary>
+    <author><name>Arpita Saha</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>MiTHras: Task-specific Hierarchical Semi-supervised Contrastive Masked Autoencoder for Mitotic Figure Analysis</title>
+    <link href="https://arxiv.org/abs/2609.24736v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24736v1</id>
+    <updated>2026-09-21T15:07:17Z</updated>
+    <summary type="text">Mitotic figure (MF) analysis supports tumor grading and prognostic assessment, but automated models remain sensitive to differences in tissue type and image acquisition. We present MiTHras, a task-specific pretraining framework that combines pseudo-label-guided image- and token-level contrastive learning with masked reconstruction. We construct TCGA-MF-Pseudo, a corpus of 1.8 million cell-centered</summary>
+    <author><name>Jin T. Kwak</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -42,6 +71,15 @@
     <updated>2026-09-21T09:59:10Z</updated>
     <summary type="text">Fully supervised repetitive action counting (RAC) has achieved strong performance, but requires dense temporal annotations that are costly and difficult to scale. We propose TReViS, a self-supervised video synthesis framework that enables training RAC models without any repetition labels. TReViS estimates the underlying temporal repetition structure of an unlabeled video via a Temporal Self-Simila</summary>
     <author><name>Cigdem Beyan</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Paper on ArXiv for a year now, should I disclose about it in ICLR submission? [Discussion]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wn30sf/paper_on_arxiv_for_a_year_now_should_i_disclose/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wn30sf/paper_on_arxiv_for_a_year_now_should_i_disclose/</id>
+    <updated>2026-09-22T07:46:51Z</updated>
+    <summary type="text">Hi, I have a solo paper on arxiv from my masters studies, which was my part-time work and a few months back I got back to it and tried to finally make it publication ready. Do I need to disclose it in the main paper for ICLR submission that there exists a paper with a similar title but a little different writing and added experiments? Will it hurt anonymity even if I don't refer to the paper? And </summary>
+    <author><name>/u/ade17_in</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -84,14 +122,5 @@
     <author><name>mech.app</name></author>
     <category term="agents"/>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>wardcat: On-Premise Data Privacy Architecture for RAG and LLM Projects</title>
-    <link href="https://dev.to/oguzhantopcu/wardcat-on-premise-data-privacy-architecture-for-rag-and-llm-projects-1b2p" rel="alternate"/>
-    <id>https://dev.to/oguzhantopcu/wardcat-on-premise-data-privacy-architecture-for-rag-and-llm-projects-1b2p</id>
-    <updated>2026-09-18T20:53:46Z</updated>
-    <summary type="text">Hey folks! I developed and published wardcat on PyPI to solve the security risks of sending enterprise data to third-party LLM APIs and to prevent data leaks in RAG pipelines completely on-premise. Going beyond simple pattern matching, I built a hybrid layered architecture that integrates Regex, SpaCy NER, and local open-weights LLMs (such as Qwen3:14b). Thanks to this architecture, sensitive data</summary>
-    <author><name>Oğuzhan TOPCU</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
