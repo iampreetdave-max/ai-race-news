@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-22T18:38:11Z</updated>
+  <updated>2026-09-22T21:53:41Z</updated>
+  <entry>
+    <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
+    <link href="https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale" rel="alternate"/>
+    <id>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</id>
+    <updated>2026-09-22T19:28:55Z</updated>
+    <summary type="text">The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder perk you may want to know about lasting until October 25th, 2026. When you add a Googlebook to your cart at Best Buy, a […]</summary>
+    <author><name>Brad Bourque</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight</title>
     <link href="https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/" rel="alternate"/>
@@ -12,6 +21,15 @@
     <updated>2026-09-22T10:00:00Z</updated>
     <summary type="text">Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.</summary>
     <author><name>Lily Hay Newman</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Is Making Code Cheap. Verification Is Becoming the Expensive Part</title>
+    <link href="https://dev.to/aniketdev7/ai-is-making-code-cheap-verification-is-becoming-the-expensive-part-3kdk" rel="alternate"/>
+    <id>https://dev.to/aniketdev7/ai-is-making-code-cheap-verification-is-becoming-the-expensive-part-3kdk</id>
+    <updated>2026-09-22T21:49:51Z</updated>
+    <summary type="text">Anthropic published a post about their CI infrastructure that I keep coming back to. The headline number is that Claude writes 80% of their code. That's the part everyone quoted. The part that stuck with me was further down: their test suite grew 10x, and CI jobs went up 25x over six months. Read quickly, that's an infrastructure scaling story. Buy more compute, move on. I think it's something els</summary>
+    <author><name>Aniket</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -23,6 +41,17 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>CetinLM 4.50B: Shaking the Foundations of Silicon Valley’s Brute-Force Myth</title>
+    <link href="https://dev.to/hyperroxsi/cetinlm-450b-shaking-the-foundations-of-silicon-valleys-brute-force-myth-387c" rel="alternate"/>
+    <id>https://dev.to/hyperroxsi/cetinlm-450b-shaking-the-foundations-of-silicon-valleys-brute-force-myth-387c</id>
+    <updated>2026-09-22T21:08:44Z</updated>
+    <summary type="text">The era of corporate infrastructure intimidation is officially coming to a catastrophic end. Independent research laboratory Me Force Technology has successfully shattered the trillion-dollar marketing dogma that dictates foundational language models can only be built by giant compute cartels. Independent developer Mert Çetin has just crossed the 4.50 Billion processed token milestone with CetinLM</summary>
+    <author><name>ROXsi</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+    <category term="data"/>
   </entry>
   <entry>
     <title>&quot;You've Reached Your Limit&quot;: What Nine AI Services Don't Say About Their Free Plans</title>
@@ -332,33 +361,5 @@
     <updated>2026-09-19T22:11:01Z</updated>
     <summary type="text">If an MCP server is usually a thin layer over an API, the practical takeaway is simple: treat the API contract as the thing that can actually break you. A useful method is to review changes in this order: API surface: endpoints, required params, response fields, enums, auth shape MCP mapping: which API fields become tool inputs/outputs Agent behavior: prompts, tool choice, retry logic, and error h</summary>
     <author><name>infracore</name></author>
-  </entry>
-  <entry>
-    <title>Scry: Congestion Pricing as Agent Rate-Limiting Infrastructure</title>
-    <link href="https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo" rel="alternate"/>
-    <id>https://dev.to/mech_app_ai/scry-congestion-pricing-as-agent-rate-limiting-infrastructure-1gfo</id>
-    <updated>2026-09-19T20:05:55Z</updated>
-    <summary type="text">Scry is a programmable search API for agents that replaces hard rate limits with congestion pricing. Instead of getting a 429 when you hit a quota, you get a price signal. The agent (or its orchestrator) decides whether to pay more or back off. This shifts rate-limiting from a binary wall into an economic feedback loop. The infrastructure question is not whether congestion pricing works in theory.</summary>
-    <author><name>mech.app</name></author>
-    <category term="agents"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Types of Context Rot in Harness Engineering</title>
-    <link href="https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc" rel="alternate"/>
-    <id>https://dev.to/coderonfleek/types-of-context-rot-in-harness-engineering-4fpc</id>
-    <updated>2026-09-19T19:51:15Z</updated>
-    <summary type="text">If you've ever worked with an LLM-powered agent long enough for a session to grow, you've probably felt it. Instructions that worked perfectly in a fresh conversation get quietly ignored 15 turns in. The agent starts referencing things it shouldn't. Retrieved snippets that were relevant three queries ago somehow bleed into an answer to a completely different question. Everything looks fine — no er</summary>
-    <author><name>Fikayo Adepoju</name></author>
-  </entry>
-  <entry>
-    <title>hearim(헤아림): Maybe you don’t need a special model for Jev — ordinary local LLMs already have the capability</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wm6eri/hearim헤아림_maybe_you_dont_need_a_special_model_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wm6eri/hearim헤아림_maybe_you_dont_need_a_special_model_for/</id>
-    <updated>2026-09-21T07:59:18Z</updated>
-    <summary type="text">What if you don’t need a new model to get Jev-style decisions? I built hearim(헤아림. hea-a-rim. not Here, I am.. lol), an open-source gateway that turns ordinary local or hosted LLMs into a Jev-compatible decision API. Give it some data and a set of choices, and it returns a decision with probabilities—using models you can already run through llama.cpp, vLLM, SGLang, Ollama, or an OpenAI-compatible </summary>
-    <author><name>/u/ziozzang0</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
   </entry>
 </feed>
