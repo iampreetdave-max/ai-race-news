@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-21T23:56:34Z</updated>
+  <updated>2026-09-22T04:15:12Z</updated>
   <entry>
     <title>AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy</title>
     <link href="https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/" rel="alternate"/>
@@ -33,6 +33,74 @@
     <author><name>Michal Sutter</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Fastest LLM 2026: Mercury 2.5 Beats Luna and Haiku</title>
+    <link href="https://dev.to/shaam_ai/fastest-llm-2026-mercury-25-beats-luna-and-haiku-2nef" rel="alternate"/>
+    <id>https://dev.to/shaam_ai/fastest-llm-2026-mercury-25-beats-luna-and-haiku-2nef</id>
+    <updated>2026-09-22T03:44:49Z</updated>
+    <summary type="text">Verdict: Inception Labs' Mercury 2.5 is the fastest LLM you can call from an API in September 2026 — 1,107 tokens per second on widely available NVIDIA GPUs, at a list price of $0.20/$0.75 per million tokens that undercuts every rival here on output. For latency-bound work (voice agents, search pipelines, coding subagents), Mercury wins. For cheap general-purpose chat with long context, GPT-5.6 Lu</summary>
+    <author><name>Shaam</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>GLM-5.3-Flash vs Qwen3.8-Flash-Next vs DeepSeek V4 Flash</title>
+    <link href="https://dev.to/shaam_ai/glm-53-flash-vs-qwen38-flash-next-vs-deepseek-v4-flash-56fe" rel="alternate"/>
+    <id>https://dev.to/shaam_ai/glm-53-flash-vs-qwen38-flash-next-vs-deepseek-v4-flash-56fe</id>
+    <updated>2026-09-22T03:44:08Z</updated>
+    <summary type="text">Verdict: GLM-5.3-Flash wins for agentic coding, DeepSeek V4 Flash wins on price, and MiniCPM5-2B wins on-device. The best open-source LLM for coding in September 2026 depends on where the work runs, and the split is now clean. GLM-5.3-Flash wins agentic coding, where the model has to drive a terminal and finish a multi-step task. DeepSeek V4 Flash wins on cost per token for high-volume work. And M</summary>
+    <author><name>Shaam</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>VoxCPM2 vs ElevenLabs: Self-Hosted AI Voice That Clones, Designs and Speaks 30 Languages (2026)</title>
+    <link href="https://dev.to/shaam_ai/voxcpm2-vs-elevenlabs-self-hosted-ai-voice-that-clones-designs-and-speaks-30-languages-2026-4cof" rel="alternate"/>
+    <id>https://dev.to/shaam_ai/voxcpm2-vs-elevenlabs-self-hosted-ai-voice-that-clones-designs-and-speaks-30-languages-2026-4cof</id>
+    <updated>2026-09-22T03:43:48Z</updated>
+    <summary type="text">Verdict: If your app talks and you are paying a hosted text-to-speech API by the character, VoxCPM2 is the first open-source model that can credibly replace most of that spend. It is a 2-billion-parameter, Apache-2.0 licensed model from OpenBMB that clones voices from a few seconds of audio, invents entirely new voices from a written description, and outputs 48 kHz speech in 30 languages - all on </summary>
+    <author><name>Shaam</name></author>
+    <category term="hardware"/>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Second Build Was Mostly Wiring</title>
+    <link href="https://dev.to/abhinav_pangaria/the-second-build-was-mostly-wiring-3hlm" rel="alternate"/>
+    <id>https://dev.to/abhinav_pangaria/the-second-build-was-mostly-wiring-3hlm</id>
+    <updated>2026-09-22T03:34:09Z</updated>
+    <summary type="text">My first series, Your agent might actually lie to you, is about one shape of GuardianKane: a Claude Code Stop hook that will not let the agent finish until Kane CLI has checked the work in a real browser. That shape placed 2nd in the TestMuAI Kane CLI hackathon, and four paired experiments stand behind it. It is not what GuardianKane is today. The hook is still there, but it is one piece of a larg</summary>
+    <author><name>Abhinav Pangaria</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Who Verifies the Verifier?</title>
+    <link href="https://dev.to/abhinav_pangaria/who-verifies-the-verifier-1nff" rel="alternate"/>
+    <id>https://dev.to/abhinav_pangaria/who-verifies-the-verifier-1nff</id>
+    <updated>2026-09-22T03:34:07Z</updated>
+    <summary type="text">The premise of this series is that you should not take an agent's word that it is done. So I built a gate that makes Claude Code prove each task in a real browser before it may stop. The browser is driven by Kane CLI, which is itself an agent. The obvious question arrives late and uncomfortably: why would I take that agent's word either? This is the part of the story where the gate turns around an</summary>
+    <author><name>Abhinav Pangaria</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Requirement Nobody Wrote</title>
+    <link href="https://dev.to/abhinav_pangaria/the-requirement-nobody-wrote-43je" rel="alternate"/>
+    <id>https://dev.to/abhinav_pangaria/the-requirement-nobody-wrote-43je</id>
+    <updated>2026-09-22T03:34:05Z</updated>
+    <summary type="text">The smallest PRD in my experiments has a section called &quot;Priority badge&quot;. It asks for a badge on each task card, keeps the existing layout, and then says this, which is the whole specification of priority: just with a small badge showing High/ Medium/Low priority somewhere on the card, defaulting to Medium. Read it again and try to answer one question: how does a task become High? It does not say.</summary>
+    <author><name>Abhinav Pangaria</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>My Agent Shipped a Broken Chart and Told Me It Was Done</title>
+    <link href="https://dev.to/abhinav_pangaria/my-agent-shipped-a-broken-chart-and-told-me-it-was-done-36k7" rel="alternate"/>
+    <id>https://dev.to/abhinav_pangaria/my-agent-shipped-a-broken-chart-and-told-me-it-was-done-36k7</id>
+    <updated>2026-09-22T03:34:04Z</updated>
+    <summary type="text">The chart looked fine in the code. The data pipeline was correct. The chart library call had the right shape. Every prop was passed, every array was populated, and nothing about the component would have looked suspicious in thirty seconds of review. If you had put that diff in front of me cold, I would have approved it. Then I opened the page. The performance chart was rendering the same series tw</summary>
+    <author><name>Abhinav Pangaria</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>Infostealers Are Selling Your Claude and ChatGPT Sessions for $5 on Telegram</title>
@@ -396,75 +464,5 @@
     <updated>2026-09-18T23:14:30Z</updated>
     <summary type="text">Artificial intelligence is changing the way software is developed. Today, developers can ask an AI coding assistant to generate a function, explain an error, write a test, refactor code, or suggest a solution to a problem that might otherwise take several searches and attempts. This naturally raises an important question: Do AI coding tools actually make developers faster? The simple answer is: so</summary>
     <author><name>Florence Owusu Aduomi</name></author>
-  </entry>
-  <entry>
-    <title>Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads</title>
-    <link href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/</id>
-    <updated>2026-09-17T21:21:08Z</updated>
-    <summary type="text">Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node health monitoring and observability into one Helm install. It is MIT licensed and deployable now on any Kubernetes 1.30+ cluster with GPU nodes, kubectl and Helm 3.0 or later. The post Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI W</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="hardware"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>The bottleneck in AI-assisted client work isn't the code</title>
-    <link href="https://dev.to/briefgate/the-bottleneck-in-ai-assisted-client-work-isnt-the-code-2g9p" rel="alternate"/>
-    <id>https://dev.to/briefgate/the-bottleneck-in-ai-assisted-client-work-isnt-the-code-2g9p</id>
-    <updated>2026-09-18T20:52:07Z</updated>
-    <summary type="text">I build small websites and apps for clients, and over the last year the shape of that work changed completely. A five-page site used to be a few days of typing. Now I describe it to Claude Code and most of it exists by the evening. What didn't change is everything the project needs from someone who isn't me. The logo, sitting in a folder on a laptop nobody has opened since 2019. The &quot;about us&quot; par</summary>
-    <author><name>sekera-radim</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>BrowserSkill: Connecting AI Coding Agents to Your Logged-In Browser</title>
-    <link href="https://dev.to/terminalchai/browserskill-connecting-ai-coding-agents-to-your-logged-in-browser-3c9c" rel="alternate"/>
-    <id>https://dev.to/terminalchai/browserskill-connecting-ai-coding-agents-to-your-logged-in-browser-3c9c</id>
-    <updated>2026-09-18T20:48:09Z</updated>
-    <summary type="text">One of the biggest hurdles in modern AI-assisted software development is giving agents reliable access to the web. Whether you are using Claude Code, Cursor, Codex, or custom autonomous agents, software engineering rarely happens in a vacuum. Developers constantly need agents to verify UI flows on localhost, check staging dashboards, inspect documentation, or automate repetitive web tasks. Until n</summary>
-    <author><name>Terminal Chai</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop</title>
-    <link href="https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/</id>
-    <updated>2026-09-17T20:45:04Z</updated>
-    <summary type="text">Anthropic redesigned Projects in Claude Code. The old project was a folder: some files plus one chat. The new one is a single ongoing conversation where Claude acts as coordinator. You describe work, and Claude decides what becomes a thread. Each thread is a full Claude Code cloud session running on its own branch and […] The post Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Ses</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="product-launch"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop copy-pasting files one by one into ChatGPT / Claude / Copilot. There's a faster way.</title>
-    <link href="https://dev.to/ziad_shalaby_99b9e9593218/stop-copy-pasting-files-one-by-one-into-chatgpt-claude-copilottheres-a-faster-way-4hn0" rel="alternate"/>
-    <id>https://dev.to/ziad_shalaby_99b9e9593218/stop-copy-pasting-files-one-by-one-into-chatgpt-claude-copilottheres-a-faster-way-4hn0</id>
-    <updated>2026-09-18T20:43:57Z</updated>
-    <summary type="text">Stop copy-pasting files one by one into ChatGPT / Claude / Copilot. There's a faster way. Just published Code Merge — a VS Code extension I built. Select files, folders, or specific code selections → merge them into a single Markdown preview with a project tree and clear per-file headers. Perfect for giving context to AI models or sharing a code snapshot with your team. Key features: • Add File / </summary>
-    <author><name>Ziad shalaby</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows</title>
-    <link href="https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/</id>
-    <updated>2026-09-17T18:35:01Z</updated>
-    <summary type="text">Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max subscribers. The article Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MintAct: A Unified Visual Agent for Digital Environments</title>
-    <link href="https://arxiv.org/abs/2609.22083v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.22083v1</id>
-    <updated>2026-09-18T17:59:34Z</updated>
-    <summary type="text">We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable e</summary>
-    <author><name>Afshin Dehghan</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="agents"/>
   </entry>
 </feed>

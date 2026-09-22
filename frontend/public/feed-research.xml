@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-21T23:56:34Z</updated>
+  <updated>2026-09-22T04:15:12Z</updated>
   <entry>
     <title>Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics</title>
     <link href="https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/" rel="alternate"/>
@@ -15,12 +15,64 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos</title>
+    <link href="https://arxiv.org/abs/2609.24487v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24487v1</id>
+    <updated>2026-09-21T12:26:13Z</updated>
+    <summary type="text">In this work, we present a method for shape reconstruction and tracking from video via agentic analysis-by-synthesis. Unlike prior methods which first estimate dense pixel correspondences and then recover object motion from them, our method infers a structured 3D object model, including its geometry and kinematic structure, and uses this model to optimise object track estimates over time. In our o</summary>
+    <author><name>Nur Muhammad &quot;Mahi'' Shafiullah</name></author>
+    <category term="research"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>STA-TFM: Spatio-Temporal Aggregation Across Views TransForMer for Pose Estimation</title>
+    <link href="https://arxiv.org/abs/2609.24482v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24482v1</id>
+    <updated>2026-09-21T12:22:35Z</updated>
+    <summary type="text">Monocular 3D human pose estimation (HPE) remains challenging due to depth ambiguity, occlu- sions, and the need for temporal consistency. While multi-view methods provide superior accuracy over monocular approaches, they often require complex setups. We introduce STA-TFM, a transformer-based architecture that combines spatial and temporal information for multi-view pose estimation. The approach le</summary>
+    <author><name>Albert Pla Planas</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>TReViS: Temporal Repetition Structure Aware Video Synthesis for Self-supervised Repetitive Action Counting</title>
+    <link href="https://arxiv.org/abs/2609.24367v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.24367v1</id>
+    <updated>2026-09-21T09:59:10Z</updated>
+    <summary type="text">Fully supervised repetitive action counting (RAC) has achieved strong performance, but requires dense temporal annotations that are costly and difficult to scale. We propose TReViS, a self-supervised video synthesis framework that enables training RAC models without any repetition labels. TReViS estimates the underlying temporal repetition structure of an unlabeled video via a Temporal Self-Simila</summary>
+    <author><name>Cigdem Beyan</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>OpenAI's GPT-5.6 Sol Sets New Record: Sub-100ms Response Time Changes Everything</title>
     <link href="https://dev.to/kd_jiang_cb6ed42090a6f3f5/openais-gpt-56-sol-sets-new-record-sub-100ms-response-time-changes-everything-ooe" rel="alternate"/>
     <id>https://dev.to/kd_jiang_cb6ed42090a6f3f5/openais-gpt-56-sol-sets-new-record-sub-100ms-response-time-changes-everything-ooe</id>
     <updated>2026-09-20T05:28:09Z</updated>
     <summary type="text">The Numbers That Matter OpenAI just shipped GPT-5.6 Sol with what might be the most practical breakthrough this year: sub-100ms time-to-first-token for real-time agent applications. That's not a benchmark. That's a latency floor so low that conversational AI finally feels natural at the code-execution level. Metric GPT-5.6 Sol Claude 3.7 Sonnet Gemini 3.7 Flash TTFT &lt;100ms 210ms 350ms Throughput 1</summary>
     <author><name>Kd jiang</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/</id>
+    <updated>2026-09-21T15:21:45Z</updated>
+    <summary type="text">Hey everyone! It has been quite a while since the last SupraLabs model - but today we've something special for y'all: Supra2-IMG It's a 100M parameter DiT text-to-image model trained entirely from scratch in under 10 hours on a single H100 on Runpod. It can generate state-of-the-art quality images in 256x256 pixels resolution. Samples: https://preview.redd.it/9paalvbs4wqh1.png?width=620&amp;format=png</summary>
+    <author><name>/u/LH-Tech_AI</name></author>
+    <category term="hardware"/>
+    <category term="research"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>16GB (and in many cases 12GB) is the max vram most people will ever reasonably have</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/</id>
+    <updated>2026-09-21T12:21:36Z</updated>
+    <summary type="text">This sub is, needless to say very niche and skewed towards the high end. There are tons of extremely high end setups here with multiple gpu's etc. Even 24GB is out of reach of most people financially, forget about the 3x3090 or 5090 or even higher setups. Macs/Strix Halo/dgspark etc are all similarly expensive. 16GB is pretty much the high end for most. And this completely changes in most of the r</summary>
+    <author><name>/u/ECrispy</name></author>
+    <category term="hardware"/>
+    <category term="agents"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -41,44 +93,5 @@
     <summary type="text">Hey folks! I developed and published wardcat on PyPI to solve the security risks of sending enterprise data to third-party LLM APIs and to prevent data leaks in RAG pipelines completely on-premise. Going beyond simple pattern matching, I built a hybrid layered architecture that integrates Regex, SpaCy NER, and local open-weights LLMs (such as Qwen3:14b). Thanks to this architecture, sensitive data</summary>
     <author><name>Oğuzhan TOPCU</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MintAct: A Unified Visual Agent for Digital Environments</title>
-    <link href="https://arxiv.org/abs/2609.22083v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.22083v1</id>
-    <updated>2026-09-18T17:59:34Z</updated>
-    <summary type="text">We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable e</summary>
-    <author><name>Afshin Dehghan</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models</title>
-    <link href="https://arxiv.org/abs/2609.22040v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.22040v1</id>
-    <updated>2026-09-18T17:31:34Z</updated>
-    <summary type="text">Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues info</summary>
-    <author><name>Luigi Palmieri</name></author>
-    <category term="product-launch"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>The Role of Radiometric Features in Cross-Site Leaf-Wood Segmentation of LiDAR Point Clouds</title>
-    <link href="https://arxiv.org/abs/2609.21903v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.21903v1</id>
-    <updated>2026-09-18T15:31:39Z</updated>
-    <summary type="text">Leaf-wood segmentation of individual trees from LiDAR point clouds is essential for quantitative structure models (QSMs) used in non-destructive biomass estimation. Existing segmentation methods typically exclude radiometric features (e.g., intensity, return number) to maximize cross-sensor compatibility. We challenge this design choice by evaluating cross-site and cross-platform generalization: t</summary>
-    <author><name>Roberto Guglielmi</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Chronosphere: Space-Time Tessellation of Local Climate Experts</title>
-    <link href="https://arxiv.org/abs/2609.21872v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.21872v1</id>
-    <updated>2026-09-18T15:00:08Z</updated>
-    <summary type="text">We introduce Chronosphere, a spatio-temporal neural field that learns representations of climate. A central challenge in geographic representation learning is modeling environmental processes whose spatial and temporal complexity varies widely. Yet existing location encoders typically fix a single level of detail everywhere. Global bases such as spherical harmonics spread capacity uniformly across</summary>
-    <author><name>Nathan Jacobs</name></author>
-    <category term="research"/>
   </entry>
 </feed>
