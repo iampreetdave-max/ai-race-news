@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-23T11:06:43Z</updated>
+  <updated>2026-09-23T16:28:04Z</updated>
   <entry>
     <title>Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model</title>
     <link href="https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/" rel="alternate"/>
@@ -23,6 +23,14 @@
     <summary type="text">OpenAI has released GPT-6 Sol and GPT-6 Luna, 2 lower-cost models trained with methods similar to GPT-6 Astra. Sol costs $2/$10 and Luna $0.10/$0.50 per 1M tokens. Both are available now in the API, ChatGPT Work and Codex. They come with improved prompt caching for long-running agents. The post OpenAI Releases GPT-6 Sol and Luna: 50% Cheaper API Pricing and Benchmarks appeared first on MarkTechPos</summary>
     <author><name>Sana Hassan</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Deploy a Docker app on a VPS with Caddy (keep Postgres off the internet)</title>
+    <link href="https://dev.to/amorizz/put-self-hosted-exception-tracking-behind-caddy-keep-postgres-off-the-host-3gpo" rel="alternate"/>
+    <id>https://dev.to/amorizz/put-self-hosted-exception-tracking-behind-caddy-keep-postgres-off-the-host-3gpo</id>
+    <updated>2026-09-23T16:01:11Z</updated>
+    <summary type="text">TL;DR Most side projects die the same way on a cheap VPS: the app is up, Postgres is on :5432, and HTTPS is “later.” The boring fix is one Compose file: Caddy on 80/443, your app on the Docker network, database unpublished. Copy the stack below, point DNS, prove https://your.domain/health (or /), then ship. Why your first VPS deploy feels cursed You can docker compose up on a laptop in five minute</summary>
+    <author><name>Amorizz</name></author>
   </entry>
   <entry>
     <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
@@ -313,88 +321,6 @@
     <updated>2026-09-21T04:13:28Z</updated>
     <summary type="text">A repo with 1,145 stars told me it ran entirely locally. Line 12 of its CLI said otherwise, and the check that would have caught it takes 20 seconds. This is what it looked like, what I changed about my install routine, and where the routine still fails. The README said all the right things crwdla/tokentab was on GitHub Trending in mid-September 2026: two weeks old, ~1.1k stars, a dashboard screen</summary>
     <author><name>Felixwang007</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Automating Deployment with Github Actions</title>
-    <link href="https://dev.to/israeltheory/automating-deployment-with-github-actions-24i1" rel="alternate"/>
-    <id>https://dev.to/israeltheory/automating-deployment-with-github-actions-24i1</id>
-    <updated>2026-09-20T22:49:56Z</updated>
-    <summary type="text">Deploying to a Server You Can't Reach: Building a CI/CD Pipeline with AWS SSM and OIDC From pushing code manually to building, testing, containerizing, and deploying every change automatically. In the previous article, we learned how to spin up a functioning network and compute resources on AWS, and deploy our application on them. Let's remember a key architectural decision: our EC2 instance is in</summary>
-    <author><name>Israel</name></author>
-  </entry>
-  <entry>
-    <title>How I Built a Linktree, Beacons &amp; Bio Email Scraper with Apify</title>
-    <link href="https://dev.to/apify/how-i-built-a-linktree-beacons-bio-email-scraper-with-apify-oo0" rel="alternate"/>
-    <id>https://dev.to/apify/how-i-built-a-linktree-beacons-bio-email-scraper-with-apify-oo0</id>
-    <updated>2026-09-20T20:42:11Z</updated>
-    <summary type="text">1. Introduction Collecting emails from Linktree, Beacons, and other bio links is often a tedious and time-consuming task. As a developer and freelancer working with lead generation projects, I faced this problem firsthand: manually navigating hundreds of profiles just to extract a few emails is inefficient and error-prone. To solve this, I built a Linktree, Beacons &amp; Bio Email Scraper Actor using </summary>
-    <author><name>Ahmed Jasarevic</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure</title>
-    <link href="https://dev.to/stark_zhuang_df5076f35c68/port-6443-in-the-wild-measuring-public-kubernetes-api-endpoint-exposure-3a89" rel="alternate"/>
-    <id>https://dev.to/stark_zhuang_df5076f35c68/port-6443-in-the-wild-measuring-public-kubernetes-api-endpoint-exposure-3a89</id>
-    <updated>2026-09-20T20:40:10Z</updated>
-    <summary type="text">Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure Kubernetes has become the default control plane of modern infrastructure. It schedules workloads, stores cluster state, issues credentials, and brokers every privileged action inside a cluster. The component that performs this work, the kube-apiserver, is a network service, and like every network service it can be reached fro</summary>
-    <author><name>StarkMan</name></author>
-  </entry>
-  <entry>
-    <title>Keeping your whole Docker stack safely up to date</title>
-    <link href="https://dev.to/serverkueche/keeping-your-whole-docker-stack-safely-up-to-date-4i8m" rel="alternate"/>
-    <id>https://dev.to/serverkueche/keeping-your-whole-docker-stack-safely-up-to-date-4i8m</id>
-    <updated>2026-09-20T17:53:14Z</updated>
-    <summary type="text">A self-hosted stack is never &quot;done&quot;. Container images get security updates, apps get new features – and whoever doesn't keep up eventually runs vulnerable software. This recipe turns &quot;I should update sometime&quot; into a reliable routine: informed, controlled and with a safety net. What are we building? Not a tool, but update discipline for your entire Docker stack. By the end you have: pinned version</summary>
-    <author><name>serverkueche.de</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Docker volumes vs. bind mounts: where your data really lives</title>
-    <link href="https://dev.to/serverkueche/docker-volumes-vs-bind-mounts-where-your-data-really-lives-58h7" rel="alternate"/>
-    <id>https://dev.to/serverkueche/docker-volumes-vs-bind-mounts-where-your-data-really-lives-58h7</id>
-    <updated>2026-09-20T17:52:43Z</updated>
-    <summary type="text">A container is ephemeral: delete it, and its data is gone. For your database, your Nextcloud files or your configuration to survive a docker compose down, you need volumes. This guide clears up the often confusing difference between named volumes and bind mounts. What are we building? No new service this time, but a solid foundation: by the end you understand why container data normally disappears</summary>
-    <author><name>serverkueche.de</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>What I learned counting AI co-authored commits across 26,000 of my own</title>
-    <link href="https://dev.to/yosh1/what-i-learned-counting-ai-co-authored-commits-across-26000-of-my-own-1h9m" rel="alternate"/>
-    <id>https://dev.to/yosh1/what-i-learned-counting-ai-co-authored-commits-across-26000-of-my-own-1h9m</id>
-    <updated>2026-09-20T17:40:26Z</updated>
-    <summary type="text">I use Claude Code every day, but if you asked me how much of my code I actually write with it, all I had was a feeling. The data was sitting right there in git the whole time: $ git log --format='%b' | grep -c 'Co-Authored-By: Claude' 960 960 out of 1,107 commits in that repo. Across everything I've touched: 10,261 of 26,251 commits — 39%. I built a small tool to render that as an SVG card for a G</summary>
-    <author><name>Yoshihisa Kaino</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Ngram and world knowledge - why are we just building a coding model?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/</id>
-    <updated>2026-09-22T07:42:34Z</updated>
-    <summary type="text">This post is written by a human and I'd appreciate it if you treated it as such. Thanks. So, I've been noticing a pretty clear interest in developing as good a coding and agentic tool-calling model as possible, especially at smaller sizes, sub-50 gigs. However, I'm finding that at least for my use of AI, if I really want to move away from big providers, I am going to require a model that has bette</summary>
-    <author><name>/u/ironicstatistic</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Kubernetes - Day - 02 - PID/Signals/Mount</title>
-    <link href="https://dev.to/technonotes/kubernetes-day-02-pidsignalsmount-3345" rel="alternate"/>
-    <id>https://dev.to/technonotes/kubernetes-day-02-pidsignalsmount-3345</id>
-    <updated>2026-09-20T14:11:18Z</updated>
-    <summary type="text">Docker Pull the details from docker register. docker pull nginx its hub repository. Want to run the image which is pulled. docker run -d --name web-demo-test nginx [ You will get the ID ] --&gt; d for detatched mode --&gt; Conatiner is nothing but THE RUNNING INSTANCE OF THE IMAGE. --&gt; From one image , we can run many instance. docker ps [ all the alive running containers ] docker ps -a [ all the runnin</summary>
-    <author><name>technonotes-hacker</name></author>
-  </entry>
-  <entry>
-    <title>Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials</title>
-    <link href="https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/" rel="alternate"/>
-    <id>https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/</id>
-    <updated>2026-09-19T13:31:46Z</updated>
-    <summary type="text">Unity has released official plugins for Claude Code and OpenAI's Codex. The article Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials appeared first on The Decoder.</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="product-launch"/>
     <category term="llm"/>
   </entry>
 </feed>
