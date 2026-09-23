@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-23T00:09:59Z</updated>
+  <updated>2026-09-23T05:40:33Z</updated>
+  <entry>
+    <title>ROAM-ASD: Robust Open-World Active Speaker Detection with Flexible Multimodal Fusion</title>
+    <link href="https://arxiv.org/abs/2609.26648v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.26648v1</id>
+    <updated>2026-09-22T16:18:10Z</updated>
+    <summary type="text">Active speaker detection (ASD) requires reliable association between visible faces and acoustic speech, yet existing systems often degrade under challenging domains or incomplete observations. We introduce ROAM-ASD, a robust audiovisual framework that jointly models audio, full-face, and fine-grained mouth representations. A unified joint self-attention mechanism processes all input streams togeth</summary>
+    <author><name>Hugo Van hamme</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD</title>
+    <link href="https://arxiv.org/abs/2609.26631v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.26631v1</id>
+    <updated>2026-09-22T16:06:22Z</updated>
+    <summary type="text">Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems. However, reliable sky-image annotation is time-consuming, especially when cloud types are visually similar or mixed. We study the label efficiency of deep learning for ground-based cloud classification using the Ground-based Clo</summary>
+    <author><name>Boguslaw Zegarlinski</name></author>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>Vision Foundation Models with Synthetic-Only Training for Monocular Spacecraft Pose Estimation</title>
+    <link href="https://arxiv.org/abs/2609.26561v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.26561v1</id>
+    <updated>2026-09-22T15:13:44Z</updated>
+    <summary type="text">We present an improvement on previous spacecraft pose estimation architectures that results in the lowest published mean rotation errors we know of on the SPEED+ lightbox and sunlamp test sets for a known, non-cooperative spacecraft. By using a previously established heatmap-based pose estimation architecture and adapting a large self-supervised ViT foundation model (DINOv3) in place of the smalle</summary>
+    <author><name>Vazghen Nikolian</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Why Read a Research Paper When You Can Turn It Into an AI Agent?</title>
     <link href="https://spectrum.ieee.org/paper2agent-ai-agents-research-papers" rel="alternate"/>
@@ -92,25 +120,5 @@
     <summary type="text">Hi, I have a solo paper on arxiv from my masters studies, which was my part-time work and a few months back I got back to it and tried to finally make it publication ready. Do I need to disclose it in the main paper for ICLR submission that there exists a paper with a similar title but a little different writing and added experiments? Will it hurt anonymity even if I don't refer to the paper? And </summary>
     <author><name>/u/ade17_in</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>OpenAI's GPT-5.6 Sol Sets New Record: Sub-100ms Response Time Changes Everything</title>
-    <link href="https://dev.to/kd_jiang_cb6ed42090a6f3f5/openais-gpt-56-sol-sets-new-record-sub-100ms-response-time-changes-everything-ooe" rel="alternate"/>
-    <id>https://dev.to/kd_jiang_cb6ed42090a6f3f5/openais-gpt-56-sol-sets-new-record-sub-100ms-response-time-changes-everything-ooe</id>
-    <updated>2026-09-20T05:28:09Z</updated>
-    <summary type="text">The Numbers That Matter OpenAI just shipped GPT-5.6 Sol with what might be the most practical breakthrough this year: sub-100ms time-to-first-token for real-time agent applications. That's not a benchmark. That's a latency floor so low that conversational AI finally feels natural at the code-execution level. Metric GPT-5.6 Sol Claude 3.7 Sonnet Gemini 3.7 Flash TTFT &lt;100ms 210ms 350ms Throughput 1</summary>
-    <author><name>Kd jiang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/</id>
-    <updated>2026-09-21T15:21:45Z</updated>
-    <summary type="text">Hey everyone! It has been quite a while since the last SupraLabs model - but today we've something special for y'all: Supra2-IMG It's a 100M parameter DiT text-to-image model trained entirely from scratch in under 10 hours on a single H100 on Runpod. It can generate state-of-the-art quality images in 256x256 pixels resolution. Samples: https://preview.redd.it/9paalvbs4wqh1.png?width=620&amp;format=png</summary>
-    <author><name>/u/LH-Tech_AI</name></author>
-    <category term="hardware"/>
-    <category term="research"/>
-    <category term="open-source"/>
   </entry>
 </feed>
