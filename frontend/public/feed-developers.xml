@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-22T21:53:41Z</updated>
+  <updated>2026-09-23T00:09:59Z</updated>
   <entry>
     <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
     <link href="https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale" rel="alternate"/>
@@ -22,6 +22,22 @@
     <summary type="text">Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.</summary>
     <author><name>Lily Hay Newman</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Garage vs RustFS: Running S3 on a Single Node</title>
+    <link href="https://dev.to/ethan-carter/garage-vs-rustfs-running-s3-on-a-single-node-3d70" rel="alternate"/>
+    <id>https://dev.to/ethan-carter/garage-vs-rustfs-running-s3-on-a-single-node-3d70</id>
+    <updated>2026-09-22T23:59:57Z</updated>
+    <summary type="text">Garage vs RustFS: Running S3 on a Single Node Garage and RustFS are both Rust-written, single-binary S3-compatible stores you can run on one node. The decisive split is the license and the S3 feature set: Garage is AGPL-3.0 and skips versioning, Object Lock, and server-side encryption; RustFS is Apache 2.0 and ships all of them. Run Garage when you want a tiny, geo-distributed store on secondhand </summary>
+    <author><name>Ethan Carter</name></author>
+  </entry>
+  <entry>
+    <title>14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose</title>
+    <link href="https://dev.to/bianliang/14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong-thing-to-expose-3h1i" rel="alternate"/>
+    <id>https://dev.to/bianliang/14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong-thing-to-expose-3h1i</id>
+    <updated>2026-09-22T23:20:06Z</updated>
+    <summary type="text">14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose A Kubernetes dashboard is an administrative interface. When one is reachable from the public internet, the exposure is qualitatively different from a public web application, because the interface is designed to manage workloads rather than to serve users. The problem and why it matters Management interfaces con</summary>
+    <author><name>yutianle</name></author>
   </entry>
   <entry>
     <title>AI Is Making Code Cheap. Verification Is Becoming the Expensive Part</title>
@@ -343,23 +359,5 @@
     <updated>2026-09-20T00:01:21Z</updated>
     <summary type="text">Originally published on tamiz.pro. Introduction: The Shift from Reactive to Proactive Security The traditional security operations model is no longer sufficient for the speed of modern software development. In an era where microservices deploy every minute and supply chain attacks target dependencies rather than binaries, relying on manual vulnerability scanning is not just inefficient; it is a cr</summary>
     <author><name>Tamiz Uddin</name></author>
-  </entry>
-  <entry>
-    <title>AI Didn’t Build My Backend for Me. I Used It as My Copilot.</title>
-    <link href="https://dev.to/suad_macaulay_acb3b90def7/ai-didnt-build-my-backend-for-me-i-used-it-as-my-copilot-2hf0" rel="alternate"/>
-    <id>https://dev.to/suad_macaulay_acb3b90def7/ai-didnt-build-my-backend-for-me-i-used-it-as-my-copilot-2hf0</id>
-    <updated>2026-09-19T22:17:18Z</updated>
-    <summary type="text">When we were given our project, CourierIQ, I knew I wanted to use it as an opportunity to learn something outside what I was already comfortable with. I was already more familiar with frontend development, so when backend development came into the picture, I was actually excited. I thought, okay, this is going to be interesting. I don't want to be someone who only knows one side of development. If</summary>
-    <author><name>Suad Macaulay</name></author>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MCP Is an Adapter Layer, So Version the API First</title>
-    <link href="https://dev.to/infracore/mcp-is-an-adapter-layer-so-version-the-api-first-1m5j" rel="alternate"/>
-    <id>https://dev.to/infracore/mcp-is-an-adapter-layer-so-version-the-api-first-1m5j</id>
-    <updated>2026-09-19T22:11:01Z</updated>
-    <summary type="text">If an MCP server is usually a thin layer over an API, the practical takeaway is simple: treat the API contract as the thing that can actually break you. A useful method is to review changes in this order: API surface: endpoints, required params, response fields, enums, auth shape MCP mapping: which API fields become tool inputs/outputs Agent behavior: prompts, tool choice, retry logic, and error h</summary>
-    <author><name>infracore</name></author>
   </entry>
 </feed>
