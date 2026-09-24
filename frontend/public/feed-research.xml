@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-24T03:57:15Z</updated>
+  <updated>2026-09-24T09:12:38Z</updated>
+  <entry>
+    <title>Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model</title>
+    <link href="https://arxiv.org/abs/2609.28414v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.28414v1</id>
+    <updated>2026-09-23T17:17:02Z</updated>
+    <summary type="text">Latent world models that integrate a flow in a frozen self supervised latent space train stably and cheaply, yet silently lose the property manipulation depends on most: motion. The pretrained flow never moves the manipulated object; retraining it with latent-only losses only trades stillness for teleport-like motion. We trace the failure to the training signal, not the representation: anchor-spar</summary>
+    <author><name>Houde Liu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>BronchoTop: Bronchoscopy Navigation via RGB-Only Topological Localization</title>
+    <link href="https://arxiv.org/abs/2609.28328v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.28328v1</id>
+    <updated>2026-09-23T16:07:15Z</updated>
+    <summary type="text">Accurate localization of the bronchoscope within the bronchial tree is essential for clinicians to be able to reach target lesions, perform biopsies and avoid misidentification of airway segments during diagnostic and therapeutic procedures. However, existing navigation systems typically rely on patient-specific CT scans or additional external sensors, increasing cost, setup time and patient radia</summary>
+    <author><name>Luis Riazuelo</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>ROAM-ASD: Robust Open-World Active Speaker Detection with Flexible Multimodal Fusion</title>
     <link href="https://arxiv.org/abs/2609.26648v1" rel="alternate"/>
@@ -51,35 +69,6 @@
     <updated>2026-09-21T12:31:04Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend […]</summary>
     <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Revisiting Multi-View Stereo: A Sequence-to-Sequence Formulation</title>
-    <link href="https://arxiv.org/abs/2609.24850v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.24850v1</id>
-    <updated>2026-09-21T16:28:26Z</updated>
-    <summary type="text">Computing accurate geometry from multi-view images is a fundamental problem in computer vision. Recent feed-forward (FF) models jointly estimate 3D geometry and camera parameters, but they typically suffer from geometry distortion caused by reconstruction ambiguity, even when ground-truth camera parameters are supplied. In this paper, we study the multi-view stereo (MVS) problem with known camera </summary>
-    <author><name>Pascal Fua</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Mobile Imaging Solutions for Medical Diagnosis: Trends and Applications</title>
-    <link href="https://arxiv.org/abs/2609.24814v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.24814v1</id>
-    <updated>2026-09-21T16:04:42Z</updated>
-    <summary type="text">Advances in processing power, camera technologies, and mobile image analysis have made smartphones and other mobile devices, such as laptops, increasingly suitable for medical diagnosis and healthcare applications. Researchers have developed low-cost solutions for the early detection and monitoring of various health conditions, including eye and ENT diseases, malnutrition, heart rate variability, </summary>
-    <author><name>Arpita Saha</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>MiTHras: Task-specific Hierarchical Semi-supervised Contrastive Masked Autoencoder for Mitotic Figure Analysis</title>
-    <link href="https://arxiv.org/abs/2609.24736v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.24736v1</id>
-    <updated>2026-09-21T15:07:17Z</updated>
-    <summary type="text">Mitotic figure (MF) analysis supports tumor grading and prognostic assessment, but automated models remain sensitive to differences in tissue type and image acquisition. We present MiTHras, a task-specific pretraining framework that combines pseudo-label-guided image- and token-level contrastive learning with masked reconstruction. We construct TCGA-MF-Pseudo, a corpus of 1.8 million cell-centered</summary>
-    <author><name>Jin T. Kwak</name></author>
     <category term="research"/>
   </entry>
 </feed>
