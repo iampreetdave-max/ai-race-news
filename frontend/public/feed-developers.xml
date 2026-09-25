@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-25T07:22:30Z</updated>
+  <updated>2026-09-25T13:26:19Z</updated>
+  <entry>
+    <title>Microsoft Abandons Personal AI Chatbot Race With Copilot Reboot</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot</id>
+    <updated>2026-09-25T12:00:01Z</updated>
+    <summary type="text">Microsoft Corp. is merging the consumer and workplace versions of its Copilot AI assistant into one product aimed at corporate customers, ceding the crowded market for personal chatbots to OpenAI, Alphabet Inc.’s Google and, now, Meta Platforms Inc.</summary>
+    <author><name>Matt Day</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Microsoft thinks its new Copilot ‘super app’ will be as influential as Office</title>
+    <link href="https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot" rel="alternate"/>
+    <id>https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot</id>
+    <updated>2026-09-25T12:00:00Z</updated>
+    <summary type="text">After teasing its new Copilot &quot;super app&quot; last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. […]</summary>
+    <author><name>Tom Warren</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Microsoft is killing off the ‘Copilot Plus PC’ brand</title>
     <link href="https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand" rel="alternate"/>
@@ -22,6 +40,15 @@
     <summary type="text">BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a drop-in replacement on vLLM and SGLang, with FP8, NVFP4, GGUF and MLX builds. The post BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking To</summary>
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Won't Replace Your Tech Skills. But It Will Expose Whether You Have Them</title>
+    <link href="https://dev.to/techora/ai-wont-replace-your-tech-skills-but-it-will-expose-whether-you-have-them-1e8k" rel="alternate"/>
+    <id>https://dev.to/techora/ai-wont-replace-your-tech-skills-but-it-will-expose-whether-you-have-them-1e8k</id>
+    <updated>2026-09-25T13:14:06Z</updated>
+    <summary type="text">Let's try an experiment. Ask an AI coding assistant: Build a login system. It will probably give you something surprisingly convincing. Now ask yourself: Is the authentication secure? Where are passwords stored? What happens when the session expires? How is input validated? What happens if the database goes down? Can I explain every important part of this implementation? That's the uncomfortable b</summary>
+    <author><name>Techora</name></author>
+    <category term="data"/>
   </entry>
   <entry>
     <title>I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs</title>
@@ -292,71 +319,6 @@
     <updated>2026-09-22T10:00:00Z</updated>
     <summary type="text">Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.</summary>
     <author><name>Lily Hay Newman</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Why Databricks’ Launch of Lakebase Changes the Future of Data Engineering and AI Forever</title>
-    <link href="https://hackernoon.com/why-databricks-launch-of-lakebase-changes-the-future-of-data-engineering-and-ai-forever?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/why-databricks-launch-of-lakebase-changes-the-future-of-data-engineering-and-ai-forever?source=rss</id>
-    <updated>2026-09-23T00:17:08Z</updated>
-    <summary type="text">As enterprises transition from simple ML inference to fully autonomous AI agents and real-time application pipelines, the underlying database must evolve. The convergence of Postgres flexibility with Lakehouse scale in Lakebase is a glimpse into the future of data platforms: open, real-time, serverless, and AI-native.Read All</summary>
-    <author><name>jagan_489</name></author>
-    <category term="data"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Garage vs RustFS: Running S3 on a Single Node</title>
-    <link href="https://dev.to/ethan-carter/garage-vs-rustfs-running-s3-on-a-single-node-3d70" rel="alternate"/>
-    <id>https://dev.to/ethan-carter/garage-vs-rustfs-running-s3-on-a-single-node-3d70</id>
-    <updated>2026-09-22T23:59:57Z</updated>
-    <summary type="text">Garage vs RustFS: Running S3 on a Single Node Garage and RustFS are both Rust-written, single-binary S3-compatible stores you can run on one node. The decisive split is the license and the S3 feature set: Garage is AGPL-3.0 and skips versioning, Object Lock, and server-side encryption; RustFS is Apache 2.0 and ships all of them. Run Garage when you want a tiny, geo-distributed store on secondhand </summary>
-    <author><name>Ethan Carter</name></author>
-  </entry>
-  <entry>
-    <title>14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose</title>
-    <link href="https://dev.to/bianliang/14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong-thing-to-expose-3h1i" rel="alternate"/>
-    <id>https://dev.to/bianliang/14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong-thing-to-expose-3h1i</id>
-    <updated>2026-09-22T23:20:06Z</updated>
-    <summary type="text">14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose A Kubernetes dashboard is an administrative interface. When one is reachable from the public internet, the exposure is qualitatively different from a public web application, because the interface is designed to manage workloads rather than to serve users. The problem and why it matters Management interfaces con</summary>
-    <author><name>yutianle</name></author>
-  </entry>
-  <entry>
-    <title>AI Is Making Code Cheap. Verification Is Becoming the Expensive Part</title>
-    <link href="https://dev.to/aniketdev7/ai-is-making-code-cheap-verification-is-becoming-the-expensive-part-3kdk" rel="alternate"/>
-    <id>https://dev.to/aniketdev7/ai-is-making-code-cheap-verification-is-becoming-the-expensive-part-3kdk</id>
-    <updated>2026-09-22T21:49:51Z</updated>
-    <summary type="text">Anthropic published a post about their CI infrastructure that I keep coming back to. The headline number is that Claude writes 80% of their code. That's the part everyone quoted. The part that stuck with me was further down: their test suite grew 10x, and CI jobs went up 25x over six months. Read quickly, that's an infrastructure scaling story. Buy more compute, move on. I think it's something els</summary>
-    <author><name>Aniket</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy</title>
-    <link href="https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/</id>
-    <updated>2026-09-21T21:42:14Z</updated>
-    <summary type="text">Many developers find that an agent idea works inside Claude Code or Codex, then struggles once they rebuild it with their own loop. The Strands Agents team at AWS is targeting that gap with Strands harness, a fully assembled, general-purpose agent harness. It runs locally or deploys to a cloud provider, ships for Python and […] The post AWS Strands Agents Team Releases Strands Harness: An Open-Sou</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CetinLM 4.50B: Shaking the Foundations of Silicon Valley’s Brute-Force Myth</title>
-    <link href="https://dev.to/hyperroxsi/cetinlm-450b-shaking-the-foundations-of-silicon-valleys-brute-force-myth-387c" rel="alternate"/>
-    <id>https://dev.to/hyperroxsi/cetinlm-450b-shaking-the-foundations-of-silicon-valleys-brute-force-myth-387c</id>
-    <updated>2026-09-22T21:08:44Z</updated>
-    <summary type="text">The era of corporate infrastructure intimidation is officially coming to a catastrophic end. Independent research laboratory Me Force Technology has successfully shattered the trillion-dollar marketing dogma that dictates foundational language models can only be built by giant compute cartels. Independent developer Mert Çetin has just crossed the 4.50 Billion processed token milestone with CetinLM</summary>
-    <author><name>ROXsi</name></author>
-    <category term="hardware"/>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>&quot;You've Reached Your Limit&quot;: What Nine AI Services Don't Say About Their Free Plans</title>
-    <link href="https://dev.to/socialawy/youve-reached-your-limit-what-nine-ai-services-dont-say-about-their-free-plans-2chm" rel="alternate"/>
-    <id>https://dev.to/socialawy/youve-reached-your-limit-what-nine-ai-services-dont-say-about-their-free-plans-2chm</id>
-    <updated>2026-09-22T18:21:45Z</updated>
-    <summary type="text">&quot;You've Reached Your Limit&quot;: What Nine AI Services Don't Say About Their Free Plans Nine services, 70 official pages preserved and timestamped, and one shared result: none of them publishes a numeric cap for free chat messages. Prefer reading in Arabic? Read the Arabic version on Substack You type your question, and the system answers with one line: you've reached your limit. When does it come bac</summary>
-    <author><name>A. F. Sadek</name></author>
     <category term="llm"/>
   </entry>
 </feed>
