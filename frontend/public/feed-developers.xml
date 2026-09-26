@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-26T01:18:59Z</updated>
+  <updated>2026-09-26T07:18:27Z</updated>
   <entry>
     <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
     <link href="https://openai.com/index/proaction" rel="alternate"/>
@@ -49,6 +49,24 @@
     <summary type="text">Pone fin a una de sus mayores apuestas de la era de la IA y concentrará sus esfuerzos en ayudar a los trabajadores a automatizar tareas.</summary>
     <author><name>Matt Day</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Back Up Self-Hosted Spliit: PostgreSQL Dumps, S3 Receipts and a Docker Restore That Loses Nothing</title>
+    <link href="https://dev.to/john_182319291/how-to-back-up-self-hosted-spliit-postgresql-dumps-s3-receipts-and-a-docker-restore-that-loses-1l2f" rel="alternate"/>
+    <id>https://dev.to/john_182319291/how-to-back-up-self-hosted-spliit-postgresql-dumps-s3-receipts-and-a-docker-restore-that-loses-1l2f</id>
+    <updated>2026-09-26T07:06:33Z</updated>
+    <summary type="text">A complete Spliit backup is three things, not one: a compressed pg_dump of the PostgreSQL database, a copy of the S3 or MinIO bucket holding receipt images, and the .env file that defines your base URL and storage credentials. Capture all three on the same schedule, keep one copy off the machine that runs the containers, and restore them in that order onto a Spliit image of the same minor version.</summary>
+    <author><name>John</name></author>
+  </entry>
+  <entry>
+    <title>Building Eger v0.1: An Experimental Programming Language Engine Built from Scratch (Windows Release)</title>
+    <link href="https://dev.to/eger-language/building-eger-v01-an-experimental-programming-language-engine-built-from-scratch-windows-release-7io" rel="alternate"/>
+    <id>https://dev.to/eger-language/building-eger-v01-an-experimental-programming-language-engine-built-from-scratch-windows-release-7io</id>
+    <updated>2026-09-26T06:48:00Z</updated>
+    <summary type="text">Hey DEV Community! 👋 I'm excited to share Eger v0.1, an experimental programming language engine built from scratch. What started as a prototype (Eger_Compiler.py) has officially been upgraded into a fully executable, standalone Windows toolchain. 💡 What is Eger? Eger is an experimental, open-source programming language featuring an elegant, Python-inspired syntax. Developed with the assistance of</summary>
+    <author><name>Eger Language</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Microsoft Abandons Personal AI Chatbot Race With Copilot Reboot</title>
@@ -357,14 +375,5 @@
     <updated>2026-09-23T15:56:19Z</updated>
     <summary type="text">We present VGM-VS, a visual servoing method built on a pretrained feed-forward visual geometry model. Given the current view and a reference image captured at the target configuration, we estimate the relative camera pose with a visual geometry model and apply it iteratively as the pose increment of a closed-loop pose-based visual servoing (PBVS) scheme. The geometry-aware representation acquired </summary>
     <author><name>Zoltan-Csaba Marton</name></author>
-  </entry>
-  <entry>
-    <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
-    <link href="https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale" rel="alternate"/>
-    <id>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</id>
-    <updated>2026-09-22T19:28:55Z</updated>
-    <summary type="text">The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder perk you may want to know about lasting until October 25th, 2026. When you add a Googlebook to your cart at Best Buy, a […]</summary>
-    <author><name>Brad Bourque</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
