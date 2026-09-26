@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-26T07:18:27Z</updated>
+  <updated>2026-09-26T12:49:28Z</updated>
   <entry>
     <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
     <link href="https://openai.com/index/proaction" rel="alternate"/>
@@ -31,6 +31,14 @@
     <summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Isabelle Lee, Carol Massar and Tim Stenovec. (Source: Bloomberg)</summary>
     <author><name>Bloomberg Technology</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How Aider works under the hood</title>
+    <link href="https://dev.to/masihmoafi/how-aider-works-under-the-hood-3ik7" rel="alternate"/>
+    <id>https://dev.to/masihmoafi/how-aider-works-under-the-hood-3ik7</id>
+    <updated>2026-09-26T12:31:56Z</updated>
+    <summary type="text">Codex and Aider look alike from the outside: you type, the model edits your code. Inside they are opposite designs. In Codex the model has tools and explores the repository itself. In Aider the model has no tools at all. The harness decides what the model sees, the model answers in plain text, and the harness finds the edits in that text and applies them. This post follows one message through Aide</summary>
+    <author><name>Masih Maafi</name></author>
   </entry>
   <entry>
     <title>Anthropic Goes Big on Compute, Microsoft Rethinks AI</title>
@@ -359,21 +367,5 @@
     <summary type="text">Azure Machine Learning is Microsoft's cloud-native machine learning platform that provides experiment tracking, managed compute, pipelines, a model registry, and model serving as hosted services within the Azure ecosystem, but it ties teams to Azure-specific APIs, managed compute pricing, and Microsoft's tooling. Kubeflow is an open-source machine learning platform built on Kubernetes that provide</summary>
     <author><name>Sanskriti Harmukh</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Deploy a Docker app on a VPS with Caddy (keep Postgres off the internet)</title>
-    <link href="https://dev.to/amorizz/put-self-hosted-exception-tracking-behind-caddy-keep-postgres-off-the-host-3gpo" rel="alternate"/>
-    <id>https://dev.to/amorizz/put-self-hosted-exception-tracking-behind-caddy-keep-postgres-off-the-host-3gpo</id>
-    <updated>2026-09-23T16:01:11Z</updated>
-    <summary type="text">TL;DR Most side projects die the same way on a cheap VPS: the app is up, Postgres is on :5432, and HTTPS is “later.” The boring fix is one Compose file: Caddy on 80/443, your app on the Docker network, database unpublished. Copy the stack below, point DNS, prove https://your.domain/health (or /), then ship. Why your first VPS deploy feels cursed You can docker compose up on a laptop in five minute</summary>
-    <author><name>Amorizz</name></author>
-  </entry>
-  <entry>
-    <title>VGM-VS: Rethinking Visual Geometry Model for High-Precision Visual Servoing</title>
-    <link href="https://arxiv.org/abs/2609.28312v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.28312v1</id>
-    <updated>2026-09-23T15:56:19Z</updated>
-    <summary type="text">We present VGM-VS, a visual servoing method built on a pretrained feed-forward visual geometry model. Given the current view and a reference image captured at the target configuration, we estimate the relative camera pose with a visual geometry model and apply it iteratively as the pose increment of a closed-loop pose-based visual servoing (PBVS) scheme. The geometry-aware representation acquired </summary>
-    <author><name>Zoltan-Csaba Marton</name></author>
   </entry>
 </feed>

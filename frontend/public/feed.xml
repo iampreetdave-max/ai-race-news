@@ -4,7 +4,52 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-26T07:18:27Z</updated>
+  <updated>2026-09-26T12:49:28Z</updated>
+  <entry>
+    <title>Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness</title>
+    <link href="https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/" rel="alternate"/>
+    <id>https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/</id>
+    <updated>2026-09-26T10:30:32Z</updated>
+    <summary type="text">SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchmarks. The article Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing t</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf</title>
+    <link href="https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/" rel="alternate"/>
+    <id>https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/</id>
+    <updated>2026-09-26T09:44:54Z</updated>
+    <summary type="text">OpenAI's GPT-6 Astra can look at a photo and tell whether an IKEA furniture piece was assembled incorrectly, hitting an 80 percent accuracy rate. Back in November 2025, the best model managed just 28 percent. According to Epoch AI, the speed isn't quite fast enough yet for real-time assembly guidance, but the gap is closing quickly. The article OpenAI's GPT-6 Astra can now tell you exactly where y</summary>
+    <author><name>Manuel Uth</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>OpenAI pauses its &quot;most capable models&quot; after agents exploit loopholes and leak data</title>
+    <link href="https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/" rel="alternate"/>
+    <id>https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/</id>
+    <updated>2026-09-26T09:06:36Z</updated>
+    <summary type="text">OpenAI has shared new details from its ongoing AI safety investigation. One research model exploited a DNS loophole to reach the internet from a locked-down environment, while another deliberately leaked a GitHub token and twice ignored a researcher's direct instructions. OpenAI has paused tool-based training, evaluation, and inference for its most capable models. With government and university si</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="regulation"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>What Is an AI Kill Switch? Why Shutting Down AI Isn’t So Simple</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-26/what-is-an-ai-kill-switch-why-shutting-down-ai-isn-t-so-simple" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-26/what-is-an-ai-kill-switch-why-shutting-down-ai-isn-t-so-simple</id>
+    <updated>2026-09-26T12:00:00Z</updated>
+    <summary type="text">If artificial intelligence becomes too powerful for its creators to control, is it possible to just flip a switch and turn it off?</summary>
+    <author><name>Micah Barkley</name></author>
+  </entry>
+  <entry>
+    <title>Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?</title>
+    <link href="https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/" rel="alternate"/>
+    <id>https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/</id>
+    <updated>2026-09-26T10:30:00Z</updated>
+    <summary type="text">Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.</summary>
+    <author><name>Reece Rogers</name></author>
+  </entry>
   <entry>
     <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
     <link href="https://openai.com/index/proaction" rel="alternate"/>
@@ -227,6 +272,78 @@
     <category term="robotics"/>
   </entry>
   <entry>
+    <title>Your PNG quality slider does nothing — I measured canvas.toBlob() for PNG, JPEG and WebP</title>
+    <link href="https://dev.to/sharefun2023/your-png-quality-slider-does-nothing-i-measured-canvastoblob-for-png-jpeg-and-webp-7l2" rel="alternate"/>
+    <id>https://dev.to/sharefun2023/your-png-quality-slider-does-nothing-i-measured-canvastoblob-for-png-jpeg-and-webp-7l2</id>
+    <updated>2026-09-26T12:38:20Z</updated>
+    <summary type="text">Every image tool on the web has a &quot;quality&quot; slider. Almost nobody tells you which formats actually obey it. I build client-side image tools, so the slider isn't cosmetic for me — it's the whole feature. I sat down with a headless Chrome and measured what canvas.toBlob() really does with that argument, format by format. Here are the raw numbers, and the two places where the mental model everyone ha</summary>
+    <author><name>sharefun2023</name></author>
+  </entry>
+  <entry>
+    <title>Epoll vs Select vs Poll: How the Linux Kernel Actually Handles 100k Concurrent Connections</title>
+    <link href="https://dev.to/syed_anzar/epoll-vs-select-vs-poll-how-the-linux-kernel-actually-handles-100k-concurrent-connections-3o89" rel="alternate"/>
+    <id>https://dev.to/syed_anzar/epoll-vs-select-vs-poll-how-the-linux-kernel-actually-handles-100k-concurrent-connections-3o89</id>
+    <updated>2026-09-26T12:36:17Z</updated>
+    <summary type="text">In 1999, Dan Kegel published his classic paper on &quot;The C10K Problem,&quot; posing a simple question: how do you design a web server capable of handling 10,000 concurrent client connections on a single machine? At the time, the standard approach was process-per-connection or thread-per-connection. Web servers like Apache prefork spawned a dedicated thread or process for every active socket. That model c</summary>
+    <author><name>Syed Anzar</name></author>
+  </entry>
+  <entry>
+    <title>How Aider works under the hood</title>
+    <link href="https://dev.to/masihmoafi/how-aider-works-under-the-hood-3ik7" rel="alternate"/>
+    <id>https://dev.to/masihmoafi/how-aider-works-under-the-hood-3ik7</id>
+    <updated>2026-09-26T12:31:56Z</updated>
+    <summary type="text">Codex and Aider look alike from the outside: you type, the model edits your code. Inside they are opposite designs. In Codex the model has tools and explores the repository itself. In Aider the model has no tools at all. The harness decides what the model sees, the model answers in plain text, and the harness finds the edits in that text and applies them. This post follows one message through Aide</summary>
+    <author><name>Masih Maafi</name></author>
+  </entry>
+  <entry>
+    <title>I built a generic multi-step flow engine on top of Laravel controllers</title>
+    <link href="https://dev.to/na2axl/i-built-a-generic-multi-step-flow-engine-on-top-of-laravel-controllers-5f9k" rel="alternate"/>
+    <id>https://dev.to/na2axl/i-built-a-generic-multi-step-flow-engine-on-top-of-laravel-controllers-5f9k</id>
+    <updated>2026-09-26T12:27:41Z</updated>
+    <summary type="text">At Zeney Pay we build a mobile app for cross-border money transfers and real-time currency conversion. A fintech backend is mostly flows: sign-in with 2FA, registration, KYC, &quot;forgot my PIN&quot;, setting up a transaction PIN, sending money. None of them fit in a single HTTP request. For a while we handled them the way most teams do, and it went badly. This post covers what went wrong, how we changed o</summary>
+    <author><name>Nana Axel</name></author>
+  </entry>
+  <entry>
+    <title>One Hung API Call Used to Kill My 1,000-Run Benchmark. Here's the Fix.</title>
+    <link href="https://dev.to/debashish_ghosal/one-hung-api-call-used-to-kill-my-1000-run-benchmark-heres-the-fix-555" rel="alternate"/>
+    <id>https://dev.to/debashish_ghosal/one-hung-api-call-used-to-kill-my-1000-run-benchmark-heres-the-fix-555</id>
+    <updated>2026-09-26T12:27:00Z</updated>
+    <summary type="text">The experiment was fine. The runner was the bug. A single hung API call discarded hours of completed work, and I kept blaming the data. If your long-running eval keeps dying at 80%, this is the five-part fix I wish I'd written first. I run field tests for CauterRule, an OSS sidecar that learns standing rules from repeated agent failures. I had spent weeks on extraction, matching, and scoring — and</summary>
+    <author><name>Debashish Ghosal</name></author>
+  </entry>
+  <entry>
+    <title>getCurrentPosition() Doesn't Just Check — It Prompts</title>
+    <link href="https://dev.to/parsajiravand/getcurrentposition-doesnt-just-check-it-prompts-52ap" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/getcurrentposition-doesnt-just-check-it-prompts-52ap</id>
+    <updated>2026-09-26T12:26:10Z</updated>
+    <summary type="text">You're building a &quot;find stores near you&quot; banner. The right move, UX-wise, is to explain why you want the visitor's location before the browser's blunt little system dialog interrupts them — but only if that dialog hasn't already fired. If they already said yes, just get the location and skip the banner. If they already said no, don't ask again; show a manual city picker instead. So before you rend</summary>
+    <author><name>Parsa Jiravand</name></author>
+  </entry>
+  <entry>
+    <title>JSON.stringify Is Quietly Deleting Your File Uploads</title>
+    <link href="https://dev.to/parsajiravand/jsonstringify-is-quietly-deleting-your-file-uploads-55ka" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/jsonstringify-is-quietly-deleting-your-file-uploads-55ka</id>
+    <updated>2026-09-26T12:24:36Z</updated>
+    <summary type="text">QA signs off on the &quot;edit profile&quot; form. Change your display name, hit save, refresh — the new name is there. Ship it. Two days later: &quot;I uploaded a new profile picture and it just... didn't change?&quot; You check the network tab. The request fired. Status 200 OK. The server logged a successful update. No red text anywhere. By every signal your tools give you, this worked. It didn't. And the bug isn't</summary>
+    <author><name>Parsa Jiravand</name></author>
+  </entry>
+  <entry>
+    <title>The Background Task That Waited 40 Seconds for 'Idle'</title>
+    <link href="https://dev.to/parsajiravand/the-background-task-that-waited-40-seconds-for-idle-5736" rel="alternate"/>
+    <id>https://dev.to/parsajiravand/the-background-task-that-waited-40-seconds-for-idle-5736</id>
+    <updated>2026-09-26T12:24:05Z</updated>
+    <summary type="text">You wire up requestIdleCallback to autosave a draft to IndexedDB. Feels like magic on your machine — it fires within a few milliseconds, every time, because your test tab is doing nothing else. Then it ships. A user scrolls a long feed, glances at a video, types in a chat sidebar — normal, busy, human use of a web page. Somewhere in there, their draft doesn't save for 40 seconds. Sometimes it does</summary>
+    <author><name>Parsa Jiravand</name></author>
+  </entry>
+  <entry>
+    <title>An AI Correctly Ignored a Forum Rumor. I Removed One Label and It Paid Out $150.</title>
+    <link href="https://dev.to/rudratosh/an-ai-correctly-ignored-a-forum-rumor-i-removed-one-label-and-it-paid-out-150-3jig" rel="alternate"/>
+    <id>https://dev.to/rudratosh/an-ai-correctly-ignored-a-forum-rumor-i-removed-one-label-and-it-paid-out-150-3jig</id>
+    <updated>2026-09-26T12:23:47Z</updated>
+    <summary type="text">This is my submission for the Kaggle × DEV Benchmarks Challenge. Here's a question nobody's really measuring: when an AI support agent reads a claim, does it check who said it before acting — or does it just trust anything that sounds official? So I built a benchmark to find out, and the result is worse than I expected. A model that correctly ignored a customer's forum rumor will, when you strip t</summary>
+    <author><name>Rudratosh Shastri</name></author>
+  </entry>
+  <entry>
     <title>Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux</title>
     <link href="https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/" rel="alternate"/>
     <id>https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/</id>
@@ -251,6 +368,16 @@
     <updated>2026-09-25T12:03:24Z</updated>
     <summary type="text">The NSA is already spending billions of dollars to test advanced AI models, mostly on computing power, according to The Washington Sun. Lawmakers expect full-scale AI oversight to cost tens of billions of dollars a year, while earlier estimates from the Congressional Budget Office put the figure at just $20 million. In US health care, AI-assisted billing codes drove up costs by nearly $1 billion o</summary>
     <author><name>Maximilian Schreiner</name></author>
+  </entry>
+  <entry>
+    <title>Your LLM Has a Curved Space of Paragraphs</title>
+    <link href="https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/" rel="alternate"/>
+    <id>https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/</id>
+    <updated>2026-09-26T12:00:01Z</updated>
+    <summary type="text">Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric. The post Your LLM Has a Curved Space of Paragraphs appeared first on Towards Data Science.</summary>
+    <author><name>Shuyang Xiang</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Google's &quot;Call for Me&quot; lets Gemini phone businesses for you</title>
@@ -313,140 +440,5 @@
     <updated>2026-09-25T17:23:13Z</updated>
     <summary type="text">It has been a head-spinning time of change for social media content creators as AI slop proliferates all over the Internet. On this episode of the Odd Lots podcast recorded live at the Vermont Hollywood theater, Rachel Karten, author of the Link in Bio newsletter, and Taylor Lorenz, founder of User Mag, tell Joe Weisenthal and Tracy Alloway why people love some genres of slop and what type of cont</summary>
     <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year</title>
-    <link href="https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/</id>
-    <updated>2026-09-25T10:43:15Z</updated>
-    <summary type="text">Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its revenue forecasts are even slightly off. The article Anthropic signs $11.6 billion cloud deal with A</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk</title>
-    <link href="https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/" rel="alternate"/>
-    <id>https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/</id>
-    <updated>2026-09-25T16:58:20Z</updated>
-    <summary type="text">The AI lab had argued multiple violations of its rights, but a divided panel of judges sided with the Trump administration.</summary>
-    <author><name>Paresh Dave</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meta makes the Muse filesystem even more accessible</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem</id>
-    <updated>2026-09-25T16:49:53Z</updated>
-    <summary type="text">Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed to reveal […]</summary>
-    <author><name>Terrence O’Brien</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meta is putting its muscle behind Muse as the AI app takes off</title>
-    <link href="https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/</id>
-    <updated>2026-09-25T16:16:52Z</updated>
-    <summary type="text">Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Ruby on Rails creator DHH says he's done writing code by hand</title>
-    <link href="https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/" rel="alternate"/>
-    <id>https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/</id>
-    <updated>2026-09-25T09:50:41Z</updated>
-    <summary type="text">David Heinemeier Hansson, creator of Ruby on Rails, has quit writing code by hand after 25 years. He says he hasn't typed a single line since March 2026. &quot;English is a better programming language than Ruby,&quot; DHH told the audience at Rails World 2026. Just a year ago, he was pushing back against AI coding. Now he calls it &quot;the biggest thing that has happened in the history of computing.&quot; The articl</summary>
-    <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>Meta’s AI Tamagotchi bet is…working?</title>
-    <link href="https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/" rel="alternate"/>
-    <id>https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/</id>
-    <updated>2026-09-25T16:00:00Z</updated>
-    <summary type="text">When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s ear</summary>
-    <author><name>Theresa Loconsolo</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Bitget Hack Pushes North Korean Crypto Haul Past $1 Billion</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-25/bitget-hack-pushes-north-korean-crypto-haul-past-1-billion" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-25/bitget-hack-pushes-north-korean-crypto-haul-past-1-billion</id>
-    <updated>2026-09-25T15:59:43Z</updated>
-    <summary type="text">A $357 million hack of crypto exchange Bitget on Thursday was likely carried out by North Korea-linked hackers, pushing the nation-state’s haul from digital-asset thefts above $1 billion this year, according to analytics firm Elliptic Enterprises Ltd.</summary>
-    <author><name>Ben Weiss</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack</title>
-    <link href="https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/</id>
-    <updated>2026-09-25T15:52:13Z</updated>
-    <summary type="text">The tech giant, which allows companies to send large datasets over the internet, said it received a &quot;credible threat&quot; from law enforcement about an imminent attack.</summary>
-    <author><name>Zack Whittaker</name></author>
-  </entry>
-  <entry>
-    <title>Sony and UMG are suing Suno again</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music</id>
-    <updated>2026-09-25T15:51:56Z</updated>
-    <summary type="text">Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG are notable holdouts who did not sign […]</summary>
-    <author><name>Terrence O’Brien</name></author>
-  </entry>
-  <entry>
-    <title>Google DeepMind Exodus Sparks VC Frenzy for AI’s Next Big Thing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-25/google-deepmind-exodus-sparks-vc-frenzy-for-ai-s-next-big-thing" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-25/google-deepmind-exodus-sparks-vc-frenzy-for-ai-s-next-big-thing</id>
-    <updated>2026-09-25T15:45:17Z</updated>
-    <summary type="text">When a group of 15 Google DeepMind employees and alumni met for a breakfast this month in central London, the conversation quickly turned to how to raise money for an artificial intelligence startup.</summary>
-    <author><name>Yazhou Sun, Mark Bergen and Shona Ghosh</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic’s founders seek voting control ahead of IPO</title>
-    <link href="https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/</id>
-    <updated>2026-09-25T15:40:03Z</updated>
-    <summary type="text">Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.</summary>
-    <author><name>Connie Loizos</name></author>
-    <category term="funding"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>One company is at the center of a wave of rogue AI attacks</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google</id>
-    <updated>2026-09-25T15:39:48Z</updated>
-    <summary type="text">In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few […]</summary>
-    <author><name>Robert Hart</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-    <category term="regulation"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah &amp; AMP’s Anjney Midha</title>
-    <link href="https://www.latent.space/p/openrouter" rel="alternate"/>
-    <id>https://www.latent.space/p/openrouter</id>
-    <updated>2026-09-25T23:14:41Z</updated>
-    <summary type="text">In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.</summary>
-    <author><name>Latent Space</name></author>
-  </entry>
-  <entry>
-    <title>Bill Gates Warns AI Powerful Enough to Lead to ‘a Billion Deaths’</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-25/bill-gates-warns-ai-powerful-enough-to-lead-to-a-billion-deaths" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-25/bill-gates-warns-ai-powerful-enough-to-lead-to-a-billion-deaths</id>
-    <updated>2026-09-25T15:00:39Z</updated>
-    <summary type="text">Microsoft Corp. co-founder Bill Gates warned that artificial intelligence is a “powerful enough” tool to kill off a substantial portion of humanity, joining a growing chorus of tech leaders and employees calling attention to AI’s existential risks.</summary>
-    <author><name>Micah Barkley</name></author>
-  </entry>
-  <entry>
-    <title>TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware</title>
-    <link href="https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/</id>
-    <updated>2026-09-25T15:00:00Z</updated>
-    <summary type="text">At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development. Save up to $200 on your pass before today ends.</summary>
-    <author><name>TechCrunch Events</name></author>
   </entry>
 </feed>
