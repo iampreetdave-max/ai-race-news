@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-09-26T19:41:35Z</updated>
+  <updated>2026-09-26T22:32:35Z</updated>
   <entry>
     <title>Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army</title>
     <link href="https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/" rel="alternate"/>
@@ -29,6 +29,22 @@
     <updated>2026-09-26T16:56:36Z</updated>
     <summary type="text">A study with more than 3,000 participants shows that just having access to AI answers nearly eliminated people's willingness to say &quot;I don't know.&quot; In one experiment, it dropped from 44 to 3 percent, even though the AI was almost always wrong. Participants who used AI felt more confident but were correct only about a third as often as those without it. The article AI access makes people almost ent</summary>
     <author><name>Matthias Bastian</name></author>
+  </entry>
+  <entry>
+    <title>Apple hit with $5.7 billion in damages over haptic patents</title>
+    <link href="https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents" rel="alternate"/>
+    <id>https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents</id>
+    <updated>2026-09-26T21:30:01Z</updated>
+    <summary type="text">Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC, &quot;The lawsuit centered around U.S. Patent Nos. 10,659,885 and 10,820,117, which both involve vibration-based, tactile transducer technology that helps users feel a […]</summary>
+    <author><name>Terrence O’Brien</name></author>
+  </entry>
+  <entry>
+    <title>Insurers claim AI is already increasing healthcare costs</title>
+    <link href="https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/</id>
+    <updated>2026-09-26T21:02:06Z</updated>
+    <summary type="text">Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.</summary>
+    <author><name>Anthony Ha</name></author>
   </entry>
   <entry>
     <title>Kids turned the comment section of an NPR podcast into a group chat</title>
@@ -117,6 +133,68 @@
     <author><name>Asif Razzaq</name></author>
     <category term="hardware"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Transferencia columnar zero-copy: Apache Arrow se une a ClickHouse en Python.</title>
+    <link href="https://dev.to/william_rodriguez_65a5898/transferencia-columnar-zero-copy-apache-arrow-se-une-a-clickhouse-en-python-cn5" rel="alternate"/>
+    <id>https://dev.to/william_rodriguez_65a5898/transferencia-columnar-zero-copy-apache-arrow-se-une-a-clickhouse-en-python-cn5</id>
+    <updated>2026-09-26T22:21:30Z</updated>
+    <summary type="text">Día 04 de la serie técnica WClickHouse Open Source. La serialización fila a fila es el mayor cuello de botella en analítica Python. WClickHouse insert_arrow() mueve bloques columnares contiguos directo a ClickHouse. Los Problemas Reales Sobrecarga de serializar millones de números en tuplas o JSONs en Python Pausas del recolector de basura congelando pipelines durante la ingestión Alto consumo de </summary>
+    <author><name>William Rodriguez</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>AI Powered Git Commit Assistant</title>
+    <link href="https://dev.to/bijaydas/ai-powered-git-commit-assistant-4l9" rel="alternate"/>
+    <id>https://dev.to/bijaydas/ai-powered-git-commit-assistant-4l9</id>
+    <updated>2026-09-26T22:21:22Z</updated>
+    <summary type="text">Writing a good Git commit messages is a small but repetitive work of software development. I often found myself spending time deciding whether a change should be feat, fix or chore, and then trying to write a description. So I decided to build a small cli tool to help. cmt-cli Git Commit assistant that analyzes your staged changes and generates a commit message. Why I built it? A commit message sa</summary>
+    <author><name>Bijay Das</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Agent Circuit Breakers</title>
+    <link href="https://dev.to/agenticmotion/ai-agent-circuit-breakers-45a2" rel="alternate"/>
+    <id>https://dev.to/agenticmotion/ai-agent-circuit-breakers-45a2</id>
+    <updated>2026-09-26T22:21:05Z</updated>
+    <summary type="text">AI Agent Circuit Breakers You deploy your shiny new autonomous research agent on Friday afternoon. It works perfectly on your curated test data. It navigates to a URL, extracts the core thesis, cross-references it against a vector database, and generates a clean JSON summary. You close your laptop and enjoy your weekend. You check your OpenAI or Anthropic billing dashboard on Monday morning. Your </summary>
+    <author><name>agenticmotion</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
+    <title>Rotación sin cortes: Rotación automática de claves con rotate_key().</title>
+    <link href="https://dev.to/william_rodriguez_65a5898/rotacion-sin-cortes-rotacion-automatica-de-claves-con-rotatekey-1ldl" rel="alternate"/>
+    <id>https://dev.to/william_rodriguez_65a5898/rotacion-sin-cortes-rotacion-automatica-de-claves-con-rotatekey-1ldl</id>
+    <updated>2026-09-26T22:20:16Z</updated>
+    <summary type="text">Rotar claves maestras no debería implicar apagar tus servicios para migrar la base de datos. Con rotate_key() de wauth, cada secreto en tu baúl se re-encripta de forma atómica en milisegundos. Esta es la implementación exacta para producción de Automatic Key Rotation &amp; Re-Encryption: from wauth import WAuth auth = WAuth(db_path=&quot;production_vault.db&quot;, custom_key=&quot;old-master-passphrase-2025&quot;) auth.s</summary>
+    <author><name>William Rodriguez</name></author>
+  </entry>
+  <entry>
+    <title>Rotate without breaking: Automated key rotation with rotate_key().</title>
+    <link href="https://dev.to/william_rodriguez_65a5898/rotate-without-breaking-automated-key-rotation-with-rotatekey-17c4" rel="alternate"/>
+    <id>https://dev.to/william_rodriguez_65a5898/rotate-without-breaking-automated-key-rotation-with-rotatekey-17c4</id>
+    <updated>2026-09-26T22:20:03Z</updated>
+    <summary type="text">Key rotation shouldn't mean taking your services offline for a database migration. With wauth's rotate_key(), every secret in your vault is re-encrypted atomically under the new key in milliseconds. Here is the exact production implementation for Automatic Key Rotation &amp; Re-Encryption: from wauth import WAuth auth = WAuth(db_path=&quot;production_vault.db&quot;, custom_key=&quot;old-master-passphrase-2025&quot;) auth</summary>
+    <author><name>William Rodriguez</name></author>
+  </entry>
+  <entry>
+    <title>Restricciones en lenguaje claro: Primary, Unique y Foreign keys con Field.</title>
+    <link href="https://dev.to/william_rodriguez_65a5898/restricciones-en-lenguaje-claro-primary-unique-y-foreign-keys-con-field-4a6d" rel="alternate"/>
+    <id>https://dev.to/william_rodriguez_65a5898/restricciones-en-lenguaje-claro-primary-unique-y-foreign-keys-con-field-4a6d</id>
+    <updated>2026-09-26T22:19:49Z</updated>
+    <summary type="text">No deberías necesitar un doctorado en SQLAlchemy solo para definir una restricción UNIQUE compuesta o un ID autoincremental. wsqlite convierte la descripción del campo en SQL declarativo. Así se implementa Declarative SQL Constraints in Pydantic Field en entornos reales con wsqlite: from typing import Optional from pydantic import BaseModel, Field from wsqlite import WSQLite class Employee(BaseMod</summary>
+    <author><name>William Rodriguez</name></author>
+  </entry>
+  <entry>
+    <title>Seguridad que se configura en segundos: SASL PLAIN y SCRAM en Kafka.</title>
+    <link href="https://dev.to/william_rodriguez_65a5898/seguridad-que-se-configura-en-segundos-sasl-plain-y-scram-en-kafka-796" rel="alternate"/>
+    <id>https://dev.to/william_rodriguez_65a5898/seguridad-que-se-configura-en-segundos-sasl-plain-y-scram-en-kafka-796</id>
+    <updated>2026-09-26T22:19:22Z</updated>
+    <summary type="text">Día 04 de la serie técnica WKafka Open Source. Kafka en entornos corporativos exige autenticación SASL estricta y cifrado TLS. WKafka convierte la seguridad enterprise en una configuración de 4 líneas. Los Problemas Reales Ficheros de configuración JAAS complejos y cadenas de parámetros estilo JVM Caída accidental en conexiones sin cifrar en despliegues a producción Parámetros de autenticación inc</summary>
+    <author><name>William Rodriguez</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Another OpenAI Sandbox Failed, AI Agent Gained Internet Access</title>
@@ -364,84 +442,6 @@
     <updated>2026-09-25T21:36:20Z</updated>
     <summary type="text">&quot;Overly constrained AI models&quot; could cause military operations to fail, judges say.</summary>
     <author><name>Jon Brodkin</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB</title>
-    <link href="https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/</id>
-    <updated>2026-09-25T15:14:45Z</updated>
-    <summary type="text">Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the company’s autonomous pentesting appliance for on-prem and air-gapped networks. Is it deployable? Yes, the weights are public on Hugging Face and run with vLLM […] The post Aikido Securi</summary>
-    <author><name>Asif Razzaq</name></author>
-  </entry>
-  <entry>
-    <title>Patterson: AI Is Crowding Out Demand for US Treasuries</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video</id>
-    <updated>2026-09-25T21:24:31Z</updated>
-    <summary type="text">Rebecca Patterson, Former Chief Investment Strategist at Bridgewater and Senior Fellow at the Council on Foreign Relations, discusses her broad read on market action. The discussion is framed around whether recent moves in bonds, equities, commodities, and energy are telling the same economic story or whether one market is more predictive than the others. She speaks with Romaine Bostick on &quot;The Cl</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>AI Slop Is in Your Training Dataset Now. I Tested Three Ways to Spot It.</title>
-    <link href="https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/" rel="alternate"/>
-    <id>https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/</id>
-    <updated>2026-09-26T15:00:02Z</updated>
-    <summary type="text">My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate. The post AI Slop Is in Your Training Dataset Now. I Tested Three Ways to Spot It. appeared first on Towards Data Science.</summary>
-    <author><name>Abdullahi Dattijo</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Tesla workers balk at training Optimus humanoid robots as replacements</title>
-    <link href="https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/" rel="alternate"/>
-    <id>https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/</id>
-    <updated>2026-09-25T21:10:51Z</updated>
-    <summary type="text">Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.</summary>
-    <author><name>Jeremy Hsu</name></author>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>China's Economy Unbalanced, AI Deal Hard to Envision, Stephen Roach Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video</id>
-    <updated>2026-09-25T21:00:09Z</updated>
-    <summary type="text">Stephen Roach, Yale University Jackson Institute for Global Affairs senior fellow and former chairman of Morgan Stanley Asia, says President Donald Trump's meeting with Chinese President Xi Jinping left many unresolved questions about tariffs, technology restrictions, rare earth leverage and Taiwan, even as both sides appeared to project some stability. He speaks on &quot;Bloomberg The Close.&quot; (Source:</summary>
-    <author><name>Bloomberg Technology</name></author>
-  </entry>
-  <entry>
-    <title>Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation</title>
-    <link href="https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/</id>
-    <updated>2026-09-25T14:30:26Z</updated>
-    <summary type="text">Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-distillation. In a live A/B test, tool-call failures fell from 2.24% to 1.77% between 2 trained checkpoints. Perplexity team reports this as a statistically significant 21.2% […] The</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>OpenAI Says Its Models May Have Interfered With Government Sites</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-25/openai-says-its-models-may-have-interfered-with-government-sites" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-25/openai-says-its-models-may-have-interfered-with-government-sites</id>
-    <updated>2026-09-25T20:34:28Z</updated>
-    <summary type="text">OpenAI said it has notified “dozens” of organizations, including governments and universities, whose websites may have been hampered by visits from its artificial intelligence models during company evaluations of the technology.</summary>
-    <author><name>Rachel Metz and Jeff Stone</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft Rises as It Unifies Copilot AI | Closing Bell</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video</id>
-    <updated>2026-09-25T20:26:30Z</updated>
-    <summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Isabelle Lee, Carol Massar and Tim Stenovec. (Source: Bloomberg)</summary>
-    <author><name>Bloomberg Technology</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic to pay Akamai $11.6 billion over seven years in cloud deal</title>
-    <link href="https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/</id>
-    <updated>2026-09-25T19:13:38Z</updated>
-    <summary type="text">Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.</summary>
-    <author><name>Aditya Mehta</name></author>
     <category term="llm"/>
   </entry>
 </feed>
