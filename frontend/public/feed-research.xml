@@ -4,7 +4,54 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-28T00:26:02Z</updated>
+  <updated>2026-09-28T06:29:34Z</updated>
+  <entry>
+    <title>OC-GS: Gaussian Splatting for Irregular Turntable Capture</title>
+    <link href="https://arxiv.org/abs/2609.31572v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.31572v1</id>
+    <updated>2026-09-25T17:35:05Z</updated>
+    <summary type="text">Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared camera, rotation axis, and pivot. This orbit-consistent refinement jointly optimizes image-derived geometry and angles to reconstruct objects from sparse, irregular captures. On ren</summary>
+    <author><name>Bedrich Benes</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Forensic Twins: Self-Supervised Residual Learning for AI-Generated Image Forensics</title>
+    <link href="https://arxiv.org/abs/2609.31514v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.31514v1</id>
+    <updated>2026-09-25T16:55:20Z</updated>
+    <summary type="text">Detectors of AI-generated images are typically trained using samples from all Generative AI architectures they must catch, and struggle as soon as a new architecture emerges. Recent approaches have explored self-supervised pre-training as an alternative solution, yet standard frameworks work against the forensic task, e.g., their augmentations overwrite the micro-statistics of image formation. Thi</summary>
+    <author><name>Julian Fierrez</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding</title>
+    <link href="https://arxiv.org/abs/2609.31452v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.31452v1</id>
+    <updated>2026-09-25T16:08:16Z</updated>
+    <summary type="text">Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the other</summary>
+    <author><name>Andrej Gams</name></author>
+    <category term="research"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data</title>
+    <link href="https://arxiv.org/abs/2609.31394v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.31394v1</id>
+    <updated>2026-09-25T15:24:25Z</updated>
+    <summary type="text">World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-$Δ$, a unified WAM pretrained on a heterogeneous corpus that ou</summary>
+    <author><name>Chunhua Shen</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ContraFM-S2O: Flow Matching-Based One-step SAR-to-Optical Image Translation Model with Contrastive Learning</title>
+    <link href="https://arxiv.org/abs/2609.31378v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.31378v1</id>
+    <updated>2026-09-25T15:15:11Z</updated>
+    <summary type="text">In recent years, diffusion models and GAN-based models have become the mainstream approaches for SAR-to-optical image translation, owing to their advantages, such as high-quality generation and stable training. However, they have shortcomings such as high inference latency and the generated optical images suffer from low detail fidelity, often resulting in blurred edges and loss of fine textures. </summary>
+    <author><name>Peilin Zhao</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/" rel="alternate"/>
@@ -51,15 +98,6 @@
     <summary type="text">Automated generation of production-ready 3D garment assets from a single image is a central challenge in digital content creation. While recent generative models have significantly advanced 3D geometry reconstruction, synthesizing high-quality textures remains a bottleneck. Existing methods often bake environmental illumination and shadows directly into the texture map, or they fail to maintain gl</summary>
     <author><name>Fernando De la Torre</name></author>
     <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Jev After Eight Days of Independent Tests: Level With Mid-Price LLMs, Behind the Frontier</title>
-    <link href="https://dev.to/aws-builders/jev-after-eight-days-of-independent-tests-level-with-mid-price-llms-behind-the-frontier-1c60" rel="alternate"/>
-    <id>https://dev.to/aws-builders/jev-after-eight-days-of-independent-tests-level-with-mid-price-llms-behind-the-frontier-1c60</id>
-    <updated>2026-09-24T14:26:03Z</updated>
-    <summary type="text">This article provides a review of the independent evidence on TypeSafe's Jev, the open models built to replace it, and the prior art behind both, as of September 23, 2026. Every figure below is traced to a primary source, and re-scored from committed per-item outputs wherever the author published them. This is a snapshot eight days after launch, and the arXiv preprints it cites are days old and un</summary>
-    <author><name>xbill</name></author>
     <category term="research"/>
   </entry>
 </feed>
