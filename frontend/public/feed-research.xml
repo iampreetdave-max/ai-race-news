@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-09-29T01:37:34Z</updated>
+  <updated>2026-09-29T08:07:39Z</updated>
+  <entry>
+    <title>The effects of an “algorithmic monoculture” depend on the details</title>
+    <link href="https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929" rel="alternate"/>
+    <id>https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929</id>
+    <updated>2026-09-29T04:00:00Z</updated>
+    <summary type="text">In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.</summary>
+    <author><name>Adam Zewe | MIT News</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop</title>
     <link href="https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/" rel="alternate"/>
@@ -14,6 +23,54 @@
     <author><name>Jack Clark</name></author>
     <category term="hardware"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets</title>
+    <link href="https://arxiv.org/abs/2609.35770v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.35770v1</id>
+    <updated>2026-09-28T17:59:58Z</updated>
+    <summary type="text">Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variability. We present FurE, an efficient strand-based animal fur reconstruction method that recovers a per-s</summary>
+    <author><name>Alan Yuille</name></author>
+  </entry>
+  <entry>
+    <title>Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision</title>
+    <link href="https://arxiv.org/abs/2609.35718v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.35718v1</id>
+    <updated>2026-09-28T17:46:57Z</updated>
+    <summary type="text">Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models. As these capabilities expand, a central question for the computer-vision community is how far this reach extends, and what remains hard. We evaluate GPT-6 Astra alongside five frontier general-purpose AI systems across 34 capabilities and 5</summary>
+    <author><name>Salman Khan</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
+  <entry>
+    <title>FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching</title>
+    <link href="https://arxiv.org/abs/2609.35673v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.35673v1</id>
+    <updated>2026-09-28T17:28:05Z</updated>
+    <summary type="text">Tool-based image editing (image retouching) is commonly formulated with autoregressive multimodal large language models (MLLMs) that sequentially generate reasoning, tool selections, and parameter values. In this work, we present a novel approach to tool-based image editing by framing the task as a flow matching problem. We introduce FlowTool, a framework that directly models the distribution of h</summary>
+    <author><name>Viet Lai</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>RT-Super: Learning Tumor Segmentation from Longitudinal Images and Reports</title>
+    <link href="https://arxiv.org/abs/2609.35637v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.35637v1</id>
+    <updated>2026-09-28T17:06:07Z</updated>
+    <summary type="text">Multi-tumor segmentation is important for early cancer detection and allows radiologists to visualize, verify, and understand AI predictions. However, tumor segmentation masks are expensive, time-consuming, and unavailable for many tumor types in public data. Instead, hospitals have vast, readily available data that can guide segmentation: radiology reports, longitudinal images, and multi-phase im</summary>
+    <author><name>Zongwei Zhou</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>CoWindow and MassAlloc Attention: collective causal coverage and distribution-adaptive compute [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/</id>
+    <updated>2026-09-29T05:16:54Z</updated>
+    <summary type="text">I'm one of the authors of two recent papers exploring different sources of redundant computation in attention. I'd like to share the ideas and hear feedback from people working on long-context models and attention kernels. CoWindow Attention (CoWA) distributes distant context across KV heads using complementary windows, while sharing local and prefix-sink windows. Each head attends sparsely, but t</summary>
+    <author><name>/u/BitExternal4608</name></author>
+    <category term="research"/>
+    <category term="hardware"/>
   </entry>
   <entry>
     <title>Functional Gradient Descent with Adaptive Representations [R]</title>
@@ -42,52 +99,5 @@
     <summary type="text">We present ProDyGS, a novel dynamic 3D Gaussian Splatting framework for high-quality novel view synthesis from videos captured by a single static camera. While existing methods rely on multi-view setups or significant camera motion for geometric constraints, our approach addresses the challenging scenario where multi-view supervision is completely absent. We overcome this limitation by generating </summary>
     <author><name>Stefano Mattoccia</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Forensic Twins: Self-Supervised Residual Learning for AI-Generated Image Forensics</title>
-    <link href="https://arxiv.org/abs/2609.31514v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.31514v1</id>
-    <updated>2026-09-25T16:55:20Z</updated>
-    <summary type="text">Detectors of AI-generated images are typically trained using samples from all Generative AI architectures they must catch, and struggle as soon as a new architecture emerges. Recent approaches have explored self-supervised pre-training as an alternative solution, yet standard frameworks work against the forensic task, e.g., their augmentations overwrite the micro-statistics of image formation. Thi</summary>
-    <author><name>Julian Fierrez</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding</title>
-    <link href="https://arxiv.org/abs/2609.31452v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.31452v1</id>
-    <updated>2026-09-25T16:08:16Z</updated>
-    <summary type="text">Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the other</summary>
-    <author><name>Andrej Gams</name></author>
-    <category term="research"/>
-    <category term="robotics"/>
-  </entry>
-  <entry>
-    <title>InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data</title>
-    <link href="https://arxiv.org/abs/2609.31394v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.31394v1</id>
-    <updated>2026-09-25T15:24:25Z</updated>
-    <summary type="text">World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-$Δ$, a unified WAM pretrained on a heterogeneous corpus that ou</summary>
-    <author><name>Chunhua Shen</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ContraFM-S2O: Flow Matching-Based One-step SAR-to-Optical Image Translation Model with Contrastive Learning</title>
-    <link href="https://arxiv.org/abs/2609.31378v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.31378v1</id>
-    <updated>2026-09-25T15:15:11Z</updated>
-    <summary type="text">In recent years, diffusion models and GAN-based models have become the mainstream approaches for SAR-to-optical image translation, owing to their advantages, such as high-quality generation and stable training. However, they have shortcomings such as high inference latency and the generated optical images suffer from low detail fidelity, often resulting in blurred edges and loss of fine textures. </summary>
-    <author><name>Peilin Zhao</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/</id>
-    <updated>2026-09-27T03:38:07Z</updated>
-    <summary type="text">Hey r/MachineLearning! I’ve been working on a new optimizer called Tauon (turns out there is already &quot;teon&quot; but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynomials and orthogonalization just like muon, the whole difference is that i managed to lower total number of steps (first through spectral filtering down to 3 steps then through coeff</summary>
-    <author><name>/u/kkkrlklo</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
