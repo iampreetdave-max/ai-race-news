@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-09-30T00:10:22Z</updated>
+  <updated>2026-09-30T06:26:33Z</updated>
   <entry>
     <title>ChatGPT now reaches 1.2 billion people every week, OpenAI says</title>
     <link href="https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/" rel="alternate"/>
@@ -51,6 +51,15 @@
     <category term="llm"/>
     <category term="open-source"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>🔍 4 Befehle, mit denen ich prüfe, ob mein Claude-Code-Gateway wirklich läuft</title>
+    <link href="https://dev.to/buluo/4-befehle-mit-denen-ich-prufe-ob-mein-claude-code-gateway-wirklich-lauft-ob0" rel="alternate"/>
+    <id>https://dev.to/buluo/4-befehle-mit-denen-ich-prufe-ob-mein-claude-code-gateway-wirklich-lauft-ob0</id>
+    <updated>2026-09-30T06:23:12Z</updated>
+    <summary type="text">🤖 AI-Hinweis: Beim Strukturieren und Formulieren dieses Beitrags habe ich ein Sprachmodell eingesetzt. Alle Befehle, Ausgaben und Versionsnummern habe ich auf meiner eigenen Maschine tatsächlich ausgeführt und überprüft. TL;DR Claude Code lässt sich auf ein eigenes Inference-Gateway umbiegen – es sind genau 6 Umgebungsvariablen. claude --version beweist nur, dass der Client installiert ist. Nichts</summary>
+    <author><name>boluo</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Stop writing your own agent loop: a hands-on tutorial for OpenAI's Agents API</title>
@@ -316,44 +325,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Day 4 - LLM - Tool Calling</title>
-    <link href="https://dev.to/technonotes/day-4-llm-tool-calling-i9p" rel="alternate"/>
-    <id>https://dev.to/technonotes/day-4-llm-tool-calling-i9p</id>
-    <updated>2026-09-26T19:22:00Z</updated>
-    <summary type="text">Tool Calling Asking some query to the LLM. LLM is like a phone book , it can't call on its own. With some tools only it will. Tools are nothing but FUNCTIONS. Tool calling is also called as FUNCTION Calling. Its a method , which models reliably connect and interact with external tools like API , database or knowledge base. LLM gets set of tools and it decides which tools needs to be invoked for a </summary>
-    <author><name>technonotes-hacker</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>This week in Claude Code, Codex and Gemini CLI (week of September 27, 2026)</title>
-    <link href="https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-27-2026-11oo" rel="alternate"/>
-    <id>https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-27-2026-11oo</id>
-    <updated>2026-09-26T19:13:54Z</updated>
-    <summary type="text">Originally published at https://aicoding-guide.com. The headline this week: Claude Opus 5.5 (claude-opus-5-5) is now Claude Code's default Opus model (v2.1.280). The official pricing table lists it at $4/MTok input and $20/MTok output, below Claude Opus 5's $5/$25. On the permissions side, the same release fixed writes through a symlinked path being approved against the wrong location. On the sett</summary>
-    <author><name>aicoding-guide</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models</title>
-    <link href="https://arxiv.org/abs/2609.32808v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.32808v1</id>
-    <updated>2026-09-26T17:30:10Z</updated>
-    <summary type="text">Large vision-language models (LVLMs) inherit massive activations from their text-only bases: spikes where a few fixed hidden channels receive values thousands of times above the typical magnitude. The text spike systematically appears in early layers at a fixed initial position, independently of input content. Visual spikes vary across images, but whether their formation follows a consistent patte</summary>
-    <author><name>Sanmi Koyejo</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing</title>
-    <link href="https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/" rel="alternate"/>
-    <id>https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/</id>
-    <updated>2026-09-25T16:30:57Z</updated>
-    <summary type="text">Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called &quot;Autopilot.&quot; Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI s</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
