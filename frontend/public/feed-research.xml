@@ -4,7 +4,27 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-01T01:54:27Z</updated>
+  <updated>2026-10-01T08:36:43Z</updated>
+  <entry>
+    <title>Image Classifiers are Efficient Self-Supervised Video Representation Learners</title>
+    <link href="https://arxiv.org/abs/2609.40347v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.40347v1</id>
+    <updated>2026-09-30T17:59:03Z</updated>
+    <summary type="text">We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super images which are grids composed of frames sampled from videos. Fr</summary>
+    <author><name>Abir Das</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Looped Diffusion Transformer</title>
+    <link href="https://arxiv.org/abs/2609.40305v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2609.40305v1</id>
+    <updated>2026-09-30T17:52:08Z</updated>
+    <summary type="text">Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer blocks within each denoising step, effectively increasing computational depth while keeping the parameter count fixed. This looped computation enables iterative refinement of inte</summary>
+    <author><name>Gao Huang</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>DiFF: Doppler-informed Flow Matching for Human Motion Flow</title>
     <link href="https://arxiv.org/abs/2609.39098v1" rel="alternate"/>
@@ -41,53 +61,5 @@
     <summary type="text">I got accepted for poster presentation at the IAB workshop in Sydney but I won't be able to attend due to a lack of financial support. I wrote the paper as a solo author, and for financial support from my institute, I need to add a supervisor from my college as an author to qualify for assistance. Is it possible to change authors after acceptance, or should I withdraw? Also, can someone provide me</summary>
     <author><name>/u/No-Mixture5766</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop</title>
-    <link href="https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/</id>
-    <updated>2026-09-28T12:32:03Z</updated>
-    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic space, with bodies and machines as their interfaces, Michael Levin asks:…A mind-bending paper asking us to reconsider basic assumptions about […]</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="hardware"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets</title>
-    <link href="https://arxiv.org/abs/2609.35770v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.35770v1</id>
-    <updated>2026-09-28T17:59:58Z</updated>
-    <summary type="text">Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variability. We present FurE, an efficient strand-based animal fur reconstruction method that recovers a per-s</summary>
-    <author><name>Alan Yuille</name></author>
-  </entry>
-  <entry>
-    <title>Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision</title>
-    <link href="https://arxiv.org/abs/2609.35718v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.35718v1</id>
-    <updated>2026-09-28T17:46:57Z</updated>
-    <summary type="text">Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models. As these capabilities expand, a central question for the computer-vision community is how far this reach extends, and what remains hard. We evaluate GPT-6 Astra alongside five frontier general-purpose AI systems across 34 capabilities and 5</summary>
-    <author><name>Salman Khan</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching</title>
-    <link href="https://arxiv.org/abs/2609.35673v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.35673v1</id>
-    <updated>2026-09-28T17:28:05Z</updated>
-    <summary type="text">Tool-based image editing (image retouching) is commonly formulated with autoregressive multimodal large language models (MLLMs) that sequentially generate reasoning, tool selections, and parameter values. In this work, we present a novel approach to tool-based image editing by framing the task as a flow matching problem. We introduce FlowTool, a framework that directly models the distribution of h</summary>
-    <author><name>Viet Lai</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>RT-Super: Learning Tumor Segmentation from Longitudinal Images and Reports</title>
-    <link href="https://arxiv.org/abs/2609.35637v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2609.35637v1</id>
-    <updated>2026-09-28T17:06:07Z</updated>
-    <summary type="text">Multi-tumor segmentation is important for early cancer detection and allows radiologists to visualize, verify, and understand AI predictions. However, tumor segmentation masks are expensive, time-consuming, and unavailable for many tumor types in public data. Instead, hospitals have vast, readily available data that can guide segmentation: radiology reports, longitudinal images, and multi-phase im</summary>
-    <author><name>Zongwei Zhou</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
