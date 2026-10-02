@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-02T08:10:37Z</updated>
+  <updated>2026-10-02T15:34:21Z</updated>
+  <entry>
+    <title>I Built an AI System for 80+ Microservices. Six Months Later, My Whole Team Uses It.</title>
+    <link href="https://dev.to/akash_singh_9936/i-built-an-ai-system-for-80-microservices-six-months-later-my-whole-team-uses-it-4j14" rel="alternate"/>
+    <id>https://dev.to/akash_singh_9936/i-built-an-ai-system-for-80-microservices-six-months-later-my-whole-team-uses-it-4j14</id>
+    <updated>2026-10-02T15:21:28Z</updated>
+    <summary type="text">In April I wrote about a system I built on Claude Code that takes an epic to PR-ready code across 80+ microservices. If you read that post, I sounded like someone who had finished something. I hadn't. This is the follow-up I didn't plan to write. It covers what went wrong, what I got wrong, and how a tool I built for myself ended up being used by the whole tech team, every new joiner, and people w</summary>
+    <author><name>akash singh</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Inside Microsoft’s big Copilot rethink</title>
     <link href="https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad" rel="alternate"/>
@@ -108,16 +117,6 @@
     <author><name>Yash Sonawane</name></author>
   </entry>
   <entry>
-    <title>Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet</title>
-    <link href="https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet" rel="alternate"/>
-    <id>https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet</id>
-    <updated>2026-09-30T12:00:18Z</updated>
-    <summary type="text">Ollama pulls model weights, keeps an HTTP server on port 11434, and hands any client an OpenAI-shaped endpoint pointed at your own machine. Learn how to manage, configure, and optimize using Ollama right here.</summary>
-    <author><name>KDnuggets</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
     <title>Metaview wants to eliminate recruiting grunt work and speed up hiring after raising $60M in funding</title>
     <link href="https://siliconangle.com/2026/09/30/metaview-wants-to-eliminate-recruiting-grunt-work-and-speed-up-hiring-after-raising-60m-in-funding/" rel="alternate"/>
     <id>https://siliconangle.com/2026/09/30/metaview-wants-to-eliminate-recruiting-grunt-work-and-speed-up-hiring-after-raising-60m-in-funding/</id>
@@ -164,35 +163,5 @@
     <summary type="text">🤖 AI-Hinweis: Beim Strukturieren und Formulieren dieses Beitrags habe ich ein Sprachmodell eingesetzt. Alle Befehle, Ausgaben und Versionsnummern habe ich auf meiner eigenen Maschine tatsächlich ausgeführt und überprüft. TL;DR Claude Code lässt sich auf ein eigenes Inference-Gateway umbiegen – es sind genau 6 Umgebungsvariablen. claude --version beweist nur, dass der Client installiert ist. Nichts</summary>
     <author><name>boluo</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Stop writing your own agent loop: a hands-on tutorial for OpenAI's Agents API</title>
-    <link href="https://dev.to/aifrontierpost/stop-writing-your-own-agent-loop-a-hands-on-tutorial-for-openais-agents-api-20de" rel="alternate"/>
-    <id>https://dev.to/aifrontierpost/stop-writing-your-own-agent-loop-a-hands-on-tutorial-for-openais-agents-api-20de</id>
-    <updated>2026-09-30T00:08:17Z</updated>
-    <summary type="text">Originally published at AI Frontier Post For the past year, shipping an AI agent meant writing the same loop as everyone else: call the model, parse its tool calls, run them, append the results, repeat — then bolt on context management, retries, and recovery when the demo had to become a product. At DevDay 2026, OpenAI productized the loop itself. The Agents API, now in public beta, exposes the ma</summary>
-    <author><name>AI Frontier Post</name></author>
-    <category term="tutorial"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Does Being a GTM Engineer Beat Being an Engineer? The Truth</title>
-    <link href="https://hackernoon.com/does-being-a-gtm-engineer-beat-being-an-engineer-the-truth?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/does-being-a-gtm-engineer-beat-being-an-engineer-the-truth?source=rss</id>
-    <updated>2026-09-29T20:41:46Z</updated>
-    <summary type="text">Software engineers are facing a quandary as AI takes over coding tasks, with options including reviewing AI output or specializing in areas like data engineering and GTM engineering. GTM engineers, who orchestrate workflows to get a company to market, are in a rare and enviable spot as their output is directly tied to revenue.Read All</summary>
-    <author><name>ammbo</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>OpenAI Rolls Out GPT-6 Sol and Luna for ChatGPT Work, Codex and API Users</title>
-    <link href="https://dev.to/alifar/openai-rolls-out-gpt-6-sol-and-luna-for-chatgpt-work-codex-and-api-users-268g" rel="alternate"/>
-    <id>https://dev.to/alifar/openai-rolls-out-gpt-6-sol-and-luna-for-chatgpt-work-codex-and-api-users-268g</id>
-    <updated>2026-09-29T20:15:30Z</updated>
-    <summary type="text">OpenAI began rolling out GPT-6 Sol and GPT-6 Luna on September 22, 2026, adding work-oriented models to ChatGPT Work, Codex and its API. The release gives paid ChatGPT customers access to the models in professional workflows and introduces a stated 50% price reduction for customers migrating from GPT-5.6 Sol and Luna. The official name is GPT-6 Sol, not GPT-6.1 Sol, and the announcement also cover</summary>
-    <author><name>Ali Farhat</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
