@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-10-03T17:06:24Z</updated>
+  <updated>2026-10-03T20:48:31Z</updated>
+  <entry>
+    <title>Apparently, OpenAI isn't trying to build &quot;magic intelligence in the sky&quot; anymore</title>
+    <link href="https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/" rel="alternate"/>
+    <id>https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/</id>
+    <updated>2026-10-03T18:56:30Z</updated>
+    <summary type="text">OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a &quot;real safety issue.&quot; His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building &quot;magic intelligence in the sky&quot; and feeling &quot;on the side of the angels&quot; working on AI. The article Apparently, OpenAI i</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project</title>
     <link href="https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/" rel="alternate"/>
@@ -24,6 +33,23 @@
     <author><name>Matthias Bastian</name></author>
     <category term="agents"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike</title>
+    <link href="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/" rel="alternate"/>
+    <id>https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/</id>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <summary type="text">The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.</summary>
+    <author><name>Ryan Whitwam, Ars Technica</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Bessent Says AI Industry Must Own Its Risks and Find Solutions</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-03/bessent-says-ai-industry-must-own-its-risks-and-find-solutions" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-03/bessent-says-ai-industry-must-own-its-risks-and-find-solutions</id>
+    <updated>2026-10-03T17:12:02Z</updated>
+    <summary type="text">US Treasury Secretary Scott Bessent criticized prominent artificial-intelligence figures’ warnings about existential risks posed by the technology as alarmist and unhelpful, calling on the industry to police itself and produce solutions.</summary>
+    <author><name>María Paula Mijares Torres</name></author>
   </entry>
   <entry>
     <title>Deepmind researchers propose &quot;Artificial Symbiotic Intelligence&quot; as an alternative to the singularity</title>
@@ -194,6 +220,66 @@
     <summary type="text">Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Hiding the table is not enough. Your LLM can still see the salary column.</title>
+    <link href="https://dev.to/ashish_sinha_5241c7673d93/hiding-the-table-is-not-enough-your-llm-can-still-see-the-salary-column-12ne" rel="alternate"/>
+    <id>https://dev.to/ashish_sinha_5241c7673d93/hiding-the-table-is-not-enough-your-llm-can-still-see-the-salary-column-12ne</id>
+    <updated>2026-10-03T20:36:51Z</updated>
+    <summary type="text">Most text-to-SQL setups protect data at the table level. The analyst cannot read hr_compensation, so that table never goes into the prompt. Good. But a lot of sensitive data does not live in its own table. It lives in one column of a table everyone uses. employees.salary. customers.national_id. patients.diagnosis. If the model sees the column name in the schema, it will happily write SELECT salary</summary>
+    <author><name>Ashish sinha</name></author>
+  </entry>
+  <entry>
+    <title>Nightly Pipeline Reconstruction — Serverless Polling Windows for Error Tracking API Timeouts</title>
+    <link href="https://dev.to/lunarbreeze4173085/nightly-pipeline-reconstruction-serverless-polling-windows-for-error-tracking-api-timeouts-2a1a" rel="alternate"/>
+    <id>https://dev.to/lunarbreeze4173085/nightly-pipeline-reconstruction-serverless-polling-windows-for-error-tracking-api-timeouts-2a1a</id>
+    <updated>2026-10-03T20:36:23Z</updated>
+    <summary type="text">TL;DR: Treat a serverless timeout while polling an error-tracking API as a query-planning failure, not as a reason to raise the function timeout. For a nightly education-data pipeline, persist a closed time range, traverse it with deterministic pagination, and split any range whose query budget is nearly exhausted. Alert from durable run state after collection finishes; do not infer pipeline healt</summary>
+    <author><name>LunarBreeze4173085</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>📺 What happens when you let autonomous AI agents run a 24/7 television network?</title>
+    <link href="https://dev.to/cholorine/what-happens-when-you-let-autonomous-ai-agents-run-a-247-television-network-36en" rel="alternate"/>
+    <id>https://dev.to/cholorine/what-happens-when-you-let-autonomous-ai-agents-run-a-247-television-network-36en</id>
+    <updated>2026-10-03T20:34:28Z</updated>
+    <summary type="text">Meet TECHNET : a fully autonomous, continuously broadcasting tech news station I just built. This isn't a personalized feed, a chatbot, or a static news dashboard. It’s a unified, live pixel-art TV channel. There is one network, one canonical broadcast clock, and every viewer watching sees the exact same broadcast at the exact same time. View Here</summary>
+    <author><name>Cholorine</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>I rejected a model that passed everyone else's benchmark</title>
+    <link href="https://dev.to/dawnofgenx/i-rejected-a-model-that-passed-everyone-elses-benchmark-33gm" rel="alternate"/>
+    <id>https://dev.to/dawnofgenx/i-rejected-a-model-that-passed-everyone-elses-benchmark-33gm</id>
+    <updated>2026-10-03T20:29:48Z</updated>
+    <summary type="text">I vendored an audio deepfake detector into my verification platform. It loaded cleanly, every integration check passed, and the forward pass looked healthy. Then I measured it on a held-out slice and got an AUC of 0.54 — barely above chance. The vendor reports 0.9967. This is the story of what happened in between, and why I decided not to ship it. The component that worked The model is Spectra-AAS</summary>
+    <author><name>Priyansh Kansara</name></author>
+  </entry>
+  <entry>
+    <title>Un backup sirve cuando puedes restaurarlo: laboratorio con SQLite y GitHub Actions</title>
+    <link href="https://dev.to/antonys3010/un-backup-sirve-cuando-puedes-restaurarlo-laboratorio-con-sqlite-y-github-actions-3i4p" rel="alternate"/>
+    <id>https://dev.to/antonys3010/un-backup-sirve-cuando-puedes-restaurarlo-laboratorio-con-sqlite-y-github-actions-3i4p</id>
+    <updated>2026-10-03T20:29:26Z</updated>
+    <summary type="text">Una carpeta llena de copias no demuestra que una aplicación pueda recuperarse. Para comprobarlo, necesitamos provocar una pérdida controlada, restaurar una copia y verificar que los datos recuperados sean los esperados. Este proyecto usa SQLite y un inventario ficticio. No utiliza Microsoft SQL Server. Incluye una aplicación que ejecuta SQLite en el navegador y un laboratorio de Python que prueba </summary>
+    <author><name>ANTONY PIERO SOLORZANO ZEGARRA</name></author>
+  </entry>
+  <entry>
+    <title>Building a Sub-Minute Cross-Platform Inventory Sync Engine with n8n, Shopify, WooCommerce &amp; Airtable</title>
+    <link href="https://dev.to/reigen/building-a-sub-minute-cross-platform-inventory-sync-engine-with-n8n-shopify-woocommerce-airtable-13jg" rel="alternate"/>
+    <id>https://dev.to/reigen/building-a-sub-minute-cross-platform-inventory-sync-engine-with-n8n-shopify-woocommerce-airtable-13jg</id>
+    <updated>2026-10-03T20:25:54Z</updated>
+    <summary type="text">Building a Sub-Minute Cross-Platform Inventory Sync Engine with n8n, Shopify, WooCommerce &amp; Airtable Dual-channel e-commerce sounds great on a slide deck until an order drops simultaneously on Shopify and WooCommerce for your last unit of inventory. Within 45 seconds, you've oversold, triggered a support ticket, and compromised a customer relationship. Most teams reach for commercial integration p</summary>
+    <author><name>Ruesch Manny</name></author>
+  </entry>
+  <entry>
+    <title>From Comics to Code: Building MyZubster One Piece of Evidence at a Time</title>
+    <link href="https://dev.to/n4k48/from-comics-to-code-building-myzubster-one-piece-of-evidence-at-a-time-489i" rel="alternate"/>
+    <id>https://dev.to/n4k48/from-comics-to-code-building-myzubster-one-piece-of-evidence-at-a-time-489i</id>
+    <updated>2026-10-03T20:25:32Z</updated>
+    <summary type="text">From Comics to Code: Building MyZubster One Piece of Evidence at a Time It started with a comic. N4K48 visually represented a journey: a software idea taking shape and imagining its path into the MyZubster metaverse. Those panels were not screenshots of a finished product. They were not proof of a fully decentralized platform. They were a representation of something we wanted to build. Then we sta</summary>
+    <author><name>Nicola Lorenzini</name></author>
+    <category term="rag"/>
   </entry>
   <entry>
     <title>AI music generator Suno can now create spoken audio with matching background music</title>
@@ -378,95 +464,5 @@
     <updated>2026-10-02T15:10:32Z</updated>
     <summary type="text">AI is doing more junior-level work, forcing organizations to rethink how employees gain the experience and judgment they need to move into senior roles.</summary>
     <author><name>Liz Hughes</name></author>
-  </entry>
-  <entry>
-    <title>Agentic DevSecFinOps : A Practical Guide to Safe Automation</title>
-    <link href="https://hackernoon.com/agentic-devsecfinops-a-practical-guide-to-safe-automation?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/agentic-devsecfinops-a-practical-guide-to-safe-automation?source=rss</id>
-    <updated>2026-10-03T15:00:49Z</updated>
-    <summary type="text">AI systems in software engineering have moved from being simple autocomplete tools to &quot;Agentic AI&quot; that can read environments, create plans, and modify infrastructure on their own, but this speed comes with risks of system failures and budget blowouts. To mitigate these risks, enterprises should set a safe speed limit for AI autonomy at Level 3 (Conditional Autonomy) and implement strict guardrail</summary>
-    <author><name>krishna dutt</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>The Next Great CMO Won't Manage People. They'll Manage Guardrails</title>
-    <link href="https://hackernoon.com/the-next-great-cmo-wont-manage-people-theyll-manage-guardrails?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/the-next-great-cmo-wont-manage-people-theyll-manage-guardrails?source=rss</id>
-    <updated>2026-10-03T14:54:12Z</updated>
-    <summary type="text">AI agents will take over most marketing execution, including campaign setup, creative testing, and budget allocation. The CMO's role shifts from managing people to managing the system. That means setting intent and guardrails, deciding what escalates to a human, and protecting the long-term brand. Autonomy is earned, not granted.Read All</summary>
-    <author><name>Lomit Patel</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Sean Parker is rebuilding Stability AI around music</title>
-    <link href="https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/</id>
-    <updated>2026-10-02T21:09:14Z</updated>
-    <summary type="text">Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.</summary>
-    <author><name>Connie Loizos</name></author>
-  </entry>
-  <entry>
-    <title>Meta open sources code to let you make Muse AI gadgets</title>
-    <link href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link" rel="alternate"/>
-    <id>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</id>
-    <updated>2026-10-02T21:08:37Z</updated>
-    <summary type="text">Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]</summary>
-    <author><name>Jay Peters</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Apple to Tighten Mac Data Controls in Guard Against AI Agents</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents</id>
-    <updated>2026-10-02T20:50:08Z</updated>
-    <summary type="text">Apple Inc. said it plans to introduce new privacy controls for Mac users, warning of the growing risks around granting broad data access to third-party software, including artificial intelligence agents.</summary>
-    <author><name>Natalie Lung</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Amazon’s $1B plan to combat data center backlash draws more backlash</title>
-    <link href="https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/" rel="alternate"/>
-    <id>https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/</id>
-    <updated>2026-10-02T20:30:27Z</updated>
-    <summary type="text">Amazon praised for ending NDAs but slammed for downplaying data center pollution.</summary>
-    <author><name>Ashley Belanger</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Why I Was Wrong About AI Companies Pumping the Brakes: It Wasn’t About Data</title>
-    <link href="https://hackernoon.com/why-i-was-wrong-about-ai-companies-pumping-the-brakes-it-wasnt-about-data?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/why-i-was-wrong-about-ai-companies-pumping-the-brakes-it-wasnt-about-data?source=rss</id>
-    <updated>2026-10-03T14:00:07Z</updated>
-    <summary type="text">Frontier AI companies are not slowing down due to safety concerns or data limitations, but rather to lock the door behind them and choke open-source AI to death by implementing regulatory measures that favor proprietary models. They aim to create an anti-competitive ecosystem that inflates costs for everyone else and maintains their market dominance.Read All</summary>
-    <author><name>GlobalHawk</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Measuring the Creativity Potential of LLM Agents</title>
-    <link href="https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/" rel="alternate"/>
-    <id>https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/</id>
-    <updated>2026-10-03T14:00:00Z</updated>
-    <summary type="text">Trying to answer the question of &quot;Can LLM agents discover?&quot; through the lens of creativity The post Measuring the Creativity Potential of LLM Agents appeared first on Towards Data Science.</summary>
-    <author><name>Shitanshu Bhushan</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>Apple will limit Mac disk access as AI agents ‘substantially’ increase risk</title>
-    <link href="https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents" rel="alternate"/>
-    <id>https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents</id>
-    <updated>2026-10-02T20:08:40Z</updated>
-    <summary type="text">Apple will add new limits for &quot;full disk access&quot; on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to &quot;ensure that users who genuinely wish to grant an app this extraordinary level of access can only do […]</summary>
-    <author><name>Emma Roth</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Nscale Hires Meta’s Justin Osofsky to Be COO Ahead of IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-02/nscale-hires-meta-s-justin-osofsky-to-be-coo-ahead-of-ipo" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-02/nscale-hires-meta-s-justin-osofsky-to-be-coo-ahead-of-ipo</id>
-    <updated>2026-10-02T19:20:42Z</updated>
-    <summary type="text">Nscale, the artificial intelligence infrastructure company, hired a long-time Meta Platforms Inc. executive to be its chief operating officer, to accelerate a rapid expansion connected to its upcoming initial public offering, according to a person familiar with the matter.</summary>
-    <author><name>Sarah Frier</name></author>
-    <category term="funding"/>
   </entry>
 </feed>
