@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-04T05:04:44Z</updated>
+  <updated>2026-10-04T12:01:37Z</updated>
+  <entry>
+    <title>Configuring PingFederate token exchange with Terraform, and testing it end to end</title>
+    <link href="https://dev.to/darkedges/configuring-pingfederate-token-exchange-with-terraform-and-testing-it-end-to-end-496g" rel="alternate"/>
+    <id>https://dev.to/darkedges/configuring-pingfederate-token-exchange-with-terraform-and-testing-it-end-to-end-496g</id>
+    <updated>2026-10-04T11:51:35Z</updated>
+    <summary type="text">Repo: darkedges/pf12.3-biscuit-datalog-tokens Part 2 built a token generator plugin. On its own it does nothing: PingFederate needs a login, an access token manager, a client, a processor policy, a generator instance, a generator group and a mapping between them before a single Biscuit comes out. This part configures all of that with Terraform, then runs the full flow in a browser: log in, exchang</summary>
+    <author><name>DarkEdges</name></author>
+  </entry>
   <entry>
     <title>Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside</title>
     <link href="https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/" rel="alternate"/>
@@ -185,24 +193,5 @@
     <author><name>Georgia Gkioxari</name></author>
     <category term="research"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>I open-sourced my Mac app for talking to coding agents. Here's how it works</title>
-    <link href="https://dev.to/maddy30445r/i-open-sourced-my-mac-app-for-talking-to-coding-agents-heres-how-it-works-4ded" rel="alternate"/>
-    <id>https://dev.to/maddy30445r/i-open-sourced-my-mac-app-for-talking-to-coding-agents-heres-how-it-works-4ded</id>
-    <updated>2026-09-30T18:44:56Z</updated>
-    <summary type="text">I've spent two months building Deiko, a Mac app for talking to coding agents, and today it's open source under MIT. Here's what it does and how the interesting parts work. The two problems Coding agents can't see what you're looking at. So you type a paragraph describing a screen they never saw, take a screenshot, attach it, then explain which part of it you meant. And they forget. Every new chat </summary>
-    <author><name>Madhur Mittal</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>ChatGPT now reaches 1.2 billion people every week, OpenAI says</title>
-    <link href="https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/" rel="alternate"/>
-    <id>https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/</id>
-    <updated>2026-09-29T18:10:34Z</updated>
-    <summary type="text">OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
