@@ -4,7 +4,25 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-05T15:42:20Z</updated>
+  <updated>2026-10-05T22:23:56Z</updated>
+  <entry>
+    <title>Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor</title>
+    <link href="https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/" rel="alternate"/>
+    <id>https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/</id>
+    <updated>2026-10-05T18:59:19Z</updated>
+    <summary type="text">Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. </summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model</title>
+    <link href="https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/" rel="alternate"/>
+    <id>https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/</id>
+    <updated>2026-10-05T18:26:05Z</updated>
+    <summary type="text">Reka AI's Rho-1 is a 19-billion-parameter omni-model that processes and generates text, images, video, and robot control actions in a single neural network. Trained on 320 H100 GPUs in about three months, it uses a fraction of the compute today's top models need. Instead of routing tasks to specialized systems, Rho-1 runs all modalities as tokens in one shared context window. The article Reka AI's</summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks</title>
     <link href="https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/" rel="alternate"/>
@@ -15,6 +33,14 @@
     <category term="open-source"/>
     <category term="hardware"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Postgres Let Two Rows Through a Unique Index: The glibc Collation Trap After an OS Upgrade</title>
+    <link href="https://dev.to/libme/postgres-let-two-rows-through-a-unique-index-the-glibc-collation-trap-after-an-os-upgrade-3ad6" rel="alternate"/>
+    <id>https://dev.to/libme/postgres-let-two-rows-through-a-unique-index-the-glibc-collation-trap-after-an-os-upgrade-3ad6</id>
+    <updated>2026-10-05T22:11:12Z</updated>
+    <summary type="text">If a unique index suddenly tolerates duplicates, or WHERE email = ... misses a row that a sequential scan finds, the index is sorted by collation rules that no longer match what your OS provides. That happens when the C library's sort order changes — most famously in glibc 2.28 — and it is not a Postgres bug, a replication bug, or a bad disk. The fix is to rebuild every index on a text column, the</summary>
+    <author><name>Libme</name></author>
   </entry>
   <entry>
     <title>Decisions You Can Check: What solvi 1.0 Is For, and What It Will Not Do for You</title>
@@ -88,6 +114,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>A chunking lib in Rust that is ~20x faster [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/</id>
+    <updated>2026-10-05T18:11:15Z</updated>
+    <summary type="text">Hey, I wanted a faster chunking library for my system without affecting the overall accuracy. Did not find many options. So I've build https://github.com/d1pankarmedhi/chunkr It has most of the chunking strategies like Character, Recursive, Markdown header, Late chunking, Hierarchical chunking, etc. It also supports native PDF loader, and other additional file types. Some stats (MBA M4 16GB): Test</summary>
+    <author><name>/u/Ok_Cartographer5609</name></author>
+    <category term="llm"/>
+    <category term="rag"/>
+  </entry>
+  <entry>
     <title>RAG vs Fine-Tuning: Which One Does Your Business Actually Need?</title>
     <link href="https://dev.to/ai_sensi/rag-vs-fine-tuning-which-one-does-your-business-actually-need-4kie" rel="alternate"/>
     <id>https://dev.to/ai_sensi/rag-vs-fine-tuning-which-one-does-your-business-actually-need-4kie</id>
@@ -128,6 +164,16 @@
     <updated>2026-10-03T12:12:59Z</updated>
     <summary type="text">First published in GetPack Magazine, sourced guides to use AI well as a student. A Claude Code plugin is a bundle you add to Claude Code with one command: skills, agents, hooks, MCP servers. Instead of copying ten files by hand, you install one plugin and get its updates. Here's the full path, checked against Anthropic's official documentation as of September 30, 2026. In short: a plugin is a fold</summary>
     <author><name>GetPack</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Qwen3.8 27B addition in words</title>
+    <link href="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/</id>
+    <updated>2026-10-04T23:34:00Z</updated>
+    <summary type="text">Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could &quot;compute the sum but return the answer in words&quot; across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="data"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -210,34 +256,5 @@
     <author><name>Michal Sutter</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning</title>
-    <link href="https://arxiv.org/abs/2610.02181v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.02181v1</id>
-    <updated>2026-10-01T17:58:16Z</updated>
-    <summary type="text">We present OmniSeek, an agentic framework that transforms an Omni Large Language Model (Omni-LLM) into an active, multi-turn reasoning agent with native tool use. Rather than passively processing an entire audio-visual sequence in a single forward pass, OmniSeek makes evidence acquisition part of the reasoning process: it dynamically decides whether to look or listen, and over which temporal windo</summary>
-    <author><name>Mingze Xu</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation</title>
-    <link href="https://arxiv.org/abs/2610.02153v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.02153v1</id>
-    <updated>2026-10-01T17:51:05Z</updated>
-    <summary type="text">Long-horizon autoregressive video generation is limited by a finite context window. When an object or scene falls out of context, its fine-grained visual details may be lost and difficult to recover upon reappearance. To retain access to such visual details, we introduce MosaiChunk, a spatio-temporal memory mechanism that composes a mosaic of selected historical key-value (KV) entries across space</summary>
-    <author><name>Haiwen Feng</name></author>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation</title>
-    <link href="https://arxiv.org/abs/2610.02123v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.02123v1</id>
-    <updated>2026-10-01T17:37:13Z</updated>
-    <summary type="text">Mixture-of-Experts (MoE) architectures scale model capacity through sparse computation, routing each token through only a small subset of experts. In this work, we explore whether this sparsity gives rise to emergent intrinsic organization in multimodal MoEs. We find that experts develop strong semantic specialization across modalities and domains despite not being explicitly trained for modularit</summary>
-    <author><name>Georgia Gkioxari</name></author>
-    <category term="research"/>
-    <category term="open-source"/>
   </entry>
 </feed>
