@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-06T16:35:39Z</updated>
+  <updated>2026-10-06T21:29:42Z</updated>
   <entry>
     <title>AICR v1.0: Open, stable, and verifiable GPU cluster configuration</title>
     <link href="https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/" rel="alternate"/>
@@ -12,6 +12,16 @@
     <updated>2026-10-06T16:13:47Z</updated>
     <summary type="text">GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...</summary>
     <author><name>Elizabeth Goodman</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model</title>
+    <link href="https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/</id>
+    <updated>2026-10-06T17:30:46Z</updated>
+    <summary type="text">Mistral AI has released Mistral Large 4, nicknamed Le Chonk, as a public preview. It is a 1.05 trillion parameter Mixture of Experts model with 49 billion active parameters, native image input, and a 1 million token context window, trained on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own European datacenters. The API is live now; open weights ship end of October 2026. The post Mistral AI Rele</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
     <category term="hardware"/>
   </entry>
   <entry>
@@ -129,6 +139,15 @@
     <updated>2026-10-05T05:57:47Z</updated>
     <summary type="text">solvi 1.0 is an open-source Python library for decisions you can check: fast solvers answer under a calibrated error promise, an LLM or a search takes the rest, a person decides what neither can, and every decision is hash-chained and replayable. It does not make a model smarter, and the article says where it lost.Read All</summary>
     <author><name>Maksim Kuznetsov</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Using Parseable with Datasette for OpenTelemetry traces</title>
+    <link href="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/</id>
+    <updated>2026-10-06T19:07:31Z</updated>
+    <summary type="text">TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an &quot;Enterprise&quot; version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure</summary>
+    <author><name>Simon Willison</name></author>
     <category term="open-source"/>
   </entry>
   <entry>
@@ -255,40 +274,5 @@
     <author><name>Simon Willison</name></author>
     <category term="data"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Chatham scales its capital markets expertise with OpenAI</title>
-    <link href="https://openai.com/index/chatham-financial" rel="alternate"/>
-    <id>https://openai.com/index/chatham-financial</id>
-    <updated>2026-10-02T00:00:00Z</updated>
-    <summary type="text">Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Code Review Paradox: Redefining Quality in the Era of AI Agents &amp; Hacktoberfest 2026</title>
-    <link href="https://dev.to/tamizuddin/the-code-review-paradox-redefining-quality-in-the-era-of-ai-agents-hacktoberfest-2026-28b9" rel="alternate"/>
-    <id>https://dev.to/tamizuddin/the-code-review-paradox-redefining-quality-in-the-era-of-ai-agents-hacktoberfest-2026-28b9</id>
-    <updated>2026-10-03T00:06:17Z</updated>
-    <summary type="text">Originally published on tamiz.pro. The End of the Coverage Illusion For the last two decades, the software engineering industry has been seduced by a single, easily quantifiable number: code coverage. We convinced ourselves that if 80% of our lines of code were executed during testing, our systems were robust. We built CI/CD pipelines that failed builds when coverage dipped below arbitrary thresho</summary>
-    <author><name>Tamiz Uddin</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Write Markdown Once, Publish It Everywhere: dev.to, Medium, AWS Builder Center and LinkedIn</title>
-    <link href="https://dev.to/aws-builders/write-markdown-once-publish-it-everywhere-devto-medium-aws-builder-center-and-linkedin-kbl" rel="alternate"/>
-    <id>https://dev.to/aws-builders/write-markdown-once-publish-it-everywhere-devto-medium-aws-builder-center-and-linkedin-kbl</id>
-    <updated>2026-10-02T20:21:17Z</updated>
-    <summary type="text">This article provides a step by step guide to publishing one markdown article to dev.to, Medium, AWS Builder Center and LinkedIn with publishing-kit, an agent skill for Claude Code, Codex and Antigravity. The article you are reading was published with it, and every command output below comes from that run. https://github.com/xbill9/publishing-kit One markdown file goes in. A dev.to draft, a Medium</summary>
-    <author><name>xbill</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes</title>
-    <link href="https://arxiv.org/abs/2610.03715v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.03715v1</id>
-    <updated>2026-10-02T17:58:49Z</updated>
-    <summary type="text">We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate t</summary>
-    <author><name>Jiajun Wu</name></author>
   </entry>
 </feed>
