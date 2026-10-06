@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-06T02:46:50Z</updated>
+  <updated>2026-10-06T09:54:47Z</updated>
   <entry>
     <title>Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode</title>
     <link href="https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/" rel="alternate"/>
@@ -33,6 +33,22 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>Cloud Native Software Distribution for Enterprise AI</title>
+    <link href="https://dev.to/cloudraft/cloud-native-software-distribution-for-enterprise-ai-21h7" rel="alternate"/>
+    <id>https://dev.to/cloudraft/cloud-native-software-distribution-for-enterprise-ai-21h7</id>
+    <updated>2026-10-06T09:38:34Z</updated>
+    <summary type="text">TL;DR Enterprise AI buyers often require software to run inside their own VPC, private cloud, or air-gapped Kubernetes cluster — Helm charts alone do not cover licensing, release channels, secure image delivery, preflight checks, or install visibility. CloudRaft evaluated Replicated (Kubernetes-specific, KOTS-based) and Distr, and chose Replicated because it kept the existing Helm workflow while a</summary>
+    <author><name>Harsh yadav</name></author>
+  </entry>
+  <entry>
+    <title>Reka's Rho-1: What Happens When One Model Replaces Your Multimodal Pipeline</title>
+    <link href="https://dev.to/m_t_ramkrushna/rekas-rho-1-what-happens-when-one-model-replaces-your-multimodal-pipeline-1ogi" rel="alternate"/>
+    <id>https://dev.to/m_t_ramkrushna/rekas-rho-1-what-happens-when-one-model-replaces-your-multimodal-pipeline-1ogi</id>
+    <updated>2026-10-06T09:38:27Z</updated>
+    <summary type="text">Most &quot;multimodal&quot; AI products today are really a relay team. One model plans, then hands the job to an image model, a video model, a detector, or a robot policy. Reka's new Rho-1 research preview asks a blunt question: what if there were no handoffs at all? What was announced (Oct 5, 2026) One 19B model, trained from scratch. Rho-1 understands and generates text, images, and video, reasons over th</summary>
+    <author><name>M.T.Ramkrushna</name></author>
+  </entry>
+  <entry>
     <title>Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks</title>
     <link href="https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/</id>
@@ -50,6 +66,15 @@
     <updated>2026-10-05T22:11:12Z</updated>
     <summary type="text">If a unique index suddenly tolerates duplicates, or WHERE email = ... misses a row that a sequential scan finds, the index is sorted by collation rules that no longer match what your OS provides. That happens when the C library's sort order changes — most famously in glibc 2.28 — and it is not a Postgres bug, a replication bug, or a bad disk. The fix is to rebuild every index on a text column, the</summary>
     <author><name>Libme</name></author>
+  </entry>
+  <entry>
+    <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</title>
+    <link href="https://arxiv.org/abs/2610.06672v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.06672v1</id>
+    <updated>2026-10-05T16:44:25Z</updated>
+    <summary type="text">Long-video understanding places substantial demands on memory, as answering questions often requires retrieving information distributed across extended temporal spans. Existing approaches broadly follow two paradigms: query-driven exploration, which is sensitive to localization errors, and query-independent memory construction, which may omit question-specific details. We introduce VideoTapestry, </summary>
+    <author><name>Houqiang Li</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training</title>
@@ -237,23 +262,5 @@
     <summary type="text">In April I wrote about a system I built on Claude Code that takes an epic to PR-ready code across 80+ microservices. If you read that post, I sounded like someone who had finished something. I hadn't. This is the follow-up I didn't plan to write. It covers what went wrong, what I got wrong, and how a tool I built for myself ended up being used by the whole tech team, every new joiner, and people w</summary>
     <author><name>akash singh</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Inside Microsoft’s big Copilot rethink</title>
-    <link href="https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad" rel="alternate"/>
-    <id>https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad</id>
-    <updated>2026-10-01T16:00:00Z</updated>
-    <summary type="text">Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft really cares about, pitching its latest rethink of the AI assistant as the &quot;OS for work.&quot; Microsoft is […]</summary>
-    <author><name>Tom Warren</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>监管加速落地，AI Agent「合规红利」窗口正在关闭——一份审计链路的工程观察</title>
-    <link href="https://dev.to/maref/jian-guan-jia-su-luo-di-ai-agenthe-gui-hong-li-chuang-kou-zheng-zai-guan-bi-fen-shen-ji-lian-lu-de-gong-cheng-guan-cha-38f3" rel="alternate"/>
-    <id>https://dev.to/maref/jian-guan-jia-su-luo-di-ai-agenthe-gui-hong-li-chuang-kou-zheng-zai-guan-bi-fen-shen-ji-lian-lu-de-gong-cheng-guan-cha-38f3</id>
-    <updated>2026-10-02T08:06:43Z</updated>
-    <summary type="text">过去一年，每一次 Agent 系统上线前的合规审计，都要比上一次多花两周准备。不是流程变慢，而是监管表格在变厚，审计要交叉验证的数据点在变多。 1. 现象层：制度供给的「超常提速」 几个关键时间节点值得重看： 2021 年 12 月：国家互联网信息办公室、工业和信息化部、公安部、国家市场监督管理总局联合公布《互联网信息服务算法推荐管理规定》，自 2022 年 3 月 1 日起施行。算法推荐第一次被拉进备案与可解释的框架。 2022 年 11 月：《互联网信息服务深度合成管理规定》公布，自 2023 年 1 月 10 日起施行。深度合成内容标识义务成为硬性要求。 2023 年 7 月 10 日：国家网信办等七部门联合公布《生成式人工智能服务管理暂行办法》，自 2023 年 8 月 15 日起施行。这是全球首部针对生成式 AI 的中央级专门监管文件，首次在制度层面确立了大模型服务上线前的安全评</summary>
-    <author><name>Open Human</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
