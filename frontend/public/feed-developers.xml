@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-07T16:12:09Z</updated>
+  <updated>2026-10-07T21:49:50Z</updated>
+  <entry>
+    <title>Microsoft is giving Copilot more control over Windows and your files</title>
+    <link href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" rel="alternate"/>
+    <id>https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence</id>
+    <updated>2026-10-07T18:01:20Z</updated>
+    <summary type="text">At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling &quot;Hybrid Intelligence,&quot; where apps and tools rely on a mix of […]</summary>
+    <author><name>Jay Peters</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day</title>
     <link href="https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/" rel="alternate"/>
@@ -23,6 +32,24 @@
     <author><name>Richard MacManus</name></author>
   </entry>
   <entry>
+    <title>The 20 most popular MCP servers, scanned: what's actually in their tool descriptions</title>
+    <link href="https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj" rel="alternate"/>
+    <id>https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj</id>
+    <updated>2026-10-07T21:45:44Z</updated>
+    <summary type="text">Pennyforge · dated evidence report, 2026-10-07 · follow-up to our dated MCP security timeline The Model Context Protocol has been around since November 2024, and it moved fast: the official TypeScript/Python SDK alone pulled 242 million npm downloads last month (npm registry, checked 2026-10-07), and GitHub now lists 33,674 repositories tagged mcp-server. In May 2026 the U.S. NSA published &quot;Model </summary>
+    <author><name>Pennyforge</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AlphaCode: The Free MIT AI Coding Agent Built in Rust</title>
+    <link href="https://dev.to/unfiltered_anshul/alphacode-the-free-mit-ai-coding-agent-built-in-rust-21po" rel="alternate"/>
+    <id>https://dev.to/unfiltered_anshul/alphacode-the-free-mit-ai-coding-agent-built-in-rust-21po</id>
+    <updated>2026-10-07T21:45:25Z</updated>
+    <summary type="text">What Is AlphaCode AlphaCode is a free MIT AI coding agent built in Rust. It launched in 2026 and has been quietly gaining traction among developers who want a terminal-based AI coder that works with Claude, GPT, Gemini, and DeepSeek models. The pitch is simple: one CLI, any model, zero markup. You bring your own keys, pick the model, and AlphaCode routes the request. No silent model switching. No </summary>
+    <author><name>Anshul Rajpal</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>AICR v1.0: Open, stable, and verifiable GPU cluster configuration</title>
     <link href="https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/</id>
@@ -30,6 +57,15 @@
     <summary type="text">GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...</summary>
     <author><name>Elizabeth Goodman</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Node.js Evidence Lifecycles: 5 RAG Hallucination Fixes When Docs Chatbot Answers Go Wrong</title>
+    <link href="https://dev.to/peterparker8991/nodejs-evidence-lifecycles-5-rag-hallucination-fixes-when-docs-chatbot-answers-go-wrong-4nkf" rel="alternate"/>
+    <id>https://dev.to/peterparker8991/nodejs-evidence-lifecycles-5-rag-hallucination-fixes-when-docs-chatbot-answers-go-wrong-4nkf</id>
+    <updated>2026-10-07T21:34:14Z</updated>
+    <summary type="text">Short answer: RAG hallucination persists when an ask-your-docs chatbot receives stale, incomplete, or conflicting evidence, so good embeddings and a larger context window still produce wrong answers. For an edtech assistant that reviews code changes, the practical fix is a versioned evidence pipeline: pin the course and repository revision, retrieve requirements and changed code separately, reject</summary>
+    <author><name>PeterParker8991</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model</title>
@@ -264,23 +300,5 @@
     <summary type="text">TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an &quot;Enterprise&quot; version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure</summary>
     <author><name>Simon Willison</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>We shipped Spare for Mac: describe a plugin in one sentence and it gets built and installed</title>
-    <link href="https://dev.to/spareteam/we-shipped-spare-for-mac-describe-a-plugin-in-one-sentence-and-it-gets-built-and-installed-2p7n" rel="alternate"/>
-    <id>https://dev.to/spareteam/we-shipped-spare-for-mac-describe-a-plugin-in-one-sentence-and-it-gets-built-and-installed-2p7n</id>
-    <updated>2026-10-05T00:16:04Z</updated>
-    <summary type="text">Hi DEV, we're a small team in Montreal, and we just shipped Spare for Mac: a desktop app where you describe a little tool or toy in one sentence, and Spare builds it and installs it as a plugin on your Mac. Why we built it Codex and Claude Code can already write a menu-bar timer or a clipboard finder for you. But you still have to build it, package it, figure out where it lives and how to run it, </summary>
-    <author><name>Spare Team</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Model Selection Technique for Causal Inference</title>
-    <link href="https://www.reddit.com/r/datascience/comments/1wz1gir/model_selection_technique_for_causal_inference/" rel="alternate"/>
-    <id>https://www.reddit.com/r/datascience/comments/1wz1gir/model_selection_technique_for_causal_inference/</id>
-    <updated>2026-10-06T12:36:00Z</updated>
-    <summary type="text">How do you choose between causal inference models when you can never see the true effect? Model selection is well documented in machine learning, but it often gets skipped in causal inference work. Doing it well is one of the things that separates senior and staff-level data scientists from more junior ones. I simulated two years of weekly bookings for 40 regions, five of which received a treatmen</summary>
-    <author><name>/u/WhatsTheImpactdotcom</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
