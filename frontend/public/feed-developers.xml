@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-07T08:20:31Z</updated>
+  <updated>2026-10-07T16:12:09Z</updated>
   <entry>
     <title>Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day</title>
     <link href="https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/" rel="alternate"/>
@@ -13,6 +13,14 @@
     <summary type="text">Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Prob</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?</title>
+    <link href="https://www.latent.space/p/stacklok" rel="alternate"/>
+    <id>https://www.latent.space/p/stacklok</id>
+    <updated>2026-10-07T14:10:45Z</updated>
+    <summary type="text">Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.</summary>
+    <author><name>Richard MacManus</name></author>
   </entry>
   <entry>
     <title>AICR v1.0: Open, stable, and verifiable GPU cluster configuration</title>
@@ -32,6 +40,27 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>DeepSeek vs ChatGPT in 2026: Which AI Chatbot Wins for Real Work?</title>
+    <link href="https://dev.to/stimlau/deepseek-vs-chatgpt-in-2026-which-ai-chatbot-wins-for-real-work-47ed" rel="alternate"/>
+    <id>https://dev.to/stimlau/deepseek-vs-chatgpt-in-2026-which-ai-chatbot-wins-for-real-work-47ed</id>
+    <updated>2026-10-07T16:05:12Z</updated>
+    <summary type="text">TL;DR ChatGPT Plus remains the best all-around AI chatbot in October 2026 for most users: its GPT-4o model handles complex reasoning, coding, and creative tasks with a polished interface, plugin ecosystem, and mobile app. DeepSeek v3 is the best value at $0.50 per million input tokens (roughly 100x cheaper than GPT-4o), matches GPT-4o on coding and math benchmarks, and runs efficiently on consumer</summary>
+    <author><name>stimlau</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>LoGRA: How Low-Rank Gradient Sketches Make LLM Reinforcement Learning Fit on Real Hardware</title>
+    <link href="https://dev.to/prabhakar_chaudhary_7afe4/logra-how-low-rank-gradient-sketches-make-llm-reinforcement-learning-fit-on-real-hardware-48e9" rel="alternate"/>
+    <id>https://dev.to/prabhakar_chaudhary_7afe4/logra-how-low-rank-gradient-sketches-make-llm-reinforcement-learning-fit-on-real-hardware-48e9</id>
+    <updated>2026-10-07T16:05:10Z</updated>
+    <summary type="text">LoGRA: How Low-Rank Gradient Sketches Make LLM Reinforcement Learning Fit on Real Hardware Reinforcement learning post-training has become one of the most effective ways to improve large language model reasoning. Models like DeepSeek-R1 demonstrated that RL-based fine-tuning can unlock capabilities that supervised learning alone cannot reach. The catch: RL post-training is extraordinarily memory-h</summary>
+    <author><name>Prabhakar Chaudhary</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>I Tested OpenAI's New Codex Desktop App. The UI Is the Real Product</title>
@@ -246,74 +275,12 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Let Claude Code read your .env, but not your API keys</title>
-    <link href="https://dev.to/avazbek22/let-claude-code-read-your-env-but-not-your-api-keys-4eb2" rel="alternate"/>
-    <id>https://dev.to/avazbek22/let-claude-code-read-your-env-but-not-your-api-keys-4eb2</id>
-    <updated>2026-10-04T17:16:35Z</updated>
-    <summary type="text">Claude Code is great at exploring a project. It opens files, follows imports and reads configuration to understand how everything fits together. The problem: one of those files is often .env, and once a secret is in the conversation, it has left your machine. This is not a theoretical risk. In January 2026, The Register showed Claude Code reading a .env file even though the file was listed in .cla</summary>
-    <author><name>Avazbek Olimov</name></author>
+    <title>Model Selection Technique for Causal Inference</title>
+    <link href="https://www.reddit.com/r/datascience/comments/1wz1gir/model_selection_technique_for_causal_inference/" rel="alternate"/>
+    <id>https://www.reddit.com/r/datascience/comments/1wz1gir/model_selection_technique_for_causal_inference/</id>
+    <updated>2026-10-06T12:36:00Z</updated>
+    <summary type="text">How do you choose between causal inference models when you can never see the true effect? Model selection is well documented in machine learning, but it often gets skipped in causal inference work. Doing it well is one of the things that separates senior and staff-level data scientists from more junior ones. I simulated two years of weekly bookings for 40 regions, five of which received a treatmen</summary>
+    <author><name>/u/WhatsTheImpactdotcom</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Configuring PingFederate token exchange with Terraform, and testing it end to end</title>
-    <link href="https://dev.to/darkedges/configuring-pingfederate-token-exchange-with-terraform-and-testing-it-end-to-end-496g" rel="alternate"/>
-    <id>https://dev.to/darkedges/configuring-pingfederate-token-exchange-with-terraform-and-testing-it-end-to-end-496g</id>
-    <updated>2026-10-04T11:51:35Z</updated>
-    <summary type="text">Repo: darkedges/pf12.3-biscuit-datalog-tokens Part 2 built a token generator plugin. On its own it does nothing: PingFederate needs a login, an access token manager, a client, a processor policy, a generator instance, a generator group and a mapping between them before a single Biscuit comes out. This part configures all of that with Terraform, then runs the full flow in a browser: log in, exchang</summary>
-    <author><name>DarkEdges</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside</title>
-    <link href="https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/" rel="alternate"/>
-    <id>https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/</id>
-    <updated>2026-10-03T07:12:09Z</updated>
-    <summary type="text">Anthropic is adding a &quot;Mods&quot; system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Best Notion AI Alternatives in 2026</title>
-    <link href="https://dev.to/stimlau/best-notion-ai-alternatives-in-2026-n6j" rel="alternate"/>
-    <id>https://dev.to/stimlau/best-notion-ai-alternatives-in-2026-n6j</id>
-    <updated>2026-10-04T04:56:16Z</updated>
-    <summary type="text">TL;DR The best Notion AI alternative for individuals is Obsidian + AI plugins — free app, bring-your-own-key AI, and your notes stay as local Markdown ($0, or $6.25/mo for hosted model access). Gemini for Workspace wins for teams already on Google Docs and Gmail (bundled from $7/user/mo). Coda AI for docs that behave like apps. Notion retired the standalone AI add-on in 2025 — full AI now costs a </summary>
-    <author><name>stimlau</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>ChatGPT vs Claude for Coding in 2026: Which AI Actually Ships Better Code?</title>
-    <link href="https://dev.to/stimlau/chatgpt-vs-claude-for-coding-in-2026-which-ai-actually-ships-better-code-5cjn" rel="alternate"/>
-    <id>https://dev.to/stimlau/chatgpt-vs-claude-for-coding-in-2026-which-ai-actually-ships-better-code-5cjn</id>
-    <updated>2026-10-04T04:49:59Z</updated>
-    <summary type="text">TL;DR The ChatGPT vs Claude for coding question splits on workflow, not raw model smarts. Claude Code (Claude Pro, $20/mo or $17/mo annual) is the stronger repo-native agent: it finished all five of our tasks unattended, caught more seeded bugs, and invented almost nothing. Codex in ChatGPT Plus ($20/mo, monthly-only) is the better-value surface — the same sticker price also buys chat, images, and</summary>
-    <author><name>stimlau</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Best AI Note Taking App in 2026 (Tested: Notion, Obsidian, Mem…)</title>
-    <link href="https://dev.to/stimlau/best-ai-note-taking-app-in-2026-tested-notion-obsidian-mem-1g03" rel="alternate"/>
-    <id>https://dev.to/stimlau/best-ai-note-taking-app-in-2026-tested-notion-obsidian-mem-1g03</id>
-    <updated>2026-10-04T04:48:53Z</updated>
-    <summary type="text">TL;DR Notion AI is the best AI note taking app for most people in 2026: one workspace where the assistant, meeting notes and enterprise search live next to your docs — but full AI now requires the Business plan at $20/member/mo. Obsidian + AI plugins wins on ownership and cost (app free, bring your own model key). Mem is the best pure &quot;AI remembers for you&quot; app. ClickUp Brain if notes really mean </summary>
-    <author><name>stimlau</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A chunking lib in Rust that is ~20x faster [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/</id>
-    <updated>2026-10-05T18:11:15Z</updated>
-    <summary type="text">Hey, I wanted a faster chunking library for my system without affecting the overall accuracy. Did not find many options. So I've build https://github.com/d1pankarmedhi/chunkr It has most of the chunking strategies like Character, Recursive, Markdown header, Late chunking, Hierarchical chunking, etc. It also supports native PDF loader, and other additional file types. Some stats (MBA M4 16GB): Test</summary>
-    <author><name>/u/Ok_Cartographer5609</name></author>
-    <category term="llm"/>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>RAG vs Fine-Tuning: Which One Does Your Business Actually Need?</title>
-    <link href="https://dev.to/ai_sensi/rag-vs-fine-tuning-which-one-does-your-business-actually-need-4kie" rel="alternate"/>
-    <id>https://dev.to/ai_sensi/rag-vs-fine-tuning-which-one-does-your-business-actually-need-4kie</id>
-    <updated>2026-10-03T23:29:35Z</updated>
-    <summary type="text">&quot;Should we fine-tune a model on our documents?&quot; It's one of the most common questions I hear from teams starting with AI, and the answer is usually no. The short answer Use RAG (retrieval-augmented generation) when your AI needs to answer from your own, changing information: documents, policies, product data. Use fine-tuning when you need the model to behave differently: follow a strict format, to</summary>
-    <author><name>ITACC</name></author>
   </entry>
 </feed>
