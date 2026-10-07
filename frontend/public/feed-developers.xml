@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-07T01:17:15Z</updated>
+  <updated>2026-10-07T08:20:31Z</updated>
+  <entry>
+    <title>Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day</title>
+    <link href="https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/</id>
+    <updated>2026-10-07T06:29:14Z</updated>
+    <summary type="text">Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Prob</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>AICR v1.0: Open, stable, and verifiable GPU cluster configuration</title>
     <link href="https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/" rel="alternate"/>
@@ -23,6 +32,25 @@
     <author><name>Asif Razzaq</name></author>
     <category term="llm"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>I Tested OpenAI's New Codex Desktop App. The UI Is the Real Product</title>
+    <link href="https://dev.to/ariaxhan/i-tested-openais-new-codex-desktop-app-the-ui-is-the-real-product-1jf1" rel="alternate"/>
+    <id>https://dev.to/ariaxhan/i-tested-openais-new-codex-desktop-app-the-ui-is-the-real-product-1jf1</id>
+    <updated>2026-10-07T08:14:18Z</updated>
+    <summary type="text">I Tested OpenAI's New Codex Desktop App. The UI Is the Real Product I started the way I always start: by having the tool design its own configuration. If you're going to evaluate an AI coding agent, make it work on itself first. Codex passed. It pulled its full range of agentic functionalities and generated the memo I asked for. Then it gave me something I've been waiting for: a direct link to ope</summary>
+    <author><name>Aria</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I Put ChatGPT in Charge of Claude Code</title>
+    <link href="https://dev.to/ariaxhan/i-put-chatgpt-in-charge-of-claude-code-3lpm" rel="alternate"/>
+    <id>https://dev.to/ariaxhan/i-put-chatgpt-in-charge-of-claude-code-3lpm</id>
+    <updated>2026-10-07T08:13:38Z</updated>
+    <summary type="text">I Put ChatGPT in Charge of Claude Code I love Claude Code. I have spent an unreasonable number of hours in that terminal. But even I'm getting tired of staring at it, watching it confidently over-engineer a three-file feature into a twelve-module architecture while I whisper &quot;please don't&quot; at my screen. Despite all my guardrails, Claude Code is still spectacular at going rogue. So I gave it a baby</summary>
+    <author><name>Aria</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Getting Started with Seedance MCP in Cursor</title>
@@ -100,6 +128,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion</title>
+    <link href="https://arxiv.org/abs/2610.08620v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.08620v1</id>
+    <updated>2026-10-06T16:20:20Z</updated>
+    <summary type="text">High-beam-count LiDAR sensors are costly, yet many perception pipelines require dense angular sampling. Using a pretrained Stable Diffusion model as the backbone, we fine-tune a LiDAR-conditioned depth model with pseudo-depth targets from a 2D foundation model. During training, the LiDAR conditioning is randomly decimated at different beam budgets. We then investigate how much of a LiDAR scan can </summary>
+    <author><name>Alfred Schöttl</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Human-in-the-Loop AI Drafts in ASP.NET Core: Approval Queues, Audit Trails, and Safe Sending</title>
     <link href="https://dev.to/rahmatafridi/human-in-the-loop-ai-drafts-in-aspnet-core-approval-queues-audit-trails-and-safe-sending-16n6" rel="alternate"/>
     <id>https://dev.to/rahmatafridi/human-in-the-loop-ai-drafts-in-aspnet-core-approval-queues-audit-trails-and-safe-sending-16n6</id>
@@ -151,6 +189,16 @@
     <updated>2026-10-05T22:11:12Z</updated>
     <summary type="text">If a unique index suddenly tolerates duplicates, or WHERE email = ... misses a row that a sequential scan finds, the index is sorted by collation rules that no longer match what your OS provides. That happens when the C library's sort order changes — most famously in glibc 2.28 — and it is not a Postgres bug, a replication bug, or a bad disk. The fix is to rebuild every index on a text column, the</summary>
     <author><name>Libme</name></author>
+  </entry>
+  <entry>
+    <title>Looking for developer-friendly inference providers who give you enough API credits to experiment [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/</id>
+    <updated>2026-10-07T07:51:07Z</updated>
+    <summary type="text">I’m hitting rate limits on Together AI. For context, I’ve been working on an agentic repository indexing and benchmark generation tool, and I’m running multiple agents in parallel across models like Llama 3.3 70B and Qwen 2.5. When I first started working on this, Together AI was great. But once I graduated from toy scripts to running multiple agents, I started running into RPM/TPM limits pretty q</summary>
+    <author><name>/u/Correct_Positive_108</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</title>
@@ -267,50 +315,5 @@
     <updated>2026-10-03T23:29:35Z</updated>
     <summary type="text">&quot;Should we fine-tune a model on our documents?&quot; It's one of the most common questions I hear from teams starting with AI, and the answer is usually no. The short answer Use RAG (retrieval-augmented generation) when your AI needs to answer from your own, changing information: documents, policies, product data. Use fine-tuning when you need the model to behave differently: follow a strict format, to</summary>
     <author><name>ITACC</name></author>
-  </entry>
-  <entry>
-    <title>Nightly Pipeline Reconstruction — Serverless Polling Windows for Error Tracking API Timeouts</title>
-    <link href="https://dev.to/lunarbreeze4173085/nightly-pipeline-reconstruction-serverless-polling-windows-for-error-tracking-api-timeouts-2a1a" rel="alternate"/>
-    <id>https://dev.to/lunarbreeze4173085/nightly-pipeline-reconstruction-serverless-polling-windows-for-error-tracking-api-timeouts-2a1a</id>
-    <updated>2026-10-03T20:36:23Z</updated>
-    <summary type="text">TL;DR: Treat a serverless timeout while polling an error-tracking API as a query-planning failure, not as a reason to raise the function timeout. For a nightly education-data pipeline, persist a closed time range, traverse it with deterministic pagination, and split any range whose query budget is nearly exhausted. Alert from durable run state after collection finishes; do not infer pipeline healt</summary>
-    <author><name>LunarBreeze4173085</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>CLAUDE.md: what it is, what to put in it, and examples</title>
-    <link href="https://dev.to/forrestzhang/claudemd-what-it-is-what-to-put-in-it-and-examples-3ng6" rel="alternate"/>
-    <id>https://dev.to/forrestzhang/claudemd-what-it-is-what-to-put-in-it-and-examples-3ng6</id>
-    <updated>2026-10-03T17:00:35Z</updated>
-    <summary type="text">CLAUDE.md is a markdown file of instructions that Claude Code reads at the start of every session. You write it, and Claude treats it as context for the project: build commands, conventions and rules it cannot work out from the code. Keep it short, specific and checked into git. What is a CLAUDE.md file? Each Claude Code session starts with a fresh context window. Two things carry knowledge from o</summary>
-    <author><name>Forrest Zhang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Scenario testing for REST APIs: writing user-journey tests from OpenAPI</title>
-    <link href="https://dev.to/jeff_pdc/scenario-testing-for-rest-apis-writing-user-journey-tests-from-openapi-f2l" rel="alternate"/>
-    <id>https://dev.to/jeff_pdc/scenario-testing-for-rest-apis-writing-user-journey-tests-from-openapi-f2l</id>
-    <updated>2026-10-03T17:00:08Z</updated>
-    <summary type="text">Single-request testing answers a narrow question: does this endpoint, given these inputs, return this status right now? It cannot answer the question that actually breaks releases: can a user complete the job? A user never calls one endpoint. They create a resource, wait for it to become ready, attach something to it, act on it, and verify the result. Each request depends on the previous one's res</summary>
-    <author><name>Jeff</name></author>
-  </entry>
-  <entry>
-    <title>Claude Code plugins: install, manage and build your own</title>
-    <link href="https://dev.to/getpack/claude-code-plugins-install-manage-and-build-your-own-1om1" rel="alternate"/>
-    <id>https://dev.to/getpack/claude-code-plugins-install-manage-and-build-your-own-1om1</id>
-    <updated>2026-10-03T12:12:59Z</updated>
-    <summary type="text">First published in GetPack Magazine, sourced guides to use AI well as a student. A Claude Code plugin is a bundle you add to Claude Code with one command: skills, agents, hooks, MCP servers. Instead of copying ten files by hand, you install one plugin and get its updates. Here's the full path, checked against Anthropic's official documentation as of September 30, 2026. In short: a plugin is a fold</summary>
-    <author><name>GetPack</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Qwen3.8 27B addition in words</title>
-    <link href="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/</id>
-    <updated>2026-10-04T23:34:00Z</updated>
-    <summary type="text">Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could &quot;compute the sum but return the answer in words&quot; across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="data"/>
-    <category term="llm"/>
   </entry>
 </feed>
