@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-08T01:38:16Z</updated>
+  <updated>2026-10-08T08:36:29Z</updated>
   <entry>
     <title>Microsoft is giving Copilot more control over Windows and your files</title>
     <link href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" rel="alternate"/>
@@ -15,6 +15,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Construyendo el Sistema Nervioso de la IA: Node.js, Inversión de Control y el verdadero reto de los Agentes Autónomos</title>
+    <link href="https://dev.to/davidsnm/construyendo-el-sistema-nervioso-de-la-ia-nodejs-inversion-de-control-y-el-verdadero-reto-de-los-4p75" rel="alternate"/>
+    <id>https://dev.to/davidsnm/construyendo-el-sistema-nervioso-de-la-ia-nodejs-inversion-de-control-y-el-verdadero-reto-de-los-4p75</id>
+    <updated>2026-10-08T08:33:50Z</updated>
+    <summary type="text">Hoy en día todo el mundo afirma estar construyendo &quot;Agentes de IA&quot;. Desde una perspectiva de ingeniería, ¿dónde está la frontera real entre un chatbot avanzado y un agente autónomo? La frontera anatómica exacta es el Function Calling orquestado mediante Inversión de Control. Un chatbot, por muy avanzado que sea, es solo un generador estático de texto; te da las instrucciones para que tú hagas el t</summary>
+    <author><name>David San Nicolás Montero</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day</title>
     <link href="https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/</id>
@@ -22,6 +32,16 @@
     <summary type="text">Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Prob</summary>
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>The Joining Tax: A Year of Governing Claude Code</title>
+    <link href="https://hackernoon.com/the-joining-tax-a-year-of-governing-claude-code?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/the-joining-tax-a-year-of-governing-claude-code?source=rss</id>
+    <updated>2026-10-08T05:57:59Z</updated>
+    <summary type="text">Multi-agent coding setups lose context at every handoff not because the design is broken, but because the boundary is the whole reason those roles exist and the handoff is its price. To make the seam cheap, you need capped review rounds, a priority order per role, structured handoffs, one owner for the issue list, and a doc-updater that closes the loop.Read All</summary>
+    <author><name>Dmitriy Fedoryshchev</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Feature Flag Pricing for Small SaaS: Self-Hosted vs Managed Rollbacks</title>
@@ -272,24 +292,5 @@
     <updated>2026-10-05T22:11:12Z</updated>
     <summary type="text">If a unique index suddenly tolerates duplicates, or WHERE email = ... misses a row that a sequential scan finds, the index is sorted by collation rules that no longer match what your OS provides. That happens when the C library's sort order changes — most famously in glibc 2.28 — and it is not a Postgres bug, a replication bug, or a bad disk. The fix is to rebuild every index on a text column, the</summary>
     <author><name>Libme</name></author>
-  </entry>
-  <entry>
-    <title>Looking for developer-friendly inference providers who give you enough API credits to experiment [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/</id>
-    <updated>2026-10-07T07:51:07Z</updated>
-    <summary type="text">I’m hitting rate limits on Together AI. For context, I’ve been working on an agentic repository indexing and benchmark generation tool, and I’m running multiple agents in parallel across models like Llama 3.3 70B and Qwen 2.5. When I first started working on this, Together AI was great. But once I graduated from toy scripts to running multiple agents, I started running into RPM/TPM limits pretty q</summary>
-    <author><name>/u/Correct_Positive_108</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</title>
-    <link href="https://arxiv.org/abs/2610.06672v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.06672v1</id>
-    <updated>2026-10-05T16:44:25Z</updated>
-    <summary type="text">Long-video understanding places substantial demands on memory, as answering questions often requires retrieving information distributed across extended temporal spans. Existing approaches broadly follow two paradigms: query-driven exploration, which is sensitive to localization errors, and query-independent memory construction, which may omit question-specific details. We introduce VideoTapestry, </summary>
-    <author><name>Houqiang Li</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
