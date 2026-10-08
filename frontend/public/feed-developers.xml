@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-08T08:36:29Z</updated>
+  <updated>2026-10-08T16:13:49Z</updated>
+  <entry>
+    <title>How Not To Rank a Hackathon</title>
+    <link href="https://dev.to/mihir-rabari/how-not-to-rank-a-hackathon-4p30" rel="alternate"/>
+    <id>https://dev.to/mihir-rabari/how-not-to-rank-a-hackathon-4p30</id>
+    <updated>2026-10-08T16:11:06Z</updated>
+    <summary type="text">Every hackathon I've entered, somebody else decided my fate. This one made me build the judge first. DogFood Hackatho, run by Hackathon Raptors, gives every team the same 72-hour job: build a submission-and-judging platform against one published spec, one anonymized dataset, and one acceptance suite. Then the twist, straight from their brief: &quot;the winning project is the one we run.&quot; Your code acce</summary>
+    <author><name>Mihir Rabari</name></author>
+  </entry>
+  <entry>
+    <title>Eight cursor effects you can try first, and a pony for every Terminal</title>
+    <link href="https://dev.to/heylittlepan/eight-cursor-effects-you-can-try-first-and-a-pony-for-every-terminal-25f0" rel="alternate"/>
+    <id>https://dev.to/heylittlepan/eight-cursor-effects-you-can-try-first-and-a-pony-for-every-terminal-25f0</id>
+    <updated>2026-10-08T16:09:16Z</updated>
+    <summary type="text">Most of a day at the terminal is the same keys again and again: j, k, w, $, G. The work matters. The keystrokes don't feel like much. I wanted them to feel a little like casting a spell, where every jump leaves a spark behind. PonyMux 0.12 adds four new cursor effects, eight in all, and Settings now plays the one you select in a live terminal before you pick it. Six ponies also ship with the app n</summary>
+    <author><name>Little Pan</name></author>
+    <category term="llm"/>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>Building AI Agents with Docker Agent</title>
+    <link href="https://www.kdnuggets.com/building-ai-agents-with-docker-agent" rel="alternate"/>
+    <id>https://www.kdnuggets.com/building-ai-agents-with-docker-agent</id>
+    <updated>2026-10-08T14:00:00Z</updated>
+    <summary type="text">Docker Agent is an open-source, Apache 2.0-licensed CLI plugin built by Docker Engineering, installed and run as docker agent. Its own tagline states the goal plainly: run AI agents like containers.</summary>
+    <author><name>Shittu Olumide</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Microsoft is giving Copilot more control over Windows and your files</title>
     <link href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" rel="alternate"/>
@@ -273,24 +301,5 @@
     <updated>2026-10-06T09:38:27Z</updated>
     <summary type="text">Most &quot;multimodal&quot; AI products today are really a relay team. One model plans, then hands the job to an image model, a video model, a detector, or a robot policy. Reka's new Rho-1 research preview asks a blunt question: what if there were no handoffs at all? What was announced (Oct 5, 2026) One 19B model, trained from scratch. Rho-1 understands and generates text, images, and video, reasons over th</summary>
     <author><name>M.T.Ramkrushna</name></author>
-  </entry>
-  <entry>
-    <title>Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks</title>
-    <link href="https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/</id>
-    <updated>2026-10-05T01:47:28Z</updated>
-    <summary type="text">Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash, released on Hugging Face under the MIT license. Is it deployable? Yes, the MIT weights serve on vLLM, SGLang or Transformers, but BF16 needs roughly 640 GB of GPU memory. […] The post Can an Open Model </summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Postgres Let Two Rows Through a Unique Index: The glibc Collation Trap After an OS Upgrade</title>
-    <link href="https://dev.to/libme/postgres-let-two-rows-through-a-unique-index-the-glibc-collation-trap-after-an-os-upgrade-3ad6" rel="alternate"/>
-    <id>https://dev.to/libme/postgres-let-two-rows-through-a-unique-index-the-glibc-collation-trap-after-an-os-upgrade-3ad6</id>
-    <updated>2026-10-05T22:11:12Z</updated>
-    <summary type="text">If a unique index suddenly tolerates duplicates, or WHERE email = ... misses a row that a sequential scan finds, the index is sorted by collation rules that no longer match what your OS provides. That happens when the C library's sort order changes — most famously in glibc 2.28 — and it is not a Postgres bug, a replication bug, or a bad disk. The fix is to rebuild every index on a text column, the</summary>
-    <author><name>Libme</name></author>
   </entry>
 </feed>

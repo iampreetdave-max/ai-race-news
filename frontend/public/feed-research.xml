@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-08T08:36:29Z</updated>
+  <updated>2026-10-08T16:13:49Z</updated>
+  <entry>
+    <title>A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
+    <link href="https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/" rel="alternate"/>
+    <id>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/</id>
+    <updated>2026-10-08T13:01:01Z</updated>
+    <summary type="text">Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The a</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="agents"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Microsoft Says New Laptop With Nvidia Chip Outperforms MacBooks</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-07/microsoft-says-new-laptop-with-nvidia-chip-outperforms-macbooks" rel="alternate"/>
@@ -41,15 +51,5 @@
     <summary type="text">Video gaze prediction is led by gaze-trained models, yet gaze-free priors carry signal those models have not absorbed, if one knows when to trust them. We propose FocusGate, a gated ensemble of gaze-free priors whose members may abstain. A per-frame gate reads three shape statistics of a defocus map and selects the frames on which the estimator is above chance on average, so rejected frames reduce</summary>
     <author><name>Yiran Chen</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy</title>
-    <link href="https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/" rel="alternate"/>
-    <id>https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/</id>
-    <updated>2026-10-05T12:32:30Z</updated>
-    <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a nice, short post about how to think about […]</summary>
-    <author><name>Jack Clark</name></author>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>
