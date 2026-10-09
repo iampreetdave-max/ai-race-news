@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-09T08:41:49Z</updated>
+  <updated>2026-10-09T15:57:46Z</updated>
   <entry>
     <title>Microsoft 365 Family subscribers will finally be able to share AI benefits</title>
     <link href="https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes" rel="alternate"/>
@@ -37,6 +37,24 @@
     <updated>2026-10-08T16:17:35Z</updated>
     <summary type="text">JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Build Your First MCP Server in Python (Stateless Spec Edition)</title>
+    <link href="https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition" rel="alternate"/>
+    <id>https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition</id>
+    <updated>2026-10-09T14:00:00Z</updated>
+    <summary type="text">MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.</summary>
+    <author><name>Kanwal Mehreen</name></author>
+    <category term="tutorial"/>
+  </entry>
+  <entry>
+    <title>How to Fine-Tune Llama 3 for Custom Tool Calling with Unsloth in Python</title>
+    <link href="https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/" rel="alternate"/>
+    <id>https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/</id>
+    <updated>2026-10-09T11:00:00Z</updated>
+    <summary type="text">Llama 3 is a capable generalist, but that's exactly the problem when you need an agent that reliably outputs structured JSON for a specific API.</summary>
+    <author><name>Vinod Chugani</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Voice notes Obsidian Claude Code: an idea pipeline that actually compounds</title>
@@ -194,6 +212,15 @@
     <author><name>Richard MacManus</name></author>
   </entry>
   <entry>
+    <title>A new feature for my blog, built using my voice</title>
+    <link href="https://simonwillison.net/2026/Oct/9/built-using-my-voice/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</id>
+    <updated>2026-10-09T12:54:06Z</updated>
+    <summary type="text">I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversatio</summary>
+    <author><name>Simon Willison</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
     <title>The 20 most popular MCP servers, scanned: what's actually in their tool descriptions</title>
     <link href="https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj" rel="alternate"/>
     <id>https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj</id>
@@ -288,51 +315,5 @@
     <author><name>Germey</name></author>
     <category term="tutorial"/>
     <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>Claude Code vs Codex CLI vs Cursor: An Honest Field Guide for Working Developers</title>
-    <link href="https://dev.to/ezrazhao/claude-code-vs-codex-cli-vs-cursor-an-honest-field-guide-for-working-developers-pm3" rel="alternate"/>
-    <id>https://dev.to/ezrazhao/claude-code-vs-codex-cli-vs-cursor-an-honest-field-guide-for-working-developers-pm3</id>
-    <updated>2026-10-07T01:04:24Z</updated>
-    <summary type="text">Claude Code vs Codex CLI vs Cursor: An Honest Field Guide for Working Developers I use all three. Not because I enjoy collecting tools, but because they genuinely think differently — and picking the wrong one for a task costs real time. Last week I sat down and turned my notes into a proper cheatsheet repo: ai-coding-cheatsheet. Every command, shortcut, and config option in it was checked line by </summary>
-    <author><name>Ezra Zhao</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>The Model Changed Again — and Your Whole Product Is Just a Harness Around It</title>
-    <link href="https://dev.to/goodpa/the-model-changed-again-and-your-whole-product-is-just-a-harness-around-it-2acb" rel="alternate"/>
-    <id>https://dev.to/goodpa/the-model-changed-again-and-your-whole-product-is-just-a-harness-around-it-2acb</id>
-    <updated>2026-10-07T01:02:13Z</updated>
-    <summary type="text">There's a line from Hacker News this week that I can't stop thinking about: &quot;Every SaaS business will become a harness around a model.&quot; (86 pts) It sounds like a throwaway prediction. It's actually a description of the room you're already standing in. Look at the last 24 hours on HN alone: DeepSeek Harness Desktop hit 382 points (the day's peak). Someone shipped a way to run an LLM locally, from t</summary>
-    <author><name>goodpa</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode</title>
-    <link href="https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/</id>
-    <updated>2026-10-05T22:51:05Z</updated>
-    <summary type="text">Together AI has released Together Link, a free, MIT-licensed CLI that connects Claude Code, Codex, OpenCode, Pi, and the Claude and ChatGPT desktop apps to open models like Kimi K3 and GLM 5.3. One install command sets it up, and an Auto router picks a model for each session. Together claims savings of over 50%. The post Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor</title>
-    <link href="https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/" rel="alternate"/>
-    <id>https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/</id>
-    <updated>2026-10-05T18:59:19Z</updated>
-    <summary type="text">Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. </summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model</title>
-    <link href="https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/" rel="alternate"/>
-    <id>https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/</id>
-    <updated>2026-10-05T18:26:05Z</updated>
-    <summary type="text">Reka AI's Rho-1 is a 19-billion-parameter omni-model that processes and generates text, images, video, and robot control actions in a single neural network. Trained on 320 H100 GPUs in about three months, it uses a fraction of the compute today's top models need. Instead of routing tasks to specialized systems, Rho-1 runs all modalities as tokens in one shared context window. The article Reka AI's</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="hardware"/>
   </entry>
 </feed>
