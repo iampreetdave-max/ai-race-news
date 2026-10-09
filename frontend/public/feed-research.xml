@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-09T01:51:22Z</updated>
+  <updated>2026-10-09T08:41:49Z</updated>
   <entry>
     <title>A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
     <link href="https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/" rel="alternate"/>
@@ -14,6 +14,25 @@
     <author><name>Jonathan Kemper</name></author>
     <category term="agents"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Measuring the ROI of TurboModules before you commit to the rewrite</title>
+    <link href="https://dev.to/techamit95ch/measuring-the-roi-of-turbomodules-before-you-commit-to-the-rewrite-2hij" rel="alternate"/>
+    <id>https://dev.to/techamit95ch/measuring-the-roi-of-turbomodules-before-you-commit-to-the-rewrite-2hij</id>
+    <updated>2026-10-09T08:30:03Z</updated>
+    <summary type="text">I was leading the architecture for a clinical AI platform at Synapsis Medical Technologies, where we were integrating real-time health data from wearables into a React Native environment. We were hitting a wall with the Bridge. As we scaled to handle high-frequency biometric streams, our UI thread started dropping frames during heavy data ingest. The immediate internal pressure was to migrate ever</summary>
+    <author><name>Amit chakraborty</name></author>
+  </entry>
+  <entry>
+    <title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</title>
+    <link href="https://arxiv.org/abs/2610.12442v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.12442v1</id>
+    <updated>2026-10-08T17:58:03Z</updated>
+    <summary type="text">Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion m</summary>
+    <author><name>Taegyu Lim</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+    <category term="computer-vision"/>
   </entry>
   <entry>
     <title>Microsoft Says New Laptop With Nvidia Chip Outperforms MacBooks</title>
@@ -53,14 +72,5 @@
     <category term="llm"/>
     <category term="research"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction</title>
-    <link href="https://arxiv.org/abs/2610.08663v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.08663v1</id>
-    <updated>2026-10-06T16:46:33Z</updated>
-    <summary type="text">Video gaze prediction is led by gaze-trained models, yet gaze-free priors carry signal those models have not absorbed, if one knows when to trust them. We propose FocusGate, a gated ensemble of gaze-free priors whose members may abstain. A per-frame gate reads three shape statistics of a defocus map and selects the frames on which the estimator is above chance on average, so rejected frames reduce</summary>
-    <author><name>Yiran Chen</name></author>
-    <category term="research"/>
   </entry>
 </feed>

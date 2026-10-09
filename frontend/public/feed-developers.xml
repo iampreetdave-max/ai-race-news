@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-09T01:51:22Z</updated>
+  <updated>2026-10-09T08:41:49Z</updated>
+  <entry>
+    <title>Microsoft 365 Family subscribers will finally be able to share AI benefits</title>
+    <link href="https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes" rel="alternate"/>
+    <id>https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes</id>
+    <updated>2026-10-09T07:14:32Z</updated>
+    <summary type="text">Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and AI usage features, alongside access to Office apps and OneDrive storage, with […]</summary>
+    <author><name>Tom Warren</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
     <link href="https://openai.com/index/oracle" rel="alternate"/>
@@ -28,6 +37,34 @@
     <updated>2026-10-08T16:17:35Z</updated>
     <summary type="text">JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Voice notes Obsidian Claude Code: an idea pipeline that actually compounds</title>
+    <link href="https://dev.to/xin_jiang_0586987bb7e572c/voice-notes-obsidian-claude-code-an-idea-pipeline-that-actually-compounds-53kh" rel="alternate"/>
+    <id>https://dev.to/xin_jiang_0586987bb7e572c/voice-notes-obsidian-claude-code-an-idea-pipeline-that-actually-compounds-53kh</id>
+    <updated>2026-10-09T08:31:38Z</updated>
+    <summary type="text">Most good ideas don't die because you forgot them. They die because you did write them down, in an app with a few hundred other notes, and nothing ever brought them back. This is the setup I use to make spoken ideas turn into real work. It has three links, and each one matters. Link 1: Capture by voice, not typing Ideas show up while walking, driving, or listening to a podcast, when typing on a ph</summary>
+    <author><name>Xin Jiang</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Run Google Antigravity AI on Android with a Native Web GUI (No PC or VNC)</title>
+    <link href="https://dev.to/radnusd/how-to-run-google-antigravity-ai-on-android-with-a-native-web-gui-no-pc-or-vnc-3561" rel="alternate"/>
+    <id>https://dev.to/radnusd/how-to-run-google-antigravity-ai-on-android-with-a-native-web-gui-no-pc-or-vnc-3561</id>
+    <updated>2026-10-09T08:30:36Z</updated>
+    <summary type="text">Google Antigravity is a powerful autonomous AI coding assistant. While primarily designed for desktop environments, you can actually run it 100% natively on Android inside Termux, complete with Google's official desktop Web GUI accessible directly in your mobile browser at http://localhost:4400. In this tutorial, we will set up the standalone environment without needing a PC, cloud relays, VNC vie</summary>
+    <author><name>RadnusD</name></author>
+    <category term="tutorial"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Shai-Hulud Just Infected an AI Agent Platform's npm Package — What Self-Hosted n8n Builders Must Do Now</title>
+    <link href="https://dev.to/cortexflow_tech/shai-hulud-just-infected-an-ai-agent-platforms-npm-package-what-self-hosted-n8n-builders-must-do-kbg" rel="alternate"/>
+    <id>https://dev.to/cortexflow_tech/shai-hulud-just-infected-an-ai-agent-platforms-npm-package-what-self-hosted-n8n-builders-must-do-kbg</id>
+    <updated>2026-10-09T08:30:03Z</updated>
+    <summary type="text">On October 8, 2026, the npm package tensorlake — the TypeScript SDK for Tensorlake's AI agent infrastructure — was compromised by a new Shai-Hulud worm variant. Version 0.5.144 shipped a preinstall hook that stole npm tokens, GitHub tokens, AWS keys, SSH keys, .env files, crypto wallets, and browser passwords from every machine that installed it. The version was pulled within minutes, but the malw</summary>
+    <author><name>CortexFlow</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Optimizing AI-Powered Debugging for Kubernetes Production Incidents: Strategies and Best Practices</title>
@@ -297,43 +334,5 @@
     <summary type="text">Reka AI's Rho-1 is a 19-billion-parameter omni-model that processes and generates text, images, video, and robot control actions in a single neural network. Trained on 320 H100 GPUs in about three months, it uses a fraction of the compute today's top models need. Instead of routing tasks to specialized systems, Rho-1 runs all modalities as tokens in one shared context window. The article Reka AI's</summary>
     <author><name>Matthias Bastian</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Letting Claude Code drive a browser you've logged into once</title>
-    <link href="https://dev.to/lmcp/letting-claude-code-drive-a-browser-youve-logged-into-once-2c3b" rel="alternate"/>
-    <id>https://dev.to/lmcp/letting-claude-code-drive-a-browser-youve-logged-into-once-2c3b</id>
-    <updated>2026-10-06T16:24:10Z</updated>
-    <summary type="text">A lot of the data I actually care about lives behind a login: analytics dashboards, admin panels, supplier portals. Most of them have no API, or one you'd need a ticket with IT to use. So the useful question isn't &quot;can my agent browse the web&quot;, it's &quot;can my agent use the sites I'm logged into&quot;. LMCP (a free MCP server for Mac, I work on it) has 14 browser tools for exactly this. Here's how they wo</summary>
-    <author><name>Local-MCP</name></author>
-    <category term="llm"/>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>มิสทรัลกลับมาแล้ว: เลอ ชงค์ โค่น GPT-6 Astra และ Claude</title>
-    <link href="https://dev.to/thanawat_wonchai/misthralklabmaaaelw-el-chngkh-okhn-gpt-6-astra-aela-claude-36j9" rel="alternate"/>
-    <id>https://dev.to/thanawat_wonchai/misthralklabmaaaelw-el-chngkh-okhn-gpt-6-astra-aela-claude-36j9</id>
-    <updated>2026-10-06T16:22:54Z</updated>
-    <summary type="text">Mistral เงียบหายไปจากตลาดระดับบนพักใหญ่ Mistral Large 3 เปิดตัวในเดือนธันวาคม 2025 และตั้งแต่นั้นมา การสนทนาเกี่ยวกับโมเดลโอเพนเวทระดับแนวหน้าก็มุ่งไปที่ Kimi, DeepSeek, GLM และ Qwen เมื่อวันที่ 6 ตุลาคม 2026 Mistral ได้กลับมาพร้อมกับ Mistral Large 4 ซึ่งเป็นโมเดลขนาด 1 ล้านล้านพารามิเตอร์ที่ทีมงานเรียกว่า “Le Chonk” ลองใช้ Apidog วันนี้ ตัวเลขพาดหัวข่าวคือผลการทดสอบไซเบอร์เบนช์มาร์กที่ Large 4 ทำ</summary>
-    <author><name>Thanawat Wongchai</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion</title>
-    <link href="https://arxiv.org/abs/2610.08620v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.08620v1</id>
-    <updated>2026-10-06T16:20:20Z</updated>
-    <summary type="text">High-beam-count LiDAR sensors are costly, yet many perception pipelines require dense angular sampling. Using a pretrained Stable Diffusion model as the backbone, we fine-tune a LiDAR-conditioned depth model with pseudo-depth targets from a 2D foundation model. During training, the LiDAR conditioning is randomly decimated at different beam budgets. We then investigate how much of a LiDAR scan can </summary>
-    <author><name>Alfred Schöttl</name></author>
-    <category term="computer-vision"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Human-in-the-Loop AI Drafts in ASP.NET Core: Approval Queues, Audit Trails, and Safe Sending</title>
-    <link href="https://dev.to/rahmatafridi/human-in-the-loop-ai-drafts-in-aspnet-core-approval-queues-audit-trails-and-safe-sending-16n6" rel="alternate"/>
-    <id>https://dev.to/rahmatafridi/human-in-the-loop-ai-drafts-in-aspnet-core-approval-queues-audit-trails-and-safe-sending-16n6</id>
-    <updated>2026-10-06T16:18:38Z</updated>
-    <summary type="text">When I add AI to an existing support, ERP, or CRM application, my first release boundary is simple: the model drafts; an authorized person decides what leaves the system. That keeps a model mistake from immediately becoming an external action. That is the starting point in SupportAgent.NET, the ASP.NET Core and React support copilot I am building (source on GitHub). The assistant prepares replies </summary>
-    <author><name>Rahmat Afridi</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
