@@ -4,7 +4,33 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-10T06:50:05Z</updated>
+  <updated>2026-10-10T13:25:41Z</updated>
+  <entry>
+    <title>Your Data Pipeline Passes Every Check While Your LLM Quietly Degrades</title>
+    <link href="https://dev.to/aiexplore369zoho/your-data-pipeline-passes-every-check-while-your-llm-quietly-degrades-5310" rel="alternate"/>
+    <id>https://dev.to/aiexplore369zoho/your-data-pipeline-passes-every-check-while-your-llm-quietly-degrades-5310</id>
+    <updated>2026-10-10T13:16:17Z</updated>
+    <summary type="text">TL;DR — Schema validation, null checks, and row-count monitors catch structural failures in AI data pipelines, but they're blind to semantic drift — the slow, silent shift in meaning caused by changes to cleaning, normalization, and dedup logic. Models and RAG systems degrade from this constantly while every dashboard stays green. The fix is treating pipeline outputs as a versioned artifact with r</summary>
+    <author><name>AI Explore</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
+    <title>How to Scrape Public Telegram Channels Without an API Key (Step by Step)</title>
+    <link href="https://dev.to/yuhehe/how-to-scrape-public-telegram-channels-without-an-api-key-step-by-step-1d91" rel="alternate"/>
+    <id>https://dev.to/yuhehe/how-to-scrape-public-telegram-channels-without-an-api-key-step-by-step-1d91</id>
+    <updated>2026-10-10T13:14:32Z</updated>
+    <summary type="text">A lot of OSINT work dies at the first step: Telegram's official API only sees channels you join, and joining 200 channels to monitor 200 channels is not a plan. Here is the no-login method I run in production, in the order I actually use it. 1. The web preview endpoint Every public channel has a web preview at https://t.me/s/&lt;channel&gt;. It renders the last ~20 messages as plain HTML — no account, n</summary>
+    <author><name>Yuhe He</name></author>
+  </entry>
+  <entry>
+    <title>CodeRabbit vs Copilot?</title>
+    <link href="https://dev.to/izgorodin/coderabbit-vs-copilot-495i" rel="alternate"/>
+    <id>https://dev.to/izgorodin/coderabbit-vs-copilot-495i</id>
+    <updated>2026-10-10T13:14:00Z</updated>
+    <summary type="text">Pick by four things your team already knows: where your repositories live, whether a bot should review every pull request or only on request, how you want to be billed, and whether the reviewer must run on your own servers. On their own pages, GitHub Copilot code review works on GitHub.com (Azure DevOps in public preview), reviews a pull request when someone requests it unless you turn on automati</summary>
+    <author><name>Edward Izgorodin</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
     <link href="https://openai.com/index/asana-browser-agent" rel="alternate"/>
@@ -158,6 +184,26 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Are .ipynb notebooks already outdated in the agentic era? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/</id>
+    <updated>2026-10-10T10:51:44Z</updated>
+    <summary type="text">I am a data scientist who started working in the industry before the LLM revolution. Back then, Jupyter Notebooks were a perfect fit for the classical DS pipeline: EDA -&gt; data prep -&gt; fit -&gt; eval -&gt; tune -&gt; save model artefact and notebook. Lately, I have been thinking a lot about how agentic development and LLMs are changing the way data scientists work. Especially in classical ML applications, w</summary>
+    <author><name>/u/Economy_Vacation_504</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Help With Choosing Hardware [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/</id>
+    <updated>2026-10-10T08:00:41Z</updated>
+    <summary type="text">​ I am going to fine-tune a satire model, with the base model being `Qwen3.5-14B-Base`. The dataset has ~18000 examples, most of which are pretty long and do not align with the model's internal knowledge (they have incorrect answers to facts), so I needed to do a full fine tune rather than use LoRA. Today, I rented a cloud computer on vast.ai. It had 4x12GB GPUs and 48GB of system RAM, but I feel </summary>
+    <author><name>/u/minedroid1</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>How Not To Rank a Hackathon</title>
     <link href="https://dev.to/mihir-rabari/how-not-to-rank-a-hackathon-4p30" rel="alternate"/>
     <id>https://dev.to/mihir-rabari/how-not-to-rank-a-hackathon-4p30</id>
@@ -184,6 +230,16 @@
     <author><name>Shittu Olumide</name></author>
     <category term="agents"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Real-time neural weather restyling for Minecraft on a GTX 1650 (1.4M-param U-Net, distilled from FLUX.2 klein, 30-40 FPS realtime on budget GPU) [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x25kq2/realtime_neural_weather_restyling_for_minecraft/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x25kq2/realtime_neural_weather_restyling_for_minecraft/</id>
+    <updated>2026-10-10T04:02:27Z</updated>
+    <summary type="text">Teacher: FLUX.2 klein 4B paints ~3k frames (snow / wet / night at 3 strengths). Student: 1.4M-param U-Net with FiLM sliders, 512×288, ~26 ms/frame via ONNX Runtime inside a Fabric mod; the HUD stays untouched. Pixel loss (L1+MSE) gave a washed-out “average” because the teacher places snow/puddles differently per frame. A PatchGAN fine-tune on the same pairs fixed it: fat snow, real-looking reflect</summary>
+    <author><name>/u/BlueCeAnd</name></author>
+    <category term="hardware"/>
+    <category term="computer-vision"/>
   </entry>
   <entry>
     <title>Microsoft is giving Copilot more control over Windows and your files</title>
