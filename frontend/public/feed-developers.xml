@@ -4,7 +4,43 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-10T22:20:22Z</updated>
+  <updated>2026-10-11T01:41:41Z</updated>
+  <entry>
+    <title>Copilot CLI เลือกโมเดล AI ในเครื่องได้แล้ว แถมแซนด์บ็อกซ์ GA: มีช่องไหนที่ยังต้องระวัง?</title>
+    <link href="https://dev.to/sarantoon/copilot-cli-eluuekomedl-ai-ainekhruuengaidaelw-aethmaechndbkch-ga-miichngaihnthiiyangtngrawang-36k4" rel="alternate"/>
+    <id>https://dev.to/sarantoon/copilot-cli-eluuekomedl-ai-ainekhruuengaidaelw-aethmaechndbkch-ga-miichngaihnthiiyangtngrawang-36k4</id>
+    <updated>2026-10-11T01:30:37Z</updated>
+    <summary type="text">Copilot CLI เลือกโมเดล AI ในเครื่องได้แล้ว แถมแซนด์บ็อกซ์ GA: มีช่องไหนที่ยังต้องระวัง? โดย Nokka (นก-กา) | 10 ตุลาคม 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ · Nokka (นก-กา) สองประกาศในวันเดียว ที่ตอบคำถามต่างกัน วันที่ 7 ตุลาคม 2026 GitHub ประกาศสองเรื่องห่างกันไม่กี่ชั่วโมง เรื่องแรกตอบคำถามว่า &quot;ฉันอยากใช้โมเดลที่รันในเครื่องตัวเ</summary>
+    <author><name>Nokka</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Ten things that go wrong when you build with a team of AI agents (part 1)</title>
+    <link href="https://dev.to/theducttapeio/ten-things-that-go-wrong-when-you-build-with-a-team-of-ai-agents-part-1-dho" rel="alternate"/>
+    <id>https://dev.to/theducttapeio/ten-things-that-go-wrong-when-you-build-with-a-team-of-ai-agents-part-1-dho</id>
+    <updated>2026-10-11T01:30:16Z</updated>
+    <summary type="text">Recently I wrote about how I build a product alone with a team of seven Claude Code agents. One piece of feedback on it stuck with me: the parts where the agents went wrong are usually the most useful for other builders. So this post, and part 2, are only about those parts. Not our specific bugs, but the patterns behind them. If you run more than one agent on the same project, you will meet most o</summary>
+    <author><name>theducttape.io</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>The remove.bg API moves to Leonardo.Ai on Dec 1, 2026. Migrate by changing one URL (scripts, Zapier, Make, n8n)</title>
+    <link href="https://dev.to/phenixik/the-removebg-api-moves-to-leonardoai-on-dec-1-2026-migrate-by-changing-one-url-scripts-576d" rel="alternate"/>
+    <id>https://dev.to/phenixik/the-removebg-api-moves-to-leonardoai-on-dec-1-2026-migrate-by-changing-one-url-scripts-576d</id>
+    <updated>2026-10-11T01:26:18Z</updated>
+    <summary type="text">If you have a script, a Shopify workflow or a Zapier/Make/n8n scenario that calls the remove.bg API, put a date in your calendar: remove.bg's API page now says that starting December 1, 2026, background removal moves to Leonardo.Ai (part of Canva). Several reports also say unused pay-as-you-go credits expire on that day, so check your account before then. You can follow the official path to Leonar</summary>
+    <author><name>Digitální produkty pro život</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>From 22 to 23: Evasion Detection, Elicitation, and 231 New Tests</title>
+    <link href="https://dev.to/aegisgate/from-22-to-23-evasion-detection-elicitation-and-231-new-tests-4o7l" rel="alternate"/>
+    <id>https://dev.to/aegisgate/from-22-to-23-evasion-detection-elicitation-and-231-new-tests-4o7l</id>
+    <updated>2026-10-11T01:20:43Z</updated>
+    <summary type="text">In my last post, I walked through the architecture of AegisGate MCP — a standalone MCP server framework with 22 security layers, zero external Go dependencies, and a vendored neural ML pipeline. That was v1.3.0. This is v1.5.0. Here's what changed. The 23rd Layer: Evasion Detection The biggest addition is a new security layer wired into the live request pipeline between L1 regex scanning and L3 ne</summary>
+    <author><name>aegisgate</name></author>
+  </entry>
   <entry>
     <title>AI Agents Are Not Users: Building an Identity Model That Reflects That</title>
     <link href="https://dev.to/auth0/ai-agents-are-not-users-building-an-identity-model-that-reflects-that-1mfp" rel="alternate"/>
@@ -376,15 +412,5 @@
     <summary type="text">Short answer: RAG hallucination persists when an ask-your-docs chatbot receives stale, incomplete, or conflicting evidence, so good embeddings and a larger context window still produce wrong answers. For an edtech assistant that reviews code changes, the practical fix is a versioned evidence pipeline: pin the course and repository revision, retrieve requirements and changed code separately, reject</summary>
     <author><name>PeterParker8991</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model</title>
-    <link href="https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/</id>
-    <updated>2026-10-06T17:30:46Z</updated>
-    <summary type="text">Mistral AI has released Mistral Large 4, nicknamed Le Chonk, as a public preview. It is a 1.05 trillion parameter Mixture of Experts model with 49 billion active parameters, native image input, and a 1 million token context window, trained on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own European datacenters. The API is live now; open weights ship end of October 2026. The post Mistral AI Rele</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
   </entry>
 </feed>
