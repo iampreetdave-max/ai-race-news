@@ -4,7 +4,45 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-11T08:30:52Z</updated>
+  <updated>2026-10-11T15:27:43Z</updated>
+  <entry>
+    <title>OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context</title>
+    <link href="https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/</id>
+    <updated>2026-10-11T06:20:21Z</updated>
+    <summary type="text">OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>How do you stop an AI agent from overspending on GPUs?</title>
+    <link href="https://dev.to/viswaretas_kotra/how-do-you-stop-an-ai-agent-from-overspending-on-gpus-25cp" rel="alternate"/>
+    <id>https://dev.to/viswaretas_kotra/how-do-you-stop-an-ai-agent-from-overspending-on-gpus-25cp</id>
+    <updated>2026-10-11T15:23:38Z</updated>
+    <summary type="text">Short answer (October 11, 2026): put the limits where the money is spent, not in the prompt: a hard dollar cap on every job the agent launches, a budget that blocks (not just alerts) around all agent work, and a credential scoped so the agent cannot raise either one. Add a dry-run estimate that you approve before anything is created, plus timeouts and idle stops, and a runaway agent costs you the </summary>
+    <author><name>Viswaretas Kotra</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+    <category term="product-launch"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>What LangGraph Actually Builds: Runnables, Channels, Bubble-Up, Agents and Deep Agents</title>
+    <link href="https://dev.to/techaiexplained/what-langgraph-actually-builds-runnables-channels-bubble-up-agents-and-deep-agents-dd0" rel="alternate"/>
+    <id>https://dev.to/techaiexplained/what-langgraph-actually-builds-runnables-channels-bubble-up-agents-and-deep-agents-dd0</id>
+    <updated>2026-10-11T15:17:04Z</updated>
+    <summary type="text">I spent the weekend digging through LangGraph's source code, trying to understand what actually happens beneath the abstractions. These are my notes, the experiments I ran, and the mental model I ended up with. The thing that surprised me most is how small the core idea is. A graph, a ReAct agent and a Deep Agent are not three different machines. They are one machine (Pregel) fed three different a</summary>
+    <author><name>TechAI Explained</name></author>
+  </entry>
+  <entry>
+    <title>I wanted something faster than gradle build for my coding agent, so I made a Java checker in Rust</title>
+    <link href="https://dev.to/mihaidaniel34/i-wanted-something-faster-than-gradle-build-for-my-coding-agent-so-i-made-a-java-checker-in-rust-16ee" rel="alternate"/>
+    <id>https://dev.to/mihaidaniel34/i-wanted-something-faster-than-gradle-build-for-my-coding-agent-so-i-made-a-java-checker-in-rust-16ee</id>
+    <updated>2026-10-11T15:16:24Z</updated>
+    <summary type="text">I use Claude Code on Java projects a lot. After almost every change, the agent wants to run ./gradlew build to see whether it broke anything. On the projects I work on that takes 2 to 5 minutes, and most of the time it finds nothing. If you tell the agent to skip the build, mistakes pile up until the test run at the very end, and then it has to untangle five of them at once. I wanted something in </summary>
+    <author><name>Mihai-Daniel</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+  </entry>
   <entry>
     <title>Playwright Email Tests Need a Message Claim</title>
     <link href="https://dev.to/silviutech/playwright-email-tests-need-a-message-claim-89n" rel="alternate"/>
@@ -375,50 +413,5 @@
     <updated>2026-10-07T14:10:45Z</updated>
     <summary type="text">Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.</summary>
     <author><name>Richard MacManus</name></author>
-  </entry>
-  <entry>
-    <title>A new feature for my blog, built using my voice</title>
-    <link href="https://simonwillison.net/2026/Oct/9/built-using-my-voice/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</id>
-    <updated>2026-10-09T12:54:06Z</updated>
-    <summary type="text">I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversatio</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>The 20 most popular MCP servers, scanned: what's actually in their tool descriptions</title>
-    <link href="https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj" rel="alternate"/>
-    <id>https://dev.to/pennyforgehq/the-20-most-popular-mcp-servers-scanned-whats-actually-in-their-tool-descriptions-14cj</id>
-    <updated>2026-10-07T21:45:44Z</updated>
-    <summary type="text">Pennyforge · dated evidence report, 2026-10-07 · follow-up to our dated MCP security timeline The Model Context Protocol has been around since November 2024, and it moved fast: the official TypeScript/Python SDK alone pulled 242 million npm downloads last month (npm registry, checked 2026-10-07), and GitHub now lists 33,674 repositories tagged mcp-server. In May 2026 the U.S. NSA published &quot;Model </summary>
-    <author><name>Pennyforge</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AlphaCode: The Free MIT AI Coding Agent Built in Rust</title>
-    <link href="https://dev.to/unfiltered_anshul/alphacode-the-free-mit-ai-coding-agent-built-in-rust-21po" rel="alternate"/>
-    <id>https://dev.to/unfiltered_anshul/alphacode-the-free-mit-ai-coding-agent-built-in-rust-21po</id>
-    <updated>2026-10-07T21:45:25Z</updated>
-    <summary type="text">What Is AlphaCode AlphaCode is a free MIT AI coding agent built in Rust. It launched in 2026 and has been quietly gaining traction among developers who want a terminal-based AI coder that works with Claude, GPT, Gemini, and DeepSeek models. The pitch is simple: one CLI, any model, zero markup. You bring your own keys, pick the model, and AlphaCode routes the request. No silent model switching. No </summary>
-    <author><name>Anshul Rajpal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AICR v1.0: Open, stable, and verifiable GPU cluster configuration</title>
-    <link href="https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/" rel="alternate"/>
-    <id>https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/</id>
-    <updated>2026-10-06T16:13:47Z</updated>
-    <summary type="text">GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...</summary>
-    <author><name>Elizabeth Goodman</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Node.js Evidence Lifecycles: 5 RAG Hallucination Fixes When Docs Chatbot Answers Go Wrong</title>
-    <link href="https://dev.to/peterparker8991/nodejs-evidence-lifecycles-5-rag-hallucination-fixes-when-docs-chatbot-answers-go-wrong-4nkf" rel="alternate"/>
-    <id>https://dev.to/peterparker8991/nodejs-evidence-lifecycles-5-rag-hallucination-fixes-when-docs-chatbot-answers-go-wrong-4nkf</id>
-    <updated>2026-10-07T21:34:14Z</updated>
-    <summary type="text">Short answer: RAG hallucination persists when an ask-your-docs chatbot receives stale, incomplete, or conflicting evidence, so good embeddings and a larger context window still produce wrong answers. For an edtech assistant that reviews code changes, the practical fix is a versioned evidence pipeline: pin the course and repository revision, retrieve requirements and changed code separately, reject</summary>
-    <author><name>PeterParker8991</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

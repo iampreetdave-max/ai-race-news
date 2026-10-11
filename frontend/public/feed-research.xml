@@ -4,7 +4,32 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-11T08:30:52Z</updated>
+  <updated>2026-10-11T15:27:43Z</updated>
+  <entry>
+    <title>ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server</title>
+    <link href="https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/" rel="alternate"/>
+    <id>https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/</id>
+    <updated>2026-10-11T09:17:32Z</updated>
+    <summary type="text">Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its volunteer moderators. The article ArXiv caps submissions at two per month as AI paper flood overwhe</summary>
+    <author><name>Jonathan Kemper</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Is a second MSc worth it? [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/</id>
+    <updated>2026-10-11T14:48:55Z</updated>
+    <summary type="text">I’m an AI research engineer based in Africa with about 3 YoEs in RL, LLMs, post-training, and systems efficiency (CUDA/vLLM). However, on a smaller scale because of compute limits. My undergrad and Master’s are both in communications engineering. I did a 5th-year Master's at my local university while working full-time at a telecom company, focusing on RL in telecom. Publication-wise, I have one pa</summary>
+    <author><name>/u/Fit_Caterpillar4434</name></author>
+  </entry>
+  <entry>
+    <title>[P] Pecision models that score every allowed label from the logits: Jebadiah v2.1 (27B, 9B), open weights and self-run benchmark results [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/</id>
+    <updated>2026-10-11T09:33:10Z</updated>
+    <summary type="text">I've been building open models that treat a decision as a closed-set scoring problem rather than text generation. The input is structured context plus a typed question with a fixed set of options. The output is a probability for each option, taken from the candidate-label logits, so there's no generation step to parse and no sampling. v2.1 updates the 27B and the 9B. On the Decision Index 0.3 publ</summary>
+    <author><name>/u/WebDevToday</name></author>
+  </entry>
   <entry>
     <title>A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
     <link href="https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/" rel="alternate"/>
@@ -61,15 +86,5 @@
     <updated>2026-10-08T08:30:04Z</updated>
     <summary type="text">I was leading the architecture for a clinical AI platform at Synapsis Medical Technologies, where we were integrating real-time health data from wearables via Bluetooth Low Energy (BLE). We were hitting a wall with the legacy React Native bridge. High-frequency data packets—heart rate, SpO2, and accelerometer streams—were saturating the bridge, causing noticeable UI stutters and delaying the execu</summary>
     <author><name>Amit chakraborty</name></author>
-  </entry>
-  <entry>
-    <title>Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size</title>
-    <link href="https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/" rel="alternate"/>
-    <id>https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/</id>
-    <updated>2026-10-06T19:47:27Z</updated>
-    <summary type="text">Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="research"/>
-    <category term="rag"/>
   </entry>
 </feed>
