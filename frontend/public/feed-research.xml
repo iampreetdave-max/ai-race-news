@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-12T00:20:01Z</updated>
+  <updated>2026-10-12T07:06:10Z</updated>
   <entry>
     <title>ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server</title>
     <link href="https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/" rel="alternate"/>
@@ -13,6 +13,25 @@
     <summary type="text">Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its volunteer moderators. The article ArXiv caps submissions at two per month as AI paper flood overwhe</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/</id>
+    <updated>2026-10-12T05:26:01Z</updated>
+    <summary type="text">With the vLLM Semantic Router team we released Decision 3.0 (d3), our new SOTA decision model family ranging from 0.6B to 27B, Apache-2.0, all reading text, images and video. How it works - Built on Qwen3.5 (0.8B / 2B / 4B / 9B) and Qwen3.8-27B. The parameter counts include the vision encoder: 0.33B in the 4B, 0.46B in the 27B. - Three decision types: choice, yes/no, score. Probability for every a</summary>
+    <author><name>/u/henzy123</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Every Model That Can Be Run On 10-16GB VRAM Ranked</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/</id>
+    <updated>2026-10-11T19:12:36Z</updated>
+    <summary type="text">It's been 4 years since c.ai first hallucination model, and yet, we're nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that allow those within 10-16GB VRAM range to run something usable up to 64k Context Windows via Kobold or LLAMA. Requirements: 10-16GB VRAM - 26-32GB RAM. How I Evaluated: Speed; If tokens per</summary>
+    <author><name>/u/WEREWOLF_BX13</name></author>
+    <category term="robotics"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What's up with google scholar citations ? [D]</title>
@@ -38,6 +57,25 @@
     <updated>2026-10-11T09:33:10Z</updated>
     <summary type="text">I've been building open models that treat a decision as a closed-set scoring problem rather than text generation. The input is structured context plus a typed question with a fixed set of options. The output is a probability for each option, taken from the candidate-label logits, so there's no generation step to parse and no sampling. v2.1 updates the 27B and the 9B. On the Decision Index 0.3 publ</summary>
     <author><name>/u/WebDevToday</name></author>
+  </entry>
+  <entry>
+    <title>Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Factors in LiDAR Object Detection</title>
+    <link href="https://arxiv.org/abs/2610.13891v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.13891v1</id>
+    <updated>2026-10-09T17:38:30Z</updated>
+    <summary type="text">Light Detection and Ranging (LiDAR) is critical for autonomous perception, yet its performance is known to degrade in adverse weather. While existing literature models snow as atmospheric noise that degrades performance, our granular evaluation on the WADS-3D and CADC datasets reveals a counter-intuitive phenomenon: detection accuracy consistently improves as snow intensity increases. Through abla</summary>
+    <author><name>Jeremy P. Bos</name></author>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion</title>
+    <link href="https://arxiv.org/abs/2610.13872v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.13872v1</id>
+    <updated>2026-10-09T17:21:28Z</updated>
+    <summary type="text">Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following existing wheel tracks offers crucial advantages: improved traction, predictable vehicle dynamics, and verified path stability. To address this, we propo</summary>
+    <author><name>Jeremy P. Bos</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
@@ -87,13 +125,5 @@
     <author><name>Brody Ford</name></author>
     <category term="hardware"/>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>The hidden cost of TurboModules: Why Codegen is not a free lunch</title>
-    <link href="https://dev.to/techamit95ch/the-hidden-cost-of-turbomodules-why-codegen-is-not-a-free-lunch-inc" rel="alternate"/>
-    <id>https://dev.to/techamit95ch/the-hidden-cost-of-turbomodules-why-codegen-is-not-a-free-lunch-inc</id>
-    <updated>2026-10-08T08:30:04Z</updated>
-    <summary type="text">I was leading the architecture for a clinical AI platform at Synapsis Medical Technologies, where we were integrating real-time health data from wearables via Bluetooth Low Energy (BLE). We were hitting a wall with the legacy React Native bridge. High-frequency data packets—heart rate, SpO2, and accelerometer streams—were saturating the bridge, causing noticeable UI stutters and delaying the execu</summary>
-    <author><name>Amit chakraborty</name></author>
   </entry>
 </feed>
