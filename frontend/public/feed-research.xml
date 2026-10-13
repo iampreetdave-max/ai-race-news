@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-13T15:44:16Z</updated>
+  <updated>2026-10-13T21:05:04Z</updated>
   <entry>
     <title>Clearing chat history helps AI agents find better solutions</title>
     <link href="https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/" rel="alternate"/>
@@ -31,6 +31,15 @@
     <updated>2026-10-11T09:17:32Z</updated>
     <summary type="text">Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its volunteer moderators. The article ArXiv caps submissions at two per month as AI paper flood overwhe</summary>
     <author><name>Jonathan Kemper</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Flama: 8 years building a Python framework where ML models and LLMs are first-class, now written up on arXiv [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x4zwp4/flama_8_years_building_a_python_framework_where/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x4zwp4/flama_8_years_building_a_python_framework_where/</id>
+    <updated>2026-10-13T15:35:48Z</updated>
+    <summary type="text">I started Flama in 2018 to take a trained model to a production API with as little ceremony as possible. With 2.0 LLMs became first-class alongside classic models, and together with Miguel Durán-Olivencia we've now written up the whole architecture in an 83-page paper on arXiv (2608.18733). A model is a file Every model, whether a scikit-learn pipeline, a PyTorch network or an LLM, is packaged int</summary>
+    <author><name>/u/p3rdy</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -86,34 +95,5 @@
     <updated>2026-10-11T09:33:10Z</updated>
     <summary type="text">I've been building open models that treat a decision as a closed-set scoring problem rather than text generation. The input is structured context plus a typed question with a fixed set of options. The output is a probability for each option, taken from the candidate-label logits, so there's no generation step to parse and no sampling. v2.1 updates the 27B and the 9B. On the Decision Index 0.3 publ</summary>
     <author><name>/u/WebDevToday</name></author>
-  </entry>
-  <entry>
-    <title>Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Factors in LiDAR Object Detection</title>
-    <link href="https://arxiv.org/abs/2610.13891v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.13891v1</id>
-    <updated>2026-10-09T17:38:30Z</updated>
-    <summary type="text">Light Detection and Ranging (LiDAR) is critical for autonomous perception, yet its performance is known to degrade in adverse weather. While existing literature models snow as atmospheric noise that degrades performance, our granular evaluation on the WADS-3D and CADC datasets reveals a counter-intuitive phenomenon: detection accuracy consistently improves as snow intensity increases. Through abla</summary>
-    <author><name>Jeremy P. Bos</name></author>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion</title>
-    <link href="https://arxiv.org/abs/2610.13872v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.13872v1</id>
-    <updated>2026-10-09T17:21:28Z</updated>
-    <summary type="text">Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following existing wheel tracks offers crucial advantages: improved traction, predictable vehicle dynamics, and verified path stability. To address this, we propo</summary>
-    <author><name>Jeremy P. Bos</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
-    <link href="https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/" rel="alternate"/>
-    <id>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/</id>
-    <updated>2026-10-08T13:01:01Z</updated>
-    <summary type="text">Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The a</summary>
-    <author><name>Jonathan Kemper</name></author>
-    <category term="agents"/>
-    <category term="research"/>
   </entry>
 </feed>

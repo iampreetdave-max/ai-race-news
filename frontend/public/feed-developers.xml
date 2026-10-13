@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-13T15:44:16Z</updated>
+  <updated>2026-10-13T21:05:04Z</updated>
   <entry>
     <title>SpaceXSI bundles X Premium, Grok, and Cursor into one subscription</title>
     <link href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/" rel="alternate"/>
@@ -23,6 +23,14 @@
     <author><name>Sarah Perez</name></author>
     <category term="product-launch"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>How many tokens does a web page cost your LLM? We measured 20 real pages</title>
+    <link href="https://dev.to/ragfeed/raw-html-vs-full-page-text-vs-main-content-markdown-median-range-and-the-cases-where-the-lnh" rel="alternate"/>
+    <id>https://dev.to/ragfeed/raw-html-vs-full-page-text-vs-main-content-markdown-median-range-and-the-cases-where-the-lnh</id>
+    <updated>2026-10-13T20:59:21Z</updated>
+    <summary type="text">Raw HTML vs. full-page text vs. main-content Markdown — median, range, and the cases where the saving is small. If you build RAG pipelines or agents that read the web, every page you fetch ends up as input tokens: in the embedding step, in the context window, on every query. So what you hand the model matters. We measured it on 20 real pages instead of guessing. TL;DR The median raw HTML page in o</summary>
+    <author><name>Leif Albrand</name></author>
   </entry>
   <entry>
     <title>Welcome to Windvale</title>
@@ -303,30 +311,5 @@
     <author><name>Hannah Kerner</name></author>
     <category term="open-source"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>LegalOn halves Codex costs while maintaining development speed</title>
-    <link href="https://openai.com/index/legalon-halves-codex-costs" rel="alternate"/>
-    <id>https://openai.com/index/legalon-halves-codex-costs</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <summary type="text">LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.</summary>
-    <author><name>OpenAI Blog</name></author>
-  </entry>
-  <entry>
-    <title>JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents</title>
-    <link href="https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/</id>
-    <updated>2026-10-08T16:17:35Z</updated>
-    <summary type="text">JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-  </entry>
-  <entry>
-    <title>Build Your First MCP Server in Python (Stateless Spec Edition)</title>
-    <link href="https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition" rel="alternate"/>
-    <id>https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition</id>
-    <updated>2026-10-09T14:00:00Z</updated>
-    <summary type="text">MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.</summary>
-    <author><name>Kanwal Mehreen</name></author>
-    <category term="tutorial"/>
   </entry>
 </feed>
