@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-12T17:34:51Z</updated>
+  <updated>2026-10-13T00:22:15Z</updated>
   <entry>
     <title>Clearing chat history helps AI agents find better solutions</title>
     <link href="https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/" rel="alternate"/>
@@ -32,6 +32,16 @@
     <summary type="text">Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its volunteer moderators. The article ArXiv caps submissions at two per month as AI paper flood overwhe</summary>
     <author><name>Jonathan Kemper</name></author>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>Looped Diffusion Transformer: the same blocks run several times inside each denoising step, and loop depth can be changed at sampling time [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/</id>
+    <updated>2026-10-12T18:13:49Z</updated>
+    <summary type="text">Paper: Looped Diffusion Transformer (arXiv 2609.40305, 30 Sep). Instead of making a text-to-image DiT bigger, it runs a shared group of transformer blocks several times inside each denoising step. The authors report that naive looping doesn't reliably help, and fix it with deep supervision on every loop plus self-modulating attention. Their headline claims: a 260M looped model beats a model 6.5x l</summary>
+    <author><name>/u/Fit-Ant2238</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards</title>
@@ -123,16 +133,5 @@
     <updated>2026-10-09T08:30:03Z</updated>
     <summary type="text">I was leading the architecture for a clinical AI platform at Synapsis Medical Technologies, where we were integrating real-time health data from wearables into a React Native environment. We were hitting a wall with the Bridge. As we scaled to handle high-frequency biometric streams, our UI thread started dropping frames during heavy data ingest. The immediate internal pressure was to migrate ever</summary>
     <author><name>Amit chakraborty</name></author>
-  </entry>
-  <entry>
-    <title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</title>
-    <link href="https://arxiv.org/abs/2610.12442v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.12442v1</id>
-    <updated>2026-10-08T17:58:03Z</updated>
-    <summary type="text">Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion m</summary>
-    <author><name>Taegyu Lim</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-    <category term="computer-vision"/>
   </entry>
 </feed>
