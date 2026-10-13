@@ -4,7 +4,54 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-13T07:30:40Z</updated>
+  <updated>2026-10-13T15:44:16Z</updated>
+  <entry>
+    <title>SpaceXSI bundles X Premium, Grok, and Cursor into one subscription</title>
+    <link href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/</id>
+    <updated>2026-10-13T13:50:19Z</updated>
+    <summary type="text">The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.</summary>
+    <author><name>Sarah Perez</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Amex introduces a framework to prevent AI agents from making unauthorized purchases</title>
+    <link href="https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/</id>
+    <updated>2026-10-13T13:00:00Z</updated>
+    <summary type="text">American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.</summary>
+    <author><name>Sarah Perez</name></author>
+    <category term="product-launch"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Welcome to Windvale</title>
+    <link href="https://dev.to/diso/welcome-to-windvale-3o9e" rel="alternate"/>
+    <id>https://dev.to/diso/welcome-to-windvale-3o9e</id>
+    <updated>2026-10-13T15:36:01Z</updated>
+    <summary type="text">The other weekend I was a little bored, so I started messing about on my phone, having Copilot create an online D&amp;D system called Windvale. It went well; I could log in as the dungeon master, create the world, create items, NPCs, skills, and much more. Whilst players could log in and play in the world. I swapped from my phone to the laptop, logged in as the dungeon master, then logged in as a play</summary>
+    <author><name>Wayne Rockett</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How I Built a Fully Local AI Coding Agent with Qwen 3.8, LM Studio, and Pi (No Paid APIs)</title>
+    <link href="https://dev.to/vivek_shetye/how-i-built-a-fully-local-ai-coding-agent-with-qwen-38-lm-studio-and-pi-no-paid-apis-5bp7" rel="alternate"/>
+    <id>https://dev.to/vivek_shetye/how-i-built-a-fully-local-ai-coding-agent-with-qwen-38-lm-studio-and-pi-no-paid-apis-5bp7</id>
+    <updated>2026-10-13T15:33:47Z</updated>
+    <summary type="text">What if you could have an AI coding agent that reads your files, writes code, executes commands, and fixes errors without sending a single model request to the cloud? No OpenAI API. No Anthropic API. No per-token billing. Just an open-weight AI model running on your own hardware. I recently decided to test exactly how practical this setup has become. Using Qwen 3.8 27B, LM Studio, and Pi Coding Ag</summary>
+    <author><name>Vivek Shetye</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How much VRAM do you need to run or fine-tune a 70B model?</title>
+    <link href="https://dev.to/viswaretas_kotra/how-much-vram-do-you-need-to-run-or-fine-tune-a-70b-model-1mf2" rel="alternate"/>
+    <id>https://dev.to/viswaretas_kotra/how-much-vram-do-you-need-to-run-or-fine-tune-a-70b-model-1mf2</id>
+    <updated>2026-10-13T15:33:26Z</updated>
+    <summary type="text">Serving a 70B model takes about 141 GB of GPU memory for the weights at 16-bit, 73 GB at FP8 and 40 GB at 4-bit, plus about 0.33 GB of KV cache for every 1,000 tokens in flight. Fine-tuning takes about 50 GB with QLoRA, 150 GB with LoRA and 1.1 TB for full fine-tuning with AdamW. In practice, one 80 GB GPU covers 4-bit serving and QLoRA, one H200 or two H100s cover FP8 serving, and full fine-tunin</summary>
+    <author><name>Viswaretas Kotra</name></author>
+    <category term="hardware"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>KubeSense: A Private, Local-First AI DevOps Assistant</title>
     <link href="https://dev.to/joydeep_banik_a25a3b3aef3/kubesense-a-private-local-first-ai-devops-assistant-4fn2" rel="alternate"/>
@@ -281,42 +328,5 @@
     <summary type="text">MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.</summary>
     <author><name>Kanwal Mehreen</name></author>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>How to Fine-Tune Llama 3 for Custom Tool Calling with Unsloth in Python</title>
-    <link href="https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/" rel="alternate"/>
-    <id>https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/</id>
-    <updated>2026-10-09T11:00:00Z</updated>
-    <summary type="text">Llama 3 is a capable generalist, but that's exactly the problem when you need an agent that reliably outputs structured JSON for a specific API.</summary>
-    <author><name>Vinod Chugani</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Voice notes Obsidian Claude Code: an idea pipeline that actually compounds</title>
-    <link href="https://dev.to/xin_jiang_0586987bb7e572c/voice-notes-obsidian-claude-code-an-idea-pipeline-that-actually-compounds-53kh" rel="alternate"/>
-    <id>https://dev.to/xin_jiang_0586987bb7e572c/voice-notes-obsidian-claude-code-an-idea-pipeline-that-actually-compounds-53kh</id>
-    <updated>2026-10-09T08:31:38Z</updated>
-    <summary type="text">Most good ideas don't die because you forgot them. They die because you did write them down, in an app with a few hundred other notes, and nothing ever brought them back. This is the setup I use to make spoken ideas turn into real work. It has three links, and each one matters. Link 1: Capture by voice, not typing Ideas show up while walking, driving, or listening to a podcast, when typing on a ph</summary>
-    <author><name>Xin Jiang</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Run Google Antigravity AI on Android with a Native Web GUI (No PC or VNC)</title>
-    <link href="https://dev.to/radnusd/how-to-run-google-antigravity-ai-on-android-with-a-native-web-gui-no-pc-or-vnc-3561" rel="alternate"/>
-    <id>https://dev.to/radnusd/how-to-run-google-antigravity-ai-on-android-with-a-native-web-gui-no-pc-or-vnc-3561</id>
-    <updated>2026-10-09T08:30:36Z</updated>
-    <summary type="text">Google Antigravity is a powerful autonomous AI coding assistant. While primarily designed for desktop environments, you can actually run it 100% natively on Android inside Termux, complete with Google's official desktop Web GUI accessible directly in your mobile browser at http://localhost:4400. In this tutorial, we will set up the standalone environment without needing a PC, cloud relays, VNC vie</summary>
-    <author><name>RadnusD</name></author>
-    <category term="tutorial"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Shai-Hulud Just Infected an AI Agent Platform's npm Package — What Self-Hosted n8n Builders Must Do Now</title>
-    <link href="https://dev.to/cortexflow_tech/shai-hulud-just-infected-an-ai-agent-platforms-npm-package-what-self-hosted-n8n-builders-must-do-kbg" rel="alternate"/>
-    <id>https://dev.to/cortexflow_tech/shai-hulud-just-infected-an-ai-agent-platforms-npm-package-what-self-hosted-n8n-builders-must-do-kbg</id>
-    <updated>2026-10-09T08:30:03Z</updated>
-    <summary type="text">On October 8, 2026, the npm package tensorlake — the TypeScript SDK for Tensorlake's AI agent infrastructure — was compromised by a new Shai-Hulud worm variant. Version 0.5.144 shipped a preinstall hook that stole npm tokens, GitHub tokens, AWS keys, SSH keys, .env files, crypto wallets, and browser passwords from every machine that installed it. The version was pulled within minutes, but the malw</summary>
-    <author><name>CortexFlow</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
