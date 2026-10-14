@@ -4,7 +4,45 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-14T00:59:29Z</updated>
+  <updated>2026-10-14T06:02:10Z</updated>
+  <entry>
+    <title>Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion</title>
+    <link href="https://arxiv.org/abs/2610.18871v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.18871v1</id>
+    <updated>2026-10-13T17:59:53Z</updated>
+    <summary type="text">Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. </summary>
+    <author><name>Yu-Lun Liu</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark</title>
+    <link href="https://arxiv.org/abs/2610.18844v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.18844v1</id>
+    <updated>2026-10-13T17:57:43Z</updated>
+    <summary type="text">Repetition counting requires identifying and enumerating action cycles over time. While state-of-the-art video language models describe actions fluently, they fail to reliably count how many times an action repeats. To investigate this limitation, we introduce RepProbe, a benchmark of 42K real and synthetic video clips containing exactly k in [1, 20] complete repetitions, with controls for clip po</summary>
+    <author><name>Sarah Adel Bargal</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Trust Before Autonomy: Rethinking Agentic Remote Sensing for Crisis Response</title>
+    <link href="https://arxiv.org/abs/2610.18789v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.18789v1</id>
+    <updated>2026-10-13T17:39:23Z</updated>
+    <summary type="text">Agentic remote sensing is evaluated on how many questions it can answer, whereas crisis response depends on whether its answers can be relied on and how much of the decision can safely be handed to the agent. This paper argues that \emph{autonomy should be earned, not assumed}: An Earth-Observation (EO) agent should be granted autonomy in proportion to demonstrated reliability, epistemic honesty a</summary>
+    <author><name>Georgios Th. Papadopoulos</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Context-aware Bayesian Fusion for Multimodal Object Detection</title>
+    <link href="https://arxiv.org/abs/2610.18741v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.18741v1</id>
+    <updated>2026-10-13T17:10:27Z</updated>
+    <summary type="text">Reliable detection of pedestrians and road users is essential for the safe operation of autonomous vehicles. However, this task becomes increasingly challenging under adverse environmental conditions, such as poor weather and low lighting, where the performance of state-of-the-art pre-trained object detectors and on-board sensors tends to degrade, which limits their effectiveness and reliability. </summary>
+    <author><name>James Foresi</name></author>
+    <category term="research"/>
+    <category term="computer-vision"/>
+  </entry>
   <entry>
     <title>Clearing chat history helps AI agents find better solutions</title>
     <link href="https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/" rel="alternate"/>
@@ -60,32 +98,5 @@
     <summary type="text">With the vLLM Semantic Router team we released Decision 3.0 (d3), our new SOTA decision model family ranging from 0.6B to 27B, Apache-2.0, all reading text, images and video. How it works - Built on Qwen3.5 (0.8B / 2B / 4B / 9B) and Qwen3.8-27B. The parameter counts include the vision encoder: 0.33B in the 4B, 0.46B in the 27B. - Three decision types: choice, yes/no, score. Probability for every a</summary>
     <author><name>/u/henzy123</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Every Model That Can Be Run On 10-16GB VRAM Ranked</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/</id>
-    <updated>2026-10-11T19:12:36Z</updated>
-    <summary type="text">It's been 4 years since c.ai first hallucination model, and yet, we're nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that allow those within 10-16GB VRAM range to run something usable up to 64k Context Windows via Kobold or LLAMA. Requirements: 10-16GB VRAM - 26-32GB RAM. How I Evaluated: Speed; If tokens per</summary>
-    <author><name>/u/WEREWOLF_BX13</name></author>
-    <category term="robotics"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What's up with google scholar citations ? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/</id>
-    <updated>2026-10-11T18:17:59Z</updated>
-    <summary type="text">Early-stage researcher, and yes, I get excited about people citing my work. I was browsing through arXiv for accepted NeurIPS papers, and I saw multiple papers citing my work. These papers have been there for months, but Google Scholar still has not updated its citations, and it has occurred before, but I ignored it and thought it was a one-time error. Does it usually happen? How long do you wait </summary>
-    <author><name>/u/ade17_in</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Is a second MSc worth it? [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/</id>
-    <updated>2026-10-11T14:48:55Z</updated>
-    <summary type="text">I’m an AI research engineer based in Africa with about 3 YoEs in RL, LLMs, post-training, and systems efficiency (CUDA/vLLM). However, on a smaller scale because of compute limits. My undergrad and Master’s are both in communications engineering. I did a 5th-year Master's at my local university while working full-time at a telecom company, focusing on RL in telecom. Publication-wise, I have one pa</summary>
-    <author><name>/u/Fit_Caterpillar4434</name></author>
   </entry>
 </feed>

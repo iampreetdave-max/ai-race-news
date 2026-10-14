@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-14T00:59:29Z</updated>
+  <updated>2026-10-14T06:02:10Z</updated>
   <entry>
     <title>SpaceXSI bundles X Premium, Grok, and Cursor into one subscription</title>
     <link href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/" rel="alternate"/>
@@ -33,6 +33,15 @@
     <author><name>Emil Reiter</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Do AI Coding Agents Leak Your API Keys?</title>
+    <link href="https://dev.to/maria_bcn/do-ai-coding-agents-leak-your-api-keys-3mfm" rel="alternate"/>
+    <id>https://dev.to/maria_bcn/do-ai-coding-agents-leak-your-api-keys-3mfm</id>
+    <updated>2026-10-13T21:02:28Z</updated>
+    <summary type="text">In January The Register showed Claude Code 2.1.12 reading a .env it had been told to ignore and printing the secrets in it. While I was working on my new Mac app, which keeps API keys in iCloud Keychain instead of .env files, I wanted to check if that's still the case with current models. I ran 202 tests over 8 models, using a small project with fake keys and normal developer tasks, and kept every</summary>
+    <author><name>Maria</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>How many tokens does a web page cost your LLM? We measured 20 real pages</title>
@@ -94,6 +103,16 @@
     <updated>2026-10-11T06:20:21Z</updated>
     <summary type="text">OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost.</summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Netflix’s documentary of Huggingface discussion</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x4y1eq/netflixs_documentary_of_huggingface_discussion/" rel="alternate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x4y1eq/netflixs_documentary_of_huggingface_discussion/</id>
+    <updated>2026-10-13T14:24:21Z</updated>
+    <summary type="text">It just popped on my feed. I watched the teaser in the Netflix app and a few things jumped out The constant use of anthromorphism using terms like altruism and sacrifice when in engineering literally there are terms like kill, killall, pkill for terminating processes, therefore our adoptiom of similar language with AI agents for starting and ending processes. Using war analogies “there’s this mome</summary>
+    <author><name>/u/freedomachiever</name></author>
+    <category term="open-source"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Your Model Just Invented a Form. Build a Tiny UI Component Gate in TypeScript.</title>
@@ -238,68 +257,5 @@
     <summary type="text">Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What to expect during the AI Data Pipeline Forum: Join theCUBE Oct. 13</title>
-    <link href="https://siliconangle.com/2026/10/10/ai-infrastructure-bottlenecks-forum-aidatapipelineforum/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/10/10/ai-infrastructure-bottlenecks-forum-aidatapipelineforum/</id>
-    <updated>2026-10-10T22:06:15Z</updated>
-    <summary type="text">The artificial intelligence infrastructure race is no longer just about building faster chips. AI infrastructure bottlenecks are shifting attention to a bigger challenge: keeping those chips supplied with data, connected through high-speed networks and operating within increasingly demanding power and cooling limits.. That systems-level challenge takes the spotlight at the AI Data Pipeline Forum i</summary>
-    <author><name>Cheryl Knight</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>5 Simple GitLab CI/CD Pipeline Optimizations to Speed Up Your Builds</title>
-    <link href="https://dev.to/hrlpavan/5-simple-gitlab-cicd-pipeline-optimizations-to-speed-up-your-builds-3oai" rel="alternate"/>
-    <id>https://dev.to/hrlpavan/5-simple-gitlab-cicd-pipeline-optimizations-to-speed-up-your-builds-3oai</id>
-    <updated>2026-10-10T06:45:55Z</updated>
-    <summary type="text">Fast feedback loops are the backbone of high-performing DevOps teams. Waiting 20 minutes for a pipeline to run tests or build artifacts slows down shipping and interrupts developer flow. Here are five battle-tested techniques you can add to your .gitlab-ci.yml today to slash pipeline duration. 1. Optimize Caching with Directed Cache Keys Re-downloading dependencies on every stage wastes valuable b</summary>
-    <author><name>Pavan Kumar Sadashiv</name></author>
-  </entry>
-  <entry>
-    <title>Train an 8B LLM on a 4GB Laptop GPU: Hands-On with Soup</title>
-    <link href="https://dev.to/hui_feng_f2247629b1d2be00/train-an-8b-llm-on-a-4gb-laptop-gpu-hands-on-with-soup-3ipm" rel="alternate"/>
-    <id>https://dev.to/hui_feng_f2247629b1d2be00/train-an-8b-llm-on-a-4gb-laptop-gpu-hands-on-with-soup-3ipm</id>
-    <updated>2026-10-10T06:43:10Z</updated>
-    <summary type="text">Train an 8B LLM on a 4GB Laptop GPU: Hands-On with Soup TL;DR Soup eliminates the high VRAM barrier of LLM fine-tuning by introducing layer streaming, enabling you to fine-tune an 8B parameter model on a consumer GPU with as little as 4 GB VRAM. Everything—from dataset loading to training hyperparams—is configured inside a single, declarative YAML file, stripping away days of boilerplate setup. Ke</summary>
-    <author><name>hui feng</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>I tested different Qwen 3.8 27B quants</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/</id>
-    <updated>2026-10-11T20:24:54Z</updated>
-    <summary type="text">There is a lot of discussion which quant to use. Especially a lot of post how much speed you gain with FP4, but not much about quality. So i tested some of the models that I use on my R9700. Models: Qwen3.8-27B-UD-Q6_K_L.gguf Swift-Qwen3.8-27B-Q6_K.gguf Swift-1.5-Qwen3.8-27B-MXFP4-A-outQ6_K.gguf Hypotheses: Qwen3.8-27B-UD-Q6_K_L.gguf best in accuracy and slowest Swift-Qwen3.8-27B-Q6_K.gguf second </summary>
-    <author><name>/u/JurBank</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built a lightweight tool that automatically frees up VRAM for gaming and restores your local LLMs afterward</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3f1nf/i_built_a_lightweight_tool_that_automatically/" rel="alternate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3f1nf/i_built_a_lightweight_tool_that_automatically/</id>
-    <updated>2026-10-11T18:07:05Z</updated>
-    <summary type="text">I run local LLMs pretty much around the clock, but I also enjoy gaming on the same PC. Having models sitting in VRAM while gaming isn't exactly ideal, and constantly unloading and reloading them manually got annoying. So I built GamePause. It's a lightweight, open-source Windows tray app that: Automatically detects when you launch a game (Steam, Epic, GOG, etc.) Unloads your LM Studio/Ollama model</summary>
-    <author><name>/u/zainfear</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Microsoft 365 Family subscribers will finally be able to share AI benefits</title>
-    <link href="https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes" rel="alternate"/>
-    <id>https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes</id>
-    <updated>2026-10-09T07:14:32Z</updated>
-    <summary type="text">Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and AI usage features, alongside access to Office apps and OneDrive storage, with […]</summary>
-    <author><name>Tom Warren</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
-    <link href="https://openai.com/index/oracle" rel="alternate"/>
-    <id>https://openai.com/index/oracle</id>
-    <updated>2026-10-08T16:00:00Z</updated>
-    <summary type="text">Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</summary>
-    <author><name>OpenAI Blog</name></author>
   </entry>
 </feed>
