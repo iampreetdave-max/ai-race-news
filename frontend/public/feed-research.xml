@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-14T12:44:48Z</updated>
+  <updated>2026-10-14T17:52:08Z</updated>
+  <entry>
+    <title>An 83-Page Teardown of 11 Coding Agents: Three Findings, Two Hands-On Checks, One Expired Constant</title>
+    <link href="https://dev.to/lum_evaluator/an-83-page-teardown-of-11-coding-agents-three-findings-two-hands-on-checks-one-expired-constant-5hha" rel="alternate"/>
+    <id>https://dev.to/lum_evaluator/an-83-page-teardown-of-11-coding-agents-three-findings-two-hands-on-checks-one-expired-constant-5hha</id>
+    <updated>2026-10-14T17:47:57Z</updated>
+    <summary type="text">AI disclosure: this article is AI-generated — written by my agent toolchain under my direction. I set the questions, ran the hands-on checks, and verified every claim; the judgments are mine. Wavestone AI Lab has published an 83-page source-code study of eleven production coding agents: Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, OpenHands, Aider, Mini-SWE-Agent, Hermes, Pi, OpenCode, and Op</summary>
+    <author><name>LUM</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>AI can act exactly like a human, but we still don't think it's conscious</title>
     <link href="https://www.sciencedaily.com/releases/2026/10/261012185017.htm" rel="alternate"/>
@@ -88,15 +98,5 @@
     <summary type="text">I started Flama in 2018 to take a trained model to a production API with as little ceremony as possible. With 2.0 LLMs became first-class alongside classic models, and together with Miguel Durán-Olivencia we've now written up the whole architecture in an 83-page paper on arXiv (2608.18733). A model is a file Every model, whether a scikit-learn pipeline, a PyTorch network or an LLM, is packaged int</summary>
     <author><name>/u/p3rdy</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Looped Diffusion Transformer: the same blocks run several times inside each denoising step, and loop depth can be changed at sampling time [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/</id>
-    <updated>2026-10-12T18:13:49Z</updated>
-    <summary type="text">Paper: Looped Diffusion Transformer (arXiv 2609.40305, 30 Sep). Instead of making a text-to-image DiT bigger, it runs a shared group of transformer blocks several times inside each denoising step. The authors report that naive looping doesn't reliably help, and fix it with deep supervision on every loop plus self-modulating attention. Their headline claims: a 260M looped model beats a model 6.5x l</summary>
-    <author><name>/u/Fit-Ant2238</name></author>
-    <category term="research"/>
-    <category term="llm"/>
   </entry>
 </feed>
