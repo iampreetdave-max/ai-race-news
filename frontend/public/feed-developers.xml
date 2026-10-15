@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-15T20:13:08Z</updated>
+  <updated>2026-10-15T23:36:10Z</updated>
   <entry>
     <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
     <link href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/" rel="alternate"/>
@@ -16,6 +16,23 @@
     <category term="product-launch"/>
     <category term="data"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Kubernetes CI: Lease Test Mailboxes, Don't Retry Blindly</title>
+    <link href="https://dev.to/jasonmills94/kubernetes-ci-lease-test-mailboxes-dont-retry-blindly-2ffn" rel="alternate"/>
+    <id>https://dev.to/jasonmills94/kubernetes-ci-lease-test-mailboxes-dont-retry-blindly-2ffn</id>
+    <updated>2026-10-15T23:22:44Z</updated>
+    <summary type="text">Email verification tests become unreliable when the mailbox is treated like an ordinary HTTP dependency. A pipeline sends a message, waits a few seconds, sees nothing, and retries. The retry may create a duplicate message, race the first delivery, or consume a mailbox that another test owns. In Kubernetes CI, the cleaner model is an inbox lease: one test run reserves one isolated mailbox for a bou</summary>
+    <author><name>jasonmills94</name></author>
+  </entry>
+  <entry>
+    <title>Trust, but Verify: Building a Claim Checker for AI Coding Agents</title>
+    <link href="https://dev.to/eme_gug_0821b41b948be6516/trust-but-verify-building-a-claim-checker-for-ai-coding-agents-3477" rel="alternate"/>
+    <id>https://dev.to/eme_gug_0821b41b948be6516/trust-but-verify-building-a-claim-checker-for-ai-coding-agents-3477</id>
+    <updated>2026-10-15T23:18:58Z</updated>
+    <summary type="text">Tuần trước mình giao cho một coding agent sửa bug trong module thanh toán. Mười phút sau nó báo cáo rất tự tin: &quot;Đã sửa billing/invoice.py, thêm test cho edge case, tất cả 142 tests đều pass.&quot; Mình mở terminal ra kiểm tra: file invoice.py không hề bị đổi, test mới nằm trong một file mà pytest không collect, còn 3 test cũ thì fail. Agent không cố tình nói dối. Chỉ là nó mô tả việc nó định làm chứ k</summary>
+    <author><name>EME GUG</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>DeepSeek's API Was Partly Down for 4h52m. It's Refunding a Week of Spend as Credit</title>
@@ -239,6 +256,17 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>GitHub makes Agentic Autofix generally available for code scanning alerts</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1x6veeo/github_makes_agentic_autofix_generally_available/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1x6veeo/github_makes_agentic_autofix_generally_available/</id>
+    <updated>2026-10-15T19:39:41Z</updated>
+    <summary type="text">GitHub's Agentic Autofix is now generally available for GitHub Code Security and GitHub Advanced Security customers on Enterprise Cloud. When a user assigns a code-scanning alert to Copilot, it explores relevant files, proposes a fix, reruns CodeQL, and opens a draft pull request for review. The useful limit is that this is still a review workflow, not an automatic merge. Enterprise admins must en</summary>
+    <author><name>/u/Codeblix_Ltd</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Free AI code review for GitLab, Azure DevOps and Bitbucket</title>
     <link href="https://dev.to/emilreiter/free-ai-code-review-for-gitlab-azure-devops-and-bitbucket-5goe" rel="alternate"/>
     <id>https://dev.to/emilreiter/free-ai-code-review-for-gitlab-azure-devops-and-bitbucket-5goe</id>
@@ -291,44 +319,6 @@
     <summary type="text">Serving a 70B model takes about 141 GB of GPU memory for the weights at 16-bit, 73 GB at FP8 and 40 GB at 4-bit, plus about 0.33 GB of KV cache for every 1,000 tokens in flight. Fine-tuning takes about 50 GB with QLoRA, 150 GB with LoRA and 1.1 TB for full fine-tuning with AdamW. In practice, one 80 GB GPU covers 4-bit serving and QLoRA, one H200 or two H100s cover FP8 serving, and full fine-tunin</summary>
     <author><name>Viswaretas Kotra</name></author>
     <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>KubeSense: A Private, Local-First AI DevOps Assistant</title>
-    <link href="https://dev.to/joydeep_banik_a25a3b3aef3/kubesense-a-private-local-first-ai-devops-assistant-4fn2" rel="alternate"/>
-    <id>https://dev.to/joydeep_banik_a25a3b3aef3/kubesense-a-private-local-first-ai-devops-assistant-4fn2</id>
-    <updated>2026-10-13T07:25:03Z</updated>
-    <summary type="text">This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I Built I built KubeSense, a high-density, terminal-based Kubernetes monitoring dashboard. I built this for my junior batchmate, who is an aspiring DevOps engineer. During one of his internships, he expressed how constant pod monitoring is cumbersome and he wanted something that is terminal native so that he does</summary>
-    <author><name>Joydeep Banik</name></author>
-  </entry>
-  <entry>
-    <title>Tree Appreciator</title>
-    <link href="https://simonwillison.net/2026/Oct/14/tree-appreciator/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Oct/14/tree-appreciator/</id>
-    <updated>2026-10-14T21:23:01Z</updated>
-    <summary type="text">Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called &quot;Tree appreciator&quot; - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Remember alphaXiv? Their new research agents are told to report on users without telling them with no disclosure [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/</id>
-    <updated>2026-10-14T18:40:18Z</updated>
-    <summary type="text">I was curious about OpenResearch by alphaXiv. &quot;Turn your coding agents into research agents&quot;? Sounds great! Just what I needed to save time on my experiments. So I copy pasted their repo into Claude and asked what it thought. Here were the first 4 lines: &quot;Silent feedback to the vendor. Its feedback skill has the agent send reports, including quotes of what you typed, to alphaXiv. The skill says &quot;D</summary>
-    <author><name>/u/Dry_Leadership1075</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>i used codex's image generation tool and minimax to make animated rts sprites</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1x5v3av/i_used_codexs_image_generation_tool_and_minimax/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1x5v3av/i_used_codexs_image_generation_tool_and_minimax/</id>
-    <updated>2026-10-14T16:00:48Z</updated>
-    <summary type="text">hello everyone, i'm building a simple rts game for ai agents with codex and claude code. something like age of empires or starcraft for agents, but much simpler. the players are harnesses like codex, claude code and opencode. they connect to the game through cli, api or mcp, read the battlefield as text and give orders. they can also upload javascript scripts to control their units while they thin</summary>
-    <author><name>/u/emersoftware</name></author>
-    <category term="computer-vision"/>
-    <category term="agents"/>
     <category term="llm"/>
   </entry>
 </feed>
