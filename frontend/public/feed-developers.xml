@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-14T21:25:22Z</updated>
+  <updated>2026-10-15T00:21:34Z</updated>
   <entry>
     <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
     <link href="https://openai.com/index/third-moment-research" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>From god-mode to governed: an AI agent that can’t exceed its grant</title>
+    <link href="https://dev.to/rojaneerdev/from-god-mode-to-governed-an-ai-agent-that-cant-exceed-its-grant-4ilk" rel="alternate"/>
+    <id>https://dev.to/rojaneerdev/from-god-mode-to-governed-an-ai-agent-that-cant-exceed-its-grant-4ilk</id>
+    <updated>2026-10-15T00:13:35Z</updated>
+    <summary type="text">Last time I argued that AI agents are running as god-mode service accounts: an agent acts in your systems, and nobody can cleanly answer who authorized that — which human, acting through which agent, with whose permissions, and was anything refused? I promised the next post would show the thing working. So here it is: a real agent, acting as me, in a system that only knows how to talk to a human —</summary>
+    <author><name>Rojaneer</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>An 83-Page Teardown of 11 Coding Agents: Three Findings, Two Hands-On Checks, One Expired Constant</title>
@@ -134,6 +143,15 @@
     <author><name>Joydeep Banik</name></author>
   </entry>
   <entry>
+    <title>Tree Appreciator</title>
+    <link href="https://simonwillison.net/2026/Oct/14/tree-appreciator/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Oct/14/tree-appreciator/</id>
+    <updated>2026-10-14T21:23:01Z</updated>
+    <summary type="text">Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called &quot;Tree appreciator&quot; - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Remember alphaXiv? Their new research agents are told to report on users without telling them with no disclosure [D]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/</id>
@@ -206,25 +224,5 @@
     <summary type="text">Your model returned a form. It had a submit button. The action pointed somewhere you never approved. Intelligent UI is having a moment. On October 7, 2026, OpenAI published GPT-6 and Intelligent UI for everyone. Intelligent UI rolled out that day to Plus, Pro, Business, and Enterprise, with Free and Go the next day. Responses can include graphics, tappable buttons, forms, charts, and interactive e</summary>
     <author><name>Bobby Hall Jr</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I Gave Three Broken AWS Environments to an AI On-Call Engineer. Here's What AWS DevOps Agent Found</title>
-    <link href="https://dev.to/dmitriy_trunov_9a09a497b1/i-gave-three-broken-aws-environments-to-an-ai-on-call-engineer-heres-what-aws-devops-agent-found-3lk4" rel="alternate"/>
-    <id>https://dev.to/dmitriy_trunov_9a09a497b1/i-gave-three-broken-aws-environments-to-an-ai-on-call-engineer-heres-what-aws-devops-agent-found-3lk4</id>
-    <updated>2026-10-11T19:50:16Z</updated>
-    <summary type="text">It’s 2:00 AM. A CloudWatch alert triggers. The on-call engineer wakes up, opens five console tabs, and begins reconstructing the timeline of events from scratch. The AWS DevOps Agent is designed to handle that initial hour of painstaking analysis. AWS refers to it as a &quot;frontier agent&quot;- one that not only resolves incidents but prevents them before they occur. It analyzes CloudWatch metrics, CloudT</summary>
-    <author><name>Dmitriy Trunov</name></author>
-  </entry>
-  <entry>
-    <title>How do you stop an AI agent from overspending on GPUs?</title>
-    <link href="https://dev.to/viswaretas_kotra/how-do-you-stop-an-ai-agent-from-overspending-on-gpus-25cp" rel="alternate"/>
-    <id>https://dev.to/viswaretas_kotra/how-do-you-stop-an-ai-agent-from-overspending-on-gpus-25cp</id>
-    <updated>2026-10-11T15:23:38Z</updated>
-    <summary type="text">Short answer (October 11, 2026): put the limits where the money is spent, not in the prompt: a hard dollar cap on every job the agent launches, a budget that blocks (not just alerts) around all agent work, and a credential scoped so the agent cannot raise either one. Add a dry-run estimate that you approve before anything is created, plus timeouts and idle stops, and a runaway agent costs you the </summary>
-    <author><name>Viswaretas Kotra</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-    <category term="product-launch"/>
-    <category term="hardware"/>
   </entry>
 </feed>
