@@ -4,7 +4,44 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-15T11:06:25Z</updated>
+  <updated>2026-10-15T16:37:02Z</updated>
+  <entry>
+    <title>CrashCart: An AI Debugger That Has to Show Its Receipts (Built on Gemma 4)</title>
+    <link href="https://dev.to/inv1s1bl3/crashcart-an-ai-debugger-that-has-to-show-its-receipts-built-on-gemma-4-3lpk" rel="alternate"/>
+    <id>https://dev.to/inv1s1bl3/crashcart-an-ai-debugger-that-has-to-show-its-receipts-built-on-gemma-4-3lpk</id>
+    <updated>2026-10-15T16:23:48Z</updated>
+    <summary type="text">This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built You run docker compose up. The API container dies. You get forty lines of noise, paste them into a chatbot, and get back a confident paragraph — sometimes quoting an error line that was never in your log. CrashCart is a debugging assistant that has to show its receipts. You paste a terminal log, st</summary>
+    <author><name>Om Honrao</name></author>
+    <category term="open-source"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Eight Minutes to Live. Was It Cursor, or Was It the Spec?</title>
+    <link href="https://dev.to/earlgreyhot1701d/eight-minutes-to-live-was-it-cursor-or-was-it-the-spec-3he8" rel="alternate"/>
+    <id>https://dev.to/earlgreyhot1701d/eight-minutes-to-live-was-it-cursor-or-was-it-the-spec-3he8</id>
+    <updated>2026-10-15T16:23:46Z</updated>
+    <summary type="text">A tip calculator, a stopwatch, and a lot of pesos. TL;DR: I built a USD/MXN tip calculator with Cursor for the Build a Mini App challenge during Hacktoberfest and MLH Global Hack Week. One prompt, one commit, no corrections, and the site was live on GitHub Pages eight minutes after I first asked for a prompt. The prompt is in this post so you can run the same test. What took longer than the build </summary>
+    <author><name>Earl Grey</name></author>
+  </entry>
+  <entry>
+    <title>Why Google Put a Runtime Monitor on Gemini 4 Argon</title>
+    <link href="https://dev.to/reidmarlow/why-google-put-a-runtime-monitor-on-gemini-4-argon-3cb3" rel="alternate"/>
+    <id>https://dev.to/reidmarlow/why-google-put-a-runtime-monitor-on-gemini-4-argon-3cb3</id>
+    <updated>2026-10-15T16:23:11Z</updated>
+    <summary type="text">Google DeepMind launched Gemini 4 Argon this week. The headline numbers look like typical frontier model marketing: top rank on the Vals Index, a 1M token context window, an introductory price of $2 per million input tokens, and a 95% discount on cached prompts. Google highlighted internal wins too, like refactoring legacy Chromium folders across hundreds of files and letting an agent rewrite part</summary>
+    <author><name>Reid Marlow</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Windows 365 for Agents checks Cloud PCs out to agents. Build the same check-out pool with Microsoft Agent Framework</title>
+    <link href="https://dev.to/burrowbox/windows-365-for-agents-checks-cloud-pcs-out-to-agents-build-the-same-check-out-pool-with-microsoft-2elc" rel="alternate"/>
+    <id>https://dev.to/burrowbox/windows-365-for-agents-checks-cloud-pcs-out-to-agents-build-the-same-check-out-pool-with-microsoft-2elc</id>
+    <updated>2026-10-15T16:22:22Z</updated>
+    <summary type="text">What Windows 365 for Agents does Windows 365 for Agents is Microsoft's class of Cloud PCs built for agents to use. An agent checks out a Cloud PC when it needs one for a task, then checks it back in when the task is done so another agent can use it. (Microsoft Learn) The same overview and Microsoft's related pages add more detail: Governed machines. The Cloud PCs are managed by Intune and governed</summary>
+    <author><name>Burrowbox</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
   <entry>
     <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
     <link href="https://openai.com/index/third-moment-research" rel="alternate"/>
@@ -22,6 +59,15 @@
     <summary type="text">Disclosure: this article was drafted with AI assistance (Claude) from measurements recorded in the dockdu repository. Every number comes from the measurement log and can be reproduced on a disposable docker:dind container. docker system df says the build cache is empty. docker system prune -af reports Total reclaimed space: 0B. df -h still shows the disk filling up. Here are two cases where all th</summary>
     <author><name>Maxi</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Cerebras positions inference speed as a competitive edge in agentic AI</title>
+    <link href="https://siliconangle.com/2026/10/15/agentic-workflows-make-speed-requirement-says-cerebras-aidatapipelineforum/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/10/15/agentic-workflows-make-speed-requirement-says-cerebras-aidatapipelineforum/</id>
+    <updated>2026-10-15T15:35:03Z</updated>
+    <summary type="text">Agentic workflows are making speed a condition for whole classes of AI applications to exist, and the fastest tokens will determine which platforms win the next phase of AI. Cerebras Systems Inc., which raised $5.5 billion in its May 2026 initial public offering, built its business on making processors much faster, according to Andy Hock […] The post Cerebras positions inference speed as a competi</summary>
+    <author><name>Jonathan Anthony</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>From god-mode to governed: an AI agent that can’t exceed its grant</title>
@@ -205,23 +251,5 @@
     <updated>2026-10-14T10:43:40Z</updated>
     <summary type="text">I was running batch automation in browser to collecting something but codex kept me updated after they 1 edit it make i am doing 1000 list automation if i get updated after every edit it would take 2 - 3 days to complete the process. Despite adding in prompt don't update everytime it just kept responsing the same update every time until i lose my patience. Is this behaviour acceptable or am i just</summary>
     <author><name>/u/WatchOk1240</name></author>
-  </entry>
-  <entry>
-    <title>Building AI Agents with LangGraph: From Fundamentals to Production</title>
-    <link href="https://dev.to/ipsphil_digital/building-ai-agents-with-langgraph-from-fundamentals-to-production-1cbl" rel="alternate"/>
-    <id>https://dev.to/ipsphil_digital/building-ai-agents-with-langgraph-from-fundamentals-to-production-1cbl</id>
-    <updated>2026-10-12T17:25:45Z</updated>
-    <summary type="text">Building AI Agents with LangGraph: From Fundamentals to Production A comprehensive guide to building reliable, stateful AI agents using LangGraph — the orchestration framework for agentic workflows. Introduction AI agents are LLMs equipped with tools, memory, and reasoning loops. LangGraph provides the orchestration layer to make them production-ready. Why LangGraph? Feature LangChain Agents LangG</summary>
-    <author><name>Phil IPS</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Spent nearly a year building my game</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1x5hfnc/spent_nearly_a_year_building_my_game/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1x5hfnc/spent_nearly_a_year_building_my_game/</id>
-    <updated>2026-10-14T03:57:10Z</updated>
-    <summary type="text">I can't code, codex and Claude have done all the coding. It was really rough in the beginning of this year and took forever to make progress. Every month developing this to life got a bit easier. When Sol came and then the big one was Astra progress per week sky rocketed. I max my weekly tokens every week. I handle all the tuning for the visuals, ui, story, mechanics, balance, audio, features. Gam</summary>
-    <author><name>/u/BestStorage6608</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
