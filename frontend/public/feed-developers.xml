@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-16T08:52:45Z</updated>
+  <updated>2026-10-16T13:50:48Z</updated>
   <entry>
     <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
     <link href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/" rel="alternate"/>
@@ -304,22 +304,5 @@
     <author><name>Emil Reiter</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Do AI Coding Agents Leak Your API Keys?</title>
-    <link href="https://dev.to/maria_bcn/do-ai-coding-agents-leak-your-api-keys-3mfm" rel="alternate"/>
-    <id>https://dev.to/maria_bcn/do-ai-coding-agents-leak-your-api-keys-3mfm</id>
-    <updated>2026-10-13T21:02:28Z</updated>
-    <summary type="text">In January The Register showed Claude Code 2.1.12 reading a .env it had been told to ignore and printing the secrets in it. While I was working on my new Mac app, which keeps API keys in iCloud Keychain instead of .env files, I wanted to check if that's still the case with current models. I ran 202 tests over 8 models, using a small project with fake keys and normal developer tasks, and kept every</summary>
-    <author><name>Maria</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How many tokens does a web page cost your LLM? We measured 20 real pages</title>
-    <link href="https://dev.to/ragfeed/raw-html-vs-full-page-text-vs-main-content-markdown-median-range-and-the-cases-where-the-lnh" rel="alternate"/>
-    <id>https://dev.to/ragfeed/raw-html-vs-full-page-text-vs-main-content-markdown-median-range-and-the-cases-where-the-lnh</id>
-    <updated>2026-10-13T20:59:21Z</updated>
-    <summary type="text">Raw HTML vs. full-page text vs. main-content Markdown — median, range, and the cases where the saving is small. If you build RAG pipelines or agents that read the web, every page you fetch ends up as input tokens: in the embedding step, in the context window, on every query. So what you hand the model matters. We measured it on 20 real pages instead of guessing. TL;DR The median raw HTML page in o</summary>
-    <author><name>Leif Albrand</name></author>
   </entry>
 </feed>
