@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-16T20:43:35Z</updated>
+  <updated>2026-10-16T23:21:11Z</updated>
   <entry>
     <title>China tightens export controls on open-weight models and 23 key AI technologies</title>
     <link href="https://the-decoder.com/china-tightens-export-controls-on-open-weight-models-and-23-key-ai-technologies/" rel="alternate"/>
@@ -33,6 +33,25 @@
     <category term="product-launch"/>
     <category term="data"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Building a RAG assistant that says “I don’t know”: evaluation, security and a $0 deployment</title>
+    <link href="https://dev.to/pabscueto/building-a-rag-assistant-that-says-i-dont-know-evaluation-security-and-a-0-deployment-28lm" rel="alternate"/>
+    <id>https://dev.to/pabscueto/building-a-rag-assistant-that-says-i-dont-know-evaluation-security-and-a-0-deployment-28lm</id>
+    <updated>2026-10-16T23:16:29Z</updated>
+    <summary type="text">Most RAG tutorials end when the chatbot answers a question about a PDF. I wanted to find out what comes after that: how do you know it works, who is allowed to see what, what happens when a document tries to give it orders, and how do you ship it without paying for anything? This post walks through enterprise-ai-agent, a learning and portfolio project. It answers questions about public AWS documen</summary>
+    <author><name>Ing. Pablo Cueto</name></author>
+    <category term="tutorial"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Your Agent's RENAME COLUMN Breaks Every Old Pod. Expand-Contract in 4 Steps</title>
+    <link href="https://dev.to/gabrielanhaia/your-agents-rename-column-breaks-every-old-pod-expand-contract-in-4-steps-3h4" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/your-agents-rename-column-breaks-every-old-pod-expand-contract-in-4-steps-3h4</id>
+    <updated>2026-10-16T23:05:53Z</updated>
+    <summary type="text">Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You ask a coding agent to rename users.name to full_name. It updates the model, fixes every query, and writes a migration with one li</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>What was filling my 1 TB drive: developer and AI tools, not my files</title>
@@ -200,6 +219,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang</title>
+    <link href="https://simonwillison.net/2026/Oct/16/code-review/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Oct/16/code-review/</id>
+    <updated>2026-10-16T22:06:37Z</updated>
+    <summary type="text">We think &quot;did a human read the code?&quot; is an imprecise proxy for &quot;what could go wrong with this change, and which check—automated or human—is the right one to catch it?&quot; Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>docker builder prune freed 0 B: two places Docker keeps disk space that no prune reaches</title>
     <link href="https://dev.to/taventix/docker-builder-prune-freed-0-b-two-places-docker-keeps-disk-space-that-no-prune-reaches-3lpb" rel="alternate"/>
     <id>https://dev.to/taventix/docker-builder-prune-freed-0-b-two-places-docker-keeps-disk-space-that-no-prune-reaches-3lpb</id>
@@ -290,14 +319,5 @@
     <category term="agents"/>
     <category term="llm"/>
     <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>SpaceXSI bundles X Premium, Grok, and Cursor into one subscription</title>
-    <link href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/" rel="alternate"/>
-    <id>https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/</id>
-    <updated>2026-10-13T13:50:19Z</updated>
-    <summary type="text">The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.</summary>
-    <author><name>Sarah Perez</name></author>
-    <category term="llm"/>
   </entry>
 </feed>

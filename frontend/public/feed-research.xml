@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-16T20:43:35Z</updated>
+  <updated>2026-10-16T23:21:11Z</updated>
   <entry>
     <title>Elorian’s first AI model wants to reason with images, not just about them</title>
     <link href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/" rel="alternate"/>
@@ -14,6 +14,17 @@
     <author><name>Aditya Mehta</name></author>
     <category term="llm"/>
     <category term="research"/>
+  </entry>
+  <entry>
+    <title>How to Run Qwen3.8-Flash-Next FP4 Locally (It Needs Blackwell and 55 Env Vars)</title>
+    <link href="https://dev.to/alanwest/how-to-run-qwen38-flash-next-fp4-locally-it-needs-blackwell-and-55-env-vars-3oii" rel="alternate"/>
+    <id>https://dev.to/alanwest/how-to-run-qwen38-flash-next-fp4-locally-it-needs-blackwell-and-55-env-vars-3oii</id>
+    <updated>2026-10-16T23:10:02Z</updated>
+    <summary type="text">NVIDIA's FP4 build of Qwen3.8-Flash-Next is 96 GiB on disk. The BF16 original is about 355 GB. NVIDIA says the accuracy cost of that shrink is 0.7 points on GPQA Diamond. If you want to run Qwen3.8 Flash Next locally, that sounds like the obvious download. It isn't, at least not yet. The first line of the model card tells you upstream vLLM can't load it. Blackwell is the only supported architectur</summary>
+    <author><name>Alan West</name></author>
+    <category term="data"/>
+    <category term="hardware"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM</title>
@@ -71,16 +82,6 @@
     <updated>2026-10-14T17:47:57Z</updated>
     <summary type="text">AI disclosure: this article is AI-generated — written by my agent toolchain under my direction. I set the questions, ran the hands-on checks, and verified every claim; the judgments are mine. Wavestone AI Lab has published an 83-page source-code study of eleven production coding agents: Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, OpenHands, Aider, Mini-SWE-Agent, Hermes, Pi, OpenCode, and Op</summary>
     <author><name>LUM</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>How do you publish on arXiv without an institution? Looking for an endorser or reviewer for a paper on modular, toolchain-validated small code models [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x6zc4g/how_do_you_publish_on_arxiv_without_an/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x6zc4g/how_do_you_publish_on_arxiv_without_an/</id>
-    <updated>2026-10-15T22:19:46Z</updated>
-    <summary type="text">Hello everyone 👋 I wanted to publish my very first scientific article on platforms like arXiV or ResearchGate, but because I do not have the scientific community around me that can help me with that - I need to ask here how you'd overcome this. Recently I finished the article materials around very new class of the language models (our own invention so to say), but now I feel dumb what to do and ho</summary>
-    <author><name>/u/Aware_Conversation82</name></author>
     <category term="llm"/>
     <category term="research"/>
   </entry>
