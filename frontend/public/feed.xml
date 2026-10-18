@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/</id>
-  <updated>2026-10-18T17:54:42Z</updated>
+  <updated>2026-10-18T20:20:31Z</updated>
+  <entry>
+    <title>TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web</title>
+    <link href="https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/</id>
+    <updated>2026-10-18T18:20:28Z</updated>
+    <summary type="text">An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while reasoning and generated responses add further costs. TinyFish, a web infrastructure […] The post TinyFish Makes Search Free: What It Really Costs an AI Agent </summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="agents"/>
+  </entry>
   <entry>
     <title>Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours</title>
     <link href="https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/" rel="alternate"/>
@@ -24,6 +33,15 @@
     <author><name>Matthias Bastian</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Anthropic to Shift Some Shares Into New ‘Public Good’ Fund</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund</id>
+    <updated>2026-10-18T18:03:03Z</updated>
+    <summary type="text">Anthropic PBC said it plans to put 5% of its shares into a new so-called public benefit fund that allows it to make donations that can address “the public good,” including mitigating AI’s impact on the job market.</summary>
+    <author><name>Katrina Manson</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Two German courts now hold Google liable for what its AI overviews say</title>
@@ -157,6 +175,66 @@
     <updated>2026-10-17T20:22:11Z</updated>
     <summary type="text">Kyutai, with Inria and École des Ponts, has released REKI, a 2.4B vision-language-action model (VLA) for robot manipulation. The REKI vision-language-action model is pretrained only on public data. It also carries a cheap memory of its recent past. On three out-of-distribution benchmarks, only models about twice its size beat it. All weights are live on […] The post Meet Kyutai REKI: The 2.4B VLA </summary>
     <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>AI Chargeback Disputes: How Small Ecommerce Stores Automate Evidence and Win</title>
+    <link href="https://dev.to/veduis/ai-chargeback-disputes-how-small-ecommerce-stores-automate-evidence-and-win-bhc" rel="alternate"/>
+    <id>https://dev.to/veduis/ai-chargeback-disputes-how-small-ecommerce-stores-automate-evidence-and-win-bhc</id>
+    <updated>2026-10-18T20:07:51Z</updated>
+    <summary type="text">In March 2025 I watched a client lose $1,180 to a single Visa dispute she never fought. Not because the customer was right. Because she never opened the dispute portal at all. The notification sat in her payment processor inbox for 12 days, the deadline passed, and the money was gone. That one lazy moment convinced her to spend a weekend automating the whole thing. Nine months later her store's ch</summary>
+    <author><name>Veduis</name></author>
+  </entry>
+  <entry>
+    <title>AWS Trust in Depth: Five Layers for Agent Autonomy Without Losing Control</title>
+    <link href="https://dev.to/mech_app_ai/aws-trust-in-depth-five-layers-for-agent-autonomy-without-losing-control-2l97" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/aws-trust-in-depth-five-layers-for-agent-autonomy-without-losing-control-2l97</id>
+    <updated>2026-10-18T20:06:14Z</updated>
+    <summary type="text">Enterprise leaders want AI agents to do more work. They also don't trust them to act correctly every time. This tension blocks production deployment. AWS's Trust in Depth framework addresses it with five layers: scope, know, bound, observe, and prove. Each layer targets a specific failure mode. Together they let agents act autonomously when actions can be verified and reserve human judgment for de</summary>
+    <author><name>mech.app</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Solid Queue 1.6.0 Fiber Workers: How Rails Turned Concurrency Primitives into Agent Job Orchestration</title>
+    <link href="https://dev.to/mech_app_ai/solid-queue-160-fiber-workers-how-rails-turned-concurrency-primitives-into-agent-job-2dp7" rel="alternate"/>
+    <id>https://dev.to/mech_app_ai/solid-queue-160-fiber-workers-how-rails-turned-concurrency-primitives-into-agent-job-2dp7</id>
+    <updated>2026-10-18T20:06:13Z</updated>
+    <summary type="text">Solid Queue 1.6.0 ships with fiber-based workers, replacing the traditional thread-per-job model with cooperative multitasking. This is not a cosmetic change. Fibers let you run hundreds of concurrent jobs in a single OS thread, cutting memory overhead and context-switching costs. For agent workflows that spawn many lightweight tasks (API calls, LLM token streaming, webhook dispatches), this chang</summary>
+    <author><name>mech.app</name></author>
+  </entry>
+  <entry>
+    <title>MacOS Spotlight Alternative</title>
+    <link href="https://dev.to/ugurgunes/macos-spotlight-alternative-27l1" rel="alternate"/>
+    <id>https://dev.to/ugurgunes/macos-spotlight-alternative-27l1</id>
+    <updated>2026-10-18T20:05:23Z</updated>
+    <summary type="text">I built my own Spotlight alternative without knowing Swift. There were a few things about Spotlight that bothered me, along with some macOS utilities I wished I had in one place. So I decided to try something different. Using AI and a little vibe coding, I built Lilith — an open-source macOS launcher tailored to my own needs. I described what I wanted, tried the results, gave feedback, and kept it</summary>
+    <author><name>ugurgunes95</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Benchmarking cloudflare/security-audit-skill Behind an Edge Dispatcher: p99, Cold Start, and Bundle Weight</title>
+    <link href="https://dev.to/nathan_cross/benchmarking-cloudflaresecurity-audit-skill-behind-an-edge-dispatcher-p99-cold-start-and-bundle-2pc4" rel="alternate"/>
+    <id>https://dev.to/nathan_cross/benchmarking-cloudflaresecurity-audit-skill-behind-an-edge-dispatcher-p99-cold-start-and-bundle-2pc4</id>
+    <updated>2026-10-18T20:05:11Z</updated>
+    <summary type="text">Benchmarking cloudflare/security-audit-skill Behind an Edge Dispatcher: p99, Cold Start, and Bundle Weight cloudflare/security-audit-skill is a six-phase audit pipeline that ends in findings.json, gated by a zero-dependency validator (validate-findings.cjs). We did not benchmark audit quality — Cloudflare already reports roughly 3–4 hours per 30k LOC on their internal harness, and a single pass fi</summary>
+    <author><name>Nathan Cross</name></author>
+  </entry>
+  <entry>
+    <title>Math Quest: Interactive 3D / AR maths learning</title>
+    <link href="https://dev.to/taylorhelene/math-quest-interactive-3d-ar-maths-learning-4nlh" rel="alternate"/>
+    <id>https://dev.to/taylorhelene/math-quest-interactive-3d-ar-maths-learning-4nlh</id>
+    <updated>2026-10-18T20:04:17Z</updated>
+    <summary type="text">This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Well, at times learning is hard for some people, especially Mathematics (and maybe Physics 😅️ ) but we'll focus on some math. Most people would love to learn with visuals in order to make it easier and maybe after a while they will pay for it with our local currency ( Kenya ). 3D models help intera</summary>
+    <author><name>Taylor</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>GigCraft AI — Your Freelance Business Assistant</title>
+    <link href="https://dev.to/anshu_kashyap_a2fab460129/gigcraft-ai-your-freelance-business-assistant-1c5k" rel="alternate"/>
+    <id>https://dev.to/anshu_kashyap_a2fab460129/gigcraft-ai-your-freelance-business-assistant-1c5k</id>
+    <updated>2026-10-18T20:04:10Z</updated>
+    <summary type="text">This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built GigCraft AI is a web application concept designed to help freelancers and independent creators spend less time on repetitive business tasks and more time doing creative work. Freelancers often need to prepare client proposals, create invoices, write professional messages, and describe products for </summary>
+    <author><name>Anshu Kashyap</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Node.js Embed Query for Top-K Vector Search with Metadata Filter</title>
@@ -368,85 +446,5 @@
     <updated>2026-10-18T11:13:19Z</updated>
     <summary type="text">Large enterprises rarely win with one clever tool. They win with boring layers, clear ownership and a lot of patience. Below is a plain-language tour of the architecture patterns that keep showing up, where they work, and where they quietly fall apart.Read All</summary>
     <author><name>Sunilkumar Reddy Eraganeni</name></author>
-  </entry>
-  <entry>
-    <title>Your Smart Home Is a Remote Control. A Home AI Would Actually Run the House</title>
-    <link href="https://hackernoon.com/your-smart-home-is-a-remote-control-a-home-ai-would-actually-run-the-house?source=rss" rel="alternate"/>
-    <id>https://hackernoon.com/your-smart-home-is-a-remote-control-a-home-ai-would-actually-run-the-house?source=rss</id>
-    <updated>2026-10-18T10:35:23Z</updated>
-    <summary type="text">For a decade, &quot;smart home&quot; has meant a remote control with a voice interface. A human still makes every decision. Between 2025 and 2026 the big vendors rebuilt their assistants on large language models: Alexa+ and Gemini for Home are in people's homes, and Apple's Siri overhaul is still arriving. That solved conversation. It has not solved autonomy. A real home AI perceives, remembers, decides, an</summary>
-    <author><name>vishwa vimukthi gammuduwaththage</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs</title>
-    <link href="https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/" rel="alternate"/>
-    <id>https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/</id>
-    <updated>2026-10-17T10:33:28Z</updated>
-    <summary type="text">Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats la</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Build a 10-Case Eval Set for Your AI Agent and Run It on Every Change</title>
-    <link href="https://dev.to/promptmaster/build-a-10-case-eval-set-for-your-ai-agent-and-run-it-on-every-change-4fpl" rel="alternate"/>
-    <id>https://dev.to/promptmaster/build-a-10-case-eval-set-for-your-ai-agent-and-run-it-on-every-change-4fpl</id>
-    <updated>2026-10-18T10:32:44Z</updated>
-    <summary type="text">Your agent worked in the demo. Then you tweaked the system prompt, swapped the model, or renamed a tool argument, and now you're not sure whether it still answers the refund question correctly. Too often, the first person to notice is a user. You don't need an eval platform to fix that. You need a small set of real test cases and a script that runs them every time something changes. Here's how to </summary>
-    <author><name>PromptMaster</name></author>
-    <category term="agents"/>
-    <category term="tutorial"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Our marketing pages never read your session, so the header guesses from a cookie with useSyncExternalStore</title>
-    <link href="https://dev.to/daniel_pertu/our-marketing-pages-never-read-your-session-so-the-header-guesses-from-a-cookie-with-1odk" rel="alternate"/>
-    <id>https://dev.to/daniel_pertu/our-marketing-pages-never-read-your-session-so-the-header-guesses-from-a-cookie-with-1odk</id>
-    <updated>2026-10-18T10:32:21Z</updated>
-    <summary type="text">Fetch the Nakodo home page with curl and the header offers you &quot;Sign in&quot; and &quot;Start free&quot;. Open the same URL in a browser where you are signed in and the header offers you &quot;Open the app&quot;. Same HTML. $ curl -s https://nakodo.app/ | grep -o &quot;Sign in\|Open the app&quot; | sort | uniq -c 4 Sign in The server never knew. It is not allowed to know, and the whole reason the site is fast is that it does not as</summary>
-    <author><name>Daniel Pertu</name></author>
-  </entry>
-  <entry>
-    <title>One .web.tsx in the whole app, and it is 196 lines of stack navigator that no phone will ever run</title>
-    <link href="https://dev.to/daniel_pertu/one-webtsx-in-the-whole-app-and-it-is-196-lines-of-stack-navigator-that-no-phone-will-ever-run-he0" rel="alternate"/>
-    <id>https://dev.to/daniel_pertu/one-webtsx-in-the-whole-app-and-it-is-196-lines-of-stack-navigator-that-no-phone-will-ever-run-he0</id>
-    <updated>2026-10-18T10:31:03Z</updated>
-    <summary type="text">Munchable's phone app is also a website. Same Expo Router tree, same screens, exported with web.output: &quot;single&quot; and served at app.munchable.app. Across the whole app there is exactly one platform-forked file: apps/mobile/src/components/Stack.web.tsx 196 lines, none of which ever run on a phone. This is what is in it and why none of the cheaper options worked. The two-line file that forces the que</summary>
-    <author><name>Daniel Pertu</name></author>
-  </entry>
-  <entry>
-    <title>📊 Et si les données du recrutement répondaient à nos questions ?</title>
-    <link href="https://dev.to/elodie_tran_data/et-si-les-donnees-du-recrutement-repondaient-a-nos-questions--1d5o" rel="alternate"/>
-    <id>https://dev.to/elodie_tran_data/et-si-les-donnees-du-recrutement-repondaient-a-nos-questions--1d5o</id>
-    <updated>2026-10-18T10:30:53Z</updated>
-    <summary type="text">Et si les données du recrutement répondaient à nos questions ? Piloter un recrutement, c'est une boucle : mesurer (KPI), repérer ce qui bloque, agir, puis mesurer à nouveau. Notre groupe a construit la partie « mesure » de l'application HackAVP : un tableau de bord Power BI branché sur l'API, et des données qui en disent long. 🛣️ Track : SaaS no limit (une chaîne de services reliés par des standar</summary>
-    <author><name>Elodie Tran</name></author>
-  </entry>
-  <entry>
-    <title>Our audit log has 64 actions, 17 of them are also analytics events, and one field is deliberately dropped on the way</title>
-    <link href="https://dev.to/daniel_pertu/our-audit-log-has-64-actions-17-of-them-are-also-analytics-events-and-one-field-is-deliberately-i8k" rel="alternate"/>
-    <id>https://dev.to/daniel_pertu/our-audit-log-has-64-actions-17-of-them-are-also-analytics-events-and-one-field-is-deliberately-i8k</id>
-    <updated>2026-10-18T10:30:51Z</updated>
-    <summary type="text">Nakodo has 77 call sites that look like this: await audit({ action: &quot;campaign.launched&quot;, userId, entityType: &quot;campaign&quot;, entityId: campaign.id }); One line, one row in audit_log. For 17 of the 64 possible actions it is also one event in PostHog, under the same name, and for one entity type a field quietly does not make the trip. The two things an action log is for There is a log of what happened b</summary>
-    <author><name>Daniel Pertu</name></author>
-    <category term="data"/>
-  </entry>
-  <entry>
-    <title>How to fix &quot;port already in use&quot; on a Mac (and stop it happening)</title>
-    <link href="https://dev.to/anmolsethi_dev/how-to-fix-port-already-in-use-on-a-mac-and-stop-it-happening-4fa8" rel="alternate"/>
-    <id>https://dev.to/anmolsethi_dev/how-to-fix-port-already-in-use-on-a-mac-and-stop-it-happening-4fa8</id>
-    <updated>2026-10-18T10:30:00Z</updated>
-    <summary type="text">You run npm run dev and get this: Error: listen EADDRINUSE: address already in use :::3000 Something is already listening on port 3000. Usually it's a dev server you started earlier and forgot about: a terminal tab you closed without stopping it, a project from yesterday, or something a coding agent started in the background. Fix it in two commands Find what's holding the port: lsof -i :3000 The o</summary>
-    <author><name>Anmol Sethi</name></author>
-  </entry>
-  <entry>
-    <title>I Built Rehearse to Sell: A Voice-First, Local-First AI Interview Coach</title>
-    <link href="https://dev.to/arpitasi1gh/i-built-rehearse-to-sell-a-voice-first-local-first-ai-interview-coach-33c9" rel="alternate"/>
-    <id>https://dev.to/arpitasi1gh/i-built-rehearse-to-sell-a-voice-first-local-first-ai-interview-coach-33c9</id>
-    <updated>2026-10-18T10:29:10Z</updated>
-    <summary type="text">This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built I built Rehearse, a voice-first and local-first AI interviewer. You know how you read a list of &quot;Top 50 Interview Questions,&quot; think &quot;I could answer that,&quot; and then completely freeze when you actually have to speak out loud? That is the exact problem this solves. ChatGPT doesn't help here. If you as</summary>
-    <author><name>Arpita Singh</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
