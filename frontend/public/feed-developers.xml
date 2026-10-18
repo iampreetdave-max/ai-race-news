@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-18T05:34:04Z</updated>
+  <updated>2026-10-18T10:39:29Z</updated>
   <entry>
     <title>Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs</title>
     <link href="https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/" rel="alternate"/>
@@ -143,6 +143,15 @@
     <updated>2026-10-16T17:42:59Z</updated>
     <summary type="text">My laptop has a 1 TB drive, and one day Windows told me it was nearly full. I hadn't saved anything big. So where did it all go? When I finally measured it, very little of it was &quot;my files&quot;. Most of it was stuff developer and AI tools leave behind and never clean up: What Size on my PC Docker Desktop's disk 77 GB VirtualBox machines 36 GB Hugging Face model cache 32.5 GB Recycle Bin 18 GB npm, pip</summary>
     <author><name>Sparewise App</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Built a search engine for debugging which is not a wrapper [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/</id>
+    <updated>2026-10-18T05:18:51Z</updated>
+    <summary type="text">TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying to get into RAG and automation. Odin is more than a search engine, all you have to do is paste a public repo URL and link the issue or describe the bug yourself and it downloads, </summary>
+    <author><name>/u/Massive_Capital9611</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -319,23 +328,5 @@
     <summary type="text">Disclosure: this article was drafted with AI assistance (Claude) from measurements recorded in the dockdu repository. Every number comes from the measurement log and can be reproduced on a disposable docker:dind container. docker system df says the build cache is empty. docker system prune -af reports Total reclaimed space: 0B. df -h still shows the disk filling up. Here are two cases where all th</summary>
     <author><name>Maxi</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Cerebras positions inference speed as a competitive edge in agentic AI</title>
-    <link href="https://siliconangle.com/2026/10/15/agentic-workflows-make-speed-requirement-says-cerebras-aidatapipelineforum/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/10/15/agentic-workflows-make-speed-requirement-says-cerebras-aidatapipelineforum/</id>
-    <updated>2026-10-15T15:35:03Z</updated>
-    <summary type="text">Agentic workflows are making speed a condition for whole classes of AI applications to exist, and the fastest tokens will determine which platforms win the next phase of AI. Cerebras Systems Inc., which raised $5.5 billion in its May 2026 initial public offering, built its business on making processors much faster, according to Andy Hock […] The post Cerebras positions inference speed as a competi</summary>
-    <author><name>Jonathan Anthony</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>From god-mode to governed: an AI agent that can’t exceed its grant</title>
-    <link href="https://dev.to/rojaneerdev/from-god-mode-to-governed-an-ai-agent-that-cant-exceed-its-grant-4ilk" rel="alternate"/>
-    <id>https://dev.to/rojaneerdev/from-god-mode-to-governed-an-ai-agent-that-cant-exceed-its-grant-4ilk</id>
-    <updated>2026-10-15T00:13:35Z</updated>
-    <summary type="text">Last time I argued that AI agents are running as god-mode service accounts: an agent acts in your systems, and nobody can cleanly answer who authorized that — which human, acting through which agent, with whose permissions, and was anything refused? I promised the next post would show the thing working. So here it is: a real agent, acting as me, in a system that only knows how to talk to a human —</summary>
-    <author><name>Rojaneer</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
