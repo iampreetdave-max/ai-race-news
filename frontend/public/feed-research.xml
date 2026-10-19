@@ -4,7 +4,17 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-19T00:57:49Z</updated>
+  <updated>2026-10-19T05:59:00Z</updated>
+  <entry>
+    <title>Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3</title>
+    <link href="https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/</id>
+    <updated>2026-10-19T01:18:17Z</updated>
+    <summary type="text">Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3 appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>A(5) = 5: four matrices finish the case t = 5</title>
     <link href="https://dev.to/munimv2/a5-5-four-matrices-finish-the-case-t-5-5aek" rel="alternate"/>
@@ -48,6 +58,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>StopWatch: Goal Grounding for Object-goal Navigation</title>
+    <link href="https://arxiv.org/abs/2610.23841v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.23841v1</id>
+    <updated>2026-10-16T17:57:05Z</updated>
+    <summary type="text">Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice </summary>
+    <author><name>Chen Feng</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM</title>
     <link href="https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/" rel="alternate"/>
     <id>https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/</id>
@@ -57,6 +76,26 @@
     <category term="research"/>
     <category term="computer-vision"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable</title>
+    <link href="https://arxiv.org/abs/2610.23600v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.23600v1</id>
+    <updated>2026-10-16T15:17:07Z</updated>
+    <summary type="text">Self-supervised monocular depth estimation is appealing for its potential to scale with unlabeled data, yet existing methods often degrade when trained on diverse scenes. This study finds that, under self-supervision, models tend to encode dataset-specific structural biases rather than transferable scene geometry, leading to cross-domain optimization conflicts. To address this issue, this study pr</summary>
+    <author><name>Rui Fan</name></author>
+    <category term="product-launch"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Enhancing RAG-based Medical VQA with Gated Multimodal Representations</title>
+    <link href="https://arxiv.org/abs/2610.23588v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.23588v1</id>
+    <updated>2026-10-16T15:07:33Z</updated>
+    <summary type="text">Medical Vision-Language Models (Med-LVLMs) have shown strong performance in Medical Visual Question Answering (MVQA), yet they may still produce factually inconsistent responses. Retrieval-Augmented Generation (RAG) can mitigate this issue by incorporating external clinical evidence; however, retrieval is often guided by a single modality, potentially overlooking the joint semantics of medical ima</summary>
+    <author><name>Delia Irazú Hernández-Farías</name></author>
+    <category term="llm"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>What is wrong with AI writing - ICLR edition [D]</title>
@@ -85,15 +124,6 @@
     <summary type="text">Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D </summary>
     <author><name>Yi Bin</name></author>
     <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Denoising Textures is a Different Ballgame Altogether!</title>
-    <link href="https://arxiv.org/abs/2610.22258v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.22258v1</id>
-    <updated>2026-10-15T17:27:07Z</updated>
-    <summary type="text">The human brain effortlessly deciphers colors and textures from visual stimuli and reconstructs the world around us, yet preserving such details remains challenging in image denoising. While significant progress has been made in generic image denoising, the problem of texture denoising has remained relatively under-explored. Fine details, such as intricate patterns and repetitive structures, often</summary>
-    <author><name>Gaurav Sharma</name></author>
     <category term="research"/>
   </entry>
 </feed>
