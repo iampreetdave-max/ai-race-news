@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-19T05:59:00Z</updated>
+  <updated>2026-10-19T12:55:39Z</updated>
   <entry>
     <title>NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration</title>
     <link href="https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/" rel="alternate"/>
@@ -14,6 +14,15 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>State of AI Instruction Quality: Files With Persona Lines Score Lower</title>
+    <link href="https://dev.to/reporails/state-of-ai-instruction-quality-files-with-persona-lines-score-lower-3dff" rel="alternate"/>
+    <id>https://dev.to/reporails/state-of-ai-instruction-quality-files-with-persona-lines-score-lower-3dff</id>
+    <updated>2026-10-19T12:53:27Z</updated>
+    <summary type="text">Main instruction files that tell the agent who it is score lower than the rest, at every file size. One of them opens like this, on line 3 of its CLAUDE.md: You are a senior [project] engineer working in a Yarn/Turbo monorepo. You prioritize type safety, security, and small, reviewable diffs. It's a familiar move from prompt writing. In the 10,000 most-starred repos of the Q3 report, 285 main inst</summary>
+    <author><name>Gábor Mészáros</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>GitHub Copilot Retires 3 Models Nov 16: Your Migration Checklist</title>
@@ -268,15 +277,6 @@
     <id>https://dev.to/gabrielanhaia/your-zod-refine-never-reaches-the-model-what-survives-the-trip-to-json-schema-a34</id>
     <updated>2026-10-15T19:58:29Z</updated>
     <summary type="text">Book: AI That Answers The series: AI in TypeScript — 5 books, from your first LLM call to agents in production — all five here My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Pass a Zod 4 schema to a structured-output helper and every .refine() in it is dropped before the model sees it, with no warning. The OpenA</summary>
-    <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What a Hexagonal Port Costs in Go: itabs, Escape Analysis and a Postgres Round Trip</title>
-    <link href="https://dev.to/gabrielanhaia/what-a-hexagonal-port-costs-in-go-itabs-escape-analysis-and-a-postgres-round-trip-24jn" rel="alternate"/>
-    <id>https://dev.to/gabrielanhaia/what-a-hexagonal-port-costs-in-go-itabs-escape-analysis-and-a-postgres-round-trip-24jn</id>
-    <updated>2026-10-15T19:57:16Z</updated>
-    <summary type="text">Book: Hexagonal Architecture in Go Also by me: Pocket Guides for Developers — the 8-book series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You put a UserRepository interface between your domain and Postgres. The review comes back with one line: &quot;Interfaces are slow in Go. Just pass the pool.&quot; That objection </summary>
     <author><name>Gabriel Anhaia</name></author>
     <category term="llm"/>
   </entry>
