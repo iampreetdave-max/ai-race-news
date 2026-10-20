@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-20T14:50:32Z</updated>
+  <updated>2026-10-20T19:04:03Z</updated>
+  <entry>
+    <title>Meta pauses Muse sharing after researchers find AI chats on the web</title>
+    <link href="https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats" rel="alternate"/>
+    <id>https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats</id>
+    <updated>2026-10-20T18:07:34Z</updated>
+    <summary type="text">Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]</summary>
+    <author><name>Emma Roth</name></author>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Architectural Deep-Dive: OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory</title>
     <link href="https://dev.to/hordii_bohdan/architectural-deep-dive-openvlharness-real-world-visual-agentic-tool-use-with-multimodal-memory-paa" rel="alternate"/>
@@ -85,27 +94,5 @@
     <author><name>Aditya Mehta</name></author>
     <category term="llm"/>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for/</id>
-    <updated>2026-10-18T16:43:58Z</updated>
-    <summary type="text">Accepted at NeurIPS 2026 TLDR: The paper presents a library of synthetic time series generators and augmentations to train time series foundation models, in their case a linear RNN. The synthetic data has already been used in Toto-2 and TS-ICL. Arxiv: https://arxiv.org/abs/2510.25502 GitHub: https://github.com/automl/TempoPFN Huggingface: https://huggingface.co/AutoML-org/TempoPFN Authors: Vladysl</summary>
-    <author><name>/u/Yossarian_1234</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>How to Run Qwen3.8-Flash-Next FP4 Locally (It Needs Blackwell and 55 Env Vars)</title>
-    <link href="https://dev.to/alanwest/how-to-run-qwen38-flash-next-fp4-locally-it-needs-blackwell-and-55-env-vars-3oii" rel="alternate"/>
-    <id>https://dev.to/alanwest/how-to-run-qwen38-flash-next-fp4-locally-it-needs-blackwell-and-55-env-vars-3oii</id>
-    <updated>2026-10-16T23:10:02Z</updated>
-    <summary type="text">NVIDIA's FP4 build of Qwen3.8-Flash-Next is 96 GiB on disk. The BF16 original is about 355 GB. NVIDIA says the accuracy cost of that shrink is 0.7 points on GPQA Diamond. If you want to run Qwen3.8 Flash Next locally, that sounds like the obvious download. It isn't, at least not yet. The first line of the model card tells you upstream vLLM can't load it. Blackwell is the only supported architectur</summary>
-    <author><name>Alan West</name></author>
-    <category term="data"/>
-    <category term="hardware"/>
-    <category term="llm"/>
   </entry>
 </feed>
