@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-20T09:53:16Z</updated>
+  <updated>2026-10-20T14:50:32Z</updated>
   <entry>
     <title>Microsoft could hold an advantage with Copilot for Legal</title>
     <link href="https://aibusiness.com/generative-ai/microsoft-could-hold-advantage-copilot-for-legal" rel="alternate"/>
@@ -24,6 +24,32 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>HIPAA on Kubernetes: what kops issue #1776 asked for and what Stave covers now</title>
+    <link href="https://dev.to/bala_paranj_059d338e44e7e/hipaa-on-kubernetes-what-kops-issue-1776-asked-for-and-what-stave-covers-now-4993" rel="alternate"/>
+    <id>https://dev.to/bala_paranj_059d338e44e7e/hipaa-on-kubernetes-what-kops-issue-1776-asked-for-and-what-stave-covers-now-4993</id>
+    <updated>2026-10-20T14:41:24Z</updated>
+    <summary type="text">✓ Human-authored analysis; AI used for formatting and proofreading. The question that's still open In February 2017, kops issue #1776 asked: &quot;What is kops missing to support a HIPAA compliant cluster?&quot; The issue is still open. The discussion produced one of the most practical HIPAA checklists for AWS infrastructure, contributed by engineers running PHI workloads: &quot;ePHI/PII over the wire must be en</summary>
+    <author><name>Bala Paranj</name></author>
+  </entry>
+  <entry>
+    <title>Adding MCP servers to Claude Code: remote, local and team setups that actually connect</title>
+    <link href="https://dev.to/giuliano_buzetti_e1ce3412/adding-mcp-servers-to-claude-code-remote-local-and-team-setups-that-actually-connect-dj0" rel="alternate"/>
+    <id>https://dev.to/giuliano_buzetti_e1ce3412/adding-mcp-servers-to-claude-code-remote-local-and-team-setups-that-actually-connect-dj0</id>
+    <updated>2026-10-20T14:40:44Z</updated>
+    <summary type="text">Most &quot;my MCP server doesn't work in Claude Code&quot; problems come down to three small things: the wrong transport, the wrong scope, or a .mcp.json entry that Claude Code silently skips. This post walks through each one with commands you can paste, then shows how to confirm the server is really connected before you rely on it. Everything below follows the official Claude Code MCP docs (code.claude.com</summary>
+    <author><name>Giuliano Buzetti</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Skill or MCP Server? Ask What Stops the LLM From Disobeying</title>
+    <link href="https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/" rel="alternate"/>
+    <id>https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/</id>
+    <updated>2026-10-20T14:00:00Z</updated>
+    <summary type="text">Towards Spec-Driven Test Automation, Part 4 The post Skill or MCP Server? Ask What Stops the LLM From Disobeying appeared first on Towards Data Science.</summary>
+    <author><name>Gal Arav</name></author>
+    <category term="data"/>
+  </entry>
+  <entry>
     <title>Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts</title>
     <link href="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/" rel="alternate"/>
     <id>https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/</id>
@@ -32,6 +58,14 @@
     <author><name>Aditya Mehta</name></author>
     <category term="open-source"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>5 Docker Containers for Devs</title>
+    <link href="https://www.kdnuggets.com/5-docker-containers-for-devs" rel="alternate"/>
+    <id>https://www.kdnuggets.com/5-docker-containers-for-devs</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <summary type="text">Five self-hosted Docker containers replace the public utility sites where developer data quietly leaks. Learn which ones handle JWT decoding, data transformation, file conversion, API testing, and diagram rendering locally.</summary>
+    <author><name>Nahla Davies</name></author>
   </entry>
   <entry>
     <title>Don't forget about the UI for AI</title>
@@ -330,15 +364,6 @@
     <updated>2026-10-16T23:05:53Z</updated>
     <summary type="text">Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You ask a coding agent to rename users.name to full_name. It updates the model, fixes every query, and writes a migration with one li</summary>
     <author><name>Gabriel Anhaia</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>What was filling my 1 TB drive: developer and AI tools, not my files</title>
-    <link href="https://dev.to/sparewise_app_5f1e105d56b/what-was-filling-my-1-tb-drive-developer-and-ai-tools-not-my-files-4kjh" rel="alternate"/>
-    <id>https://dev.to/sparewise_app_5f1e105d56b/what-was-filling-my-1-tb-drive-developer-and-ai-tools-not-my-files-4kjh</id>
-    <updated>2026-10-16T17:42:59Z</updated>
-    <summary type="text">My laptop has a 1 TB drive, and one day Windows told me it was nearly full. I hadn't saved anything big. So where did it all go? When I finally measured it, very little of it was &quot;my files&quot;. Most of it was stuff developer and AI tools leave behind and never clean up: What Size on my PC Docker Desktop's disk 77 GB VirtualBox machines 36 GB Hugging Face model cache 32.5 GB Recycle Bin 18 GB npm, pip</summary>
-    <author><name>Sparewise App</name></author>
     <category term="llm"/>
   </entry>
 </feed>
