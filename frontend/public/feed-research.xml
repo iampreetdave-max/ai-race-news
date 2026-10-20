@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-19T23:28:25Z</updated>
+  <updated>2026-10-20T04:09:35Z</updated>
+  <entry>
+    <title>Architectural Deep-Dive: OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory</title>
+    <link href="https://dev.to/hordii_bohdan/architectural-deep-dive-openvlharness-real-world-visual-agentic-tool-use-with-multimodal-memory-paa" rel="alternate"/>
+    <id>https://dev.to/hordii_bohdan/architectural-deep-dive-openvlharness-real-world-visual-agentic-tool-use-with-multimodal-memory-paa</id>
+    <updated>2026-10-20T04:03:29Z</updated>
+    <summary type="text">Decoupling Perception and Compute: How Persistent Multimodal Memory Fixes Agentic Tool Bottlenecks Multimodal Large Language Models (MLLMs) are increasingly deployed as autonomous visual agents tasked with analyzing technical schematics, executing system telemetry diagnostics, and verifying physical mockups. However, in production environments, a familiar wall is encountered: inference-time scalin</summary>
+    <author><name>Bohdan Hordii</name></author>
+    <category term="agents"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3</title>
     <link href="https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/" rel="alternate"/>
@@ -22,6 +33,37 @@
     <updated>2026-10-19T12:31:37Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]</summary>
     <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Text-to-Image Generative Modeling Without Language Pretraining</title>
+    <link href="https://arxiv.org/abs/2610.26863v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.26863v1</id>
+    <updated>2026-10-19T17:59:59Z</updated>
+    <summary type="text">Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63</summary>
+    <author><name>Michael Poli</name></author>
+    <category term="computer-vision"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience</title>
+    <link href="https://arxiv.org/abs/2610.26855v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.26855v1</id>
+    <updated>2026-10-19T17:59:55Z</updated>
+    <summary type="text">World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr</summary>
+    <author><name>Ziwei Liu</name></author>
+    <category term="robotics"/>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>PlanarCityLoc: Breaking Silhouette Ambiguity in LoD Aerial Localization via 3D Planes</title>
+    <link href="https://arxiv.org/abs/2610.26729v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.26729v1</id>
+    <updated>2026-10-19T16:58:14Z</updated>
+    <summary type="text">Aerial visual localization is crucial for autonomous drone navigation in urban environments where GNSS signals are often degraded. Lightweight textureless Level-of-Detail (LoD) city models provide a geometric map alternative to textured assets. Existing silhouette-based methods rely on image-space alignment, which can leave different camera poses indistinguishable and favor incorrect poses when se</summary>
+    <author><name>Olaf Wysocki</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -94,26 +136,6 @@
     <summary type="text">Self-supervised monocular depth estimation is appealing for its potential to scale with unlabeled data, yet existing methods often degrade when trained on diverse scenes. This study finds that, under self-supervision, models tend to encode dataset-specific structural biases rather than transferable scene geometry, leading to cross-domain optimization conflicts. To address this issue, this study pr</summary>
     <author><name>Rui Fan</name></author>
     <category term="product-launch"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Enhancing RAG-based Medical VQA with Gated Multimodal Representations</title>
-    <link href="https://arxiv.org/abs/2610.23588v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.23588v1</id>
-    <updated>2026-10-16T15:07:33Z</updated>
-    <summary type="text">Medical Vision-Language Models (Med-LVLMs) have shown strong performance in Medical Visual Question Answering (MVQA), yet they may still produce factually inconsistent responses. Retrieval-Augmented Generation (RAG) can mitigate this issue by incorporating external clinical evidence; however, retrieval is often guided by a single modality, potentially overlooking the joint semantics of medical ima</summary>
-    <author><name>Delia Irazú Hernández-Farías</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>What is wrong with AI writing - ICLR edition [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/</id>
-    <updated>2026-10-17T23:40:03Z</updated>
-    <summary type="text">I'm sure many of us are slogging through impenetrable AI writing as we finish ICLR reviewing. I'll try to create an anonymized version from a paper I'm reviewing, though it's hard to match Claude on this: outperforms the best baseline costing no more at none of six operating points and a permuted placebo at none of three, with gains up to about 1.5 not excluded My question for the community is thi</summary>
-    <author><name>/u/bobrodsky</name></author>
-    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>
