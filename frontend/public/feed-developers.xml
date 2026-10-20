@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-20T19:04:03Z</updated>
+  <updated>2026-10-20T23:03:10Z</updated>
   <entry>
     <title>Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers</title>
     <link href="https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/" rel="alternate"/>
@@ -13,6 +13,36 @@
     <summary type="text">Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.</summary>
     <author><name>Julie Bort</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>AWS Shipped a DynamoDB API That Stores Everything in Postgres. Read the Tables It Writes</title>
+    <link href="https://dev.to/gabrielanhaia/aws-shipped-a-dynamodb-api-that-stores-everything-in-postgres-read-the-tables-it-writes-3kfc" rel="alternate"/>
+    <id>https://dev.to/gabrielanhaia/aws-shipped-a-dynamodb-api-that-stores-everything-in-postgres-read-the-tables-it-writes-3kfc</id>
+    <updated>2026-10-20T23:01:43Z</updated>
+    <summary type="text">Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub On May 20, 2026, two members of the DynamoDB team published ExtendDB: an Apache 2.0 server that speaks the DynamoDB wire protocol and</summary>
+    <author><name>Gabriel Anhaia</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Letting an AI agent schedule social posts safely: length checks, approvals and Idempotency-Key</title>
+    <link href="https://dev.to/gptpost/letting-an-ai-agent-schedule-social-posts-safely-length-checks-approvals-and-idempotency-key-1iia" rel="alternate"/>
+    <id>https://dev.to/gptpost/letting-an-ai-agent-schedule-social-posts-safely-length-checks-approvals-and-idempotency-key-1iia</id>
+    <updated>2026-10-20T22:57:00Z</updated>
+    <summary type="text">If you let an AI agent post to your social accounts, the scary part is not the writing. It is the retry. A model calls a tool, the network times out, the agent tries again, and now the same announcement is up twice. Or the agent writes 340 characters for a network that allows 300, and you find out at send time, at 9:00 on a Monday. We build GPTpost, a social media scheduler for small teams, and we</summary>
+    <author><name>GPTpost</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>One Operator’s AI Agents Breached 100+ Sites for About $50 Each 🚨</title>
+    <link href="https://dev.to/satirr/one-operators-ai-agents-breached-100-sites-for-about-50-each-3k37" rel="alternate"/>
+    <id>https://dev.to/satirr/one-operators-ai-agents-breached-100-sites-for-about-50-each-3k37</id>
+    <updated>2026-10-20T22:56:15Z</updated>
+    <summary type="text">Hey folks 👋 — this one is wild. On 19 October 2026, Snorre Fagerland of NorForge reported that a single Chinese-speaking operator used AI agents on the open-source Cairn platform to probe and breach websites. The operator wrote brief instructions (under 100 Chinese characters) and left nearly all the work to the agents. Reuters, which reviewed activity on exposed panels, identified more than 100 b</summary>
+    <author><name>satirr</name></author>
+    <category term="llm"/>
+    <category term="open-source"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Microsoft could hold an advantage with Copilot for Legal</title>
@@ -234,6 +264,16 @@
     <author><name>Study4Pass</name></author>
   </entry>
   <entry>
+    <title>Last week I asked who’s accountable when an agent has its own identity. This week Workday bought a company to answer that.</title>
+    <link href="https://www.reddit.com/r/artificial/comments/1xaxnz8/last_week_i_asked_whos_accountable_when_an_agent/" rel="alternate"/>
+    <id>https://www.reddit.com/r/artificial/comments/1xaxnz8/last_week_i_asked_whos_accountable_when_an_agent/</id>
+    <updated>2026-10-20T17:00:39Z</updated>
+    <summary type="text">Workday announced it’s acquiring C1.ai, an identity governance platform that handles access for both employees and AI agents. Same access lifecycle, same offboarding, same audit trail. They’re calling it the identity layer for people, money and agents. That’s a market answer to a question that was open a week ago. If an agent needs credentials to work across your systems, somebody has to issue the</summary>
+    <author><name>/u/Dapper-Tale-4021</name></author>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
     <title>Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs</title>
     <link href="https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/" rel="alternate"/>
     <id>https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/</id>
@@ -318,14 +358,5 @@
     <summary type="text">Hi, I’m Ben. I’ve spent more than 15 years working with low-code, collaboration and content management systems in government. Drawing on that experience, I’d like to introduce Lunar Paper: a self-hosted platform with 19 applications for planning, design, creative work, data, analytics, automation and content management. It runs with Docker Compose, and most applications support live collaboration,</summary>
     <author><name>ben-lunarpaper</name></author>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>Building BIS SmartAssist (MANAKAI): Zero-Hallucination AI for 23,800+ Indian Standards with OpenAI Codex</title>
-    <link href="https://dev.to/athlawange/building-bis-smartassist-manakai-zero-hallucination-ai-for-23800-indian-standards-with-openai-20b8" rel="alternate"/>
-    <id>https://dev.to/athlawange/building-bis-smartassist-manakai-zero-hallucination-ai-for-23800-indian-standards-with-openai-20b8</id>
-    <updated>2026-10-17T08:13:30Z</updated>
-    <summary type="text">🇮🇳 The Challenge: Why Generic LLMs Fail at Regulatory Compliance When an MSME manufacturer, startup founder, or laboratory engineer asks an AI: &quot;What are the mandatory testing parameters under Scheme-I ISI Mark for IS 1786 (High Strength Deformed Steel Bars)?&quot; Standard commercial LLMs almost always fail catastrophically. They invent fictional standard numbers, cite revoked clauses, confuse volunta</summary>
-    <author><name>Atharva Lawange</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
