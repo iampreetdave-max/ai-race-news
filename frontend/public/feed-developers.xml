@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-21T19:13:17Z</updated>
+  <updated>2026-10-21T23:06:20Z</updated>
   <entry>
     <title>OpenAI models are coming to Google Cloud</title>
     <link href="https://openai.com/index/openai-models-google-cloud" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Recursive launches Flint, a laptop coding model it says was largely built by AI</title>
+    <link href="https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/</id>
+    <updated>2026-10-21T20:27:41Z</updated>
+    <summary type="text">Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.</summary>
+    <author><name>Aditya Mehta</name></author>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
     <title>Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets</title>
     <link href="https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/" rel="alternate"/>
     <id>https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/</id>
@@ -23,6 +32,40 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Your Stack Has a Size. Flisk Only Fits One of Them.</title>
+    <link href="https://dev.to/flisk/your-stack-has-a-size-flisk-only-fits-one-of-them-1n1f" rel="alternate"/>
+    <id>https://dev.to/flisk/your-stack-has-a-size-flisk-only-fits-one-of-them-1n1f</id>
+    <updated>2026-10-21T22:47:28Z</updated>
+    <summary type="text">&quot;We have microservices&quot; is not a sizing input. Twelve services in one Compose file is a different job from twelve services that each own a manifest, a route, and a health check. Flisk is opinionated about which of those jobs it wants. This is the decision table I wish every &quot;should we adopt this&quot; thread started with. Three sizes, three tools Your actual stack Better default Why 2–5 services, alrea</summary>
+    <author><name>flisk</name></author>
+  </entry>
+  <entry>
+    <title>SQL Injection with SQLmap on Kali: From Login Form to Database</title>
+    <link href="https://dev.to/emuzinun/sql-injection-with-sqlmap-on-kali-from-login-form-to-database-48lp" rel="alternate"/>
+    <id>https://dev.to/emuzinun/sql-injection-with-sqlmap-on-kali-from-login-form-to-database-48lp</id>
+    <updated>2026-10-21T22:45:09Z</updated>
+    <summary type="text">The Sqlmap tool is an open-source tool that automates SQL injection testing. It can handle what's done manually with a few commands. SQL injection: simply put, if a web application sends the input it takes from the user straight to the database without filtering it, you can write SQL code there. It could be a login form, a search box, a URL parameter, etc. The application runs that code and the da</summary>
+    <author><name>Emin ÜZÜN</name></author>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>From Prompt Injection to Data Leak: Agentic AI Risks</title>
+    <link href="https://dev.to/emuzinun/from-prompt-injection-to-data-leak-agentic-ai-risks-3g5f" rel="alternate"/>
+    <id>https://dev.to/emuzinun/from-prompt-injection-to-data-leak-agentic-ai-risks-3g5f</id>
+    <updated>2026-10-21T22:45:08Z</updated>
+    <summary type="text">When people talked about AI, the focus in most places was on things like model quality, speed, context window. As of today, the topics being discussed have changed a bit. Now these are the questions being asked more often: What does it have access to? What can it do on its own? What information could it leak? This is exactly where what's called agentic AI comes in. It can read email. It can search</summary>
+    <author><name>Emin ÜZÜN</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Is flisk.sh a Small CLI or a Big Thing?</title>
+    <link href="https://dev.to/flisk/is-flisksh-a-small-cli-or-a-big-thing-28pn" rel="alternate"/>
+    <id>https://dev.to/flisk/is-flisksh-a-small-cli-or-a-big-thing-28pn</id>
+    <updated>2026-10-21T22:45:02Z</updated>
+    <summary type="text">People keep asking the wrong size question about flisk.sh. Is it a platform? A Kubernetes replacement? A new way to build companies? No. It is a CLI. You write a service.json, you run flisk up (the GitHub README still says tdk up for the same package), and it generates the local Docker and Tilt wiring so those services start on your machine. Production stays on Helm. That is the whole product sent</summary>
+    <author><name>flisk</name></author>
   </entry>
   <entry>
     <title>Forward Deployed Engineer challenge: I built a company ERP portal in 2 days with AI</title>
@@ -366,40 +409,5 @@
     <summary type="text">Main instruction files that tell the agent who it is score lower than the rest, at every file size. One of them opens like this, on line 3 of its CLAUDE.md: You are a senior [project] engineer working in a Yarn/Turbo monorepo. You prioritize type safety, security, and small, reviewable diffs. It's a familiar move from prompt writing. In the 10,000 most-starred repos of the Q3 report, 285 main inst</summary>
     <author><name>Gábor Mészáros</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>TKCat meets LLMs: an MCP server for well-documented knowledge resources</title>
-    <link href="https://www.r-bloggers.com/2026/10/tkcat-meets-llms-an-mcp-server-for-well-documented-knowledge-resources/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/10/tkcat-meets-llms-an-mcp-server-for-well-documented-knowledge-resources/</id>
-    <updated>2026-10-20T22:00:00Z</updated>
-    <summary type="text">1 Documentation was always the point TKCat (Tailored Knowledge Catalog) is built on a simple idea: a knowledge resource is more than a set of tables. In TKCat, each resource is a modeled database (MDB) that contains: a general description of t... Continue reading: TKCat meets LLMs: an MCP server for well-documented knowledge resources</summary>
-    <author><name>Patrice Godard</name></author>
-  </entry>
-  <entry>
-    <title>GitHub Copilot Retires 3 Models Nov 16: Your Migration Checklist</title>
-    <link href="https://dev.to/zforzain2000/github-copilot-retires-3-models-nov-16-your-migration-checklist-2ml6" rel="alternate"/>
-    <id>https://dev.to/zforzain2000/github-copilot-retires-3-models-nov-16-your-migration-checklist-2ml6</id>
-    <updated>2026-10-19T05:55:33Z</updated>
-    <summary type="text">GitHub published a changelog entry on October 15 with a date and three model names: on November 16, 2026, Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra disappear from every GitHub Copilot experience. Not just chat - inline edits, ask and agent modes, code completions, all of it. I read the entry twice, then checked what it does not say, because the sentence that worries me is the one most peop</summary>
-    <author><name>MUHAMMAD ZAIN UL ABIDIN</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CompTIA Linux+ XK0-005: The Exam That Proves You Can Actually Run Linux</title>
-    <link href="https://dev.to/study4pass/comptia-linux-xk0-005-the-exam-that-proves-you-can-actually-run-linux-80a" rel="alternate"/>
-    <id>https://dev.to/study4pass/comptia-linux-xk0-005-the-exam-that-proves-you-can-actually-run-linux-80a</id>
-    <updated>2026-10-19T05:51:20Z</updated>
-    <summary type="text">Linux runs the internet. It powers the servers behind nearly every website, cloud platform, and container cluster you use. Yet most Linux job postings don't ask candidates to recite facts about Linux — they ask candidates to prove they can operate it. That is exactly what CompTIA Linux+ (XK0-005) tests, and it's why the certification has become the default credential for sysadmins, DevOps engineer</summary>
-    <author><name>Study4Pass</name></author>
-  </entry>
-  <entry>
-    <title>Last week I asked who’s accountable when an agent has its own identity. This week Workday bought a company to answer that.</title>
-    <link href="https://www.reddit.com/r/artificial/comments/1xaxnz8/last_week_i_asked_whos_accountable_when_an_agent/" rel="alternate"/>
-    <id>https://www.reddit.com/r/artificial/comments/1xaxnz8/last_week_i_asked_whos_accountable_when_an_agent/</id>
-    <updated>2026-10-20T17:00:39Z</updated>
-    <summary type="text">Workday announced it’s acquiring C1.ai, an identity governance platform that handles access for both employees and AI agents. Same access lifecycle, same offboarding, same audit trail. They’re calling it the identity layer for people, money and agents. That’s a market answer to a question that was open a week ago. If an agent needs credentials to work across your systems, somebody has to issue the</summary>
-    <author><name>/u/Dapper-Tale-4021</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
   </entry>
 </feed>
