@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-21T09:17:44Z</updated>
+  <updated>2026-10-21T14:57:47Z</updated>
+  <entry>
+    <title>OpenAI models are coming to Google Cloud</title>
+    <link href="https://openai.com/index/openai-models-google-cloud" rel="alternate"/>
+    <id>https://openai.com/index/openai-models-google-cloud</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <summary type="text">OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets</title>
     <link href="https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/" rel="alternate"/>
@@ -14,6 +23,24 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Claude Opus 5.5: A Practical Guide</title>
+    <link href="https://dev.to/kamya_shah_e69d5dd78f831c/claude-opus-55-a-practical-guide-3192" rel="alternate"/>
+    <id>https://dev.to/kamya_shah_e69d5dd78f831c/claude-opus-55-a-practical-guide-3192</id>
+    <updated>2026-10-21T14:47:59Z</updated>
+    <summary type="text">TL;DR Anthropic released Claude Opus 5.5 (claude-opus-5-5) with always-on adaptive thinking, matching Claude Fable 5.1 intelligence at 40% lower operational cost than Opus 5. Model pricing sits at $4.00 per million input tokens and $20.00 per million output tokens, alongside a 60% reduction in prompt cache read costs to $0.20 per million tokens. Reasoning budgets are replaced by an adaptive effort</summary>
+    <author><name>Kamya Shah</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Azure Workload Identity: Remove Secrets From Your AKS Pods in 45 Minutes</title>
+    <link href="https://dev.to/florient_4262fab5463a691/azure-workload-identity-remove-secrets-from-your-aks-pods-in-45-minutes-14j0" rel="alternate"/>
+    <id>https://dev.to/florient_4262fab5463a691/azure-workload-identity-remove-secrets-from-your-aks-pods-in-45-minutes-14j0</id>
+    <updated>2026-10-21T14:43:21Z</updated>
+    <summary type="text">If you are still mounting a Kubernetes Secret containing an AZURE_CLIENT_SECRET into your pods, you are one kubectl get secret -o yaml away from an incident report. And if you are using AAD Pod Identity, you are running a component that reached end of support in September 2023. Azure Workload Identity replaces both. It uses the OIDC issuer built into your AKS cluster to let a Kubernetes ServiceAcc</summary>
+    <author><name>Florient DOGBE</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers</title>
@@ -316,6 +343,14 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>TKCat meets LLMs: an MCP server for well-documented knowledge resources</title>
+    <link href="https://www.r-bloggers.com/2026/10/tkcat-meets-llms-an-mcp-server-for-well-documented-knowledge-resources/" rel="alternate"/>
+    <id>https://www.r-bloggers.com/2026/10/tkcat-meets-llms-an-mcp-server-for-well-documented-knowledge-resources/</id>
+    <updated>2026-10-20T22:00:00Z</updated>
+    <summary type="text">1 Documentation was always the point TKCat (Tailored Knowledge Catalog) is built on a simple idea: a knowledge resource is more than a set of tables. In TKCat, each resource is a modeled database (MDB) that contains: a general description of t... Continue reading: TKCat meets LLMs: an MCP server for well-documented knowledge resources</summary>
+    <author><name>Patrice Godard</name></author>
+  </entry>
+  <entry>
     <title>GitHub Copilot Retires 3 Models Nov 16: Your Migration Checklist</title>
     <link href="https://dev.to/zforzain2000/github-copilot-retires-3-models-nov-16-your-migration-checklist-2ml6" rel="alternate"/>
     <id>https://dev.to/zforzain2000/github-copilot-retires-3-models-nov-16-your-migration-checklist-2ml6</id>
@@ -341,43 +376,5 @@
     <author><name>/u/Dapper-Tale-4021</name></author>
     <category term="llm"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs</title>
-    <link href="https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/" rel="alternate"/>
-    <id>https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/</id>
-    <updated>2026-10-17T10:33:28Z</updated>
-    <summary type="text">Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats la</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>From a raw spreadsheet to a published data package in a day</title>
-    <link href="https://www.r-bloggers.com/2026/10/from-a-raw-spreadsheet-to-a-published-data-package-in-a-day/" rel="alternate"/>
-    <id>https://www.r-bloggers.com/2026/10/from-a-raw-spreadsheet-to-a-published-data-package-in-a-day/</id>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="text">On 22 July 2026 at 15:05, I made the first commit to a new repository. It held an empty R package and one Excel workbook with field data from a household waste study in Kampala, Uganda. Three minutes later I sent the first prompt to Claude Code:... Continue reading: From a raw spreadsheet to a published data package in a day</summary>
-    <author><name>Lars Schöbitz</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>I built an in-browser search engine that finds the exact function to fix a bug</title>
-    <link href="https://dev.to/lazeez/i-built-an-in-browser-search-engine-that-finds-the-exact-function-to-fix-a-bug-1efg" rel="alternate"/>
-    <id>https://dev.to/lazeez/i-built-an-in-browser-search-engine-that-finds-the-exact-function-to-fix-a-bug-1efg</id>
-    <updated>2026-10-18T05:32:39Z</updated>
-    <summary type="text">TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying to get into RAG and automation. Odin is more than a search engine, all you have to do is paste a public repo URL and link the issue or describe the bug yourself and it downloads, </summary>
-    <author><name>Lajat</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Open GPU kernel engineering series: naive GEMM to FlashAttention, H100 and Blackwell (44 sessions, code public) [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/</id>
-    <updated>2026-10-19T18:15:18Z</updated>
-    <summary type="text">I'm building a free, code-first series on GPU kernel engineering and just published the intro and roadmap video. It's my own channel, and I'm posting to share the resource and get feedback on the plan, not to sell anything. Video: https://youtu.be/cibk7G-jHQw The core idea behind the series: for most ML workloads, kernel performance is a data-movement problem before it's a compute problem. Two thi</summary>
-    <author><name>/u/Winter_Mistake_3185</name></author>
-    <category term="funding"/>
-    <category term="hardware"/>
   </entry>
 </feed>
