@@ -4,7 +4,18 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-22T03:58:30Z</updated>
+  <updated>2026-10-22T09:20:46Z</updated>
+  <entry>
+    <title>NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels</title>
+    <link href="https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/</id>
+    <updated>2026-10-22T03:59:12Z</updated>
+    <summary type="text">Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. The post NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels appeared first on MarkTechPost.</summary>
+    <author><name>Sana Hassan</name></author>
+    <category term="open-source"/>
+    <category term="tutorial"/>
+    <category term="hardware"/>
+  </entry>
   <entry>
     <title>Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params</title>
     <link href="https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/" rel="alternate"/>
@@ -31,6 +42,15 @@
     <summary type="text">OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</summary>
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>pgvector: Build RAG Retrieval Inside the Postgres You Already Run</title>
+    <link href="https://dev.to/m_t_ramkrushna/pgvector-build-rag-retrieval-inside-the-postgres-you-already-run-52d" rel="alternate"/>
+    <id>https://dev.to/m_t_ramkrushna/pgvector-build-rag-retrieval-inside-the-postgres-you-already-run-52d</id>
+    <updated>2026-10-22T09:12:25Z</updated>
+    <summary type="text">This week's AI tool: pgvector, an open-source Postgres extension that adds vector similarity search to the database you probably already run. Why it's worth 15 minutes of your time: the retrieval step of a RAG app is &quot;store embeddings, find the nearest ones to a query, filter by who is allowed to see what.&quot; If your documents, users and permissions already live in Postgres, pgvector lets you do all</summary>
+    <author><name>M.T.Ramkrushna</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Cloudflare links vulnerability discovery to defense with OpenAI</title>
@@ -345,60 +365,5 @@
     <updated>2026-10-19T23:22:51Z</updated>
     <summary type="text">Fix MP3 Files Without Tags or Covers Using Just Two Prompts (Windows PC Required) If your MP3 files have missing tags and album covers, you can organize your music collection in under 15 minutes using ChatGPT (Codex), and Mp3tag for free. Let's get started! Step 1: Install Mp3tag for free Download Mp3tag from its official website: https://www.mp3tag.de/en/download.html Install the program on your </summary>
     <author><name>Thomas Fischer</name></author>
-  </entry>
-  <entry>
-    <title>7 Claude Prompts That Run a Week of Social Media Over MCP (Copy-Paste Ready)</title>
-    <link href="https://dev.to/olver_thorarinsson_bcf885/7-claude-prompts-that-run-a-week-of-social-media-over-mcp-copy-paste-ready-146o" rel="alternate"/>
-    <id>https://dev.to/olver_thorarinsson_bcf885/7-claude-prompts-that-run-a-week-of-social-media-over-mcp-copy-paste-ready-146o</id>
-    <updated>2026-10-19T19:00:40Z</updated>
-    <summary type="text">Originally published at smartpoststudio.com. Republished with a canonical link. Connecting Claude to a scheduler over MCP takes about a minute. Knowing what to actually say to it afterwards is the part nobody writes down, so most people ask &quot;what's in my queue?&quot;, get an answer, and never come back. Below are the seven prompts we'd hand a solo creator on day one, in the order you'd use them across </summary>
-    <author><name>Olver Thorarinsson</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Which Social Media Schedulers Support MCP? Every Tool Compared (2026)</title>
-    <link href="https://dev.to/olver_thorarinsson_bcf885/which-social-media-schedulers-support-mcp-every-tool-compared-2026-e87" rel="alternate"/>
-    <id>https://dev.to/olver_thorarinsson_bcf885/which-social-media-schedulers-support-mcp-every-tool-compared-2026-e87</id>
-    <updated>2026-10-19T18:59:37Z</updated>
-    <summary type="text">Originally published at smartpoststudio.com. Republished with a canonical link. Six months ago, &quot;my scheduler has an MCP server&quot; would have been a real differentiator. In July 2026 it isn't — at least six schedulers now have one, and any tool implying otherwise is hoping you won't check. So this isn't a post about who has MCP. It's about the four things that actually differ once nearly everyone do</summary>
-    <author><name>Olver Thorarinsson</name></author>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Descargando la CPU del SSR: Optimización de Imágenes al Vuelo con Cloudflare Images y Next.js a Escala Enterprise</title>
-    <link href="https://dev.to/merolhack/descargando-la-cpu-del-ssr-optimizacion-de-imagenes-al-vuelo-con-cloudflare-images-y-nextjs-a-i2i" rel="alternate"/>
-    <id>https://dev.to/merolhack/descargando-la-cpu-del-ssr-optimizacion-de-imagenes-al-vuelo-con-cloudflare-images-y-nextjs-a-i2i</id>
-    <updated>2026-10-19T18:58:51Z</updated>
-    <summary type="text">Durante un evento de alto tráfico como Black Friday o una venta flash global, el cuello de botella más letal en una arquitectura frontend headless basada en Next.js rara vez es la compilación de componentes de React o la hidratación en el cliente. El colapso típico sobreviene en los pods de Node.js cuando el tráfico orgánico bombardea el endpoint interno /_next/image. La ejecución concurrente de l</summary>
-    <author><name>Lenin Jose Meza Zarco</name></author>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation</title>
-    <link href="https://arxiv.org/abs/2610.26853v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.26853v1</id>
-    <updated>2026-10-19T17:59:51Z</updated>
-    <summary type="text">Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain </summary>
-    <author><name>Zhixiang Wang</name></author>
-  </entry>
-  <entry>
-    <title>Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning</title>
-    <link href="https://arxiv.org/abs/2610.26851v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.26851v1</id>
-    <updated>2026-10-19T17:59:46Z</updated>
-    <summary type="text">Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-</summary>
-    <author><name>Yu-Lun Liu</name></author>
-    <category term="computer-vision"/>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development</title>
-    <link href="https://arxiv.org/abs/2610.26826v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.26826v1</id>
-    <updated>2026-10-19T17:55:06Z</updated>
-    <summary type="text">Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. We study this crucial capability through webpage development, a practical and readily evaluable setting in which existing benchmarks remain largely idealized: they typically focus on reconstructing visual targets </summary>
-    <author><name>Shuai Bai</name></author>
-    <category term="agents"/>
   </entry>
 </feed>
