@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-22T09:20:46Z</updated>
+  <updated>2026-10-22T14:57:43Z</updated>
   <entry>
     <title>NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels</title>
     <link href="https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/" rel="alternate"/>
@@ -15,6 +15,15 @@
     <category term="open-source"/>
     <category term="tutorial"/>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Hugging Face’s New AI Biology Model Lets You Chat With DNA</title>
+    <link href="https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/" rel="alternate"/>
+    <id>https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/</id>
+    <updated>2026-10-22T10:00:00Z</updated>
+    <summary type="text">The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</summary>
+    <author><name>Emily Mullin</name></author>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params</title>
@@ -41,6 +50,24 @@
     <updated>2026-10-21T12:00:00Z</updated>
     <summary type="text">OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</summary>
     <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>ASF Project Spotlight: Apache Iggy</title>
+    <link href="https://dev.to/the_asf/asf-project-spotlight-apache-iggy-5gmh" rel="alternate"/>
+    <id>https://dev.to/the_asf/asf-project-spotlight-apache-iggy-5gmh</id>
+    <updated>2026-10-22T14:52:13Z</updated>
+    <summary type="text">Apache Iggy™ is one of the ASF's newest Top-Level Projects. In this Spotlight, the ASF spoke with PMC members Piotr Gankiewicz and Kranti Parisa about the engineering choices behind Iggy, the long road to clustering, and the community that has grown around it. What Is Apache Iggy and Why It Exists Can you tell us a bit about Apache Iggy? Apache Iggy is a persistent message streaming platform writt</summary>
+    <author><name>The ASF</name></author>
+  </entry>
+  <entry>
+    <title>EverShelf: An Open-Source, Self-Hosted Smart Pantry Manager with AI to Stop Food Waste</title>
+    <link href="https://dev.to/evershelf_project/evershelf-an-open-source-self-hosted-smart-pantry-manager-with-ai-to-stop-food-waste-45id" rel="alternate"/>
+    <id>https://dev.to/evershelf_project/evershelf-an-open-source-self-hosted-smart-pantry-manager-with-ai-to-stop-food-waste-45id</id>
+    <updated>2026-10-22T14:50:52Z</updated>
+    <summary type="text">Hi DEV community! 👋 I wanted to introduce EverShelf, a self-hosted, MIT-licensed smart pantry manager I’ve been building to tackle food waste at home. We recently crossed 147+ stars and 14 forks on GitHub, and I'd love to share the tech behind it, gather feedback from fellow developers, and invite new contributors! 💡 The Problem We’ve all experienced it: buying groceries, tucking them away in cupb</summary>
+    <author><name>EverShelf Project</name></author>
+    <category term="open-source"/>
     <category term="llm"/>
   </entry>
   <entry>
@@ -325,45 +352,5 @@
     <author><name>Phoebe Sajor</name></author>
     <category term="agents"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AIPass is feature-complete. Here is what that means, and the phone app on top</title>
-    <link href="https://dev.to/aipass/aipass-is-feature-complete-here-is-what-that-means-and-the-phone-app-on-top-56f9" rel="alternate"/>
-    <id>https://dev.to/aipass/aipass-is-feature-complete-here-is-what-that-means-and-the-phone-app-on-top-56f9</id>
-    <updated>2026-10-20T04:05:01Z</updated>
-    <summary type="text">AIPass has stopped taking new features. The developer's word for everything from here is fixes and polish. For an open source project that is usually a quiet line in a changelog, but for this one it changes who can usefully join, so this post explains three things: what AIPass is, what &quot;done&quot; means for it, and BAUD, the phone app that lets you watch it run. What AIPass is AIPass is a framework for</summary>
-    <author><name>System Aipass</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>Architectural Deep-Dive: OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory</title>
-    <link href="https://dev.to/hordii_bohdan/architectural-deep-dive-openvlharness-real-world-visual-agentic-tool-use-with-multimodal-memory-paa" rel="alternate"/>
-    <id>https://dev.to/hordii_bohdan/architectural-deep-dive-openvlharness-real-world-visual-agentic-tool-use-with-multimodal-memory-paa</id>
-    <updated>2026-10-20T04:03:29Z</updated>
-    <summary type="text">Decoupling Perception and Compute: How Persistent Multimodal Memory Fixes Agentic Tool Bottlenecks Multimodal Large Language Models (MLLMs) are increasingly deployed as autonomous visual agents tasked with analyzing technical schematics, executing system telemetry diagnostics, and verifying physical mockups. However, in production environments, a familiar wall is encountered: inference-time scalin</summary>
-    <author><name>Bohdan Hordii</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration</title>
-    <link href="https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/</id>
-    <updated>2026-10-19T03:19:18Z</updated>
-    <summary type="text">NVIDIA has released the full Run:ai GPU orchestration platform as open source under Apache 2.0. The release includes KAI Scheduler, CUDA 13.4 GPU fractioning, quota management, and a local Kind dev environment. The post NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Fix Missing MP3 Tags and Album Covers for Free</title>
-    <link href="https://dev.to/thomate2011/how-to-fix-missing-mp3-tags-and-album-covers-for-free-using-chatgpt-codex-and-mp3tag-145n" rel="alternate"/>
-    <id>https://dev.to/thomate2011/how-to-fix-missing-mp3-tags-and-album-covers-for-free-using-chatgpt-codex-and-mp3tag-145n</id>
-    <updated>2026-10-19T23:22:51Z</updated>
-    <summary type="text">Fix MP3 Files Without Tags or Covers Using Just Two Prompts (Windows PC Required) If your MP3 files have missing tags and album covers, you can organize your music collection in under 15 minutes using ChatGPT (Codex), and Mp3tag for free. Let's get started! Step 1: Install Mp3tag for free Download Mp3tag from its official website: https://www.mp3tag.de/en/download.html Install the program on your </summary>
-    <author><name>Thomas Fischer</name></author>
   </entry>
 </feed>
