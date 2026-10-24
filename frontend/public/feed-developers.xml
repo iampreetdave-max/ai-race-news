@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-24T17:58:51Z</updated>
+  <updated>2026-10-24T20:38:40Z</updated>
   <entry>
     <title>Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers</title>
     <link href="https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/" rel="alternate"/>
@@ -33,6 +33,27 @@
     <updated>2026-10-24T09:21:39Z</updated>
     <summary type="text">A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step. The article Fancy harnesses make coding agents more expensive but not better, study finds appeared first on The Decode</summary>
     <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A pre-flight checklist before domain continued pre-training</title>
+    <link href="https://dev.to/conorbronsdon/a-pre-flight-checklist-before-domain-continued-pre-training-5afl" rel="alternate"/>
+    <id>https://dev.to/conorbronsdon/a-pre-flight-checklist-before-domain-continued-pre-training-5afl</id>
+    <updated>2026-10-24T20:30:11Z</updated>
+    <summary type="text">Your team picked an open weight checkpoint and a corpus. The tempting move is to schedule GPUs and iterate on the mix later. Joel Hron at Thomson Reuters and Fergal Reid at Intercom both describe training as staged pipelines where evaluation sits beside the data, and Hron treats retained capabilities as an explicit objective. I'd treat the run as blocked until you can answer the questions below. W</summary>
+    <author><name>Conor Bronsdon</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+    <category term="llm"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>OpenAI Moderation API and GPT-4o-mini Chat Completions: JSON Schema Text Triage</title>
+    <link href="https://dev.to/leiferiksson8493/openai-moderation-api-and-gpt-4o-mini-chat-completions-json-schema-text-triage-5e7h" rel="alternate"/>
+    <id>https://dev.to/leiferiksson8493/openai-moderation-api-and-gpt-4o-mini-chat-completions-json-schema-text-triage-5e7h</id>
+    <updated>2026-10-24T20:27:00Z</updated>
+    <summary type="text">Short answer: treat text moderation as a queue contract, not a prompt trick. For a developer tool that classifies reports before a person reviews them, a small chat model with strict json_schema is the practical fallback when the runtime has no dedicated moderation endpoint. Keep the result narrow: { &quot;is_safe&quot;: boolean, &quot;reason&quot;: string }. Validate it, record the policy version, and send uncertain</summary>
+    <author><name>leiferiksson8493</name></author>
     <category term="llm"/>
   </entry>
   <entry>
@@ -263,39 +284,5 @@
     <author><name>Asif Razzaq</name></author>
     <category term="open-source"/>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Your Stack Has a Size. Flisk Only Fits One of Them.</title>
-    <link href="https://dev.to/flisk/your-stack-has-a-size-flisk-only-fits-one-of-them-1n1f" rel="alternate"/>
-    <id>https://dev.to/flisk/your-stack-has-a-size-flisk-only-fits-one-of-them-1n1f</id>
-    <updated>2026-10-21T22:47:28Z</updated>
-    <summary type="text">&quot;We have microservices&quot; is not a sizing input. Twelve services in one Compose file is a different job from twelve services that each own a manifest, a route, and a health check. Flisk is opinionated about which of those jobs it wants. This is the decision table I wish every &quot;should we adopt this&quot; thread started with. Three sizes, three tools Your actual stack Better default Why 2–5 services, alrea</summary>
-    <author><name>flisk</name></author>
-  </entry>
-  <entry>
-    <title>SQL Injection with SQLmap on Kali: From Login Form to Database</title>
-    <link href="https://dev.to/emuzinun/sql-injection-with-sqlmap-on-kali-from-login-form-to-database-48lp" rel="alternate"/>
-    <id>https://dev.to/emuzinun/sql-injection-with-sqlmap-on-kali-from-login-form-to-database-48lp</id>
-    <updated>2026-10-21T22:45:09Z</updated>
-    <summary type="text">The Sqlmap tool is an open-source tool that automates SQL injection testing. It can handle what's done manually with a few commands. SQL injection: simply put, if a web application sends the input it takes from the user straight to the database without filtering it, you can write SQL code there. It could be a login form, a search box, a URL parameter, etc. The application runs that code and the da</summary>
-    <author><name>Emin ÜZÜN</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>From Prompt Injection to Data Leak: Agentic AI Risks</title>
-    <link href="https://dev.to/emuzinun/from-prompt-injection-to-data-leak-agentic-ai-risks-3g5f" rel="alternate"/>
-    <id>https://dev.to/emuzinun/from-prompt-injection-to-data-leak-agentic-ai-risks-3g5f</id>
-    <updated>2026-10-21T22:45:08Z</updated>
-    <summary type="text">When people talked about AI, the focus in most places was on things like model quality, speed, context window. As of today, the topics being discussed have changed a bit. Now these are the questions being asked more often: What does it have access to? What can it do on its own? What information could it leak? This is exactly where what's called agentic AI comes in. It can read email. It can search</summary>
-    <author><name>Emin ÜZÜN</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Is flisk.sh a Small CLI or a Big Thing?</title>
-    <link href="https://dev.to/flisk/is-flisksh-a-small-cli-or-a-big-thing-28pn" rel="alternate"/>
-    <id>https://dev.to/flisk/is-flisksh-a-small-cli-or-a-big-thing-28pn</id>
-    <updated>2026-10-21T22:45:02Z</updated>
-    <summary type="text">People keep asking the wrong size question about flisk.sh. Is it a platform? A Kubernetes replacement? A new way to build companies? No. It is a CLI. You write a service.json, you run flisk up (the GitHub README still says tdk up for the same package), and it generates the local Docker and Tilt wiring so those services start on your machine. Production stays on Helm. That is the whole product sent</summary>
-    <author><name>flisk</name></author>
   </entry>
 </feed>
