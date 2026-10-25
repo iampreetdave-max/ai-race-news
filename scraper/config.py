@@ -29,6 +29,7 @@ DEDUP_SIMILARITY_THRESHOLD = 0.85
 # RSS SOURCES - 60+ verified working feeds
 # Removed: ZDNet AI, Engadget, Gizmodo, The Next Web (too noisy)
 # Added: CB Insights, AI Business, Emerj, Weights & Biases
+# Removed 2026-10: AI News (bot wall), VentureBeat (429), LangChain (feed gone), DEV Community (a quarter of all volume, mostly noise)
 # ============================================================
 RSS_SOURCES = [
     # --- Official AI Company Blogs (Priority 1) ---
@@ -43,19 +44,27 @@ RSS_SOURCES = [
     {"name": "The Decoder", "url": "https://the-decoder.com/feed/", "priority": 2},
     {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed", "priority": 2},
     {"name": "Synced Review", "url": "https://syncedreview.com/feed", "priority": 2},
-    {"name": "AI News", "url": "https://www.artificialintelligence-news.com/feed/rss/", "priority": 2},
     {"name": "AI Business", "url": "https://aibusiness.com/rss.xml", "priority": 2},
     {"name": "CB Insights AI", "url": "https://www.cbinsights.com/research/feed/", "priority": 2},
     {"name": "Emerj AI", "url": "https://emerj.com/feed/", "priority": 2},
 
     # --- Major Tech News (Priority 3) ---
-    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "priority": 3},
     {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "priority": 3},
     {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "priority": 3},
     {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "priority": 3},
     {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "priority": 3},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "priority": 3},
     {"name": "Bloomberg Technology", "url": "https://feeds.bloomberg.com/technology/news.rss", "priority": 3},
+
+    # --- India (Priority 3; AIM is AI-only so 2). General tech feeds pass the relevance gate in tagger.py ---
+    {"name": "Analytics India Magazine", "url": "https://analyticsindiamag.com/feed/", "priority": 2},
+    {"name": "Inc42", "url": "https://inc42.com/feed/", "priority": 3},
+    {"name": "YourStory", "url": "https://yourstory.com/feed", "priority": 3},
+    {"name": "MediaNama", "url": "https://www.medianama.com/feed/", "priority": 3},
+    {"name": "ET Tech", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", "priority": 3},
+    {"name": "BusinessLine Info-tech", "url": "https://www.thehindubusinessline.com/info-tech/feeder/default.rss", "priority": 3},
+    {"name": "Mint Technology", "url": "https://www.livemint.com/rss/technology", "priority": 3},
+    {"name": "Indian Express Tech", "url": "https://indianexpress.com/section/technology/feed/", "priority": 3},
 
     # --- Newsletters & Substacks (Priority 4) ---
     {"name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "priority": 4},
@@ -72,10 +81,8 @@ RSS_SOURCES = [
     # --- Developer Resources (Priority 5) ---
     {"name": "KDnuggets", "url": "https://www.kdnuggets.com/feed", "priority": 5},
     {"name": "Machine Learning Mastery", "url": "https://machinelearningmastery.com/blog/feed", "priority": 5},
-    {"name": "LangChain Blog", "url": "https://blog.langchain.dev/rss/", "priority": 5},
     {"name": "Towards Data Science", "url": "https://towardsdatascience.com/feed", "priority": 5},
     {"name": "Stack Overflow Blog", "url": "https://stackoverflow.blog/feed/", "priority": 5},
-    {"name": "DEV Community", "url": "https://dev.to/feed", "priority": 5},
     {"name": "Hacker Noon AI", "url": "https://hackernoon.com/tagged/ai/feed", "priority": 5},
     {"name": "Replicate Blog", "url": "https://replicate.com/blog/rss", "priority": 5},
     {"name": "Weights & Biases", "url": "https://wandb.ai/fully-connected/rss.xml", "priority": 5},

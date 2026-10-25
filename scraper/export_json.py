@@ -9,10 +9,13 @@
 # Also generates:
 #   - Atom 1.0 RSS feeds  -> frontend/public/feed.xml + feed-{audience}.xml
 #   - sitemap.xml         -> frontend/public/sitemap.xml
+#   - tapri.json          -> the week's top stories for tensortapri.org/brewing, which fetches it
+#                            straight from this repo, so new news there needs no deploy
 import json
 import math
 import os
 import re
+from collections import Counter
 import sqlite3
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
@@ -46,16 +49,44 @@ SOURCE_PRIORITIES: dict[str, int] = {
     'SiliconANGLE AI': 6, 'Crunchbase News': 6,
     'r/MachineLearning': 7, 'r/LocalLLaMA': 7, 'r/artificial': 7,
     'r/deeplearning': 7, 'r/datascience': 7, 'r/ChatGPT': 7,
+    'Analytics India Magazine': 2, 'Inc42': 3, 'YourStory': 3, 'MediaNama': 3,
+    'ET Tech': 3, 'BusinessLine Info-tech': 3, 'Mint Technology': 3,
+    'Indian Express Tech': 3,
     'Simon Willison': 7, 'Chip Huyen': 7, 'Eugene Yan': 7, 'R-bloggers': 7,
 }
 
 MIN_SUMMARY_CHARS = 80
 DEDUP_THRESHOLD = 0.55
 TRENDING_WINDOW_HOURS = 24
-TRENDING_THRESHOLD = 0.55
 TRENDING_BOOST = 0.3
 FRESHNESS_HALF_LIFE_H = 24
 OUTPUT_LIMIT = 500
+
+# tapri.json (Tensor Tapri's weekly view)
+TAPRI_DAYS = 7
+TAPRI_HALF_LIFE_H = 72
+TAPRI_WORLD, TAPRI_INDIA, TAPRI_PER_SOURCE = 15, 10, 2
+INDIA_SOURCES = {
+    'Analytics India Magazine', 'Inc42', 'YourStory', 'MediaNama', 'ET Tech',
+    'BusinessLine Info-tech', 'Mint Technology', 'Indian Express Tech',
+}
+# Tier 3+ sources cover all of tech, so their headline has to say it's AI.
+_AI_RE = re.compile(
+    r'\b(ai|genai|artificial intelligence|machine learning|deep learning|ml|nlp|llms?'
+    r'|gpt[\w.-]*|chatgpt|chatbots?|generative|neural|agents?|agentic|openai|anthropic'
+    r'|claude|gemini|deepmind|copilot|llama|mistral|deepseek|hugging ?face|nvidia|gpus?'
+    r'|data cent(?:er|re)s?|robot\w*|indiaai|sarvam|krutrim|bhashini)\b',
+    re.IGNORECASE,
+)
+# Tensor Tapri carries no jobs or hiring content while Preet is employed.
+_JOBS_RE = re.compile(
+    r'\b(hiring|hires?|internships?|recruit\w*|careers?|job openings?|vacanc(?:y|ies))\b',
+    re.IGNORECASE,
+)
+_STOPWORDS = set(
+    'a an the of to in on for and with is are its it as at by from new how why what '
+    'this that be will after into over says say has have can your you'.split()
+)
 
 _BAD_IMAGE_RE = re.compile(
     r'1[xX]1'
@@ -96,12 +127,12 @@ def _parse_dt(published_at: str) -> datetime | None:
         return None
 
 
-def _freshness(published_at: str, now: datetime) -> float:
+def _freshness(published_at: str, now: datetime, half_life_h: float = FRESHNESS_HALF_LIFE_H) -> float:
     dt = _parse_dt(published_at)
     if dt is None:
         return 0.5
     age_h = (now - dt).total_seconds() / 3600
-    return math.exp(-0.693 * age_h / FRESHNESS_HALF_LIFE_H)
+    return math.exp(-0.693 * age_h / half_life_h)
 
 
 def _slugify(title: str, article_id: int) -> str:
@@ -133,15 +164,29 @@ def _dedup(articles: list[dict]) -> list[dict]:
     return [a for a, ok in zip(articles, keep) if ok]
 
 
-def _source_counts(articles: list[dict], now: datetime) -> dict[int, int]:
-    cutoff = now - timedelta(hours=TRENDING_WINDOW_HOURS)
+def _story_words(title: str) -> set[str]:
+    return {w for w in _normalize_title(title).split() if len(w) > 2 and w not in _STOPWORDS}
+
+
+def _same_story(a: set[str], b: set[str], common: frozenset = frozenset()) -> bool:
+    # Outlets word the same story differently ("Meta to create a new class of shares" vs
+    # "Meta Gains on Results, New Stock Class to Fund AI"), so compare shared headline words, not characters.
+    # At least one shared word must be uncommon this week, or "raises", "billion", "valuation" glue unrelated funding stories.
+    shared = a & b
+    return len(shared) >= 3 and len(shared) >= 0.5 * min(len(a), len(b)) and bool(shared - common)
+
+
+# Groups articles from the last `hours` into stories: {article id: id of one article in the same story}.
+# Call it on the list BEFORE _dedup: dedup keeps one article per story, so after it every story looks single-source.
+def _story_clusters(articles: list[dict], now: datetime, hours: float) -> dict:
+    cutoff = now - timedelta(hours=hours)
     recent = [
         a for a in articles
         if (dt := _parse_dt(a['published_at'])) is not None and dt >= cutoff
     ]
-    if len(recent) < 2:
-        return {a['id']: 1 for a in articles}
-    norms = {a['id']: _normalize_title(a['title']) for a in recent}
+    words = {a['id']: _story_words(a['title']) for a in recent}
+    seen_in = Counter(w for ws in words.values() for w in ws)
+    common = frozenset(w for w, n in seen_in.items() if n > max(3, len(recent) // 100))
     ids = [a['id'] for a in recent]
     parent: dict[int, int] = {aid: aid for aid in ids}
 
@@ -153,28 +198,66 @@ def _source_counts(articles: list[dict], now: datetime) -> dict[int, int]:
 
     for i in range(len(ids)):
         for j in range(i + 1, len(ids)):
-            if SequenceMatcher(None, norms[ids[i]], norms[ids[j]]).ratio() >= TRENDING_THRESHOLD:
+            if _same_story(words[ids[i]], words[ids[j]], common):
                 parent[find(ids[i])] = find(ids[j])
 
-    cluster_sources: dict[int, set[str]] = {}
-    for a in recent:
-        root = find(a['id'])
-        cluster_sources.setdefault(root, set()).add(a['source_name'])
+    return {aid: find(aid) for aid in ids}
 
-    recent_ids = {a['id'] for a in recent}
-    counts: dict[int, int] = {}
+
+# {article id: how many different sources covered its story}. Articles outside the clustered window count 1.
+def _source_counts(articles: list[dict], roots: dict) -> dict:
+    sources: dict = {}
     for a in articles:
-        if a['id'] not in recent_ids:
-            counts[a['id']] = 1
-        else:
-            counts[a['id']] = len(cluster_sources.get(find(a['id']), {a['source_name']}))
-    return counts
+        sources.setdefault(roots.get(a['id'], a['id']), set()).add(a['source_name'])
+    return {a['id']: len(sources[roots.get(a['id'], a['id'])]) for a in articles}
 
 
 def _display_score(article: dict, src_count: int, now: datetime) -> float:
     tier = _tier_score(_source_priority(article['source_name']))
     trending_mult = 1.0 + TRENDING_BOOST * (src_count - 1)
     return tier * trending_mult * _freshness(article['published_at'], now)
+
+
+def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) -> dict:
+    """The week's top stories for tensortapri.org/brewing: world and India lists, at most 2 per source."""
+    cutoff = now - timedelta(days=TAPRI_DAYS)
+
+    def wanted(a: dict) -> bool:
+        dt = _parse_dt(a['published_at'])
+        return (
+            dt is not None and cutoff <= dt <= now + timedelta(hours=1)
+            and not _JOBS_RE.search(a['title'])
+            and (_source_priority(a['source_name']) <= 2 or bool(_AI_RE.search(a['title'])))
+        )
+
+    # Over a week, how many outlets covered a story matters more than how fresh it is: 4 outlets = 4x.
+    ranked = sorted(
+        filter(wanted, articles),
+        key=lambda a: -(counts.get(a['id'], 1) * _tier_score(_source_priority(a['source_name']))
+                        * _freshness(a['published_at'], now, TAPRI_HALF_LIFE_H)),
+    )
+
+    def top(india: bool, limit: int) -> list[dict]:
+        out: list[dict] = []
+        per_source: dict[str, int] = {}
+        shown: set = set()  # _dedup misses differently-worded headlines, so also show each story once
+        for a in ranked:
+            src = a['source_name']
+            if (src in INDIA_SOURCES) != india or per_source.get(src, 0) >= TAPRI_PER_SOURCE:
+                continue
+            story = roots.get(a['id'], a['id'])
+            if story in shown:
+                continue
+            shown.add(story)
+            per_source[src] = per_source.get(src, 0) + 1
+            out.append({'title': a['title'], 'url': a['url'], 'source': src,
+                        'at': a['published_at'], 'n': counts.get(a['id'], 1)})
+            if len(out) == limit:
+                break
+        return out
+
+    return {'updated': now.isoformat(timespec='seconds'),
+            'world': top(False, TAPRI_WORLD), 'india': top(True, TAPRI_INDIA)}
 
 
 # ---------------------------------------------------------------------------
@@ -333,7 +416,7 @@ def export_all(db_path=None, output_dir=None):
     after_dedup = _dedup(after_quality)
     print(f'Dedup          : {len(after_quality)} -> {len(after_dedup)} ({len(after_quality) - len(after_dedup)} removed)')
 
-    counts = _source_counts(after_dedup, now)
+    counts = _source_counts(after_quality, _story_clusters(after_quality, now, TRENDING_WINDOW_HOURS))
     trending_count = sum(1 for v in counts.values() if v > 1)
     print(f'Trending       : {trending_count} articles covered by 2+ sources')
 
@@ -366,6 +449,11 @@ def export_all(db_path=None, output_dir=None):
             'limit': OUTPUT_LIMIT, 'offset': 0,
         })
         print(f'  feed-{audience}.json : {len(feed)} articles ({size:.0f} KB)')
+
+    week = _story_clusters(after_quality, now, 24 * TAPRI_DAYS)
+    tapri = _tapri_pick(after_dedup, week, _source_counts(after_quality, week), now)
+    size = write_json('tapri.json', tapri)
+    print(f'tapri.json         : {len(tapri["world"])} world + {len(tapri["india"])} India ({size:.0f} KB)')
 
     total = conn.execute('SELECT COUNT(*) as c FROM articles').fetchone()['c']
     scrapes = conn.execute('SELECT COUNT(*) as c FROM scrape_logs').fetchone()['c']

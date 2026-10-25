@@ -35,6 +35,9 @@ class RSSFetcher:
 
         try:
             feed = feedparser.parse(source_url)
+            # feedparser doesn't raise on a blocked or dead feed, so a 403/429 used to log as "success" with 0 articles
+            if feed.get("status", 200) >= 400:
+                raise ValueError(f"HTTP {feed.status}")
 
             if feed.bozo and feed.bozo_exception:
                 logger.warning(

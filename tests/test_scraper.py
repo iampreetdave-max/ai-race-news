@@ -211,3 +211,32 @@ class TestDatabase:
         tmp_db.insert_articles(sample_articles)
         urls = tmp_db.get_existing_urls()
         assert len(urls) == len(sample_articles)
+
+
+class TestTapriExport:
+    """tapri.json feeds tensortapri.org/brewing: one entry per story, India split out, no jobs."""
+
+    def test_week_pick(self):
+        from datetime import timedelta, timezone
+        from scraper.export_json import _source_counts, _story_clusters, _tapri_pick
+
+        now = datetime(2026, 10, 25, 12, tzinfo=timezone.utc)
+
+        def art(i, title, source, hours_ago=5):
+            at = (now - timedelta(hours=hours_ago)).replace(tzinfo=None).isoformat()
+            return {"id": str(i), "title": title, "url": f"https://x.in/{i}", "source_name": source, "published_at": at}
+
+        arts = [
+            art(1, "Mistral introduces Duet, a proactive AI agent for teams", "The Decoder"),
+            art(2, "Mistral takes on Muse with Duet, its new AI agent for teams", "The Verge"),
+            art(3, "Duet is an always-on AI agent for teams from Mistral", "TechCrunch"),
+            art(4, "Sarvam AI launches a Gujarati voice model", "Inc42"),
+            art(5, "Zepto is hiring 500 AI engineers", "Inc42"),  # jobs content: never shown
+            art(6, "The best phones under Rs 20,000", "Indian Express Tech"),  # general tech, no AI in title
+            art(7, "Older AI news", "The Decoder", hours_ago=24 * 8),  # outside the week
+        ]
+        roots = _story_clusters(arts, now, 24 * 7)
+        out = _tapri_pick(arts, roots, _source_counts(arts, roots), now)
+
+        assert [(a["source"], a["n"]) for a in out["world"]] == [("The Decoder", 3)]  # 3 headlines, 1 story
+        assert [a["title"] for a in out["india"]] == ["Sarvam AI launches a Gujarati voice model"]

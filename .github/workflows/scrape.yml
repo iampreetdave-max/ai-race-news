@@ -69,13 +69,8 @@ jobs:
           git diff --staged --quiet || git commit -m "data: update news $(date -u +%Y-%m-%dT%H:%M)"
           git push
 
-      - name: Trigger Cloudflare Pages redeploy
-        if: success()
-        run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/${{ secrets.CLOUDFLARE_PROJECT_NAME }}/deployments" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            -d '{"source":{"type":"github"}}'
+      # No Cloudflare deploy here: tensortapri.org/brewing reads tapri.json straight from this repo,
+      # so committing the data is enough. A deploy per run burned ~150 of the account's 500 free Pages builds a month.
 
       - name: Alert on scrape failure
         if: failure()
