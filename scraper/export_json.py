@@ -51,7 +51,6 @@ SOURCE_PRIORITIES: dict[str, int] = {
     'r/deeplearning': 7, 'r/datascience': 7, 'r/ChatGPT': 7,
     'Analytics India Magazine': 2, 'Inc42': 3, 'YourStory': 3, 'MediaNama': 3,
     'ET Tech': 3, 'BusinessLine Info-tech': 3, 'Mint Technology': 3,
-    'Indian Express Tech': 3,
     'Simon Willison': 7, 'Chip Huyen': 7, 'Eugene Yan': 7, 'R-bloggers': 7,
 }
 
@@ -68,7 +67,7 @@ TAPRI_HALF_LIFE_H = 72
 TAPRI_WORLD, TAPRI_INDIA, TAPRI_PER_SOURCE = 15, 10, 2
 INDIA_SOURCES = {
     'Analytics India Magazine', 'Inc42', 'YourStory', 'MediaNama', 'ET Tech',
-    'BusinessLine Info-tech', 'Mint Technology', 'Indian Express Tech',
+    'BusinessLine Info-tech', 'Mint Technology',
 }
 # Tier 3+ sources cover all of tech, so their headline has to say it's AI.
 _AI_RE = re.compile(
@@ -80,7 +79,20 @@ _AI_RE = re.compile(
 )
 # Tensor Tapri carries no jobs or hiring content while Preet is employed.
 _JOBS_RE = re.compile(
-    r'\b(hiring|hires?|internships?|recruit\w*|careers?|job openings?|vacanc(?:y|ies))\b',
+    r'\b(hiring|hires?|internships?|recruit\w*|careers?|job openings?|vacanc(?:y|ies)|layoffs?|job cuts)\b',
+    re.IGNORECASE,
+)
+# Indian outlets also cover the world. A "From India" headline has to name something Indian.
+_INDIA_RE = re.compile(
+    r'₹|\b(india|indian|indians|bharat|crore|lakh|rs|govt|meity|rbi|sebi|niti|indiaai|bhashini|vaishnaw|goyal|modi'
+    r'|infosys|tcs|wipro|hcl\w*|tech mahindra|reliance|jio|airtel|zoho|sarvam|krutrim|ola|flipkart|paytm|phonepe|razorpay'
+    r'|zepto|swiggy|zomato|freshworks|bengaluru|bangalore|mumbai|delhi|ahmedabad|gujarat|gift city|hyderabad|pune|chennai'
+    r'|noida|gurugram|iit\w*|iisc|isro)\b',
+    re.IGNORECASE,
+)
+# Phone launches and OS updates with "AI features" are gadget news, not AI news.
+_GADGET_RE = re.compile(
+    r'\b(smartphones?|phones?|oneplus|oppo|vivo|xiaomi|redmi|realme|iphone|ipad|galaxy|pixel|coloros|one ui|hmd|nokia|motorola|tablets?|earbuds|smartwatch|price in india|launch date|specs)\b',
     re.IGNORECASE,
 )
 _STOPWORDS = set(
@@ -186,7 +198,7 @@ def _story_clusters(articles: list[dict], now: datetime, hours: float) -> dict:
     ]
     words = {a['id']: _story_words(a['title']) for a in recent}
     seen_in = Counter(w for ws in words.values() for w in ws)
-    common = frozenset(w for w, n in seen_in.items() if n > max(3, len(recent) // 100))
+    common = frozenset(w for w, n in seen_in.items() if n > max(10, len(recent) // 100))
     ids = [a['id'] for a in recent]
     parent: dict[int, int] = {aid: aid for aid in ids}
 
@@ -219,14 +231,20 @@ def _display_score(article: dict, src_count: int, now: datetime) -> float:
 
 
 def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) -> dict:
-    """The week's top stories for tensortapri.org/brewing: world and India lists, at most 2 per source."""
+    """The week's top stories for tensortapri.org/brewing: world and India lists, at most 2 per source.
+
+    Pass the list from before _dedup: stories are told apart here by `roots`, and the India list needs
+    to see every outlet that covered a story.
+    """
     cutoff = now - timedelta(days=TAPRI_DAYS)
+    # Indian outlets also reprint global news. "From India" only gets stories no outlet outside India covered.
+    global_stories = {roots[a['id']] for a in articles if a['id'] in roots and a['source_name'] not in INDIA_SOURCES}
 
     def wanted(a: dict) -> bool:
         dt = _parse_dt(a['published_at'])
         return (
             dt is not None and cutoff <= dt <= now + timedelta(hours=1)
-            and not _JOBS_RE.search(a['title'])
+            and not _JOBS_RE.search(a['title']) and not _GADGET_RE.search(a['title'])
             and (_source_priority(a['source_name']) <= 2 or bool(_AI_RE.search(a['title'])))
         )
 
@@ -246,7 +264,7 @@ def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) 
             if (src in INDIA_SOURCES) != india or per_source.get(src, 0) >= TAPRI_PER_SOURCE:
                 continue
             story = roots.get(a['id'], a['id'])
-            if story in shown:
+            if story in shown or (india and (story in global_stories or not _INDIA_RE.search(a['title']))):
                 continue
             shown.add(story)
             per_source[src] = per_source.get(src, 0) + 1
@@ -451,7 +469,7 @@ def export_all(db_path=None, output_dir=None):
         print(f'  feed-{audience}.json : {len(feed)} articles ({size:.0f} KB)')
 
     week = _story_clusters(after_quality, now, 24 * TAPRI_DAYS)
-    tapri = _tapri_pick(after_dedup, week, _source_counts(after_quality, week), now)
+    tapri = _tapri_pick(after_quality, week, _source_counts(after_quality, week), now)
     size = write_json('tapri.json', tapri)
     print(f'tapri.json         : {len(tapri["world"])} world + {len(tapri["india"])} India ({size:.0f} KB)')
 

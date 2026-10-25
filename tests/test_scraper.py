@@ -232,11 +232,14 @@ class TestTapriExport:
             art(3, "Duet is an always-on AI agent for teams from Mistral", "TechCrunch"),
             art(4, "Sarvam AI launches a Gujarati voice model", "Inc42"),
             art(5, "Zepto is hiring 500 AI engineers", "Inc42"),  # jobs content: never shown
-            art(6, "The best phones under Rs 20,000", "Indian Express Tech"),  # general tech, no AI in title
+            art(6, "The best phones under Rs 20,000", "Mint Technology"),  # general tech, no AI in title
+            art(8, "OnePlus 15 gets new AI features in OxygenOS update", "Mint Technology"),  # gadget news
+            art(9, "Mistral Duet arrives for Indian teams as an AI agent", "Analytics India Magazine"),  # global story
             art(7, "Older AI news", "The Decoder", hours_ago=24 * 8),  # outside the week
         ]
         roots = _story_clusters(arts, now, 24 * 7)
         out = _tapri_pick(arts, roots, _source_counts(arts, roots), now)
 
-        assert [(a["source"], a["n"]) for a in out["world"]] == [("The Decoder", 3)]  # 3 headlines, 1 story
+        assert [(a["source"], a["n"]) for a in out["world"]] == [("The Decoder", 4)]  # 4 headlines, 1 story
+        # India gets only what no outlet outside India covered: not the Duet reprint, not the phone update
         assert [a["title"] for a in out["india"]] == ["Sarvam AI launches a Gujarati voice model"]

@@ -64,7 +64,6 @@ RSS_SOURCES = [
     {"name": "ET Tech", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", "priority": 3},
     {"name": "BusinessLine Info-tech", "url": "https://www.thehindubusinessline.com/info-tech/feeder/default.rss", "priority": 3},
     {"name": "Mint Technology", "url": "https://www.livemint.com/rss/technology", "priority": 3},
-    {"name": "Indian Express Tech", "url": "https://indianexpress.com/section/technology/feed/", "priority": 3},
 
     # --- Newsletters & Substacks (Priority 4) ---
     {"name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "priority": 4},
