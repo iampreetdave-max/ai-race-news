@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-24T23:00:38Z</updated>
+  <updated>2026-10-25T01:02:42Z</updated>
   <entry>
     <title>Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers</title>
     <link href="https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/" rel="alternate"/>
@@ -33,6 +33,16 @@
     <updated>2026-10-24T09:21:39Z</updated>
     <summary type="text">A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step. The article Fancy harnesses make coding agents more expensive but not better, study finds appeared first on The Decode</summary>
     <author><name>Jonathan Kemper</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>I got tired of typing &quot;do 1 and 3, skip 2&quot; to Claude Code, so I built an approve/reject board</title>
+    <link href="https://dev.to/dvwinck/i-got-tired-of-typing-do-1-and-3-skip-2-to-claude-code-so-i-built-an-approvereject-board-35hf" rel="alternate"/>
+    <id>https://dev.to/dvwinck/i-got-tired-of-typing-do-1-and-3-skip-2-to-claude-code-so-i-built-an-approvereject-board-35hf</id>
+    <updated>2026-10-25T00:47:44Z</updated>
+    <summary type="text">You ask Claude Code for ten improvements to your project. It answers with a tidy numbered list. Then the real work starts: you scroll, you type &quot;do 1 and 3, skip 2 because we tried that, maybe 5 later,&quot; and you hope the agent maps your sentence back to the right items. Next week, in a new session, it proposes number 2 again. So I built ar-board, a Claude Code plugin that turns the list into cards </summary>
+    <author><name>Diogo Winck</name></author>
+    <category term="open-source"/>
     <category term="llm"/>
   </entry>
   <entry>
