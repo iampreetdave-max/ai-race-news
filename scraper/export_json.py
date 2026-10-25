@@ -11,6 +11,7 @@
 #   - sitemap.xml         -> frontend/public/sitemap.xml
 #   - tapri.json          -> the week's top stories for tensortapri.org/brewing, which fetches it
 #                            straight from this repo, so new news there needs no deploy
+import html
 import json
 import math
 import os
@@ -268,7 +269,8 @@ def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) 
                 continue
             shown.add(story)
             per_source[src] = per_source.get(src, 0) + 1
-            out.append({'title': a['title'], 'url': a['url'], 'source': src,
+            # some feeds escape twice, so titles arrive as "Meta &amp; more"
+            out.append({'title': html.unescape(a['title']), 'url': a['url'], 'source': src,
                         'at': a['published_at'], 'n': counts.get(a['id'], 1)})
             if len(out) == limit:
                 break
