@@ -11,14 +11,18 @@
 #   - sitemap.xml         -> frontend/public/sitemap.xml
 #   - tapri.json          -> the week's top stories for tensortapri.org/brewing, which fetches it
 #                            straight from this repo, so new news there needs no deploy
+import csv
 import html
+import io
 import json
 import math
 import os
 import re
+import urllib.request
+import zipfile
 from collections import Counter
 import sqlite3
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -70,6 +74,32 @@ INDIA_SOURCES = {
     'Analytics India Magazine', 'Inc42', 'YourStory', 'MediaNama', 'ET Tech',
     'BusinessLine Info-tech', 'Mint Technology',
 }
+IST = timezone(timedelta(hours=5, minutes=30))
+TAPRI_NAMES = 6
+# Who the week's headlines name, for the heatmap on /brewing. Hand-kept and case-sensitive, so "Meta" isn't "metadata".
+# ponytail: a fixed list, so a new lab only shows up once it's added here
+_NAMES = {name: re.compile(p) for name, p in {
+    'OpenAI': r'\bOpenAI|\bChatGPT', 'Anthropic': r'\bAnthropic|\bClaude\b', 'Google': r'\bGoogle|\bGemini|\bDeepMind',
+    'Meta': r'\bMeta\b|\bLlama', 'Microsoft': r'\bMicrosoft|\bCopilot', 'Nvidia': r'\bN(?:vidia|VIDIA)',
+    'Apple': r'\bApple\b', 'Amazon': r'\bAmazon|\bAWS\b', 'xAI': r'\bxAI\b|\bGrok', 'DeepSeek': r'\bDeepSeek',
+    'Alibaba': r'\bAlibaba|\bQwen', 'Mistral': r'\bMistral', 'Hugging Face': r'\bHugging ?Face',
+    'Perplexity': r'\bPerplexity', 'Reliance': r'\bReliance|\bJio\b', 'Infosys': r'\bInfosys', 'TCS': r'\bTCS\b',
+    'Wipro': r'\bWipro', 'Sarvam': r'\bSarvam',
+}.items()}
+# "Is AI getting better?" on /brewing: the record score on a few tests, from Epoch AI's Benchmarking Hub
+# (CC BY 4.0, so the page credits Epoch AI). One zip of CSVs that Epoch updates every few days.
+EPOCH_ZIP = 'https://epoch.ai/data/benchmark_data.zip'
+# key: (CSV in the zip, score column, factor to the unit shown, {column: value a row must have})
+BENCH_TESTS = {
+    'hle': ('hle_external.csv', 'Accuracy', 100, {}),
+    'swe': ('swe_bench_verified.csv', 'mean_score', 100, {}),
+    # minutes -> hours, and one METR method version, so the line doesn't mix two ways of measuring
+    'horizon': ('metr_time_horizons_external.csv', 'Time horizon', 1 / 60, {'METR version': 'METR-Horizon-v1.1'}),
+    'gpqa': ('gpqa_diamond.csv', 'mean_score', 100, {}),
+}
+# "Which AI is getting better fastest?": each lab's best model on Epoch's Capabilities Index, now and a year ago
+BENCH_LABS = 10
+_LAB_NAMES = {'Google DeepMind': 'Google', 'Meta AI': 'Meta', 'Z.ai (Zhipu AI)': 'Zhipu AI', 'Mistral AI': 'Mistral'}
 # Tier 3+ sources cover all of tech, so their headline has to say it's AI.
 _AI_RE = re.compile(
     r'\b(ai|genai|artificial intelligence|machine learning|deep learning|ml|nlp|llms?'
@@ -276,8 +306,92 @@ def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) 
                 break
         return out
 
-    return {'updated': now.isoformat(timespec='seconds'),
+    return {'updated': now.isoformat(timespec='seconds'), 'pulse': _pulse(ranked, now),
             'world': top(False, TAPRI_WORLD), 'india': top(True, TAPRI_INDIA)}
+
+
+def _pulse(articles: list[dict], now: datetime) -> dict:
+    """The week in numbers for /brewing: headlines, outlets, and who the headlines named on each of the last 7 days (IST).
+
+    Counts headlines, not stories: a story 5 outlets covered is 5. Only sees the rows export_all reads (1,500, about 8 days now).
+    """
+    today = now.astimezone(IST).date()
+    days = [today - timedelta(days=i) for i in range(TAPRI_DAYS - 1, -1, -1)]
+    # an article up to an hour "in the future" can land on tomorrow in IST, so it counts as today
+    week = [(a, min((_parse_dt(a['published_at']).astimezone(IST).date() - days[0]).days, TAPRI_DAYS - 1)) for a in articles]
+    week = [(a, i) for a, i in week if i >= 0]
+    grid = {name: [0] * TAPRI_DAYS for name in _NAMES}
+    for a, i in week:
+        for name, rx in _NAMES.items():
+            if rx.search(a['title']):
+                grid[name][i] += 1
+    loudest = sorted((n for n in grid if sum(grid[n])), key=lambda n: -sum(grid[n]))[:TAPRI_NAMES]
+    return {
+        'headlines': len(week),
+        'outlets': len({a['source_name'] for a, _ in week}),
+        'india': sum(a['source_name'] in INDIA_SOURCES for a, _ in week),
+        'days': [d.isoformat() for d in days],
+        'names': [{'name': n, 'days': grid[n]} for n in loudest],
+    }
+
+
+def _bench(zip_bytes: bytes, today: date) -> dict:
+    """Each test's record over time from Epoch's zip: [release date, score, model] for every model that beat all earlier ones."""
+    z = zipfile.ZipFile(io.BytesIO(zip_bytes))
+
+    def rows(name: str):
+        return csv.DictReader(io.StringIO(z.read(name).decode('utf-8-sig')))
+
+    names = {r['model_version']: r['display_name'] for r in rows('model_metadata.csv') if r['model_version']}
+    year_ago = (today - timedelta(days=365)).isoformat()
+    tests = []
+    for key, (file, col, factor, where) in BENCH_TESTS.items():
+        scores = sorted(
+            (r['Release date'], float(r[col]) * factor, r['Model version']) for r in rows(file)
+            if r.get(col) and r.get('Release date') and all(r.get(k) == v for k, v in where.items())
+        )
+        line: list = []
+        for day, score, model in scores:
+            if line and score <= line[-1][1]:
+                continue
+            # "Claude Opus 4.7 (max)" -> "Claude Opus 4.7": the effort setting is noise on a phone screen
+            point = [day, float(f'{score:.3g}'), re.sub(r'\s*\([^)]*\)$', '', names.get(model) or model)]
+            if line and line[-1][0] == day:  # two records on one release day: keep the higher
+                line[-1] = point
+            else:
+                line.append(point)
+        before = [p for p in line if p[0] <= year_ago]
+        tests.append({'key': key, 'line': line, 'year_ago': before[-1][1] if before else None})
+
+    # ECI is one score built from 50+ benchmarks (GPT-5 = 150 by definition), so labs tested on different things still compare
+    labs: dict = {}
+    for r in rows('epoch_capabilities_index/eci_scores.csv'):
+        org = r['Organization'].split(',')[0]  # joint releases count for the first lab named
+        if not org or not r['eci'] or not r['date']:
+            continue
+        lab, eci = _LAB_NAMES.get(org, org), float(r['eci'])
+        cur = labs.setdefault(lab, {'lab': lab, 'country': r['Country (of organization)'].split(',')[0], 'eci': float('-inf'),
+                                    'eci_ago': None, 'model_ago': None})
+        if eci > cur['eci']:
+            cur.update(eci=round(eci, 1), model=r['Display name'], date=r['date'], open=r['Accessibility group'] == 'Open weights')
+        if r['date'] <= year_ago and (cur['eci_ago'] is None or eci > cur['eci_ago']):
+            cur.update(eci_ago=round(eci, 1), model_ago=r['Display name'])
+    top_labs = sorted(labs.values(), key=lambda lab: -lab['eci'])[:BENCH_LABS]
+    return {'source': 'Epoch AI', 'url': 'https://epoch.ai/benchmarks', 'tests': tests, 'labs': top_labs}
+
+
+def _bench_or_last(output_dir: str, today: date) -> dict | None:
+    try:
+        req = urllib.request.Request(EPOCH_ZIP, headers={'User-Agent': 'ai-race-news'})
+        with urllib.request.urlopen(req, timeout=60) as res:
+            return _bench(res.read(), today)
+    except Exception as e:  # Epoch down, or its CSVs changed shape: keep the last good numbers rather than blank the chart
+        print(f'Benchmarks     : kept the last copy ({e})')
+        try:
+            with open(os.path.join(output_dir, 'tapri.json')) as f:
+                return json.load(f).get('bench')
+        except Exception:
+            return None
 
 
 # ---------------------------------------------------------------------------
@@ -472,6 +586,7 @@ def export_all(db_path=None, output_dir=None):
 
     week = _story_clusters(after_quality, now, 24 * TAPRI_DAYS)
     tapri = _tapri_pick(after_quality, week, _source_counts(after_quality, week), now)
+    tapri['bench'] = _bench_or_last(output_dir, now.date())  # reads the old tapri.json, so before it's overwritten
     size = write_json('tapri.json', tapri)
     print(f'tapri.json         : {len(tapri["world"])} world + {len(tapri["india"])} India ({size:.0f} KB)')
 

@@ -243,3 +243,50 @@ class TestTapriExport:
         assert [(a["source"], a["n"]) for a in out["world"]] == [("The Decoder", 4)]  # 4 headlines, 1 story
         # India gets only what no outlet outside India covered: not the Duet reprint, not the phone update
         assert [a["title"] for a in out["india"]] == ["Sarvam AI launches a Gujarati voice model"]
+        # the pulse counts every kept headline (jobs, gadgets, non-AI and old ones excluded), by IST day; 12:30 IST is today
+        p = out["pulse"]
+        assert (p["headlines"], p["outlets"], p["india"]) == (5, 5, 2)
+        assert p["days"][-1] == "2026-10-25" and len(p["days"]) == 7
+        assert p["names"] == [{"name": "Mistral", "days": [0] * 6 + [4]}, {"name": "Sarvam", "days": [0] * 6 + [1]}]
+
+    def test_bench_records(self):
+        import io
+        import zipfile
+        from datetime import date
+        from scraper.export_json import _bench
+
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("model_metadata.csv", "model_version,display_name\nm-a_high,Model A (high)\nm-b,Model B\n")
+            z.writestr("hle_external.csv", "Model version,Accuracy,Release date\n"
+                       "m-a_high,0.10,2025-01-01\n"      # first record
+                       "m-x,0.05,2025-03-01\n"           # worse than the record: not a point
+                       "m-b,0.30,2026-01-01\n"
+                       "m-y,0.20,2026-06-01\n"           # same day as the next one, which is higher
+                       "m-z,0.40,2026-06-01\n")
+            z.writestr("swe_bench_verified.csv", "Model version,mean_score,Release date\nm-b,0.5,2026-02-01\n")
+            z.writestr("metr_time_horizons_external.csv", "Model version,Time horizon,Release date,METR version\n"
+                       "m-a_high,30,2025-01-01,METR-Horizon-v1.1\n"
+                       "m-b,600,2026-01-01,METR-Horizon-v1.0\n"  # other method version: left out
+                       "m-b,120,2026-01-01,METR-Horizon-v1.1\n")
+            z.writestr("gpqa_diamond.csv", "Model version,mean_score,Release date\n")
+            z.writestr("epoch_capabilities_index/eci_scores.csv",
+                       "Display name,eci,date,Organization,Country (of organization),Accessibility group\n"
+                       "Gem 1,140,2025-06-01,Google DeepMind,United States of America,Other\n"
+                       "Gem 2,160.04,2026-09-01,Google,United States of America,Closed weights\n"  # same lab, other name
+                       "Seek 1,150,2026-09-09,\"DeepSeek,Peking University\",\"China,China\",Open weights\n"  # first lab named
+                       "Mystery,170,2026-01-01,,,Other\n")                                  # no lab: skipped
+        bench = _bench(buf.getvalue(), date(2026, 10, 26))
+        assert bench["labs"] == [
+            {"lab": "Google", "country": "United States of America", "eci": 160.0, "model": "Gem 2", "date": "2026-09-01",
+             "open": False, "eci_ago": 140.0, "model_ago": "Gem 1"},
+            {"lab": "DeepSeek", "country": "China", "eci": 150.0, "model": "Seek 1", "date": "2026-09-09",
+             "open": True, "eci_ago": None, "model_ago": None},
+        ]
+        out = {t["key"]: t for t in bench["tests"]}
+
+        assert out["hle"]["line"] == [["2025-01-01", 10.0, "Model A"], ["2026-01-01", 30.0, "Model B"], ["2026-06-01", 40.0, "m-z"]]
+        assert out["hle"]["year_ago"] == 10.0                          # the record standing on 2025-10-26
+        assert out["swe"]["year_ago"] is None                         # no record that old
+        assert out["horizon"]["line"] == [["2025-01-01", 0.5, "Model A"], ["2026-01-01", 2.0, "Model B"]]  # minutes -> hours
+        assert out["gpqa"]["line"] == []
