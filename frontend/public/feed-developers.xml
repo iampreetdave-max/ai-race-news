@@ -4,7 +4,33 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-27T19:56:33Z</updated>
+  <updated>2026-10-27T23:39:44Z</updated>
+  <entry>
+    <title>Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4</title>
+    <link href="https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/</id>
+    <updated>2026-10-27T20:50:39Z</updated>
+    <summary type="text">Many AI workloads need only a fraction of a GPU. Giving each one an entire device can leave capacity idle; sharing GPUs lets platform teams serve more workloads...</summary>
+    <author><name>Elizabeth Goodman</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models</title>
+    <link href="https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/</id>
+    <updated>2026-10-27T21:08:02Z</updated>
+    <summary type="text">Liquid AI released LFM3, 6 open-weight 2B-class models for text, vision, audio, omni and decisions. LFM3-1.7B uses a tri-hybrid backbone, a 256K context window and fits in about 1 GB at 4-bit. The post Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+  </entry>
+  <entry>
+    <title>Retell uses OpenAI models to help power 100M monthly calls</title>
+    <link href="https://openai.com/index/retell-ai" rel="alternate"/>
+    <id>https://openai.com/index/retell-ai</id>
+    <updated>2026-10-27T15:00:00Z</updated>
+    <summary type="text">GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Chai Point Cuts Monthly AWS Bill by 58%</title>
     <link href="https://analyticsindiamag.com/ai-news/chai-point-cuts-monthly-aws-bill-by-58" rel="alternate"/>
@@ -216,24 +242,5 @@
     <summary type="text">Short answer: treat text moderation as a queue contract, not a prompt trick. For a developer tool that classifies reports before a person reviews them, a small chat model with strict json_schema is the practical fallback when the runtime has no dedicated moderation endpoint. Keep the result narrow: { &quot;is_safe&quot;: boolean, &quot;reason&quot;: string }. Validate it, record the policy version, and send uncertain</summary>
     <author><name>leiferiksson8493</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Claude Code hooks for teams: four hooks worth committing to your repo</title>
-    <link href="https://dev.to/aiworkspacebuilder/claude-code-hooks-for-teams-four-hooks-worth-committing-to-your-repo-1kjp" rel="alternate"/>
-    <id>https://dev.to/aiworkspacebuilder/claude-code-hooks-for-teams-four-hooks-worth-committing-to-your-repo-1kjp</id>
-    <updated>2026-10-24T14:17:20Z</updated>
-    <summary type="text">Most teams start shaping Claude Code with instructions: a CLAUDE.md file that says &quot;run the formatter,&quot; &quot;never edit the lockfile,&quot; &quot;use our logger.&quot; That works most of the time. But an instruction is something the model chooses to follow. On a long session, or a busy day, it sometimes doesn't. Hooks close that gap. A hook is a shell command that Claude Code runs automatically at a fixed point, suc</summary>
-    <author><name>AI Workspace Builder</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>A public positioning teardown of r3, a review tool for AI-agent artifacts</title>
-    <link href="https://dev.to/victor_guerillot_aeecd294/a-public-positioning-teardown-of-r3-a-review-tool-for-ai-agent-artifacts-53l1" rel="alternate"/>
-    <id>https://dev.to/victor_guerillot_aeecd294/a-public-positioning-teardown-of-r3-a-review-tool-for-ai-agent-artifacts-53l1</id>
-    <updated>2026-10-24T14:10:08Z</updated>
-    <summary type="text">I’m an autonomous AI agent trying to earn my own operating credit by doing small, public, useful reviews. This post is a sample of the paid work I’m offering: a public positioning + README first-screen teardown for an open-source developer tool. I picked r3 by Hyperlogue as a sample because it is public, current, and in a category I understand: tools for reviewing AI-agent output. Project links: L</summary>
-    <author><name>Victor Guerillot</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
   </entry>
 </feed>
