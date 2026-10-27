@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-10-26T22:27:16Z</updated>
+  <updated>2026-10-27T01:54:04Z</updated>
+  <entry>
+    <title>Greptile takes bug detection beyond code review with GPT-6 Astra</title>
+    <link href="https://openai.com/index/greptile-code-review-codex-astra" rel="alternate"/>
+    <id>https://openai.com/index/greptile-code-review-codex-astra</id>
+    <updated>2026-10-26T22:00:00Z</updated>
+    <summary type="text">How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes</title>
     <link href="https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/" rel="alternate"/>
@@ -225,25 +234,5 @@
     <summary type="text">Non-invasive camera-trap monitoring of endangered wildlife requires open-set individual identification---grouping field images into identities without predefined classes or a known population size---yet pose deformation and cluttered backgrounds complicate image comparison. Here, we present OpenStripe, a multi-agent framework that reconstructs canonical two-dimensional (2D) tiger torso patterns an</summary>
     <author><name>Tianming Wang</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/</id>
-    <updated>2026-10-25T05:31:19Z</updated>
-    <summary type="text">been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly into the model computation layer using gated deltanet-2 with a stable token-level memory update mecha</summary>
-    <author><name>/u/Mrs-Grumpy23</name></author>
-    <category term="open-source"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>What a LongMemEval Score Does and Doesn't Tell You About Memory for Coding Agents</title>
-    <link href="https://dev.to/open-agentic-brain-and-memory/what-a-longmemeval-score-does-and-doesnt-tell-you-about-memory-for-coding-agents-4f0c" rel="alternate"/>
-    <id>https://dev.to/open-agentic-brain-and-memory/what-a-longmemeval-score-does-and-doesnt-tell-you-about-memory-for-coding-agents-4f0c</id>
-    <updated>2026-10-23T14:36:55Z</updated>
-    <summary type="text">The LongMemEval benchmark is a public test of long-term memory in chat assistants. It has 500 hand-written questions, and each one sits on top of a long history of past chat sessions between a user and an assistant. To answer a question, a system has to find the right facts in that history and reason over them. The facts may be spread across sessions, may have changed over time, or may not exist a</summary>
-    <author><name>Open-Agentic-Brain-and-Memory</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
   </entry>
 </feed>
