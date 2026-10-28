@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-28T18:07:56Z</updated>
+  <updated>2026-10-28T23:01:04Z</updated>
   <entry>
     <title>OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model</title>
     <link href="https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/" rel="alternate"/>
@@ -45,6 +45,16 @@
     <category term="research"/>
   </entry>
   <entry>
+    <title>How Much Does the Hint Matter? A generic feedback line matches self-written critiques in hindsight self-distillation (ACM ICAIF '26) [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xhv8yp/how_much_does_the_hint_matter_a_generic_feedback/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xhv8yp/how_much_does_the_hint_matter_a_generic_feedback/</id>
+    <updated>2026-10-28T17:52:10Z</updated>
+    <summary type="text">We study hindsight self-distillation for multi-step financial reasoning on GPT-OSS-20B. The student finds its own first wrong step and writes a critique. A frozen copy, conditioned on the prefix plus the critique, is distilled back into the student under reverse KL. Notably, replacing the critique with a fixed generic feedback line matches the full gain of about 3 points, and critiques from a 6x l</summary>
+    <author><name>/u/jhzyu</name></author>
+    <category term="research"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means</title>
     <link href="https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/" rel="alternate"/>
     <id>https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/</id>
@@ -80,14 +90,5 @@
     <summary type="text">Visual Place Recognition (VPR) is an important means for loop closure detection in visual Simultaneous Localization and Mapping (SLAM). While state-of-the-art VPR and SLAM approaches excel in urban and feature-rich natural environments, the vast and feature-poor environments of extraterrestrial surfaces like on the Moon or Mars pose severe challenges for existing approaches. This paper presents a </summary>
     <author><name>Peer Neubert</name></author>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>IEEE Xplore Digital Library Adds AI Assistant</title>
-    <link href="https://spectrum.ieee.org/ieee-xplore-digital-library-ai" rel="alternate"/>
-    <id>https://spectrum.ieee.org/ieee-xplore-digital-library-ai</id>
-    <updated>2026-10-26T18:00:03Z</updated>
-    <summary type="text">IEEE recently released the IEEE Xplore AI Research Suite, built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library. The library offers full-text access to IEEE standards, journals, magazines, conference proceedings, and more.Researchers who use the AI suite to search the digital library receive answers grounded in verified scientific results, ensuring a h</summary>
-    <author><name>Claire Olini</name></author>
-    <category term="product-launch"/>
   </entry>
 </feed>
