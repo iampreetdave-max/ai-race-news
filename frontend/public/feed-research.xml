@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-27T23:39:44Z</updated>
+  <updated>2026-10-28T04:51:14Z</updated>
   <entry>
     <title>OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model</title>
     <link href="https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/" rel="alternate"/>
@@ -15,6 +15,25 @@
     <category term="llm"/>
     <category term="research"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Zero-Shot Multimodal Event Spotting in Soccer Broadcasts</title>
+    <link href="https://arxiv.org/abs/2610.37583v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.37583v1</id>
+    <updated>2026-10-27T17:24:35Z</updated>
+    <summary type="text">Automatic soccer event spotting supports highlight generation, video indexing, and sports analytics, but existing methods depend on large annotated datasets and soccer-specific training. We present a zero-shot framework that detects, classifies, and temporally localizes events in full-length soccer broadcasts without task-specific parameter training. Each match is segmented into overlapping clips </summary>
+    <author><name>Tony Braskich</name></author>
+    <category term="data"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis</title>
+    <link href="https://arxiv.org/abs/2610.37545v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.37545v1</id>
+    <updated>2026-10-27T16:56:45Z</updated>
+    <summary type="text">Multi-view or video diffusion models have recently emerged as state-of-the-art approaches for novel-view synthesis from sparse image collections. While they can produce high quality images, they tend to hallucinate unrealistic spatial layouts when synthesizing views outside the input views (scene extrapolation). We propose to address this challenge for outdoor scenes by using satellite images as a</summary>
+    <author><name>Daniyar Turmukhambetov</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means</title>
@@ -72,35 +91,5 @@
     <category term="llm"/>
     <category term="research"/>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>TrackTok: Object-Centric Video Tokenization with Semantically Persistent Tokens</title>
-    <link href="https://arxiv.org/abs/2610.33857v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.33857v1</id>
-    <updated>2026-10-24T18:57:47Z</updated>
-    <summary type="text">We introduce TrackTok, an efficient video tokenization framework that produces object-centric tokens, i.e., tokens that consistently encode the same semantic objects across time, even as it moves, deforms, or undergoes partial occlusion. Conventional patch-based or existing holistic tokenizers produce token identities often tied to fixed image locations. In contrast, our approach learns temporally</summary>
-    <author><name>Jan Eric Lenssen</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1</title>
-    <link href="https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/</id>
-    <updated>2026-10-23T17:19:49Z</updated>
-    <summary type="text">Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal research model stopped such attacks on its own 67 percent of the time. The article Anthropic says its unrele</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation</title>
-    <link href="https://arxiv.org/abs/2610.33778v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.33778v1</id>
-    <updated>2026-10-24T16:29:54Z</updated>
-    <summary type="text">Vision-Language Models (VLMs) have demonstrated impressive performance when integrated into robot manipulation pipelines, but real-world evaluation of VLM capabilities on downstream robotics tasks is both difficult and expensive to scale. We propose that spatial and temporal ordering tasks using images from stereo and wrist cameras attached to real-world robots are particularly well-suited for eva</summary>
-    <author><name>Osbert Bastani</name></author>
-    <category term="llm"/>
-    <category term="robotics"/>
-    <category term="research"/>
   </entry>
 </feed>
