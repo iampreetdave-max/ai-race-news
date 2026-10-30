@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-10-30T01:44:29Z</updated>
+  <updated>2026-10-30T08:20:21Z</updated>
   <entry>
     <title>Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race</title>
     <link href="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/" rel="alternate"/>
@@ -14,6 +14,64 @@
     <author><name>Joel Khalili</name></author>
     <category term="research"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>HairDeck: Animation-Ready Stylized Hair Cards from a Single Image</title>
+    <link href="https://arxiv.org/abs/2610.40599v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40599v1</id>
+    <updated>2026-10-29T17:50:26Z</updated>
+    <summary type="text">The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl</summary>
+    <author><name>Yong-Jin Liu</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection</title>
+    <link href="https://arxiv.org/abs/2610.40580v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40580v1</id>
+    <updated>2026-10-29T17:45:35Z</updated>
+    <summary type="text">Current zero-shot anomaly detection methods often rely on complex prompt-learning techniques or computationally expensive sliding-window strategies to achieve fine-grained visual alignment to detect small-scale anomalies. This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized an</summary>
+    <author><name>Egor Bondarau</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment</title>
+    <link href="https://arxiv.org/abs/2610.40525v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40525v1</id>
+    <updated>2026-10-29T17:32:46Z</updated>
+    <summary type="text">Cross-modal scene and instance retrieval aims to retrieve a corresponding 3D environment or object given query 2D images, serving as a foundational mechanism for spatial reasoning in robotics and AR/VR. Existing methods achieve this by learning alignment only at the level of whole scenes or objects, which provides no supervision for the fine-grained local structure within them. In this work, we sh</summary>
+    <author><name>Madhava Krishna</name></author>
+    <category term="robotics"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>InfantNet: A Large Scale Dataset for Infant Body Pose and Shape Estimation</title>
+    <link href="https://arxiv.org/abs/2610.40467v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40467v1</id>
+    <updated>2026-10-29T17:06:38Z</updated>
+    <summary type="text">Infant pose and shape estimation is essential for applications in childcare, developmental monitoring, and medical diagnosis. However, existing methods and datasets are largely designed for adults, and direct transfer to infants fails due to substantial differences in body proportions, articulation limits, and frequent self-occlusion. To address this gap, we introduce InfantNet, the largest real-i</summary>
+    <author><name>Alan Yuille</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Soil Moisture Estimation in Precision Agriculture: A Knowledge Distillation Approach</title>
+    <link href="https://arxiv.org/abs/2610.40432v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40432v1</id>
+    <updated>2026-10-29T16:53:56Z</updated>
+    <summary type="text">Accurate soil moisture estimation is critical for precision agriculture, influencing irrigation, fertilization, and harvesting strategies. Traditional methods primarily rely on meteorological and soil property data, while recent approaches incorporate visual modalities such as aerial and geospatial imagery. However, these high-resolution images are expensive and computationally demanding to analyz</summary>
+    <author><name>Arunkumar Bagavathi</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification</title>
+    <link href="https://arxiv.org/abs/2610.40421v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.40421v1</id>
+    <updated>2026-10-29T16:45:29Z</updated>
+    <summary type="text">Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysis for reliable production. However, most state-of-the-art deep learning approaches require a full scan of the surface, which hinders the development of high-throughput inspection s</summary>
+    <author><name>Oleg Soloviev</name></author>
+    <category term="hardware"/>
+    <category term="research"/>
   </entry>
   <entry>
     <title>OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model</title>
@@ -43,15 +101,6 @@
     <summary type="text">Automatic soccer event spotting supports highlight generation, video indexing, and sports analytics, but existing methods depend on large annotated datasets and soccer-specific training. We present a zero-shot framework that detects, classifies, and temporally localizes events in full-length soccer broadcasts without task-specific parameter training. Each match is segmented into overlapping clips </summary>
     <author><name>Tony Braskich</name></author>
     <category term="data"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis</title>
-    <link href="https://arxiv.org/abs/2610.37545v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.37545v1</id>
-    <updated>2026-10-27T16:56:45Z</updated>
-    <summary type="text">Multi-view or video diffusion models have recently emerged as state-of-the-art approaches for novel-view synthesis from sparse image collections. While they can produce high quality images, they tend to hallucinate unrealistic spatial layouts when synthesizing views outside the input views (scene extrapolation). We propose to address this challenge for outdoor scenes by using satellite images as a</summary>
-    <author><name>Daniyar Turmukhambetov</name></author>
     <category term="research"/>
   </entry>
 </feed>
