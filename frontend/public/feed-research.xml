@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-02T01:22:27Z</updated>
+  <updated>2026-11-02T09:04:49Z</updated>
   <entry>
     <title>Guarding the Gates of Knowledge</title>
     <link href="https://spectrum.ieee.org/ai-slop-trust-science" rel="alternate"/>
@@ -15,6 +15,16 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>[R] There is no free lunch in RLVR: under strategy specialization, every pass@1 gain provably costs some prompt, and the pass@k crossover has a tight bound [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/</id>
+    <updated>2026-11-02T04:30:11Z</updated>
+    <summary type="text">Paper: https://arxiv.org/abs/2610.39295 Code + verification package (every number in the paper is checked by a script): https://github.com/yliusci/no-free-lunch-rlvr Browser diagnostic: https://huggingface.co/spaces/yliusci/passk-price I kept running into the same pattern in RLVR papers: the RL model wins at pass@1 and the base model catches up or wins at large k (Yue et al. 2025 and many follow-u</summary>
+    <author><name>/u/SwimmingAmbition5148</name></author>
+    <category term="research"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.</title>
     <link href="https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/" rel="alternate"/>
     <id>https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/</id>
@@ -23,6 +33,16 @@
     <author><name>Abdullahi Dattijo</name></author>
     <category term="agents"/>
     <category term="data"/>
+  </entry>
+  <entry>
+    <title>Open-Weight MLLMs Cannot Compare What They Cannot Name</title>
+    <link href="https://arxiv.org/abs/2610.41841v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2610.41841v1</id>
+    <updated>2026-10-30T14:56:19Z</updated>
+    <summary type="text">Multimodal Large Language Models (MLLMs) are increasingly capable of understanding images and performing complex visual reasoning, suggesting the possibility of using them to automate biological image analysis. This need is becoming increasingly urgent as advances in technology continue to generate ever larger and more diverse microscopy datasets, already exceeding the scale at which manual visual</summary>
+    <author><name>Anna Kreshuk</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race</title>
@@ -91,15 +111,5 @@
     <author><name>Oleg Soloviev</name></author>
     <category term="hardware"/>
     <category term="research"/>
-  </entry>
-  <entry>
-    <title>Multi-Token Prediction Done Right [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/</id>
-    <updated>2026-10-30T18:53:20Z</updated>
-    <summary type="text">Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it can be done much better. We show the standard MTP gradient hides a KL self-distillation signal (which we want for improving speculative decoding) behind a noisy residual (that harms next-token prediction). I think the coolest part was the KL gradient–recovery t</summary>
-    <author><name>/u/jayden_teoh_</name></author>
-    <category term="research"/>
-    <category term="open-source"/>
   </entry>
 </feed>
