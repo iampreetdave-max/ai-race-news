@@ -4,7 +4,42 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-02T09:04:49Z</updated>
+  <updated>2026-11-02T20:06:40Z</updated>
+  <entry>
+    <title>Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One</title>
+    <link href="https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/</id>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <summary type="text">Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...</summary>
+    <author><name>Shara Tibken</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Goldman Sachs pulls AI coding tools from traders and bankers</title>
+    <link href="https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/" rel="alternate"/>
+    <id>https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/</id>
+    <updated>2026-11-02T20:00:03Z</updated>
+    <summary type="text">Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised &quot;vibe coding&quot; by non-technical staff. Now the bank cites &quot;productivity and risk management&quot; as the reason for the reversal. The article Goldman Sachs pulls AI coding tools from traders and bankers appeared </summary>
+    <author><name>Matthias Bastian</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Anthropic clamps down on Claude’s AI video game clones</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones</id>
+    <updated>2026-11-02T18:56:02Z</updated>
+    <summary type="text">Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]</summary>
+    <author><name>Jay Peters</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Qodo builds context into AI code review with Codex</title>
+    <link href="https://openai.com/index/qodo-codex-plugin" rel="alternate"/>
+    <id>https://openai.com/index/qodo-codex-plugin</id>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="text">Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</summary>
+    <author><name>OpenAI Blog</name></author>
+  </entry>
   <entry>
     <title>OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing</title>
     <link href="https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/" rel="alternate"/>
@@ -31,6 +66,23 @@
     <summary type="text">Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...</summary>
     <author><name>Stefan Schimanski</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/</id>
+    <updated>2026-11-02T16:25:25Z</updated>
+    <summary type="text">Fine tuning on self collected web data felt straightforward until it wasn’t. Here’s what actually caused problems: Boilerplate contamination was the silent killer. Navigation menus, cookie banners, and footer text were leaking into training examples. The model started generating weirdly structured outputs that looked like half-rendered HTML. Solved it with aggressive DOM-targeting rather than raw </summary>
+    <author><name>/u/Symeoon</name></author>
+  </entry>
+  <entry>
+    <title>The U.S. Census Bureau and “Super Intelligence”</title>
+    <link href="https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</id>
+    <updated>2026-11-02T13:31:26Z</updated>
+    <summary type="text">I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis, and then to experiment with Claude's new Code Interpreter. I decided to try </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence</title>
@@ -161,72 +213,5 @@
     <summary type="text">Hey, guys! Please be patient with this post. I am an incoming law student, and once school starts, I will be both a full-time employee and a Law Student. My job involves Banking and Finance; it relies heavily on financial calculations and accounting methods. My work requires continuous study of its scope, while Law School, I believe, would be self-explanatory. Therefore, I plan to subscribe to two</summary>
     <author><name>/u/Final-Government-783</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google opens Android development to third-party AI agents and unveils new Gemini APIs</title>
-    <link href="https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/" rel="alternate"/>
-    <id>https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/</id>
-    <updated>2026-10-28T16:59:59Z</updated>
-    <summary type="text">Google is opening up Android Studio to third-party AI agents. Through a new &quot;Bring Your Own Agent&quot; feature, the IDE now supports more than 40 coding agents, including Anthropic's Claude Agent and OpenAI's Codex. Google says new terminal tools also help agents finish UI tasks 77 percent faster while using up to three times fewer tokens. Android development is becoming agent-centric too. The article</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform</title>
-    <link href="https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/" rel="alternate"/>
-    <id>https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/</id>
-    <updated>2026-10-28T16:25:02Z</updated>
-    <summary type="text">At DevDay Exchange in Berlin, OpenAI mostly repeated what it had already announced, but it did share a few new details. The AI assistant Dots should roll out more widely in Europe &quot;in a few weeks,&quot; and weekly Codex users in Germany have grown twentyfold since January. A clear subtext ran through the sessions and the repeated nods to ChatGPT's 1.2 billion weekly users: OpenAI wants developers to bu</summary>
-    <author><name>Maximilian Schreiner</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing</title>
-    <link href="https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing" rel="alternate"/>
-    <id>https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing</id>
-    <updated>2026-10-28T16:03:00Z</updated>
-    <summary type="text">GitHub is also rolling out critical safeguards to protect software supply chains, including AI-powered code scanning to check every pull request and repository.</summary>
-    <author><name>AIM Media House</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Legora is building the agentic operating system for legal work</title>
-    <link href="https://openai.com/index/legora-agentic-operating-system-for-legal-work" rel="alternate"/>
-    <id>https://openai.com/index/legora-agentic-operating-system-for-legal-work</id>
-    <updated>2026-10-28T09:30:00Z</updated>
-    <summary type="text">See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet</title>
-    <link href="https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/" rel="alternate"/>
-    <id>https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/</id>
-    <updated>2026-10-28T18:30:00Z</updated>
-    <summary type="text">To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.</summary>
-    <author><name>Will Knight</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>5 Docker Containers You Need for a Home AI Lab</title>
-    <link href="https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab" rel="alternate"/>
-    <id>https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab</id>
-    <updated>2026-10-29T12:00:00Z</updated>
-    <summary type="text">Learn which five Docker containers make a reliable home AI lab, from Ollama and Open WebUI to Qdrant, n8n and Portainer CE, what job each one does, and the first mistake to avoid with each.</summary>
-    <author><name>Nahla Davies</name></author>
-    <category term="rag"/>
-  </entry>
-  <entry>
-    <title>Microsoft Visual Studio update brings smarter Copilot AI, bulk conflict resolution and Hot Exit: Details here</title>
-    <link href="https://www.livemint.com/technology/microsoft-visual-studio-update-brings-smarter-copilot-ai-bulk-conflict-resolution-and-hot-exit-details-here-11793191723325.html" rel="alternate"/>
-    <id>https://www.livemint.com/technology/microsoft-visual-studio-update-brings-smarter-copilot-ai-bulk-conflict-resolution-and-hot-exit-details-here-11793191723325.html</id>
-    <updated>2026-10-28T13:20:55Z</updated>
-    <summary type="text">Microsoft has updated Visual Studio with improved Git tools, including commit comparisons and bulk merge-conflict resolution. The release also adds a new GitHub Copilot Chat experience, Hot Exit for restoring unsaved work, and other new features.</summary>
-    <author><name>Mint Technology</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
   </entry>
 </feed>
