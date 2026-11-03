@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-03T18:17:28Z</updated>
+  <updated>2026-11-03T23:54:29Z</updated>
   <entry>
     <title>MIT Researchers Show LLMs Can Read and Edit Neural Network Weights Without Retraining</title>
     <link href="https://analyticsindiamag.com/ai-news/mit-researchers-show-llms-can-read-and-edit-neural-network-weights-without-retraining" rel="alternate"/>
@@ -74,6 +74,16 @@
     <category term="hardware"/>
   </entry>
   <entry>
+    <title>A new, open-weights 278M PII detection model and reference benchmark [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/</id>
+    <updated>2026-11-03T19:29:54Z</updated>
+    <summary type="text">Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. It's a fine-tune of RoBERTa using 1.2B samples of synthetically generated text that contain a variety of PII. The benchmark, PII-SCOPE (Synthetic Context and Ontology for PII Extraction), was built to address common issues in public LLM-generated datasets and is on Hugging Face too. The model and s</summary>
+    <author><name>/u/shanekj</name></author>
+    <category term="open-source"/>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/</id>
@@ -129,15 +139,6 @@
     <summary type="text">Tracking points that leave the camera's field of view (FoV) requires reasoning about unobserved scene dynamics, a fundamentally different problem from tracking visible correspondences. We present TAP-Out, an offline method that makes this out-of-view (OOV) reasoning explicit by leveraging generative video outpainting as a world-model prior. Given a narrow-FoV input video, TAP-Out outpaints a compl</summary>
     <author><name>William A. P. Smith</name></author>
     <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization</title>
-    <link href="https://arxiv.org/abs/2611.00253v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.00253v1</id>
-    <updated>2026-10-30T18:32:05Z</updated>
-    <summary type="text">Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-f</summary>
-    <author><name>Trung-Nghia Le</name></author>
     <category term="research"/>
   </entry>
 </feed>
