@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-02T20:06:40Z</updated>
+  <updated>2026-11-03T02:49:08Z</updated>
   <entry>
     <title>Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4</title>
     <link href="https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/" rel="alternate"/>
@@ -12,6 +12,16 @@
     <updated>2026-11-02T14:30:54Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built […]</summary>
     <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>LightMIS: Ultra-lightweight medical image segmentation for edge devices [R]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xm8dbo/lightmis_ultralightweight_medical_image/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xm8dbo/lightmis_ultralightweight_medical_image/</id>
+    <updated>2026-11-02T20:22:30Z</updated>
+    <summary type="text">Hi everyone, I am one of the authors of LightMIS, and I would like to share our work on 2D binary medical image segmentation. LightMIS has 131K parameters and aggregates multi-scale encoder features directly, without a learned stage-wise decoder. It achieves close observed modality-macro Dice and IoU averages to nnWNet, while using 98.14% fewer parameters and 94.58% fewer GFLOPs, with both models </summary>
+    <author><name>/u/OkLion2068</name></author>
+    <category term="hardware"/>
     <category term="research"/>
   </entry>
   <entry>
@@ -44,6 +54,25 @@
     <category term="data"/>
   </entry>
   <entry>
+    <title>TAP-Out: Tracking Any Point in 360° via Outpainting</title>
+    <link href="https://arxiv.org/abs/2611.00406v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.00406v1</id>
+    <updated>2026-10-30T21:51:52Z</updated>
+    <summary type="text">Tracking points that leave the camera's field of view (FoV) requires reasoning about unobserved scene dynamics, a fundamentally different problem from tracking visible correspondences. We present TAP-Out, an offline method that makes this out-of-view (OOV) reasoning explicit by leveraging generative video outpainting as a world-model prior. Given a narrow-FoV input video, TAP-Out outpaints a compl</summary>
+    <author><name>William A. P. Smith</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization</title>
+    <link href="https://arxiv.org/abs/2611.00253v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.00253v1</id>
+    <updated>2026-10-30T18:32:05Z</updated>
+    <summary type="text">Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-f</summary>
+    <author><name>Trung-Nghia Le</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
     <title>Open-Weight MLLMs Cannot Compare What They Cannot Name</title>
     <link href="https://arxiv.org/abs/2610.41841v1" rel="alternate"/>
     <id>https://arxiv.org/abs/2610.41841v1</id>
@@ -62,44 +91,5 @@
     <author><name>Joel Khalili</name></author>
     <category term="research"/>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>HairDeck: Animation-Ready Stylized Hair Cards from a Single Image</title>
-    <link href="https://arxiv.org/abs/2610.40599v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.40599v1</id>
-    <updated>2026-10-29T17:50:26Z</updated>
-    <summary type="text">The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl</summary>
-    <author><name>Yong-Jin Liu</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection</title>
-    <link href="https://arxiv.org/abs/2610.40580v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.40580v1</id>
-    <updated>2026-10-29T17:45:35Z</updated>
-    <summary type="text">Current zero-shot anomaly detection methods often rely on complex prompt-learning techniques or computationally expensive sliding-window strategies to achieve fine-grained visual alignment to detect small-scale anomalies. This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized an</summary>
-    <author><name>Egor Bondarau</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment</title>
-    <link href="https://arxiv.org/abs/2610.40525v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.40525v1</id>
-    <updated>2026-10-29T17:32:46Z</updated>
-    <summary type="text">Cross-modal scene and instance retrieval aims to retrieve a corresponding 3D environment or object given query 2D images, serving as a foundational mechanism for spatial reasoning in robotics and AR/VR. Existing methods achieve this by learning alignment only at the level of whole scenes or objects, which provides no supervision for the fine-grained local structure within them. In this work, we sh</summary>
-    <author><name>Madhava Krishna</name></author>
-    <category term="robotics"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>InfantNet: A Large Scale Dataset for Infant Body Pose and Shape Estimation</title>
-    <link href="https://arxiv.org/abs/2610.40467v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2610.40467v1</id>
-    <updated>2026-10-29T17:06:38Z</updated>
-    <summary type="text">Infant pose and shape estimation is essential for applications in childcare, developmental monitoring, and medical diagnosis. However, existing methods and datasets are largely designed for adults, and direct transfer to infants fails due to substantial differences in body proportions, articulation limits, and frequent self-occlusion. To address this gap, we introduce InfantNet, the largest real-i</summary>
-    <author><name>Alan Yuille</name></author>
-    <category term="research"/>
   </entry>
 </feed>
