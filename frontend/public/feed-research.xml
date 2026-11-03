@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-03T02:49:08Z</updated>
+  <updated>2026-11-03T10:36:07Z</updated>
+  <entry>
+    <title>MIT Researchers Show LLMs Can Read and Edit Neural Network Weights Without Retraining</title>
+    <link href="https://analyticsindiamag.com/ai-news/mit-researchers-show-llms-can-read-and-edit-neural-network-weights-without-retraining" rel="alternate"/>
+    <id>https://analyticsindiamag.com/ai-news/mit-researchers-show-llms-can-read-and-edit-neural-network-weights-without-retraining</id>
+    <updated>2026-11-03T05:35:25Z</updated>
+    <summary type="text">By modifying just 0.016% of the model’s weights, Astra increased its score on the MATH-500 benchmark from 7.9% to 48.1%.</summary>
+    <author><name>Siddharth Jindal</name></author>
+  </entry>
   <entry>
     <title>Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4</title>
     <link href="https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/" rel="alternate"/>
@@ -12,6 +20,66 @@
     <updated>2026-11-02T14:30:54Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built […]</summary>
     <author><name>Jack Clark</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>CoLa3D: Composable Latent 3D Decomposition</title>
+    <link href="https://arxiv.org/abs/2611.03533v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.03533v1</id>
+    <updated>2026-11-02T18:00:50Z</updated>
+    <summary type="text">We introduce CoLa3D, a simple and effective model for composable 3D scene decomposition that, given a single whole-scene latent from either a single image or an existing scene mesh as input, directly outputs a set of object meshes with consistent spatial layout that can be assembled back into a coherent scene. CoLa3D introduces a novel paradigm for 3D scene decomposition within a shared whole-scen</summary>
+    <author><name>Chuanxia Zheng</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers</title>
+    <link href="https://arxiv.org/abs/2611.03438v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.03438v1</id>
+    <updated>2026-11-02T16:53:52Z</updated>
+    <summary type="text">Foundational vision models have become the de facto standard for many vision tasks due to their strong performance. However, they are notoriously opaque and remain hard to interpret. We present ALOE (ALign Once to Explain), a one-time, label-free feature alignment approach that efficiently converts foundational vision models into inherently interpretable B-cos variants. Once aligned, the B-cos bac</summary>
+    <author><name>Bernt Schiele</name></author>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Image Guided Depth Upsampling using Anisotropic Total Generalized Variation</title>
+    <link href="https://arxiv.org/abs/2611.03399v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.03399v1</id>
+    <updated>2026-11-02T16:31:24Z</updated>
+    <summary type="text">In this work we present a novel method for the challenging problem of depth image upsampling. Modern depth cameras such as Kinect or Time of Flight cameras deliver dense, high quality depth measurements but are limited in their lateral resolution. To overcome this limitation we formulate a convex optimization problem using higher order regularization for depth image upsampling. In this optimizatio</summary>
+    <author><name>Horst Bischof</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Progressive Multi-Scale Super-Resolution via Cascaded Bicubic Anchors and Inter-Scale Mutual Refinement</title>
+    <link href="https://arxiv.org/abs/2611.03390v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.03390v1</id>
+    <updated>2026-11-02T16:28:38Z</updated>
+    <summary type="text">Super-resolution networks are trained for one magnification factor, so several output resolutions require several models. We propose PMS-SR, a progressive single-input multiple-output network that produces x2, x4, and x8 results in one forward pass, with a Transformer backbone on the low-resolution grid. In Stage 1, each scale is predicted as a residual over the detached bicubic upsampling of the </summary>
+    <author><name>Tsung-Jung Liu</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Same Outputs, Different Scores: Auditing the Unchecked Graders of Multimodal LLM Benchmarks</title>
+    <link href="https://arxiv.org/abs/2611.03377v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.03377v1</id>
+    <updated>2026-11-02T16:20:07Z</updated>
+    <summary type="text">Every multimodal-LLM multiple-choice benchmark ends with a scoring rule that converts a model's response, often free-form text rather than a clean option letter, into a right/wrong verdict, buried in its code. Unlike the dataset, this rule is chosen without justification and left unexamined, yet it sets the published number. We reproduce the official scorers of eight peer-reviewed benchmarks on fi</summary>
+    <author><name>Jonathan Lwowski</name></author>
+    <category term="llm"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/</id>
+    <updated>2026-11-03T05:09:18Z</updated>
+    <summary type="text">We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The research map just shows the grouping, but each topic page shows what the papers actually report. Here's the one for compact/eff</summary>
+    <author><name>/u/latenticlabs</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -79,16 +147,6 @@
     <updated>2026-10-30T14:56:19Z</updated>
     <summary type="text">Multimodal Large Language Models (MLLMs) are increasingly capable of understanding images and performing complex visual reasoning, suggesting the possibility of using them to automate biological image analysis. This need is becoming increasingly urgent as advances in technology continue to generate ever larger and more diverse microscopy datasets, already exceeding the scale at which manual visual</summary>
     <author><name>Anna Kreshuk</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race</title>
-    <link href="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/" rel="alternate"/>
-    <id>https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/</id>
-    <updated>2026-10-29T14:00:00Z</updated>
-    <summary type="text">The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.</summary>
-    <author><name>Joel Khalili</name></author>
     <category term="research"/>
     <category term="llm"/>
   </entry>
