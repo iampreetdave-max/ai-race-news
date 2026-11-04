@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-03T23:54:29Z</updated>
+  <updated>2026-11-04T05:32:27Z</updated>
   <entry>
     <title>MIT Researchers Show LLMs Can Read and Edit Neural Network Weights Without Retraining</title>
     <link href="https://analyticsindiamag.com/ai-news/mit-researchers-show-llms-can-read-and-edit-neural-network-weights-without-retraining" rel="alternate"/>
@@ -12,6 +12,16 @@
     <updated>2026-11-03T05:35:25Z</updated>
     <summary type="text">By modifying just 0.016% of the model’s weights, Astra increased its score on the MATH-500 benchmark from 7.9% to 48.1%.</summary>
     <author><name>Siddharth Jindal</name></author>
+  </entry>
+  <entry>
+    <title>Möbius: A Unified Motion-Language Model Bridging Understanding and Generation</title>
+    <link href="https://arxiv.org/abs/2611.05279v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.05279v1</id>
+    <updated>2026-11-03T17:59:16Z</updated>
+    <summary type="text">We aim to build a truly unified motion model that can understand, generate, and edit human motion within a single framework. Existing motion UMMs remain only partially unified: motion understanding is handled by a language model, while generation is often delegated to a separate diffusion module operating over learned motion latents. We introduce Möbius, which brings the entire diffusion process i</summary>
+    <author><name>Yuan Liu</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4</title>
@@ -130,15 +140,5 @@
     <author><name>Abdullahi Dattijo</name></author>
     <category term="agents"/>
     <category term="data"/>
-  </entry>
-  <entry>
-    <title>TAP-Out: Tracking Any Point in 360° via Outpainting</title>
-    <link href="https://arxiv.org/abs/2611.00406v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.00406v1</id>
-    <updated>2026-10-30T21:51:52Z</updated>
-    <summary type="text">Tracking points that leave the camera's field of view (FoV) requires reasoning about unobserved scene dynamics, a fundamentally different problem from tracking visible correspondences. We present TAP-Out, an offline method that makes this out-of-view (OOV) reasoning explicit by leveraging generative video outpainting as a world-model prior. Given a narrow-FoV input video, TAP-Out outpaints a compl</summary>
-    <author><name>William A. P. Smith</name></author>
-    <category term="llm"/>
-    <category term="research"/>
   </entry>
 </feed>
