@@ -4,7 +4,36 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-04T14:00:30Z</updated>
+  <updated>2026-11-04T20:46:22Z</updated>
+  <entry>
+    <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
+    <link href="https://openai.com/index/openai-to-acquire-pierre" rel="alternate"/>
+    <id>https://openai.com/index/openai-to-acquire-pierre</id>
+    <updated>2026-11-04T14:30:00Z</updated>
+    <summary type="text">OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.</summary>
+    <author><name>OpenAI Blog</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations</title>
+    <link href="https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/" rel="alternate"/>
+    <id>https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/</id>
+    <updated>2026-11-04T16:42:52Z</updated>
+    <summary type="text">CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud, from fixing services and removing resources to restricting access rights, rolling out updates, and decommissioning projects. The article New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations appeared first on The Decoder.</summary>
+    <author><name>Maximilian Schreiner</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>OpenAI's Codex Helps in Aerodynamic Engineering for Mazda</title>
+    <link href="https://analyticsindiamag.com/ai-news/openais-codex-helps-in-aerodynamic-engineering-for-mazda" rel="alternate"/>
+    <id>https://analyticsindiamag.com/ai-news/openais-codex-helps-in-aerodynamic-engineering-for-mazda</id>
+    <updated>2026-11-04T16:32:49Z</updated>
+    <summary type="text">GPT-6 Astra, used through Codex, helps Mazda engineers explore different vehicle nose shapes, simulate airflow and identify designs that could reduce aerodynami</summary>
+    <author><name>Supreeth Koundinya</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Three Members Behind Claude Code Leave Anthropic Within 10 Days</title>
     <link href="https://analyticsindiamag.com/ai-news/three-members-behind-claude-code-leave-anthropic-within-10-days" rel="alternate"/>
@@ -152,16 +181,6 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>llm 0.37</title>
-    <link href="https://simonwillison.net/2026/Nov/2/llm/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Nov/2/llm/</id>
-    <updated>2026-11-02T23:49:30Z</updated>
-    <summary type="text">Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own defaul</summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
     <title>Build a Validated Kubernetes Runtime for NVIDIA Dynamo</title>
     <link href="https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/" rel="alternate"/>
     <id>https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/</id>
@@ -169,70 +188,5 @@
     <summary type="text">Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...</summary>
     <author><name>Stefan Schimanski</name></author>
     <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/</id>
-    <updated>2026-11-02T16:25:25Z</updated>
-    <summary type="text">Fine tuning on self collected web data felt straightforward until it wasn’t. Here’s what actually caused problems: Boilerplate contamination was the silent killer. Navigation menus, cookie banners, and footer text were leaking into training examples. The model started generating weirdly structured outputs that looked like half-rendered HTML. Solved it with aggressive DOM-targeting rather than raw </summary>
-    <author><name>/u/Symeoon</name></author>
-  </entry>
-  <entry>
-    <title>From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence</title>
-    <link href="https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/" rel="alternate"/>
-    <id>https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/</id>
-    <updated>2026-10-30T13:05:28Z</updated>
-    <summary type="text">Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research.</summary>
-    <author><name>Somya Chatterjee, Harshita Sahijwani, Min Chen, Sushmitha Rajeswari Muppa, Dayquan Julienne, Irene Shaffer, Chandra Inguva, Jenny Chen, Minha Hwang, Sam Ade Jacobs</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft</title>
-    <link href="https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/" rel="alternate"/>
-    <id>https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/</id>
-    <updated>2026-10-30T18:16:10Z</updated>
-    <summary type="text">A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after confirming there was no further risk. The article Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft appeared first on</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%</title>
-    <link href="https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/</id>
-    <updated>2026-10-30T17:53:37Z</updated>
-    <summary type="text">Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare</title>
-    <link href="https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/</id>
-    <updated>2026-10-30T17:34:15Z</updated>
-    <summary type="text">Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="agents"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>How to Build Bug-Free Applications with Claude Code</title>
-    <link href="https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/" rel="alternate"/>
-    <id>https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/</id>
-    <updated>2026-10-31T16:00:00Z</updated>
-    <summary type="text">Use E2E tests to minimize bugs The post How to Build Bug-Free Applications with Claude Code appeared first on Towards Data Science.</summary>
-    <author><name>Eivind Kjosbakken</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-    <category term="tutorial"/>
-  </entry>
-  <entry>
-    <title>Anthropic VS code extension on Cursor backdoored for nearly 12 hours</title>
-    <link href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/" rel="alternate"/>
-    <id>https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</id>
-    <updated>2026-10-30T21:09:54Z</updated>
-    <summary type="text">It's still unknown how attackers got access to Anthropic's verified Cursor account.</summary>
-    <author><name>Dan Goodin</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
