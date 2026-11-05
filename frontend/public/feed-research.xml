@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-05T01:23:30Z</updated>
+  <updated>2026-11-05T09:11:53Z</updated>
   <entry>
     <title>GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights</title>
     <link href="https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/" rel="alternate"/>
@@ -13,6 +13,15 @@
     <summary type="text">MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The approach could fundamentally simplify AI optimization but still hits clear limits. The article GPT-6 Astra sees the matr</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos</title>
+    <link href="https://arxiv.org/abs/2611.06849v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.06849v1</id>
+    <updated>2026-11-04T18:05:22Z</updated>
+    <summary type="text">State-of-the-art feedforward reconstruction models perform poorly on in-the-wild object-centric photo collections. They are trained largely on single-session object captures whose images vary in viewpoint while the object and its environment remain nearly fixed. Public photo archives contain a different form of multi-view data. They hold found photos of the same object or design: photos taken inde</summary>
+    <author><name>Noah Snavely</name></author>
+    <category term="research"/>
   </entry>
   <entry>
     <title>MIT Researchers Show LLMs Can Read and Edit Neural Network Weights Without Retraining</title>
@@ -68,65 +77,6 @@
     <author><name>Chuanxia Zheng</name></author>
     <category term="llm"/>
     <category term="product-launch"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers</title>
-    <link href="https://arxiv.org/abs/2611.03438v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.03438v1</id>
-    <updated>2026-11-02T16:53:52Z</updated>
-    <summary type="text">Foundational vision models have become the de facto standard for many vision tasks due to their strong performance. However, they are notoriously opaque and remain hard to interpret. We present ALOE (ALign Once to Explain), a one-time, label-free feature alignment approach that efficiently converts foundational vision models into inherently interpretable B-cos variants. Once aligned, the B-cos bac</summary>
-    <author><name>Bernt Schiele</name></author>
-    <category term="llm"/>
-    <category term="computer-vision"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Image Guided Depth Upsampling using Anisotropic Total Generalized Variation</title>
-    <link href="https://arxiv.org/abs/2611.03399v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.03399v1</id>
-    <updated>2026-11-02T16:31:24Z</updated>
-    <summary type="text">In this work we present a novel method for the challenging problem of depth image upsampling. Modern depth cameras such as Kinect or Time of Flight cameras deliver dense, high quality depth measurements but are limited in their lateral resolution. To overcome this limitation we formulate a convex optimization problem using higher order regularization for depth image upsampling. In this optimizatio</summary>
-    <author><name>Horst Bischof</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Progressive Multi-Scale Super-Resolution via Cascaded Bicubic Anchors and Inter-Scale Mutual Refinement</title>
-    <link href="https://arxiv.org/abs/2611.03390v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.03390v1</id>
-    <updated>2026-11-02T16:28:38Z</updated>
-    <summary type="text">Super-resolution networks are trained for one magnification factor, so several output resolutions require several models. We propose PMS-SR, a progressive single-input multiple-output network that produces x2, x4, and x8 results in one forward pass, with a Transformer backbone on the low-resolution grid. In Stage 1, each scale is predicted as a residual over the detached bicubic upsampling of the </summary>
-    <author><name>Tsung-Jung Liu</name></author>
-    <category term="llm"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Same Outputs, Different Scores: Auditing the Unchecked Graders of Multimodal LLM Benchmarks</title>
-    <link href="https://arxiv.org/abs/2611.03377v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.03377v1</id>
-    <updated>2026-11-02T16:20:07Z</updated>
-    <summary type="text">Every multimodal-LLM multiple-choice benchmark ends with a scoring rule that converts a model's response, often free-form text rather than a clean option letter, into a right/wrong verdict, buried in its code. Unlike the dataset, this rule is chosen without justification and left unexamined, yet it sets the published number. We reproduce the official scorers of eight peer-reviewed benchmarks on fi</summary>
-    <author><name>Jonathan Lwowski</name></author>
-    <category term="llm"/>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>A new, open-weights 278M PII detection model and reference benchmark [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/</id>
-    <updated>2026-11-03T19:29:54Z</updated>
-    <summary type="text">Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. It's a fine-tune of RoBERTa using 1.2B samples of synthetically generated text that contain a variety of PII. The benchmark, PII-SCOPE (Synthetic Context and Ontology for PII Extraction), was built to address common issues in public LLM-generated datasets and is on Hugging Face too. The model and s</summary>
-    <author><name>/u/shanekj</name></author>
-    <category term="open-source"/>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/</id>
-    <updated>2026-11-03T05:09:18Z</updated>
-    <summary type="text">We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The research map just shows the grouping, but each topic page shows what the papers actually report. Here's the one for compact/eff</summary>
-    <author><name>/u/latenticlabs</name></author>
     <category term="research"/>
   </entry>
 </feed>
