@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-09T00:44:56Z</updated>
+  <updated>2026-11-09T07:45:38Z</updated>
   <entry>
     <title>Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%</title>
     <link href="https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/" rel="alternate"/>
@@ -35,6 +35,15 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Hide your slop PR descriptions behind &lt;details&gt;&lt;summary&gt;</title>
+    <link href="https://simonwillison.net/2026/Nov/9/details-summary/" rel="alternate"/>
+    <id>https://simonwillison.net/2026/Nov/9/details-summary/</id>
+    <updated>2026-11-09T04:25:05Z</updated>
+    <summary type="text">Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is </summary>
+    <author><name>Simon Willison</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Artificial Analysis: multimodal decision model Drex Max ranks #1. Both achieving SOTA and Pareto frontier [N]</title>
     <link href="https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/" rel="alternate"/>
     <id>https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/</id>
@@ -60,6 +69,27 @@
     <summary type="text">One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to...</summary>
     <author><name>Sowmyan Soman</name></author>
     <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Video-Coder: Reinforcing Agentic Coding for Video Generation</title>
+    <link href="https://arxiv.org/abs/2611.09894v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.09894v1</id>
+    <updated>2026-11-06T18:59:57Z</updated>
+    <summary type="text">Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and ex</summary>
+    <author><name>Yuzhang Shang</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+    <category term="computer-vision"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos</title>
+    <link href="https://arxiv.org/abs/2611.09769v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.09769v1</id>
+    <updated>2026-11-06T17:31:09Z</updated>
+    <summary type="text">Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages. Yet existing webpage code generation benchmarks target static screenshots, user-triggered interactions, or isolated motion graphics, leaving the ability of multimodal large language models (MLLMs) and coding agents to reconstruct complete animated webpages largely unexplored. To fill thi</summary>
+    <author><name>Michael R. Lyu</name></author>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Merge builds product and business tools with OpenAI technology</title>
@@ -170,39 +200,5 @@
     <updated>2026-11-07T00:02:18Z</updated>
     <summary type="text">Has anyone else been running into the “Context Window Full” message when using ChatGPT? I've been finding this increasingly frustrating, especially when I'm in the middle of a conversation or working on something and suddenly can't continue in the same chat. What makes it even more frustrating is that sometimes it feels like I've only just started the conversation, yet I'm already being told that </summary>
     <author><name>/u/Creative-Concert7227</name></author>
-  </entry>
-  <entry>
-    <title>I used Codex to revive Pro Pinball - The Web (1995)</title>
-    <link href="https://www.reddit.com/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/" rel="alternate"/>
-    <id>https://www.reddit.com/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/</id>
-    <updated>2026-11-06T21:19:34Z</updated>
-    <summary type="text">Inspired by posts about AI being used to reverse engineer this and re-implement that I decided to take on a real love project of mine - transporting the pinball classic &quot;Pro Pinball - The Web&quot; (1995) into the present. A game I spent so many hours on back then, I even tried recreating that feeling by setting up a retro PC with Windows 98. However it would just never run right, neither on that Win98</summary>
-    <author><name>/u/rnatau</name></author>
-  </entry>
-  <entry>
-    <title>Three Members Behind Claude Code Leave Anthropic Within 10 Days</title>
-    <link href="https://analyticsindiamag.com/ai-news/three-members-behind-claude-code-leave-anthropic-within-10-days" rel="alternate"/>
-    <id>https://analyticsindiamag.com/ai-news/three-members-behind-claude-code-leave-anthropic-within-10-days</id>
-    <updated>2026-11-04T06:51:18Z</updated>
-    <summary type="text">Anthropic has seen three employees associated with its Claude Code product leave the company within 10 days. The departures include Thariq Shihipar, Anthony Mor</summary>
-    <author><name>Siddharth Jindal</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Introducing Images 2.6</title>
-    <link href="https://openai.com/index/introducing-images-2-6" rel="alternate"/>
-    <id>https://openai.com/index/introducing-images-2-6</id>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <summary type="text">Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="computer-vision"/>
-  </entry>
-  <entry>
-    <title>What to expect during KubeCon + CloudNativeCon NA: Join theCUBE Nov. 10-12</title>
-    <link href="https://siliconangle.com/2026/11/05/container-orchestration-kubecon-thecube-ai-kubeconna/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/11/05/container-orchestration-kubecon-thecube-ai-kubeconna/</id>
-    <updated>2026-11-05T16:17:06Z</updated>
-    <summary type="text">Kubernetes has emerged as the default container orchestration standard, a foundational platform layer across the enterprise. Will Kubernetes also play a central role in positioning the next generation of AI workloads for production? This is the question on the minds of the cloud-native community as it gathers this month for KubeCon + CloudNativeCon NA in […] The post What to expect during KubeCon </summary>
-    <author><name>Mark Albertson</name></author>
   </entry>
 </feed>

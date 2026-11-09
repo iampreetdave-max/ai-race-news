@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-09T00:44:56Z</updated>
+  <updated>2026-11-09T07:45:38Z</updated>
   <entry>
     <title>Hundreds of Artex AI hacking tools found publicly exposed to the web</title>
     <link href="https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/" rel="alternate"/>
@@ -23,6 +23,26 @@
     <author><name>/u/m4rkGS</name></author>
     <category term="research"/>
     <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>On Agentic Manipulation Policies</title>
+    <link href="https://arxiv.org/abs/2611.09892v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.09892v1</id>
+    <updated>2026-11-06T18:59:34Z</updated>
+    <summary type="text">Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly,</summary>
+    <author><name>Vladlen Koltun</name></author>
+    <category term="research"/>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>FlowMoP: Stochastic Multi-Person Motion Prediction</title>
+    <link href="https://arxiv.org/abs/2611.09882v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.09882v1</id>
+    <updated>2026-11-06T18:56:41Z</updated>
+    <summary type="text">Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching fr</summary>
+    <author><name>Alexander Schwing</name></author>
+    <category term="research"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>Advice needed regarding classical ML conference submission [D]</title>
@@ -88,16 +108,5 @@
     <summary type="text">MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The approach could fundamentally simplify AI optimization but still hits clear limits. The article GPT-6 Astra sees the matr</summary>
     <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout (Google Research, 10M tokens in 25MB state) [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xplbuu/muir_linear_attention_with_sensitivityallocated/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xplbuu/muir_linear_attention_with_sensitivityallocated/</id>
-    <updated>2026-11-06T19:10:08Z</updated>
-    <summary type="text">Paper: https://arxiv.org/abs/2611.08376 | HF: https://huggingface.co/papers/2611.08376 At 10M tokens, a 1.3B Transformer needs 2.1 TB of KV cache (0.32 TB even at 2.5-bit quantization). Channel-wise gated delta models (like Gated DeltaNet-2 / GDN-2) compress history into a fixed 25 MB state, but hit three bottlenecks across 100B-token training that Muir resolves: 100x slow-channel glare -&gt; Matched</summary>
-    <author><name>/u/CategoryNormal149</name></author>
-    <category term="open-source"/>
-    <category term="llm"/>
-    <category term="research"/>
   </entry>
 </feed>
