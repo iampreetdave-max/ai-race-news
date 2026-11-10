@@ -4,7 +4,55 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-10T09:29:08Z</updated>
+  <updated>2026-11-10T17:34:24Z</updated>
+  <entry>
+    <title>Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards</title>
+    <link href="https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/" rel="alternate"/>
+    <id>https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/</id>
+    <updated>2026-11-10T14:59:09Z</updated>
+    <summary type="text">Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost.</summary>
+    <author><name>Asif Razzaq</name></author>
+    <category term="llm"/>
+    <category term="product-launch"/>
+  </entry>
+  <entry>
+    <title>Agent Substrate: Advancing Kubernetes for Agents at Scale</title>
+    <link href="https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/</id>
+    <updated>2026-11-10T15:00:00Z</updated>
+    <summary type="text">AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per...</summary>
+    <author><name>Ekin Karabulut</name></author>
+    <category term="agents"/>
+  </entry>
+  <entry>
+    <title>Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine</title>
+    <link href="https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/" rel="alternate"/>
+    <id>https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/</id>
+    <updated>2026-11-10T15:00:00Z</updated>
+    <summary type="text">NVIDIA is announcing two open source projects for building and operating managed Kubernetes services on GPU infrastructure—NVIDIA Kubernetes Engine (NVKE) and...</summary>
+    <author><name>Nathan Taber</name></author>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Anthropic has its own AI-powered office suite now</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now" rel="alternate"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</id>
+    <updated>2026-11-10T17:30:00Z</updated>
+    <summary type="text">For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint […]</summary>
+    <author><name>Hayden Field</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%</title>
+    <link href="https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/" rel="alternate"/>
+    <id>https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/</id>
+    <updated>2026-11-10T15:00:00Z</updated>
+    <summary type="text">A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill. The post A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62% appeared first on Towards Data Science.</summary>
+    <author><name>Serhii Romanov</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>CodeRabbit scales agentic software development and ships 20x more</title>
     <link href="https://openai.com/index/coderabbit-codex-daybreak" rel="alternate"/>
@@ -14,6 +62,25 @@
     <author><name>OpenAI Blog</name></author>
     <category term="llm"/>
     <category term="agents"/>
+  </entry>
+  <entry>
+    <title>5 Techniques for Fine-Tuning LLMs Without Breaking the Bank</title>
+    <link href="https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank" rel="alternate"/>
+    <id>https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank</id>
+    <updated>2026-11-10T13:00:00Z</updated>
+    <summary type="text">Learn five practical ways to fine-tune LLMs on a budget, from LoRA and QLoRA to Unsloth, DPO, and right-sizing your GPU, with working code for each technique.</summary>
+    <author><name>Shittu Olumide</name></author>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff</title>
+    <link href="https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/" rel="alternate"/>
+    <id>https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <summary type="text">A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it. The post Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff appeared first on Towards Data Science.</summary>
+    <author><name>Naga Chand Putta</name></author>
+    <category term="data"/>
+    <category term="llm"/>
   </entry>
   <entry>
     <title>0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP</title>
@@ -118,42 +185,5 @@
     <category term="llm"/>
     <category term="computer-vision"/>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos</title>
-    <link href="https://arxiv.org/abs/2611.09769v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.09769v1</id>
-    <updated>2026-11-06T17:31:09Z</updated>
-    <summary type="text">Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages. Yet existing webpage code generation benchmarks target static screenshots, user-triggered interactions, or isolated motion graphics, leaving the ability of multimodal large language models (MLLMs) and coding agents to reconstruct complete animated webpages largely unexplored. To fill thi</summary>
-    <author><name>Michael R. Lyu</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Merge builds product and business tools with OpenAI technology</title>
-    <link href="https://openai.com/index/merge-builds-with-openai" rel="alternate"/>
-    <id>https://openai.com/index/merge-builds-with-openai</id>
-    <updated>2026-11-05T08:00:00Z</updated>
-    <summary type="text">Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Anthropic loses product lead Catherine Wu behind Claude Code to OpenAI</title>
-    <link href="https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/" rel="alternate"/>
-    <id>https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/</id>
-    <updated>2026-11-05T12:20:35Z</updated>
-    <summary type="text">Catherine Wu, the founding product lead for Claude Code, is leaving Anthropic for OpenAI, where she'll head up product management for &quot;Core Products&quot; and work directly with Codex lead Thibault Sottiaux. She's the third person to leave Anthropic's Claude Code team in just two weeks. The article Anthropic loses product lead Catherine Wu behind Claude Code to OpenAI appeared first on The Decoder.</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Where is Windows 12?</title>
-    <link href="https://www.theverge.com/tech/1027621/where-is-windows-12-notepad" rel="alternate"/>
-    <id>https://www.theverge.com/tech/1027621/where-is-windows-12-notepad</id>
-    <updated>2026-11-05T17:00:00Z</updated>
-    <summary type="text">While I wasn't expecting Microsoft to announce Windows 12 during its RTX Spark launch event last month, more than a few people were hoping to see something truly new. Between the growing frustration with Windows 11 and the muted response to Copilot Plus PCs, it's starting to feel like Microsoft needs to go bigger with […]</summary>
-    <author><name>Tom Warren</name></author>
-    <category term="llm"/>
-    <category term="data"/>
   </entry>
 </feed>
