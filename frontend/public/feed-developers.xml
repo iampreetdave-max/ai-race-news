@@ -4,7 +4,15 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-11T10:31:58Z</updated>
+  <updated>2026-11-11T18:29:37Z</updated>
+  <entry>
+    <title>Beyond code generation: Five lessons on AI, reliability, and recovery</title>
+    <link href="https://yourstory.com/2026/11/code-generation-ai-reliability-recovery" rel="alternate"/>
+    <id>https://yourstory.com/2026/11/code-generation-ai-reliability-recovery</id>
+    <updated>2026-11-11T11:30:16Z</updated>
+    <summary type="text">At a TechSparks 2026 roundtable hosted by OPPEX, technology leaders discussed the challenges of maintaining AI-generated code, managing risk, and responding when production systems fail.</summary>
+    <author><name>YourStory</name></author>
+  </entry>
   <entry>
     <title>Agent Substrate: Advancing Kubernetes for Agents at Scale</title>
     <link href="https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/" rel="alternate"/>
@@ -34,6 +42,17 @@
     <category term="product-launch"/>
     <category term="hardware"/>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI Assistant vs. Copilot vs. Agent, and When to Use Each</title>
+    <link href="https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/" rel="alternate"/>
+    <id>https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/</id>
+    <updated>2026-11-11T15:00:00Z</updated>
+    <summary type="text">A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled. The post AI Assistant vs. Copilot vs. Agent, and When to Use Each appeared first on Towards Data Science.</summary>
+    <author><name>Gursimar Singh</name></author>
+    <category term="data"/>
+    <category term="llm"/>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards</title>
@@ -80,6 +99,15 @@
     <summary type="text">Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.</summary>
     <author><name>swyx .ai</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI agents carry memory and storage like people, so their data needs guarding while in use</title>
+    <link href="https://siliconangle.com/2026/11/11/cloud-engineering-teams-must-protect-ai-agent-data-use-kubeconna/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/11/cloud-engineering-teams-must-protect-ai-agent-data-use-kubeconna/</id>
+    <updated>2026-11-11T16:20:46Z</updated>
+    <summary type="text">As AI agents move into production on Kubernetes, cloud engineering teams at financial companies face a security problem that encryption alone can’t solve. Container orchestration has become the default foundation for AI workloads, and the data those agents use is now the main target. Payment networks feel that pressure more than most because every transaction […] The post AI agents carry memory an</summary>
+    <author><name>Jonathan Anthony</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%</title>
@@ -137,32 +165,5 @@
     <summary type="text">Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t</summary>
     <author><name>Qianshan Wei</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%</title>
-    <link href="https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/</id>
-    <updated>2026-11-08T04:45:59Z</updated>
-    <summary type="text">Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9% appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Locating the source of a mysterious beep with Claude</title>
-    <link href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Nov/9/mysterious-beeps/</id>
-    <updated>2026-11-09T23:57:21Z</updated>
-    <summary type="text">Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator, a </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM</title>
-    <link href="https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/</id>
-    <updated>2026-11-07T08:16:33Z</updated>
-    <summary type="text">Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM appeared first on MarkTechPost.</summary>
-    <author><name>Michal Sutter</name></author>
-    <category term="open-source"/>
   </entry>
 </feed>
