@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-11T02:42:44Z</updated>
+  <updated>2026-11-11T10:31:58Z</updated>
   <entry>
     <title>Agent Substrate: Advancing Kubernetes for Agents at Scale</title>
     <link href="https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/" rel="alternate"/>
@@ -46,6 +46,15 @@
     <category term="product-launch"/>
   </entry>
   <entry>
+    <title>AI Engineer Code Summit: OpenAI on New Ways of Working With Codex</title>
+    <link href="https://latent.space/p/codex-work/" rel="alternate"/>
+    <id>https://latent.space/p/codex-work/</id>
+    <updated>2026-11-11T04:49:48Z</updated>
+    <summary type="text">On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.</summary>
+    <author><name>Richard MacManus</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>Anthropic has its own AI-powered office suite now</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now" rel="alternate"/>
     <id>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</id>
@@ -53,6 +62,15 @@
     <summary type="text">For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint […]</summary>
     <author><name>Hayden Field</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>How to Build an MCP Server That Checks npm Packages Before AI Installs Them</title>
+    <link href="https://hackernoon.com/how-to-build-an-mcp-server-that-checks-npm-packages-before-ai-installs-them?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/how-to-build-an-mcp-server-that-checks-npm-packages-before-ai-installs-them?source=rss</id>
+    <updated>2026-11-11T07:39:06Z</updated>
+    <summary type="text">AI coding assistants suggest npm packages without checking them. I built pkgscout, a small remote MCP server on Cloudflare's free plan, with two tools: one checks if a package exists, is deprecated or is a typo of something else, and one checks exact versions against npm's advisory database. It uses the 2026-07-28 MCP spec and TypeScript SDK v2, and the full code is on GitHub.Read All</summary>
+    <author><name>Tarun Singh</name></author>
+    <category term="tutorial"/>
   </entry>
   <entry>
     <title>Designing for Agents — Zeno Rocha, Resend</title>
@@ -146,25 +164,5 @@
     <summary type="text">Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM appeared first on MarkTechPost.</summary>
     <author><name>Michal Sutter</name></author>
     <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
-    <link href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/" rel="alternate"/>
-    <id>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</id>
-    <updated>2026-11-06T19:47:04Z</updated>
-    <summary type="text">Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&amp;D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewise newly released western open model Inkling 2 Small. The article Ripple-65B Prev</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Hide your slop PR descriptions behind &lt;details&gt;&lt;summary&gt;</title>
-    <link href="https://simonwillison.net/2026/Nov/9/details-summary/" rel="alternate"/>
-    <id>https://simonwillison.net/2026/Nov/9/details-summary/</id>
-    <updated>2026-11-09T04:25:05Z</updated>
-    <summary type="text">Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is </summary>
-    <author><name>Simon Willison</name></author>
-    <category term="llm"/>
   </entry>
 </feed>
