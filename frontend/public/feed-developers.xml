@@ -4,7 +4,16 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-12T01:24:14Z</updated>
+  <updated>2026-11-12T09:30:55Z</updated>
+  <entry>
+    <title>billion-context Hands-On: Compressing Coding-Agent History to Fit a Small Context Window</title>
+    <link href="https://hackernoon.com/billion-context-hands-on-compressing-coding-agent-history-to-fit-a-small-context-window?source=rss" rel="alternate"/>
+    <id>https://hackernoon.com/billion-context-hands-on-compressing-coding-agent-history-to-fit-a-small-context-window?source=rss</id>
+    <updated>2026-11-12T07:18:42Z</updated>
+    <summary type="text">I ran a 41-request Gemini agent session through it: the final prompt shrank 2.9× and recall held, but on a short session it cost moreRead All</summary>
+    <author><name>Ishank Choudhary</name></author>
+    <category term="llm"/>
+  </entry>
   <entry>
     <title>Beyond code generation: Five lessons on AI, reliability, and recovery</title>
     <link href="https://yourstory.com/2026/11/code-generation-ai-reliability-recovery" rel="alternate"/>
@@ -74,6 +83,14 @@
     <category term="llm"/>
   </entry>
   <entry>
+    <title>Google’s GKE Labs turns reinforcement learning into a Kubernetes workload</title>
+    <link href="https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/</id>
+    <updated>2026-11-12T01:51:03Z</updated>
+    <summary type="text">Model fine-tuning through reinforcement learning is fast becoming one of the most demanding jobs in AI infrastructure. It mixes training, inference and sandboxed agent work in a single loop, often with research code tangled into the systems beneath it. Google LLC has been tackling that problem from inside its Kubernetes engineering group, and recently donated […] The post Google’s GKE Labs turns r</summary>
+    <author><name>Jonathan Anthony</name></author>
+  </entry>
+  <entry>
     <title>Anthropic has its own AI-powered office suite now</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now" rel="alternate"/>
     <id>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</id>
@@ -130,6 +147,16 @@
     <category term="agents"/>
   </entry>
   <entry>
+    <title>I fine-tuned EVA-02 in a week to build a neural video retrieval engine for what CLIP still won't do [P]</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/" rel="alternate"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/</id>
+    <updated>2026-11-12T03:03:34Z</updated>
+    <summary type="text">TL;DR: After a manic 7-day sprint, I open-sourced a local video retrieval engine built to search massive unstructured video portals by visual poses, clothing details, camera angles, and motion cadence—ignoring uploader metadata at search time and running in minimal VRAM. GitHub: https://github.com/qn06142/eva02-neural-video-retrieval Why Existing Models and Search Fail Scrubbed foundation weights:</summary>
+    <author><name>/u/qn06142</name></author>
+    <category term="data"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
     <title>5 Techniques for Fine-Tuning LLMs Without Breaking the Bank</title>
     <link href="https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank" rel="alternate"/>
     <id>https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank</id>
@@ -164,15 +191,6 @@
     <updated>2026-11-11T21:18:30Z</updated>
     <summary type="text">aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently req</summary>
     <author><name>Simon Willison</name></author>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
-    <link href="https://arxiv.org/abs/2611.12886v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.12886v1</id>
-    <updated>2026-11-09T18:59:54Z</updated>
-    <summary type="text">Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t</summary>
-    <author><name>Qianshan Wei</name></author>
     <category term="agents"/>
   </entry>
 </feed>
