@@ -4,14 +4,33 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-12T18:00:36Z</updated>
+  <updated>2026-11-12T23:30:58Z</updated>
   <entry>
-    <title>Holiday Extras is rethinking what it can build with Codex</title>
-    <link href="https://openai.com/business/customer-stories/holidays-extras-codex" rel="alternate"/>
-    <id>https://openai.com/business/customer-stories/holidays-extras-codex</id>
-    <updated>2026-11-12T09:30:00Z</updated>
-    <summary type="text">With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.</summary>
+    <title>Gondola doubles revenue as its team builds more with Codex</title>
+    <link href="https://openai.com/business/customer-stories/gondola" rel="alternate"/>
+    <id>https://openai.com/business/customer-stories/gondola</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <summary type="text">Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</summary>
     <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Microsoft Says It’s Working to Fix Outlook, Copilot Outage</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage</id>
+    <updated>2026-11-12T19:14:51Z</updated>
+    <summary type="text">Microsoft Corp. said it was working to restore access to its bundle of workplace software, saying customers may experience issues connecting to email and other tools.</summary>
+    <author><name>Matt Day</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>AI agent tooling provider LangChain secures $300M investment</title>
+    <link href="https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/</id>
+    <updated>2026-11-12T23:24:06Z</updated>
+    <summary type="text">LangChain Inc., a startup with a set of popular open-source tools for building artificial intelligence agents, has raised $300 million in funding. The Wall Street Journal reported today that Alphabet Inc.’s CapitalG fund led the round. It was joined by IVP, Sapphire Ventures, GIC and DFJ Growth. LangChain is now worth $3 billion. San Francisco-based […] The post AI agent tooling provider LangChain</summary>
+    <author><name>Maria Deutscher</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
   </entry>
   <entry>
     <title>billion-context Hands-On: Compressing Coding-Agent History to Fit a Small Context Window</title>
@@ -21,6 +40,25 @@
     <summary type="text">I ran a 41-request Gemini agent session through it: the final prompt shrank 2.9× and recall held, but on a short session it cost moreRead All</summary>
     <author><name>Ishank Choudhary</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Kubernetes gets a second act as AI agents turn one prompt into thousands of inference calls</title>
+    <link href="https://siliconangle.com/2026/11/12/agentic-ai-systems-push-kubernetes-second-act-kubeconna/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/12/agentic-ai-systems-push-kubernetes-second-act-kubeconna/</id>
+    <updated>2026-11-12T20:52:08Z</updated>
+    <summary type="text">The rise of agentic AI systems is giving Kubernetes, long valued for its reliability and predictability, an unexpected second act. As AI spending shifts from training models toward serving them and running agents, the open-source community is developing tools to handle the growing volume of inference requests. The orchestration platform was built from the start […] The post Kubernetes gets a secon</summary>
+    <author><name>Ryan Stevens</name></author>
+    <category term="agents"/>
+    <category term="open-source"/>
+  </entry>
+  <entry>
+    <title>Google retools Kubernetes for AI agents instead of building a new stack</title>
+    <link href="https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna/</id>
+    <updated>2026-11-12T20:01:17Z</updated>
+    <summary type="text">Agentic workloads are pushing Kubernetes into territory its creators never planned for. Agents generate untrusted code on the fly, sit idle for long stretches and churn through pods at a pace that strains the orchestrator’s control plane. Cloud providers are now rethinking how general-purpose a cluster should be. Google LLC’s answer is to stop treating […] The post Google retools Kubernetes for AI</summary>
+    <author><name>Sloane Kali Faye</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Beyond code generation: Five lessons on AI, reliability, and recovery</title>
@@ -133,54 +171,5 @@
     <summary type="text">As AI agents move into production on Kubernetes, cloud engineering teams at financial companies face a security problem that encryption alone can’t solve. Container orchestration has become the default foundation for AI workloads, and the data those agents use is now the main target. Payment networks feel that pressure more than most because every transaction […] The post AI agents carry memory an</summary>
     <author><name>Jonathan Anthony</name></author>
     <category term="agents"/>
-  </entry>
-  <entry>
-    <title>A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%</title>
-    <link href="https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/" rel="alternate"/>
-    <id>https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/</id>
-    <updated>2026-11-10T15:00:00Z</updated>
-    <summary type="text">A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill. The post A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62% appeared first on Towards Data Science.</summary>
-    <author><name>Serhii Romanov</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>CodeRabbit scales agentic software development and ships 20x more</title>
-    <link href="https://openai.com/index/coderabbit-codex-daybreak" rel="alternate"/>
-    <id>https://openai.com/index/coderabbit-codex-daybreak</id>
-    <updated>2026-11-09T08:00:00Z</updated>
-    <summary type="text">CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</summary>
-    <author><name>OpenAI Blog</name></author>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>I fine-tuned EVA-02 in a week to build a neural video retrieval engine for what CLIP still won't do [P]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/</id>
-    <updated>2026-11-12T03:03:34Z</updated>
-    <summary type="text">TL;DR: After a manic 7-day sprint, I open-sourced a local video retrieval engine built to search massive unstructured video portals by visual poses, clothing details, camera angles, and motion cadence—ignoring uploader metadata at search time and running in minimal VRAM. GitHub: https://github.com/qn06142/eva02-neural-video-retrieval Why Existing Models and Search Fail Scrubbed foundation weights:</summary>
-    <author><name>/u/qn06142</name></author>
-    <category term="data"/>
-    <category term="open-source"/>
-  </entry>
-  <entry>
-    <title>5 Techniques for Fine-Tuning LLMs Without Breaking the Bank</title>
-    <link href="https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank" rel="alternate"/>
-    <id>https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank</id>
-    <updated>2026-11-10T13:00:00Z</updated>
-    <summary type="text">Learn five practical ways to fine-tune LLMs on a budget, from LoRA and QLoRA to Unsloth, DPO, and right-sizing your GPU, with working code for each technique.</summary>
-    <author><name>Shittu Olumide</name></author>
-    <category term="hardware"/>
-  </entry>
-  <entry>
-    <title>Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff</title>
-    <link href="https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/" rel="alternate"/>
-    <id>https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/</id>
-    <updated>2026-11-10T12:00:00Z</updated>
-    <summary type="text">A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it. The post Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff appeared first on Towards Data Science.</summary>
-    <author><name>Naga Chand Putta</name></author>
-    <category term="data"/>
-    <category term="llm"/>
   </entry>
 </feed>
