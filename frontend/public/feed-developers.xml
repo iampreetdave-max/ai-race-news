@@ -4,7 +4,7 @@
   <link href="https://ai-race-news.pages.dev/developers" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-developers.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/developers/</id>
-  <updated>2026-11-13T14:16:08Z</updated>
+  <updated>2026-11-13T21:17:56Z</updated>
   <entry>
     <title>Microsoft Outage: Fix Fails to Restore Outlook, Teams, Copilot Across 74 Countries</title>
     <link href="https://analyticsindiamag.com/ai-news/microsoft-outage-fix-fails-to-restore-outlook-teams-copilot-across-74-countries" rel="alternate"/>
@@ -15,13 +15,32 @@
     <category term="llm"/>
   </entry>
   <entry>
-    <title>Microsoft Says It’s Working to Fix Outlook, Copilot Outage</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage" rel="alternate"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage</id>
-    <updated>2026-11-12T19:14:51Z</updated>
-    <summary type="text">Microsoft Corp. said it was working to restore access to its bundle of workplace software, saying customers may experience issues connecting to email and other tools.</summary>
-    <author><name>Matt Day</name></author>
+    <title>Introducing ChatGPT Wallet</title>
+    <link href="https://openai.com/index/introducing-chatgpt-wallet" rel="alternate"/>
+    <id>https://openai.com/index/introducing-chatgpt-wallet</id>
+    <updated>2026-11-13T15:00:00Z</updated>
+    <summary type="text">Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</summary>
+    <author><name>OpenAI Blog</name></author>
+  </entry>
+  <entry>
+    <title>Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models</title>
+    <link href="https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/" rel="alternate"/>
+    <id>https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/</id>
+    <updated>2026-11-13T15:21:04Z</updated>
+    <summary type="text">Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars. The</summary>
+    <author><name>Maximilian Schreiner</name></author>
     <category term="llm"/>
+    <category term="open-source"/>
+    <category term="hardware"/>
+  </entry>
+  <entry>
+    <title>AI agent startup LangChain hits $3B valuation</title>
+    <link href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/" rel="alternate"/>
+    <id>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</id>
+    <updated>2026-11-13T19:37:57Z</updated>
+    <summary type="text">LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
+    <author><name>Julie Bort</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Anthropic Claude AI down, Status update: Services including Claude API, Claude Code, connectors down</title>
@@ -60,6 +79,15 @@
     <author><name>OpenAI Blog</name></author>
   </entry>
   <entry>
+    <title>Microsoft Says It’s Working to Fix Outlook, Copilot Outage</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage" rel="alternate"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-12/microsoft-says-it-s-working-to-fix-outlook-copilot-outage</id>
+    <updated>2026-11-12T19:14:51Z</updated>
+    <summary type="text">Microsoft Corp. said it was working to restore access to its bundle of workplace software, saying customers may experience issues connecting to email and other tools.</summary>
+    <author><name>Matt Day</name></author>
+    <category term="llm"/>
+  </entry>
+  <entry>
     <title>New AI “copilot” helps engineers design better structures</title>
     <link href="https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113" rel="alternate"/>
     <id>https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113</id>
@@ -67,6 +95,15 @@
     <summary type="text">The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.</summary>
     <author><name>Zach Winn | MIT News</name></author>
     <category term="llm"/>
+  </entry>
+  <entry>
+    <title>Agents idling while they wait on humans push Kubernetes to hand back unused resources</title>
+    <link href="https://siliconangle.com/2026/11/13/agentic-ai-workloads-push-kubernetes-return-idle-resources-kubeconna/" rel="alternate"/>
+    <id>https://siliconangle.com/2026/11/13/agentic-ai-workloads-push-kubernetes-return-idle-resources-kubeconna/</id>
+    <updated>2026-11-13T14:22:57Z</updated>
+    <summary type="text">Agentic AI workloads are handing Kubernetes an unexpected second act. The orchestrator once dismissed as reliable but boring is now at the center of how enterprises plan to run autonomous software. Past platform shifts, from physical servers to virtual machines and from virtual machines to containers, forced companies to wipe the slate clean and start […] The post Agents idling while they wait on </summary>
+    <author><name>Jonathan Anthony</name></author>
+    <category term="agents"/>
   </entry>
   <entry>
     <title>Consistent Video-to-Video Translation via Explicit Correspondences</title>
@@ -84,16 +121,6 @@
     <summary type="text">Social scene datasets label people at two levels: what each person is doing and what the group is there for. Training on both levels at once is often assumed to help each of them. We test this assumption for vision-language models (VLMs) on JRDB-Social, treating person actions as the details and group intent as the whole. We fine-tune Qwen3.5 4B under eight training arms with three seeds, repeat t</summary>
     <author><name>Shiwen Ni</name></author>
     <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI agent tooling provider LangChain secures $300M investment</title>
-    <link href="https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/</id>
-    <updated>2026-11-12T23:24:06Z</updated>
-    <summary type="text">LangChain Inc., a startup with a set of popular open-source tools for building artificial intelligence agents, has raised $300 million in funding. The Wall Street Journal reported today that Alphabet Inc.’s CapitalG fund led the round. It was joined by IVP, Sapphire Ventures, GIC and DFJ Growth. LangChain is now worth $3 billion. San Francisco-based […] The post AI agent tooling provider LangChain</summary>
-    <author><name>Maria Deutscher</name></author>
-    <category term="agents"/>
-    <category term="open-source"/>
   </entry>
   <entry>
     <title>billion-context Hands-On: Compressing Coding-Agent History to Fit a Small Context Window</title>
@@ -159,53 +186,6 @@
     <author><name>Jay Peters</name></author>
     <category term="product-launch"/>
     <category term="hardware"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>AI Assistant vs. Copilot vs. Agent, and When to Use Each</title>
-    <link href="https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/" rel="alternate"/>
-    <id>https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/</id>
-    <updated>2026-11-11T15:00:00Z</updated>
-    <summary type="text">A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled. The post AI Assistant vs. Copilot vs. Agent, and When to Use Each appeared first on Towards Data Science.</summary>
-    <author><name>Gursimar Singh</name></author>
-    <category term="data"/>
-    <category term="llm"/>
-    <category term="agents"/>
-  </entry>
-  <entry>
-    <title>Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards</title>
-    <link href="https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/" rel="alternate"/>
-    <id>https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/</id>
-    <updated>2026-11-10T14:59:09Z</updated>
-    <summary type="text">Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost.</summary>
-    <author><name>Asif Razzaq</name></author>
-    <category term="llm"/>
-    <category term="product-launch"/>
-  </entry>
-  <entry>
-    <title>AI Engineer Code Summit: OpenAI on New Ways of Working With Codex</title>
-    <link href="https://latent.space/p/codex-work/" rel="alternate"/>
-    <id>https://latent.space/p/codex-work/</id>
-    <updated>2026-11-11T04:49:48Z</updated>
-    <summary type="text">On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.</summary>
-    <author><name>Richard MacManus</name></author>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Google’s GKE Labs turns reinforcement learning into a Kubernetes workload</title>
-    <link href="https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/" rel="alternate"/>
-    <id>https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/</id>
-    <updated>2026-11-12T01:51:03Z</updated>
-    <summary type="text">Model fine-tuning through reinforcement learning is fast becoming one of the most demanding jobs in AI infrastructure. It mixes training, inference and sandboxed agent work in a single loop, often with research code tangled into the systems beneath it. Google LLC has been tackling that problem from inside its Kubernetes engineering group, and recently donated […] The post Google’s GKE Labs turns r</summary>
-    <author><name>Jonathan Anthony</name></author>
-  </entry>
-  <entry>
-    <title>Anthropic has its own AI-powered office suite now</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now" rel="alternate"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</id>
-    <updated>2026-11-10T17:30:00Z</updated>
-    <summary type="text">For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint […]</summary>
-    <author><name>Hayden Field</name></author>
     <category term="llm"/>
   </entry>
 </feed>
