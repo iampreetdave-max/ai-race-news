@@ -4,7 +4,35 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-12T23:30:58Z</updated>
+  <updated>2026-11-13T05:50:14Z</updated>
+  <entry>
+    <title>Learning the Missing Derivative: Neural Multiple-Scattering Operators for Inverse Volume Rendering</title>
+    <link href="https://arxiv.org/abs/2611.16650v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.16650v1</id>
+    <updated>2026-11-12T11:27:20Z</updated>
+    <summary type="text">Reconstructing optically thick media from photographs requires modeling multiple scattering and its response to changes in extinction. Frozen-source tomography discards this derivative; differentiable path tracing estimates it through expensive, noisy sampling. We instead predict the multiple-scattering field with a neural operator and differentiate through it during inverse rendering, while compu</summary>
+    <author><name>Shibo Li</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>From State of THE ART to Human Prediction Algorithms</title>
+    <link href="https://arxiv.org/abs/2611.16464v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.16464v1</id>
+    <updated>2026-11-12T08:20:24Z</updated>
+    <summary type="text">Human curiosity and longing for the future have driven human progress from ancient times to the present. With the advancement of AI technology, human prediction algorithms have also drawn increasing attention from researchers. However, as AI technology continues to advance, we observe a counterintuitive phenomenon. Take human trajectory prediction algorithms as an example. Although models' quantit</summary>
+    <author><name>Ziqian Zou</name></author>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Can an LVLM Perceive Event Boundaries Like a Human?</title>
+    <link href="https://arxiv.org/abs/2611.16452v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.16452v1</id>
+    <updated>2026-11-12T08:06:48Z</updated>
+    <summary type="text">Large Vision-Language Models (LVLMs) reason effectively about video content, but whether they perceive its event boundaries in a manner consistent with humans remains unclear. We first investigate this through Generic Event Boundary Detection (GEBD), which identifies event boundaries naturally perceived by humans in continuous video, without relying on predefined event categories. On Kinetics-GEBD</summary>
+    <author><name>Juntae Lee</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>“Are You Sure?” Flipped Qwen2.5-1.5B’s Right Answer 2 Times in 3</title>
     <link href="https://towardsdatascience.com/are-you-sure-flipped-qwen25-15bs-right-answer-2-times-in-3/" rel="alternate"/>
@@ -22,26 +50,6 @@
     <updated>2026-11-12T13:51:58Z</updated>
     <summary type="text">UMAP 0.6 is out! A new initialization, new optimizers, and faster nearest neighbour search make UMAP much faster and far better at large scale. On 3 million arXiv papers it finishes in under 5 minutes, before UMAP 0.5 has even found its nearest neighbours. (race between UMAP0.5 and UMAP 0.6 video) Code: https://github.com/lmcinnes/umap Install: pip install -U umap-learn (also on conda-forge) Speed</summary>
     <author><name>/u/lmcinnes</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Toward Foundation Detection Models via Example-Based Grounding in EM-DETR</title>
-    <link href="https://arxiv.org/abs/2611.14518v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.14518v1</id>
-    <updated>2026-11-10T18:59:17Z</updated>
-    <summary type="text">DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work</summary>
-    <author><name>Andreas Maier</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift</title>
-    <link href="https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/" rel="alternate"/>
-    <id>https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/</id>
-    <updated>2026-11-09T18:50:01Z</updated>
-    <summary type="text">Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in realism. A Pro version is planned. The article Bytedance's Seedream 5.5 promises pixel-stable image editi</summary>
-    <author><name>Matthias Bastian</name></author>
-    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>
