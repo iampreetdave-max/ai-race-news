@@ -24,7 +24,7 @@ export default function HomePage() {
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-accent-cyan" />
               </span>
               <span className="text-[11px] font-mono text-accent-cyan tracking-wide">
-                LIVE \u2014 110+ SOURCES
+                LIVE &middot; 110+ SOURCES
               </span>
             </div>
 
@@ -36,7 +36,7 @@ export default function HomePage() {
 
             <p className="text-base sm:text-lg text-text-secondary leading-relaxed max-w-lg mb-8">
               Real-time news from 110+ sources. Filtered for how AI
-              affects <em>you</em> \u2014 whether you ship code, close deals,
+              affects <em>you</em>, whether you ship code, close deals,
               move capital, or push research.
             </p>
 

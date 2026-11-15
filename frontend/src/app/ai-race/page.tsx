@@ -10,12 +10,12 @@ type FilterCategory = 'all' | 'flagship' | 'mid-tier' | 'budget' | 'reasoning' |
 type SortBy = 'performance' | 'cost' | 'value' | 'context'
 
 const BENCHMARK_OPTIONS: { key: string; label: string; maxScore: number }[] = [
-  { key: 'mmlu', label: 'MMLU \u2014 Knowledge', maxScore: 100 },
-  { key: 'humaneval', label: 'HumanEval \u2014 Code', maxScore: 100 },
-  { key: 'math', label: 'MATH \u2014 Mathematics', maxScore: 100 },
-  { key: 'gpqa', label: 'GPQA \u2014 PhD Science', maxScore: 100 },
-  { key: 'arc_challenge', label: 'ARC-C \u2014 Reasoning', maxScore: 100 },
-  { key: 'mt_bench', label: 'MT-Bench \u2014 Conversation', maxScore: 10 },
+  { key: 'mmlu', label: 'MMLU: Knowledge', maxScore: 100 },
+  { key: 'humaneval', label: 'HumanEval: Code', maxScore: 100 },
+  { key: 'math', label: 'MATH: Mathematics', maxScore: 100 },
+  { key: 'gpqa', label: 'GPQA: PhD Science', maxScore: 100 },
+  { key: 'arc_challenge', label: 'ARC-C: Reasoning', maxScore: 100 },
+  { key: 'mt_bench', label: 'MT-Bench: Conversation', maxScore: 10 },
 ]
 
 export default function AIRacePage() {
@@ -158,7 +158,7 @@ export default function AIRacePage() {
               {pick.model.name}
             </p>
             <p className="text-[11px] text-text-muted mt-0.5">
-              {pick.model.provider} \u00b7 ${(pick.model.pricing.input + pick.model.pricing.output).toFixed(2)}/1M
+              {pick.model.provider} &middot; ${(pick.model.pricing.input + pick.model.pricing.output).toFixed(2)}/1M
             </p>
           </div>
         ))}
