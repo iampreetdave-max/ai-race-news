@@ -249,6 +249,34 @@ class TestTapriExport:
         assert p["days"][-1] == "2026-10-25" and len(p["days"]) == 7
         assert p["names"] == [{"name": "Mistral", "days": [0] * 6 + [4]}, {"name": "Sarvam", "days": [0] * 6 + [1]}]
 
+    def test_globe_pick(self):
+        from datetime import timedelta, timezone
+        from scraper.export_json import _globe_pick, _story_clusters
+
+        now = datetime(2026, 11, 15, 12, tzinfo=timezone.utc)
+
+        def art(i, title, source, days_ago=1):
+            at = (now - timedelta(days=days_ago)).replace(tzinfo=None).isoformat()
+            return {"id": str(i), "title": title, "url": f"https://x.in/{i}", "source_name": source, "published_at": at}
+
+        arts = [
+            art(1, "Mistral introduces Duet, a proactive AI agent for teams", "The Verge"),
+            art(2, "Mistral takes on Muse with Duet, its new AI agent for teams", "The Decoder"),
+            art(3, "Duet is an always-on AI agent for teams from Mistral", "r/artificial"),
+            art(4, "Sarvam AI launches a Gujarati voice model", "Inc42", days_ago=20),
+            art(5, "My weekend with a local LLM and an AI agent", "Simon Willison"),  # personal blog only: not on the list
+            art(6, "Zepto is hiring 500 AI engineers", "Inc42"),                      # jobs content: never shown
+            art(7, "Old AI news from last quarter", "The Decoder", days_ago=40),      # outside the month
+        ]
+        out = _globe_pick(arts, _story_clusters(arts, now, 24 * 30), now)
+
+        assert out["days"] == 30
+        # one entry per story, headed by its best-ranked newsroom, with every outlet that covered it
+        assert [(s["source"], s["n"], s["outlets"]) for s in out["stories"]] == [
+            ("The Decoder", 3, ["The Decoder", "The Verge", "r/artificial"]),
+            ("Inc42", 1, ["Inc42"]),
+        ]
+
     def test_bench_records(self):
         import io
         import zipfile
