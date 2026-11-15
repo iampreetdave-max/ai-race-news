@@ -70,6 +70,7 @@ OUTPUT_LIMIT = 500
 TAPRI_DAYS = 7
 TAPRI_HALF_LIFE_H = 72
 TAPRI_WORLD, TAPRI_INDIA, TAPRI_PER_SOURCE = 15, 10, 2
+TAPRI_BLURB = 400  # characters of each story's feed summary on /brewing, about 5 lines
 
 # globe.json (tensortapri.org/globe): every story a newsroom ran this month, with every outlet that covered it
 GLOBE_DAYS, GLOBE_LIMIT, GLOBE_HALF_LIFE_H = 30, 300, 24 * 7
@@ -273,6 +274,28 @@ def _display_score(article: dict, src_count: int, now: datetime) -> float:
     return tier * trending_mult * _freshness(article['published_at'], now)
 
 
+# Feed summaries end in boilerplate ("The post X appeared first on Y.", "Continue reading"); tensortapri.org has no em dashes.
+_BOILER_RE = re.compile(r'\s*(the (post|article) .+? appeared first on .+|continue reading.*|read more.*|\[(\.\.\.|' + chr(0x2026) + r')\])\s*$', re.I | re.S)
+_EM_DASH_RE = re.compile(r'\s*' + chr(0x2014) + r'\s*')
+
+
+def _blurb(a: dict, limit: int = TAPRI_BLURB) -> str:
+    """A story's feed summary for /brewing: cleaned and cut on a whole word. '' when the feed only repeats the headline."""
+    title = html.unescape(a['title']).lower()
+    s = ' '.join(html.unescape(a.get('summary') or '').split())
+    for lead in ('the post ', 'the article '):  # "The article <headline> appeared first on The Decoder", often cut short
+        i = s.lower().find(lead + title[:25])
+        if i > 0:
+            s = s[:i]
+    s = _EM_DASH_RE.sub(', ', _BOILER_RE.sub('', s)).strip()
+    if not s or (s.lower().startswith(title[:60]) and len(s) < len(title) + 20):
+        return ''
+    if len(s) > limit:
+        cut = s.rfind(' ', 0, limit)
+        s = s[:cut if cut > limit // 2 else limit].rstrip(' ,.;:') + chr(0x2026)
+    return s
+
+
 def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) -> dict:
     """The week's top stories for tensortapri.org/brewing: world and India lists, at most 2 per source.
 
@@ -313,7 +336,7 @@ def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) 
             per_source[src] = per_source.get(src, 0) + 1
             # some feeds escape twice, so titles arrive as "Meta &amp; more"
             out.append({'title': html.unescape(a['title']), 'url': a['url'], 'source': src,
-                        'at': a['published_at'], 'n': counts.get(a['id'], 1)})
+                        'at': a['published_at'], 'n': counts.get(a['id'], 1), 'summary': _blurb(a)})
             if len(out) == limit:
                 break
         return out
