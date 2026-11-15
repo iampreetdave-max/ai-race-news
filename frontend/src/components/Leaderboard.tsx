@@ -26,7 +26,7 @@ const AUDIENCE_CRITERIA: Record<AudienceType, {
   },
   developers: {
     label: 'Top 3 AI for Developers',
-    description: 'Best for coding — ranked by HumanEval + MATH + reasoning',
+    description: 'Best for coding: ranked by HumanEval + MATH + reasoning',
     sortFn: (a, b) => {
       const scoreA = a.benchmarks.humaneval * 3 + a.benchmarks.math * 2 + a.benchmarks.gpqa
       const scoreB = b.benchmarks.humaneval * 3 + b.benchmarks.math * 2 + b.benchmarks.gpqa
@@ -39,7 +39,7 @@ const AUDIENCE_CRITERIA: Record<AudienceType, {
   },
   business: {
     label: 'Top 3 AI for Business',
-    description: 'Best for business — ranked by knowledge, conversation, and reasoning',
+    description: 'Best for business: ranked by knowledge, conversation, and reasoning',
     sortFn: (a, b) => {
       const scoreA = a.benchmarks.mmlu * 2 + a.benchmarks.mt_bench * 15 + a.benchmarks.humaneval
       const scoreB = b.benchmarks.mmlu * 2 + b.benchmarks.mt_bench * 15 + b.benchmarks.humaneval
@@ -52,7 +52,7 @@ const AUDIENCE_CRITERIA: Record<AudienceType, {
   },
   finance: {
     label: 'Top 3 AI for Finance',
-    description: 'Best for finance — ranked by math, PhD-level reasoning, and accuracy',
+    description: 'Best for finance: ranked by math, PhD-level reasoning, and accuracy',
     sortFn: (a, b) => {
       const scoreA = a.benchmarks.math * 3 + a.benchmarks.gpqa * 2 + a.benchmarks.mmlu
       const scoreB = b.benchmarks.math * 3 + b.benchmarks.gpqa * 2 + b.benchmarks.mmlu
@@ -65,7 +65,7 @@ const AUDIENCE_CRITERIA: Record<AudienceType, {
   },
   research: {
     label: 'Top 3 AI for Research',
-    description: 'Best for research — ranked by PhD-level science, math, and depth',
+    description: 'Best for research: ranked by PhD-level science, math, and depth',
     sortFn: (a, b) => {
       const scoreA = a.benchmarks.gpqa * 3 + a.benchmarks.math * 2 + a.benchmarks.mmlu
       const scoreB = b.benchmarks.gpqa * 3 + b.benchmarks.math * 2 + b.benchmarks.mmlu
