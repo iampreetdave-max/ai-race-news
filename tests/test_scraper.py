@@ -249,6 +249,19 @@ class TestTapriExport:
         assert p["days"][-1] == "2026-10-25" and len(p["days"]) == 7
         assert p["names"] == [{"name": "Mistral", "days": [0] * 6 + [4]}, {"name": "Sarvam", "days": [0] * 6 + [1]}]
 
+    def test_blurb(self):
+        """Each /brewing story carries its feed summary: boilerplate off, cut on a word, none when it only repeats the title."""
+        from scraper.export_json import _blurb
+
+        t = "Google releases Gemini 4 Hydrogen"
+        assert _blurb({"title": t, "summary": "A fast model &amp; cheap. The post Google releases X appeared first on MarkTechPost."}) == "A fast model & cheap."
+        assert _blurb({"title": t, "summary": t}) == ""
+        assert _blurb({"title": t, "summary": "Fast and cheap. The article Google releases Gemini 4 Hyd"}) == "Fast and cheap."
+        assert _blurb({"title": t}) == ""
+        long = _blurb({"title": t, "summary": "word " * 200})
+        assert len(long) <= 401 and long.endswith("word" + chr(0x2026))
+        assert _blurb({"title": t, "summary": "Fast " + chr(0x2014) + " and cheap"}) == "Fast, and cheap"
+
     def test_globe_pick(self):
         from datetime import timedelta, timezone
         from scraper.export_json import _globe_pick, _story_clusters
