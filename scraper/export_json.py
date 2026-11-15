@@ -70,6 +70,12 @@ OUTPUT_LIMIT = 500
 TAPRI_DAYS = 7
 TAPRI_HALF_LIFE_H = 72
 TAPRI_WORLD, TAPRI_INDIA, TAPRI_PER_SOURCE = 15, 10, 2
+
+# globe.json (tensortapri.org/globe): every story a newsroom ran this month, with every outlet that covered it
+GLOBE_DAYS, GLOBE_LIMIT, GLOBE_HALF_LIFE_H = 30, 300, 24 * 7
+# Lab blogs, AI and tech news, mainstream papers: places the globe can pin. Newsletters, tutorials and forums
+# still count in a story's `outlets`, but a story needs one of these to be on the list.
+GLOBE_TIERS = {1, 2, 3, 6}
 INDIA_SOURCES = {
     'Analytics India Magazine', 'Inc42', 'YourStory', 'MediaNama', 'ET Tech',
     'BusinessLine Info-tech', 'Mint Technology',
@@ -239,10 +245,16 @@ def _story_clusters(articles: list[dict], now: datetime, hours: float) -> dict:
             x = parent[x]
         return x
 
-    for i in range(len(ids)):
-        for j in range(i + 1, len(ids)):
-            if _same_story(words[ids[i]], words[ids[j]], common):
-                parent[find(ids[i])] = find(ids[j])
+    # Two headlines can only be one story if they share an uncommon word (see _same_story), so only those pairs
+    # are compared. Same answer as comparing every pair, but a month of headlines takes seconds, not minutes.
+    by_word: dict[str, list] = {}
+    for aid in ids:
+        for w in words[aid] - common:
+            by_word.setdefault(w, []).append(aid)
+    pairs = {(x, y) for group in by_word.values() for i, x in enumerate(group) for y in group[i + 1:]}
+    for x, y in pairs:
+        if _same_story(words[x], words[y], common):
+            parent[find(x)] = find(y)
 
     return {aid: find(aid) for aid in ids}
 
@@ -308,6 +320,40 @@ def _tapri_pick(articles: list[dict], roots: dict, counts: dict, now: datetime) 
 
     return {'updated': now.isoformat(timespec='seconds'), 'pulse': _pulse(ranked, now),
             'world': top(False, TAPRI_WORLD), 'india': top(True, TAPRI_INDIA)}
+
+
+def _globe_pick(articles: list[dict], roots: dict, now: datetime) -> dict:
+    """The month's stories for tensortapri.org/globe: one entry per story, with every outlet that covered it.
+
+    Pass the list from before _dedup, clustered over GLOBE_DAYS, so each story still has all its outlets.
+    A story needs a headline from a GLOBE_TIERS outlet that the /brewing filters would keep (AI, no jobs, no
+    gadgets); that headline is the one shown. Busiest and freshest first, at most GLOBE_LIMIT.
+    """
+    cutoff = now - timedelta(days=GLOBE_DAYS)
+    stories: dict = {}
+    for a in articles:
+        dt = _parse_dt(a['published_at'])
+        if dt is not None and cutoff <= dt <= now + timedelta(hours=1):
+            stories.setdefault(roots.get(a['id'], a['id']), []).append(a)
+
+    def shown(a: dict) -> bool:
+        tier = _source_priority(a['source_name'])
+        return (tier in GLOBE_TIERS and not _JOBS_RE.search(a['title']) and not _GADGET_RE.search(a['title'])
+                and (tier <= 2 or bool(_AI_RE.search(a['title']))))
+
+    out = []
+    for members in stories.values():
+        candidates = [a for a in members if shown(a)]
+        if not candidates:
+            continue
+        lead = min(candidates, key=lambda a: (_source_priority(a['source_name']), a['published_at']))
+        outlets = sorted({a['source_name'] for a in members}, key=lambda s: (_source_priority(s), s))
+        score = (len(outlets) * _tier_score(_source_priority(lead['source_name']))
+                 * _freshness(lead['published_at'], now, GLOBE_HALF_LIFE_H))
+        out.append((score, {'title': html.unescape(lead['title']), 'url': lead['url'], 'source': lead['source_name'],
+                            'at': lead['published_at'], 'n': len(outlets), 'outlets': outlets}))
+    out.sort(key=lambda x: -x[0])
+    return {'updated': now.isoformat(timespec='seconds'), 'days': GLOBE_DAYS, 'stories': [s for _, s in out[:GLOBE_LIMIT]]}
 
 
 def _pulse(articles: list[dict], now: datetime) -> dict:
@@ -589,6 +635,14 @@ def export_all(db_path=None, output_dir=None):
     tapri['bench'] = _bench_or_last(output_dir, now.date())  # reads the old tapri.json, so before it's overwritten
     size = write_json('tapri.json', tapri)
     print(f'tapri.json         : {len(tapri["world"])} world + {len(tapri["india"])} India ({size:.0f} KB)')
+
+    # The globe looks back a month, further than the 1500 articles above reach, so it reads its own window.
+    since = (now - timedelta(days=GLOBE_DAYS)).replace(tzinfo=None).isoformat()
+    month = _quality_filter([row_to_dict(r) for r in conn.execute(
+        'SELECT * FROM articles WHERE published_at >= ? ORDER BY published_at DESC', (since,)).fetchall()])
+    globe = _globe_pick(month, _story_clusters(month, now, 24 * GLOBE_DAYS), now)
+    size = write_json('globe.json', globe)
+    print(f'globe.json         : {len(globe["stories"])} stories from {len(month)} headlines ({size:.0f} KB)')
 
     total = conn.execute('SELECT COUNT(*) as c FROM articles').fetchone()['c']
     scrapes = conn.execute('SELECT COUNT(*) as c FROM scrape_logs').fetchone()['c']
