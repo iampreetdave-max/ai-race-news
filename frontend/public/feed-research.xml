@@ -4,7 +4,39 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-18T03:26:54Z</updated>
+  <updated>2026-11-18T12:47:40Z</updated>
+  <entry>
+    <title>FastFrames: Video Generation at Interactive Latency</title>
+    <link href="https://arxiv.org/abs/2611.23226v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.23226v1</id>
+    <updated>2026-11-17T18:59:13Z</updated>
+    <summary type="text">Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We prof</summary>
+    <author><name>Vladlen Koltun</name></author>
+    <category term="product-launch"/>
+    <category term="hardware"/>
+    <category term="computer-vision"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Learning Grounded Reasoning from Human Gaze</title>
+    <link href="https://arxiv.org/abs/2611.23209v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.23209v1</id>
+    <updated>2026-11-17T18:49:33Z</updated>
+    <summary type="text">Human visual reasoning is driven by systematic exploration and extraction of task-relevant visual evidence. Human gaze provides a window into this process, making gaze a useful source of guidance for visually-grounded reasoning in vision-language models (VLMs). However, human gaze also includes noise and redundancies that may transfer poorly to VLMs. In this work, we investigate how human gaze dat</summary>
+    <author><name>Taylor W. Webb</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
+  <entry>
+    <title>Nunchi: Ears Help Eyes in Multi-Party Conversations</title>
+    <link href="https://arxiv.org/abs/2611.23115v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.23115v1</id>
+    <updated>2026-11-17T17:35:07Z</updated>
+    <summary type="text">Identifying whom a person looks at is central to understanding multi-party conversations, yet gaze geometry alone becomes ambiguous as more people appear. Conversations offer cues that geometry lacks, such as who is speaking and what is said, but no gaze dataset provides them for many multi-party scenes. We introduce SORBET, a benchmark of 3,340 samples from 1,578 clips with synchronized speech, t</summary>
+    <author><name>Hyung Jin Chang</name></author>
+    <category term="llm"/>
+    <category term="research"/>
+  </entry>
   <entry>
     <title>MillBill: A Machining Agent with Geometric Feedback</title>
     <link href="https://arxiv.org/abs/2611.22565v1" rel="alternate"/>
@@ -34,16 +66,6 @@
     <updated>2026-11-16T14:01:15Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are getting good at sub-contracting to make themselves better:…AI can now productively spend money to improve itself…Researchers have developed FrontierML, a benchmark “that measures […]</summary>
     <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>Marimba: A System One Model for Speech. [R]</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1xxsqro/marimba_a_system_one_model_for_speech_r/" rel="alternate"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1xxsqro/marimba_a_system_one_model_for_speech_r/</id>
-    <updated>2026-11-16T15:47:18Z</updated>
-    <summary type="text">Paper: https://arxiv.org/abs/2611.18330 Follow-up to last week's post, now with the paper. You ask a typed question about an audio window (yes/no, a choice, or a score) and get a calibrated probability back. One frozen Qwen3-ASR-0.6B encoder pass per 8 s window serves all questions. How each question type is answered: - Term (&quot;was 'satellite' said?&quot;): zero-shot, scored from the decoder's greedy an</summary>
-    <author><name>/u/solanotodesch</name></author>
-    <category term="llm"/>
     <category term="research"/>
   </entry>
 </feed>
