@@ -4,16 +4,36 @@
   <link href="https://ai-race-news.pages.dev/research" rel="alternate"/>
   <link href="https://ai-race-news.pages.dev/feed-research.xml" rel="self" type="application/atom+xml"/>
   <id>https://ai-race-news.pages.dev/research/</id>
-  <updated>2026-11-26T04:46:54Z</updated>
+  <updated>2026-11-26T14:50:20Z</updated>
   <entry>
-    <title>Semantic State Reading for Joint Image-Semantic Diffusion Transformers</title>
-    <link href="https://arxiv.org/abs/2611.34279v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.34279v1</id>
-    <updated>2026-11-25T12:36:00Z</updated>
-    <summary type="text">Pretrained visual representations improve diffusion-transformer training, yet exploiting both global context and local spatial structure requires deciding which semantic states to model and how to access them. We introduce Semantic State Reading (SSR), which jointly denoises image latents, a global CLS token encoding image-level context, and a compact patch state preserving spatial correspondence.</summary>
-    <author><name>Qi Li</name></author>
-    <category term="llm"/>
+    <title>Tracking Any Point with Agentic Visual Reasoning</title>
+    <link href="https://arxiv.org/abs/2611.34943v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.34943v1</id>
+    <updated>2026-11-25T18:59:58Z</updated>
+    <summary type="text">A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappe</summary>
+    <author><name>Zezhou Cheng</name></author>
+    <category term="research"/>
     <category term="computer-vision"/>
+    <category term="agents"/>
+    <category term="llm"/>
+  </entry>
+  <entry>
+    <title>FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation</title>
+    <link href="https://arxiv.org/abs/2611.34884v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.34884v1</id>
+    <updated>2026-11-25T18:40:47Z</updated>
+    <summary type="text">Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes finger-level intent both expressible and execut</summary>
+    <author><name>Yilun Du</name></author>
+    <category term="research"/>
+    <category term="robotics"/>
+  </entry>
+  <entry>
+    <title>Diffusion Steering via Adaptive Reward Estimation and Resampling</title>
+    <link href="https://arxiv.org/abs/2611.34839v1" rel="alternate"/>
+    <id>https://arxiv.org/abs/2611.34839v1</id>
+    <updated>2026-11-25T18:18:51Z</updated>
+    <summary type="text">Text-to-image diffusion models can generate images that satisfy complex prompts, yet often produce images that omit requested objects, attributes, or relationships. We ask if models can more reliably generate text-aligned images by redistributing probability toward their more successful outcomes. We propose TrailMix, a training-free method that uses the base model's distribution of possible outcom</summary>
+    <author><name>Akbar Rafiey</name></author>
     <category term="research"/>
   </entry>
   <entry>
@@ -52,33 +72,6 @@
     <updated>2026-11-23T14:11:17Z</updated>
     <summary type="text">Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built and released AscendGYM, […]</summary>
     <author><name>Jack Clark</name></author>
-    <category term="research"/>
-  </entry>
-  <entry>
-    <title>WorldLatent: A Unified 4D Latent Space for World Perception and Generation</title>
-    <link href="https://arxiv.org/abs/2611.31209v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.31209v1</id>
-    <updated>2026-11-23T18:53:44Z</updated>
-    <summary type="text">Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models. By casting diverse understanding and generation problems into a shared token representation, GPT enables a single architecture and unified optimization loop to master heterogeneous tasks across massive corpora, giving ri</summary>
-    <author><name>Du Tran</name></author>
-    <category term="research"/>
-    <category term="llm"/>
-  </entry>
-  <entry>
-    <title>Security researchers show how cheap AI inference providers steal keys and snoop on users</title>
-    <link href="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/" rel="alternate"/>
-    <id>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</id>
-    <updated>2026-11-22T12:07:56Z</updated>
-    <summary type="text">Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and 125 endpoints. The article Security researchers show how cheap AI inference pro</summary>
-    <author><name>Matthias Bastian</name></author>
-  </entry>
-  <entry>
-    <title>Face Is Not All You Need: MIME Benchmark for Incomplete Multimodal Emotion Recognition</title>
-    <link href="https://arxiv.org/abs/2611.30288v1" rel="alternate"/>
-    <id>https://arxiv.org/abs/2611.30288v1</id>
-    <updated>2026-11-23T08:44:30Z</updated>
-    <summary type="text">Multimodal Emotion Recognition (MER) is a fundamental task in multimedia understanding, where state-of-the-art methods have achieved prominent success relying on the assumption of complete, well-aligned multimodal inputs. However, real-world unconstrained scenarios often suffer from unpredictable modality degradation and information loss, leading to catastrophic performance collapse of existing ME</summary>
-    <author><name>Ke Lu</name></author>
     <category term="research"/>
   </entry>
 </feed>
